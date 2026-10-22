@@ -224,6 +224,8 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
     s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
     s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
+    # A property passed to a helper (Push(DependencyProperty property, object value)).
+    s = re.sub(r"\bDependencyProperty (?=\w+\s*[,)])", "AvaloniaProperty ", s)
     # A two-colour gradient between two points of the drawing (WPF's absolute mapping).
     arg = r"((?:[^,()]|\([^()]*\))+)"
     s = re.sub(rf"new LinearGradientBrush\({arg}, {arg}, 0\)\s*\{{\s*MappingMode = BrushMappingMode\.Absolute,\s*"
@@ -245,23 +247,107 @@ def convert_types(s: str, namespace: str) -> str:
 # ---- drawing: dependency properties and element plumbing --------------------------------------------------------
 
 
-def convert_properties(s: str) -> str:
-    """DependencyProperty.Register -> AvaloniaProperty.Register, with callbacks, AffectsRender and attach/detach."""
-    affects_render, callbacks = [], []
-    owner = None
+HELPER = re.compile(
+    r"\n(?:[ \t]*///[^\n]*\n)*[ \t]*(?:private|protected|internal|public) static DependencyProperty Register(?:<(?P<gen>[^>]+)>)?"
+    r"\((?P<params>[^)]*)\)\s*=>\s*(?P<body>.*?);\n", re.S)
+
+
+def expand_register_helpers(s: str) -> str:
+    """
+    A local helper (`static DependencyProperty Register<T>(string name, T value, ...) => DependencyProperty.Register(...)`)
+    and its uses become plain DependencyProperty.Register calls, which convert_properties understands. The value type
+    comes from the helper's generic arguments at the call, or from the CLR property's type.
+    """
+    helpers = list(HELPER.finditer(s))
+    if not helpers:
+        return s
+
+    first = helpers[0]
+    body = first.group("body")
+    generic = [g.strip() for g in split_top(first.group("gen") or "")]
+    owner_match = next((m for m in re.finditer(r"typeof\((\w+)\)", body) if m.group(1) not in generic), None)
+    helper_owner = owner_match.group(1) if owner_match else None
+    flags = [f for f, word in (("FrameworkPropertyMetadataOptions.AffectsRender", "AffectsRender"),
+                               ("FrameworkPropertyMetadataOptions.BindsTwoWayByDefault", "BindsTwoWayByDefault"))
+             if word in body]
+    for m in reversed(helpers):
+        s = s[:m.start()] + "\n" + s[m.end():]
+
+    call = re.compile(r"public static readonly DependencyProperty (\w+)Property = Register(?:<([^>]+)>)?\(")
     out, i = [], 0
-    pattern = re.compile(r"public static readonly DependencyProperty (\w+)Property = DependencyProperty\.Register\(")
-    while True:
-        m = pattern.search(s, i)
-        if not m:
-            out.append(s[i:])
-            break
+    while (m := call.search(s, i)) is not None:
         out.append(s[i:m.start()])
         close = match_bracket(s, m.end() - 1)
         args = split_top(s[m.end():close])
         name = m.group(1)
+        if m.group(2):
+            owner, type_ = (a.strip() for a in split_top(m.group(2)))
+        else:
+            owner = helper_owner
+            clr = re.search(rf"public ([\w.<>?,\[\] ]+?) {name}\s*(?:\{{|=>)", s)
+            type_ = clr.group(1) if clr else "object"
+        meta = [args[1]]
+        if flags:
+            meta.append(" | ".join(flags))
+        if len(args) > 2:
+            callback = re.sub(r"^\(\s*d\s*,\s*_\s*\)", "(d, e)", args[2].strip())
+            meta.append(re.sub(r"\bd\.", f"(({owner})d).", callback))
+        out.append(f"public static readonly DependencyProperty {name}Property = DependencyProperty.Register("
+                   f"nameof({name}), typeof({type_}), typeof({owner}), new FrameworkPropertyMetadata({', '.join(meta)}))")
+        i = close + 1
+    out.append(s[i:])
+    return "".join(out)
+
+
+CLASS = re.compile(r"^(?P<head>(?:(?:public|internal|private|protected|sealed|abstract|static|partial)\s+)*class (?P<name>\w+)[^\n]*)\n\{\n", re.M)
+
+
+def convert_properties(s: str, part: str | None = None) -> str:
+    """
+    DependencyProperty.Register -> AvaloniaProperty.Register, with callbacks, AffectsRender and attach/detach, for each
+    class of the file. <paramref name="part"/> names the file's part of a partial class (Objects in X.Objects.cs).
+    """
+    s = expand_register_helpers(s)
+    out, i = [], 0
+    for m in CLASS.finditer(s):
+        if m.start() < i:
+            continue
+        brace = m.end() - 2
+        close = match_bracket(s, brace)
+        out.append(s[i:brace + 2])
+        out.append(convert_class(s[brace + 2:close], m.group("name"), "partial " in m.group("head"), " : " in m.group("head"), part))
+        i = close
+    out.append(s[i:])
+    s = "".join(out)
+
+    s = re.sub(r"\((?:[\w.]+(?:<[\w.,\s?]+>)?\??)\)GetValue\(", "GetValue(", s)
+    s = re.sub(r"class (\w+) : FrameworkElement", r"class \1 : Control", s)
+    s = re.sub(r"protected override void OnRender\(PaintContext dc\)\s*\{",
+               "public override void Render(DrawingContext context)\n    {\n        using var dc = new PaintContext(context);", s)
+
+    head = s.split("namespace")[0]
+    for using in ("Avalonia.Controls", "Avalonia.Data"):
+        if f"using {using};" not in head:
+            s = s.replace("using Avalonia;\n", f"using Avalonia;\nusing {using};\n", 1)
+    return s
+
+
+def convert_class(body: str, owner: str, partial: bool, has_base: bool, part: str | None) -> str:
+    """One class body: its properties, then the members they need, at the top of the class (see convert_properties)."""
+    affects_render, callbacks = [], []
+    out, i, last_property = [], 0, 0
+    pattern = re.compile(r"public static readonly DependencyProperty (\w+)Property = DependencyProperty\.Register\(")
+    while True:
+        m = pattern.search(body, i)
+        if not m:
+            out.append(body[i:])
+            break
+        out.append(body[i:m.start()])
+        close = match_bracket(body, m.end() - 1)
+        args = split_top(body[m.end():close])
+        name = m.group(1)
         type_ = args[1][len("typeof("):-1]
-        owner = args[2][len("typeof("):-1]
+        registered_owner = args[2][len("typeof("):-1]
         default, two_way, render, callback = None, False, False, None
         if len(args) > 3:
             meta = args[3]
@@ -280,37 +366,46 @@ def convert_properties(s: str) -> str:
         if two_way:
             params.append("defaultBindingMode: BindingMode.TwoWay")
         out.append(f"public static readonly StyledProperty<{t}> {name}Property =\n"
-                   f"        AvaloniaProperty.Register<{owner}, {t}>({', '.join(params)})")
+                   f"        AvaloniaProperty.Register<{registered_owner}, {t}>({', '.join(params)})")
         if render:
             affects_render.append(f"{name}Property")
         if callback:
-            body = callback.split("=>", 1)[1].strip()
-            body = re.sub(rf"\(\({owner}\)d\)\.", "", body)
-            body = re.sub(r"e\.NewValue as [\w.<>?]+|\([\w.<>?]+\)e\.NewValue", f"change.GetNewValue<{t}>()", body)
-            callbacks.append((name, body))
+            cb = callback.split("=>", 1)[1].strip()
+            cb = re.sub(rf"\(\({owner}\)d\)\.", "", cb)
+            cb = re.sub(r"e\.NewValue as [\w.<>?]+|\([\w.<>?]+\)e\.NewValue", f"change.GetNewValue<{t}>()", cb)
+            callbacks.append((name, cb))
         i = close + 1
-
-    s = "".join(out)
-    s = re.sub(r"\((?:[\w.]+(?:<[\w.,\s?]+>)?\??)\)GetValue\(", "GetValue(", s)
-    s = re.sub(r"class (\w+) : FrameworkElement", r"class \1 : Control", s)
-    s = re.sub(r"protected override void OnRender\(PaintContext dc\)\s*\{",
-               "public override void Render(DrawingContext context)\n    {\n        using var dc = new PaintContext(context);", s)
+        last_property = sum(len(x) for x in out) + 1  # just past the declaration's ';'
+    body = "".join(out)
 
     language = False
-    if re.search(r"Loaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged \+= OnLanguageChanged;", s):
-        s = re.sub(r"^\s*Loaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged \+= OnLanguageChanged;\n", "", s, flags=re.M)
-        s = re.sub(r"^\s*Unloaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged -= OnLanguageChanged;\n", "", s, flags=re.M)
+    if re.search(r"Loaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged \+= OnLanguageChanged;", body):
+        body = re.sub(r"^\s*Loaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged \+= OnLanguageChanged;\n", "", body, flags=re.M)
+        body = re.sub(r"^\s*Unloaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged -= OnLanguageChanged;\n", "", body, flags=re.M)
         language = True
 
+    if affects_render and partial:
+        # A partial class split over files has one static constructor at most, so each file registers its own
+        # properties from a static field placed after them (initializers run in order within a file).
+        suffix = part or "Properties"
+        redraw = (f"\n\n    // Redraws when these change. A field rather than a static constructor: the class is split over files.\n"
+                  f"    private static readonly bool s_redrawsOn{suffix} = RedrawOn{suffix}();\n\n"
+                  f"    private static bool RedrawOn{suffix}()\n    {{\n        AffectsRender<{owner}>({', '.join(affects_render)});\n"
+                  f"        return true;\n    }}")
+        line_end = body.index("\n", last_property) if "\n" in body[last_property:] else len(body)
+        body = body[:line_end] + redraw + body[line_end:]
+
     generated = []
-    if affects_render:
+    if affects_render and not partial:
         generated.append(f"    static {owner}()\n    {{\n        AffectsRender<{owner}>({', '.join(affects_render)});\n    }}\n")
     if callbacks:
-        lines = ["    protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)", "    {",
-                 "        base.OnPropertyChanged(change);"]
-        for n, (name, body) in enumerate(callbacks):
+        method = "protected override void OnPropertyChanged" if not (partial and part) else f"private void OnPropertyChanged{part}"
+        lines = [f"    {method}(AvaloniaPropertyChangedEventArgs change)", "    {"]
+        if not (partial and part):
+            lines.append("        base.OnPropertyChanged(change);")
+        for n, (name, cb) in enumerate(callbacks):
             lines += [f"        {'if' if n == 0 else 'else if'} (change.Property == {name}Property)", "        {",
-                      f"            {body};", "        }"]
+                      f"            {cb};", "        }"]
         lines.append("    }\n")
         generated.append("\n".join(lines))
     if language:
@@ -326,22 +421,15 @@ def convert_properties(s: str) -> str:
         LocalizationService.Instance.PropertyChanged -= OnLanguageChanged;
     }
 """)
-    if re.search(r"class \w+ : Control", s) and ("ActualWidth" in s or "RenderScale()" in s):
+    # Only on the part that names the base class: the other parts of a partial class share these.
+    if has_base and ("ActualWidth" in body or "RenderScale()" in body) and not re.search(r"\bActualWidth\s*=>", body):
         generated.append("""    private double ActualWidth => Bounds.Width;
 
     private double ActualHeight => Bounds.Height;
 
     private double RenderScale() => TopLevel.GetTopLevel(this)?.RenderScaling ?? 1;
 """)
-    if generated:
-        m = re.search(r"class \w+ : Control[^\n]*\n\{\n", s) or re.search(r"partial class \w+[^\n]*\n\{\n", s)
-        s = s[:m.end()] + "\n".join(generated) + "\n" + s[m.end():]
-
-    head = s.split("namespace")[0]
-    for using in ("Avalonia.Controls", "Avalonia.Data"):
-        if f"using {using};" not in head:
-            s = s.replace("using Avalonia;\n", f"using Avalonia;\nusing {using};\n", 1)
-    return s
+    return ("\n".join(generated) + "\n" if generated else "") + body
 
 
 PLUMBING = [
@@ -466,7 +554,8 @@ def drawing(args: argparse.Namespace) -> None:
     s = Path(args.source).read_text(encoding="utf-8")
     s = apply_namespaces(s, args.namespace, args.source_prefix, args.map)
     s = convert_types(s, args.namespace)
-    s = convert_properties(s)
+    part = Path(args.target).stem.split('.')[1] if '.' in Path(args.target).stem else None
+    s = convert_properties(s, part)
     s = convert_plumbing(s)
     s = convert_points(s)
     write(args.target, s)
@@ -560,6 +649,9 @@ def load_resx(path: Path) -> dict[str, str]:
     return {d.get("name"): (d.find("value").text or "") for d in root.findall("data")}
 
 
+LAYOUT_WORDS = re.compile(r"\bon the (?:right|left)\b|\bside panel\b|\bthis page\b|\bmenu\b|右侧|左侧|右边|左边|侧栏|本页面|菜单", re.I)
+
+
 def strings(args: argparse.Namespace) -> None:
     def wanted(key: str) -> bool:
         return any(key.startswith(p[:-1]) if p.endswith("*") else key == p for p in args.patterns)
@@ -573,6 +665,9 @@ def strings(args: argparse.Namespace) -> None:
             if wanted(key) and key not in target:
                 target[key] = value
                 added += 1
+                # The original put the controls in a side panel on the right; the book puts them on the left page.
+                if LAYOUT_WORDS.search(value):
+                    print(f"  {name} {key}: mentions the original layout: {value[:90]}")
         text = target_path.read_text(encoding="utf-8")
         header = text[: text.rindex("</resheader>\n") + len("</resheader>\n")]
         body = "".join(f'  <data name="{k}" xml:space="preserve">\n    <value>{escape(v)}</value>\n  </data>\n'

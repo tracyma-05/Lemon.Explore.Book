@@ -4,6 +4,7 @@ using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Seasons;
 using Lemon.Explore.Book.Chapters.SolarSystem;
+using Lemon.Explore.Book.Chapters.StarTrails;
 using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.ViewModels.Pages;
 
@@ -16,7 +17,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -77,6 +78,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, kepler.Lesson, () => kepler.Mode.ToString(), Enum.GetNames<KeplerMode>());
                 return (new KeplerTextPageViewModel(textPage, navigator, chapter, number, kepler),
                     new KeplerDiagramPageViewModel(textPage + 1, navigator, chapter, kepler));
+            }
+
+            case "Star-Trails":
+            {
+                var trails = new StarTrailsViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, trails.Lesson, () => trails.Mode.ToString(), Enum.GetNames<TrailsMode>());
+                return (new StarTrailsTextPageViewModel(textPage, navigator, chapter, number, trails),
+                    new StarTrailsDiagramPageViewModel(textPage + 1, navigator, chapter, trails));
             }
 
             default:

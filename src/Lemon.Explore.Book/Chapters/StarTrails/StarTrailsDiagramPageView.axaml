@@ -1,0 +1,97 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:trails="using:Lemon.Explore.Book.Chapters.StarTrails"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.StarTrails.StarTrailsDiagramPageView"
+                         x:DataType="trails:StarTrailsDiagramPageViewModel">
+    <!-- Right page of the Star trails spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <!-- The title is on the left page, so the picture needs no room for one (TitleHeight stays 0). -->
+                <trails:TrailsDiagram Mode="{Binding Trails.Mode}"
+                                      Latitude="{Binding Trails.Latitude}"
+                                      Day="{Binding Trails.Day, Mode=TwoWay}"
+                                      StartHour="{Binding Trails.StartHour}"
+                                      Exposure="{Binding Trails.Exposure, Mode=TwoWay}"
+                                      ViewAzimuth="{Binding Trails.ViewAzimuth, Mode=TwoWay}"
+                                      ViewAltitude="{Binding Trails.ViewAltitude, Mode=TwoWay}"
+                                      SphereTime="{Binding Trails.SphereTime, Mode=TwoWay}"
+                                      ShowFigures="{Binding Trails.ShowFigures}"
+                                      ShowLabels="{Binding Trails.ShowLabels}"
+                                      Speed="{Binding Trails.Speed}"
+                                      IsPlaying="{Binding Trails.IsPlaying, Mode=TwoWay}"
+                                      ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                      Highlight="{Binding Trails.Lesson.Highlight}"
+                                      IsLessonActive="{Binding Trails.Lesson.IsActive}"
+                                      SelectedObject="{Binding Trails.Card.Id, Mode=TwoWay}"
+                                      InteractionCommand="{Binding Trails.UserInteractedCommand}"
+                                      ToolTip.Tip="{Binding Trails.Hint}"
+                                      AutomationProperties.Name="{Binding Trails.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Trails.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Trails.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Trails.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Trails.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Trails_PlayPause}"
+                                    AutomationProperties.Name="{loc:Localize Trails_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Trails.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Trails.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Trails_Speed}">
+                                <RadioButton Classes="space speed" GroupName="TrailsSpeed" Content="¼×" IsChecked="{Binding Trails.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="TrailsSpeed" Content="½×" IsChecked="{Binding Trails.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="TrailsSpeed" Content="1×" IsChecked="{Binding Trails.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="TrailsSpeed" Content="2×" IsChecked="{Binding Trails.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <!-- The timeline of the view: the exposure, the sky's turn, the year -->
+                                <Slider Width="140" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Trails.MaxExposure}" Value="{Binding Trails.Exposure}"
+                                        SmallChange="0.25" LargeChange="1" IsVisible="{Binding Trails.IsCamera}"
+                                        ToolTip.Tip="{loc:Localize Trails_Timeline_Camera}" AutomationProperties.Name="{loc:Localize Trails_Timeline_Camera}" />
+                                <Slider Width="140" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="24" Value="{Binding Trails.SphereTime}"
+                                        SmallChange="0.25" LargeChange="2" IsVisible="{Binding Trails.IsSphere}"
+                                        ToolTip.Tip="{loc:Localize Trails_Timeline_Sphere}" AutomationProperties.Name="{loc:Localize Trails_Timeline_Sphere}" />
+                                <Slider Width="140" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="1" Maximum="365" Value="{Binding Trails.Day}"
+                                        SmallChange="1" LargeChange="30" IsVisible="{Binding Trails.IsYear}"
+                                        ToolTip.Tip="{loc:Localize Trails_Timeline_Year}" AutomationProperties.Name="{loc:Localize Trails_Timeline_Year}" />
+                                <TextBlock MinWidth="96" Margin="4,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Trails.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

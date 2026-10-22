@@ -14,6 +14,7 @@
              xmlns:daynight="using:Lemon.Explore.Book.Chapters.DayNight"
              xmlns:tides="using:Lemon.Explore.Book.Chapters.Tides"
              xmlns:kepler="using:Lemon.Explore.Book.Chapters.Kepler"
+             xmlns:startrails="using:Lemon.Explore.Book.Chapters.StarTrails"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -40,6 +41,8 @@
         <DataTemplate DataType="seasons:SeasonsTextPageViewModel"><seasons:SeasonsTextPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsDiagramPageViewModel"><seasons:SeasonsDiagramPageView /></DataTemplate>
 
+        <DataTemplate DataType="startrails:StarTrailsTextPageViewModel"><startrails:StarTrailsTextPageView /></DataTemplate>
+        <DataTemplate DataType="startrails:StarTrailsDiagramPageViewModel"><startrails:StarTrailsDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

@@ -24,6 +24,30 @@
   <data name="Book_Title" xml:space="preserve">
     <value>探索之书</value>
   </data>
+  <data name="Bookmarks_Add" xml:space="preserve">
+    <value>给这一页加书签</value>
+  </data>
+  <data name="Bookmarks_Details" xml:space="preserve">
+    <value>第 {0} 页 · {1}添加</value>
+  </data>
+  <data name="Bookmarks_Empty" xml:space="preserve">
+    <value>还没有书签。加了书签的页顶部会挂一条丝带。</value>
+  </data>
+  <data name="Bookmarks_Remove" xml:space="preserve">
+    <value>移除这一页的书签</value>
+  </data>
+  <data name="Bookmarks_RemoveOne" xml:space="preserve">
+    <value>移除书签</value>
+  </data>
+  <data name="Bookmarks_Shortcut" xml:space="preserve">
+    <value>快捷键：Ctrl+D</value>
+  </data>
+  <data name="Bookmarks_Tip" xml:space="preserve">
+    <value>给这一页加书签，或翻到加过书签的页</value>
+  </data>
+  <data name="Bookmarks_Title" xml:space="preserve">
+    <value>书签</value>
+  </data>
   <data name="Chapter_Acids_Bases" xml:space="preserve">
     <value>酸碱与 pH</value>
   </data>
@@ -131,6 +155,12 @@
   </data>
   <data name="Chapter_Waves" xml:space="preserve">
     <value>干涉与多普勒</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>保存</value>
   </data>
   <data name="Contents_Title" xml:space="preserve">
     <value>目录</value>
@@ -1596,6 +1626,9 @@
   <data name="Location_City_Beijing" xml:space="preserve">
     <value>北京</value>
   </data>
+  <data name="Location_City_Changsha" xml:space="preserve">
+    <value>长沙</value>
+  </data>
   <data name="Location_City_Chengdu" xml:space="preserve">
     <value>成都</value>
   </data>
@@ -2955,6 +2988,366 @@
   <data name="Narr_Tides_Spring_08" xml:space="preserve">
     <value>现在你来试试：拖着月球沿轨道走，看看潮水怎么变大、又变小。</value>
   </data>
+  <data name="Narr_Trails_Camera_01" xml:space="preserve">
+    <value>把相机对准夜空，打开快门，让它开上好几个小时。星星不会再是一个个小点。看，它们在画面上拖出了一条条线。</value>
+  </data>
+  <data name="Narr_Trails_Camera_02" xml:space="preserve">
+    <value>每一条星轨都是圆的一部分，而所有的圆都有同一个圆心：天极。整个天空就绕着这一点转动。</value>
+  </data>
+  <data name="Narr_Trails_Camera_03" xml:space="preserve">
+    <value>四个小时以后，看看每颗星绕天极转过的角度：大约六十度。天空每小时转十五度。当然，其实是地球自己在下面转。</value>
+  </data>
+  <data name="Narr_Trails_Camera_04" xml:space="preserve">
+    <value>考考你：快门要开多久，星轨才能连成完整的圆？</value>
+  </data>
+  <data name="Narr_Trails_Camera_05" xml:space="preserve">
+    <value>转满一圈要整整一天，所以太阳总会先升起来。再看地平线附近：离天极远一些的星星会沉到地下，再升上来；可离天极近的星星整夜都在天上，从不落下。</value>
+  </data>
+  <data name="Narr_Trails_Camera_06" xml:space="preserve">
+    <value>现在转过身，朝另一边看。星轨变成了又宽又平缓的圆弧：这些星星从东方升起，划过天空，再从西方落下。</value>
+  </data>
+  <data name="Narr_Trails_Camera_07" xml:space="preserve">
+    <value>面向东方，星星斜着从地平线上升起，倾斜的方向都一样。斜得有多陡，取决于你离赤道有多远。</value>
+  </data>
+  <data name="Narr_Trails_Camera_08" xml:space="preserve">
+    <value>我们到赤道去看看。天极落到了地平线上，地平线把每个圆都切成两半。每颗星都有一半时间在地平线下，没有一颗能整夜留在天上。</value>
+  </data>
+  <data name="Narr_Trails_Camera_09" xml:space="preserve">
+    <value>再到北极去。抬头往正上方看：天极就在头顶，每颗星都平行于地平线绕圈。没有星升起，也没有星落下。</value>
+  </data>
+  <data name="Narr_Trails_Camera_10" xml:space="preserve">
+    <value>该你来试试了。拖动画面转动相机，或者用纬度滑块往北往南走一走，看看星轨怎么变化。</value>
+  </data>
+  <data name="Narr_Trails_Con_Aquila" xml:space="preserve">
+    <value>天鹰座。牛郎星夹在两颗暗星中间，就像牛郎用扁担挑着他的两个孩子。</value>
+  </data>
+  <data name="Narr_Trails_Con_BigDipper" xml:space="preserve">
+    <value>北斗七星是大熊座里七颗明亮的星。斗口的两颗星指向北极星，斗柄一夜之间、一年之中都绕着北天极转动。</value>
+  </data>
+  <data name="Narr_Trails_Con_CanisMajor" xml:space="preserve">
+    <value>大犬座，天狼星在大狗的胸口。它跟在猎户后面划过天空。</value>
+  </data>
+  <data name="Narr_Trails_Con_Cassiopeia" xml:space="preserve">
+    <value>仙后座是五颗星组成的一个W，和北斗七星分别在北天极的两边，也能用来找北极星。</value>
+  </data>
+  <data name="Narr_Trails_Con_Crux" xml:space="preserve">
+    <value>南十字座是全天最小的星座，它的长杆指向南天极。</value>
+  </data>
+  <data name="Narr_Trails_Con_Cygnus" xml:space="preserve">
+    <value>天鹅座，一只沿着银河飞翔的天鹅，也叫北十字。</value>
+  </data>
+  <data name="Narr_Trails_Con_Gemini" xml:space="preserve">
+    <value>双子座，北河二和北河三是两兄弟的头。</value>
+  </data>
+  <data name="Narr_Trails_Con_Leo" xml:space="preserve">
+    <value>狮子座：一个反写的问号是狮子的头和鬃毛，一个三角形是它的尾巴。</value>
+  </data>
+  <data name="Narr_Trails_Con_LittleDipper" xml:space="preserve">
+    <value>小北斗属于小熊座，北极星就在它斗柄的末端。</value>
+  </data>
+  <data name="Narr_Trails_Con_Lyra" xml:space="preserve">
+    <value>天琴座：明亮的织女星，加上几颗暗星组成的小小平行四边形。</value>
+  </data>
+  <data name="Narr_Trails_Con_Orion" xml:space="preserve">
+    <value>猎户座，三颗排成一行的星是猎人的腰带。它正好跨在天赤道上，所以全世界都能看到。</value>
+  </data>
+  <data name="Narr_Trails_Con_Pegasus" xml:space="preserve">
+    <value>飞马座，带翅膀的马。它的“秋季四边形”是秋夜高空里四颗星组成的一个大方框。</value>
+  </data>
+  <data name="Narr_Trails_Con_Sagittarius" xml:space="preserve">
+    <value>人马座，形状像一把茶壶。朝它望去，就是朝着我们银河系的中心望去。</value>
+  </data>
+  <data name="Narr_Trails_Con_Scorpius" xml:space="preserve">
+    <value>天蝎座：一条长长的弯钩，红色的心宿二是它的心脏。在中国，它是东方苍龙的一部分。</value>
+  </data>
+  <data name="Narr_Trails_Con_SummerTriangle" xml:space="preserve">
+    <value>夏季大三角：织女星、天津四和牛郎星，三颗分属不同星座的亮星，银河从中穿过。</value>
+  </data>
+  <data name="Narr_Trails_Con_Taurus" xml:space="preserve">
+    <value>金牛座：橙色的毕宿五是牛眼，昴星团就在牛的肩膀上。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Arc" xml:space="preserve">
+    <value>这个角度就是快门打开期间天空转过的角度：每小时十五度，一天转满一整圈。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Circumpolar" xml:space="preserve">
+    <value>这些星离看得见的天极足够近，它们的圆圈永远碰不到地平线，从不落下，叫作拱极星。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Compass" xml:space="preserve">
+    <value>这是方位：北、东、南、西。拖动画面就能把相机转个方向。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Earth" xml:space="preserve">
+    <value>这是地球，用一年时间绕太阳转一圈。它的夜晚一侧总是背对着太阳。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Equator" xml:space="preserve">
+    <value>天赤道在地球赤道的正上方。天赤道上的星星从正东升起，从正西落下，每天有一半时间在天上。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Horizon" xml:space="preserve">
+    <value>地平线把它下面的星星都挡住了。在它附近，星轨钻进地面，又从别处冒出来。</value>
+  </data>
+  <data name="Narr_Trails_Obj_NeverRises" xml:space="preserve">
+    <value>这些星绕着另一个天极转，永远升不到你的地平线以上。要想看到它们，得往另一个半球走。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Night" xml:space="preserve">
+    <value>午夜时，你正好背对着太阳。地球沿着轨道转动，这个方向也扫过整个天空，每个季节都带来新的星座。</value>
+  </data>
+  <data name="Narr_Trails_Obj_NorthPole" xml:space="preserve">
+    <value>北天极在地球北极的正上方。在赤道以北，它挂在北方地平线上，高度正好等于你的纬度。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Observer" xml:space="preserve">
+    <value>这就是你，站在天空的中心。地面把天球切成两半，你只能看到上面那一半。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Panorama" xml:space="preserve">
+    <value>这是这一天晚上九点的星空。让一年走起来，看星座一夜比一夜早一点，慢慢往西移。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Pole" xml:space="preserve">
+    <value>天极是天空中唯一不动的一点。所有星星都绕着它转，因为它就在地球自转轴延长线指向的地方。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Risers" xml:space="preserve">
+    <value>这一带的星星每天都会升起和落下，就像太阳一样。离看得见的天极越近，它们在天上待得越久。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Shutter" xml:space="preserve">
+    <value>相机的显示屏告诉你快门开了多久。开得越久，每条星轨就越长。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Sidereal" xml:space="preserve">
+    <value>地球转一圈，二十三小时五十六分后星星就回到原位。可地球在轨道上又走了一段，要再转大约四分钟才能重新对着太阳。</value>
+  </data>
+  <data name="Narr_Trails_Obj_SouthPole" xml:space="preserve">
+    <value>南天极在地球南极的正上方。在赤道以南，它挂在南方地平线上，高度正好等于你的纬度。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Sun" xml:space="preserve">
+    <value>这是太阳。在它后面的星座都在白天的天空里，我们看不见。</value>
+  </data>
+  <data name="Narr_Trails_Obj_Zenith" xml:space="preserve">
+    <value>天顶，就是你头顶正上方的那一点。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_01" xml:space="preserve">
+    <value>把天空想象成一个包着你的巨大圆球，你就站在球心。地面把它切成两半，所以你只能看到地平线以上的那一半。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_02" xml:space="preserve">
+    <value>天空好像绕着一根穿过天极的轴在转。有个很妙的事实：天极离你的地平线有多高，正好就是你所在的纬度。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_03" xml:space="preserve">
+    <value>两个天极的正中间是天赤道。天赤道上的星星从正东升起，从正西落下，每转一圈正好有一半时间在天上。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_04" xml:space="preserve">
+    <value>离看得见的天极足够近的星星，永远碰不到地平线。它们夜夜绕圈，从不落下，叫作拱极星。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_05" xml:space="preserve">
+    <value>在另一个天极周围，有一块同样大小的天区，在这里永远升不起来。那些星星一直藏在你的脚下。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_06" xml:space="preserve">
+    <value>考考你：如果你往赤道方向走，那块永不落下的拱极星区会怎样？</value>
+  </data>
+  <data name="Narr_Trails_Sphere_07" xml:space="preserve">
+    <value>到了赤道，两个天极都躺在地平线上。每颗星都会升起和落下，一年下来，整个天空你都能看到。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_08" xml:space="preserve">
+    <value>到了北极，天极就在头顶正上方。一半的天空永远在头顶绕圈，另一半则永远看不到。</value>
+  </data>
+  <data name="Narr_Trails_Sphere_09" xml:space="preserve">
+    <value>该你来试试了。把纬度滑块从一个极拖到另一个极，看看两块天区怎样变大、变小。</value>
+  </data>
+  <data name="Narr_Trails_Star_Achernar" xml:space="preserve">
+    <value>水委一转得非常快，是已知最扁的恒星之一，腰部比两极之间宽得多。</value>
+  </data>
+  <data name="Narr_Trails_Star_Acrux" xml:space="preserve">
+    <value>十字架二是南十字座的底端。南十字的长杆指向南天极。</value>
+  </data>
+  <data name="Narr_Trails_Star_Aldebaran" xml:space="preserve">
+    <value>毕宿五是金牛座那只橙红色的牛眼，一颗正在变老的巨星，离我们大约六十五光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_Alkaid" xml:space="preserve">
+    <value>摇光是北斗七星斗柄的最末一颗。它在太空中运动的方向和中间五颗星不一样，所以几万年下来，北斗的形状会慢慢改变。</value>
+  </data>
+  <data name="Narr_Trails_Star_Altair" xml:space="preserve">
+    <value>牛郎星隔着银河和织女星相望。它大约九个小时就自转一圈，转得太快，被压成了扁扁的球。</value>
+  </data>
+  <data name="Narr_Trails_Star_Antares" xml:space="preserve">
+    <value>心宿二是天蝎的红色心脏。它的西方名字意思是“火星的对手”，因为它的颜色像火星。</value>
+  </data>
+  <data name="Narr_Trails_Star_Arcturus" xml:space="preserve">
+    <value>大角星是天赤道以北最亮的恒星，一颗橙色巨星，离我们大约三十七光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_Betelgeuse" xml:space="preserve">
+    <value>参宿四是猎户红色的肩膀，一颗巨大的红超巨星。如果把它放在太阳的位置，它会一直延伸到火星轨道以外。总有一天，它会爆发成超新星。</value>
+  </data>
+  <data name="Narr_Trails_Star_Canopus" xml:space="preserve">
+    <value>老人星是夜空中第二亮的恒星。在古代中国，它是贴着南方低空出现的长寿之星。</value>
+  </data>
+  <data name="Narr_Trails_Star_Capella" xml:space="preserve">
+    <value>五车二看起来是一颗星，其实是两颗互相绕转的黄色巨星，离我们大约四十三光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_Castor" xml:space="preserve">
+    <value>北河二是双子中的另一颗，其实是六颗星：三对双星互相绕转。</value>
+  </data>
+  <data name="Narr_Trails_Star_Deneb" xml:space="preserve">
+    <value>天津四是天鹅的尾巴。它大概在两千光年左右之外，这说明它是我们能看到的发光本领最强的恒星之一。</value>
+  </data>
+  <data name="Narr_Trails_Star_Dubhe" xml:space="preserve">
+    <value>天枢是北斗七星斗口最外边的那颗星。从天璇连到天枢，再往外延长大约五倍的距离，就能找到北极星。</value>
+  </data>
+  <data name="Narr_Trails_Star_Fomalhaut" xml:space="preserve">
+    <value>北落师门是秋夜里孤零零的一颗亮星，外面还环绕着一圈宽宽的尘埃环。</value>
+  </data>
+  <data name="Narr_Trails_Star_Polaris" xml:space="preserve">
+    <value>北极星离北天极不到一度，所以整夜几乎一动不动。它离我们大约四百三十光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_Pollux" xml:space="preserve">
+    <value>北河三是双子座两兄弟中更亮的一颗，一颗橙色巨星，还有自己的行星，离我们大约三十四光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_Procyon" xml:space="preserve">
+    <value>南河三是我们的近邻，离我们大约十一光年。它和天狼星、参宿四组成了冬季大三角。</value>
+  </data>
+  <data name="Narr_Trails_Star_Regulus" xml:space="preserve">
+    <value>轩辕十四是狮子的心脏。它转得飞快，腰部都鼓了出来；它几乎正好就在太阳一年走过的路线上。</value>
+  </data>
+  <data name="Narr_Trails_Star_Rigel" xml:space="preserve">
+    <value>参宿七是猎户的一只脚，亮白偏蓝，是一颗比太阳亮几万倍的超巨星，离我们大约八百六十光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_RigilKentaurus" xml:space="preserve">
+    <value>南门二是离太阳最近的恒星系统，只有四点多光年远。</value>
+  </data>
+  <data name="Narr_Trails_Star_SigOct" xml:space="preserve">
+    <value>南极座σ是南天的极星，离南天极大约一度，可它太暗了，要在很黑的夜空里才找得到。</value>
+  </data>
+  <data name="Narr_Trails_Star_Sirius" xml:space="preserve">
+    <value>天狼星是夜空中最亮的恒星，离我们只有八点六光年，旁边还有一颗小小的白矮星伴星。</value>
+  </data>
+  <data name="Narr_Trails_Star_Spica" xml:space="preserve">
+    <value>角宿一是两颗炽热的蓝色恒星，挨得太近，把彼此拉成了蛋形，离我们大约二百五十光年。</value>
+  </data>
+  <data name="Narr_Trails_Star_Vega" xml:space="preserve">
+    <value>织女星离我们二十五光年。地球自转轴在慢慢晃动，大约一万两千年以后，织女星会成为北极星。</value>
+  </data>
+  <data name="Narr_Trails_Year_01" xml:space="preserve">
+    <value>为什么一年里晚上能看到的星星会变？这是绕着太阳转的地球。在地球的夜晚这一侧，你背对着太阳，望向遥远的群星。</value>
+  </data>
+  <data name="Narr_Trails_Year_02" xml:space="preserve">
+    <value>十二月，地球的午夜一侧正对着猎户座。所以这时猎户座整夜都在天上，半夜前后升得最高。</value>
+  </data>
+  <data name="Narr_Trails_Year_03" xml:space="preserve">
+    <value>半年以后，地球跑到了太阳的另一边。猎户座躲到了太阳后面，淹没在白天的阳光里，天蝎座接管了夜空。</value>
+  </data>
+  <data name="Narr_Trails_Year_04" xml:space="preserve">
+    <value>考考你：星星每天晚上都升起得早一点。大约早多少？</value>
+  </data>
+  <data name="Narr_Trails_Year_05" xml:space="preserve">
+    <value>原因在这里。要让同一颗星回到头顶，地球只要转整整一圈：二十三小时五十六分。可这段时间里，地球在轨道上又往前走了一点，要再多转一点才能重新对着太阳，这才有了我们二十四小时的一天。</value>
+  </data>
+  <data name="Narr_Trails_Year_06" xml:space="preserve">
+    <value>每晚早四分钟，一个月就早两小时。看傍晚的星空：一夜又一夜，星座慢慢往西移。</value>
+  </data>
+  <data name="Narr_Trails_Year_07" xml:space="preserve">
+    <value>过了整整一年，地球回到原来的位置，傍晚的星空也就又回到了老样子。</value>
+  </data>
+  <data name="Narr_Trails_Year_08" xml:space="preserve">
+    <value>该你来试试了。拖着地球绕太阳转，或者选一个日期，看看傍晚的天空里有哪些星座。</value>
+  </data>
+  <data name="Notes_Add" xml:space="preserve">
+    <value>保存笔记</value>
+  </data>
+  <data name="Notes_Copied" xml:space="preserve">
+    <value>已把全部笔记以 Markdown 格式复制到剪贴板。</value>
+  </data>
+  <data name="Notes_CopyAll" xml:space="preserve">
+    <value>全部复制</value>
+  </data>
+  <data name="Notes_Count" xml:space="preserve">
+    <value>共 {0} 条笔记</value>
+  </data>
+  <data name="Notes_Details" xml:space="preserve">
+    <value>第 {0} 页 · {1}</value>
+  </data>
+  <data name="Notes_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Notes_Empty" xml:space="preserve">
+    <value>这里还没有笔记。</value>
+  </data>
+  <data name="Notes_Export" xml:space="preserve">
+    <value>导出…</value>
+  </data>
+  <data name="Notes_Export_FileName" xml:space="preserve">
+    <value>探索之书-笔记-{0}.md</value>
+  </data>
+  <data name="Notes_Export_Markdown" xml:space="preserve">
+    <value>Markdown 文档</value>
+  </data>
+  <data name="Notes_Export_Page" xml:space="preserve">
+    <value>{0}（第 {1} 页）</value>
+  </data>
+  <data name="Notes_Export_Summary" xml:space="preserve">
+    <value>导出于 {0} · 共 {1} 条</value>
+  </data>
+  <data name="Notes_Export_Text" xml:space="preserve">
+    <value>纯文本</value>
+  </data>
+  <data name="Notes_Export_Tip" xml:space="preserve">
+    <value>把全部笔记保存为 Markdown 文件</value>
+  </data>
+  <data name="Notes_Export_Title" xml:space="preserve">
+    <value>探索之书 · 笔记</value>
+  </data>
+  <data name="Notes_Exported" xml:space="preserve">
+    <value>已导出到 {0}</value>
+  </data>
+  <data name="Notes_Hint" xml:space="preserve">
+    <value>提示：在页面上选中文字，右键选「加入笔记」即可摘录。</value>
+  </data>
+  <data name="Notes_Open" xml:space="preserve">
+    <value>翻到这一页</value>
+  </data>
+  <data name="Notes_Placeholder" xml:space="preserve">
+    <value>在这一页写点什么…</value>
+  </data>
+  <data name="Notes_Remove" xml:space="preserve">
+    <value>删除笔记</value>
+  </data>
+  <data name="Notes_RemoveQuote" xml:space="preserve">
+    <value>去掉摘录</value>
+  </data>
+  <data name="Notes_ThisPageOnly" xml:space="preserve">
+    <value>只看本页</value>
+  </data>
+  <data name="Notes_Tip" xml:space="preserve">
+    <value>在这一页写笔记、查看全部笔记、导出</value>
+  </data>
+  <data name="Notes_Title" xml:space="preserve">
+    <value>笔记</value>
+  </data>
+  <data name="Page_Caption" xml:space="preserve">
+    <value>第 {0} 页</value>
+  </data>
+  <data name="Page_Caption_BackCover" xml:space="preserve">
+    <value>封底</value>
+  </data>
+  <data name="Page_Caption_Chapter" xml:space="preserve">
+    <value>第 {0} 章 · {1}</value>
+  </data>
+  <data name="Page_Caption_Contents" xml:space="preserve">
+    <value>目录 · {0}</value>
+  </data>
+  <data name="Page_Caption_Cover" xml:space="preserve">
+    <value>封面</value>
+  </data>
+  <data name="Page_Caption_Diagram" xml:space="preserve">
+    <value>{0} · 图</value>
+  </data>
+  <data name="Page_Caption_HowToUse" xml:space="preserve">
+    <value>使用说明</value>
+  </data>
+  <data name="Page_Caption_Title" xml:space="preserve">
+    <value>扉页</value>
+  </data>
+  <data name="Progress_Complete" xml:space="preserve">
+    <value>✓ 已完成</value>
+  </data>
+  <data name="Progress_Opened" xml:space="preserve">
+    <value>已读</value>
+  </data>
+  <data name="Progress_Walkthroughs" xml:space="preserve">
+    <value>讲解 {0}/{1}</value>
+  </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>动画</value>
   </data>
@@ -3353,6 +3746,78 @@
   </data>
   <data name="Seasons_Today" xml:space="preserve">
     <value>今天</value>
+  </data>
+  <data name="Settings_Accent" xml:space="preserve">
+    <value>强调色</value>
+  </data>
+  <data name="Settings_AnimatesTurns" xml:space="preserve">
+    <value>翻页动画</value>
+  </data>
+  <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
+    <value>关闭后直接换页，适合不喜欢动态效果的读者。</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Settings_Language_Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Settings_Language_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Settings_Narration" xml:space="preserve">
+    <value>讲解</value>
+  </data>
+  <data name="Settings_Narration_Note" xml:space="preserve">
+    <value>关闭朗读后，讲解仍会按阅读速度显示字幕。</value>
+  </data>
+  <data name="Settings_Progress" xml:space="preserve">
+    <value>阅读进度</value>
+  </data>
+  <data name="Settings_Progress_Clear" xml:space="preserve">
+    <value>清除阅读进度</value>
+  </data>
+  <data name="Settings_Progress_Note" xml:space="preserve">
+    <value>进度显示在目录里。清除进度不会删除书签。</value>
+  </data>
+  <data name="Settings_Progress_Summary" xml:space="preserve">
+    <value>已打开 {0} 章，其中 {1} 章的讲解全部听完。</value>
+  </data>
+  <data name="Settings_Reading" xml:space="preserve">
+    <value>阅读</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>修改立即生效，并保存在这台设备上。</value>
+  </data>
+  <data name="Settings_SpeakOnClick" xml:space="preserve">
+    <value>点击画面里的东西时朗读说明</value>
+  </data>
+  <data name="Settings_Subtitles" xml:space="preserve">
+    <value>显示字幕</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>跟随系统</value>
+  </data>
+  <data name="Settings_Tip" xml:space="preserve">
+    <value>语言、主题、观察地点、讲解和翻页</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Settings_Voice" xml:space="preserve">
+    <value>朗读讲解</value>
+  </data>
+  <data name="Settings_Volume" xml:space="preserve">
+    <value>音量</value>
   </data>
   <data name="SolarSystem_Ariel_Description" xml:space="preserve">
     <value>天卫一的表面在天王星几颗大卫星中最亮，可能也最年轻。长长的断层谷横贯表面，一些区域像是被“冰火山”的熔岩流铺平过。大型撞击坑很少，说明它的表面在较近的时期被重塑过。</value>
@@ -3791,6 +4256,30 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>最炽热的行星</value>
+  </data>
+  <data name="Text_AddToNotes" xml:space="preserve">
+    <value>加入笔记</value>
+  </data>
+  <data name="Text_Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Text_SelectAll" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="Theme_Accent_Amber" xml:space="preserve">
+    <value>琥珀</value>
+  </data>
+  <data name="Theme_Accent_Indigo" xml:space="preserve">
+    <value>靛蓝</value>
+  </data>
+  <data name="Theme_Accent_Pine" xml:space="preserve">
+    <value>松绿</value>
+  </data>
+  <data name="Theme_Accent_Plum" xml:space="preserve">
+    <value>梅紫</value>
+  </data>
+  <data name="Theme_Accent_Terracotta" xml:space="preserve">
+    <value>赭红</value>
   </data>
   <data name="Tides_Bulges_Fact1" xml:space="preserve">
     <value>潮汐力是月球对某处海水的引力与对地心引力之差。它与距离的三次方成反比，所以关键在于月球离得近，而不是它有多大。</value>
@@ -4242,6 +4731,765 @@
   <data name="Toolbar_Previous" xml:space="preserve">
     <value>上一页</value>
   </data>
+  <data name="Trails_Camera_Clock" xml:space="preserve">
+    <value>{0} → {1} · {2} 时 {3} 分</value>
+  </data>
+  <data name="Trails_Camera_East_Description" xml:space="preserve">
+    <value>星星沿着一条条平行的斜线从地平线上升起。越靠近赤道，升得越陡。</value>
+  </data>
+  <data name="Trails_Camera_East_Title" xml:space="preserve">
+    <value>面向东方：星星斜着升起</value>
+  </data>
+  <data name="Trails_Camera_Equator_Description" xml:space="preserve">
+    <value>这里的星星升起、划过天空、再落下。它们的圆太大了，你只能看到其中平缓的一小段弧。</value>
+  </data>
+  <data name="Trails_Camera_Equator_Title" xml:space="preserve">
+    <value>背对天极：宽阔的圆弧</value>
+  </data>
+  <data name="Trails_Camera_Fact1" xml:space="preserve">
+    <value>星轨照片通常是几百张 20～30 秒的照片叠加而成，这样天空不会发亮，每条星轨也都清晰。</value>
+  </data>
+  <data name="Trails_Camera_Fact2" xml:space="preserve">
+    <value>北极星离北天极不到 1°，所以在北半球的星轨照片里，它只在圆心附近画出一段很小的弧。</value>
+  </data>
+  <data name="Trails_Camera_Fact3" xml:space="preserve">
+    <value>南天极附近没有亮星；人们靠南十字座和旁边两颗明亮的“指极星”找到它。</value>
+  </data>
+  <data name="Trails_Camera_Fact4" xml:space="preserve">
+    <value>天空每小时大约转 15°：伸直手臂握拳，一个拳头大约遮住 10°。</value>
+  </data>
+  <data name="Trails_Camera_Fact5" xml:space="preserve">
+    <value>地球自转轴大约每 26000 年缓慢地晃一圈，天极也就在星空中移动：大约 12000 年后，织女星会靠近北天极。</value>
+  </data>
+  <data name="Trails_Camera_Note" xml:space="preserve">
+    <value>广角相机（横向 120°），纬度见左页；快门在 20:00 打开。亮星是真实的，暗星是随机补充的；画面整夜按全黑的夜空绘制。</value>
+  </data>
+  <data name="Trails_Camera_Pole_Description" xml:space="preserve">
+    <value>每一条星轨都是绕着天极的一段圆弧。曝光越久，圆弧越长；靠近天极的星画小圆，离得远的画大圆。</value>
+  </data>
+  <data name="Trails_Camera_Pole_Title" xml:space="preserve">
+    <value>面向天极：绕着一点画圆</value>
+  </data>
+  <data name="Trails_Camera_Subtitle" xml:space="preserve">
+    <value>天空在转：星星绕着天极画圆</value>
+  </data>
+  <data name="Trails_Camera_Up_Description" xml:space="preserve">
+    <value>头顶的星轨依然是绕天极的圆，而天极离天顶的角距离，正好等于你离地球极点的纬度差。只有在极点，圆心才正好在头顶。</value>
+  </data>
+  <data name="Trails_Camera_Up_Title" xml:space="preserve">
+    <value>朝天顶：圆心偏在一边</value>
+  </data>
+  <data name="Trails_Camera_West_Description" xml:space="preserve">
+    <value>星星沿着一条条平行的斜线落进地平线，和东方正好像镜子里的倒影。</value>
+  </data>
+  <data name="Trails_Camera_West_Title" xml:space="preserve">
+    <value>面向西方：星星斜着落下</value>
+  </data>
+  <data name="Trails_Chart_Hours_Axis" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Trails_Chart_Hours_Caption" xml:space="preserve">
+    <value>不同赤纬的星每天在天上的时间</value>
+  </data>
+  <data name="Trails_Chart_Hours_Note" xml:space="preserve">
+    <value>赤纬就是星星在天上的“纬度”。金色：永不落下；蓝色：永不升起；圆点：天球上的那几颗星。</value>
+  </data>
+  <data name="Trails_Chart_Transit_Caption" xml:space="preserve">
+    <value>星座什么时候升到最高</value>
+  </data>
+  <data name="Trails_Chart_Transit_Note" xml:space="preserve">
+    <value>每条线每个月大约提前两小时。阴影：这个纬度的夜晚（不算晨昏蒙影）。</value>
+  </data>
+  <data name="Trails_Con_Aquila" xml:space="preserve">
+    <value>天鹰座</value>
+  </data>
+  <data name="Trails_Con_BigDipper" xml:space="preserve">
+    <value>北斗七星</value>
+  </data>
+  <data name="Trails_Con_CanisMajor" xml:space="preserve">
+    <value>大犬座</value>
+  </data>
+  <data name="Trails_Con_Cassiopeia" xml:space="preserve">
+    <value>仙后座</value>
+  </data>
+  <data name="Trails_Con_Crux" xml:space="preserve">
+    <value>南十字座</value>
+  </data>
+  <data name="Trails_Con_Cygnus" xml:space="preserve">
+    <value>天鹅座</value>
+  </data>
+  <data name="Trails_Con_Gemini" xml:space="preserve">
+    <value>双子座</value>
+  </data>
+  <data name="Trails_Con_Leo" xml:space="preserve">
+    <value>狮子座</value>
+  </data>
+  <data name="Trails_Con_LittleDipper" xml:space="preserve">
+    <value>小北斗</value>
+  </data>
+  <data name="Trails_Con_Lyra" xml:space="preserve">
+    <value>天琴座</value>
+  </data>
+  <data name="Trails_Con_Orion" xml:space="preserve">
+    <value>猎户座</value>
+  </data>
+  <data name="Trails_Con_Pegasus" xml:space="preserve">
+    <value>飞马座</value>
+  </data>
+  <data name="Trails_Con_Sagittarius" xml:space="preserve">
+    <value>人马座</value>
+  </data>
+  <data name="Trails_Con_Scorpius" xml:space="preserve">
+    <value>天蝎座</value>
+  </data>
+  <data name="Trails_Con_SummerTriangle" xml:space="preserve">
+    <value>夏季大三角</value>
+  </data>
+  <data name="Trails_Con_Taurus" xml:space="preserve">
+    <value>金牛座</value>
+  </data>
+  <data name="Trails_Date" xml:space="preserve">
+    <value>{0}{1}日</value>
+  </data>
+  <data name="Trails_DateCaption" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Trails_Day_December" xml:space="preserve">
+    <value>冬至</value>
+  </data>
+  <data name="Trails_Day_June" xml:space="preserve">
+    <value>夏至</value>
+  </data>
+  <data name="Trails_Day_March" xml:space="preserve">
+    <value>春分</value>
+  </data>
+  <data name="Trails_Day_September" xml:space="preserve">
+    <value>秋分</value>
+  </data>
+  <data name="Trails_Dir_E" xml:space="preserve">
+    <value>东</value>
+  </data>
+  <data name="Trails_Dir_N" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Trails_Dir_NE" xml:space="preserve">
+    <value>东北</value>
+  </data>
+  <data name="Trails_Dir_NW" xml:space="preserve">
+    <value>西北</value>
+  </data>
+  <data name="Trails_Dir_S" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Trails_Dir_SE" xml:space="preserve">
+    <value>东南</value>
+  </data>
+  <data name="Trails_Dir_SW" xml:space="preserve">
+    <value>西南</value>
+  </data>
+  <data name="Trails_Dir_W" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="Trails_Face_Caption" xml:space="preserve">
+    <value>相机朝向</value>
+  </data>
+  <data name="Trails_Face_East" xml:space="preserve">
+    <value>朝东</value>
+  </data>
+  <data name="Trails_Face_Equator" xml:space="preserve">
+    <value>背对天极</value>
+  </data>
+  <data name="Trails_Face_Pole" xml:space="preserve">
+    <value>朝天极</value>
+  </data>
+  <data name="Trails_Face_Up" xml:space="preserve">
+    <value>朝天顶</value>
+  </data>
+  <data name="Trails_Face_West" xml:space="preserve">
+    <value>朝西</value>
+  </data>
+  <data name="Trails_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Trails_Go_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="Trails_Go_Home" xml:space="preserve">
+    <value>我的位置</value>
+  </data>
+  <data name="Trails_Go_NorthPole" xml:space="preserve">
+    <value>北极</value>
+  </data>
+  <data name="Trails_Go_SouthPole" xml:space="preserve">
+    <value>南极</value>
+  </data>
+  <data name="Trails_Hint_Camera" xml:space="preserve">
+    <value>拖动画面可以转动、俯仰相机。</value>
+  </data>
+  <data name="Trails_Hint_Sphere" xml:space="preserve">
+    <value>拖动可以转动天球；在左页改变纬度。</value>
+  </data>
+  <data name="Trails_Hint_Year" xml:space="preserve">
+    <value>拖着地球绕太阳转，或者让一年自己走起来。</value>
+  </data>
+  <data name="Trails_Label_Arc" xml:space="preserve">
+    <value>转过 {0}°</value>
+  </data>
+  <data name="Trails_Label_Circumpolar" xml:space="preserve">
+    <value>永不落下</value>
+  </data>
+  <data name="Trails_Label_Midnight" xml:space="preserve">
+    <value>午夜的天空</value>
+  </data>
+  <data name="Trails_Label_NeverRises" xml:space="preserve">
+    <value>永不升起</value>
+  </data>
+  <data name="Trails_Label_NorthPole" xml:space="preserve">
+    <value>北天极</value>
+  </data>
+  <data name="Trails_Label_Risers" xml:space="preserve">
+    <value>有升有落</value>
+  </data>
+  <data name="Trails_Label_SouthPole" xml:space="preserve">
+    <value>南天极</value>
+  </data>
+  <data name="Trails_Label_Zenith" xml:space="preserve">
+    <value>天顶</value>
+  </data>
+  <data name="Trails_Latitude" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="Trails_Lesson_Camera_Choice1" xml:space="preserve">
+    <value>大约一天（23 时 56 分）</value>
+  </data>
+  <data name="Trails_Lesson_Camera_Choice2" xml:space="preserve">
+    <value>大约 12 小时</value>
+  </data>
+  <data name="Trails_Lesson_Camera_Choice3" xml:space="preserve">
+    <value>大约 1 小时</value>
+  </data>
+  <data name="Trails_Lesson_Sphere_Choice1" xml:space="preserve">
+    <value>变小</value>
+  </data>
+  <data name="Trails_Lesson_Sphere_Choice2" xml:space="preserve">
+    <value>变大</value>
+  </data>
+  <data name="Trails_Lesson_Sphere_Choice3" xml:space="preserve">
+    <value>不变</value>
+  </data>
+  <data name="Trails_Lesson_Year_Choice1" xml:space="preserve">
+    <value>大约 4 分钟</value>
+  </data>
+  <data name="Trails_Lesson_Year_Choice2" xml:space="preserve">
+    <value>大约 1 小时</value>
+  </data>
+  <data name="Trails_Lesson_Year_Choice3" xml:space="preserve">
+    <value>完全不变</value>
+  </data>
+  <data name="Trails_Mode_Camera" xml:space="preserve">
+    <value>长曝光</value>
+  </data>
+  <data name="Trails_Mode_Sphere" xml:space="preserve">
+    <value>天球</value>
+  </data>
+  <data name="Trails_Mode_Year" xml:space="preserve">
+    <value>四季星空</value>
+  </data>
+  <data name="Trails_Month_1" xml:space="preserve">
+    <value>1月</value>
+  </data>
+  <data name="Trails_Month_10" xml:space="preserve">
+    <value>10月</value>
+  </data>
+  <data name="Trails_Month_11" xml:space="preserve">
+    <value>11月</value>
+  </data>
+  <data name="Trails_Month_12" xml:space="preserve">
+    <value>12月</value>
+  </data>
+  <data name="Trails_Month_2" xml:space="preserve">
+    <value>2月</value>
+  </data>
+  <data name="Trails_Month_3" xml:space="preserve">
+    <value>3月</value>
+  </data>
+  <data name="Trails_Month_4" xml:space="preserve">
+    <value>4月</value>
+  </data>
+  <data name="Trails_Month_5" xml:space="preserve">
+    <value>5月</value>
+  </data>
+  <data name="Trails_Month_6" xml:space="preserve">
+    <value>6月</value>
+  </data>
+  <data name="Trails_Month_7" xml:space="preserve">
+    <value>7月</value>
+  </data>
+  <data name="Trails_Month_8" xml:space="preserve">
+    <value>8月</value>
+  </data>
+  <data name="Trails_Month_9" xml:space="preserve">
+    <value>9月</value>
+  </data>
+  <data name="Trails_Obj_Arc" xml:space="preserve">
+    <value>天空转过的角度</value>
+  </data>
+  <data name="Trails_Obj_Circumpolar" xml:space="preserve">
+    <value>永不落下的星</value>
+  </data>
+  <data name="Trails_Obj_Compass" xml:space="preserve">
+    <value>方位</value>
+  </data>
+  <data name="Trails_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Trails_Obj_Equator" xml:space="preserve">
+    <value>天赤道</value>
+  </data>
+  <data name="Trails_Obj_Horizon" xml:space="preserve">
+    <value>地平线</value>
+  </data>
+  <data name="Trails_Obj_NeverRises" xml:space="preserve">
+    <value>永不升起的星</value>
+  </data>
+  <data name="Trails_Obj_Night" xml:space="preserve">
+    <value>午夜的天空</value>
+  </data>
+  <data name="Trails_Obj_NorthPole" xml:space="preserve">
+    <value>北天极</value>
+  </data>
+  <data name="Trails_Obj_Observer" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Trails_Obj_Panorama" xml:space="preserve">
+    <value>傍晚的星空</value>
+  </data>
+  <data name="Trails_Obj_Pole" xml:space="preserve">
+    <value>天极</value>
+  </data>
+  <data name="Trails_Obj_Risers" xml:space="preserve">
+    <value>有升有落的星</value>
+  </data>
+  <data name="Trails_Obj_Shutter" xml:space="preserve">
+    <value>相机显示</value>
+  </data>
+  <data name="Trails_Obj_Sidereal" xml:space="preserve">
+    <value>恒星日</value>
+  </data>
+  <data name="Trails_Obj_SouthPole" xml:space="preserve">
+    <value>南天极</value>
+  </data>
+  <data name="Trails_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Trails_Obj_Zenith" xml:space="preserve">
+    <value>天顶</value>
+  </data>
+  <data name="Trails_Option_Figures" xml:space="preserve">
+    <value>星座连线</value>
+  </data>
+  <data name="Trails_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Trails_Place_Away" xml:space="preserve">
+    <value>旅行中：不在你的所在地</value>
+  </data>
+  <data name="Trails_Place_Home" xml:space="preserve">
+    <value>在{0}</value>
+  </data>
+  <data name="Trails_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Trails_Restart" xml:space="preserve">
+    <value>重新曝光</value>
+  </data>
+  <data name="Trails_Shutter" xml:space="preserve">
+    <value>曝光 {0} 时 {1} 分</value>
+  </data>
+  <data name="Trails_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Trails_Sphere_Clock" xml:space="preserve">
+    <value>恒星时 {0}</value>
+  </data>
+  <data name="Trails_Sphere_Equator_Description" xml:space="preserve">
+    <value>两个天极都躺在地平线上。每颗星每天都有一半时间在天上，一年下来能看到整个天空。</value>
+  </data>
+  <data name="Trails_Sphere_Equator_Title" xml:space="preserve">
+    <value>在赤道：所有星星都有升有落</value>
+  </data>
+  <data name="Trails_Sphere_Fact1" xml:space="preserve">
+    <value>天极离地平线的高度等于你所在的纬度：航海的人就是量它来知道自己在多北或多南。</value>
+  </data>
+  <data name="Trails_Sphere_Fact2" xml:space="preserve">
+    <value>在赤道，一年下来能看到全天所有的星；在极点，只能看到一半。</value>
+  </data>
+  <data name="Trails_Sphere_Fact3" xml:space="preserve">
+    <value>天赤道就在地球赤道的正上方，天极也就在地球两极的正上方。</value>
+  </data>
+  <data name="Trails_Sphere_Fact4" xml:space="preserve">
+    <value>在地平线附近，星星看起来比实际高大约半度：空气把它们的光弯折了。</value>
+  </data>
+  <data name="Trails_Sphere_Fact5" xml:space="preserve">
+    <value>第二亮的恒星老人星，在北纬约 37° 以北永远升不起来；在中国南方，它是冬夜南方低空里有名的“南极老人星”。</value>
+  </data>
+  <data name="Trails_Sphere_Middle_Description" xml:space="preserve">
+    <value>靠近看得见的天极，星星永不落下；靠近另一个天极，星星永不升起；介于两者之间的有升有落，离看得见的天极越近，在天上待得越久。</value>
+  </data>
+  <data name="Trails_Sphere_Middle_Title" xml:space="preserve">
+    <value>中纬度：三种星星</value>
+  </data>
+  <data name="Trails_Sphere_Note" xml:space="preserve">
+    <value>从外面看天球，你站在球心的一块地面上。</value>
+  </data>
+  <data name="Trails_Sphere_Pole_Description" xml:space="preserve">
+    <value>天极就在头顶，每颗星都平行于地平线绕圈。一半的天空永远在上面，另一半永远看不到。</value>
+  </data>
+  <data name="Trails_Sphere_Pole_Title" xml:space="preserve">
+    <value>在极点：没有升起也没有落下</value>
+  </data>
+  <data name="Trails_Sphere_Subtitle" xml:space="preserve">
+    <value>哪些星永不落下，哪些永不升起</value>
+  </data>
+  <data name="Trails_Star_Achernar" xml:space="preserve">
+    <value>水委一</value>
+  </data>
+  <data name="Trails_Star_Acrux" xml:space="preserve">
+    <value>十字架二</value>
+  </data>
+  <data name="Trails_Star_Aldebaran" xml:space="preserve">
+    <value>毕宿五</value>
+  </data>
+  <data name="Trails_Star_Alkaid" xml:space="preserve">
+    <value>摇光</value>
+  </data>
+  <data name="Trails_Star_Altair" xml:space="preserve">
+    <value>牛郎星</value>
+  </data>
+  <data name="Trails_Star_Antares" xml:space="preserve">
+    <value>心宿二</value>
+  </data>
+  <data name="Trails_Star_Arcturus" xml:space="preserve">
+    <value>大角星</value>
+  </data>
+  <data name="Trails_Star_Betelgeuse" xml:space="preserve">
+    <value>参宿四</value>
+  </data>
+  <data name="Trails_Star_Canopus" xml:space="preserve">
+    <value>老人星</value>
+  </data>
+  <data name="Trails_Star_Capella" xml:space="preserve">
+    <value>五车二</value>
+  </data>
+  <data name="Trails_Star_Castor" xml:space="preserve">
+    <value>北河二</value>
+  </data>
+  <data name="Trails_Star_Deneb" xml:space="preserve">
+    <value>天津四</value>
+  </data>
+  <data name="Trails_Star_Dubhe" xml:space="preserve">
+    <value>天枢</value>
+  </data>
+  <data name="Trails_Star_Fomalhaut" xml:space="preserve">
+    <value>北落师门</value>
+  </data>
+  <data name="Trails_Star_Polaris" xml:space="preserve">
+    <value>北极星</value>
+  </data>
+  <data name="Trails_Star_Pollux" xml:space="preserve">
+    <value>北河三</value>
+  </data>
+  <data name="Trails_Star_Procyon" xml:space="preserve">
+    <value>南河三</value>
+  </data>
+  <data name="Trails_Star_Regulus" xml:space="preserve">
+    <value>轩辕十四</value>
+  </data>
+  <data name="Trails_Star_Rigel" xml:space="preserve">
+    <value>参宿七</value>
+  </data>
+  <data name="Trails_Star_RigilKentaurus" xml:space="preserve">
+    <value>南门二</value>
+  </data>
+  <data name="Trails_Star_SigOct" xml:space="preserve">
+    <value>南极星（南极座σ）</value>
+  </data>
+  <data name="Trails_Star_Sirius" xml:space="preserve">
+    <value>天狼星</value>
+  </data>
+  <data name="Trails_Star_Spica" xml:space="preserve">
+    <value>角宿一</value>
+  </data>
+  <data name="Trails_Star_Vega" xml:space="preserve">
+    <value>织女星</value>
+  </data>
+  <data name="Trails_Stat_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Trails_Stat_Earlier" xml:space="preserve">
+    <value>星星每晚提前</value>
+  </data>
+  <data name="Trails_Stat_Earlier_Value" xml:space="preserve">
+    <value>每晚约 4 分钟，每月约 2 小时</value>
+  </data>
+  <data name="Trails_Stat_Exposure" xml:space="preserve">
+    <value>曝光</value>
+  </data>
+  <data name="Trails_Stat_Exposure_Value" xml:space="preserve">
+    <value>{0} 时 {1} 分：天空转过 {2}°</value>
+  </data>
+  <data name="Trails_Stat_HoursUp" xml:space="preserve">
+    <value>每天在天上</value>
+  </data>
+  <data name="Trails_Stat_InDaylight" xml:space="preserve">
+    <value>{0}（在白天，看不到）</value>
+  </data>
+  <data name="Trails_Stat_Latitude" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="Trails_Stat_Midnight" xml:space="preserve">
+    <value>午夜正对</value>
+  </data>
+  <data name="Trails_Stat_NeverRise" xml:space="preserve">
+    <value>永不升起</value>
+  </data>
+  <data name="Trails_Stat_NeverRise_Value" xml:space="preserve">
+    <value>离另一个天极 {0}° 以内的星</value>
+  </data>
+  <data name="Trails_Stat_NeverSet" xml:space="preserve">
+    <value>永不落下</value>
+  </data>
+  <data name="Trails_Stat_NeverSet_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="Trails_Stat_NeverSet_Value" xml:space="preserve">
+    <value>离天极 {0}° 以内的星</value>
+  </data>
+  <data name="Trails_Stat_Opened" xml:space="preserve">
+    <value>开始曝光</value>
+  </data>
+  <data name="Trails_Stat_Opened_Value" xml:space="preserve">
+    <value>{1} {0}</value>
+  </data>
+  <data name="Trails_Stat_OrionHighest" xml:space="preserve">
+    <value>猎户座最高的时刻</value>
+  </data>
+  <data name="Trails_Stat_Pole" xml:space="preserve">
+    <value>天极高度</value>
+  </data>
+  <data name="Trails_Stat_Pole_North" xml:space="preserve">
+    <value>北方地平线上 {0}°</value>
+  </data>
+  <data name="Trails_Stat_Pole_South" xml:space="preserve">
+    <value>南方地平线上 {0}°</value>
+  </data>
+  <data name="Trails_Stat_SiderealDay" xml:space="preserve">
+    <value>恒星日</value>
+  </data>
+  <data name="Trails_Stat_SiderealDay_Value" xml:space="preserve">
+    <value>23 时 56 分 4 秒</value>
+  </data>
+  <data name="Trails_Stat_Visible" xml:space="preserve">
+    <value>一年能看到</value>
+  </data>
+  <data name="Trails_Stat_Visible_Value" xml:space="preserve">
+    <value>全天的 {0}%</value>
+  </data>
+  <data name="Trails_Timeline_Camera" xml:space="preserve">
+    <value>曝光时长</value>
+  </data>
+  <data name="Trails_Timeline_Sphere" xml:space="preserve">
+    <value>恒星时</value>
+  </data>
+  <data name="Trails_Timeline_Year" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Trails_Title" xml:space="preserve">
+    <value>星轨</value>
+  </data>
+  <data name="Trails_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Trails_Year_Description" xml:space="preserve">
+    <value>在地球的夜晚一侧，你背对着太阳。地球绕太阳转，这个方向也跟着扫过整个天空：每个季节都有不同的星座，星星每晚大约提前四分钟升起。</value>
+  </data>
+  <data name="Trails_Year_Exaggerated" xml:space="preserve">
+    <value>地球一天在轨道上走的距离放大了 15 倍</value>
+  </data>
+  <data name="Trails_Year_Fact1" xml:space="preserve">
+    <value>恒星日是 23 时 56 分 4 秒，太阳日是 24 小时。一年里，地球相对恒星比相对太阳多转一圈：大约 366¼ 圈。</value>
+  </data>
+  <data name="Trails_Year_Fact2" xml:space="preserve">
+    <value>星星每晚大约提前 4 分钟升起，一个月就提前大约 2 小时。</value>
+  </data>
+  <data name="Trails_Year_Fact3" xml:space="preserve">
+    <value>大约 12 月到 3 月，猎户座占据傍晚的星空；大约 6 月到 8 月则是天蝎座。</value>
+  </data>
+  <data name="Trails_Year_Fact4" xml:space="preserve">
+    <value>中国古代天文学沿着月亮的路径把天空分成二十八宿；心宿二是东方苍龙的“心脏”。</value>
+  </data>
+  <data name="Trails_Year_Fact5" xml:space="preserve">
+    <value>黄道星座就是太阳一年中从它们前面经过的那些星座，其实也包括蛇夫座，只是大多数星座运势都把它漏掉了。</value>
+  </data>
+  <data name="Trails_Year_FarStar" xml:space="preserve">
+    <value>指向遥远的恒星</value>
+  </data>
+  <data name="Trails_Year_Note" xml:space="preserve">
+    <value>从北极上方俯视地球的轨道；星座其实远在轨道之外很远很远。傍晚星空按当地太阳时 21:00 绘制。</value>
+  </data>
+  <data name="Trails_Year_Panorama" xml:space="preserve">
+    <value>{0} 21:00 · 面朝{1}</value>
+  </data>
+  <data name="Trails_Year_SiderealCaption" xml:space="preserve">
+    <value>恒星日</value>
+  </data>
+  <data name="Trails_Year_StarBack" xml:space="preserve">
+    <value>23 时 56 分：恒星回到原位</value>
+  </data>
+  <data name="Trails_Year_Subtitle" xml:space="preserve">
+    <value>为什么四季的夜空不一样</value>
+  </data>
+  <data name="Trails_Year_SunBack" xml:space="preserve">
+    <value>24 时：太阳回到原位</value>
+  </data>
+  <data name="Trails_Year_Title" xml:space="preserve">
+    <value>{0}：午夜的天空正对{1}</value>
+  </data>
+  <data name="Trails_Year_Turned" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Update_Banner_Download" xml:space="preserve">
+    <value>探索之书 {0} 已发布。下载后关闭本程序，再覆盖安装。</value>
+  </data>
+  <data name="Update_Banner_Install" xml:space="preserve">
+    <value>探索之书 {0} 已发布，「更新并重启」只需几秒钟。</value>
+  </data>
+  <data name="Update_Check" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="Update_CheckOnStartup" xml:space="preserve">
+    <value>打开时检查更新</value>
+  </data>
+  <data name="Update_Checking" xml:space="preserve">
+    <value>正在检查…</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>正在下载更新…</value>
+  </data>
+  <data name="Update_Error_Damaged" xml:space="preserve">
+    <value>下载的安装包已损坏（校验和对不上）。请重试，或手动下载安装。</value>
+  </data>
+  <data name="Update_Error_Download" xml:space="preserve">
+    <value>下载失败（HTTP {0}），请稍后再试。</value>
+  </data>
+  <data name="Update_Error_Http" xml:space="preserve">
+    <value>更新服务器返回错误（HTTP {0}），请稍后再试。</value>
+  </data>
+  <data name="Update_Error_Install" xml:space="preserve">
+    <value>没能自动安装：{0} 请手动下载安装。</value>
+  </data>
+  <data name="Update_Error_Interrupted" xml:space="preserve">
+    <value>下载中断了，请检查网络后重试。</value>
+  </data>
+  <data name="Update_Error_Launch" xml:space="preserve">
+    <value>更新程序没能启动，请手动下载安装。</value>
+  </data>
+  <data name="Update_Error_NoFeed" xml:space="preserve">
+    <value>没有更新地址，请在 设置 → 更新 里填写。</value>
+  </data>
+  <data name="Update_Error_NoPackage" xml:space="preserve">
+    <value>{0} 已发布，但没有适合这台电脑（{1}）的安装包。</value>
+  </data>
+  <data name="Update_Error_NoRelease" xml:space="preserve">
+    <value>还没有发布任何版本。</value>
+  </data>
+  <data name="Update_Error_NotThisApp" xml:space="preserve">
+    <value>安装包里没有 {0}，没法自动安装，请手动下载安装。</value>
+  </data>
+  <data name="Update_Error_NotZip" xml:space="preserve">
+    <value>安装包不是 zip 压缩包，没法自动安装，请手动下载安装。</value>
+  </data>
+  <data name="Update_Error_Offline" xml:space="preserve">
+    <value>连不上更新服务器，请检查网络后重试。</value>
+  </data>
+  <data name="Update_Error_Unreadable" xml:space="preserve">
+    <value>读不懂更新服务器返回的版本信息。</value>
+  </data>
+  <data name="Update_Feed_BuiltIn" xml:space="preserve">
+    <value>这是本版本自带的地址。</value>
+  </data>
+  <data name="Update_Feed_Caption" xml:space="preserve">
+    <value>更新地址</value>
+  </data>
+  <data name="Update_Feed_FromFile" xml:space="preserve">
+    <value>这是打包者设置的地址（程序旁边的 update-feed.txt）。</value>
+  </data>
+  <data name="Update_Feed_FromReader" xml:space="preserve">
+    <value>这是你自己设置的地址。</value>
+  </data>
+  <data name="Update_Feed_Help" xml:space="preserve">
+    <value>github:owner/repo 读取该仓库最新的 GitHub Release；其他 https 地址按更新清单读取（格式见 docs/UPDATES.md）。填 off 关闭更新。</value>
+  </data>
+  <data name="Update_Feed_Invalid" xml:space="preserve">
+    <value>这不是一个能读取更新的地址。</value>
+  </data>
+  <data name="Update_Feed_None" xml:space="preserve">
+    <value>没有更新地址：这份程序不会检查更新。</value>
+  </data>
+  <data name="Update_Feed_Placeholder" xml:space="preserve">
+    <value>github:owner/repo，或 https://…/latest.json</value>
+  </data>
+  <data name="Update_Feed_Reset" xml:space="preserve">
+    <value>恢复默认地址</value>
+  </data>
+  <data name="Update_Feed_Save" xml:space="preserve">
+    <value>使用这个地址</value>
+  </data>
+  <data name="Update_Feed_Saved" xml:space="preserve">
+    <value>已保存。</value>
+  </data>
+  <data name="Update_InstallAndRestart" xml:space="preserve">
+    <value>更新并重启</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>稍后</value>
+  </data>
+  <data name="Update_Notice_Failed" xml:space="preserve">
+    <value>上次更新没有装上，仍是 {0}。关掉占用程序目录的程序后再试一次。</value>
+  </data>
+  <data name="Update_Notice_Updated" xml:space="preserve">
+    <value>已更新到 {0}。</value>
+  </data>
+  <data name="Update_Progress" xml:space="preserve">
+    <value>正在下载… {0}%（{1} / {2}）</value>
+  </data>
+  <data name="Update_Progress_Unknown" xml:space="preserve">
+    <value>正在下载… {0}</value>
+  </data>
+  <data name="Update_ReleasePage" xml:space="preserve">
+    <value>打开发布页面</value>
+  </data>
+  <data name="Update_Restarting" xml:space="preserve">
+    <value>正在安装并重启…</value>
+  </data>
+  <data name="Update_Status_Available" xml:space="preserve">
+    <value>新版本 {0} 已发布。</value>
+  </data>
+  <data name="Update_Status_UpToDate" xml:space="preserve">
+    <value>{0} 已是最新版本。</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Update_Version" xml:space="preserve">
+    <value>当前版本 {0}</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>更新内容</value>
+  </data>
   <data name="Volume_Chemistry" xml:space="preserve">
     <value>化学</value>
   </data>
@@ -4257,379 +5505,13 @@
   <data name="Volume_Sky" xml:space="preserve">
     <value>天空</value>
   </data>
-  <data name="Settings_Title" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="Settings_Tip" xml:space="preserve">
-    <value>语言、主题、观察地点、讲解和翻页</value>
-  </data>
-  <data name="Settings_Saved" xml:space="preserve">
-    <value>修改立即生效，并保存在这台设备上。</value>
-  </data>
-  <data name="Settings_Language" xml:space="preserve">
-    <value>语言</value>
-  </data>
-  <data name="Settings_Language_Chinese" xml:space="preserve">
-    <value>中文</value>
-  </data>
-  <data name="Settings_Language_English" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="Settings_Narration" xml:space="preserve">
-    <value>讲解</value>
-  </data>
-  <data name="Settings_Voice" xml:space="preserve">
-    <value>朗读讲解</value>
-  </data>
-  <data name="Settings_Volume" xml:space="preserve">
-    <value>音量</value>
-  </data>
-  <data name="Settings_Subtitles" xml:space="preserve">
-    <value>显示字幕</value>
-  </data>
-  <data name="Settings_SpeakOnClick" xml:space="preserve">
-    <value>点击画面里的东西时朗读说明</value>
-  </data>
-  <data name="Settings_Narration_Note" xml:space="preserve">
-    <value>关闭朗读后，讲解仍会按阅读速度显示字幕。</value>
-  </data>
-  <data name="Settings_Reading" xml:space="preserve">
-    <value>阅读</value>
-  </data>
-  <data name="Settings_AnimatesTurns" xml:space="preserve">
-    <value>翻页动画</value>
-  </data>
-  <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
-    <value>关闭后直接换页，适合不喜欢动态效果的读者。</value>
-  </data>
-  <data name="Location_City_Changsha" xml:space="preserve">
-    <value>长沙</value>
-  </data>
-  <data name="Page_Caption" xml:space="preserve">
-    <value>第 {0} 页</value>
-  </data>
-  <data name="Page_Caption_Cover" xml:space="preserve">
-    <value>封面</value>
-  </data>
-  <data name="Page_Caption_HowToUse" xml:space="preserve">
-    <value>使用说明</value>
-  </data>
-  <data name="Page_Caption_Title" xml:space="preserve">
-    <value>扉页</value>
-  </data>
-  <data name="Page_Caption_BackCover" xml:space="preserve">
-    <value>封底</value>
-  </data>
-  <data name="Page_Caption_Chapter" xml:space="preserve">
-    <value>第 {0} 章 · {1}</value>
-  </data>
-  <data name="Page_Caption_Diagram" xml:space="preserve">
-    <value>{0} · 图</value>
-  </data>
-  <data name="Page_Caption_Contents" xml:space="preserve">
-    <value>目录 · {0}</value>
-  </data>
-  <data name="Bookmarks_Title" xml:space="preserve">
-    <value>书签</value>
-  </data>
-  <data name="Bookmarks_Tip" xml:space="preserve">
-    <value>给这一页加书签，或翻到加过书签的页</value>
-  </data>
-  <data name="Bookmarks_Add" xml:space="preserve">
-    <value>给这一页加书签</value>
-  </data>
-  <data name="Bookmarks_Remove" xml:space="preserve">
-    <value>移除这一页的书签</value>
-  </data>
-  <data name="Bookmarks_RemoveOne" xml:space="preserve">
-    <value>移除书签</value>
-  </data>
-  <data name="Bookmarks_Empty" xml:space="preserve">
-    <value>还没有书签。加了书签的页顶部会挂一条丝带。</value>
-  </data>
-  <data name="Bookmarks_Details" xml:space="preserve">
-    <value>第 {0} 页 · {1}添加</value>
-  </data>
-  <data name="Bookmarks_Shortcut" xml:space="preserve">
-    <value>快捷键：Ctrl+D</value>
-  </data>
-  <data name="Progress_Opened" xml:space="preserve">
-    <value>已读</value>
-  </data>
-  <data name="Progress_Walkthroughs" xml:space="preserve">
-    <value>讲解 {0}/{1}</value>
-  </data>
-  <data name="Progress_Complete" xml:space="preserve">
-    <value>✓ 已完成</value>
-  </data>
-  <data name="Settings_Appearance" xml:space="preserve">
-    <value>外观</value>
-  </data>
-  <data name="Settings_Theme_Light" xml:space="preserve">
-    <value>浅色</value>
-  </data>
-  <data name="Settings_Theme_Dark" xml:space="preserve">
-    <value>深色</value>
-  </data>
-  <data name="Settings_Theme_System" xml:space="preserve">
-    <value>跟随系统</value>
-  </data>
-  <data name="Settings_Accent" xml:space="preserve">
-    <value>强调色</value>
-  </data>
-  <data name="Theme_Accent_Terracotta" xml:space="preserve">
-    <value>赭红</value>
-  </data>
-  <data name="Theme_Accent_Indigo" xml:space="preserve">
-    <value>靛蓝</value>
-  </data>
-  <data name="Theme_Accent_Pine" xml:space="preserve">
-    <value>松绿</value>
-  </data>
-  <data name="Theme_Accent_Plum" xml:space="preserve">
-    <value>梅紫</value>
-  </data>
-  <data name="Theme_Accent_Amber" xml:space="preserve">
-    <value>琥珀</value>
-  </data>
-  <data name="Settings_Progress" xml:space="preserve">
-    <value>阅读进度</value>
-  </data>
-  <data name="Settings_Progress_Summary" xml:space="preserve">
-    <value>已打开 {0} 章，其中 {1} 章的讲解全部听完。</value>
-  </data>
-  <data name="Settings_Progress_Note" xml:space="preserve">
-    <value>进度显示在目录里。清除进度不会删除书签。</value>
-  </data>
-  <data name="Settings_Progress_Clear" xml:space="preserve">
-    <value>清除阅读进度</value>
-  </data>
-  <data name="Window_Minimize" xml:space="preserve">
-    <value>最小化</value>
+  <data name="Window_Close" xml:space="preserve">
+    <value>关闭</value>
   </data>
   <data name="Window_Maximize" xml:space="preserve">
     <value>最大化 / 还原</value>
   </data>
-  <data name="Window_Close" xml:space="preserve">
-    <value>关闭</value>
-  </data>
-  <data name="Notes_Title" xml:space="preserve">
-    <value>笔记</value>
-  </data>
-  <data name="Notes_Tip" xml:space="preserve">
-    <value>在这一页写笔记、查看全部笔记、导出</value>
-  </data>
-  <data name="Notes_Placeholder" xml:space="preserve">
-    <value>在这一页写点什么…</value>
-  </data>
-  <data name="Notes_Add" xml:space="preserve">
-    <value>保存笔记</value>
-  </data>
-  <data name="Notes_Hint" xml:space="preserve">
-    <value>提示：在页面上选中文字，右键选「加入笔记」即可摘录。</value>
-  </data>
-  <data name="Notes_RemoveQuote" xml:space="preserve">
-    <value>去掉摘录</value>
-  </data>
-  <data name="Notes_ThisPageOnly" xml:space="preserve">
-    <value>只看本页</value>
-  </data>
-  <data name="Notes_Count" xml:space="preserve">
-    <value>共 {0} 条笔记</value>
-  </data>
-  <data name="Notes_Empty" xml:space="preserve">
-    <value>这里还没有笔记。</value>
-  </data>
-  <data name="Notes_Edit" xml:space="preserve">
-    <value>编辑</value>
-  </data>
-  <data name="Notes_Remove" xml:space="preserve">
-    <value>删除笔记</value>
-  </data>
-  <data name="Notes_Open" xml:space="preserve">
-    <value>翻到这一页</value>
-  </data>
-  <data name="Notes_Details" xml:space="preserve">
-    <value>第 {0} 页 · {1}</value>
-  </data>
-  <data name="Notes_Export" xml:space="preserve">
-    <value>导出…</value>
-  </data>
-  <data name="Notes_Export_Tip" xml:space="preserve">
-    <value>把全部笔记保存为 Markdown 文件</value>
-  </data>
-  <data name="Notes_Export_Markdown" xml:space="preserve">
-    <value>Markdown 文档</value>
-  </data>
-  <data name="Notes_Export_Text" xml:space="preserve">
-    <value>纯文本</value>
-  </data>
-  <data name="Notes_CopyAll" xml:space="preserve">
-    <value>全部复制</value>
-  </data>
-  <data name="Notes_Exported" xml:space="preserve">
-    <value>已导出到 {0}</value>
-  </data>
-  <data name="Notes_Copied" xml:space="preserve">
-    <value>已把全部笔记以 Markdown 格式复制到剪贴板。</value>
-  </data>
-  <data name="Notes_Export_Title" xml:space="preserve">
-    <value>探索之书 · 笔记</value>
-  </data>
-  <data name="Notes_Export_Summary" xml:space="preserve">
-    <value>导出于 {0} · 共 {1} 条</value>
-  </data>
-  <data name="Notes_Export_Page" xml:space="preserve">
-    <value>{0}（第 {1} 页）</value>
-  </data>
-  <data name="Notes_Export_FileName" xml:space="preserve">
-    <value>探索之书-笔记-{0}.md</value>
-  </data>
-  <data name="Text_Copy" xml:space="preserve">
-    <value>复制</value>
-  </data>
-  <data name="Text_SelectAll" xml:space="preserve">
-    <value>全选</value>
-  </data>
-  <data name="Text_AddToNotes" xml:space="preserve">
-    <value>加入笔记</value>
-  </data>
-  <data name="Common_Save" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="Common_Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="Update_Title" xml:space="preserve">
-    <value>更新</value>
-  </data>
-  <data name="Update_Version" xml:space="preserve">
-    <value>当前版本 {0}</value>
-  </data>
-  <data name="Update_Feed_Caption" xml:space="preserve">
-    <value>更新地址</value>
-  </data>
-  <data name="Update_Feed_Placeholder" xml:space="preserve">
-    <value>github:owner/repo，或 https://…/latest.json</value>
-  </data>
-  <data name="Update_Feed_Help" xml:space="preserve">
-    <value>github:owner/repo 读取该仓库最新的 GitHub Release；其他 https 地址按更新清单读取（格式见 docs/UPDATES.md）。填 off 关闭更新。</value>
-  </data>
-  <data name="Update_Feed_Invalid" xml:space="preserve">
-    <value>这不是一个能读取更新的地址。</value>
-  </data>
-  <data name="Update_Feed_None" xml:space="preserve">
-    <value>没有更新地址：这份程序不会检查更新。</value>
-  </data>
-  <data name="Update_Feed_BuiltIn" xml:space="preserve">
-    <value>这是本版本自带的地址。</value>
-  </data>
-  <data name="Update_Feed_FromFile" xml:space="preserve">
-    <value>这是打包者设置的地址（程序旁边的 update-feed.txt）。</value>
-  </data>
-  <data name="Update_Feed_FromReader" xml:space="preserve">
-    <value>这是你自己设置的地址。</value>
-  </data>
-  <data name="Update_Feed_Save" xml:space="preserve">
-    <value>使用这个地址</value>
-  </data>
-  <data name="Update_Feed_Reset" xml:space="preserve">
-    <value>恢复默认地址</value>
-  </data>
-  <data name="Update_Feed_Saved" xml:space="preserve">
-    <value>已保存。</value>
-  </data>
-  <data name="Update_Check" xml:space="preserve">
-    <value>检查更新</value>
-  </data>
-  <data name="Update_CheckOnStartup" xml:space="preserve">
-    <value>打开时检查更新</value>
-  </data>
-  <data name="Update_Checking" xml:space="preserve">
-    <value>正在检查…</value>
-  </data>
-  <data name="Update_Status_Available" xml:space="preserve">
-    <value>新版本 {0} 已发布。</value>
-  </data>
-  <data name="Update_Status_UpToDate" xml:space="preserve">
-    <value>{0} 已是最新版本。</value>
-  </data>
-  <data name="Update_Banner_Install" xml:space="preserve">
-    <value>探索之书 {0} 已发布，「更新并重启」只需几秒钟。</value>
-  </data>
-  <data name="Update_Banner_Download" xml:space="preserve">
-    <value>探索之书 {0} 已发布。下载后关闭本程序，再覆盖安装。</value>
-  </data>
-  <data name="Update_InstallAndRestart" xml:space="preserve">
-    <value>更新并重启</value>
-  </data>
-  <data name="Update_Download" xml:space="preserve">
-    <value>下载</value>
-  </data>
-  <data name="Update_WhatsNew" xml:space="preserve">
-    <value>更新内容</value>
-  </data>
-  <data name="Update_ReleasePage" xml:space="preserve">
-    <value>打开发布页面</value>
-  </data>
-  <data name="Update_Later" xml:space="preserve">
-    <value>稍后</value>
-  </data>
-  <data name="Update_Downloading" xml:space="preserve">
-    <value>正在下载更新…</value>
-  </data>
-  <data name="Update_Restarting" xml:space="preserve">
-    <value>正在安装并重启…</value>
-  </data>
-  <data name="Update_Progress" xml:space="preserve">
-    <value>正在下载… {0}%（{1} / {2}）</value>
-  </data>
-  <data name="Update_Progress_Unknown" xml:space="preserve">
-    <value>正在下载… {0}</value>
-  </data>
-  <data name="Update_Notice_Updated" xml:space="preserve">
-    <value>已更新到 {0}。</value>
-  </data>
-  <data name="Update_Notice_Failed" xml:space="preserve">
-    <value>上次更新没有装上，仍是 {0}。关掉占用程序目录的程序后再试一次。</value>
-  </data>
-  <data name="Update_Error_NoFeed" xml:space="preserve">
-    <value>没有更新地址，请在 设置 → 更新 里填写。</value>
-  </data>
-  <data name="Update_Error_NoRelease" xml:space="preserve">
-    <value>还没有发布任何版本。</value>
-  </data>
-  <data name="Update_Error_Http" xml:space="preserve">
-    <value>更新服务器返回错误（HTTP {0}），请稍后再试。</value>
-  </data>
-  <data name="Update_Error_Offline" xml:space="preserve">
-    <value>连不上更新服务器，请检查网络后重试。</value>
-  </data>
-  <data name="Update_Error_Unreadable" xml:space="preserve">
-    <value>读不懂更新服务器返回的版本信息。</value>
-  </data>
-  <data name="Update_Error_NoPackage" xml:space="preserve">
-    <value>{0} 已发布，但没有适合这台电脑（{1}）的安装包。</value>
-  </data>
-  <data name="Update_Error_Damaged" xml:space="preserve">
-    <value>下载的安装包已损坏（校验和对不上）。请重试，或手动下载安装。</value>
-  </data>
-  <data name="Update_Error_NotZip" xml:space="preserve">
-    <value>安装包不是 zip 压缩包，没法自动安装，请手动下载安装。</value>
-  </data>
-  <data name="Update_Error_NotThisApp" xml:space="preserve">
-    <value>安装包里没有 {0}，没法自动安装，请手动下载安装。</value>
-  </data>
-  <data name="Update_Error_Interrupted" xml:space="preserve">
-    <value>下载中断了，请检查网络后重试。</value>
-  </data>
-  <data name="Update_Error_Install" xml:space="preserve">
-    <value>没能自动安装：{0} 请手动下载安装。</value>
-  </data>
-  <data name="Update_Error_Download" xml:space="preserve">
-    <value>下载失败（HTTP {0}），请稍后再试。</value>
-  </data>
-  <data name="Update_Error_Launch" xml:space="preserve">
-    <value>更新程序没能启动，请手动下载安装。</value>
+  <data name="Window_Minimize" xml:space="preserve">
+    <value>最小化</value>
   </data>
 </root>

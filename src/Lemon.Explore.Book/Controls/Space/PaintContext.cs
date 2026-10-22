@@ -9,7 +9,7 @@ namespace Lemon.Explore.Book.Controls.Space;
 /// branches and loops; keeping that shape keeps their code line for line comparable with the original.
 /// </summary>
 /// <remarks>Dispose it at the end of a render to pop anything still pushed.</remarks>
-internal sealed class PaintContext(DrawingContext context) : IDisposable
+public sealed class PaintContext(DrawingContext context) : IDisposable
 {
     private readonly Stack<DrawingContext.PushedState> _pushed = new();
 

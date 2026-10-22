@@ -24,6 +24,30 @@
   <data name="Book_Title" xml:space="preserve">
     <value>The Explore Book</value>
   </data>
+  <data name="Bookmarks_Add" xml:space="preserve">
+    <value>Bookmark this page</value>
+  </data>
+  <data name="Bookmarks_Details" xml:space="preserve">
+    <value>Page {0} · added {1}</value>
+  </data>
+  <data name="Bookmarks_Empty" xml:space="preserve">
+    <value>No bookmarks yet. Bookmarked pages get a ribbon at the top.</value>
+  </data>
+  <data name="Bookmarks_Remove" xml:space="preserve">
+    <value>Remove this page's bookmark</value>
+  </data>
+  <data name="Bookmarks_RemoveOne" xml:space="preserve">
+    <value>Remove bookmark</value>
+  </data>
+  <data name="Bookmarks_Shortcut" xml:space="preserve">
+    <value>Shortcut: Ctrl+D</value>
+  </data>
+  <data name="Bookmarks_Tip" xml:space="preserve">
+    <value>Bookmark this page, or turn to a bookmarked one</value>
+  </data>
+  <data name="Bookmarks_Title" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
   <data name="Chapter_Acids_Bases" xml:space="preserve">
     <value>Acids and bases</value>
   </data>
@@ -131,6 +155,12 @@
   </data>
   <data name="Chapter_Waves" xml:space="preserve">
     <value>Interference and Doppler</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Save</value>
   </data>
   <data name="Contents_Title" xml:space="preserve">
     <value>Contents</value>
@@ -1596,6 +1626,9 @@
   <data name="Location_City_Beijing" xml:space="preserve">
     <value>Beijing</value>
   </data>
+  <data name="Location_City_Changsha" xml:space="preserve">
+    <value>Changsha</value>
+  </data>
   <data name="Location_City_Chengdu" xml:space="preserve">
     <value>Chengdu</value>
   </data>
@@ -2955,6 +2988,366 @@
   <data name="Narr_Tides_Spring_08" xml:space="preserve">
     <value>Now you try. Drag the Moon around its orbit, and watch the tides grow and shrink.</value>
   </data>
+  <data name="Narr_Trails_Camera_01" xml:space="preserve">
+    <value>Point a camera at the night sky, open the shutter, and leave it open for hours. The stars won't stay as little dots. Watch them draw lines across the picture.</value>
+  </data>
+  <data name="Narr_Trails_Camera_02" xml:space="preserve">
+    <value>Every trail is part of a circle, and all the circles share one centre: the celestial pole. It's the point the whole sky turns around.</value>
+  </data>
+  <data name="Narr_Trails_Camera_03" xml:space="preserve">
+    <value>After four hours, look at the angle each star has swept round the pole: about sixty degrees. The sky turns fifteen degrees every hour. Really, of course, it's Earth turning underneath it.</value>
+  </data>
+  <data name="Narr_Trails_Camera_04" xml:space="preserve">
+    <value>Here's a question. How long would the shutter have to stay open for the trails to close into full circles?</value>
+  </data>
+  <data name="Narr_Trails_Camera_05" xml:space="preserve">
+    <value>A full circle takes a whole day, so the Sun always comes up first. Now look near the horizon. Stars far enough from the pole dip under the ground and come up again, but stars close to the pole stay up all night. They never set.</value>
+  </data>
+  <data name="Narr_Trails_Camera_06" xml:space="preserve">
+    <value>Now turn round and face the other way. The trails become wide, gentle arcs: these stars rise in the east, swing across the sky and set in the west.</value>
+  </data>
+  <data name="Narr_Trails_Camera_07" xml:space="preserve">
+    <value>Facing east, the stars climb out of the horizon at a slant, all tilted the same way. How steep the slant is depends on how far you are from the equator.</value>
+  </data>
+  <data name="Narr_Trails_Camera_08" xml:space="preserve">
+    <value>Let's travel to the equator. The celestial pole now sits right on the horizon, and the horizon cuts every circle in half. Each star spends half its time below the ground: not one stays up all night.</value>
+  </data>
+  <data name="Narr_Trails_Camera_09" xml:space="preserve">
+    <value>And now to the North Pole. Look straight up: the celestial pole is overhead, and every star circles round parallel to the horizon. Nothing rises, and nothing sets.</value>
+  </data>
+  <data name="Narr_Trails_Camera_10" xml:space="preserve">
+    <value>Your turn. Drag the picture to turn the camera, or travel north and south with the latitude slider, and watch how the trails change.</value>
+  </data>
+  <data name="Narr_Trails_Con_Aquila" xml:space="preserve">
+    <value>Aquila, the eagle. Altair sits between two fainter stars, like the Cowherd carrying his two children in baskets on a pole.</value>
+  </data>
+  <data name="Narr_Trails_Con_BigDipper" xml:space="preserve">
+    <value>The Big Dipper: seven bright stars of the Great Bear. Its two end stars point to Polaris, and its handle swings round the pole through the night and through the year.</value>
+  </data>
+  <data name="Narr_Trails_Con_CanisMajor" xml:space="preserve">
+    <value>Canis Major, the great dog, with Sirius on its chest. It follows Orion across the sky.</value>
+  </data>
+  <data name="Narr_Trails_Con_Cassiopeia" xml:space="preserve">
+    <value>Cassiopeia, a W of five stars on the other side of the pole from the Big Dipper. It's another way to find Polaris.</value>
+  </data>
+  <data name="Narr_Trails_Con_Crux" xml:space="preserve">
+    <value>The Southern Cross, the smallest constellation of all. Its long bar points to the south celestial pole.</value>
+  </data>
+  <data name="Narr_Trails_Con_Cygnus" xml:space="preserve">
+    <value>Cygnus the swan, flying down the Milky Way. It's also called the Northern Cross.</value>
+  </data>
+  <data name="Narr_Trails_Con_Gemini" xml:space="preserve">
+    <value>Gemini, the twins, with Castor and Pollux for their heads.</value>
+  </data>
+  <data name="Narr_Trails_Con_Leo" xml:space="preserve">
+    <value>Leo the lion: a backward question mark for its head and mane, and a triangle for its tail.</value>
+  </data>
+  <data name="Narr_Trails_Con_LittleDipper" xml:space="preserve">
+    <value>The Little Dipper, in the Little Bear, with Polaris at the end of its handle.</value>
+  </data>
+  <data name="Narr_Trails_Con_Lyra" xml:space="preserve">
+    <value>Lyra, the lyre: bright Vega and a small parallelogram of fainter stars.</value>
+  </data>
+  <data name="Narr_Trails_Con_Orion" xml:space="preserve">
+    <value>Orion the hunter, with three stars in a row for his belt. He sits on the celestial equator, so he can be seen from everywhere on Earth.</value>
+  </data>
+  <data name="Narr_Trails_Con_Pegasus" xml:space="preserve">
+    <value>Pegasus, the winged horse, with its Great Square: a big box of four stars high in autumn evenings.</value>
+  </data>
+  <data name="Narr_Trails_Con_Sagittarius" xml:space="preserve">
+    <value>Sagittarius, shaped like a teapot. Look towards it and you're looking towards the centre of our galaxy.</value>
+  </data>
+  <data name="Narr_Trails_Con_Scorpius" xml:space="preserve">
+    <value>Scorpius, the scorpion: a long curving hook of stars with red Antares at its heart. In China it's part of the Azure Dragon.</value>
+  </data>
+  <data name="Narr_Trails_Con_SummerTriangle" xml:space="preserve">
+    <value>The Summer Triangle: Vega, Deneb and Altair, three bright stars from three different constellations, with the Milky Way running through it.</value>
+  </data>
+  <data name="Narr_Trails_Con_Taurus" xml:space="preserve">
+    <value>Taurus the bull: orange Aldebaran for its eye, and the Pleiades star cluster on its shoulder.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Arc" xml:space="preserve">
+    <value>This angle is how far the sky has turned while the shutter was open: fifteen degrees every hour, a whole circle in a day.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Circumpolar" xml:space="preserve">
+    <value>These stars are close enough to the visible pole that their circles never touch the horizon. They never set: we call them circumpolar.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Compass" xml:space="preserve">
+    <value>The compass points: north, east, south and west. Drag the picture to turn the camera round.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Earth" xml:space="preserve">
+    <value>Earth, taking a year to go round the Sun. Its night side always faces away from the Sun.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Equator" xml:space="preserve">
+    <value>The celestial equator, right above Earth's equator. A star on it rises due east, sets due west, and is up for half of each day.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Horizon" xml:space="preserve">
+    <value>The horizon hides every star below it. Near it, trails dive into the ground and come back up somewhere else.</value>
+  </data>
+  <data name="Narr_Trails_Obj_NeverRises" xml:space="preserve">
+    <value>These stars circle the other pole and never come above your horizon. To see them, you'd have to travel towards the other hemisphere.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Night" xml:space="preserve">
+    <value>At midnight you look straight away from the Sun. As Earth goes round its orbit, this direction sweeps round the sky, bringing new constellations each season.</value>
+  </data>
+  <data name="Narr_Trails_Obj_NorthPole" xml:space="preserve">
+    <value>The north celestial pole, straight out from Earth's North Pole. North of the equator it stands above the northern horizon, exactly as high as your latitude.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Observer" xml:space="preserve">
+    <value>This is you, at the centre of the sky. The ground cuts the celestial sphere in half, and you can only see the half above it.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Panorama" xml:space="preserve">
+    <value>This is the sky at nine in the evening on this date. Run the year and watch the constellations slide west, a little earlier every night.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Pole" xml:space="preserve">
+    <value>The celestial pole: the one point of the sky that doesn't move. Every star circles round it, because it lies straight out along Earth's axis.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Risers" xml:space="preserve">
+    <value>Stars in this band rise and set every day, like the Sun. The nearer they are to the visible pole, the longer they stay up.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Shutter" xml:space="preserve">
+    <value>The camera's display shows how long the shutter has been open. The longer it's open, the longer every trail.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Sidereal" xml:space="preserve">
+    <value>One turn of Earth brings the stars back after twenty-three hours and fifty-six minutes. But Earth has moved along its orbit, so it needs about four more minutes to face the Sun again.</value>
+  </data>
+  <data name="Narr_Trails_Obj_SouthPole" xml:space="preserve">
+    <value>The south celestial pole, straight out from Earth's South Pole. South of the equator it stands above the southern horizon, exactly as high as your latitude.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Sun" xml:space="preserve">
+    <value>The Sun. Whatever lies behind it is in the daytime sky, and we can't see it.</value>
+  </data>
+  <data name="Narr_Trails_Obj_Zenith" xml:space="preserve">
+    <value>The zenith: the point straight above your head.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_01" xml:space="preserve">
+    <value>Picture the sky as a giant ball around you, with you at the centre. The ground cuts it in half, so you only ever see the half above the horizon.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_02" xml:space="preserve">
+    <value>The sky seems to turn about an axis through the celestial poles. And here's a neat fact: the pole's height above your horizon is exactly your latitude.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_03" xml:space="preserve">
+    <value>Halfway between the poles runs the celestial equator. A star on it rises due east, sets due west, and is up for exactly half of each turn.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_04" xml:space="preserve">
+    <value>Stars close enough to the visible pole never touch the horizon. They circle all night, every night. We call them circumpolar.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_05" xml:space="preserve">
+    <value>Around the other pole there's a matching cap of sky that never rises here at all. Those stars stay hidden below your feet.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_06" xml:space="preserve">
+    <value>Here's a question. Suppose you walk towards the equator. What happens to the cap of stars that never set?</value>
+  </data>
+  <data name="Narr_Trails_Sphere_07" xml:space="preserve">
+    <value>At the equator, both poles lie on the horizon. Every star rises and sets, and over a year you can see the whole sky.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_08" xml:space="preserve">
+    <value>At the North Pole, the celestial pole is straight overhead. Half the sky circles round forever, and the other half you never see at all.</value>
+  </data>
+  <data name="Narr_Trails_Sphere_09" xml:space="preserve">
+    <value>Your turn. Drag the latitude slider from pole to pole, and watch the two caps grow and shrink.</value>
+  </data>
+  <data name="Narr_Trails_Star_Achernar" xml:space="preserve">
+    <value>Achernar spins so fast that it's one of the flattest stars known, much wider across its middle than from pole to pole.</value>
+  </data>
+  <data name="Narr_Trails_Star_Acrux" xml:space="preserve">
+    <value>Acrux is the foot of the Southern Cross. The cross's long bar points towards the south celestial pole.</value>
+  </data>
+  <data name="Narr_Trails_Star_Aldebaran" xml:space="preserve">
+    <value>Aldebaran is the orange eye of Taurus the bull, an aging giant star about sixty-five light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_Alkaid" xml:space="preserve">
+    <value>Alkaid is the tip of the Big Dipper's handle. It's moving through space in a different direction from the middle five stars, so over tens of thousands of years the Dipper's shape slowly changes.</value>
+  </data>
+  <data name="Narr_Trails_Star_Altair" xml:space="preserve">
+    <value>Altair is the Cowherd, across the Milky Way from the Weaver Girl. It spins once in about nine hours, so fast that it's flattened like a squashed ball.</value>
+  </data>
+  <data name="Narr_Trails_Star_Antares" xml:space="preserve">
+    <value>Antares is the red heart of the Scorpion. Its name means rival of Mars, for its colour.</value>
+  </data>
+  <data name="Narr_Trails_Star_Arcturus" xml:space="preserve">
+    <value>Arcturus is the brightest star north of the celestial equator, an orange giant about thirty-seven light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_Betelgeuse" xml:space="preserve">
+    <value>Betelgeuse is Orion's red shoulder, a red supergiant so huge that, put in place of the Sun, it would reach beyond the orbit of Mars. One day it will explode as a supernova.</value>
+  </data>
+  <data name="Narr_Trails_Star_Canopus" xml:space="preserve">
+    <value>Canopus is the second-brightest star of the night sky. In old China it was the star of long life, seen low in the south.</value>
+  </data>
+  <data name="Narr_Trails_Star_Capella" xml:space="preserve">
+    <value>Capella looks like one star, but it's really two yellow giants circling each other, about forty-three light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_Castor" xml:space="preserve">
+    <value>Castor, the other twin, is really six stars: three pairs, all circling one another.</value>
+  </data>
+  <data name="Narr_Trails_Star_Deneb" xml:space="preserve">
+    <value>Deneb is the tail of the Swan. It's probably around two thousand light-years away, which makes it one of the most luminous stars we can see.</value>
+  </data>
+  <data name="Narr_Trails_Star_Dubhe" xml:space="preserve">
+    <value>Dubhe is the end star of the Big Dipper's bowl. Draw a line from Merak through Dubhe and carry on about five times as far, and you reach Polaris.</value>
+  </data>
+  <data name="Narr_Trails_Star_Fomalhaut" xml:space="preserve">
+    <value>Fomalhaut is a lonely bright star of autumn evenings, circled by a wide ring of dust.</value>
+  </data>
+  <data name="Narr_Trails_Star_Polaris" xml:space="preserve">
+    <value>Polaris lies less than a degree from the north celestial pole, so it hardly moves all night. It's about four hundred and thirty light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_Pollux" xml:space="preserve">
+    <value>Pollux is the brighter of the Gemini twins, an orange giant with a planet of its own, about thirty-four light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_Procyon" xml:space="preserve">
+    <value>Procyon is a close neighbour, about eleven light-years away. With Sirius and Betelgeuse it makes the Winter Triangle.</value>
+  </data>
+  <data name="Narr_Trails_Star_Regulus" xml:space="preserve">
+    <value>Regulus is the heart of Leo. It spins so fast that it bulges at its middle, and it lies almost exactly on the Sun's yearly path.</value>
+  </data>
+  <data name="Narr_Trails_Star_Rigel" xml:space="preserve">
+    <value>Rigel is Orion's bright blue-white foot: a supergiant thousands of times brighter than the Sun, about eight hundred and sixty light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_RigilKentaurus" xml:space="preserve">
+    <value>Alpha Centauri is the nearest star system to the Sun, just over four light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_SigOct" xml:space="preserve">
+    <value>Sigma Octantis is the south pole star, about a degree from the south celestial pole, but so faint that you need a dark sky to find it.</value>
+  </data>
+  <data name="Narr_Trails_Star_Sirius" xml:space="preserve">
+    <value>Sirius is the brightest star of the night sky, only eight and a half light-years away, with a tiny white dwarf companion.</value>
+  </data>
+  <data name="Narr_Trails_Star_Spica" xml:space="preserve">
+    <value>Spica is two hot blue stars so close together that they pull each other into egg shapes, about two hundred and fifty light-years away.</value>
+  </data>
+  <data name="Narr_Trails_Star_Vega" xml:space="preserve">
+    <value>Vega is the Weaver Girl, twenty-five light-years away. As Earth's axis slowly wobbles, in about twelve thousand years Vega will become the pole star.</value>
+  </data>
+  <data name="Narr_Trails_Year_01" xml:space="preserve">
+    <value>Why do the evening stars change through the year? Here's Earth going round the Sun. On the night side you look away from the Sun, out to the far-off stars.</value>
+  </data>
+  <data name="Narr_Trails_Year_02" xml:space="preserve">
+    <value>In December, the midnight side of Earth faces Orion. So that's when Orion is up all night, highest around midnight.</value>
+  </data>
+  <data name="Narr_Trails_Year_03" xml:space="preserve">
+    <value>Half a year later, Earth is on the other side of the Sun. Orion is now behind the Sun, lost in the daylight, and Scorpius takes over the night.</value>
+  </data>
+  <data name="Narr_Trails_Year_04" xml:space="preserve">
+    <value>Here's a question. The stars rise a little earlier every night. By about how much?</value>
+  </data>
+  <data name="Narr_Trails_Year_05" xml:space="preserve">
+    <value>Here's why. To bring the same star back overhead, Earth needs one full turn: twenty-three hours and fifty-six minutes. But meanwhile Earth has moved along its orbit, so it has to turn a little more to face the Sun again. That makes our twenty-four-hour day.</value>
+  </data>
+  <data name="Narr_Trails_Year_06" xml:space="preserve">
+    <value>Four minutes a night adds up to two hours a month. Watch the evening sky: night after night, the constellations slide west.</value>
+  </data>
+  <data name="Narr_Trails_Year_07" xml:space="preserve">
+    <value>After a whole year, Earth is back where it started, and the evening sky repeats itself.</value>
+  </data>
+  <data name="Narr_Trails_Year_08" xml:space="preserve">
+    <value>Your turn. Drag Earth round its orbit, or pick a date, and see which constellations fill the evening sky.</value>
+  </data>
+  <data name="Notes_Add" xml:space="preserve">
+    <value>Save note</value>
+  </data>
+  <data name="Notes_Copied" xml:space="preserve">
+    <value>Copied every note to the clipboard, as Markdown.</value>
+  </data>
+  <data name="Notes_CopyAll" xml:space="preserve">
+    <value>Copy all</value>
+  </data>
+  <data name="Notes_Count" xml:space="preserve">
+    <value>{0} notes</value>
+  </data>
+  <data name="Notes_Details" xml:space="preserve">
+    <value>Page {0} · {1}</value>
+  </data>
+  <data name="Notes_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Notes_Empty" xml:space="preserve">
+    <value>No notes here yet.</value>
+  </data>
+  <data name="Notes_Export" xml:space="preserve">
+    <value>Export…</value>
+  </data>
+  <data name="Notes_Export_FileName" xml:space="preserve">
+    <value>Explore-Book-notes-{0}.md</value>
+  </data>
+  <data name="Notes_Export_Markdown" xml:space="preserve">
+    <value>Markdown</value>
+  </data>
+  <data name="Notes_Export_Page" xml:space="preserve">
+    <value>{0} (page {1})</value>
+  </data>
+  <data name="Notes_Export_Summary" xml:space="preserve">
+    <value>Exported {0} · {1} notes</value>
+  </data>
+  <data name="Notes_Export_Text" xml:space="preserve">
+    <value>Plain text</value>
+  </data>
+  <data name="Notes_Export_Tip" xml:space="preserve">
+    <value>Save every note as a Markdown file</value>
+  </data>
+  <data name="Notes_Export_Title" xml:space="preserve">
+    <value>Explore Book · Notes</value>
+  </data>
+  <data name="Notes_Exported" xml:space="preserve">
+    <value>Exported to {0}</value>
+  </data>
+  <data name="Notes_Hint" xml:space="preserve">
+    <value>Tip: select text on a page, right-click it and choose "Add to notes" to quote it.</value>
+  </data>
+  <data name="Notes_Open" xml:space="preserve">
+    <value>Turn to this page</value>
+  </data>
+  <data name="Notes_Placeholder" xml:space="preserve">
+    <value>Write a note on this page…</value>
+  </data>
+  <data name="Notes_Remove" xml:space="preserve">
+    <value>Delete note</value>
+  </data>
+  <data name="Notes_RemoveQuote" xml:space="preserve">
+    <value>Remove the quote</value>
+  </data>
+  <data name="Notes_ThisPageOnly" xml:space="preserve">
+    <value>This page only</value>
+  </data>
+  <data name="Notes_Tip" xml:space="preserve">
+    <value>Write a note on this page, see your notes, export them</value>
+  </data>
+  <data name="Notes_Title" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Page_Caption" xml:space="preserve">
+    <value>Page {0}</value>
+  </data>
+  <data name="Page_Caption_BackCover" xml:space="preserve">
+    <value>Back cover</value>
+  </data>
+  <data name="Page_Caption_Chapter" xml:space="preserve">
+    <value>Chapter {0} · {1}</value>
+  </data>
+  <data name="Page_Caption_Contents" xml:space="preserve">
+    <value>Contents · {0}</value>
+  </data>
+  <data name="Page_Caption_Cover" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="Page_Caption_Diagram" xml:space="preserve">
+    <value>{0} · picture</value>
+  </data>
+  <data name="Page_Caption_HowToUse" xml:space="preserve">
+    <value>How to use this book</value>
+  </data>
+  <data name="Page_Caption_Title" xml:space="preserve">
+    <value>Title page</value>
+  </data>
+  <data name="Progress_Complete" xml:space="preserve">
+    <value>✓ Done</value>
+  </data>
+  <data name="Progress_Opened" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="Progress_Walkthroughs" xml:space="preserve">
+    <value>Walkthroughs {0}/{1}</value>
+  </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>Animate</value>
   </data>
@@ -3353,6 +3746,78 @@
   </data>
   <data name="Seasons_Today" xml:space="preserve">
     <value>Today</value>
+  </data>
+  <data name="Settings_Accent" xml:space="preserve">
+    <value>Accent colour</value>
+  </data>
+  <data name="Settings_AnimatesTurns" xml:space="preserve">
+    <value>Animate page turns</value>
+  </data>
+  <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
+    <value>Off: pages change at once, for readers who prefer less motion.</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Settings_Language_Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Settings_Language_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Settings_Narration" xml:space="preserve">
+    <value>Narration</value>
+  </data>
+  <data name="Settings_Narration_Note" xml:space="preserve">
+    <value>With reading aloud off, walkthroughs still run with subtitles at a reading pace.</value>
+  </data>
+  <data name="Settings_Progress" xml:space="preserve">
+    <value>Reading progress</value>
+  </data>
+  <data name="Settings_Progress_Clear" xml:space="preserve">
+    <value>Clear reading progress</value>
+  </data>
+  <data name="Settings_Progress_Note" xml:space="preserve">
+    <value>Shown in the table of contents. Clearing it keeps your bookmarks.</value>
+  </data>
+  <data name="Settings_Progress_Summary" xml:space="preserve">
+    <value>{0} chapters opened, {1} with every walkthrough heard.</value>
+  </data>
+  <data name="Settings_Reading" xml:space="preserve">
+    <value>Reading</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>Changes take effect at once and are saved on this device.</value>
+  </data>
+  <data name="Settings_SpeakOnClick" xml:space="preserve">
+    <value>Read out what you click in a picture</value>
+  </data>
+  <data name="Settings_Subtitles" xml:space="preserve">
+    <value>Show subtitles</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Follow system</value>
+  </data>
+  <data name="Settings_Tip" xml:space="preserve">
+    <value>Language, theme, observer location, narration and page turning</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_Voice" xml:space="preserve">
+    <value>Read aloud</value>
+  </data>
+  <data name="Settings_Volume" xml:space="preserve">
+    <value>Volume</value>
   </data>
   <data name="SolarSystem_Ariel_Description" xml:space="preserve">
     <value>Ariel has the brightest and probably the youngest surface of Uranus's large moons. Long fault valleys cut across it, and some areas look smoothed over by flows that may have been icy lava. Few large craters survive, suggesting it was resurfaced relatively recently.</value>
@@ -3791,6 +4256,30 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>The hottest planet</value>
+  </data>
+  <data name="Text_AddToNotes" xml:space="preserve">
+    <value>Add to notes</value>
+  </data>
+  <data name="Text_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Text_SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Theme_Accent_Amber" xml:space="preserve">
+    <value>Amber</value>
+  </data>
+  <data name="Theme_Accent_Indigo" xml:space="preserve">
+    <value>Indigo</value>
+  </data>
+  <data name="Theme_Accent_Pine" xml:space="preserve">
+    <value>Pine</value>
+  </data>
+  <data name="Theme_Accent_Plum" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="Theme_Accent_Terracotta" xml:space="preserve">
+    <value>Terracotta</value>
   </data>
   <data name="Tides_Bulges_Fact1" xml:space="preserve">
     <value>The tidal force is the difference between the Moon's pull on a piece of ocean and its pull on Earth's centre. It weakens with the cube of the distance, so what matters is how near the Moon is, not how big.</value>
@@ -4242,6 +4731,765 @@
   <data name="Toolbar_Previous" xml:space="preserve">
     <value>Previous page</value>
   </data>
+  <data name="Trails_Camera_Clock" xml:space="preserve">
+    <value>{0} → {1} · {2} h {3} min</value>
+  </data>
+  <data name="Trails_Camera_East_Description" xml:space="preserve">
+    <value>The stars come up out of the horizon in parallel slanting lines. The nearer the equator, the steeper they climb.</value>
+  </data>
+  <data name="Trails_Camera_East_Title" xml:space="preserve">
+    <value>Facing east: stars rising at a slant</value>
+  </data>
+  <data name="Trails_Camera_Equator_Description" xml:space="preserve">
+    <value>Here the stars rise, arc across the sky and set. Their circles are so big that you only see a gentle curve of each.</value>
+  </data>
+  <data name="Trails_Camera_Equator_Title" xml:space="preserve">
+    <value>Away from the pole: wide arcs</value>
+  </data>
+  <data name="Trails_Camera_Fact1" xml:space="preserve">
+    <value>Star-trail photos are usually hundreds of 20–30 second shots stacked together, so the sky stays dark and every trail stays sharp.</value>
+  </data>
+  <data name="Trails_Camera_Fact2" xml:space="preserve">
+    <value>Polaris is less than a degree from the north celestial pole, so in a northern star-trail photo it draws only a tiny arc near the centre.</value>
+  </data>
+  <data name="Trails_Camera_Fact3" xml:space="preserve">
+    <value>The south celestial pole has no bright star near it; the Southern Cross and the two bright Pointers lead the way to it.</value>
+  </data>
+  <data name="Trails_Camera_Fact4" xml:space="preserve">
+    <value>The sky turns about 15° an hour: a fist held at arm's length covers about 10°.</value>
+  </data>
+  <data name="Trails_Camera_Fact5" xml:space="preserve">
+    <value>Earth's axis slowly wobbles round once in about 26,000 years, so the pole moves among the stars: in about 12,000 years Vega will be close to the north pole.</value>
+  </data>
+  <data name="Trails_Camera_Note" xml:space="preserve">
+    <value>A wide-angle camera (120° across) at the latitude chosen on the left page; the shutter opens at 20:00. The bright stars are real, the fainter ones a random fill, and the sky is drawn dark all night.</value>
+  </data>
+  <data name="Trails_Camera_Pole_Description" xml:space="preserve">
+    <value>Every trail is an arc round the celestial pole. The longer the exposure, the longer the arcs; stars near the pole draw small circles, stars far from it big ones.</value>
+  </data>
+  <data name="Trails_Camera_Pole_Title" xml:space="preserve">
+    <value>Facing the pole: circles round one point</value>
+  </data>
+  <data name="Trails_Camera_Subtitle" xml:space="preserve">
+    <value>The sky turns: stars draw circles round the pole</value>
+  </data>
+  <data name="Trails_Camera_Up_Description" xml:space="preserve">
+    <value>Overhead the trails are still circles round the pole, which sits as far from the zenith as you are from Earth's pole. Only at a pole are the circles centred right overhead.</value>
+  </data>
+  <data name="Trails_Camera_Up_Title" xml:space="preserve">
+    <value>Straight up: circles round the pole, off to one side</value>
+  </data>
+  <data name="Trails_Camera_West_Description" xml:space="preserve">
+    <value>The stars go down into the horizon in parallel slanting lines, the mirror image of the east.</value>
+  </data>
+  <data name="Trails_Camera_West_Title" xml:space="preserve">
+    <value>Facing west: stars setting at a slant</value>
+  </data>
+  <data name="Trails_Chart_Hours_Axis" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="Trails_Chart_Hours_Caption" xml:space="preserve">
+    <value>Hours above the horizon, by declination</value>
+  </data>
+  <data name="Trails_Chart_Hours_Note" xml:space="preserve">
+    <value>Declination is a star's latitude on the sky. Gold: never sets; blue: never rises; dots: the stars on the sphere.</value>
+  </data>
+  <data name="Trails_Chart_Transit_Caption" xml:space="preserve">
+    <value>When constellations stand highest</value>
+  </data>
+  <data name="Trails_Chart_Transit_Note" xml:space="preserve">
+    <value>Each line runs about two hours earlier a month. Shaded: night at this latitude (twilight left out).</value>
+  </data>
+  <data name="Trails_Con_Aquila" xml:space="preserve">
+    <value>Aquila</value>
+  </data>
+  <data name="Trails_Con_BigDipper" xml:space="preserve">
+    <value>Big Dipper</value>
+  </data>
+  <data name="Trails_Con_CanisMajor" xml:space="preserve">
+    <value>Canis Major</value>
+  </data>
+  <data name="Trails_Con_Cassiopeia" xml:space="preserve">
+    <value>Cassiopeia</value>
+  </data>
+  <data name="Trails_Con_Crux" xml:space="preserve">
+    <value>Southern Cross</value>
+  </data>
+  <data name="Trails_Con_Cygnus" xml:space="preserve">
+    <value>Cygnus</value>
+  </data>
+  <data name="Trails_Con_Gemini" xml:space="preserve">
+    <value>Gemini</value>
+  </data>
+  <data name="Trails_Con_Leo" xml:space="preserve">
+    <value>Leo</value>
+  </data>
+  <data name="Trails_Con_LittleDipper" xml:space="preserve">
+    <value>Little Dipper</value>
+  </data>
+  <data name="Trails_Con_Lyra" xml:space="preserve">
+    <value>Lyra</value>
+  </data>
+  <data name="Trails_Con_Orion" xml:space="preserve">
+    <value>Orion</value>
+  </data>
+  <data name="Trails_Con_Pegasus" xml:space="preserve">
+    <value>Pegasus</value>
+  </data>
+  <data name="Trails_Con_Sagittarius" xml:space="preserve">
+    <value>Sagittarius</value>
+  </data>
+  <data name="Trails_Con_Scorpius" xml:space="preserve">
+    <value>Scorpius</value>
+  </data>
+  <data name="Trails_Con_SummerTriangle" xml:space="preserve">
+    <value>Summer Triangle</value>
+  </data>
+  <data name="Trails_Con_Taurus" xml:space="preserve">
+    <value>Taurus</value>
+  </data>
+  <data name="Trails_Date" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Trails_DateCaption" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Trails_Day_December" xml:space="preserve">
+    <value>December solstice</value>
+  </data>
+  <data name="Trails_Day_June" xml:space="preserve">
+    <value>June solstice</value>
+  </data>
+  <data name="Trails_Day_March" xml:space="preserve">
+    <value>March equinox</value>
+  </data>
+  <data name="Trails_Day_September" xml:space="preserve">
+    <value>September equinox</value>
+  </data>
+  <data name="Trails_Dir_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Trails_Dir_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Trails_Dir_NE" xml:space="preserve">
+    <value>NE</value>
+  </data>
+  <data name="Trails_Dir_NW" xml:space="preserve">
+    <value>NW</value>
+  </data>
+  <data name="Trails_Dir_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Trails_Dir_SE" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="Trails_Dir_SW" xml:space="preserve">
+    <value>SW</value>
+  </data>
+  <data name="Trails_Dir_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Trails_Face_Caption" xml:space="preserve">
+    <value>Point the camera</value>
+  </data>
+  <data name="Trails_Face_East" xml:space="preserve">
+    <value>East</value>
+  </data>
+  <data name="Trails_Face_Equator" xml:space="preserve">
+    <value>Away from the pole</value>
+  </data>
+  <data name="Trails_Face_Pole" xml:space="preserve">
+    <value>To the pole</value>
+  </data>
+  <data name="Trails_Face_Up" xml:space="preserve">
+    <value>Straight up</value>
+  </data>
+  <data name="Trails_Face_West" xml:space="preserve">
+    <value>West</value>
+  </data>
+  <data name="Trails_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Trails_Go_Equator" xml:space="preserve">
+    <value>Equator</value>
+  </data>
+  <data name="Trails_Go_Home" xml:space="preserve">
+    <value>My location</value>
+  </data>
+  <data name="Trails_Go_NorthPole" xml:space="preserve">
+    <value>North Pole</value>
+  </data>
+  <data name="Trails_Go_SouthPole" xml:space="preserve">
+    <value>South Pole</value>
+  </data>
+  <data name="Trails_Hint_Camera" xml:space="preserve">
+    <value>Drag the picture to turn and tilt the camera.</value>
+  </data>
+  <data name="Trails_Hint_Sphere" xml:space="preserve">
+    <value>Drag to turn the sphere; change the latitude on the left page.</value>
+  </data>
+  <data name="Trails_Hint_Year" xml:space="preserve">
+    <value>Drag Earth round the Sun, or run the year.</value>
+  </data>
+  <data name="Trails_Label_Arc" xml:space="preserve">
+    <value>turned {0}°</value>
+  </data>
+  <data name="Trails_Label_Circumpolar" xml:space="preserve">
+    <value>Never sets</value>
+  </data>
+  <data name="Trails_Label_Midnight" xml:space="preserve">
+    <value>Midnight sky</value>
+  </data>
+  <data name="Trails_Label_NeverRises" xml:space="preserve">
+    <value>Never rises</value>
+  </data>
+  <data name="Trails_Label_NorthPole" xml:space="preserve">
+    <value>North celestial pole</value>
+  </data>
+  <data name="Trails_Label_Risers" xml:space="preserve">
+    <value>Rises and sets</value>
+  </data>
+  <data name="Trails_Label_SouthPole" xml:space="preserve">
+    <value>South celestial pole</value>
+  </data>
+  <data name="Trails_Label_Zenith" xml:space="preserve">
+    <value>Zenith</value>
+  </data>
+  <data name="Trails_Latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Trails_Lesson_Camera_Choice1" xml:space="preserve">
+    <value>About a day (23 h 56 min)</value>
+  </data>
+  <data name="Trails_Lesson_Camera_Choice2" xml:space="preserve">
+    <value>About 12 hours</value>
+  </data>
+  <data name="Trails_Lesson_Camera_Choice3" xml:space="preserve">
+    <value>About an hour</value>
+  </data>
+  <data name="Trails_Lesson_Sphere_Choice1" xml:space="preserve">
+    <value>It shrinks</value>
+  </data>
+  <data name="Trails_Lesson_Sphere_Choice2" xml:space="preserve">
+    <value>It grows</value>
+  </data>
+  <data name="Trails_Lesson_Sphere_Choice3" xml:space="preserve">
+    <value>It stays the same</value>
+  </data>
+  <data name="Trails_Lesson_Year_Choice1" xml:space="preserve">
+    <value>About 4 minutes</value>
+  </data>
+  <data name="Trails_Lesson_Year_Choice2" xml:space="preserve">
+    <value>About an hour</value>
+  </data>
+  <data name="Trails_Lesson_Year_Choice3" xml:space="preserve">
+    <value>Not at all</value>
+  </data>
+  <data name="Trails_Mode_Camera" xml:space="preserve">
+    <value>Long exposure</value>
+  </data>
+  <data name="Trails_Mode_Sphere" xml:space="preserve">
+    <value>Celestial sphere</value>
+  </data>
+  <data name="Trails_Mode_Year" xml:space="preserve">
+    <value>Through the year</value>
+  </data>
+  <data name="Trails_Month_1" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="Trails_Month_10" xml:space="preserve">
+    <value>Oct</value>
+  </data>
+  <data name="Trails_Month_11" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="Trails_Month_12" xml:space="preserve">
+    <value>Dec</value>
+  </data>
+  <data name="Trails_Month_2" xml:space="preserve">
+    <value>Feb</value>
+  </data>
+  <data name="Trails_Month_3" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="Trails_Month_4" xml:space="preserve">
+    <value>Apr</value>
+  </data>
+  <data name="Trails_Month_5" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Trails_Month_6" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="Trails_Month_7" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="Trails_Month_8" xml:space="preserve">
+    <value>Aug</value>
+  </data>
+  <data name="Trails_Month_9" xml:space="preserve">
+    <value>Sep</value>
+  </data>
+  <data name="Trails_Obj_Arc" xml:space="preserve">
+    <value>How far the sky turned</value>
+  </data>
+  <data name="Trails_Obj_Circumpolar" xml:space="preserve">
+    <value>Stars that never set</value>
+  </data>
+  <data name="Trails_Obj_Compass" xml:space="preserve">
+    <value>Compass points</value>
+  </data>
+  <data name="Trails_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Trails_Obj_Equator" xml:space="preserve">
+    <value>Celestial equator</value>
+  </data>
+  <data name="Trails_Obj_Horizon" xml:space="preserve">
+    <value>Horizon</value>
+  </data>
+  <data name="Trails_Obj_NeverRises" xml:space="preserve">
+    <value>Stars that never rise</value>
+  </data>
+  <data name="Trails_Obj_Night" xml:space="preserve">
+    <value>The midnight sky</value>
+  </data>
+  <data name="Trails_Obj_NorthPole" xml:space="preserve">
+    <value>North celestial pole</value>
+  </data>
+  <data name="Trails_Obj_Observer" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Trails_Obj_Panorama" xml:space="preserve">
+    <value>The evening sky</value>
+  </data>
+  <data name="Trails_Obj_Pole" xml:space="preserve">
+    <value>Celestial pole</value>
+  </data>
+  <data name="Trails_Obj_Risers" xml:space="preserve">
+    <value>Stars that rise and set</value>
+  </data>
+  <data name="Trails_Obj_Shutter" xml:space="preserve">
+    <value>Camera display</value>
+  </data>
+  <data name="Trails_Obj_Sidereal" xml:space="preserve">
+    <value>Sidereal day</value>
+  </data>
+  <data name="Trails_Obj_SouthPole" xml:space="preserve">
+    <value>South celestial pole</value>
+  </data>
+  <data name="Trails_Obj_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Trails_Obj_Zenith" xml:space="preserve">
+    <value>Zenith</value>
+  </data>
+  <data name="Trails_Option_Figures" xml:space="preserve">
+    <value>Constellations</value>
+  </data>
+  <data name="Trails_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Trails_Place_Away" xml:space="preserve">
+    <value>Travelling: not your location</value>
+  </data>
+  <data name="Trails_Place_Home" xml:space="preserve">
+    <value>At {0}</value>
+  </data>
+  <data name="Trails_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Trails_Restart" xml:space="preserve">
+    <value>Open the shutter again</value>
+  </data>
+  <data name="Trails_Shutter" xml:space="preserve">
+    <value>Exposure {0} h {1} min</value>
+  </data>
+  <data name="Trails_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Trails_Sphere_Clock" xml:space="preserve">
+    <value>Sidereal time {0}</value>
+  </data>
+  <data name="Trails_Sphere_Equator_Description" xml:space="preserve">
+    <value>Both celestial poles lie on the horizon. Every star is up for half of each day, and over a year you can see the whole sky.</value>
+  </data>
+  <data name="Trails_Sphere_Equator_Title" xml:space="preserve">
+    <value>At the equator: everything rises and sets</value>
+  </data>
+  <data name="Trails_Sphere_Fact1" xml:space="preserve">
+    <value>The pole's height above the horizon equals your latitude: sailors measured it to find how far north or south they were.</value>
+  </data>
+  <data name="Trails_Sphere_Fact2" xml:space="preserve">
+    <value>From the equator you can see every star in the sky over a year; from a pole, only half of them.</value>
+  </data>
+  <data name="Trails_Sphere_Fact3" xml:space="preserve">
+    <value>The celestial equator lies straight above Earth's equator, and the celestial poles straight above Earth's poles.</value>
+  </data>
+  <data name="Trails_Sphere_Fact4" xml:space="preserve">
+    <value>Near the horizon, stars look about half a degree higher than they really are: the air bends their light.</value>
+  </data>
+  <data name="Trails_Sphere_Fact5" xml:space="preserve">
+    <value>Canopus, the second-brightest star, never rises north of about 37° N; from southern China it is the famous low 'old man star' of winter evenings.</value>
+  </data>
+  <data name="Trails_Sphere_Middle_Description" xml:space="preserve">
+    <value>Near the visible pole, stars never set; near the other pole, they never rise; in between, they rise and set, staying up longer the nearer they are to the visible pole.</value>
+  </data>
+  <data name="Trails_Sphere_Middle_Title" xml:space="preserve">
+    <value>In between: three kinds of stars</value>
+  </data>
+  <data name="Trails_Sphere_Note" xml:space="preserve">
+    <value>The celestial sphere seen from outside, with you at its centre on a disc of ground.</value>
+  </data>
+  <data name="Trails_Sphere_Pole_Description" xml:space="preserve">
+    <value>The celestial pole is overhead and every star circles parallel to the horizon. Half the sky is always up; the other half never is.</value>
+  </data>
+  <data name="Trails_Sphere_Pole_Title" xml:space="preserve">
+    <value>At a pole: nothing rises or sets</value>
+  </data>
+  <data name="Trails_Sphere_Subtitle" xml:space="preserve">
+    <value>Which stars never set, and which never rise</value>
+  </data>
+  <data name="Trails_Star_Achernar" xml:space="preserve">
+    <value>Achernar</value>
+  </data>
+  <data name="Trails_Star_Acrux" xml:space="preserve">
+    <value>Acrux</value>
+  </data>
+  <data name="Trails_Star_Aldebaran" xml:space="preserve">
+    <value>Aldebaran</value>
+  </data>
+  <data name="Trails_Star_Alkaid" xml:space="preserve">
+    <value>Alkaid</value>
+  </data>
+  <data name="Trails_Star_Altair" xml:space="preserve">
+    <value>Altair</value>
+  </data>
+  <data name="Trails_Star_Antares" xml:space="preserve">
+    <value>Antares</value>
+  </data>
+  <data name="Trails_Star_Arcturus" xml:space="preserve">
+    <value>Arcturus</value>
+  </data>
+  <data name="Trails_Star_Betelgeuse" xml:space="preserve">
+    <value>Betelgeuse</value>
+  </data>
+  <data name="Trails_Star_Canopus" xml:space="preserve">
+    <value>Canopus</value>
+  </data>
+  <data name="Trails_Star_Capella" xml:space="preserve">
+    <value>Capella</value>
+  </data>
+  <data name="Trails_Star_Castor" xml:space="preserve">
+    <value>Castor</value>
+  </data>
+  <data name="Trails_Star_Deneb" xml:space="preserve">
+    <value>Deneb</value>
+  </data>
+  <data name="Trails_Star_Dubhe" xml:space="preserve">
+    <value>Dubhe</value>
+  </data>
+  <data name="Trails_Star_Fomalhaut" xml:space="preserve">
+    <value>Fomalhaut</value>
+  </data>
+  <data name="Trails_Star_Polaris" xml:space="preserve">
+    <value>Polaris</value>
+  </data>
+  <data name="Trails_Star_Pollux" xml:space="preserve">
+    <value>Pollux</value>
+  </data>
+  <data name="Trails_Star_Procyon" xml:space="preserve">
+    <value>Procyon</value>
+  </data>
+  <data name="Trails_Star_Regulus" xml:space="preserve">
+    <value>Regulus</value>
+  </data>
+  <data name="Trails_Star_Rigel" xml:space="preserve">
+    <value>Rigel</value>
+  </data>
+  <data name="Trails_Star_RigilKentaurus" xml:space="preserve">
+    <value>Alpha Centauri</value>
+  </data>
+  <data name="Trails_Star_SigOct" xml:space="preserve">
+    <value>Sigma Octantis</value>
+  </data>
+  <data name="Trails_Star_Sirius" xml:space="preserve">
+    <value>Sirius</value>
+  </data>
+  <data name="Trails_Star_Spica" xml:space="preserve">
+    <value>Spica</value>
+  </data>
+  <data name="Trails_Star_Vega" xml:space="preserve">
+    <value>Vega</value>
+  </data>
+  <data name="Trails_Stat_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Trails_Stat_Earlier" xml:space="preserve">
+    <value>Stars rise earlier</value>
+  </data>
+  <data name="Trails_Stat_Earlier_Value" xml:space="preserve">
+    <value>about 4 min a night, 2 h a month</value>
+  </data>
+  <data name="Trails_Stat_Exposure" xml:space="preserve">
+    <value>Exposure</value>
+  </data>
+  <data name="Trails_Stat_Exposure_Value" xml:space="preserve">
+    <value>{0} h {1} min: the sky turned {2}°</value>
+  </data>
+  <data name="Trails_Stat_HoursUp" xml:space="preserve">
+    <value>Hours up each day</value>
+  </data>
+  <data name="Trails_Stat_InDaylight" xml:space="preserve">
+    <value>{0} (in daylight, so not seen)</value>
+  </data>
+  <data name="Trails_Stat_Latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Trails_Stat_Midnight" xml:space="preserve">
+    <value>Midnight sky towards</value>
+  </data>
+  <data name="Trails_Stat_NeverRise" xml:space="preserve">
+    <value>Never rise</value>
+  </data>
+  <data name="Trails_Stat_NeverRise_Value" xml:space="preserve">
+    <value>stars within {0}° of the other pole</value>
+  </data>
+  <data name="Trails_Stat_NeverSet" xml:space="preserve">
+    <value>Never set</value>
+  </data>
+  <data name="Trails_Stat_NeverSet_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Trails_Stat_NeverSet_Value" xml:space="preserve">
+    <value>stars within {0}° of the pole</value>
+  </data>
+  <data name="Trails_Stat_Opened" xml:space="preserve">
+    <value>Shutter opened</value>
+  </data>
+  <data name="Trails_Stat_Opened_Value" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Trails_Stat_OrionHighest" xml:space="preserve">
+    <value>Orion highest at</value>
+  </data>
+  <data name="Trails_Stat_Pole" xml:space="preserve">
+    <value>Pole's height</value>
+  </data>
+  <data name="Trails_Stat_Pole_North" xml:space="preserve">
+    <value>{0}° above the northern horizon</value>
+  </data>
+  <data name="Trails_Stat_Pole_South" xml:space="preserve">
+    <value>{0}° above the southern horizon</value>
+  </data>
+  <data name="Trails_Stat_SiderealDay" xml:space="preserve">
+    <value>Sidereal day</value>
+  </data>
+  <data name="Trails_Stat_SiderealDay_Value" xml:space="preserve">
+    <value>23 h 56 min 4 s</value>
+  </data>
+  <data name="Trails_Stat_Visible" xml:space="preserve">
+    <value>Seen over a year</value>
+  </data>
+  <data name="Trails_Stat_Visible_Value" xml:space="preserve">
+    <value>{0}% of the whole sky</value>
+  </data>
+  <data name="Trails_Timeline_Camera" xml:space="preserve">
+    <value>Exposure</value>
+  </data>
+  <data name="Trails_Timeline_Sphere" xml:space="preserve">
+    <value>Sidereal time</value>
+  </data>
+  <data name="Trails_Timeline_Year" xml:space="preserve">
+    <value>Day of the year</value>
+  </data>
+  <data name="Trails_Title" xml:space="preserve">
+    <value>Star trails</value>
+  </data>
+  <data name="Trails_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Trails_Year_Description" xml:space="preserve">
+    <value>On Earth's night side you look away from the Sun. As Earth goes round, that direction sweeps round the sky: each season brings different constellations, and the stars rise about four minutes earlier every night.</value>
+  </data>
+  <data name="Trails_Year_Exaggerated" xml:space="preserve">
+    <value>Earth's step along its orbit drawn 15 times too big</value>
+  </data>
+  <data name="Trails_Year_Fact1" xml:space="preserve">
+    <value>A sidereal day is 23 h 56 min 4 s, a solar day 24 h. In a year Earth turns once more against the stars than against the Sun: about 366¼ times.</value>
+  </data>
+  <data name="Trails_Year_Fact2" xml:space="preserve">
+    <value>Stars rise about 4 minutes earlier each night, so about 2 hours earlier each month.</value>
+  </data>
+  <data name="Trails_Year_Fact3" xml:space="preserve">
+    <value>Orion fills the evening sky from about December to March; Scorpius from about June to August.</value>
+  </data>
+  <data name="Trails_Year_Fact4" xml:space="preserve">
+    <value>Chinese astronomy divides the sky along the Moon's path into 28 lunar mansions; Antares, 心宿二, is the heart of the Azure Dragon of the east.</value>
+  </data>
+  <data name="Trails_Year_Fact5" xml:space="preserve">
+    <value>The zodiac constellations are the ones the Sun passes in front of during the year, Ophiuchus included, though most horoscopes leave it out.</value>
+  </data>
+  <data name="Trails_Year_FarStar" xml:space="preserve">
+    <value>to a far star</value>
+  </data>
+  <data name="Trails_Year_Note" xml:space="preserve">
+    <value>Earth's orbit seen from above the north pole; the constellations really lie far, far beyond it. The evening sky is shown at 21:00 local sun time.</value>
+  </data>
+  <data name="Trails_Year_Panorama" xml:space="preserve">
+    <value>{0}, 21:00, facing {1}</value>
+  </data>
+  <data name="Trails_Year_SiderealCaption" xml:space="preserve">
+    <value>The sidereal day</value>
+  </data>
+  <data name="Trails_Year_StarBack" xml:space="preserve">
+    <value>23 h 56 min: the star is back</value>
+  </data>
+  <data name="Trails_Year_Subtitle" xml:space="preserve">
+    <value>Why the evening sky changes with the seasons</value>
+  </data>
+  <data name="Trails_Year_SunBack" xml:space="preserve">
+    <value>24 h: the Sun is back</value>
+  </data>
+  <data name="Trails_Year_Title" xml:space="preserve">
+    <value>{0}: the midnight sky looks towards {1}</value>
+  </data>
+  <data name="Trails_Year_Turned" xml:space="preserve">
+    <value>{0} h</value>
+  </data>
+  <data name="Update_Banner_Download" xml:space="preserve">
+    <value>Version {0} of the book is available. Download it, close the book and install it over this copy.</value>
+  </data>
+  <data name="Update_Banner_Install" xml:space="preserve">
+    <value>Version {0} of the book is available. Update and restart takes a few seconds.</value>
+  </data>
+  <data name="Update_Check" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="Update_CheckOnStartup" xml:space="preserve">
+    <value>Check for updates when the book opens</value>
+  </data>
+  <data name="Update_Checking" xml:space="preserve">
+    <value>Checking…</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Downloading the update…</value>
+  </data>
+  <data name="Update_Error_Damaged" xml:space="preserve">
+    <value>The download is damaged (its checksum does not match). Try again, or download it by hand.</value>
+  </data>
+  <data name="Update_Error_Download" xml:space="preserve">
+    <value>The download failed (HTTP {0}). Try again later.</value>
+  </data>
+  <data name="Update_Error_Http" xml:space="preserve">
+    <value>The update server answered with an error (HTTP {0}). Try again later.</value>
+  </data>
+  <data name="Update_Error_Install" xml:space="preserve">
+    <value>Could not install automatically: {0} Download it by hand.</value>
+  </data>
+  <data name="Update_Error_Interrupted" xml:space="preserve">
+    <value>The download was interrupted. Check the network and try again.</value>
+  </data>
+  <data name="Update_Error_Launch" xml:space="preserve">
+    <value>The updater did not start. Download the update by hand.</value>
+  </data>
+  <data name="Update_Error_NoFeed" xml:space="preserve">
+    <value>No update address. Set one in Settings → Updates.</value>
+  </data>
+  <data name="Update_Error_NoPackage" xml:space="preserve">
+    <value>{0} is out, but there is no package for this computer ({1}).</value>
+  </data>
+  <data name="Update_Error_NoRelease" xml:space="preserve">
+    <value>No version has been released yet.</value>
+  </data>
+  <data name="Update_Error_NotThisApp" xml:space="preserve">
+    <value>The package does not contain {0}, so it cannot be installed automatically. Download it by hand.</value>
+  </data>
+  <data name="Update_Error_NotZip" xml:space="preserve">
+    <value>The package is not a zip file, so it cannot be installed automatically. Download it by hand.</value>
+  </data>
+  <data name="Update_Error_Offline" xml:space="preserve">
+    <value>Could not reach the update server. Check the network and try again.</value>
+  </data>
+  <data name="Update_Error_Unreadable" xml:space="preserve">
+    <value>Could not read the version information from the update server.</value>
+  </data>
+  <data name="Update_Feed_BuiltIn" xml:space="preserve">
+    <value>The address this release was built with.</value>
+  </data>
+  <data name="Update_Feed_Caption" xml:space="preserve">
+    <value>Update address</value>
+  </data>
+  <data name="Update_Feed_FromFile" xml:space="preserve">
+    <value>The address set by whoever packaged this copy (update-feed.txt next to the program).</value>
+  </data>
+  <data name="Update_Feed_FromReader" xml:space="preserve">
+    <value>Your own address.</value>
+  </data>
+  <data name="Update_Feed_Help" xml:space="preserve">
+    <value>github:owner/repo reads the repository's latest GitHub Release; any other https address is read as an update manifest (see docs/UPDATES.md). "off" turns updates off.</value>
+  </data>
+  <data name="Update_Feed_Invalid" xml:space="preserve">
+    <value>Not an address updates can be read from.</value>
+  </data>
+  <data name="Update_Feed_None" xml:space="preserve">
+    <value>No update address: this copy does not look for updates.</value>
+  </data>
+  <data name="Update_Feed_Placeholder" xml:space="preserve">
+    <value>github:owner/repo, or https://…/latest.json</value>
+  </data>
+  <data name="Update_Feed_Reset" xml:space="preserve">
+    <value>Restore the default</value>
+  </data>
+  <data name="Update_Feed_Save" xml:space="preserve">
+    <value>Use this address</value>
+  </data>
+  <data name="Update_Feed_Saved" xml:space="preserve">
+    <value>Saved.</value>
+  </data>
+  <data name="Update_InstallAndRestart" xml:space="preserve">
+    <value>Update and restart</value>
+  </data>
+  <data name="Update_Later" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="Update_Notice_Failed" xml:space="preserve">
+    <value>The last update did not install; this is still {0}. Close anything using the book's folder and try again.</value>
+  </data>
+  <data name="Update_Notice_Updated" xml:space="preserve">
+    <value>Updated to {0}.</value>
+  </data>
+  <data name="Update_Progress" xml:space="preserve">
+    <value>Downloading… {0}% ({1} of {2})</value>
+  </data>
+  <data name="Update_Progress_Unknown" xml:space="preserve">
+    <value>Downloading… {0}</value>
+  </data>
+  <data name="Update_ReleasePage" xml:space="preserve">
+    <value>Open the release page</value>
+  </data>
+  <data name="Update_Restarting" xml:space="preserve">
+    <value>Installing and restarting…</value>
+  </data>
+  <data name="Update_Status_Available" xml:space="preserve">
+    <value>Version {0} is available.</value>
+  </data>
+  <data name="Update_Status_UpToDate" xml:space="preserve">
+    <value>{0} is the latest version.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="Update_Version" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="Update_WhatsNew" xml:space="preserve">
+    <value>What's new</value>
+  </data>
   <data name="Volume_Chemistry" xml:space="preserve">
     <value>Chemistry</value>
   </data>
@@ -4257,379 +5505,13 @@
   <data name="Volume_Sky" xml:space="preserve">
     <value>The Sky</value>
   </data>
-  <data name="Settings_Title" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="Settings_Tip" xml:space="preserve">
-    <value>Language, theme, observer location, narration and page turning</value>
-  </data>
-  <data name="Settings_Saved" xml:space="preserve">
-    <value>Changes take effect at once and are saved on this device.</value>
-  </data>
-  <data name="Settings_Language" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="Settings_Language_Chinese" xml:space="preserve">
-    <value>中文</value>
-  </data>
-  <data name="Settings_Language_English" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="Settings_Narration" xml:space="preserve">
-    <value>Narration</value>
-  </data>
-  <data name="Settings_Voice" xml:space="preserve">
-    <value>Read aloud</value>
-  </data>
-  <data name="Settings_Volume" xml:space="preserve">
-    <value>Volume</value>
-  </data>
-  <data name="Settings_Subtitles" xml:space="preserve">
-    <value>Show subtitles</value>
-  </data>
-  <data name="Settings_SpeakOnClick" xml:space="preserve">
-    <value>Read out what you click in a picture</value>
-  </data>
-  <data name="Settings_Narration_Note" xml:space="preserve">
-    <value>With reading aloud off, walkthroughs still run with subtitles at a reading pace.</value>
-  </data>
-  <data name="Settings_Reading" xml:space="preserve">
-    <value>Reading</value>
-  </data>
-  <data name="Settings_AnimatesTurns" xml:space="preserve">
-    <value>Animate page turns</value>
-  </data>
-  <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
-    <value>Off: pages change at once, for readers who prefer less motion.</value>
-  </data>
-  <data name="Location_City_Changsha" xml:space="preserve">
-    <value>Changsha</value>
-  </data>
-  <data name="Page_Caption" xml:space="preserve">
-    <value>Page {0}</value>
-  </data>
-  <data name="Page_Caption_Cover" xml:space="preserve">
-    <value>Cover</value>
-  </data>
-  <data name="Page_Caption_HowToUse" xml:space="preserve">
-    <value>How to use this book</value>
-  </data>
-  <data name="Page_Caption_Title" xml:space="preserve">
-    <value>Title page</value>
-  </data>
-  <data name="Page_Caption_BackCover" xml:space="preserve">
-    <value>Back cover</value>
-  </data>
-  <data name="Page_Caption_Chapter" xml:space="preserve">
-    <value>Chapter {0} · {1}</value>
-  </data>
-  <data name="Page_Caption_Diagram" xml:space="preserve">
-    <value>{0} · picture</value>
-  </data>
-  <data name="Page_Caption_Contents" xml:space="preserve">
-    <value>Contents · {0}</value>
-  </data>
-  <data name="Bookmarks_Title" xml:space="preserve">
-    <value>Bookmarks</value>
-  </data>
-  <data name="Bookmarks_Tip" xml:space="preserve">
-    <value>Bookmark this page, or turn to a bookmarked one</value>
-  </data>
-  <data name="Bookmarks_Add" xml:space="preserve">
-    <value>Bookmark this page</value>
-  </data>
-  <data name="Bookmarks_Remove" xml:space="preserve">
-    <value>Remove this page's bookmark</value>
-  </data>
-  <data name="Bookmarks_RemoveOne" xml:space="preserve">
-    <value>Remove bookmark</value>
-  </data>
-  <data name="Bookmarks_Empty" xml:space="preserve">
-    <value>No bookmarks yet. Bookmarked pages get a ribbon at the top.</value>
-  </data>
-  <data name="Bookmarks_Details" xml:space="preserve">
-    <value>Page {0} · added {1}</value>
-  </data>
-  <data name="Bookmarks_Shortcut" xml:space="preserve">
-    <value>Shortcut: Ctrl+D</value>
-  </data>
-  <data name="Progress_Opened" xml:space="preserve">
-    <value>Read</value>
-  </data>
-  <data name="Progress_Walkthroughs" xml:space="preserve">
-    <value>Walkthroughs {0}/{1}</value>
-  </data>
-  <data name="Progress_Complete" xml:space="preserve">
-    <value>✓ Done</value>
-  </data>
-  <data name="Settings_Appearance" xml:space="preserve">
-    <value>Appearance</value>
-  </data>
-  <data name="Settings_Theme_Light" xml:space="preserve">
-    <value>Light</value>
-  </data>
-  <data name="Settings_Theme_Dark" xml:space="preserve">
-    <value>Dark</value>
-  </data>
-  <data name="Settings_Theme_System" xml:space="preserve">
-    <value>Follow system</value>
-  </data>
-  <data name="Settings_Accent" xml:space="preserve">
-    <value>Accent colour</value>
-  </data>
-  <data name="Theme_Accent_Terracotta" xml:space="preserve">
-    <value>Terracotta</value>
-  </data>
-  <data name="Theme_Accent_Indigo" xml:space="preserve">
-    <value>Indigo</value>
-  </data>
-  <data name="Theme_Accent_Pine" xml:space="preserve">
-    <value>Pine</value>
-  </data>
-  <data name="Theme_Accent_Plum" xml:space="preserve">
-    <value>Plum</value>
-  </data>
-  <data name="Theme_Accent_Amber" xml:space="preserve">
-    <value>Amber</value>
-  </data>
-  <data name="Settings_Progress" xml:space="preserve">
-    <value>Reading progress</value>
-  </data>
-  <data name="Settings_Progress_Summary" xml:space="preserve">
-    <value>{0} chapters opened, {1} with every walkthrough heard.</value>
-  </data>
-  <data name="Settings_Progress_Note" xml:space="preserve">
-    <value>Shown in the table of contents. Clearing it keeps your bookmarks.</value>
-  </data>
-  <data name="Settings_Progress_Clear" xml:space="preserve">
-    <value>Clear reading progress</value>
-  </data>
-  <data name="Window_Minimize" xml:space="preserve">
-    <value>Minimize</value>
+  <data name="Window_Close" xml:space="preserve">
+    <value>Close</value>
   </data>
   <data name="Window_Maximize" xml:space="preserve">
     <value>Maximize / restore</value>
   </data>
-  <data name="Window_Close" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="Notes_Title" xml:space="preserve">
-    <value>Notes</value>
-  </data>
-  <data name="Notes_Tip" xml:space="preserve">
-    <value>Write a note on this page, see your notes, export them</value>
-  </data>
-  <data name="Notes_Placeholder" xml:space="preserve">
-    <value>Write a note on this page…</value>
-  </data>
-  <data name="Notes_Add" xml:space="preserve">
-    <value>Save note</value>
-  </data>
-  <data name="Notes_Hint" xml:space="preserve">
-    <value>Tip: select text on a page, right-click it and choose "Add to notes" to quote it.</value>
-  </data>
-  <data name="Notes_RemoveQuote" xml:space="preserve">
-    <value>Remove the quote</value>
-  </data>
-  <data name="Notes_ThisPageOnly" xml:space="preserve">
-    <value>This page only</value>
-  </data>
-  <data name="Notes_Count" xml:space="preserve">
-    <value>{0} notes</value>
-  </data>
-  <data name="Notes_Empty" xml:space="preserve">
-    <value>No notes here yet.</value>
-  </data>
-  <data name="Notes_Edit" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="Notes_Remove" xml:space="preserve">
-    <value>Delete note</value>
-  </data>
-  <data name="Notes_Open" xml:space="preserve">
-    <value>Turn to this page</value>
-  </data>
-  <data name="Notes_Details" xml:space="preserve">
-    <value>Page {0} · {1}</value>
-  </data>
-  <data name="Notes_Export" xml:space="preserve">
-    <value>Export…</value>
-  </data>
-  <data name="Notes_Export_Tip" xml:space="preserve">
-    <value>Save every note as a Markdown file</value>
-  </data>
-  <data name="Notes_Export_Markdown" xml:space="preserve">
-    <value>Markdown</value>
-  </data>
-  <data name="Notes_Export_Text" xml:space="preserve">
-    <value>Plain text</value>
-  </data>
-  <data name="Notes_CopyAll" xml:space="preserve">
-    <value>Copy all</value>
-  </data>
-  <data name="Notes_Exported" xml:space="preserve">
-    <value>Exported to {0}</value>
-  </data>
-  <data name="Notes_Copied" xml:space="preserve">
-    <value>Copied every note to the clipboard, as Markdown.</value>
-  </data>
-  <data name="Notes_Export_Title" xml:space="preserve">
-    <value>Explore Book · Notes</value>
-  </data>
-  <data name="Notes_Export_Summary" xml:space="preserve">
-    <value>Exported {0} · {1} notes</value>
-  </data>
-  <data name="Notes_Export_Page" xml:space="preserve">
-    <value>{0} (page {1})</value>
-  </data>
-  <data name="Notes_Export_FileName" xml:space="preserve">
-    <value>Explore-Book-notes-{0}.md</value>
-  </data>
-  <data name="Text_Copy" xml:space="preserve">
-    <value>Copy</value>
-  </data>
-  <data name="Text_SelectAll" xml:space="preserve">
-    <value>Select all</value>
-  </data>
-  <data name="Text_AddToNotes" xml:space="preserve">
-    <value>Add to notes</value>
-  </data>
-  <data name="Common_Save" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="Common_Cancel" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="Update_Title" xml:space="preserve">
-    <value>Updates</value>
-  </data>
-  <data name="Update_Version" xml:space="preserve">
-    <value>Version {0}</value>
-  </data>
-  <data name="Update_Feed_Caption" xml:space="preserve">
-    <value>Update address</value>
-  </data>
-  <data name="Update_Feed_Placeholder" xml:space="preserve">
-    <value>github:owner/repo, or https://…/latest.json</value>
-  </data>
-  <data name="Update_Feed_Help" xml:space="preserve">
-    <value>github:owner/repo reads the repository's latest GitHub Release; any other https address is read as an update manifest (see docs/UPDATES.md). "off" turns updates off.</value>
-  </data>
-  <data name="Update_Feed_Invalid" xml:space="preserve">
-    <value>Not an address updates can be read from.</value>
-  </data>
-  <data name="Update_Feed_None" xml:space="preserve">
-    <value>No update address: this copy does not look for updates.</value>
-  </data>
-  <data name="Update_Feed_BuiltIn" xml:space="preserve">
-    <value>The address this release was built with.</value>
-  </data>
-  <data name="Update_Feed_FromFile" xml:space="preserve">
-    <value>The address set by whoever packaged this copy (update-feed.txt next to the program).</value>
-  </data>
-  <data name="Update_Feed_FromReader" xml:space="preserve">
-    <value>Your own address.</value>
-  </data>
-  <data name="Update_Feed_Save" xml:space="preserve">
-    <value>Use this address</value>
-  </data>
-  <data name="Update_Feed_Reset" xml:space="preserve">
-    <value>Restore the default</value>
-  </data>
-  <data name="Update_Feed_Saved" xml:space="preserve">
-    <value>Saved.</value>
-  </data>
-  <data name="Update_Check" xml:space="preserve">
-    <value>Check for updates</value>
-  </data>
-  <data name="Update_CheckOnStartup" xml:space="preserve">
-    <value>Check for updates when the book opens</value>
-  </data>
-  <data name="Update_Checking" xml:space="preserve">
-    <value>Checking…</value>
-  </data>
-  <data name="Update_Status_Available" xml:space="preserve">
-    <value>Version {0} is available.</value>
-  </data>
-  <data name="Update_Status_UpToDate" xml:space="preserve">
-    <value>{0} is the latest version.</value>
-  </data>
-  <data name="Update_Banner_Install" xml:space="preserve">
-    <value>Version {0} of the book is available. Update and restart takes a few seconds.</value>
-  </data>
-  <data name="Update_Banner_Download" xml:space="preserve">
-    <value>Version {0} of the book is available. Download it, close the book and install it over this copy.</value>
-  </data>
-  <data name="Update_InstallAndRestart" xml:space="preserve">
-    <value>Update and restart</value>
-  </data>
-  <data name="Update_Download" xml:space="preserve">
-    <value>Download</value>
-  </data>
-  <data name="Update_WhatsNew" xml:space="preserve">
-    <value>What's new</value>
-  </data>
-  <data name="Update_ReleasePage" xml:space="preserve">
-    <value>Open the release page</value>
-  </data>
-  <data name="Update_Later" xml:space="preserve">
-    <value>Later</value>
-  </data>
-  <data name="Update_Downloading" xml:space="preserve">
-    <value>Downloading the update…</value>
-  </data>
-  <data name="Update_Restarting" xml:space="preserve">
-    <value>Installing and restarting…</value>
-  </data>
-  <data name="Update_Progress" xml:space="preserve">
-    <value>Downloading… {0}% ({1} of {2})</value>
-  </data>
-  <data name="Update_Progress_Unknown" xml:space="preserve">
-    <value>Downloading… {0}</value>
-  </data>
-  <data name="Update_Notice_Updated" xml:space="preserve">
-    <value>Updated to {0}.</value>
-  </data>
-  <data name="Update_Notice_Failed" xml:space="preserve">
-    <value>The last update did not install; this is still {0}. Close anything using the book's folder and try again.</value>
-  </data>
-  <data name="Update_Error_NoFeed" xml:space="preserve">
-    <value>No update address. Set one in Settings → Updates.</value>
-  </data>
-  <data name="Update_Error_NoRelease" xml:space="preserve">
-    <value>No version has been released yet.</value>
-  </data>
-  <data name="Update_Error_Http" xml:space="preserve">
-    <value>The update server answered with an error (HTTP {0}). Try again later.</value>
-  </data>
-  <data name="Update_Error_Offline" xml:space="preserve">
-    <value>Could not reach the update server. Check the network and try again.</value>
-  </data>
-  <data name="Update_Error_Unreadable" xml:space="preserve">
-    <value>Could not read the version information from the update server.</value>
-  </data>
-  <data name="Update_Error_NoPackage" xml:space="preserve">
-    <value>{0} is out, but there is no package for this computer ({1}).</value>
-  </data>
-  <data name="Update_Error_Damaged" xml:space="preserve">
-    <value>The download is damaged (its checksum does not match). Try again, or download it by hand.</value>
-  </data>
-  <data name="Update_Error_NotZip" xml:space="preserve">
-    <value>The package is not a zip file, so it cannot be installed automatically. Download it by hand.</value>
-  </data>
-  <data name="Update_Error_NotThisApp" xml:space="preserve">
-    <value>The package does not contain {0}, so it cannot be installed automatically. Download it by hand.</value>
-  </data>
-  <data name="Update_Error_Interrupted" xml:space="preserve">
-    <value>The download was interrupted. Check the network and try again.</value>
-  </data>
-  <data name="Update_Error_Install" xml:space="preserve">
-    <value>Could not install automatically: {0} Download it by hand.</value>
-  </data>
-  <data name="Update_Error_Download" xml:space="preserve">
-    <value>The download failed (HTTP {0}). Try again later.</value>
-  </data>
-  <data name="Update_Error_Launch" xml:space="preserve">
-    <value>The updater did not start. Download the update by hand.</value>
+  <data name="Window_Minimize" xml:space="preserve">
+    <value>Minimize</value>
   </data>
 </root>
