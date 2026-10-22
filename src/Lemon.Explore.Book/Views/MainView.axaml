@@ -21,6 +21,7 @@
              xmlns:expansion="using:Lemon.Explore.Book.Chapters.Expansion"
              xmlns:watercycle="using:Lemon.Explore.Book.Chapters.WaterCycle"
              xmlns:seabreeze="using:Lemon.Explore.Book.Chapters.SeaBreeze"
+             xmlns:greenhouse="using:Lemon.Explore.Book.Chapters.Greenhouse"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -61,6 +62,8 @@
         <DataTemplate DataType="watercycle:WaterCycleDiagramPageViewModel"><watercycle:WaterCycleDiagramPageView /></DataTemplate>
         <DataTemplate DataType="seabreeze:SeaBreezeTextPageViewModel"><seabreeze:SeaBreezeTextPageView /></DataTemplate>
         <DataTemplate DataType="seabreeze:SeaBreezeDiagramPageViewModel"><seabreeze:SeaBreezeDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="greenhouse:GreenhouseTextPageViewModel"><greenhouse:GreenhouseTextPageView /></DataTemplate>
+        <DataTemplate DataType="greenhouse:GreenhouseDiagramPageViewModel"><greenhouse:GreenhouseDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

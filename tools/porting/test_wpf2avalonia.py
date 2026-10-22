@@ -166,6 +166,22 @@ class LateTests(unittest.TestCase):
         self.assertIn("radiusY: new RelativeScalar(0.68, RelativeUnit.Relative));", out)
         self.assertNotIn("Freeze", out)
 
+    def test_a_gradient_with_its_points_as_arguments(self):
+        source = """        var shade = new LinearGradientBrush(
+            [
+                new GradientStop(Colors.White, 0),
+                new GradientStop(Colors.Gray, 1),
+            ],
+            new Point(0, top), new Point(0, bottom))
+        {
+            MappingMode = BrushMappingMode.Absolute,
+        };
+"""
+        out = tool.convert_late(source)
+        self.assertIn("new ImmutableGradientStop(1, Colors.Gray),", out)
+        self.assertIn("startPoint: new RelativePoint(0, top, RelativeUnit.Absolute),", out)
+        self.assertIn("endPoint: new RelativePoint(0, bottom, RelativeUnit.Absolute));", out)
+
     def test_a_visual_rendered_to_a_bitmap_draws_into_it_directly(self):
         source = """            var surface = new DrawingVisual();
             using (var context = surface.RenderOpen()) _painter.DrawSurface(context, world);

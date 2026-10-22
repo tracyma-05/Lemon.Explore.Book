@@ -1,0 +1,221 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:green="using:Lemon.Explore.Book.Chapters.Greenhouse"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Greenhouse.GreenhouseTextPageView"
+                         x:DataType="green:GreenhouseTextPageViewModel">
+    <!-- Left page of the Greenhouse spread: the view's settings, its charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <!-- A wiggle's dot: green when it catches infrared (a mid green, readable on light and dark pages). -->
+        <Style Selector="Ellipse.wiggle">
+            <Setter Property="Fill" Value="#8A8F98" />
+        </Style>
+        <Style Selector="Ellipse.wiggle.active">
+            <Setter Property="Fill" Value="#3FA34D" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Green.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Green.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Green.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="GreenMode" IsChecked="{Binding Green.IsPlanet}" Content="{loc:Localize Green_Mode_Planet}" />
+                    <RadioButton Classes="chip" GroupName="GreenMode" IsChecked="{Binding Green.IsMolecules}" Content="{loc:Localize Green_Mode_Molecules}" />
+                    <RadioButton Classes="chip" GroupName="GreenMode" IsChecked="{Binding Green.IsGlassHouse}" Content="{loc:Localize Green_Mode_GlassHouse}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Green.Card}" />
+
+                <!-- The planet: how much CO₂, or none at all; the energy flows -->
+                <StackPanel IsVisible="{Binding Green.IsPlanet}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Green.Co2Text}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Green_Co2}" />
+                    </DockPanel>
+                    <Slider Minimum="{Binding Green.MinCo2}" Maximum="{Binding Green.MaxCo2}" Value="{Binding Green.Co2}" SmallChange="5" LargeChange="50"
+                            IsSnapToTickEnabled="True" TickFrequency="5" IsEnabled="{Binding Green.HasGases}"
+                            AutomationProperties.Name="{loc:Localize Green_Co2}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Green.SetCo2Command}" CommandParameter="180" Content="{loc:Localize Green_Co2_IceAge}" />
+                        <Button Classes="chip" Command="{Binding Green.SetCo2Command}" CommandParameter="280" Content="{loc:Localize Green_Co2_1750}" />
+                        <Button Classes="chip" Command="{Binding Green.SetCo2Command}" CommandParameter="425" Content="{loc:Localize Green_Co2_Today}" />
+                        <Button Classes="chip" Command="{Binding Green.SetCo2Command}" CommandParameter="560" Content="{loc:Localize Green_Co2_Doubled}" />
+                        <Button Classes="chip" Command="{Binding Green.SetCo2Command}" CommandParameter="1120" Content="{loc:Localize Green_Co2_Quadrupled}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.NoGases}" Content="{loc:Localize Green_Option_NoGases}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.ShowBudget}" Content="{loc:Localize Green_Option_Budget}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.ShowLabels}" Content="{loc:Localize Green_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Chart_Co2_Caption}" />
+                    <Border Classes="plate" Height="180">
+                        <green:Co2HistoryChart Co2="{Binding Green.Co2}" AutomationProperties.Name="{loc:Localize Green_Chart_Co2_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Green_Chart_Co2_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Chart_Glow_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <green:GlowChart Co2="{Binding Green.Co2}" AutomationProperties.Name="{loc:Localize Green_Chart_Glow_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Green_Chart_Glow_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Chart_Worlds_Caption}" />
+                    <Border Classes="plate" Height="140">
+                        <green:WorldsChart AutomationProperties.Name="{loc:Localize Green_Chart_Worlds_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Green_Chart_Worlds_Note}" />
+                </StackPanel>
+
+                <!-- The molecules: which one, which wiggle -->
+                <StackPanel IsVisible="{Binding Green.IsMolecules}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Gas_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GreenGas" IsChecked="{Binding Green.GasChoice[N2]}" Content="{loc:Localize Green_Gas_N2_Short}" />
+                        <RadioButton Classes="chip" GroupName="GreenGas" IsChecked="{Binding Green.GasChoice[O2]}" Content="{loc:Localize Green_Gas_O2_Short}" />
+                        <RadioButton Classes="chip" GroupName="GreenGas" IsChecked="{Binding Green.GasChoice[Ar]}" Content="{loc:Localize Green_Gas_Ar_Short}" />
+                        <RadioButton Classes="chip" GroupName="GreenGas" IsChecked="{Binding Green.GasChoice[CO2]}" Content="{loc:Localize Green_Gas_CO2_Short}" />
+                        <RadioButton Classes="chip" GroupName="GreenGas" IsChecked="{Binding Green.GasChoice[H2O]}" Content="{loc:Localize Green_Gas_H2O_Short}" />
+                        <RadioButton Classes="chip" GroupName="GreenGas" IsChecked="{Binding Green.GasChoice[CH4]}" Content="{loc:Localize Green_Gas_CH4_Short}" />
+                    </WrapPanel>
+
+                    <StackPanel IsVisible="{Binding Green.HasVibrations}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Vib_Caption}" />
+                        <ItemsControl ItemsSource="{Binding Green.Vibrations}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="green:VibrationOption">
+                                    <RadioButton Classes="chip" GroupName="GreenVibration" IsChecked="{Binding IsSelected}">
+                                        <StackPanel Orientation="Horizontal">
+                                            <Ellipse Classes="wiggle" Classes.active="{Binding Active}" Width="7" Height="7" Margin="0,0,6,0" VerticalAlignment="Center" />
+                                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center" />
+                                        </StackPanel>
+                                    </RadioButton>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <SelectableTextBlock Classes="note" Text="{loc:Localize Green_Vib_Note}" />
+                    </StackPanel>
+                    <WrapPanel Margin="0,10,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.ShowLabels}" Content="{loc:Localize Green_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Chart_Share_Caption}" />
+                    <Border Classes="plate" Height="150">
+                        <green:GasShareChart Gas="{Binding Green.Gas}" AutomationProperties.Name="{loc:Localize Green_Chart_Share_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Green_Chart_Share_Note}" />
+                </StackPanel>
+
+                <!-- The glass house: where, when in the year, vents, pane, car window -->
+                <StackPanel IsVisible="{Binding Green.IsGlassHouse}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Green.Location}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Season_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GreenSeason" IsChecked="{Binding Green.SeasonChoice[Summer]}" Content="{loc:Localize Green_Season_Summer}" />
+                        <RadioButton Classes="chip" GroupName="GreenSeason" IsChecked="{Binding Green.SeasonChoice[Equinox]}" Content="{loc:Localize Green_Season_Equinox}" />
+                        <RadioButton Classes="chip" GroupName="GreenSeason" IsChecked="{Binding Green.SeasonChoice[Winter]}" Content="{loc:Localize Green_Season_Winter}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Text="{Binding Green.LocationNote}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Try_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.VentsOpen}" Content="{loc:Localize Green_Option_Vents}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.SaltPane}" Content="{loc:Localize Green_Option_Salt}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.CarWindowOpen}" Content="{loc:Localize Green_Option_CarWindow}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Green.ShowLabels}" Content="{loc:Localize Green_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Jump_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Green.JumpToHourCommand}" CommandParameter="5" Content="{loc:Localize Green_Jump_Dawn}" />
+                        <Button Classes="chip" Command="{Binding Green.JumpToHourCommand}" CommandParameter="10" Content="{loc:Localize Green_Jump_Morning}" />
+                        <Button Classes="chip" Command="{Binding Green.JumpToHourCommand}" CommandParameter="14" Content="{loc:Localize Green_Jump_Afternoon}" />
+                        <Button Classes="chip" Command="{Binding Green.JumpToHourCommand}" CommandParameter="22" Content="{loc:Localize Green_Jump_Night}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Chart_Day_Caption}" />
+                    <Border Classes="plate" Height="200">
+                        <green:DayChart Hour="{Binding Green.Hour}" Latitude="{Binding Green.Latitude}" Season="{Binding Green.Season}"
+                                        VentsOpen="{Binding Green.VentsOpen}" SaltPane="{Binding Green.SaltPane}" CarWindowOpen="{Binding Green.CarWindowOpen}"
+                                        AutomationProperties.Name="{loc:Localize Green_Chart_Day_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Green_Chart_Day_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Green.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Green.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Green.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Green.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Green_Facts}" />
+                <ItemsControl ItemsSource="{Binding Green.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

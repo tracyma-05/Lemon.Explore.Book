@@ -1,0 +1,86 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:green="using:Lemon.Explore.Book.Chapters.Greenhouse"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Greenhouse.GreenhouseDiagramPageView"
+                         x:DataType="green:GreenhouseDiagramPageViewModel">
+    <!-- Right page of the Greenhouse spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <green:GreenhouseDiagram Mode="{Binding Green.Mode}"
+                                         Co2="{Binding Green.Co2}"
+                                         NoGases="{Binding Green.NoGases}"
+                                         ShowBudget="{Binding Green.ShowBudget}"
+                                         Gas="{Binding Green.Gas}"
+                                         VibrationId="{Binding Green.VibrationId}"
+                                         Hour="{Binding Green.Hour, Mode=TwoWay}"
+                                         Latitude="{Binding Green.Latitude}"
+                                         Season="{Binding Green.Season}"
+                                         VentsOpen="{Binding Green.VentsOpen, Mode=TwoWay}"
+                                         SaltPane="{Binding Green.SaltPane}"
+                                         CarWindowOpen="{Binding Green.CarWindowOpen, Mode=TwoWay}"
+                                         ShowLabels="{Binding Green.ShowLabels}"
+                                         Speed="{Binding Green.Speed}"
+                                         IsPlaying="{Binding Green.IsPlaying, Mode=TwoWay}"
+                                         ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                         Highlight="{Binding Green.Lesson.Highlight}"
+                                         IsLessonActive="{Binding Green.Lesson.IsActive}"
+                                         SelectedObject="{Binding Green.Card.Id, Mode=TwoWay}"
+                                         InteractionCommand="{Binding Green.UserInteractedCommand}"
+                                         ToolTip.Tip="{Binding Green.Hint}"
+                                         AutomationProperties.Name="{Binding Green.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Green.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Green.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Green.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Green.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Green_PlayPause}" AutomationProperties.Name="{loc:Localize Green_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Green.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Green.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Green_Speed}">
+                                <RadioButton Classes="space speed" GroupName="GreenSpeed" Content="¼×" IsChecked="{Binding Green.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="GreenSpeed" Content="½×" IsChecked="{Binding Green.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="GreenSpeed" Content="1×" IsChecked="{Binding Green.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="GreenSpeed" Content="2×" IsChecked="{Binding Green.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <!-- The day's timeline -->
+                            <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                    Minimum="0" Maximum="24" Value="{Binding Green.Hour}" SmallChange="0.25" LargeChange="2"
+                                    IsVisible="{Binding Green.IsGlassHouse}"
+                                    ToolTip.Tip="{loc:Localize Green_Timeline}" AutomationProperties.Name="{loc:Localize Green_Timeline}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

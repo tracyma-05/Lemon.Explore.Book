@@ -2535,6 +2535,879 @@
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>Click anything in the picture to hear what it is</value>
   </data>
+  <data name="Green_Budget_AirSun" xml:space="preserve">
+    <value>{0} into the air</value>
+  </data>
+  <data name="Green_Budget_Back" xml:space="preserve">
+    <value>{0} back down</value>
+  </data>
+  <data name="Green_Budget_FromAir" xml:space="preserve">
+    <value>{0} from the air</value>
+  </data>
+  <data name="Green_Budget_Glow" xml:space="preserve">
+    <value>{0} ground's glow</value>
+  </data>
+  <data name="Green_Budget_In" xml:space="preserve">
+    <value>{0} sunlight in</value>
+  </data>
+  <data name="Green_Budget_Reflected" xml:space="preserve">
+    <value>{0} reflected</value>
+  </data>
+  <data name="Green_Budget_Rising" xml:space="preserve">
+    <value>{0} rising air, evaporation</value>
+  </data>
+  <data name="Green_Budget_Surface" xml:space="preserve">
+    <value>{0} into the ground</value>
+  </data>
+  <data name="Green_Budget_Window" xml:space="preserve">
+    <value>{0} straight out</value>
+  </data>
+  <data name="Green_Chart_Co2_Before" xml:space="preserve">
+    <value>before industry ≈ 280</value>
+  </data>
+  <data name="Green_Chart_Co2_Caption" xml:space="preserve">
+    <value>CO₂ in the air since 1750</value>
+  </data>
+  <data name="Green_Chart_Co2_Chosen" xml:space="preserve">
+    <value>on the slider: {0} ppm</value>
+  </data>
+  <data name="Green_Chart_Co2_Last" xml:space="preserve">
+    <value>{0}: {1} ppm</value>
+  </data>
+  <data name="Green_Chart_Co2_Note" xml:space="preserve">
+    <value>Ice cores (Law Dome, rounded) before 1959, Mauna Loa yearly means after (NOAA). The gold line is the amount on the slider.</value>
+  </data>
+  <data name="Green_Chart_Day_Caption" xml:space="preserve">
+    <value>Temperatures through the day</value>
+  </data>
+  <data name="Green_Chart_Day_Car" xml:space="preserve">
+    <value>car</value>
+  </data>
+  <data name="Green_Chart_Day_Greenhouse" xml:space="preserve">
+    <value>greenhouse</value>
+  </data>
+  <data name="Green_Chart_Day_Note" xml:space="preserve">
+    <value>The model runs three days and shows the last, so the day ends as it began. The pale hill is the sunlight. Hours are local solar time (the Sun highest at 12:00).</value>
+  </data>
+  <data name="Green_Chart_Day_Outside" xml:space="preserve">
+    <value>outside</value>
+  </data>
+  <data name="Green_Chart_Glow_Air" xml:space="preserve">
+    <value>caught by the air</value>
+  </data>
+  <data name="Green_Chart_Glow_Caption" xml:space="preserve">
+    <value>Sunlight and the ground's glow</value>
+  </data>
+  <data name="Green_Chart_Glow_Ground" xml:space="preserve">
+    <value>the ground's glow</value>
+  </data>
+  <data name="Green_Chart_Glow_Note" xml:space="preserve">
+    <value>Each curve scaled to its own peak, on a log axis. The Sun (about 5500 °C) shines mostly at 0.3–3 µm, the ground (15 °C) at 4–50 µm; grey is what the air catches.</value>
+  </data>
+  <data name="Green_Chart_Glow_Sun" xml:space="preserve">
+    <value>sunlight</value>
+  </data>
+  <data name="Green_Chart_Share_Caption" xml:space="preserve">
+    <value>Who makes today's greenhouse effect</value>
+  </data>
+  <data name="Green_Chart_Share_Note" xml:space="preserve">
+    <value>Shares of the whole effect (Schmidt et al. 2010). Water vapour and clouds come and go with the temperature; CO₂ and the other long-lived gases set it.</value>
+  </data>
+  <data name="Green_Chart_Worlds_Caption" xml:space="preserve">
+    <value>Neighbours, without and with their air</value>
+  </data>
+  <data name="Green_Chart_Worlds_Note" xml:space="preserve">
+    <value>Circle: the temperature with no greenhouse gases (from the sunlight and how much is reflected); dot: the real average (NASA). Venus' thick CO₂ air makes it hotter than Mercury; Mars' thin air adds only a few degrees.</value>
+  </data>
+  <data name="Green_Chart_Worlds_Warming" xml:space="preserve">
+    <value>+{0} °C</value>
+  </data>
+  <data name="Green_Co2" xml:space="preserve">
+    <value>CO₂ in the air</value>
+  </data>
+  <data name="Green_Co2_1750" xml:space="preserve">
+    <value>1750: 280</value>
+  </data>
+  <data name="Green_Co2_Doubled" xml:space="preserve">
+    <value>Doubled 560</value>
+  </data>
+  <data name="Green_Co2_IceAge" xml:space="preserve">
+    <value>Ice age 180</value>
+  </data>
+  <data name="Green_Co2_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Green_Co2_Quadrupled" xml:space="preserve">
+    <value>×4: 1120</value>
+  </data>
+  <data name="Green_Co2_Today" xml:space="preserve">
+    <value>2024: 425</value>
+  </data>
+  <data name="Green_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Green_Gas_Ar" xml:space="preserve">
+    <value>Argon, Ar</value>
+  </data>
+  <data name="Green_Gas_Ar_Description" xml:space="preserve">
+    <value>A noble gas of single atoms, with no bonds to stretch or bend: it cannot catch infrared at all.</value>
+  </data>
+  <data name="Green_Gas_Ar_Lifetime" xml:space="preserve">
+    <value>stays for good</value>
+  </data>
+  <data name="Green_Gas_Ar_Shape" xml:space="preserve">
+    <value>a single atom</value>
+  </data>
+  <data name="Green_Gas_Ar_Share" xml:space="preserve">
+    <value>0.93%</value>
+  </data>
+  <data name="Green_Gas_Ar_Short" xml:space="preserve">
+    <value>Ar</value>
+  </data>
+  <data name="Green_Gas_CH4" xml:space="preserve">
+    <value>Methane, CH₄</value>
+  </data>
+  <data name="Green_Gas_CH4_Description" xml:space="preserve">
+    <value>Four hydrogens round a carbon at the corners of a tetrahedron, symmetric at rest. Its lopsided stretch and bend shift the charge (3.3 and 7.7 µm); its even ones do not.</value>
+  </data>
+  <data name="Green_Gas_CH4_Lifetime" xml:space="preserve">
+    <value>about 12 years, then it becomes CO₂ and water</value>
+  </data>
+  <data name="Green_Gas_CH4_Shape" xml:space="preserve">
+    <value>a carbon and four hydrogens, a tetrahedron</value>
+  </data>
+  <data name="Green_Gas_CH4_Share" xml:space="preserve">
+    <value>0.0002% (1.9 ppm)</value>
+  </data>
+  <data name="Green_Gas_CH4_Short" xml:space="preserve">
+    <value>CH₄</value>
+  </data>
+  <data name="Green_Gas_CO2" xml:space="preserve">
+    <value>Carbon dioxide, CO₂</value>
+  </data>
+  <data name="Green_Gas_CO2_Description" xml:space="preserve">
+    <value>Straight and symmetric, O=C=O, so it has no dipole at rest. But its bend and its lopsided stretch push the charge off-centre and back, at 15 µm and 4.3 µm: those wiggles catch infrared. Its even stretch does not.</value>
+  </data>
+  <data name="Green_Gas_CO2_Lifetime" xml:space="preserve">
+    <value>centuries to millennia (a share far longer)</value>
+  </data>
+  <data name="Green_Gas_CO2_Shape" xml:space="preserve">
+    <value>three atoms in a line, O=C=O</value>
+  </data>
+  <data name="Green_Gas_CO2_Share" xml:space="preserve">
+    <value>0.042% (425 ppm)</value>
+  </data>
+  <data name="Green_Gas_CO2_Short" xml:space="preserve">
+    <value>CO₂</value>
+  </data>
+  <data name="Green_Gas_Caption" xml:space="preserve">
+    <value>Molecule</value>
+  </data>
+  <data name="Green_Gas_H2O" xml:space="preserve">
+    <value>Water vapour, H₂O</value>
+  </data>
+  <data name="Green_Gas_H2O_Description" xml:space="preserve">
+    <value>Bent at 104.5°, with the oxygen pulling the electrons, it is always a small dipole. Every wiggle, and even spinning, shakes that dipole, so water catches infrared over a wide range: the main greenhouse gas.</value>
+  </data>
+  <data name="Green_Gas_H2O_Lifetime" xml:space="preserve">
+    <value>about 9 days, then it rains out</value>
+  </data>
+  <data name="Green_Gas_H2O_Shape" xml:space="preserve">
+    <value>three atoms, bent at 104.5°</value>
+  </data>
+  <data name="Green_Gas_H2O_Share" xml:space="preserve">
+    <value>0–4%, about 0.4% on average</value>
+  </data>
+  <data name="Green_Gas_H2O_Short" xml:space="preserve">
+    <value>H₂O</value>
+  </data>
+  <data name="Green_Gas_N2" xml:space="preserve">
+    <value>Nitrogen, N₂</value>
+  </data>
+  <data name="Green_Gas_N2_Description" xml:space="preserve">
+    <value>Two nitrogen atoms with a triple bond. When they stretch, both ends move alike about the middle: the charge stays even and the light has nothing to push on.</value>
+  </data>
+  <data name="Green_Gas_N2_Lifetime" xml:space="preserve">
+    <value>stays: most of the air</value>
+  </data>
+  <data name="Green_Gas_N2_Shape" xml:space="preserve">
+    <value>two atoms, N≡N</value>
+  </data>
+  <data name="Green_Gas_N2_Share" xml:space="preserve">
+    <value>78.1%</value>
+  </data>
+  <data name="Green_Gas_N2_Short" xml:space="preserve">
+    <value>N₂</value>
+  </data>
+  <data name="Green_Gas_O2" xml:space="preserve">
+    <value>Oxygen, O₂</value>
+  </data>
+  <data name="Green_Gas_O2_Description" xml:space="preserve">
+    <value>Two oxygen atoms with a double bond. As with nitrogen, stretching keeps it symmetric, so it lets the ground's infrared through.</value>
+  </data>
+  <data name="Green_Gas_O2_Lifetime" xml:space="preserve">
+    <value>stays: plants keep making it</value>
+  </data>
+  <data name="Green_Gas_O2_Shape" xml:space="preserve">
+    <value>two atoms, O=O</value>
+  </data>
+  <data name="Green_Gas_O2_Share" xml:space="preserve">
+    <value>20.9%</value>
+  </data>
+  <data name="Green_Gas_O2_Short" xml:space="preserve">
+    <value>O₂</value>
+  </data>
+  <data name="Green_GlassHouse_Fact1" xml:space="preserve">
+    <value>A greenhouse warms mostly because the glass stops the warm air from rising away; holding in the infrared adds a few degrees more. Opening the vents cools it far more than a roof that lets infrared out (rock salt, as R. W. Wood tried in 1909).</value>
+  </data>
+  <data name="Green_GlassHouse_Fact2" xml:space="preserve">
+    <value>So the atmosphere's "greenhouse effect" is named after the smaller half of how a greenhouse works: the air has no lid, it catches the infrared itself.</value>
+  </data>
+  <data name="Green_GlassHouse_Fact3" xml:space="preserve">
+    <value>Glass lets through about 85–90% of visible light but almost no infrared beyond about 5 µm: it soaks it up, warms, and glows half of it back in.</value>
+  </data>
+  <data name="Green_GlassHouse_Fact4" xml:space="preserve">
+    <value>A car in the sun warms by about 20 °C within an hour, most of it in the first half hour, even on a mild day; opening a window a crack hardly helps. Never leave a child or a pet in a parked car.</value>
+  </data>
+  <data name="Green_GlassHouse_Fact5" xml:space="preserve">
+    <value>At night a shut glass greenhouse stays a little warmer than outside because the glass keeps the floor's infrared in. Under a clear sky a roof that lets infrared out can make it colder than the air outside: that is how frost forms on clear nights.</value>
+  </data>
+  <data name="Green_GlassHouse_Note" xml:space="preserve">
+    <value>Temperatures from a simple heat-balance model of a small glass greenhouse and a parked car on a clear day; real ones vary with size, wind and shade.</value>
+  </data>
+  <data name="Green_GlassHouse_Subtitle" xml:space="preserve">
+    <value>A greenhouse and a car in the sun</value>
+  </data>
+  <data name="Green_Glass_AfternoonVents_Description" xml:space="preserve">
+    <value>Warm air leaves through the vents and cooler air sinks in, so the greenhouse stays only a few degrees above the outside air. The shut car is still far hotter.</value>
+  </data>
+  <data name="Green_Glass_AfternoonVents_Title" xml:space="preserve">
+    <value>Afternoon, vents open</value>
+  </data>
+  <data name="Green_Glass_Afternoon_Description" xml:space="preserve">
+    <value>The greenhouse and the car are far warmer than the air outside: the sunlight keeps coming in, but the warm air cannot get out. Open the vents to let it go.</value>
+  </data>
+  <data name="Green_Glass_Afternoon_Title" xml:space="preserve">
+    <value>Afternoon: hottest inside</value>
+  </data>
+  <data name="Green_Glass_CarTemp" xml:space="preserve">
+    <value>car {0} °C</value>
+  </data>
+  <data name="Green_Glass_Clock" xml:space="preserve">
+    <value>{0} · Sun {1}° up</value>
+  </data>
+  <data name="Green_Glass_ClockNight" xml:space="preserve">
+    <value>{0} · night</value>
+  </data>
+  <data name="Green_Glass_Evening_Description" xml:space="preserve">
+    <value>With the Sun low, less light gets in. The greenhouse is still warmer than outside but cooling; the car cools fastest.</value>
+  </data>
+  <data name="Green_Glass_Evening_Title" xml:space="preserve">
+    <value>Late in the day</value>
+  </data>
+  <data name="Green_Glass_InsideTemp" xml:space="preserve">
+    <value>greenhouse {0} °C</value>
+  </data>
+  <data name="Green_Glass_LocationNote" xml:space="preserve">
+    <value>The Sun's path is for {0} ({1}° {2}); the outside air is a typical clear day of the season, {3}–{4} °C.</value>
+  </data>
+  <data name="Green_Glass_Morning_Description" xml:space="preserve">
+    <value>Sunlight passes the glass and warms the floor and the plants; they warm the air, which rises and gathers under the roof. Temperatures climb fast.</value>
+  </data>
+  <data name="Green_Glass_Morning_Title" xml:space="preserve">
+    <value>Morning: the Sun gets in</value>
+  </data>
+  <data name="Green_Glass_Night_Description" xml:space="preserve">
+    <value>No sunlight. The floor gives back the heat it stored by day and glows in the infrared; the glass sends half of it back in, so the shut greenhouse cools more slowly than the air outside.</value>
+  </data>
+  <data name="Green_Glass_Night_Title" xml:space="preserve">
+    <value>Night: everything cools</value>
+  </data>
+  <data name="Green_Glass_OutsideTemp" xml:space="preserve">
+    <value>outside {0} °C</value>
+  </data>
+  <data name="Green_Glass_Pane" xml:space="preserve">
+    <value>glass: lets sunlight in, stops infrared</value>
+  </data>
+  <data name="Green_Glass_SaltPane" xml:space="preserve">
+    <value>rock salt: lets sunlight and infrared through</value>
+  </data>
+  <data name="Green_Glass_Sunlight" xml:space="preserve">
+    <value>{0} W/m²</value>
+  </data>
+  <data name="Green_Glass_VentsOpen" xml:space="preserve">
+    <value>vents open (click to shut)</value>
+  </data>
+  <data name="Green_Glass_VentsShut" xml:space="preserve">
+    <value>vents shut (click to open)</value>
+  </data>
+  <data name="Green_Glass_WindowOpen" xml:space="preserve">
+    <value>window open a crack (click to shut)</value>
+  </data>
+  <data name="Green_Glass_WindowShut" xml:space="preserve">
+    <value>windows shut (click to open a crack)</value>
+  </data>
+  <data name="Green_Hint_GlassHouse" xml:space="preserve">
+    <value>Drag sideways to turn the day; click the roof vents or the car's window to open them.</value>
+  </data>
+  <data name="Green_Hint_Molecules" xml:space="preserve">
+    <value>Pick a gas and one of its wiggles; every ray crossing it is labelled with its wavelength.</value>
+  </data>
+  <data name="Green_Hint_Planet" xml:space="preserve">
+    <value>Move the CO₂ slider or take the greenhouse gases away and watch the ground settle; turn on the energy flows for the numbers.</value>
+  </data>
+  <data name="Green_Jump_Afternoon" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="Green_Jump_Caption" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Green_Jump_Dawn" xml:space="preserve">
+    <value>Dawn</value>
+  </data>
+  <data name="Green_Jump_Morning" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="Green_Jump_Night" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="Green_Legend_Infrared" xml:space="preserve">
+    <value>infrared (heat)</value>
+  </data>
+  <data name="Green_Legend_Sunlight" xml:space="preserve">
+    <value>sunlight</value>
+  </data>
+  <data name="Green_Legend_WarmAir" xml:space="preserve">
+    <value>warm air</value>
+  </data>
+  <data name="Green_Lesson_Glass_Choice1" xml:space="preserve">
+    <value>The glass stops the warm air rising away</value>
+  </data>
+  <data name="Green_Lesson_Glass_Choice2" xml:space="preserve">
+    <value>The glass traps the infrared</value>
+  </data>
+  <data name="Green_Lesson_Glass_Choice3" xml:space="preserve">
+    <value>The plants give off heat</value>
+  </data>
+  <data name="Green_Lesson_Molecules_Choice1" xml:space="preserve">
+    <value>The molecule catches it and wiggles harder</value>
+  </data>
+  <data name="Green_Lesson_Molecules_Choice2" xml:space="preserve">
+    <value>The ray bounces off</value>
+  </data>
+  <data name="Green_Lesson_Molecules_Choice3" xml:space="preserve">
+    <value>Nothing at all</value>
+  </data>
+  <data name="Green_Lesson_Planet_Choice1" xml:space="preserve">
+    <value>It's sent out again in any direction, as often down as up</value>
+  </data>
+  <data name="Green_Lesson_Planet_Choice2" xml:space="preserve">
+    <value>It goes straight up into space</value>
+  </data>
+  <data name="Green_Lesson_Planet_Choice3" xml:space="preserve">
+    <value>It stays in the molecule for good</value>
+  </data>
+  <data name="Green_Mode_GlassHouse" xml:space="preserve">
+    <value>Greenhouse and car</value>
+  </data>
+  <data name="Green_Mode_Molecules" xml:space="preserve">
+    <value>Molecules</value>
+  </data>
+  <data name="Green_Mode_Planet" xml:space="preserve">
+    <value>The planet</value>
+  </data>
+  <data name="Green_Mol_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Green_Mol_Dipole" xml:space="preserve">
+    <value>gold arrow: the dipole, where the charge leans</value>
+  </data>
+  <data name="Green_Mol_FromGround" xml:space="preserve">
+    <value>infrared from the ground →</value>
+  </data>
+  <data name="Green_Mol_Holding" xml:space="preserve">
+    <value>caught a {0} µm ray: wiggling harder, about to send it out again</value>
+  </data>
+  <data name="Green_Mol_ModeActive" xml:space="preserve">
+    <value>{0} · {1} · shifts the charge: catches infrared</value>
+  </data>
+  <data name="Green_Mol_ModeBand" xml:space="preserve">
+    <value>{0} cm⁻¹ = {1} µm</value>
+  </data>
+  <data name="Green_Mol_ModeInactive" xml:space="preserve">
+    <value>{0} · {1} · charge stays even: infrared passes</value>
+  </data>
+  <data name="Green_Mol_NoModes" xml:space="preserve">
+    <value>a single atom: nothing to wiggle</value>
+  </data>
+  <data name="Green_Mol_Ray" xml:space="preserve">
+    <value>{0} µm</value>
+  </data>
+  <data name="Green_Mol_Slowed" xml:space="preserve">
+    <value>about 10¹³ times slower, movements enlarged</value>
+  </data>
+  <data name="Green_Mol_SpinBand" xml:space="preserve">
+    <value>beyond 18 µm</value>
+  </data>
+  <data name="Green_Mol_Tally" xml:space="preserve">
+    <value>caught {0} of the last {1} rays</value>
+  </data>
+  <data name="Green_Molecules_Fact1" xml:space="preserve">
+    <value>Nitrogen and oxygen, 99% of the air, are pairs of identical atoms: stretching them keeps the charge perfectly even, so infrared passes straight through. Argon is a single atom with nothing to wiggle at all.</value>
+  </data>
+  <data name="Green_Molecules_Fact2" xml:space="preserve">
+    <value>CO₂'s bend, at 15 µm, sits close to the peak of the ground's glow (about 10 µm). That is why so little CO₂, 0.04% of the air, matters so much.</value>
+  </data>
+  <data name="Green_Molecules_Fact3" xml:space="preserve">
+    <value>A caught ray does not stay caught: within a split second the molecule bumps into its neighbours (warming the air) or sends a ray out again in a random direction, as likely back down as on up.</value>
+  </data>
+  <data name="Green_Molecules_Fact4" xml:space="preserve">
+    <value>Water vapour is the strongest greenhouse gas, but how much the air holds is set by its temperature: it rains out within about 9 days. CO₂ sets the temperature; water vapour follows and roughly doubles the effect.</value>
+  </data>
+  <data name="Green_Molecules_Fact5" xml:space="preserve">
+    <value>Kilogram for kilogram, methane warms about 30 times as much as CO₂ over 100 years (IPCC AR6: 27–30), but it is broken down in about 12 years; CO₂ stays for centuries.</value>
+  </data>
+  <data name="Green_Molecules_Note" xml:space="preserve">
+    <value>A molecule catches infrared when one of its wiggles shifts its charge back and forth at the light's frequency. Wiggles about 10¹³ times slower and the atoms' movements enlarged; the bands are simplified.</value>
+  </data>
+  <data name="Green_Molecules_Subtitle" xml:space="preserve">
+    <value>Why only some gases catch the ground's heat</value>
+  </data>
+  <data name="Green_North" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Green_Obj_Air" xml:space="preserve">
+    <value>The air</value>
+  </data>
+  <data name="Green_Obj_BudgetAirSun" xml:space="preserve">
+    <value>Sunlight into the air</value>
+  </data>
+  <data name="Green_Obj_BudgetBack" xml:space="preserve">
+    <value>Back radiation</value>
+  </data>
+  <data name="Green_Obj_BudgetFromAir" xml:space="preserve">
+    <value>From the air to space</value>
+  </data>
+  <data name="Green_Obj_BudgetGlow" xml:space="preserve">
+    <value>The ground's glow</value>
+  </data>
+  <data name="Green_Obj_BudgetIn" xml:space="preserve">
+    <value>Sunlight in</value>
+  </data>
+  <data name="Green_Obj_BudgetReflected" xml:space="preserve">
+    <value>Reflected sunlight</value>
+  </data>
+  <data name="Green_Obj_BudgetRising" xml:space="preserve">
+    <value>Rising air and evaporation</value>
+  </data>
+  <data name="Green_Obj_BudgetSurface" xml:space="preserve">
+    <value>Sunlight into the ground</value>
+  </data>
+  <data name="Green_Obj_BudgetWindow" xml:space="preserve">
+    <value>Straight out to space</value>
+  </data>
+  <data name="Green_Obj_Car" xml:space="preserve">
+    <value>The car</value>
+  </data>
+  <data name="Green_Obj_CarWindow" xml:space="preserve">
+    <value>Car window</value>
+  </data>
+  <data name="Green_Obj_Clouds" xml:space="preserve">
+    <value>Clouds</value>
+  </data>
+  <data name="Green_Obj_Dipole" xml:space="preserve">
+    <value>The dipole</value>
+  </data>
+  <data name="Green_Obj_Emission" xml:space="preserve">
+    <value>Where the heat leaves</value>
+  </data>
+  <data name="Green_Obj_Floor" xml:space="preserve">
+    <value>Floor and soil</value>
+  </data>
+  <data name="Green_Obj_Greenhouse" xml:space="preserve">
+    <value>Inside the greenhouse</value>
+  </data>
+  <data name="Green_Obj_Ground" xml:space="preserve">
+    <value>The ground</value>
+  </data>
+  <data name="Green_Obj_GroundRays" xml:space="preserve">
+    <value>Rays from the ground</value>
+  </data>
+  <data name="Green_Obj_Infrared" xml:space="preserve">
+    <value>Infrared</value>
+  </data>
+  <data name="Green_Obj_Outside" xml:space="preserve">
+    <value>Outside air</value>
+  </data>
+  <data name="Green_Obj_Pane" xml:space="preserve">
+    <value>The glass</value>
+  </data>
+  <data name="Green_Obj_Profile" xml:space="preserve">
+    <value>Temperature with height</value>
+  </data>
+  <data name="Green_Obj_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Green_Obj_Spectrum" xml:space="preserve">
+    <value>The ground's glow by wavelength</value>
+  </data>
+  <data name="Green_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Green_Obj_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="Green_Obj_Vents" xml:space="preserve">
+    <value>Roof vents</value>
+  </data>
+  <data name="Green_Obj_VibAsymmetricBend" xml:space="preserve">
+    <value>Lopsided bend</value>
+  </data>
+  <data name="Green_Obj_VibAsymmetricStretch" xml:space="preserve">
+    <value>Lopsided stretch</value>
+  </data>
+  <data name="Green_Obj_VibBend" xml:space="preserve">
+    <value>Bend</value>
+  </data>
+  <data name="Green_Obj_VibSpin" xml:space="preserve">
+    <value>Spinning</value>
+  </data>
+  <data name="Green_Obj_VibStretch" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="Green_Obj_VibSymmetricBend" xml:space="preserve">
+    <value>Even bend</value>
+  </data>
+  <data name="Green_Obj_VibSymmetricStretch" xml:space="preserve">
+    <value>Even stretch</value>
+  </data>
+  <data name="Green_Obj_WarmAir" xml:space="preserve">
+    <value>Warm air</value>
+  </data>
+  <data name="Green_Obj_Window" xml:space="preserve">
+    <value>The atmospheric window</value>
+  </data>
+  <data name="Green_Option_Budget" xml:space="preserve">
+    <value>Energy flows (W/m²)</value>
+  </data>
+  <data name="Green_Option_CarWindow" xml:space="preserve">
+    <value>Car window open a crack</value>
+  </data>
+  <data name="Green_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Green_Option_NoGases" xml:space="preserve">
+    <value>No greenhouse gases</value>
+  </data>
+  <data name="Green_Option_Salt" xml:space="preserve">
+    <value>Rock-salt roof (lets infrared out)</value>
+  </data>
+  <data name="Green_Option_Vents" xml:space="preserve">
+    <value>Open the roof vents</value>
+  </data>
+  <data name="Green_Planet_Air" xml:space="preserve">
+    <value>air with greenhouse gases</value>
+  </data>
+  <data name="Green_Planet_Air_NoGases" xml:space="preserve">
+    <value>air of nitrogen and oxygen only</value>
+  </data>
+  <data name="Green_Planet_Bare_Description" xml:space="preserve">
+    <value>Every ray of heat from the ground goes straight to space. To send out as much as the sunlight it keeps, the ground needs only about −18 °C: the seas freeze.</value>
+  </data>
+  <data name="Green_Planet_Bare_Title" xml:space="preserve">
+    <value>No greenhouse gases: a frozen world</value>
+  </data>
+  <data name="Green_Planet_Clock" xml:space="preserve">
+    <value>CO₂ {0} · {1} °C</value>
+  </data>
+  <data name="Green_Planet_Emission" xml:space="preserve">
+    <value>heat leaves for space from about {0} km up, where the air is {1} °C</value>
+  </data>
+  <data name="Green_Planet_Fact1" xml:space="preserve">
+    <value>Without greenhouse gases Earth would average about −18 °C, the temperature at which it sends out as much heat as the sunlight it keeps. The real average is about 15 °C: the greenhouse effect adds some 33 °C and makes Earth liveable.</value>
+  </data>
+  <data name="Green_Planet_Fact2" xml:space="preserve">
+    <value>The air lets most sunlight through but catches most of the ground's infrared: only about a tenth goes straight out to space, through the "window" between 8 and 13 µm.</value>
+  </data>
+  <data name="Green_Planet_Fact3" xml:space="preserve">
+    <value>The ground gets 333 W/m² back from the air, twice the sunlight it takes in (161 W/m²). That is why it is so much warmer than sunlight alone could make it.</value>
+  </data>
+  <data name="Green_Planet_Fact4" xml:space="preserve">
+    <value>More CO₂ hardly catches "more" rays: the middle of its band is black already. It raises the height the heat finally leaves from, where the air is colder and glows less, so the whole column must warm until the balance is back.</value>
+  </data>
+  <data name="Green_Planet_Fact5" xml:space="preserve">
+    <value>Doubling CO₂ pushes about 3.7 W/m² more; with the feedbacks (more water vapour, less ice) the world settles about 3 °C warmer (IPCC: likely 2.5–4 °C). The temperatures here are such settled values; the oceans take decades to catch up.</value>
+  </data>
+  <data name="Green_Planet_Ground" xml:space="preserve">
+    <value>ground {0} °C</value>
+  </data>
+  <data name="Green_Planet_Ground_Settling" xml:space="preserve">
+    <value>ground {0} °C, settling…</value>
+  </data>
+  <data name="Green_Planet_IceAge_Description" xml:space="preserve">
+    <value>About 180 ppm, as at the depth of the last ice age 20,000 years ago. CO₂ alone makes it about 2 °C colder; the ice sheets reflecting sunlight did most of the rest (the real ice age was about 5–6 °C colder).</value>
+  </data>
+  <data name="Green_Planet_IceAge_Title" xml:space="preserve">
+    <value>Ice-age CO₂</value>
+  </data>
+  <data name="Green_Planet_More_Description" xml:space="preserve">
+    <value>Each doubling adds about the same warming, about 3 °C once settled: 560 ppm is about 3 °C over before industry, 1120 ppm about 6 °C.</value>
+  </data>
+  <data name="Green_Planet_More_Title" xml:space="preserve">
+    <value>More CO₂ than today</value>
+  </data>
+  <data name="Green_Planet_Note" xml:space="preserve">
+    <value>Not to scale: a strip of ground with 12 km of air over it. Each dash of sunlight or wiggle of infrared stands for a share of Earth's average energy flows (Trenberth et al. 2009).</value>
+  </data>
+  <data name="Green_Planet_Preindustrial_Description" xml:space="preserve">
+    <value>About 280 ppm, as for thousands of years before 1750. Water vapour and CO₂ hold the ground at about 14 °C.</value>
+  </data>
+  <data name="Green_Planet_Preindustrial_Title" xml:space="preserve">
+    <value>Before industry</value>
+  </data>
+  <data name="Green_Planet_Space" xml:space="preserve">
+    <value>space</value>
+  </data>
+  <data name="Green_Planet_Subtitle" xml:space="preserve">
+    <value>Sunlight gets in, the ground's heat is held back</value>
+  </data>
+  <data name="Green_Planet_Today_Description" xml:space="preserve">
+    <value>About 425 ppm in 2024, half as much again as before industry, mostly from burning coal, oil and gas. Once everything has caught up that is worth about 1.8 °C; the world had warmed about 1.1 °C by 2011–2020.</value>
+  </data>
+  <data name="Green_Planet_Today_Title" xml:space="preserve">
+    <value>About today</value>
+  </data>
+  <data name="Green_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Green_Profile_Celsius" xml:space="preserve">
+    <value>air °C</value>
+  </data>
+  <data name="Green_Profile_Km" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="Green_Season_Caption" xml:space="preserve">
+    <value>Time of year</value>
+  </data>
+  <data name="Green_Season_Equinox" xml:space="preserve">
+    <value>Spring / autumn</value>
+  </data>
+  <data name="Green_Season_Summer" xml:space="preserve">
+    <value>Summer</value>
+  </data>
+  <data name="Green_Season_Winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="Green_Share_Clouds" xml:space="preserve">
+    <value>clouds</value>
+  </data>
+  <data name="Green_Share_Co2" xml:space="preserve">
+    <value>CO₂</value>
+  </data>
+  <data name="Green_Share_Main" xml:space="preserve">
+    <value>N₂, O₂, Ar</value>
+  </data>
+  <data name="Green_Share_Other" xml:space="preserve">
+    <value>methane, ozone, N₂O…</value>
+  </data>
+  <data name="Green_Share_Water" xml:space="preserve">
+    <value>water vapour</value>
+  </data>
+  <data name="Green_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Green_South" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Green_Spectrum_AllAir" xml:space="preserve">
+    <value>dashed: all greenhouse gases together, {0}%</value>
+  </data>
+  <data name="Green_Spectrum_Axis" xml:space="preserve">
+    <value>wavelength, µm (false colours: infrared is invisible)</value>
+  </data>
+  <data name="Green_Spectrum_Caught" xml:space="preserve">
+    <value>shaded: what {0} alone catches, {1}% of it</value>
+  </data>
+  <data name="Green_Spectrum_CaughtNone" xml:space="preserve">
+    <value>{0} catches none of it ({1}%)</value>
+  </data>
+  <data name="Green_Spectrum_Glow" xml:space="preserve">
+    <value>the ground's glow at 15 °C</value>
+  </data>
+  <data name="Green_Spectrum_Mode" xml:space="preserve">
+    <value>{0} µm</value>
+  </data>
+  <data name="Green_Spectrum_ModeOff" xml:space="preserve">
+    <value>{0} µm ×</value>
+  </data>
+  <data name="Green_Spectrum_Window" xml:space="preserve">
+    <value>window</value>
+  </data>
+  <data name="Green_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Green_Stat_AirChanges" xml:space="preserve">
+    <value>Air changed</value>
+  </data>
+  <data name="Green_Stat_AirChanges_Open" xml:space="preserve">
+    <value>{0} times an hour (vents open)</value>
+  </data>
+  <data name="Green_Stat_AirChanges_Shut" xml:space="preserve">
+    <value>{0} times an hour (leaks only)</value>
+  </data>
+  <data name="Green_Stat_AirShare" xml:space="preserve">
+    <value>Share of the air</value>
+  </data>
+  <data name="Green_Stat_Bare" xml:space="preserve">
+    <value>With no greenhouse gases</value>
+  </data>
+  <data name="Green_Stat_Bare_Value" xml:space="preserve">
+    <value>{0} °C ({1} °C colder)</value>
+  </data>
+  <data name="Green_Stat_Car" xml:space="preserve">
+    <value>Car</value>
+  </data>
+  <data name="Green_Stat_Caught" xml:space="preserve">
+    <value>Catches</value>
+  </data>
+  <data name="Green_Stat_Caught_Value" xml:space="preserve">
+    <value>{0}% of the ground's glow (alone)</value>
+  </data>
+  <data name="Green_Stat_Co2" xml:space="preserve">
+    <value>CO₂</value>
+  </data>
+  <data name="Green_Stat_Emission" xml:space="preserve">
+    <value>Heat leaves from</value>
+  </data>
+  <data name="Green_Stat_Emission_Value" xml:space="preserve">
+    <value>about {0} km up, at {1} °C</value>
+  </data>
+  <data name="Green_Stat_Floor" xml:space="preserve">
+    <value>Greenhouse floor</value>
+  </data>
+  <data name="Green_Stat_Forcing" xml:space="preserve">
+    <value>Extra push</value>
+  </data>
+  <data name="Green_Stat_Forcing_Value" xml:space="preserve">
+    <value>{0} W/m² against 1750</value>
+  </data>
+  <data name="Green_Stat_Glow" xml:space="preserve">
+    <value>Ground's glow</value>
+  </data>
+  <data name="Green_Stat_Glow_Value" xml:space="preserve">
+    <value>{0} W/m² (sunlight it takes in: {1})</value>
+  </data>
+  <data name="Green_Stat_Greenhouse" xml:space="preserve">
+    <value>Greenhouse air</value>
+  </data>
+  <data name="Green_Stat_Lifetime" xml:space="preserve">
+    <value>Stays in the air</value>
+  </data>
+  <data name="Green_Stat_Outside" xml:space="preserve">
+    <value>Outside</value>
+  </data>
+  <data name="Green_Stat_Roof" xml:space="preserve">
+    <value>Roof</value>
+  </data>
+  <data name="Green_Stat_Roof_Glass" xml:space="preserve">
+    <value>glass: keeps infrared in</value>
+  </data>
+  <data name="Green_Stat_Roof_Salt" xml:space="preserve">
+    <value>rock salt: lets infrared out</value>
+  </data>
+  <data name="Green_Stat_Shape" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="Green_Stat_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Green_Stat_Sun_Down" xml:space="preserve">
+    <value>below the horizon</value>
+  </data>
+  <data name="Green_Stat_Sun_Value" xml:space="preserve">
+    <value>{0}° up, {1} W/m² on the ground</value>
+  </data>
+  <data name="Green_Stat_Surface" xml:space="preserve">
+    <value>Ground, settled</value>
+  </data>
+  <data name="Green_Stat_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Green_Stat_Time_Value" xml:space="preserve">
+    <value>{0} (local solar time)</value>
+  </data>
+  <data name="Green_Stat_Warmer_Value" xml:space="preserve">
+    <value>{0} °C ({1} °C against outside)</value>
+  </data>
+  <data name="Green_Stat_Wiggle" xml:space="preserve">
+    <value>Shown</value>
+  </data>
+  <data name="Green_Stat_Wiggle_Active" xml:space="preserve">
+    <value>{0}, {1}: catches infrared</value>
+  </data>
+  <data name="Green_Stat_Wiggle_Inactive" xml:space="preserve">
+    <value>{0}, {1}: does not catch infrared</value>
+  </data>
+  <data name="Green_Stat_Wiggles" xml:space="preserve">
+    <value>Ways to wiggle</value>
+  </data>
+  <data name="Green_Stat_Wiggles_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Green_Stat_Wiggles_Value" xml:space="preserve">
+    <value>{0}, {1} of which catch infrared</value>
+  </data>
+  <data name="Green_Stat_Window" xml:space="preserve">
+    <value>Straight out</value>
+  </data>
+  <data name="Green_Stat_Window_Value" xml:space="preserve">
+    <value>about {0}% of the ground's glow</value>
+  </data>
+  <data name="Green_Timeline" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="Green_Title" xml:space="preserve">
+    <value>The greenhouse effect</value>
+  </data>
+  <data name="Green_Try_Caption" xml:space="preserve">
+    <value>Try</value>
+  </data>
+  <data name="Green_Vib_AsymmetricBend" xml:space="preserve">
+    <value>lopsided bend</value>
+  </data>
+  <data name="Green_Vib_AsymmetricStretch" xml:space="preserve">
+    <value>lopsided stretch</value>
+  </data>
+  <data name="Green_Vib_Bend" xml:space="preserve">
+    <value>bend</value>
+  </data>
+  <data name="Green_Vib_Caption" xml:space="preserve">
+    <value>Ways to wiggle (green: catches infrared)</value>
+  </data>
+  <data name="Green_Vib_Note" xml:space="preserve">
+    <value>Each wiggle has its own frequency; light of that frequency can drive it only if it shifts the charge.</value>
+  </data>
+  <data name="Green_Vib_Spin" xml:space="preserve">
+    <value>spinning</value>
+  </data>
+  <data name="Green_Vib_Stretch" xml:space="preserve">
+    <value>stretch</value>
+  </data>
+  <data name="Green_Vib_SymmetricBend" xml:space="preserve">
+    <value>even bend</value>
+  </data>
+  <data name="Green_Vib_SymmetricStretch" xml:space="preserve">
+    <value>even stretch</value>
+  </data>
+  <data name="Green_World_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Green_World_Mars" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="Green_World_Venus" xml:space="preserve">
+    <value>Venus</value>
+  </data>
   <data name="Hole_Chart_Barrier" xml:space="preserve">
     <value>top</value>
   </data>
@@ -5012,6 +5885,219 @@
   </data>
   <data name="Narr_Expand_Redshift_10" xml:space="preserve">
     <value>Your turn. Pick another galaxy, or drag along the chart to choose when the light set off.</value>
+  </data>
+  <data name="Narr_Green_Glass_01" xml:space="preserve">
+    <value>Here's a small glass greenhouse and a car, parked in the summer sun. Look at the readings: inside both, it's far warmer than the air outside.</value>
+  </data>
+  <data name="Narr_Green_Glass_02" xml:space="preserve">
+    <value>Sunlight passes through the glass easily, and warms the floor and the plants inside.</value>
+  </data>
+  <data name="Narr_Green_Glass_03" xml:space="preserve">
+    <value>The warm floor glows in the infrared. Glass doesn't let those rays through: it soaks them up, warms, and glows half of that heat back inside.</value>
+  </data>
+  <data name="Narr_Green_Glass_04" xml:space="preserve">
+    <value>So what do you think keeps a greenhouse warm, most of all?</value>
+  </data>
+  <data name="Narr_Green_Glass_05" xml:space="preserve">
+    <value>Mostly, it's the lid. Warm air rises off the floor and gathers under the roof. With nowhere to go, the heat builds up. Trapping the infrared adds only a few degrees more.</value>
+  </data>
+  <data name="Narr_Green_Glass_06" xml:space="preserve">
+    <value>Open the roof vents. The warm air escapes through the top, cooler air sinks in, and the greenhouse cools down a lot.</value>
+  </data>
+  <data name="Narr_Green_Glass_07" xml:space="preserve">
+    <value>In 1909, Robert Wood tried a roof of rock salt, which lets infrared out. It cooled the greenhouse far less than opening the vents. The air has no lid at all: its greenhouse effect comes only from catching the infrared.</value>
+  </data>
+  <data name="Narr_Green_Glass_08" xml:space="preserve">
+    <value>A parked car is a greenhouse too. In the sun it can be twenty degrees warmer inside within an hour, even on a mild day, and opening a window a crack hardly helps. Never leave a child or a pet in a parked car.</value>
+  </data>
+  <data name="Narr_Green_Glass_09" xml:space="preserve">
+    <value>Your turn. Drag across the picture to turn the day, or click the roof vents or the car's window, and watch the temperatures change.</value>
+  </data>
+  <data name="Narr_Green_Molecules_01" xml:space="preserve">
+    <value>Why do only some gases catch heat rays? Start with nitrogen, most of the air. It's two identical atoms. When they stretch, the charge stays perfectly even, so light has nothing to push on, and every ray passes straight through.</value>
+  </data>
+  <data name="Narr_Green_Molecules_02" xml:space="preserve">
+    <value>Carbon dioxide is different. Its oxygen atoms pull the electrons a little, so they're slightly negative, and the carbon slightly positive. But when it stretches evenly, the charges stay balanced. Still no catch.</value>
+  </data>
+  <data name="Narr_Green_Molecules_03" xml:space="preserve">
+    <value>Now watch it bend. The charge swings up and down: see the gold arrow. Light with the same rhythm can push on that swinging charge.</value>
+  </data>
+  <data name="Narr_Green_Molecules_04" xml:space="preserve">
+    <value>The bend wiggles in step with infrared of about fifteen micrometres. What happens when a ray like that comes by?</value>
+  </data>
+  <data name="Narr_Green_Molecules_05" xml:space="preserve">
+    <value>It's caught, and the molecule wiggles harder. A moment later, it either bumps into its neighbours, warming the air, or sends a ray out again in a random direction.</value>
+  </data>
+  <data name="Narr_Green_Molecules_06" xml:space="preserve">
+    <value>Below is the ground's glow by wavelength. Carbon dioxide's band at fifteen micrometres sits close to its peak. That's why so little carbon dioxide, about four hundredths of a percent of the air, matters so much.</value>
+  </data>
+  <data name="Narr_Green_Molecules_07" xml:space="preserve">
+    <value>Between eight and thirteen micrometres, little is caught by anything: this is the atmospheric window. Through it, about a tenth of the ground's glow escapes straight to space.</value>
+  </data>
+  <data name="Narr_Green_Molecules_08" xml:space="preserve">
+    <value>Water is bent even at rest, so every one of its wiggles catches light, and it can spin as well. Water vapour is the strongest greenhouse gas of all, but how much the air holds depends on its temperature.</value>
+  </data>
+  <data name="Narr_Green_Molecules_09" xml:space="preserve">
+    <value>Your turn. Pick another gas or another wiggle; you can also click a line on the spectrum. Watch which rays get caught.</value>
+  </data>
+  <data name="Narr_Green_Obj_Air" xml:space="preserve">
+    <value>The air is about seventy-eight percent nitrogen and twenty-one percent oxygen, and both let heat rays through. A tiny share of greenhouse gases does all the catching.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetAirSun" xml:space="preserve">
+    <value>Sunlight taken in by the air itself, mostly by water vapour, ozone and clouds: seventy-eight watts per square metre.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetBack" xml:space="preserve">
+    <value>Back radiation: three hundred and thirty-three watts per square metre of infrared, sent down by the greenhouse gases and the clouds. This is the greenhouse effect at work.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetFromAir" xml:space="preserve">
+    <value>Infrared sent to space from high in the air and from the tops of clouds: about a hundred and ninety-nine watts per square metre. With the window, it balances the sunlight kept.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetGlow" xml:space="preserve">
+    <value>The ground's glow: about three hundred and ninety-six watts per square metre of infrared, more than twice the sunlight it takes in. It can glow that much only because the air sends heat back.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetIn" xml:space="preserve">
+    <value>Sunlight coming in: three hundred and forty-one watts per square metre, averaged over the whole globe, day and night.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetReflected" xml:space="preserve">
+    <value>Sunlight reflected straight back to space by clouds, air, ice and the ground: about thirty percent of it.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetRising" xml:space="preserve">
+    <value>Heat carried up by rising warm air, and by evaporating water, which gives its heat back when it condenses into clouds: about ninety-seven watts per square metre.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetSurface" xml:space="preserve">
+    <value>Sunlight taken in by the ground: a hundred and sixty-one watts per square metre, less than half of what arrives.</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetWindow" xml:space="preserve">
+    <value>Infrared that goes straight from the ground out to space, through the atmospheric window: about forty watts per square metre, a tenth of the ground's glow.</value>
+  </data>
+  <data name="Narr_Green_Obj_Car" xml:space="preserve">
+    <value>A car shut in the sun heats up like a greenhouse: sunlight gets in through the windows, and the hot air is trapped inside. Never leave a child or a pet in a parked car.</value>
+  </data>
+  <data name="Narr_Green_Obj_CarWindow" xml:space="preserve">
+    <value>A window open a crack lets very little air through, so the car hardly cools. Click it to open or shut it.</value>
+  </data>
+  <data name="Narr_Green_Obj_Clouds" xml:space="preserve">
+    <value>Clouds work both ways. Their white tops reflect sunlight back to space, cooling the planet, while their undersides send heat back down, warming it. Overall, today's clouds cool Earth a little.</value>
+  </data>
+  <data name="Narr_Green_Obj_Dipole" xml:space="preserve">
+    <value>The gold arrow is the dipole: which way the molecule's charge leans. Light can only push on a molecule whose dipole swings back and forth as it wiggles.</value>
+  </data>
+  <data name="Narr_Green_Obj_Emission" xml:space="preserve">
+    <value>This is roughly the height the heat finally leaves from on its way to space. The air there is about minus eighteen degrees, the temperature a planet with no greenhouse gases would have. More carbon dioxide lifts this height.</value>
+  </data>
+  <data name="Narr_Green_Obj_Floor" xml:space="preserve">
+    <value>The floor and soil soak up the sunlight and get hotter than the air. They warm the air touching them, and glow in the infrared.</value>
+  </data>
+  <data name="Narr_Green_Obj_GasAr" xml:space="preserve">
+    <value>Argon is almost one percent of the air. It's a single atom, with nothing to bend or stretch, so it can't catch infrared at all.</value>
+  </data>
+  <data name="Narr_Green_Obj_GasCH4" xml:space="preserve">
+    <value>Methane is a tiny trace, under two parts per million. Kilogram for kilogram, it warms about thirty times as much as carbon dioxide over a century, but it breaks down in about twelve years.</value>
+  </data>
+  <data name="Narr_Green_Obj_GasCO2" xml:space="preserve">
+    <value>Carbon dioxide is only about four hundredths of a percent of the air, but its bend catches infrared near the peak of the ground's glow. It stays in the air for centuries, so over the long run it sets the temperature.</value>
+  </data>
+  <data name="Narr_Green_Obj_GasH2O" xml:space="preserve">
+    <value>Water vapour is the strongest greenhouse gas. But it rains out within about nine days, so how much there is follows the temperature: it amplifies warming, rather than starting it.</value>
+  </data>
+  <data name="Narr_Green_Obj_GasN2" xml:space="preserve">
+    <value>Nitrogen is seventy-eight percent of the air. Its two identical atoms keep their charge even however they move, so it lets infrared straight through.</value>
+  </data>
+  <data name="Narr_Green_Obj_GasO2" xml:space="preserve">
+    <value>Oxygen is twenty-one percent of the air. Like nitrogen, it's two identical atoms, so it doesn't catch the ground's infrared.</value>
+  </data>
+  <data name="Narr_Green_Obj_Greenhouse" xml:space="preserve">
+    <value>The air inside the greenhouse. Sunlight gets in, but the warm air can't rise away, so it ends up far warmer than outside.</value>
+  </data>
+  <data name="Narr_Green_Obj_Ground" xml:space="preserve">
+    <value>The ground's temperature settles where the heat it loses equals the heat it gets: the sunlight it takes in, plus the heat sent back down by the air.</value>
+  </data>
+  <data name="Narr_Green_Obj_GroundRays" xml:space="preserve">
+    <value>Heat rays from the ground, each labelled with its wavelength. They come in a whole spread of wavelengths, most of them between five and thirty micrometres.</value>
+  </data>
+  <data name="Narr_Green_Obj_Infrared" xml:space="preserve">
+    <value>Infrared, drawn as wavy red lines: the heat glow of anything warm. The ground, at about fifteen degrees, glows at wavelengths around ten micrometres, about twenty times longer than visible light.</value>
+  </data>
+  <data name="Narr_Green_Obj_Outside" xml:space="preserve">
+    <value>The air outside, measured in the shade. Through the day it changes far less than the air in the greenhouse or the car.</value>
+  </data>
+  <data name="Narr_Green_Obj_Pane" xml:space="preserve">
+    <value>The roof and walls. Glass lets through eighty-five to ninety percent of sunlight, but almost no infrared. A rock-salt pane, like the one in Robert Wood's 1909 experiment, lets the infrared out.</value>
+  </data>
+  <data name="Narr_Green_Obj_Profile" xml:space="preserve">
+    <value>The air's temperature against height. It gets about six and a half degrees colder for every kilometre up, as far as the top of the weather, about eleven kilometres high.</value>
+  </data>
+  <data name="Narr_Green_Obj_Space" xml:space="preserve">
+    <value>Space is cold and dark. The only way Earth can lose heat to it is by glowing in the infrared. Balance comes when the heat sent out equals the sunlight kept.</value>
+  </data>
+  <data name="Narr_Green_Obj_Spectrum" xml:space="preserve">
+    <value>The ground's glow, by wavelength. The shaded part is what this gas alone catches; the dashed line is what all the greenhouse gases catch together.</value>
+  </data>
+  <data name="Narr_Green_Obj_Sun" xml:space="preserve">
+    <value>The Sun's light is mostly visible light, which clear air and glass let through. Of every hundred units arriving at the top of the air, about thirty are reflected straight back to space.</value>
+  </data>
+  <data name="Narr_Green_Obj_Sunlight" xml:space="preserve">
+    <value>Sunlight, drawn as short gold streaks. The Sun is so hot that most of its light is visible, with short wavelengths that pass through the air easily.</value>
+  </data>
+  <data name="Narr_Green_Obj_Vents" xml:space="preserve">
+    <value>The roof vents. Open, they let the warm air out at the top and cooler air in: that's how gardeners keep a greenhouse from overheating. Click them to open or shut them.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibAsymmetricBend" xml:space="preserve">
+    <value>A lopsided bend: methane's hydrogens fold unevenly, shifting the charge. It catches infrared at about seven point seven micrometres, right at the edge of the atmospheric window.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibAsymmetricStretch" xml:space="preserve">
+    <value>A lopsided stretch: one side stretches while the other squeezes, so the charge swings from side to side. This wiggle catches infrared, at short wavelengths.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibBend" xml:space="preserve">
+    <value>A bend: the molecule flexes like a hinge. In carbon dioxide this swings the charge up and down, and catches infrared at about fifteen micrometres, close to the peak of the ground's glow.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibSpin" xml:space="preserve">
+    <value>Spinning: a water molecule, bent and charged, tumbles round. Its turning charge catches long-wave infrared, beyond about eighteen micrometres.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibStretch" xml:space="preserve">
+    <value>A stretch: the two atoms move apart and back together. In nitrogen or oxygen the charge stays even, so this wiggle can't catch light.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibSymmetricBend" xml:space="preserve">
+    <value>An even bend: methane's hydrogens fold in pairs and keep the molecule balanced, so this wiggle doesn't catch infrared.</value>
+  </data>
+  <data name="Narr_Green_Obj_VibSymmetricStretch" xml:space="preserve">
+    <value>An even stretch: the outer atoms move out and in together. In carbon dioxide or methane the molecule stays balanced, so this wiggle doesn't catch infrared. Water is bent, so in water it does.</value>
+  </data>
+  <data name="Narr_Green_Obj_WarmAir" xml:space="preserve">
+    <value>Warm air rising off the floor and gathering under the roof. Without the glass lid, it would simply rise away and take the heat with it.</value>
+  </data>
+  <data name="Narr_Green_Obj_Window" xml:space="preserve">
+    <value>The atmospheric window, from eight to thirteen micrometres. Hardly anything in the air catches these wavelengths, so they're the ground's main way to lose heat straight to space.</value>
+  </data>
+  <data name="Narr_Green_Planet_01" xml:space="preserve">
+    <value>Here's a slice of our planet: the ground, the air above it, and space. Sunlight streams in. Most of it passes straight through the air, and almost half of it is taken in by the ground.</value>
+  </data>
+  <data name="Narr_Green_Planet_02" xml:space="preserve">
+    <value>The warmed ground glows too, but not with light you can see. It gives off infrared, heat rays: the wavy red lines rising from the ground.</value>
+  </data>
+  <data name="Narr_Green_Planet_03" xml:space="preserve">
+    <value>Most of the air, nitrogen and oxygen, lets those rays pass. But a few kinds of molecule, carbon dioxide, water vapour and methane, catch them. Watch a molecule flash red when it does.</value>
+  </data>
+  <data name="Narr_Green_Planet_04" xml:space="preserve">
+    <value>A molecule has caught a heat ray. What happens to that heat next?</value>
+  </data>
+  <data name="Narr_Green_Planet_05" xml:space="preserve">
+    <value>It's sent out again in a random direction, so half of it comes back down. Turn on the energy flows: three hundred and thirty-three watts per square metre come back down to the ground, twice what it gets from sunlight.</value>
+  </data>
+  <data name="Narr_Green_Planet_06" xml:space="preserve">
+    <value>Now take the greenhouse gases away. The heat rays fly straight out to space, and the ground cools until it settles at about minus eighteen degrees. A frozen planet.</value>
+  </data>
+  <data name="Narr_Green_Planet_07" xml:space="preserve">
+    <value>Bring them back, at the level of the year seventeen-fifty: two hundred and eighty ppm of carbon dioxide. The ground warms to about fourteen degrees. Those thirty-odd degrees are the natural greenhouse effect, and they make Earth fit for life.</value>
+  </data>
+  <data name="Narr_Green_Planet_08" xml:space="preserve">
+    <value>Now double the carbon dioxide, to five hundred and sixty ppm. The heat now leaves for space from a few hundred metres higher up, where the air is colder and gives off less. So the ground and the air below must warm, here by about three degrees, until the balance returns.</value>
+  </data>
+  <data name="Narr_Green_Planet_09" xml:space="preserve">
+    <value>The small chart at the right of the picture shows the air's temperature with height: about six and a half degrees colder for every kilometre up. The gold dot marks the height the heat escapes from.</value>
+  </data>
+  <data name="Narr_Green_Planet_10" xml:space="preserve">
+    <value>Your turn. Drag the carbon dioxide slider, or take the greenhouse gases away, and watch the ground's temperature settle.</value>
   </data>
   <data name="Narr_Hole_Lensing_01" xml:space="preserve">
     <value>Now we're very far away. A black hole is drifting in front of a distant galaxy. The hole itself is far too small to see. But watch what it does to the light coming from behind it.</value>

@@ -257,6 +257,8 @@ def convert_types(s: str, namespace: str) -> str:
     s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
     s = s.replace(".IntersectsWith(", ".Intersects(")
     s = re.sub(r"\bImageSource\b", "IImage", s)
+    # WriteableBitmap and RenderTargetBitmap are both Avalonia Bitmaps.
+    s = re.sub(r"\bBitmapSource\b", "Bitmap", s)
     # A bitmap's size in pixels.
     s = re.sub(r"\b(_?\w+[!?]?)\.Pixel(Width|Height)\b", lambda m: f"{m[1]}.PixelSize.{m[2][5:] if False else ('Width' if m[2] == 'Width' else 'Height')}", s)
     # The length of the gap between two points (indexed or not).
@@ -309,7 +311,9 @@ def expand_register_helpers(s: str) -> str:
         flags = [f for f, word in (("FrameworkPropertyMetadataOptions.AffectsRender", "AffectsRender"),
                                    ("FrameworkPropertyMetadataOptions.BindsTwoWayByDefault", "BindsTwoWayByDefault"))
                  if word in body]
-        helpers[m.group("name")] = (m.span(), owner, value_type, flags, len(generic) == 2)
+        # A helper without a value parameter has its default in its own metadata: new FrameworkPropertyMetadata(false, …).
+        default = re.search(r"new FrameworkPropertyMetadata\(([^,()]+)", body)
+        helpers[m.group("name")] = (m.span(), owner, value_type, flags, len(generic) == 2, default.group(1).strip() if default else None)
     if not helpers:
         return s
 
@@ -323,7 +327,7 @@ def expand_register_helpers(s: str) -> str:
         close = match_bracket(s, m.end() - 1)
         args = split_top(s[m.end():close])
         name = m.group(1)
-        _, owner, value_type, flags, _ = helpers[m.group(2)]
+        _, owner, value_type, flags, _, default = helpers[m.group(2)]
         if m.group(3) and helpers[m.group(2)][4]:
             owner, type_ = (a.strip() for a in split_top(m.group(3)))
         elif m.group(3):
@@ -333,7 +337,7 @@ def expand_register_helpers(s: str) -> str:
         else:
             clr = re.search(rf"public ([\w.<>?,\[\] ]+?) {name}\s*(?:\{{|=>)", s)
             type_ = clr.group(1) if clr else "object"
-        meta = [args[1]]
+        meta = [args[1] if len(args) > 1 else default]
         if flags:
             meta.append(" | ".join(flags))
         if len(args) > 2:
@@ -436,6 +440,14 @@ def rewrite_initialized_gradients(text: str) -> str:
         indent = re.match(r"[ \t]*", text[line_start:]).group(0)
         named = []
         if m.group(2) == "Linear":
+            # new LinearGradientBrush(stops, start, end) { MappingMode = … }: the points are arguments.
+            if args[0].startswith("[") and len(args) == 3:
+                entries.setdefault("StartPoint", args[1])
+                entries.setdefault("EndPoint", args[2])
+            if "StartPoint" not in entries or "EndPoint" not in entries:  # an angle only: by hand
+                out.append(text[i:m.end()])
+                i = m.end()
+                continue
             known = {"StartPoint": "startPoint", "EndPoint": "endPoint"}
             for key, name in known.items():
                 if key in entries:
@@ -741,6 +753,7 @@ PLUMBING = [
     (r"Cursors\.SizeNS", "new Cursor(StandardCursorType.SizeNorthSouth)"),
     (r"Cursors\.SizeWE", "new Cursor(StandardCursorType.SizeWestEast)"),
     (r"Cursors\.SizeAll", "new Cursor(StandardCursorType.SizeAll)"),
+    (r"Cursors\.Cross", "new Cursor(StandardCursorType.Cross)"),
     (r"Cursors\.Arrow", "Cursor.Default"),
     (r"^\s*Focusable = false;\n", ""),
     (r"^\s*FocusVisualStyle = null;\n", ""),
@@ -805,6 +818,8 @@ def convert_points(s: str) -> str:
             s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
     # WPF's Vector.Normalize() changes the vector; Avalonia's returns a new one and leaves it as it was.
     s = re.sub(r"^(\s*)(\w+)\.Normalize\(\);$", r"\1\2 = \2.Normalize();", s, flags=re.M)
+    # (and Rect.Offset moves the rect; Avalonia's Translate returns a moved one)
+    s = re.sub(r"^(\s*)(\w+)\.Offset\((.+)\);$", r"\1\2 = \2.Translate(new Vector(\3));", s, flags=re.M)
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
     # (also after an `if (...)` on the same line)

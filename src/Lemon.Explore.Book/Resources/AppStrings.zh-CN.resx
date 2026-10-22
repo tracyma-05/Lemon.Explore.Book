@@ -2535,6 +2535,879 @@
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>点一下画面里的东西，听听它是什么</value>
   </data>
+  <data name="Green_Budget_AirSun" xml:space="preserve">
+    <value>大气吸收 {0}</value>
+  </data>
+  <data name="Green_Budget_Back" xml:space="preserve">
+    <value>逆辐射 {0}</value>
+  </data>
+  <data name="Green_Budget_FromAir" xml:space="preserve">
+    <value>大气向外 {0}</value>
+  </data>
+  <data name="Green_Budget_Glow" xml:space="preserve">
+    <value>地面辐射 {0}</value>
+  </data>
+  <data name="Green_Budget_In" xml:space="preserve">
+    <value>入射阳光 {0}</value>
+  </data>
+  <data name="Green_Budget_Reflected" xml:space="preserve">
+    <value>反射 {0}</value>
+  </data>
+  <data name="Green_Budget_Rising" xml:space="preserve">
+    <value>对流与蒸发 {0}</value>
+  </data>
+  <data name="Green_Budget_Surface" xml:space="preserve">
+    <value>地面吸收 {0}</value>
+  </data>
+  <data name="Green_Budget_Window" xml:space="preserve">
+    <value>直接穿出 {0}</value>
+  </data>
+  <data name="Green_Chart_Co2_Before" xml:space="preserve">
+    <value>工业革命前 ≈ 280</value>
+  </data>
+  <data name="Green_Chart_Co2_Caption" xml:space="preserve">
+    <value>1750 年以来空气中的 CO₂</value>
+  </data>
+  <data name="Green_Chart_Co2_Chosen" xml:space="preserve">
+    <value>所选：{0} ppm</value>
+  </data>
+  <data name="Green_Chart_Co2_Last" xml:space="preserve">
+    <value>{0} 年：{1} ppm</value>
+  </data>
+  <data name="Green_Chart_Co2_Note" xml:space="preserve">
+    <value>1959 年以前为冰芯数据（Law Dome，取整），之后为莫纳罗亚观测站年平均值（NOAA）。金色线是滑块所选的浓度。</value>
+  </data>
+  <data name="Green_Chart_Day_Caption" xml:space="preserve">
+    <value>一天中的温度</value>
+  </data>
+  <data name="Green_Chart_Day_Car" xml:space="preserve">
+    <value>汽车</value>
+  </data>
+  <data name="Green_Chart_Day_Greenhouse" xml:space="preserve">
+    <value>温室</value>
+  </data>
+  <data name="Green_Chart_Day_Note" xml:space="preserve">
+    <value>模型连续运行三天，显示最后一天，所以一天结束时与开始时一致。浅色山形是阳光强度。时间为当地太阳时（12:00 太阳最高）。</value>
+  </data>
+  <data name="Green_Chart_Day_Outside" xml:space="preserve">
+    <value>室外</value>
+  </data>
+  <data name="Green_Chart_Glow_Air" xml:space="preserve">
+    <value>大气吸收</value>
+  </data>
+  <data name="Green_Chart_Glow_Caption" xml:space="preserve">
+    <value>阳光与地面热辐射</value>
+  </data>
+  <data name="Green_Chart_Glow_Ground" xml:space="preserve">
+    <value>地面辐射</value>
+  </data>
+  <data name="Green_Chart_Glow_Note" xml:space="preserve">
+    <value>两条曲线各自按峰值缩放，横轴为对数。太阳（约 5500 °C）主要辐射 0.3–3 µm，地面（15 °C）主要辐射 4–50 µm；灰色是大气吸收的部分。</value>
+  </data>
+  <data name="Green_Chart_Glow_Sun" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="Green_Chart_Share_Caption" xml:space="preserve">
+    <value>今天的温室效应由谁贡献</value>
+  </data>
+  <data name="Green_Chart_Share_Note" xml:space="preserve">
+    <value>各成分在总温室效应中的占比（Schmidt 等，2010）。水汽和云随温度变化；CO₂ 等长寿命气体决定温度。</value>
+  </data>
+  <data name="Green_Chart_Worlds_Caption" xml:space="preserve">
+    <value>邻居行星：有无温室气体的温度</value>
+  </data>
+  <data name="Green_Chart_Worlds_Note" xml:space="preserve">
+    <value>空心圈：没有温室气体时的温度（由日照和反射率算出）；实心点：实际平均温度（NASA）。金星浓厚的 CO₂ 大气让它比水星还热；火星稀薄的大气只增温几度。</value>
+  </data>
+  <data name="Green_Chart_Worlds_Warming" xml:space="preserve">
+    <value>+{0} °C</value>
+  </data>
+  <data name="Green_Co2" xml:space="preserve">
+    <value>空气中的 CO₂</value>
+  </data>
+  <data name="Green_Co2_1750" xml:space="preserve">
+    <value>1750 年 280</value>
+  </data>
+  <data name="Green_Co2_Doubled" xml:space="preserve">
+    <value>加倍 560</value>
+  </data>
+  <data name="Green_Co2_IceAge" xml:space="preserve">
+    <value>冰期 180</value>
+  </data>
+  <data name="Green_Co2_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Green_Co2_Quadrupled" xml:space="preserve">
+    <value>四倍 1120</value>
+  </data>
+  <data name="Green_Co2_Today" xml:space="preserve">
+    <value>2024 年 425</value>
+  </data>
+  <data name="Green_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Green_Gas_Ar" xml:space="preserve">
+    <value>氩 Ar</value>
+  </data>
+  <data name="Green_Gas_Ar_Description" xml:space="preserve">
+    <value>一种由单个原子组成的稀有气体，没有化学键可以伸缩或弯曲：完全不能吸收红外线。</value>
+  </data>
+  <data name="Green_Gas_Ar_Lifetime" xml:space="preserve">
+    <value>永久存在</value>
+  </data>
+  <data name="Green_Gas_Ar_Shape" xml:space="preserve">
+    <value>单个原子</value>
+  </data>
+  <data name="Green_Gas_Ar_Share" xml:space="preserve">
+    <value>0.93%</value>
+  </data>
+  <data name="Green_Gas_Ar_Short" xml:space="preserve">
+    <value>Ar</value>
+  </data>
+  <data name="Green_Gas_CH4" xml:space="preserve">
+    <value>甲烷 CH₄</value>
+  </data>
+  <data name="Green_Gas_CH4_Description" xml:space="preserve">
+    <value>四个氢原子位于以碳为中心的正四面体顶点，静止时对称。不对称伸缩和弯曲会让电荷偏移（3.3 和 7.7 µm），对称的振动则不会。</value>
+  </data>
+  <data name="Green_Gas_CH4_Lifetime" xml:space="preserve">
+    <value>约 12 年，之后变成 CO₂ 和水</value>
+  </data>
+  <data name="Green_Gas_CH4_Shape" xml:space="preserve">
+    <value>一个碳和四个氢，正四面体</value>
+  </data>
+  <data name="Green_Gas_CH4_Share" xml:space="preserve">
+    <value>0.0002%（1.9 ppm）</value>
+  </data>
+  <data name="Green_Gas_CH4_Short" xml:space="preserve">
+    <value>CH₄</value>
+  </data>
+  <data name="Green_Gas_CO2" xml:space="preserve">
+    <value>二氧化碳 CO₂</value>
+  </data>
+  <data name="Green_Gas_CO2_Description" xml:space="preserve">
+    <value>直线形、对称的 O=C=O，静止时没有偶极。但弯曲振动和不对称伸缩会让电荷来回偏离中心（15 µm 和 4.3 µm），因此能吸收红外线；对称伸缩则不能。</value>
+  </data>
+  <data name="Green_Gas_CO2_Lifetime" xml:space="preserve">
+    <value>几百到几千年（一部分更久）</value>
+  </data>
+  <data name="Green_Gas_CO2_Shape" xml:space="preserve">
+    <value>三个原子排成直线，O=C=O</value>
+  </data>
+  <data name="Green_Gas_CO2_Share" xml:space="preserve">
+    <value>0.042%（425 ppm）</value>
+  </data>
+  <data name="Green_Gas_CO2_Short" xml:space="preserve">
+    <value>CO₂</value>
+  </data>
+  <data name="Green_Gas_Caption" xml:space="preserve">
+    <value>分子</value>
+  </data>
+  <data name="Green_Gas_H2O" xml:space="preserve">
+    <value>水汽 H₂O</value>
+  </data>
+  <data name="Green_Gas_H2O_Description" xml:space="preserve">
+    <value>弯成 104.5°，氧原子把电子拉向自己，它本身就是一个小偶极。每一种振动、甚至转动都会晃动这个偶极，所以水汽在很宽的波段吸收红外线：是最主要的温室气体。</value>
+  </data>
+  <data name="Green_Gas_H2O_Lifetime" xml:space="preserve">
+    <value>约 9 天，然后随降水落下</value>
+  </data>
+  <data name="Green_Gas_H2O_Shape" xml:space="preserve">
+    <value>三个原子，弯成 104.5°</value>
+  </data>
+  <data name="Green_Gas_H2O_Share" xml:space="preserve">
+    <value>0–4%，平均约 0.4%</value>
+  </data>
+  <data name="Green_Gas_H2O_Short" xml:space="preserve">
+    <value>H₂O</value>
+  </data>
+  <data name="Green_Gas_N2" xml:space="preserve">
+    <value>氮气 N₂</value>
+  </data>
+  <data name="Green_Gas_N2_Description" xml:space="preserve">
+    <value>两个氮原子以三键相连。伸缩时两端对称地运动：电荷始终均匀，光无从“推动”它。</value>
+  </data>
+  <data name="Green_Gas_N2_Lifetime" xml:space="preserve">
+    <value>长期存在：空气的主要成分</value>
+  </data>
+  <data name="Green_Gas_N2_Shape" xml:space="preserve">
+    <value>两个原子，N≡N</value>
+  </data>
+  <data name="Green_Gas_N2_Share" xml:space="preserve">
+    <value>78.1%</value>
+  </data>
+  <data name="Green_Gas_N2_Short" xml:space="preserve">
+    <value>N₂</value>
+  </data>
+  <data name="Green_Gas_O2" xml:space="preserve">
+    <value>氧气 O₂</value>
+  </data>
+  <data name="Green_Gas_O2_Description" xml:space="preserve">
+    <value>两个氧原子以双键相连。和氮气一样，伸缩时始终对称，所以让地面的红外线通过。</value>
+  </data>
+  <data name="Green_Gas_O2_Lifetime" xml:space="preserve">
+    <value>长期存在：植物不断产生</value>
+  </data>
+  <data name="Green_Gas_O2_Shape" xml:space="preserve">
+    <value>两个原子，O=O</value>
+  </data>
+  <data name="Green_Gas_O2_Share" xml:space="preserve">
+    <value>20.9%</value>
+  </data>
+  <data name="Green_Gas_O2_Short" xml:space="preserve">
+    <value>O₂</value>
+  </data>
+  <data name="Green_GlassHouse_Fact1" xml:space="preserve">
+    <value>温室变暖主要是因为玻璃挡住了上升的暖空气；留住红外线只再多几度。打开通风窗的降温效果，远大于换成让红外线透过的屋顶（如 1909 年 R. W. Wood 试过的岩盐）。</value>
+  </data>
+  <data name="Green_GlassHouse_Fact2" xml:space="preserve">
+    <value>所以大气的“温室效应”其实是借用了温室作用中较小的那一半：大气没有盖子，是它自己吸收了红外线。</value>
+  </data>
+  <data name="Green_GlassHouse_Fact3" xml:space="preserve">
+    <value>玻璃让约 85–90% 的可见光通过，却几乎不让 5 µm 以上的红外线通过：它把红外线吸收、自己变暖，再把一半辐射回室内。</value>
+  </data>
+  <data name="Green_GlassHouse_Fact4" xml:space="preserve">
+    <value>晒太阳的汽车一小时内车内会升温约 20 °C，大部分发生在前半小时，即使天气不热也一样；把车窗开一条缝几乎没用。千万不要把孩子或宠物留在停着的车里。</value>
+  </data>
+  <data name="Green_GlassHouse_Fact5" xml:space="preserve">
+    <value>夜里关闭的玻璃温室比室外略暖，因为玻璃留住了地面的红外线。晴朗夜空下，让红外线透过的屋顶甚至会让室内比室外还冷：晴夜结霜也是这个道理。</value>
+  </data>
+  <data name="Green_GlassHouse_Note" xml:space="preserve">
+    <value>温度来自一个小玻璃温室和一辆停放汽车在晴天里的简化热平衡模型；实际情况随大小、风和遮阴而不同。</value>
+  </data>
+  <data name="Green_GlassHouse_Subtitle" xml:space="preserve">
+    <value>阳光下的温室和汽车</value>
+  </data>
+  <data name="Green_Glass_AfternoonVents_Description" xml:space="preserve">
+    <value>暖空气从通风窗散出，较冷的空气沉入，温室只比室外高几度。关着窗的汽车仍然热得多。</value>
+  </data>
+  <data name="Green_Glass_AfternoonVents_Title" xml:space="preserve">
+    <value>午后，通风窗开着</value>
+  </data>
+  <data name="Green_Glass_Afternoon_Description" xml:space="preserve">
+    <value>温室和汽车里远比室外热：阳光不断进来，暖空气却出不去。打开通风窗就能放走热空气。</value>
+  </data>
+  <data name="Green_Glass_Afternoon_Title" xml:space="preserve">
+    <value>午后：室内最热</value>
+  </data>
+  <data name="Green_Glass_CarTemp" xml:space="preserve">
+    <value>车内 {0} °C</value>
+  </data>
+  <data name="Green_Glass_Clock" xml:space="preserve">
+    <value>{0} · 太阳高度 {1}°</value>
+  </data>
+  <data name="Green_Glass_ClockNight" xml:space="preserve">
+    <value>{0} · 夜晚</value>
+  </data>
+  <data name="Green_Glass_Evening_Description" xml:space="preserve">
+    <value>太阳变低，进来的光少了。温室仍比室外暖，但在降温；汽车冷却得最快。</value>
+  </data>
+  <data name="Green_Glass_Evening_Title" xml:space="preserve">
+    <value>傍晚</value>
+  </data>
+  <data name="Green_Glass_InsideTemp" xml:space="preserve">
+    <value>温室内 {0} °C</value>
+  </data>
+  <data name="Green_Glass_LocationNote" xml:space="preserve">
+    <value>太阳路径按{0}（{2}纬 {1}°）计算；室外气温取这个季节晴天的典型值，{3}–{4} °C。</value>
+  </data>
+  <data name="Green_Glass_Morning_Description" xml:space="preserve">
+    <value>阳光穿过玻璃，晒暖地面和植物；它们再加热空气，暖空气上升聚集在屋顶下。温度迅速上升。</value>
+  </data>
+  <data name="Green_Glass_Morning_Title" xml:space="preserve">
+    <value>上午：阳光照进来</value>
+  </data>
+  <data name="Green_Glass_Night_Description" xml:space="preserve">
+    <value>没有阳光。地面释放白天储存的热量，以红外线向外辐射；玻璃把其中一半送回室内，所以关闭的温室比室外降温慢。</value>
+  </data>
+  <data name="Green_Glass_Night_Title" xml:space="preserve">
+    <value>夜晚：一切都在降温</value>
+  </data>
+  <data name="Green_Glass_OutsideTemp" xml:space="preserve">
+    <value>室外 {0} °C</value>
+  </data>
+  <data name="Green_Glass_Pane" xml:space="preserve">
+    <value>玻璃：让阳光进来，挡住红外线</value>
+  </data>
+  <data name="Green_Glass_SaltPane" xml:space="preserve">
+    <value>岩盐：阳光和红外线都能透过</value>
+  </data>
+  <data name="Green_Glass_Sunlight" xml:space="preserve">
+    <value>阳光 {0} W/m²</value>
+  </data>
+  <data name="Green_Glass_VentsOpen" xml:space="preserve">
+    <value>通风窗已打开（点击关闭）</value>
+  </data>
+  <data name="Green_Glass_VentsShut" xml:space="preserve">
+    <value>通风窗关闭（点击打开）</value>
+  </data>
+  <data name="Green_Glass_WindowOpen" xml:space="preserve">
+    <value>车窗开了一条缝（点击关上）</value>
+  </data>
+  <data name="Green_Glass_WindowShut" xml:space="preserve">
+    <value>车窗关闭（点击开一条缝）</value>
+  </data>
+  <data name="Green_Hint_GlassHouse" xml:space="preserve">
+    <value>左右拖动可以拨动时间；点击屋顶通风窗或车窗可以打开它们。</value>
+  </data>
+  <data name="Green_Hint_Molecules" xml:space="preserve">
+    <value>选择一种气体和它的一种振动方式；穿过它的每束红外线都标有波长。</value>
+  </data>
+  <data name="Green_Hint_Planet" xml:space="preserve">
+    <value>拖动 CO₂ 滑块或去掉温室气体，看地面温度怎样变化；打开“能量收支”可以看到具体数值。</value>
+  </data>
+  <data name="Green_Jump_Afternoon" xml:space="preserve">
+    <value>午后</value>
+  </data>
+  <data name="Green_Jump_Caption" xml:space="preserve">
+    <value>跳到</value>
+  </data>
+  <data name="Green_Jump_Dawn" xml:space="preserve">
+    <value>黎明</value>
+  </data>
+  <data name="Green_Jump_Morning" xml:space="preserve">
+    <value>上午</value>
+  </data>
+  <data name="Green_Jump_Night" xml:space="preserve">
+    <value>夜晚</value>
+  </data>
+  <data name="Green_Legend_Infrared" xml:space="preserve">
+    <value>红外线（热辐射）</value>
+  </data>
+  <data name="Green_Legend_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="Green_Legend_WarmAir" xml:space="preserve">
+    <value>暖空气</value>
+  </data>
+  <data name="Green_Lesson_Glass_Choice1" xml:space="preserve">
+    <value>玻璃挡住了上升的暖空气</value>
+  </data>
+  <data name="Green_Lesson_Glass_Choice2" xml:space="preserve">
+    <value>玻璃留住了红外线</value>
+  </data>
+  <data name="Green_Lesson_Glass_Choice3" xml:space="preserve">
+    <value>植物自己会发热</value>
+  </data>
+  <data name="Green_Lesson_Molecules_Choice1" xml:space="preserve">
+    <value>分子把它吸收，振动得更剧烈</value>
+  </data>
+  <data name="Green_Lesson_Molecules_Choice2" xml:space="preserve">
+    <value>光被弹开</value>
+  </data>
+  <data name="Green_Lesson_Molecules_Choice3" xml:space="preserve">
+    <value>什么也不会发生</value>
+  </data>
+  <data name="Green_Lesson_Planet_Choice1" xml:space="preserve">
+    <value>它被重新发射出去，方向随机，向下和向上一样多</value>
+  </data>
+  <data name="Green_Lesson_Planet_Choice2" xml:space="preserve">
+    <value>直接往上飞进太空</value>
+  </data>
+  <data name="Green_Lesson_Planet_Choice3" xml:space="preserve">
+    <value>永远留在这个分子里</value>
+  </data>
+  <data name="Green_Mode_GlassHouse" xml:space="preserve">
+    <value>温室与汽车</value>
+  </data>
+  <data name="Green_Mode_Molecules" xml:space="preserve">
+    <value>分子</value>
+  </data>
+  <data name="Green_Mode_Planet" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Green_Mol_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Green_Mol_Dipole" xml:space="preserve">
+    <value>金色箭头：偶极，电荷偏向的方向</value>
+  </data>
+  <data name="Green_Mol_FromGround" xml:space="preserve">
+    <value>来自地面的红外线 →</value>
+  </data>
+  <data name="Green_Mol_Holding" xml:space="preserve">
+    <value>吸收了一束 {0} µm 的红外线：振动加剧，马上会再发射出去</value>
+  </data>
+  <data name="Green_Mol_ModeActive" xml:space="preserve">
+    <value>{0} · {1} · 电荷分布在变：能吸收红外线</value>
+  </data>
+  <data name="Green_Mol_ModeBand" xml:space="preserve">
+    <value>{0} cm⁻¹ = {1} µm</value>
+  </data>
+  <data name="Green_Mol_ModeInactive" xml:space="preserve">
+    <value>{0} · {1} · 电荷始终对称：红外线直接穿过</value>
+  </data>
+  <data name="Green_Mol_NoModes" xml:space="preserve">
+    <value>单个原子：没有可以振动的方式</value>
+  </data>
+  <data name="Green_Mol_Ray" xml:space="preserve">
+    <value>{0} µm</value>
+  </data>
+  <data name="Green_Mol_Slowed" xml:space="preserve">
+    <value>放慢约 10¹³ 倍，位移放大</value>
+  </data>
+  <data name="Green_Mol_SpinBand" xml:space="preserve">
+    <value>18 µm 以上</value>
+  </data>
+  <data name="Green_Mol_Tally" xml:space="preserve">
+    <value>最近 {1} 束中吸收了 {0} 束</value>
+  </data>
+  <data name="Green_Molecules_Fact1" xml:space="preserve">
+    <value>氮气和氧气占空气的 99%，都是两个相同原子组成的分子：伸缩时电荷始终均匀，红外线直接穿过。氩是单个原子，根本没有可以振动的方式。</value>
+  </data>
+  <data name="Green_Molecules_Fact2" xml:space="preserve">
+    <value>CO₂ 的弯曲振动在 15 µm，正好靠近地面热辐射的峰值（约 10 µm）。所以只占空气 0.04% 的 CO₂ 影响如此之大。</value>
+  </data>
+  <data name="Green_Molecules_Fact3" xml:space="preserve">
+    <value>被吸收的能量不会一直留着：分子会在极短时间内与周围分子碰撞（使空气变暖），或朝随机方向重新发射一束红外线，向下和向上的机会一样。</value>
+  </data>
+  <data name="Green_Molecules_Fact4" xml:space="preserve">
+    <value>水汽是最强的温室气体，但空气中有多少水汽由温度决定：大约 9 天就会随降水落下。CO₂ 决定温度，水汽随之变化，并把效果放大约一倍。</value>
+  </data>
+  <data name="Green_Molecules_Fact5" xml:space="preserve">
+    <value>按 100 年计，每千克甲烷的增温效果约为 CO₂ 的 30 倍（IPCC AR6：27–30），但它约 12 年就会被分解；CO₂ 却会留存几个世纪。</value>
+  </data>
+  <data name="Green_Molecules_Note" xml:space="preserve">
+    <value>分子只有在某种振动让电荷分布以与光相同的频率来回变化时，才能吸收红外线。振动放慢约 10¹³ 倍、原子位移放大；吸收带做了简化。</value>
+  </data>
+  <data name="Green_Molecules_Subtitle" xml:space="preserve">
+    <value>为什么只有某些气体能吸收地面的热</value>
+  </data>
+  <data name="Green_North" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Green_Obj_Air" xml:space="preserve">
+    <value>大气</value>
+  </data>
+  <data name="Green_Obj_BudgetAirSun" xml:space="preserve">
+    <value>大气吸收的阳光</value>
+  </data>
+  <data name="Green_Obj_BudgetBack" xml:space="preserve">
+    <value>逆辐射</value>
+  </data>
+  <data name="Green_Obj_BudgetFromAir" xml:space="preserve">
+    <value>大气向外辐射</value>
+  </data>
+  <data name="Green_Obj_BudgetGlow" xml:space="preserve">
+    <value>地面辐射</value>
+  </data>
+  <data name="Green_Obj_BudgetIn" xml:space="preserve">
+    <value>入射阳光</value>
+  </data>
+  <data name="Green_Obj_BudgetReflected" xml:space="preserve">
+    <value>反射的阳光</value>
+  </data>
+  <data name="Green_Obj_BudgetRising" xml:space="preserve">
+    <value>对流与蒸发</value>
+  </data>
+  <data name="Green_Obj_BudgetSurface" xml:space="preserve">
+    <value>地面吸收的阳光</value>
+  </data>
+  <data name="Green_Obj_BudgetWindow" xml:space="preserve">
+    <value>直接穿出的红外线</value>
+  </data>
+  <data name="Green_Obj_Car" xml:space="preserve">
+    <value>汽车</value>
+  </data>
+  <data name="Green_Obj_CarWindow" xml:space="preserve">
+    <value>车窗</value>
+  </data>
+  <data name="Green_Obj_Clouds" xml:space="preserve">
+    <value>云</value>
+  </data>
+  <data name="Green_Obj_Dipole" xml:space="preserve">
+    <value>偶极</value>
+  </data>
+  <data name="Green_Obj_Emission" xml:space="preserve">
+    <value>热量离开的高度</value>
+  </data>
+  <data name="Green_Obj_Floor" xml:space="preserve">
+    <value>地面和土壤</value>
+  </data>
+  <data name="Green_Obj_Greenhouse" xml:space="preserve">
+    <value>温室里的空气</value>
+  </data>
+  <data name="Green_Obj_Ground" xml:space="preserve">
+    <value>地面</value>
+  </data>
+  <data name="Green_Obj_GroundRays" xml:space="preserve">
+    <value>来自地面的红外线</value>
+  </data>
+  <data name="Green_Obj_Infrared" xml:space="preserve">
+    <value>红外线</value>
+  </data>
+  <data name="Green_Obj_Outside" xml:space="preserve">
+    <value>室外气温</value>
+  </data>
+  <data name="Green_Obj_Pane" xml:space="preserve">
+    <value>玻璃</value>
+  </data>
+  <data name="Green_Obj_Profile" xml:space="preserve">
+    <value>气温随高度变化</value>
+  </data>
+  <data name="Green_Obj_Space" xml:space="preserve">
+    <value>太空</value>
+  </data>
+  <data name="Green_Obj_Spectrum" xml:space="preserve">
+    <value>地面热辐射光谱</value>
+  </data>
+  <data name="Green_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Green_Obj_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="Green_Obj_Vents" xml:space="preserve">
+    <value>通风窗</value>
+  </data>
+  <data name="Green_Obj_VibAsymmetricBend" xml:space="preserve">
+    <value>不对称弯曲</value>
+  </data>
+  <data name="Green_Obj_VibAsymmetricStretch" xml:space="preserve">
+    <value>不对称伸缩</value>
+  </data>
+  <data name="Green_Obj_VibBend" xml:space="preserve">
+    <value>弯曲振动</value>
+  </data>
+  <data name="Green_Obj_VibSpin" xml:space="preserve">
+    <value>转动</value>
+  </data>
+  <data name="Green_Obj_VibStretch" xml:space="preserve">
+    <value>伸缩振动</value>
+  </data>
+  <data name="Green_Obj_VibSymmetricBend" xml:space="preserve">
+    <value>对称弯曲</value>
+  </data>
+  <data name="Green_Obj_VibSymmetricStretch" xml:space="preserve">
+    <value>对称伸缩</value>
+  </data>
+  <data name="Green_Obj_WarmAir" xml:space="preserve">
+    <value>暖空气</value>
+  </data>
+  <data name="Green_Obj_Window" xml:space="preserve">
+    <value>大气窗口</value>
+  </data>
+  <data name="Green_Option_Budget" xml:space="preserve">
+    <value>能量收支（W/m²）</value>
+  </data>
+  <data name="Green_Option_CarWindow" xml:space="preserve">
+    <value>车窗开一条缝</value>
+  </data>
+  <data name="Green_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Green_Option_NoGases" xml:space="preserve">
+    <value>去掉温室气体</value>
+  </data>
+  <data name="Green_Option_Salt" xml:space="preserve">
+    <value>岩盐屋顶（红外线可透过）</value>
+  </data>
+  <data name="Green_Option_Vents" xml:space="preserve">
+    <value>打开屋顶通风窗</value>
+  </data>
+  <data name="Green_Planet_Air" xml:space="preserve">
+    <value>含温室气体的大气</value>
+  </data>
+  <data name="Green_Planet_Air_NoGases" xml:space="preserve">
+    <value>只有氮气和氧气的大气</value>
+  </data>
+  <data name="Green_Planet_Bare_Description" xml:space="preserve">
+    <value>地面发出的每一束红外线都直接逃向太空。要把吸收的阳光全部辐射出去，地面只需约 −18 °C：海洋会结冰。</value>
+  </data>
+  <data name="Green_Planet_Bare_Title" xml:space="preserve">
+    <value>没有温室气体：冰封的星球</value>
+  </data>
+  <data name="Green_Planet_Clock" xml:space="preserve">
+    <value>CO₂ {0} · {1} °C</value>
+  </data>
+  <data name="Green_Planet_Emission" xml:space="preserve">
+    <value>热量大约从 {0} km 高处离开地球，那里气温 {1} °C</value>
+  </data>
+  <data name="Green_Planet_Fact1" xml:space="preserve">
+    <value>没有温室气体，地球平均温度约 −18 °C，此时向外辐射的热量正好等于吸收的阳光。实际平均约 15 °C：温室效应让地球暖了约 33 °C，才适合生命生存。</value>
+  </data>
+  <data name="Green_Planet_Fact2" xml:space="preserve">
+    <value>空气让大部分阳光通过，却拦住了地面发出的大部分红外线：只有约十分之一能从 8–13 µm 的“大气窗口”直接逃到太空。</value>
+  </data>
+  <data name="Green_Planet_Fact3" xml:space="preserve">
+    <value>地面从大气得到的逆辐射有 333 W/m²，是它吸收的阳光（161 W/m²）的两倍，所以地面比只靠阳光时暖得多。</value>
+  </data>
+  <data name="Green_Planet_Fact4" xml:space="preserve">
+    <value>增加 CO₂ 几乎不是“多吸收”：它的吸收带中央早已饱和。它抬高了热量最终逃向太空的高度，那里更冷、辐射更弱，于是整层大气必须变暖，直到重新平衡。</value>
+  </data>
+  <data name="Green_Planet_Fact5" xml:space="preserve">
+    <value>CO₂ 加倍会多出约 3.7 W/m² 的辐射强迫；加上反馈（水汽增多、冰雪减少），全球最终约升温 3 °C（IPCC：可能范围 2.5–4 °C）。本页的温度都是达到平衡后的值，海洋需要几十年才能跟上。</value>
+  </data>
+  <data name="Green_Planet_Ground" xml:space="preserve">
+    <value>地面 {0} °C</value>
+  </data>
+  <data name="Green_Planet_Ground_Settling" xml:space="preserve">
+    <value>地面 {0} °C，正在趋于平衡…</value>
+  </data>
+  <data name="Green_Planet_IceAge_Description" xml:space="preserve">
+    <value>约 180 ppm，相当于两万年前末次冰期最盛时。仅 CO₂ 只会冷约 2 °C，其余主要来自冰盖反射阳光（真实的冰期约冷 5–6 °C）。</value>
+  </data>
+  <data name="Green_Planet_IceAge_Title" xml:space="preserve">
+    <value>冰期的 CO₂ 水平</value>
+  </data>
+  <data name="Green_Planet_More_Description" xml:space="preserve">
+    <value>每加倍一次带来的升温大致相同，平衡后约 3 °C：560 ppm 比工业革命前高约 3 °C，1120 ppm 约 6 °C。</value>
+  </data>
+  <data name="Green_Planet_More_Title" xml:space="preserve">
+    <value>比今天更多的 CO₂</value>
+  </data>
+  <data name="Green_Planet_Note" xml:space="preserve">
+    <value>示意图：一条地面和它上方 12 km 厚的空气。每一小段阳光或红外线代表地球平均能量流的一部分（Trenberth 等，2009）。</value>
+  </data>
+  <data name="Green_Planet_Preindustrial_Description" xml:space="preserve">
+    <value>约 280 ppm，1750 年以前几千年都大致如此。水汽和 CO₂ 让地面保持在约 14 °C。</value>
+  </data>
+  <data name="Green_Planet_Preindustrial_Title" xml:space="preserve">
+    <value>工业革命以前</value>
+  </data>
+  <data name="Green_Planet_Space" xml:space="preserve">
+    <value>太空</value>
+  </data>
+  <data name="Green_Planet_Subtitle" xml:space="preserve">
+    <value>阳光照进来，热量被留住</value>
+  </data>
+  <data name="Green_Planet_Today_Description" xml:space="preserve">
+    <value>2024 年约 425 ppm，比工业革命前多了一半，主要来自燃烧煤、石油和天然气。全部达到平衡后约相当于升温 1.8 °C；到 2011–2020 年已升温约 1.1 °C。</value>
+  </data>
+  <data name="Green_Planet_Today_Title" xml:space="preserve">
+    <value>大约是今天</value>
+  </data>
+  <data name="Green_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Green_Profile_Celsius" xml:space="preserve">
+    <value>气温 °C</value>
+  </data>
+  <data name="Green_Profile_Km" xml:space="preserve">
+    <value>高度 km</value>
+  </data>
+  <data name="Green_Season_Caption" xml:space="preserve">
+    <value>季节</value>
+  </data>
+  <data name="Green_Season_Equinox" xml:space="preserve">
+    <value>春秋</value>
+  </data>
+  <data name="Green_Season_Summer" xml:space="preserve">
+    <value>夏季</value>
+  </data>
+  <data name="Green_Season_Winter" xml:space="preserve">
+    <value>冬季</value>
+  </data>
+  <data name="Green_Share_Clouds" xml:space="preserve">
+    <value>云</value>
+  </data>
+  <data name="Green_Share_Co2" xml:space="preserve">
+    <value>CO₂</value>
+  </data>
+  <data name="Green_Share_Main" xml:space="preserve">
+    <value>N₂、O₂、Ar</value>
+  </data>
+  <data name="Green_Share_Other" xml:space="preserve">
+    <value>甲烷、臭氧、N₂O 等</value>
+  </data>
+  <data name="Green_Share_Water" xml:space="preserve">
+    <value>水汽</value>
+  </data>
+  <data name="Green_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Green_South" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Green_Spectrum_AllAir" xml:space="preserve">
+    <value>虚线：全部温室气体合计 {0}%</value>
+  </data>
+  <data name="Green_Spectrum_Axis" xml:space="preserve">
+    <value>波长 µm（伪彩色：红外线肉眼不可见）</value>
+  </data>
+  <data name="Green_Spectrum_Caught" xml:space="preserve">
+    <value>阴影：仅{0}就吸收其中 {1}%</value>
+  </data>
+  <data name="Green_Spectrum_CaughtNone" xml:space="preserve">
+    <value>{0}一点也不吸收（{1}%）</value>
+  </data>
+  <data name="Green_Spectrum_Glow" xml:space="preserve">
+    <value>15 °C 地面的热辐射</value>
+  </data>
+  <data name="Green_Spectrum_Mode" xml:space="preserve">
+    <value>{0} µm</value>
+  </data>
+  <data name="Green_Spectrum_ModeOff" xml:space="preserve">
+    <value>{0} µm ×</value>
+  </data>
+  <data name="Green_Spectrum_Window" xml:space="preserve">
+    <value>大气窗口</value>
+  </data>
+  <data name="Green_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Green_Stat_AirChanges" xml:space="preserve">
+    <value>换气</value>
+  </data>
+  <data name="Green_Stat_AirChanges_Open" xml:space="preserve">
+    <value>每小时 {0} 次（通风窗打开）</value>
+  </data>
+  <data name="Green_Stat_AirChanges_Shut" xml:space="preserve">
+    <value>每小时 {0} 次（仅缝隙漏气）</value>
+  </data>
+  <data name="Green_Stat_AirShare" xml:space="preserve">
+    <value>在空气中占比</value>
+  </data>
+  <data name="Green_Stat_Bare" xml:space="preserve">
+    <value>没有温室气体时</value>
+  </data>
+  <data name="Green_Stat_Bare_Value" xml:space="preserve">
+    <value>{0} °C（低 {1} °C）</value>
+  </data>
+  <data name="Green_Stat_Car" xml:space="preserve">
+    <value>车内</value>
+  </data>
+  <data name="Green_Stat_Caught" xml:space="preserve">
+    <value>吸收</value>
+  </data>
+  <data name="Green_Stat_Caught_Value" xml:space="preserve">
+    <value>地面辐射的 {0}%（单独计算）</value>
+  </data>
+  <data name="Green_Stat_Co2" xml:space="preserve">
+    <value>CO₂</value>
+  </data>
+  <data name="Green_Stat_Emission" xml:space="preserve">
+    <value>热量离开的高度</value>
+  </data>
+  <data name="Green_Stat_Emission_Value" xml:space="preserve">
+    <value>约 {0} km，那里 {1} °C</value>
+  </data>
+  <data name="Green_Stat_Floor" xml:space="preserve">
+    <value>温室地面</value>
+  </data>
+  <data name="Green_Stat_Forcing" xml:space="preserve">
+    <value>辐射强迫</value>
+  </data>
+  <data name="Green_Stat_Forcing_Value" xml:space="preserve">
+    <value>比 1750 年 {0} W/m²</value>
+  </data>
+  <data name="Green_Stat_Glow" xml:space="preserve">
+    <value>地面辐射</value>
+  </data>
+  <data name="Green_Stat_Glow_Value" xml:space="preserve">
+    <value>{0} W/m²（吸收的阳光只有 {1}）</value>
+  </data>
+  <data name="Green_Stat_Greenhouse" xml:space="preserve">
+    <value>温室内空气</value>
+  </data>
+  <data name="Green_Stat_Lifetime" xml:space="preserve">
+    <value>在大气中停留</value>
+  </data>
+  <data name="Green_Stat_Outside" xml:space="preserve">
+    <value>室外</value>
+  </data>
+  <data name="Green_Stat_Roof" xml:space="preserve">
+    <value>屋顶</value>
+  </data>
+  <data name="Green_Stat_Roof_Glass" xml:space="preserve">
+    <value>玻璃：挡住红外线</value>
+  </data>
+  <data name="Green_Stat_Roof_Salt" xml:space="preserve">
+    <value>岩盐：红外线可透过</value>
+  </data>
+  <data name="Green_Stat_Shape" xml:space="preserve">
+    <value>结构</value>
+  </data>
+  <data name="Green_Stat_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Green_Stat_Sun_Down" xml:space="preserve">
+    <value>在地平线以下</value>
+  </data>
+  <data name="Green_Stat_Sun_Value" xml:space="preserve">
+    <value>高度 {0}°，地面 {1} W/m²</value>
+  </data>
+  <data name="Green_Stat_Surface" xml:space="preserve">
+    <value>地面（平衡后）</value>
+  </data>
+  <data name="Green_Stat_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Green_Stat_Time_Value" xml:space="preserve">
+    <value>{0}（当地太阳时）</value>
+  </data>
+  <data name="Green_Stat_Warmer_Value" xml:space="preserve">
+    <value>{0} °C（比室外 {1} °C）</value>
+  </data>
+  <data name="Green_Stat_Wiggle" xml:space="preserve">
+    <value>当前振动</value>
+  </data>
+  <data name="Green_Stat_Wiggle_Active" xml:space="preserve">
+    <value>{0}，{1}：吸收红外线</value>
+  </data>
+  <data name="Green_Stat_Wiggle_Inactive" xml:space="preserve">
+    <value>{0}，{1}：不吸收红外线</value>
+  </data>
+  <data name="Green_Stat_Wiggles" xml:space="preserve">
+    <value>振动方式</value>
+  </data>
+  <data name="Green_Stat_Wiggles_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="Green_Stat_Wiggles_Value" xml:space="preserve">
+    <value>{0} 种，其中 {1} 种吸收红外线</value>
+  </data>
+  <data name="Green_Stat_Window" xml:space="preserve">
+    <value>直接穿出</value>
+  </data>
+  <data name="Green_Stat_Window_Value" xml:space="preserve">
+    <value>约为地面辐射的 {0}%</value>
+  </data>
+  <data name="Green_Timeline" xml:space="preserve">
+    <value>一天中的时间</value>
+  </data>
+  <data name="Green_Title" xml:space="preserve">
+    <value>温室效应</value>
+  </data>
+  <data name="Green_Try_Caption" xml:space="preserve">
+    <value>试一试</value>
+  </data>
+  <data name="Green_Vib_AsymmetricBend" xml:space="preserve">
+    <value>不对称弯曲</value>
+  </data>
+  <data name="Green_Vib_AsymmetricStretch" xml:space="preserve">
+    <value>不对称伸缩</value>
+  </data>
+  <data name="Green_Vib_Bend" xml:space="preserve">
+    <value>弯曲</value>
+  </data>
+  <data name="Green_Vib_Caption" xml:space="preserve">
+    <value>振动方式（绿色：能吸收红外线）</value>
+  </data>
+  <data name="Green_Vib_Note" xml:space="preserve">
+    <value>每种振动都有自己的频率；只有会改变电荷分布的振动，才能被同频率的光驱动。</value>
+  </data>
+  <data name="Green_Vib_Spin" xml:space="preserve">
+    <value>转动</value>
+  </data>
+  <data name="Green_Vib_Stretch" xml:space="preserve">
+    <value>伸缩</value>
+  </data>
+  <data name="Green_Vib_SymmetricBend" xml:space="preserve">
+    <value>对称弯曲</value>
+  </data>
+  <data name="Green_Vib_SymmetricStretch" xml:space="preserve">
+    <value>对称伸缩</value>
+  </data>
+  <data name="Green_World_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Green_World_Mars" xml:space="preserve">
+    <value>火星</value>
+  </data>
+  <data name="Green_World_Venus" xml:space="preserve">
+    <value>金星</value>
+  </data>
   <data name="Hole_Chart_Barrier" xml:space="preserve">
     <value>山顶</value>
   </data>
@@ -5012,6 +5885,219 @@
   </data>
   <data name="Narr_Expand_Redshift_10" xml:space="preserve">
     <value>轮到你了：选另一个星系，或者在图表上拖动，选择光出发的时刻。</value>
+  </data>
+  <data name="Narr_Green_Glass_01" xml:space="preserve">
+    <value>这是夏天太阳下的一个小玻璃温室和一辆停着的汽车。看看读数：两者里面都比外面的空气热得多。</value>
+  </data>
+  <data name="Narr_Green_Glass_02" xml:space="preserve">
+    <value>阳光很容易穿过玻璃，把里面的地面和植物晒暖。</value>
+  </data>
+  <data name="Narr_Green_Glass_03" xml:space="preserve">
+    <value>被晒暖的地面会发出红外线。玻璃不让这些光通过，而是把它们吸收，自己变热，再把一半的热辐射回室内。</value>
+  </data>
+  <data name="Narr_Green_Glass_04" xml:space="preserve">
+    <value>那你觉得，让温室保持温暖的最主要原因是什么？</value>
+  </data>
+  <data name="Narr_Green_Glass_05" xml:space="preserve">
+    <value>主要是这个“盖子”。暖空气从地面升起，聚集在屋顶下面，无处可去，热量就越积越多。留住红外线，只是让它再多暖几度。</value>
+  </data>
+  <data name="Narr_Green_Glass_06" xml:space="preserve">
+    <value>打开屋顶的通风窗。暖空气从上面跑出去，较凉的空气沉进来，温室一下子凉快了很多。</value>
+  </data>
+  <data name="Narr_Green_Glass_07" xml:space="preserve">
+    <value>1909 年，伍德试过用能让红外线透出去的岩盐做屋顶，降温效果远不如打开通风窗。而大气根本没有盖子：它的温室效应，只来自吸收红外线。</value>
+  </data>
+  <data name="Narr_Green_Glass_08" xml:space="preserve">
+    <value>停着的汽车也是一个温室。在太阳下，不到一小时车里就能比外面热二十度，即使天气不算热也一样；把车窗开一条缝几乎没用。千万不要把孩子或宠物留在停着的车里。</value>
+  </data>
+  <data name="Narr_Green_Glass_09" xml:space="preserve">
+    <value>轮到你了。在画面上左右拖动来拨动时间，或者点屋顶通风窗、车窗，看看温度怎么变。</value>
+  </data>
+  <data name="Narr_Green_Molecules_01" xml:space="preserve">
+    <value>为什么只有某些气体能截住热辐射？先看氮气，它占空气的大部分。氮气是两个相同的原子，伸缩的时候电荷始终均匀分布，光没有地方可以推，所以每一束红外线都直接穿过去。</value>
+  </data>
+  <data name="Narr_Green_Molecules_02" xml:space="preserve">
+    <value>二氧化碳就不一样了。两个氧原子把电子稍微拉过去一点，所以它们略带负电，中间的碳略带正电。不过当它对称伸缩时，电荷仍然是平衡的，还是截不住。</value>
+  </data>
+  <data name="Narr_Green_Molecules_03" xml:space="preserve">
+    <value>再看它弯曲振动。电荷上下来回摆动，看那支金色箭头。节奏相同的光，就能推动这个来回摆动的电荷。</value>
+  </data>
+  <data name="Narr_Green_Molecules_04" xml:space="preserve">
+    <value>弯曲振动的节奏，正好和波长约 15 微米的红外线一致。这样的一束光经过时，会发生什么？</value>
+  </data>
+  <data name="Narr_Green_Molecules_05" xml:space="preserve">
+    <value>光被吸收了，分子振动得更剧烈。片刻之后，它要么撞上周围的分子，让空气变暖；要么朝一个随机方向重新发出一束红外线。</value>
+  </data>
+  <data name="Narr_Green_Molecules_06" xml:space="preserve">
+    <value>下面是地面热辐射按波长的分布。二氧化碳在 15 微米的吸收带，正好靠近辐射的峰值。所以只占空气万分之四左右的二氧化碳，影响才会这么大。</value>
+  </data>
+  <data name="Narr_Green_Molecules_07" xml:space="preserve">
+    <value>在 8 到 13 微米之间，几乎没有什么气体吸收，这里叫大气窗口。地面的热辐射大约有十分之一，就从这个窗口直接逃到太空。</value>
+  </data>
+  <data name="Narr_Green_Molecules_08" xml:space="preserve">
+    <value>水分子本来就是弯的，所以它的每一种振动都能吸收光，它还会转动。水汽是最强的温室气体，但空气里能有多少水汽，要由温度决定。</value>
+  </data>
+  <data name="Narr_Green_Molecules_09" xml:space="preserve">
+    <value>轮到你了。换一种气体或者换一种振动方式试试，也可以直接点光谱图上的竖线。看看哪些光会被截住。</value>
+  </data>
+  <data name="Narr_Green_Obj_Air" xml:space="preserve">
+    <value>大气里约百分之七十八是氮气、百分之二十一是氧气，它们都让热辐射通过。真正截住热辐射的，是含量极少的温室气体。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetAirSun" xml:space="preserve">
+    <value>被大气自己吸收的阳光，主要被水汽、臭氧和云吸收：每平方米 78 瓦。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetBack" xml:space="preserve">
+    <value>逆辐射：温室气体和云向下发出的红外线，每平方米 333 瓦。这就是温室效应在起作用。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetFromAir" xml:space="preserve">
+    <value>从高空大气和云顶发向太空的红外线：每平方米约 199 瓦。加上大气窗口那部分，正好和留下的阳光平衡。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetGlow" xml:space="preserve">
+    <value>地面的热辐射：每平方米约 396 瓦，是它吸收阳光的两倍多。它之所以能辐射这么多，是因为大气把热又送了回来。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetIn" xml:space="preserve">
+    <value>入射的阳光：全球昼夜平均，每平方米 341 瓦。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetReflected" xml:space="preserve">
+    <value>被云、空气、冰雪和地面直接反射回太空的阳光，约占百分之三十。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetRising" xml:space="preserve">
+    <value>被上升的暖空气和蒸发的水带上去的热量，水汽凝结成云时再把热放出来：每平方米约 97 瓦。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetSurface" xml:space="preserve">
+    <value>地面吸收的阳光：每平方米 161 瓦，不到入射阳光的一半。</value>
+  </data>
+  <data name="Narr_Green_Obj_BudgetWindow" xml:space="preserve">
+    <value>从地面经大气窗口直接逃到太空的红外线：每平方米约 40 瓦，是地面辐射的十分之一。</value>
+  </data>
+  <data name="Narr_Green_Obj_Car" xml:space="preserve">
+    <value>晒太阳的汽车会像温室一样升温：阳光从车窗照进来，热空气被关在里面。千万不要把孩子或宠物留在停着的车里。</value>
+  </data>
+  <data name="Narr_Green_Obj_CarWindow" xml:space="preserve">
+    <value>车窗只开一条缝，能流通的空气很少，车里几乎凉不下来。点一下可以打开或关上。</value>
+  </data>
+  <data name="Narr_Green_Obj_Clouds" xml:space="preserve">
+    <value>云的作用是双向的。白色的云顶把阳光反射回太空，让地球变凉；云底又把热辐射送回地面，让地球变暖。总的来说，今天的云让地球稍微凉一点。</value>
+  </data>
+  <data name="Narr_Green_Obj_Dipole" xml:space="preserve">
+    <value>金色箭头是偶极，表示分子的电荷偏向哪一边。只有在振动中偶极来回摆动的分子，光才能推得动它。</value>
+  </data>
+  <data name="Narr_Green_Obj_Emission" xml:space="preserve">
+    <value>这大约就是热量最终离开地球、逃向太空的高度。那里的气温约零下十八度，正好是没有温室气体时地球的温度。二氧化碳越多，这个高度就越高。</value>
+  </data>
+  <data name="Narr_Green_Obj_Floor" xml:space="preserve">
+    <value>地面和土壤吸收阳光，变得比空气还热。它们把贴着的空气加热，同时发出红外线。</value>
+  </data>
+  <data name="Narr_Green_Obj_GasAr" xml:space="preserve">
+    <value>氩气约占空气的百分之一。它只有一个原子，没有可以弯曲或伸缩的东西，所以完全吸收不了红外线。</value>
+  </data>
+  <data name="Narr_Green_Obj_GasCH4" xml:space="preserve">
+    <value>甲烷的含量极少，不到百万分之二。按每千克算，它在一百年里的增温效果约为二氧化碳的三十倍，但大约十二年就会被分解掉。</value>
+  </data>
+  <data name="Narr_Green_Obj_GasCO2" xml:space="preserve">
+    <value>二氧化碳只占空气的万分之四左右，但它的弯曲振动吸收的红外线，正好靠近地面热辐射的峰值。它能在空气中留存几百年，所以长期决定着地球的温度。</value>
+  </data>
+  <data name="Narr_Green_Obj_GasH2O" xml:space="preserve">
+    <value>水汽是最强的温室气体。但它大约九天就会随降水落下，所以空气中有多少水汽，取决于温度：它放大变暖，而不是引发变暖。</value>
+  </data>
+  <data name="Narr_Green_Obj_GasN2" xml:space="preserve">
+    <value>氮气占空气的百分之七十八。它的两个原子完全相同，不管怎么振动，电荷都保持均匀，所以红外线可以直接穿过。</value>
+  </data>
+  <data name="Narr_Green_Obj_GasO2" xml:space="preserve">
+    <value>氧气占空气的百分之二十一。和氮气一样，它也是两个相同的原子，所以截不住地面的红外线。</value>
+  </data>
+  <data name="Narr_Green_Obj_Greenhouse" xml:space="preserve">
+    <value>温室里的空气。阳光能照进来，暖空气却跑不出去，所以里面比外面热得多。</value>
+  </data>
+  <data name="Narr_Green_Obj_Ground" xml:space="preserve">
+    <value>地面温度会停在这样一个值：它失去的热量，正好等于它得到的热量，也就是吸收的阳光，加上大气送回来的热辐射。</value>
+  </data>
+  <data name="Narr_Green_Obj_GroundRays" xml:space="preserve">
+    <value>来自地面的热辐射，每一束都标出了波长。它们的波长分布很广，大多在五到三十微米之间。</value>
+  </data>
+  <data name="Narr_Green_Obj_Infrared" xml:space="preserve">
+    <value>红外线，画成红色的波浪线，是一切温暖物体发出的热辐射。地面大约十五度，发出的红外线波长约十微米，是可见光的二十倍左右。</value>
+  </data>
+  <data name="Narr_Green_Obj_Outside" xml:space="preserve">
+    <value>室外的气温，在阴凉处测量。它一天里的变化，比温室和汽车里小得多。</value>
+  </data>
+  <data name="Narr_Green_Obj_Pane" xml:space="preserve">
+    <value>屋顶和墙壁。玻璃能让约百分之八十五到九十的阳光通过，却几乎挡住全部红外线。像伍德 1909 年实验里那样的岩盐板，则能让红外线透出去。</value>
+  </data>
+  <data name="Narr_Green_Obj_Profile" xml:space="preserve">
+    <value>这是气温随高度的变化。从地面往上，每升高一千米大约冷六度半，一直到天气层的顶部，约十一千米高。</value>
+  </data>
+  <data name="Narr_Green_Obj_Space" xml:space="preserve">
+    <value>太空又冷又黑。地球只能靠发出红外线，把热量散到太空。当散出去的热等于留下的阳光时，就达到了平衡。</value>
+  </data>
+  <data name="Narr_Green_Obj_Spectrum" xml:space="preserve">
+    <value>这是地面热辐射按波长的分布。阴影部分是这种气体单独能吸收的，虚线是所有温室气体加起来能吸收的。</value>
+  </data>
+  <data name="Narr_Green_Obj_Sun" xml:space="preserve">
+    <value>太阳光主要是可见光，干净的空气和玻璃都能让它通过。到达大气顶部的每一百份阳光里，大约有三十份直接被反射回太空。</value>
+  </data>
+  <data name="Narr_Green_Obj_Sunlight" xml:space="preserve">
+    <value>阳光，画成短短的金色线条。太阳非常热，所以它的光大多是可见光，波长短，很容易穿过大气。</value>
+  </data>
+  <data name="Narr_Green_Obj_Vents" xml:space="preserve">
+    <value>屋顶通风窗。打开后，暖空气从上面出去，凉空气流进来，园丁就是这样防止温室过热的。点一下可以打开或关上。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibAsymmetricBend" xml:space="preserve">
+    <value>不对称弯曲：甲烷的氢原子折动不均匀，电荷随之偏移。它吸收波长约 7.7 微米的红外线，正好在大气窗口的边上。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibAsymmetricStretch" xml:space="preserve">
+    <value>不对称伸缩：一边伸长，另一边缩短，电荷左右来回摆动。这种振动能吸收红外线，波长比较短。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibBend" xml:space="preserve">
+    <value>弯曲振动：分子像合页一样弯来弯去。在二氧化碳里，它让电荷上下摆动，吸收波长约 15 微米的红外线，正好靠近地面热辐射的峰值。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibSpin" xml:space="preserve">
+    <value>转动：弯曲又带电的水分子会翻滚旋转，转动的电荷能吸收波长较长、约 18 微米以上的红外线。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibStretch" xml:space="preserve">
+    <value>伸缩振动：两个原子一会儿分开，一会儿靠近。在氮气或氧气里，电荷始终均匀，所以这种振动吸收不了光。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibSymmetricBend" xml:space="preserve">
+    <value>对称弯曲：甲烷的氢原子成对地折动，分子保持平衡，所以这种振动不吸收红外线。</value>
+  </data>
+  <data name="Narr_Green_Obj_VibSymmetricStretch" xml:space="preserve">
+    <value>对称伸缩：外侧的原子同时向外、同时向内。在二氧化碳或甲烷里，分子始终是平衡的，所以这种振动不吸收红外线；水分子是弯的，它的对称伸缩就能吸收。</value>
+  </data>
+  <data name="Narr_Green_Obj_WarmAir" xml:space="preserve">
+    <value>从地面升起、聚集在屋顶下的暖空气。要是没有玻璃这个“盖子”，它就会直接升走，把热量也带走。</value>
+  </data>
+  <data name="Narr_Green_Obj_Window" xml:space="preserve">
+    <value>大气窗口，波长 8 到 13 微米。空气里几乎没有什么能吸收这段波长，所以这是地面直接向太空散热的主要通道。</value>
+  </data>
+  <data name="Narr_Green_Planet_01" xml:space="preserve">
+    <value>这是地球的一个切面：地面、上面的大气，再往上是太空。阳光照进来，大部分直接穿过大气，差不多一半被地面吸收。</value>
+  </data>
+  <data name="Narr_Green_Planet_02" xml:space="preserve">
+    <value>地面被晒暖以后也会发光，只是这种光眼睛看不见。它发出的是红外线，也就是热辐射：就是从地面往上走的这些红色波浪线。</value>
+  </data>
+  <data name="Narr_Green_Planet_03" xml:space="preserve">
+    <value>空气的绝大部分是氮气和氧气，它们让这些红外线直接通过。但少数几种分子，二氧化碳、水汽和甲烷，会把它们截住。截住的时候，分子会闪一下红光。</value>
+  </data>
+  <data name="Narr_Green_Planet_04" xml:space="preserve">
+    <value>一个分子截住了一束热辐射。接下来，这份热会去哪里？</value>
+  </data>
+  <data name="Narr_Green_Planet_05" xml:space="preserve">
+    <value>它会被重新发射出去，方向随机，所以有一半又回到了地面。打开能量收支看看：每平方米有 333 瓦从大气返回地面，是地面从阳光里得到的两倍。</value>
+  </data>
+  <data name="Narr_Green_Planet_06" xml:space="preserve">
+    <value>现在把温室气体拿掉。热辐射直接飞向太空，地面不断变冷，最后停在零下十八度左右，成了一颗冰冻的星球。</value>
+  </data>
+  <data name="Narr_Green_Planet_07" xml:space="preserve">
+    <value>再把它们放回来，用 1750 年的水平：二氧化碳 280 ppm。地面回暖到十四度左右。多出来的这三十多度，就是天然的温室效应，正是它让地球适合生命生存。</value>
+  </data>
+  <data name="Narr_Green_Planet_08" xml:space="preserve">
+    <value>现在把二氧化碳加倍，到 560 ppm。热量离开地球的高度升高了几百米，那里空气更冷，辐射出去的热更少。所以地面和下面的空气必须升温，这里大约升高三度，才能重新平衡。</value>
+  </data>
+  <data name="Narr_Green_Planet_09" xml:space="preserve">
+    <value>右边的小图是气温随高度的变化：每升高一千米，大约冷六度半。金色的点，标出热量逃向太空的那个高度。</value>
+  </data>
+  <data name="Narr_Green_Planet_10" xml:space="preserve">
+    <value>轮到你了。拖动二氧化碳的滑块，或者把温室气体拿掉，看看地面温度怎样慢慢变到新的平衡。</value>
   </data>
   <data name="Narr_Hole_Lensing_01" xml:space="preserve">
     <value>现在我们离得非常远。一个黑洞正从一个遥远的星系前面漂过。黑洞本身小得根本看不见，但请注意它对身后射来的光做了什么。</value>
