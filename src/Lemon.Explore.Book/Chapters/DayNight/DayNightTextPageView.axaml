@@ -1,0 +1,292 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:daynight="using:Lemon.Explore.Book.Chapters.DayNight"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.DayNight.DayNightTextPageView"
+                         x:DataType="daynight:DayNightTextPageViewModel">
+    <!-- Left page of the Day and night spread: where you are, the date, each view's own pictures and the clocks. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="TextBlock.statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        </Style>
+        <Style Selector="Rectangle.legend">
+            <Setter Property="Width" Value="12" />
+            <Setter Property="Height" Value="12" />
+            <Setter Property="RadiusX" Value="3" />
+            <Setter Property="RadiusY" Value="3" />
+            <Setter Property="Margin" Value="0,0,6,0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="TextBlock.legend">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+        </Style>
+
+        <!-- A row of the world clock: the whole row picks the city. -->
+        <Style Selector="Button.clock">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Padding" Value="8,4" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <Border Name="Row" Background="{TemplateBinding Background}" CornerRadius="8" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalContentAlignment="Stretch" />
+                    </Border>
+                </ControlTemplate>
+            </Setter>
+        </Style>
+        <Style Selector="Button.clock:pointerover /template/ Border#Row">
+            <Setter Property="Background" Value="#14B5532E" />
+        </Style>
+        <Style Selector="Button.clock.selected /template/ Border#Row">
+            <Setter Property="Background" Value="#26B5532E" />
+        </Style>
+        <Style Selector="Button.clock:focus-visible /template/ Border#Row">
+            <Setter Property="Background" Value="#1F2B2622" />
+        </Style>
+        <Style Selector="PathIcon.sun">
+            <Setter Property="Foreground" Value="#5C6F9E" />
+        </Style>
+        <Style Selector="PathIcon.sun.day">
+            <Setter Property="Foreground" Value="#D99A1E" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <TextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <TextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Day.Subtitle}" />
+                <TextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Day.ScaleNote}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Day.DragHint}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="DayNightMode" IsChecked="{Binding Day.IsMap}"
+                                 Content="{loc:Localize DayNight_Mode_Map}" />
+                    <RadioButton Classes="chip" GroupName="DayNightMode" IsChecked="{Binding Day.IsTimeZones}"
+                                 Content="{loc:Localize DayNight_Mode_TimeZones}" />
+                    <RadioButton Classes="chip" GroupName="DayNightMode" IsChecked="{Binding Day.IsGlobe}"
+                                 Content="{loc:Localize DayNight_Mode_Globe}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Day.Card}" />
+
+                <explore:LocationChip Margin="0,14,0,0" Service="{Binding Day.Location}" />
+
+                <!-- Place -->
+                <DockPanel Margin="0,16,0,6">
+                    <TextBlock Classes="value" Text="{Binding Day.PlaceName}" />
+                    <TextBlock Classes="caption" Margin="0" Text="{loc:Localize DayNight_Place}" />
+                </DockPanel>
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Day.GoHomeCommand}" IsVisible="{Binding Day.ShowsHomeButton}"
+                            Content="{Binding Day.HomeName}" ToolTip.Tip="{loc:Localize Location_Home_Tooltip}" />
+                    <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="Beijing"
+                            Content="{loc:Localize DayNight_City_Beijing}" />
+                    <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="Kashgar"
+                            Content="{loc:Localize DayNight_City_Kashgar}" />
+                    <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="London"
+                            Content="{loc:Localize DayNight_City_London}" />
+                    <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="NewYork"
+                            Content="{loc:Localize DayNight_City_NewYork}" />
+                    <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="Sydney"
+                            Content="{loc:Localize DayNight_City_Sydney}" />
+                    <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="Tromso"
+                            Content="{loc:Localize DayNight_City_Tromso}" />
+                </WrapPanel>
+                <TextBlock Classes="note" Text="{loc:Localize DayNight_Place_Hint}" />
+
+                <!-- Date -->
+                <DockPanel Margin="0,16,0,2">
+                    <TextBlock Classes="value" Text="{Binding Day.DateText}" />
+                    <TextBlock Classes="caption" Margin="0" Text="{loc:Localize DayNight_Date}" />
+                </DockPanel>
+                <Slider Minimum="0" Maximum="{Binding Day.LastDay}" Value="{Binding Day.Day}" SmallChange="1" LargeChange="15"
+                        AutomationProperties.Name="{loc:Localize DayNight_Date}" />
+                <WrapPanel Margin="0,4,0,0">
+                    <Button Classes="chip" Command="{Binding Day.JumpToCommand}" CommandParameter="MarchEquinox"
+                            Content="{loc:Localize DayNight_Event_MarchEquinox}" />
+                    <Button Classes="chip" Command="{Binding Day.JumpToCommand}" CommandParameter="JuneSolstice"
+                            Content="{loc:Localize DayNight_Event_JuneSolstice}" />
+                    <Button Classes="chip" Command="{Binding Day.JumpToCommand}" CommandParameter="SeptemberEquinox"
+                            Content="{loc:Localize DayNight_Event_SeptemberEquinox}" />
+                    <Button Classes="chip" Command="{Binding Day.JumpToCommand}" CommandParameter="DecemberSolstice"
+                            Content="{loc:Localize DayNight_Event_DecemberSolstice}" />
+                </WrapPanel>
+
+                <TextBlock Classes="caption" Text="{loc:Localize DayNight_Animate}" />
+                <WrapPanel>
+                    <RadioButton Classes="chip" GroupName="DayNightAnimate" IsChecked="{Binding Day.AnimatesDay}"
+                                 Content="{loc:Localize DayNight_Animate_Day}" />
+                    <RadioButton Classes="chip" GroupName="DayNightAnimate" IsChecked="{Binding Day.AnimatesYear}"
+                                 Content="{loc:Localize DayNight_Animate_Year}" />
+                </WrapPanel>
+
+                <!-- Day and night: twilight, the globe above you and your year of daylight -->
+                <StackPanel IsVisible="{Binding Day.IsMap}">
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Day.ShowTwilight}"
+                                      Content="{loc:Localize DayNight_ShowTwilight}" />
+                    </WrapPanel>
+
+                    <TextBlock Classes="caption" Text="{Binding Day.GlobeCaption}" />
+                    <Border Classes="plate" Height="210">
+                        <daynight:PlaceGlobeView Instant="{Binding Day.Instant}"
+                                                 PlaceLatitude="{Binding Day.PlaceLatitude}"
+                                                 PlaceLongitude="{Binding Day.PlaceLongitude}"
+                                                 AutomationProperties.Name="{Binding Day.GlobeCaption}" />
+                    </Border>
+
+                    <TextBlock Classes="caption" Text="{Binding Day.ChartCaption}" />
+                    <Border Classes="plate" Height="190" Padding="0,4,0,0">
+                        <daynight:SunClockChart Instant="{Binding Day.Instant}"
+                                                PlaceLatitude="{Binding Day.PlaceLatitude}"
+                                                PlaceLongitude="{Binding Day.PlaceLongitude}"
+                                                PlaceCity="{Binding Day.PlaceCity}"
+                                                AutomationProperties.Name="{Binding Day.ChartCaption}" />
+                    </Border>
+                    <WrapPanel Margin="0,10,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
+                            <Rectangle Classes="legend" Fill="#6CAEE6" />
+                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Day}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
+                            <Rectangle Classes="legend" Fill="#33528C" />
+                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Civil}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
+                            <Rectangle Classes="legend" Fill="#213568" />
+                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Nautical}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
+                            <Rectangle Classes="legend" Fill="#152146" />
+                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Astronomical}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
+                            <Rectangle Classes="legend" Fill="#0A1024" />
+                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Night}" />
+                        </StackPanel>
+                    </WrapPanel>
+                    <TextBlock Classes="note" Text="{loc:Localize DayNight_Chart_Note}" />
+                </StackPanel>
+
+                <!-- Time zones: the world clock -->
+                <StackPanel IsVisible="{Binding Day.IsTimeZones}">
+                    <TextBlock Classes="caption" Text="{loc:Localize DayNight_Clocks_Caption}" />
+                    <ItemsControl ItemsSource="{Binding Day.Clocks}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="daynight:CityClock">
+                                <Button Classes="clock" Classes.selected="{Binding IsSelected}"
+                                        Command="{Binding $parent[ItemsControl].((daynight:DayNightTextPageViewModel)DataContext).Day.SelectCityCommand}"
+                                        CommandParameter="{Binding Id}"
+                                        AutomationProperties.Name="{Binding Name}">
+                                    <Grid ColumnDefinitions="24,*,Auto,54">
+                                        <PathIcon Classes="sun" Classes.day="{Binding IsDaylight}" Width="16" Height="16"
+                                                  HorizontalAlignment="Left" Data="{Binding Icon}" />
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <TextBlock FontSize="13" Foreground="{StaticResource InkBrush}" TextTrimming="CharacterEllipsis"
+                                                       Text="{Binding Name}" />
+                                            <TextBlock FontSize="11" Foreground="{StaticResource FaintInkBrush}" Text="{Binding OffsetText}" />
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="2" Margin="6,0" VerticalAlignment="Center" FontSize="11"
+                                                   Foreground="{StaticResource AccentBrush}" Text="{Binding DayText}" />
+                                        <TextBlock Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Right"
+                                                   FontSize="15" FontWeight="SemiBold" Foreground="{StaticResource InkBrush}"
+                                                   Text="{Binding TimeText}" />
+                                    </Grid>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <TextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Day.ClocksNote}" />
+                </StackPanel>
+
+                <!-- Globe: the view and the same moment on the flat map -->
+                <StackPanel IsVisible="{Binding Day.IsGlobe}">
+                    <DockPanel Margin="0,10,0,0">
+                        <Button DockPanel.Dock="Left" Classes="chip" VerticalAlignment="Top"
+                                Command="{Binding Day.ResetViewCommand}" Content="{loc:Localize DayNight_ResetView}" />
+                        <TextBlock Classes="note" VerticalAlignment="Center" Text="{loc:Localize DayNight_ResetView_Hint}" />
+                    </DockPanel>
+
+                    <TextBlock Classes="caption" Text="{loc:Localize DayNight_MiniMap_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <daynight:MiniMapView Instant="{Binding Day.Instant}"
+                                              PlaceLatitude="{Binding Day.PlaceLatitude}"
+                                              PlaceLongitude="{Binding Day.PlaceLongitude}"
+                                              AutomationProperties.Name="{loc:Localize DayNight_MiniMap_Caption}" />
+                    </Border>
+                    <TextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize DayNight_MiniMap_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the Sun's state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="#0D2B2622" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Day.StageBrush}" />
+                        <StackPanel Margin="14,12">
+                            <TextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                       Foreground="{StaticResource InkBrush}" Text="{Binding Day.StageTitle}" />
+                            <TextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Day.StageDescription}" />
+                            <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
+                                <TextBlock Grid.Row="0" Classes="statName" Text="{loc:Localize DayNight_Stat_LocalTime}" />
+                                <TextBlock Grid.Row="0" Classes="statValue" Text="{Binding Day.LocalTimeText}" />
+                                <TextBlock Grid.Row="1" Classes="statName" Text="{loc:Localize DayNight_Stat_Solar}"
+                                           ToolTip.Tip="{loc:Localize DayNight_Stat_Solar_ToolTip}" />
+                                <TextBlock Grid.Row="1" Classes="statValue" Text="{Binding Day.SolarTimeText}"
+                                           ToolTip.Tip="{loc:Localize DayNight_Stat_Solar_ToolTip}" />
+                                <TextBlock Grid.Row="2" Classes="statName" Text="{loc:Localize DayNight_Stat_Altitude}" />
+                                <TextBlock Grid.Row="2" Classes="statValue" Text="{Binding Day.AltitudeText}" />
+                                <TextBlock Grid.Row="3" Classes="statName" Text="{loc:Localize DayNight_Stat_Sunrise}"
+                                           ToolTip.Tip="{loc:Localize DayNight_Stat_Sunrise_ToolTip}" />
+                                <TextBlock Grid.Row="3" Classes="statValue" Text="{Binding Day.SunriseText}"
+                                           ToolTip.Tip="{loc:Localize DayNight_Stat_Sunrise_ToolTip}" />
+                                <TextBlock Grid.Row="4" Classes="statName" Text="{loc:Localize DayNight_Stat_DayLength}" />
+                                <TextBlock Grid.Row="4" Classes="statValue" Text="{Binding Day.DayLengthText}" />
+                                <TextBlock Grid.Row="5" Classes="statName" Text="{loc:Localize DayNight_Stat_Subsolar}" />
+                                <TextBlock Grid.Row="5" Classes="statValue" Text="{Binding Day.SubsolarText}" />
+                            </Grid>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <TextBlock Classes="caption" Text="{loc:Localize DayNight_Facts}" />
+                <ItemsControl ItemsSource="{Binding Day.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{StaticResource AccentBrush}" />
+                                <TextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

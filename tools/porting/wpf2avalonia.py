@@ -35,6 +35,9 @@ TARGET_ROOT = "Lemon.Explore.Book"
 # Namespaces below the source root that every chapter shares, and where they live in this book.
 SHARED_NAMESPACES = {
     "Controls.SolarSystem": "Controls.Space",
+    # Other chapters use the eclipse folder only for its shared drawing helpers; the eclipses port maps it with --map.
+    "Controls.Eclipse": "Controls.Space",
+    "Controls.Seasons": "Chapters.Seasons",
     "Controls.Explore": "Controls.Explore",
     "ViewModels.Explore.Lessons": "Explore.Lessons",
     "Services.Explore.Narration": "Explore.Narration",
@@ -204,8 +207,17 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
     s = re.sub(r"^\s*RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.\w+\);\s*\n", "", s, flags=re.M)
     s = re.sub(r"ctx\.LineTo\((.*), (?:true|false), (?:true|false)\);", r"ctx.LineTo(\1);", s)
+    s = re.sub(r"ctx\.ArcTo\((.*), (?:true|false), (?:true|false)\);", r"ctx.ArcTo(\1);", s)
     s = re.sub(r"Freeze\(new Pen\((.*), ([\d.]+)\)\);", r"MakePen(\1, \2);", s)
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
+    s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
+    # Premultiplied BGRA bitmaps written from a uint[] of pixels.
+    s = re.sub(r"new WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.Pbgra32, null\)",
+               r"new WriteableBitmap(new PixelSize(\1, \2), new Vector(96, 96), PixelFormat.Bgra8888, AlphaFormat.Premul)", s)
+    s = re.sub(r"([\w!]+)\.WritePixels\(new Int32Rect\(0, 0, ([^,]+), ([^)]+)\), (\w+), [^;]+\);",
+               r"SpaceDrawing.WritePixels(\1, \4, \2, \3);", s)
+    if "PixelFormat.Bgra8888" in s and "using Avalonia.Platform;" not in s:
+        s = s.replace("using Avalonia;\n", "using Avalonia;\nusing Avalonia.Platform;\n", 1)
     s = rewrite_brushes(s)
     s = rewrite_figures(s)
     return s
@@ -432,6 +444,10 @@ def drawing(args: argparse.Namespace) -> None:
     s = convert_points(s)
     write(args.target, s)
     report(Path(args.target).name, s)
+    # Anything still naming the original (resource names, string literals) must not reach the repository.
+    for number, line in enumerate(s.splitlines(), 1):
+        if args.source_prefix in line:
+            print(f"  line {number} still names the original app: {line.strip()[:100]}")
 
 
 # ---- view models -----------------------------------------------------------------------------------------------

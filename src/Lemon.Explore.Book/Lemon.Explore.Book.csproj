@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AvaloniaResource Include="Assets\**" />
+    <AvaloniaResource Include="Assets\**" Exclude="Assets\Maps\**" />
+    <!-- Natural Earth 1:110m land (public domain), read by the world map. -->
+    <EmbeddedResource Include="Assets\Maps\land-110m.txt" LogicalName="Lemon.Explore.Book.Maps.Land110m" />
   </ItemGroup>
 
   <ItemGroup>

@@ -137,11 +137,18 @@ internal static class SpaceDrawing
         dc.DrawGeometry(brush, null, Polygon(tip, back + (normal * size * 0.55), back - (normal * size * 0.55)));
     }
 
+    /// <summary>Copies premultiplied BGRA pixels (one <see cref="int"/> each) into a bitmap of the same size.</summary>
+    public static void WritePixels(WriteableBitmap bitmap, int[] pixels, int width, int height) =>
+        WritePixels(bitmap, MemoryMarshal.Cast<int, uint>(pixels.AsSpan()), width, height);
+
     /// <summary>Copies premultiplied BGRA pixels (one <see cref="uint"/> each) into a bitmap of the same size.</summary>
-    public static unsafe void WritePixels(WriteableBitmap bitmap, uint[] pixels, int width, int height)
+    public static void WritePixels(WriteableBitmap bitmap, uint[] pixels, int width, int height) =>
+        WritePixels(bitmap, pixels.AsSpan(), width, height);
+
+    private static unsafe void WritePixels(WriteableBitmap bitmap, ReadOnlySpan<uint> pixels, int width, int height)
     {
         using var buffer = bitmap.Lock();
-        var source = MemoryMarshal.AsBytes(pixels.AsSpan());
+        var source = MemoryMarshal.AsBytes(pixels);
         var rowBytes = width * 4;
         for (var y = 0; y < height; y++)
         {

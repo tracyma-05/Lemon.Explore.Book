@@ -153,7 +153,7 @@ public partial class MoonPhasesViewModel : ObservableObject, IChapterContent, ID
     /// <summary>The observer is south of the equator: the Moon is seen upside down.</summary>
     public bool IsSouthern => Latitude < 0;
 
-    /// <summary>The first hemisphere option, e.g. 长沙（北半球）.</summary>
+    /// <summary>The first hemisphere option, e.g. 北京（北半球）.</summary>
     public string HomeOptionText => _localization.Format(
         "MoonPhases_Hemisphere_Home",
         _localization.GetString("Seasons_City_Beijing"),

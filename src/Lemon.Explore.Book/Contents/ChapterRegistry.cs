@@ -1,3 +1,4 @@
+using Lemon.Explore.Book.Chapters.DayNight;
 using Lemon.Explore.Book.Chapters.Eclipses;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Seasons;
@@ -13,7 +14,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -46,6 +47,13 @@ public static class ChapterRegistry
                 var moon = new MoonPhasesViewModel(services.Narration, navigator);
                 return (new MoonPhasesTextPageViewModel(textPage, navigator, chapter, number, moon),
                     new MoonPhasesDiagramPageViewModel(textPage + 1, navigator, chapter, moon));
+            }
+
+            case "Day-Night":
+            {
+                var day = new DayNightViewModel(services.Location, services.Narration);
+                return (new DayNightTextPageViewModel(textPage, navigator, chapter, number, day),
+                    new DayNightDiagramPageViewModel(textPage + 1, navigator, chapter, day));
             }
 
             default:

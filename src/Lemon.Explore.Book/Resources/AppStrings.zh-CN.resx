@@ -156,6 +156,546 @@
   <data name="Credits_Title" xml:space="preserve">
     <value>致谢</value>
   </data>
+  <data name="DayNight_Animate" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="DayNight_Animate_Day" xml:space="preserve">
+    <value>一天的变化</value>
+  </data>
+  <data name="DayNight_Animate_Year" xml:space="preserve">
+    <value>每天同一时刻，看一年</value>
+  </data>
+  <data name="DayNight_Chart_Caption" xml:space="preserve">
+    <value>{0}一年中的昼夜</value>
+  </data>
+  <data name="DayNight_Chart_Note" xml:space="preserve">
+    <value>纵轴为钟表时间，所以在夏令时开始和结束的日子，色带会跳动一小时。圆点表示此刻。</value>
+  </data>
+  <data name="DayNight_City_Auckland" xml:space="preserve">
+    <value>奥克兰</value>
+  </data>
+  <data name="DayNight_City_Beijing" xml:space="preserve">
+    <value>北京</value>
+  </data>
+  <data name="DayNight_City_Cairo" xml:space="preserve">
+    <value>开罗</value>
+  </data>
+  <data name="DayNight_City_CapeTown" xml:space="preserve">
+    <value>开普敦</value>
+  </data>
+  <data name="DayNight_City_Dubai" xml:space="preserve">
+    <value>迪拜</value>
+  </data>
+  <data name="DayNight_City_Honolulu" xml:space="preserve">
+    <value>檀香山</value>
+  </data>
+  <data name="DayNight_City_Kashgar" xml:space="preserve">
+    <value>喀什</value>
+  </data>
+  <data name="DayNight_City_Kathmandu" xml:space="preserve">
+    <value>加德满都</value>
+  </data>
+  <data name="DayNight_City_Kiritimati" xml:space="preserve">
+    <value>圣诞岛（基里巴斯）</value>
+  </data>
+  <data name="DayNight_City_London" xml:space="preserve">
+    <value>伦敦</value>
+  </data>
+  <data name="DayNight_City_LosAngeles" xml:space="preserve">
+    <value>洛杉矶</value>
+  </data>
+  <data name="DayNight_City_Madrid" xml:space="preserve">
+    <value>马德里</value>
+  </data>
+  <data name="DayNight_City_Moscow" xml:space="preserve">
+    <value>莫斯科</value>
+  </data>
+  <data name="DayNight_City_NewDelhi" xml:space="preserve">
+    <value>新德里</value>
+  </data>
+  <data name="DayNight_City_NewYork" xml:space="preserve">
+    <value>纽约</value>
+  </data>
+  <data name="DayNight_City_Reykjavik" xml:space="preserve">
+    <value>雷克雅未克</value>
+  </data>
+  <data name="DayNight_City_SaoPaulo" xml:space="preserve">
+    <value>圣保罗</value>
+  </data>
+  <data name="DayNight_City_Singapore" xml:space="preserve">
+    <value>新加坡</value>
+  </data>
+  <data name="DayNight_City_Sydney" xml:space="preserve">
+    <value>悉尼</value>
+  </data>
+  <data name="DayNight_City_Tokyo" xml:space="preserve">
+    <value>东京</value>
+  </data>
+  <data name="DayNight_City_Tromso" xml:space="preserve">
+    <value>特罗姆瑟</value>
+  </data>
+  <data name="DayNight_Clock_Ahead" xml:space="preserve">
+    <value>钟表快 {0}</value>
+  </data>
+  <data name="DayNight_Clock_Behind" xml:space="preserve">
+    <value>钟表慢 {0}</value>
+  </data>
+  <data name="DayNight_Clock_Same" xml:space="preserve">
+    <value>与钟表基本一致</value>
+  </data>
+  <data name="DayNight_Clocks_Caption" xml:space="preserve">
+    <value>世界时钟</value>
+  </data>
+  <data name="DayNight_Clocks_Earlier" xml:space="preserve">
+    <value>−{0} 天</value>
+  </data>
+  <data name="DayNight_Clocks_Later" xml:space="preserve">
+    <value>+{0} 天</value>
+  </data>
+  <data name="DayNight_Clocks_Note" xml:space="preserve">
+    <value>+1 天：比{0}早进入下一天。点击城市可选中它。</value>
+  </data>
+  <data name="DayNight_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="DayNight_Degrees" xml:space="preserve">
+    <value>{0:0.0}°</value>
+  </data>
+  <data name="DayNight_DragHint_Globe" xml:space="preserve">
+    <value>拖动可转动视角；点击可选择地点</value>
+  </data>
+  <data name="DayNight_DragHint_Map" xml:space="preserve">
+    <value>点击地图上的地点可查看日出日落；左右拖动可移动太阳</value>
+  </data>
+  <data name="DayNight_Duration" xml:space="preserve">
+    <value>{0} 小时 {1} 分</value>
+  </data>
+  <data name="DayNight_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="DayNight_Event_DecemberSolstice" xml:space="preserve">
+    <value>冬至</value>
+  </data>
+  <data name="DayNight_Event_JuneSolstice" xml:space="preserve">
+    <value>夏至</value>
+  </data>
+  <data name="DayNight_Event_MarchEquinox" xml:space="preserve">
+    <value>春分</value>
+  </data>
+  <data name="DayNight_Event_SeptemberEquinox" xml:space="preserve">
+    <value>秋分</value>
+  </data>
+  <data name="DayNight_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="DayNight_Globe_Fact1" xml:space="preserve">
+    <value>太阳光几乎平行地照到地球上，所以任何时刻都恰好有一半地球被照亮。昼半球的边界是一个大圆，即晨昏圈。</value>
+  </data>
+  <data name="DayNight_Globe_Fact2" xml:space="preserve">
+    <value>晨昏圈总是与太阳光线垂直。由于地轴是倾斜的，只有在春分、秋分时它才经过两极；夏至、冬至时它与地轴的夹角达到 23.4°，刚好与南北极圈相切。</value>
+  </data>
+  <data name="DayNight_Globe_Fact3" xml:space="preserve">
+    <value>在倾向太阳一侧的极圈以内，地球怎么转都转不出昼半球，太阳不落（极昼）；另一侧的极圈以内则太阳不升（极夜）。</value>
+  </data>
+  <data name="DayNight_Globe_Fact4" xml:space="preserve">
+    <value>在平面地图上，同一个圆看起来像一条波浪线，因为地图把高纬度地区横向拉伸了。</value>
+  </data>
+  <data name="DayNight_Globe_Fact5" xml:space="preserve">
+    <value>从北极上空看，地球逆时针自西向东自转。所以太阳从东方升起，越往东的地方越早看到日出。</value>
+  </data>
+  <data name="DayNight_Globe_Note" xml:space="preserve">
+    <value>阳光从左侧照来，未按比例。夜半球上的亮点是城市灯光。</value>
+  </data>
+  <data name="DayNight_Globe_Subtitle" xml:space="preserve">
+    <value>在地球仪上，晨昏线是一个大圆</value>
+  </data>
+  <data name="DayNight_Label_AxisAngle" xml:space="preserve">
+    <value>地轴与晨昏圈夹角 {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Label_DateLine" xml:space="preserve">
+    <value>日期变更线（180°）</value>
+  </data>
+  <data name="DayNight_Label_Day" xml:space="preserve">
+    <value>昼半球</value>
+  </data>
+  <data name="DayNight_Label_Midnight" xml:space="preserve">
+    <value>午夜</value>
+  </data>
+  <data name="DayNight_Label_NewDay" xml:space="preserve">
+    <value>午夜：以东已进入新的一天 →</value>
+  </data>
+  <data name="DayNight_Label_Night" xml:space="preserve">
+    <value>夜半球</value>
+  </data>
+  <data name="DayNight_Label_Noon" xml:space="preserve">
+    <value>正午</value>
+  </data>
+  <data name="DayNight_Label_NorthPole" xml:space="preserve">
+    <value>北极</value>
+  </data>
+  <data name="DayNight_Label_Overhead" xml:space="preserve">
+    <value>太阳直射 {0}</value>
+  </data>
+  <data name="DayNight_Label_PolarDay" xml:space="preserve">
+    <value>极昼</value>
+  </data>
+  <data name="DayNight_Label_PolarNight" xml:space="preserve">
+    <value>极夜</value>
+  </data>
+  <data name="DayNight_Label_SunMoves" xml:space="preserve">
+    <value>← 每小时西移 15°</value>
+  </data>
+  <data name="DayNight_Label_Sunlight" xml:space="preserve">
+    <value>太阳光</value>
+  </data>
+  <data name="DayNight_Label_SunriseLine" xml:space="preserve">
+    <value>晨线</value>
+  </data>
+  <data name="DayNight_Label_SunsetLine" xml:space="preserve">
+    <value>昏线</value>
+  </data>
+  <data name="DayNight_Latitude_North" xml:space="preserve">
+    <value>北纬 {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Latitude_South" xml:space="preserve">
+    <value>南纬 {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Legend_Astronomical" xml:space="preserve">
+    <value>天文曙暮光</value>
+  </data>
+  <data name="DayNight_Legend_Civil" xml:space="preserve">
+    <value>民用曙暮光</value>
+  </data>
+  <data name="DayNight_Legend_Day" xml:space="preserve">
+    <value>白天</value>
+  </data>
+  <data name="DayNight_Legend_Nautical" xml:space="preserve">
+    <value>航海曙暮光</value>
+  </data>
+  <data name="DayNight_Legend_Night" xml:space="preserve">
+    <value>黑夜</value>
+  </data>
+  <data name="DayNight_Lesson_Globe_Choice1" xml:space="preserve">
+    <value>南极附近</value>
+  </data>
+  <data name="DayNight_Lesson_Globe_Choice2" xml:space="preserve">
+    <value>北极附近</value>
+  </data>
+  <data name="DayNight_Lesson_Globe_Choice3" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="DayNight_Lesson_Map_Choice1" xml:space="preserve">
+    <value>更早</value>
+  </data>
+  <data name="DayNight_Lesson_Map_Choice2" xml:space="preserve">
+    <value>更晚</value>
+  </data>
+  <data name="DayNight_Lesson_Map_Choice3" xml:space="preserve">
+    <value>一样</value>
+  </data>
+  <data name="DayNight_Lesson_Zones_Choice1" xml:space="preserve">
+    <value>国际日期变更线附近</value>
+  </data>
+  <data name="DayNight_Lesson_Zones_Choice2" xml:space="preserve">
+    <value>伦敦的格林尼治</value>
+  </data>
+  <data name="DayNight_Lesson_Zones_Choice3" xml:space="preserve">
+    <value>北京</value>
+  </data>
+  <data name="DayNight_Line_AntarcticCircle" xml:space="preserve">
+    <value>南极圈</value>
+  </data>
+  <data name="DayNight_Line_ArcticCircle" xml:space="preserve">
+    <value>北极圈</value>
+  </data>
+  <data name="DayNight_Line_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="DayNight_Line_TropicCancer" xml:space="preserve">
+    <value>北回归线</value>
+  </data>
+  <data name="DayNight_Line_TropicCapricorn" xml:space="preserve">
+    <value>南回归线</value>
+  </data>
+  <data name="DayNight_Longitude_East" xml:space="preserve">
+    <value>东经 {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Longitude_West" xml:space="preserve">
+    <value>西经 {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Longitude_Zero" xml:space="preserve">
+    <value>{0:0}° 经线</value>
+  </data>
+  <data name="DayNight_Map_Fact1" xml:space="preserve">
+    <value>昼半球与夜半球的分界线叫晨昏线。太阳以西的一段是晨线，那里正在日出；以东的一段是昏线，那里正在日落。</value>
+  </data>
+  <data name="DayNight_Map_Fact2" xml:space="preserve">
+    <value>地球 24 小时自转一周，每小时 15°，所以昼半球每小时向西移动 15°：在赤道上约为每小时 1670 公里。</value>
+  </data>
+  <data name="DayNight_Map_Fact3" xml:space="preserve">
+    <value>日落后天并不会马上黑。太阳在地平线下 6° 以内是民用曙暮光，要到 18° 以下天空才完全变暗。在极圈附近，夏天的夜晚始终不会完全变黑。</value>
+  </data>
+  <data name="DayNight_Map_Fact4" xml:space="preserve">
+    <value>晨昏线的形状随季节变化：春分、秋分时从极点到极点笔直地南北延伸；夏至、冬至时弯成波浪，刚好与南北极圈相切，一侧是极昼，另一侧是极夜。</value>
+  </data>
+  <data name="DayNight_Map_Fact5" xml:space="preserve">
+    <value>日出、日落以太阳上边缘为准，大气折射又把太阳抬高了约半度，所以即使在春分、秋分，白天也比 12 小时长几分钟。</value>
+  </data>
+  <data name="DayNight_Map_Note" xml:space="preserve">
+    <value>等距圆柱投影地图。阴影由浅到深依次为民用、航海、天文曙暮光和黑夜。太阳位置为该时刻的真实位置。</value>
+  </data>
+  <data name="DayNight_Map_Subtitle" xml:space="preserve">
+    <value>地球总有一半被太阳照亮，晨昏线自东向西扫过大地</value>
+  </data>
+  <data name="DayNight_MiniMap_Caption" xml:space="preserve">
+    <value>同一时刻的平面地图</value>
+  </data>
+  <data name="DayNight_MiniMap_Note" xml:space="preserve">
+    <value>地球仪上的圆，在平面地图上变成了一条波浪线。</value>
+  </data>
+  <data name="DayNight_Minutes" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="DayNight_Mode_Globe" xml:space="preserve">
+    <value>地球仪</value>
+  </data>
+  <data name="DayNight_Mode_Map" xml:space="preserve">
+    <value>晨昏线</value>
+  </data>
+  <data name="DayNight_Mode_TimeZones" xml:space="preserve">
+    <value>时区与日期</value>
+  </data>
+  <data name="DayNight_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="DayNight_Now_ToolTip" xml:space="preserve">
+    <value>回到此时此刻</value>
+  </data>
+  <data name="DayNight_Obj_Angle" xml:space="preserve">
+    <value>晨昏圈的夹角</value>
+  </data>
+  <data name="DayNight_Obj_Axis" xml:space="preserve">
+    <value>地轴</value>
+  </data>
+  <data name="DayNight_Obj_DateLine" xml:space="preserve">
+    <value>国际日期变更线</value>
+  </data>
+  <data name="DayNight_Obj_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="DayNight_Obj_Midnight" xml:space="preserve">
+    <value>半夜</value>
+  </data>
+  <data name="DayNight_Obj_NewDay" xml:space="preserve">
+    <value>新一天的边界</value>
+  </data>
+  <data name="DayNight_Obj_Noon" xml:space="preserve">
+    <value>正午</value>
+  </data>
+  <data name="DayNight_Obj_PolarCircle" xml:space="preserve">
+    <value>南北极圈</value>
+  </data>
+  <data name="DayNight_Obj_PolarDay" xml:space="preserve">
+    <value>极昼</value>
+  </data>
+  <data name="DayNight_Obj_PolarNight" xml:space="preserve">
+    <value>极夜</value>
+  </data>
+  <data name="DayNight_Obj_Sun" xml:space="preserve">
+    <value>太阳直射点</value>
+  </data>
+  <data name="DayNight_Obj_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="DayNight_Obj_SunriseLine" xml:space="preserve">
+    <value>晨线</value>
+  </data>
+  <data name="DayNight_Obj_SunsetLine" xml:space="preserve">
+    <value>昏线</value>
+  </data>
+  <data name="DayNight_Obj_Tropics" xml:space="preserve">
+    <value>南北回归线</value>
+  </data>
+  <data name="DayNight_Obj_Utc" xml:space="preserve">
+    <value>世界标准时间</value>
+  </data>
+  <data name="DayNight_Obj_Zone" xml:space="preserve">
+    <value>所在时区</value>
+  </data>
+  <data name="DayNight_Phase_AstronomicalTwilight" xml:space="preserve">
+    <value>天文曙暮光</value>
+  </data>
+  <data name="DayNight_Phase_Dawn" xml:space="preserve">
+    <value>黎明（民用曙光）</value>
+  </data>
+  <data name="DayNight_Phase_Day" xml:space="preserve">
+    <value>白天</value>
+  </data>
+  <data name="DayNight_Phase_Dusk" xml:space="preserve">
+    <value>黄昏（民用暮光）</value>
+  </data>
+  <data name="DayNight_Phase_NauticalTwilight" xml:space="preserve">
+    <value>航海曙暮光</value>
+  </data>
+  <data name="DayNight_Phase_Night" xml:space="preserve">
+    <value>夜晚</value>
+  </data>
+  <data name="DayNight_Phase_PolarDay" xml:space="preserve">
+    <value>极昼</value>
+  </data>
+  <data name="DayNight_Phase_PolarNight" xml:space="preserve">
+    <value>极夜</value>
+  </data>
+  <data name="DayNight_Phase_Sunrise" xml:space="preserve">
+    <value>日出时分</value>
+  </data>
+  <data name="DayNight_Phase_Sunset" xml:space="preserve">
+    <value>日落时分</value>
+  </data>
+  <data name="DayNight_Place" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="DayNight_PlaceGlobe_Caption" xml:space="preserve">
+    <value>从太空俯瞰{0}上空的地球</value>
+  </data>
+  <data name="DayNight_Place_Hint" xml:space="preserve">
+    <value>也可以直接点击地图上的任意位置。</value>
+  </data>
+  <data name="DayNight_Place_Point" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="DayNight_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格键）</value>
+  </data>
+  <data name="DayNight_ResetView" xml:space="preserve">
+    <value>重置视角</value>
+  </data>
+  <data name="DayNight_ResetView_Hint" xml:space="preserve">
+    <value>拖动地球可从其他方向观察。</value>
+  </data>
+  <data name="DayNight_ShowTwilight" xml:space="preserve">
+    <value>曙暮光界线</value>
+  </data>
+  <data name="DayNight_Stage_Astronomical_Description" xml:space="preserve">
+    <value>太阳在地平线下 12°–18°。看起来天已黑，但微弱的天光仍掩盖着最暗的星星。</value>
+  </data>
+  <data name="DayNight_Stage_Dawn_Description" xml:space="preserve">
+    <value>太阳还在地平线以下，但天已经亮得不用开灯也能看清。</value>
+  </data>
+  <data name="DayNight_Stage_Day_Description" xml:space="preserve">
+    <value>太阳在地平线以上：这里位于昼半球。</value>
+  </data>
+  <data name="DayNight_Stage_Dusk_Description" xml:space="preserve">
+    <value>太阳已经落下，天空仍有余晖；要到太阳低于地平线 6° 时才会暗下来。</value>
+  </data>
+  <data name="DayNight_Stage_Nautical_Description" xml:space="preserve">
+    <value>太阳在地平线下 6°–12°：亮星已经出现，海上仍能勉强分辨地平线。</value>
+  </data>
+  <data name="DayNight_Stage_Night_Description" xml:space="preserve">
+    <value>太阳在地平线下 18° 以上：这里处在夜半球，是真正的黑夜。</value>
+  </data>
+  <data name="DayNight_Stage_PolarDay_Description" xml:space="preserve">
+    <value>夏季的极圈以内：地球自转时这里始终不离开昼半球，太阳绕着天空转圈而不落下。</value>
+  </data>
+  <data name="DayNight_Stage_PolarNight_Description" xml:space="preserve">
+    <value>冬季的极圈以内：这里始终转不进昼半球，太阳整天不升起；中午前后可能仍有些曙暮光。</value>
+  </data>
+  <data name="DayNight_Stage_Sunrise_Description" xml:space="preserve">
+    <value>太阳低悬在东方。地球自转刚把这里带过晨线，进入白天。</value>
+  </data>
+  <data name="DayNight_Stage_Sunset_Description" xml:space="preserve">
+    <value>太阳低垂在西方。这里即将越过昏线，进入黑夜。</value>
+  </data>
+  <data name="DayNight_Stage_Title" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="DayNight_Stat_Altitude" xml:space="preserve">
+    <value>太阳高度</value>
+  </data>
+  <data name="DayNight_Stat_Below" xml:space="preserve">
+    <value>地平线下 {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Stat_DayLength" xml:space="preserve">
+    <value>昼长</value>
+  </data>
+  <data name="DayNight_Stat_LocalTime" xml:space="preserve">
+    <value>当地时间</value>
+  </data>
+  <data name="DayNight_Stat_LocalTime_Value" xml:space="preserve">
+    <value>{1} {0}（{2}）</value>
+  </data>
+  <data name="DayNight_Stat_None" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="DayNight_Stat_PolarDay" xml:space="preserve">
+    <value>极昼：太阳不落</value>
+  </data>
+  <data name="DayNight_Stat_PolarNight" xml:space="preserve">
+    <value>极夜：太阳不升</value>
+  </data>
+  <data name="DayNight_Stat_Solar" xml:space="preserve">
+    <value>地方太阳时</value>
+  </data>
+  <data name="DayNight_Stat_Solar_ToolTip" xml:space="preserve">
+    <value>当地日晷显示的时间：太阳最高时为 12:00。</value>
+  </data>
+  <data name="DayNight_Stat_Solar_Value" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="DayNight_Stat_Subsolar" xml:space="preserve">
+    <value>太阳直射点</value>
+  </data>
+  <data name="DayNight_Stat_Subsolar_Value" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="DayNight_Stat_Sunrise" xml:space="preserve">
+    <value>日出 / 日落</value>
+  </data>
+  <data name="DayNight_Stat_SunriseSunset" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="DayNight_Stat_Sunrise_ToolTip" xml:space="preserve">
+    <value>按当地日期和钟表时间。</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact1" xml:space="preserve">
+    <value>19 世纪以前，每个城镇都用自己的地方太阳时。铁路和电报需要统一的时间：1884 年各国约定以格林尼治为 0° 经线，后来又按每 15°（1 小时）划分时区。</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact2" xml:space="preserve">
+    <value>实际的时区沿国界划分。中国东西跨越约 60 个经度，相当于 5 个理想时区，却统一使用北京时间（UTC+8）：在喀什，太阳要到接近 15 点才升到最高。</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact3" xml:space="preserve">
+    <value>有些时区相差半小时甚至一刻钟：印度用 UTC+5:30，尼泊尔用 UTC+5:45。</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact4" xml:space="preserve">
+    <value>任何时刻，地球上都同时存在两个日期，每天还有两个小时会同时存在三个。新的一天从午夜开始，向西扩展，到大致沿 180° 经线的国际日期变更线为止。</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact5" xml:space="preserve">
+    <value>基里巴斯的圣诞岛（UTC+14）和檀香山（UTC−10）几乎在同一条经线上：两地钟表显示的时刻相同，日期却差了整整一天。</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact6" xml:space="preserve">
+    <value>夏令时在夏季把钟表拨快一小时，伦敦、纽约、悉尼都在用；中国不实行夏令时。</value>
+  </data>
+  <data name="DayNight_TimeZones_Note" xml:space="preserve">
+    <value>图中为每 15° 一个的理想时区，实际时区沿国界划分。城市旁显示的是当地实际钟表时间（含夏令时）。</value>
+  </data>
+  <data name="DayNight_TimeZones_Subtitle" xml:space="preserve">
+    <value>时钟跟着太阳走：每向东 15°，时间快 1 小时</value>
+  </data>
+  <data name="DayNight_Timeline" xml:space="preserve">
+    <value>一天中的时间（UTC）</value>
+  </data>
+  <data name="DayNight_Title" xml:space="preserve">
+    <value>昼夜与时区</value>
+  </data>
+  <data name="DayNight_Toolbar_Place" xml:space="preserve">
+    <value>{0} {1} · {2}</value>
+  </data>
+  <data name="DayNight_Toolbar_Utc" xml:space="preserve">
+    <value>UTC {0}</value>
+  </data>
+  <data name="DayNight_Zone_Ideal" xml:space="preserve">
+    <value>{0}，理想时区</value>
+  </data>
   <data name="Diagram_Placeholder" xml:space="preserve">
     <value>互动图即将到来</value>
   </data>
@@ -566,6 +1106,114 @@
   </data>
   <data name="Lesson_TimeLeft" xml:space="preserve">
     <value>剩余答题时间</value>
+  </data>
+  <data name="Location_Change" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="Location_Chip" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Location_Chip_Tooltip" xml:space="preserve">
+    <value>书中各章从这里观察。所有章节共用，自动保存。</value>
+  </data>
+  <data name="Location_City_Beijing" xml:space="preserve">
+    <value>北京</value>
+  </data>
+  <data name="Location_City_Chengdu" xml:space="preserve">
+    <value>成都</value>
+  </data>
+  <data name="Location_City_Custom" xml:space="preserve">
+    <value>自定义地点</value>
+  </data>
+  <data name="Location_City_Guangzhou" xml:space="preserve">
+    <value>广州</value>
+  </data>
+  <data name="Location_City_Harbin" xml:space="preserve">
+    <value>哈尔滨</value>
+  </data>
+  <data name="Location_City_HongKong" xml:space="preserve">
+    <value>香港</value>
+  </data>
+  <data name="Location_City_Kunming" xml:space="preserve">
+    <value>昆明</value>
+  </data>
+  <data name="Location_City_London" xml:space="preserve">
+    <value>伦敦</value>
+  </data>
+  <data name="Location_City_NewYork" xml:space="preserve">
+    <value>纽约</value>
+  </data>
+  <data name="Location_City_Shanghai" xml:space="preserve">
+    <value>上海</value>
+  </data>
+  <data name="Location_City_Singapore" xml:space="preserve">
+    <value>新加坡</value>
+  </data>
+  <data name="Location_City_Sydney" xml:space="preserve">
+    <value>悉尼</value>
+  </data>
+  <data name="Location_City_Tokyo" xml:space="preserve">
+    <value>东京</value>
+  </data>
+  <data name="Location_City_Wuhan" xml:space="preserve">
+    <value>武汉</value>
+  </data>
+  <data name="Location_Coordinates" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="Location_Custom_Caption" xml:space="preserve">
+    <value>自定义地点</value>
+  </data>
+  <data name="Location_Custom_FromCurrent" xml:space="preserve">
+    <value>从当前地点开始</value>
+  </data>
+  <data name="Location_Custom_Hint" xml:space="preserve">
+    <value>纬度以北为正，经度以东为正，单位为度。时间按该经线的理想时区计算。</value>
+  </data>
+  <data name="Location_Custom_Use" xml:space="preserve">
+    <value>使用这个地点</value>
+  </data>
+  <data name="Location_Description" xml:space="preserve">
+    <value>所有与地点有关的章节都会用它：昼夜、潮汐，以及后面更多的章节。下次打开时仍然保留。</value>
+  </data>
+  <data name="Location_Details" xml:space="preserve">
+    <value>时区 {0} · 重力加速度 g = {1} m/s²</value>
+  </data>
+  <data name="Location_EarthAt" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="Location_East" xml:space="preserve">
+    <value>东经 {0}°</value>
+  </data>
+  <data name="Location_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="Location_Gravity_Note" xml:space="preserve">
+    <value>“地球”按{0}当地的重力计算：g = {1} m/s²。由于地球自转、赤道略鼓，赤道上是 9.780，两极是 9.832。</value>
+  </data>
+  <data name="Location_Home_Tooltip" xml:space="preserve">
+    <value>回到你的观察地点</value>
+  </data>
+  <data name="Location_Latitude" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="Location_Longitude" xml:space="preserve">
+    <value>经度</value>
+  </data>
+  <data name="Location_North" xml:space="preserve">
+    <value>北纬 {0}°</value>
+  </data>
+  <data name="Location_Short" xml:space="preserve">
+    <value>观察地点</value>
+  </data>
+  <data name="Location_South" xml:space="preserve">
+    <value>南纬 {0}°</value>
+  </data>
+  <data name="Location_Title" xml:space="preserve">
+    <value>观察地点</value>
+  </data>
+  <data name="Location_West" xml:space="preserve">
+    <value>西经 {0}°</value>
   </data>
   <data name="MoonPhases_Age_Short" xml:space="preserve">
     <value>第 {0:0.0} 天</value>
@@ -998,6 +1646,120 @@
   </data>
   <data name="Narr_Common_Wrong" xml:space="preserve">
     <value>不太对哦，我们来看看答案。</value>
+  </data>
+  <data name="Narr_DayNight_Globe_01" xml:space="preserve">
+    <value>换成地球仪来看。阳光从左边照过来，任何时候都只能照亮地球的一半。</value>
+  </data>
+  <data name="Narr_DayNight_Globe_02" xml:space="preserve">
+    <value>亮面和暗面的分界是一个大圆。地球每天自转一圈，每个地方都会两次穿过这个圆：一次是日出，一次是日落。</value>
+  </data>
+  <data name="Narr_DayNight_Globe_03" xml:space="preserve">
+    <value>地轴是倾斜的。所以除了春分和秋分，这个大圆并不经过两极，而是和地轴错开一个角度。</value>
+  </data>
+  <data name="Narr_DayNight_Globe_04" xml:space="preserve">
+    <value>我们跳到六月。现在这个角度最大，大约二十三度半，正好等于地轴的倾角。</value>
+  </data>
+  <data name="Narr_DayNight_Globe_05" xml:space="preserve">
+    <value>看北极附近：不管地球怎么转，那里一整天都待在亮面里，这就是极昼，半夜也能看到太阳。而南极附近一整天都是黑的，叫极夜。</value>
+  </data>
+  <data name="Narr_DayNight_Globe_06" xml:space="preserve">
+    <value>考考你：到了十二月，哪里会出现极昼？</value>
+  </data>
+  <data name="Narr_DayNight_Globe_07" xml:space="preserve">
+    <value>答案是南极附近。到了十二月，南半球朝向太阳，轮到南极过极昼，北极则进入漫长的极夜。你可以拖动地球仪，换个角度看看。</value>
+  </data>
+  <data name="Narr_DayNight_Map_01" xml:space="preserve">
+    <value>这是一张世界地图。亮的部分是白天，暗的部分是黑夜。中间这条弯弯的金线，就是白天和黑夜的分界线，叫晨昏线。</value>
+  </data>
+  <data name="Narr_DayNight_Map_02" xml:space="preserve">
+    <value>太阳正好直射在这个地方。地球自西向东转，所以看上去太阳在往西走，每小时十五度，一天正好绕地球一圈。</value>
+  </data>
+  <data name="Narr_DayNight_Map_03" xml:space="preserve">
+    <value>分界线的这一半叫晨线，线上的地方，太阳此刻正在升起。另一半叫昏线，那里太阳正在落下。</value>
+  </data>
+  <data name="Narr_DayNight_Map_04" xml:space="preserve">
+    <value>金色竖线经过的地方都是正午，蓝色竖线经过的地方都是半夜。这两条线也跟着太阳一起往西走。</value>
+  </data>
+  <data name="Narr_DayNight_Map_05" xml:space="preserve">
+    <value>想一想：如果你住得更靠东边，会更早还是更晚看到日出？</value>
+  </data>
+  <data name="Narr_DayNight_Map_06" xml:space="preserve">
+    <value>答案是更早：晨线总是先扫过东边。现在让时间按一年来走，每天都停在同一时刻。看分界线的形状怎么变：六月前后，北边的白天长；十二月前后，轮到南边；只有春分和秋分，它才从北极笔直地连到南极。</value>
+  </data>
+  <data name="Narr_DayNight_Map_07" xml:space="preserve">
+    <value>现在你来试试：在地图上点一个城市，右边会显示那里现在几点、太阳有多高。</value>
+  </data>
+  <data name="Narr_DayNight_Map_08" xml:space="preserve">
+    <value>不管你在哪里，日出、正午和日落，都是因为同一件事：地球带着你转向太阳，又转离太阳。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Angle" xml:space="preserve">
+    <value>这是地轴和晨昏圈之间的夹角。它正好等于太阳直射点离赤道有多远：春分秋分时是零，夏至冬至时大约二十三度半。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Axis" xml:space="preserve">
+    <value>这是穿过南北两极的地轴，它倾斜了大约二十三度半，正因为这样，一年里白天的长短才会变化。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_DateLine" xml:space="preserve">
+    <value>这是国际日期变更线，大致沿着一百八十度经线。向东越过它，日历要往回翻一天；向西越过它，要往前翻一天。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Equator" xml:space="preserve">
+    <value>这是赤道。在赤道上，一年到头白天和黑夜都差不多各十二个小时。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Midnight" xml:space="preserve">
+    <value>这条线经过的地方，按太阳算都是半夜，正好在日落和日出的中间。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_NewDay" xml:space="preserve">
+    <value>这里正是午夜。它的东边，日期已经换成新的一天；新的一天每小时往西扩展一个时区。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Noon" xml:space="preserve">
+    <value>这条线经过的地方，按太阳算都是正午，太阳正处在一天中最高的位置。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_PolarCircle" xml:space="preserve">
+    <value>这是南北极圈，在南北纬六十六度半左右。极圈以内，每年至少有一天太阳整天不落，也至少有一天太阳整天不升。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_PolarDay" xml:space="preserve">
+    <value>极昼。在这里，地球转一整圈，这一圈纬线始终待在亮面里，所以太阳一直不落。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_PolarNight" xml:space="preserve">
+    <value>极夜。在这里，这一圈纬线始终待在暗面里，所以太阳一直不升起。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Sun" xml:space="preserve">
+    <value>这是太阳直射的地方。它每小时往西移动十五度；一年里，还会在南北回归线之间来回移动。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Sunlight" xml:space="preserve">
+    <value>阳光从很远的地方照过来，光线几乎是平行的，所以任何时刻都正好照亮地球的一半。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_SunriseLine" xml:space="preserve">
+    <value>这是晨线。线上的每一个地方，太阳都正在升起。随着地球转动，它一刻不停地向西扫过全世界。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_SunsetLine" xml:space="preserve">
+    <value>这是昏线。线上的每一个地方，太阳都正在落下，傍晚刚刚开始。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Tropics" xml:space="preserve">
+    <value>这是南北回归线，在南北纬二十三度半左右。太阳直射点最远就只能走到这里，然后再折回来。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Utc" xml:space="preserve">
+    <value>这是世界标准时间，由原子钟来维持，和伦敦格林尼治的时间几乎一样。各个时区大多比它快或慢整数个小时，也有少数例外。</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Zone" xml:space="preserve">
+    <value>这是你选中的地方所在的时区。每个时区大约十五度经度宽，正好是太阳走一个小时的距离。</value>
+  </data>
+  <data name="Narr_DayNight_Zones_01" xml:space="preserve">
+    <value>如果每个地方都按自己头顶的太阳定时间，连相邻的两个城市，钟表都会差上几分钟。所以人们按经度把地球分成二十四个时区，每个大约十五度宽。</value>
+  </data>
+  <data name="Narr_DayNight_Zones_02" xml:space="preserve">
+    <value>上面这排数字，表示每个时区比世界标准时间快或慢几个小时；下面这排，是那里的钟表现在显示的时间。</value>
+  </data>
+  <data name="Narr_DayNight_Zones_03" xml:space="preserve">
+    <value>看这条蓝线，这是此刻午夜所在的位置。线的东边已经是新的一天了，而且新的日期每小时往西扩展一个时区。</value>
+  </data>
+  <data name="Narr_DayNight_Zones_04" xml:space="preserve">
+    <value>想一想：每一个新的日期，最先从哪里开始？</value>
+  </data>
+  <data name="Narr_DayNight_Zones_05" xml:space="preserve">
+    <value>新的日期，最先从太平洋中间的国际日期变更线西侧开始。从西往东越过这条线，日期要减一天；从东往西越过，就要加一天。</value>
+  </data>
+  <data name="Narr_DayNight_Zones_06" xml:space="preserve">
+    <value>时区还会跟着国界走，不完全按经度划。中国东西跨了大约五个时区，却统一使用北京时间，所以在最西边，按钟表看，太阳升起得特别晚。</value>
   </data>
   <data name="Narr_Eclipse_Lunar_01" xml:space="preserve">
     <value>这回轮到地球投下影子了。和月球的影子一样，它背着太阳，一直伸向太空深处。</value>

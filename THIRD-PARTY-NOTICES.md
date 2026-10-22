@@ -7,7 +7,7 @@ The Explore Book's own code is under the MIT licence (see `LICENSE`). It ships o
 | [Avalonia](https://github.com/AvaloniaUI/Avalonia) | UI framework (desktop and WebAssembly) | MIT |
 | [CommunityToolkit.Mvvm](https://github.com/CommunityToolkit/dotnet) | View-model helpers | MIT |
 | [Noto Sans SC](https://github.com/notofonts/noto-cjk) | Chinese and Latin text in the web edition (`src/Lemon.Explore.Book.Browser/Assets/Fonts`) | SIL Open Font License 1.1 (text alongside the font files) |
-| [Natural Earth](https://www.naturalearthdata.com/) | Coastlines in map-based chapters (arrives with those chapters) | Public domain |
+| [Natural Earth](https://www.naturalearthdata.com/) | Coastlines in map-based chapters (`Assets/Maps/land-110m.txt`, 1:110m land) | Public domain |
 
 ## Narration audio
 

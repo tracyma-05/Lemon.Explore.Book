@@ -156,6 +156,546 @@
   <data name="Credits_Title" xml:space="preserve">
     <value>Credits</value>
   </data>
+  <data name="DayNight_Animate" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="DayNight_Animate_Day" xml:space="preserve">
+    <value>A day passes</value>
+  </data>
+  <data name="DayNight_Animate_Year" xml:space="preserve">
+    <value>Same time, through the year</value>
+  </data>
+  <data name="DayNight_Chart_Caption" xml:space="preserve">
+    <value>Daylight in {0} through the year</value>
+  </data>
+  <data name="DayNight_Chart_Note" xml:space="preserve">
+    <value>Clock time, so the band jumps by an hour where daylight saving starts and ends. The dot is now.</value>
+  </data>
+  <data name="DayNight_City_Auckland" xml:space="preserve">
+    <value>Auckland</value>
+  </data>
+  <data name="DayNight_City_Beijing" xml:space="preserve">
+    <value>Beijing</value>
+  </data>
+  <data name="DayNight_City_Cairo" xml:space="preserve">
+    <value>Cairo</value>
+  </data>
+  <data name="DayNight_City_CapeTown" xml:space="preserve">
+    <value>Cape Town</value>
+  </data>
+  <data name="DayNight_City_Dubai" xml:space="preserve">
+    <value>Dubai</value>
+  </data>
+  <data name="DayNight_City_Honolulu" xml:space="preserve">
+    <value>Honolulu</value>
+  </data>
+  <data name="DayNight_City_Kashgar" xml:space="preserve">
+    <value>Kashgar</value>
+  </data>
+  <data name="DayNight_City_Kathmandu" xml:space="preserve">
+    <value>Kathmandu</value>
+  </data>
+  <data name="DayNight_City_Kiritimati" xml:space="preserve">
+    <value>Kiritimati</value>
+  </data>
+  <data name="DayNight_City_London" xml:space="preserve">
+    <value>London</value>
+  </data>
+  <data name="DayNight_City_LosAngeles" xml:space="preserve">
+    <value>Los Angeles</value>
+  </data>
+  <data name="DayNight_City_Madrid" xml:space="preserve">
+    <value>Madrid</value>
+  </data>
+  <data name="DayNight_City_Moscow" xml:space="preserve">
+    <value>Moscow</value>
+  </data>
+  <data name="DayNight_City_NewDelhi" xml:space="preserve">
+    <value>New Delhi</value>
+  </data>
+  <data name="DayNight_City_NewYork" xml:space="preserve">
+    <value>New York</value>
+  </data>
+  <data name="DayNight_City_Reykjavik" xml:space="preserve">
+    <value>Reykjavík</value>
+  </data>
+  <data name="DayNight_City_SaoPaulo" xml:space="preserve">
+    <value>São Paulo</value>
+  </data>
+  <data name="DayNight_City_Singapore" xml:space="preserve">
+    <value>Singapore</value>
+  </data>
+  <data name="DayNight_City_Sydney" xml:space="preserve">
+    <value>Sydney</value>
+  </data>
+  <data name="DayNight_City_Tokyo" xml:space="preserve">
+    <value>Tokyo</value>
+  </data>
+  <data name="DayNight_City_Tromso" xml:space="preserve">
+    <value>Tromsø</value>
+  </data>
+  <data name="DayNight_Clock_Ahead" xml:space="preserve">
+    <value>clock is {0} ahead</value>
+  </data>
+  <data name="DayNight_Clock_Behind" xml:space="preserve">
+    <value>clock is {0} behind</value>
+  </data>
+  <data name="DayNight_Clock_Same" xml:space="preserve">
+    <value>same as the clock</value>
+  </data>
+  <data name="DayNight_Clocks_Caption" xml:space="preserve">
+    <value>World clock</value>
+  </data>
+  <data name="DayNight_Clocks_Earlier" xml:space="preserve">
+    <value>−{0} day</value>
+  </data>
+  <data name="DayNight_Clocks_Later" xml:space="preserve">
+    <value>+{0} day</value>
+  </data>
+  <data name="DayNight_Clocks_Note" xml:space="preserve">
+    <value>+1 day: already the next day compared with {0}. Click a city to choose it.</value>
+  </data>
+  <data name="DayNight_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DayNight_Degrees" xml:space="preserve">
+    <value>{0:0.0}°</value>
+  </data>
+  <data name="DayNight_DragHint_Globe" xml:space="preserve">
+    <value>Drag to turn the globe; click a place to choose it</value>
+  </data>
+  <data name="DayNight_DragHint_Map" xml:space="preserve">
+    <value>Click a place for its sunrise and sunset; drag sideways to move the Sun</value>
+  </data>
+  <data name="DayNight_Duration" xml:space="preserve">
+    <value>{0} h {1} min</value>
+  </data>
+  <data name="DayNight_Equator" xml:space="preserve">
+    <value>the equator</value>
+  </data>
+  <data name="DayNight_Event_DecemberSolstice" xml:space="preserve">
+    <value>December solstice</value>
+  </data>
+  <data name="DayNight_Event_JuneSolstice" xml:space="preserve">
+    <value>June solstice</value>
+  </data>
+  <data name="DayNight_Event_MarchEquinox" xml:space="preserve">
+    <value>March equinox</value>
+  </data>
+  <data name="DayNight_Event_SeptemberEquinox" xml:space="preserve">
+    <value>September equinox</value>
+  </data>
+  <data name="DayNight_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="DayNight_Globe_Fact1" xml:space="preserve">
+    <value>Sunlight reaches Earth in parallel rays, so at any moment exactly half of Earth is lit. The edge of the lit half is a great circle: the circle of illumination.</value>
+  </data>
+  <data name="DayNight_Globe_Fact2" xml:space="preserve">
+    <value>The circle always stands at right angles to the sunlight. Because Earth's axis is tilted, it passes through the poles only at the equinoxes; at the solstices it leans 23.4° from the axis and just touches the polar circles.</value>
+  </data>
+  <data name="DayNight_Globe_Fact3" xml:space="preserve">
+    <value>Inside the polar circle tilted towards the Sun, Earth's turn never carries you out of the lit half: the Sun does not set (polar day). Inside the other one it does not rise (polar night).</value>
+  </data>
+  <data name="DayNight_Globe_Fact4" xml:space="preserve">
+    <value>On the flat map the same circle looks like a wave, because the map stretches the regions near the poles sideways.</value>
+  </data>
+  <data name="DayNight_Globe_Fact5" xml:space="preserve">
+    <value>Seen from above the North Pole, Earth turns anticlockwise, from west to east. That is why the Sun rises in the east, and places further east see it first.</value>
+  </data>
+  <data name="DayNight_Globe_Note" xml:space="preserve">
+    <value>Sunlight from the left; not to scale. City lights mark the night side.</value>
+  </data>
+  <data name="DayNight_Globe_Subtitle" xml:space="preserve">
+    <value>On the globe, the line between day and night is a circle</value>
+  </data>
+  <data name="DayNight_Label_AxisAngle" xml:space="preserve">
+    <value>Axis to circle: {0:0.0}°</value>
+  </data>
+  <data name="DayNight_Label_DateLine" xml:space="preserve">
+    <value>Date line (180°)</value>
+  </data>
+  <data name="DayNight_Label_Day" xml:space="preserve">
+    <value>Day side</value>
+  </data>
+  <data name="DayNight_Label_Midnight" xml:space="preserve">
+    <value>Midnight</value>
+  </data>
+  <data name="DayNight_Label_NewDay" xml:space="preserve">
+    <value>Midnight: a new date to the east →</value>
+  </data>
+  <data name="DayNight_Label_Night" xml:space="preserve">
+    <value>Night side</value>
+  </data>
+  <data name="DayNight_Label_Noon" xml:space="preserve">
+    <value>Noon</value>
+  </data>
+  <data name="DayNight_Label_NorthPole" xml:space="preserve">
+    <value>North Pole</value>
+  </data>
+  <data name="DayNight_Label_Overhead" xml:space="preserve">
+    <value>Sun overhead: {0}</value>
+  </data>
+  <data name="DayNight_Label_PolarDay" xml:space="preserve">
+    <value>Polar day</value>
+  </data>
+  <data name="DayNight_Label_PolarNight" xml:space="preserve">
+    <value>Polar night</value>
+  </data>
+  <data name="DayNight_Label_SunMoves" xml:space="preserve">
+    <value>← moves west 15° an hour</value>
+  </data>
+  <data name="DayNight_Label_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="DayNight_Label_SunriseLine" xml:space="preserve">
+    <value>Sunrise line</value>
+  </data>
+  <data name="DayNight_Label_SunsetLine" xml:space="preserve">
+    <value>Sunset line</value>
+  </data>
+  <data name="DayNight_Latitude_North" xml:space="preserve">
+    <value>{0:0.0}° N</value>
+  </data>
+  <data name="DayNight_Latitude_South" xml:space="preserve">
+    <value>{0:0.0}° S</value>
+  </data>
+  <data name="DayNight_Legend_Astronomical" xml:space="preserve">
+    <value>Astronomical</value>
+  </data>
+  <data name="DayNight_Legend_Civil" xml:space="preserve">
+    <value>Civil twilight</value>
+  </data>
+  <data name="DayNight_Legend_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="DayNight_Legend_Nautical" xml:space="preserve">
+    <value>Nautical</value>
+  </data>
+  <data name="DayNight_Legend_Night" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="DayNight_Lesson_Globe_Choice1" xml:space="preserve">
+    <value>Near the South Pole</value>
+  </data>
+  <data name="DayNight_Lesson_Globe_Choice2" xml:space="preserve">
+    <value>Near the North Pole</value>
+  </data>
+  <data name="DayNight_Lesson_Globe_Choice3" xml:space="preserve">
+    <value>At the equator</value>
+  </data>
+  <data name="DayNight_Lesson_Map_Choice1" xml:space="preserve">
+    <value>Earlier</value>
+  </data>
+  <data name="DayNight_Lesson_Map_Choice2" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="DayNight_Lesson_Map_Choice3" xml:space="preserve">
+    <value>At the same time</value>
+  </data>
+  <data name="DayNight_Lesson_Zones_Choice1" xml:space="preserve">
+    <value>Next to the international date line</value>
+  </data>
+  <data name="DayNight_Lesson_Zones_Choice2" xml:space="preserve">
+    <value>At Greenwich, in London</value>
+  </data>
+  <data name="DayNight_Lesson_Zones_Choice3" xml:space="preserve">
+    <value>In Beijing</value>
+  </data>
+  <data name="DayNight_Line_AntarcticCircle" xml:space="preserve">
+    <value>Antarctic Circle</value>
+  </data>
+  <data name="DayNight_Line_ArcticCircle" xml:space="preserve">
+    <value>Arctic Circle</value>
+  </data>
+  <data name="DayNight_Line_Equator" xml:space="preserve">
+    <value>Equator</value>
+  </data>
+  <data name="DayNight_Line_TropicCancer" xml:space="preserve">
+    <value>Tropic of Cancer</value>
+  </data>
+  <data name="DayNight_Line_TropicCapricorn" xml:space="preserve">
+    <value>Tropic of Capricorn</value>
+  </data>
+  <data name="DayNight_Longitude_East" xml:space="preserve">
+    <value>{0:0.0}° E</value>
+  </data>
+  <data name="DayNight_Longitude_West" xml:space="preserve">
+    <value>{0:0.0}° W</value>
+  </data>
+  <data name="DayNight_Longitude_Zero" xml:space="preserve">
+    <value>{0:0}°</value>
+  </data>
+  <data name="DayNight_Map_Fact1" xml:space="preserve">
+    <value>The edge of the lit half is the terminator. West of the Sun it is the sunrise line, where the day is beginning; east of it the sunset line, where it is ending.</value>
+  </data>
+  <data name="DayNight_Map_Fact2" xml:space="preserve">
+    <value>Earth turns once in 24 hours, 15° an hour, so the lit half sweeps west 15° every hour: at the equator that is about 1,670 km an hour.</value>
+  </data>
+  <data name="DayNight_Map_Fact3" xml:space="preserve">
+    <value>Dark does not come at sunset. Civil twilight lasts until the Sun is 6° below the horizon, and the sky is fully dark only once it is 18° below. Near the polar circles, summer nights never get fully dark.</value>
+  </data>
+  <data name="DayNight_Map_Fact4" xml:space="preserve">
+    <value>The line's shape follows the seasons: straight from pole to pole at the equinoxes, a wave that touches the polar circles at the solstices, with polar day on one side and polar night on the other.</value>
+  </data>
+  <data name="DayNight_Map_Fact5" xml:space="preserve">
+    <value>Sunrise and sunset are counted from the top edge of the Sun, and the air bends its light up by about half a degree, so even at an equinox the day is a few minutes longer than 12 hours.</value>
+  </data>
+  <data name="DayNight_Map_Note" xml:space="preserve">
+    <value>Equirectangular map. The shade deepens through civil, nautical and astronomical twilight into night. The Sun's real position at this moment.</value>
+  </data>
+  <data name="DayNight_Map_Subtitle" xml:space="preserve">
+    <value>Half of Earth is always in sunlight; the line between day and night sweeps west</value>
+  </data>
+  <data name="DayNight_MiniMap_Caption" xml:space="preserve">
+    <value>The same moment on a flat map</value>
+  </data>
+  <data name="DayNight_MiniMap_Note" xml:space="preserve">
+    <value>The circle on the globe becomes a wave on the map.</value>
+  </data>
+  <data name="DayNight_Minutes" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="DayNight_Mode_Globe" xml:space="preserve">
+    <value>On the globe</value>
+  </data>
+  <data name="DayNight_Mode_Map" xml:space="preserve">
+    <value>Day and night</value>
+  </data>
+  <data name="DayNight_Mode_TimeZones" xml:space="preserve">
+    <value>Time zones</value>
+  </data>
+  <data name="DayNight_Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="DayNight_Now_ToolTip" xml:space="preserve">
+    <value>Jump to this moment</value>
+  </data>
+  <data name="DayNight_Obj_Angle" xml:space="preserve">
+    <value>The angle of the circle</value>
+  </data>
+  <data name="DayNight_Obj_Axis" xml:space="preserve">
+    <value>Earth's axis</value>
+  </data>
+  <data name="DayNight_Obj_DateLine" xml:space="preserve">
+    <value>International date line</value>
+  </data>
+  <data name="DayNight_Obj_Equator" xml:space="preserve">
+    <value>The equator</value>
+  </data>
+  <data name="DayNight_Obj_Midnight" xml:space="preserve">
+    <value>Midnight</value>
+  </data>
+  <data name="DayNight_Obj_NewDay" xml:space="preserve">
+    <value>Where the new day begins</value>
+  </data>
+  <data name="DayNight_Obj_Noon" xml:space="preserve">
+    <value>Noon</value>
+  </data>
+  <data name="DayNight_Obj_PolarCircle" xml:space="preserve">
+    <value>The polar circles</value>
+  </data>
+  <data name="DayNight_Obj_PolarDay" xml:space="preserve">
+    <value>Polar day</value>
+  </data>
+  <data name="DayNight_Obj_PolarNight" xml:space="preserve">
+    <value>Polar night</value>
+  </data>
+  <data name="DayNight_Obj_Sun" xml:space="preserve">
+    <value>Where the Sun is overhead</value>
+  </data>
+  <data name="DayNight_Obj_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="DayNight_Obj_SunriseLine" xml:space="preserve">
+    <value>Sunrise line</value>
+  </data>
+  <data name="DayNight_Obj_SunsetLine" xml:space="preserve">
+    <value>Sunset line</value>
+  </data>
+  <data name="DayNight_Obj_Tropics" xml:space="preserve">
+    <value>The tropics</value>
+  </data>
+  <data name="DayNight_Obj_Utc" xml:space="preserve">
+    <value>UTC, world time</value>
+  </data>
+  <data name="DayNight_Obj_Zone" xml:space="preserve">
+    <value>Your time zone</value>
+  </data>
+  <data name="DayNight_Phase_AstronomicalTwilight" xml:space="preserve">
+    <value>astronomical twilight</value>
+  </data>
+  <data name="DayNight_Phase_Dawn" xml:space="preserve">
+    <value>dawn (civil twilight)</value>
+  </data>
+  <data name="DayNight_Phase_Day" xml:space="preserve">
+    <value>daytime</value>
+  </data>
+  <data name="DayNight_Phase_Dusk" xml:space="preserve">
+    <value>dusk (civil twilight)</value>
+  </data>
+  <data name="DayNight_Phase_NauticalTwilight" xml:space="preserve">
+    <value>nautical twilight</value>
+  </data>
+  <data name="DayNight_Phase_Night" xml:space="preserve">
+    <value>night</value>
+  </data>
+  <data name="DayNight_Phase_PolarDay" xml:space="preserve">
+    <value>midnight sun</value>
+  </data>
+  <data name="DayNight_Phase_PolarNight" xml:space="preserve">
+    <value>polar night</value>
+  </data>
+  <data name="DayNight_Phase_Sunrise" xml:space="preserve">
+    <value>sunrise</value>
+  </data>
+  <data name="DayNight_Phase_Sunset" xml:space="preserve">
+    <value>sunset</value>
+  </data>
+  <data name="DayNight_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="DayNight_PlaceGlobe_Caption" xml:space="preserve">
+    <value>Earth from space, above {0}</value>
+  </data>
+  <data name="DayNight_Place_Hint" xml:space="preserve">
+    <value>Or click anywhere on the map.</value>
+  </data>
+  <data name="DayNight_Place_Point" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="DayNight_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="DayNight_ResetView" xml:space="preserve">
+    <value>Reset view</value>
+  </data>
+  <data name="DayNight_ResetView_Hint" xml:space="preserve">
+    <value>Drag the globe to look at it from another side.</value>
+  </data>
+  <data name="DayNight_ShowTwilight" xml:space="preserve">
+    <value>Twilight lines</value>
+  </data>
+  <data name="DayNight_Stage_Astronomical_Description" xml:space="preserve">
+    <value>The Sun is 12°–18° below the horizon. It looks dark, but a faint glow still hides the faintest stars.</value>
+  </data>
+  <data name="DayNight_Stage_Dawn_Description" xml:space="preserve">
+    <value>The Sun is still below the horizon, but the sky is already bright enough to see without lights.</value>
+  </data>
+  <data name="DayNight_Stage_Day_Description" xml:space="preserve">
+    <value>The Sun is up: this place is on the lit half of Earth.</value>
+  </data>
+  <data name="DayNight_Stage_Dusk_Description" xml:space="preserve">
+    <value>The Sun has set, but the sky still glows; it stays this light until the Sun is 6° below the horizon.</value>
+  </data>
+  <data name="DayNight_Stage_Nautical_Description" xml:space="preserve">
+    <value>The Sun is 6°–12° below the horizon: the brightest stars are out, and at sea the horizon can just be made out.</value>
+  </data>
+  <data name="DayNight_Stage_Night_Description" xml:space="preserve">
+    <value>The Sun is more than 18° below the horizon: full night on the dark half of Earth.</value>
+  </data>
+  <data name="DayNight_Stage_PolarDay_Description" xml:space="preserve">
+    <value>Inside the polar circle in summer: as Earth turns, this place never leaves the lit half, so the Sun circles the sky without setting.</value>
+  </data>
+  <data name="DayNight_Stage_PolarNight_Description" xml:space="preserve">
+    <value>Inside the polar circle in winter: this place never reaches the lit half, so the Sun does not rise all day; around noon there may still be twilight.</value>
+  </data>
+  <data name="DayNight_Stage_Sunrise_Description" xml:space="preserve">
+    <value>The Sun is low in the east. Earth's turn has just carried this place across the sunrise line into the light.</value>
+  </data>
+  <data name="DayNight_Stage_Sunset_Description" xml:space="preserve">
+    <value>The Sun is low in the west. This place is about to cross the sunset line into the night.</value>
+  </data>
+  <data name="DayNight_Stage_Title" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="DayNight_Stat_Altitude" xml:space="preserve">
+    <value>Sun's altitude</value>
+  </data>
+  <data name="DayNight_Stat_Below" xml:space="preserve">
+    <value>{0:0.0}° below the horizon</value>
+  </data>
+  <data name="DayNight_Stat_DayLength" xml:space="preserve">
+    <value>Daylight</value>
+  </data>
+  <data name="DayNight_Stat_LocalTime" xml:space="preserve">
+    <value>Clock time</value>
+  </data>
+  <data name="DayNight_Stat_LocalTime_Value" xml:space="preserve">
+    <value>{0}, {1} ({2})</value>
+  </data>
+  <data name="DayNight_Stat_None" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="DayNight_Stat_PolarDay" xml:space="preserve">
+    <value>Midnight sun: no sunset</value>
+  </data>
+  <data name="DayNight_Stat_PolarNight" xml:space="preserve">
+    <value>Polar night: no sunrise</value>
+  </data>
+  <data name="DayNight_Stat_Solar" xml:space="preserve">
+    <value>Solar time</value>
+  </data>
+  <data name="DayNight_Stat_Solar_ToolTip" xml:space="preserve">
+    <value>What a sundial would show there: 12:00 when the Sun is highest.</value>
+  </data>
+  <data name="DayNight_Stat_Solar_Value" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="DayNight_Stat_Subsolar" xml:space="preserve">
+    <value>Sun overhead at</value>
+  </data>
+  <data name="DayNight_Stat_Subsolar_Value" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="DayNight_Stat_Sunrise" xml:space="preserve">
+    <value>Sunrise / sunset</value>
+  </data>
+  <data name="DayNight_Stat_SunriseSunset" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="DayNight_Stat_Sunrise_ToolTip" xml:space="preserve">
+    <value>On today's date there, by the local clock.</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact1" xml:space="preserve">
+    <value>Until the 19th century every town kept its own solar time. Railways and the telegraph needed one time: in 1884 the world agreed on Greenwich as 0°, and later on zones 15° (one hour) wide.</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact2" xml:space="preserve">
+    <value>Real zones follow borders. China spans about 60° of longitude, five ideal zones, yet all of it keeps Beijing time (UTC+8): in Kashgar the Sun is highest close to 15:00.</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact3" xml:space="preserve">
+    <value>Some zones are off by half or a quarter of an hour: India keeps UTC+5:30 and Nepal UTC+5:45.</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact4" xml:space="preserve">
+    <value>At any moment two dates are in use, and for two hours each day even three. A new date begins at midnight and spreads west; it ends at the international date line, which runs roughly along 180°.</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact5" xml:space="preserve">
+    <value>Kiritimati (UTC+14) and Honolulu (UTC−10) lie almost on the same meridian: their clocks show the same time, a whole day apart.</value>
+  </data>
+  <data name="DayNight_TimeZones_Fact6" xml:space="preserve">
+    <value>Daylight saving puts clocks an hour ahead in summer, as in London, New York and Sydney. China does not use it.</value>
+  </data>
+  <data name="DayNight_TimeZones_Note" xml:space="preserve">
+    <value>Ideal time zones 15° wide; real zones follow borders. Cities show the time on their real clocks, daylight saving included.</value>
+  </data>
+  <data name="DayNight_TimeZones_Subtitle" xml:space="preserve">
+    <value>Clocks follow the Sun: every 15° east, an hour later</value>
+  </data>
+  <data name="DayNight_Timeline" xml:space="preserve">
+    <value>Time of day (UTC)</value>
+  </data>
+  <data name="DayNight_Title" xml:space="preserve">
+    <value>Day, night and time zones</value>
+  </data>
+  <data name="DayNight_Toolbar_Place" xml:space="preserve">
+    <value>{0} {1} · {2}</value>
+  </data>
+  <data name="DayNight_Toolbar_Utc" xml:space="preserve">
+    <value>UTC {0}</value>
+  </data>
+  <data name="DayNight_Zone_Ideal" xml:space="preserve">
+    <value>{0}, ideal zone</value>
+  </data>
   <data name="Diagram_Placeholder" xml:space="preserve">
     <value>Interactive picture coming soon</value>
   </data>
@@ -566,6 +1106,114 @@
   </data>
   <data name="Lesson_TimeLeft" xml:space="preserve">
     <value>Time left to answer</value>
+  </data>
+  <data name="Location_Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Location_Chip" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Location_Chip_Tooltip" xml:space="preserve">
+    <value>The place the chapters of the book are seen from. Shared by all of them and saved.</value>
+  </data>
+  <data name="Location_City_Beijing" xml:space="preserve">
+    <value>Beijing</value>
+  </data>
+  <data name="Location_City_Chengdu" xml:space="preserve">
+    <value>Chengdu</value>
+  </data>
+  <data name="Location_City_Custom" xml:space="preserve">
+    <value>Custom location</value>
+  </data>
+  <data name="Location_City_Guangzhou" xml:space="preserve">
+    <value>Guangzhou</value>
+  </data>
+  <data name="Location_City_Harbin" xml:space="preserve">
+    <value>Harbin</value>
+  </data>
+  <data name="Location_City_HongKong" xml:space="preserve">
+    <value>Hong Kong</value>
+  </data>
+  <data name="Location_City_Kunming" xml:space="preserve">
+    <value>Kunming</value>
+  </data>
+  <data name="Location_City_London" xml:space="preserve">
+    <value>London</value>
+  </data>
+  <data name="Location_City_NewYork" xml:space="preserve">
+    <value>New York</value>
+  </data>
+  <data name="Location_City_Shanghai" xml:space="preserve">
+    <value>Shanghai</value>
+  </data>
+  <data name="Location_City_Singapore" xml:space="preserve">
+    <value>Singapore</value>
+  </data>
+  <data name="Location_City_Sydney" xml:space="preserve">
+    <value>Sydney</value>
+  </data>
+  <data name="Location_City_Tokyo" xml:space="preserve">
+    <value>Tokyo</value>
+  </data>
+  <data name="Location_City_Wuhan" xml:space="preserve">
+    <value>Wuhan</value>
+  </data>
+  <data name="Location_Coordinates" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Location_Custom_Caption" xml:space="preserve">
+    <value>A place of your own</value>
+  </data>
+  <data name="Location_Custom_FromCurrent" xml:space="preserve">
+    <value>Start from the current place</value>
+  </data>
+  <data name="Location_Custom_Hint" xml:space="preserve">
+    <value>Latitude north positive, longitude east positive, in degrees. Its clock is the ideal time zone of its meridian.</value>
+  </data>
+  <data name="Location_Custom_Use" xml:space="preserve">
+    <value>Use this point</value>
+  </data>
+  <data name="Location_Description" xml:space="preserve">
+    <value>Used by every chapter that depends on where you are: day and night, the tides and more to come. Saved for next time.</value>
+  </data>
+  <data name="Location_Details" xml:space="preserve">
+    <value>Time zone {0} · gravity g = {1} m/s²</value>
+  </data>
+  <data name="Location_EarthAt" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Location_East" xml:space="preserve">
+    <value>{0}° E</value>
+  </data>
+  <data name="Location_Equator" xml:space="preserve">
+    <value>the equator</value>
+  </data>
+  <data name="Location_Gravity_Note" xml:space="preserve">
+    <value>"Earth" uses the pull of gravity at {0}: g = {1} m/s². It is 9.780 at the equator and 9.832 at the poles, because Earth spins and bulges.</value>
+  </data>
+  <data name="Location_Home_Tooltip" xml:space="preserve">
+    <value>Back to your observer location</value>
+  </data>
+  <data name="Location_Latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Location_Longitude" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="Location_North" xml:space="preserve">
+    <value>{0}° N</value>
+  </data>
+  <data name="Location_Short" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Location_South" xml:space="preserve">
+    <value>{0}° S</value>
+  </data>
+  <data name="Location_Title" xml:space="preserve">
+    <value>Observer location</value>
+  </data>
+  <data name="Location_West" xml:space="preserve">
+    <value>{0}° W</value>
   </data>
   <data name="MoonPhases_Age_Short" xml:space="preserve">
     <value>Day {0:0.0}</value>
@@ -998,6 +1646,120 @@
   </data>
   <data name="Narr_Common_Wrong" xml:space="preserve">
     <value>Not quite. Let's look at the answer.</value>
+  </data>
+  <data name="Narr_DayNight_Globe_01" xml:space="preserve">
+    <value>Now let's look at a globe. Sunlight comes in from the left, and it can only ever light up half of Earth at a time.</value>
+  </data>
+  <data name="Narr_DayNight_Globe_02" xml:space="preserve">
+    <value>The edge between the lit half and the dark half is a great circle. As Earth spins once a day, every place passes through it twice, once at sunrise and once at sunset.</value>
+  </data>
+  <data name="Narr_DayNight_Globe_03" xml:space="preserve">
+    <value>Earth's axis is tilted. So, except at the equinoxes, this circle doesn't pass through the poles. It's turned away from the axis by an angle.</value>
+  </data>
+  <data name="Narr_DayNight_Globe_04" xml:space="preserve">
+    <value>Let's jump to June. Now that angle is at its largest, about twenty-three and a half degrees, the same as the tilt of the axis.</value>
+  </data>
+  <data name="Narr_DayNight_Globe_05" xml:space="preserve">
+    <value>Look near the North Pole. However Earth turns, it stays in the lit half all day long. That's polar day, the midnight sun. Near the South Pole it stays dark all day: polar night.</value>
+  </data>
+  <data name="Narr_DayNight_Globe_06" xml:space="preserve">
+    <value>Quick question. In December, where is there polar day?</value>
+  </data>
+  <data name="Narr_DayNight_Globe_07" xml:space="preserve">
+    <value>It's near the South Pole. In December the southern half leans towards the Sun, so the South Pole has polar day, and the North Pole has its long polar night. Drag the globe to look at it from another angle.</value>
+  </data>
+  <data name="Narr_DayNight_Map_01" xml:space="preserve">
+    <value>This is a map of the whole world. The bright part is in daylight and the dark part is in night. The curved gold line between them is where day meets night.</value>
+  </data>
+  <data name="Narr_DayNight_Map_02" xml:space="preserve">
+    <value>Right here the Sun is straight overhead. Earth spins from west to east, so the Sun seems to slide west, fifteen degrees every hour, all the way round in a day.</value>
+  </data>
+  <data name="Narr_DayNight_Map_03" xml:space="preserve">
+    <value>On this half of the line, the Sun is rising right now. It's called the sunrise line. On the other half, the sunset line, the Sun is going down.</value>
+  </data>
+  <data name="Narr_DayNight_Map_04" xml:space="preserve">
+    <value>Everywhere on the gold vertical line it's noon, and everywhere on the blue one it's midnight. Both lines slide west along with the Sun.</value>
+  </data>
+  <data name="Narr_DayNight_Map_05" xml:space="preserve">
+    <value>Think about it. If you lived further east, would you see sunrise earlier or later?</value>
+  </data>
+  <data name="Narr_DayNight_Map_06" xml:space="preserve">
+    <value>The answer is earlier: the sunrise line reaches the east first. Now let's run through a whole year, stopping at the same moment each day. Watch the line change shape. Around June the north has the long days, around December the south does, and only at the equinoxes does the line run straight from pole to pole.</value>
+  </data>
+  <data name="Narr_DayNight_Map_07" xml:space="preserve">
+    <value>Now you try. Click a city on the map, and the panel on the right shows what time it is there and how high the Sun is.</value>
+  </data>
+  <data name="Narr_DayNight_Map_08" xml:space="preserve">
+    <value>Wherever you are, sunrise, noon and sunset all come from the same thing: Earth turning you towards the Sun and away again.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Angle" xml:space="preserve">
+    <value>The angle between the axis and the edge of the lit half. It's the same as how far north or south of the equator the Sun is overhead: zero at the equinoxes, about twenty-three and a half degrees at the solstices.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Axis" xml:space="preserve">
+    <value>Earth's axis, through the North and South Poles. It's tilted about twenty-three and a half degrees, which is why day length changes through the year.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_DateLine" xml:space="preserve">
+    <value>The international date line, mostly along one hundred and eighty degrees. Going east across it, you set your calendar back a day; going west, forward a day.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Equator" xml:space="preserve">
+    <value>The equator. On it, day and night are about twelve hours each, all year round.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Midnight" xml:space="preserve">
+    <value>Everywhere under this line it's midnight by the Sun, halfway between sunset and sunrise.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_NewDay" xml:space="preserve">
+    <value>This is where it's midnight. East of it, the date has already changed. The new day spreads west by one zone every hour.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Noon" xml:space="preserve">
+    <value>Everywhere under this line it's noon by the Sun: the Sun is at its highest point of the day.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_PolarCircle" xml:space="preserve">
+    <value>The polar circles, about sixty-six and a half degrees north and south. Inside them there's at least one day a year without sunset, and one without sunrise.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_PolarDay" xml:space="preserve">
+    <value>Polar day. Here the whole circle of latitude stays in the lit half as Earth turns, so the Sun never sets.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_PolarNight" xml:space="preserve">
+    <value>Polar night. Here the whole circle of latitude stays in the dark half, so the Sun never rises.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Sun" xml:space="preserve">
+    <value>This is where the Sun is straight overhead. It moves west fifteen degrees every hour, and over the year it wanders between the two tropics.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Sunlight" xml:space="preserve">
+    <value>Sunlight from far away arrives as parallel rays, so it lights exactly half of Earth at any moment.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_SunriseLine" xml:space="preserve">
+    <value>The sunrise line. Everywhere along it, the Sun is just coming up. It sweeps west across the world as Earth turns.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_SunsetLine" xml:space="preserve">
+    <value>The sunset line. Everywhere along it, the Sun is just going down, and evening is beginning.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Tropics" xml:space="preserve">
+    <value>The tropics, about twenty-three and a half degrees north and south. They're as far from the equator as the Sun is ever overhead.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Utc" xml:space="preserve">
+    <value>UTC is world time, kept by atomic clocks and almost exactly the time at Greenwich in London. Every time zone is a whole number of hours ahead of it or behind it, with a few exceptions.</value>
+  </data>
+  <data name="Narr_DayNight_Obj_Zone" xml:space="preserve">
+    <value>This is the time zone of the place you've picked. Each zone is about fifteen degrees of longitude, one hour of the Sun's journey.</value>
+  </data>
+  <data name="Narr_DayNight_Zones_01" xml:space="preserve">
+    <value>If every town set its clocks by its own Sun, even neighbouring towns would be a few minutes apart. So the world is divided by longitude into twenty-four time zones, each about fifteen degrees wide.</value>
+  </data>
+  <data name="Narr_DayNight_Zones_02" xml:space="preserve">
+    <value>The numbers along the top show how many hours each zone is ahead of or behind world time, called UTC. Along the bottom is the time on clocks there right now.</value>
+  </data>
+  <data name="Narr_DayNight_Zones_03" xml:space="preserve">
+    <value>Look at this blue line. It's where midnight is right now. East of it, a new day has already begun, and the new date spreads west by one time zone every hour.</value>
+  </data>
+  <data name="Narr_DayNight_Zones_04" xml:space="preserve">
+    <value>Think about it. Where does each new date begin first?</value>
+  </data>
+  <data name="Narr_DayNight_Zones_05" xml:space="preserve">
+    <value>A new date begins first just west of the international date line, out in the middle of the Pacific. Cross the line going east and you go back a day. Cross it going west and you jump forward a day.</value>
+  </data>
+  <data name="Narr_DayNight_Zones_06" xml:space="preserve">
+    <value>Time zones follow borders, not just longitude. China spans about five zones but uses Beijing time everywhere, so in the far west the Sun rises very late by the clock.</value>
   </data>
   <data name="Narr_Eclipse_Lunar_01" xml:space="preserve">
     <value>Now it's Earth's turn to cast a shadow. Like the Moon's, it points straight away from the Sun, out into space.</value>
