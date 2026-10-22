@@ -49,6 +49,32 @@ public static readonly Brush Dot = Freeze(new SolidColorBrush(Gold));
         self.assertIn("ctx.LineTo(second);", out)
         self.assertIn("ctx.EndFigure(true);", out)
 
+    def test_a_figure_per_pass_of_a_loop_ends_inside_the_loop(self):
+        source = """        using (var context = geometry.Open())
+        {
+            foreach (var (from, to) in list)
+            {
+                context.BeginFigure(from, false, false);
+                context.LineTo(to, true, false);
+            }
+        }
+"""
+        out = tool.convert_types(source, "Lemon.Explore.Book.Chapters.Test")
+        self.assertIn("                context.LineTo(to);\n                context.EndFigure(false);\n            }\n        }", out)
+
+    def test_a_line_through_a_loop_ends_after_the_loop(self):
+        source = """        using (var ctx = geometry.Open())
+        {
+            for (var i = 0; i <= steps; i++)
+            {
+                if (i == 0) ctx.BeginFigure(At(i), false, false);
+                else ctx.LineTo(At(i), true, false);
+            }
+        }
+"""
+        out = tool.convert_types(source, "Lemon.Explore.Book.Chapters.Test")
+        self.assertIn("            }\n\n            ctx.EndFigure(false);\n        }", out)
+
     def test_dependency_properties_become_styled_properties(self):
         source = """public sealed class Chart : FrameworkElement
 {

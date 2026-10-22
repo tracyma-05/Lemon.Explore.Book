@@ -1,0 +1,66 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:expansion="using:Lemon.Explore.Book.Chapters.Expansion"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Expansion.ExpansionDiagramPageView"
+                         x:DataType="expansion:ExpansionDiagramPageViewModel">
+    <!-- Right page of the Expansion spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <expansion:ExpansionDiagram Mode="{Binding Expansion.Mode}"
+                                            HubbleProgress="{Binding Expansion.HubbleProgress, Mode=TwoWay}"
+                                            Home="{Binding Expansion.Home, Mode=TwoWay}"
+                                            ShowArrows="{Binding Expansion.ShowArrows}"
+                                            ShowOverlay="{Binding Expansion.ShowOverlay}"
+                                            ShowGrid="{Binding Expansion.ShowGrid}"
+                                            ShowRulers="{Binding Expansion.ShowRulers}"
+                                            Redshift="{Binding Expansion.Redshift}"
+                                            SourceId="{Binding Expansion.SourceId}"
+                                            Journey="{Binding Expansion.Journey, Mode=TwoWay}"
+                                            Universe="{Binding Expansion.UniverseKind}"
+                                            Axis="{Binding Expansion.Axis}"
+                                            CosmicTime="{Binding Expansion.CosmicTime, Mode=TwoWay}"
+                                            ShowLabels="{Binding Expansion.ShowLabels}"
+                                            IsPlaying="{Binding Expansion.IsPlaying, Mode=TwoWay}"
+                                            ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                            Highlight="{Binding Expansion.Lesson.Highlight}"
+                                            IsLessonActive="{Binding Expansion.Lesson.IsActive}"
+                                            SelectedObject="{Binding Expansion.Card.Id, Mode=TwoWay}"
+                                            InteractionCommand="{Binding Expansion.UserInteractedCommand}"
+                                            ToolTip.Tip="{Binding Expansion.Hint}"
+                                            AutomationProperties.Name="{Binding Expansion.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Expansion.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Expansion.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Expansion.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Expansion.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Expand_PlayPause}" AutomationProperties.Name="{loc:Localize Expand_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Expansion.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Expansion.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

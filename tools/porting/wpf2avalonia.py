@@ -182,10 +182,35 @@ def rewrite_figures(text: str) -> str:
         if len(figures) == 1:
             f = figures[0]
             body = body[:f.start()] + f"{ctx}.BeginFigure({f.group(1)}, {f.group(2)});" + body[f.end():]
-            indent = re.search(r"\n(\s*)\S", body).group(1)
-            body = body.rstrip() + f"\n\n{indent}{ctx}.EndFigure({f.group(3)});\n" + indent[:-4]
+            line_start = body.rfind("\n", 0, f.start()) + 1
+            indent = body[line_start:f.start()]
+            # (`if (i == 0) ctx.BeginFigure(...)` in a loop is one line through all the points: it ends after the loop.)
+            loop = enclosing_loop_brace(body, f.start()) if not indent.strip() else None
+            if loop is not None:
+                # A figure begun on every pass of a loop ends at the end of the loop's body.
+                end = match_bracket(body, loop)
+                head = body[:end].rstrip()
+                body = head + f"\n{indent}{ctx}.EndFigure({f.group(3)});\n" + body[len(head):end].lstrip("\n") + body[end:]
+            else:
+                indent = re.search(r"\n(\s*)\S", body).group(1)
+                body = body.rstrip() + f"\n\n{indent}{ctx}.EndFigure({f.group(3)});\n" + indent[:-4]
         out.append(text[i:open_brace + 1] + body)
         i = close
+
+
+def enclosing_loop_brace(body: str, pos: int) -> int | None:
+    """The opening brace of the innermost block around pos, when that block is the body of a for, foreach or while."""
+    stack = []
+    for i, ch in enumerate(body[:pos]):
+        if ch == "{":
+            stack.append(i)
+        elif ch == "}" and stack:
+            stack.pop()
+    if not stack:
+        return None
+    head = body[:stack[-1]].rstrip()
+    line = head[head.rfind("\n") + 1:].strip()
+    return stack[-1] if re.match(r"(for|foreach|while)\b", line) else None
 
 
 USINGS = {
@@ -226,6 +251,7 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
     s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
     s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
+    s = s.replace(".IntersectsWith(", ".Intersects(")
     s = re.sub(r"\bImageSource\b", "IImage", s)
     # A bitmap's size in pixels.
     s = re.sub(r"\b(_?\w+[!?]?)\.Pixel(Width|Height)\b", lambda m: f"{m[1]}.PixelSize.{m[2][5:] if False else ('Width' if m[2] == 'Width' else 'Height')}", s)
@@ -294,8 +320,10 @@ def expand_register_helpers(s: str) -> str:
         args = split_top(s[m.end():close])
         name = m.group(1)
         _, owner, value_type, flags, _ = helpers[m.group(2)]
-        if m.group(3):
+        if m.group(3) and helpers[m.group(2)][4]:
             owner, type_ = (a.strip() for a in split_top(m.group(3)))
+        elif m.group(3):
+            type_ = m.group(3).strip()
         elif value_type:
             type_ = value_type
         else:
@@ -451,6 +479,7 @@ def convert_class(body: str, owner: str, partial: bool, has_base: bool, part: st
             cb = callback.split("=>", 1)[1].strip()
             cb = re.sub(rf"\(\({owner}\)d\)\.", "", cb)
             cb = re.sub(r"e\.NewValue as [\w.<>?]+|\([\w.<>?]+\)e\.NewValue", f"change.GetNewValue<{t}>()", cb)
+            cb = re.sub(r"e\.OldValue as [\w.<>?]+|\([\w.<>?]+\)e\.OldValue", f"change.GetOldValue<{t}>()", cb)
             callbacks.append((name, cb))
         i = close + 1
         last_property = sum(len(x) for x in out) + 1  # just past the declaration's ';'

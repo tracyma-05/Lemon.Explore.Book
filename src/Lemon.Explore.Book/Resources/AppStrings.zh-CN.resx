@@ -1065,6 +1065,783 @@
   <data name="Eclipse_UmbraCoverage" xml:space="preserve">
     <value>进入本影 {0:P0}</value>
   </data>
+  <data name="Expand_Ago" xml:space="preserve">
+    <value>{0}前</value>
+  </data>
+  <data name="Expand_Axis_BigBang" xml:space="preserve">
+    <value>大爆炸</value>
+  </data>
+  <data name="Expand_Axis_Caption" xml:space="preserve">
+    <value>时间轴</value>
+  </data>
+  <data name="Expand_Axis_Linear" xml:space="preserve">
+    <value>大爆炸之后的时间 →</value>
+  </data>
+  <data name="Expand_Axis_LinearChip" xml:space="preserve">
+    <value>均匀</value>
+  </data>
+  <data name="Expand_Axis_Log" xml:space="preserve">
+    <value>时间（每格长 10 倍）→</value>
+  </data>
+  <data name="Expand_Axis_LogChip" xml:space="preserve">
+    <value>每格 10 倍</value>
+  </data>
+  <data name="Expand_Chart_AgeAxis" xml:space="preserve">
+    <value>宇宙年龄（×10 亿年）</value>
+  </data>
+  <data name="Expand_Chart_DistanceAxis" xml:space="preserve">
+    <value>距离（×10 亿光年）</value>
+  </data>
+  <data name="Expand_Chart_FromNowAxis" xml:space="preserve">
+    <value>距今（×10 亿年）</value>
+  </data>
+  <data name="Expand_Chart_History_Caption" xml:space="preserve">
+    <value>三种宇宙，以今天对齐</value>
+  </data>
+  <data name="Expand_Chart_History_Note" xml:space="preserve">
+    <value>以今天对齐（大小和膨胀率都相同）之后，三种宇宙的年龄和未来各不相同。点击一条曲线可以选择那种宇宙。</value>
+  </data>
+  <data name="Expand_Chart_Hubble_Caption" xml:space="preserve">
+    <value>速度与距离</value>
+  </data>
+  <data name="Expand_Chart_Hubble_Note" xml:space="preserve">
+    <value>所有星系都落在同一条直线上：速度和距离成正比。直线的斜率就是膨胀率，过去（金色）比今天（绿色虚线）更陡。</value>
+  </data>
+  <data name="Expand_Chart_LightLeft" xml:space="preserve">
+    <value>光出发</value>
+  </data>
+  <data name="Expand_Chart_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="Expand_Chart_Rate" xml:space="preserve">
+    <value>H = {0}</value>
+  </data>
+  <data name="Expand_Chart_Redshift_Caption" xml:space="preserve">
+    <value>光在路上时宇宙的大小</value>
+  </data>
+  <data name="Expand_Chart_Redshift_Note" xml:space="preserve">
+    <value>光出发时，宇宙的大小在虚线处；今天是 1。光被拉长的倍数就是 1 除以那时的大小。沿曲线拖动可以选择光出发的时刻。</value>
+  </data>
+  <data name="Expand_Chart_SizeAxis" xml:space="preserve">
+    <value>大小（今天 = 1）</value>
+  </data>
+  <data name="Expand_Chart_SpeedAxis" xml:space="preserve">
+    <value>速度（×1000 千米/秒）</value>
+  </data>
+  <data name="Expand_Chart_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Expand_Day" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Expand_Era_Contracting" xml:space="preserve">
+    <value>开始收缩</value>
+  </data>
+  <data name="Expand_Era_Contracting_Text" xml:space="preserve">
+    <value>引力让膨胀停了下来，又把一切往回拉。星系开始相互靠近，它们的光发生了蓝移。</value>
+  </data>
+  <data name="Expand_Era_Crunch" xml:space="preserve">
+    <value>大挤压</value>
+  </data>
+  <data name="Expand_Era_Crunch_Text" xml:space="preserve">
+    <value>一切被挤到一起，越来越热：星系合并，接着连恒星和原子都被撕碎。</value>
+  </data>
+  <data name="Expand_Era_DarkAges" xml:space="preserve">
+    <value>黑暗时代</value>
+  </data>
+  <data name="Expand_Era_DarkAges_Text" xml:space="preserve">
+    <value>原子已经形成，光可以自由穿行，可是还没有恒星。引力慢慢把气体聚集成团。</value>
+  </data>
+  <data name="Expand_Era_Dawn" xml:space="preserve">
+    <value>宇宙的黎明</value>
+  </data>
+  <data name="Expand_Era_Dawn_Text" xml:space="preserve">
+    <value>第一代恒星亮了起来，第一批小星系形成了。韦布望远镜寻找的正是它们的光。</value>
+  </data>
+  <data name="Expand_Era_Ended" xml:space="preserve">
+    <value>终结</value>
+  </data>
+  <data name="Expand_Era_Ended_Text" xml:space="preserve">
+    <value>这个宇宙已经坍缩了：大挤压之后，再也没有可以看的时间了。</value>
+  </data>
+  <data name="Expand_Era_FutureFast" xml:space="preserve">
+    <value>越来越快</value>
+  </data>
+  <data name="Expand_Era_FutureFast_Text" xml:space="preserve">
+    <value>暗能量让膨胀越来越快。遥远的星系一个个从视野里消失，只有我们自己的星系群还聚在一起。</value>
+  </data>
+  <data name="Expand_Era_FutureSlowing" xml:space="preserve">
+    <value>越来越慢</value>
+  </data>
+  <data name="Expand_Era_FutureSlowing_Text" xml:space="preserve">
+    <value>没有暗能量，引力一直在给膨胀踩刹车。膨胀会永远持续，但越来越慢。</value>
+  </data>
+  <data name="Expand_Era_Galaxies" xml:space="preserve">
+    <value>星系成长，膨胀减速</value>
+  </data>
+  <data name="Expand_Era_Galaxies_Text" xml:space="preserve">
+    <value>星系不断成长、合并、形成恒星。引力在让膨胀慢下来。</value>
+  </data>
+  <data name="Expand_Era_Now" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Expand_Era_Now_Text" xml:space="preserve">
+    <value>这里的每种宇宙，今天的大小和膨胀率都相同。在我们的宇宙里，大爆炸已经过去了 138 亿年，膨胀正在加速。</value>
+  </data>
+  <data name="Expand_Era_Plasma" xml:space="preserve">
+    <value>发光的雾</value>
+  </data>
+  <data name="Expand_Era_Plasma_Text" xml:space="preserve">
+    <value>原子核和电子各自乱飞，光不停地撞上它们，走不了多远。宇宙不透明，到处都在发光。</value>
+  </data>
+  <data name="Expand_Era_Speeding" xml:space="preserve">
+    <value>膨胀开始加速</value>
+  </data>
+  <data name="Expand_Era_Speeding_Text" xml:space="preserve">
+    <value>物质已经变得稀薄，暗能量压过了引力：膨胀越来越快。</value>
+  </data>
+  <data name="Expand_Era_Start" xml:space="preserve">
+    <value>超过十亿度</value>
+  </data>
+  <data name="Expand_Era_Start_Text" xml:space="preserve">
+    <value>热到连原子核都无法存在：一锅由粒子和光组成的汤，正在飞快地膨胀。</value>
+  </data>
+  <data name="Expand_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Expand_GoHome" xml:space="preserve">
+    <value>回到银河系</value>
+  </data>
+  <data name="Expand_Hint_History" xml:space="preserve">
+    <value>沿着号角拖动可以穿越时间；点击某个时刻可以跳过去。</value>
+  </data>
+  <data name="Expand_Hint_Hubble" xml:space="preserve">
+    <value>点击任意星系可以搬过去住；左右拖动可以让时间倒退或前进。</value>
+  </data>
+  <data name="Expand_Hint_Redshift" xml:space="preserve">
+    <value>沿着空间带拖动可以移动光；在左页选择星系。</value>
+  </data>
+  <data name="Expand_History_Fact1" xml:space="preserve">
+    <value>宇宙大约 138 亿岁，这是普朗克卫星通过微波背景辐射测出来的。</value>
+  </data>
+  <data name="Expand_History_Fact2" xml:space="preserve">
+    <value>大爆炸不是发生在某一个地方的爆炸，而是在所有地方同时发生：今天宇宙中的每个地方，当年都挤在一起，而且非常热。</value>
+  </data>
+  <data name="Expand_History_Fact3" xml:space="preserve">
+    <value>1965 年，彭齐亚斯和威尔逊在排查射电天线里的杂音时，意外发现了微波背景辐射，并因此获得了诺贝尔奖。</value>
+  </data>
+  <data name="Expand_History_Fact4" xml:space="preserve">
+    <value>1998 年，两个测量遥远超新星的团队发现宇宙膨胀在加速，由此发现了暗能量，并获得了 2011 年诺贝尔奖。</value>
+  </data>
+  <data name="Expand_History_Fact5" xml:space="preserve">
+    <value>今天，宇宙中约 68% 的能量是暗能量，27% 是暗物质，组成恒星、行星和我们的普通原子只占 5%。</value>
+  </data>
+  <data name="Expand_History_Note" xml:space="preserve">
+    <value>号角的高度表示宇宙相对今天的大小，按真实的膨胀模型计算（ΛCDM，普朗克卫星 2018 年数据）。</value>
+  </data>
+  <data name="Expand_History_Panel_Note" xml:space="preserve">
+    <value>三种宇宙今天的大小和膨胀率都相同，只是组成不同。我们的宇宙：31% 是物质，69% 是暗能量。</value>
+  </data>
+  <data name="Expand_History_Subtitle" xml:space="preserve">
+    <value>宇宙大小的变化史</value>
+  </data>
+  <data name="Expand_Hour" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Expand_HubbleTime" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Expand_Hubble_Clock" xml:space="preserve">
+    <value>{0} · 大小是今天的 {1} 倍</value>
+  </data>
+  <data name="Expand_Hubble_Fact1" xml:space="preserve">
+    <value>1929 年，哈勃证明了星系离我们越远，远离得越快。勒梅特在两年前就推算出了这一点，所以它现在也叫哈勃–勒梅特定律。</value>
+  </data>
+  <data name="Expand_Hubble_Fact2" xml:space="preserve">
+    <value>星系并不是像炸弹碎片那样在空间里飞。是空间本身在拉伸，把它们带开；宇宙没有边缘，也没有中心。</value>
+  </data>
+  <data name="Expand_Hubble_Fact3" xml:space="preserve">
+    <value>被力抱在一起的东西——原子、人、行星、太阳系、银河系——都不会膨胀。它们自身的力比这种轻微的拉伸强得多。</value>
+  </data>
+  <data name="Expand_Hubble_Fact4" xml:space="preserve">
+    <value>我们的大邻居仙女座星系，其实正以大约每秒 110 千米的速度向我们靠近：在近处，引力胜过了膨胀。</value>
+  </data>
+  <data name="Expand_Hubble_Fact5" xml:space="preserve">
+    <value>膨胀率的测量结果有点对不上：用早期宇宙的光测是每百万秒差距约 67 千米/秒，用附近的恒星和超新星测约 73。原因还没人知道，这被称为哈勃张力。</value>
+  </data>
+  <data name="Expand_Hubble_Home_Text" xml:space="preserve">
+    <value>空间在拉伸，每个星系都在远离我们，距离远一倍的星系，速度也快一倍。星系本身的大小不变。</value>
+  </data>
+  <data name="Expand_Hubble_Home_Title" xml:space="preserve">
+    <value>星系在相互远离</value>
+  </data>
+  <data name="Expand_Hubble_Law" xml:space="preserve">
+    <value>v = H × d    H = {0} 千米/秒/百万秒差距</value>
+  </data>
+  <data name="Expand_Hubble_NewHome_Text" xml:space="preserve">
+    <value>从这个星系看，其他星系也都在远离，越远越快。每个星系看到的都一样，所以哪个都不是中心。</value>
+  </data>
+  <data name="Expand_Hubble_NewHome_Title" xml:space="preserve">
+    <value>没有中心</value>
+  </data>
+  <data name="Expand_Hubble_Note" xml:space="preserve">
+    <value>一块宽约20亿光年的宇宙，从正中间的家园看出去。每个点代表一个星系团。</value>
+  </data>
+  <data name="Expand_Hubble_Overlay_Text" xml:space="preserve">
+    <value>蓝色小圆圈是星系大约六十亿年前的位置。对准家园来看，每个星系都笔直地向外移动，越远的走得越多。</value>
+  </data>
+  <data name="Expand_Hubble_Overlay_Title" xml:space="preserve">
+    <value>两张照片叠在一起</value>
+  </data>
+  <data name="Expand_Hubble_Panel_Note" xml:space="preserve">
+    <value>每个点代表一个星系团，画得比实际大得多。距离和速度都按我们宇宙的真实膨胀计算。</value>
+  </data>
+  <data name="Expand_Hubble_Subtitle" xml:space="preserve">
+    <value>为什么星系都在远离我们</value>
+  </data>
+  <data name="Expand_Journey" xml:space="preserve">
+    <value>光走过的路程</value>
+  </data>
+  <data name="Expand_Jump_Cmb" xml:space="preserve">
+    <value>光获得自由</value>
+  </data>
+  <data name="Expand_Jump_Future" xml:space="preserve">
+    <value>100 亿年后</value>
+  </data>
+  <data name="Expand_Jump_Now" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Expand_Jump_Start" xml:space="preserve">
+    <value>大爆炸</value>
+  </data>
+  <data name="Expand_K" xml:space="preserve">
+    <value>{0} K</value>
+  </data>
+  <data name="Expand_Kms" xml:space="preserve">
+    <value>{0} 千米/秒</value>
+  </data>
+  <data name="Expand_Label_Drift" xml:space="preserve">
+    <value>空间膨胀得比光走得还快</value>
+  </data>
+  <data name="Expand_Label_HomeMilkyWay" xml:space="preserve">
+    <value>银河系 · 我们的家</value>
+  </data>
+  <data name="Expand_Label_MilkyWay" xml:space="preserve">
+    <value>银河系</value>
+  </data>
+  <data name="Expand_Label_NewHome" xml:space="preserve">
+    <value>新家</value>
+  </data>
+  <data name="Expand_Label_NowAway" xml:space="preserve">
+    <value>星系现在离我们 {0}</value>
+  </data>
+  <data name="Expand_Label_Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Expand_Label_ThenAway" xml:space="preserve">
+    <value>光出发时相距 {0}</value>
+  </data>
+  <data name="Expand_Label_Travelled" xml:space="preserve">
+    <value>光已走了 {0} · 被拉长 ×{1}</value>
+  </data>
+  <data name="Expand_Label_Us" xml:space="preserve">
+    <value>银河系 · 我们</value>
+  </data>
+  <data name="Expand_Lesson_History_Choice1" xml:space="preserve">
+    <value>物质多得多、没有暗能量的宇宙</value>
+  </data>
+  <data name="Expand_Lesson_History_Choice2" xml:space="preserve">
+    <value>有暗能量的我们的宇宙</value>
+  </data>
+  <data name="Expand_Lesson_History_Choice3" xml:space="preserve">
+    <value>完全空荡荡的宇宙</value>
+  </data>
+  <data name="Expand_Lesson_Hubble_Choice1" xml:space="preserve">
+    <value>是那个星系的三倍</value>
+  </data>
+  <data name="Expand_Lesson_Hubble_Choice2" xml:space="preserve">
+    <value>一样快</value>
+  </data>
+  <data name="Expand_Lesson_Hubble_Choice3" xml:space="preserve">
+    <value>只有那个星系的三分之一</value>
+  </data>
+  <data name="Expand_Lesson_Redshift_Choice1" xml:space="preserve">
+    <value>今天的三分之一</value>
+  </data>
+  <data name="Expand_Lesson_Redshift_Choice2" xml:space="preserve">
+    <value>今天的三倍</value>
+  </data>
+  <data name="Expand_Lesson_Redshift_Choice3" xml:space="preserve">
+    <value>和今天一样大</value>
+  </data>
+  <data name="Expand_Ly_Big" xml:space="preserve">
+    <value>{0} 亿光年</value>
+  </data>
+  <data name="Expand_Ly_Big_Unit" xml:space="preserve">
+    <value>100000000</value>
+  </data>
+  <data name="Expand_Ly_Mid" xml:space="preserve">
+    <value>{0} 万光年</value>
+  </data>
+  <data name="Expand_Ly_Mid_Unit" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Expand_Ly_Plain" xml:space="preserve">
+    <value>{0} 光年</value>
+  </data>
+  <data name="Expand_Min" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="Expand_Mode_History" xml:space="preserve">
+    <value>宇宙的历史</value>
+  </data>
+  <data name="Expand_Mode_Hubble" xml:space="preserve">
+    <value>哈勃定律</value>
+  </data>
+  <data name="Expand_Mode_Redshift" xml:space="preserve">
+    <value>红移</value>
+  </data>
+  <data name="Expand_Moment" xml:space="preserve">
+    <value>时刻</value>
+  </data>
+  <data name="Expand_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="Expand_Obj_Andromeda" xml:space="preserve">
+    <value>银河系与仙女座相撞</value>
+  </data>
+  <data name="Expand_Obj_Arriving" xml:space="preserve">
+    <value>到达的光谱</value>
+  </data>
+  <data name="Expand_Obj_Arrow" xml:space="preserve">
+    <value>速度箭头</value>
+  </data>
+  <data name="Expand_Obj_Axis" xml:space="preserve">
+    <value>时间轴</value>
+  </data>
+  <data name="Expand_Obj_BigBang" xml:space="preserve">
+    <value>大爆炸</value>
+  </data>
+  <data name="Expand_Obj_Clock" xml:space="preserve">
+    <value>时间和大小</value>
+  </data>
+  <data name="Expand_Obj_Cmb" xml:space="preserve">
+    <value>光获得自由</value>
+  </data>
+  <data name="Expand_Obj_Crunch" xml:space="preserve">
+    <value>大挤压</value>
+  </data>
+  <data name="Expand_Obj_Cursor" xml:space="preserve">
+    <value>所看的时刻</value>
+  </data>
+  <data name="Expand_Obj_DistNow" xml:space="preserve">
+    <value>现在的距离</value>
+  </data>
+  <data name="Expand_Obj_DistThen" xml:space="preserve">
+    <value>光出发的地方</value>
+  </data>
+  <data name="Expand_Obj_Drift" xml:space="preserve">
+    <value>被空间带远</value>
+  </data>
+  <data name="Expand_Obj_FirstStars" xml:space="preserve">
+    <value>第一代恒星</value>
+  </data>
+  <data name="Expand_Obj_Galaxy" xml:space="preserve">
+    <value>一个星系</value>
+  </data>
+  <data name="Expand_Obj_Ghost" xml:space="preserve">
+    <value>早先的照片</value>
+  </data>
+  <data name="Expand_Obj_Grid" xml:space="preserve">
+    <value>空间网格</value>
+  </data>
+  <data name="Expand_Obj_Home" xml:space="preserve">
+    <value>家园星系</value>
+  </data>
+  <data name="Expand_Obj_Infrared" xml:space="preserve">
+    <value>红外线</value>
+  </data>
+  <data name="Expand_Obj_Jades" xml:space="preserve">
+    <value>最早看到的星系</value>
+  </data>
+  <data name="Expand_Obj_Jwst" xml:space="preserve">
+    <value>詹姆斯·韦布望远镜</value>
+  </data>
+  <data name="Expand_Obj_Lab" xml:space="preserve">
+    <value>实验室光谱</value>
+  </data>
+  <data name="Expand_Obj_Law" xml:space="preserve">
+    <value>哈勃定律</value>
+  </data>
+  <data name="Expand_Obj_Light" xml:space="preserve">
+    <value>旅途中的光</value>
+  </data>
+  <data name="Expand_Obj_Line" xml:space="preserve">
+    <value>氢的 Hβ 谱线</value>
+  </data>
+  <data name="Expand_Obj_Noon" xml:space="preserve">
+    <value>恒星形成高峰</value>
+  </data>
+  <data name="Expand_Obj_Now" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Expand_Obj_Nuclei" xml:space="preserve">
+    <value>原子核形成</value>
+  </data>
+  <data name="Expand_Obj_Patch" xml:space="preserve">
+    <value>空间之窗</value>
+  </data>
+  <data name="Expand_Obj_Protons" xml:space="preserve">
+    <value>质子形成</value>
+  </data>
+  <data name="Expand_Obj_RedshiftClock" xml:space="preserve">
+    <value>此时的宇宙</value>
+  </data>
+  <data name="Expand_Obj_Ruler" xml:space="preserve">
+    <value>卷尺</value>
+  </data>
+  <data name="Expand_Obj_Size" xml:space="preserve">
+    <value>宇宙的大小</value>
+  </data>
+  <data name="Expand_Obj_Source" xml:space="preserve">
+    <value>遥远的星系</value>
+  </data>
+  <data name="Expand_Obj_Space" xml:space="preserve">
+    <value>被拉伸的空间</value>
+  </data>
+  <data name="Expand_Obj_Speedup" xml:space="preserve">
+    <value>开始加速膨胀</value>
+  </data>
+  <data name="Expand_Obj_Sun" xml:space="preserve">
+    <value>太阳和地球形成</value>
+  </data>
+  <data name="Expand_Obj_Travel" xml:space="preserve">
+    <value>光走过的路</value>
+  </data>
+  <data name="Expand_Obj_Turnaround" xml:space="preserve">
+    <value>最大时</value>
+  </data>
+  <data name="Expand_Obj_Us" xml:space="preserve">
+    <value>银河系（我们）</value>
+  </data>
+  <data name="Expand_Obj_Visible" xml:space="preserve">
+    <value>可见光</value>
+  </data>
+  <data name="Expand_Option_Arrows" xml:space="preserve">
+    <value>速度箭头</value>
+  </data>
+  <data name="Expand_Option_Grid" xml:space="preserve">
+    <value>空间网格</value>
+  </data>
+  <data name="Expand_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Expand_Option_Overlay" xml:space="preserve">
+    <value>叠上早先的照片</value>
+  </data>
+  <data name="Expand_Option_Rulers" xml:space="preserve">
+    <value>卷尺</value>
+  </data>
+  <data name="Expand_Patch_Detail" xml:space="preserve">
+    <value>大小为{0} · {1}</value>
+  </data>
+  <data name="Expand_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格键）</value>
+  </data>
+  <data name="Expand_Redshift" xml:space="preserve">
+    <value>红移 z</value>
+  </data>
+  <data name="Expand_Redshift_Clock" xml:space="preserve">
+    <value>宇宙年龄 {0} · 大小为{1}</value>
+  </data>
+  <data name="Expand_Redshift_Deep_Text" xml:space="preserve">
+    <value>这束光出发时，宇宙还不到十亿岁，它被拉长了七倍多。只有韦布这样的红外望远镜才能看到这些星系。</value>
+  </data>
+  <data name="Expand_Redshift_Deep_Title" xml:space="preserve">
+    <value>来自星系的黎明</value>
+  </data>
+  <data name="Expand_Redshift_Fact1" xml:space="preserve">
+    <value>红移 z 告诉你光出发以来宇宙长大了多少：光被拉长了 1 + z 倍，那时宇宙是今天的 1/(1 + z)。</value>
+  </data>
+  <data name="Expand_Redshift_Fact2" xml:space="preserve">
+    <value>红移超过约 1.5 的星系，今天远离我们的速度比光还快。这并不违反规律：没有东西在空间里飞奔，是空间本身在变大。</value>
+  </data>
+  <data name="Expand_Redshift_Fact3" xml:space="preserve">
+    <value>我们看到的最遥远的星系，发出光的时候宇宙还不到 3 亿岁。这束光被拉长了大约十五倍，从紫外线变成了红外线。</value>
+  </data>
+  <data name="Expand_Redshift_Fact4" xml:space="preserve">
+    <value>1912 年到 1917 年，斯里弗测出了第一批星系的红移，那时还没有人知道星系远在银河系之外。</value>
+  </data>
+  <data name="Expand_Redshift_Fact5" xml:space="preserve">
+    <value>最古老的光——微波背景辐射——被拉长了大约 1100 倍：它出发时是约 3000 K 气体的光芒，到达时变成了 2.7 K 的微波。</value>
+  </data>
+  <data name="Expand_Redshift_Infrared_Text" xml:space="preserve">
+    <value>光波已经长到眼睛看不见了，需要能看红外线的望远镜才能接收到它。</value>
+  </data>
+  <data name="Expand_Redshift_Infrared_Title" xml:space="preserve">
+    <value>被拉长到红外</value>
+  </data>
+  <data name="Expand_Redshift_Nearby_Text" xml:space="preserve">
+    <value>附近星系的光只被拉长了一点点，因为光在路上时空间几乎没有变大。在近处，星系自己的运动可能影响更大。</value>
+  </data>
+  <data name="Expand_Redshift_Nearby_Title" xml:space="preserve">
+    <value>几乎没被拉长</value>
+  </data>
+  <data name="Expand_Redshift_Note" xml:space="preserve">
+    <value>距离按同一比例画出，所以能看到空间被拉伸；星系和光波都画得比实际大得多。</value>
+  </data>
+  <data name="Expand_Redshift_Panel_Note" xml:space="preserve">
+    <value>红移来自已发表的光谱观测（取约数）。图中的光是氢的 Hβ 谱线；用滑块可以自己选任意红移。</value>
+  </data>
+  <data name="Expand_Redshift_Subtitle" xml:space="preserve">
+    <value>光在膨胀的空间里被拉长</value>
+  </data>
+  <data name="Expand_Redshift_Visible_Text" xml:space="preserve">
+    <value>光被拉长到足以改变颜色：出发时蓝绿色的光，到达时变成了黄色、橙色或红色。</value>
+  </data>
+  <data name="Expand_Redshift_Visible_Title" xml:space="preserve">
+    <value>向红色移动</value>
+  </data>
+  <data name="Expand_Replay" xml:space="preserve">
+    <value>再发一次光</value>
+  </data>
+  <data name="Expand_RestartSpan" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Expand_Ruler" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Expand_Sec" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Expand_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Expand_Size_Bigger" xml:space="preserve">
+    <value>今天的 {0} 倍</value>
+  </data>
+  <data name="Expand_Size_Smaller" xml:space="preserve">
+    <value>今天的 1/{0}</value>
+  </data>
+  <data name="Expand_Source_Caption" xml:space="preserve">
+    <value>星系</value>
+  </data>
+  <data name="Expand_Source_Coma" xml:space="preserve">
+    <value>后发座星系团</value>
+  </data>
+  <data name="Expand_Source_Custom" xml:space="preserve">
+    <value>红移为 {0} 的星系</value>
+  </data>
+  <data name="Expand_Source_GnZ11" xml:space="preserve">
+    <value>GN-z11</value>
+  </data>
+  <data name="Expand_Source_Halfway" xml:space="preserve">
+    <value>红移为 1 的星系</value>
+  </data>
+  <data name="Expand_Source_Jades" xml:space="preserve">
+    <value>JADES-GS-z14-0</value>
+  </data>
+  <data name="Expand_Source_Quasar" xml:space="preserve">
+    <value>类星体 3C 273</value>
+  </data>
+  <data name="Expand_Source_Virgo" xml:space="preserve">
+    <value>室女座星系团</value>
+  </data>
+  <data name="Expand_Spec_Arriving" xml:space="preserve">
+    <value>到达时 ×{0}</value>
+  </data>
+  <data name="Expand_Spec_Eye" xml:space="preserve">
+    <value>眼睛</value>
+  </data>
+  <data name="Expand_Spec_Hubble" xml:space="preserve">
+    <value>哈勃</value>
+  </data>
+  <data name="Expand_Spec_IR" xml:space="preserve">
+    <value>红外</value>
+  </data>
+  <data name="Expand_Spec_Jwst" xml:space="preserve">
+    <value>韦布</value>
+  </data>
+  <data name="Expand_Spec_Lab" xml:space="preserve">
+    <value>实验室里</value>
+  </data>
+  <data name="Expand_Spec_Microns" xml:space="preserve">
+    <value>波长（微米）</value>
+  </data>
+  <data name="Expand_Spec_UV" xml:space="preserve">
+    <value>紫外</value>
+  </data>
+  <data name="Expand_Spec_Visible" xml:space="preserve">
+    <value>可见光</value>
+  </data>
+  <data name="Expand_Stat_AgeToday" xml:space="preserve">
+    <value>今天的年龄</value>
+  </data>
+  <data name="Expand_Stat_Crunch" xml:space="preserve">
+    <value>大挤压于</value>
+  </data>
+  <data name="Expand_Stat_Far" xml:space="preserve">
+    <value>粉色星系</value>
+  </data>
+  <data name="Expand_Stat_Hbeta" xml:space="preserve">
+    <value>Hβ 到达时</value>
+  </data>
+  <data name="Expand_Stat_Home" xml:space="preserve">
+    <value>家园</value>
+  </data>
+  <data name="Expand_Stat_Journey" xml:space="preserve">
+    <value>路程</value>
+  </data>
+  <data name="Expand_Stat_LeftAt" xml:space="preserve">
+    <value>光出发时</value>
+  </data>
+  <data name="Expand_Stat_Middle" xml:space="preserve">
+    <value>蓝色星系</value>
+  </data>
+  <data name="Expand_Stat_Near" xml:space="preserve">
+    <value>绿色星系</value>
+  </data>
+  <data name="Expand_Stat_Now" xml:space="preserve">
+    <value>现在的距离</value>
+  </data>
+  <data name="Expand_Stat_Rate" xml:space="preserve">
+    <value>膨胀率</value>
+  </data>
+  <data name="Expand_Stat_Redshift" xml:space="preserve">
+    <value>红移</value>
+  </data>
+  <data name="Expand_Stat_SeenAs" xml:space="preserve">
+    <value>那时发出的光</value>
+  </data>
+  <data name="Expand_Stat_Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Expand_Stat_Speed" xml:space="preserve">
+    <value>现在的远离速度</value>
+  </data>
+  <data name="Expand_Stat_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Expand_Stat_Then" xml:space="preserve">
+    <value>当时的距离</value>
+  </data>
+  <data name="Expand_Stat_Time" xml:space="preserve">
+    <value>大爆炸之后</value>
+  </data>
+  <data name="Expand_Stat_Travel" xml:space="preserve">
+    <value>路上用时</value>
+  </data>
+  <data name="Expand_Stat_Trend" xml:space="preserve">
+    <value>膨胀</value>
+  </data>
+  <data name="Expand_Stat_Universe" xml:space="preserve">
+    <value>宇宙</value>
+  </data>
+  <data name="Expand_Stat_When" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Expand_Tick_Billion" xml:space="preserve">
+    <value>10 亿年</value>
+  </data>
+  <data name="Expand_Tick_Day" xml:space="preserve">
+    <value>1 天</value>
+  </data>
+  <data name="Expand_Tick_Million" xml:space="preserve">
+    <value>100 万年</value>
+  </data>
+  <data name="Expand_Tick_Minute" xml:space="preserve">
+    <value>1 分钟</value>
+  </data>
+  <data name="Expand_Tick_Second" xml:space="preserve">
+    <value>1 秒</value>
+  </data>
+  <data name="Expand_Tick_Thousand" xml:space="preserve">
+    <value>1000 年</value>
+  </data>
+  <data name="Expand_Tick_Year" xml:space="preserve">
+    <value>1 年</value>
+  </data>
+  <data name="Expand_Title" xml:space="preserve">
+    <value>宇宙膨胀</value>
+  </data>
+  <data name="Expand_Universe_Caption" xml:space="preserve">
+    <value>宇宙</value>
+  </data>
+  <data name="Expand_Universe_Closed" xml:space="preserve">
+    <value>物质太多</value>
+  </data>
+  <data name="Expand_Universe_MatterOnly" xml:space="preserve">
+    <value>没有暗能量</value>
+  </data>
+  <data name="Expand_Universe_Ours" xml:space="preserve">
+    <value>我们的宇宙</value>
+  </data>
+  <data name="Expand_Value_Collapsing" xml:space="preserve">
+    <value>正在收缩</value>
+  </data>
+  <data name="Expand_Value_DistanceSpeed" xml:space="preserve">
+    <value>{0}，远离速度 {1}</value>
+  </data>
+  <data name="Expand_Value_Falling" xml:space="preserve">
+    <value>以 {0} 千米/秒/百万秒差距收缩</value>
+  </data>
+  <data name="Expand_Value_HomeElsewhere" xml:space="preserve">
+    <value>另一个星系，离银河系 {0}</value>
+  </data>
+  <data name="Expand_Value_HomeMilkyWay" xml:space="preserve">
+    <value>银河系</value>
+  </data>
+  <data name="Expand_Value_Infrared" xml:space="preserve">
+    <value>红外</value>
+  </data>
+  <data name="Expand_Value_Nm" xml:space="preserve">
+    <value>{0} 纳米（{1}）</value>
+  </data>
+  <data name="Expand_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Expand_Value_Rate" xml:space="preserve">
+    <value>{0} 千米/秒/百万秒差距</value>
+  </data>
+  <data name="Expand_Value_Redshift" xml:space="preserve">
+    <value>z = {0}（拉长 ×{1}）</value>
+  </data>
+  <data name="Expand_Value_SeenAs" xml:space="preserve">
+    <value>今天到达时红移 z = {0}</value>
+  </data>
+  <data name="Expand_Value_SlowingDown" xml:space="preserve">
+    <value>在减速</value>
+  </data>
+  <data name="Expand_Value_SpeedC" xml:space="preserve">
+    <value>{0}（光速的 {1} 倍）</value>
+  </data>
+  <data name="Expand_Value_SpeedingUp" xml:space="preserve">
+    <value>在加速</value>
+  </data>
+  <data name="Expand_Value_TimesToday" xml:space="preserve">
+    <value>今天的 {0} 倍</value>
+  </data>
+  <data name="Expand_Value_UniverseAge" xml:space="preserve">
+    <value>宇宙年龄 {0}，大小为{1}</value>
+  </data>
+  <data name="Expand_Value_Visible" xml:space="preserve">
+    <value>可见光</value>
+  </data>
+  <data name="Expand_Yr_Big" xml:space="preserve">
+    <value>{0} 亿年</value>
+  </data>
+  <data name="Expand_Yr_Big_Unit" xml:space="preserve">
+    <value>100000000</value>
+  </data>
+  <data name="Expand_Yr_Mid" xml:space="preserve">
+    <value>{0} 万年</value>
+  </data>
+  <data name="Expand_Yr_Mid_Unit" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Expand_Yr_Plain" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>点一下画面里的东西，听听它是什么</value>
   </data>
@@ -3137,6 +3914,219 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>所以，日食只会发生在新月的时候。到了满月，就轮到月球走进地球的影子里了，那就是月食。</value>
+  </data>
+  <data name="Narr_Expand_History_01" xml:space="preserve">
+    <value>这个号角讲的是我们宇宙的故事。它的高度表示宇宙在每个时刻有多大，绿色的圈就是今天。</value>
+  </data>
+  <data name="Narr_Expand_History_02" xml:space="preserve">
+    <value>最左边是大爆炸，发生在一百三十八亿年前。我们今天能看到的一切，那时都挤在一起，热得难以想象，也密得难以想象。</value>
+  </data>
+  <data name="Narr_Expand_History_03" xml:space="preserve">
+    <value>最初的时刻发生了太多事情，我们得换一种时钟：每一格都比前一格长十倍。大约三分钟之内，第一批原子核就形成了，主要是氢和氦。</value>
+  </data>
+  <data name="Narr_Expand_History_04" xml:space="preserve">
+    <value>从这个窗口看进去。几十万年里，宇宙都是一团发光的雾，光不停地撞上粒子，哪儿也去不了。</value>
+  </data>
+  <data name="Narr_Expand_History_05" xml:space="preserve">
+    <value>后来，大约在大爆炸后三十八万年，宇宙冷到可以形成原子，光一下子就能自由穿行了。今天我们还能看到这束光，只是它已经被拉长成了微波。</value>
+  </data>
+  <data name="Narr_Expand_History_06" xml:space="preserve">
+    <value>经过漫长的黑暗时代，第一代恒星在大爆炸后大约两亿年亮了起来。不久，星系也开始成长。</value>
+  </data>
+  <data name="Narr_Expand_History_07" xml:space="preserve">
+    <value>几十亿年来，引力一直让膨胀慢下来。可是大约六十亿年前，膨胀又开始加速了。看，号角是不是开始向外张开了？我们把造成加速的原因叫做暗能量。</value>
+  </data>
+  <data name="Narr_Expand_History_08" xml:space="preserve">
+    <value>你觉得呢？哪一种宇宙最后会发生大挤压？</value>
+  </data>
+  <data name="Narr_Expand_History_09" xml:space="preserve">
+    <value>如果物质多得多，引力就会获胜。宇宙会停止膨胀，开始收缩，最后又热又挤地缩成一团。这就是大挤压。</value>
+  </data>
+  <data name="Narr_Expand_History_10" xml:space="preserve">
+    <value>不过，我们的宇宙会越膨胀越快。遥远的星系会一个个消失在视野之外，我们附近以外的天空会慢慢变暗。</value>
+  </data>
+  <data name="Narr_Expand_History_11" xml:space="preserve">
+    <value>轮到你了：沿着号角拖动，在时间里旅行；或者选另一种宇宙来比一比。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_01" xml:space="preserve">
+    <value>这是宇宙中的一小块，宽约二十亿光年。每个小点都代表一整个星系团，正中间金色的那个，就是我们的家——银河系。看看时间往前走的时候，会发生什么。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_02" xml:space="preserve">
+    <value>所有星系都在离我们远去。不过，仔细看看星系本身，它们变大了吗？没有！星系的大小一直没变，变大的只是它们之间的空间。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_03" xml:space="preserve">
+    <value>这几把卷尺量出了三个星系离我们有多远，还有它们远离的速度。比一比：远一倍的星系，跑得也快一倍。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_04" xml:space="preserve">
+    <value>这就是哈勃定律：速度等于膨胀率乘以距离。1929年，哈勃用真实的星系证明了它，而勒梅特在两年前就已经推算出来了。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_05" xml:space="preserve">
+    <value>考考你：一个星系的距离是另一个星系的三倍，它远离我们的速度是多少？</value>
+  </data>
+  <data name="Narr_Expand_Hubble_06" xml:space="preserve">
+    <value>现在，把一张大约六十亿年前的老照片垫在下面，对准银河系。看到这些蓝色的小圆圈了吗？每个星系都笔直地远离我们，越远的走得越多。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_07" xml:space="preserve">
+    <value>那么，我们是宇宙的中心吗？我们搬到另一个星系去看看。从这里看，所有星系也都在远离！每个星系看到的都一样，宇宙根本没有中心。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_08" xml:space="preserve">
+    <value>换一种方式来想：想象在空间上画一张网格，就像橡皮膜上的格子。星系待在自己的格子里不动，是格子本身在变大。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_09" xml:space="preserve">
+    <value>右上角的标签显示这是多久以前，以及那时的宇宙和今天相比有多大。六十亿年里，所有的距离都变长了大约三分之二。</value>
+  </data>
+  <data name="Narr_Expand_Hubble_10" xml:space="preserve">
+    <value>轮到你了：点击任意一个星系，搬过去住；或者左右拖动，让时间倒退或前进。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Andromeda" xml:space="preserve">
+    <value>大约四十五亿年后，仙女座星系会和银河系合并。在近处，引力胜过了膨胀。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Arriving" xml:space="preserve">
+    <value>这是同样的谱线从星系到达这里时的样子。每一条都按同样的倍数滑向了更长的波长，这就是红移。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Arrow" xml:space="preserve">
+    <value>每个箭头表示一个星系远离家园的速度。距离远一倍，箭头就长一倍。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Axis" xml:space="preserve">
+    <value>这是时间轴。均匀的时间轴上，最初的一百万年都藏在号角尖里。换成每格十倍的时间轴，每一格都比前一格长十倍，最初的几分钟也有了位置。</value>
+  </data>
+  <data name="Narr_Expand_Obj_BigBang" xml:space="preserve">
+    <value>大爆炸并不是在某一个地方的爆炸，而是那一刻，所有地方的一切都挤在一起，又热又密，然后开始膨胀。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Clock" xml:space="preserve">
+    <value>这一刻是多久以前，以及那时的宇宙和今天相比有多大。大约六十亿年前，宇宙只有今天的十分之六。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Cmb" xml:space="preserve">
+    <value>大约三十八万年后，宇宙冷却到三千度左右，原子形成了，光获得了自由。这束光，就是宇宙微波背景辐射。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Crunch" xml:space="preserve">
+    <value>大挤压：一切又重新收缩到一起，越来越热，就像把大爆炸倒过来放。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Cursor" xml:space="preserve">
+    <value>这是你正在看的时刻。沿着号角拖动就能移动它，下面的窗口会显示那时空间的样子。</value>
+  </data>
+  <data name="Narr_Expand_Obj_DistNow" xml:space="preserve">
+    <value>这一刻星系离我们有多远。在光赶路的整个过程中，这个距离一直在变大。</value>
+  </data>
+  <data name="Narr_Expand_Obj_DistThen" xml:space="preserve">
+    <value>光出发时星系所在的位置。那时候，它离我们比今天近得多。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Drift" xml:space="preserve">
+    <value>在这里，光和我们之间的空间膨胀得比光走得还快，所以有一阵子，光其实被带得离我们越来越远。后来，光才慢慢追了上来。</value>
+  </data>
+  <data name="Narr_Expand_Obj_FirstStars" xml:space="preserve">
+    <value>大约两亿年后，气体云坍缩，点亮了第一代恒星，黑暗时代就此结束。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Galaxy" xml:space="preserve">
+    <value>点击一个星系，它就成了你的新家。星系本身不会被拉伸，它们的引力把自己牢牢地聚在一起，变大的只是星系之间的空间。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Ghost" xml:space="preserve">
+    <value>蓝色的小圆圈是星系一开始的位置，和家园对齐。每个星系都笔直地向外移动，越远的移动得越多。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Grid" xml:space="preserve">
+    <value>这是画在空间上的网格。空间拉伸的时候，格子变大，星系就待在自己的格子里，被一起带着走。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Home" xml:space="preserve">
+    <value>这是我们的家，我们从这里向外看。不管家在哪里，其他星系看起来都在飞快地远去，越远的跑得越快。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Infrared" xml:space="preserve">
+    <value>红外线是波长太长、眼睛看不见的光，我们能感觉到它的热。遥远星系的光，最后都跑到了这里。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Jades" xml:space="preserve">
+    <value>这是星系 JADES-GS-z14-0，詹姆斯·韦布望远镜看到的是它在大爆炸后大约三亿年时的样子。它是已确认的最遥远的星系之一。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Jwst" xml:space="preserve">
+    <value>詹姆斯·韦布空间望远镜能看到红外线，从刚过红色一直到长得多的波长。最早那些星系的光，正是在这里到达的。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Lab" xml:space="preserve">
+    <value>这是这种气体在地球实验室里、静止不动时发出的谱线。它们就是我们用来对比的尺子。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Law" xml:space="preserve">
+    <value>哈勃定律：速度等于膨胀率 H 乘以距离。过去的 H 比现在大，今天它接近每百万秒差距七十千米每秒。一百万秒差距，大约是三百二十六万光年。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Light" xml:space="preserve">
+    <value>这是光，画成了一小串波。光波会跟着它穿过的空间一起被拉长，所以走得越久，波就越长。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Line" xml:space="preserve">
+    <value>这是氢的蓝绿色谱线，叫做 H-β。它到达时落在哪里，就告诉我们光出发以来宇宙长大了多少。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Noon" xml:space="preserve">
+    <value>大约一百亿年前，星系形成恒星的速度比以前和以后都快。天文学家把这段时间叫做宇宙正午。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Now" xml:space="preserve">
+    <value>今天，大爆炸之后一百三十八亿年。这里的每一种宇宙，今天的大小和膨胀率都设成了一样。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Nuclei" xml:space="preserve">
+    <value>大约三分钟后，质子和中子聚合成了第一批原子核，主要是氢和氦。直到今天，恒星主要还是由它们组成的。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Patch" xml:space="preserve">
+    <value>这是一扇窗，让你看看这一刻一小块空间的样子。越早，星系挤得越紧；越晚，它们分得越开。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Protons" xml:space="preserve">
+    <value>在最初的万分之一秒里，温度大约一万亿度，微小的夸克结合成了质子和中子。</value>
+  </data>
+  <data name="Narr_Expand_Obj_RedshiftClock" xml:space="preserve">
+    <value>光在路上时宇宙的年龄和大小。一路上，宇宙都在长大。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Ruler" xml:space="preserve">
+    <value>这是从家园量到一个星系的卷尺，上面写着距离和远离的速度。用速度除以距离，每个星系得到的都是同一个数，这就是膨胀率。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Size" xml:space="preserve">
+    <value>号角的高度就是宇宙和今天相比的大小。任意两个星系之间的距离，都按这个比例变远或变近。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Source" xml:space="preserve">
+    <value>这是发出这束光的星系。在光赶路的整个过程中，它一直在远离我们。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Space" xml:space="preserve">
+    <value>这些竖线把星系和我们之间的空间分成了相等的几段。看，它们在慢慢分开，这就是空间本身在拉伸。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Speedup" xml:space="preserve">
+    <value>大约六十亿年前，暗能量压过了引力，宇宙的膨胀开始加速。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Sun" xml:space="preserve">
+    <value>四十六亿年前，太阳和地球在一团气体和尘埃中形成了。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Travel" xml:space="preserve">
+    <value>光到现在走了多远，以及它被拉长了多少。光走一年，就走过一光年。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Turnaround" xml:space="preserve">
+    <value>在物质太多的宇宙里，引力会让膨胀在这里停下来。这就是它最大的时候。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Us" xml:space="preserve">
+    <value>银河系，我们所在的地方。光最后到达这里，进入我们的望远镜。</value>
+  </data>
+  <data name="Narr_Expand_Obj_Visible" xml:space="preserve">
+    <value>这是我们眼睛能看到的颜色，从紫色到红色。红移会把这里的光推向红色那一端，甚至更远。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_01" xml:space="preserve">
+    <value>左边远处是一个星系。这束光出发的时候，宇宙只有今天的一半大。我们跟着这束光，一路走到我们这里。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_02" xml:space="preserve">
+    <value>这就是那束光，画成了一列波。光往前走的时候，注意看波峰之间的距离。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_03" xml:space="preserve">
+    <value>这些竖线标出了星系和我们之间的空间。光在路上的时候，空间一直在被拉伸，光波也跟着一起被拉长。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_04" xml:space="preserve">
+    <value>与此同时，星系也离我们越来越远。等光到达的时候，星系离我们比光出发时远得多。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_05" xml:space="preserve">
+    <value>现在光到了。每一个波都比出发时长了一倍。波长越长，颜色就越红，所以我们把这叫做红移。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_06" xml:space="preserve">
+    <value>天文学家用光谱里的谱线来测量红移。你看，氢的这条蓝绿色谱线，一路滑过了红色，跑到了红外区。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_07" xml:space="preserve">
+    <value>想一想：一个星系的光到达时，被拉长到了原来的三倍。光出发的时候，宇宙有多大？</value>
+  </data>
+  <data name="Narr_Expand_Redshift_08" xml:space="preserve">
+    <value>再看一个几乎在可见宇宙边缘的星系。它的光出发时，宇宙还不到三亿岁，一路被拉长了大约十五倍，连紫外线都变成了红外线。这就是为什么詹姆斯·韦布望远镜要用红外线来观测。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_09" xml:space="preserve">
+    <value>这束光已经走了一百三十多亿年。可是这个星系现在离我们已经超过三百亿光年了，因为在光的身后，空间一直在拉伸。</value>
+  </data>
+  <data name="Narr_Expand_Redshift_10" xml:space="preserve">
+    <value>轮到你了：选另一个星系，或者在图表上拖动，选择光出发的时刻。</value>
   </data>
   <data name="Narr_Hole_Lensing_01" xml:space="preserve">
     <value>现在我们离得非常远。一个黑洞正从一个遥远的星系前面漂过。黑洞本身小得根本看不见，但请注意它对身后射来的光做了什么。</value>

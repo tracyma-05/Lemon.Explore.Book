@@ -1065,6 +1065,783 @@
   <data name="Eclipse_UmbraCoverage" xml:space="preserve">
     <value>In the umbra: {0:P0}</value>
   </data>
+  <data name="Expand_Ago" xml:space="preserve">
+    <value>{0} ago</value>
+  </data>
+  <data name="Expand_Axis_BigBang" xml:space="preserve">
+    <value>Big Bang</value>
+  </data>
+  <data name="Expand_Axis_Caption" xml:space="preserve">
+    <value>Time axis</value>
+  </data>
+  <data name="Expand_Axis_Linear" xml:space="preserve">
+    <value>time since the Big Bang →</value>
+  </data>
+  <data name="Expand_Axis_LinearChip" xml:space="preserve">
+    <value>Even</value>
+  </data>
+  <data name="Expand_Axis_Log" xml:space="preserve">
+    <value>time, each step ten times longer →</value>
+  </data>
+  <data name="Expand_Axis_LogChip" xml:space="preserve">
+    <value>Powers of ten</value>
+  </data>
+  <data name="Expand_Chart_AgeAxis" xml:space="preserve">
+    <value>age, billion years</value>
+  </data>
+  <data name="Expand_Chart_DistanceAxis" xml:space="preserve">
+    <value>distance, billion ly</value>
+  </data>
+  <data name="Expand_Chart_FromNowAxis" xml:space="preserve">
+    <value>billion years from now</value>
+  </data>
+  <data name="Expand_Chart_History_Caption" xml:space="preserve">
+    <value>Three universes, lined up on today</value>
+  </data>
+  <data name="Expand_Chart_History_Note" xml:space="preserve">
+    <value>Lined up on today (same size, same expansion rate), the universes differ in age and in future. Click a curve to pick that universe.</value>
+  </data>
+  <data name="Expand_Chart_Hubble_Caption" xml:space="preserve">
+    <value>Speed against distance</value>
+  </data>
+  <data name="Expand_Chart_Hubble_Note" xml:space="preserve">
+    <value>Every galaxy lies on one straight line: speed is proportional to distance. Its slope, the expansion rate, was steeper in the past (gold) than today (green, dashed).</value>
+  </data>
+  <data name="Expand_Chart_LightLeft" xml:space="preserve">
+    <value>light left</value>
+  </data>
+  <data name="Expand_Chart_Now" xml:space="preserve">
+    <value>now</value>
+  </data>
+  <data name="Expand_Chart_Rate" xml:space="preserve">
+    <value>H = {0}</value>
+  </data>
+  <data name="Expand_Chart_Redshift_Caption" xml:space="preserve">
+    <value>The universe's size during the light's journey</value>
+  </data>
+  <data name="Expand_Chart_Redshift_Note" xml:space="preserve">
+    <value>When the light leaves, the universe is the size at the dashed line; today it is 1. The light is stretched by 1 divided by that size. Drag along the curve to choose when it leaves.</value>
+  </data>
+  <data name="Expand_Chart_SizeAxis" xml:space="preserve">
+    <value>size (today = 1)</value>
+  </data>
+  <data name="Expand_Chart_SpeedAxis" xml:space="preserve">
+    <value>speed, 1000 km/s</value>
+  </data>
+  <data name="Expand_Chart_Today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="Expand_Day" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Expand_Era_Contracting" xml:space="preserve">
+    <value>Falling back</value>
+  </data>
+  <data name="Expand_Era_Contracting_Text" xml:space="preserve">
+    <value>Gravity has stopped the expansion and pulls everything back together. Galaxies now come closer to each other, and their light is blueshifted.</value>
+  </data>
+  <data name="Expand_Era_Crunch" xml:space="preserve">
+    <value>The crunch</value>
+  </data>
+  <data name="Expand_Era_Crunch_Text" xml:space="preserve">
+    <value>Everything is squeezed together, hotter and hotter: galaxies merge, and then even stars and atoms are torn apart.</value>
+  </data>
+  <data name="Expand_Era_DarkAges" xml:space="preserve">
+    <value>The dark ages</value>
+  </data>
+  <data name="Expand_Era_DarkAges_Text" xml:space="preserve">
+    <value>Atoms have formed and light travels freely, but there are no stars yet. Gravity slowly gathers the gas into clumps.</value>
+  </data>
+  <data name="Expand_Era_Dawn" xml:space="preserve">
+    <value>Cosmic dawn</value>
+  </data>
+  <data name="Expand_Era_Dawn_Text" xml:space="preserve">
+    <value>The first stars light up and the first small galaxies form. Their light is what the Webb telescope hunts for.</value>
+  </data>
+  <data name="Expand_Era_Ended" xml:space="preserve">
+    <value>The end</value>
+  </data>
+  <data name="Expand_Era_Ended_Text" xml:space="preserve">
+    <value>This universe has collapsed: after the crunch there is no time left to look at.</value>
+  </data>
+  <data name="Expand_Era_FutureFast" xml:space="preserve">
+    <value>Faster and faster</value>
+  </data>
+  <data name="Expand_Era_FutureFast_Text" xml:space="preserve">
+    <value>Dark energy keeps speeding up the expansion. Distant galaxies slip out of sight one by one, while our own group of galaxies stays together.</value>
+  </data>
+  <data name="Expand_Era_FutureSlowing" xml:space="preserve">
+    <value>Slower and slower</value>
+  </data>
+  <data name="Expand_Era_FutureSlowing_Text" xml:space="preserve">
+    <value>Without dark energy, gravity keeps braking the expansion. It goes on for ever, but ever more slowly.</value>
+  </data>
+  <data name="Expand_Era_Galaxies" xml:space="preserve">
+    <value>Galaxies grow, expansion slows</value>
+  </data>
+  <data name="Expand_Era_Galaxies_Text" xml:space="preserve">
+    <value>Galaxies grow and merge and make stars. Gravity is slowing the expansion down.</value>
+  </data>
+  <data name="Expand_Era_Now" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Expand_Era_Now_Text" xml:space="preserve">
+    <value>Every universe here is set to today's size and expansion rate. In ours, 13.8 billion years have passed since the Big Bang, and the expansion is speeding up.</value>
+  </data>
+  <data name="Expand_Era_Plasma" xml:space="preserve">
+    <value>A glowing fog</value>
+  </data>
+  <data name="Expand_Era_Plasma_Text" xml:space="preserve">
+    <value>Nuclei and electrons fly about separately, and light keeps bumping into them, so it cannot travel far. The universe is opaque and glowing.</value>
+  </data>
+  <data name="Expand_Era_Speeding" xml:space="preserve">
+    <value>The expansion speeds up</value>
+  </data>
+  <data name="Expand_Era_Speeding_Text" xml:space="preserve">
+    <value>Matter has thinned out, and dark energy now beats gravity: the expansion is getting faster.</value>
+  </data>
+  <data name="Expand_Era_Start" xml:space="preserve">
+    <value>Hotter than a billion degrees</value>
+  </data>
+  <data name="Expand_Era_Start_Text" xml:space="preserve">
+    <value>Too hot even for atomic nuclei to hold together: a soup of particles and light, expanding fast.</value>
+  </data>
+  <data name="Expand_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Expand_GoHome" xml:space="preserve">
+    <value>Back to the Milky Way</value>
+  </data>
+  <data name="Expand_Hint_History" xml:space="preserve">
+    <value>Drag along the horn to travel in time; click a moment to jump there.</value>
+  </data>
+  <data name="Expand_Hint_Hubble" xml:space="preserve">
+    <value>Click any galaxy to live there; drag sideways to run time back and forth.</value>
+  </data>
+  <data name="Expand_Hint_Redshift" xml:space="preserve">
+    <value>Drag along the strip of space to move the light; pick a galaxy on the left page.</value>
+  </data>
+  <data name="Expand_History_Fact1" xml:space="preserve">
+    <value>The universe is about 13.8 billion years old, measured from the microwave background by the Planck satellite.</value>
+  </data>
+  <data name="Expand_History_Fact2" xml:space="preserve">
+    <value>The Big Bang was not an explosion at one spot. It happened everywhere at once: every place in today's universe was once squeezed close together and very hot.</value>
+  </data>
+  <data name="Expand_History_Fact3" xml:space="preserve">
+    <value>Penzias and Wilson found the microwave background by accident in 1965, while chasing a hiss in their radio antenna. It earned them a Nobel Prize.</value>
+  </data>
+  <data name="Expand_History_Fact4" xml:space="preserve">
+    <value>In 1998 two teams measuring distant exploding stars found that the expansion is speeding up: the discovery of dark energy, Nobel Prize 2011.</value>
+  </data>
+  <data name="Expand_History_Fact5" xml:space="preserve">
+    <value>Today about 68% of the universe's energy is dark energy, 27% dark matter, and only 5% the ordinary atoms of stars, planets and us.</value>
+  </data>
+  <data name="Expand_History_Note" xml:space="preserve">
+    <value>The height of the horn is the size of the universe compared with today, from the real expansion model (ΛCDM, Planck 2018).</value>
+  </data>
+  <data name="Expand_History_Panel_Note" xml:space="preserve">
+    <value>All three universes have today's size and expansion rate now; they differ in what they are made of. Ours is 31% matter and 69% dark energy.</value>
+  </data>
+  <data name="Expand_History_Subtitle" xml:space="preserve">
+    <value>The size of the universe through time</value>
+  </data>
+  <data name="Expand_Hour" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="Expand_HubbleTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Expand_Hubble_Clock" xml:space="preserve">
+    <value>{0} · size {1} × today</value>
+  </data>
+  <data name="Expand_Hubble_Fact1" xml:space="preserve">
+    <value>In 1929 Edwin Hubble showed that the farther away a galaxy is, the faster it moves away. Georges Lemaître had worked it out two years earlier, so it is now also called the Hubble–Lemaître law.</value>
+  </data>
+  <data name="Expand_Hubble_Fact2" xml:space="preserve">
+    <value>Galaxies are not flying through space like pieces of a bomb. Space itself is stretching and carrying them apart; there is no edge and no centre.</value>
+  </data>
+  <data name="Expand_Hubble_Fact3" xml:space="preserve">
+    <value>Things held together — atoms, people, planets, the Solar System, the Milky Way — do not expand. Their own forces are far stronger than the gentle stretch.</value>
+  </data>
+  <data name="Expand_Hubble_Fact4" xml:space="preserve">
+    <value>Andromeda, our big neighbour, is actually coming towards us at about 110 km/s: close by, gravity beats the expansion.</value>
+  </data>
+  <data name="Expand_Hubble_Fact5" xml:space="preserve">
+    <value>Measurements of the expansion rate disagree a little: about 67 km/s per Mpc from the early universe's light, about 73 from nearby stars and supernovae. Nobody knows why yet; it is called the Hubble tension.</value>
+  </data>
+  <data name="Expand_Hubble_Home_Text" xml:space="preserve">
+    <value>As space stretches, every galaxy moves away from us, and a galaxy twice as far away moves twice as fast. The galaxies themselves stay the same size.</value>
+  </data>
+  <data name="Expand_Hubble_Home_Title" xml:space="preserve">
+    <value>Galaxies drift apart</value>
+  </data>
+  <data name="Expand_Hubble_Law" xml:space="preserve">
+    <value>v = H × d    H = {0} km/s per Mpc</value>
+  </data>
+  <data name="Expand_Hubble_NewHome_Text" xml:space="preserve">
+    <value>From this galaxy too, every other galaxy is moving away, faster the farther it is. Every galaxy sees the same, so none of them is the centre.</value>
+  </data>
+  <data name="Expand_Hubble_NewHome_Title" xml:space="preserve">
+    <value>No centre</value>
+  </data>
+  <data name="Expand_Hubble_Note" xml:space="preserve">
+    <value>A patch of the universe about 2 billion light-years across, seen from home in the middle. Each dot stands for a cluster of galaxies.</value>
+  </data>
+  <data name="Expand_Hubble_Overlay_Text" xml:space="preserve">
+    <value>The blue circles are where the galaxies were about six billion years ago. Lined up on home, every galaxy has moved straight outwards, the far ones farthest.</value>
+  </data>
+  <data name="Expand_Hubble_Overlay_Title" xml:space="preserve">
+    <value>Two photos, one on top of the other</value>
+  </data>
+  <data name="Expand_Hubble_Panel_Note" xml:space="preserve">
+    <value>Each dot stands for a cluster of galaxies, drawn far bigger than it is. The distances and speeds follow our universe's real expansion.</value>
+  </data>
+  <data name="Expand_Hubble_Subtitle" xml:space="preserve">
+    <value>Why every galaxy is moving away from us</value>
+  </data>
+  <data name="Expand_Journey" xml:space="preserve">
+    <value>Light's journey</value>
+  </data>
+  <data name="Expand_Jump_Cmb" xml:space="preserve">
+    <value>Light set free</value>
+  </data>
+  <data name="Expand_Jump_Future" xml:space="preserve">
+    <value>10 billion years on</value>
+  </data>
+  <data name="Expand_Jump_Now" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Expand_Jump_Start" xml:space="preserve">
+    <value>Big Bang</value>
+  </data>
+  <data name="Expand_K" xml:space="preserve">
+    <value>{0} K</value>
+  </data>
+  <data name="Expand_Kms" xml:space="preserve">
+    <value>{0} km/s</value>
+  </data>
+  <data name="Expand_Label_Drift" xml:space="preserve">
+    <value>space grows faster than the light crosses it</value>
+  </data>
+  <data name="Expand_Label_HomeMilkyWay" xml:space="preserve">
+    <value>Milky Way · home</value>
+  </data>
+  <data name="Expand_Label_MilkyWay" xml:space="preserve">
+    <value>Milky Way</value>
+  </data>
+  <data name="Expand_Label_NewHome" xml:space="preserve">
+    <value>New home</value>
+  </data>
+  <data name="Expand_Label_NowAway" xml:space="preserve">
+    <value>galaxy now {0} away</value>
+  </data>
+  <data name="Expand_Label_Size" xml:space="preserve">
+    <value>size</value>
+  </data>
+  <data name="Expand_Label_ThenAway" xml:space="preserve">
+    <value>light set off {0} away</value>
+  </data>
+  <data name="Expand_Label_Travelled" xml:space="preserve">
+    <value>light has come {0} · stretched ×{1}</value>
+  </data>
+  <data name="Expand_Label_Us" xml:space="preserve">
+    <value>Milky Way · us</value>
+  </data>
+  <data name="Expand_Lesson_History_Choice1" xml:space="preserve">
+    <value>One with much more matter and no dark energy</value>
+  </data>
+  <data name="Expand_Lesson_History_Choice2" xml:space="preserve">
+    <value>Ours, with its dark energy</value>
+  </data>
+  <data name="Expand_Lesson_History_Choice3" xml:space="preserve">
+    <value>One that is completely empty</value>
+  </data>
+  <data name="Expand_Lesson_Hubble_Choice1" xml:space="preserve">
+    <value>Three times as fast</value>
+  </data>
+  <data name="Expand_Lesson_Hubble_Choice2" xml:space="preserve">
+    <value>Just as fast</value>
+  </data>
+  <data name="Expand_Lesson_Hubble_Choice3" xml:space="preserve">
+    <value>A third as fast</value>
+  </data>
+  <data name="Expand_Lesson_Redshift_Choice1" xml:space="preserve">
+    <value>A third of today's size</value>
+  </data>
+  <data name="Expand_Lesson_Redshift_Choice2" xml:space="preserve">
+    <value>Three times today's size</value>
+  </data>
+  <data name="Expand_Lesson_Redshift_Choice3" xml:space="preserve">
+    <value>The same size as today</value>
+  </data>
+  <data name="Expand_Ly_Big" xml:space="preserve">
+    <value>{0} billion light-years</value>
+  </data>
+  <data name="Expand_Ly_Big_Unit" xml:space="preserve">
+    <value>1000000000</value>
+  </data>
+  <data name="Expand_Ly_Mid" xml:space="preserve">
+    <value>{0} million light-years</value>
+  </data>
+  <data name="Expand_Ly_Mid_Unit" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Expand_Ly_Plain" xml:space="preserve">
+    <value>{0} light-years</value>
+  </data>
+  <data name="Expand_Min" xml:space="preserve">
+    <value>{0} minutes</value>
+  </data>
+  <data name="Expand_Mode_History" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="Expand_Mode_Hubble" xml:space="preserve">
+    <value>Hubble's law</value>
+  </data>
+  <data name="Expand_Mode_Redshift" xml:space="preserve">
+    <value>Redshift</value>
+  </data>
+  <data name="Expand_Moment" xml:space="preserve">
+    <value>Moment</value>
+  </data>
+  <data name="Expand_Now" xml:space="preserve">
+    <value>now</value>
+  </data>
+  <data name="Expand_Obj_Andromeda" xml:space="preserve">
+    <value>Milky Way meets Andromeda</value>
+  </data>
+  <data name="Expand_Obj_Arriving" xml:space="preserve">
+    <value>Arriving spectrum</value>
+  </data>
+  <data name="Expand_Obj_Arrow" xml:space="preserve">
+    <value>Speed arrow</value>
+  </data>
+  <data name="Expand_Obj_Axis" xml:space="preserve">
+    <value>Time axis</value>
+  </data>
+  <data name="Expand_Obj_BigBang" xml:space="preserve">
+    <value>Big Bang</value>
+  </data>
+  <data name="Expand_Obj_Clock" xml:space="preserve">
+    <value>When, and how big</value>
+  </data>
+  <data name="Expand_Obj_Cmb" xml:space="preserve">
+    <value>Light set free</value>
+  </data>
+  <data name="Expand_Obj_Crunch" xml:space="preserve">
+    <value>Big Crunch</value>
+  </data>
+  <data name="Expand_Obj_Cursor" xml:space="preserve">
+    <value>The moment</value>
+  </data>
+  <data name="Expand_Obj_DistNow" xml:space="preserve">
+    <value>Distance now</value>
+  </data>
+  <data name="Expand_Obj_DistThen" xml:space="preserve">
+    <value>Where the light set off</value>
+  </data>
+  <data name="Expand_Obj_Drift" xml:space="preserve">
+    <value>Losing ground</value>
+  </data>
+  <data name="Expand_Obj_FirstStars" xml:space="preserve">
+    <value>First stars</value>
+  </data>
+  <data name="Expand_Obj_Galaxy" xml:space="preserve">
+    <value>A galaxy</value>
+  </data>
+  <data name="Expand_Obj_Ghost" xml:space="preserve">
+    <value>Earlier photo</value>
+  </data>
+  <data name="Expand_Obj_Grid" xml:space="preserve">
+    <value>Grid on space</value>
+  </data>
+  <data name="Expand_Obj_Home" xml:space="preserve">
+    <value>Home galaxy</value>
+  </data>
+  <data name="Expand_Obj_Infrared" xml:space="preserve">
+    <value>Infrared</value>
+  </data>
+  <data name="Expand_Obj_Jades" xml:space="preserve">
+    <value>Earliest galaxy seen</value>
+  </data>
+  <data name="Expand_Obj_Jwst" xml:space="preserve">
+    <value>James Webb telescope</value>
+  </data>
+  <data name="Expand_Obj_Lab" xml:space="preserve">
+    <value>Lab spectrum</value>
+  </data>
+  <data name="Expand_Obj_Law" xml:space="preserve">
+    <value>Hubble's law</value>
+  </data>
+  <data name="Expand_Obj_Light" xml:space="preserve">
+    <value>Travelling light</value>
+  </data>
+  <data name="Expand_Obj_Line" xml:space="preserve">
+    <value>Hydrogen's Hβ line</value>
+  </data>
+  <data name="Expand_Obj_Noon" xml:space="preserve">
+    <value>Busiest star-making</value>
+  </data>
+  <data name="Expand_Obj_Now" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Expand_Obj_Nuclei" xml:space="preserve">
+    <value>First nuclei</value>
+  </data>
+  <data name="Expand_Obj_Patch" xml:space="preserve">
+    <value>Window into space</value>
+  </data>
+  <data name="Expand_Obj_Protons" xml:space="preserve">
+    <value>First protons</value>
+  </data>
+  <data name="Expand_Obj_RedshiftClock" xml:space="preserve">
+    <value>The universe meanwhile</value>
+  </data>
+  <data name="Expand_Obj_Ruler" xml:space="preserve">
+    <value>Tape measure</value>
+  </data>
+  <data name="Expand_Obj_Size" xml:space="preserve">
+    <value>Size of the universe</value>
+  </data>
+  <data name="Expand_Obj_Source" xml:space="preserve">
+    <value>Distant galaxy</value>
+  </data>
+  <data name="Expand_Obj_Space" xml:space="preserve">
+    <value>Stretching space</value>
+  </data>
+  <data name="Expand_Obj_Speedup" xml:space="preserve">
+    <value>Speeding up begins</value>
+  </data>
+  <data name="Expand_Obj_Sun" xml:space="preserve">
+    <value>Sun and Earth form</value>
+  </data>
+  <data name="Expand_Obj_Travel" xml:space="preserve">
+    <value>How far the light has come</value>
+  </data>
+  <data name="Expand_Obj_Turnaround" xml:space="preserve">
+    <value>Biggest size</value>
+  </data>
+  <data name="Expand_Obj_Us" xml:space="preserve">
+    <value>Milky Way (us)</value>
+  </data>
+  <data name="Expand_Obj_Visible" xml:space="preserve">
+    <value>Visible light</value>
+  </data>
+  <data name="Expand_Option_Arrows" xml:space="preserve">
+    <value>Speed arrows</value>
+  </data>
+  <data name="Expand_Option_Grid" xml:space="preserve">
+    <value>Grid on space</value>
+  </data>
+  <data name="Expand_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Expand_Option_Overlay" xml:space="preserve">
+    <value>Earlier photo underneath</value>
+  </data>
+  <data name="Expand_Option_Rulers" xml:space="preserve">
+    <value>Tape measures</value>
+  </data>
+  <data name="Expand_Patch_Detail" xml:space="preserve">
+    <value>size {0} · {1}</value>
+  </data>
+  <data name="Expand_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Expand_Redshift" xml:space="preserve">
+    <value>Redshift z</value>
+  </data>
+  <data name="Expand_Redshift_Clock" xml:space="preserve">
+    <value>universe {0} old · size {1}</value>
+  </data>
+  <data name="Expand_Redshift_Deep_Text" xml:space="preserve">
+    <value>This light left when the universe was less than a billion years old, and it is stretched more than seven times. Only infrared telescopes such as Webb can see these galaxies.</value>
+  </data>
+  <data name="Expand_Redshift_Deep_Title" xml:space="preserve">
+    <value>From the dawn of galaxies</value>
+  </data>
+  <data name="Expand_Redshift_Fact1" xml:space="preserve">
+    <value>Redshift z tells you how much the universe has grown since the light left: the light is stretched by 1 + z, and the universe was 1/(1 + z) of today's size.</value>
+  </data>
+  <data name="Expand_Redshift_Fact2" xml:space="preserve">
+    <value>Beyond about z = 1.5, a galaxy is moving away from us faster than light today. That breaks no rule: nothing races through space; space itself is growing.</value>
+  </data>
+  <data name="Expand_Redshift_Fact3" xml:space="preserve">
+    <value>The most distant galaxies we see sent their light when the universe was less than 300 million years old. It is stretched about fifteen times, from ultraviolet into infrared.</value>
+  </data>
+  <data name="Expand_Redshift_Fact4" xml:space="preserve">
+    <value>Vesto Slipher measured the first galaxy redshifts between 1912 and 1917, before anyone knew that galaxies lie far beyond the Milky Way.</value>
+  </data>
+  <data name="Expand_Redshift_Fact5" xml:space="preserve">
+    <value>The oldest light of all, the microwave background, is stretched about 1,100 times: it left as the glow of gas at about 3,000 K and arrives as microwaves at 2.7 K.</value>
+  </data>
+  <data name="Expand_Redshift_Infrared_Text" xml:space="preserve">
+    <value>The waves are now too long for our eyes. Telescopes that see infrared are needed to catch this light.</value>
+  </data>
+  <data name="Expand_Redshift_Infrared_Title" xml:space="preserve">
+    <value>Stretched into infrared</value>
+  </data>
+  <data name="Expand_Redshift_Nearby_Text" xml:space="preserve">
+    <value>Light from nearby galaxies is stretched only a tiny bit, because space grew very little while it travelled. Close by, a galaxy's own motion can matter more.</value>
+  </data>
+  <data name="Expand_Redshift_Nearby_Title" xml:space="preserve">
+    <value>Barely stretched</value>
+  </data>
+  <data name="Expand_Redshift_Note" xml:space="preserve">
+    <value>Distances are drawn to one scale, so you can see space stretch; the galaxies and the waves are drawn far bigger than they are.</value>
+  </data>
+  <data name="Expand_Redshift_Panel_Note" xml:space="preserve">
+    <value>Redshifts are from published spectra, rounded. The light shown is hydrogen's Hβ line; the slider picks any redshift by hand.</value>
+  </data>
+  <data name="Expand_Redshift_Subtitle" xml:space="preserve">
+    <value>Light stretched on its way across space</value>
+  </data>
+  <data name="Expand_Redshift_Visible_Text" xml:space="preserve">
+    <value>The light is stretched enough to change colour: blue-green light arrives yellow, orange or red.</value>
+  </data>
+  <data name="Expand_Redshift_Visible_Title" xml:space="preserve">
+    <value>Shifted towards red</value>
+  </data>
+  <data name="Expand_Replay" xml:space="preserve">
+    <value>Send the light again</value>
+  </data>
+  <data name="Expand_RestartSpan" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="Expand_Ruler" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Expand_Sec" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Expand_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Expand_Size_Bigger" xml:space="preserve">
+    <value>{0}× today's</value>
+  </data>
+  <data name="Expand_Size_Smaller" xml:space="preserve">
+    <value>1/{0} of today's</value>
+  </data>
+  <data name="Expand_Source_Caption" xml:space="preserve">
+    <value>Galaxy</value>
+  </data>
+  <data name="Expand_Source_Coma" xml:space="preserve">
+    <value>Coma cluster</value>
+  </data>
+  <data name="Expand_Source_Custom" xml:space="preserve">
+    <value>A galaxy at z = {0}</value>
+  </data>
+  <data name="Expand_Source_GnZ11" xml:space="preserve">
+    <value>GN-z11</value>
+  </data>
+  <data name="Expand_Source_Halfway" xml:space="preserve">
+    <value>A galaxy at z = 1</value>
+  </data>
+  <data name="Expand_Source_Jades" xml:space="preserve">
+    <value>JADES-GS-z14-0</value>
+  </data>
+  <data name="Expand_Source_Quasar" xml:space="preserve">
+    <value>Quasar 3C 273</value>
+  </data>
+  <data name="Expand_Source_Virgo" xml:space="preserve">
+    <value>Virgo cluster</value>
+  </data>
+  <data name="Expand_Spec_Arriving" xml:space="preserve">
+    <value>Arriving ×{0}</value>
+  </data>
+  <data name="Expand_Spec_Eye" xml:space="preserve">
+    <value>eye</value>
+  </data>
+  <data name="Expand_Spec_Hubble" xml:space="preserve">
+    <value>Hubble</value>
+  </data>
+  <data name="Expand_Spec_IR" xml:space="preserve">
+    <value>infrared</value>
+  </data>
+  <data name="Expand_Spec_Jwst" xml:space="preserve">
+    <value>Webb</value>
+  </data>
+  <data name="Expand_Spec_Lab" xml:space="preserve">
+    <value>In the lab</value>
+  </data>
+  <data name="Expand_Spec_Microns" xml:space="preserve">
+    <value>wavelength, µm</value>
+  </data>
+  <data name="Expand_Spec_UV" xml:space="preserve">
+    <value>ultraviolet</value>
+  </data>
+  <data name="Expand_Spec_Visible" xml:space="preserve">
+    <value>visible</value>
+  </data>
+  <data name="Expand_Stat_AgeToday" xml:space="preserve">
+    <value>Age today</value>
+  </data>
+  <data name="Expand_Stat_Crunch" xml:space="preserve">
+    <value>Crunch at</value>
+  </data>
+  <data name="Expand_Stat_Far" xml:space="preserve">
+    <value>Pink galaxy</value>
+  </data>
+  <data name="Expand_Stat_Hbeta" xml:space="preserve">
+    <value>Hβ arrives at</value>
+  </data>
+  <data name="Expand_Stat_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Expand_Stat_Journey" xml:space="preserve">
+    <value>Journey</value>
+  </data>
+  <data name="Expand_Stat_LeftAt" xml:space="preserve">
+    <value>Light left when</value>
+  </data>
+  <data name="Expand_Stat_Middle" xml:space="preserve">
+    <value>Blue galaxy</value>
+  </data>
+  <data name="Expand_Stat_Near" xml:space="preserve">
+    <value>Green galaxy</value>
+  </data>
+  <data name="Expand_Stat_Now" xml:space="preserve">
+    <value>Distance now</value>
+  </data>
+  <data name="Expand_Stat_Rate" xml:space="preserve">
+    <value>Expansion rate</value>
+  </data>
+  <data name="Expand_Stat_Redshift" xml:space="preserve">
+    <value>Redshift</value>
+  </data>
+  <data name="Expand_Stat_SeenAs" xml:space="preserve">
+    <value>Light sent then</value>
+  </data>
+  <data name="Expand_Stat_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Expand_Stat_Speed" xml:space="preserve">
+    <value>Moving away now</value>
+  </data>
+  <data name="Expand_Stat_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Expand_Stat_Then" xml:space="preserve">
+    <value>Distance then</value>
+  </data>
+  <data name="Expand_Stat_Time" xml:space="preserve">
+    <value>After the Big Bang</value>
+  </data>
+  <data name="Expand_Stat_Travel" xml:space="preserve">
+    <value>Time on the way</value>
+  </data>
+  <data name="Expand_Stat_Trend" xml:space="preserve">
+    <value>Expansion</value>
+  </data>
+  <data name="Expand_Stat_Universe" xml:space="preserve">
+    <value>Universe</value>
+  </data>
+  <data name="Expand_Stat_When" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="Expand_Tick_Billion" xml:space="preserve">
+    <value>1 billion years</value>
+  </data>
+  <data name="Expand_Tick_Day" xml:space="preserve">
+    <value>1 day</value>
+  </data>
+  <data name="Expand_Tick_Million" xml:space="preserve">
+    <value>1 million years</value>
+  </data>
+  <data name="Expand_Tick_Minute" xml:space="preserve">
+    <value>1 minute</value>
+  </data>
+  <data name="Expand_Tick_Second" xml:space="preserve">
+    <value>1 second</value>
+  </data>
+  <data name="Expand_Tick_Thousand" xml:space="preserve">
+    <value>1000 years</value>
+  </data>
+  <data name="Expand_Tick_Year" xml:space="preserve">
+    <value>1 year</value>
+  </data>
+  <data name="Expand_Title" xml:space="preserve">
+    <value>The expanding universe</value>
+  </data>
+  <data name="Expand_Universe_Caption" xml:space="preserve">
+    <value>Universe</value>
+  </data>
+  <data name="Expand_Universe_Closed" xml:space="preserve">
+    <value>Too much matter</value>
+  </data>
+  <data name="Expand_Universe_MatterOnly" xml:space="preserve">
+    <value>No dark energy</value>
+  </data>
+  <data name="Expand_Universe_Ours" xml:space="preserve">
+    <value>Ours</value>
+  </data>
+  <data name="Expand_Value_Collapsing" xml:space="preserve">
+    <value>falling back together</value>
+  </data>
+  <data name="Expand_Value_DistanceSpeed" xml:space="preserve">
+    <value>{0}, moving away at {1}</value>
+  </data>
+  <data name="Expand_Value_Falling" xml:space="preserve">
+    <value>falling back at {0} km/s per Mpc</value>
+  </data>
+  <data name="Expand_Value_HomeElsewhere" xml:space="preserve">
+    <value>another galaxy, {0} from the Milky Way</value>
+  </data>
+  <data name="Expand_Value_HomeMilkyWay" xml:space="preserve">
+    <value>the Milky Way</value>
+  </data>
+  <data name="Expand_Value_Infrared" xml:space="preserve">
+    <value>infrared</value>
+  </data>
+  <data name="Expand_Value_Nm" xml:space="preserve">
+    <value>{0} nm ({1})</value>
+  </data>
+  <data name="Expand_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Expand_Value_Rate" xml:space="preserve">
+    <value>{0} km/s per Mpc</value>
+  </data>
+  <data name="Expand_Value_Redshift" xml:space="preserve">
+    <value>z = {0} (stretched ×{1})</value>
+  </data>
+  <data name="Expand_Value_SeenAs" xml:space="preserve">
+    <value>reaches us at z = {0}</value>
+  </data>
+  <data name="Expand_Value_SlowingDown" xml:space="preserve">
+    <value>slowing down</value>
+  </data>
+  <data name="Expand_Value_SpeedC" xml:space="preserve">
+    <value>{0} ({1} × the speed of light)</value>
+  </data>
+  <data name="Expand_Value_SpeedingUp" xml:space="preserve">
+    <value>speeding up</value>
+  </data>
+  <data name="Expand_Value_TimesToday" xml:space="preserve">
+    <value>{0} × today's</value>
+  </data>
+  <data name="Expand_Value_UniverseAge" xml:space="preserve">
+    <value>universe {0} old, size {1}</value>
+  </data>
+  <data name="Expand_Value_Visible" xml:space="preserve">
+    <value>visible</value>
+  </data>
+  <data name="Expand_Yr_Big" xml:space="preserve">
+    <value>{0} billion years</value>
+  </data>
+  <data name="Expand_Yr_Big_Unit" xml:space="preserve">
+    <value>1000000000</value>
+  </data>
+  <data name="Expand_Yr_Mid" xml:space="preserve">
+    <value>{0} million years</value>
+  </data>
+  <data name="Expand_Yr_Mid_Unit" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Expand_Yr_Plain" xml:space="preserve">
+    <value>{0} years</value>
+  </data>
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>Click anything in the picture to hear what it is</value>
   </data>
@@ -3137,6 +3914,219 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>So a solar eclipse can only happen at new moon. At full moon, it's the Moon's turn to move into Earth's shadow. That's a lunar eclipse.</value>
+  </data>
+  <data name="Narr_Expand_History_01" xml:space="preserve">
+    <value>This horn tells the story of our universe. Its height shows how big the universe was at each moment. The green ring is today.</value>
+  </data>
+  <data name="Narr_Expand_History_02" xml:space="preserve">
+    <value>At the far left is the Big Bang, thirteen point eight billion years ago. Everything we can see was squeezed together, unbelievably hot and dense.</value>
+  </data>
+  <data name="Narr_Expand_History_03" xml:space="preserve">
+    <value>The first moments were so busy that we need a different clock, where each step is ten times longer than the one before. Within about three minutes, the first atomic nuclei formed: hydrogen and helium.</value>
+  </data>
+  <data name="Narr_Expand_History_04" xml:space="preserve">
+    <value>Look through the window. For hundreds of thousands of years, the universe was a glowing fog. Light kept bumping into particles and couldn't get anywhere.</value>
+  </data>
+  <data name="Narr_Expand_History_05" xml:space="preserve">
+    <value>Then, about three hundred and eighty thousand years after the Big Bang, it cooled enough for atoms to form, and suddenly light could travel freely. We still see that light today, stretched into microwaves.</value>
+  </data>
+  <data name="Narr_Expand_History_06" xml:space="preserve">
+    <value>After a long dark age, the first stars switched on, a couple of hundred million years after the Big Bang. Soon, galaxies began to grow.</value>
+  </data>
+  <data name="Narr_Expand_History_07" xml:space="preserve">
+    <value>For billions of years, gravity slowed the expansion down. But about six billion years ago, it started to speed up again. See how the horn begins to flare? We call the cause dark energy.</value>
+  </data>
+  <data name="Narr_Expand_History_08" xml:space="preserve">
+    <value>What do you think? Which universe would end in a big crunch?</value>
+  </data>
+  <data name="Narr_Expand_History_09" xml:space="preserve">
+    <value>With much more matter, gravity would win. The universe would stop growing, fall back, and end hot and crushed together. That's a big crunch.</value>
+  </data>
+  <data name="Narr_Expand_History_10" xml:space="preserve">
+    <value>Our universe, though, will keep expanding faster and faster. Distant galaxies will slip out of sight, and the sky beyond our neighbourhood will slowly go dark.</value>
+  </data>
+  <data name="Narr_Expand_History_11" xml:space="preserve">
+    <value>Your turn. Drag along the horn to travel through time, or pick another universe to compare.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_01" xml:space="preserve">
+    <value>Here's a patch of the universe, about two billion light-years across. Each dot is a whole cluster of galaxies, and the golden one in the middle is our home, the Milky Way. Watch what happens as time runs forward.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_02" xml:space="preserve">
+    <value>Everything is moving away from us. But look closely at the galaxies themselves. Are they getting bigger? No! They stay the same size. Only the space between them grows.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_03" xml:space="preserve">
+    <value>These tape measures show how far away three galaxies are, and how fast each one is moving away. Compare them. A galaxy twice as far away is moving twice as fast.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_04" xml:space="preserve">
+    <value>This is Hubble's law: speed equals the expansion rate times distance. In 1929, Edwin Hubble showed it with real galaxies, and Georges Lemaître had worked it out two years before.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_05" xml:space="preserve">
+    <value>Quick question. One galaxy is three times farther away than another. How fast is it moving away from us?</value>
+  </data>
+  <data name="Narr_Expand_Hubble_06" xml:space="preserve">
+    <value>Now let's lay an older photo underneath, from about six billion years ago, lined up on the Milky Way. See the blue circles? Every galaxy has moved straight away from us, and the farther ones have moved the most.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_07" xml:space="preserve">
+    <value>So, are we at the centre of the universe? Let's move house to another galaxy and find out. From here, everything is moving away too! Every galaxy sees exactly the same thing. There is no centre.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_08" xml:space="preserve">
+    <value>Here's a better way to picture it. Imagine a grid drawn on space itself, like the lines on a rubber sheet. The galaxies sit still in their squares. It's the squares that grow.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_09" xml:space="preserve">
+    <value>The label up here shows how long ago this is, and how big the universe was compared with today. In six billion years, every distance has grown by about two thirds.</value>
+  </data>
+  <data name="Narr_Expand_Hubble_10" xml:space="preserve">
+    <value>Your turn. Click any galaxy to live there, or drag left and right to run time backwards and forwards.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Andromeda" xml:space="preserve">
+    <value>In about four and a half billion years, the Andromeda galaxy will merge with the Milky Way. Close by, gravity beats the expansion.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Arriving" xml:space="preserve">
+    <value>The same lines as they arrive from the galaxy. Every one has slid to longer wavelengths by the same factor. That's the redshift.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Arrow" xml:space="preserve">
+    <value>Each arrow shows how fast a galaxy is moving away from home. A galaxy twice as far away has an arrow twice as long.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Axis" xml:space="preserve">
+    <value>The time axis. When it's even, the first million years hide in the tip of the horn. In powers of ten, each step is ten times longer than the last, so even the first minutes get some room.</value>
+  </data>
+  <data name="Narr_Expand_Obj_BigBang" xml:space="preserve">
+    <value>The Big Bang wasn't an explosion at one spot. It was the moment when everything, everywhere, was squeezed together, hot and dense, and began to expand.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Clock" xml:space="preserve">
+    <value>How long ago this moment is, and how big the universe was then compared with today. About six billion years ago, it was six tenths of today's size.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Cmb" xml:space="preserve">
+    <value>About three hundred and eighty thousand years in, the universe cooled to about three thousand degrees, atoms formed, and light was set free. That light is the cosmic microwave background.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Crunch" xml:space="preserve">
+    <value>The Big Crunch: everything falls back together, hotter and hotter, like the Big Bang running backwards.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Cursor" xml:space="preserve">
+    <value>The moment you're looking at. Drag along the horn to move it, and the window below shows what space looked like then.</value>
+  </data>
+  <data name="Narr_Expand_Obj_DistNow" xml:space="preserve">
+    <value>How far away the galaxy is at this moment. This distance keeps growing the whole time the light is travelling.</value>
+  </data>
+  <data name="Narr_Expand_Obj_DistThen" xml:space="preserve">
+    <value>Where the galaxy was when the light set off. Back then, it was much closer to us than it is today.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Drift" xml:space="preserve">
+    <value>Here, the space between the light and us grows faster than the light can cross it, so for a while the light is actually carried away from us. Later, the light catches up and starts to gain.</value>
+  </data>
+  <data name="Narr_Expand_Obj_FirstStars" xml:space="preserve">
+    <value>A couple of hundred million years in, clouds of gas collapsed and lit up the first stars, ending the dark ages.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Galaxy" xml:space="preserve">
+    <value>Clicking a galaxy makes it your new home. Galaxies don't stretch: their own gravity holds them together, so only the space between them grows.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Ghost" xml:space="preserve">
+    <value>The blue circles show where the galaxies were at the start, lined up on home. Every galaxy has moved straight outwards, and the far ones have moved the most.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Grid" xml:space="preserve">
+    <value>A grid drawn on space itself. As space stretches, the squares grow, and the galaxies ride along in their own squares.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Home" xml:space="preserve">
+    <value>This is home, the galaxy we look out from. From any home, every other galaxy seems to rush away, and the farther it is, the faster it goes.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Infrared" xml:space="preserve">
+    <value>Infrared is light with waves too long for our eyes. We feel it as warmth. Light from distant galaxies ends up here.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Jades" xml:space="preserve">
+    <value>The galaxy JADES-GS-z14-0, seen by the James Webb telescope as it was about three hundred million years after the Big Bang. It's one of the most distant galaxies ever confirmed.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Jwst" xml:space="preserve">
+    <value>The James Webb Space Telescope sees infrared, from just past red out to much longer waves. That's where the light of the first galaxies arrives.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Lab" xml:space="preserve">
+    <value>These are the lines this kind of gas gives off in a laboratory here on Earth, standing still. They're the ruler we compare with.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Law" xml:space="preserve">
+    <value>Hubble's law: speed equals the expansion rate H, times distance. H was bigger in the past. Today it's close to seventy kilometres a second for every megaparsec, which is about three point three million light-years.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Light" xml:space="preserve">
+    <value>The light, drawn as a short train of waves. The waves stretch along with the space they travel through, so the longer the trip, the longer the waves.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Line" xml:space="preserve">
+    <value>Hydrogen's blue-green line, called H-beta. Where it lands on arrival tells us how much the universe has grown since the light set off.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Noon" xml:space="preserve">
+    <value>About ten billion years ago, galaxies were making stars faster than ever before or since. Astronomers call it cosmic noon.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Now" xml:space="preserve">
+    <value>Today, thirteen point eight billion years after the Big Bang. Every universe here is set to today's size and today's expansion rate.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Nuclei" xml:space="preserve">
+    <value>About three minutes in, protons and neutrons fused into the first nuclei, mostly hydrogen and helium. Stars are still made mostly of them today.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Patch" xml:space="preserve">
+    <value>A window into a small patch of space at this moment. Earlier on, the galaxies were packed closer together. Later, they're spread farther apart.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Protons" xml:space="preserve">
+    <value>In the first ten-thousandth of a second, at about a trillion degrees, tiny quarks clumped together into protons and neutrons.</value>
+  </data>
+  <data name="Narr_Expand_Obj_RedshiftClock" xml:space="preserve">
+    <value>How old and how big the universe is while the light travels. It keeps growing the whole way.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Ruler" xml:space="preserve">
+    <value>A tape measure from home to a galaxy, with its distance and its speed away from us. Divide the speed by the distance, and every galaxy gives the same number: the expansion rate.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Size" xml:space="preserve">
+    <value>The height of the horn is the size of the universe compared with today. Any two galaxies are that much farther apart, or closer together.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Source" xml:space="preserve">
+    <value>This is the galaxy the light comes from. It keeps moving away from us the whole time its light is on the way.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Space" xml:space="preserve">
+    <value>These lines cut the space between the galaxy and us into equal pieces. Watch them spread apart. That's space itself stretching.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Speedup" xml:space="preserve">
+    <value>About six billion years ago, dark energy took over from gravity, and the expansion began to speed up.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Sun" xml:space="preserve">
+    <value>Four point six billion years ago, our Sun and Earth formed from a cloud of gas and dust.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Travel" xml:space="preserve">
+    <value>How far the light has come so far, and how much it has been stretched. In one year of travel, light covers one light-year.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Turnaround" xml:space="preserve">
+    <value>In a universe with too much matter, gravity stops the expansion right here. This is as big as it will ever get.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Us" xml:space="preserve">
+    <value>The Milky Way, where we are. This is where the light finally arrives and goes into our telescopes.</value>
+  </data>
+  <data name="Narr_Expand_Obj_Visible" xml:space="preserve">
+    <value>The colours our eyes can see, from violet to red. Redshift pushes light from here towards the red end, and beyond.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_01" xml:space="preserve">
+    <value>Far away on the left is a galaxy. When this light set off, the universe was only half the size it is today. Let's follow the light all the way to us.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_02" xml:space="preserve">
+    <value>Here's the light, drawn as a wave. Keep an eye on the gap between its crests as it travels.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_03" xml:space="preserve">
+    <value>These lines mark out the space between the galaxy and us. Space keeps stretching while the light is on its way, and the waves stretch right along with it.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_04" xml:space="preserve">
+    <value>Meanwhile, the galaxy keeps getting farther away. By the time the light reaches us, the galaxy is much farther away than when the light left.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_05" xml:space="preserve">
+    <value>Now the light has arrived. Every wave is twice as long as when it set off. Longer waves look redder, so we call this redshift.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_06" xml:space="preserve">
+    <value>Astronomers measure redshift with lines in the spectrum. Look: hydrogen's blue-green line has slid all the way past red, into the infrared.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_07" xml:space="preserve">
+    <value>Try this one. Light from a galaxy arrives stretched to three times its length. How big was the universe when the light set off?</value>
+  </data>
+  <data name="Narr_Expand_Redshift_08" xml:space="preserve">
+    <value>Now a galaxy near the edge of what we can see. Its light set off when the universe was less than three hundred million years old, and it's stretched about fifteen times. Even its ultraviolet light arrives as infrared. That's why the James Webb telescope looks in infrared.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_09" xml:space="preserve">
+    <value>This light has been travelling for more than thirteen billion years. But the galaxy is now over thirty billion light-years away, because space kept stretching behind the light.</value>
+  </data>
+  <data name="Narr_Expand_Redshift_10" xml:space="preserve">
+    <value>Your turn. Pick another galaxy, or drag along the chart to choose when the light set off.</value>
   </data>
   <data name="Narr_Hole_Lensing_01" xml:space="preserve">
     <value>Now we're very far away. A black hole is drifting in front of a distant galaxy. The hole itself is far too small to see. But watch what it does to the light coming from behind it.</value>
