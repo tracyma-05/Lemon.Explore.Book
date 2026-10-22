@@ -218,8 +218,10 @@ def convert_types(s: str, namespace: str) -> str:
     s = s.replace("new EllipseGeometry(", "SpaceDrawing.Ellipse(")
     s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
     s = re.sub(r"^\s*RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.\w+\);\s*\n", "", s, flags=re.M)
-    s = re.sub(r"ctx\.LineTo\((.*), (?:true|false), (?:true|false)\);", r"ctx.LineTo(\1);", s)
-    s = re.sub(r"ctx\.ArcTo\((.*), (?:true|false), (?:true|false)\);", r"ctx.ArcTo(\1);", s)
+    s = re.sub(r"\b(\w+)\.LineTo\((.*), (?:true|false), (?:true|false)\);", r"\1.LineTo(\2);", s)
+    s = re.sub(r"\b(\w+)\.ArcTo\((.*), (?:true|false), (?:true|false)\);", r"\1.ArcTo(\2);", s)
+    s = re.sub(r"\b(\w+)\.BezierTo\((.*), (?:true|false), (?:true|false)\);", r"\1.CubicBezierTo(\2);", s)
+    s = re.sub(r"\b(\w+)\.QuadraticBezierTo\((.*), (?:true|false), (?:true|false)\);", r"\1.QuadraticBezierTo(\2);", s)
     s = re.sub(r"Freeze\(new Pen\((.*), ([\d.]+)\)\);", r"MakePen(\1, \2);", s)
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
     s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
@@ -228,7 +230,7 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"\bDependencyProperty (?=\w+\s*[,)])", "AvaloniaProperty ", s)
     s = convert_recurring(s)
     # A two-colour gradient between two points of the drawing (WPF's absolute mapping).
-    arg = r"((?:[^,()]|\([^()]*\))+)"
+    arg = r"((?:[^,()]|\((?:[^()]|\([^()]*\))*\))+)"
     s = re.sub(rf"new LinearGradientBrush\({arg}, {arg}, 0\)\s*\{{\s*MappingMode = BrushMappingMode\.Absolute,\s*"
                rf"StartPoint = {arg},\s*EndPoint = {arg},\s*\}}",
                r"new ImmutableLinearGradientBrush([new ImmutableGradientStop(0, \1), new ImmutableGradientStop(1, \2)], "
@@ -305,7 +307,7 @@ CLASS = re.compile(r"^(?P<head>(?:(?:public|internal|private|protected|sealed|ab
 
 def convert_recurring(s: str) -> str:
     """Idioms many of the original's diagrams share, beyond the one-line rewrites."""
-    arg = r"((?:[^,()]|\([^()]*\))+)"
+    arg = r"((?:[^,()]|\((?:[^()]|\([^()]*\))*\))+)"
 
     # A line through points as one figure: BeginFigure(p, filled) ... LineTo(p), then EndFigure(closed) after the loop.
     s = re.sub(
@@ -653,6 +655,8 @@ def viewmodel(args: argparse.Namespace) -> None:
         if "SpaceDrawing." in s and f"using {TARGET_ROOT}.Controls.Space;" not in s:
             s = s.replace(f"using {TARGET_ROOT}.Controls.Explore;\n",
                           f"using {TARGET_ROOT}.Controls.Explore;\nusing {TARGET_ROOT}.Controls.Space;\n", 1)
+        s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
+        s = re.sub(r"new SolidColorBrush\(", "new ImmutableSolidColorBrush(", s)
         s = s.replace(": ObservableObject, IDisposable", ": ObservableObject, IChapterContent, IDisposable")
         s = s.replace("    private readonly ILocalizationService _localization;\n",
                       "    private readonly ILocalizationService _localization = LocalizationService.Instance;\n    private int _views;\n")
@@ -693,7 +697,7 @@ def load_resx(path: Path) -> dict[str, str]:
     return {d.get("name"): (d.find("value").text or "") for d in root.findall("data")}
 
 
-LAYOUT_WORDS = re.compile(r"\bon the (?:right|left)\b|\bside panel\b|\bthis page\b|\bmenu\b|右侧|左侧|右边|左边|侧栏|本页面|菜单", re.I)
+LAYOUT_WORDS = re.compile(r"\bon the (?:right|left)\b|\bside panel\b|\bthe panel\b|\bthis page\b|\bmenu\b|右侧|左侧|右边|左边|侧栏|面板|本页面|菜单", re.I)
 
 
 def strings(args: argparse.Namespace) -> None:

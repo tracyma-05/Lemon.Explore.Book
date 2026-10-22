@@ -2197,7 +2197,7 @@
     <value>答案是更早：晨线总是先扫过东边。现在让时间按一年来走，每天都停在同一时刻。看分界线的形状怎么变：六月前后，北边的白天长；十二月前后，轮到南边；只有春分和秋分，它才从北极笔直地连到南极。</value>
   </data>
   <data name="Narr_DayNight_Map_07" xml:space="preserve">
-    <value>现在你来试试：在地图上点一个城市，右边会显示那里现在几点、太阳有多高。</value>
+    <value>现在你来试试：在地图上点一个城市，左页会显示那里现在几点、太阳有多高。</value>
   </data>
   <data name="Narr_DayNight_Map_08" xml:space="preserve">
     <value>不管你在哪里，日出、正午和日落，都是因为同一件事：地球带着你转向太阳，又转离太阳。</value>
@@ -2290,7 +2290,7 @@
     <value>而且和日食不一样，地球上所有处在夜晚的地方，都能在同一时间看到月食。</value>
   </data>
   <data name="Narr_Eclipse_Lunar_07" xml:space="preserve">
-    <value>现在你来试试：在右边面板里，给月球换一条穿过地球影子的路线，看看月食会变成什么样。</value>
+    <value>现在你来试试：在左页上，给月球换一条穿过地球影子的路线，看看月食会变成什么样。</value>
   </data>
   <data name="Narr_Eclipse_Lunar_08" xml:space="preserve">
     <value>如果月球只穿过半影，它只会稍微暗一点，淡到大多数人根本察觉不到。</value>
@@ -2320,7 +2320,7 @@
     <value>交点线，连接月球穿过地球轨道平面的两个点。它对准太阳的时候，就是食季。</value>
   </data>
   <data name="Narr_Eclipse_Obj_Observer" xml:space="preserve">
-    <value>这是你，在地球白天的一面，大约是正午。在右边面板里，你可以往北或往南移动，看看从那里看到的日食是什么样。</value>
+    <value>这是你，在地球白天的一面，大约是正午。在左页上，你可以往北或往南移动，看看从那里看到的日食是什么样。</value>
   </data>
   <data name="Narr_Eclipse_Obj_Penumbra" xml:space="preserve">
     <value>半影，本影外面那圈淡一些的影子。站在这里，太阳只被挡住一部分。</value>
@@ -2431,7 +2431,7 @@
     <value>变长了。不管行星走到哪里，两段加起来总是一样长，正好等于椭圆的长轴。园丁画椭圆形的花坛，用的就是两根木桩加一圈绳子。</value>
   </data>
   <data name="Narr_Kepler_Ellipse_07" xml:space="preserve">
-    <value>现在你来试试：拖动右边面板里的轨道形状滑块，让轨道变圆一点，或者更扁一点，看看空焦点怎么移动。</value>
+    <value>现在你来试试：拖动左页上的轨道形状滑块，让轨道变圆一点，或者更扁一点，看看空焦点怎么移动。</value>
   </data>
   <data name="Narr_Kepler_Ellipse_08" xml:space="preserve">
     <value>这是地球真实的轨道。它太接近圆了，几乎看不出区别。这就是开普勒第一定律：每颗行星都沿着椭圆轨道运行，太阳就在椭圆的一个焦点上。</value>
@@ -2515,7 +2515,7 @@
     <value>现在你来试试：把你的行星往太阳拖近一点，或者拖远一点，看看它的一年变成多长。</value>
   </data>
   <data name="Narr_Kepler_Periods_07" xml:space="preserve">
-    <value>这条规律对每颗行星都成立。后来，牛顿找到了它背后的原因：离太阳越远，太阳的引力就越弱。右边面板里的表格，可以一颗一颗地验证它。</value>
+    <value>这条规律对每颗行星都成立。后来，牛顿找到了它背后的原因：离太阳越远，太阳的引力就越弱。左页上的表格，可以一颗一颗地验证它。</value>
   </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>从一个新月到下一个新月，要二十九天半。可是月亮绕地球转一圈，其实只要二十七天多。多出来的两天，是从哪里来的呢？</value>
@@ -2905,7 +2905,7 @@
     <value>我们把倾角调成零度试试。现在一年里每一天都差不多：太阳总是直射赤道，白天和黑夜一样长，四季也就消失了。</value>
   </data>
   <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
-    <value>所以，季节的秘密不在距离，而在地轴的倾斜。你可以拖动右边的滑块，换一个倾角或纬度，看看卡片上的白昼时长和正午太阳高度怎么变。</value>
+    <value>所以，季节的秘密不在距离，而在地轴的倾斜。你可以拖动左页上的滑块，换一个倾角或纬度，看看卡片上的白昼时长和正午太阳高度怎么变。</value>
   </data>
   <data name="Narr_SolarSystem_Obj_Ariel" xml:space="preserve">
     <value>天卫一，天王星最亮的卫星之一，表面被一道道长长的峡谷划过。</value>
@@ -3023,6 +3023,198 @@
   </data>
   <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
     <value>现在你来试试：点击任意一颗行星或卫星，飞过去听听它的故事。</value>
+  </data>
+  <data name="Narr_Star_Diagram_01" xml:space="preserve">
+    <value>这是赫罗图，天文学里最重要的图之一。横着看是恒星的表面温度，越往左越热；竖着看是它真正有多亮。</value>
+  </data>
+  <data name="Narr_Star_Diagram_02" xml:space="preserve">
+    <value>大多数恒星都排在这条带子上，叫主序带。它们都在做同一件事：在核心里把氢聚变成氦。恒星越重，就越热、越亮，在图上的位置也越高。</value>
+  </data>
+  <data name="Narr_Star_Diagram_03" xml:space="preserve">
+    <value>这是我们的太阳，正好在主序带的中间。</value>
+  </data>
+  <data name="Narr_Star_Diagram_04" xml:space="preserve">
+    <value>右上方是巨星。它们温度不高，但个头非常大，所以很亮。大角星和毕宿五都是巨星。</value>
+  </data>
+  <data name="Narr_Star_Diagram_05" xml:space="preserve">
+    <value>左下方是白矮星。它们很热，但非常小，所以很暗。天狼星 B 就是一颗白矮星。</value>
+  </data>
+  <data name="Narr_Star_Diagram_06" xml:space="preserve">
+    <value>想一想：离开主序带以后，太阳会走到这张图的哪里？</value>
+  </data>
+  <data name="Narr_Star_Diagram_07" xml:space="preserve">
+    <value>右上方。看它走的路线：核心里的氢用完以后，它会一路爬上巨星的位置；到了最后，又一下子掉到左下方，变成白矮星。</value>
+  </data>
+  <data name="Narr_Star_Diagram_08" xml:space="preserve">
+    <value>现在你来试试：在左页上改变恒星的质量，看看它的路线怎么变。</value>
+  </data>
+  <data name="Narr_Star_Fates_01" xml:space="preserve">
+    <value>每颗恒星都诞生在一团气体云里。但它最后会怎样结束，几乎只取决于一件事：它出生时有多重。</value>
+  </data>
+  <data name="Narr_Star_Fates_02" xml:space="preserve">
+    <value>最小的恒星叫红矮星，它们烧得非常慢，能活上万亿年。在整个宇宙的历史中，还没有一颗红矮星死去。</value>
+  </data>
+  <data name="Narr_Star_Fates_03" xml:space="preserve">
+    <value>像太阳这样的恒星，会变成红巨星，吹出一团行星状星云，最后成为白矮星。</value>
+  </data>
+  <data name="Narr_Star_Fates_04" xml:space="preserve">
+    <value>想一想：一颗比太阳重八倍以上的恒星，会怎样结束？</value>
+  </data>
+  <data name="Narr_Star_Fates_05" xml:space="preserve">
+    <value>它会爆炸成一颗超新星。在几个星期里，它可能比整个星系还亮，而它内部造出来的元素，都被抛撒到了太空中。</value>
+  </data>
+  <data name="Narr_Star_Fates_06" xml:space="preserve">
+    <value>留下来的核心是一颗中子星：比太阳还重，却被压成一个只有一座城市那么大的球。</value>
+  </data>
+  <data name="Narr_Star_Fates_07" xml:space="preserve">
+    <value>而最重的恒星会塌缩得更厉害，变成黑洞。那里的引力强到连光都逃不出来。</value>
+  </data>
+  <data name="Narr_Star_Fates_08" xml:space="preserve">
+    <value>现在你来试试：点击其中一行，换一种恒星，看看它的一生。</value>
+  </data>
+  <data name="Narr_Star_Fates_09" xml:space="preserve">
+    <value>你血液里的铁、骨头里的钙，都是在太阳诞生之前很久，由那些死去的恒星造出来的。我们都是星尘做成的。</value>
+  </data>
+  <data name="Narr_Star_Life_01" xml:space="preserve">
+    <value>每一颗恒星，都诞生在一团又冷又暗的气体和尘埃云里。引力把云团往里拉，它越转越快，中心也越来越热。</value>
+  </data>
+  <data name="Narr_Star_Life_02" xml:space="preserve">
+    <value>当中心达到大约一千万度，氢开始聚变成氦，一颗恒星就诞生了。我们的太阳，已经这样发光四十五亿年了。</value>
+  </data>
+  <data name="Narr_Star_Life_03" xml:space="preserve">
+    <value>这些虚线圆圈，是水星、金星、地球和火星的轨道，按同样的比例画出来，你就能看出恒星会变得多大。</value>
+  </data>
+  <data name="Narr_Star_Life_04" xml:space="preserve">
+    <value>想一想：当太阳核心里的氢用完了，它会怎样？</value>
+  </data>
+  <data name="Narr_Star_Life_05" xml:space="preserve">
+    <value>它会膨胀成一颗红巨星，比今天宽一百多倍。水星和金星会被它吞没，说不定连地球也逃不掉。</value>
+  </data>
+  <data name="Narr_Star_Life_06" xml:space="preserve">
+    <value>后来，它会把外层轻轻地吹散到太空里。这些气体被炽热的核心照亮，就是行星状星云。虽然名字里有行星，其实和行星没有关系。</value>
+  </data>
+  <data name="Narr_Star_Life_07" xml:space="preserve">
+    <value>最后剩下的是一颗白矮星，只有地球那么大，却有半个太阳那么重。它会在几十亿、几百亿年里，慢慢冷却、慢慢变暗。</value>
+  </data>
+  <data name="Narr_Star_Life_08" xml:space="preserve">
+    <value>现在你来试试：在底部的阶段条上拖动，走一遍太阳的一生。</value>
+  </data>
+  <data name="Narr_Star_Obj_Agb" xml:space="preserve">
+    <value>第二次变成巨星，比第一次还要大。强烈的星风把恒星的外层吹向太空。</value>
+  </data>
+  <data name="Narr_Star_Obj_BlackHole" xml:space="preserve">
+    <value>黑洞。在最重的恒星里，没有什么能阻止核心塌缩。它的引力变得强到连光都跑不出来。</value>
+  </data>
+  <data name="Narr_Star_Obj_BlueDwarf" xml:space="preserve">
+    <value>蓝矮星。到现在还没有一颗恒星变成蓝矮星：红矮星烧得太慢，要上万亿年才会走到这一步，比宇宙现在的年龄长得多。</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassMassive" xml:space="preserve">
+    <value>大质量恒星，质量大约是太阳的八到二十倍。它们只能活几百万年，最后爆发成超新星，留下一颗中子星。</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassRedDwarf" xml:space="preserve">
+    <value>红矮星，质量不到太阳的一半。它们是数量最多的恒星，能发光上万亿年。</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassSunLike" xml:space="preserve">
+    <value>类太阳恒星，质量大约是太阳的一半到八倍。它们会变成红巨星，最后成为白矮星。</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassVeryMassive" xml:space="preserve">
+    <value>特大质量恒星，质量超过太阳的二十倍左右。超新星爆发之后，它们的核心会塌缩成黑洞。</value>
+  </data>
+  <data name="Narr_Star_Obj_Giants" xml:space="preserve">
+    <value>巨星：核心里的氢用完以后膨胀起来的恒星。它们温度不高，但个头很大，所以很亮。</value>
+  </data>
+  <data name="Narr_Star_Obj_HeliumBurning" xml:space="preserve">
+    <value>氦燃烧。核心热到大约一亿度，开始把氦聚变成碳和氧，恒星又安稳了一段时间。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownAldebaran" xml:space="preserve">
+    <value>毕宿五，金牛座那只红色的眼睛。它是一颗橙色巨星，直径大约是太阳的四十五倍。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownArcturus" xml:space="preserve">
+    <value>大角星，一颗橙色的巨星。它核心里的氢已经用完，膨胀到了太阳的二十五倍左右。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownBarnard" xml:space="preserve">
+    <value>巴纳德星，另一颗离我们很近的红矮星，大约六光年远。它在天空中移动得比其他任何恒星都快。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownBetelgeuse" xml:space="preserve">
+    <value>参宿四，猎户座那个红色的肩膀。它是一颗红超巨星，大到如果放在太阳的位置，会一直伸到火星轨道外面。总有一天，它会爆发成超新星。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownDeneb" xml:space="preserve">
+    <value>天津四，在天鹅座里。它是肉眼能看到的发光本领最强的恒星之一，亮度大约是太阳的二十万倍。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownPolaris" xml:space="preserve">
+    <value>北极星。它是一颗黄色的超巨星，会慢慢地脉动，大约每四天变亮一点、又变暗一点。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownProcyonB" xml:space="preserve">
+    <value>南河三 B，另一颗白矮星，绕着明亮的南河三转。它又小又暗，是一颗恒星留下的核心。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownProxima" xml:space="preserve">
+    <value>比邻星，离太阳最近的恒星，大约四光年多一点。它是一颗又小又冷的红矮星，不用望远镜根本看不见。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownRigel" xml:space="preserve">
+    <value>参宿七，猎户座那只明亮的蓝白色的脚。它是一颗蓝超巨星，亮度大约是太阳的十万倍。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSiriusA" xml:space="preserve">
+    <value>天狼星，夜空中最亮的恒星。它是一颗炽热的白色主序星，质量约为太阳的两倍，亮度是太阳的二十五倍，离我们不到九光年。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSiriusB" xml:space="preserve">
+    <value>天狼星 B，天狼星身边那颗暗淡的伴星。它是一颗白矮星，只有地球那么大，质量却和太阳差不多。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSpica" xml:space="preserve">
+    <value>角宿一，一颗非常炽热的蓝色恒星。它其实是两颗大质量恒星，彼此靠得很近，互相绕着转。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSun" xml:space="preserve">
+    <value>太阳，一颗正值中年的主序星，大约四十五亿岁，差不多走完了一生的一半。</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownVega" xml:space="preserve">
+    <value>织女星，就是七夕故事里的那颗织女星。它是一颗炽热的白色主序星，亮度大约是太阳的四十倍，是夏夜里最亮的星星之一。</value>
+  </data>
+  <data name="Narr_Star_Obj_LateBurning" xml:space="preserve">
+    <value>最后的燃烧。像洋葱一样，碳、氖、氧、硅一层一层地在外壳里燃烧，中间的铁核越来越大。最后一个阶段只持续大约一天。</value>
+  </data>
+  <data name="Narr_Star_Obj_MainSequence" xml:space="preserve">
+    <value>主序星，恒星漫长而平稳的壮年。它的核心把氢聚变成氦，放出的能量撑住了恒星，让它不被自己的引力压垮。</value>
+  </data>
+  <data name="Narr_Star_Obj_MainSequenceBand" xml:space="preserve">
+    <value>主序带。恒星一生中的大部分时间都待在这里，在核心里聚变氢。越重的恒星位置越高：更热、更大，也亮得多。</value>
+  </data>
+  <data name="Narr_Star_Obj_NeutronStar" xml:space="preserve">
+    <value>中子星：比太阳还重，却被压成一个城市大小的球。很多中子星每秒能转好几圈，像灯塔一样把光束扫过太空，它们叫脉冲星。</value>
+  </data>
+  <data name="Narr_Star_Obj_Orbits" xml:space="preserve">
+    <value>水星、金星、地球和火星的轨道，比例相同。太阳变成红巨星时，大约会伸展到地球轨道附近。</value>
+  </data>
+  <data name="Narr_Star_Obj_PlanetaryNebula" xml:space="preserve">
+    <value>行星状星云：恒星抛出的外层气体，被留下的炽热核心照亮。早年的望远镜里，它们看起来有点像行星，名字就是这么来的。</value>
+  </data>
+  <data name="Narr_Star_Obj_Protostar" xml:space="preserve">
+    <value>原恒星：一团还在云里往里收缩的气体。核聚变还没开始，它的光来自气体往里落时产生的热。</value>
+  </data>
+  <data name="Narr_Star_Obj_RedGiant" xml:space="preserve">
+    <value>红巨星。恒星膨胀到原来的一百多倍，表面冷却成橙红色。因为个头太大，它依然非常亮。</value>
+  </data>
+  <data name="Narr_Star_Obj_RedSupergiant" xml:space="preserve">
+    <value>红超巨星，个头最大的一类恒星。如果把它放在太阳的位置，所有的内行星都会被它吞没。</value>
+  </data>
+  <data name="Narr_Star_Obj_Subgiant" xml:space="preserve">
+    <value>亚巨星。核心里的氢用完了，氢改在核心外面的一层壳里燃烧，恒星开始膨胀。</value>
+  </data>
+  <data name="Narr_Star_Obj_SunToday" xml:space="preserve">
+    <value>这个虚线圆，是今天的太阳，按同样的比例画出来，方便你比较大小。</value>
+  </data>
+  <data name="Narr_Star_Obj_Supergiant" xml:space="preserve">
+    <value>超巨星。大质量恒星烧燃料烧得很快，体积急剧膨胀，在赫罗图上从蓝色一路横跨到红色。</value>
+  </data>
+  <data name="Narr_Star_Obj_Supergiants" xml:space="preserve">
+    <value>超巨星，最亮的一类恒星：它们是快要走完短暂一生的大质量恒星。</value>
+  </data>
+  <data name="Narr_Star_Obj_Supernova" xml:space="preserve">
+    <value>超新星。铁无法再通过燃烧放出能量，于是核心突然塌缩，整颗恒星把自己炸开。在几个星期里，它可能比整个星系还亮。</value>
+  </data>
+  <data name="Narr_Star_Obj_WhiteDwarf" xml:space="preserve">
+    <value>白矮星：类太阳恒星剩下的裸露核心，差不多有地球那么大。它的一小勺物质，就有一头大象那么重。它只靠剩下的余热发光。</value>
+  </data>
+  <data name="Narr_Star_Obj_WhiteDwarfs" xml:space="preserve">
+    <value>白矮星：很热，但非常小，所以很暗。它们是类太阳恒星留下的核心。</value>
   </data>
   <data name="Narr_Tides_Bulges_01" xml:space="preserve">
     <value>这是从北极上方往下看的地球，月球绕着它转。外面这层蓝色就是海洋。海水的隆起被放大了很多很多倍，好让你看得清。</value>
@@ -4970,6 +5162,651 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>最炽热的行星</value>
+  </data>
+  <data name="Star_Class_Massive" xml:space="preserve">
+    <value>大质量恒星</value>
+  </data>
+  <data name="Star_Class_Massive_Ending" xml:space="preserve">
+    <value>→ 红超巨星 → 超新星 → 中子星</value>
+  </data>
+  <data name="Star_Class_Massive_Lifetime" xml:space="preserve">
+    <value>只燃烧约 1000 万至 3500 万年</value>
+  </data>
+  <data name="Star_Class_Massive_Range" xml:space="preserve">
+    <value>8–20 倍太阳质量</value>
+  </data>
+  <data name="Star_Class_RedDwarf" xml:space="preserve">
+    <value>红矮星</value>
+  </data>
+  <data name="Star_Class_RedDwarf_Ending" xml:space="preserve">
+    <value>→ 慢慢变成氦白矮星（还没有一颗走到这一步）</value>
+  </data>
+  <data name="Star_Class_RedDwarf_Lifetime" xml:space="preserve">
+    <value>可燃烧数千亿至数万亿年</value>
+  </data>
+  <data name="Star_Class_RedDwarf_Range" xml:space="preserve">
+    <value>&lt; 0.5 倍太阳质量</value>
+  </data>
+  <data name="Star_Class_SunLike" xml:space="preserve">
+    <value>类太阳恒星</value>
+  </data>
+  <data name="Star_Class_SunLike_Ending" xml:space="preserve">
+    <value>→ 红巨星 → 行星状星云 → 白矮星</value>
+  </data>
+  <data name="Star_Class_SunLike_Lifetime" xml:space="preserve">
+    <value>可燃烧数千万至数百亿年</value>
+  </data>
+  <data name="Star_Class_SunLike_Range" xml:space="preserve">
+    <value>0.5–8 倍太阳质量</value>
+  </data>
+  <data name="Star_Class_VeryMassive" xml:space="preserve">
+    <value>特大质量恒星</value>
+  </data>
+  <data name="Star_Class_VeryMassive_Ending" xml:space="preserve">
+    <value>→ 红超巨星 → 超新星 → 黑洞</value>
+  </data>
+  <data name="Star_Class_VeryMassive_Lifetime" xml:space="preserve">
+    <value>只燃烧几百万年</value>
+  </data>
+  <data name="Star_Class_VeryMassive_Range" xml:space="preserve">
+    <value>&gt; 20 倍太阳质量（大致）</value>
+  </data>
+  <data name="Star_Clock" xml:space="preserve">
+    <value>年龄 {0}</value>
+  </data>
+  <data name="Star_Colour_Blue" xml:space="preserve">
+    <value>蓝白色</value>
+  </data>
+  <data name="Star_Colour_Orange" xml:space="preserve">
+    <value>橙色</value>
+  </data>
+  <data name="Star_Colour_Red" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="Star_Colour_White" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="Star_Colour_Yellow" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="Star_Colour_YellowWhite" xml:space="preserve">
+    <value>黄白色</value>
+  </data>
+  <data name="Star_Core_Agb" xml:space="preserve">
+    <value>碳氧核外有两层燃烧的壳：氦和氢。</value>
+  </data>
+  <data name="Star_Core_BlackHole" xml:space="preserve">
+    <value>事件视界以内的一切都无法看到。</value>
+  </data>
+  <data name="Star_Core_BlueDwarf" xml:space="preserve">
+    <value>氢聚变成氦，几乎用尽了整颗星的氢。</value>
+  </data>
+  <data name="Star_Core_Caption" xml:space="preserve">
+    <value>恒星内部（剖面，未按比例）</value>
+  </data>
+  <data name="Star_Core_HeliumBurning" xml:space="preserve">
+    <value>核心里氦聚变成碳和氧，壳层中燃烧氢。</value>
+  </data>
+  <data name="Star_Core_LateBurning" xml:space="preserve">
+    <value>每一层都在燃烧外面一层留下的“灰烬”，一直到铁核。</value>
+  </data>
+  <data name="Star_Core_MainSequence" xml:space="preserve">
+    <value>核心里氢聚变成氦。</value>
+  </data>
+  <data name="Star_Core_NeutronStar" xml:space="preserve">
+    <value>没有核聚变：中子挤得像原子核一样紧，外面是一层薄薄的铁壳。</value>
+  </data>
+  <data name="Star_Core_PlanetaryNebula" xml:space="preserve">
+    <value>火已熄灭，裸露的碳氧核照亮它抛出的气体。</value>
+  </data>
+  <data name="Star_Core_Protostar" xml:space="preserve">
+    <value>还没有核聚变：气体在下落中升温。</value>
+  </data>
+  <data name="Star_Core_RedGiant" xml:space="preserve">
+    <value>一个小而致密的氦核，外面是燃烧氢的壳层，再外面是被对流搅动的巨大而冷的包层。</value>
+  </data>
+  <data name="Star_Core_RedSupergiant" xml:space="preserve">
+    <value>核心里氦聚变成碳和氧，壳层中燃烧氢。</value>
+  </data>
+  <data name="Star_Core_Subgiant" xml:space="preserve">
+    <value>氦核不燃烧，氢在它外面的壳层中燃烧。</value>
+  </data>
+  <data name="Star_Core_Supergiant" xml:space="preserve">
+    <value>收缩的氦核外，氢在壳层中燃烧。</value>
+  </data>
+  <data name="Star_Core_Supernova" xml:space="preserve">
+    <value>铁核坍缩成中子，激波把恒星撕碎。</value>
+  </data>
+  <data name="Star_Core_WhiteDwarf" xml:space="preserve">
+    <value>没有核聚变：碳和氧（红矮星留下的是氦）被压得极紧，靠电子的压力撑住。</value>
+  </data>
+  <data name="Star_Days" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Star_Diagram_Fact1" xml:space="preserve">
+    <value>赫茨普龙和罗素在 1910 年到 1913 年间各自独立画出了这张图的最早版本。</value>
+  </data>
+  <data name="Star_Diagram_Fact2" xml:space="preserve">
+    <value>大约九成的恒星（包括太阳）都在主序带上，因为恒星一生的大部分时间都在这里度过。</value>
+  </data>
+  <data name="Star_Diagram_Fact3" xml:space="preserve">
+    <value>温度轴是反的、越往左越热，因为最早的图是按颜色从蓝到红排列的。</value>
+  </data>
+  <data name="Star_Diagram_Fact4" xml:space="preserve">
+    <value>同样大小的恒星排在一条斜线上：一颗低温恒星要非常亮，就只能非常大，比如参宿四。</value>
+  </data>
+  <data name="Star_Diagram_Fact5" xml:space="preserve">
+    <value>夜空中最亮的天狼星有一颗伴星天狼星 B，它是白矮星：比天狼星 A 还热，却只有地球大小，发出的光只有太阳的二十分之一。</value>
+  </data>
+  <data name="Star_Diagram_Note" xml:space="preserve">
+    <value>横轴是温度（越往左越热），纵轴是亮度，都是对数坐标。虚线是恒星一生的完整路径，实线是它已经走过的部分。</value>
+  </data>
+  <data name="Star_Diagram_Subtitle" xml:space="preserve">
+    <value>赫罗图：恒星的一生是在这张图上的一段旅程</value>
+  </data>
+  <data name="Star_DragHint_Fates" xml:space="preserve">
+    <value>点击一行，换成那一类恒星</value>
+  </data>
+  <data name="Star_DragHint_Strip" xml:space="preserve">
+    <value>点击或拖动底部的阶段条，在恒星的一生中前后移动</value>
+  </data>
+  <data name="Star_Duration_Axis" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Star_Duration_Caption" xml:space="preserve">
+    <value>每个阶段实际持续多久</value>
+  </data>
+  <data name="Star_Duration_Note" xml:space="preserve">
+    <value>对数坐标：每条网格线是前一条的一千倍。恒星一生中几乎所有时间都在主序阶段度过。</value>
+  </data>
+  <data name="Star_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Star_Fates_Cloud" xml:space="preserve">
+    <value>气体云</value>
+  </data>
+  <data name="Star_Fates_Fact1" xml:space="preserve">
+    <value>类太阳恒星与大质量恒星的分界约为 8 倍太阳质量；中子星与黑洞的分界大约在 20 到 25 倍之间，目前仍有争议。</value>
+  </data>
+  <data name="Star_Fates_Fact2" xml:space="preserve">
+    <value>白矮星最多只能有 1.44 倍太阳质量，这叫钱德拉塞卡极限；再重的话，电子就撑不住了。</value>
+  </data>
+  <data name="Star_Fates_Fact3" xml:space="preserve">
+    <value>蟹状星云是 1054 年中国天文学家记录的那颗超新星的遗迹，它的中心有一颗每秒自转 30 圈的脉冲星。</value>
+  </data>
+  <data name="Star_Fates_Fact4" xml:space="preserve">
+    <value>猎户座的红超巨星参宿四会在未来 10 万年内的某个时候爆发，届时它会和半个月亮差不多亮。</value>
+  </data>
+  <data name="Star_Fates_Fact5" xml:space="preserve">
+    <value>2019 年，事件视界望远镜公布了第一张黑洞阴影的照片，拍的是 M87 星系中心的黑洞。</value>
+  </data>
+  <data name="Star_Fates_Note" xml:space="preserve">
+    <value>适用于像太阳这样的单颗恒星。质量分界只是大致的，中子星与黑洞之间的分界尤其不确定。</value>
+  </data>
+  <data name="Star_Fates_Subtitle" xml:space="preserve">
+    <value>四种结局：白矮星、中子星或黑洞</value>
+  </data>
+  <data name="Star_Fates_Table" xml:space="preserve">
+    <value>四类恒星</value>
+  </data>
+  <data name="Star_Forever" xml:space="preserve">
+    <value>永久</value>
+  </data>
+  <data name="Star_Hr_AxisL" xml:space="preserve">
+    <value>亮度（太阳 = 1）</value>
+  </data>
+  <data name="Star_Hr_AxisT" xml:space="preserve">
+    <value>表面温度（K），越往左越热</value>
+  </data>
+  <data name="Star_Hr_BlackHole" xml:space="preserve">
+    <value>黑洞：不发光</value>
+  </data>
+  <data name="Star_Hr_Giants" xml:space="preserve">
+    <value>巨星</value>
+  </data>
+  <data name="Star_Hr_MainSequence" xml:space="preserve">
+    <value>主序带</value>
+  </data>
+  <data name="Star_Hr_NeutronStar" xml:space="preserve">
+    <value>中子星：太小太暗，不在图上</value>
+  </data>
+  <data name="Star_Hr_Radius" xml:space="preserve">
+    <value>{0} R☉</value>
+  </data>
+  <data name="Star_Hr_Supergiants" xml:space="preserve">
+    <value>超巨星</value>
+  </data>
+  <data name="Star_Hr_Supernova" xml:space="preserve">
+    <value>超新星：太阳的 {0} 倍，远远超出图表</value>
+  </data>
+  <data name="Star_Hr_WhiteDwarfs" xml:space="preserve">
+    <value>白矮星</value>
+  </data>
+  <data name="Star_JumpTo" xml:space="preserve">
+    <value>跳转到</value>
+  </data>
+  <data name="Star_Km" xml:space="preserve">
+    <value>{0} 公里</value>
+  </data>
+  <data name="Star_Known_Aldebaran" xml:space="preserve">
+    <value>毕宿五</value>
+  </data>
+  <data name="Star_Known_Arcturus" xml:space="preserve">
+    <value>大角星</value>
+  </data>
+  <data name="Star_Known_Barnard" xml:space="preserve">
+    <value>巴纳德星</value>
+  </data>
+  <data name="Star_Known_Betelgeuse" xml:space="preserve">
+    <value>参宿四</value>
+  </data>
+  <data name="Star_Known_Deneb" xml:space="preserve">
+    <value>天津四</value>
+  </data>
+  <data name="Star_Known_Polaris" xml:space="preserve">
+    <value>北极星</value>
+  </data>
+  <data name="Star_Known_ProcyonB" xml:space="preserve">
+    <value>南河三 B</value>
+  </data>
+  <data name="Star_Known_Proxima" xml:space="preserve">
+    <value>比邻星</value>
+  </data>
+  <data name="Star_Known_Rigel" xml:space="preserve">
+    <value>参宿七</value>
+  </data>
+  <data name="Star_Known_SiriusA" xml:space="preserve">
+    <value>天狼星 A</value>
+  </data>
+  <data name="Star_Known_SiriusB" xml:space="preserve">
+    <value>天狼星 B</value>
+  </data>
+  <data name="Star_Known_Spica" xml:space="preserve">
+    <value>角宿一</value>
+  </data>
+  <data name="Star_Known_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Star_Known_Vega" xml:space="preserve">
+    <value>织女星</value>
+  </data>
+  <data name="Star_Label_Remnant" xml:space="preserve">
+    <value>{0} · 直径 {1} 公里</value>
+  </data>
+  <data name="Star_Label_Star" xml:space="preserve">
+    <value>{0} · 太阳的 {1} 倍大</value>
+  </data>
+  <data name="Star_Label_SunToday" xml:space="preserve">
+    <value>今天的太阳</value>
+  </data>
+  <data name="Star_Layer_C" xml:space="preserve">
+    <value>碳</value>
+  </data>
+  <data name="Star_Layer_CoCore" xml:space="preserve">
+    <value>碳氧核</value>
+  </data>
+  <data name="Star_Layer_CoDegenerate" xml:space="preserve">
+    <value>简并的碳和氧</value>
+  </data>
+  <data name="Star_Layer_Collapse" xml:space="preserve">
+    <value>中子核</value>
+  </data>
+  <data name="Star_Layer_Crust" xml:space="preserve">
+    <value>铁外壳</value>
+  </data>
+  <data name="Star_Layer_Ejected" xml:space="preserve">
+    <value>抛出的气体</value>
+  </data>
+  <data name="Star_Layer_Envelope" xml:space="preserve">
+    <value>外部包层</value>
+  </data>
+  <data name="Star_Layer_Fe" xml:space="preserve">
+    <value>铁核</value>
+  </data>
+  <data name="Star_Layer_Gas" xml:space="preserve">
+    <value>下落的气体</value>
+  </data>
+  <data name="Star_Layer_H" xml:space="preserve">
+    <value>氢</value>
+  </data>
+  <data name="Star_Layer_HCore" xml:space="preserve">
+    <value>氢 → 氦</value>
+  </data>
+  <data name="Star_Layer_HShell" xml:space="preserve">
+    <value>燃烧氢的壳层</value>
+  </data>
+  <data name="Star_Layer_He" xml:space="preserve">
+    <value>氦</value>
+  </data>
+  <data name="Star_Layer_HeBurning" xml:space="preserve">
+    <value>氦 → 碳、氧</value>
+  </data>
+  <data name="Star_Layer_HeCore" xml:space="preserve">
+    <value>氦核</value>
+  </data>
+  <data name="Star_Layer_HeDegenerate" xml:space="preserve">
+    <value>简并的氦</value>
+  </data>
+  <data name="Star_Layer_HeShell" xml:space="preserve">
+    <value>燃烧氦的壳层</value>
+  </data>
+  <data name="Star_Layer_Horizon" xml:space="preserve">
+    <value>事件视界</value>
+  </data>
+  <data name="Star_Layer_HotCore" xml:space="preserve">
+    <value>升温的核心</value>
+  </data>
+  <data name="Star_Layer_Infall" xml:space="preserve">
+    <value>下落的外层</value>
+  </data>
+  <data name="Star_Layer_Ne" xml:space="preserve">
+    <value>氖</value>
+  </data>
+  <data name="Star_Layer_Neutrons" xml:space="preserve">
+    <value>中子</value>
+  </data>
+  <data name="Star_Layer_O" xml:space="preserve">
+    <value>氧</value>
+  </data>
+  <data name="Star_Layer_Shock" xml:space="preserve">
+    <value>激波</value>
+  </data>
+  <data name="Star_Layer_Si" xml:space="preserve">
+    <value>硅</value>
+  </data>
+  <data name="Star_Layer_Space" xml:space="preserve">
+    <value>不断扩大的空隙</value>
+  </data>
+  <data name="Star_Lesson_Diagram_Choice1" xml:space="preserve">
+    <value>右上方，变成巨星</value>
+  </data>
+  <data name="Star_Lesson_Diagram_Choice2" xml:space="preserve">
+    <value>直接往下，变成白矮星</value>
+  </data>
+  <data name="Star_Lesson_Diagram_Choice3" xml:space="preserve">
+    <value>一直待在原地</value>
+  </data>
+  <data name="Star_Lesson_Fates_Choice1" xml:space="preserve">
+    <value>爆炸成超新星</value>
+  </data>
+  <data name="Star_Lesson_Fates_Choice2" xml:space="preserve">
+    <value>和太阳一样变成白矮星</value>
+  </data>
+  <data name="Star_Lesson_Fates_Choice3" xml:space="preserve">
+    <value>永远不会死</value>
+  </data>
+  <data name="Star_Lesson_Life_Choice1" xml:space="preserve">
+    <value>膨胀成红巨星</value>
+  </data>
+  <data name="Star_Lesson_Life_Choice2" xml:space="preserve">
+    <value>马上爆炸</value>
+  </data>
+  <data name="Star_Lesson_Life_Choice3" xml:space="preserve">
+    <value>直接熄灭</value>
+  </data>
+  <data name="Star_Life_Fact1" xml:space="preserve">
+    <value>太阳已经 46 亿岁，大约走完了它 100 亿年主序寿命的一半。</value>
+  </data>
+  <data name="Star_Life_Fact2" xml:space="preserve">
+    <value>大约 50 亿年后，太阳会变成红巨星，吞没水星和金星；它会不会吞没地球，目前还说不准。</value>
+  </data>
+  <data name="Star_Life_Fact3" xml:space="preserve">
+    <value>越重的恒星烧得越快：10 倍太阳质量的恒星比太阳亮几千倍，却只能活大约 2000 万年。</value>
+  </data>
+  <data name="Star_Life_Fact4" xml:space="preserve">
+    <value>你身体里的每一个碳、氧、铁原子，都是在恒星内部造出来，又在恒星死亡时撒向太空的。</value>
+  </data>
+  <data name="Star_Life_Fact5" xml:space="preserve">
+    <value>红矮星是最常见的恒星，大约每四颗里有三颗；离太阳最近的恒星比邻星就是一颗红矮星。</value>
+  </data>
+  <data name="Star_Life_Note" xml:space="preserve">
+    <value>未按比例：大小按立方根缩放，这样比太阳大一千倍的超巨星和地球大小的白矮星都能画下。播放时每个阶段轮流展示，实际时长标在底部。</value>
+  </data>
+  <data name="Star_Life_Subtitle" xml:space="preserve">
+    <value>恒星的一生由质量决定：越重越亮，也越短命</value>
+  </data>
+  <data name="Star_Mass_Caption" xml:space="preserve">
+    <value>出生时的质量</value>
+  </data>
+  <data name="Star_Mass_Value" xml:space="preserve">
+    <value>{0} 倍太阳质量</value>
+  </data>
+  <data name="Star_Mode_Diagram" xml:space="preserve">
+    <value>赫罗图</value>
+  </data>
+  <data name="Star_Mode_Fates" xml:space="preserve">
+    <value>归宿</value>
+  </data>
+  <data name="Star_Mode_Life" xml:space="preserve">
+    <value>一生</value>
+  </data>
+  <data name="Star_NextStage" xml:space="preserve">
+    <value>下一阶段</value>
+  </data>
+  <data name="Star_Obj_Orbits" xml:space="preserve">
+    <value>行星的轨道</value>
+  </data>
+  <data name="Star_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格键）</value>
+  </data>
+  <data name="Star_Preset_40" xml:space="preserve">
+    <value>40 倍太阳</value>
+  </data>
+  <data name="Star_PreviousStage" xml:space="preserve">
+    <value>上一阶段</value>
+  </data>
+  <data name="Star_Remnant_Caption" xml:space="preserve">
+    <value>遗骸有多大</value>
+  </data>
+  <data name="Star_Remnant_Note" xml:space="preserve">
+    <value>左：白矮星与地球；右：再放大一千倍的中子星和黑洞。一茶匙白矮星物质约重 5 吨，一茶匙中子星物质约重 10 亿吨。</value>
+  </data>
+  <data name="Star_ShowKnownStars" xml:space="preserve">
+    <value>真实恒星</value>
+  </data>
+  <data name="Star_ShowOrbits" xml:space="preserve">
+    <value>行星轨道</value>
+  </data>
+  <data name="Star_ShowRadiusLines" xml:space="preserve">
+    <value>等半径线</value>
+  </data>
+  <data name="Star_ShowSun" xml:space="preserve">
+    <value>太阳作对比</value>
+  </data>
+  <data name="Star_Stage_Agb" xml:space="preserve">
+    <value>渐近巨星</value>
+  </data>
+  <data name="Star_Stage_Agb_Description" xml:space="preserve">
+    <value>核心的氦也烧完了。氦和氢在碳氧核外的两层壳里燃烧；恒星膨胀得更大，不断脉动，强烈的星风把它的外层吹走。</value>
+  </data>
+  <data name="Star_Stage_Agb_Title" xml:space="preserve">
+    <value>渐近巨星：第二次、更大的膨胀</value>
+  </data>
+  <data name="Star_Stage_BlackHole" xml:space="preserve">
+    <value>黑洞</value>
+  </data>
+  <data name="Star_Stage_BlackHole_Description" xml:space="preserve">
+    <value>核心太重，连中子也撑不住，于是永远坍缩下去。在直径几十公里的事件视界以内，引力强到任何东西，包括光，都无法逃脱。</value>
+  </data>
+  <data name="Star_Stage_BlackHole_Title" xml:space="preserve">
+    <value>黑洞：连光都逃不出来</value>
+  </data>
+  <data name="Star_Stage_BlueDwarf" xml:space="preserve">
+    <value>蓝矮星</value>
+  </data>
+  <data name="Star_Stage_BlueDwarf_Description" xml:space="preserve">
+    <value>红矮星内部的对流把氢搅遍全身，所以几乎能把氢全部烧完。到了最后，它会变得更小、更热、更蓝。宇宙还太年轻：还没有任何恒星走到这一步。</value>
+  </data>
+  <data name="Star_Stage_BlueDwarf_Title" xml:space="preserve">
+    <value>蓝矮星：红矮星缓慢的终点</value>
+  </data>
+  <data name="Star_Stage_HeliumBurning" xml:space="preserve">
+    <value>氦燃烧</value>
+  </data>
+  <data name="Star_Stage_HeliumBurning_Description" xml:space="preserve">
+    <value>核心达到一亿度时点燃了氦，把它聚变成碳和氧；像太阳这样的恒星会以一次“氦闪”开始。恒星暂时缩小回来。</value>
+  </data>
+  <data name="Star_Stage_HeliumBurning_Title" xml:space="preserve">
+    <value>氦燃烧：第二种燃料</value>
+  </data>
+  <data name="Star_Stage_LateBurning" xml:space="preserve">
+    <value>最后的燃烧</value>
+  </data>
+  <data name="Star_Stage_LateBurning_Description" xml:space="preserve">
+    <value>碳、氖、氧、硅依次燃烧，一个比一个快：碳能烧几百年，硅只烧大约一天。核心变成了铁，而铁聚变不再释放能量：火熄灭了。</value>
+  </data>
+  <data name="Star_Stage_LateBurning_Title" xml:space="preserve">
+    <value>最后的燃料：像洋葱一样分层</value>
+  </data>
+  <data name="Star_Stage_MainSequence" xml:space="preserve">
+    <value>主序星</value>
+  </data>
+  <data name="Star_Stage_MainSequence_Description" xml:space="preserve">
+    <value>在一千多万度的核心里，氢聚变成氦。聚变产生的热向外推，正好与引力平衡，恒星一生中大部分时间几乎不变。太阳现在就处在这个阶段。</value>
+  </data>
+  <data name="Star_Stage_MainSequence_Title" xml:space="preserve">
+    <value>主序星：稳定地燃烧氢</value>
+  </data>
+  <data name="Star_Stage_NeutronStar" xml:space="preserve">
+    <value>中子星</value>
+  </data>
+  <data name="Star_Stage_NeutronStar_Description" xml:space="preserve">
+    <value>坍缩后的核心：比太阳还重的质量挤在直径约 20 公里的球里，几乎全由中子组成。它每秒自转许多圈；如果它的光束扫过地球，我们就看到一颗脉冲星。</value>
+  </data>
+  <data name="Star_Stage_NeutronStar_Title" xml:space="preserve">
+    <value>中子星：城市大小的“原子核”</value>
+  </data>
+  <data name="Star_Stage_PlanetaryNebula" xml:space="preserve">
+    <value>行星状星云</value>
+  </data>
+  <data name="Star_Stage_PlanetaryNebula_Description" xml:space="preserve">
+    <value>恒星抛掉了外层。裸露出来的核心温度超过 10 万度，把飘散的气体照亮成发光的壳层，持续数万年。这个名字是历史留下的：它和行星毫无关系。</value>
+  </data>
+  <data name="Star_Stage_PlanetaryNebula_Title" xml:space="preserve">
+    <value>行星状星云：外层飘散</value>
+  </data>
+  <data name="Star_Stage_Protostar" xml:space="preserve">
+    <value>原恒星</value>
+  </data>
+  <data name="Star_Stage_Protostar_Description" xml:space="preserve">
+    <value>一团冰冷的气体和尘埃在自身引力下坍缩。它越缩越热，发出红光，周围旋转的盘不断给它“喂料”，两极喷出喷流。此时还没有核聚变：热量来自下落。</value>
+  </data>
+  <data name="Star_Stage_Protostar_Title" xml:space="preserve">
+    <value>原恒星：正在坍缩的气体云</value>
+  </data>
+  <data name="Star_Stage_RedGiant" xml:space="preserve">
+    <value>红巨星</value>
+  </data>
+  <data name="Star_Stage_RedGiant_Description" xml:space="preserve">
+    <value>燃烧的壳层释放出大量能量，外层膨胀到太阳的一百多倍。表面冷却成橙红色，但整颗星却比太阳亮几千倍。</value>
+  </data>
+  <data name="Star_Stage_RedGiant_Title" xml:space="preserve">
+    <value>红巨星：膨胀而冷却</value>
+  </data>
+  <data name="Star_Stage_RedSupergiant" xml:space="preserve">
+    <value>红超巨星</value>
+  </data>
+  <data name="Star_Stage_RedSupergiant_Description" xml:space="preserve">
+    <value>氦在核心燃烧。恒星大到如果放在太阳的位置，会超过火星轨道，有的甚至超过木星轨道。猎户座的参宿四就是一颗红超巨星。</value>
+  </data>
+  <data name="Star_Stage_RedSupergiant_Title" xml:space="preserve">
+    <value>红超巨星：比太阳大几百倍</value>
+  </data>
+  <data name="Star_Stage_Subgiant" xml:space="preserve">
+    <value>亚巨星</value>
+  </data>
+  <data name="Star_Stage_Subgiant_Description" xml:space="preserve">
+    <value>核心变成了氦，不再燃烧。它收缩、升温，氢在核心外的一层壳里继续燃烧，恒星的外层开始膨胀。</value>
+  </data>
+  <data name="Star_Stage_Subgiant_Title" xml:space="preserve">
+    <value>亚巨星：核心的氢烧完了</value>
+  </data>
+  <data name="Star_Stage_Supergiant" xml:space="preserve">
+    <value>超巨星</value>
+  </data>
+  <data name="Star_Stage_Supergiant_Description" xml:space="preserve">
+    <value>核心的氢耗尽后开始收缩，氢在它周围继续燃烧。在几千年里，恒星从蓝色膨胀成红色，以几乎不变的亮度横穿赫罗图。</value>
+  </data>
+  <data name="Star_Stage_Supergiant_Title" xml:space="preserve">
+    <value>膨胀成超巨星</value>
+  </data>
+  <data name="Star_Stage_Supernova" xml:space="preserve">
+    <value>超新星</value>
+  </data>
+  <data name="Star_Stage_Supernova_Description" xml:space="preserve">
+    <value>铁核在不到一秒内坍缩，从地球大小变成直径 20 公里的中子球。下落的外层反弹，形成剧烈的爆炸，几周内亮如数十亿个太阳，制造出重元素并把它们撒向太空。</value>
+  </data>
+  <data name="Star_Stage_Supernova_Title" xml:space="preserve">
+    <value>超新星：核心坍缩</value>
+  </data>
+  <data name="Star_Stage_WhiteDwarf" xml:space="preserve">
+    <value>白矮星</value>
+  </data>
+  <data name="Star_Stage_WhiteDwarf_Description" xml:space="preserve">
+    <value>剩下的是核心：大约半个太阳的质量被压缩到地球大小。它不再燃烧，只是在几十亿年里从白热慢慢冷却成暗红。</value>
+  </data>
+  <data name="Star_Stage_WhiteDwarf_Title" xml:space="preserve">
+    <value>白矮星：慢慢冷却的余烬</value>
+  </data>
+  <data name="Star_Stat_Age" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="Star_Stat_Luminosity" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="Star_Stat_Mass" xml:space="preserve">
+    <value>出生时</value>
+  </data>
+  <data name="Star_Stat_Radius" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Star_Stat_Remnant" xml:space="preserve">
+    <value>遗骸质量</value>
+  </data>
+  <data name="Star_Stat_Remnant_Value" xml:space="preserve">
+    <value>{0} 倍太阳质量</value>
+  </data>
+  <data name="Star_Stat_Size" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="Star_Stat_StageLasts" xml:space="preserve">
+    <value>本阶段持续</value>
+  </data>
+  <data name="Star_Stat_Temperature" xml:space="preserve">
+    <value>表面温度</value>
+  </data>
+  <data name="Star_Stat_Temperature_Value" xml:space="preserve">
+    <value>{0} K，{1}</value>
+  </data>
+  <data name="Star_Times_Sun" xml:space="preserve">
+    <value>太阳的 {0} 倍</value>
+  </data>
+  <data name="Star_Title" xml:space="preserve">
+    <value>恒星的一生</value>
+  </data>
+  <data name="Star_TodaySun" xml:space="preserve">
+    <value>今天的太阳</value>
+  </data>
+  <data name="Star_Years" xml:space="preserve">
+    <value>{0:N0} 年</value>
+  </data>
+  <data name="Star_Years_Big" xml:space="preserve">
+    <value>{0} 亿年</value>
+  </data>
+  <data name="Star_Years_Big_Unit" xml:space="preserve">
+    <value>100000000</value>
+  </data>
+  <data name="Star_Years_Huge" xml:space="preserve">
+    <value>{0} 万亿年</value>
+  </data>
+  <data name="Star_Years_Huge_Unit" xml:space="preserve">
+    <value>1000000000000</value>
+  </data>
+  <data name="Star_Years_Mid" xml:space="preserve">
+    <value>{0} 万年</value>
+  </data>
+  <data name="Star_Years_Mid_Unit" xml:space="preserve">
+    <value>10000</value>
   </data>
   <data name="Text_AddToNotes" xml:space="preserve">
     <value>加入笔记</value>

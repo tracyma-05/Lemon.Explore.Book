@@ -1,0 +1,181 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:stars="using:Lemon.Explore.Book.Chapters.StarLife"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.StarLife.StarLifeTextPageView"
+                         x:DataType="stars:StarLifeTextPageViewModel">
+    <!-- Left page of the Star life spread: the star's mass, each view's own pictures, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector="Border.fate">
+            <Setter Property="Margin" Value="0,0,0,6" />
+            <Setter Property="Padding" Value="10,7" />
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="{DynamicResource ChipBorderBrush}" />
+        </Style>
+        <Style Selector="Border.fate.current">
+            <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource AccentBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Star.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Star.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Star.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="StarMode" IsChecked="{Binding Star.IsLife}" Content="{loc:Localize Star_Mode_Life}" />
+                    <RadioButton Classes="chip" GroupName="StarMode" IsChecked="{Binding Star.IsDiagram}" Content="{loc:Localize Star_Mode_Diagram}" />
+                    <RadioButton Classes="chip" GroupName="StarMode" IsChecked="{Binding Star.IsFates}" Content="{loc:Localize Star_Mode_Fates}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Star.Card}" />
+
+                <!-- The star's mass -->
+                <DockPanel Margin="0,14,0,2">
+                    <SelectableTextBlock Classes="value" Text="{Binding Star.MassText}" />
+                    <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Star_Mass_Caption}" />
+                </DockPanel>
+                <Slider Minimum="{Binding Star.MinLogMass}" Maximum="{Binding Star.MaxLogMass}" Value="{Binding Star.LogMass}"
+                        SmallChange="0.01" LargeChange="0.1" AutomationProperties.Name="{loc:Localize Star_Mass_Caption}" />
+                <SelectableTextBlock Margin="0,2,0,8" FontSize="13" FontWeight="SemiBold" Foreground="{DynamicResource AccentBrush}"
+                                     Text="{Binding Star.ClassName}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Star.SetMassCommand}" CommandParameter="0.12" Content="{loc:Localize Star_Known_Proxima}" />
+                    <Button Classes="chip" Command="{Binding Star.SetMassCommand}" CommandParameter="1" Content="{loc:Localize Star_Known_Sun}" />
+                    <Button Classes="chip" Command="{Binding Star.SetMassCommand}" CommandParameter="2.06" Content="{loc:Localize Star_Known_SiriusA}" />
+                    <Button Classes="chip" Command="{Binding Star.SetMassCommand}" CommandParameter="11" Content="{loc:Localize Star_Known_Spica}" />
+                    <Button Classes="chip" Command="{Binding Star.SetMassCommand}" CommandParameter="18" Content="{loc:Localize Star_Known_Betelgeuse}" />
+                    <Button Classes="chip" Command="{Binding Star.SetMassCommand}" CommandParameter="40" Content="{loc:Localize Star_Preset_40}" />
+                </WrapPanel>
+
+                <!-- Life: the Sun and planets for scale, and inside the star -->
+                <StackPanel IsVisible="{Binding Star.IsLife}">
+                    <WrapPanel Margin="0,8,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Star.ShowSun}" Content="{loc:Localize Star_ShowSun}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Star.ShowOrbits}" IsEnabled="{Binding Star.IsSunLike}"
+                                      Content="{loc:Localize Star_ShowOrbits}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Star_Core_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <stars:CoreView Stage="{Binding Star.Stage}" Mass="{Binding Star.Mass}"
+                                        AutomationProperties.Name="{loc:Localize Star_Core_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Star.CoreText}" />
+                </StackPanel>
+
+                <!-- Diagram: what to show, and how long each stage lasts -->
+                <StackPanel IsVisible="{Binding Star.IsDiagram}">
+                    <WrapPanel Margin="0,8,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Star.ShowKnownStars}" Content="{loc:Localize Star_ShowKnownStars}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Star.ShowRadiusLines}" Content="{loc:Localize Star_ShowRadiusLines}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Star_Duration_Caption}" />
+                    <Border Classes="plate" Height="220">
+                        <stars:DurationChart Mass="{Binding Star.Mass}" StageIndex="{Binding Star.StageIndex}"
+                                             AutomationProperties.Name="{loc:Localize Star_Duration_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Star_Duration_Note}" />
+                </StackPanel>
+
+                <!-- Fates: the remains side by side, and the four kinds of star -->
+                <StackPanel IsVisible="{Binding Star.IsFates}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Star_Remnant_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <stars:RemnantView Mass="{Binding Star.Mass}" AutomationProperties.Name="{loc:Localize Star_Remnant_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Star_Remnant_Note}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Star_Fates_Table}" />
+                    <ItemsControl ItemsSource="{Binding Star.FateRows}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="stars:StarFateRow">
+                                <Border Classes="fate" Classes.current="{Binding IsCurrent}">
+                                    <StackPanel>
+                                        <DockPanel>
+                                            <SelectableTextBlock DockPanel.Dock="Right" Classes="statName" Margin="0" Text="{Binding Range}" />
+                                            <SelectableTextBlock FontSize="13" FontWeight="SemiBold" Foreground="{DynamicResource InkBrush}" Text="{Binding Name}" />
+                                        </DockPanel>
+                                        <SelectableTextBlock Classes="note" Margin="0,3,0,0" Text="{Binding Lifetime}" />
+                                        <SelectableTextBlock Classes="note" Text="{Binding Ending}" />
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the stage -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Star.StageBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Star.StageTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Star.StageDescription}" />
+                            <ItemsControl ItemsSource="{Binding Star.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="stars:StarStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Star_JumpTo}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Star.StepCommand}" CommandParameter="Previous" Content="{loc:Localize Star_PreviousStage}" />
+                    <Button Classes="chip" Command="{Binding Star.StepCommand}" CommandParameter="Next" Content="{loc:Localize Star_NextStage}" />
+                    <Button Classes="chip" Command="{Binding Star.TodaySunCommand}" Content="{loc:Localize Star_TodaySun}" />
+                </WrapPanel>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Star_Facts}" />
+                <ItemsControl ItemsSource="{Binding Star.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

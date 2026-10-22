@@ -2197,7 +2197,7 @@
     <value>The answer is earlier: the sunrise line reaches the east first. Now let's run through a whole year, stopping at the same moment each day. Watch the line change shape. Around June the north has the long days, around December the south does, and only at the equinoxes does the line run straight from pole to pole.</value>
   </data>
   <data name="Narr_DayNight_Map_07" xml:space="preserve">
-    <value>Now you try. Click a city on the map, and the panel on the right shows what time it is there and how high the Sun is.</value>
+    <value>Now you try. Click a city on the map, and the left page shows what time it is there and how high the Sun is.</value>
   </data>
   <data name="Narr_DayNight_Map_08" xml:space="preserve">
     <value>Wherever you are, sunrise, noon and sunset all come from the same thing: Earth turning you towards the Sun and away again.</value>
@@ -2290,7 +2290,7 @@
     <value>And unlike a solar eclipse, everyone on the night side of Earth can see a lunar eclipse, all at the same time.</value>
   </data>
   <data name="Narr_Eclipse_Lunar_07" xml:space="preserve">
-    <value>Now you try. In the panel on the right, choose a different path for the Moon through Earth's shadow, and watch how the eclipse changes.</value>
+    <value>Now you try. On the left page, choose a different path for the Moon through Earth's shadow, and watch how the eclipse changes.</value>
   </data>
   <data name="Narr_Eclipse_Lunar_08" xml:space="preserve">
     <value>If the Moon only passes through the penumbra, it just dims a little. It's so faint that most people never notice.</value>
@@ -2320,7 +2320,7 @@
     <value>The line of nodes, joining the two points where the Moon crosses the plane of Earth's orbit. When it points at the Sun, it's eclipse season.</value>
   </data>
   <data name="Narr_Eclipse_Obj_Observer" xml:space="preserve">
-    <value>This is you, on Earth's day side, where it's around noon. In the panel on the right, you can move north or south and see how the eclipse looks from there.</value>
+    <value>This is you, on Earth's day side, where it's around noon. On the left page, you can move north or south and see how the eclipse looks from there.</value>
   </data>
   <data name="Narr_Eclipse_Obj_Penumbra" xml:space="preserve">
     <value>The penumbra, the lighter shadow around the umbra. From here, only part of the Sun is hidden.</value>
@@ -2431,7 +2431,7 @@
     <value>It's longer. Wherever the planet goes, the two parts always add up to the same length: the long axis of the ellipse. That's how gardeners mark out an oval flower bed, with two pegs and a loop of rope.</value>
   </data>
   <data name="Narr_Kepler_Ellipse_07" xml:space="preserve">
-    <value>Now you try. Move the orbit shape slider in the panel on the right. Make the orbit rounder, or more stretched, and watch the empty focus move.</value>
+    <value>Now you try. Move the orbit shape slider on the left page. Make the orbit rounder, or more stretched, and watch the empty focus move.</value>
   </data>
   <data name="Narr_Kepler_Ellipse_08" xml:space="preserve">
     <value>This is Earth's real orbit. It's so close to a circle that you can hardly tell the difference. That's Kepler's first law: every planet moves on an ellipse, with the Sun at one focus.</value>
@@ -2515,7 +2515,7 @@
     <value>Now you try. Drag your planet nearer to the Sun or farther away, and see how long its year becomes.</value>
   </data>
   <data name="Narr_Kepler_Periods_07" xml:space="preserve">
-    <value>This rule works for every planet. Later, Isaac Newton showed where it comes from: the Sun's gravity gets weaker the farther away you are. The table in the panel checks it for each planet.</value>
+    <value>This rule works for every planet. Later, Isaac Newton showed where it comes from: the Sun's gravity gets weaker the farther away you are. The table on the left page checks it for each planet.</value>
   </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>From one new moon to the next takes twenty-nine and a half days. But the Moon only needs about twenty-seven days to go once around Earth. So where do the extra two days come from?</value>
@@ -2905,7 +2905,7 @@
     <value>Let's set the tilt to zero and see. Now every day of the year is much the same. The Sun is always overhead at the equator, day and night are equal, and the seasons disappear.</value>
   </data>
   <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
-    <value>So the secret of the seasons isn't distance. It's the tilt of the axis. Try the sliders on the right with a different tilt or latitude, and watch how the day length and the noon Sun on the card change.</value>
+    <value>So the secret of the seasons isn't distance. It's the tilt of the axis. Try the sliders on the left page with a different tilt or latitude, and watch how the day length and the noon Sun on the card change.</value>
   </data>
   <data name="Narr_SolarSystem_Obj_Ariel" xml:space="preserve">
     <value>Ariel, one of the brightest moons of Uranus, crossed by long valleys.</value>
@@ -3023,6 +3023,198 @@
   </data>
   <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
     <value>Now you try. Click any planet or moon to fly to it and hear about it.</value>
+  </data>
+  <data name="Narr_Star_Diagram_01" xml:space="preserve">
+    <value>This is the Hertzsprung-Russell diagram, one of the most important maps in astronomy. Across is a star's surface temperature, hottest on the left. Up is how bright it really is.</value>
+  </data>
+  <data name="Narr_Star_Diagram_02" xml:space="preserve">
+    <value>Most stars lie along this band, the main sequence. They're all doing the same thing: fusing hydrogen in their cores. The heavier the star, the hotter and brighter it is, so the higher up it sits.</value>
+  </data>
+  <data name="Narr_Star_Diagram_03" xml:space="preserve">
+    <value>Here's our Sun, right in the middle of the main sequence.</value>
+  </data>
+  <data name="Narr_Star_Diagram_04" xml:space="preserve">
+    <value>Up and to the right are the giants. They're cool, but so big that they shine brightly. Arcturus and Aldebaran are giants.</value>
+  </data>
+  <data name="Narr_Star_Diagram_05" xml:space="preserve">
+    <value>Down and to the left are the white dwarfs. They're very hot, but tiny, so they're faint. Sirius B is one.</value>
+  </data>
+  <data name="Narr_Star_Diagram_06" xml:space="preserve">
+    <value>Think about it. After the main sequence, where will our Sun go on this diagram?</value>
+  </data>
+  <data name="Narr_Star_Diagram_07" xml:space="preserve">
+    <value>Up and to the right. Watch the path it follows. As it runs out of hydrogen in its core, it climbs up to the giants. At the very end, it drops all the way down to the white dwarfs.</value>
+  </data>
+  <data name="Narr_Star_Diagram_08" xml:space="preserve">
+    <value>Now you try. Change the star's mass on the left page, and see how its path changes.</value>
+  </data>
+  <data name="Narr_Star_Fates_01" xml:space="preserve">
+    <value>Every star starts in a cloud of gas. But how it ends depends almost entirely on one thing: how much mass it has when it's born.</value>
+  </data>
+  <data name="Narr_Star_Fates_02" xml:space="preserve">
+    <value>The smallest stars, red dwarfs, burn so slowly that they'll last for trillions of years. Not one has died yet in the whole history of the universe.</value>
+  </data>
+  <data name="Narr_Star_Fates_03" xml:space="preserve">
+    <value>Stars like the Sun become red giants, puff off a planetary nebula, and end as white dwarfs.</value>
+  </data>
+  <data name="Narr_Star_Fates_04" xml:space="preserve">
+    <value>Think about it. What happens to a star more than eight times heavier than the Sun?</value>
+  </data>
+  <data name="Narr_Star_Fates_05" xml:space="preserve">
+    <value>It explodes as a supernova. For a few weeks it can shine brighter than a whole galaxy, and the elements made inside it are blown out into space.</value>
+  </data>
+  <data name="Narr_Star_Fates_06" xml:space="preserve">
+    <value>The core left behind is a neutron star: more mass than the Sun, squeezed into a ball the size of a city.</value>
+  </data>
+  <data name="Narr_Star_Fates_07" xml:space="preserve">
+    <value>And the heaviest stars collapse even further, into a black hole, where gravity is so strong that not even light can escape.</value>
+  </data>
+  <data name="Narr_Star_Fates_08" xml:space="preserve">
+    <value>Now you try. Click a row to choose another kind of star, and follow its life.</value>
+  </data>
+  <data name="Narr_Star_Fates_09" xml:space="preserve">
+    <value>The iron in your blood and the calcium in your bones were made inside stars that died long before the Sun was born. We are made of star stuff.</value>
+  </data>
+  <data name="Narr_Star_Life_01" xml:space="preserve">
+    <value>Every star begins in a cold, dark cloud of gas and dust. Gravity pulls the cloud together. It spins faster and faster, and the middle gets hotter and hotter.</value>
+  </data>
+  <data name="Narr_Star_Life_02" xml:space="preserve">
+    <value>When the centre reaches about ten million degrees, hydrogen starts fusing into helium, and a star is born. Our Sun has been shining like this for four and a half billion years.</value>
+  </data>
+  <data name="Narr_Star_Life_03" xml:space="preserve">
+    <value>These dashed circles are the orbits of Mercury, Venus, Earth and Mars, drawn on the same scale, so you can see how big the star gets.</value>
+  </data>
+  <data name="Narr_Star_Life_04" xml:space="preserve">
+    <value>Think about it. When the hydrogen in its core runs out, what will happen to the Sun?</value>
+  </data>
+  <data name="Narr_Star_Life_05" xml:space="preserve">
+    <value>It swells into a red giant, more than a hundred times wider than today. It will swallow Mercury and Venus, and perhaps even Earth.</value>
+  </data>
+  <data name="Narr_Star_Life_06" xml:space="preserve">
+    <value>Later, it gently puffs its outer layers off into space. They glow around the hot core as a planetary nebula, which, despite the name, has nothing to do with planets.</value>
+  </data>
+  <data name="Narr_Star_Life_07" xml:space="preserve">
+    <value>What's left is a white dwarf, about the size of Earth but as heavy as half the Sun. It slowly cools and fades for billions and billions of years.</value>
+  </data>
+  <data name="Narr_Star_Life_08" xml:space="preserve">
+    <value>Now you try. Drag along the strip of stages at the bottom, and travel through the Sun's whole life.</value>
+  </data>
+  <data name="Narr_Star_Obj_Agb" xml:space="preserve">
+    <value>A second giant stage, even bigger than the first. Strong winds blow the star's outer layers away into space.</value>
+  </data>
+  <data name="Narr_Star_Obj_BlackHole" xml:space="preserve">
+    <value>A black hole. In the heaviest stars, nothing can stop the core collapsing. Its gravity becomes so strong that not even light can get out.</value>
+  </data>
+  <data name="Narr_Star_Obj_BlueDwarf" xml:space="preserve">
+    <value>A blue dwarf. No star has become one yet: a red dwarf burns so slowly that it won't get here for trillions of years, far longer than the universe has existed.</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassMassive" xml:space="preserve">
+    <value>Massive stars, about eight to twenty times the Sun's mass. They live for only millions of years, and end in a supernova that leaves a neutron star.</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassRedDwarf" xml:space="preserve">
+    <value>Red dwarfs, less than half the Sun's mass. They're the most common stars of all, and they shine for trillions of years.</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassSunLike" xml:space="preserve">
+    <value>Sun-like stars, from about half to eight times the Sun's mass. They become red giants and end as white dwarfs.</value>
+  </data>
+  <data name="Narr_Star_Obj_ClassVeryMassive" xml:space="preserve">
+    <value>The most massive stars, more than about twenty times the Sun's mass. After their supernova, the core collapses into a black hole.</value>
+  </data>
+  <data name="Narr_Star_Obj_Giants" xml:space="preserve">
+    <value>Giants: stars that have run out of hydrogen in their cores and swelled up. They're cool, but so big that they shine brightly.</value>
+  </data>
+  <data name="Narr_Star_Obj_HeliumBurning" xml:space="preserve">
+    <value>Helium burning. The core has become hot enough, about a hundred million degrees, to fuse helium into carbon and oxygen, and the star settles down for a while.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownAldebaran" xml:space="preserve">
+    <value>Aldebaran, the red eye of Taurus the Bull. It's an orange giant, about forty-five times wider than the Sun.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownArcturus" xml:space="preserve">
+    <value>Arcturus, an orange giant. It has used up the hydrogen in its core and swelled to about twenty-five times the Sun's width.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownBarnard" xml:space="preserve">
+    <value>Barnard's Star, another nearby red dwarf, about six light-years away. It moves across our sky faster than any other star.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownBetelgeuse" xml:space="preserve">
+    <value>Betelgeuse, Orion's red shoulder. It's a red supergiant so big that, in the Sun's place, it would reach past the orbit of Mars. One day it will explode as a supernova.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownDeneb" xml:space="preserve">
+    <value>Deneb, in the constellation of the Swan. It's one of the most luminous stars you can see with the naked eye, about two hundred thousand times as bright as the Sun.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownPolaris" xml:space="preserve">
+    <value>Polaris, the North Star. It's a yellow supergiant that slowly pulses, growing a little brighter and dimmer about every four days.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownProcyonB" xml:space="preserve">
+    <value>Procyon B, another white dwarf, circling the bright star Procyon. Small and faint, it's the leftover core of a star.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownProxima" xml:space="preserve">
+    <value>Proxima Centauri, the nearest star to the Sun, a little over four light-years away. It's a small, cool red dwarf, far too faint to see without a telescope.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownRigel" xml:space="preserve">
+    <value>Rigel, the bright blue-white foot of Orion. It's a blue supergiant, about a hundred thousand times as bright as the Sun.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSiriusA" xml:space="preserve">
+    <value>Sirius, the brightest star in the night sky. It's a hot, white main-sequence star, about twice the Sun's mass and twenty-five times as bright, less than nine light-years away.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSiriusB" xml:space="preserve">
+    <value>Sirius B, the faint companion of Sirius: a white dwarf about the size of Earth, yet about as heavy as the Sun.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSpica" xml:space="preserve">
+    <value>Spica, a very hot blue star. It's really two massive stars, orbiting each other very closely.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownSun" xml:space="preserve">
+    <value>The Sun, a middle-aged star on the main sequence, about four and a half billion years old, roughly halfway through its life.</value>
+  </data>
+  <data name="Narr_Star_Obj_KnownVega" xml:space="preserve">
+    <value>Vega, a hot, white main-sequence star about forty times as bright as the Sun, one of the brightest stars of summer evenings.</value>
+  </data>
+  <data name="Narr_Star_Obj_LateBurning" xml:space="preserve">
+    <value>The last fuels. Like the layers of an onion, shells of carbon, neon, oxygen and silicon burn around a growing core of iron. The very last stage lasts only about a day.</value>
+  </data>
+  <data name="Narr_Star_Obj_MainSequence" xml:space="preserve">
+    <value>The main sequence, a star's long, steady adult life. In its core, hydrogen fuses into helium, and the energy this gives out holds the star up against its own gravity.</value>
+  </data>
+  <data name="Narr_Star_Obj_MainSequenceBand" xml:space="preserve">
+    <value>The main sequence. Stars spend most of their lives here, fusing hydrogen in their cores. Heavier stars sit higher up: hotter, bigger, and much brighter.</value>
+  </data>
+  <data name="Narr_Star_Obj_NeutronStar" xml:space="preserve">
+    <value>A neutron star: more mass than the Sun, crushed into a ball the size of a city. Many spin several times a second, sweeping beams across space like a lighthouse. Those are pulsars.</value>
+  </data>
+  <data name="Narr_Star_Obj_Orbits" xml:space="preserve">
+    <value>The orbits of Mercury, Venus, Earth and Mars, on the same scale. As a red giant, the Sun will reach out to about Earth's orbit.</value>
+  </data>
+  <data name="Narr_Star_Obj_PlanetaryNebula" xml:space="preserve">
+    <value>A planetary nebula: the star's outer layers, thrown off and lit up by the hot core left behind. Through old telescopes they looked a little like planets, which is how they got the name.</value>
+  </data>
+  <data name="Narr_Star_Obj_Protostar" xml:space="preserve">
+    <value>A protostar: a ball of gas still pulling itself together inside its cloud. It glows from the heat of falling in, before any fusion has started.</value>
+  </data>
+  <data name="Narr_Star_Obj_RedGiant" xml:space="preserve">
+    <value>A red giant. The star has swelled to a hundred times its old size or more, and its surface has cooled to orange-red. It's still very bright, because it's so big.</value>
+  </data>
+  <data name="Narr_Star_Obj_RedSupergiant" xml:space="preserve">
+    <value>A red supergiant, the biggest kind of star. In the Sun's place, it would swallow all the inner planets.</value>
+  </data>
+  <data name="Narr_Star_Obj_Subgiant" xml:space="preserve">
+    <value>A subgiant. The hydrogen in the core has run out, so hydrogen now burns in a shell around it, and the star starts to swell.</value>
+  </data>
+  <data name="Narr_Star_Obj_SunToday" xml:space="preserve">
+    <value>The dashed circle is the Sun as it is today, drawn on the same scale, so you can compare sizes.</value>
+  </data>
+  <data name="Narr_Star_Obj_Supergiant" xml:space="preserve">
+    <value>A supergiant. A massive star burns through its fuel fast and swells hugely, crossing the diagram from blue to red.</value>
+  </data>
+  <data name="Narr_Star_Obj_Supergiants" xml:space="preserve">
+    <value>Supergiants, the brightest stars of all: massive stars near the end of their short lives.</value>
+  </data>
+  <data name="Narr_Star_Obj_Supernova" xml:space="preserve">
+    <value>A supernova. Iron can't be burned to give out energy, so the core suddenly collapses, and the star blows itself apart. For a few weeks it can outshine a whole galaxy.</value>
+  </data>
+  <data name="Narr_Star_Obj_WhiteDwarf" xml:space="preserve">
+    <value>A white dwarf: the bare core of a Sun-like star, about as big as Earth. A teaspoon of it would weigh about as much as an elephant. It shines only with its leftover heat.</value>
+  </data>
+  <data name="Narr_Star_Obj_WhiteDwarfs" xml:space="preserve">
+    <value>White dwarfs: hot but tiny, so they're faint. They're the leftover cores of stars like the Sun.</value>
   </data>
   <data name="Narr_Tides_Bulges_01" xml:space="preserve">
     <value>Here's Earth seen from above the North Pole, with the Moon going round it. The blue layer is the ocean. Its bulges are hugely exaggerated, so you can see them.</value>
@@ -4970,6 +5162,651 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>The hottest planet</value>
+  </data>
+  <data name="Star_Class_Massive" xml:space="preserve">
+    <value>Massive star</value>
+  </data>
+  <data name="Star_Class_Massive_Ending" xml:space="preserve">
+    <value>→ red supergiant → supernova → neutron star</value>
+  </data>
+  <data name="Star_Class_Massive_Lifetime" xml:space="preserve">
+    <value>Shines for only about 10 to 35 million years</value>
+  </data>
+  <data name="Star_Class_Massive_Range" xml:space="preserve">
+    <value>8–20 Suns</value>
+  </data>
+  <data name="Star_Class_RedDwarf" xml:space="preserve">
+    <value>Red dwarf</value>
+  </data>
+  <data name="Star_Class_RedDwarf_Ending" xml:space="preserve">
+    <value>→ fades into a helium white dwarf (none has yet)</value>
+  </data>
+  <data name="Star_Class_RedDwarf_Lifetime" xml:space="preserve">
+    <value>Shines for hundreds of billions to trillions of years</value>
+  </data>
+  <data name="Star_Class_RedDwarf_Range" xml:space="preserve">
+    <value>&lt; 0.5 Suns</value>
+  </data>
+  <data name="Star_Class_SunLike" xml:space="preserve">
+    <value>Sun-like star</value>
+  </data>
+  <data name="Star_Class_SunLike_Ending" xml:space="preserve">
+    <value>→ red giant → planetary nebula → white dwarf</value>
+  </data>
+  <data name="Star_Class_SunLike_Lifetime" xml:space="preserve">
+    <value>Shines for tens of millions to tens of billions of years</value>
+  </data>
+  <data name="Star_Class_SunLike_Range" xml:space="preserve">
+    <value>0.5–8 Suns</value>
+  </data>
+  <data name="Star_Class_VeryMassive" xml:space="preserve">
+    <value>Very massive star</value>
+  </data>
+  <data name="Star_Class_VeryMassive_Ending" xml:space="preserve">
+    <value>→ red supergiant → supernova → black hole</value>
+  </data>
+  <data name="Star_Class_VeryMassive_Lifetime" xml:space="preserve">
+    <value>Shines for just a few million years</value>
+  </data>
+  <data name="Star_Class_VeryMassive_Range" xml:space="preserve">
+    <value>&gt; 20 Suns (roughly)</value>
+  </data>
+  <data name="Star_Clock" xml:space="preserve">
+    <value>Age {0}</value>
+  </data>
+  <data name="Star_Colour_Blue" xml:space="preserve">
+    <value>blue-white</value>
+  </data>
+  <data name="Star_Colour_Orange" xml:space="preserve">
+    <value>orange</value>
+  </data>
+  <data name="Star_Colour_Red" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="Star_Colour_White" xml:space="preserve">
+    <value>white</value>
+  </data>
+  <data name="Star_Colour_Yellow" xml:space="preserve">
+    <value>yellow</value>
+  </data>
+  <data name="Star_Colour_YellowWhite" xml:space="preserve">
+    <value>yellow-white</value>
+  </data>
+  <data name="Star_Core_Agb" xml:space="preserve">
+    <value>Two burning shells, helium and hydrogen, round a carbon-oxygen core.</value>
+  </data>
+  <data name="Star_Core_BlackHole" xml:space="preserve">
+    <value>Nothing inside the event horizon can be seen.</value>
+  </data>
+  <data name="Star_Core_BlueDwarf" xml:space="preserve">
+    <value>Hydrogen into helium, nearly all of the star's hydrogen used.</value>
+  </data>
+  <data name="Star_Core_Caption" xml:space="preserve">
+    <value>Inside the star (cut open, not to scale)</value>
+  </data>
+  <data name="Star_Core_HeliumBurning" xml:space="preserve">
+    <value>Helium into carbon and oxygen in the core, hydrogen in a shell.</value>
+  </data>
+  <data name="Star_Core_LateBurning" xml:space="preserve">
+    <value>Each layer burns the ashes of the one outside it, down to an iron core.</value>
+  </data>
+  <data name="Star_Core_MainSequence" xml:space="preserve">
+    <value>Hydrogen fuses into helium in the core.</value>
+  </data>
+  <data name="Star_Core_NeutronStar" xml:space="preserve">
+    <value>No fusion: neutrons packed as tight as in an atomic nucleus, under a thin iron crust.</value>
+  </data>
+  <data name="Star_Core_PlanetaryNebula" xml:space="preserve">
+    <value>The fires are out; the bare carbon-oxygen core lights the gas it has shed.</value>
+  </data>
+  <data name="Star_Core_Protostar" xml:space="preserve">
+    <value>No fusion yet: the gas heats up as it falls in.</value>
+  </data>
+  <data name="Star_Core_RedGiant" xml:space="preserve">
+    <value>A small, dense helium core, hydrogen burning in a shell, and a huge cool envelope stirred by convection.</value>
+  </data>
+  <data name="Star_Core_RedSupergiant" xml:space="preserve">
+    <value>Helium into carbon and oxygen in the core, hydrogen in a shell.</value>
+  </data>
+  <data name="Star_Core_Subgiant" xml:space="preserve">
+    <value>The helium core is not burning; hydrogen burns in a shell around it.</value>
+  </data>
+  <data name="Star_Core_Supergiant" xml:space="preserve">
+    <value>Hydrogen burning in a shell round a contracting helium core.</value>
+  </data>
+  <data name="Star_Core_Supernova" xml:space="preserve">
+    <value>The iron core collapses to neutrons; a shock wave tears the star apart.</value>
+  </data>
+  <data name="Star_Core_WhiteDwarf" xml:space="preserve">
+    <value>No fusion: carbon and oxygen (helium, for a red dwarf) pressed so tight that electrons hold it up.</value>
+  </data>
+  <data name="Star_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Star_Diagram_Fact1" xml:space="preserve">
+    <value>Ejnar Hertzsprung and Henry Norris Russell drew the first versions of the diagram independently, around 1910 to 1913.</value>
+  </data>
+  <data name="Star_Diagram_Fact2" xml:space="preserve">
+    <value>About nine in ten stars, the Sun among them, are on the main sequence, because that is where stars spend most of their lives.</value>
+  </data>
+  <data name="Star_Diagram_Fact3" xml:space="preserve">
+    <value>Temperature runs backwards, hot on the left, because the first diagrams were drawn by colour, from blue to red.</value>
+  </data>
+  <data name="Star_Diagram_Fact4" xml:space="preserve">
+    <value>Stars of one size lie along a diagonal: a cool star can only be very bright by being huge, like Betelgeuse.</value>
+  </data>
+  <data name="Star_Diagram_Fact5" xml:space="preserve">
+    <value>Sirius B, the companion of the brightest star in the night sky, is a white dwarf: hotter than Sirius A, but only Earth-sized, so it gives out a twentieth of the Sun's light.</value>
+  </data>
+  <data name="Star_Diagram_Note" xml:space="preserve">
+    <value>Temperature across, hot on the left, and brightness up, both on log scales. The dashed line is the star's whole path, the solid one the part it has lived.</value>
+  </data>
+  <data name="Star_Diagram_Subtitle" xml:space="preserve">
+    <value>The Hertzsprung–Russell diagram: a star's life is a journey across it</value>
+  </data>
+  <data name="Star_DragHint_Fates" xml:space="preserve">
+    <value>Click a row to pick a star of that kind</value>
+  </data>
+  <data name="Star_DragHint_Strip" xml:space="preserve">
+    <value>Click or drag along the strip of stages at the bottom to move through the star's life</value>
+  </data>
+  <data name="Star_Duration_Axis" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="Star_Duration_Caption" xml:space="preserve">
+    <value>How long each stage really lasts</value>
+  </data>
+  <data name="Star_Duration_Note" xml:space="preserve">
+    <value>On a log scale: each grid line is a thousand times the last. Almost all of a star's life is spent on the main sequence.</value>
+  </data>
+  <data name="Star_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Star_Fates_Cloud" xml:space="preserve">
+    <value>Gas cloud</value>
+  </data>
+  <data name="Star_Fates_Fact1" xml:space="preserve">
+    <value>The line between Sun-like and massive stars is about 8 Suns; between neutron stars and black holes perhaps 20 to 25, and it is still debated.</value>
+  </data>
+  <data name="Star_Fates_Fact2" xml:space="preserve">
+    <value>A white dwarf can weigh at most 1.44 Suns, the Chandrasekhar limit; any heavier and its electrons can no longer hold it up.</value>
+  </data>
+  <data name="Star_Fates_Fact3" xml:space="preserve">
+    <value>The Crab Nebula is what is left of a supernova Chinese astronomers recorded in 1054; a pulsar spinning 30 times a second sits at its centre.</value>
+  </data>
+  <data name="Star_Fates_Fact4" xml:space="preserve">
+    <value>Betelgeuse, a red supergiant in Orion, will explode some time in the next 100,000 years and shine about as bright as a half Moon.</value>
+  </data>
+  <data name="Star_Fates_Fact5" xml:space="preserve">
+    <value>In 2019 the Event Horizon Telescope showed the first picture of a black hole's shadow, in the galaxy M87.</value>
+  </data>
+  <data name="Star_Fates_Note" xml:space="preserve">
+    <value>For single stars like the Sun. The mass limits are approximate, the one between neutron stars and black holes especially.</value>
+  </data>
+  <data name="Star_Fates_Subtitle" xml:space="preserve">
+    <value>Four ways to end: a white dwarf, a neutron star or a black hole</value>
+  </data>
+  <data name="Star_Fates_Table" xml:space="preserve">
+    <value>The four kinds of star</value>
+  </data>
+  <data name="Star_Forever" xml:space="preserve">
+    <value>for ever</value>
+  </data>
+  <data name="Star_Hr_AxisL" xml:space="preserve">
+    <value>Brightness (Sun = 1)</value>
+  </data>
+  <data name="Star_Hr_AxisT" xml:space="preserve">
+    <value>Surface temperature (K), hotter to the left</value>
+  </data>
+  <data name="Star_Hr_BlackHole" xml:space="preserve">
+    <value>Black hole: gives no light</value>
+  </data>
+  <data name="Star_Hr_Giants" xml:space="preserve">
+    <value>Giants</value>
+  </data>
+  <data name="Star_Hr_MainSequence" xml:space="preserve">
+    <value>Main sequence</value>
+  </data>
+  <data name="Star_Hr_NeutronStar" xml:space="preserve">
+    <value>Neutron star: too small and faint for the chart</value>
+  </data>
+  <data name="Star_Hr_Radius" xml:space="preserve">
+    <value>{0} R☉</value>
+  </data>
+  <data name="Star_Hr_Supergiants" xml:space="preserve">
+    <value>Supergiants</value>
+  </data>
+  <data name="Star_Hr_Supernova" xml:space="preserve">
+    <value>Supernova: {0} × the Sun, far off the chart</value>
+  </data>
+  <data name="Star_Hr_WhiteDwarfs" xml:space="preserve">
+    <value>White dwarfs</value>
+  </data>
+  <data name="Star_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Star_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Star_Known_Aldebaran" xml:space="preserve">
+    <value>Aldebaran</value>
+  </data>
+  <data name="Star_Known_Arcturus" xml:space="preserve">
+    <value>Arcturus</value>
+  </data>
+  <data name="Star_Known_Barnard" xml:space="preserve">
+    <value>Barnard's Star</value>
+  </data>
+  <data name="Star_Known_Betelgeuse" xml:space="preserve">
+    <value>Betelgeuse</value>
+  </data>
+  <data name="Star_Known_Deneb" xml:space="preserve">
+    <value>Deneb</value>
+  </data>
+  <data name="Star_Known_Polaris" xml:space="preserve">
+    <value>Polaris</value>
+  </data>
+  <data name="Star_Known_ProcyonB" xml:space="preserve">
+    <value>Procyon B</value>
+  </data>
+  <data name="Star_Known_Proxima" xml:space="preserve">
+    <value>Proxima Centauri</value>
+  </data>
+  <data name="Star_Known_Rigel" xml:space="preserve">
+    <value>Rigel</value>
+  </data>
+  <data name="Star_Known_SiriusA" xml:space="preserve">
+    <value>Sirius A</value>
+  </data>
+  <data name="Star_Known_SiriusB" xml:space="preserve">
+    <value>Sirius B</value>
+  </data>
+  <data name="Star_Known_Spica" xml:space="preserve">
+    <value>Spica</value>
+  </data>
+  <data name="Star_Known_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Star_Known_Vega" xml:space="preserve">
+    <value>Vega</value>
+  </data>
+  <data name="Star_Label_Remnant" xml:space="preserve">
+    <value>{0} · {1} km across</value>
+  </data>
+  <data name="Star_Label_Star" xml:space="preserve">
+    <value>{0} · {1} × the Sun's size</value>
+  </data>
+  <data name="Star_Label_SunToday" xml:space="preserve">
+    <value>The Sun today</value>
+  </data>
+  <data name="Star_Layer_C" xml:space="preserve">
+    <value>Carbon</value>
+  </data>
+  <data name="Star_Layer_CoCore" xml:space="preserve">
+    <value>Carbon-oxygen core</value>
+  </data>
+  <data name="Star_Layer_CoDegenerate" xml:space="preserve">
+    <value>Carbon and oxygen, degenerate</value>
+  </data>
+  <data name="Star_Layer_Collapse" xml:space="preserve">
+    <value>Neutron core</value>
+  </data>
+  <data name="Star_Layer_Crust" xml:space="preserve">
+    <value>Iron crust</value>
+  </data>
+  <data name="Star_Layer_Ejected" xml:space="preserve">
+    <value>Shed gas</value>
+  </data>
+  <data name="Star_Layer_Envelope" xml:space="preserve">
+    <value>Envelope</value>
+  </data>
+  <data name="Star_Layer_Fe" xml:space="preserve">
+    <value>Iron core</value>
+  </data>
+  <data name="Star_Layer_Gas" xml:space="preserve">
+    <value>Falling gas</value>
+  </data>
+  <data name="Star_Layer_H" xml:space="preserve">
+    <value>Hydrogen</value>
+  </data>
+  <data name="Star_Layer_HCore" xml:space="preserve">
+    <value>Hydrogen → helium</value>
+  </data>
+  <data name="Star_Layer_HShell" xml:space="preserve">
+    <value>Hydrogen burning shell</value>
+  </data>
+  <data name="Star_Layer_He" xml:space="preserve">
+    <value>Helium</value>
+  </data>
+  <data name="Star_Layer_HeBurning" xml:space="preserve">
+    <value>Helium → carbon, oxygen</value>
+  </data>
+  <data name="Star_Layer_HeCore" xml:space="preserve">
+    <value>Helium core</value>
+  </data>
+  <data name="Star_Layer_HeDegenerate" xml:space="preserve">
+    <value>Helium, degenerate</value>
+  </data>
+  <data name="Star_Layer_HeShell" xml:space="preserve">
+    <value>Helium burning shell</value>
+  </data>
+  <data name="Star_Layer_Horizon" xml:space="preserve">
+    <value>Event horizon</value>
+  </data>
+  <data name="Star_Layer_HotCore" xml:space="preserve">
+    <value>Warming core</value>
+  </data>
+  <data name="Star_Layer_Infall" xml:space="preserve">
+    <value>Infalling layers</value>
+  </data>
+  <data name="Star_Layer_Ne" xml:space="preserve">
+    <value>Neon</value>
+  </data>
+  <data name="Star_Layer_Neutrons" xml:space="preserve">
+    <value>Neutrons</value>
+  </data>
+  <data name="Star_Layer_O" xml:space="preserve">
+    <value>Oxygen</value>
+  </data>
+  <data name="Star_Layer_Shock" xml:space="preserve">
+    <value>Shock wave</value>
+  </data>
+  <data name="Star_Layer_Si" xml:space="preserve">
+    <value>Silicon</value>
+  </data>
+  <data name="Star_Layer_Space" xml:space="preserve">
+    <value>Widening gap</value>
+  </data>
+  <data name="Star_Lesson_Diagram_Choice1" xml:space="preserve">
+    <value>Up and to the right, to the giants</value>
+  </data>
+  <data name="Star_Lesson_Diagram_Choice2" xml:space="preserve">
+    <value>Straight down to the white dwarfs</value>
+  </data>
+  <data name="Star_Lesson_Diagram_Choice3" xml:space="preserve">
+    <value>It stays where it is</value>
+  </data>
+  <data name="Star_Lesson_Fates_Choice1" xml:space="preserve">
+    <value>It explodes as a supernova</value>
+  </data>
+  <data name="Star_Lesson_Fates_Choice2" xml:space="preserve">
+    <value>It becomes a white dwarf, like the Sun</value>
+  </data>
+  <data name="Star_Lesson_Fates_Choice3" xml:space="preserve">
+    <value>It lasts for ever</value>
+  </data>
+  <data name="Star_Lesson_Life_Choice1" xml:space="preserve">
+    <value>It swells into a red giant</value>
+  </data>
+  <data name="Star_Lesson_Life_Choice2" xml:space="preserve">
+    <value>It explodes straight away</value>
+  </data>
+  <data name="Star_Lesson_Life_Choice3" xml:space="preserve">
+    <value>It just goes out</value>
+  </data>
+  <data name="Star_Life_Fact1" xml:space="preserve">
+    <value>The Sun is 4.6 billion years old, about halfway through its 10 billion years on the main sequence.</value>
+  </data>
+  <data name="Star_Life_Fact2" xml:space="preserve">
+    <value>In about 5 billion years the Sun will become a red giant and swallow Mercury and Venus; whether it reaches Earth is still uncertain.</value>
+  </data>
+  <data name="Star_Life_Fact3" xml:space="preserve">
+    <value>Heavier stars burn far faster: a star of 10 Suns is thousands of times as bright and lasts only about 20 million years.</value>
+  </data>
+  <data name="Star_Life_Fact4" xml:space="preserve">
+    <value>Every atom of carbon, oxygen and iron in your body was made inside stars and spread by them as they died.</value>
+  </data>
+  <data name="Star_Life_Fact5" xml:space="preserve">
+    <value>Red dwarfs are the most common stars, about three in four; Proxima Centauri, the nearest star to the Sun, is one.</value>
+  </data>
+  <data name="Star_Life_Note" xml:space="preserve">
+    <value>Not to scale: sizes go by the cube root, so a supergiant a thousand times the Sun and an Earth-sized white dwarf both fit. Playback gives each stage its turn; the real lengths are along the bottom.</value>
+  </data>
+  <data name="Star_Life_Subtitle" xml:space="preserve">
+    <value>A star's life is decided by its mass: the heavier, the brighter, and the shorter</value>
+  </data>
+  <data name="Star_Mass_Caption" xml:space="preserve">
+    <value>Mass at birth</value>
+  </data>
+  <data name="Star_Mass_Value" xml:space="preserve">
+    <value>{0} × the Sun's mass</value>
+  </data>
+  <data name="Star_Mode_Diagram" xml:space="preserve">
+    <value>H–R diagram</value>
+  </data>
+  <data name="Star_Mode_Fates" xml:space="preserve">
+    <value>Fates</value>
+  </data>
+  <data name="Star_Mode_Life" xml:space="preserve">
+    <value>Life</value>
+  </data>
+  <data name="Star_NextStage" xml:space="preserve">
+    <value>Next stage</value>
+  </data>
+  <data name="Star_Obj_Orbits" xml:space="preserve">
+    <value>The planets' orbits</value>
+  </data>
+  <data name="Star_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Star_Preset_40" xml:space="preserve">
+    <value>40 Suns</value>
+  </data>
+  <data name="Star_PreviousStage" xml:space="preserve">
+    <value>Previous stage</value>
+  </data>
+  <data name="Star_Remnant_Caption" xml:space="preserve">
+    <value>How big the remains are</value>
+  </data>
+  <data name="Star_Remnant_Note" xml:space="preserve">
+    <value>Left, a white dwarf beside Earth; right, a thousand times closer in, a neutron star and a black hole. A teaspoon of white dwarf weighs about 5 tonnes, of neutron star about a billion tonnes.</value>
+  </data>
+  <data name="Star_ShowKnownStars" xml:space="preserve">
+    <value>Real stars</value>
+  </data>
+  <data name="Star_ShowOrbits" xml:space="preserve">
+    <value>Planets' orbits</value>
+  </data>
+  <data name="Star_ShowRadiusLines" xml:space="preserve">
+    <value>Lines of equal size</value>
+  </data>
+  <data name="Star_ShowSun" xml:space="preserve">
+    <value>The Sun for scale</value>
+  </data>
+  <data name="Star_Stage_Agb" xml:space="preserve">
+    <value>AGB giant</value>
+  </data>
+  <data name="Star_Stage_Agb_Description" xml:space="preserve">
+    <value>The core's helium is used up too. Helium and hydrogen burn in two shells round a carbon-oxygen core; the star swells even bigger, pulses, and blows strong winds that carry off its outer layers.</value>
+  </data>
+  <data name="Star_Stage_Agb_Title" xml:space="preserve">
+    <value>AGB: a second, bigger giant</value>
+  </data>
+  <data name="Star_Stage_BlackHole" xml:space="preserve">
+    <value>Black hole</value>
+  </data>
+  <data name="Star_Stage_BlackHole_Description" xml:space="preserve">
+    <value>The core is too heavy even for neutrons to hold it up, and it collapses for ever. Inside the event horizon, a few tens of kilometres across, gravity is so strong that nothing, not even light, can escape.</value>
+  </data>
+  <data name="Star_Stage_BlackHole_Title" xml:space="preserve">
+    <value>Black hole: not even light gets out</value>
+  </data>
+  <data name="Star_Stage_BlueDwarf" xml:space="preserve">
+    <value>Blue dwarf</value>
+  </data>
+  <data name="Star_Stage_BlueDwarf_Description" xml:space="preserve">
+    <value>A red dwarf stirs all its hydrogen through the whole star, so it burns nearly all of it. At the very end it grows smaller, hotter and bluer. The universe is too young: no star has got this far yet.</value>
+  </data>
+  <data name="Star_Stage_BlueDwarf_Title" xml:space="preserve">
+    <value>Blue dwarf: a red dwarf's slow end</value>
+  </data>
+  <data name="Star_Stage_HeliumBurning" xml:space="preserve">
+    <value>Helium burning</value>
+  </data>
+  <data name="Star_Stage_HeliumBurning_Description" xml:space="preserve">
+    <value>At 100 million degrees the core ignites helium, fusing it into carbon and oxygen; in a star like the Sun this starts with a flash. The star shrinks back for a while.</value>
+  </data>
+  <data name="Star_Stage_HeliumBurning_Title" xml:space="preserve">
+    <value>Helium burning: a second fuel</value>
+  </data>
+  <data name="Star_Stage_LateBurning" xml:space="preserve">
+    <value>Last fuels</value>
+  </data>
+  <data name="Star_Stage_LateBurning_Description" xml:space="preserve">
+    <value>Carbon, neon, oxygen and silicon burn one after another, each faster than the last: carbon for centuries, silicon for about a day. The core turns to iron, which gives no energy when it fuses: the fire goes out.</value>
+  </data>
+  <data name="Star_Stage_LateBurning_Title" xml:space="preserve">
+    <value>The last fuels, in layers like an onion</value>
+  </data>
+  <data name="Star_Stage_MainSequence" xml:space="preserve">
+    <value>Main sequence</value>
+  </data>
+  <data name="Star_Stage_MainSequence_Description" xml:space="preserve">
+    <value>In the core, hydrogen fuses into helium at over 10 million degrees. The push of that heat balances gravity, and the star hardly changes for most of its life. The Sun is here now.</value>
+  </data>
+  <data name="Star_Stage_MainSequence_Title" xml:space="preserve">
+    <value>Main sequence: burning hydrogen steadily</value>
+  </data>
+  <data name="Star_Stage_NeutronStar" xml:space="preserve">
+    <value>Neutron star</value>
+  </data>
+  <data name="Star_Stage_NeutronStar_Description" xml:space="preserve">
+    <value>The collapsed core: more mass than the Sun in a ball about 20 km across, made almost entirely of neutrons. It spins many times a second; if its beams sweep over Earth we see a pulsar.</value>
+  </data>
+  <data name="Star_Stage_NeutronStar_Title" xml:space="preserve">
+    <value>Neutron star: an atomic nucleus as big as a city</value>
+  </data>
+  <data name="Star_Stage_PlanetaryNebula" xml:space="preserve">
+    <value>Planetary nebula</value>
+  </data>
+  <data name="Star_Stage_PlanetaryNebula_Description" xml:space="preserve">
+    <value>The star sheds its outer layers. Its bare core, over 100,000 degrees, lights the spreading gas into a glowing shell for some tens of thousands of years. The name is old: it has nothing to do with planets.</value>
+  </data>
+  <data name="Star_Stage_PlanetaryNebula_Title" xml:space="preserve">
+    <value>Planetary nebula: the outer layers drift away</value>
+  </data>
+  <data name="Star_Stage_Protostar" xml:space="preserve">
+    <value>Protostar</value>
+  </data>
+  <data name="Star_Stage_Protostar_Description" xml:space="preserve">
+    <value>A cold cloud of gas and dust falls in on itself. Shrinking, it heats up and glows red, fed by a spinning disc and blowing jets from its poles. No fusion yet: the heat comes from the fall.</value>
+  </data>
+  <data name="Star_Stage_Protostar_Title" xml:space="preserve">
+    <value>Protostar: a cloud collapsing</value>
+  </data>
+  <data name="Star_Stage_RedGiant" xml:space="preserve">
+    <value>Red giant</value>
+  </data>
+  <data name="Star_Stage_RedGiant_Description" xml:space="preserve">
+    <value>The burning shell pours out energy and the outside balloons to over a hundred times the Sun's size. The surface cools to orange-red, yet the star is thousands of times as bright.</value>
+  </data>
+  <data name="Star_Stage_RedGiant_Title" xml:space="preserve">
+    <value>Red giant: swollen and cool</value>
+  </data>
+  <data name="Star_Stage_RedSupergiant" xml:space="preserve">
+    <value>Red supergiant</value>
+  </data>
+  <data name="Star_Stage_RedSupergiant_Description" xml:space="preserve">
+    <value>Helium burns in the core. The star is so big that in place of the Sun it would reach past Mars, some past Jupiter. Betelgeuse in Orion is one.</value>
+  </data>
+  <data name="Star_Stage_RedSupergiant_Title" xml:space="preserve">
+    <value>Red supergiant: hundreds of times the Sun's size</value>
+  </data>
+  <data name="Star_Stage_Subgiant" xml:space="preserve">
+    <value>Subgiant</value>
+  </data>
+  <data name="Star_Stage_Subgiant_Description" xml:space="preserve">
+    <value>The core is now helium and stops burning. It shrinks and heats up; hydrogen burns in a shell around it, and the star's outer layers begin to swell.</value>
+  </data>
+  <data name="Star_Stage_Subgiant_Title" xml:space="preserve">
+    <value>Subgiant: the core runs out of hydrogen</value>
+  </data>
+  <data name="Star_Stage_Supergiant" xml:space="preserve">
+    <value>Supergiant</value>
+  </data>
+  <data name="Star_Stage_Supergiant_Description" xml:space="preserve">
+    <value>The core's hydrogen is gone and it contracts while hydrogen burns around it. In thousands of years the star swells from blue to red, crossing the diagram at nearly the same brightness.</value>
+  </data>
+  <data name="Star_Stage_Supergiant_Title" xml:space="preserve">
+    <value>Swelling into a supergiant</value>
+  </data>
+  <data name="Star_Stage_Supernova" xml:space="preserve">
+    <value>Supernova</value>
+  </data>
+  <data name="Star_Stage_Supernova_Description" xml:space="preserve">
+    <value>The iron core collapses in under a second, from Earth's size to a ball of neutrons 20 km across. The infalling layers rebound in a vast explosion, for weeks as bright as billions of Suns, making heavy elements and scattering them into space.</value>
+  </data>
+  <data name="Star_Stage_Supernova_Title" xml:space="preserve">
+    <value>Supernova: the core collapses</value>
+  </data>
+  <data name="Star_Stage_WhiteDwarf" xml:space="preserve">
+    <value>White dwarf</value>
+  </data>
+  <data name="Star_Stage_WhiteDwarf_Description" xml:space="preserve">
+    <value>What is left is the core: about half the Sun's mass squeezed to the size of Earth. Nothing burns any more; it just cools, from white-hot to dim red, over billions of years.</value>
+  </data>
+  <data name="Star_Stage_WhiteDwarf_Title" xml:space="preserve">
+    <value>White dwarf: a cooling ember</value>
+  </data>
+  <data name="Star_Stat_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Star_Stat_Luminosity" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="Star_Stat_Mass" xml:space="preserve">
+    <value>At birth</value>
+  </data>
+  <data name="Star_Stat_Radius" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Star_Stat_Remnant" xml:space="preserve">
+    <value>What is left</value>
+  </data>
+  <data name="Star_Stat_Remnant_Value" xml:space="preserve">
+    <value>{0} × the Sun's mass</value>
+  </data>
+  <data name="Star_Stat_Size" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="Star_Stat_StageLasts" xml:space="preserve">
+    <value>This stage lasts</value>
+  </data>
+  <data name="Star_Stat_Temperature" xml:space="preserve">
+    <value>Surface</value>
+  </data>
+  <data name="Star_Stat_Temperature_Value" xml:space="preserve">
+    <value>{0} K, {1}</value>
+  </data>
+  <data name="Star_Times_Sun" xml:space="preserve">
+    <value>{0} × the Sun</value>
+  </data>
+  <data name="Star_Title" xml:space="preserve">
+    <value>Life of a star</value>
+  </data>
+  <data name="Star_TodaySun" xml:space="preserve">
+    <value>Today's Sun</value>
+  </data>
+  <data name="Star_Years" xml:space="preserve">
+    <value>{0:N0} years</value>
+  </data>
+  <data name="Star_Years_Big" xml:space="preserve">
+    <value>{0} billion years</value>
+  </data>
+  <data name="Star_Years_Big_Unit" xml:space="preserve">
+    <value>1000000000</value>
+  </data>
+  <data name="Star_Years_Huge" xml:space="preserve">
+    <value>{0} trillion years</value>
+  </data>
+  <data name="Star_Years_Huge_Unit" xml:space="preserve">
+    <value>1000000000000</value>
+  </data>
+  <data name="Star_Years_Mid" xml:space="preserve">
+    <value>{0} million years</value>
+  </data>
+  <data name="Star_Years_Mid_Unit" xml:space="preserve">
+    <value>1000000</value>
   </data>
   <data name="Text_AddToNotes" xml:space="preserve">
     <value>Add to notes</value>

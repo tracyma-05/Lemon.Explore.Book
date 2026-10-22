@@ -5,6 +5,7 @@ using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Retrograde;
 using Lemon.Explore.Book.Chapters.Seasons;
 using Lemon.Explore.Book.Chapters.SolarSystem;
+using Lemon.Explore.Book.Chapters.StarLife;
 using Lemon.Explore.Book.Chapters.StarTrails;
 using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.ViewModels.Pages;
@@ -18,7 +19,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -95,6 +96,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, retro.Lesson, () => retro.Mode.ToString(), Enum.GetNames<RetroMode>());
                 return (new RetrogradeTextPageViewModel(textPage, navigator, chapter, number, retro),
                     new RetrogradeDiagramPageViewModel(textPage + 1, navigator, chapter, retro));
+            }
+
+            case "Star-Life":
+            {
+                var star = new StarLifeViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, star.Lesson, () => star.Mode.ToString(), Enum.GetNames<StarMode>());
+                return (new StarLifeTextPageViewModel(textPage, navigator, chapter, number, star),
+                    new StarLifeDiagramPageViewModel(textPage + 1, navigator, chapter, star));
             }
 
             default:
