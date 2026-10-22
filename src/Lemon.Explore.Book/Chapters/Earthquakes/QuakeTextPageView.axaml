@@ -1,0 +1,221 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:quake="using:Lemon.Explore.Book.Chapters.Earthquakes"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Earthquakes.QuakeTextPageView"
+                         x:DataType="quake:QuakeTextPageViewModel">
+    <!-- Left page of the Earthquakes spread: the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Quake.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Quake.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Quake.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="QuakeMode" IsChecked="{Binding Quake.IsPlates}" Content="{loc:Localize Quake_Mode_Plates}" />
+                    <RadioButton Classes="chip" GroupName="QuakeMode" IsChecked="{Binding Quake.IsBoundaries}" Content="{loc:Localize Quake_Mode_Boundaries}" />
+                    <RadioButton Classes="chip" GroupName="QuakeMode" IsChecked="{Binding Quake.IsInside}" Content="{loc:Localize Quake_Mode_Inside}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Quake.Card}" />
+
+                <!-- The plates: the map's layers, famous quakes -->
+                <StackPanel IsVisible="{Binding Quake.IsPlates}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Quake.Location}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Quake_Map_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.SixPlates}" Content="{loc:Localize Quake_Option_SixPlates}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.ShowQuakes}" Content="{loc:Localize Quake_Option_Quakes}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.ShowVolcanoes}" Content="{loc:Localize Quake_Option_Volcanoes}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.ShowArrows}" Content="{loc:Localize Quake_Option_Arrows}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.ShowLabels}" Content="{loc:Localize Quake_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Quake_Famous_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Chile1960" Content="{loc:Localize Quake_Chip_Chile1960}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Alaska1964" Content="{loc:Localize Quake_Chip_Alaska1964}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Sumatra2004" Content="{loc:Localize Quake_Chip_Sumatra2004}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Tohoku2011" Content="{loc:Localize Quake_Chip_Tohoku2011}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Bolivia1994" Content="{loc:Localize Quake_Chip_Bolivia1994}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="SanFrancisco1906" Content="{loc:Localize Quake_Chip_SanFrancisco1906}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Wenchuan2008" Content="{loc:Localize Quake_Chip_Wenchuan2008}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Nepal2015" Content="{loc:Localize Quake_Chip_Nepal2015}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Turkey2023" Content="{loc:Localize Quake_Chip_Turkey2023}" />
+                        <Button Classes="chip" Command="{Binding Quake.PickFamousCommand}" CommandParameter="Tangshan1976" Content="{loc:Localize Quake_Chip_Tangshan1976}" />
+                        <Button Classes="chip" Command="{Binding Quake.ClearPicksCommand}" Content="{loc:Localize Quake_ClearPicks}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Quake_Plates_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The boundaries: which kind, its rate or dip, a quake now -->
+                <StackPanel IsVisible="{Binding Quake.IsBoundaries}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Quake_Section_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="QuakeSection" IsChecked="{Binding Quake.SectionChoice[Ridge]}" Content="{loc:Localize Quake_Section_Ridge}" />
+                        <RadioButton Classes="chip" GroupName="QuakeSection" IsChecked="{Binding Quake.SectionChoice[Subduction]}" Content="{loc:Localize Quake_Section_Subduction}" />
+                        <RadioButton Classes="chip" GroupName="QuakeSection" IsChecked="{Binding Quake.SectionChoice[Collision]}" Content="{loc:Localize Quake_Section_Collision}" />
+                        <RadioButton Classes="chip" GroupName="QuakeSection" IsChecked="{Binding Quake.SectionChoice[Transform]}" Content="{loc:Localize Quake_Section_Transform}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Quake.HasTimeline}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Quake.TimeText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Quake_Time}" />
+                        </DockPanel>
+                        <Slider Minimum="0" Maximum="1" Value="{Binding Quake.TimeFraction}" SmallChange="0.005" LargeChange="0.05"
+                                AutomationProperties.Name="{loc:Localize Quake_Time}" />
+                    </StackPanel>
+                    <StackPanel IsVisible="{Binding Quake.IsRidge}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Quake.HalfRateText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Quake_HalfRate}" />
+                        </DockPanel>
+                        <Slider Minimum="0.8" Maximum="8" Value="{Binding Quake.HalfRate}" SmallChange="0.1" LargeChange="0.5" IsSnapToTickEnabled="True" TickFrequency="0.1"
+                                AutomationProperties.Name="{loc:Localize Quake_HalfRate}" />
+                        <WrapPanel Margin="0,10,0,0">
+                            <Button Classes="chip" Command="{Binding Quake.SetHalfRateCommand}" CommandParameter="1.2" Content="{loc:Localize Quake_Rate_Atlantic}" />
+                            <Button Classes="chip" Command="{Binding Quake.SetHalfRateCommand}" CommandParameter="7.5" Content="{loc:Localize Quake_Rate_Pacific}" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <StackPanel IsVisible="{Binding Quake.IsSubduction}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Quake.DipText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Quake_Dip}" />
+                        </DockPanel>
+                        <Slider Minimum="20" Maximum="70" Value="{Binding Quake.Dip}" SmallChange="1" LargeChange="5" IsSnapToTickEnabled="True" TickFrequency="1"
+                                AutomationProperties.Name="{loc:Localize Quake_Dip}" />
+                        <WrapPanel Margin="0,10,0,0">
+                            <ToggleButton Classes="chip" IsChecked="{Binding Quake.OverOcean}" Content="{loc:Localize Quake_Option_OverOcean}" />
+                            <Button Classes="chip" Command="{Binding Quake.QuakeNowCommand}" Content="{loc:Localize Quake_QuakeNow}" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <StackPanel IsVisible="{Binding Quake.IsTransform}">
+                        <WrapPanel Margin="0,10,0,0">
+                            <ToggleButton Classes="chip" IsChecked="{Binding Quake.Creep}" Content="{loc:Localize Quake_Option_Creep}" />
+                            <Button Classes="chip" Command="{Binding Quake.QuakeNowCommand}" Content="{loc:Localize Quake_QuakeNow}" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Quake.RestartSectionCommand}" Content="{loc:Localize Quake_RestartSection}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Quake_Boundaries_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Inside the Earth: where the quake is, where you listen, how big -->
+                <StackPanel IsVisible="{Binding Quake.IsInside}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Quake.Location}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Quake_ToYou_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Quake.FromFamousCommand}" CommandParameter="Tohoku2011" Content="{loc:Localize Quake_Chip_Tohoku2011}" />
+                        <Button Classes="chip" Command="{Binding Quake.FromFamousCommand}" CommandParameter="Wenchuan2008" Content="{loc:Localize Quake_Chip_Wenchuan2008}" />
+                        <Button Classes="chip" Command="{Binding Quake.FromFamousCommand}" CommandParameter="Sumatra2004" Content="{loc:Localize Quake_Chip_Sumatra2004}" />
+                        <Button Classes="chip" Command="{Binding Quake.FromFamousCommand}" CommandParameter="Chile1960" Content="{loc:Localize Quake_Chip_Chile1960}" />
+                        <Button Classes="chip" Command="{Binding Quake.FromFamousCommand}" CommandParameter="Turkey2023" Content="{loc:Localize Quake_Chip_Turkey2023}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Quake_Station_Caption}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Quake.StationText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Quake_StationDistance}" />
+                    </DockPanel>
+                    <Slider Minimum="2" Maximum="180" Value="{Binding Quake.StationDistance}" SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Quake_StationDistance}" />
+                    <WrapPanel Margin="0,10,0,0">
+                        <Button Classes="chip" Command="{Binding Quake.SetStationCommand}" CommandParameter="30" Content="30°" />
+                        <Button Classes="chip" Command="{Binding Quake.SetStationCommand}" CommandParameter="60" Content="60°" />
+                        <Button Classes="chip" Command="{Binding Quake.SetStationCommand}" CommandParameter="90" Content="90°" />
+                        <Button Classes="chip" Command="{Binding Quake.SetStationCommand}" CommandParameter="120" Content="120°" />
+                        <Button Classes="chip" Command="{Binding Quake.SetStationCommand}" CommandParameter="160" Content="160°" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Quake.MagnitudeText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Quake_Magnitude}" />
+                    </DockPanel>
+                    <Slider Minimum="4" Maximum="9.5" Value="{Binding Quake.Magnitude}" SmallChange="0.1" LargeChange="0.5" IsSnapToTickEnabled="True" TickFrequency="0.1"
+                            AutomationProperties.Name="{loc:Localize Quake_Magnitude}" />
+                    <WrapPanel Margin="0,10,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.ShowRays}" Content="{loc:Localize Quake_Option_Rays}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Quake.ShowLabels}" Content="{loc:Localize Quake_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Quake_Inside_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Quake.ChartCaption}" />
+                <Border Classes="plate" Height="180">
+                    <quake:QuakeChart Mode="{Binding Quake.Mode}" Section="{Binding Quake.Section}" SectionTime="{Binding Quake.SectionTime}"
+                                      HalfRate="{Binding Quake.HalfRate}" Dip="{Binding Quake.Dip}" OverOcean="{Binding Quake.OverOcean}"
+                                      QuakeCount="{Binding Quake.QuakeCount}" Creep="{Binding Quake.Creep}" StationDistance="{Binding Quake.StationDistance}"
+                                      WaveTime="{Binding Quake.WaveTime}" FamousMagnitude="{Binding Quake.FamousMagnitude}" Magnitude="{Binding Quake.Magnitude}"
+                                      AutomationProperties.Name="{Binding Quake.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Quake.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Quake.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Quake.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Quake.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Quake.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Quake_Facts}" />
+                <ItemsControl ItemsSource="{Binding Quake.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -8583,6 +8583,303 @@
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>So the Moon's shape tells you roughly when it rises and sets. Drag across the picture to change the time and go looking for the Moon.</value>
   </data>
+  <data name="Narr_Quake_Boundaries_01" xml:space="preserve">
+    <value>Let's dive under the sea, to a mid-ocean ridge. Two plates are moving apart here, a centimetre or two a year on each side. Hot mantle rock rises beneath, partly melts, and the magma fills the crack, cooling into new ocean floor.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_02" xml:space="preserve">
+    <value>Keep an eye on the compass in the corner. Every few hundred thousand years, Earth's magnetic field flips over, and north becomes south. Nobody can say exactly when the next flip will come.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_03" xml:space="preserve">
+    <value>As the new rock cools, tiny magnetic grains inside it lock in the field's direction at that moment. So the sea floor carries a barcode of dark and light stripes, and the pattern on one side is a mirror image of the other. Finding these stripes in the nineteen-sixties convinced scientists that the sea floor really does spread.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_04" xml:space="preserve">
+    <value>This is the sea floor today. Where in this picture is the oldest ocean floor?</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_05" xml:space="preserve">
+    <value>Now to a place where plates meet. Old ocean floor is cold and heavy, so when it meets a continent it sinks underneath, bending down at a deep-sea trench. This is a subduction zone, a boundary where a plate is used up and returns to the mantle.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_06" xml:space="preserve">
+    <value>Watch the dots along the sinking plate. They're earthquakes, and they follow the slab down: the farther from the trench, the deeper they are, some as deep as six hundred kilometres. That's why the deep quakes on the map always sit behind the trenches.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_07" xml:space="preserve">
+    <value>When the sinking plate reaches about a hundred kilometres down, it squeezes out water. The water lowers the melting point of the hot mantle above, so it melts. The magma rises and breaks through, building a line of volcanoes, like the Andes, or the islands of Japan.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_08" xml:space="preserve">
+    <value>Near the top, the two plates are stuck together. The lower plate keeps moving, dragging the edge of the upper plate down, year after year, storing energy like a bent spring. Watch the stuck zone fill up, until suddenly it snaps. The sea floor jumps, and a tsunami races away.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_09" xml:space="preserve">
+    <value>What happens when all the ocean between two continents is used up? Watch India. Seventy million years ago it was an island continent, racing north across an ocean called the Tethys at more than fifteen centimetres a year.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_10" xml:space="preserve">
+    <value>About fifty million years ago, it hit Asia. Continental crust is too light to sink, so India slid under Tibet and everything piled up. The Himalaya rose, and the crust under Tibet is now about twice its usual thickness. India is still pushing north, about five centimetres a year.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_11" xml:space="preserve">
+    <value>The last kind: plates sliding past each other, seen from above. Far from the fault, each side moves steadily. But the fault itself is stuck, so the ground near it bends, and the fences and the road across it slowly curve.</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_12" xml:space="preserve">
+    <value>When the strain gets too great, the fault slips all at once. The bent ground springs back, and the fences are suddenly cut and shifted. That's an earthquake. Scientists call it elastic rebound. Your turn: press Quake now, or just wait for it to snap.</value>
+  </data>
+  <data name="Narr_Quake_Inside_01" xml:space="preserve">
+    <value>This is a slice right through the Earth: the thin crust, the mantle, the liquid outer core and the solid inner core, all drawn to scale. The red star on the surface is an earthquake. Its shaking spreads through the whole planet as waves.</value>
+  </data>
+  <data name="Narr_Quake_Inside_02" xml:space="preserve">
+    <value>The gold front is the P wave. It pushes and pulls the rock along the direction it travels, just like sound does. It's the fastest wave, so it always arrives first. P stands for primary.</value>
+  </data>
+  <data name="Narr_Quake_Inside_03" xml:space="preserve">
+    <value>The blue front is the S wave. It shakes the rock from side to side, and it's slower, only a little over half as fast. Notice how both fronts curve as they go deeper, because deep rock carries waves faster.</value>
+  </data>
+  <data name="Narr_Quake_Inside_04" xml:space="preserve">
+    <value>This chart is the one in your textbook: how fast each wave travels at each depth. Both speed up sharply at the Moho, the bottom of the crust, and keep getting faster down through the mantle.</value>
+  </data>
+  <data name="Narr_Quake_Inside_05" xml:space="preserve">
+    <value>Now look two thousand nine hundred kilometres down, at the Gutenberg discontinuity. The S wave stops dead here, and the P wave suddenly slows right down.</value>
+  </data>
+  <data name="Narr_Quake_Inside_06" xml:space="preserve">
+    <value>So, why do S waves stop at the outer core?</value>
+  </data>
+  <data name="Narr_Quake_Inside_07" xml:space="preserve">
+    <value>By now the waves have crossed the whole planet. Look at the far side: a huge area gets no S waves at all. That's the S-wave shadow zone, cast by the liquid outer core.</value>
+  </data>
+  <data name="Narr_Quake_Inside_08" xml:space="preserve">
+    <value>There's also a ring, between about a hundred and a hundred and forty-three degrees from the quake, where hardly any P waves arrive, because the core bends them away. In nineteen thirty-six, Inge Lehmann noticed faint P waves in this zone, and realised there had to be a solid inner core.</value>
+  </data>
+  <data name="Narr_Quake_Inside_09" xml:space="preserve">
+    <value>The inner core is mostly iron and nickel, and about as hot as the surface of the Sun. Yet it's solid, because the pressure at the centre of the Earth is so enormous.</value>
+  </data>
+  <data name="Narr_Quake_Inside_10" xml:space="preserve">
+    <value>The box below magnifies the top seven hundred kilometres. The crust and the hard top of the mantle together make the lithosphere: these are the plates. Beneath them lies the asthenosphere, hot and slightly soft. Magma comes from here, and the plates slide over it.</value>
+  </data>
+  <data name="Narr_Quake_Inside_11" xml:space="preserve">
+    <value>Finally, here's the great Japan earthquake of twenty eleven, reaching your own place, marked on the rim. The longer the gap between the P wave and the S wave, the farther away the quake was. That's how a single station measures distance. Your turn: click anywhere on the rim to put a station there, or drag the quake.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Alaska1964" xml:space="preserve">
+    <value>Alaska, nineteen sixty-four: magnitude nine point two, the second largest ever recorded. The Pacific Plate slipped beneath North America. The ground shook for about four minutes, and parts of the coast rose or sank by several metres.</value>
+  </data>
+  <data name="Narr_Quake_Obj_ArcVolcano" xml:space="preserve">
+    <value>A volcanic arc. It stands above the place where the sinking plate is about a hundred kilometres down. So a gently sloping plate puts the volcanoes far from the trench, and a steep one puts them close. Try dragging the slab.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Asia" xml:space="preserve">
+    <value>The southern edge of Asia. Before the collision it was a coast like the Andes today, with an ocean plate sinking beneath it and volcanoes on top.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Asthenosphere" xml:space="preserve">
+    <value>The asthenosphere, in the upper mantle, roughly eighty to four hundred kilometres down. It's hot enough to flow very slowly, like extremely thick toffee, and a little of it is molten. The plates glide over it, and it's thought to be where magma comes from.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Axis" xml:space="preserve">
+    <value>The crest of the ridge. On a slow ridge like the Atlantic's, a rift valley runs along the top. On a fast one like the East Pacific Rise, the crest is a smooth swell. Try both spreading speeds.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Benioff" xml:space="preserve">
+    <value>The Wadati-Benioff zone: a sloping band of earthquakes inside the sinking plate. It was discovered by tracing quakes deeper and deeper beneath Japan and South America.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Bolivia1994" xml:space="preserve">
+    <value>Bolivia, nineteen ninety-four: magnitude eight point two, but more than six hundred kilometres down, inside the sinking Nazca Plate. It's one of the biggest deep earthquakes known, and people felt it as far away as Canada.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Chile1960" xml:space="preserve">
+    <value>Valdivia, Chile, nineteen sixty: magnitude nine point five, the largest earthquake ever recorded. The Nazca Plate lurched beneath South America along a thousand kilometres of fault, and the tsunami crossed the Pacific to strike Hawaii and Japan.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Collision" xml:space="preserve">
+    <value>A collision zone. When two continents meet, neither is heavy enough to sink, so the crust crumples, thickens and rises into great mountains, like the Himalaya and the Alps.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Crust" xml:space="preserve">
+    <value>The crust, Earth's thin outer skin. Under the continents it's about thirty-three kilometres thick on average, under the oceans only about six. At this scale, it's thinner than the line that draws it.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Depth" xml:space="preserve">
+    <value>The colours show how deep each earthquake was. Red ones are shallow, less than seventy kilometres down. Yellow ones are intermediate, and blue ones are deep, down to about seven hundred kilometres. Deep quakes only happen inside sinking plates.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Diffuse" xml:space="preserve">
+    <value>A diffuse boundary. It isn't one clean line, but a wide zone where the ground is squeezed or stretched, with earthquakes scattered right across it.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Epicentre" xml:space="preserve">
+    <value>The epicentre, the point on the surface right above where the rupture began. The waves spread out from here: first the faster P wave, then the stronger S wave.</value>
+  </data>
+  <data name="Narr_Quake_Obj_FarField" xml:space="preserve">
+    <value>Far from the fault, each side moves smoothly and steadily, a few centimetres a year, just as the plates do. Only near the fault does the movement get stuck and stored up.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Fault" xml:space="preserve">
+    <value>The fault. Deep down, the rocks creep slowly past each other, but the top fifteen kilometres or so are held by friction, until the stress becomes too great.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Fence" xml:space="preserve">
+    <value>A fence built straight across the fault. While the fault is stuck, the ground near it is dragged along and the fence bends. In the earthquake it springs back straight, but cut and offset at the fault.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Field" xml:space="preserve">
+    <value>The compass shows Earth's magnetic field at this moment in the story. When the red end points down, the field is reversed, and a compass would point south.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Focus" xml:space="preserve">
+    <value>The earthquake's focus, a little way beneath the surface. Drag it round the rim to move the quake, and all the waves will start from there.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Gangdese" xml:space="preserve">
+    <value>The Gangdese volcanoes, on Asia's edge while the Tethys floor was sinking beneath it. Their granite roots now make up mountains in southern Tibet.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Gutenberg" xml:space="preserve">
+    <value>The Gutenberg discontinuity, about two thousand nine hundred kilometres down: the boundary between the mantle and the core. Here S waves vanish, and P waves slow down sharply.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Hawaii" xml:space="preserve">
+    <value>The Hawaiian Islands sit above a hotspot. As the Pacific Plate moves north-west, each volcano is carried away and a new one grows. The chain gets older the farther it is from Hawaii, and its sharp bend shows the plate changed direction about forty-seven million years ago.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Himalaya" xml:space="preserve">
+    <value>The Himalaya, the highest mountains on Earth, with Everest at about eight thousand eight hundred and forty-nine metres. They're still rising a few millimetres a year, even as erosion wears them down.</value>
+  </data>
+  <data name="Narr_Quake_Obj_India" xml:space="preserve">
+    <value>India. After breaking away from the old southern supercontinent, it raced north faster than almost any plate today, and then slowed sharply when it hit Asia.</value>
+  </data>
+  <data name="Narr_Quake_Obj_InnerCore" xml:space="preserve">
+    <value>The inner core: a solid ball of iron and nickel, about twelve hundred kilometres in radius. It's as hot as the surface of the Sun, but the enormous pressure keeps it solid.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Lithosphere" xml:space="preserve">
+    <value>The lithosphere: the crust together with the hard, cold top of the mantle. This is what the plates are made of. Under the ocean it starts thin at the ridge and thickens as it cools, up to about a hundred kilometres.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Locked" xml:space="preserve">
+    <value>The locked zone, the shallow part of the boundary where the plates are stuck. Strain builds up here for centuries, then it's released in the largest earthquakes on Earth, the megathrust quakes.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Magma" xml:space="preserve">
+    <value>A magma chamber, just a few kilometres beneath the sea floor. Molten rock gathers here and squeezes up into the crack, cooling into the dark rock called basalt.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Mantle" xml:space="preserve">
+    <value>The mantle, from the Moho down to two thousand nine hundred kilometres. It's hot, solid rock, but it still creeps very slowly, carrying the plates along.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Melt" xml:space="preserve">
+    <value>This is where the mantle melts. Water driven out of the sinking plate lowers the melting point of the hot rock above, and the melt rises in blobs towards the surface.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Moho" xml:space="preserve">
+    <value>The Moho, short for the Mohorovicic discontinuity, is the bottom of the crust. Here both P and S waves suddenly speed up, because the mantle rock below is denser and stiffer.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Nepal2015" xml:space="preserve">
+    <value>Nepal, twenty fifteen: magnitude seven point eight. India slid a few metres further under the Himalaya along the main thrust fault, and Kathmandu shook hard. Nearly nine thousand people died.</value>
+  </data>
+  <data name="Narr_Quake_Obj_OceanPlate" xml:space="preserve">
+    <value>The ocean plate: old, cold, dense lithosphere, with a thin basalt crust only about seven kilometres thick. Because it's heavy, it's the one that sinks.</value>
+  </data>
+  <data name="Narr_Quake_Obj_OldFloor" xml:space="preserve">
+    <value>Older sea floor. As it moves away from the ridge it cools, shrinks and sinks, so the ocean gets deeper, from about two and a half kilometres at the ridge to more than five kilometres far away.</value>
+  </data>
+  <data name="Narr_Quake_Obj_OuterCore" xml:space="preserve">
+    <value>The outer core: liquid iron and nickel. As it churns, it makes Earth's magnetic field. We know it's liquid because S waves can't get through it.</value>
+  </data>
+  <data name="Narr_Quake_Obj_PCurve" xml:space="preserve">
+    <value>The P-wave curve shows its speed at each depth. It rises through the crust and the mantle, drops suddenly at the core, and jumps up again at the inner core.</value>
+  </data>
+  <data name="Narr_Quake_Obj_PShadow" xml:space="preserve">
+    <value>The P-wave shadow zone, from about a hundred to a hundred and forty-three degrees from the quake. The core bends the P waves away from this ring; only faint waves through the inner core get here.</value>
+  </data>
+  <data name="Narr_Quake_Obj_PWave" xml:space="preserve">
+    <value>The P wave, or primary wave, is a push-and-pull wave, like sound. It can travel through solids, liquids and gases, and it's the fastest, so it's the first to arrive.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Place" xml:space="preserve">
+    <value>This is your place. The card shows which plate you're on, how fast that plate is carrying you, and how far you are from the nearest plate boundary.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Plate" xml:space="preserve">
+    <value>This is a tectonic plate: a piece of Earth's rigid outer shell, the lithosphere, up to about a hundred kilometres thick. The whole plate moves as one, a few centimetres a year, and most of the action happens at its edges.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Ridge" xml:space="preserve">
+    <value>A mid-ocean ridge. The plates pull apart here, magma rises into the gap, and new ocean floor is made. Joined up, the ridges are the longest mountain range on Earth, more than sixty thousand kilometres, almost all of it under the sea.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Rift" xml:space="preserve">
+    <value>A rift valley, where a continent is starting to split apart. East Africa is slowly being torn open. In a few million years the sea may flood in, just as it already has in the Red Sea.</value>
+  </data>
+  <data name="Narr_Quake_Obj_SCurve" xml:space="preserve">
+    <value>The S-wave curve is always below the P-wave curve. Between two thousand nine hundred and five thousand one hundred and fifty kilometres it drops to zero: that's the liquid outer core.</value>
+  </data>
+  <data name="Narr_Quake_Obj_SShadow" xml:space="preserve">
+    <value>The S-wave shadow zone: everywhere more than about a hundred degrees from the quake. S waves can't cross the liquid outer core, so none arrive here at all.</value>
+  </data>
+  <data name="Narr_Quake_Obj_SWave" xml:space="preserve">
+    <value>The S wave, or secondary wave, shakes the rock from side to side. It can only travel through solids, and it's slower than the P wave, but it usually shakes harder.</value>
+  </data>
+  <data name="Narr_Quake_Obj_SanFrancisco1906" xml:space="preserve">
+    <value>San Francisco, nineteen-oh-six: about magnitude seven point nine, on the San Andreas fault. The ground slipped sideways by up to six metres, and the fires afterwards destroyed much of the city. Studying it, Harry Reid came up with the idea of elastic rebound.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Slab" xml:space="preserve">
+    <value>The slab, the sinking plate. It's colder and denser than the mantle around it, so it keeps sinking under its own weight. That pull is one of the main forces that drive the plates.</value>
+  </data>
+  <data name="Narr_Quake_Obj_SlabBreak" xml:space="preserve">
+    <value>The broken-off slab. After the collision, the heavy ocean plate tore away from India's light continent and sank on, deep into the mantle.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Smoker" xml:space="preserve">
+    <value>A black smoker. Seawater seeps into the hot rock, heats up to around three hundred and fifty degrees, and gushes out full of dissolved minerals. Whole communities of animals live around these vents, without any sunlight at all.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Station" xml:space="preserve">
+    <value>A seismic station. It records the P wave first, then the S wave, then the slow, strong surface waves. The gap between P and S tells how far away the quake was.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Stress" xml:space="preserve">
+    <value>This gauge shows how much strain is stored. Every year adds a little more. When it reaches breaking point, the fault slips, and the gauge drops back to empty.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Stripes" xml:space="preserve">
+    <value>Magnetic stripes. Each band of crust is magnetised the way the field pointed when it cooled. Dark bands formed while the field was as it is today, light bands while it was reversed. The two sides mirror each other.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Sumatra2004" xml:space="preserve">
+    <value>Sumatra, two thousand and four: magnitude nine point one. The Indian Plate slipped beneath the edge of Asia along about thirteen hundred kilometres. Its tsunami swept across the Indian Ocean and took about two hundred and thirty thousand lives.</value>
+  </data>
+  <data name="Narr_Quake_Obj_SurfaceWave" xml:space="preserve">
+    <value>Surface waves run along the outside of the Earth. They're the slowest of all, but the biggest, and they do most of the damage to buildings.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Suture" xml:space="preserve">
+    <value>The suture, the seam where India and Asia were joined. Along it you can still find scraps of the old ocean floor, squeezed up between the two continents.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tangshan1976" xml:space="preserve">
+    <value>Tangshan, nineteen seventy-six: magnitude seven point six, or seven point eight on China's own scale. It was far from any plate boundary, on old faults inside the Eurasian Plate. It struck before dawn and killed about two hundred and forty thousand people.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tethys" xml:space="preserve">
+    <value>The Tethys Ocean, between India and Asia. Its floor sank under Asia until it was all gone. Some of its sediments were scraped off and lifted up, and they now sit on top of Mount Everest.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tibet" xml:space="preserve">
+    <value>The Tibetan Plateau, on average more than four thousand metres high: the roof of the world. The crust beneath it is about seventy kilometres thick, twice the usual.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tohoku2011" xml:space="preserve">
+    <value>Tohoku, Japan, twenty eleven: magnitude nine point one. The Pacific Plate slipped as much as fifty metres beneath Japan. The tsunami was more than ten metres high along much of the coast, and it caused the Fukushima nuclear accident.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Transform" xml:space="preserve">
+    <value>A transform fault. Here the plates slide past each other sideways, and crust is neither made nor destroyed. They stick and slip, so they shake with shallow and often damaging earthquakes.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Trench" xml:space="preserve">
+    <value>A deep-sea trench. One plate bends down here and sinks under the other, back into the mantle. Trenches have the biggest earthquakes on Earth, and a line of volcanoes behind them.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tsunami" xml:space="preserve">
+    <value>A tsunami. When the sea floor jumps up, it lifts the whole column of water above it. The wave races across the open ocean as fast as a jet plane, and rears up high when it reaches shallow water.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Turkey2023" xml:space="preserve">
+    <value>Turkey and Syria, twenty twenty-three: magnitude seven point eight on the East Anatolian fault, where the Arabian Plate slides past Anatolia. A second large quake, magnitude seven point five, struck nine hours later. More than fifty thousand people died.</value>
+  </data>
+  <data name="Narr_Quake_Obj_UpperPlate" xml:space="preserve">
+    <value>The upper plate. A continent's crust is thick and light, like a raft, so it stays on top. Where two ocean plates meet, the older, heavier one sinks, and the other carries an arc of volcanic islands.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Wedge" xml:space="preserve">
+    <value>The mantle wedge, squeezed between the sinking plate and the upper plate. The slab drags it downward, and hot mantle flows in from behind to take its place.</value>
+  </data>
+  <data name="Narr_Quake_Obj_Wenchuan2008" xml:space="preserve">
+    <value>Wenchuan, Sichuan, two thousand and eight: magnitude seven point nine. Pushed by India, the Tibetan Plateau shoves east against the Sichuan Basin, and the Longmen Shan faults gave way. Nearly seventy thousand people died.</value>
+  </data>
+  <data name="Narr_Quake_Plates_01" xml:space="preserve">
+    <value>Here's a map of the world, but look at the dots. Each one is an earthquake of magnitude four and a half or more, about a year's worth. Do they fall just anywhere? No. They crowd into long, narrow belts. The red ones are shallow; the yellow and blue ones are deeper.</value>
+  </data>
+  <data name="Narr_Quake_Plates_02" xml:space="preserve">
+    <value>Those belts mark the edges of the plates. Earth's hard outer shell is cracked into about fifteen big pieces, and each one rides slowly on the hotter, softer rock underneath. The biggest of all is the Pacific Plate, almost entirely under the sea.</value>
+  </data>
+  <data name="Narr_Quake_Plates_03" xml:space="preserve">
+    <value>Your geography textbook keeps it simple, with six big plates: the Pacific, Eurasian, African, American, Indian Ocean and Antarctic plates. Notice that the Indian Ocean plate takes in India, Australia, and even Arabia. Scientists divide these further, but the big picture is the same.</value>
+  </data>
+  <data name="Narr_Quake_Plates_04" xml:space="preserve">
+    <value>The white arrows show which way each plate is moving, and how fast. Just a few centimetres a year, about as fast as your fingernails grow. That sounds tiny, but over a million years it adds up to tens of kilometres. The Pacific Plate is one of the fastest.</value>
+  </data>
+  <data name="Narr_Quake_Plates_05" xml:space="preserve">
+    <value>Now find the red lines, like the one running right down the middle of the Atlantic. Here two plates are pulling apart. Hot rock rises into the gap and makes brand-new sea floor. This is a mid-ocean ridge, a boundary where plates grow.</value>
+  </data>
+  <data name="Narr_Quake_Plates_06" xml:space="preserve">
+    <value>The blue lines with little teeth are trenches. Here plates push together, and one dives under the other, down into the mantle. The teeth point at the plate on top. Trenches ring almost the whole Pacific. That's the famous Ring of Fire, full of earthquakes and volcanoes.</value>
+  </data>
+  <data name="Narr_Quake_Plates_07" xml:space="preserve">
+    <value>Here's a question for you. The blue earthquakes happen hundreds of kilometres down. Where on the map do you find them?</value>
+  </data>
+  <data name="Narr_Quake_Plates_08" xml:space="preserve">
+    <value>Where two continents meet, neither one sinks, so the crust crumples up instead. India pushing into Asia raised the Himalaya and the Tibetan Plateau. That push is felt far inside China. The gold star marks the Wenchuan earthquake of two thousand and eight.</value>
+  </data>
+  <data name="Narr_Quake_Plates_09" xml:space="preserve">
+    <value>Plates can also slide past each other sideways, along the green transform faults. The best known is the San Andreas fault in California. In nineteen-oh-six it slipped by several metres in a moment, and the earthquake left San Francisco in ruins.</value>
+  </data>
+  <data name="Narr_Quake_Plates_10" xml:space="preserve">
+    <value>Not every volcano sits on a boundary. Hawaii is in the middle of the Pacific Plate, above a hotspot: a plume of hot rock rising from deep below. The plate slides over it, so its old volcanoes drift away in a long chain, older and older towards the north-west.</value>
+  </data>
+  <data name="Narr_Quake_Plates_11" xml:space="preserve">
+    <value>Your own place is the blue dot, with a dashed line to the nearest plate boundary. Now it's your turn: click a boundary, a plate, or one of the gold stars, and find out what's going on there.</value>
+  </data>
   <data name="Narr_Rain_Drop_01" xml:space="preserve">
     <value>Now a single raindrop, drawn hugely magnified, with sunlight coming in from the left. A raindrop is a tiny ball of water, and it works a bit like a prism.</value>
   </data>
@@ -9960,6 +10257,306 @@
   <data name="Narr_Typhoon_Track_09" xml:space="preserve">
     <value>Your turn. Change the month, move the high's west end, or click anywhere on the warm sea to start a new storm, and see where it goes.</value>
   </data>
+  <data name="Narr_Volc_Cycle_01" xml:space="preserve">
+    <value>This is a slice through the Earth, from the deep sea, over a coast and mountains, to a volcano. The rocks here are never finished. Over millions of years they're broken, carried, buried, squeezed and melted, and made again. This is the rock cycle.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_02" xml:space="preserve">
+    <value>Let's start deep down, where it's hot enough to melt rock. This is magma. It's lighter than the solid rock around it, so it slowly rises.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_03" xml:space="preserve">
+    <value>Some magma stops underground and cools very slowly into granite. Some erupts and cools quickly into basalt. Rocks made from cooled magma are called igneous rocks.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_04" xml:space="preserve">
+    <value>Once rock is at the surface, rain, frost and plant roots slowly break it apart into smaller and smaller pieces. That's weathering.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_05" xml:space="preserve">
+    <value>Rivers carry the pieces away, sand, mud and even dissolved minerals, all the way down to the sea. That's erosion.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_06" xml:space="preserve">
+    <value>Where the water slows down, the pieces settle to the bottom in layers: sand near the shore, fine mud farther out, and shells on the reef.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_07" xml:space="preserve">
+    <value>As more and more layers pile on top, the lower ones are pressed together and glued by minerals into solid rock: sandstone, shale and limestone. These are sedimentary rocks.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_08" xml:space="preserve">
+    <value>Buried even deeper, rock gets so hot and is squeezed so hard that its minerals change, without melting. Shale turns into slate and then schist, and limestone turns into marble. These are metamorphic rocks.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_09" xml:space="preserve">
+    <value>Deeper still, rock melts back into magma, and the cycle can start all over again.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_10" xml:space="preserve">
+    <value>Here's a question: does a rock always have to melt before it can start a new round?</value>
+  </data>
+  <data name="Narr_Volc_Cycle_11" xml:space="preserve">
+    <value>No, it doesn't. Follow this grain of sand. It starts in the granite at the top of the mountain. It gets worn off, carried by the river, and laid down on the beach.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_12" xml:space="preserve">
+    <value>Buried, it became part of a layer of sandstone. Then two plates pushed against each other and lifted the old sea floor up into the mountains. That's why seashells can be found on mountain tops.</value>
+  </data>
+  <data name="Narr_Volc_Cycle_13" xml:space="preserve">
+    <value>Now it's being worn away again, and it never melted once. Your turn: choose another grain on the left-hand page and follow it round.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_01" xml:space="preserve">
+    <value>Here's a volcano cut in half. Far below the mountain is the magma chamber, a pool of molten rock a few kilometres down. Magma is creeping in from deeper still, and the chamber is filling up.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_02" xml:space="preserve">
+    <value>Look at the pressure gauge. As the chamber fills, the pressure rises, the ground above swells a little, and the rock around it cracks, so small earthquakes crackle. Scientists watch for exactly these signs before an eruption.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_03" xml:space="preserve">
+    <value>Now the magma forces its way up the conduit. Deep down, its water is dissolved, held in by the weight of the rock above. As it rises, that weight gets less, and the water comes out as bubbles, just like opening a bottle of fizzy drink.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_04" xml:space="preserve">
+    <value>This dashed line marks where the first bubbles appear. Above it, the higher the magma climbs, the more gas comes out, and the bigger the bubbles grow.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_05" xml:space="preserve">
+    <value>Stromboli's magma is basalt: hot and runny. Bubbles can rise through it and join into big ones, which burst at the top and fling out glowing lumps of lava. Stromboli has been doing this every few minutes for thousands of years.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_06" xml:space="preserve">
+    <value>Runny lava also spills out and runs down the slope as a lava flow. It glows while it moves, then cools into a dark crust and becomes a new layer of the volcano.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_07" xml:space="preserve">
+    <value>Here's a question. What do you think happens if the magma is sticky, like toothpaste, and full of gas?</value>
+  </data>
+  <data name="Narr_Volc_Eruption_08" xml:space="preserve">
+    <value>Yes, it explodes! This is Pinatubo in 1991. Its magma is sticky dacite with lots of water. The bubbles can't escape, so the magma is blasted out as a column of ash and gas that shoots more than thirty kilometres into the sky.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_09" xml:space="preserve">
+    <value>Look at this line in the conduit. Below it, the magma is a froth full of bubbles. Above it, the froth has torn itself apart into ash and gas. The magma is blown to bits before it even reaches the top.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_10" xml:space="preserve">
+    <value>Later on, the column grows too heavy to hold itself up, and it collapses. A glowing avalanche of hot ash and gas races down the slopes, faster than a car. It's called a pyroclastic flow, and it's the most dangerous thing a volcano does.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_11" xml:space="preserve">
+    <value>Merapi's magma is sticky too, but it has already lost most of its gas. So instead of exploding, it oozes out slowly and piles up in the crater as a lava dome. When a piece breaks off, it crumbles into a glowing avalanche.</value>
+  </data>
+  <data name="Narr_Volc_Eruption_12" xml:space="preserve">
+    <value>Your turn. This is Kīlauea, with runny basalt and very little gas. Move the sliders, or drag the gold dot on the chart, until its magma would erupt explosively.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_01" xml:space="preserve">
+    <value>Let's watch rock being made, through a magnifier. This is a slice of magma two centimetres wide, deep underground. It's cooling very slowly, about one degree every thousand years.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_02" xml:space="preserve">
+    <value>Crystals appear, and each mineral starts at its own temperature. White feldspar and dark mica come first, then pink feldspar. Quartz will be last, filling the gaps that are left.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_03" xml:space="preserve">
+    <value>With so much time, just a few crystals grow big, big enough to see with your own eyes. This is granite.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_04" xml:space="preserve">
+    <value>What do you think happens if the same magma cools fast instead, in a lava flow?</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_05" xml:space="preserve">
+    <value>Many more crystals start, but each one has very little time to grow, so they stay tiny, too small to see. This is rhyolite: the same magma and the same minerals, just less time.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_06" xml:space="preserve">
+    <value>Now cool it in seconds, as when lava pours into the sea. There's no time for crystals at all, and the melt freezes into glass. This is obsidian, sharp enough to make knives.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_07" xml:space="preserve">
+    <value>And if the lava is full of gas when it freezes, the bubbles are trapped inside. This is pumice. It has so many holes that it floats on water.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_08" xml:space="preserve">
+    <value>Now for sedimentary rock. A river is pouring muddy water into this tank: gravel, sand, silt and clay all mixed up. Watch which grains reach the bottom first.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_09" xml:space="preserve">
+    <value>Gravel and sand drop in seconds. Clay is so fine that it takes days to sink just one metre, so here we've sped it up. That's why each layer is coarse at the bottom and fine at the top.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_10" xml:space="preserve">
+    <value>Over millions of years, more layers bury these ones. The weight squeezes the water out, and minerals glue the grains together. Sand becomes sandstone, and mud becomes shale.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_11" xml:space="preserve">
+    <value>Now let's bury some shale even deeper. Look closely: it's made of tiny clay flakes, lying every which way.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_12" xml:space="preserve">
+    <value>Squeezed from above and heated, the flakes turn to lie flat, across the push. This is slate. It splits into thin, flat sheets, perfect for roof tiles.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_13" xml:space="preserve">
+    <value>Deeper and hotter still, the flakes grow into shiny mica, and red garnet crystals grow among them. This is schist.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_14" xml:space="preserve">
+    <value>At over six hundred degrees, the light and dark minerals gather into stripes. This is gneiss. It's been changed completely, but it never melted.</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_15" xml:space="preserve">
+    <value>Your turn. Here's limestone, full of bits of shell. Push it deeper, with the slider or by dragging the press, until it turns into marble.</value>
+  </data>
+  <data name="Narr_Volc_Obj_AshFall" xml:space="preserve">
+    <value>Ash falls out of the cloud like grey snow. But it isn't soft like ash from a fire. It's tiny, sharp bits of rock and glass that can bury fields and stop planes from flying.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Bands" xml:space="preserve">
+    <value>In gneiss, light quartz and feldspar and dark mica separate into stripes, even though the rock stays solid.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Basalt" xml:space="preserve">
+    <value>Basalt is lava that cooled quickly at the surface. It's dark, heavy and fine-grained, and most of the ocean floor is made of it.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Biotite" xml:space="preserve">
+    <value>Biotite is black mica. It grows as thin sheets that peel apart like the pages of a book.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Bombs" xml:space="preserve">
+    <value>Lumps of lava thrown out when gas bursts. Some are as big as a football or even bigger, and they cool and harden as they fly through the air.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Bubbles" xml:space="preserve">
+    <value>Water dissolved in the magma comes out as bubbles when the pressure drops, like a fizzy drink when you open it. The higher the magma rises, the bigger the bubbles grow.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Chamber" xml:space="preserve">
+    <value>The magma chamber is a big pocket of molten rock a few kilometres underground. Magma collects here before an eruption. After an eruption, click it to fill it up again.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Clay" xml:space="preserve">
+    <value>Clay is the finest of all, just a few thousandths of a millimetre. It takes about three days to sink a metre, so muddy water stays cloudy for a long time.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Column" xml:space="preserve">
+    <value>A column of hot ash and gas rushing up into the sky. The more magma erupts each second, the higher it goes. Big eruptions reach more than thirty kilometres.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Conduit" xml:space="preserve">
+    <value>The conduit is the pipe the magma pushes up through, from the chamber to the vent. The magma cracks the rock open to make its way.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Cone" xml:space="preserve">
+    <value>A volcano is built by its own eruptions, layer on layer. Runny lava spreads out into a wide, gentle shield. Sticky lava and ash pile up into a steep cone of layers.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Crystallization" xml:space="preserve">
+    <value>Magma cools into igneous rock. Underground it cools slowly into coarse granite. At the surface it cools quickly into fine basalt.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Deposition" xml:space="preserve">
+    <value>When water slows down, it drops what it's carrying, coarse grains first and fine ones last, building up layer after layer.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Dome" xml:space="preserve">
+    <value>Sticky lava that has lost its gas oozes out like toothpaste and piles up over the vent. When part of a dome collapses, it can turn into a pyroclastic flow.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Erosion" xml:space="preserve">
+    <value>Rivers, wind, waves and glaciers carry the broken bits away. A river can roll pebbles along, carry sand and mud, and even take away dissolved minerals.</value>
+  </data>
+  <data name="Narr_Volc_Obj_EruptionStep" xml:space="preserve">
+    <value>Magma reaches the surface as lava and ash. New rock is made in hours to years, the fastest step in the whole cycle.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Fossil" xml:space="preserve">
+    <value>These are bits of shell in the limestone. As it turns into marble, the calcite recrystallises and the shells vanish.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Fountain" xml:space="preserve">
+    <value>Gas rushing out of runny magma throws up a spray of glowing lava, sometimes hundreds of metres high. The drops fall back down and run off as lava flows.</value>
+  </data>
+  <data name="Narr_Volc_Obj_FragLevel" xml:space="preserve">
+    <value>When about three quarters of the magma is gas, the sticky froth can't stretch any more. It tears apart into ash and gas, which shoot upwards. This only happens in sticky magma that traps its bubbles.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Garnet" xml:space="preserve">
+    <value>Red garnet crystals grow in schist at about four hundred and fifty degrees and above. Their size tells geologists how hot and deep the rock once was.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Gauge" xml:space="preserve">
+    <value>This shows how much the pressure in the chamber is above the pressure of the rock around it. It rises as magma flows in, and drops when the eruption lets the magma out.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Glass" xml:space="preserve">
+    <value>Volcanic glass is melt that froze before it could crystallise. Its atoms are jumbled up, just like in window glass. Black obsidian is pure volcanic glass.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Grain" xml:space="preserve">
+    <value>This is the grain you're following. The dotted line shows where it has been, and the label tells you what it is now.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Grains" xml:space="preserve">
+    <value>In sandstone and limestone, heat and pressure make the grains grow into each other until the gaps between them close. They become quartzite and marble.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Granite" xml:space="preserve">
+    <value>Granite cooled slowly from magma deep underground, so its crystals of quartz, feldspar and mica are big enough to see. Uplift and erosion have brought it up to the peaks.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Gravel" xml:space="preserve">
+    <value>Gravel is pebbles a few millimetres across. It sinks fastest, about three and a half seconds for a metre, and lands first, near the river mouth.</value>
+  </data>
+  <data name="Narr_Volc_Obj_KFeldspar" xml:space="preserve">
+    <value>Potassium feldspar is the pink feldspar that gives many granites their colour. It crystallises after the white feldspar and the mica.</value>
+  </data>
+  <data name="Narr_Volc_Obj_LavaFlow" xml:space="preserve">
+    <value>A river of molten rock. Runny basalt can flow for tens of kilometres, but sticky lava creeps only a few hundred metres. It glows while it's hot, then cools into dark rock.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Layers" xml:space="preserve">
+    <value>Each pour makes one layer, coarse at the bottom and fine at the top. Geologists call it a graded bed, and they read layers like these like the pages of a history book.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Limestone" xml:space="preserve">
+    <value>Limestone is made mostly of the shells and skeletons of sea creatures. Slightly acidic rainwater slowly dissolves it and carves out caves.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Lithification" xml:space="preserve">
+    <value>Buried layers are squeezed by the weight above. The water is pressed out, and minerals crystallise between the grains like glue, turning loose sediment into rock.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Magma" xml:space="preserve">
+    <value>Magma is molten rock, at about seven hundred to twelve hundred degrees. Where rock melts down here, the cycle begins again.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Marble" xml:space="preserve">
+    <value>Marble is limestone baked by heat, here right next to the hot granite. Its grains have grown into interlocking crystals, and the fossils have disappeared.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Melt" xml:space="preserve">
+    <value>This is magma that's still liquid, glowing hot. It gets darker as it cools towards the temperature where everything is solid.</value>
+  </data>
+  <data name="Narr_Volc_Obj_MeltPocket" xml:space="preserve">
+    <value>Above about seven hundred degrees, with a little water, the rock starts to melt here and there. Rock that is partly melted is called migmatite.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Melting" xml:space="preserve">
+    <value>Far below, or where plates sink and water seeps in, rock gets hot enough to melt. The magma is lighter than the rock around it, so it rises.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Metamorphism" xml:space="preserve">
+    <value>Deep down, heat and pressure change a rock's minerals and texture, while it stays solid. Shale becomes slate, schist and gneiss, and limestone becomes marble.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Mica" xml:space="preserve">
+    <value>Shale is made of tiny flat flakes of clay. Squeezed and heated, they turn to lie the same way, and grow into shiny mica.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Olivine" xml:space="preserve">
+    <value>Olivine is a green mineral, the first to crystallise from hot basalt magma. Clear olivine is cut into a gem called peridot.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Overburden" xml:space="preserve">
+    <value>These are the layers laid down later, pressing down on the ones below. Drag them up or down to bury the layers deeper or shallower.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Plagioclase" xml:space="preserve">
+    <value>Plagioclase is a white feldspar, often with fine stripes. It's one of the first minerals to crystallise, and the commonest mineral in the Earth's crust.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Press" xml:space="preserve">
+    <value>The weight of the rock above squeezes the sample: about another thousand atmospheres for every four kilometres down. Drag the press to push it deeper.</value>
+  </data>
+  <data name="Narr_Volc_Obj_PyroFlow" xml:space="preserve">
+    <value>A glowing avalanche of hot ash, rock and gas racing down the volcano, faster than a car and hotter than an oven. It's the deadliest danger a volcano has.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Pyroxene" xml:space="preserve">
+    <value>Pyroxene is a dark green to black mineral, common in basalt and gabbro. It crystallises after olivine.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Quakes" xml:space="preserve">
+    <value>As magma forces its way in and up, it cracks the rock and sets off swarms of small earthquakes. They're one of the warning signs that an eruption may be coming.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Quartz" xml:space="preserve">
+    <value>Clear grey quartz is the last to crystallise, so it has to fill whatever gaps are left between the other crystals. It's very hard, and most beach sand is made of it.</value>
+  </data>
+  <data name="Narr_Volc_Obj_River" xml:space="preserve">
+    <value>A muddy river flows into the tank. Click it to pour in another load of mud. Each load makes a new layer.</value>
+  </data>
+  <data name="Narr_Volc_Obj_SandGrain" xml:space="preserve">
+    <value>Sand grains are about a quarter of a millimetre across. They take about half a minute to sink a metre.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Sandstone" xml:space="preserve">
+    <value>Sandstone is sand grains cemented together. You can often still see the layers and ripples, and even footprints, made when it was loose sand.</value>
+  </data>
+  <data name="Narr_Volc_Obj_SatLevel" xml:space="preserve">
+    <value>Below this depth, the weight of the rock above keeps all the water dissolved. Above it there isn't enough pressure to hold it in, so bubbles form. Wetter magma starts bubbling deeper down.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Schist" xml:space="preserve">
+    <value>Deep under the mountains, shale has been squeezed and heated into slate, schist and gneiss, with shiny mica flakes and stripes of minerals.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Sediment" xml:space="preserve">
+    <value>Loose sand, mud and shells, freshly laid down on the sea floor. In time the layers above will bury them and turn them into rock.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Shale" xml:space="preserve">
+    <value>Shale is mud pressed into rock. It splits easily into thin layers, and it's where many fossils are found.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Silt" xml:space="preserve">
+    <value>Silt is finer than sand, like flour. It takes about twenty minutes to sink a metre, so it drifts farther out.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Thermometer" xml:space="preserve">
+    <value>This is the magma's temperature. Below the top mark, the liquidus, crystals start to grow. By the bottom mark, the solidus, everything is solid.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Umbrella" xml:space="preserve">
+    <value>High up, the column becomes as light as the air around it, so it spreads out sideways into a huge umbrella-shaped cloud, and the wind carries it far away.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Uplift" xml:space="preserve">
+    <value>When plates collide, rock is folded and pushed up into mountains. Old sea floor and deep rock come up to the surface, where weathering begins again.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Vent" xml:space="preserve">
+    <value>The vent is the opening where the magma comes out. Click it while the chamber is filling, and the volcano erupts straight away.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Vesicle" xml:space="preserve">
+    <value>These holes were left by gas bubbles trapped when the lava froze. Pumice is so full of them that it floats.</value>
+  </data>
+  <data name="Narr_Volc_Obj_Weathering" xml:space="preserve">
+    <value>Rock at the surface is slowly broken up and rotted by rain, frost, wind, plant roots and the air. Water that freezes in a crack pushes it wider.</value>
+  </data>
   <data name="Narr_Water_Cloud_01" xml:space="preserve">
     <value>How does a cloud form? Over a sunny field, a bubble of air is warmed by the ground and starts to rise on its own, like a hot-air balloon.</value>
   </data>
@@ -10250,6 +10847,1392 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>Walkthroughs {0}/{1}</value>
+  </data>
+  <data name="Quake_Boundaries_Fact1" xml:space="preserve">
+    <value>The oldest sea floor is only about 180 million years old; older floor has sunk back into the mantle. Continents keep rocks billions of years old.</value>
+  </data>
+  <data name="Quake_Boundaries_Fact2" xml:space="preserve">
+    <value>The Challenger Deep in the Mariana Trench, about 10,900 m down, is the deepest point of the ocean.</value>
+  </data>
+  <data name="Quake_Boundaries_Fact3" xml:space="preserve">
+    <value>The top of Mount Everest is marine limestone, rock that formed on the floor of the Tethys Ocean.</value>
+  </data>
+  <data name="Quake_Boundaries_Fact4" xml:space="preserve">
+    <value>The San Andreas fault moves about 3–4 cm a year on average; in 1906 it slipped up to about 6 m at once.</value>
+  </data>
+  <data name="Quake_Boundaries_Fact5" xml:space="preserve">
+    <value>In Iceland the Mid-Atlantic Ridge comes ashore: you can stand between the North American and Eurasian plates.</value>
+  </data>
+  <data name="Quake_Boundaries_Panel_Note" xml:space="preserve">
+    <value>Times are sped up: the ridge and India run through millions of years, the fault and the stuck plate edge through centuries.</value>
+  </data>
+  <data name="Quake_Boundary_Alpine" xml:space="preserve">
+    <value>Alpine fault (New Zealand)</value>
+  </data>
+  <data name="Quake_Boundary_AmericaAntarctic" xml:space="preserve">
+    <value>American–Antarctic Ridge</value>
+  </data>
+  <data name="Quake_Boundary_AzoresGibraltar" xml:space="preserve">
+    <value>Azores–Gibraltar</value>
+  </data>
+  <data name="Quake_Boundary_Burma" xml:space="preserve">
+    <value>Myanmar and the Andaman Islands</value>
+  </data>
+  <data name="Quake_Boundary_Cascadia" xml:space="preserve">
+    <value>Cascadia</value>
+  </data>
+  <data name="Quake_Boundary_Cayman" xml:space="preserve">
+    <value>Cayman Trough</value>
+  </data>
+  <data name="Quake_Boundary_CentralAmerica" xml:space="preserve">
+    <value>Middle America Trench (Central America)</value>
+  </data>
+  <data name="Quake_Boundary_CentralIndianNorth" xml:space="preserve">
+    <value>Central Indian and Carlsberg Ridges</value>
+  </data>
+  <data name="Quake_Boundary_CentralIndianSouth" xml:space="preserve">
+    <value>Central Indian Ridge (south)</value>
+  </data>
+  <data name="Quake_Boundary_Chaman" xml:space="preserve">
+    <value>Chaman fault</value>
+  </data>
+  <data name="Quake_Boundary_Chersky" xml:space="preserve">
+    <value>Siberia and the Sea of Okhotsk</value>
+  </data>
+  <data name="Quake_Boundary_ChileRise" xml:space="preserve">
+    <value>Chile Rise</value>
+  </data>
+  <data name="Quake_Boundary_DeadSea" xml:space="preserve">
+    <value>Dead Sea fault</value>
+  </data>
+  <data name="Quake_Boundary_EastAfricanRift" xml:space="preserve">
+    <value>East African Rift</value>
+  </data>
+  <data name="Quake_Boundary_EastAnatolian" xml:space="preserve">
+    <value>East Anatolian fault</value>
+  </data>
+  <data name="Quake_Boundary_EastPacificNorth" xml:space="preserve">
+    <value>East Pacific Rise (north)</value>
+  </data>
+  <data name="Quake_Boundary_EastPacificSouth" xml:space="preserve">
+    <value>East Pacific Rise (south)</value>
+  </data>
+  <data name="Quake_Boundary_Fiji" xml:space="preserve">
+    <value>Fiji</value>
+  </data>
+  <data name="Quake_Boundary_Galapagos" xml:space="preserve">
+    <value>Galápagos Rift</value>
+  </data>
+  <data name="Quake_Boundary_GulfOfAden" xml:space="preserve">
+    <value>Gulf of Aden</value>
+  </data>
+  <data name="Quake_Boundary_GulfOfCalifornia" xml:space="preserve">
+    <value>Gulf of California</value>
+  </data>
+  <data name="Quake_Boundary_Hellenic" xml:space="preserve">
+    <value>Hellenic and Cyprus arcs</value>
+  </data>
+  <data name="Quake_Boundary_Himalaya" xml:space="preserve">
+    <value>Himalaya</value>
+  </data>
+  <data name="Quake_Boundary_IndiaAustralia" xml:space="preserve">
+    <value>India–Australia</value>
+  </data>
+  <data name="Quake_Boundary_IzuBoninMariana" xml:space="preserve">
+    <value>Izu–Bonin–Mariana Trench</value>
+  </data>
+  <data name="Quake_Boundary_JapanKurilAleutian" xml:space="preserve">
+    <value>Japan, Kuril and Aleutian Trenches</value>
+  </data>
+  <data name="Quake_Boundary_JuanDeFuca" xml:space="preserve">
+    <value>Juan de Fuca Ridge</value>
+  </data>
+  <data name="Quake_Boundary_LesserAntillesNorth" xml:space="preserve">
+    <value>Lesser Antilles and Puerto Rico</value>
+  </data>
+  <data name="Quake_Boundary_LesserAntillesSouth" xml:space="preserve">
+    <value>Lesser Antilles (south)</value>
+  </data>
+  <data name="Quake_Boundary_Macquarie" xml:space="preserve">
+    <value>Macquarie Ridge</value>
+  </data>
+  <data name="Quake_Boundary_Makran" xml:space="preserve">
+    <value>Makran</value>
+  </data>
+  <data name="Quake_Boundary_Manila" xml:space="preserve">
+    <value>Manila Trench</value>
+  </data>
+  <data name="Quake_Boundary_MidAtlanticCentral" xml:space="preserve">
+    <value>Mid-Atlantic Ridge (central)</value>
+  </data>
+  <data name="Quake_Boundary_MidAtlanticNorth" xml:space="preserve">
+    <value>Mid-Atlantic Ridge (north)</value>
+  </data>
+  <data name="Quake_Boundary_MidAtlanticSouth" xml:space="preserve">
+    <value>Mid-Atlantic Ridge (south)</value>
+  </data>
+  <data name="Quake_Boundary_MiddleAmerica" xml:space="preserve">
+    <value>Middle America Trench (Mexico)</value>
+  </data>
+  <data name="Quake_Boundary_NankaiRyukyu" xml:space="preserve">
+    <value>Nankai and Ryukyu Trenches</value>
+  </data>
+  <data name="Quake_Boundary_NewGuinea" xml:space="preserve">
+    <value>New Guinea</value>
+  </data>
+  <data name="Quake_Boundary_NorthAfrica" xml:space="preserve">
+    <value>North Africa</value>
+  </data>
+  <data name="Quake_Boundary_NorthScotia" xml:space="preserve">
+    <value>North Scotia Ridge</value>
+  </data>
+  <data name="Quake_Boundary_NorthSouthAmerica" xml:space="preserve">
+    <value>North America–South America</value>
+  </data>
+  <data name="Quake_Boundary_Owen" xml:space="preserve">
+    <value>Owen fracture zone</value>
+  </data>
+  <data name="Quake_Boundary_PacificAntarctic" xml:space="preserve">
+    <value>Pacific–Antarctic Ridge</value>
+  </data>
+  <data name="Quake_Boundary_Panama" xml:space="preserve">
+    <value>Panama</value>
+  </data>
+  <data name="Quake_Boundary_PeruChile" xml:space="preserve">
+    <value>Peru–Chile Trench (Andes)</value>
+  </data>
+  <data name="Quake_Boundary_Philippine" xml:space="preserve">
+    <value>Philippine Trench</value>
+  </data>
+  <data name="Quake_Boundary_PhilippineFault" xml:space="preserve">
+    <value>Philippine fault</value>
+  </data>
+  <data name="Quake_Boundary_Puysegur" xml:space="preserve">
+    <value>Puysegur Trench</value>
+  </data>
+  <data name="Quake_Boundary_QueenCharlotte" xml:space="preserve">
+    <value>Queen Charlotte fault</value>
+  </data>
+  <data name="Quake_Boundary_RedSea" xml:space="preserve">
+    <value>Red Sea</value>
+  </data>
+  <data name="Quake_Boundary_Sagami" xml:space="preserve">
+    <value>Sagami Trough</value>
+  </data>
+  <data name="Quake_Boundary_SanAndreas" xml:space="preserve">
+    <value>San Andreas fault</value>
+  </data>
+  <data name="Quake_Boundary_SolomonVanuatu" xml:space="preserve">
+    <value>Solomon and Vanuatu Trenches</value>
+  </data>
+  <data name="Quake_Boundary_SouthCaribbean" xml:space="preserve">
+    <value>South Caribbean</value>
+  </data>
+  <data name="Quake_Boundary_SouthChile" xml:space="preserve">
+    <value>Southern Chile</value>
+  </data>
+  <data name="Quake_Boundary_SouthSandwich" xml:space="preserve">
+    <value>South Sandwich Trench</value>
+  </data>
+  <data name="Quake_Boundary_SouthScotia" xml:space="preserve">
+    <value>South Scotia Ridge</value>
+  </data>
+  <data name="Quake_Boundary_SoutheastIndian" xml:space="preserve">
+    <value>Southeast Indian Ridge</value>
+  </data>
+  <data name="Quake_Boundary_SouthwestIndian" xml:space="preserve">
+    <value>Southwest Indian Ridge</value>
+  </data>
+  <data name="Quake_Boundary_Sunda" xml:space="preserve">
+    <value>Sunda (Java) Trench</value>
+  </data>
+  <data name="Quake_Boundary_TongaKermadec" xml:space="preserve">
+    <value>Tonga–Kermadec Trench</value>
+  </data>
+  <data name="Quake_Boundary_WesternRift" xml:space="preserve">
+    <value>East African Rift (western branch)</value>
+  </data>
+  <data name="Quake_Boundary_Zagros" xml:space="preserve">
+    <value>Zagros Mountains</value>
+  </data>
+  <data name="Quake_Chart_Collision_Caption" xml:space="preserve">
+    <value>India's speed north</value>
+  </data>
+  <data name="Quake_Chart_Collision_Note" xml:space="preserve">
+    <value>Rounded from the sea-floor record: fast across the ocean, slower after it met Asia about 50 million years ago.</value>
+  </data>
+  <data name="Quake_Chart_Depth_Axis" xml:space="preserve">
+    <value>depth, km</value>
+  </data>
+  <data name="Quake_Chart_Depth_Short" xml:space="preserve">
+    <value>depth km</value>
+  </data>
+  <data name="Quake_Chart_India_Axis" xml:space="preserve">
+    <value>million years ago</value>
+  </data>
+  <data name="Quake_Chart_India_Contact" xml:space="preserve">
+    <value>meets Asia</value>
+  </data>
+  <data name="Quake_Chart_Inside_Caption" xml:space="preserve">
+    <value>Seismogram at the station</value>
+  </data>
+  <data name="Quake_Chart_Inside_Note" xml:space="preserve">
+    <value>When each wave arrives comes from the traced rays; the wiggles themselves are made up.</value>
+  </data>
+  <data name="Quake_Chart_Magnitude" xml:space="preserve">
+    <value>magnitude</value>
+  </data>
+  <data name="Quake_Chart_Plates_Caption" xml:space="preserve">
+    <value>Earthquakes in a year, by magnitude</value>
+  </data>
+  <data name="Quake_Chart_Plates_Note" xml:space="preserve">
+    <value>Each step down in magnitude: about ten times as many quakes, each with about 32 times less energy. USGS estimates, rounded.</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Axis" xml:space="preserve">
+    <value>ridge</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Caption" xml:space="preserve">
+    <value>What a ship's magnetometer reads</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Down" xml:space="preserve">
+    <value>−</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Note" xml:space="preserve">
+    <value>Stripes formed in the last 5.9 million years follow the real record of field flips; older ones are made up to show the pattern.</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Up" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Quake_Chart_Seis_Axis" xml:space="preserve">
+    <value>minutes after the quake</value>
+  </data>
+  <data name="Quake_Chart_Seis_L" xml:space="preserve">
+    <value>surface</value>
+  </data>
+  <data name="Quake_Chart_Seis_P" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Quake_Chart_Seis_PKP" xml:space="preserve">
+    <value>PKP (faint)</value>
+  </data>
+  <data name="Quake_Chart_Seis_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Quake_Chart_Slab_Arc" xml:space="preserve">
+    <value>volcanoes</value>
+  </data>
+  <data name="Quake_Chart_Slab_Axis" xml:space="preserve">
+    <value>km from trench</value>
+  </data>
+  <data name="Quake_Chart_Speed_Axis" xml:space="preserve">
+    <value>speed, km/s</value>
+  </data>
+  <data name="Quake_Chart_Speed_Short" xml:space="preserve">
+    <value>cm/yr</value>
+  </data>
+  <data name="Quake_Chart_Speed_Title" xml:space="preserve">
+    <value>Wave speed with depth</value>
+  </data>
+  <data name="Quake_Chart_Strain_Axis" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="Quake_Chart_Strain_Breaks" xml:space="preserve">
+    <value>breaks</value>
+  </data>
+  <data name="Quake_Chart_Strain_Short" xml:space="preserve">
+    <value>strain</value>
+  </data>
+  <data name="Quake_Chart_Subduction_Caption" xml:space="preserve">
+    <value>Quake depth against distance from the trench</value>
+  </data>
+  <data name="Quake_Chart_Subduction_Note" xml:space="preserve">
+    <value>The quakes trace the sinking plate: the deeper, the farther from the trench. The triangle is the volcanic arc.</value>
+  </data>
+  <data name="Quake_Chart_Transform_Caption" xml:space="preserve">
+    <value>Strain stored on the fault</value>
+  </data>
+  <data name="Quake_Chart_Transform_Note" xml:space="preserve">
+    <value>It builds steadily and drops at each quake: a sawtooth. Real faults are less regular.</value>
+  </data>
+  <data name="Quake_Chip_Alaska1964" xml:space="preserve">
+    <value>Alaska 1964</value>
+  </data>
+  <data name="Quake_Chip_Bolivia1994" xml:space="preserve">
+    <value>Bolivia 1994 (deep)</value>
+  </data>
+  <data name="Quake_Chip_Chile1960" xml:space="preserve">
+    <value>Chile 1960</value>
+  </data>
+  <data name="Quake_Chip_Nepal2015" xml:space="preserve">
+    <value>Nepal 2015</value>
+  </data>
+  <data name="Quake_Chip_SanFrancisco1906" xml:space="preserve">
+    <value>San Francisco 1906</value>
+  </data>
+  <data name="Quake_Chip_Sumatra2004" xml:space="preserve">
+    <value>Sumatra 2004</value>
+  </data>
+  <data name="Quake_Chip_Tangshan1976" xml:space="preserve">
+    <value>Tangshan 1976</value>
+  </data>
+  <data name="Quake_Chip_Tohoku2011" xml:space="preserve">
+    <value>Japan 2011</value>
+  </data>
+  <data name="Quake_Chip_Turkey2023" xml:space="preserve">
+    <value>Turkey 2023</value>
+  </data>
+  <data name="Quake_Chip_Wenchuan2008" xml:space="preserve">
+    <value>Wenchuan 2008</value>
+  </data>
+  <data name="Quake_ClearPicks" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Quake_Collision_Met_Text" xml:space="preserve">
+    <value>Too light to sink, India slides under Tibet; the crust thickens and the mountains rise.</value>
+  </data>
+  <data name="Quake_Collision_Met_Title" xml:space="preserve">
+    <value>India has hit Asia</value>
+  </data>
+  <data name="Quake_Collision_Note" xml:space="preserve">
+    <value>A north–south slice 2400 km long, depth and distance to the same scale; heights drawn 15 times taller. Simplified: much of the squeeze happens outside this slice.</value>
+  </data>
+  <data name="Quake_Collision_Ocean_Text" xml:space="preserve">
+    <value>The Tethys floor sinks under Asia, with volcanoes on Asia's edge. India races north.</value>
+  </data>
+  <data name="Quake_Collision_Ocean_Title" xml:space="preserve">
+    <value>An ocean between India and Asia</value>
+  </data>
+  <data name="Quake_Collision_Subtitle" xml:space="preserve">
+    <value>Collision: India meets Asia</value>
+  </data>
+  <data name="Quake_Depth_Deep" xml:space="preserve">
+    <value>deep</value>
+  </data>
+  <data name="Quake_Depth_Mid" xml:space="preserve">
+    <value>intermediate</value>
+  </data>
+  <data name="Quake_Depth_Shallow" xml:space="preserve">
+    <value>shallow</value>
+  </data>
+  <data name="Quake_Dip" xml:space="preserve">
+    <value>Sinking plate's dip</value>
+  </data>
+  <data name="Quake_Dir_E" xml:space="preserve">
+    <value>east</value>
+  </data>
+  <data name="Quake_Dir_N" xml:space="preserve">
+    <value>north</value>
+  </data>
+  <data name="Quake_Dir_NE" xml:space="preserve">
+    <value>north-east</value>
+  </data>
+  <data name="Quake_Dir_NW" xml:space="preserve">
+    <value>north-west</value>
+  </data>
+  <data name="Quake_Dir_S" xml:space="preserve">
+    <value>south</value>
+  </data>
+  <data name="Quake_Dir_SE" xml:space="preserve">
+    <value>south-east</value>
+  </data>
+  <data name="Quake_Dir_SW" xml:space="preserve">
+    <value>south-west</value>
+  </data>
+  <data name="Quake_Dir_W" xml:space="preserve">
+    <value>west</value>
+  </data>
+  <data name="Quake_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Quake_Famous_Caption" xml:space="preserve">
+    <value>Famous earthquakes</value>
+  </data>
+  <data name="Quake_Fault_Creep_Text" xml:space="preserve">
+    <value>Here the fault slides gently all the time, so strain never builds up and big quakes don't come.</value>
+  </data>
+  <data name="Quake_Fault_Creep_Title" xml:space="preserve">
+    <value>A creeping fault</value>
+  </data>
+  <data name="Quake_Fault_Locked_Text" xml:space="preserve">
+    <value>The far sides keep moving; near the fault the ground is held and bends.</value>
+  </data>
+  <data name="Quake_Fault_Locked_Title" xml:space="preserve">
+    <value>Stuck: the ground is bending</value>
+  </data>
+  <data name="Quake_Fault_Quake_Text" xml:space="preserve">
+    <value>The bent ground springs back: elastic rebound. The fences are cut and offset.</value>
+  </data>
+  <data name="Quake_Fault_Quake_Title" xml:space="preserve">
+    <value>The fault has slipped!</value>
+  </data>
+  <data name="Quake_Group_African" xml:space="preserve">
+    <value>African Plate</value>
+  </data>
+  <data name="Quake_Group_American" xml:space="preserve">
+    <value>American Plate</value>
+  </data>
+  <data name="Quake_Group_Antarctic" xml:space="preserve">
+    <value>Antarctic Plate</value>
+  </data>
+  <data name="Quake_Group_Eurasian" xml:space="preserve">
+    <value>Eurasian Plate</value>
+  </data>
+  <data name="Quake_Group_Indian" xml:space="preserve">
+    <value>Indian Ocean Plate</value>
+  </data>
+  <data name="Quake_Group_Pacific" xml:space="preserve">
+    <value>Pacific Plate</value>
+  </data>
+  <data name="Quake_HalfRate" xml:space="preserve">
+    <value>Each side moves</value>
+  </data>
+  <data name="Quake_Hint_Collision" xml:space="preserve">
+    <value>Drag sideways to move through 80 million years.</value>
+  </data>
+  <data name="Quake_Hint_Inside" xml:space="preserve">
+    <value>Drag the quake round the rim; click the rim to put a station there.</value>
+  </data>
+  <data name="Quake_Hint_Plates" xml:space="preserve">
+    <value>Click a boundary, a plate or a gold star; your place is the blue dot.</value>
+  </data>
+  <data name="Quake_Hint_Ridge" xml:space="preserve">
+    <value>Drag sideways to go back or forward in time; try a slow and a fast ridge.</value>
+  </data>
+  <data name="Quake_Hint_Subduction" xml:space="preserve">
+    <value>Drag on the right to tilt the sinking plate; watch the stuck zone fill up.</value>
+  </data>
+  <data name="Quake_Hint_Transform" xml:space="preserve">
+    <value>Watch the fences bend, then snap; try a creeping fault.</value>
+  </data>
+  <data name="Quake_Inside_Done_Text" xml:space="preserve">
+    <value>Every kind of wave has reached the station; the surface waves shook the hardest.</value>
+  </data>
+  <data name="Quake_Inside_Done_Title" xml:space="preserve">
+    <value>The waves have passed</value>
+  </data>
+  <data name="Quake_Inside_Fact1" xml:space="preserve">
+    <value>The deepest hole ever drilled, the Kola Superdeep Borehole, reached 12.3 km: less than 0.2% of the way to the centre. Everything deeper is known from seismic waves.</value>
+  </data>
+  <data name="Quake_Inside_Fact2" xml:space="preserve">
+    <value>Andrija Mohorovičić found the bottom of the crust in 1909 from a Croatian earthquake; Beno Gutenberg located the core's edge in 1914.</value>
+  </data>
+  <data name="Quake_Inside_Fact3" xml:space="preserve">
+    <value>Inge Lehmann discovered the solid inner core in 1936 from faint P waves arriving in the shadow zone.</value>
+  </data>
+  <data name="Quake_Inside_Fact4" xml:space="preserve">
+    <value>The inner core is about as hot as the Sun's surface, 5000–6000 °C, yet solid because of the enormous pressure.</value>
+  </data>
+  <data name="Quake_Inside_Fact5" xml:space="preserve">
+    <value>A P wave crosses the Earth through the centre in about 20 minutes; stations worldwide record a big quake within half an hour.</value>
+  </data>
+  <data name="Quake_Inside_Note" xml:space="preserve">
+    <value>Layers to scale; waves traced through a standard Earth model, a minute of travel per second.</value>
+  </data>
+  <data name="Quake_Inside_PArrived_Text" xml:space="preserve">
+    <value>A sharp jolt up and down. The S wave is still on its way.</value>
+  </data>
+  <data name="Quake_Inside_PArrived_Title" xml:space="preserve">
+    <value>The P wave has arrived</value>
+  </data>
+  <data name="Quake_Inside_PShadow_Text" xml:space="preserve">
+    <value>This station is in the P-wave shadow: the core bends the P waves away. Only faint waves through the inner core arrive.</value>
+  </data>
+  <data name="Quake_Inside_Panel_Note" xml:space="preserve">
+    <value>Speeds close to the IASP91 model, with the textbook's round depths: Moho 33 km, outer core 2900 km, inner core 5150 km.</value>
+  </data>
+  <data name="Quake_Inside_SArrived_Text" xml:space="preserve">
+    <value>Stronger side-to-side shaking. The gap since P tells how far away the quake is.</value>
+  </data>
+  <data name="Quake_Inside_SArrived_Title" xml:space="preserve">
+    <value>The S wave has arrived</value>
+  </data>
+  <data name="Quake_Inside_SShadow_Text" xml:space="preserve">
+    <value>This station is in the S-wave shadow: S waves cannot cross the liquid outer core.</value>
+  </data>
+  <data name="Quake_Inside_Shadow_Text" xml:space="preserve">
+    <value>Only faint waves reach this station.</value>
+  </data>
+  <data name="Quake_Inside_Shadow_Title" xml:space="preserve">
+    <value>In the shadow zone</value>
+  </data>
+  <data name="Quake_Inside_Start_Text" xml:space="preserve">
+    <value>Press play to set it off and follow the waves through the Earth.</value>
+  </data>
+  <data name="Quake_Inside_Start_Title" xml:space="preserve">
+    <value>The quake is about to strike</value>
+  </data>
+  <data name="Quake_Inside_Subtitle" xml:space="preserve">
+    <value>Seismic waves and the Earth's interior</value>
+  </data>
+  <data name="Quake_Inside_Travelling_Text" xml:space="preserve">
+    <value>Nothing has reached the station yet: P comes first, then S, then the surface waves.</value>
+  </data>
+  <data name="Quake_Inside_Travelling_Title" xml:space="preserve">
+    <value>The waves are on their way</value>
+  </data>
+  <data name="Quake_Kind_Collision" xml:space="preserve">
+    <value>Collision: mountains</value>
+  </data>
+  <data name="Quake_Kind_Collision_Text" xml:space="preserve">
+    <value>Two continents meet; neither sinks, so the crust crumples into mountains.</value>
+  </data>
+  <data name="Quake_Kind_Diffuse" xml:space="preserve">
+    <value>Diffuse boundary</value>
+  </data>
+  <data name="Quake_Kind_Diffuse_Text" xml:space="preserve">
+    <value>A wide zone squeezed or stretched, with quakes scattered across it.</value>
+  </data>
+  <data name="Quake_Kind_Ridge" xml:space="preserve">
+    <value>Ridge: plates part</value>
+  </data>
+  <data name="Quake_Kind_Ridge_Text" xml:space="preserve">
+    <value>The plates move apart; magma rises into the gap and makes new ocean floor.</value>
+  </data>
+  <data name="Quake_Kind_Rift" xml:space="preserve">
+    <value>Rift: a continent splitting</value>
+  </data>
+  <data name="Quake_Kind_Rift_Text" xml:space="preserve">
+    <value>A continent beginning to split; not yet a plate boundary.</value>
+  </data>
+  <data name="Quake_Kind_Transform" xml:space="preserve">
+    <value>Transform: plates slide</value>
+  </data>
+  <data name="Quake_Kind_Transform_Text" xml:space="preserve">
+    <value>The plates slide past each other; shallow quakes as they stick and slip.</value>
+  </data>
+  <data name="Quake_Kind_Trench" xml:space="preserve">
+    <value>Trench: one sinks</value>
+  </data>
+  <data name="Quake_Kind_Trench_Text" xml:space="preserve">
+    <value>The plates meet and one sinks under the other; quakes go deep, volcanoes rise behind.</value>
+  </data>
+  <data name="Quake_Label_Age" xml:space="preserve">
+    <value>{0} million years ago</value>
+  </data>
+  <data name="Quake_Label_Asia" xml:space="preserve">
+    <value>Asia</value>
+  </data>
+  <data name="Quake_Label_Asthenosphere" xml:space="preserve">
+    <value>asthenosphere</value>
+  </data>
+  <data name="Quake_Label_Benioff" xml:space="preserve">
+    <value>quakes down the slab</value>
+  </data>
+  <data name="Quake_Label_Clock" xml:space="preserve">
+    <value>{0} min {1} s</value>
+  </data>
+  <data name="Quake_Label_Creeping" xml:space="preserve">
+    <value>creeping fault</value>
+  </data>
+  <data name="Quake_Label_Crest" xml:space="preserve">
+    <value>ridge crest</value>
+  </data>
+  <data name="Quake_Label_Crust" xml:space="preserve">
+    <value>crust {0} km thick</value>
+  </data>
+  <data name="Quake_Label_CrustShort" xml:space="preserve">
+    <value>crust</value>
+  </data>
+  <data name="Quake_Label_CrustThin" xml:space="preserve">
+    <value>crust (too thin to see)</value>
+  </data>
+  <data name="Quake_Label_Fault" xml:space="preserve">
+    <value>fault</value>
+  </data>
+  <data name="Quake_Label_Gangdese" xml:space="preserve">
+    <value>Gangdese volcanoes</value>
+  </data>
+  <data name="Quake_Label_Gutenberg" xml:space="preserve">
+    <value>Gutenberg discontinuity · 2900 km</value>
+  </data>
+  <data name="Quake_Label_GutenbergShort" xml:space="preserve">
+    <value>Gutenberg 2900 km</value>
+  </data>
+  <data name="Quake_Label_Himalaya" xml:space="preserve">
+    <value>Himalaya {0} km</value>
+  </data>
+  <data name="Quake_Label_HundredKm" xml:space="preserve">
+    <value>≈100 km: water out, mantle melts</value>
+  </data>
+  <data name="Quake_Label_IndiaAway" xml:space="preserve">
+    <value>India: {0} km away</value>
+  </data>
+  <data name="Quake_Label_InnerCore" xml:space="preserve">
+    <value>inner core (solid)</value>
+  </data>
+  <data name="Quake_Label_IslandArc" xml:space="preserve">
+    <value>island arc</value>
+  </data>
+  <data name="Quake_Label_Lithosphere" xml:space="preserve">
+    <value>lithosphere (the plate)</value>
+  </data>
+  <data name="Quake_Label_LithosphereShort" xml:space="preserve">
+    <value>rest of the lithosphere</value>
+  </data>
+  <data name="Quake_Label_Locked" xml:space="preserve">
+    <value>stuck zone · {0}% loaded</value>
+  </data>
+  <data name="Quake_Label_Mantle" xml:space="preserve">
+    <value>mantle</value>
+  </data>
+  <data name="Quake_Label_Moho" xml:space="preserve">
+    <value>Moho 33 km</value>
+  </data>
+  <data name="Quake_Label_OceanPlate" xml:space="preserve">
+    <value>ocean plate</value>
+  </data>
+  <data name="Quake_Label_OldFloor" xml:space="preserve">
+    <value>older, deeper floor</value>
+  </data>
+  <data name="Quake_Label_OuterCore" xml:space="preserve">
+    <value>outer core (liquid)</value>
+  </data>
+  <data name="Quake_Label_PShadow" xml:space="preserve">
+    <value>P-wave shadow</value>
+  </data>
+  <data name="Quake_Label_PWave" xml:space="preserve">
+    <value>P wave</value>
+  </data>
+  <data name="Quake_Label_Quake" xml:space="preserve">
+    <value>quake</value>
+  </data>
+  <data name="Quake_Label_RiftValley" xml:space="preserve">
+    <value>rift valley</value>
+  </data>
+  <data name="Quake_Label_SShadow" xml:space="preserve">
+    <value>S-wave shadow</value>
+  </data>
+  <data name="Quake_Label_SWave" xml:space="preserve">
+    <value>S wave</value>
+  </data>
+  <data name="Quake_Label_Sea" xml:space="preserve">
+    <value>sea</value>
+  </data>
+  <data name="Quake_Label_SideA" xml:space="preserve">
+    <value>this side moves up</value>
+  </data>
+  <data name="Quake_Label_SideB" xml:space="preserve">
+    <value>this side moves down</value>
+  </data>
+  <data name="Quake_Label_Slab" xml:space="preserve">
+    <value>sinking plate</value>
+  </data>
+  <data name="Quake_Label_SlabBreak" xml:space="preserve">
+    <value>broken-off slab</value>
+  </data>
+  <data name="Quake_Label_Stored" xml:space="preserve">
+    <value>stored</value>
+  </data>
+  <data name="Quake_Label_Stripes" xml:space="preserve">
+    <value>magnetic stripes</value>
+  </data>
+  <data name="Quake_Label_Suture" xml:space="preserve">
+    <value>suture</value>
+  </data>
+  <data name="Quake_Label_Tethys" xml:space="preserve">
+    <value>Tethys Ocean</value>
+  </data>
+  <data name="Quake_Label_Tibet" xml:space="preserve">
+    <value>Tibetan Plateau {0} km</value>
+  </data>
+  <data name="Quake_Label_Trench" xml:space="preserve">
+    <value>trench</value>
+  </data>
+  <data name="Quake_Label_UpperContinent" xml:space="preserve">
+    <value>continent</value>
+  </data>
+  <data name="Quake_Label_UpperMantle" xml:space="preserve">
+    <value>upper mantle</value>
+  </data>
+  <data name="Quake_Label_UpperOcean" xml:space="preserve">
+    <value>upper ocean plate</value>
+  </data>
+  <data name="Quake_Label_VolcanicArc" xml:space="preserve">
+    <value>volcanic arc</value>
+  </data>
+  <data name="Quake_Label_Wedge" xml:space="preserve">
+    <value>mantle wedge</value>
+  </data>
+  <data name="Quake_Label_Years" xml:space="preserve">
+    <value>{0} yrs</value>
+  </data>
+  <data name="Quake_Label_YearsTotal" xml:space="preserve">
+    <value>Year {0}</value>
+  </data>
+  <data name="Quake_Lesson_Boundaries_Choice1" xml:space="preserve">
+    <value>Farthest from the ridge, on both sides</value>
+  </data>
+  <data name="Quake_Lesson_Boundaries_Choice2" xml:space="preserve">
+    <value>Right at the ridge</value>
+  </data>
+  <data name="Quake_Lesson_Boundaries_Choice3" xml:space="preserve">
+    <value>Only on one side</value>
+  </data>
+  <data name="Quake_Lesson_Inside_Choice1" xml:space="preserve">
+    <value>The outer core is liquid, and S waves cannot pass through liquid</value>
+  </data>
+  <data name="Quake_Lesson_Inside_Choice2" xml:space="preserve">
+    <value>It is too hot there</value>
+  </data>
+  <data name="Quake_Lesson_Inside_Choice3" xml:space="preserve">
+    <value>The waves have run out of energy</value>
+  </data>
+  <data name="Quake_Lesson_Plates_Choice1" xml:space="preserve">
+    <value>Only near trenches, on the side of the plate on top</value>
+  </data>
+  <data name="Quake_Lesson_Plates_Choice2" xml:space="preserve">
+    <value>Along the mid-ocean ridges</value>
+  </data>
+  <data name="Quake_Lesson_Plates_Choice3" xml:space="preserve">
+    <value>Anywhere, at random</value>
+  </data>
+  <data name="Quake_Magnifier_Title" xml:space="preserve">
+    <value>The top 700 km, to scale</value>
+  </data>
+  <data name="Quake_Magnitude" xml:space="preserve">
+    <value>Magnitude</value>
+  </data>
+  <data name="Quake_Map_Caption" xml:space="preserve">
+    <value>On the map</value>
+  </data>
+  <data name="Quake_Map_Famous_Title" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Quake_Map_Group_Text" xml:space="preserve">
+    <value>One of the textbook's six big plates; scientists divide it further.</value>
+  </data>
+  <data name="Quake_Map_Place_Far_Text" xml:space="preserve">
+    <value>You are inside a plate, away from its edges. Quakes still happen inside plates, but less often.</value>
+  </data>
+  <data name="Quake_Map_Place_Near_Text" xml:space="preserve">
+    <value>You are close to a plate boundary, where most earthquakes happen.</value>
+  </data>
+  <data name="Quake_Map_Place_Title" xml:space="preserve">
+    <value>{0} is on the {1}</value>
+  </data>
+  <data name="Quake_Map_Plate_Text" xml:space="preserve">
+    <value>A piece of the lithosphere that moves as one: it is moving the way the arrows show.</value>
+  </data>
+  <data name="Quake_Mode_Boundaries" xml:space="preserve">
+    <value>Boundaries</value>
+  </data>
+  <data name="Quake_Mode_Inside" xml:space="preserve">
+    <value>Inside the Earth</value>
+  </data>
+  <data name="Quake_Mode_Plates" xml:space="preserve">
+    <value>Plates</value>
+  </data>
+  <data name="Quake_Note_CollisionScale" xml:space="preserve">
+    <value>Heights drawn ×15</value>
+  </data>
+  <data name="Quake_Note_FaultScale" xml:space="preserve">
+    <value>Sideways movement drawn ×{0}</value>
+  </data>
+  <data name="Quake_Note_RidgeScale" xml:space="preserve">
+    <value>Top 10 km drawn taller</value>
+  </data>
+  <data name="Quake_Note_SlabScale" xml:space="preserve">
+    <value>Surface heights drawn ×{0}</value>
+  </data>
+  <data name="Quake_Obj_Alaska1964" xml:space="preserve">
+    <value>Alaska</value>
+  </data>
+  <data name="Quake_Obj_ArcVolcano" xml:space="preserve">
+    <value>Volcanic arc</value>
+  </data>
+  <data name="Quake_Obj_Asia" xml:space="preserve">
+    <value>Asia's southern edge</value>
+  </data>
+  <data name="Quake_Obj_Asthenosphere" xml:space="preserve">
+    <value>Asthenosphere</value>
+  </data>
+  <data name="Quake_Obj_Axis" xml:space="preserve">
+    <value>Ridge crest</value>
+  </data>
+  <data name="Quake_Obj_Benioff" xml:space="preserve">
+    <value>Wadati–Benioff zone</value>
+  </data>
+  <data name="Quake_Obj_Bolivia1994" xml:space="preserve">
+    <value>Bolivia (deep)</value>
+  </data>
+  <data name="Quake_Obj_Chile1960" xml:space="preserve">
+    <value>Valdivia, Chile</value>
+  </data>
+  <data name="Quake_Obj_Collision" xml:space="preserve">
+    <value>Collision zone</value>
+  </data>
+  <data name="Quake_Obj_Crust" xml:space="preserve">
+    <value>Crust</value>
+  </data>
+  <data name="Quake_Obj_Depth" xml:space="preserve">
+    <value>Quake depths</value>
+  </data>
+  <data name="Quake_Obj_Diffuse" xml:space="preserve">
+    <value>Diffuse boundary</value>
+  </data>
+  <data name="Quake_Obj_Epicentre" xml:space="preserve">
+    <value>Epicentre</value>
+  </data>
+  <data name="Quake_Obj_FarField" xml:space="preserve">
+    <value>Far from the fault</value>
+  </data>
+  <data name="Quake_Obj_Fault" xml:space="preserve">
+    <value>The fault</value>
+  </data>
+  <data name="Quake_Obj_Fence" xml:space="preserve">
+    <value>A fence across the fault</value>
+  </data>
+  <data name="Quake_Obj_Field" xml:space="preserve">
+    <value>Magnetic field</value>
+  </data>
+  <data name="Quake_Obj_Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="Quake_Obj_Gangdese" xml:space="preserve">
+    <value>Gangdese volcanoes</value>
+  </data>
+  <data name="Quake_Obj_Gutenberg" xml:space="preserve">
+    <value>Gutenberg discontinuity</value>
+  </data>
+  <data name="Quake_Obj_Hawaii" xml:space="preserve">
+    <value>Hawaii and its hotspot</value>
+  </data>
+  <data name="Quake_Obj_Himalaya" xml:space="preserve">
+    <value>Himalaya</value>
+  </data>
+  <data name="Quake_Obj_India" xml:space="preserve">
+    <value>India</value>
+  </data>
+  <data name="Quake_Obj_InnerCore" xml:space="preserve">
+    <value>Inner core</value>
+  </data>
+  <data name="Quake_Obj_Lithosphere" xml:space="preserve">
+    <value>Lithosphere</value>
+  </data>
+  <data name="Quake_Obj_Locked" xml:space="preserve">
+    <value>Locked zone</value>
+  </data>
+  <data name="Quake_Obj_Magma" xml:space="preserve">
+    <value>Magma chamber</value>
+  </data>
+  <data name="Quake_Obj_Mantle" xml:space="preserve">
+    <value>Mantle</value>
+  </data>
+  <data name="Quake_Obj_Melt" xml:space="preserve">
+    <value>Where the mantle melts</value>
+  </data>
+  <data name="Quake_Obj_Moho" xml:space="preserve">
+    <value>Moho</value>
+  </data>
+  <data name="Quake_Obj_Nepal2015" xml:space="preserve">
+    <value>Gorkha, Nepal</value>
+  </data>
+  <data name="Quake_Obj_OceanPlate" xml:space="preserve">
+    <value>Ocean plate</value>
+  </data>
+  <data name="Quake_Obj_OldFloor" xml:space="preserve">
+    <value>Older sea floor</value>
+  </data>
+  <data name="Quake_Obj_OuterCore" xml:space="preserve">
+    <value>Outer core</value>
+  </data>
+  <data name="Quake_Obj_PCurve" xml:space="preserve">
+    <value>P-wave speed</value>
+  </data>
+  <data name="Quake_Obj_PShadow" xml:space="preserve">
+    <value>P-wave shadow zone</value>
+  </data>
+  <data name="Quake_Obj_PWave" xml:space="preserve">
+    <value>P wave</value>
+  </data>
+  <data name="Quake_Obj_Place" xml:space="preserve">
+    <value>Your place</value>
+  </data>
+  <data name="Quake_Obj_Plate" xml:space="preserve">
+    <value>A plate</value>
+  </data>
+  <data name="Quake_Obj_Ridge" xml:space="preserve">
+    <value>Mid-ocean ridge</value>
+  </data>
+  <data name="Quake_Obj_Rift" xml:space="preserve">
+    <value>Rift valley</value>
+  </data>
+  <data name="Quake_Obj_SCurve" xml:space="preserve">
+    <value>S-wave speed</value>
+  </data>
+  <data name="Quake_Obj_SShadow" xml:space="preserve">
+    <value>S-wave shadow zone</value>
+  </data>
+  <data name="Quake_Obj_SWave" xml:space="preserve">
+    <value>S wave</value>
+  </data>
+  <data name="Quake_Obj_SanFrancisco1906" xml:space="preserve">
+    <value>San Francisco</value>
+  </data>
+  <data name="Quake_Obj_Slab" xml:space="preserve">
+    <value>Sinking slab</value>
+  </data>
+  <data name="Quake_Obj_SlabBreak" xml:space="preserve">
+    <value>Broken-off slab</value>
+  </data>
+  <data name="Quake_Obj_Smoker" xml:space="preserve">
+    <value>Black smoker</value>
+  </data>
+  <data name="Quake_Obj_Station" xml:space="preserve">
+    <value>Seismic station</value>
+  </data>
+  <data name="Quake_Obj_Stress" xml:space="preserve">
+    <value>Stored strain</value>
+  </data>
+  <data name="Quake_Obj_Stripes" xml:space="preserve">
+    <value>Magnetic stripes</value>
+  </data>
+  <data name="Quake_Obj_Sumatra2004" xml:space="preserve">
+    <value>Sumatra and the Indian Ocean</value>
+  </data>
+  <data name="Quake_Obj_SurfaceWave" xml:space="preserve">
+    <value>Surface waves</value>
+  </data>
+  <data name="Quake_Obj_Suture" xml:space="preserve">
+    <value>Suture zone</value>
+  </data>
+  <data name="Quake_Obj_Tangshan1976" xml:space="preserve">
+    <value>Tangshan, Hebei</value>
+  </data>
+  <data name="Quake_Obj_Tethys" xml:space="preserve">
+    <value>Tethys Ocean</value>
+  </data>
+  <data name="Quake_Obj_Tibet" xml:space="preserve">
+    <value>Tibetan Plateau</value>
+  </data>
+  <data name="Quake_Obj_Tohoku2011" xml:space="preserve">
+    <value>Tōhoku, Japan</value>
+  </data>
+  <data name="Quake_Obj_Transform" xml:space="preserve">
+    <value>Transform fault</value>
+  </data>
+  <data name="Quake_Obj_Trench" xml:space="preserve">
+    <value>Ocean trench</value>
+  </data>
+  <data name="Quake_Obj_Tsunami" xml:space="preserve">
+    <value>Tsunami</value>
+  </data>
+  <data name="Quake_Obj_Turkey2023" xml:space="preserve">
+    <value>Turkey and Syria</value>
+  </data>
+  <data name="Quake_Obj_UpperPlate" xml:space="preserve">
+    <value>Upper plate</value>
+  </data>
+  <data name="Quake_Obj_Wedge" xml:space="preserve">
+    <value>Mantle wedge</value>
+  </data>
+  <data name="Quake_Obj_Wenchuan2008" xml:space="preserve">
+    <value>Wenchuan, Sichuan</value>
+  </data>
+  <data name="Quake_Option_Arrows" xml:space="preserve">
+    <value>Plate motion</value>
+  </data>
+  <data name="Quake_Option_Creep" xml:space="preserve">
+    <value>Creeping fault</value>
+  </data>
+  <data name="Quake_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Quake_Option_OverOcean" xml:space="preserve">
+    <value>Ocean on top (island arc)</value>
+  </data>
+  <data name="Quake_Option_Quakes" xml:space="preserve">
+    <value>Earthquakes</value>
+  </data>
+  <data name="Quake_Option_Rays" xml:space="preserve">
+    <value>Ray paths</value>
+  </data>
+  <data name="Quake_Option_SixPlates" xml:space="preserve">
+    <value>Six plates (textbook)</value>
+  </data>
+  <data name="Quake_Option_Volcanoes" xml:space="preserve">
+    <value>Volcanoes</value>
+  </data>
+  <data name="Quake_Plate_AF" xml:space="preserve">
+    <value>African Plate</value>
+  </data>
+  <data name="Quake_Plate_AN" xml:space="preserve">
+    <value>Antarctic Plate</value>
+  </data>
+  <data name="Quake_Plate_AR" xml:space="preserve">
+    <value>Arabian Plate</value>
+  </data>
+  <data name="Quake_Plate_AU" xml:space="preserve">
+    <value>Australian Plate</value>
+  </data>
+  <data name="Quake_Plate_CA" xml:space="preserve">
+    <value>Caribbean Plate</value>
+  </data>
+  <data name="Quake_Plate_CO" xml:space="preserve">
+    <value>Cocos Plate</value>
+  </data>
+  <data name="Quake_Plate_EU" xml:space="preserve">
+    <value>Eurasian Plate</value>
+  </data>
+  <data name="Quake_Plate_IN" xml:space="preserve">
+    <value>Indian Plate</value>
+  </data>
+  <data name="Quake_Plate_JF" xml:space="preserve">
+    <value>Juan de Fuca Plate</value>
+  </data>
+  <data name="Quake_Plate_NA" xml:space="preserve">
+    <value>North American Plate</value>
+  </data>
+  <data name="Quake_Plate_NZ" xml:space="preserve">
+    <value>Nazca Plate</value>
+  </data>
+  <data name="Quake_Plate_PA" xml:space="preserve">
+    <value>Pacific Plate</value>
+  </data>
+  <data name="Quake_Plate_PH" xml:space="preserve">
+    <value>Philippine Sea Plate</value>
+  </data>
+  <data name="Quake_Plate_SA" xml:space="preserve">
+    <value>South American Plate</value>
+  </data>
+  <data name="Quake_Plate_SC" xml:space="preserve">
+    <value>Scotia Plate</value>
+  </data>
+  <data name="Quake_Plates_Fact1" xml:space="preserve">
+    <value>Plates move about as fast as your fingernails grow, 2–10 cm a year: 20–100 km in a million years.</value>
+  </data>
+  <data name="Quake_Plates_Fact2" xml:space="preserve">
+    <value>About 80% of the largest earthquakes happen around the Pacific, along the Ring of Fire.</value>
+  </data>
+  <data name="Quake_Plates_Fact3" xml:space="preserve">
+    <value>Each step up in magnitude is about 32 times more energy: a magnitude 8 releases about 1000 times as much as a 6.</value>
+  </data>
+  <data name="Quake_Plates_Fact4" xml:space="preserve">
+    <value>The 1960 Valdivia earthquake in Chile, magnitude 9.5, is the largest ever recorded.</value>
+  </data>
+  <data name="Quake_Plates_Fact5" xml:space="preserve">
+    <value>China is squeezed by the Pacific and Philippine Sea plates from the east and by India from the south-west, so it has many earthquakes far from plate edges.</value>
+  </data>
+  <data name="Quake_Plates_Note" xml:space="preserve">
+    <value>Plate boundaries simplified; quakes are a typical year of magnitude 4.5 and up, placed by the model, not a real catalogue.</value>
+  </data>
+  <data name="Quake_Plates_Panel_Note" xml:space="preserve">
+    <value>Plate motions are NNR-NUVEL-1A rotations (rounded); the six-plate map follows the Chinese geography textbook.</value>
+  </data>
+  <data name="Quake_Plates_Subtitle" xml:space="preserve">
+    <value>Plates, and where earthquakes happen</value>
+  </data>
+  <data name="Quake_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Quake_QuakeNow" xml:space="preserve">
+    <value>Quake now</value>
+  </data>
+  <data name="Quake_QuakeNow_Tooltip" xml:space="preserve">
+    <value>Make the stuck fault or plate edge break now</value>
+  </data>
+  <data name="Quake_Rate_Atlantic" xml:space="preserve">
+    <value>Slow, like the Atlantic</value>
+  </data>
+  <data name="Quake_Rate_Pacific" xml:space="preserve">
+    <value>Fast, like the East Pacific</value>
+  </data>
+  <data name="Quake_Restart" xml:space="preserve">
+    <value>Again</value>
+  </data>
+  <data name="Quake_RestartSection" xml:space="preserve">
+    <value>Start over</value>
+  </data>
+  <data name="Quake_Restart_Tooltip" xml:space="preserve">
+    <value>Set the quake off again from the start</value>
+  </data>
+  <data name="Quake_Ridge_Fast_Text" xml:space="preserve">
+    <value>A fast ridge: a smooth swell along the crest, and the stripes are wide.</value>
+  </data>
+  <data name="Quake_Ridge_Normal_Title" xml:space="preserve">
+    <value>The field points as it does today</value>
+  </data>
+  <data name="Quake_Ridge_Note" xml:space="preserve">
+    <value>A slice across the ridge, 400 km each side. The top 10 km are drawn taller than the rest.</value>
+  </data>
+  <data name="Quake_Ridge_Reversed_Title" xml:space="preserve">
+    <value>The field is reversed</value>
+  </data>
+  <data name="Quake_Ridge_Slow_Text" xml:space="preserve">
+    <value>A slow ridge: a rift valley runs along the crest, and the stripes are narrow.</value>
+  </data>
+  <data name="Quake_Ridge_Subtitle" xml:space="preserve">
+    <value>Mid-ocean ridge: the sea floor spreads</value>
+  </data>
+  <data name="Quake_Section_Caption" xml:space="preserve">
+    <value>Which boundary</value>
+  </data>
+  <data name="Quake_Section_Collision" xml:space="preserve">
+    <value>Collision</value>
+  </data>
+  <data name="Quake_Section_Ridge" xml:space="preserve">
+    <value>Ridge</value>
+  </data>
+  <data name="Quake_Section_Subduction" xml:space="preserve">
+    <value>Subduction</value>
+  </data>
+  <data name="Quake_Section_Transform" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="Quake_Slab_Locked_Text" xml:space="preserve">
+    <value>The sinking plate drags the upper plate's edge down. Every year stores more.</value>
+  </data>
+  <data name="Quake_Slab_Locked_Title" xml:space="preserve">
+    <value>Stuck: strain is building</value>
+  </data>
+  <data name="Quake_Slab_Quake_Text" xml:space="preserve">
+    <value>The edge springs back up, lifting the sea floor and the water above it: a tsunami.</value>
+  </data>
+  <data name="Quake_Slab_Quake_Title" xml:space="preserve">
+    <value>Megathrust earthquake!</value>
+  </data>
+  <data name="Quake_Stat_ArcFrom" xml:space="preserve">
+    <value>Volcanoes from trench</value>
+  </data>
+  <data name="Quake_Stat_Boundary" xml:space="preserve">
+    <value>Boundary</value>
+  </data>
+  <data name="Quake_Stat_Closing" xml:space="preserve">
+    <value>Coming together</value>
+  </data>
+  <data name="Quake_Stat_Crust" xml:space="preserve">
+    <value>Crust under Tibet</value>
+  </data>
+  <data name="Quake_Stat_Depth" xml:space="preserve">
+    <value>Depth</value>
+  </data>
+  <data name="Quake_Stat_Dip" xml:space="preserve">
+    <value>Dip</value>
+  </data>
+  <data name="Quake_Stat_EdgeAge" xml:space="preserve">
+    <value>Floor age 400 km out</value>
+  </data>
+  <data name="Quake_Stat_EdgeDepth" xml:space="preserve">
+    <value>Sea there</value>
+  </data>
+  <data name="Quake_Stat_Energy" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="Quake_Stat_Faint" xml:space="preserve">
+    <value>Faint core waves</value>
+  </data>
+  <data name="Quake_Stat_Field" xml:space="preserve">
+    <value>Magnetic field</value>
+  </data>
+  <data name="Quake_Stat_FromYou" xml:space="preserve">
+    <value>From you</value>
+  </data>
+  <data name="Quake_Stat_Himalaya" xml:space="preserve">
+    <value>Himalaya</value>
+  </data>
+  <data name="Quake_Stat_InLifetime" xml:space="preserve">
+    <value>Wider in 80 years</value>
+  </data>
+  <data name="Quake_Stat_InTenYears" xml:space="preserve">
+    <value>In ten years</value>
+  </data>
+  <data name="Quake_Stat_IndiaSpeed" xml:space="preserve">
+    <value>India moves</value>
+  </data>
+  <data name="Quake_Stat_Kind" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="Quake_Stat_LastQuake" xml:space="preserve">
+    <value>Last quake</value>
+  </data>
+  <data name="Quake_Stat_Magnitude" xml:space="preserve">
+    <value>Magnitude</value>
+  </data>
+  <data name="Quake_Stat_Nearest" xml:space="preserve">
+    <value>Nearest boundary</value>
+  </data>
+  <data name="Quake_Stat_NearestKm" xml:space="preserve">
+    <value>Distance to it</value>
+  </data>
+  <data name="Quake_Stat_OceanLeft" xml:space="preserve">
+    <value>Ocean left</value>
+  </data>
+  <data name="Quake_Stat_Offset" xml:space="preserve">
+    <value>Offset so far</value>
+  </data>
+  <data name="Quake_Stat_Opening" xml:space="preserve">
+    <value>Moving apart</value>
+  </data>
+  <data name="Quake_Stat_PArrives" xml:space="preserve">
+    <value>P arrives</value>
+  </data>
+  <data name="Quake_Stat_Parts" xml:space="preserve">
+    <value>Made of</value>
+  </data>
+  <data name="Quake_Stat_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="Quake_Stat_Plates" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="Quake_Stat_Pushed" xml:space="preserve">
+    <value>India pushed since</value>
+  </data>
+  <data name="Quake_Stat_Quakes" xml:space="preserve">
+    <value>Quakes so far</value>
+  </data>
+  <data name="Quake_Stat_Rate" xml:space="preserve">
+    <value>Plates pass at</value>
+  </data>
+  <data name="Quake_Stat_Readiness" xml:space="preserve">
+    <value>Loaded</value>
+  </data>
+  <data name="Quake_Stat_SArrives" xml:space="preserve">
+    <value>S arrives</value>
+  </data>
+  <data name="Quake_Stat_SMinusP" xml:space="preserve">
+    <value>S − P</value>
+  </data>
+  <data name="Quake_Stat_Share" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Quake_Stat_Since" xml:space="preserve">
+    <value>Since the last quake</value>
+  </data>
+  <data name="Quake_Stat_SinceQuake" xml:space="preserve">
+    <value>Since the quake</value>
+  </data>
+  <data name="Quake_Stat_Sinks" xml:space="preserve">
+    <value>Sinking plate</value>
+  </data>
+  <data name="Quake_Stat_Sliding" xml:space="preserve">
+    <value>Sliding past</value>
+  </data>
+  <data name="Quake_Stat_Speed" xml:space="preserve">
+    <value>Moves</value>
+  </data>
+  <data name="Quake_Stat_SpeedHere" xml:space="preserve">
+    <value>Moves you</value>
+  </data>
+  <data name="Quake_Stat_Spreading" xml:space="preserve">
+    <value>Opening in all</value>
+  </data>
+  <data name="Quake_Stat_Station" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="Quake_Stat_Stored" xml:space="preserve">
+    <value>Slip stored</value>
+  </data>
+  <data name="Quake_Stat_SurfaceArrives" xml:space="preserve">
+    <value>Surface waves</value>
+  </data>
+  <data name="Quake_Stat_Tibet" xml:space="preserve">
+    <value>Tibetan Plateau</value>
+  </data>
+  <data name="Quake_Stat_When" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="Quake_Stat_Years" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Quake_Stat_YourPlate" xml:space="preserve">
+    <value>Your plate</value>
+  </data>
+  <data name="Quake_StationDistance" xml:space="preserve">
+    <value>Distance from the quake</value>
+  </data>
+  <data name="Quake_Station_Caption" xml:space="preserve">
+    <value>The station</value>
+  </data>
+  <data name="Quake_Subduction_Note" xml:space="preserve">
+    <value>A slice 1200 km wide and 700 km deep, to scale except the surface.</value>
+  </data>
+  <data name="Quake_Subduction_Subtitle" xml:space="preserve">
+    <value>Subduction: one plate sinks under another</value>
+  </data>
+  <data name="Quake_Time" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="Quake_Title" xml:space="preserve">
+    <value>Earthquakes and plates</value>
+  </data>
+  <data name="Quake_ToYou_Caption" xml:space="preserve">
+    <value>From a famous quake to you</value>
+  </data>
+  <data name="Quake_Transform_Note" xml:space="preserve">
+    <value>Seen from above, 120 km across the fault. Movement along it is drawn about a thousand times larger.</value>
+  </data>
+  <data name="Quake_Transform_Subtitle" xml:space="preserve">
+    <value>Transform fault: plates slide past</value>
+  </data>
+  <data name="Quake_Value_Cm" xml:space="preserve">
+    <value>{0} cm</value>
+  </data>
+  <data name="Quake_Value_CmYear" xml:space="preserve">
+    <value>{0} cm/yr</value>
+  </data>
+  <data name="Quake_Value_CmYearToward" xml:space="preserve">
+    <value>{0} cm/yr to the {1}</value>
+  </data>
+  <data name="Quake_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Quake_Value_DegreesKm" xml:space="preserve">
+    <value>{0}° (about {1} km)</value>
+  </data>
+  <data name="Quake_Value_FieldNormal" xml:space="preserve">
+    <value>as today</value>
+  </data>
+  <data name="Quake_Value_FieldReversed" xml:space="preserve">
+    <value>reversed</value>
+  </data>
+  <data name="Quake_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Quake_Value_KmDeep" xml:space="preserve">
+    <value>{0} km deep</value>
+  </data>
+  <data name="Quake_Value_KmHigh" xml:space="preserve">
+    <value>{0} km high</value>
+  </data>
+  <data name="Quake_Value_ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Quake_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Quake_Value_Ma" xml:space="preserve">
+    <value>{0} Ma</value>
+  </data>
+  <data name="Quake_Value_MaAgo" xml:space="preserve">
+    <value>{0} million years ago</value>
+  </data>
+  <data name="Quake_Value_Megatons" xml:space="preserve">
+    <value>≈ {0} Mt of TNT</value>
+  </data>
+  <data name="Quake_Value_MinSec" xml:space="preserve">
+    <value>{0} min {1} s</value>
+  </data>
+  <data name="Quake_Value_NoneShadow" xml:space="preserve">
+    <value>none (shadow zone)</value>
+  </data>
+  <data name="Quake_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Quake_Value_PercentMap" xml:space="preserve">
+    <value>{0}% of Earth's surface</value>
+  </data>
+  <data name="Quake_Value_SlipMagnitude" xml:space="preserve">
+    <value>{0} m slip, about M{1}</value>
+  </data>
+  <data name="Quake_Value_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Quake_Value_TwoPlates" xml:space="preserve">
+    <value>{0} and {1}</value>
+  </data>
+  <data name="Quake_Value_Years" xml:space="preserve">
+    <value>{0} years</value>
   </data>
   <data name="Rain_Angle" xml:space="preserve">
     <value>Angle from the normal</value>
@@ -15398,6 +17381,1272 @@
   </data>
   <data name="Update_WhatsNew" xml:space="preserve">
     <value>What's new</value>
+  </data>
+  <data name="Volc_Burial" xml:space="preserve">
+    <value>Buried under</value>
+  </data>
+  <data name="Volc_Chart_Bowen" xml:space="preserve">
+    <value>Hot at the top; all solid at the dashed line</value>
+  </data>
+  <data name="Volc_Chart_Cool" xml:space="preserve">
+    <value>cooling</value>
+  </data>
+  <data name="Volc_Chart_Cooling_Caption" xml:space="preserve">
+    <value>Bowen's order: which mineral crystallises first</value>
+  </data>
+  <data name="Volc_Chart_Cooling_Note" xml:space="preserve">
+    <value>Each bar starts at the temperature its mineral begins to crystallise; the white line is the temperature now.</value>
+  </data>
+  <data name="Volc_Chart_Cycle_Caption" xml:space="preserve">
+    <value>The rock cycle</value>
+  </data>
+  <data name="Volc_Chart_Cycle_Note" xml:space="preserve">
+    <value>The arrows are the steps; the dashed one is a shortcut: rock pushed up and worn down again without melting. The step the followed grain is on lights up.</value>
+  </data>
+  <data name="Volc_Chart_Day" xml:space="preserve">
+    <value>1 day</value>
+  </data>
+  <data name="Volc_Chart_DepthAxis" xml:space="preserve">
+    <value>°C (left: depth in km)</value>
+  </data>
+  <data name="Volc_Chart_Eruption_Caption" xml:space="preserve">
+    <value>Sticky and gassy: how it erupts</value>
+  </data>
+  <data name="Volc_Chart_Eruption_Note" xml:space="preserve">
+    <value>Drag the gold dot: stickier to the right, more water upwards. The white dots are real volcanoes.</value>
+  </data>
+  <data name="Volc_Chart_Harden" xml:space="preserve">
+    <value>deposition, hardening</value>
+  </data>
+  <data name="Volc_Chart_Heat" xml:space="preserve">
+    <value>heat and pressure</value>
+  </data>
+  <data name="Volc_Chart_Hour" xml:space="preserve">
+    <value>1 h</value>
+  </data>
+  <data name="Volc_Chart_Melt" xml:space="preserve">
+    <value>melting</value>
+  </data>
+  <data name="Volc_Chart_Minute" xml:space="preserve">
+    <value>1 min</value>
+  </data>
+  <data name="Volc_Chart_Second" xml:space="preserve">
+    <value>1 s</value>
+  </data>
+  <data name="Volc_Chart_Settling_Caption" xml:space="preserve">
+    <value>Time to sink one metre in still water</value>
+  </data>
+  <data name="Volc_Chart_Settling_Note" xml:space="preserve">
+    <value>Real times, on a scale of powers of ten: clay sinks nearly 100,000 times more slowly than gravel.</value>
+  </data>
+  <data name="Volc_Chart_Squeezing_Caption" xml:space="preserve">
+    <value>Temperature and depth</value>
+  </data>
+  <data name="Volc_Chart_Squeezing_Note" xml:space="preserve">
+    <value>Dashed line: the usual 25 °C more for every kilometre down. Drag the gold dot to change the depth.</value>
+  </data>
+  <data name="Volc_Chart_Uplift" xml:space="preserve">
+    <value>uplift</value>
+  </data>
+  <data name="Volc_Chart_Viscosity" xml:space="preserve">
+    <value>Stickiness (Pa·s)</value>
+  </data>
+  <data name="Volc_Chart_Water" xml:space="preserve">
+    <value>Water %</value>
+  </data>
+  <data name="Volc_Chart_Weather" xml:space="preserve">
+    <value>weathering, erosion</value>
+  </data>
+  <data name="Volc_CoolAgain" xml:space="preserve">
+    <value>Melt and cool again</value>
+  </data>
+  <data name="Volc_CoolRate" xml:space="preserve">
+    <value>Cooling rate</value>
+  </data>
+  <data name="Volc_Cooling_Becoming" xml:space="preserve">
+    <value>Becoming {0}…</value>
+  </data>
+  <data name="Volc_Cooling_Note" xml:space="preserve">
+    <value>A slice 20 mm wide, as under a microscope; the cooling is sped up to seconds.</value>
+  </data>
+  <data name="Volc_Cooling_Panel_Note" xml:space="preserve">
+    <value>Slow cooling deep down gives big crystals; fast cooling at the surface gives small ones, or glass. 'Slow, then fast' gives big crystals in a fine background: porphyry.</value>
+  </data>
+  <data name="Volc_Cooling_Subtitle" xml:space="preserve">
+    <value>Magma cools into crystals</value>
+  </data>
+  <data name="Volc_CycleStat_Igneous" xml:space="preserve">
+    <value>from cooled magma: granite, basalt</value>
+  </data>
+  <data name="Volc_CycleStat_Metamorphic" xml:space="preserve">
+    <value>changed by heat and pressure: marble, schist</value>
+  </data>
+  <data name="Volc_CycleStat_Sedimentary" xml:space="preserve">
+    <value>from layers of bits: sandstone, shale, limestone</value>
+  </data>
+  <data name="Volc_Cycle_Fact1" xml:space="preserve">
+    <value>The top of Mount Everest is limestone that formed on a sea floor about 450 million years ago.</value>
+  </data>
+  <data name="Volc_Cycle_Fact2" xml:space="preserve">
+    <value>The oldest known pieces of the Earth are tiny zircon crystals from Australia, about 4.4 billion years old.</value>
+  </data>
+  <data name="Volc_Cycle_Fact3" xml:space="preserve">
+    <value>The world's rivers carry about 20 billion tonnes of sediment to the sea every year.</value>
+  </data>
+  <data name="Volc_Cycle_Fact4" xml:space="preserve">
+    <value>A full trip round the rock cycle can take hundreds of millions of years, and many rocks never finish one.</value>
+  </data>
+  <data name="Volc_Cycle_Fact5" xml:space="preserve">
+    <value>Michelangelo's David is carved from Carrara marble: limestone from an ancient sea, baked when the Alps' mountains were pushed up.</value>
+  </data>
+  <data name="Volc_Cycle_Note" xml:space="preserve">
+    <value>A sketch, not to scale: one round of the cycle takes tens to hundreds of millions of years.</value>
+  </data>
+  <data name="Volc_Cycle_Panel_Note" xml:space="preserve">
+    <value>Click a step or a rock in the picture to hear about it.</value>
+  </data>
+  <data name="Volc_Cycle_Subtitle" xml:space="preserve">
+    <value>The rock cycle</value>
+  </data>
+  <data name="Volc_Cycle_Text" xml:space="preserve">
+    <value>Igneous rock is worn into sediment, sediment hardens into sedimentary rock, heat and pressure turn it into metamorphic rock, and that melts into magma, which cools into igneous rock again. Rocks can also skip steps.</value>
+  </data>
+  <data name="Volc_Cycle_Title" xml:space="preserve">
+    <value>Rocks change, round and round</value>
+  </data>
+  <data name="Volc_Depth" xml:space="preserve">
+    <value>Depth</value>
+  </data>
+  <data name="Volc_Duration_Days" xml:space="preserve">
+    <value>about {0} days</value>
+  </data>
+  <data name="Volc_Duration_Hours" xml:space="preserve">
+    <value>about {0} hours</value>
+  </data>
+  <data name="Volc_Duration_Minutes" xml:space="preserve">
+    <value>about {0} minutes</value>
+  </data>
+  <data name="Volc_EmptyTank" xml:space="preserve">
+    <value>Empty the tank</value>
+  </data>
+  <data name="Volc_EruptNow" xml:space="preserve">
+    <value>Erupt now</value>
+  </data>
+  <data name="Volc_Eruption_Fact1" xml:space="preserve">
+    <value>About 1,350 volcanoes on land could erupt again; in a typical year 50 to 70 of them erupt.</value>
+  </data>
+  <data name="Volc_Eruption_Fact2" xml:space="preserve">
+    <value>Most of the gas in magma is water vapour, followed by carbon dioxide and sulfur dioxide.</value>
+  </data>
+  <data name="Volc_Eruption_Fact3" xml:space="preserve">
+    <value>Pinatubo's 1991 eruption put so much sulfur gas high into the sky that the whole world cooled by about half a degree for two years.</value>
+  </data>
+  <data name="Volc_Eruption_Fact4" xml:space="preserve">
+    <value>Changbaishan's eruption in the year 946 was one of the biggest of the last 2,000 years; its ash fell as far away as Japan. Its caldera now holds Heaven Lake.</value>
+  </data>
+  <data name="Volc_Eruption_Fact5" xml:space="preserve">
+    <value>Wudalianchi in Heilongjiang erupted from 1719 to 1721; its lava dammed a river into the five linked lakes that give it its name.</value>
+  </data>
+  <data name="Volc_Eruption_Note" xml:space="preserve">
+    <value>Depths below the ground and heights above it are drawn to different scales (see the ruler on the right).</value>
+  </data>
+  <data name="Volc_Eruption_Panel_Note" xml:space="preserve">
+    <value>More silica makes magma stickier (and cooler); more water means more gas. Runny magma lets its gas out gently; sticky magma traps it, and with enough gas it explodes.</value>
+  </data>
+  <data name="Volc_Eruption_Subtitle" xml:space="preserve">
+    <value>How a volcano erupts</value>
+  </data>
+  <data name="Volc_Facts" xml:space="preserve">
+    <value>Did you know?</value>
+  </data>
+  <data name="Volc_Family_Igneous" xml:space="preserve">
+    <value>Igneous rock</value>
+  </data>
+  <data name="Volc_Family_Magma" xml:space="preserve">
+    <value>Magma</value>
+  </data>
+  <data name="Volc_Family_Metamorphic" xml:space="preserve">
+    <value>Metamorphic rock</value>
+  </data>
+  <data name="Volc_Family_Sediment" xml:space="preserve">
+    <value>Sediment</value>
+  </data>
+  <data name="Volc_Family_Sedimentary" xml:space="preserve">
+    <value>Sedimentary rock</value>
+  </data>
+  <data name="Volc_Follow_Caption" xml:space="preserve">
+    <value>Follow a grain</value>
+  </data>
+  <data name="Volc_Grain_Clay" xml:space="preserve">
+    <value>Clay</value>
+  </data>
+  <data name="Volc_Grain_Gravel" xml:space="preserve">
+    <value>Gravel</value>
+  </data>
+  <data name="Volc_Grain_Sand" xml:space="preserve">
+    <value>Sand</value>
+  </data>
+  <data name="Volc_Grain_Silt" xml:space="preserve">
+    <value>Silt</value>
+  </data>
+  <data name="Volc_Hint_Cooling" xml:space="preserve">
+    <value>Click a crystal to name its mineral; drag sideways to run the cooling back and forth.</value>
+  </data>
+  <data name="Volc_Hint_Cycle" xml:space="preserve">
+    <value>Pick a grain to follow on the left-hand page; drag sideways to move it along.</value>
+  </data>
+  <data name="Volc_Hint_Eruption" xml:space="preserve">
+    <value>Drag sideways to run the eruption back and forth; click the vent to erupt now.</value>
+  </data>
+  <data name="Volc_Hint_Settling" xml:space="preserve">
+    <value>Click the river to pour in mud; drag the rock on top to bury the layers deeper.</value>
+  </data>
+  <data name="Volc_Hint_Squeezing" xml:space="preserve">
+    <value>Drag the sample or the press up and down to bury it deeper or shallower.</value>
+  </data>
+  <data name="Volc_Journey_Magma" xml:space="preserve">
+    <value>A drop of magma</value>
+  </data>
+  <data name="Volc_Journey_Mud" xml:space="preserve">
+    <value>A speck of mud</value>
+  </data>
+  <data name="Volc_Journey_Sand" xml:space="preserve">
+    <value>A grain of sand</value>
+  </data>
+  <data name="Volc_Journey_Shell" xml:space="preserve">
+    <value>A seashell</value>
+  </data>
+  <data name="Volc_Label_Buried" xml:space="preserve">
+    <value>buried {0} km deep</value>
+  </data>
+  <data name="Volc_Label_Caldera" xml:space="preserve">
+    <value>Caldera</value>
+  </data>
+  <data name="Volc_Label_Column" xml:space="preserve">
+    <value>Column · {0} km</value>
+  </data>
+  <data name="Volc_Label_DepthNow" xml:space="preserve">
+    <value>{0} km · {1} °C · {2} kbar</value>
+  </data>
+  <data name="Volc_Label_FiveMm" xml:space="preserve">
+    <value>5 mm</value>
+  </data>
+  <data name="Volc_Label_Fountain" xml:space="preserve">
+    <value>Lava fountain · {0} m</value>
+  </data>
+  <data name="Volc_Label_FragLevel" xml:space="preserve">
+    <value>Froth tears apart · {0} m</value>
+  </data>
+  <data name="Volc_Label_Gauge" xml:space="preserve">
+    <value>{0} MPa</value>
+  </data>
+  <data name="Volc_Label_Layers" xml:space="preserve">
+    <value>Layers: {0}</value>
+  </data>
+  <data name="Volc_Label_LayersRock" xml:space="preserve">
+    <value>Layers: {0} · now rock</value>
+  </data>
+  <data name="Volc_Label_Liquidus" xml:space="preserve">
+    <value>crystals start</value>
+  </data>
+  <data name="Volc_Label_MineralFrom" xml:space="preserve">
+    <value>{0} · below {1} °C</value>
+  </data>
+  <data name="Volc_Label_Pour" xml:space="preserve">
+    <value>River · click to pour</value>
+  </data>
+  <data name="Volc_Label_SatLevel" xml:space="preserve">
+    <value>Bubbles start · {0} km</value>
+  </data>
+  <data name="Volc_Label_Shield" xml:space="preserve">
+    <value>Shield volcano</value>
+  </data>
+  <data name="Volc_Label_SinkTime" xml:space="preserve">
+    <value>Time to sink 1 m</value>
+  </data>
+  <data name="Volc_Label_Solidus" xml:space="preserve">
+    <value>all solid</value>
+  </data>
+  <data name="Volc_Label_Strato" xml:space="preserve">
+    <value>Stratovolcano (layers)</value>
+  </data>
+  <data name="Volc_Lesson_Cycle_Choice1" xml:space="preserve">
+    <value>No, it can take shortcuts</value>
+  </data>
+  <data name="Volc_Lesson_Cycle_Choice2" xml:space="preserve">
+    <value>Yes, always</value>
+  </data>
+  <data name="Volc_Lesson_Eruption_Choice1" xml:space="preserve">
+    <value>It explodes</value>
+  </data>
+  <data name="Volc_Lesson_Eruption_Choice2" xml:space="preserve">
+    <value>It flows even farther</value>
+  </data>
+  <data name="Volc_Lesson_Eruption_Choice3" xml:space="preserve">
+    <value>Nothing comes out</value>
+  </data>
+  <data name="Volc_Lesson_Magnifier_Choice1" xml:space="preserve">
+    <value>Smaller crystals</value>
+  </data>
+  <data name="Volc_Lesson_Magnifier_Choice2" xml:space="preserve">
+    <value>Bigger crystals</value>
+  </data>
+  <data name="Volc_Lesson_Magnifier_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Volc_Like_Asphalt" xml:space="preserve">
+    <value>road tar</value>
+  </data>
+  <data name="Volc_Like_Glacier" xml:space="preserve">
+    <value>glacier ice</value>
+  </data>
+  <data name="Volc_Like_Honey" xml:space="preserve">
+    <value>honey</value>
+  </data>
+  <data name="Volc_Like_PeanutButter" xml:space="preserve">
+    <value>peanut butter</value>
+  </data>
+  <data name="Volc_Like_Putty" xml:space="preserve">
+    <value>stiff putty</value>
+  </data>
+  <data name="Volc_Like_Toothpaste" xml:space="preserve">
+    <value>toothpaste</value>
+  </data>
+  <data name="Volc_Magma_Caption" xml:space="preserve">
+    <value>Magma</value>
+  </data>
+  <data name="Volc_Magma_Felsic" xml:space="preserve">
+    <value>Granite magma</value>
+  </data>
+  <data name="Volc_Magma_Mafic" xml:space="preserve">
+    <value>Basalt magma</value>
+  </data>
+  <data name="Volc_Magnifier_Fact1" xml:space="preserve">
+    <value>The crystals in granite took tens to hundreds of thousands of years to grow.</value>
+  </data>
+  <data name="Volc_Magnifier_Fact2" xml:space="preserve">
+    <value>A freshly broken edge of obsidian is only a few nanometres thick, sharper than a steel scalpel.</value>
+  </data>
+  <data name="Volc_Magnifier_Fact3" xml:space="preserve">
+    <value>Rafts of floating pumice from undersea eruptions can drift across the ocean for months.</value>
+  </data>
+  <data name="Volc_Magnifier_Fact4" xml:space="preserve">
+    <value>Slate splits into thin sheets because all its tiny flakes lie the same way; it has been used for roofs and blackboards.</value>
+  </data>
+  <data name="Volc_Magnifier_Fact5" xml:space="preserve">
+    <value>Clay sinks so slowly that a muddy pond can stay cloudy for days after a storm.</value>
+  </data>
+  <data name="Volc_Mineral_Biotite" xml:space="preserve">
+    <value>Biotite</value>
+  </data>
+  <data name="Volc_Mineral_KFeldspar" xml:space="preserve">
+    <value>K-feldspar</value>
+  </data>
+  <data name="Volc_Mineral_Olivine" xml:space="preserve">
+    <value>Olivine</value>
+  </data>
+  <data name="Volc_Mineral_Plagioclase" xml:space="preserve">
+    <value>Plagioclase</value>
+  </data>
+  <data name="Volc_Mineral_Pyroxene" xml:space="preserve">
+    <value>Pyroxene</value>
+  </data>
+  <data name="Volc_Mineral_Quartz" xml:space="preserve">
+    <value>Quartz</value>
+  </data>
+  <data name="Volc_Mode_Cycle" xml:space="preserve">
+    <value>Rock cycle</value>
+  </data>
+  <data name="Volc_Mode_Eruption" xml:space="preserve">
+    <value>Eruption</value>
+  </data>
+  <data name="Volc_Mode_Magnifier" xml:space="preserve">
+    <value>Under the magnifier</value>
+  </data>
+  <data name="Volc_Obj_AshFall" xml:space="preserve">
+    <value>Ash fall</value>
+  </data>
+  <data name="Volc_Obj_Bands" xml:space="preserve">
+    <value>Mineral bands</value>
+  </data>
+  <data name="Volc_Obj_Basalt" xml:space="preserve">
+    <value>Basalt</value>
+  </data>
+  <data name="Volc_Obj_Biotite" xml:space="preserve">
+    <value>Biotite mica</value>
+  </data>
+  <data name="Volc_Obj_Bombs" xml:space="preserve">
+    <value>Lava bombs</value>
+  </data>
+  <data name="Volc_Obj_Bubbles" xml:space="preserve">
+    <value>Gas bubbles</value>
+  </data>
+  <data name="Volc_Obj_Chamber" xml:space="preserve">
+    <value>Magma chamber</value>
+  </data>
+  <data name="Volc_Obj_Clay" xml:space="preserve">
+    <value>Clay</value>
+  </data>
+  <data name="Volc_Obj_Column" xml:space="preserve">
+    <value>Eruption column</value>
+  </data>
+  <data name="Volc_Obj_Conduit" xml:space="preserve">
+    <value>Conduit</value>
+  </data>
+  <data name="Volc_Obj_Cone" xml:space="preserve">
+    <value>The volcano</value>
+  </data>
+  <data name="Volc_Obj_Crystallization" xml:space="preserve">
+    <value>Cooling and crystallisation</value>
+  </data>
+  <data name="Volc_Obj_Deposition" xml:space="preserve">
+    <value>Deposition</value>
+  </data>
+  <data name="Volc_Obj_Dome" xml:space="preserve">
+    <value>Lava dome</value>
+  </data>
+  <data name="Volc_Obj_Erosion" xml:space="preserve">
+    <value>Erosion</value>
+  </data>
+  <data name="Volc_Obj_EruptionStep" xml:space="preserve">
+    <value>Eruption</value>
+  </data>
+  <data name="Volc_Obj_Fossil" xml:space="preserve">
+    <value>Bits of shell</value>
+  </data>
+  <data name="Volc_Obj_Fountain" xml:space="preserve">
+    <value>Lava fountain</value>
+  </data>
+  <data name="Volc_Obj_FragLevel" xml:space="preserve">
+    <value>Where the froth tears apart</value>
+  </data>
+  <data name="Volc_Obj_Garnet" xml:space="preserve">
+    <value>Garnet</value>
+  </data>
+  <data name="Volc_Obj_Gauge" xml:space="preserve">
+    <value>Chamber pressure</value>
+  </data>
+  <data name="Volc_Obj_Glass" xml:space="preserve">
+    <value>Volcanic glass</value>
+  </data>
+  <data name="Volc_Obj_Grain" xml:space="preserve">
+    <value>The grain you're following</value>
+  </data>
+  <data name="Volc_Obj_Grains" xml:space="preserve">
+    <value>Grains</value>
+  </data>
+  <data name="Volc_Obj_Granite" xml:space="preserve">
+    <value>Granite</value>
+  </data>
+  <data name="Volc_Obj_Gravel" xml:space="preserve">
+    <value>Gravel</value>
+  </data>
+  <data name="Volc_Obj_KFeldspar" xml:space="preserve">
+    <value>Potassium feldspar</value>
+  </data>
+  <data name="Volc_Obj_LavaFlow" xml:space="preserve">
+    <value>Lava flow</value>
+  </data>
+  <data name="Volc_Obj_Layers" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="Volc_Obj_Limestone" xml:space="preserve">
+    <value>Limestone</value>
+  </data>
+  <data name="Volc_Obj_Lithification" xml:space="preserve">
+    <value>Compaction and cementation</value>
+  </data>
+  <data name="Volc_Obj_Magma" xml:space="preserve">
+    <value>Magma</value>
+  </data>
+  <data name="Volc_Obj_Marble" xml:space="preserve">
+    <value>Marble</value>
+  </data>
+  <data name="Volc_Obj_Melt" xml:space="preserve">
+    <value>Melt</value>
+  </data>
+  <data name="Volc_Obj_MeltPocket" xml:space="preserve">
+    <value>First melt</value>
+  </data>
+  <data name="Volc_Obj_Melting" xml:space="preserve">
+    <value>Melting</value>
+  </data>
+  <data name="Volc_Obj_Metamorphism" xml:space="preserve">
+    <value>Metamorphism</value>
+  </data>
+  <data name="Volc_Obj_Mica" xml:space="preserve">
+    <value>Clay flakes and mica</value>
+  </data>
+  <data name="Volc_Obj_Olivine" xml:space="preserve">
+    <value>Olivine</value>
+  </data>
+  <data name="Volc_Obj_Overburden" xml:space="preserve">
+    <value>Rock on top</value>
+  </data>
+  <data name="Volc_Obj_Plagioclase" xml:space="preserve">
+    <value>Plagioclase feldspar</value>
+  </data>
+  <data name="Volc_Obj_Press" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Volc_Obj_PyroFlow" xml:space="preserve">
+    <value>Pyroclastic flow</value>
+  </data>
+  <data name="Volc_Obj_Pyroxene" xml:space="preserve">
+    <value>Pyroxene</value>
+  </data>
+  <data name="Volc_Obj_Quakes" xml:space="preserve">
+    <value>Small earthquakes</value>
+  </data>
+  <data name="Volc_Obj_Quartz" xml:space="preserve">
+    <value>Quartz</value>
+  </data>
+  <data name="Volc_Obj_River" xml:space="preserve">
+    <value>River</value>
+  </data>
+  <data name="Volc_Obj_SandGrain" xml:space="preserve">
+    <value>Sand</value>
+  </data>
+  <data name="Volc_Obj_Sandstone" xml:space="preserve">
+    <value>Sandstone</value>
+  </data>
+  <data name="Volc_Obj_SatLevel" xml:space="preserve">
+    <value>Where bubbles start</value>
+  </data>
+  <data name="Volc_Obj_Schist" xml:space="preserve">
+    <value>Schist and gneiss</value>
+  </data>
+  <data name="Volc_Obj_Sediment" xml:space="preserve">
+    <value>Sediment</value>
+  </data>
+  <data name="Volc_Obj_Shale" xml:space="preserve">
+    <value>Shale</value>
+  </data>
+  <data name="Volc_Obj_Silt" xml:space="preserve">
+    <value>Silt</value>
+  </data>
+  <data name="Volc_Obj_Thermometer" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Volc_Obj_Umbrella" xml:space="preserve">
+    <value>Umbrella cloud</value>
+  </data>
+  <data name="Volc_Obj_Uplift" xml:space="preserve">
+    <value>Uplift</value>
+  </data>
+  <data name="Volc_Obj_Vent" xml:space="preserve">
+    <value>Vent</value>
+  </data>
+  <data name="Volc_Obj_Vesicle" xml:space="preserve">
+    <value>Gas holes</value>
+  </data>
+  <data name="Volc_Obj_Weathering" xml:space="preserve">
+    <value>Weathering</value>
+  </data>
+  <data name="Volc_Option_Gas" xml:space="preserve">
+    <value>Full of gas</value>
+  </data>
+  <data name="Volc_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Volc_Option_Levels" xml:space="preserve">
+    <value>Bubble depths</value>
+  </data>
+  <data name="Volc_Option_RockLabels" xml:space="preserve">
+    <value>Rock names</value>
+  </data>
+  <data name="Volc_Option_TwoStage" xml:space="preserve">
+    <value>Slow, then fast</value>
+  </data>
+  <data name="Volc_Parent_Caption" xml:space="preserve">
+    <value>Rock to bury</value>
+  </data>
+  <data name="Volc_Phase_Calm_Text" xml:space="preserve">
+    <value>The chamber has let out its pressure. Steam still rises, the new lava cools into a layer, and the chamber slowly fills again.</value>
+  </data>
+  <data name="Volc_Phase_Calm_Title" xml:space="preserve">
+    <value>After the eruption</value>
+  </data>
+  <data name="Volc_Phase_Recharge_Text" xml:space="preserve">
+    <value>Magma flows in from below. The pressure builds, the ground swells a little and small earthquakes crack the rock.</value>
+  </data>
+  <data name="Volc_Phase_Recharge_Title" xml:space="preserve">
+    <value>The chamber is filling</value>
+  </data>
+  <data name="Volc_Phase_Rising_Text" xml:space="preserve">
+    <value>Magma forces its way up the conduit. As the pressure on it falls, its water comes out as bubbles, which grow as it rises.</value>
+  </data>
+  <data name="Volc_Phase_Rising_Title" xml:space="preserve">
+    <value>Magma is rising</value>
+  </data>
+  <data name="Volc_PlayPause" xml:space="preserve">
+    <value>Play or pause</value>
+  </data>
+  <data name="Volc_Pour" xml:space="preserve">
+    <value>Pour in mud</value>
+  </data>
+  <data name="Volc_Preset_Changbaishan" xml:space="preserve">
+    <value>Changbaishan, 946</value>
+  </data>
+  <data name="Volc_Preset_Changbaishan_Short" xml:space="preserve">
+    <value>Changbaishan</value>
+  </data>
+  <data name="Volc_Preset_Kilauea" xml:space="preserve">
+    <value>Kīlauea, Hawaii</value>
+  </data>
+  <data name="Volc_Preset_Kilauea_Short" xml:space="preserve">
+    <value>Kīlauea</value>
+  </data>
+  <data name="Volc_Preset_Merapi" xml:space="preserve">
+    <value>Merapi, Indonesia</value>
+  </data>
+  <data name="Volc_Preset_Merapi_Short" xml:space="preserve">
+    <value>Merapi</value>
+  </data>
+  <data name="Volc_Preset_Pinatubo" xml:space="preserve">
+    <value>Pinatubo, 1991</value>
+  </data>
+  <data name="Volc_Preset_Pinatubo_Short" xml:space="preserve">
+    <value>Pinatubo</value>
+  </data>
+  <data name="Volc_Preset_StHelens" xml:space="preserve">
+    <value>St Helens, 1980</value>
+  </data>
+  <data name="Volc_Preset_StHelens_Short" xml:space="preserve">
+    <value>St Helens</value>
+  </data>
+  <data name="Volc_Preset_Stromboli" xml:space="preserve">
+    <value>Stromboli, Italy</value>
+  </data>
+  <data name="Volc_Preset_Stromboli_Short" xml:space="preserve">
+    <value>Stromboli</value>
+  </data>
+  <data name="Volc_Preset_Wudalianchi" xml:space="preserve">
+    <value>Wudalianchi</value>
+  </data>
+  <data name="Volc_Preset_Wudalianchi_Short" xml:space="preserve">
+    <value>Wudalianchi</value>
+  </data>
+  <data name="Volc_Presets_Caption" xml:space="preserve">
+    <value>Real volcanoes</value>
+  </data>
+  <data name="Volc_Process_Caption" xml:space="preserve">
+    <value>Watch</value>
+  </data>
+  <data name="Volc_Process_Cooling" xml:space="preserve">
+    <value>Magma cooling</value>
+  </data>
+  <data name="Volc_Process_Crystallization" xml:space="preserve">
+    <value>Cooling</value>
+  </data>
+  <data name="Volc_Process_Deposition" xml:space="preserve">
+    <value>Deposition</value>
+  </data>
+  <data name="Volc_Process_Erosion" xml:space="preserve">
+    <value>Erosion</value>
+  </data>
+  <data name="Volc_Process_Eruption" xml:space="preserve">
+    <value>Eruption</value>
+  </data>
+  <data name="Volc_Process_Lithification" xml:space="preserve">
+    <value>Compaction &amp; cementation</value>
+  </data>
+  <data name="Volc_Process_Melting" xml:space="preserve">
+    <value>Melting</value>
+  </data>
+  <data name="Volc_Process_Metamorphism" xml:space="preserve">
+    <value>Metamorphism</value>
+  </data>
+  <data name="Volc_Process_Settling" xml:space="preserve">
+    <value>Mud settling</value>
+  </data>
+  <data name="Volc_Process_Squeezing" xml:space="preserve">
+    <value>Rock squeezed</value>
+  </data>
+  <data name="Volc_Process_Uplift" xml:space="preserve">
+    <value>Uplift</value>
+  </data>
+  <data name="Volc_Process_Weathering" xml:space="preserve">
+    <value>Weathering</value>
+  </data>
+  <data name="Volc_Rate_Day" xml:space="preserve">
+    <value>{0} °C a day</value>
+  </data>
+  <data name="Volc_Rate_Every" xml:space="preserve">
+    <value>1 °C every {0}</value>
+  </data>
+  <data name="Volc_Rate_Hour" xml:space="preserve">
+    <value>{0} °C an hour</value>
+  </data>
+  <data name="Volc_Rate_Minute" xml:space="preserve">
+    <value>{0} °C a minute</value>
+  </data>
+  <data name="Volc_Rate_Second" xml:space="preserve">
+    <value>{0} °C a second</value>
+  </data>
+  <data name="Volc_Rate_Year" xml:space="preserve">
+    <value>{0} °C a year</value>
+  </data>
+  <data name="Volc_Restart" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="Volc_RockText_Basalt" xml:space="preserve">
+    <value>Lava cooled in hours to days: tiny crystals, dark and heavy. It is the commonest rock at the Earth's surface.</value>
+  </data>
+  <data name="Volc_RockText_BasaltGlass" xml:space="preserve">
+    <value>Basalt lava quenched in water: black glass with only a few tiny crystals.</value>
+  </data>
+  <data name="Volc_RockText_Dolerite" xml:space="preserve">
+    <value>Basalt magma cooled in a thin sheet underground: medium-sized crystals, between gabbro and basalt.</value>
+  </data>
+  <data name="Volc_RockText_Gabbro" xml:space="preserve">
+    <value>The slowly cooled, coarse-grained twin of basalt: dark pyroxene, white feldspar and green olivine.</value>
+  </data>
+  <data name="Volc_RockText_Gneiss" xml:space="preserve">
+    <value>Above about 600 °C the minerals separate into light and dark bands, and the rock is still solid.</value>
+  </data>
+  <data name="Volc_RockText_Granite" xml:space="preserve">
+    <value>Cooled over hundreds of thousands of years deep underground: few crystals, but with time to grow big enough to see.</value>
+  </data>
+  <data name="Volc_RockText_Limestone" xml:space="preserve">
+    <value>Made of the shells and skeletons of sea creatures, glued together by calcite.</value>
+  </data>
+  <data name="Volc_RockText_Marble" xml:space="preserve">
+    <value>Limestone recrystallised by heat: interlocking calcite crystals, and the fossils are gone.</value>
+  </data>
+  <data name="Volc_RockText_Microgranite" xml:space="preserve">
+    <value>Cooled in a thin sheet of magma underground, in years to centuries: its crystals are smaller than granite's.</value>
+  </data>
+  <data name="Volc_RockText_Migmatite" xml:space="preserve">
+    <value>So hot that it has begun to melt: pockets of melt sit among the bands. Any hotter and it becomes magma.</value>
+  </data>
+  <data name="Volc_RockText_Obsidian" xml:space="preserve">
+    <value>Lava frozen in seconds to minutes: no time for crystals, just glass, black and sharp-edged.</value>
+  </data>
+  <data name="Volc_RockText_Phyllite" xml:space="preserve">
+    <value>A little hotter: the flakes have grown into fine mica that gives it a silky shine.</value>
+  </data>
+  <data name="Volc_RockText_PorphyriticBasalt" xml:space="preserve">
+    <value>Basalt with big olivine or feldspar crystals that grew before it erupted.</value>
+  </data>
+  <data name="Volc_RockText_Porphyry" xml:space="preserve">
+    <value>Big crystals grew slowly deep down, then the magma rose and the rest froze into a fine-grained background around them.</value>
+  </data>
+  <data name="Volc_RockText_Pumice" xml:space="preserve">
+    <value>Frothy lava frozen with its gas bubbles inside: so full of holes that it floats.</value>
+  </data>
+  <data name="Volc_RockText_Quartzite" xml:space="preserve">
+    <value>Sandstone heated until its quartz grains grow into each other and the gaps close: one of the hardest rocks.</value>
+  </data>
+  <data name="Volc_RockText_Rhyolite" xml:space="preserve">
+    <value>Granite magma cooled quickly at the surface: the same minerals, but in crystals too small to see.</value>
+  </data>
+  <data name="Volc_RockText_Sandstone" xml:space="preserve">
+    <value>Sand grains cemented together, with tiny gaps between them that can hold water or oil.</value>
+  </data>
+  <data name="Volc_RockText_Schist" xml:space="preserve">
+    <value>Hot enough for mica to grow big and shiny, and for garnets to grow among it.</value>
+  </data>
+  <data name="Volc_RockText_Scoria" xml:space="preserve">
+    <value>Basalt lava frozen around its gas bubbles: dark, rough and full of holes, but heavier than pumice.</value>
+  </data>
+  <data name="Volc_RockText_Shale" xml:space="preserve">
+    <value>Mud pressed into rock: flakes of clay too small to see, lying every which way.</value>
+  </data>
+  <data name="Volc_RockText_Slate" xml:space="preserve">
+    <value>Squeezed at about 200 to 330 °C: the flakes all lie one way, so it splits into thin, flat sheets.</value>
+  </data>
+  <data name="Volc_Settling_Note" xml:space="preserve">
+    <value>Sinking is sped up (clay takes days to sink a metre); burial squeezes the layers to scale.</value>
+  </data>
+  <data name="Volc_Settling_Panel_Note" xml:space="preserve">
+    <value>Pour a few times to build up layers, then bury them: from about 1.5 km down the grains are cemented into rock.</value>
+  </data>
+  <data name="Volc_Settling_Subtitle" xml:space="preserve">
+    <value>Mud settles into layers</value>
+  </data>
+  <data name="Volc_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Volc_Silica" xml:space="preserve">
+    <value>Silica (SiO₂)</value>
+  </data>
+  <data name="Volc_Squeezing_Note" xml:space="preserve">
+    <value>A sample about a centimetre across, deep inside a continent, 25 °C warmer for every kilometre down.</value>
+  </data>
+  <data name="Volc_Squeezing_Panel_Note" xml:space="preserve">
+    <value>Shale becomes slate, phyllite, schist and gneiss in turn; sandstone becomes quartzite; limestone becomes marble.</value>
+  </data>
+  <data name="Volc_Squeezing_Subtitle" xml:space="preserve">
+    <value>Rock squeezed and heated</value>
+  </data>
+  <data name="Volc_Stat_BubbleShare" xml:space="preserve">
+    <value>Bubbles</value>
+  </data>
+  <data name="Volc_Stat_Bubbles" xml:space="preserve">
+    <value>Bubbles start</value>
+  </data>
+  <data name="Volc_Stat_Burial" xml:space="preserve">
+    <value>Buried</value>
+  </data>
+  <data name="Volc_Stat_Bursts" xml:space="preserve">
+    <value>Lava thrown up</value>
+  </data>
+  <data name="Volc_Stat_Cement" xml:space="preserve">
+    <value>Gaps cemented</value>
+  </data>
+  <data name="Volc_Stat_CoolRate" xml:space="preserve">
+    <value>Cooling</value>
+  </data>
+  <data name="Volc_Stat_CoolTime" xml:space="preserve">
+    <value>Takes</value>
+  </data>
+  <data name="Volc_Stat_Crystals" xml:space="preserve">
+    <value>Crystals</value>
+  </data>
+  <data name="Volc_Stat_Depth" xml:space="preserve">
+    <value>Depth</value>
+  </data>
+  <data name="Volc_Stat_DomeGrows" xml:space="preserve">
+    <value>grows slowly over the vent</value>
+  </data>
+  <data name="Volc_Stat_Family" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="Volc_Stat_Fountain" xml:space="preserve">
+    <value>Fountain height</value>
+  </data>
+  <data name="Volc_Stat_Frag" xml:space="preserve">
+    <value>Froth tears apart</value>
+  </data>
+  <data name="Volc_Stat_GasEscapes" xml:space="preserve">
+    <value>no: the bubbles escape</value>
+  </data>
+  <data name="Volc_Stat_GasLeaks" xml:space="preserve">
+    <value>no: the gas leaks away</value>
+  </data>
+  <data name="Volc_Stat_Glass" xml:space="preserve">
+    <value>Glass</value>
+  </data>
+  <data name="Volc_Stat_Height" xml:space="preserve">
+    <value>Column height</value>
+  </data>
+  <data name="Volc_Stat_Layers" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="Volc_Stat_Magma" xml:space="preserve">
+    <value>Magma</value>
+  </data>
+  <data name="Volc_Stat_NearVent" xml:space="preserve">
+    <value>near the vent</value>
+  </data>
+  <data name="Volc_Stat_Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="Volc_Stat_Parent" xml:space="preserve">
+    <value>Started as</value>
+  </data>
+  <data name="Volc_Stat_PoreMud" xml:space="preserve">
+    <value>Water space in mud</value>
+  </data>
+  <data name="Volc_Stat_PoreSand" xml:space="preserve">
+    <value>Water space in sand</value>
+  </data>
+  <data name="Volc_Stat_Pressure" xml:space="preserve">
+    <value>Chamber overpressure</value>
+  </data>
+  <data name="Volc_Stat_RockPressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Volc_Stat_Shape" xml:space="preserve">
+    <value>Volcano</value>
+  </data>
+  <data name="Volc_Stat_Sinking" xml:space="preserve">
+    <value>Grains sinking</value>
+  </data>
+  <data name="Volc_Stat_Size" xml:space="preserve">
+    <value>Average crystal</value>
+  </data>
+  <data name="Volc_Stat_SoFar" xml:space="preserve">
+    <value>Journey so far</value>
+  </data>
+  <data name="Volc_Stat_Step" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Volc_Stat_StepTime" xml:space="preserve">
+    <value>This step took</value>
+  </data>
+  <data name="Volc_Stat_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Volc_Stat_Thickness" xml:space="preserve">
+    <value>Mud layer thickness</value>
+  </data>
+  <data name="Volc_Stat_TwoStage" xml:space="preserve">
+    <value>slow deep down, then erupted</value>
+  </data>
+  <data name="Volc_Stat_Viscosity" xml:space="preserve">
+    <value>Stickiness</value>
+  </data>
+  <data name="Volc_Stat_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Volc_State_Andesite" xml:space="preserve">
+    <value>Andesite</value>
+  </data>
+  <data name="Volc_State_Basalt" xml:space="preserve">
+    <value>Basalt</value>
+  </data>
+  <data name="Volc_State_BasaltGlass" xml:space="preserve">
+    <value>Basalt glass</value>
+  </data>
+  <data name="Volc_State_BasalticAndesite" xml:space="preserve">
+    <value>Basaltic andesite</value>
+  </data>
+  <data name="Volc_State_Clay" xml:space="preserve">
+    <value>Clay</value>
+  </data>
+  <data name="Volc_State_Conglomerate" xml:space="preserve">
+    <value>Conglomerate</value>
+  </data>
+  <data name="Volc_State_Dacite" xml:space="preserve">
+    <value>Dacite</value>
+  </data>
+  <data name="Volc_State_Dissolved" xml:space="preserve">
+    <value>Dissolved in water</value>
+  </data>
+  <data name="Volc_State_Dolerite" xml:space="preserve">
+    <value>Dolerite</value>
+  </data>
+  <data name="Volc_State_Gabbro" xml:space="preserve">
+    <value>Gabbro</value>
+  </data>
+  <data name="Volc_State_Gneiss" xml:space="preserve">
+    <value>Gneiss</value>
+  </data>
+  <data name="Volc_State_Granite" xml:space="preserve">
+    <value>Granite</value>
+  </data>
+  <data name="Volc_State_Lava" xml:space="preserve">
+    <value>Lava</value>
+  </data>
+  <data name="Volc_State_Limestone" xml:space="preserve">
+    <value>Limestone</value>
+  </data>
+  <data name="Volc_State_Magma" xml:space="preserve">
+    <value>Magma</value>
+  </data>
+  <data name="Volc_State_Marble" xml:space="preserve">
+    <value>Marble</value>
+  </data>
+  <data name="Volc_State_Microgranite" xml:space="preserve">
+    <value>Microgranite</value>
+  </data>
+  <data name="Volc_State_Migmatite" xml:space="preserve">
+    <value>Migmatite</value>
+  </data>
+  <data name="Volc_State_Mud" xml:space="preserve">
+    <value>Mud</value>
+  </data>
+  <data name="Volc_State_Obsidian" xml:space="preserve">
+    <value>Obsidian</value>
+  </data>
+  <data name="Volc_State_Phyllite" xml:space="preserve">
+    <value>Phyllite</value>
+  </data>
+  <data name="Volc_State_PorphyriticBasalt" xml:space="preserve">
+    <value>Porphyritic basalt</value>
+  </data>
+  <data name="Volc_State_Porphyry" xml:space="preserve">
+    <value>Porphyry</value>
+  </data>
+  <data name="Volc_State_Pumice" xml:space="preserve">
+    <value>Pumice</value>
+  </data>
+  <data name="Volc_State_Quartzite" xml:space="preserve">
+    <value>Quartzite</value>
+  </data>
+  <data name="Volc_State_Rhyolite" xml:space="preserve">
+    <value>Rhyolite</value>
+  </data>
+  <data name="Volc_State_Sand" xml:space="preserve">
+    <value>Sand</value>
+  </data>
+  <data name="Volc_State_Sandstone" xml:space="preserve">
+    <value>Sandstone</value>
+  </data>
+  <data name="Volc_State_Schist" xml:space="preserve">
+    <value>Schist</value>
+  </data>
+  <data name="Volc_State_Scoria" xml:space="preserve">
+    <value>Scoria</value>
+  </data>
+  <data name="Volc_State_Shale" xml:space="preserve">
+    <value>Shale</value>
+  </data>
+  <data name="Volc_State_Shell" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="Volc_State_ShellSand" xml:space="preserve">
+    <value>Shell sand</value>
+  </data>
+  <data name="Volc_State_Siltstone" xml:space="preserve">
+    <value>Siltstone</value>
+  </data>
+  <data name="Volc_State_Slate" xml:space="preserve">
+    <value>Slate</value>
+  </data>
+  <data name="Volc_Step_Magma_0" xml:space="preserve">
+    <value>This piece of rock is gneiss, deep under the mountains and close to melting.</value>
+  </data>
+  <data name="Volc_Step_Magma_1" xml:space="preserve">
+    <value>It melts. The magma is lighter than the solid rock around it, so it starts to rise.</value>
+  </data>
+  <data name="Volc_Step_Magma_2" xml:space="preserve">
+    <value>It collects in the magma chamber under the volcano.</value>
+  </data>
+  <data name="Volc_Step_Magma_3" xml:space="preserve">
+    <value>The volcano erupts, and the magma pours out as lava.</value>
+  </data>
+  <data name="Volc_Step_Magma_4" xml:space="preserve">
+    <value>In the open air the lava cools within days into basalt, with tiny crystals.</value>
+  </data>
+  <data name="Volc_Step_Magma_5" xml:space="preserve">
+    <value>Rain starts to rot the new basalt into clay, and the next round begins.</value>
+  </data>
+  <data name="Volc_Step_Mud_0" xml:space="preserve">
+    <value>This speck starts in a basalt lava flow on the side of the volcano.</value>
+  </data>
+  <data name="Volc_Step_Mud_1" xml:space="preserve">
+    <value>Rain slowly rots the basalt, and its minerals turn into soft clay.</value>
+  </data>
+  <data name="Volc_Step_Mud_2" xml:space="preserve">
+    <value>The river carries the clay away as mud, making the water cloudy.</value>
+  </data>
+  <data name="Volc_Step_Mud_3" xml:space="preserve">
+    <value>Far out in the deep sea, where the water is still, the fine mud slowly settles.</value>
+  </data>
+  <data name="Volc_Step_Mud_4" xml:space="preserve">
+    <value>Buried under more layers, the mud is squeezed into shale.</value>
+  </data>
+  <data name="Volc_Step_Mud_5" xml:space="preserve">
+    <value>Buried deeper still, heated and squeezed, the shale becomes schist, full of shiny mica.</value>
+  </data>
+  <data name="Volc_Step_Mud_6" xml:space="preserve">
+    <value>Deep enough and hot enough, the rock melts into magma.</value>
+  </data>
+  <data name="Volc_Step_Mud_7" xml:space="preserve">
+    <value>The magma rises but stops underground, cooling slowly over a million years into granite.</value>
+  </data>
+  <data name="Volc_Step_Mud_8" xml:space="preserve">
+    <value>Over tens of millions of years the mountains rise and the rock above wears away, until the granite is at the top.</value>
+  </data>
+  <data name="Volc_Step_Sand_0" xml:space="preserve">
+    <value>This grain of quartz is part of the granite at the top of the mountain, pushed up from deep underground.</value>
+  </data>
+  <data name="Volc_Step_Sand_1" xml:space="preserve">
+    <value>Frost and rain loosen the granite. The feldspar rots to clay, but the hard quartz breaks free as a grain of sand.</value>
+  </data>
+  <data name="Volc_Step_Sand_2" xml:space="preserve">
+    <value>A stream picks it up and the river rolls it down towards the sea, rounding its corners on the way.</value>
+  </data>
+  <data name="Volc_Step_Sand_3" xml:space="preserve">
+    <value>At the coast the river slows, and the grain settles on the beach with millions of others.</value>
+  </data>
+  <data name="Volc_Step_Sand_4" xml:space="preserve">
+    <value>More sand and mud bury it. Squeezed, and glued by minerals, the sand becomes sandstone.</value>
+  </data>
+  <data name="Volc_Step_Sand_5" xml:space="preserve">
+    <value>Plates collide and fold the old sea floor up into the mountains. The sandstone is lifted into the open air again.</value>
+  </data>
+  <data name="Volc_Step_Sand_6" xml:space="preserve">
+    <value>Weathering frees the grain again: back to sand, ready for another round, without ever having melted.</value>
+  </data>
+  <data name="Volc_Step_Shell_0" xml:space="preserve">
+    <value>This shell belongs to a sea creature on the reef. It built it from calcium dissolved in the seawater.</value>
+  </data>
+  <data name="Volc_Step_Shell_1" xml:space="preserve">
+    <value>When the creature dies, its shell breaks up into shell sand on the sea floor.</value>
+  </data>
+  <data name="Volc_Step_Shell_2" xml:space="preserve">
+    <value>Buried and glued together, the shell sand becomes limestone.</value>
+  </data>
+  <data name="Volc_Step_Shell_3" xml:space="preserve">
+    <value>Hot magma rises beside it and bakes the limestone into marble.</value>
+  </data>
+  <data name="Volc_Step_Shell_4" xml:space="preserve">
+    <value>The mountains rise, and the marble ends up in a cliff, out in the rain.</value>
+  </data>
+  <data name="Volc_Step_Shell_5" xml:space="preserve">
+    <value>Rainwater is slightly acidic, so it slowly dissolves the marble, and the river carries the calcium back to the sea.</value>
+  </data>
+  <data name="Volc_Step_Shell_6" xml:space="preserve">
+    <value>In the sea, a new creature uses that calcium to build a new shell.</value>
+  </data>
+  <data name="Volc_StopFollowing" xml:space="preserve">
+    <value>Stop following</value>
+  </data>
+  <data name="Volc_StyleShort_Dome" xml:space="preserve">
+    <value>Dome</value>
+  </data>
+  <data name="Volc_StyleShort_Hawaiian" xml:space="preserve">
+    <value>Hawaiian</value>
+  </data>
+  <data name="Volc_StyleShort_Plinian" xml:space="preserve">
+    <value>Plinian</value>
+  </data>
+  <data name="Volc_StyleShort_Strombolian" xml:space="preserve">
+    <value>Strombolian</value>
+  </data>
+  <data name="Volc_StyleShort_Vulcanian" xml:space="preserve">
+    <value>Vulcanian</value>
+  </data>
+  <data name="Volc_StyleText_Dome" xml:space="preserve">
+    <value>Sticky magma that has lost its gas squeezes out slowly and piles up over the vent. Pieces break off as glowing avalanches.</value>
+  </data>
+  <data name="Volc_StyleText_Hawaiian" xml:space="preserve">
+    <value>Runny basalt with little gas: the bubbles slip out easily, throwing up lava fountains, and the lava runs far down the slopes.</value>
+  </data>
+  <data name="Volc_StyleText_Plinian" xml:space="preserve">
+    <value>Sticky magma full of gas: the froth tears apart into ash and gas, which roar up as a column tens of kilometres high.</value>
+  </data>
+  <data name="Volc_StyleText_Strombolian" xml:space="preserve">
+    <value>Runny magma with more gas: bubbles gather into big ones that burst at the top every few seconds, throwing out lava bombs.</value>
+  </data>
+  <data name="Volc_StyleText_Vulcanian" xml:space="preserve">
+    <value>Sticky magma with some gas plugs the vent until the pressure blasts it open: short explosions of ash and lava bombs.</value>
+  </data>
+  <data name="Volc_Style_Dome" xml:space="preserve">
+    <value>A lava dome</value>
+  </data>
+  <data name="Volc_Style_Hawaiian" xml:space="preserve">
+    <value>Hawaiian: lava fountains</value>
+  </data>
+  <data name="Volc_Style_Plinian" xml:space="preserve">
+    <value>Plinian: a column of ash</value>
+  </data>
+  <data name="Volc_Style_Strombolian" xml:space="preserve">
+    <value>Strombolian: bursting bubbles</value>
+  </data>
+  <data name="Volc_Style_Vulcanian" xml:space="preserve">
+    <value>Vulcanian: cannon-like blasts</value>
+  </data>
+  <data name="Volc_Tank_Empty_Text" xml:space="preserve">
+    <value>Click the river, or 'Pour in mud', to let a muddy river flow in.</value>
+  </data>
+  <data name="Volc_Tank_Empty_Title" xml:space="preserve">
+    <value>An empty tank</value>
+  </data>
+  <data name="Volc_Tank_Rock_Text" xml:space="preserve">
+    <value>Minerals have filled the gaps and glued the grains: gravel is now conglomerate, sand sandstone, silt siltstone and clay shale.</value>
+  </data>
+  <data name="Volc_Tank_Rock_Title" xml:space="preserve">
+    <value>Now it is rock</value>
+  </data>
+  <data name="Volc_Tank_Settled_Text" xml:space="preserve">
+    <value>Each pour leaves a layer, coarse at the bottom and fine at the top. Pour again, or bury the layers.</value>
+  </data>
+  <data name="Volc_Tank_Settled_Title" xml:space="preserve">
+    <value>A new layer</value>
+  </data>
+  <data name="Volc_Tank_Sinking_Text" xml:space="preserve">
+    <value>Gravel and sand sink fast and land near the river mouth; silt and clay drift farther and take much longer.</value>
+  </data>
+  <data name="Volc_Tank_Sinking_Title" xml:space="preserve">
+    <value>Grains are sinking</value>
+  </data>
+  <data name="Volc_Tank_Squeezed_Text" xml:space="preserve">
+    <value>The weight of the rock above squeezes the water out of the gaps, and the layers get thinner.</value>
+  </data>
+  <data name="Volc_Tank_Squeezed_Title" xml:space="preserve">
+    <value>Being buried</value>
+  </data>
+  <data name="Volc_Time_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Volc_Time_Hours" xml:space="preserve">
+    <value>{0} h</value>
+  </data>
+  <data name="Volc_Time_Minutes" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Volc_Time_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Volc_Timeline" xml:space="preserve">
+    <value>Timeline</value>
+  </data>
+  <data name="Volc_Title" xml:space="preserve">
+    <value>Volcanoes and the rock cycle</value>
+  </data>
+  <data name="Volc_Unit_Km" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="Volc_Unit_Million" xml:space="preserve">
+    <value> million</value>
+  </data>
+  <data name="Volc_Unit_Wan" xml:space="preserve">
+    <value> × 10,000</value>
+  </data>
+  <data name="Volc_Unit_Yi" xml:space="preserve">
+    <value> × 100 million</value>
+  </data>
+  <data name="Volc_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Volc_Value_Kbar" xml:space="preserve">
+    <value>{0} kbar (about {1} atmospheres)</value>
+  </data>
+  <data name="Volc_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Volc_Value_KmDeep" xml:space="preserve">
+    <value>about {0} km down</value>
+  </data>
+  <data name="Volc_Value_Metres" xml:space="preserve">
+    <value>about {0} m</value>
+  </data>
+  <data name="Volc_Value_MetresDeep" xml:space="preserve">
+    <value>about {0} m down</value>
+  </data>
+  <data name="Volc_Value_Mm" xml:space="preserve">
+    <value>{0} mm</value>
+  </data>
+  <data name="Volc_Value_Mpa" xml:space="preserve">
+    <value>{0} MPa</value>
+  </data>
+  <data name="Volc_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Volc_Value_SilicaRock" xml:space="preserve">
+    <value>{0}% · {1}</value>
+  </data>
+  <data name="Volc_Value_StepOf" xml:space="preserve">
+    <value>{0} of {1}</value>
+  </data>
+  <data name="Volc_Value_Viscosity" xml:space="preserve">
+    <value>10^{0} Pa·s, like {1}</value>
+  </data>
+  <data name="Volc_Water" xml:space="preserve">
+    <value>Water dissolved</value>
+  </data>
+  <data name="Volc_Where_Flow" xml:space="preserve">
+    <value>Inside a lava flow</value>
+  </data>
+  <data name="Volc_Where_Pluton" xml:space="preserve">
+    <value>Deep in a pluton</value>
+  </data>
+  <data name="Volc_Where_Quench" xml:space="preserve">
+    <value>Lava meeting water</value>
+  </data>
+  <data name="Volc_Where_Sill" xml:space="preserve">
+    <value>A thin sheet underground</value>
+  </data>
+  <data name="Volc_Years" xml:space="preserve">
+    <value>{0} years</value>
+  </data>
+  <data name="Volc_Years_About" xml:space="preserve">
+    <value>about {0} years</value>
   </data>
   <data name="Volume_Chemistry" xml:space="preserve">
     <value>Chemistry</value>

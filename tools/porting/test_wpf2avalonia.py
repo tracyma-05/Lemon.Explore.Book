@@ -237,6 +237,34 @@ class LateTests(unittest.TestCase):
         self.assertIn("    private double TitleSpace => 22 + TitleHeight + 12;", out)
         self.assertNotIn("Math.Max", out)
 
+    def test_helper_from_another_file_of_the_class(self):
+        siblings = """
+    private static DependencyProperty TwoWay<T>(string name, T value) =>
+        DependencyProperty.Register(name, typeof(T), typeof(QuakeDiagram), new FrameworkPropertyMetadata(value,
+            FrameworkPropertyMetadataOptions.BindsTwoWayByDefault | FrameworkPropertyMetadataOptions.AffectsRender));
+"""
+        out = tool.expand_register_helpers(
+            "    public static readonly DependencyProperty LastSlipProperty = TwoWay(nameof(LastSlip), 0.0);\n"
+            "    public double LastSlip { get => (double)GetValue(LastSlipProperty); set => SetValue(LastSlipProperty, value); }\n",
+            siblings)
+        self.assertIn("DependencyProperty.Register(nameof(LastSlip), typeof(double), typeof(QuakeDiagram)", out)
+        self.assertIn("BindsTwoWayByDefault", out)
+
+    def test_initialized_pens_empty_rects_and_polylines(self):
+        out = tool.convert_late("""        pen = new Pen(brush, 2) { StartLineCap = cap, EndLineCap = cap, LineJoin = PenLineJoin.Round };
+        var dash = new Pen(Solid(200, 1, 2, 3), 1.6) { DashStyle = new DashStyle([2, 6], 0), DashCap = PenLineCap.Flat };
+        private Rect _box = Rect.Empty;
+        if (_box.IsEmpty) return;
+        g.PolyLineTo(points, true, true);
+        var length = ab.LengthSquared;
+""")
+        self.assertIn("pen = new ImmutablePen(((IBrush)brush).ToImmutable(), 2, null, cap, PenLineJoin.Round);", out)
+        self.assertIn("new ImmutablePen(((IBrush)Solid(200, 1, 2, 3)).ToImmutable(), 1.6, new ImmutableDashStyle([2, 6], 0), PenLineCap.Flat, PenLineJoin.Miter)", out)
+        self.assertIn("private Rect _box = default(Rect);", out)
+        self.assertIn("if (_box == default) return;", out)
+        self.assertIn("foreach (var next in points) g.LineTo(next);", out)
+        self.assertIn("ab.SquaredLength", out)
+
     def test_split_top_ignores_lambda_arrow(self):
         args = tool.split_top("0.0, (d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)")
         self.assertEqual(["0.0", "(d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)"], args)

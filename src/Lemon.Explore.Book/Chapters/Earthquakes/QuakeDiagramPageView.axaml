@@ -1,0 +1,89 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:quake="using:Lemon.Explore.Book.Chapters.Earthquakes"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Earthquakes.QuakeDiagramPageView"
+                         x:DataType="quake:QuakeDiagramPageViewModel">
+    <!-- Right page of the Earthquakes spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <quake:QuakeDiagram Mode="{Binding Quake.Mode}"
+                                    SixPlates="{Binding Quake.SixPlates}"
+                                    ShowQuakes="{Binding Quake.ShowQuakes}"
+                                    ShowVolcanoes="{Binding Quake.ShowVolcanoes}"
+                                    ShowArrows="{Binding Quake.ShowArrows}"
+                                    SelectedBoundary="{Binding Quake.SelectedBoundary, Mode=TwoWay}"
+                                    SelectedPlate="{Binding Quake.SelectedPlate, Mode=TwoWay}"
+                                    Famous="{Binding Quake.Famous, Mode=TwoWay}"
+                                    PlaceLatitude="{Binding Quake.PlaceLatitude}"
+                                    PlaceLongitude="{Binding Quake.PlaceLongitude}"
+                                    PlaceName="{Binding Quake.PlaceName}"
+                                    Section="{Binding Quake.Section}"
+                                    SectionTime="{Binding Quake.SectionTime, Mode=TwoWay}"
+                                    HalfRate="{Binding Quake.HalfRate}"
+                                    Dip="{Binding Quake.Dip, Mode=TwoWay}"
+                                    OverOcean="{Binding Quake.OverOcean}"
+                                    Creep="{Binding Quake.Creep}"
+                                    QuakeRequest="{Binding Quake.QuakeRequest}"
+                                    QuakeCount="{Binding Quake.QuakeCount, Mode=TwoWay}"
+                                    LastSlip="{Binding Quake.LastSlip, Mode=TwoWay}"
+                                    QuakeAngle="{Binding Quake.QuakeAngle, Mode=TwoWay}"
+                                    StationDistance="{Binding Quake.StationDistance, Mode=TwoWay}"
+                                    StationName="{Binding Quake.StationName, Mode=TwoWay}"
+                                    WaveTime="{Binding Quake.WaveTime, Mode=TwoWay}"
+                                    ShowRays="{Binding Quake.ShowRays}"
+                                    ShowLabels="{Binding Quake.ShowLabels}"
+                                    IsPlaying="{Binding Quake.IsPlaying, Mode=TwoWay}"
+                                    ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                    Highlight="{Binding Quake.Lesson.Highlight}"
+                                    IsLessonActive="{Binding Quake.Lesson.IsActive}"
+                                    SelectedObject="{Binding Quake.Card.Id, Mode=TwoWay}"
+                                    InteractionCommand="{Binding Quake.UserInteractedCommand}"
+                                    ToolTip.Tip="{Binding Quake.Hint}"
+                                    AutomationProperties.Name="{Binding Quake.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Quake.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Quake.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Quake.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Quake.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Quake_PlayPause}" AutomationProperties.Name="{loc:Localize Quake_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Quake.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Quake.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <Button Classes="space" Command="{Binding Quake.QuakeNowCommand}" IsVisible="{Binding Quake.IsBoundaries}" IsEnabled="{Binding Quake.CanQuake}"
+                                    Content="{loc:Localize Quake_QuakeNow}" ToolTip.Tip="{loc:Localize Quake_QuakeNow_Tooltip}" />
+                            <Button Classes="space" Command="{Binding Quake.RestartWavesCommand}" IsVisible="{Binding Quake.IsInside}"
+                                    ToolTip.Tip="{loc:Localize Quake_Restart_Tooltip}" AutomationProperties.Name="{loc:Localize Quake_Restart}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Restart}" />
+                                    <TextBlock Text="{loc:Localize Quake_Restart}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <ToggleButton Classes="space" IsChecked="{Binding Quake.ShowLabels}" Content="{loc:Localize Quake_Option_Labels}"
+                                          ToolTip.Tip="{loc:Localize Quake_Option_Labels}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

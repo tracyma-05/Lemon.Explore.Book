@@ -8583,6 +8583,303 @@
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>所以，看月亮的形状，就能大致知道它什么时候升起、什么时候落下。你可以左右拖动画面换个时间，找一找月亮在哪儿。</value>
   </data>
+  <data name="Narr_Quake_Boundaries_01" xml:space="preserve">
+    <value>我们潜到海底，来到一条海岭。这里两块板块正在分开，每边每年一两厘米。下面炽热的地幔岩石往上升，一部分熔化成岩浆，填进裂缝，冷却以后就变成了新的洋底。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_02" xml:space="preserve">
+    <value>注意角落里的指南针。每隔几十万年，地球的磁场就会翻转一次，南北对调。下一次翻转什么时候来，谁也说不准。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_03" xml:space="preserve">
+    <value>新岩石冷却的时候，里面细小的磁性矿物会把当时的磁场方向固定下来。于是洋底就带上了一道道深浅相间的条纹，像条形码一样，而且两侧的图案正好左右对称。二十世纪六十年代，科学家发现了这些条纹，才终于相信海底确实在扩张。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_04" xml:space="preserve">
+    <value>这是今天的洋底。在这张图里，最古老的洋底在哪里？</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_05" xml:space="preserve">
+    <value>再来看板块相遇的地方。古老的洋底又冷又重，遇到大陆就会俯冲到它下面，在这里弯折下去，形成深深的海沟。这就是俯冲带，也是课本上说的消亡边界，板块在这里重新回到地幔里。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_06" xml:space="preserve">
+    <value>看俯冲板块上的这些小点，它们都是地震。它们顺着板块往下排，离海沟越远就越深，最深的有六百多千米。这就是为什么地图上的深源地震，总是在海沟的后面。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_07" xml:space="preserve">
+    <value>当俯冲板块沉到大约一百千米深时，会把里面的水挤出来。水降低了上方炽热地幔的熔点，地幔就熔化了。岩浆往上升，冲出地面，形成一排火山，比如安第斯山脉，或者日本列岛。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_08" xml:space="preserve">
+    <value>在上面这一段，两块板块是卡住的。下面的板块还在继续前进，一年又一年地把上面板块的边缘往下拖，就像压弯一根弹簧，把能量存起来。看这段锁定区慢慢积满，然后突然断开！海底猛地一跳，海啸就向两边冲了出去。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_09" xml:space="preserve">
+    <value>如果两块大陆之间的海洋全被消耗掉了，会怎么样？看印度。七千万年前，它还是一块孤零零的大陆，正以每年十五厘米以上的速度，向北穿越一片叫特提斯洋的大海。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_10" xml:space="preserve">
+    <value>大约五千万年前，它撞上了亚洲。大陆地壳太轻，沉不下去，于是印度插到了青藏高原的下面，地壳一层层堆叠起来。喜马拉雅山就这样隆起了，青藏高原下面的地壳，也差不多是一般地方的两倍厚。直到今天，印度还在以每年大约五厘米的速度往北推。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_11" xml:space="preserve">
+    <value>最后一种：板块左右错开，我们从上往下看。离断层远的地方，两边都在稳稳地移动。可断层本身是卡住的，于是断层附近的地面被慢慢扭弯，横跨断层的篱笆和公路也一点点弯了起来。</value>
+  </data>
+  <data name="Narr_Quake_Boundaries_12" xml:space="preserve">
+    <value>当积累的应变太大时，断层会一下子滑开，弯曲的地面猛地弹回去，篱笆突然被切断、错开，这就是一次地震。科学家把它叫做弹性回跳。现在轮到你：点一下立即地震，或者等它自己断开。</value>
+  </data>
+  <data name="Narr_Quake_Inside_01" xml:space="preserve">
+    <value>这是把地球从中间切开的样子：薄薄的地壳、地幔、液态的外核和固态的内核，比例都是真实的。地表上的红色星星是一次地震，它的震动会以波的形式传遍整个地球。</value>
+  </data>
+  <data name="Narr_Quake_Inside_02" xml:space="preserve">
+    <value>金色的波前是纵波，也叫 P 波。它让岩石沿着传播方向一推一拉，就像声音一样。它跑得最快，所以总是最先到达。</value>
+  </data>
+  <data name="Narr_Quake_Inside_03" xml:space="preserve">
+    <value>蓝色的是横波，也叫 S 波。它让岩石左右摇晃，速度比较慢，只有纵波的一半多一点。注意看，两种波越往深处传，波前就越弯，因为深处的岩石传播得更快。</value>
+  </data>
+  <data name="Narr_Quake_Inside_04" xml:space="preserve">
+    <value>这张图就是课本上的那一张：纵波和横波在不同深度的传播速度。到了莫霍界面，也就是地壳的底部，两种波都突然加快，然后在地幔里越传越快。</value>
+  </data>
+  <data name="Narr_Quake_Inside_05" xml:space="preserve">
+    <value>再看地下两千九百千米处，这里是古登堡界面。横波到了这里就完全消失了，纵波的速度也突然大大减慢。</value>
+  </data>
+  <data name="Narr_Quake_Inside_06" xml:space="preserve">
+    <value>那么，横波为什么到了外核就停下了？</value>
+  </data>
+  <data name="Narr_Quake_Inside_07" xml:space="preserve">
+    <value>现在，地震波已经穿过了整个地球。看对面：有一大片地方根本收不到横波，这就是液态外核投下的横波阴影区。</value>
+  </data>
+  <data name="Narr_Quake_Inside_08" xml:space="preserve">
+    <value>还有一圈，大约在离震中一百度到一百四十三度之间，几乎收不到纵波，因为地核把它们折射到别处去了。一九三六年，丹麦科学家莱曼在这片区域里发现了微弱的纵波，由此推断：地球中心一定还有一个固态的内核。</value>
+  </data>
+  <data name="Narr_Quake_Inside_09" xml:space="preserve">
+    <value>内核主要由铁和镍组成，温度和太阳表面差不多。可它却是固态的，因为地心的压力实在太大了。</value>
+  </data>
+  <data name="Narr_Quake_Inside_10" xml:space="preserve">
+    <value>下面的小框把最上面七百千米放大了。地壳加上地幔顶部坚硬的岩石，合起来叫岩石圈，它就是一块块板块。岩石圈下面是软流层，又热又有点软，一般认为这里是岩浆的发源地，板块就在它上面滑动。</value>
+  </data>
+  <data name="Narr_Quake_Inside_11" xml:space="preserve">
+    <value>最后，看看二〇一一年日本大地震传到你所在的地方，它就标在地球的边缘上。纵波和横波到达的时间差越大，地震就离得越远，一个地震台就是这样算出距离的。现在轮到你：点地球边缘的任意地方放一个地震台，或者拖动震源试试。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Alaska1964" xml:space="preserve">
+    <value>一九六四年美国阿拉斯加地震，九点二级，是有记录以来第二大的地震。太平洋板块在北美洲板块下面滑动，地面摇晃了大约四分钟，部分海岸抬升或下沉了好几米。</value>
+  </data>
+  <data name="Narr_Quake_Obj_ArcVolcano" xml:space="preserve">
+    <value>火山弧。它总在俯冲板块约一百千米深处的正上方。所以板块俯冲得平缓，火山就离海沟远；俯冲得陡，火山就离海沟近。试试拖动板片。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Asia" xml:space="preserve">
+    <value>亚洲的南缘。碰撞之前，这里就像今天的安第斯山一样，有大洋板块从下面俯冲，上面是一串火山。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Asthenosphere" xml:space="preserve">
+    <value>软流层，位于上地幔，大约在地下八十到四百千米。这里温度很高，岩石能非常缓慢地流动，就像极其黏稠的麦芽糖，还有一小部分是熔融的。板块就在它上面滑动，一般认为这里是岩浆的发源地。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Axis" xml:space="preserve">
+    <value>海岭的顶部。像大西洋这样扩张慢的海岭，顶部有一条中央裂谷；像东太平洋海隆这样扩张快的，顶部是一道平缓的隆起。两种扩张速度都试试看。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Benioff" xml:space="preserve">
+    <value>和达—贝尼奥夫带，是俯冲板块里一条倾斜的地震带。科学家追踪日本和南美洲下面越来越深的地震，发现了它。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Bolivia1994" xml:space="preserve">
+    <value>一九九四年玻利维亚地震，八点二级，但震源深达六百多千米，在俯冲的纳斯卡板块内部。它是已知最大的深源地震之一，远在加拿大都有人感觉到。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Chile1960" xml:space="preserve">
+    <value>一九六〇年智利瓦尔迪维亚地震，九点五级，是有记录以来最大的地震。纳斯卡板块在南美洲下面沿着一千千米长的断层猛然滑动，引发的海啸横跨太平洋，冲击了夏威夷和日本。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Collision" xml:space="preserve">
+    <value>碰撞带。两块大陆相遇时，谁都不够重，沉不下去，地壳只好挤压、增厚、隆起，形成高大的山脉，比如喜马拉雅山和阿尔卑斯山。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Crust" xml:space="preserve">
+    <value>地壳，是地球薄薄的外皮。大陆部分平均厚度约三十三千米，大洋部分只有六千米左右。在这个比例下，它比画它的线条还要细。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Depth" xml:space="preserve">
+    <value>颜色代表地震的震源深度。红色是浅源地震，不到七十千米；黄色是中源地震；蓝色是深源地震，最深可达七百千米左右。深源地震只发生在俯冲下去的板块里。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Diffuse" xml:space="preserve">
+    <value>宽阔的变形带。这里不是一条清楚的线，而是一大片地区都在被挤压或拉伸，地震也零零散散地分布在其中。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Epicentre" xml:space="preserve">
+    <value>震中，是破裂起始点正上方的地面位置。地震波从这里向外传开，先是速度快的纵波，然后是破坏力更强的横波。</value>
+  </data>
+  <data name="Narr_Quake_Obj_FarField" xml:space="preserve">
+    <value>离断层远的地方，两边都随着板块平稳地移动，每年几厘米。只有在断层附近，移动才被卡住、积攒了起来。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Fault" xml:space="preserve">
+    <value>断层。在深处，岩石会缓慢地滑过彼此，但上面大约十五千米被摩擦力卡住了，直到应力大到足以克服它。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Fence" xml:space="preserve">
+    <value>一道横跨断层、修得笔直的篱笆。断层卡住的时候，附近的地面被拖着走，篱笆就弯了；地震一来，它又弹回笔直，但在断层处被切断、错开。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Field" xml:space="preserve">
+    <value>这个指南针表示故事里此刻的地球磁场。红色的一端朝下时，磁场是反转的，指南针会指向南方。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Focus" xml:space="preserve">
+    <value>震源，在地表下面不远处。沿着地球边缘拖动它，就可以换个地方发生地震，所有地震波都会从那里出发。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Gangdese" xml:space="preserve">
+    <value>冈底斯火山弧，是特提斯洋底向亚洲下面俯冲时，在亚洲边缘形成的。它们的花岗岩根部，如今构成了西藏南部的群山。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Gutenberg" xml:space="preserve">
+    <value>古登堡界面，大约在地下两千九百千米，是地幔和地核的分界。到了这里，横波完全消失，纵波的速度也突然大大下降。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Hawaii" xml:space="preserve">
+    <value>夏威夷群岛位于一个热点之上。太平洋板块向西北移动，把一座座火山带走，热点上又长出新的火山。离夏威夷越远，火山越古老；中间那个急转弯说明，大约四千七百万年前，板块改变了运动方向。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Himalaya" xml:space="preserve">
+    <value>喜马拉雅山，地球上最高的山脉，珠穆朗玛峰高约八千八百四十九米。它们现在每年仍在升高几毫米，同时也在被侵蚀削低。</value>
+  </data>
+  <data name="Narr_Quake_Obj_India" xml:space="preserve">
+    <value>印度。它从古老的南方超级大陆分离出来以后，以比今天几乎任何板块都快的速度向北冲，撞上亚洲以后，速度骤然减慢。</value>
+  </data>
+  <data name="Narr_Quake_Obj_InnerCore" xml:space="preserve">
+    <value>内核，是一个由铁和镍组成的固态球体，半径约一千二百千米。它的温度和太阳表面差不多，却因为巨大的压力而保持固态。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Lithosphere" xml:space="preserve">
+    <value>岩石圈，是地壳加上地幔顶部又冷又硬的部分，板块就是由它组成的。在大洋下面，岩石圈在海岭处很薄，越往外冷却得越多就越厚，最厚约一百千米。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Locked" xml:space="preserve">
+    <value>锁定区，是板块边界较浅的一段，两块板块在这里被卡住了。应变在这里要积累几百年，然后在地球上最大的地震，也就是巨型逆冲地震中一下子释放出来。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Magma" xml:space="preserve">
+    <value>岩浆房，就在洋底下面几千米。熔融的岩石聚集在这里，再挤进裂缝，冷却成黑色的玄武岩。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Mantle" xml:space="preserve">
+    <value>地幔，从莫霍界面一直到地下两千九百千米。它是炽热的固态岩石，但仍在非常缓慢地流动，带着板块一起移动。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Melt" xml:space="preserve">
+    <value>这里是地幔熔化的地方。从俯冲板块里挤出的水，降低了上方热岩石的熔点，熔化的岩浆一团团地向地表上升。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Moho" xml:space="preserve">
+    <value>莫霍界面，全称莫霍洛维奇不连续面，是地壳的底界。到了这里，纵波和横波的速度都突然加快，因为下面地幔的岩石更致密、更坚硬。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Nepal2015" xml:space="preserve">
+    <value>二〇一五年尼泊尔地震，七点八级。印度板块沿着喜马拉雅主逆冲断层又向下插了几米，加德满都遭到强烈震动，近九千人遇难。</value>
+  </data>
+  <data name="Narr_Quake_Obj_OceanPlate" xml:space="preserve">
+    <value>大洋板块，是又老、又冷、密度又大的岩石圈，上面只有约七千米厚的玄武岩洋壳。因为它重，所以下沉的总是它。</value>
+  </data>
+  <data name="Narr_Quake_Obj_OldFloor" xml:space="preserve">
+    <value>较老的洋底。它离海岭越远，就越冷、越收缩、越下沉，所以海也越深，从海岭处的两千五百米左右，到远处的五千多米。</value>
+  </data>
+  <data name="Narr_Quake_Obj_OuterCore" xml:space="preserve">
+    <value>外核，由液态的铁和镍组成。它不停地翻滚流动，产生了地球的磁场。我们之所以知道它是液态的，是因为横波穿不过去。</value>
+  </data>
+  <data name="Narr_Quake_Obj_PCurve" xml:space="preserve">
+    <value>纵波曲线表示纵波在各个深度的速度。它在地壳和地幔中逐渐增大，到地核突然下降，到了内核又跳升一次。</value>
+  </data>
+  <data name="Narr_Quake_Obj_PShadow" xml:space="preserve">
+    <value>纵波阴影区，大约在离震中一百度到一百四十三度之间。地核把纵波折射开了，只有穿过内核的微弱纵波能到达这里。</value>
+  </data>
+  <data name="Narr_Quake_Obj_PWave" xml:space="preserve">
+    <value>纵波，也叫 P 波，是一种一推一拉的波，就像声音一样。它能在固体、液体和气体中传播，而且速度最快，所以最先到达。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Place" xml:space="preserve">
+    <value>这是你所在的地方。卡片上显示你在哪块板块上、这块板块带着你走多快，以及你离最近的板块边界有多远。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Plate" xml:space="preserve">
+    <value>这是一块构造板块，是地球坚硬外壳，也就是岩石圈的一部分，厚度可达一百千米左右。整块板块一起移动，每年几厘米，大部分地震和火山都发生在它的边缘。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Ridge" xml:space="preserve">
+    <value>海岭，也叫大洋中脊，属于生长边界。板块在这里分开，岩浆从缝隙中上涌，形成新的洋底。所有海岭连起来，是地球上最长的山脉，长六万多千米，几乎全在海底。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Rift" xml:space="preserve">
+    <value>裂谷，是大陆正在开始裂开的地方。东非正被慢慢撕开，几百万年以后，海水也许会灌进来，就像现在的红海一样。</value>
+  </data>
+  <data name="Narr_Quake_Obj_SCurve" xml:space="preserve">
+    <value>横波曲线始终在纵波曲线的下面。在两千九百千米到五千一百五十千米之间，它降到了零，那就是液态的外核。</value>
+  </data>
+  <data name="Narr_Quake_Obj_SShadow" xml:space="preserve">
+    <value>横波阴影区，是离震中大约一百度以外的所有地方。横波穿不过液态的外核，所以这里根本收不到横波。</value>
+  </data>
+  <data name="Narr_Quake_Obj_SWave" xml:space="preserve">
+    <value>横波，也叫 S 波，它让岩石左右摇摆。横波只能在固体中传播，速度比纵波慢，但通常摇晃得更厉害。</value>
+  </data>
+  <data name="Narr_Quake_Obj_SanFrancisco1906" xml:space="preserve">
+    <value>一九〇六年美国旧金山地震，约七点九级，发生在圣安德烈亚斯断层上。地面水平错开了最多六米，震后的大火烧毁了大半个城市。科学家里德研究这次地震，提出了弹性回跳理论。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Slab" xml:space="preserve">
+    <value>俯冲板片，也就是下沉的板块。它比周围的地幔更冷、更重，所以会在自身重量的作用下一直往下沉，这股拉力是推动板块运动的主要力量之一。</value>
+  </data>
+  <data name="Narr_Quake_Obj_SlabBreak" xml:space="preserve">
+    <value>断离的板片。碰撞以后，沉重的大洋板块从轻盈的印度大陆上撕裂下来，独自沉入地幔深处。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Smoker" xml:space="preserve">
+    <value>黑烟囱。海水渗进炽热的岩石，被加热到三百五十度左右，带着溶解的矿物喷出来。在这些喷口周围，生活着一整套完全不需要阳光的生物群落。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Station" xml:space="preserve">
+    <value>地震台。它先记录到纵波，再记录到横波，最后是又慢又强的面波。纵波和横波到达的时间差，可以告诉我们地震离这里有多远。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Stress" xml:space="preserve">
+    <value>这个指示条表示积累了多少应变。每一年都多存一点，到了临界点，断层就会滑动，指示条又一下子回到零。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Stripes" xml:space="preserve">
+    <value>磁条带。每一条洋壳都记录着它冷却时的磁场方向：深色的形成于磁场和今天相同的时候，浅色的形成于磁场反转的时候。两侧的条带左右对称。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Sumatra2004" xml:space="preserve">
+    <value>二〇〇四年印度尼西亚苏门答腊地震，九点一级。印度板块沿着大约一千三百千米长的断层，俯冲到亚洲边缘下面。引发的海啸横扫印度洋，夺去了大约二十三万人的生命。</value>
+  </data>
+  <data name="Narr_Quake_Obj_SurfaceWave" xml:space="preserve">
+    <value>面波沿着地球表面传播。它们最慢，但振幅最大，对建筑物造成的破坏也最多。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Suture" xml:space="preserve">
+    <value>缝合带，是印度和亚洲拼接在一起的接缝。沿着它，至今还能找到夹在两块大陆之间、被挤上来的古老洋底碎片。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tangshan1976" xml:space="preserve">
+    <value>一九七六年河北唐山地震，七点八级。它远离板块边界，发生在亚欧板块内部古老的断层上。地震发生在凌晨，约二十四万人遇难。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tethys" xml:space="preserve">
+    <value>特提斯洋，在印度和亚洲之间。它的洋底不断俯冲到亚洲下面，直到完全消失。有些海底沉积物被刮下来、抬上去，如今就在珠穆朗玛峰的峰顶。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tibet" xml:space="preserve">
+    <value>青藏高原，平均海拔四千米以上，被称为世界屋脊。它下面的地壳厚约七十千米，是一般大陆地壳的两倍。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tohoku2011" xml:space="preserve">
+    <value>二〇一一年日本东北地震，九点一级。太平洋板块在日本下面滑动了多达五十米，沿海很多地方的海啸超过十米高，还引发了福岛核事故。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Transform" xml:space="preserve">
+    <value>转换断层。两块板块在这里左右错开，地壳既不增加也不减少。它们时而卡住、时而滑动，所以常常发生震源很浅、破坏力很强的地震。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Trench" xml:space="preserve">
+    <value>海沟，属于消亡边界。一块板块在这里弯折下去，俯冲到另一块板块下面，重新回到地幔。世界上最强烈的地震都发生在海沟，海沟后面还有一排火山。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Tsunami" xml:space="preserve">
+    <value>海啸。海底猛然抬升，把上面整根水柱都顶了起来。海浪在大洋上跑得像喷气式飞机一样快，到了浅水区就会高高涌起。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Turkey2023" xml:space="preserve">
+    <value>二〇二三年土耳其—叙利亚地震，七点八级，发生在东安纳托利亚断层上，阿拉伯板块在那里和安纳托利亚地块左右错动。九个小时后又发生了一次七点五级的大地震，五万多人遇难。</value>
+  </data>
+  <data name="Narr_Quake_Obj_UpperPlate" xml:space="preserve">
+    <value>上覆板块。大陆地壳又厚又轻，像木筏一样，所以总留在上面。如果是两块大洋板块相遇，更老更重的那块下沉，另一块上面会形成一串火山岛弧。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Wedge" xml:space="preserve">
+    <value>地幔楔，夹在俯冲板块和上覆板块之间。板片把它往下拖，后面炽热的地幔又流进来补充。</value>
+  </data>
+  <data name="Narr_Quake_Obj_Wenchuan2008" xml:space="preserve">
+    <value>二〇〇八年四川汶川地震，八级。受印度板块推挤，青藏高原向东挤压四川盆地，龙门山断裂带突然破裂，近七万人遇难。</value>
+  </data>
+  <data name="Narr_Quake_Plates_01" xml:space="preserve">
+    <value>这是一张世界地图，先别看陆地，看这些小圆点。每个圆点都是一次四点五级以上的地震，大约是一年的量。它们是随便乱撒的吗？并不是。它们挤成了一条条又细又长的带子。红色的震源浅，黄色和蓝色的更深。</value>
+  </data>
+  <data name="Narr_Quake_Plates_02" xml:space="preserve">
+    <value>这些地震带，正好勾出了板块的边界。地球坚硬的外壳裂成了十几块大板块，每一块都驮在下面更热、更软的岩石上，慢慢地移动。其中最大的是太平洋板块，它几乎整个都在海底。</value>
+  </data>
+  <data name="Narr_Quake_Plates_03" xml:space="preserve">
+    <value>地理课本把它简化成了六大板块：太平洋板块、亚欧板块、非洲板块、美洲板块、印度洋板块和南极洲板块。注意看，这里的印度洋板块把印度、澳大利亚，甚至阿拉伯半岛都包括了进去。科学家会把它们分得更细，但大格局是一样的。</value>
+  </data>
+  <data name="Narr_Quake_Plates_04" xml:space="preserve">
+    <value>白色的箭头表示每块板块往哪里走、走多快。每年只有几厘米，跟你指甲生长的速度差不多。听起来很慢，可是一百万年下来，就是几十千米。太平洋板块是跑得最快的板块之一。</value>
+  </data>
+  <data name="Narr_Quake_Plates_05" xml:space="preserve">
+    <value>再找找红色的线，比如大西洋正中间的这一条。在这里，两块板块正在互相分开，热的岩石从缝隙里涌上来，形成全新的海底。这就是海岭，也叫大洋中脊，课本上把它叫做生长边界。</value>
+  </data>
+  <data name="Narr_Quake_Plates_06" xml:space="preserve">
+    <value>带小锯齿的蓝线是海沟。在这里板块互相挤压，其中一块俯冲到另一块下面，一直钻进地幔。锯齿指向压在上面的那块板块。海沟几乎绕了太平洋一整圈，这就是著名的环太平洋火山地震带。</value>
+  </data>
+  <data name="Narr_Quake_Plates_07" xml:space="preserve">
+    <value>考考你：蓝色的深源地震，发生在地下几百千米。在地图上，它们都出现在哪里？</value>
+  </data>
+  <data name="Narr_Quake_Plates_08" xml:space="preserve">
+    <value>当两块大陆相撞，谁也沉不下去，地壳只好皱起来、抬起来。印度板块向北挤进亚欧板块，抬升了喜马拉雅山和青藏高原。这股推力一直传到中国内部，金色的星星就是二〇〇八年的汶川地震。</value>
+  </data>
+  <data name="Narr_Quake_Plates_09" xml:space="preserve">
+    <value>板块还可以左右错开，沿着绿色的转换断层擦肩而过。最有名的是美国加利福尼亚的圣安德烈亚斯断层。一九〇六年，它在一瞬间错开了好几米，那次地震让旧金山几乎成了一片废墟。</value>
+  </data>
+  <data name="Narr_Quake_Plates_10" xml:space="preserve">
+    <value>并不是所有火山都在板块边界上。夏威夷就在太平洋板块的正中间，下面有一个热点，也就是一股从地球深处升起的热岩柱。板块从它上面滑过，老火山被一个个带走，排成一条长长的链子，越往西北越古老。</value>
+  </data>
+  <data name="Narr_Quake_Plates_11" xml:space="preserve">
+    <value>蓝色的点是你所在的地方，虚线连着离它最近的板块边界。现在轮到你了：点一条边界、一块板块，或者一颗金色的星星，看看那里发生了什么。</value>
+  </data>
   <data name="Narr_Rain_Drop_01" xml:space="preserve">
     <value>现在看一滴雨，这里把它放大了很多倍，阳光从左边照进来。雨滴就是一颗小水珠，它的作用有点像三棱镜。</value>
   </data>
@@ -9960,6 +10257,306 @@
   <data name="Narr_Typhoon_Track_09" xml:space="preserve">
     <value>轮到你了。换个月份，移动副高的西端，或者在温暖的海面上随便点一下，生成一个新台风，看看它会去哪里。</value>
   </data>
+  <data name="Narr_Volc_Cycle_01" xml:space="preserve">
+    <value>这是一块地球的切面，从深海经过海岸和高山，一直到火山。这里的岩石从来不会一成不变：几百万年里，它们被打碎、搬走、埋起来、挤压、熔化，然后又变成新的岩石。这就是岩石循环。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_02" xml:space="preserve">
+    <value>我们从地下深处开始。这里热得能把岩石熔化，这就是岩浆。它比周围的固体岩石轻，所以会慢慢往上升。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_03" xml:space="preserve">
+    <value>有的岩浆停在地下，非常缓慢地冷却，变成花岗岩；有的喷出地面，很快冷却，变成玄武岩。由岩浆冷却形成的岩石，叫做岩浆岩，也叫火成岩。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_04" xml:space="preserve">
+    <value>岩石一旦露出地面，雨水、冰冻和植物的根，就会一点点把它弄碎，越碎越小。这叫风化。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_05" xml:space="preserve">
+    <value>河流把这些碎屑带走，有沙子，有泥，还有溶在水里的矿物，一路冲到大海。这叫侵蚀和搬运。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_06" xml:space="preserve">
+    <value>水流慢下来的地方，碎屑就一层层沉到海底：沙子落在靠近岸边的地方，细泥漂到远一些的地方，礁石上则堆满了贝壳。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_07" xml:space="preserve">
+    <value>上面的层越堆越厚，下面的层就被压紧，再被矿物胶结在一起，变成坚硬的岩石：砂岩、页岩和石灰岩。这些叫做沉积岩。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_08" xml:space="preserve">
+    <value>埋得更深，岩石被烤得很热、挤得很紧，里面的矿物发生了变化，但并没有熔化。页岩变成板岩，再变成片岩；石灰岩变成大理岩。这些叫做变质岩。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_09" xml:space="preserve">
+    <value>再往深处，岩石又熔化成岩浆，循环就可以从头再来。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_10" xml:space="preserve">
+    <value>想一想：一块岩石，是不是一定要先熔化，才能开始新的一轮循环？</value>
+  </data>
+  <data name="Narr_Volc_Cycle_11" xml:space="preserve">
+    <value>不一定。跟着这粒沙子看看：它原本在山顶的花岗岩里，被风化下来，让河流带走，最后落在了海滩上。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_12" xml:space="preserve">
+    <value>它被埋起来，成了砂岩的一部分。后来两块板块互相挤压，把古老的海底抬升成了山。所以人们能在山顶上找到贝壳。</value>
+  </data>
+  <data name="Narr_Volc_Cycle_13" xml:space="preserve">
+    <value>现在它又被风化下来了，一次都没有熔化过。轮到你了：在左页选另一个颗粒，跟着它走一遍。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_01" xml:space="preserve">
+    <value>这是一座被切开的火山。山下几公里深的地方，有一个岩浆房，里面是熔化的岩石。更深处的岩浆正慢慢流进来，岩浆房越来越满。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_02" xml:space="preserve">
+    <value>看这个压力表。岩浆房越来越满，压力不断升高，上面的地面微微鼓起，周围的岩石也被撑裂，发生一个个小地震。科学家就是靠这些信号来预报火山喷发的。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_03" xml:space="preserve">
+    <value>现在，岩浆沿着火山通道往上挤。在深处，水被上面岩石的重量压着，溶在岩浆里。岩浆越往上，压力越小，水就变成气泡冒出来，就像拧开一瓶汽水一样。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_04" xml:space="preserve">
+    <value>这条虚线，就是气泡开始出现的地方。在它上面，岩浆升得越高，冒出的气越多，气泡也越胀越大。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_05" xml:space="preserve">
+    <value>斯特龙博利火山的岩浆是玄武岩浆，又热又稀。气泡能在里面往上跑，合成大气泡，到顶上一下炸开，把一团团发光的熔岩抛出来。几千年来，它每隔几分钟就这样喷一次。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_06" xml:space="preserve">
+    <value>稀稀的熔岩还会漫出来，顺着山坡往下流，这就是熔岩流。流动的时候它发着光，冷下来就结成黑色的硬壳，成为火山新的一层。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_07" xml:space="preserve">
+    <value>考考你：如果岩浆很黏稠，像牙膏一样，里面又有很多气，你觉得会发生什么？</value>
+  </data>
+  <data name="Narr_Volc_Eruption_08" xml:space="preserve">
+    <value>对，会爆炸！这是1991年的皮纳图博火山。它的岩浆是黏稠的英安岩浆，含水很多。气泡跑不出来，岩浆就被炸成火山灰和气体，喷成一根三十多公里高的喷发柱。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_09" xml:space="preserve">
+    <value>看火山通道里的这条线。线下面，是塞满气泡的泡沫状岩浆；线上面，泡沫已经被撕碎，变成了火山灰和气体。岩浆还没到山顶，就已经被炸碎了。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_10" xml:space="preserve">
+    <value>过了一会儿，喷发柱太重，撑不住塌了下来。滚烫的火山灰和气体沿着山坡冲下来，比汽车还快。这叫火山碎屑流，是火山最危险的东西。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_11" xml:space="preserve">
+    <value>默拉皮火山的岩浆也很黏，但里面的气体大多已经跑掉了。所以它不会大爆炸，而是慢慢挤出来，在火山口堆成一个熔岩穹丘。穹丘的一块塌下来，就会变成发光的崩塌流。</value>
+  </data>
+  <data name="Narr_Volc_Eruption_12" xml:space="preserve">
+    <value>轮到你了。这是基拉韦厄火山，岩浆很稀，气也很少。拖动滑块，或者拖动图表上的金色圆点，把它的岩浆变成会爆炸喷发的那种。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_01" xml:space="preserve">
+    <value>我们用放大镜看看岩石是怎么形成的。这是地下深处一片两厘米宽的岩浆，它冷却得非常慢，大约一千年才降一度。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_02" xml:space="preserve">
+    <value>晶体出现了，每种矿物都在自己的温度开始结晶。先是白色的长石和黑色的云母，然后是粉红色的钾长石。石英会最后出现，把剩下的空隙填满。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_03" xml:space="preserve">
+    <value>因为时间充足，只有少数晶体长得很大，大到用眼睛就能看见。这就是花岗岩。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_04" xml:space="preserve">
+    <value>如果同样的岩浆在熔岩流里很快冷却，你觉得会怎么样呢？</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_05" xml:space="preserve">
+    <value>开始结晶的晶体多了很多，但每一个都没有时间长大，小得看不见。这就是流纹岩：同样的岩浆、同样的矿物，只是时间少了。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_06" xml:space="preserve">
+    <value>这次让它在几秒钟里冷却，就像熔岩流进大海那样。根本来不及长晶体，熔体直接冻成了玻璃。这就是黑曜岩，锋利得可以做刀。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_07" xml:space="preserve">
+    <value>如果熔岩冻结的时候里面全是气体，气泡就被关在里面。这就是浮岩，它满是小孔，能浮在水面上。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_08" xml:space="preserve">
+    <value>再来看沉积岩。一条河正把浑水倒进这个水箱，里面有砾石、沙子、粉砂和黏土，全混在一起。看看哪种颗粒先沉到底。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_09" xml:space="preserve">
+    <value>砾石和沙子几秒钟就沉下去了。黏土特别细，沉一米要好几天，这里我们把时间加快了。所以每一层都是下面粗、上面细。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_10" xml:space="preserve">
+    <value>几百万年过去，更多的层把它们埋在下面。重量把水挤出去，矿物把颗粒粘在一起。沙子变成砂岩，泥变成页岩。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_11" xml:space="preserve">
+    <value>现在把页岩埋得更深。仔细看：它是由很多细小的黏土片组成的，方向乱七八糟。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_12" xml:space="preserve">
+    <value>从上面挤压，再加上受热，这些小片都转过来平躺着，和挤压的方向垂直。这就是板岩，能劈成又薄又平的石板，用来盖屋顶正好。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_13" xml:space="preserve">
+    <value>再深、再热一些，小片长成了闪亮的云母，中间还长出了红色的石榴子石。这就是片岩。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_14" xml:space="preserve">
+    <value>到了六百多度，浅色和深色的矿物各自聚成条带。这就是片麻岩。它已经完全变了样，但从来没有熔化过。</value>
+  </data>
+  <data name="Narr_Volc_Magnifier_15" xml:space="preserve">
+    <value>轮到你了。这是石灰岩，里面有很多贝壳碎片。用滑块或者拖动压板，把它推得更深，直到它变成大理岩。</value>
+  </data>
+  <data name="Narr_Volc_Obj_AshFall" xml:space="preserve">
+    <value>火山灰像灰色的雪一样从云里落下来。但它不像柴火的灰那样软，而是细小锋利的岩石和玻璃碎屑，能掩埋农田，让飞机无法起飞。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Bands" xml:space="preserve">
+    <value>在片麻岩里，浅色的石英、长石和深色的云母分开，排成一条条条带，但岩石仍然是固体。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Basalt" xml:space="preserve">
+    <value>玄武岩是熔岩在地表很快冷却形成的。它颜色深、很重、颗粒很细，大部分海底都是由它构成的。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Biotite" xml:space="preserve">
+    <value>黑云母是黑色的云母。它长成一片片薄片，可以像书页一样一层层剥开。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Bombs" xml:space="preserve">
+    <value>气体炸开时抛出来的熔岩团。有的像足球那么大，甚至更大。它们在空中飞的时候，就已经冷却变硬了。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Bubbles" xml:space="preserve">
+    <value>岩浆里溶着水，压力一降低，水就变成气泡冒出来，就像打开汽水瓶一样。岩浆升得越高，气泡就越大。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Chamber" xml:space="preserve">
+    <value>岩浆房是地下几公里深处的一大团熔化的岩石。喷发之前，岩浆先在这里聚集。喷发结束后点它，可以让它重新充满。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Clay" xml:space="preserve">
+    <value>黏土是最细的颗粒，只有几千分之一毫米。沉一米大约要三天，所以浑水要过很久才会变清。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Column" xml:space="preserve">
+    <value>喷发柱是一根快速冲上天空的热火山灰和气体柱。每秒喷出的岩浆越多，它就升得越高。大喷发可以超过三十公里。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Conduit" xml:space="preserve">
+    <value>火山通道是岩浆往上走的管道，从岩浆房一直通到火山口。岩浆一路把岩石撑裂，挤出一条路来。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Cone" xml:space="preserve">
+    <value>火山是被它自己的喷发一层层堆起来的。稀的熔岩铺开，形成宽阔平缓的盾状火山；黏稠的熔岩和火山灰堆积起来，形成陡峭的层状火山。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Crystallization" xml:space="preserve">
+    <value>岩浆冷却后变成岩浆岩。在地下慢慢冷却，形成颗粒粗大的花岗岩；在地表很快冷却，形成颗粒细小的玄武岩。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Deposition" xml:space="preserve">
+    <value>水流变慢的时候，就把带着的东西放下来：粗的先落，细的后落，一层又一层地堆积起来。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Dome" xml:space="preserve">
+    <value>失去了气体的黏稠熔岩，像挤牙膏一样慢慢挤出来，堆在火山口上。穹丘的一部分塌下来，就可能变成火山碎屑流。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Erosion" xml:space="preserve">
+    <value>河流、风、海浪和冰川把碎屑带走。河流能推着卵石滚动，带走沙和泥，还能带走溶解在水里的矿物。</value>
+  </data>
+  <data name="Narr_Volc_Obj_EruptionStep" xml:space="preserve">
+    <value>岩浆以熔岩和火山灰的形式到达地表。新的岩石在几小时到几年里就形成了，是整个循环中最快的一步。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Fossil" xml:space="preserve">
+    <value>这些是石灰岩里的贝壳碎片。当它变成大理岩时，方解石重新结晶，贝壳就消失了。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Fountain" xml:space="preserve">
+    <value>气体从稀的岩浆里冲出来，把发光的熔岩喷到空中，有时高达几百米。熔岩落下来，又汇成熔岩流。</value>
+  </data>
+  <data name="Narr_Volc_Obj_FragLevel" xml:space="preserve">
+    <value>当岩浆里大约四分之三都是气体时，黏稠的泡沫再也撑不住，就被撕碎成火山灰和气体，高速往上冲。只有能把气泡困住的黏稠岩浆，才会这样。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Garnet" xml:space="preserve">
+    <value>在大约四百五十度以上，片岩里会长出红色的石榴子石。它们的大小能告诉地质学家，这块岩石当年有多热、埋得有多深。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Gauge" xml:space="preserve">
+    <value>这个表显示岩浆房的压力比周围岩石的压力高出多少。岩浆流进来时它升高，喷发把岩浆放出去时它下降。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Glass" xml:space="preserve">
+    <value>火山玻璃是来不及结晶就冻住的熔体，原子乱糟糟地排着，就像窗玻璃一样。黑色的黑曜岩就是纯的火山玻璃。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Grain" xml:space="preserve">
+    <value>这就是你正在跟随的颗粒。虚线是它走过的路，标签告诉你它现在是什么。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Grains" xml:space="preserve">
+    <value>在砂岩和石灰岩里，热和压力让颗粒互相长在一起，直到它们之间的空隙消失，变成石英岩和大理岩。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Granite" xml:space="preserve">
+    <value>花岗岩是岩浆在地下深处慢慢冷却形成的，所以石英、长石和云母的晶体大得能看见。抬升和侵蚀把它带到了山顶。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Gravel" xml:space="preserve">
+    <value>砾石是几毫米大的小石子。它沉得最快，一米大约只要三秒半，最先落下，就落在河口附近。</value>
+  </data>
+  <data name="Narr_Volc_Obj_KFeldspar" xml:space="preserve">
+    <value>钾长石是粉红色的长石，很多花岗岩的颜色就来自它。它在斜长石和云母之后结晶。</value>
+  </data>
+  <data name="Narr_Volc_Obj_LavaFlow" xml:space="preserve">
+    <value>熔岩流就像一条熔化岩石的河。稀的玄武岩熔岩能流几十公里，黏稠的熔岩只能爬几百米。它热的时候发光，冷下来就变成黑色的岩石。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Layers" xml:space="preserve">
+    <value>每倒一次就形成一层，下面粗、上面细，地质学家叫它递变层理。他们像读历史书一样，一页页地读这些岩层。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Limestone" xml:space="preserve">
+    <value>石灰岩主要由海洋生物的贝壳和骨骼组成。略带酸性的雨水会慢慢溶解它，形成溶洞。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Lithification" xml:space="preserve">
+    <value>被埋起来的沉积层，受到上面重量的挤压，水被挤了出去，矿物在颗粒之间结晶，像胶水一样把松散的沉积物粘成岩石。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Magma" xml:space="preserve">
+    <value>岩浆是熔化的岩石，温度大约有七百到一千二百度。岩石在这里熔化，循环又重新开始。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Marble" xml:space="preserve">
+    <value>大理岩是石灰岩被高温烘烤形成的，这里就紧挨着炽热的花岗岩。它的颗粒长成了互相咬合的晶体，化石也不见了。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Melt" xml:space="preserve">
+    <value>这是还没有凝固的岩浆，炽热发光。温度越接近全部凝固的温度，它的颜色就越暗。</value>
+  </data>
+  <data name="Narr_Volc_Obj_MeltPocket" xml:space="preserve">
+    <value>在大约七百度以上，如果有一点水，岩石就开始东一点西一点地熔化。部分熔化的岩石，叫混合岩。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Melting" xml:space="preserve">
+    <value>在很深的地方，或者板块俯冲、有水渗进去的地方，岩石热到熔化。岩浆比周围的岩石轻，所以会往上升。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Metamorphism" xml:space="preserve">
+    <value>在地下深处，热和压力改变了岩石的矿物和结构，但岩石一直是固体。页岩变成板岩、片岩和片麻岩，石灰岩变成大理岩。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Mica" xml:space="preserve">
+    <value>页岩由细小扁平的黏土片组成。受到挤压和加热，它们会转到同一个方向，并长成闪亮的云母。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Olivine" xml:space="preserve">
+    <value>橄榄石是一种绿色矿物，在炽热的玄武岩浆里最先结晶。透明的橄榄石可以磨成漂亮的宝石。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Overburden" xml:space="preserve">
+    <value>这是后来堆上去的岩层，压在下面的层上。上下拖动它，就能把下面的层埋得更深或者更浅。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Plagioclase" xml:space="preserve">
+    <value>斜长石是一种白色的长石，常常带着细细的条纹。它是最早结晶的矿物之一，也是地壳里最多的矿物。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Press" xml:space="preserve">
+    <value>上面岩石的重量挤压着样品：每往下四公里，大约增加一千个大气压。拖动压板，把它推到更深的地方。</value>
+  </data>
+  <data name="Narr_Volc_Obj_PyroFlow" xml:space="preserve">
+    <value>火山碎屑流是滚烫的火山灰、岩块和气体混在一起的发光崩流，沿着山坡冲下来，比汽车还快，比烤箱还烫，是火山最致命的危险。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Pyroxene" xml:space="preserve">
+    <value>辉石是深绿到黑色的矿物，在玄武岩和辉长岩里很常见，在橄榄石之后结晶。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Quakes" xml:space="preserve">
+    <value>岩浆往里挤、往上冲，把岩石撑裂，引发一连串的小地震。这是火山可能要喷发的预警信号之一。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Quartz" xml:space="preserve">
+    <value>灰白透明的石英最后结晶，只能填满其他晶体之间剩下的空隙。它非常坚硬，海滩上的沙子大多是石英。</value>
+  </data>
+  <data name="Narr_Volc_Obj_River" xml:space="preserve">
+    <value>一条浑浊的河流进了水箱。点击它，可以再倒进一批泥沙，每一批都会形成新的一层。</value>
+  </data>
+  <data name="Narr_Volc_Obj_SandGrain" xml:space="preserve">
+    <value>沙粒大约四分之一毫米大，沉一米大约要半分钟。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Sandstone" xml:space="preserve">
+    <value>砂岩是沙粒胶结在一起形成的。上面常常还能看到当年沙子留下的层理和波痕，甚至脚印。</value>
+  </data>
+  <data name="Narr_Volc_Obj_SatLevel" xml:space="preserve">
+    <value>在这个深度以下，上面岩石的重量让水全部溶在岩浆里；在它上面，压力不够了，水就变成气泡。含水越多的岩浆，开始冒泡的地方越深。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Schist" xml:space="preserve">
+    <value>在山脉深处，页岩被挤压、加热，变成了板岩、片岩和片麻岩，里面有闪亮的云母片和矿物条带。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Sediment" xml:space="preserve">
+    <value>这是刚刚沉在海底的松散沙子、泥和贝壳。随着时间推移，上面的层会把它们埋起来，把它们变成岩石。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Shale" xml:space="preserve">
+    <value>页岩是泥被压成的岩石。它很容易裂成薄片，很多化石都是在页岩里发现的。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Silt" xml:space="preserve">
+    <value>粉砂比沙子细，像面粉一样。沉一米大约要二十分钟，所以会漂得更远。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Thermometer" xml:space="preserve">
+    <value>这是岩浆的温度。降到上面那条线，也就是液相线以下，晶体开始生长；到了下面那条线，也就是固相线，就全部凝固了。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Umbrella" xml:space="preserve">
+    <value>到了高空，喷发柱变得和周围的空气一样轻，就向四周铺开，形成巨大的伞状云，再被风吹到很远的地方。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Uplift" xml:space="preserve">
+    <value>板块碰撞时，岩石被挤弯，抬升成山。古老的海底和深处的岩石被带到地表，又开始被风化。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Vent" xml:space="preserve">
+    <value>火山口是岩浆喷出来的开口。在岩浆房还在充满的时候点它，火山就会马上喷发。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Vesicle" xml:space="preserve">
+    <value>这些孔是熔岩冻结时，被困在里面的气泡留下的。浮岩里全是这样的气孔，所以能浮在水上。</value>
+  </data>
+  <data name="Narr_Volc_Obj_Weathering" xml:space="preserve">
+    <value>地表的岩石会被雨水、冰冻、风、植物的根和空气慢慢弄碎、分解。裂缝里的水结冰时，会把裂缝撑得更大。</value>
+  </data>
   <data name="Narr_Water_Cloud_01" xml:space="preserve">
     <value>云是怎么形成的？在一块被晒热的田野上方，一团空气被地面加热，像热气球一样自己往上升。</value>
   </data>
@@ -10250,6 +10847,1392 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>讲解 {0}/{1}</value>
+  </data>
+  <data name="Quake_Boundaries_Fact1" xml:space="preserve">
+    <value>最古老的洋底只有约 1.8 亿年；更老的已经俯冲回地幔了。而大陆上保存着几十亿年的岩石。</value>
+  </data>
+  <data name="Quake_Boundaries_Fact2" xml:space="preserve">
+    <value>马里亚纳海沟的挑战者深渊深约 10900 米，是海洋最深处。</value>
+  </data>
+  <data name="Quake_Boundaries_Fact3" xml:space="preserve">
+    <value>珠穆朗玛峰顶部是海相石灰岩，是在特提斯洋海底形成的岩石。</value>
+  </data>
+  <data name="Quake_Boundaries_Fact4" xml:space="preserve">
+    <value>圣安德烈亚斯断层平均每年移动 3–4 厘米；1906 年它一下子错动了最多约 6 米。</value>
+  </data>
+  <data name="Quake_Boundaries_Fact5" xml:space="preserve">
+    <value>在冰岛，大西洋中脊露出了海面：你可以站在北美洲板块和亚欧板块之间。</value>
+  </data>
+  <data name="Quake_Boundaries_Panel_Note" xml:space="preserve">
+    <value>时间是加速的：海岭和印度经历的是几百万年，断层和板块边缘的卡住与断开经历的是几百年。</value>
+  </data>
+  <data name="Quake_Boundary_Alpine" xml:space="preserve">
+    <value>阿尔卑斯断层（新西兰）</value>
+  </data>
+  <data name="Quake_Boundary_AmericaAntarctic" xml:space="preserve">
+    <value>美洲—南极洲海岭</value>
+  </data>
+  <data name="Quake_Boundary_AzoresGibraltar" xml:space="preserve">
+    <value>亚速尔—直布罗陀</value>
+  </data>
+  <data name="Quake_Boundary_Burma" xml:space="preserve">
+    <value>缅甸—安达曼群岛</value>
+  </data>
+  <data name="Quake_Boundary_Cascadia" xml:space="preserve">
+    <value>卡斯卡迪亚俯冲带</value>
+  </data>
+  <data name="Quake_Boundary_Cayman" xml:space="preserve">
+    <value>开曼海槽</value>
+  </data>
+  <data name="Quake_Boundary_CentralAmerica" xml:space="preserve">
+    <value>中美洲海沟（中美段）</value>
+  </data>
+  <data name="Quake_Boundary_CentralIndianNorth" xml:space="preserve">
+    <value>中印度洋中脊与卡尔斯伯格海岭</value>
+  </data>
+  <data name="Quake_Boundary_CentralIndianSouth" xml:space="preserve">
+    <value>中印度洋中脊（南段）</value>
+  </data>
+  <data name="Quake_Boundary_Chaman" xml:space="preserve">
+    <value>恰曼断层</value>
+  </data>
+  <data name="Quake_Boundary_Chersky" xml:space="preserve">
+    <value>西伯利亚—鄂霍次克海</value>
+  </data>
+  <data name="Quake_Boundary_ChileRise" xml:space="preserve">
+    <value>智利海隆</value>
+  </data>
+  <data name="Quake_Boundary_DeadSea" xml:space="preserve">
+    <value>死海断层</value>
+  </data>
+  <data name="Quake_Boundary_EastAfricanRift" xml:space="preserve">
+    <value>东非大裂谷</value>
+  </data>
+  <data name="Quake_Boundary_EastAnatolian" xml:space="preserve">
+    <value>东安纳托利亚断层</value>
+  </data>
+  <data name="Quake_Boundary_EastPacificNorth" xml:space="preserve">
+    <value>东太平洋海隆（北段）</value>
+  </data>
+  <data name="Quake_Boundary_EastPacificSouth" xml:space="preserve">
+    <value>东太平洋海隆（南段）</value>
+  </data>
+  <data name="Quake_Boundary_Fiji" xml:space="preserve">
+    <value>斐济</value>
+  </data>
+  <data name="Quake_Boundary_Galapagos" xml:space="preserve">
+    <value>加拉帕戈斯裂谷</value>
+  </data>
+  <data name="Quake_Boundary_GulfOfAden" xml:space="preserve">
+    <value>亚丁湾</value>
+  </data>
+  <data name="Quake_Boundary_GulfOfCalifornia" xml:space="preserve">
+    <value>加利福尼亚湾</value>
+  </data>
+  <data name="Quake_Boundary_Hellenic" xml:space="preserve">
+    <value>希腊弧与塞浦路斯弧</value>
+  </data>
+  <data name="Quake_Boundary_Himalaya" xml:space="preserve">
+    <value>喜马拉雅山</value>
+  </data>
+  <data name="Quake_Boundary_IndiaAustralia" xml:space="preserve">
+    <value>印度—澳大利亚</value>
+  </data>
+  <data name="Quake_Boundary_IzuBoninMariana" xml:space="preserve">
+    <value>伊豆—小笠原—马里亚纳海沟</value>
+  </data>
+  <data name="Quake_Boundary_JapanKurilAleutian" xml:space="preserve">
+    <value>日本—千岛—阿留申海沟</value>
+  </data>
+  <data name="Quake_Boundary_JuanDeFuca" xml:space="preserve">
+    <value>胡安·德富卡海岭</value>
+  </data>
+  <data name="Quake_Boundary_LesserAntillesNorth" xml:space="preserve">
+    <value>小安的列斯与波多黎各</value>
+  </data>
+  <data name="Quake_Boundary_LesserAntillesSouth" xml:space="preserve">
+    <value>小安的列斯（南段）</value>
+  </data>
+  <data name="Quake_Boundary_Macquarie" xml:space="preserve">
+    <value>麦夸里海岭</value>
+  </data>
+  <data name="Quake_Boundary_Makran" xml:space="preserve">
+    <value>莫克兰</value>
+  </data>
+  <data name="Quake_Boundary_Manila" xml:space="preserve">
+    <value>马尼拉海沟</value>
+  </data>
+  <data name="Quake_Boundary_MidAtlanticCentral" xml:space="preserve">
+    <value>大西洋中脊（中段）</value>
+  </data>
+  <data name="Quake_Boundary_MidAtlanticNorth" xml:space="preserve">
+    <value>大西洋中脊（北段）</value>
+  </data>
+  <data name="Quake_Boundary_MidAtlanticSouth" xml:space="preserve">
+    <value>大西洋中脊（南段）</value>
+  </data>
+  <data name="Quake_Boundary_MiddleAmerica" xml:space="preserve">
+    <value>中美洲海沟（墨西哥段）</value>
+  </data>
+  <data name="Quake_Boundary_NankaiRyukyu" xml:space="preserve">
+    <value>南海海槽与琉球海沟</value>
+  </data>
+  <data name="Quake_Boundary_NewGuinea" xml:space="preserve">
+    <value>新几内亚</value>
+  </data>
+  <data name="Quake_Boundary_NorthAfrica" xml:space="preserve">
+    <value>北非</value>
+  </data>
+  <data name="Quake_Boundary_NorthScotia" xml:space="preserve">
+    <value>北斯科舍海岭</value>
+  </data>
+  <data name="Quake_Boundary_NorthSouthAmerica" xml:space="preserve">
+    <value>北美洲—南美洲</value>
+  </data>
+  <data name="Quake_Boundary_Owen" xml:space="preserve">
+    <value>欧文断裂带</value>
+  </data>
+  <data name="Quake_Boundary_PacificAntarctic" xml:space="preserve">
+    <value>太平洋—南极洲海岭</value>
+  </data>
+  <data name="Quake_Boundary_Panama" xml:space="preserve">
+    <value>巴拿马</value>
+  </data>
+  <data name="Quake_Boundary_PeruChile" xml:space="preserve">
+    <value>秘鲁—智利海沟（安第斯山）</value>
+  </data>
+  <data name="Quake_Boundary_Philippine" xml:space="preserve">
+    <value>菲律宾海沟</value>
+  </data>
+  <data name="Quake_Boundary_PhilippineFault" xml:space="preserve">
+    <value>菲律宾断层</value>
+  </data>
+  <data name="Quake_Boundary_Puysegur" xml:space="preserve">
+    <value>普伊斯格海沟</value>
+  </data>
+  <data name="Quake_Boundary_QueenCharlotte" xml:space="preserve">
+    <value>夏洛特皇后断层</value>
+  </data>
+  <data name="Quake_Boundary_RedSea" xml:space="preserve">
+    <value>红海</value>
+  </data>
+  <data name="Quake_Boundary_Sagami" xml:space="preserve">
+    <value>相模海槽</value>
+  </data>
+  <data name="Quake_Boundary_SanAndreas" xml:space="preserve">
+    <value>圣安德烈亚斯断层</value>
+  </data>
+  <data name="Quake_Boundary_SolomonVanuatu" xml:space="preserve">
+    <value>所罗门—瓦努阿图海沟</value>
+  </data>
+  <data name="Quake_Boundary_SouthCaribbean" xml:space="preserve">
+    <value>加勒比南缘</value>
+  </data>
+  <data name="Quake_Boundary_SouthChile" xml:space="preserve">
+    <value>智利南部</value>
+  </data>
+  <data name="Quake_Boundary_SouthSandwich" xml:space="preserve">
+    <value>南桑威奇海沟</value>
+  </data>
+  <data name="Quake_Boundary_SouthScotia" xml:space="preserve">
+    <value>南斯科舍海岭</value>
+  </data>
+  <data name="Quake_Boundary_SoutheastIndian" xml:space="preserve">
+    <value>东南印度洋中脊</value>
+  </data>
+  <data name="Quake_Boundary_SouthwestIndian" xml:space="preserve">
+    <value>西南印度洋中脊</value>
+  </data>
+  <data name="Quake_Boundary_Sunda" xml:space="preserve">
+    <value>巽他海沟（爪哇海沟）</value>
+  </data>
+  <data name="Quake_Boundary_TongaKermadec" xml:space="preserve">
+    <value>汤加—克马德克海沟</value>
+  </data>
+  <data name="Quake_Boundary_WesternRift" xml:space="preserve">
+    <value>东非大裂谷（西支）</value>
+  </data>
+  <data name="Quake_Boundary_Zagros" xml:space="preserve">
+    <value>扎格罗斯山脉</value>
+  </data>
+  <data name="Quake_Chart_Collision_Caption" xml:space="preserve">
+    <value>印度向北移动的速度</value>
+  </data>
+  <data name="Quake_Chart_Collision_Note" xml:space="preserve">
+    <value>根据洋底记录取整：穿越海洋时很快，约五千万年前撞上亚洲后变慢。</value>
+  </data>
+  <data name="Quake_Chart_Depth_Axis" xml:space="preserve">
+    <value>深度（千米）</value>
+  </data>
+  <data name="Quake_Chart_Depth_Short" xml:space="preserve">
+    <value>深度（千米）</value>
+  </data>
+  <data name="Quake_Chart_India_Axis" xml:space="preserve">
+    <value>百万年前</value>
+  </data>
+  <data name="Quake_Chart_India_Contact" xml:space="preserve">
+    <value>撞上亚洲</value>
+  </data>
+  <data name="Quake_Chart_Inside_Caption" xml:space="preserve">
+    <value>地震台记录的地震图</value>
+  </data>
+  <data name="Quake_Chart_Inside_Note" xml:space="preserve">
+    <value>各种波的到达时间来自射线追踪；波形本身是示意的。</value>
+  </data>
+  <data name="Quake_Chart_Magnitude" xml:space="preserve">
+    <value>震级</value>
+  </data>
+  <data name="Quake_Chart_Plates_Caption" xml:space="preserve">
+    <value>一年中各震级的地震次数</value>
+  </data>
+  <data name="Quake_Chart_Plates_Note" xml:space="preserve">
+    <value>震级每低一级，次数约多十倍，每次释放的能量约少 32 倍。数据为美国地质调查局估计值，已取整。</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Axis" xml:space="preserve">
+    <value>海岭</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Caption" xml:space="preserve">
+    <value>船上磁力仪测到的磁异常</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Down" xml:space="preserve">
+    <value>−</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Note" xml:space="preserve">
+    <value>最近 590 万年形成的条带按真实的地磁翻转记录绘制；更老的是为展示规律而编造的。</value>
+  </data>
+  <data name="Quake_Chart_Ridge_Up" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Quake_Chart_Seis_Axis" xml:space="preserve">
+    <value>震后分钟</value>
+  </data>
+  <data name="Quake_Chart_Seis_L" xml:space="preserve">
+    <value>面波</value>
+  </data>
+  <data name="Quake_Chart_Seis_P" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Quake_Chart_Seis_PKP" xml:space="preserve">
+    <value>PKP（微弱）</value>
+  </data>
+  <data name="Quake_Chart_Seis_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Quake_Chart_Slab_Arc" xml:space="preserve">
+    <value>火山</value>
+  </data>
+  <data name="Quake_Chart_Slab_Axis" xml:space="preserve">
+    <value>离海沟距离（千米）</value>
+  </data>
+  <data name="Quake_Chart_Speed_Axis" xml:space="preserve">
+    <value>速度（千米/秒）</value>
+  </data>
+  <data name="Quake_Chart_Speed_Short" xml:space="preserve">
+    <value>厘米/年</value>
+  </data>
+  <data name="Quake_Chart_Speed_Title" xml:space="preserve">
+    <value>地震波速度随深度变化</value>
+  </data>
+  <data name="Quake_Chart_Strain_Axis" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Quake_Chart_Strain_Breaks" xml:space="preserve">
+    <value>断开</value>
+  </data>
+  <data name="Quake_Chart_Strain_Short" xml:space="preserve">
+    <value>应变</value>
+  </data>
+  <data name="Quake_Chart_Subduction_Caption" xml:space="preserve">
+    <value>震源深度与离海沟距离</value>
+  </data>
+  <data name="Quake_Chart_Subduction_Note" xml:space="preserve">
+    <value>地震勾勒出俯冲板块：越深离海沟越远。三角形是火山弧的位置。</value>
+  </data>
+  <data name="Quake_Chart_Transform_Caption" xml:space="preserve">
+    <value>断层上积累的应变</value>
+  </data>
+  <data name="Quake_Chart_Transform_Note" xml:space="preserve">
+    <value>应变稳定积累，每次地震时骤降，形成锯齿状。真实断层没有这么规律。</value>
+  </data>
+  <data name="Quake_Chip_Alaska1964" xml:space="preserve">
+    <value>阿拉斯加 1964</value>
+  </data>
+  <data name="Quake_Chip_Bolivia1994" xml:space="preserve">
+    <value>玻利维亚 1994（深源）</value>
+  </data>
+  <data name="Quake_Chip_Chile1960" xml:space="preserve">
+    <value>智利 1960</value>
+  </data>
+  <data name="Quake_Chip_Nepal2015" xml:space="preserve">
+    <value>尼泊尔 2015</value>
+  </data>
+  <data name="Quake_Chip_SanFrancisco1906" xml:space="preserve">
+    <value>旧金山 1906</value>
+  </data>
+  <data name="Quake_Chip_Sumatra2004" xml:space="preserve">
+    <value>苏门答腊 2004</value>
+  </data>
+  <data name="Quake_Chip_Tangshan1976" xml:space="preserve">
+    <value>唐山 1976</value>
+  </data>
+  <data name="Quake_Chip_Tohoku2011" xml:space="preserve">
+    <value>日本 2011</value>
+  </data>
+  <data name="Quake_Chip_Turkey2023" xml:space="preserve">
+    <value>土耳其 2023</value>
+  </data>
+  <data name="Quake_Chip_Wenchuan2008" xml:space="preserve">
+    <value>汶川 2008</value>
+  </data>
+  <data name="Quake_ClearPicks" xml:space="preserve">
+    <value>清除选择</value>
+  </data>
+  <data name="Quake_Collision_Met_Text" xml:space="preserve">
+    <value>印度太轻沉不下去，插到青藏高原下面；地壳增厚，山脉隆起。</value>
+  </data>
+  <data name="Quake_Collision_Met_Title" xml:space="preserve">
+    <value>印度撞上了亚洲</value>
+  </data>
+  <data name="Quake_Collision_Note" xml:space="preserve">
+    <value>南北向剖面，长 2400 千米，深度和水平距离比例相同；高度放大 15 倍。已简化：很多挤压发生在剖面之外。</value>
+  </data>
+  <data name="Quake_Collision_Ocean_Text" xml:space="preserve">
+    <value>特提斯洋底俯冲到亚洲下面，亚洲边缘火山活跃，印度正快速北上。</value>
+  </data>
+  <data name="Quake_Collision_Ocean_Title" xml:space="preserve">
+    <value>印度和亚洲之间隔着大洋</value>
+  </data>
+  <data name="Quake_Collision_Subtitle" xml:space="preserve">
+    <value>碰撞：印度撞上亚洲</value>
+  </data>
+  <data name="Quake_Depth_Deep" xml:space="preserve">
+    <value>深源</value>
+  </data>
+  <data name="Quake_Depth_Mid" xml:space="preserve">
+    <value>中源</value>
+  </data>
+  <data name="Quake_Depth_Shallow" xml:space="preserve">
+    <value>浅源</value>
+  </data>
+  <data name="Quake_Dip" xml:space="preserve">
+    <value>俯冲角度</value>
+  </data>
+  <data name="Quake_Dir_E" xml:space="preserve">
+    <value>东</value>
+  </data>
+  <data name="Quake_Dir_N" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Quake_Dir_NE" xml:space="preserve">
+    <value>东北</value>
+  </data>
+  <data name="Quake_Dir_NW" xml:space="preserve">
+    <value>西北</value>
+  </data>
+  <data name="Quake_Dir_S" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Quake_Dir_SE" xml:space="preserve">
+    <value>东南</value>
+  </data>
+  <data name="Quake_Dir_SW" xml:space="preserve">
+    <value>西南</value>
+  </data>
+  <data name="Quake_Dir_W" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="Quake_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Quake_Famous_Caption" xml:space="preserve">
+    <value>著名地震</value>
+  </data>
+  <data name="Quake_Fault_Creep_Text" xml:space="preserve">
+    <value>这里断层一直在缓慢滑动，应变积累不起来，所以不会发生大地震。</value>
+  </data>
+  <data name="Quake_Fault_Creep_Title" xml:space="preserve">
+    <value>蠕滑断层</value>
+  </data>
+  <data name="Quake_Fault_Locked_Text" xml:space="preserve">
+    <value>远处两侧继续移动，断层附近的地面被拖住而弯曲。</value>
+  </data>
+  <data name="Quake_Fault_Locked_Title" xml:space="preserve">
+    <value>卡住了：地面正在弯曲</value>
+  </data>
+  <data name="Quake_Fault_Quake_Text" xml:space="preserve">
+    <value>弯曲的地面弹回原状，这就是弹性回跳。篱笆被切断、错开。</value>
+  </data>
+  <data name="Quake_Fault_Quake_Title" xml:space="preserve">
+    <value>断层滑动了！</value>
+  </data>
+  <data name="Quake_Group_African" xml:space="preserve">
+    <value>非洲板块</value>
+  </data>
+  <data name="Quake_Group_American" xml:space="preserve">
+    <value>美洲板块</value>
+  </data>
+  <data name="Quake_Group_Antarctic" xml:space="preserve">
+    <value>南极洲板块</value>
+  </data>
+  <data name="Quake_Group_Eurasian" xml:space="preserve">
+    <value>亚欧板块</value>
+  </data>
+  <data name="Quake_Group_Indian" xml:space="preserve">
+    <value>印度洋板块</value>
+  </data>
+  <data name="Quake_Group_Pacific" xml:space="preserve">
+    <value>太平洋板块</value>
+  </data>
+  <data name="Quake_HalfRate" xml:space="preserve">
+    <value>每侧移动速度</value>
+  </data>
+  <data name="Quake_Hint_Collision" xml:space="preserve">
+    <value>左右拖动可以穿越八千万年。</value>
+  </data>
+  <data name="Quake_Hint_Inside" xml:space="preserve">
+    <value>沿边缘拖动震中；点击边缘可以在那里放一个地震台。</value>
+  </data>
+  <data name="Quake_Hint_Plates" xml:space="preserve">
+    <value>点击一条边界、一块板块或一颗金星；蓝点是你所在的地方。</value>
+  </data>
+  <data name="Quake_Hint_Ridge" xml:space="preserve">
+    <value>左右拖动可以让时间倒退或前进；试试慢速和快速扩张的海岭。</value>
+  </data>
+  <data name="Quake_Hint_Subduction" xml:space="preserve">
+    <value>在右侧上下拖动可以改变俯冲角度；看锁定区慢慢积满。</value>
+  </data>
+  <data name="Quake_Hint_Transform" xml:space="preserve">
+    <value>看篱笆慢慢弯曲，然后突然断开；也试试蠕滑的断层。</value>
+  </data>
+  <data name="Quake_Inside_Done_Text" xml:space="preserve">
+    <value>各种地震波都已到达地震台，面波摇晃得最厉害。</value>
+  </data>
+  <data name="Quake_Inside_Done_Title" xml:space="preserve">
+    <value>地震波都已到达</value>
+  </data>
+  <data name="Quake_Inside_Fact1" xml:space="preserve">
+    <value>人类钻得最深的科拉超深钻孔只有 12.3 千米，不到地心距离的 0.2%。更深的地方全靠地震波来了解。</value>
+  </data>
+  <data name="Quake_Inside_Fact2" xml:space="preserve">
+    <value>1909 年莫霍洛维奇从一次克罗地亚地震中发现了地壳的底界；1914 年古登堡确定了地核的边界。</value>
+  </data>
+  <data name="Quake_Inside_Fact3" xml:space="preserve">
+    <value>1936 年，莱曼从阴影区里微弱的纵波中发现了固态内核。</value>
+  </data>
+  <data name="Quake_Inside_Fact4" xml:space="preserve">
+    <value>内核温度和太阳表面差不多，约 5000–6000 °C，却因为巨大的压力而保持固态。</value>
+  </data>
+  <data name="Quake_Inside_Fact5" xml:space="preserve">
+    <value>纵波穿过地心横越地球约需 20 分钟；一次大地震在半小时内就会被全世界的地震台记录到。</value>
+  </data>
+  <data name="Quake_Inside_Note" xml:space="preserve">
+    <value>圈层按真实比例绘制；地震波按标准地球模型追踪，每秒相当于一分钟。</value>
+  </data>
+  <data name="Quake_Inside_PArrived_Text" xml:space="preserve">
+    <value>先是一阵上下颠动，横波还在路上。</value>
+  </data>
+  <data name="Quake_Inside_PArrived_Title" xml:space="preserve">
+    <value>纵波到了</value>
+  </data>
+  <data name="Quake_Inside_PShadow_Text" xml:space="preserve">
+    <value>这个地震台在纵波阴影区：地核把纵波折射开了，只有穿过内核的微弱波能到达。</value>
+  </data>
+  <data name="Quake_Inside_Panel_Note" xml:space="preserve">
+    <value>速度接近 IASP91 模型，界面深度取课本上的整数：莫霍面 33 千米，外核 2900 千米，内核 5150 千米。</value>
+  </data>
+  <data name="Quake_Inside_SArrived_Text" xml:space="preserve">
+    <value>更强烈的左右摇晃。它和纵波的时间差能告诉我们地震有多远。</value>
+  </data>
+  <data name="Quake_Inside_SArrived_Title" xml:space="preserve">
+    <value>横波到了</value>
+  </data>
+  <data name="Quake_Inside_SShadow_Text" xml:space="preserve">
+    <value>这个地震台在横波阴影区：横波无法穿过液态外核。</value>
+  </data>
+  <data name="Quake_Inside_Shadow_Text" xml:space="preserve">
+    <value>只有微弱的地震波到达这个地震台。</value>
+  </data>
+  <data name="Quake_Inside_Shadow_Title" xml:space="preserve">
+    <value>处在阴影区</value>
+  </data>
+  <data name="Quake_Inside_Start_Text" xml:space="preserve">
+    <value>按播放让地震发生，跟着地震波穿过地球。</value>
+  </data>
+  <data name="Quake_Inside_Start_Title" xml:space="preserve">
+    <value>地震即将发生</value>
+  </data>
+  <data name="Quake_Inside_Subtitle" xml:space="preserve">
+    <value>地震波与地球内部圈层</value>
+  </data>
+  <data name="Quake_Inside_Travelling_Text" xml:space="preserve">
+    <value>地震台还没收到任何波：先到的是纵波，然后是横波，最后是面波。</value>
+  </data>
+  <data name="Quake_Inside_Travelling_Title" xml:space="preserve">
+    <value>地震波正在传播</value>
+  </data>
+  <data name="Quake_Kind_Collision" xml:space="preserve">
+    <value>消亡边界：碰撞</value>
+  </data>
+  <data name="Quake_Kind_Collision_Text" xml:space="preserve">
+    <value>两块大陆相撞，谁也沉不下去，地壳挤压成山。</value>
+  </data>
+  <data name="Quake_Kind_Diffuse" xml:space="preserve">
+    <value>宽阔变形带</value>
+  </data>
+  <data name="Quake_Kind_Diffuse_Text" xml:space="preserve">
+    <value>一大片被挤压或拉伸的地带，地震零散分布。</value>
+  </data>
+  <data name="Quake_Kind_Ridge" xml:space="preserve">
+    <value>生长边界：海岭</value>
+  </data>
+  <data name="Quake_Kind_Ridge_Text" xml:space="preserve">
+    <value>板块互相分离，岩浆从缝隙中上涌，形成新的洋底。</value>
+  </data>
+  <data name="Quake_Kind_Rift" xml:space="preserve">
+    <value>裂谷：大陆裂开</value>
+  </data>
+  <data name="Quake_Kind_Rift_Text" xml:space="preserve">
+    <value>大陆正开始裂开，还不是真正的板块边界。</value>
+  </data>
+  <data name="Quake_Kind_Transform" xml:space="preserve">
+    <value>转换断层：错开</value>
+  </data>
+  <data name="Quake_Kind_Transform_Text" xml:space="preserve">
+    <value>板块左右错开，时卡时滑，产生浅源地震。</value>
+  </data>
+  <data name="Quake_Kind_Trench" xml:space="preserve">
+    <value>消亡边界：海沟</value>
+  </data>
+  <data name="Quake_Kind_Trench_Text" xml:space="preserve">
+    <value>板块相遇，一块俯冲到另一块下面；地震可以很深，后面会有火山。</value>
+  </data>
+  <data name="Quake_Label_Age" xml:space="preserve">
+    <value>{0} 百万年前</value>
+  </data>
+  <data name="Quake_Label_Asia" xml:space="preserve">
+    <value>亚洲</value>
+  </data>
+  <data name="Quake_Label_Asthenosphere" xml:space="preserve">
+    <value>软流层</value>
+  </data>
+  <data name="Quake_Label_Benioff" xml:space="preserve">
+    <value>沿板片分布的地震</value>
+  </data>
+  <data name="Quake_Label_Clock" xml:space="preserve">
+    <value>{0} 分 {1} 秒</value>
+  </data>
+  <data name="Quake_Label_Creeping" xml:space="preserve">
+    <value>蠕滑断层</value>
+  </data>
+  <data name="Quake_Label_Crest" xml:space="preserve">
+    <value>海岭顶部</value>
+  </data>
+  <data name="Quake_Label_Crust" xml:space="preserve">
+    <value>地壳厚 {0} 千米</value>
+  </data>
+  <data name="Quake_Label_CrustShort" xml:space="preserve">
+    <value>地壳</value>
+  </data>
+  <data name="Quake_Label_CrustThin" xml:space="preserve">
+    <value>地壳（太薄看不见）</value>
+  </data>
+  <data name="Quake_Label_Fault" xml:space="preserve">
+    <value>断层</value>
+  </data>
+  <data name="Quake_Label_Gangdese" xml:space="preserve">
+    <value>冈底斯火山弧</value>
+  </data>
+  <data name="Quake_Label_Gutenberg" xml:space="preserve">
+    <value>古登堡界面 · 2900 千米</value>
+  </data>
+  <data name="Quake_Label_GutenbergShort" xml:space="preserve">
+    <value>古登堡界面 2900 千米</value>
+  </data>
+  <data name="Quake_Label_Himalaya" xml:space="preserve">
+    <value>喜马拉雅山 {0} 千米</value>
+  </data>
+  <data name="Quake_Label_HundredKm" xml:space="preserve">
+    <value>约 100 千米：脱水，地幔熔融</value>
+  </data>
+  <data name="Quake_Label_IndiaAway" xml:space="preserve">
+    <value>印度：还有 {0} 千米</value>
+  </data>
+  <data name="Quake_Label_InnerCore" xml:space="preserve">
+    <value>内核（固态）</value>
+  </data>
+  <data name="Quake_Label_IslandArc" xml:space="preserve">
+    <value>岛弧</value>
+  </data>
+  <data name="Quake_Label_Lithosphere" xml:space="preserve">
+    <value>岩石圈（板块）</value>
+  </data>
+  <data name="Quake_Label_LithosphereShort" xml:space="preserve">
+    <value>岩石圈其余部分</value>
+  </data>
+  <data name="Quake_Label_Locked" xml:space="preserve">
+    <value>锁定区 · 已积累 {0}%</value>
+  </data>
+  <data name="Quake_Label_Mantle" xml:space="preserve">
+    <value>地幔</value>
+  </data>
+  <data name="Quake_Label_Moho" xml:space="preserve">
+    <value>莫霍界面 33 千米</value>
+  </data>
+  <data name="Quake_Label_OceanPlate" xml:space="preserve">
+    <value>大洋板块</value>
+  </data>
+  <data name="Quake_Label_OldFloor" xml:space="preserve">
+    <value>更老、更深的洋底</value>
+  </data>
+  <data name="Quake_Label_OuterCore" xml:space="preserve">
+    <value>外核（液态）</value>
+  </data>
+  <data name="Quake_Label_PShadow" xml:space="preserve">
+    <value>纵波阴影区</value>
+  </data>
+  <data name="Quake_Label_PWave" xml:space="preserve">
+    <value>纵波 P</value>
+  </data>
+  <data name="Quake_Label_Quake" xml:space="preserve">
+    <value>震源</value>
+  </data>
+  <data name="Quake_Label_RiftValley" xml:space="preserve">
+    <value>中央裂谷</value>
+  </data>
+  <data name="Quake_Label_SShadow" xml:space="preserve">
+    <value>横波阴影区</value>
+  </data>
+  <data name="Quake_Label_SWave" xml:space="preserve">
+    <value>横波 S</value>
+  </data>
+  <data name="Quake_Label_Sea" xml:space="preserve">
+    <value>海水</value>
+  </data>
+  <data name="Quake_Label_SideA" xml:space="preserve">
+    <value>这一侧向上移动</value>
+  </data>
+  <data name="Quake_Label_SideB" xml:space="preserve">
+    <value>这一侧向下移动</value>
+  </data>
+  <data name="Quake_Label_Slab" xml:space="preserve">
+    <value>俯冲板片</value>
+  </data>
+  <data name="Quake_Label_SlabBreak" xml:space="preserve">
+    <value>断离的板片</value>
+  </data>
+  <data name="Quake_Label_Stored" xml:space="preserve">
+    <value>积累</value>
+  </data>
+  <data name="Quake_Label_Stripes" xml:space="preserve">
+    <value>磁条带</value>
+  </data>
+  <data name="Quake_Label_Suture" xml:space="preserve">
+    <value>缝合带</value>
+  </data>
+  <data name="Quake_Label_Tethys" xml:space="preserve">
+    <value>特提斯洋</value>
+  </data>
+  <data name="Quake_Label_Tibet" xml:space="preserve">
+    <value>青藏高原 {0} 千米</value>
+  </data>
+  <data name="Quake_Label_Trench" xml:space="preserve">
+    <value>海沟</value>
+  </data>
+  <data name="Quake_Label_UpperContinent" xml:space="preserve">
+    <value>大陆板块</value>
+  </data>
+  <data name="Quake_Label_UpperMantle" xml:space="preserve">
+    <value>上地幔</value>
+  </data>
+  <data name="Quake_Label_UpperOcean" xml:space="preserve">
+    <value>上覆大洋板块</value>
+  </data>
+  <data name="Quake_Label_VolcanicArc" xml:space="preserve">
+    <value>火山弧</value>
+  </data>
+  <data name="Quake_Label_Wedge" xml:space="preserve">
+    <value>地幔楔</value>
+  </data>
+  <data name="Quake_Label_Years" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="Quake_Label_YearsTotal" xml:space="preserve">
+    <value>第 {0} 年</value>
+  </data>
+  <data name="Quake_Lesson_Boundaries_Choice1" xml:space="preserve">
+    <value>离海岭最远的两侧</value>
+  </data>
+  <data name="Quake_Lesson_Boundaries_Choice2" xml:space="preserve">
+    <value>就在海岭上</value>
+  </data>
+  <data name="Quake_Lesson_Boundaries_Choice3" xml:space="preserve">
+    <value>只在其中一侧</value>
+  </data>
+  <data name="Quake_Lesson_Inside_Choice1" xml:space="preserve">
+    <value>外核是液态的，横波不能在液体中传播</value>
+  </data>
+  <data name="Quake_Lesson_Inside_Choice2" xml:space="preserve">
+    <value>那里温度太高</value>
+  </data>
+  <data name="Quake_Lesson_Inside_Choice3" xml:space="preserve">
+    <value>波的能量用完了</value>
+  </data>
+  <data name="Quake_Lesson_Plates_Choice1" xml:space="preserve">
+    <value>只在海沟附近，压在上面的板块一侧</value>
+  </data>
+  <data name="Quake_Lesson_Plates_Choice2" xml:space="preserve">
+    <value>沿着海岭分布</value>
+  </data>
+  <data name="Quake_Lesson_Plates_Choice3" xml:space="preserve">
+    <value>随机分布，哪里都有</value>
+  </data>
+  <data name="Quake_Magnifier_Title" xml:space="preserve">
+    <value>最上面 700 千米（真实比例）</value>
+  </data>
+  <data name="Quake_Magnitude" xml:space="preserve">
+    <value>震级</value>
+  </data>
+  <data name="Quake_Map_Caption" xml:space="preserve">
+    <value>地图显示</value>
+  </data>
+  <data name="Quake_Map_Famous_Title" xml:space="preserve">
+    <value>{1} 年{0}</value>
+  </data>
+  <data name="Quake_Map_Group_Text" xml:space="preserve">
+    <value>课本六大板块之一，科学家会把它分得更细。</value>
+  </data>
+  <data name="Quake_Map_Place_Far_Text" xml:space="preserve">
+    <value>你位于板块内部，远离边缘。板块内部也会有地震，只是少一些。</value>
+  </data>
+  <data name="Quake_Map_Place_Near_Text" xml:space="preserve">
+    <value>你离板块边界很近，大多数地震都发生在那里。</value>
+  </data>
+  <data name="Quake_Map_Place_Title" xml:space="preserve">
+    <value>{0}位于{1}</value>
+  </data>
+  <data name="Quake_Map_Plate_Text" xml:space="preserve">
+    <value>岩石圈中整体移动的一块，按箭头所示的方向移动。</value>
+  </data>
+  <data name="Quake_Mode_Boundaries" xml:space="preserve">
+    <value>板块边界</value>
+  </data>
+  <data name="Quake_Mode_Inside" xml:space="preserve">
+    <value>地球内部</value>
+  </data>
+  <data name="Quake_Mode_Plates" xml:space="preserve">
+    <value>板块</value>
+  </data>
+  <data name="Quake_Note_CollisionScale" xml:space="preserve">
+    <value>高度放大 15 倍</value>
+  </data>
+  <data name="Quake_Note_FaultScale" xml:space="preserve">
+    <value>水平错动放大 {0} 倍</value>
+  </data>
+  <data name="Quake_Note_RidgeScale" xml:space="preserve">
+    <value>上部 10 千米纵向放大</value>
+  </data>
+  <data name="Quake_Note_SlabScale" xml:space="preserve">
+    <value>地表起伏放大 {0} 倍</value>
+  </data>
+  <data name="Quake_Obj_Alaska1964" xml:space="preserve">
+    <value>阿拉斯加地震</value>
+  </data>
+  <data name="Quake_Obj_ArcVolcano" xml:space="preserve">
+    <value>火山弧</value>
+  </data>
+  <data name="Quake_Obj_Asia" xml:space="preserve">
+    <value>亚洲南缘</value>
+  </data>
+  <data name="Quake_Obj_Asthenosphere" xml:space="preserve">
+    <value>软流层</value>
+  </data>
+  <data name="Quake_Obj_Axis" xml:space="preserve">
+    <value>海岭顶部</value>
+  </data>
+  <data name="Quake_Obj_Benioff" xml:space="preserve">
+    <value>和达—贝尼奥夫带</value>
+  </data>
+  <data name="Quake_Obj_Bolivia1994" xml:space="preserve">
+    <value>玻利维亚深源地震</value>
+  </data>
+  <data name="Quake_Obj_Chile1960" xml:space="preserve">
+    <value>智利瓦尔迪维亚地震</value>
+  </data>
+  <data name="Quake_Obj_Collision" xml:space="preserve">
+    <value>碰撞带</value>
+  </data>
+  <data name="Quake_Obj_Crust" xml:space="preserve">
+    <value>地壳</value>
+  </data>
+  <data name="Quake_Obj_Depth" xml:space="preserve">
+    <value>震源深度</value>
+  </data>
+  <data name="Quake_Obj_Diffuse" xml:space="preserve">
+    <value>宽阔变形带</value>
+  </data>
+  <data name="Quake_Obj_Epicentre" xml:space="preserve">
+    <value>震中</value>
+  </data>
+  <data name="Quake_Obj_FarField" xml:space="preserve">
+    <value>远离断层处</value>
+  </data>
+  <data name="Quake_Obj_Fault" xml:space="preserve">
+    <value>断层</value>
+  </data>
+  <data name="Quake_Obj_Fence" xml:space="preserve">
+    <value>横跨断层的篱笆</value>
+  </data>
+  <data name="Quake_Obj_Field" xml:space="preserve">
+    <value>地磁场</value>
+  </data>
+  <data name="Quake_Obj_Focus" xml:space="preserve">
+    <value>震源</value>
+  </data>
+  <data name="Quake_Obj_Gangdese" xml:space="preserve">
+    <value>冈底斯火山弧</value>
+  </data>
+  <data name="Quake_Obj_Gutenberg" xml:space="preserve">
+    <value>古登堡界面</value>
+  </data>
+  <data name="Quake_Obj_Hawaii" xml:space="preserve">
+    <value>夏威夷与热点</value>
+  </data>
+  <data name="Quake_Obj_Himalaya" xml:space="preserve">
+    <value>喜马拉雅山</value>
+  </data>
+  <data name="Quake_Obj_India" xml:space="preserve">
+    <value>印度</value>
+  </data>
+  <data name="Quake_Obj_InnerCore" xml:space="preserve">
+    <value>内核</value>
+  </data>
+  <data name="Quake_Obj_Lithosphere" xml:space="preserve">
+    <value>岩石圈</value>
+  </data>
+  <data name="Quake_Obj_Locked" xml:space="preserve">
+    <value>锁定区</value>
+  </data>
+  <data name="Quake_Obj_Magma" xml:space="preserve">
+    <value>岩浆房</value>
+  </data>
+  <data name="Quake_Obj_Mantle" xml:space="preserve">
+    <value>地幔</value>
+  </data>
+  <data name="Quake_Obj_Melt" xml:space="preserve">
+    <value>地幔熔融处</value>
+  </data>
+  <data name="Quake_Obj_Moho" xml:space="preserve">
+    <value>莫霍界面</value>
+  </data>
+  <data name="Quake_Obj_Nepal2015" xml:space="preserve">
+    <value>尼泊尔廓尔喀地震</value>
+  </data>
+  <data name="Quake_Obj_OceanPlate" xml:space="preserve">
+    <value>大洋板块</value>
+  </data>
+  <data name="Quake_Obj_OldFloor" xml:space="preserve">
+    <value>较老的洋底</value>
+  </data>
+  <data name="Quake_Obj_OuterCore" xml:space="preserve">
+    <value>外核</value>
+  </data>
+  <data name="Quake_Obj_PCurve" xml:space="preserve">
+    <value>纵波速度曲线</value>
+  </data>
+  <data name="Quake_Obj_PShadow" xml:space="preserve">
+    <value>纵波阴影区</value>
+  </data>
+  <data name="Quake_Obj_PWave" xml:space="preserve">
+    <value>纵波（P 波）</value>
+  </data>
+  <data name="Quake_Obj_Place" xml:space="preserve">
+    <value>你所在的地方</value>
+  </data>
+  <data name="Quake_Obj_Plate" xml:space="preserve">
+    <value>板块</value>
+  </data>
+  <data name="Quake_Obj_Ridge" xml:space="preserve">
+    <value>海岭（大洋中脊）</value>
+  </data>
+  <data name="Quake_Obj_Rift" xml:space="preserve">
+    <value>裂谷</value>
+  </data>
+  <data name="Quake_Obj_SCurve" xml:space="preserve">
+    <value>横波速度曲线</value>
+  </data>
+  <data name="Quake_Obj_SShadow" xml:space="preserve">
+    <value>横波阴影区</value>
+  </data>
+  <data name="Quake_Obj_SWave" xml:space="preserve">
+    <value>横波（S 波）</value>
+  </data>
+  <data name="Quake_Obj_SanFrancisco1906" xml:space="preserve">
+    <value>旧金山地震</value>
+  </data>
+  <data name="Quake_Obj_Slab" xml:space="preserve">
+    <value>俯冲板片</value>
+  </data>
+  <data name="Quake_Obj_SlabBreak" xml:space="preserve">
+    <value>断离的板片</value>
+  </data>
+  <data name="Quake_Obj_Smoker" xml:space="preserve">
+    <value>黑烟囱</value>
+  </data>
+  <data name="Quake_Obj_Station" xml:space="preserve">
+    <value>地震台</value>
+  </data>
+  <data name="Quake_Obj_Stress" xml:space="preserve">
+    <value>积累的应变</value>
+  </data>
+  <data name="Quake_Obj_Stripes" xml:space="preserve">
+    <value>磁条带</value>
+  </data>
+  <data name="Quake_Obj_Sumatra2004" xml:space="preserve">
+    <value>苏门答腊—印度洋地震</value>
+  </data>
+  <data name="Quake_Obj_SurfaceWave" xml:space="preserve">
+    <value>面波</value>
+  </data>
+  <data name="Quake_Obj_Suture" xml:space="preserve">
+    <value>缝合带</value>
+  </data>
+  <data name="Quake_Obj_Tangshan1976" xml:space="preserve">
+    <value>河北唐山地震</value>
+  </data>
+  <data name="Quake_Obj_Tethys" xml:space="preserve">
+    <value>特提斯洋</value>
+  </data>
+  <data name="Quake_Obj_Tibet" xml:space="preserve">
+    <value>青藏高原</value>
+  </data>
+  <data name="Quake_Obj_Tohoku2011" xml:space="preserve">
+    <value>日本东北地震</value>
+  </data>
+  <data name="Quake_Obj_Transform" xml:space="preserve">
+    <value>转换断层</value>
+  </data>
+  <data name="Quake_Obj_Trench" xml:space="preserve">
+    <value>海沟</value>
+  </data>
+  <data name="Quake_Obj_Tsunami" xml:space="preserve">
+    <value>海啸</value>
+  </data>
+  <data name="Quake_Obj_Turkey2023" xml:space="preserve">
+    <value>土耳其—叙利亚地震</value>
+  </data>
+  <data name="Quake_Obj_UpperPlate" xml:space="preserve">
+    <value>上覆板块</value>
+  </data>
+  <data name="Quake_Obj_Wedge" xml:space="preserve">
+    <value>地幔楔</value>
+  </data>
+  <data name="Quake_Obj_Wenchuan2008" xml:space="preserve">
+    <value>四川汶川地震</value>
+  </data>
+  <data name="Quake_Option_Arrows" xml:space="preserve">
+    <value>板块运动</value>
+  </data>
+  <data name="Quake_Option_Creep" xml:space="preserve">
+    <value>蠕滑断层</value>
+  </data>
+  <data name="Quake_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Quake_Option_OverOcean" xml:space="preserve">
+    <value>上面是大洋（岛弧）</value>
+  </data>
+  <data name="Quake_Option_Quakes" xml:space="preserve">
+    <value>地震</value>
+  </data>
+  <data name="Quake_Option_Rays" xml:space="preserve">
+    <value>射线路径</value>
+  </data>
+  <data name="Quake_Option_SixPlates" xml:space="preserve">
+    <value>六大板块（课本）</value>
+  </data>
+  <data name="Quake_Option_Volcanoes" xml:space="preserve">
+    <value>火山</value>
+  </data>
+  <data name="Quake_Plate_AF" xml:space="preserve">
+    <value>非洲板块</value>
+  </data>
+  <data name="Quake_Plate_AN" xml:space="preserve">
+    <value>南极洲板块</value>
+  </data>
+  <data name="Quake_Plate_AR" xml:space="preserve">
+    <value>阿拉伯板块</value>
+  </data>
+  <data name="Quake_Plate_AU" xml:space="preserve">
+    <value>澳大利亚板块</value>
+  </data>
+  <data name="Quake_Plate_CA" xml:space="preserve">
+    <value>加勒比板块</value>
+  </data>
+  <data name="Quake_Plate_CO" xml:space="preserve">
+    <value>科科斯板块</value>
+  </data>
+  <data name="Quake_Plate_EU" xml:space="preserve">
+    <value>亚欧板块</value>
+  </data>
+  <data name="Quake_Plate_IN" xml:space="preserve">
+    <value>印度板块</value>
+  </data>
+  <data name="Quake_Plate_JF" xml:space="preserve">
+    <value>胡安·德富卡板块</value>
+  </data>
+  <data name="Quake_Plate_NA" xml:space="preserve">
+    <value>北美洲板块</value>
+  </data>
+  <data name="Quake_Plate_NZ" xml:space="preserve">
+    <value>纳斯卡板块</value>
+  </data>
+  <data name="Quake_Plate_PA" xml:space="preserve">
+    <value>太平洋板块</value>
+  </data>
+  <data name="Quake_Plate_PH" xml:space="preserve">
+    <value>菲律宾海板块</value>
+  </data>
+  <data name="Quake_Plate_SA" xml:space="preserve">
+    <value>南美洲板块</value>
+  </data>
+  <data name="Quake_Plate_SC" xml:space="preserve">
+    <value>斯科舍板块</value>
+  </data>
+  <data name="Quake_Plates_Fact1" xml:space="preserve">
+    <value>板块移动的速度和指甲生长差不多，每年 2–10 厘米，一百万年就是 20–100 千米。</value>
+  </data>
+  <data name="Quake_Plates_Fact2" xml:space="preserve">
+    <value>大约 80% 的最大地震发生在太平洋周围的环太平洋火山地震带上。</value>
+  </data>
+  <data name="Quake_Plates_Fact3" xml:space="preserve">
+    <value>震级每增加一级，能量约增加 32 倍：一次 8 级地震释放的能量约是 6 级的 1000 倍。</value>
+  </data>
+  <data name="Quake_Plates_Fact4" xml:space="preserve">
+    <value>1960 年智利瓦尔迪维亚地震，9.5 级，是有记录以来最大的地震。</value>
+  </data>
+  <data name="Quake_Plates_Fact5" xml:space="preserve">
+    <value>中国东面受太平洋板块和菲律宾海板块挤压，西南受印度板块推挤，所以远离板块边界的地方也常有地震。</value>
+  </data>
+  <data name="Quake_Plates_Note" xml:space="preserve">
+    <value>板块边界经过简化；地震点是模型生成的典型一年中 4.5 级以上的地震，并非真实目录。</value>
+  </data>
+  <data name="Quake_Plates_Panel_Note" xml:space="preserve">
+    <value>板块运动采用 NNR-NUVEL-1A 模型的旋转参数（已取整）；六大板块按中国地理课本划分。</value>
+  </data>
+  <data name="Quake_Plates_Subtitle" xml:space="preserve">
+    <value>板块，以及地震发生在哪里</value>
+  </data>
+  <data name="Quake_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格键）</value>
+  </data>
+  <data name="Quake_QuakeNow" xml:space="preserve">
+    <value>立即地震</value>
+  </data>
+  <data name="Quake_QuakeNow_Tooltip" xml:space="preserve">
+    <value>让卡住的断层或板块边缘现在就断开</value>
+  </data>
+  <data name="Quake_Rate_Atlantic" xml:space="preserve">
+    <value>慢，像大西洋</value>
+  </data>
+  <data name="Quake_Rate_Pacific" xml:space="preserve">
+    <value>快，像东太平洋</value>
+  </data>
+  <data name="Quake_Restart" xml:space="preserve">
+    <value>重来</value>
+  </data>
+  <data name="Quake_RestartSection" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Quake_Restart_Tooltip" xml:space="preserve">
+    <value>从头再发生一次地震</value>
+  </data>
+  <data name="Quake_Ridge_Fast_Text" xml:space="preserve">
+    <value>快速扩张的海岭：顶部是平缓的隆起，磁条带较宽。</value>
+  </data>
+  <data name="Quake_Ridge_Normal_Title" xml:space="preserve">
+    <value>磁场方向与今天相同</value>
+  </data>
+  <data name="Quake_Ridge_Note" xml:space="preserve">
+    <value>横切海岭的剖面，两侧各 400 千米。上面 10 千米画得比下面更高。</value>
+  </data>
+  <data name="Quake_Ridge_Reversed_Title" xml:space="preserve">
+    <value>磁场处于反转期</value>
+  </data>
+  <data name="Quake_Ridge_Slow_Text" xml:space="preserve">
+    <value>慢速扩张的海岭：顶部有中央裂谷，磁条带较窄。</value>
+  </data>
+  <data name="Quake_Ridge_Subtitle" xml:space="preserve">
+    <value>海岭：海底在扩张</value>
+  </data>
+  <data name="Quake_Section_Caption" xml:space="preserve">
+    <value>哪种边界</value>
+  </data>
+  <data name="Quake_Section_Collision" xml:space="preserve">
+    <value>碰撞</value>
+  </data>
+  <data name="Quake_Section_Ridge" xml:space="preserve">
+    <value>海岭</value>
+  </data>
+  <data name="Quake_Section_Subduction" xml:space="preserve">
+    <value>俯冲</value>
+  </data>
+  <data name="Quake_Section_Transform" xml:space="preserve">
+    <value>转换断层</value>
+  </data>
+  <data name="Quake_Slab_Locked_Text" xml:space="preserve">
+    <value>俯冲板块把上覆板块的边缘往下拖，每年都积累得更多。</value>
+  </data>
+  <data name="Quake_Slab_Locked_Title" xml:space="preserve">
+    <value>卡住了：应变正在积累</value>
+  </data>
+  <data name="Quake_Slab_Quake_Text" xml:space="preserve">
+    <value>板块边缘猛地弹回，顶起海底和上面的海水，引发海啸。</value>
+  </data>
+  <data name="Quake_Slab_Quake_Title" xml:space="preserve">
+    <value>巨型逆冲地震！</value>
+  </data>
+  <data name="Quake_Stat_ArcFrom" xml:space="preserve">
+    <value>火山离海沟</value>
+  </data>
+  <data name="Quake_Stat_Boundary" xml:space="preserve">
+    <value>边界类型</value>
+  </data>
+  <data name="Quake_Stat_Closing" xml:space="preserve">
+    <value>相向靠近</value>
+  </data>
+  <data name="Quake_Stat_Crust" xml:space="preserve">
+    <value>青藏高原下地壳</value>
+  </data>
+  <data name="Quake_Stat_Depth" xml:space="preserve">
+    <value>震源深度</value>
+  </data>
+  <data name="Quake_Stat_Dip" xml:space="preserve">
+    <value>俯冲角度</value>
+  </data>
+  <data name="Quake_Stat_EdgeAge" xml:space="preserve">
+    <value>400 千米外洋底年龄</value>
+  </data>
+  <data name="Quake_Stat_EdgeDepth" xml:space="preserve">
+    <value>那里的海深</value>
+  </data>
+  <data name="Quake_Stat_Energy" xml:space="preserve">
+    <value>能量</value>
+  </data>
+  <data name="Quake_Stat_Faint" xml:space="preserve">
+    <value>微弱的地核波</value>
+  </data>
+  <data name="Quake_Stat_Field" xml:space="preserve">
+    <value>地磁场</value>
+  </data>
+  <data name="Quake_Stat_FromYou" xml:space="preserve">
+    <value>离你</value>
+  </data>
+  <data name="Quake_Stat_Himalaya" xml:space="preserve">
+    <value>喜马拉雅山</value>
+  </data>
+  <data name="Quake_Stat_InLifetime" xml:space="preserve">
+    <value>80 年后变宽</value>
+  </data>
+  <data name="Quake_Stat_InTenYears" xml:space="preserve">
+    <value>十年后移动</value>
+  </data>
+  <data name="Quake_Stat_IndiaSpeed" xml:space="preserve">
+    <value>印度移动速度</value>
+  </data>
+  <data name="Quake_Stat_Kind" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Quake_Stat_LastQuake" xml:space="preserve">
+    <value>上次地震</value>
+  </data>
+  <data name="Quake_Stat_Magnitude" xml:space="preserve">
+    <value>震级</value>
+  </data>
+  <data name="Quake_Stat_Nearest" xml:space="preserve">
+    <value>最近的边界</value>
+  </data>
+  <data name="Quake_Stat_NearestKm" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="Quake_Stat_OceanLeft" xml:space="preserve">
+    <value>剩余海洋宽度</value>
+  </data>
+  <data name="Quake_Stat_Offset" xml:space="preserve">
+    <value>累计错开</value>
+  </data>
+  <data name="Quake_Stat_Opening" xml:space="preserve">
+    <value>互相分离</value>
+  </data>
+  <data name="Quake_Stat_PArrives" xml:space="preserve">
+    <value>纵波到达</value>
+  </data>
+  <data name="Quake_Stat_Parts" xml:space="preserve">
+    <value>包括</value>
+  </data>
+  <data name="Quake_Stat_Place" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="Quake_Stat_Plates" xml:space="preserve">
+    <value>两侧板块</value>
+  </data>
+  <data name="Quake_Stat_Pushed" xml:space="preserve">
+    <value>碰撞后推进</value>
+  </data>
+  <data name="Quake_Stat_Quakes" xml:space="preserve">
+    <value>已发生地震</value>
+  </data>
+  <data name="Quake_Stat_Rate" xml:space="preserve">
+    <value>板块错动速度</value>
+  </data>
+  <data name="Quake_Stat_Readiness" xml:space="preserve">
+    <value>积累程度</value>
+  </data>
+  <data name="Quake_Stat_SArrives" xml:space="preserve">
+    <value>横波到达</value>
+  </data>
+  <data name="Quake_Stat_SMinusP" xml:space="preserve">
+    <value>横纵波时差</value>
+  </data>
+  <data name="Quake_Stat_Share" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="Quake_Stat_Since" xml:space="preserve">
+    <value>距上次地震</value>
+  </data>
+  <data name="Quake_Stat_SinceQuake" xml:space="preserve">
+    <value>震后时间</value>
+  </data>
+  <data name="Quake_Stat_Sinks" xml:space="preserve">
+    <value>下沉的板块</value>
+  </data>
+  <data name="Quake_Stat_Sliding" xml:space="preserve">
+    <value>左右错动</value>
+  </data>
+  <data name="Quake_Stat_Speed" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="Quake_Stat_SpeedHere" xml:space="preserve">
+    <value>带着你移动</value>
+  </data>
+  <data name="Quake_Stat_Spreading" xml:space="preserve">
+    <value>总扩张速度</value>
+  </data>
+  <data name="Quake_Stat_Station" xml:space="preserve">
+    <value>地震台</value>
+  </data>
+  <data name="Quake_Stat_Stored" xml:space="preserve">
+    <value>积累的错动量</value>
+  </data>
+  <data name="Quake_Stat_SurfaceArrives" xml:space="preserve">
+    <value>面波到达</value>
+  </data>
+  <data name="Quake_Stat_Tibet" xml:space="preserve">
+    <value>青藏高原</value>
+  </data>
+  <data name="Quake_Stat_When" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Quake_Stat_Years" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Quake_Stat_YourPlate" xml:space="preserve">
+    <value>所在板块</value>
+  </data>
+  <data name="Quake_StationDistance" xml:space="preserve">
+    <value>离震中的角距离</value>
+  </data>
+  <data name="Quake_Station_Caption" xml:space="preserve">
+    <value>地震台</value>
+  </data>
+  <data name="Quake_Subduction_Note" xml:space="preserve">
+    <value>剖面宽 1200 千米、深 700 千米，除地表起伏外按真实比例绘制。</value>
+  </data>
+  <data name="Quake_Subduction_Subtitle" xml:space="preserve">
+    <value>俯冲：一块板块插到另一块下面</value>
+  </data>
+  <data name="Quake_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Quake_Title" xml:space="preserve">
+    <value>地震与板块</value>
+  </data>
+  <data name="Quake_ToYou_Caption" xml:space="preserve">
+    <value>从著名地震到你这里</value>
+  </data>
+  <data name="Quake_Transform_Note" xml:space="preserve">
+    <value>从上往下看，横跨断层 120 千米。沿断层的移动放大约一千倍绘制。</value>
+  </data>
+  <data name="Quake_Transform_Subtitle" xml:space="preserve">
+    <value>转换断层：板块左右错开</value>
+  </data>
+  <data name="Quake_Value_Cm" xml:space="preserve">
+    <value>{0} 厘米</value>
+  </data>
+  <data name="Quake_Value_CmYear" xml:space="preserve">
+    <value>每年 {0} 厘米</value>
+  </data>
+  <data name="Quake_Value_CmYearToward" xml:space="preserve">
+    <value>每年 {0} 厘米，向{1}</value>
+  </data>
+  <data name="Quake_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Quake_Value_DegreesKm" xml:space="preserve">
+    <value>{0}°（约 {1} 千米）</value>
+  </data>
+  <data name="Quake_Value_FieldNormal" xml:space="preserve">
+    <value>与今天相同</value>
+  </data>
+  <data name="Quake_Value_FieldReversed" xml:space="preserve">
+    <value>反转</value>
+  </data>
+  <data name="Quake_Value_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Quake_Value_KmDeep" xml:space="preserve">
+    <value>深 {0} 千米</value>
+  </data>
+  <data name="Quake_Value_KmHigh" xml:space="preserve">
+    <value>高 {0} 千米</value>
+  </data>
+  <data name="Quake_Value_ListSeparator" xml:space="preserve">
+    <value>、</value>
+  </data>
+  <data name="Quake_Value_M" xml:space="preserve">
+    <value>{0} 米</value>
+  </data>
+  <data name="Quake_Value_Ma" xml:space="preserve">
+    <value>{0}百万年</value>
+  </data>
+  <data name="Quake_Value_MaAgo" xml:space="preserve">
+    <value>{0} 百万年前</value>
+  </data>
+  <data name="Quake_Value_Megatons" xml:space="preserve">
+    <value>约 {0} 百万吨 TNT</value>
+  </data>
+  <data name="Quake_Value_MinSec" xml:space="preserve">
+    <value>{0} 分 {1} 秒</value>
+  </data>
+  <data name="Quake_Value_NoneShadow" xml:space="preserve">
+    <value>收不到（阴影区）</value>
+  </data>
+  <data name="Quake_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Quake_Value_PercentMap" xml:space="preserve">
+    <value>约占地表 {0}%</value>
+  </data>
+  <data name="Quake_Value_SlipMagnitude" xml:space="preserve">
+    <value>错动 {0} 米，约 {1} 级</value>
+  </data>
+  <data name="Quake_Value_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Quake_Value_TwoPlates" xml:space="preserve">
+    <value>{0}与{1}</value>
+  </data>
+  <data name="Quake_Value_Years" xml:space="preserve">
+    <value>{0} 年</value>
   </data>
   <data name="Rain_Angle" xml:space="preserve">
     <value>入射角（与法线的夹角）</value>
@@ -15398,6 +17381,1272 @@
   </data>
   <data name="Update_WhatsNew" xml:space="preserve">
     <value>更新内容</value>
+  </data>
+  <data name="Volc_Burial" xml:space="preserve">
+    <value>埋藏深度</value>
+  </data>
+  <data name="Volc_Chart_Bowen" xml:space="preserve">
+    <value>上面温度高；到虚线全部凝固</value>
+  </data>
+  <data name="Volc_Chart_Cool" xml:space="preserve">
+    <value>冷却结晶</value>
+  </data>
+  <data name="Volc_Chart_Cooling_Caption" xml:space="preserve">
+    <value>鲍文反应序列：矿物结晶的先后</value>
+  </data>
+  <data name="Volc_Chart_Cooling_Note" xml:space="preserve">
+    <value>每根柱子从该矿物开始结晶的温度画起；白线是现在的温度。</value>
+  </data>
+  <data name="Volc_Chart_Cycle_Caption" xml:space="preserve">
+    <value>岩石循环示意</value>
+  </data>
+  <data name="Volc_Chart_Cycle_Note" xml:space="preserve">
+    <value>箭头表示各个过程；虚线是捷径：岩石被抬升后又被风化，并没有熔化。正在跟随的颗粒所在的步骤会亮起。</value>
+  </data>
+  <data name="Volc_Chart_Day" xml:space="preserve">
+    <value>1天</value>
+  </data>
+  <data name="Volc_Chart_DepthAxis" xml:space="preserve">
+    <value>°C（左侧：深度，公里）</value>
+  </data>
+  <data name="Volc_Chart_Eruption_Caption" xml:space="preserve">
+    <value>黏度和含气量决定喷发方式</value>
+  </data>
+  <data name="Volc_Chart_Eruption_Note" xml:space="preserve">
+    <value>拖动金色圆点：越往右越黏，越往上含水越多。白点是真实的火山。</value>
+  </data>
+  <data name="Volc_Chart_Harden" xml:space="preserve">
+    <value>沉积、成岩</value>
+  </data>
+  <data name="Volc_Chart_Heat" xml:space="preserve">
+    <value>受热受压</value>
+  </data>
+  <data name="Volc_Chart_Hour" xml:space="preserve">
+    <value>1小时</value>
+  </data>
+  <data name="Volc_Chart_Melt" xml:space="preserve">
+    <value>熔融</value>
+  </data>
+  <data name="Volc_Chart_Minute" xml:space="preserve">
+    <value>1分钟</value>
+  </data>
+  <data name="Volc_Chart_Second" xml:space="preserve">
+    <value>1秒</value>
+  </data>
+  <data name="Volc_Chart_Settling_Caption" xml:space="preserve">
+    <value>在静水中下沉一米需要的时间</value>
+  </data>
+  <data name="Volc_Chart_Settling_Note" xml:space="preserve">
+    <value>真实时间，用十的幂次作刻度：黏土比砾石慢将近十万倍。</value>
+  </data>
+  <data name="Volc_Chart_Squeezing_Caption" xml:space="preserve">
+    <value>温度与深度</value>
+  </data>
+  <data name="Volc_Chart_Squeezing_Note" xml:space="preserve">
+    <value>虚线：通常每往下一公里升高25 °C。拖动金色圆点可以改变深度。</value>
+  </data>
+  <data name="Volc_Chart_Uplift" xml:space="preserve">
+    <value>抬升</value>
+  </data>
+  <data name="Volc_Chart_Viscosity" xml:space="preserve">
+    <value>黏度（帕·秒）</value>
+  </data>
+  <data name="Volc_Chart_Water" xml:space="preserve">
+    <value>含水量 %</value>
+  </data>
+  <data name="Volc_Chart_Weather" xml:space="preserve">
+    <value>风化、侵蚀</value>
+  </data>
+  <data name="Volc_CoolAgain" xml:space="preserve">
+    <value>重新熔化冷却</value>
+  </data>
+  <data name="Volc_CoolRate" xml:space="preserve">
+    <value>冷却速度</value>
+  </data>
+  <data name="Volc_Cooling_Becoming" xml:space="preserve">
+    <value>正在变成{0}…</value>
+  </data>
+  <data name="Volc_Cooling_Note" xml:space="preserve">
+    <value>一片20毫米宽的切片，就像在显微镜下看；冷却过程被加快到几秒钟。</value>
+  </data>
+  <data name="Volc_Cooling_Panel_Note" xml:space="preserve">
+    <value>在地下深处慢慢冷却，晶体大；在地表快速冷却，晶体小，甚至变成玻璃。“先慢后快”会得到细小基质中夹着大晶体的斑岩。</value>
+  </data>
+  <data name="Volc_Cooling_Subtitle" xml:space="preserve">
+    <value>岩浆冷却结晶</value>
+  </data>
+  <data name="Volc_CycleStat_Igneous" xml:space="preserve">
+    <value>由岩浆冷却而成：花岗岩、玄武岩</value>
+  </data>
+  <data name="Volc_CycleStat_Metamorphic" xml:space="preserve">
+    <value>受热受压改变：大理岩、片岩</value>
+  </data>
+  <data name="Volc_CycleStat_Sedimentary" xml:space="preserve">
+    <value>由碎屑层形成：砂岩、页岩、石灰岩</value>
+  </data>
+  <data name="Volc_Cycle_Fact1" xml:space="preserve">
+    <value>珠穆朗玛峰的峰顶是石灰岩，大约4.5亿年前形成于海底。</value>
+  </data>
+  <data name="Volc_Cycle_Fact2" xml:space="preserve">
+    <value>已知最古老的地球物质，是澳大利亚发现的微小锆石晶体，大约有44亿年。</value>
+  </data>
+  <data name="Volc_Cycle_Fact3" xml:space="preserve">
+    <value>全世界的河流每年把大约200亿吨泥沙送进大海。</value>
+  </data>
+  <data name="Volc_Cycle_Fact4" xml:space="preserve">
+    <value>沿岩石循环走完一圈可能要几亿年，很多岩石一圈也走不完。</value>
+  </data>
+  <data name="Volc_Cycle_Fact5" xml:space="preserve">
+    <value>米开朗琪罗的《大卫》是用卡拉拉大理石雕成的：它原本是古海洋里的石灰岩，在阿尔卑斯山隆起时被烤成了大理岩。</value>
+  </data>
+  <data name="Volc_Cycle_Note" xml:space="preserve">
+    <value>示意图，不按比例：走完一圈要几千万到几亿年。</value>
+  </data>
+  <data name="Volc_Cycle_Panel_Note" xml:space="preserve">
+    <value>点击图中的过程或岩石，听听它的介绍。</value>
+  </data>
+  <data name="Volc_Cycle_Subtitle" xml:space="preserve">
+    <value>岩石的循环</value>
+  </data>
+  <data name="Volc_Cycle_Text" xml:space="preserve">
+    <value>岩浆岩被风化成沉积物，沉积物变硬成为沉积岩，热和压力把它变成变质岩，变质岩熔化成岩浆，岩浆冷却又成为岩浆岩。岩石也可以跳过某些步骤。</value>
+  </data>
+  <data name="Volc_Cycle_Title" xml:space="preserve">
+    <value>岩石在不停地变化</value>
+  </data>
+  <data name="Volc_Depth" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="Volc_Duration_Days" xml:space="preserve">
+    <value>约 {0} 天</value>
+  </data>
+  <data name="Volc_Duration_Hours" xml:space="preserve">
+    <value>约 {0} 小时</value>
+  </data>
+  <data name="Volc_Duration_Minutes" xml:space="preserve">
+    <value>约 {0} 分钟</value>
+  </data>
+  <data name="Volc_EmptyTank" xml:space="preserve">
+    <value>清空水箱</value>
+  </data>
+  <data name="Volc_EruptNow" xml:space="preserve">
+    <value>马上喷发</value>
+  </data>
+  <data name="Volc_Eruption_Fact1" xml:space="preserve">
+    <value>陆地上大约有1350座火山可能再次喷发，每年通常有50到70座在喷发。</value>
+  </data>
+  <data name="Volc_Eruption_Fact2" xml:space="preserve">
+    <value>岩浆里的气体大部分是水蒸气，其次是二氧化碳和二氧化硫。</value>
+  </data>
+  <data name="Volc_Eruption_Fact3" xml:space="preserve">
+    <value>1991年皮纳图博火山喷发，把大量含硫气体送上高空，让全世界降温约半度，持续了两年。</value>
+  </data>
+  <data name="Volc_Eruption_Fact4" xml:space="preserve">
+    <value>长白山在公元946年的喷发是近两千年来最大的喷发之一，火山灰一直飘落到日本。它的破火山口里，如今是天池。</value>
+  </data>
+  <data name="Volc_Eruption_Fact5" xml:space="preserve">
+    <value>黑龙江五大连池火山在1719到1721年喷发，熔岩堵塞河道，形成了五个相连的湖泊，因此得名。</value>
+  </data>
+  <data name="Volc_Eruption_Note" xml:space="preserve">
+    <value>地下的深度和地上的高度用的是不同的比例（见右侧标尺）。</value>
+  </data>
+  <data name="Volc_Eruption_Panel_Note" xml:space="preserve">
+    <value>二氧化硅越多，岩浆越黏（温度也越低）；水越多，气体越多。稀的岩浆能把气体温和地放掉，黏的岩浆把气体困住，气体足够多时就会爆炸。</value>
+  </data>
+  <data name="Volc_Eruption_Subtitle" xml:space="preserve">
+    <value>火山是怎样喷发的</value>
+  </data>
+  <data name="Volc_Facts" xml:space="preserve">
+    <value>你知道吗？</value>
+  </data>
+  <data name="Volc_Family_Igneous" xml:space="preserve">
+    <value>岩浆岩</value>
+  </data>
+  <data name="Volc_Family_Magma" xml:space="preserve">
+    <value>岩浆</value>
+  </data>
+  <data name="Volc_Family_Metamorphic" xml:space="preserve">
+    <value>变质岩</value>
+  </data>
+  <data name="Volc_Family_Sediment" xml:space="preserve">
+    <value>沉积物</value>
+  </data>
+  <data name="Volc_Family_Sedimentary" xml:space="preserve">
+    <value>沉积岩</value>
+  </data>
+  <data name="Volc_Follow_Caption" xml:space="preserve">
+    <value>跟随一个颗粒</value>
+  </data>
+  <data name="Volc_Grain_Clay" xml:space="preserve">
+    <value>黏土</value>
+  </data>
+  <data name="Volc_Grain_Gravel" xml:space="preserve">
+    <value>砾石</value>
+  </data>
+  <data name="Volc_Grain_Sand" xml:space="preserve">
+    <value>沙</value>
+  </data>
+  <data name="Volc_Grain_Silt" xml:space="preserve">
+    <value>粉砂</value>
+  </data>
+  <data name="Volc_Hint_Cooling" xml:space="preserve">
+    <value>点击晶体看看它是什么矿物；左右拖动可以让冷却前进或倒退。</value>
+  </data>
+  <data name="Volc_Hint_Cycle" xml:space="preserve">
+    <value>在左页选择一个颗粒来跟随；左右拖动可以让它前进或后退。</value>
+  </data>
+  <data name="Volc_Hint_Eruption" xml:space="preserve">
+    <value>左右拖动可以让喷发前进或倒退；点击火山口可以马上喷发。</value>
+  </data>
+  <data name="Volc_Hint_Settling" xml:space="preserve">
+    <value>点击河流倒入泥沙；拖动上面的岩层，把沉积层埋得更深。</value>
+  </data>
+  <data name="Volc_Hint_Squeezing" xml:space="preserve">
+    <value>上下拖动样品或压板，把它埋得更深或更浅。</value>
+  </data>
+  <data name="Volc_Journey_Magma" xml:space="preserve">
+    <value>一滴岩浆</value>
+  </data>
+  <data name="Volc_Journey_Mud" xml:space="preserve">
+    <value>一点泥</value>
+  </data>
+  <data name="Volc_Journey_Sand" xml:space="preserve">
+    <value>一粒沙</value>
+  </data>
+  <data name="Volc_Journey_Shell" xml:space="preserve">
+    <value>一枚贝壳</value>
+  </data>
+  <data name="Volc_Label_Buried" xml:space="preserve">
+    <value>埋深 {0} 公里</value>
+  </data>
+  <data name="Volc_Label_Caldera" xml:space="preserve">
+    <value>破火山口</value>
+  </data>
+  <data name="Volc_Label_Column" xml:space="preserve">
+    <value>喷发柱 · {0} 公里</value>
+  </data>
+  <data name="Volc_Label_DepthNow" xml:space="preserve">
+    <value>{0} 公里 · {1} °C · {2} 千巴</value>
+  </data>
+  <data name="Volc_Label_FiveMm" xml:space="preserve">
+    <value>5 毫米</value>
+  </data>
+  <data name="Volc_Label_Fountain" xml:space="preserve">
+    <value>熔岩喷泉 · {0} 米</value>
+  </data>
+  <data name="Volc_Label_FragLevel" xml:space="preserve">
+    <value>岩浆破碎 · {0} 米</value>
+  </data>
+  <data name="Volc_Label_Gauge" xml:space="preserve">
+    <value>{0} 兆帕</value>
+  </data>
+  <data name="Volc_Label_Layers" xml:space="preserve">
+    <value>{0} 层</value>
+  </data>
+  <data name="Volc_Label_LayersRock" xml:space="preserve">
+    <value>{0} 层 · 已成岩</value>
+  </data>
+  <data name="Volc_Label_Liquidus" xml:space="preserve">
+    <value>开始结晶</value>
+  </data>
+  <data name="Volc_Label_MineralFrom" xml:space="preserve">
+    <value>{0} · {1} °C以下</value>
+  </data>
+  <data name="Volc_Label_Pour" xml:space="preserve">
+    <value>河流 · 点击倒入</value>
+  </data>
+  <data name="Volc_Label_SatLevel" xml:space="preserve">
+    <value>开始冒泡 · {0} 公里</value>
+  </data>
+  <data name="Volc_Label_Shield" xml:space="preserve">
+    <value>盾状火山</value>
+  </data>
+  <data name="Volc_Label_SinkTime" xml:space="preserve">
+    <value>下沉 1 米所需时间</value>
+  </data>
+  <data name="Volc_Label_Solidus" xml:space="preserve">
+    <value>全部凝固</value>
+  </data>
+  <data name="Volc_Label_Strato" xml:space="preserve">
+    <value>层状火山</value>
+  </data>
+  <data name="Volc_Lesson_Cycle_Choice1" xml:space="preserve">
+    <value>不一定，可以走捷径</value>
+  </data>
+  <data name="Volc_Lesson_Cycle_Choice2" xml:space="preserve">
+    <value>是的，一定要熔化</value>
+  </data>
+  <data name="Volc_Lesson_Eruption_Choice1" xml:space="preserve">
+    <value>会爆炸</value>
+  </data>
+  <data name="Volc_Lesson_Eruption_Choice2" xml:space="preserve">
+    <value>流得更远</value>
+  </data>
+  <data name="Volc_Lesson_Eruption_Choice3" xml:space="preserve">
+    <value>什么都不出来</value>
+  </data>
+  <data name="Volc_Lesson_Magnifier_Choice1" xml:space="preserve">
+    <value>晶体更小</value>
+  </data>
+  <data name="Volc_Lesson_Magnifier_Choice2" xml:space="preserve">
+    <value>晶体更大</value>
+  </data>
+  <data name="Volc_Lesson_Magnifier_Choice3" xml:space="preserve">
+    <value>没有变化</value>
+  </data>
+  <data name="Volc_Like_Asphalt" xml:space="preserve">
+    <value>沥青</value>
+  </data>
+  <data name="Volc_Like_Glacier" xml:space="preserve">
+    <value>冰川冰</value>
+  </data>
+  <data name="Volc_Like_Honey" xml:space="preserve">
+    <value>蜂蜜</value>
+  </data>
+  <data name="Volc_Like_PeanutButter" xml:space="preserve">
+    <value>花生酱</value>
+  </data>
+  <data name="Volc_Like_Putty" xml:space="preserve">
+    <value>硬橡皮泥</value>
+  </data>
+  <data name="Volc_Like_Toothpaste" xml:space="preserve">
+    <value>牙膏</value>
+  </data>
+  <data name="Volc_Magma_Caption" xml:space="preserve">
+    <value>岩浆</value>
+  </data>
+  <data name="Volc_Magma_Felsic" xml:space="preserve">
+    <value>花岗质岩浆</value>
+  </data>
+  <data name="Volc_Magma_Mafic" xml:space="preserve">
+    <value>玄武质岩浆</value>
+  </data>
+  <data name="Volc_Magnifier_Fact1" xml:space="preserve">
+    <value>花岗岩里的晶体，用了几万到几十万年才长成。</value>
+  </data>
+  <data name="Volc_Magnifier_Fact2" xml:space="preserve">
+    <value>刚敲开的黑曜岩边缘只有几纳米厚，比钢制手术刀还锋利。</value>
+  </data>
+  <data name="Volc_Magnifier_Fact3" xml:space="preserve">
+    <value>海底火山喷出的浮岩会形成“浮石筏”，在海上漂流好几个月。</value>
+  </data>
+  <data name="Volc_Magnifier_Fact4" xml:space="preserve">
+    <value>板岩能劈成薄片，是因为里面的小片都朝同一个方向；人们用它盖屋顶、做黑板。</value>
+  </data>
+  <data name="Volc_Magnifier_Fact5" xml:space="preserve">
+    <value>黏土沉得非常慢，暴雨之后，浑浊的池塘可以好几天都不变清。</value>
+  </data>
+  <data name="Volc_Mineral_Biotite" xml:space="preserve">
+    <value>黑云母</value>
+  </data>
+  <data name="Volc_Mineral_KFeldspar" xml:space="preserve">
+    <value>钾长石</value>
+  </data>
+  <data name="Volc_Mineral_Olivine" xml:space="preserve">
+    <value>橄榄石</value>
+  </data>
+  <data name="Volc_Mineral_Plagioclase" xml:space="preserve">
+    <value>斜长石</value>
+  </data>
+  <data name="Volc_Mineral_Pyroxene" xml:space="preserve">
+    <value>辉石</value>
+  </data>
+  <data name="Volc_Mineral_Quartz" xml:space="preserve">
+    <value>石英</value>
+  </data>
+  <data name="Volc_Mode_Cycle" xml:space="preserve">
+    <value>岩石循环</value>
+  </data>
+  <data name="Volc_Mode_Eruption" xml:space="preserve">
+    <value>火山喷发</value>
+  </data>
+  <data name="Volc_Mode_Magnifier" xml:space="preserve">
+    <value>放大镜下</value>
+  </data>
+  <data name="Volc_Obj_AshFall" xml:space="preserve">
+    <value>火山灰降落</value>
+  </data>
+  <data name="Volc_Obj_Bands" xml:space="preserve">
+    <value>矿物条带</value>
+  </data>
+  <data name="Volc_Obj_Basalt" xml:space="preserve">
+    <value>玄武岩</value>
+  </data>
+  <data name="Volc_Obj_Biotite" xml:space="preserve">
+    <value>黑云母</value>
+  </data>
+  <data name="Volc_Obj_Bombs" xml:space="preserve">
+    <value>火山弹</value>
+  </data>
+  <data name="Volc_Obj_Bubbles" xml:space="preserve">
+    <value>气泡</value>
+  </data>
+  <data name="Volc_Obj_Chamber" xml:space="preserve">
+    <value>岩浆房</value>
+  </data>
+  <data name="Volc_Obj_Clay" xml:space="preserve">
+    <value>黏土</value>
+  </data>
+  <data name="Volc_Obj_Column" xml:space="preserve">
+    <value>喷发柱</value>
+  </data>
+  <data name="Volc_Obj_Conduit" xml:space="preserve">
+    <value>火山通道</value>
+  </data>
+  <data name="Volc_Obj_Cone" xml:space="preserve">
+    <value>火山锥</value>
+  </data>
+  <data name="Volc_Obj_Crystallization" xml:space="preserve">
+    <value>冷却结晶</value>
+  </data>
+  <data name="Volc_Obj_Deposition" xml:space="preserve">
+    <value>沉积</value>
+  </data>
+  <data name="Volc_Obj_Dome" xml:space="preserve">
+    <value>熔岩穹丘</value>
+  </data>
+  <data name="Volc_Obj_Erosion" xml:space="preserve">
+    <value>侵蚀和搬运</value>
+  </data>
+  <data name="Volc_Obj_EruptionStep" xml:space="preserve">
+    <value>火山喷发</value>
+  </data>
+  <data name="Volc_Obj_Fossil" xml:space="preserve">
+    <value>贝壳碎片</value>
+  </data>
+  <data name="Volc_Obj_Fountain" xml:space="preserve">
+    <value>熔岩喷泉</value>
+  </data>
+  <data name="Volc_Obj_FragLevel" xml:space="preserve">
+    <value>岩浆破碎面</value>
+  </data>
+  <data name="Volc_Obj_Garnet" xml:space="preserve">
+    <value>石榴子石</value>
+  </data>
+  <data name="Volc_Obj_Gauge" xml:space="preserve">
+    <value>岩浆房压力</value>
+  </data>
+  <data name="Volc_Obj_Glass" xml:space="preserve">
+    <value>火山玻璃</value>
+  </data>
+  <data name="Volc_Obj_Grain" xml:space="preserve">
+    <value>跟随的颗粒</value>
+  </data>
+  <data name="Volc_Obj_Grains" xml:space="preserve">
+    <value>颗粒</value>
+  </data>
+  <data name="Volc_Obj_Granite" xml:space="preserve">
+    <value>花岗岩</value>
+  </data>
+  <data name="Volc_Obj_Gravel" xml:space="preserve">
+    <value>砾石</value>
+  </data>
+  <data name="Volc_Obj_KFeldspar" xml:space="preserve">
+    <value>钾长石</value>
+  </data>
+  <data name="Volc_Obj_LavaFlow" xml:space="preserve">
+    <value>熔岩流</value>
+  </data>
+  <data name="Volc_Obj_Layers" xml:space="preserve">
+    <value>沉积层</value>
+  </data>
+  <data name="Volc_Obj_Limestone" xml:space="preserve">
+    <value>石灰岩</value>
+  </data>
+  <data name="Volc_Obj_Lithification" xml:space="preserve">
+    <value>压实和胶结</value>
+  </data>
+  <data name="Volc_Obj_Magma" xml:space="preserve">
+    <value>岩浆</value>
+  </data>
+  <data name="Volc_Obj_Marble" xml:space="preserve">
+    <value>大理岩</value>
+  </data>
+  <data name="Volc_Obj_Melt" xml:space="preserve">
+    <value>熔体</value>
+  </data>
+  <data name="Volc_Obj_MeltPocket" xml:space="preserve">
+    <value>最早的熔体</value>
+  </data>
+  <data name="Volc_Obj_Melting" xml:space="preserve">
+    <value>熔融</value>
+  </data>
+  <data name="Volc_Obj_Metamorphism" xml:space="preserve">
+    <value>变质作用</value>
+  </data>
+  <data name="Volc_Obj_Mica" xml:space="preserve">
+    <value>黏土片和云母</value>
+  </data>
+  <data name="Volc_Obj_Olivine" xml:space="preserve">
+    <value>橄榄石</value>
+  </data>
+  <data name="Volc_Obj_Overburden" xml:space="preserve">
+    <value>上覆岩层</value>
+  </data>
+  <data name="Volc_Obj_Plagioclase" xml:space="preserve">
+    <value>斜长石</value>
+  </data>
+  <data name="Volc_Obj_Press" xml:space="preserve">
+    <value>压力</value>
+  </data>
+  <data name="Volc_Obj_PyroFlow" xml:space="preserve">
+    <value>火山碎屑流</value>
+  </data>
+  <data name="Volc_Obj_Pyroxene" xml:space="preserve">
+    <value>辉石</value>
+  </data>
+  <data name="Volc_Obj_Quakes" xml:space="preserve">
+    <value>小地震</value>
+  </data>
+  <data name="Volc_Obj_Quartz" xml:space="preserve">
+    <value>石英</value>
+  </data>
+  <data name="Volc_Obj_River" xml:space="preserve">
+    <value>河流</value>
+  </data>
+  <data name="Volc_Obj_SandGrain" xml:space="preserve">
+    <value>沙子</value>
+  </data>
+  <data name="Volc_Obj_Sandstone" xml:space="preserve">
+    <value>砂岩</value>
+  </data>
+  <data name="Volc_Obj_SatLevel" xml:space="preserve">
+    <value>气泡出现的深度</value>
+  </data>
+  <data name="Volc_Obj_Schist" xml:space="preserve">
+    <value>片岩和片麻岩</value>
+  </data>
+  <data name="Volc_Obj_Sediment" xml:space="preserve">
+    <value>沉积物</value>
+  </data>
+  <data name="Volc_Obj_Shale" xml:space="preserve">
+    <value>页岩</value>
+  </data>
+  <data name="Volc_Obj_Silt" xml:space="preserve">
+    <value>粉砂</value>
+  </data>
+  <data name="Volc_Obj_Thermometer" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Volc_Obj_Umbrella" xml:space="preserve">
+    <value>伞状云</value>
+  </data>
+  <data name="Volc_Obj_Uplift" xml:space="preserve">
+    <value>抬升</value>
+  </data>
+  <data name="Volc_Obj_Vent" xml:space="preserve">
+    <value>火山口</value>
+  </data>
+  <data name="Volc_Obj_Vesicle" xml:space="preserve">
+    <value>气孔</value>
+  </data>
+  <data name="Volc_Obj_Weathering" xml:space="preserve">
+    <value>风化</value>
+  </data>
+  <data name="Volc_Option_Gas" xml:space="preserve">
+    <value>含大量气体</value>
+  </data>
+  <data name="Volc_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Volc_Option_Levels" xml:space="preserve">
+    <value>气泡深度线</value>
+  </data>
+  <data name="Volc_Option_RockLabels" xml:space="preserve">
+    <value>岩石名称</value>
+  </data>
+  <data name="Volc_Option_TwoStage" xml:space="preserve">
+    <value>先慢后快</value>
+  </data>
+  <data name="Volc_Parent_Caption" xml:space="preserve">
+    <value>被埋的岩石</value>
+  </data>
+  <data name="Volc_Phase_Calm_Text" xml:space="preserve">
+    <value>岩浆房的压力已经释放。蒸汽还在冒，新的熔岩冷却成一层，岩浆房又慢慢充满。</value>
+  </data>
+  <data name="Volc_Phase_Calm_Title" xml:space="preserve">
+    <value>喷发之后</value>
+  </data>
+  <data name="Volc_Phase_Recharge_Text" xml:space="preserve">
+    <value>岩浆从下面流进来。压力升高，地面微微鼓起，小地震把岩石撑裂。</value>
+  </data>
+  <data name="Volc_Phase_Recharge_Title" xml:space="preserve">
+    <value>岩浆房在充满</value>
+  </data>
+  <data name="Volc_Phase_Rising_Text" xml:space="preserve">
+    <value>岩浆沿着火山通道往上挤。它受到的压力越来越小，水变成气泡冒出来，升得越高气泡越大。</value>
+  </data>
+  <data name="Volc_Phase_Rising_Title" xml:space="preserve">
+    <value>岩浆在上升</value>
+  </data>
+  <data name="Volc_PlayPause" xml:space="preserve">
+    <value>播放或暂停</value>
+  </data>
+  <data name="Volc_Pour" xml:space="preserve">
+    <value>倒入泥沙</value>
+  </data>
+  <data name="Volc_Preset_Changbaishan" xml:space="preserve">
+    <value>长白山（946年）</value>
+  </data>
+  <data name="Volc_Preset_Changbaishan_Short" xml:space="preserve">
+    <value>长白山</value>
+  </data>
+  <data name="Volc_Preset_Kilauea" xml:space="preserve">
+    <value>夏威夷基拉韦厄</value>
+  </data>
+  <data name="Volc_Preset_Kilauea_Short" xml:space="preserve">
+    <value>基拉韦厄</value>
+  </data>
+  <data name="Volc_Preset_Merapi" xml:space="preserve">
+    <value>印尼默拉皮</value>
+  </data>
+  <data name="Volc_Preset_Merapi_Short" xml:space="preserve">
+    <value>默拉皮</value>
+  </data>
+  <data name="Volc_Preset_Pinatubo" xml:space="preserve">
+    <value>皮纳图博（1991年）</value>
+  </data>
+  <data name="Volc_Preset_Pinatubo_Short" xml:space="preserve">
+    <value>皮纳图博</value>
+  </data>
+  <data name="Volc_Preset_StHelens" xml:space="preserve">
+    <value>圣海伦斯（1980年）</value>
+  </data>
+  <data name="Volc_Preset_StHelens_Short" xml:space="preserve">
+    <value>圣海伦斯</value>
+  </data>
+  <data name="Volc_Preset_Stromboli" xml:space="preserve">
+    <value>意大利斯特龙博利</value>
+  </data>
+  <data name="Volc_Preset_Stromboli_Short" xml:space="preserve">
+    <value>斯特龙博利</value>
+  </data>
+  <data name="Volc_Preset_Wudalianchi" xml:space="preserve">
+    <value>五大连池</value>
+  </data>
+  <data name="Volc_Preset_Wudalianchi_Short" xml:space="preserve">
+    <value>五大连池</value>
+  </data>
+  <data name="Volc_Presets_Caption" xml:space="preserve">
+    <value>真实的火山</value>
+  </data>
+  <data name="Volc_Process_Caption" xml:space="preserve">
+    <value>观察</value>
+  </data>
+  <data name="Volc_Process_Cooling" xml:space="preserve">
+    <value>岩浆冷却</value>
+  </data>
+  <data name="Volc_Process_Crystallization" xml:space="preserve">
+    <value>冷却结晶</value>
+  </data>
+  <data name="Volc_Process_Deposition" xml:space="preserve">
+    <value>沉积</value>
+  </data>
+  <data name="Volc_Process_Erosion" xml:space="preserve">
+    <value>侵蚀搬运</value>
+  </data>
+  <data name="Volc_Process_Eruption" xml:space="preserve">
+    <value>喷发</value>
+  </data>
+  <data name="Volc_Process_Lithification" xml:space="preserve">
+    <value>压实胶结</value>
+  </data>
+  <data name="Volc_Process_Melting" xml:space="preserve">
+    <value>熔融</value>
+  </data>
+  <data name="Volc_Process_Metamorphism" xml:space="preserve">
+    <value>变质作用</value>
+  </data>
+  <data name="Volc_Process_Settling" xml:space="preserve">
+    <value>泥沙沉积</value>
+  </data>
+  <data name="Volc_Process_Squeezing" xml:space="preserve">
+    <value>岩石受压</value>
+  </data>
+  <data name="Volc_Process_Uplift" xml:space="preserve">
+    <value>抬升</value>
+  </data>
+  <data name="Volc_Process_Weathering" xml:space="preserve">
+    <value>风化</value>
+  </data>
+  <data name="Volc_Rate_Day" xml:space="preserve">
+    <value>每天 {0} °C</value>
+  </data>
+  <data name="Volc_Rate_Every" xml:space="preserve">
+    <value>每 {0} 降 1 °C</value>
+  </data>
+  <data name="Volc_Rate_Hour" xml:space="preserve">
+    <value>每小时 {0} °C</value>
+  </data>
+  <data name="Volc_Rate_Minute" xml:space="preserve">
+    <value>每分钟 {0} °C</value>
+  </data>
+  <data name="Volc_Rate_Second" xml:space="preserve">
+    <value>每秒 {0} °C</value>
+  </data>
+  <data name="Volc_Rate_Year" xml:space="preserve">
+    <value>每年 {0} °C</value>
+  </data>
+  <data name="Volc_Restart" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Volc_RockText_Basalt" xml:space="preserve">
+    <value>熔岩在几小时到几天内冷却：晶体细小，颜色深，很重。它是地球表面最常见的岩石。</value>
+  </data>
+  <data name="Volc_RockText_BasaltGlass" xml:space="preserve">
+    <value>玄武岩熔岩在水中急冷：黑色的玻璃，只有很少的微小晶体。</value>
+  </data>
+  <data name="Volc_RockText_Dolerite" xml:space="preserve">
+    <value>玄武质岩浆在地下的薄层里冷却：晶体中等大小，介于辉长岩和玄武岩之间。</value>
+  </data>
+  <data name="Volc_RockText_Gabbro" xml:space="preserve">
+    <value>玄武岩的“慢冷孪生兄弟”，颗粒粗大：有深色的辉石、白色的长石和绿色的橄榄石。</value>
+  </data>
+  <data name="Volc_RockText_Gneiss" xml:space="preserve">
+    <value>大约600 °C以上，矿物分成浅色和深色的条带，岩石仍然是固体。</value>
+  </data>
+  <data name="Volc_RockText_Granite" xml:space="preserve">
+    <value>在地下深处冷却了几十万年：晶体不多，但有足够的时间长得肉眼可见。</value>
+  </data>
+  <data name="Volc_RockText_Limestone" xml:space="preserve">
+    <value>由海洋生物的贝壳和骨骼组成，被方解石胶结在一起。</value>
+  </data>
+  <data name="Volc_RockText_Marble" xml:space="preserve">
+    <value>被高温重新结晶的石灰岩：方解石晶体互相咬合，化石消失了。</value>
+  </data>
+  <data name="Volc_RockText_Microgranite" xml:space="preserve">
+    <value>在地下薄薄的岩浆层里冷却，只用了几年到几百年：晶体比花岗岩的小。</value>
+  </data>
+  <data name="Volc_RockText_Migmatite" xml:space="preserve">
+    <value>热到开始熔化：条带之间出现了熔体团。再热一些，它就会变成岩浆。</value>
+  </data>
+  <data name="Volc_RockText_Obsidian" xml:space="preserve">
+    <value>熔岩在几秒到几分钟内冻结：来不及结晶，只有玻璃，黑色，边缘锋利。</value>
+  </data>
+  <data name="Volc_RockText_Phyllite" xml:space="preserve">
+    <value>再热一些：小片长成了细小的云母，让它带着丝绢般的光泽。</value>
+  </data>
+  <data name="Volc_RockText_PorphyriticBasalt" xml:space="preserve">
+    <value>含有大颗橄榄石或长石晶体的玄武岩，这些晶体是喷发前就长好的。</value>
+  </data>
+  <data name="Volc_RockText_Porphyry" xml:space="preserve">
+    <value>大晶体先在深处慢慢长成，后来岩浆上升，其余部分冻结成包围它们的细粒基质。</value>
+  </data>
+  <data name="Volc_RockText_Pumice" xml:space="preserve">
+    <value>带着气泡冻住的泡沫状熔岩：满是孔洞，能浮在水上。</value>
+  </data>
+  <data name="Volc_RockText_Quartzite" xml:space="preserve">
+    <value>砂岩被加热，石英颗粒互相长在一起，空隙消失：它是最坚硬的岩石之一。</value>
+  </data>
+  <data name="Volc_RockText_Rhyolite" xml:space="preserve">
+    <value>花岗质岩浆在地表很快冷却：矿物和花岗岩一样，但晶体小得看不见。</value>
+  </data>
+  <data name="Volc_RockText_Sandstone" xml:space="preserve">
+    <value>沙粒胶结在一起，颗粒之间有细小的空隙，可以储存水或石油。</value>
+  </data>
+  <data name="Volc_RockText_Schist" xml:space="preserve">
+    <value>热到云母长得又大又亮，中间还长出了石榴子石。</value>
+  </data>
+  <data name="Volc_RockText_Scoria" xml:space="preserve">
+    <value>玄武岩熔岩带着气泡冻结：颜色深、粗糙、满是孔洞，但比浮岩重。</value>
+  </data>
+  <data name="Volc_RockText_Shale" xml:space="preserve">
+    <value>泥被压成的岩石：小得看不见的黏土片，方向杂乱。</value>
+  </data>
+  <data name="Volc_RockText_Slate" xml:space="preserve">
+    <value>在大约200到330 °C受挤压：小片都朝一个方向躺着，所以能劈成又薄又平的石板。</value>
+  </data>
+  <data name="Volc_Settling_Note" xml:space="preserve">
+    <value>下沉过程被加快了（黏土沉一米要好几天）；埋藏后的压实按真实比例。</value>
+  </data>
+  <data name="Volc_Settling_Panel_Note" xml:space="preserve">
+    <value>多倒几次，堆出几层，然后把它们埋起来：大约1.5公里以下，颗粒就被胶结成岩石。</value>
+  </data>
+  <data name="Volc_Settling_Subtitle" xml:space="preserve">
+    <value>泥沙沉积成层</value>
+  </data>
+  <data name="Volc_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Volc_Silica" xml:space="preserve">
+    <value>二氧化硅含量</value>
+  </data>
+  <data name="Volc_Squeezing_Note" xml:space="preserve">
+    <value>大约一厘米大的样品，位于大陆深处，每往下一公里温度升高25 °C。</value>
+  </data>
+  <data name="Volc_Squeezing_Panel_Note" xml:space="preserve">
+    <value>页岩依次变成板岩、千枚岩、片岩和片麻岩；砂岩变成石英岩；石灰岩变成大理岩。</value>
+  </data>
+  <data name="Volc_Squeezing_Subtitle" xml:space="preserve">
+    <value>岩石受热受压</value>
+  </data>
+  <data name="Volc_Stat_BubbleShare" xml:space="preserve">
+    <value>气孔</value>
+  </data>
+  <data name="Volc_Stat_Bubbles" xml:space="preserve">
+    <value>开始冒泡</value>
+  </data>
+  <data name="Volc_Stat_Burial" xml:space="preserve">
+    <value>埋深</value>
+  </data>
+  <data name="Volc_Stat_Bursts" xml:space="preserve">
+    <value>熔岩抛起高度</value>
+  </data>
+  <data name="Volc_Stat_Cement" xml:space="preserve">
+    <value>已胶结的空隙</value>
+  </data>
+  <data name="Volc_Stat_CoolRate" xml:space="preserve">
+    <value>冷却速度</value>
+  </data>
+  <data name="Volc_Stat_CoolTime" xml:space="preserve">
+    <value>冷却用时</value>
+  </data>
+  <data name="Volc_Stat_Crystals" xml:space="preserve">
+    <value>晶体数</value>
+  </data>
+  <data name="Volc_Stat_Depth" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="Volc_Stat_DomeGrows" xml:space="preserve">
+    <value>在火山口上慢慢长高</value>
+  </data>
+  <data name="Volc_Stat_Family" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Volc_Stat_Fountain" xml:space="preserve">
+    <value>喷泉高度</value>
+  </data>
+  <data name="Volc_Stat_Frag" xml:space="preserve">
+    <value>岩浆破碎</value>
+  </data>
+  <data name="Volc_Stat_GasEscapes" xml:space="preserve">
+    <value>不会：气泡能跑掉</value>
+  </data>
+  <data name="Volc_Stat_GasLeaks" xml:space="preserve">
+    <value>不会：气体慢慢漏掉</value>
+  </data>
+  <data name="Volc_Stat_Glass" xml:space="preserve">
+    <value>玻璃</value>
+  </data>
+  <data name="Volc_Stat_Height" xml:space="preserve">
+    <value>喷发柱高度</value>
+  </data>
+  <data name="Volc_Stat_Layers" xml:space="preserve">
+    <value>层数</value>
+  </data>
+  <data name="Volc_Stat_Magma" xml:space="preserve">
+    <value>岩浆</value>
+  </data>
+  <data name="Volc_Stat_NearVent" xml:space="preserve">
+    <value>火山口附近</value>
+  </data>
+  <data name="Volc_Stat_Now" xml:space="preserve">
+    <value>现在是</value>
+  </data>
+  <data name="Volc_Stat_Parent" xml:space="preserve">
+    <value>原来是</value>
+  </data>
+  <data name="Volc_Stat_PoreMud" xml:space="preserve">
+    <value>泥层孔隙</value>
+  </data>
+  <data name="Volc_Stat_PoreSand" xml:space="preserve">
+    <value>砂层孔隙</value>
+  </data>
+  <data name="Volc_Stat_Pressure" xml:space="preserve">
+    <value>岩浆房超压</value>
+  </data>
+  <data name="Volc_Stat_RockPressure" xml:space="preserve">
+    <value>压力</value>
+  </data>
+  <data name="Volc_Stat_Shape" xml:space="preserve">
+    <value>火山类型</value>
+  </data>
+  <data name="Volc_Stat_Sinking" xml:space="preserve">
+    <value>正在下沉的颗粒</value>
+  </data>
+  <data name="Volc_Stat_Size" xml:space="preserve">
+    <value>平均晶体大小</value>
+  </data>
+  <data name="Volc_Stat_SoFar" xml:space="preserve">
+    <value>累计用时</value>
+  </data>
+  <data name="Volc_Stat_Step" xml:space="preserve">
+    <value>站点</value>
+  </data>
+  <data name="Volc_Stat_StepTime" xml:space="preserve">
+    <value>这一步用时</value>
+  </data>
+  <data name="Volc_Stat_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Volc_Stat_Thickness" xml:space="preserve">
+    <value>泥层厚度</value>
+  </data>
+  <data name="Volc_Stat_TwoStage" xml:space="preserve">
+    <value>先在深处慢冷，再喷出</value>
+  </data>
+  <data name="Volc_Stat_Viscosity" xml:space="preserve">
+    <value>黏度</value>
+  </data>
+  <data name="Volc_Stat_Water" xml:space="preserve">
+    <value>含水量</value>
+  </data>
+  <data name="Volc_State_Andesite" xml:space="preserve">
+    <value>安山岩</value>
+  </data>
+  <data name="Volc_State_Basalt" xml:space="preserve">
+    <value>玄武岩</value>
+  </data>
+  <data name="Volc_State_BasaltGlass" xml:space="preserve">
+    <value>玄武质玻璃</value>
+  </data>
+  <data name="Volc_State_BasalticAndesite" xml:space="preserve">
+    <value>玄武安山岩</value>
+  </data>
+  <data name="Volc_State_Clay" xml:space="preserve">
+    <value>黏土</value>
+  </data>
+  <data name="Volc_State_Conglomerate" xml:space="preserve">
+    <value>砾岩</value>
+  </data>
+  <data name="Volc_State_Dacite" xml:space="preserve">
+    <value>英安岩</value>
+  </data>
+  <data name="Volc_State_Dissolved" xml:space="preserve">
+    <value>溶在水里</value>
+  </data>
+  <data name="Volc_State_Dolerite" xml:space="preserve">
+    <value>辉绿岩</value>
+  </data>
+  <data name="Volc_State_Gabbro" xml:space="preserve">
+    <value>辉长岩</value>
+  </data>
+  <data name="Volc_State_Gneiss" xml:space="preserve">
+    <value>片麻岩</value>
+  </data>
+  <data name="Volc_State_Granite" xml:space="preserve">
+    <value>花岗岩</value>
+  </data>
+  <data name="Volc_State_Lava" xml:space="preserve">
+    <value>熔岩</value>
+  </data>
+  <data name="Volc_State_Limestone" xml:space="preserve">
+    <value>石灰岩</value>
+  </data>
+  <data name="Volc_State_Magma" xml:space="preserve">
+    <value>岩浆</value>
+  </data>
+  <data name="Volc_State_Marble" xml:space="preserve">
+    <value>大理岩</value>
+  </data>
+  <data name="Volc_State_Microgranite" xml:space="preserve">
+    <value>细晶花岗岩</value>
+  </data>
+  <data name="Volc_State_Migmatite" xml:space="preserve">
+    <value>混合岩</value>
+  </data>
+  <data name="Volc_State_Mud" xml:space="preserve">
+    <value>泥</value>
+  </data>
+  <data name="Volc_State_Obsidian" xml:space="preserve">
+    <value>黑曜岩</value>
+  </data>
+  <data name="Volc_State_Phyllite" xml:space="preserve">
+    <value>千枚岩</value>
+  </data>
+  <data name="Volc_State_PorphyriticBasalt" xml:space="preserve">
+    <value>斑状玄武岩</value>
+  </data>
+  <data name="Volc_State_Porphyry" xml:space="preserve">
+    <value>斑岩</value>
+  </data>
+  <data name="Volc_State_Pumice" xml:space="preserve">
+    <value>浮岩</value>
+  </data>
+  <data name="Volc_State_Quartzite" xml:space="preserve">
+    <value>石英岩</value>
+  </data>
+  <data name="Volc_State_Rhyolite" xml:space="preserve">
+    <value>流纹岩</value>
+  </data>
+  <data name="Volc_State_Sand" xml:space="preserve">
+    <value>沙粒</value>
+  </data>
+  <data name="Volc_State_Sandstone" xml:space="preserve">
+    <value>砂岩</value>
+  </data>
+  <data name="Volc_State_Schist" xml:space="preserve">
+    <value>片岩</value>
+  </data>
+  <data name="Volc_State_Scoria" xml:space="preserve">
+    <value>火山渣</value>
+  </data>
+  <data name="Volc_State_Shale" xml:space="preserve">
+    <value>页岩</value>
+  </data>
+  <data name="Volc_State_Shell" xml:space="preserve">
+    <value>贝壳</value>
+  </data>
+  <data name="Volc_State_ShellSand" xml:space="preserve">
+    <value>贝壳砂</value>
+  </data>
+  <data name="Volc_State_Siltstone" xml:space="preserve">
+    <value>粉砂岩</value>
+  </data>
+  <data name="Volc_State_Slate" xml:space="preserve">
+    <value>板岩</value>
+  </data>
+  <data name="Volc_Step_Magma_0" xml:space="preserve">
+    <value>这块岩石是片麻岩，在山脉深处，快要熔化了。</value>
+  </data>
+  <data name="Volc_Step_Magma_1" xml:space="preserve">
+    <value>它熔化了。岩浆比周围的固体岩石轻，于是开始往上升。</value>
+  </data>
+  <data name="Volc_Step_Magma_2" xml:space="preserve">
+    <value>它聚集在火山下面的岩浆房里。</value>
+  </data>
+  <data name="Volc_Step_Magma_3" xml:space="preserve">
+    <value>火山喷发，岩浆变成熔岩流了出来。</value>
+  </data>
+  <data name="Volc_Step_Magma_4" xml:space="preserve">
+    <value>在空气中，熔岩几天之内就冷却成了玄武岩，晶体很小。</value>
+  </data>
+  <data name="Volc_Step_Magma_5" xml:space="preserve">
+    <value>雨水开始把新的玄武岩分解成黏土，新一轮又开始了。</value>
+  </data>
+  <data name="Volc_Step_Mud_0" xml:space="preserve">
+    <value>这一点泥最初在火山山坡上的玄武岩熔岩流里。</value>
+  </data>
+  <data name="Volc_Step_Mud_1" xml:space="preserve">
+    <value>雨水慢慢分解玄武岩，里面的矿物变成了软软的黏土。</value>
+  </data>
+  <data name="Volc_Step_Mud_2" xml:space="preserve">
+    <value>河流把黏土当作泥带走，河水变得浑浊。</value>
+  </data>
+  <data name="Volc_Step_Mud_3" xml:space="preserve">
+    <value>在远处平静的深海里，细泥慢慢沉了下来。</value>
+  </data>
+  <data name="Volc_Step_Mud_4" xml:space="preserve">
+    <value>被更多的层埋住，泥被压成了页岩。</value>
+  </data>
+  <data name="Volc_Step_Mud_5" xml:space="preserve">
+    <value>埋得更深，受热受压，页岩变成了满是闪亮云母的片岩。</value>
+  </data>
+  <data name="Volc_Step_Mud_6" xml:space="preserve">
+    <value>到了足够深、足够热的地方，岩石熔化成了岩浆。</value>
+  </data>
+  <data name="Volc_Step_Mud_7" xml:space="preserve">
+    <value>岩浆往上升，但停在了地下，用一百万年慢慢冷却成花岗岩。</value>
+  </data>
+  <data name="Volc_Step_Mud_8" xml:space="preserve">
+    <value>几千万年间，山脉升起，上面的岩石被侵蚀掉，花岗岩终于到了山顶。</value>
+  </data>
+  <data name="Volc_Step_Sand_0" xml:space="preserve">
+    <value>这粒石英是山顶花岗岩的一部分，它是从地下深处被抬升上来的。</value>
+  </data>
+  <data name="Volc_Step_Sand_1" xml:space="preserve">
+    <value>冰冻和雨水让花岗岩松动。长石腐烂成黏土，坚硬的石英脱落下来，成了一粒沙。</value>
+  </data>
+  <data name="Volc_Step_Sand_2" xml:space="preserve">
+    <value>溪水把它冲走，河流把它一路滚向大海，路上把它的棱角磨圆了。</value>
+  </data>
+  <data name="Volc_Step_Sand_3" xml:space="preserve">
+    <value>到了海边，河水慢下来，这粒沙和无数沙粒一起落在海滩上。</value>
+  </data>
+  <data name="Volc_Step_Sand_4" xml:space="preserve">
+    <value>更多的沙和泥把它埋起来。受到挤压，又被矿物胶结，沙子变成了砂岩。</value>
+  </data>
+  <data name="Volc_Step_Sand_5" xml:space="preserve">
+    <value>板块相撞，把古老的海底挤弯、抬升成山。砂岩又被抬到了地面上。</value>
+  </data>
+  <data name="Volc_Step_Sand_6" xml:space="preserve">
+    <value>风化又让这粒沙脱落下来：它又变回了沙，准备开始新的一轮，而且从来没有熔化过。</value>
+  </data>
+  <data name="Volc_Step_Shell_0" xml:space="preserve">
+    <value>这枚贝壳属于礁石上的海洋生物，它用海水里溶解的钙造出了贝壳。</value>
+  </data>
+  <data name="Volc_Step_Shell_1" xml:space="preserve">
+    <value>生物死后，贝壳碎成贝壳砂，落在海底。</value>
+  </data>
+  <data name="Volc_Step_Shell_2" xml:space="preserve">
+    <value>被埋起来并胶结在一起，贝壳砂变成了石灰岩。</value>
+  </data>
+  <data name="Volc_Step_Shell_3" xml:space="preserve">
+    <value>炽热的岩浆在旁边升起，把石灰岩烤成了大理岩。</value>
+  </data>
+  <data name="Volc_Step_Shell_4" xml:space="preserve">
+    <value>山脉升起，大理岩露在了悬崖上，被雨淋着。</value>
+  </data>
+  <data name="Volc_Step_Shell_5" xml:space="preserve">
+    <value>雨水略带酸性，会慢慢溶解大理岩，河流把钙带回大海。</value>
+  </data>
+  <data name="Volc_Step_Shell_6" xml:space="preserve">
+    <value>在海里，一个新的生物用这些钙造出了新的贝壳。</value>
+  </data>
+  <data name="Volc_StopFollowing" xml:space="preserve">
+    <value>停止跟随</value>
+  </data>
+  <data name="Volc_StyleShort_Dome" xml:space="preserve">
+    <value>熔岩穹丘</value>
+  </data>
+  <data name="Volc_StyleShort_Hawaiian" xml:space="preserve">
+    <value>夏威夷式</value>
+  </data>
+  <data name="Volc_StyleShort_Plinian" xml:space="preserve">
+    <value>普林尼式</value>
+  </data>
+  <data name="Volc_StyleShort_Strombolian" xml:space="preserve">
+    <value>斯特龙博利式</value>
+  </data>
+  <data name="Volc_StyleShort_Vulcanian" xml:space="preserve">
+    <value>武尔卡诺式</value>
+  </data>
+  <data name="Volc_StyleText_Dome" xml:space="preserve">
+    <value>失去气体的黏稠岩浆慢慢挤出来，堆在火山口上。碎块塌落，变成发光的崩塌流。</value>
+  </data>
+  <data name="Volc_StyleText_Hawaiian" xml:space="preserve">
+    <value>稀的玄武岩浆，气体少：气泡很容易跑出来，喷出熔岩喷泉，熔岩沿山坡流得很远。</value>
+  </data>
+  <data name="Volc_StyleText_Plinian" xml:space="preserve">
+    <value>黏稠又富含气体的岩浆：泡沫被撕碎成火山灰和气体，冲成几十公里高的喷发柱。</value>
+  </data>
+  <data name="Volc_StyleText_Strombolian" xml:space="preserve">
+    <value>稀的岩浆，气体多一些：气泡聚成大泡，每隔几秒在顶上炸开，抛出火山弹。</value>
+  </data>
+  <data name="Volc_StyleText_Vulcanian" xml:space="preserve">
+    <value>含有一些气体的黏稠岩浆堵住火山口，直到压力把它炸开：短促的爆炸，喷出火山灰和火山弹。</value>
+  </data>
+  <data name="Volc_Style_Dome" xml:space="preserve">
+    <value>熔岩穹丘</value>
+  </data>
+  <data name="Volc_Style_Hawaiian" xml:space="preserve">
+    <value>夏威夷式：熔岩喷泉</value>
+  </data>
+  <data name="Volc_Style_Plinian" xml:space="preserve">
+    <value>普林尼式：火山灰柱</value>
+  </data>
+  <data name="Volc_Style_Strombolian" xml:space="preserve">
+    <value>斯特龙博利式：气泡爆裂</value>
+  </data>
+  <data name="Volc_Style_Vulcanian" xml:space="preserve">
+    <value>武尔卡诺式：炮击般的爆发</value>
+  </data>
+  <data name="Volc_Tank_Empty_Text" xml:space="preserve">
+    <value>点击河流或“倒入泥沙”，让浑浊的河水流进来。</value>
+  </data>
+  <data name="Volc_Tank_Empty_Title" xml:space="preserve">
+    <value>空水箱</value>
+  </data>
+  <data name="Volc_Tank_Rock_Text" xml:space="preserve">
+    <value>矿物填满了空隙，把颗粒粘在一起：砾石成了砾岩，沙子成了砂岩，粉砂成了粉砂岩，黏土成了页岩。</value>
+  </data>
+  <data name="Volc_Tank_Rock_Title" xml:space="preserve">
+    <value>已经变成岩石</value>
+  </data>
+  <data name="Volc_Tank_Settled_Text" xml:space="preserve">
+    <value>每倒一次就留下一层，下粗上细。可以再倒一次，或者把这些层埋起来。</value>
+  </data>
+  <data name="Volc_Tank_Settled_Title" xml:space="preserve">
+    <value>新的一层</value>
+  </data>
+  <data name="Volc_Tank_Sinking_Text" xml:space="preserve">
+    <value>砾石和沙子沉得快，落在河口附近；粉砂和黏土漂得更远，要沉很久。</value>
+  </data>
+  <data name="Volc_Tank_Sinking_Title" xml:space="preserve">
+    <value>颗粒正在下沉</value>
+  </data>
+  <data name="Volc_Tank_Squeezed_Text" xml:space="preserve">
+    <value>上面岩石的重量把空隙里的水挤出去，沉积层变薄了。</value>
+  </data>
+  <data name="Volc_Tank_Squeezed_Title" xml:space="preserve">
+    <value>正在被埋藏</value>
+  </data>
+  <data name="Volc_Time_Days" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Volc_Time_Hours" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Volc_Time_Minutes" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="Volc_Time_Seconds" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Volc_Timeline" xml:space="preserve">
+    <value>时间轴</value>
+  </data>
+  <data name="Volc_Title" xml:space="preserve">
+    <value>火山与岩石循环</value>
+  </data>
+  <data name="Volc_Unit_Km" xml:space="preserve">
+    <value>公里</value>
+  </data>
+  <data name="Volc_Unit_Million" xml:space="preserve">
+    <value>百万</value>
+  </data>
+  <data name="Volc_Unit_Wan" xml:space="preserve">
+    <value>万</value>
+  </data>
+  <data name="Volc_Unit_Yi" xml:space="preserve">
+    <value>亿</value>
+  </data>
+  <data name="Volc_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Volc_Value_Kbar" xml:space="preserve">
+    <value>{0} 千巴（约 {1} 个大气压）</value>
+  </data>
+  <data name="Volc_Value_Km" xml:space="preserve">
+    <value>{0} 公里</value>
+  </data>
+  <data name="Volc_Value_KmDeep" xml:space="preserve">
+    <value>地下约 {0} 公里</value>
+  </data>
+  <data name="Volc_Value_Metres" xml:space="preserve">
+    <value>约 {0} 米</value>
+  </data>
+  <data name="Volc_Value_MetresDeep" xml:space="preserve">
+    <value>地下约 {0} 米</value>
+  </data>
+  <data name="Volc_Value_Mm" xml:space="preserve">
+    <value>{0} 毫米</value>
+  </data>
+  <data name="Volc_Value_Mpa" xml:space="preserve">
+    <value>{0} 兆帕</value>
+  </data>
+  <data name="Volc_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Volc_Value_SilicaRock" xml:space="preserve">
+    <value>{0}% · {1}</value>
+  </data>
+  <data name="Volc_Value_StepOf" xml:space="preserve">
+    <value>第 {0} 站，共 {1} 站</value>
+  </data>
+  <data name="Volc_Value_Viscosity" xml:space="preserve">
+    <value>10^{0} 帕·秒，像{1}</value>
+  </data>
+  <data name="Volc_Water" xml:space="preserve">
+    <value>溶解的水</value>
+  </data>
+  <data name="Volc_Where_Flow" xml:space="preserve">
+    <value>熔岩流内部</value>
+  </data>
+  <data name="Volc_Where_Pluton" xml:space="preserve">
+    <value>地下深处的岩体</value>
+  </data>
+  <data name="Volc_Where_Quench" xml:space="preserve">
+    <value>熔岩遇水急冷</value>
+  </data>
+  <data name="Volc_Where_Sill" xml:space="preserve">
+    <value>地下的薄岩层</value>
+  </data>
+  <data name="Volc_Years" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="Volc_Years_About" xml:space="preserve">
+    <value>约 {0} 年</value>
   </data>
   <data name="Volume_Chemistry" xml:space="preserve">
     <value>化学</value>

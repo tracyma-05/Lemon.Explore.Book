@@ -27,6 +27,8 @@
              xmlns:bluesky="using:Lemon.Explore.Book.Chapters.BlueSky"
              xmlns:rainbow="using:Lemon.Explore.Book.Chapters.Rainbow"
              xmlns:aurora="using:Lemon.Explore.Book.Chapters.Aurora"
+             xmlns:earthquakes="using:Lemon.Explore.Book.Chapters.Earthquakes"
+             xmlns:volcanoes="using:Lemon.Explore.Book.Chapters.Volcanoes"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -79,6 +81,10 @@
         <DataTemplate DataType="rainbow:RainbowDiagramPageViewModel"><rainbow:RainbowDiagramPageView /></DataTemplate>
         <DataTemplate DataType="aurora:AuroraTextPageViewModel"><aurora:AuroraTextPageView /></DataTemplate>
         <DataTemplate DataType="aurora:AuroraDiagramPageViewModel"><aurora:AuroraDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="earthquakes:QuakeTextPageViewModel"><earthquakes:QuakeTextPageView /></DataTemplate>
+        <DataTemplate DataType="earthquakes:QuakeDiagramPageViewModel"><earthquakes:QuakeDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="volcanoes:VolcanoTextPageViewModel"><volcanoes:VolcanoTextPageView /></DataTemplate>
+        <DataTemplate DataType="volcanoes:VolcanoDiagramPageViewModel"><volcanoes:VolcanoDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

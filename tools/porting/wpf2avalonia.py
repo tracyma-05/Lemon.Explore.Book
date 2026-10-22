@@ -276,9 +276,11 @@ def convert_types(s: str, namespace: str) -> str:
                rf"StartPoint = {arg},\s*EndPoint = {arg},\s*\}}",
                r"new ImmutableLinearGradientBrush([new ImmutableGradientStop(0, \1), new ImmutableGradientStop(1, \2)], "
                r"startPoint: new RelativePoint(\3, RelativeUnit.Absolute), endPoint: new RelativePoint(\4, RelativeUnit.Absolute))", s)
-    # Premultiplied BGRA bitmaps written from a uint[] of pixels.
-    s = re.sub(r"new WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.(?:Pbgra32|Bgr32), null\)",
+    # BGRA bitmaps written from a uint[] of pixels: premultiplied (Pbgra32, Bgr32) or straight alpha (Bgra32).
+    s = re.sub(r"new (?:Imaging\.)?WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.(?:Pbgra32|Bgr32), null\)",
                r"new WriteableBitmap(new PixelSize(\1, \2), new Vector(96, 96), PixelFormat.Bgra8888, AlphaFormat.Premul)", s)
+    s = re.sub(r"new (?:Imaging\.)?WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.Bgra32, null\)",
+               r"new WriteableBitmap(new PixelSize(\1, \2), new Vector(96, 96), PixelFormat.Bgra8888, AlphaFormat.Unpremul)", s)
     s = re.sub(r"([\w!]+)\.WritePixels\(new Int32Rect\(0, 0, ([^,]+), ([^)]+)\), (\w+), [^;]+\);",
                r"SpaceDrawing.WritePixels(\1, \4, \2, \3);", s)
     if "PixelFormat.Bgra8888" in s and "using Avalonia.Platform;" not in s:
@@ -296,15 +298,17 @@ HELPER = re.compile(
     r"\((?P<params>[^)]*)\)\s*=>\s*(?P<body>DependencyProperty\.Register\(.*?);\n", re.S)
 
 
-def expand_register_helpers(s: str) -> str:
+def expand_register_helpers(s: str, siblings: str = "") -> str:
     """
     Local helpers (`static DependencyProperty Register<T>(string name, T value, ...) => DependencyProperty.Register(...)`,
     or `TwoWay(string name, double value)` and the like) and their uses become plain DependencyProperty.Register calls,
     which convert_properties understands. The value type is the helper's own (typeof(double)), or comes from the generic
-    arguments at the call, or from the CLR property's type.
+    arguments at the call, or from the CLR property's type. <paramref name="siblings"/> is the rest of a partial class
+    (its other files), whose helpers this file may call.
     """
     helpers = {}
-    for m in HELPER.finditer(s):
+    for m in [*HELPER.finditer(siblings), *HELPER.finditer(s)]:
+        here = m.string is s
         body = m.group("body")
         generic = [g.strip() for g in split_top(m.group("gen") or "")]
         typeofs = [t for t in re.findall(r"typeof\((\w+)\)", body) if t not in generic]
@@ -316,11 +320,11 @@ def expand_register_helpers(s: str) -> str:
                  if word in body]
         # A helper without a value parameter has its default in its own metadata: new FrameworkPropertyMetadata(false, …).
         default = re.search(r"new FrameworkPropertyMetadata\(([^,()]+)", body)
-        helpers[m.group("name")] = (m.span(), owner, value_type, flags, len(generic) == 2, default.group(1).strip() if default else None)
+        helpers[m.group("name")] = (m.span() if here else None, owner, value_type, flags, len(generic) == 2, default.group(1).strip() if default else None)
     if not helpers:
         return s
 
-    for span, *_ in sorted(helpers.values(), key=lambda h: h[0][0], reverse=True):
+    for span, *_ in sorted((h for h in helpers.values() if h[0]), key=lambda h: h[0][0], reverse=True):
         s = s[:span[0]] + "\n" + s[span[1]:]
 
     call = re.compile(rf"public static readonly DependencyProperty (\w+)Property = ({'|'.join(map(re.escape, helpers))})(?:<([^>]+)>)?\(")
@@ -359,6 +363,7 @@ CLASS = re.compile(r"^(?P<head>(?:(?:public|internal|private|protected|sealed|ab
 def convert_late(s: str) -> str:
     """Rewrites of what the other passes produced: run last."""
     arg = r"((?:[^,()]|\((?:[^()]|\([^()]*\))*\))+)"
+    s = rewrite_initialized_pens(s)
     # The book puts a chapter's title on its left page: the diagram keeps only the margin, not a band for the title.
     s = re.sub(r"^(\s*)private double TitleSpace => Math\.Max\(.*, (22 \+ TitleHeight \+ \d+)\);$",
                r"\1// The book puts the title on the left page: only a margin at the top, not the original's title band.\n"
@@ -378,6 +383,12 @@ def convert_late(s: str) -> str:
     s = rewrite_visual_bitmaps(s)
     s = rewrite_initialized_gradients(s)
     s = rewrite_frozen_pens(s)
+    s = s.replace(".LengthSquared", ".SquaredLength")
+    s = re.sub(r"^(\s*)([\w.]+) = e\.Pointer\.Capture\(this\);$", r"\1e.Pointer.Capture(this);\n\1\2 = true;", s, flags=re.M)
+    # A polyline added in one call: Avalonia's context takes the points one by one.
+    s = re.sub(r"^(\s*)(\w+)\.PolyLineTo\((.+?), (?:true|false), (?:true|false)\);$",
+               r"\1foreach (var next in \3) \2.LineTo(next);", s, flags=re.M)
+    s = rewrite_empty_rects(s)
     s = rewrite_static_calls(s, "Rect.Union", lambda a: f"{a[0]}.Union({a[1]})" if len(a) == 2 else None)
     return s
 
@@ -544,6 +555,54 @@ def rewrite_frozen_pens(text: str) -> str:
     return "".join(out)
 
 
+def rewrite_initialized_pens(text: str) -> str:
+    """
+    new Pen(brush, width) { StartLineCap = …, EndLineCap = …, LineJoin = …, DashStyle = … }, frozen or not: an
+    immutable pen. WPF's DashCap has no Avalonia counterpart (dashes end with the pen's line cap) and is dropped.
+    """
+    out, i = [], 0
+    pattern = re.compile(r"(Freeze\()?new Pen\(")
+    while (m := pattern.search(text, i)) is not None:
+        close = match_bracket(text, m.end() - 1)
+        args = split_top(text[m.end():close])
+        found = _initializer(text, close + 1)
+        # (a frozen pen with only a dash style is rewrite_frozen_pens's)
+        if (len(args) != 2 or not found or not set(found[0]) <= {"StartLineCap", "EndLineCap", "LineJoin", "DashStyle", "DashCap"}
+                or (m.group(1) and set(found[0]) <= {"DashStyle"})):
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        entries, end = found
+        if m.group(1):
+            rest = text[end:].lstrip()
+            if not rest.startswith(")"):
+                out.append(text[i:m.end()])
+                i = m.end()
+                continue
+            end = len(text) - len(rest) + 1
+        dash = entries.get("DashStyle", "null").replace("new DashStyle(", "new ImmutableDashStyle(")
+        cap = entries.get("StartLineCap", entries.get("EndLineCap", "PenLineCap.Flat"))
+        join = entries.get("LineJoin", "PenLineJoin.Miter")
+        out.append(text[i:m.start()])
+        out.append(f"new ImmutablePen(((IBrush){args[0]}).ToImmutable(), {args[1]}, {dash}, {cap}, {join})")
+        i = end
+    out.append(text[i:])
+    return "".join(out)
+
+
+def rewrite_empty_rects(text: str) -> str:
+    """
+    WPF's Rect.Empty (no rectangle yet) is Avalonia's default Rect, whose Union gives the other rectangle back, as
+    WPF's does with Empty. IsEmpty is asked of the rectangles the file declares or sets to Empty.
+    """
+    rects = set(re.findall(r"\bRect\??\s+(\w+)\b", text)) | set(re.findall(r"\b(\w+) = Rect\.Empty\b", text))
+    text = text.replace("Rect.Empty", "default(Rect)")
+    for name in rects:
+        text = re.sub(rf"!\b{name}\.IsEmpty\b", f"{name} != default", text)
+        text = re.sub(rf"\b{name}\.IsEmpty\b", f"{name} == default", text)
+    return text
+
+
 def rewrite_static_calls(text: str, name: str, build) -> str:
     """Rewrites each call of name(...) whose arguments build accepts (it returns None to leave one)."""
     out, i = [], 0
@@ -606,12 +665,12 @@ def convert_recurring(s: str) -> str:
     return s
 
 
-def convert_properties(s: str, part: str | None = None) -> str:
+def convert_properties(s: str, part: str | None = None, siblings: str = "") -> str:
     """
     DependencyProperty.Register -> AvaloniaProperty.Register, with callbacks, AffectsRender and attach/detach, for each
     class of the file. <paramref name="part"/> names the file's part of a partial class (Objects in X.Objects.cs).
     """
-    s = expand_register_helpers(s)
+    s = expand_register_helpers(s, siblings)
     out, i = [], 0
     for m in CLASS.finditer(s):
         if m.start() < i:
@@ -675,7 +734,10 @@ def convert_class(body: str, owner: str, partial: bool, has_base: bool, part: st
             affects_render.append(f"{name}Property")
         if callback:
             cb = callback.split("=>", 1)[1].strip()
-            cb = re.sub(rf"\(\({owner}\)d\)\.", "", cb)
+            control = re.match(r"\(\s*(\w+)\s*,", callback)
+            control = control.group(1) if control else "d"
+            cb = re.sub(rf"\(\({owner}\){control}\)\.", "", cb)
+            cb = re.sub(rf"\b{control}\.(?=\w)", "", cb) if control != "d" else cb
             cb = re.sub(r"e\.NewValue as [\w.<>?]+|\([\w.<>?]+\)e\.NewValue", f"change.GetNewValue<{t}>()", cb)
             cb = re.sub(r"e\.OldValue as [\w.<>?]+|\([\w.<>?]+\)e\.OldValue", f"change.GetOldValue<{t}>()", cb)
             callbacks.append((name, cb))
@@ -819,7 +881,8 @@ def convert_plumbing(s: str) -> str:
 def convert_points(s: str) -> str:
     """WPF Point/Vector idioms that mean something else, or nothing, in Avalonia."""
     # A Point difference is a Point in Avalonia: `var x = a - b;` whose Length is used becomes a Vector.
-    for m in reversed(list(re.finditer(r"\bvar (\w+) = ([\w.()]+) - ([\w.()]+);", s))):
+    operand = r"[\w.]+(?:\([^()]*\)|\[[^\]]*\])?"
+    for m in reversed(list(re.finditer(rf"\bvar (\w+) = ({operand}) - ({operand});", s))):
         rest = s[m.end():m.end() + 1500]
         if re.search(rf"\b{m.group(1)}\.(?:Length|Normalize\(\))|\b{m.group(1)} /= ", rest):
             s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
@@ -871,7 +934,11 @@ def drawing(args: argparse.Namespace) -> None:
     s = apply_namespaces(s, args.namespace, args.source_prefix, args.map)
     s = convert_types(s, args.namespace)
     part = Path(args.target).stem.split('.')[1] if '.' in Path(args.target).stem else None
-    s = convert_properties(s, part)
+    # The other files of a partial class (X.cs, X.Objects.cs, ...) may define the property helpers this one calls.
+    stem = Path(args.source).stem.split(".")[0]
+    siblings = "".join(f.read_text(encoding="utf-8") for f in Path(args.source).parent.glob(f"{stem}*.cs")
+                       if f.name != Path(args.source).name and f.stem.split(".")[0] == stem)
+    s = convert_properties(s, part, siblings)
     s = convert_plumbing(s)
     s = convert_points(s)
     s = convert_late(s)

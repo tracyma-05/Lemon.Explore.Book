@@ -1,0 +1,217 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:volcano="using:Lemon.Explore.Book.Chapters.Volcanoes"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Volcanoes.VolcanoTextPageView"
+                         x:DataType="volcano:VolcanoTextPageViewModel">
+    <!-- Left page of the Volcanoes spread: the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Volcano.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Volcano.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Volcano.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="VolcanoMode" IsChecked="{Binding Volcano.IsEruption}" Content="{loc:Localize Volc_Mode_Eruption}" />
+                    <RadioButton Classes="chip" GroupName="VolcanoMode" IsChecked="{Binding Volcano.IsCycle}" Content="{loc:Localize Volc_Mode_Cycle}" />
+                    <RadioButton Classes="chip" GroupName="VolcanoMode" IsChecked="{Binding Volcano.IsMagnifier}" Content="{loc:Localize Volc_Mode_Magnifier}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Volcano.Card}" />
+
+                <!-- The eruption: a famous volcano, or its magma's silica and water -->
+                <StackPanel IsVisible="{Binding Volcano.IsEruption}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Presets_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[Kilauea]}" Content="{loc:Localize Volc_Preset_Kilauea}" />
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[Wudalianchi]}" Content="{loc:Localize Volc_Preset_Wudalianchi}" />
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[Stromboli]}" Content="{loc:Localize Volc_Preset_Stromboli}" />
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[Merapi]}" Content="{loc:Localize Volc_Preset_Merapi}" />
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[StHelens]}" Content="{loc:Localize Volc_Preset_StHelens}" />
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[Pinatubo]}" Content="{loc:Localize Volc_Preset_Pinatubo}" />
+                        <RadioButton Classes="chip" GroupName="VolcPreset" IsChecked="{Binding Volcano.PresetChoice[Changbaishan]}" Content="{loc:Localize Volc_Preset_Changbaishan}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Volcano.SilicaText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Volc_Silica}" />
+                    </DockPanel>
+                    <Slider Minimum="48" Maximum="76" Value="{Binding Volcano.Silica}" SmallChange="0.5" LargeChange="2"
+                            AutomationProperties.Name="{loc:Localize Volc_Silica}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Volcano.WaterText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Volc_Water}" />
+                    </DockPanel>
+                    <Slider Minimum="0.2" Maximum="7" Value="{Binding Volcano.Water}" SmallChange="0.1" LargeChange="0.5"
+                            AutomationProperties.Name="{loc:Localize Volc_Water}" />
+                    <WrapPanel Margin="0,12,0,0">
+                        <Button Classes="chip" Command="{Binding Volcano.EruptNowCommand}" Content="{loc:Localize Volc_EruptNow}" />
+                        <Button Classes="chip" Command="{Binding Volcano.RestartCommand}" Content="{loc:Localize Volc_Restart}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Volcano.ShowLevels}" Content="{loc:Localize Volc_Option_Levels}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Volcano.ShowLabels}" Content="{loc:Localize Volc_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Volc_Eruption_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The rock cycle: a grain or magma to follow -->
+                <StackPanel IsVisible="{Binding Volcano.IsCycle}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Follow_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="VolcJourney" IsChecked="{Binding Volcano.JourneyChoice[Sand]}" Content="{loc:Localize Volc_Journey_Sand}" />
+                        <RadioButton Classes="chip" GroupName="VolcJourney" IsChecked="{Binding Volcano.JourneyChoice[Mud]}" Content="{loc:Localize Volc_Journey_Mud}" />
+                        <RadioButton Classes="chip" GroupName="VolcJourney" IsChecked="{Binding Volcano.JourneyChoice[Shell]}" Content="{loc:Localize Volc_Journey_Shell}" />
+                        <RadioButton Classes="chip" GroupName="VolcJourney" IsChecked="{Binding Volcano.JourneyChoice[Magma]}" Content="{loc:Localize Volc_Journey_Magma}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Volcano.RestartCommand}" Content="{loc:Localize Volc_Restart}" />
+                        <Button Classes="chip" Command="{Binding Volcano.StopFollowingCommand}" Content="{loc:Localize Volc_StopFollowing}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Volcano.ShowLabels}" Content="{loc:Localize Volc_Option_RockLabels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Volc_Cycle_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Under the magnifier: rock cooling, settling or squeezed -->
+                <StackPanel IsVisible="{Binding Volcano.IsMagnifier}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Process_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="VolcProcess" IsChecked="{Binding Volcano.ProcessChoice[Cooling]}" Content="{loc:Localize Volc_Process_Cooling}" />
+                        <RadioButton Classes="chip" GroupName="VolcProcess" IsChecked="{Binding Volcano.ProcessChoice[Settling]}" Content="{loc:Localize Volc_Process_Settling}" />
+                        <RadioButton Classes="chip" GroupName="VolcProcess" IsChecked="{Binding Volcano.ProcessChoice[Squeezing]}" Content="{loc:Localize Volc_Process_Squeezing}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Volcano.IsCooling}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Magma_Caption}" />
+                        <WrapPanel>
+                            <RadioButton Classes="chip" GroupName="VolcMagma" IsChecked="{Binding Volcano.MagmaChoice[Felsic]}" Content="{loc:Localize Volc_Magma_Felsic}" />
+                            <RadioButton Classes="chip" GroupName="VolcMagma" IsChecked="{Binding Volcano.MagmaChoice[Mafic]}" Content="{loc:Localize Volc_Magma_Mafic}" />
+                        </WrapPanel>
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Volcano.CoolRateText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Volc_CoolRate}" />
+                        </DockPanel>
+                        <Slider Minimum="-3" Maximum="7.5" Value="{Binding Volcano.CoolRate, Delay=250}" SmallChange="0.25" LargeChange="1"
+                                AutomationProperties.Name="{loc:Localize Volc_CoolRate}" />
+                        <WrapPanel Margin="0,10,0,0">
+                            <ToggleButton Classes="chip" IsChecked="{Binding Volcano.Gas}" Content="{loc:Localize Volc_Option_Gas}" />
+                            <ToggleButton Classes="chip" IsChecked="{Binding Volcano.TwoStage}" Content="{loc:Localize Volc_Option_TwoStage}" />
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Button Classes="chip" Command="{Binding Volcano.CoolAgainCommand}" Content="{loc:Localize Volc_CoolAgain}" />
+                        </WrapPanel>
+                        <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Volc_Cooling_Panel_Note}" />
+                    </StackPanel>
+                    <StackPanel IsVisible="{Binding Volcano.IsSettling}">
+                        <WrapPanel Margin="0,10,0,0">
+                            <Button Classes="chip" Command="{Binding Volcano.PourCommand}" Content="{loc:Localize Volc_Pour}" />
+                            <Button Classes="chip" Command="{Binding Volcano.EmptyTankCommand}" Content="{loc:Localize Volc_EmptyTank}" />
+                        </WrapPanel>
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Volcano.BurialText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Volc_Burial}" />
+                        </DockPanel>
+                        <Slider Minimum="0" Maximum="4" Value="{Binding Volcano.BurialKm}" SmallChange="0.1" LargeChange="0.5"
+                                AutomationProperties.Name="{loc:Localize Volc_Burial}" />
+                        <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Volc_Settling_Panel_Note}" />
+                    </StackPanel>
+                    <StackPanel IsVisible="{Binding Volcano.IsSqueezing}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Parent_Caption}" />
+                        <WrapPanel>
+                            <RadioButton Classes="chip" GroupName="VolcParent" IsChecked="{Binding Volcano.ParentChoice[Shale]}" Content="{loc:Localize Volc_State_Shale}" />
+                            <RadioButton Classes="chip" GroupName="VolcParent" IsChecked="{Binding Volcano.ParentChoice[Sandstone]}" Content="{loc:Localize Volc_State_Sandstone}" />
+                            <RadioButton Classes="chip" GroupName="VolcParent" IsChecked="{Binding Volcano.ParentChoice[Limestone]}" Content="{loc:Localize Volc_State_Limestone}" />
+                        </WrapPanel>
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Volcano.DepthText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Volc_Depth}" />
+                        </DockPanel>
+                        <Slider Minimum="0" Maximum="30" Value="{Binding Volcano.SqueezeDepthKm}" SmallChange="0.5" LargeChange="2"
+                                AutomationProperties.Name="{loc:Localize Volc_Depth}" />
+                        <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Volc_Squeezing_Panel_Note}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Volcano.ChartCaption}" />
+                <Border Classes="plate" Height="210">
+                    <volcano:VolcanoChart Mode="{Binding Volcano.Mode}" Process="{Binding Volcano.Process}" Silica="{Binding Volcano.Silica, Mode=TwoWay}"
+                                          Water="{Binding Volcano.Water, Mode=TwoWay}" JourneyId="{Binding Volcano.JourneyId}" Progress="{Binding Volcano.Progress}"
+                                          Crystals="{Binding Volcano.Crystals}" SqueezeParent="{Binding Volcano.SqueezeParent}"
+                                          SqueezeDepthKm="{Binding Volcano.SqueezeDepthKm, Mode=TwoWay}" InteractionCommand="{Binding Volcano.UserInteractedCommand}"
+                                          AutomationProperties.Name="{Binding Volcano.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Volcano.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Volcano.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Volcano.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Volcano.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Volcano.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Volc_Facts}" />
+                <ItemsControl ItemsSource="{Binding Volcano.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

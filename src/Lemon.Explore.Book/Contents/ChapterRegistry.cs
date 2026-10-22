@@ -2,6 +2,7 @@ using Lemon.Explore.Book.Chapters.Aurora;
 using Lemon.Explore.Book.Chapters.BlackHole;
 using Lemon.Explore.Book.Chapters.BlueSky;
 using Lemon.Explore.Book.Chapters.DayNight;
+using Lemon.Explore.Book.Chapters.Earthquakes;
 using Lemon.Explore.Book.Chapters.Eclipses;
 using Lemon.Explore.Book.Chapters.Expansion;
 using Lemon.Explore.Book.Chapters.Greenhouse;
@@ -17,6 +18,7 @@ using Lemon.Explore.Book.Chapters.StarLife;
 using Lemon.Explore.Book.Chapters.StarTrails;
 using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.Chapters.Typhoon;
+using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Chapters.WaterCycle;
 using Lemon.Explore.Book.ViewModels.Pages;
 
@@ -29,7 +31,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -194,6 +196,22 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, aurora.Lesson, () => aurora.Mode.ToString(), Enum.GetNames<AuroraMode>());
                 return (new AuroraTextPageViewModel(textPage, navigator, chapter, number, aurora),
                     new AuroraDiagramPageViewModel(textPage + 1, navigator, chapter, aurora));
+            }
+
+            case "Earthquakes":
+            {
+                var quake = new QuakeViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, quake.Lesson, () => quake.Mode.ToString(), Enum.GetNames<QuakeMode>());
+                return (new QuakeTextPageViewModel(textPage, navigator, chapter, number, quake),
+                    new QuakeDiagramPageViewModel(textPage + 1, navigator, chapter, quake));
+            }
+
+            case "Volcanoes":
+            {
+                var volcano = new VolcanoViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, volcano.Lesson, () => volcano.Mode.ToString(), Enum.GetNames<VolcanoMode>());
+                return (new VolcanoTextPageViewModel(textPage, navigator, chapter, number, volcano),
+                    new VolcanoDiagramPageViewModel(textPage + 1, navigator, chapter, volcano));
             }
 
             default:
