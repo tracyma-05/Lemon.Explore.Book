@@ -4242,12 +4242,6 @@
   <data name="Toolbar_Previous" xml:space="preserve">
     <value>上一页</value>
   </data>
-  <data name="Toolbar_SwitchLanguage" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="Toolbar_SwitchLanguage_Tip" xml:space="preserve">
-    <value>切换到英文</value>
-  </data>
   <data name="Volume_Chemistry" xml:space="preserve">
     <value>化学</value>
   </data>
@@ -4262,5 +4256,50 @@
   </data>
   <data name="Volume_Sky" xml:space="preserve">
     <value>天空</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Settings_Tip" xml:space="preserve">
+    <value>语言、观察地点、讲解和翻页</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>修改立即生效，并保存在这台设备上。</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Settings_Language_Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Settings_Language_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Settings_Narration" xml:space="preserve">
+    <value>讲解</value>
+  </data>
+  <data name="Settings_Voice" xml:space="preserve">
+    <value>朗读讲解</value>
+  </data>
+  <data name="Settings_Volume" xml:space="preserve">
+    <value>音量</value>
+  </data>
+  <data name="Settings_Subtitles" xml:space="preserve">
+    <value>显示字幕</value>
+  </data>
+  <data name="Settings_SpeakOnClick" xml:space="preserve">
+    <value>点击画面里的东西时朗读说明</value>
+  </data>
+  <data name="Settings_Narration_Note" xml:space="preserve">
+    <value>关闭朗读后，讲解仍会按阅读速度显示字幕。</value>
+  </data>
+  <data name="Settings_Reading" xml:space="preserve">
+    <value>阅读</value>
+  </data>
+  <data name="Settings_AnimatesTurns" xml:space="preserve">
+    <value>翻页动画</value>
+  </data>
+  <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
+    <value>关闭后直接换页，适合不喜欢动态效果的读者。</value>
   </data>
 </root>

@@ -2,13 +2,12 @@ using System.Globalization;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Lemon.Explore.Book.Contents;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.ViewModels;
 
-/// <summary>The whole book: its pages in order, the reading page, and the reader's language.</summary>
+/// <summary>The whole book: its pages in order, the reading page, and the reader's settings.</summary>
 public sealed partial class MainViewModel : ObservableObject, IBookNavigator
 {
     private readonly ISettingsStore _settings;
@@ -31,12 +30,13 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
             ? page
             : 0;
         _pageIndex = Math.Clamp(saved, 0, Pages.Count - 1);
-        AnimatesTurns = settings.Get(SettingKeys.AnimatesTurns) != bool.FalseString;
+        Settings = new SettingsViewModel(services);
     }
 
     public IReadOnlyList<PageViewModel> Pages { get; }
 
-    public bool AnimatesTurns { get; }
+    /// <summary>Language, observer location, narration and page turning (the settings button).</summary>
+    public SettingsViewModel Settings { get; }
 
     public void GoToPage(int pageIndex) => PageIndex = Math.Clamp(pageIndex, 0, Pages.Count - 1);
 
@@ -45,13 +45,7 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
 
     /// <summary>Flips between English and Chinese; the choice is remembered on this device.</summary>
     [RelayCommand]
-    private void SwitchLanguage()
-    {
-        var localization = LocalizationService.Instance;
-        var next = localization.SupportedCultures.First(c => !c.Equals(localization.CurrentCulture));
-        localization.SetCulture(next);
-        _settings.Set(SettingKeys.Culture, next.Name);
-    }
+    private void SwitchLanguage() => Settings.SwitchLanguage();
 
     partial void OnPageIndexChanged(int value) =>
         _settings.Set(SettingKeys.PageIndex, value.ToString(CultureInfo.InvariantCulture));

@@ -24,6 +24,7 @@
         <StreamGeometry x:Key="Icon.Voice">M3,9 H7 L12,4 V20 L7,15 H3 Z M15,7 A6,6 0 0 1 15,17 L15,15 A4,4 0 0 0 15,9 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Pin">M12,2 A7,7 0 0 1 19,9 C19,14 12,22 12,22 C12,22 5,14 5,9 A7,7 0 0 1 12,2 Z M12,6 A3,3 0 1 0 12,12 A3,3 0 1 0 12,6 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.ChevronDown">M7,9 L12,14 L17,9 L18.4,10.4 L12,16.8 L5.6,10.4 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Settings">F1 M12,4.5 A7.5,7.5 0 1 1 12,19.5 A7.5,7.5 0 1 1 12,4.5 Z M18,10.3 L21.5,10.3 L21.5,13.7 L18,13.7 Z M17.44,15.04 L19.92,17.52 L17.52,19.92 L15.04,17.44 Z M13.7,18 L13.7,21.5 L10.3,21.5 L10.3,18 Z M8.96,17.44 L6.48,19.92 L4.08,17.52 L6.56,15.04 Z M6,13.7 L2.5,13.7 L2.5,10.3 L6,10.3 Z M6.56,8.96 L4.08,6.48 L6.48,4.08 L8.96,6.56 Z M10.3,6 L10.3,2.5 L13.7,2.5 L13.7,6 Z M15.04,6.56 L17.52,4.08 L19.92,6.48 L17.44,8.96 Z M12,8.5 A3.5,3.5 0 1 0 12,15.5 A3.5,3.5 0 1 0 12,8.5 Z</StreamGeometry>
 
         <!-- A flat, round pill: the template of every `space` and `chip` button. -->
         <ControlTemplate x:Key="PillTemplate" TargetType="ContentControl">
@@ -71,6 +72,18 @@
     <Style Selector=".space PathIcon">
         <Setter Property="Width" Value="16" />
         <Setter Property="Height" Value="16" />
+    </Style>
+
+    <!-- A flyout on paper (the location picker, the settings) -->
+    <Style Selector="FlyoutPresenter.paper">
+        <Setter Property="Background" Value="#FBF7EF" />
+        <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="Padding" Value="16,4,16,16" />
+        <Setter Property="Width" Value="380" />
+        <Setter Property="MaxWidth" Value="380" />
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
     </Style>
 
     <!-- Light pills on the paper page -->

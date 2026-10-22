@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="using:Lemon.Explore.Book.ViewModels"
+             xmlns:views="using:Lemon.Explore.Book.Views"
              xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
              xmlns:pageViews="using:Lemon.Explore.Book.Views.Pages"
              xmlns:controls="using:Lemon.Explore.Book.Controls"
@@ -53,7 +54,7 @@
         <Border DockPanel.Dock="Top" Classes="toolbar">
             <Grid ColumnDefinitions="*,Auto">
                 <TextBlock Classes="toolbarTitle" Text="{loc:Localize App_Title}" />
-                <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6">
+                <StackPanel Grid.Column="1" Classes="toolbarButtons" Orientation="Horizontal" Spacing="6">
                     <Button Content="&#x2039;" Click="OnPreviousClick"
                             ToolTip.Tip="{loc:Localize Toolbar_Previous}"
                             AutomationProperties.Name="{loc:Localize Toolbar_Previous}" />
@@ -61,8 +62,20 @@
                             ToolTip.Tip="{loc:Localize Toolbar_Next}"
                             AutomationProperties.Name="{loc:Localize Toolbar_Next}" />
                     <Button Content="{loc:Localize Toolbar_Contents}" Command="{Binding GoToContentsCommand}" />
-                    <Button Content="{loc:Localize Toolbar_SwitchLanguage}" Command="{Binding SwitchLanguageCommand}"
-                            ToolTip.Tip="{loc:Localize Toolbar_SwitchLanguage_Tip}" />
+                    <!-- Everything the reader can set, in one place -->
+                    <Button x:Name="SettingsButton"
+                            ToolTip.Tip="{loc:Localize Settings_Tip}"
+                            AutomationProperties.Name="{loc:Localize Settings_Title}">
+                        <StackPanel Orientation="Horizontal" Spacing="6">
+                            <PathIcon Width="15" Height="15" Data="{StaticResource Icon.Settings}" />
+                            <TextBlock VerticalAlignment="Center" Text="{loc:Localize Settings_Title}" />
+                        </StackPanel>
+                        <Button.Flyout>
+                            <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper settings">
+                                <views:SettingsView DataContext="{Binding Settings}" />
+                            </Flyout>
+                        </Button.Flyout>
+                    </Button>
                 </StackPanel>
             </Grid>
         </Border>
@@ -70,6 +83,6 @@
         <controls:BookView x:Name="Book"
                            Pages="{Binding Pages}"
                            PageIndex="{Binding PageIndex}"
-                           AnimatesTurns="{Binding AnimatesTurns}" />
+                           AnimatesTurns="{Binding Settings.AnimatesTurns}" />
     </DockPanel>
 </UserControl>

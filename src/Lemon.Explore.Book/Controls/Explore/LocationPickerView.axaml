@@ -1,0 +1,67 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             xmlns:places="using:Lemon.Explore.Book.Explore.Places"
+             x:Class="Lemon.Explore.Book.Controls.Explore.LocationPickerView"
+             x:DataType="places:ExploreLocationPickerViewModel">
+    <!-- The observer location picker: presets, a point of your own, and the chosen place. Shown in the location chip's
+         flyout and in the settings. -->
+    <UserControl.Styles>
+        <Style Selector="TextBlock.value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        </Style>
+    </UserControl.Styles>
+
+    <StackPanel>
+        <TextBlock Classes="note" Margin="0,0,0,10" Text="{loc:Localize Location_Description}" />
+
+        <ListBox Classes="chips" ItemsSource="{Binding Places}" SelectedItem="{Binding SelectedPlace}"
+                 AutomationProperties.Name="{loc:Localize Location_Title}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate x:DataType="places:ExplorePlaceOption">
+                    <TextBlock Text="{Binding Name}" ToolTip.Tip="{Binding CoordinatesText}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <WrapPanel>
+            <RadioButton Classes="chip" GroupName="ExploreLocationCustom" IsChecked="{Binding IsCustom}"
+                         Content="{loc:Localize Location_City_Custom}" />
+        </WrapPanel>
+
+        <!-- Custom point -->
+        <TextBlock Classes="caption" Text="{loc:Localize Location_Custom_Caption}" />
+        <DockPanel>
+            <TextBlock Classes="value" Text="{Binding CustomLatitude, StringFormat={}{0:0.0}°}" />
+            <TextBlock Classes="note" Text="{loc:Localize Location_Latitude}" />
+        </DockPanel>
+        <Slider Minimum="-90" Maximum="90" SmallChange="0.1" LargeChange="5" Value="{Binding CustomLatitude}"
+                AutomationProperties.Name="{loc:Localize Location_Latitude}" />
+        <DockPanel>
+            <TextBlock Classes="value" Text="{Binding CustomLongitude, StringFormat={}{0:0.0}°}" />
+            <TextBlock Classes="note" Text="{loc:Localize Location_Longitude}" />
+        </DockPanel>
+        <Slider Minimum="-180" Maximum="180" SmallChange="0.1" LargeChange="5" Value="{Binding CustomLongitude}"
+                AutomationProperties.Name="{loc:Localize Location_Longitude}" />
+        <TextBlock Classes="note" Margin="0,2,0,10" Text="{Binding CustomText}" />
+        <WrapPanel>
+            <Button Classes="chip" Command="{Binding UseCustomCommand}" Content="{loc:Localize Location_Custom_Use}" />
+            <Button Classes="chip" Command="{Binding CopyCurrentCommand}" Content="{loc:Localize Location_Custom_FromCurrent}" />
+        </WrapPanel>
+
+        <Rectangle Height="1" Margin="0,12,0,10" Fill="{StaticResource ChipBorderBrush}" />
+        <TextBlock FontSize="13" TextWrapping="Wrap" Foreground="{StaticResource InkBrush}">
+            <Run Text="{Binding Name, Mode=OneWay}" FontWeight="SemiBold" />
+            <Run Text="  " />
+            <Run Text="{Binding CoordinatesText, Mode=OneWay}" Foreground="{StaticResource BodyInkBrush}" />
+        </TextBlock>
+        <TextBlock Classes="note" Margin="0,4,0,0" Text="{Binding DetailsText}" />
+    </StackPanel>
+</UserControl>

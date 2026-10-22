@@ -1,0 +1,72 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Lemon.Explore.Book.ViewModels"
+             xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Views.SettingsView"
+             x:DataType="vm:SettingsViewModel">
+    <!-- The settings, opened from the button at the top right: language, observer location, narration, page turning. -->
+    <UserControl.Styles>
+        <Style Selector="TextBlock.section">
+            <Setter Property="Margin" Value="0,16,0,8" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        </Style>
+        <Style Selector="Rectangle.divider">
+            <Setter Property="Height" Value="1" />
+            <Setter Property="Margin" Value="0,16,0,0" />
+            <Setter Property="Fill" Value="{StaticResource ChipBorderBrush}" />
+        </Style>
+        <Style Selector="CheckBox">
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="MinHeight" Value="28" />
+        </Style>
+    </UserControl.Styles>
+
+    <!-- Scrolls on its own when the window is short. -->
+    <ScrollViewer MaxHeight="620" HorizontalScrollBarVisibility="Disabled" Padding="0,0,6,0">
+        <StackPanel>
+            <TextBlock Classes="kicker" Margin="0,12,0,0" Text="{loc:Localize Settings_Title}" />
+            <TextBlock Classes="note" Text="{loc:Localize Settings_Saved}" />
+
+            <!-- Language -->
+            <TextBlock Classes="section" Text="{loc:Localize Settings_Language}" />
+            <WrapPanel>
+                <RadioButton Classes="chip" GroupName="SettingsLanguage" IsChecked="{Binding IsChinese}" Content="{loc:Localize Settings_Language_Chinese}" />
+                <RadioButton Classes="chip" GroupName="SettingsLanguage" IsChecked="{Binding IsEnglish}" Content="{loc:Localize Settings_Language_English}" />
+            </WrapPanel>
+
+            <Rectangle Classes="divider" />
+
+            <!-- Observer location -->
+            <TextBlock Classes="section" Text="{loc:Localize Location_Title}" />
+            <explore:LocationPickerView DataContext="{Binding Location}" />
+
+            <Rectangle Classes="divider" />
+
+            <!-- Narration -->
+            <TextBlock Classes="section" Text="{loc:Localize Settings_Narration}" />
+            <CheckBox IsChecked="{Binding VoiceEnabled}" Content="{loc:Localize Settings_Voice}" />
+            <DockPanel Margin="0,4,0,0" IsEnabled="{Binding VoiceEnabled}">
+                <TextBlock DockPanel.Dock="Left" Margin="0,0,12,0" VerticalAlignment="Center" FontSize="13"
+                           Foreground="{StaticResource BodyInkBrush}" Text="{loc:Localize Settings_Volume}" />
+                <TextBlock DockPanel.Dock="Right" Margin="12,0,0,0" MinWidth="32" VerticalAlignment="Center" FontSize="13"
+                           TextAlignment="Right" Foreground="{StaticResource InkBrush}" Text="{Binding VolumePercent}" />
+                <Slider Minimum="0" Maximum="100" SmallChange="5" LargeChange="10" Value="{Binding VolumePercent}"
+                        AutomationProperties.Name="{loc:Localize Settings_Volume}" />
+            </DockPanel>
+            <CheckBox IsChecked="{Binding ShowSubtitles}" Content="{loc:Localize Settings_Subtitles}" />
+            <CheckBox IsChecked="{Binding SpeakOnClick}" Content="{loc:Localize Settings_SpeakOnClick}" />
+            <TextBlock Classes="note" Margin="0,4,0,0" Text="{loc:Localize Settings_Narration_Note}" />
+
+            <Rectangle Classes="divider" />
+
+            <!-- Reading -->
+            <TextBlock Classes="section" Text="{loc:Localize Settings_Reading}" />
+            <CheckBox IsChecked="{Binding AnimatesTurns}" Content="{loc:Localize Settings_AnimatesTurns}" />
+            <TextBlock Classes="note" Margin="0,4,0,0" Text="{loc:Localize Settings_AnimatesTurns_Note}" />
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

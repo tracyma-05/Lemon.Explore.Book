@@ -75,13 +75,13 @@
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
-        <Style Selector="Border.toolbar Button">
+        <Style Selector="Border.toolbar StackPanel.toolbarButtons > Button">
             <Setter Property="Foreground" Value="#F3E9DA" />
             <Setter Property="Background" Value="#26FFFFFF" />
             <Setter Property="MinWidth" Value="40" />
             <Setter Property="HorizontalContentAlignment" Value="Center" />
         </Style>
-        <Style Selector="Border.toolbar Button:pointerover /template/ ContentPresenter">
+        <Style Selector="Border.toolbar StackPanel.toolbarButtons > Button:pointerover /template/ ContentPresenter">
             <Setter Property="Background" Value="#40FFFFFF" />
             <Setter Property="Foreground" Value="#FFFFFF" />
         </Style>

@@ -38,7 +38,8 @@ dotnet run --project src/Lemon.Explore.Book.Browser
 
 - Turn a page: drag a page's outer edge, click it, or press ← / →.
 - **Contents** in the toolbar goes back to the table of contents.
-- **中文 / English** switches the language at any time.
+- **Settings** (top right) has everything you can set: the language, your observer location, narration (voice,
+  volume, subtitles) and page-turn animation. Changes apply at once and are saved on the device.
 
 ## Project layout
 

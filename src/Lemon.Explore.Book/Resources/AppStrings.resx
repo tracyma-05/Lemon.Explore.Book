@@ -4242,12 +4242,6 @@
   <data name="Toolbar_Previous" xml:space="preserve">
     <value>Previous page</value>
   </data>
-  <data name="Toolbar_SwitchLanguage" xml:space="preserve">
-    <value>中文</value>
-  </data>
-  <data name="Toolbar_SwitchLanguage_Tip" xml:space="preserve">
-    <value>Read in Chinese</value>
-  </data>
   <data name="Volume_Chemistry" xml:space="preserve">
     <value>Chemistry</value>
   </data>
@@ -4262,5 +4256,50 @@
   </data>
   <data name="Volume_Sky" xml:space="preserve">
     <value>The Sky</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_Tip" xml:space="preserve">
+    <value>Language, observer location, narration and page turning</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>Changes take effect at once and are saved on this device.</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Settings_Language_Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Settings_Language_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Settings_Narration" xml:space="preserve">
+    <value>Narration</value>
+  </data>
+  <data name="Settings_Voice" xml:space="preserve">
+    <value>Read aloud</value>
+  </data>
+  <data name="Settings_Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Settings_Subtitles" xml:space="preserve">
+    <value>Show subtitles</value>
+  </data>
+  <data name="Settings_SpeakOnClick" xml:space="preserve">
+    <value>Read out what you click in a picture</value>
+  </data>
+  <data name="Settings_Narration_Note" xml:space="preserve">
+    <value>With reading aloud off, walkthroughs still run with subtitles at a reading pace.</value>
+  </data>
+  <data name="Settings_Reading" xml:space="preserve">
+    <value>Reading</value>
+  </data>
+  <data name="Settings_AnimatesTurns" xml:space="preserve">
+    <value>Animate page turns</value>
+  </data>
+  <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
+    <value>Off: pages change at once, for readers who prefer less motion.</value>
   </data>
 </root>
