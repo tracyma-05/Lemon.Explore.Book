@@ -37,7 +37,7 @@ public sealed partial class BlackHoleDiagram
         var h = Math.Max(1, (int)Math.Ceiling(ActualHeight / ShadowPixel));
         var image = _shadow.Render(w, h, scale / ShadowPixel, new Point(centre.X / ShadowPixel, centre.Y / ShadowPixel),
             Inclination, BendLight, ShowDisk, Doppler, ShowStars, _diskTime);
-        dc.DrawImage(image, new Rect(0, 0, w * ShadowPixel, h * ShadowPixel));
+        SpaceDrawing.DrawSmooth(dc, image, new Rect(0, 0, w * ShadowPixel, h * ShadowPixel));
         DrawTitleShade(dc);
 
         var shadowR = ShadowRenderer.ShadowRadius(BendLight) * scale;

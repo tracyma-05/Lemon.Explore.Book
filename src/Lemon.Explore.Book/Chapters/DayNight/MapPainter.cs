@@ -116,7 +116,7 @@ internal sealed class MapPainter
         SpaceDrawing.WritePixels(_shadeBitmap, _shade, ShadeWidth, ShadeHeight);
 
         if (strength < 1) dc.PushOpacity(strength);
-        dc.DrawImage(_shadeBitmap, map);
+        SpaceDrawing.DrawSmooth(dc, _shadeBitmap, map);
         if (strength < 1) dc.Pop();
     }
 

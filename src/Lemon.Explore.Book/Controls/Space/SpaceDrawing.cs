@@ -144,6 +144,10 @@ internal static class SpaceDrawing
     public static void WritePixels(WriteableBitmap bitmap, int[] pixels, int width, int height) =>
         WritePixels(bitmap, MemoryMarshal.Cast<int, uint>(pixels.AsSpan()), width, height);
 
+    /// <summary>Copies premultiplied BGRA pixels (four bytes each) into a bitmap of the same size.</summary>
+    public static void WritePixels(WriteableBitmap bitmap, byte[] pixels, int width, int height) =>
+        WritePixels(bitmap, MemoryMarshal.Cast<byte, uint>(pixels.AsSpan()), width, height);
+
     /// <summary>Copies premultiplied BGRA pixels (one <see cref="uint"/> each) into a bitmap of the same size.</summary>
     public static void WritePixels(WriteableBitmap bitmap, uint[] pixels, int width, int height) =>
         WritePixels(bitmap, pixels.AsSpan(), width, height);
@@ -155,6 +159,19 @@ internal static class SpaceDrawing
     /// </summary>
     public static void DrawWhole(DrawingContext dc, Bitmap bitmap, Rect destination) =>
         dc.DrawImage(bitmap, new Rect(0, 0, bitmap.PixelSize.Width, bitmap.PixelSize.Height), destination);
+
+    /// <summary>
+    /// Draws all of a coarse bitmap (one pixel for a few DIPs) stretched over <paramref name="destination"/>, smoothed
+    /// between its pixels as WPF does by default; Avalonia would otherwise show every pixel as a hard-edged block.
+    /// </summary>
+    public static void DrawSmooth(DrawingContext dc, IImage image, Rect destination)
+    {
+        using (dc.PushRenderOptions(new RenderOptions { BitmapInterpolationMode = BitmapInterpolationMode.MediumQuality }))
+        {
+            if (image is Bitmap bitmap) DrawWhole(dc, bitmap, destination);
+            else dc.DrawImage(image, destination);
+        }
+    }
 
     /// <summary>
     /// Draws once into a bitmap <paramref name="width"/> × <paramref name="height"/> DIPs big, at <paramref name="scale"/>

@@ -120,7 +120,7 @@ public sealed class SunClockChart : Control
             _bitmap = Build(year, days, zone);
         }
 
-        dc.DrawImage(_bitmap, plot);
+        SpaceDrawing.DrawSmooth(dc, _bitmap, plot);
         DrawAxes(dc, plot, year, days);
 
         // Now: the date and the time on the clock.
