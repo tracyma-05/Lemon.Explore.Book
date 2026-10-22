@@ -57,7 +57,7 @@ internal static class SpaceDrawing
     private static readonly ImmutableDashStyle Dashes = new([4, 3], 0);
 
     public static IPen MakePen(IBrush brush, double thickness, bool dashed = false) =>
-        new ImmutablePen((IImmutableBrush)brush, thickness, dashed ? Dashes : null, PenLineCap.Round);
+        new ImmutablePen(brush as IImmutableBrush ?? brush.ToImmutable(), thickness, dashed ? Dashes : null, PenLineCap.Round);
 
     /// <summary>A two-colour linear gradient at <paramref name="angle"/> degrees (0 = left to right, 90 = top to bottom).</summary>
     public static IImmutableBrush LinearGradient(Color from, Color to, double angle)

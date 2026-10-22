@@ -196,7 +196,7 @@ public sealed partial class DayNightDiagram
         if (Math.Abs(sun.Declination) < 1) return;
         var up = new Vector(0, -1);
         var axis = new Vector(north.X, -north.Y);
-        axis.Normalize();
+        axis = axis.Normalize();
         dc.DrawLine(GlobePaint.CircleEdge, center + (up * radius * 1.02), center + (up * radius * 1.3));
 
         var arcRadius = radius * 1.2;
