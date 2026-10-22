@@ -6,6 +6,7 @@ using Avalonia.Media;
 using Avalonia.Media.Imaging;
 using Avalonia.Media.Immutable;
 using Lemon.Explore.Book.Contents;
+using Lemon.Explore.Book.Controls.Space;
 
 namespace Lemon.Explore.Book.Controls;
 
@@ -780,7 +781,7 @@ public sealed class BookView : Control
     {
         if (page is not null)
         {
-            context.DrawImage(page, new Rect(page.Size), destination);
+            SpaceDrawing.DrawWhole(context, page, destination);
         }
     }
 

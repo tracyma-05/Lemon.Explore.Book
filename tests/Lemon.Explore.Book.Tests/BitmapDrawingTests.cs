@@ -1,0 +1,86 @@
+using System.Runtime.InteropServices;
+using Avalonia;
+using Avalonia.Headless.XUnit;
+using Avalonia.Media;
+using Avalonia.Media.Imaging;
+using Lemon.Explore.Book.Controls.Space;
+using Xunit;
+
+namespace Lemon.Explore.Book.Tests;
+
+/// <summary>
+/// Bitmaps made for a high-DPI screen are drawn whole. DrawImage takes its source rectangle in pixels and a bitmap's
+/// Size in DIPs, so a 192 DPI bitmap drawn with DrawImage(bitmap, rect) shows only its top-left quarter.
+/// </summary>
+public sealed class BitmapDrawingTests
+{
+    [AvaloniaFact]
+    public void AHighDpiBitmap_IsDrawnWhole()
+    {
+        // 100 × 100 pixels at 192 DPI is 50 × 50 DIPs; red over its top-left 25 × 25 DIPs.
+        var source = new RenderTargetBitmap(new PixelSize(100, 100), new Vector(192, 192));
+        using (var dc = source.CreateDrawingContext(true))
+        {
+            dc.DrawRectangle(Brushes.Red, null, new Rect(0, 0, 25, 25));
+        }
+
+        Assert.Equal((50, 50), RedExtent(source));
+
+        var target = new RenderTargetBitmap(new PixelSize(50, 50), new Vector(96, 96));
+        using (var dc = target.CreateDrawingContext(true))
+        {
+            SpaceDrawing.DrawWhole(dc, source, new Rect(0, 0, 50, 50));
+        }
+
+        Assert.Equal((25, 25), RedExtent(target));
+    }
+
+    [AvaloniaFact]
+    public void RenderToBitmap_DrawsInDips_AtTheGivenScale()
+    {
+        // 40 × 40 DIPs at 2 pixels per DIP; red over the top-left 10 × 10 DIPs.
+        var bitmap = SpaceDrawing.RenderToBitmap(40, 40, 2, dc => dc.DrawRectangle(Brushes.Red, null, new Rect(0, 0, 10, 10)));
+        Assert.Equal(new PixelSize(80, 80), bitmap.PixelSize);
+        Assert.Equal((20, 20), RedExtent(bitmap));
+
+        // Drawn over 40 × 40 DIPs, all of it shows.
+        var target = new RenderTargetBitmap(new PixelSize(40, 40), new Vector(96, 96));
+        using (var dc = target.CreateDrawingContext(true))
+        {
+            dc.DrawImage(bitmap, new Rect(0, 0, 40, 40));
+        }
+
+        Assert.Equal((10, 10), RedExtent(target));
+    }
+
+    /// <summary>How far the red reaches across and down, in pixels.</summary>
+    private static (int Width, int Height) RedExtent(RenderTargetBitmap bitmap)
+    {
+        var (w, h) = (bitmap.PixelSize.Width, bitmap.PixelSize.Height);
+        var pixels = new byte[w * h * 4];
+        var handle = GCHandle.Alloc(pixels, GCHandleType.Pinned);
+        try
+        {
+            bitmap.CopyPixels(new PixelRect(0, 0, w, h), handle.AddrOfPinnedObject(), pixels.Length, w * 4);
+        }
+        finally
+        {
+            handle.Free();
+        }
+
+        var (right, bottom) = (0, 0);
+        for (var y = 0; y < h; y++)
+        {
+            for (var x = 0; x < w; x++)
+            {
+                if (pixels[(((y * w) + x) * 4) + 2] > 128)
+                {
+                    right = Math.Max(right, x + 1);
+                    bottom = Math.Max(bottom, y + 1);
+                }
+            }
+        }
+
+        return (right, bottom);
+    }
+}

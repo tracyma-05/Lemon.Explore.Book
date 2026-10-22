@@ -86,6 +86,9 @@ internal static class SpaceDrawing
     /// <summary>The body (or moon) with this id from the catalog.</summary>
     public static CelestialBody Body(string id) => SolarSystemCatalog.Body(id);
 
+    /// <summary>A rotation by <paramref name="degrees"/> about the origin (WPF's RotateTransform).</summary>
+    public static Matrix Rotation(double degrees) => Matrix.CreateRotation(degrees * Math.PI / 180);
+
     /// <summary>A rotation by <paramref name="degrees"/> about (<paramref name="x"/>, <paramref name="y"/>), as WPF's RotateTransform.</summary>
     public static Matrix Rotation(double degrees, double x, double y) =>
         Matrix.CreateTranslation(-x, -y) * Matrix.CreateRotation(degrees * Math.PI / 180) * Matrix.CreateTranslation(x, y);
@@ -144,6 +147,33 @@ internal static class SpaceDrawing
     /// <summary>Copies premultiplied BGRA pixels (one <see cref="uint"/> each) into a bitmap of the same size.</summary>
     public static void WritePixels(WriteableBitmap bitmap, uint[] pixels, int width, int height) =>
         WritePixels(bitmap, pixels.AsSpan(), width, height);
+
+    /// <summary>
+    /// Draws all of <paramref name="bitmap"/> into <paramref name="destination"/>. DrawImage's source rectangle is in
+    /// pixels while a bitmap's Size is in DIPs, so DrawImage(bitmap, rect) shows only the top-left part of a bitmap made
+    /// at more than 96 DPI (a high-DPI screen's).
+    /// </summary>
+    public static void DrawWhole(DrawingContext dc, Bitmap bitmap, Rect destination) =>
+        dc.DrawImage(bitmap, new Rect(0, 0, bitmap.PixelSize.Width, bitmap.PixelSize.Height), destination);
+
+    /// <summary>
+    /// Draws once into a bitmap <paramref name="width"/> × <paramref name="height"/> DIPs big, at <paramref name="scale"/>
+    /// device pixels per DIP (what WPF does with a DrawingVisual and RenderTargetBitmap).
+    /// </summary>
+    public static RenderTargetBitmap RenderToBitmap(double width, double height, double scale, Action<PaintContext> draw)
+    {
+        var pixels = new PixelSize(Math.Max(1, (int)Math.Ceiling(width * scale)), Math.Max(1, (int)Math.Ceiling(height * scale)));
+        // A 96 DPI bitmap with the scale pushed by hand, so DrawImage(bitmap, rect) shows all of it (see DrawWhole).
+        var bitmap = new RenderTargetBitmap(pixels, new Vector(96, 96));
+        using (var context = bitmap.CreateDrawingContext(true))
+        using (var dc = new PaintContext(context))
+        {
+            dc.PushTransform(Matrix.CreateScale(scale, scale));
+            draw(dc);
+        }
+
+        return bitmap;
+    }
 
     private static unsafe void WritePixels(WriteableBitmap bitmap, ReadOnlySpan<uint> pixels, int width, int height)
     {

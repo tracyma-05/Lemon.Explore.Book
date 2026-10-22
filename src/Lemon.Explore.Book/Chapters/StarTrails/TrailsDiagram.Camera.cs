@@ -116,7 +116,7 @@ public sealed partial class TrailsDiagram
         }
 
         _filmExposure = _exposure;
-        dc.DrawImage(_film, new Rect(0, 0, ActualWidth, ActualHeight));
+        SpaceDrawing.DrawWhole(dc, _film!, new Rect(0, 0, ActualWidth, ActualHeight));
 
         // The brightest stars where they are now, a little glow at the end of their trails.
         foreach (var star in StarCatalog.Bright.Where(s => s.Magnitude < 2.2))
