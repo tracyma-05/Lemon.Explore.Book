@@ -38,6 +38,8 @@ dotnet run --project src/Lemon.Explore.Book.Browser
 
 The book builds as a native AOT app (no .NET runtime needed, fast start). The shared library is marked
 `IsAotCompatible`, so any change that would break AOT or trimming shows up as a build warning.
+CI publishes the Windows (win-x64) and macOS (osx-arm64) AOT builds with warnings as errors, checks that each one
+starts and keeps running, and keeps them as build artifacts.
 
 ```bash
 dotnet publish src/Lemon.Explore.Book.Desktop -c Release -r win-x64 -p:PublishAot=true

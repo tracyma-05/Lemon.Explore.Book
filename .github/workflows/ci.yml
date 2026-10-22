@@ -41,6 +41,53 @@ jobs:
       - run: dotnet build src/Lemon.Explore.Book.Desktop -c Release
       - run: dotnet test tests/Lemon.Explore.Book.Tests -c Release
 
+  # Native AOT desktop builds. Any trimming or AOT warning fails the build, and the app must start and keep running,
+  # so a change that only breaks under AOT (reflection, dynamic code) is caught here rather than in a release.
+  aot:
+    name: Native AOT (${{ matrix.rid }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            rid: win-x64
+            exe: ExploreBook.exe
+          - os: macos-latest
+            rid: osx-arm64
+            exe: ExploreBook
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - name: Publish
+        shell: bash
+        run: >
+          dotnet publish src/Lemon.Explore.Book.Desktop -c Release -r ${{ matrix.rid }}
+          -p:PublishAot=true -warnaserror -o publish/aot
+      - name: Start and keep running
+        shell: bash
+        run: |
+          ./publish/aot/${{ matrix.exe }} &
+          pid=$!
+          sleep 20
+          if ! kill -0 "$pid" 2>/dev/null; then
+            code=0
+            wait "$pid" || code=$?
+            echo "::error::The AOT build exited within 20 seconds (exit code $code)."
+            exit 1
+          fi
+          kill "$pid"
+          echo "Still running after 20 seconds."
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-aot-${{ matrix.rid }}
+          path: |
+            publish/aot/*
+            !publish/aot/*.pdb
+            !publish/aot/*.dSYM
+
   web:
     name: Web edition (PWA)
     runs-on: ubuntu-latest
