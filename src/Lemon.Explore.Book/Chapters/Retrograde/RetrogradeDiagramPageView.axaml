@@ -1,0 +1,94 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:retro="using:Lemon.Explore.Book.Chapters.Retrograde"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Retrograde.RetrogradeDiagramPageView"
+                         x:DataType="retro:RetrogradeDiagramPageViewModel">
+    <!-- Right page of the Retrograde spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <!-- The title is on the left page, so the picture needs no room for one (TitleHeight stays 0). -->
+                <retro:RetroDiagram Mode="{Binding Retro.Mode}"
+                                    Planet="{Binding Retro.Planet}"
+                                    Day="{Binding Retro.Day, Mode=TwoWay}"
+                                    WindowStart="{Binding Retro.WindowStart}"
+                                    WindowEnd="{Binding Retro.WindowEnd}"
+                                    TrailStart="{Binding Retro.TrailStart, Mode=TwoWay}"
+                                    SunCentered="{Binding Retro.SunCentered}"
+                                    EastLeft="{Binding Retro.EastLeft}"
+                                    ShowWholePath="{Binding Retro.ShowWholePath}"
+                                    ShowLabels="{Binding Retro.ShowLabels}"
+                                    ShowGuides="{Binding Retro.ShowGuides}"
+                                    Speed="{Binding Retro.Speed}"
+                                    IsPlaying="{Binding Retro.IsPlaying, Mode=TwoWay}"
+                                    ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                    Highlight="{Binding Retro.Lesson.Highlight}"
+                                    IsLessonActive="{Binding Retro.Lesson.IsActive}"
+                                    SelectedObject="{Binding Retro.Card.Id, Mode=TwoWay}"
+                                    InteractionCommand="{Binding Retro.UserInteractedCommand}"
+                                    ToolTip.Tip="{Binding Retro.Hint}"
+                                    AutomationProperties.Name="{Binding Retro.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Retro.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Retro.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Retro.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Retro.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Retro_PlayPause}"
+                                    AutomationProperties.Name="{loc:Localize Retro_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Retro.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Retro.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Retro_Speed}">
+                                <RadioButton Classes="space speed" GroupName="RetroSpeed" Content="¼×" IsChecked="{Binding Retro.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="RetroSpeed" Content="½×" IsChecked="{Binding Retro.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="RetroSpeed" Content="1×" IsChecked="{Binding Retro.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="RetroSpeed" Content="2×" IsChecked="{Binding Retro.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <!-- The timeline: the loop's days, or round the epicycles the whole span of years -->
+                                <Slider Width="140" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="1" Value="{Binding Retro.LoopProgress}" SmallChange="0.01" LargeChange="0.1"
+                                        IsVisible="{Binding !Retro.IsEpicycle}"
+                                        ToolTip.Tip="{loc:Localize Retro_Timeline_Loop}" AutomationProperties.Name="{loc:Localize Retro_Timeline_Loop}" />
+                                <Slider Width="140" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="{Binding Retro.MinDay}" Maximum="{Binding Retro.MaxDay}" Value="{Binding Retro.Day}"
+                                        SmallChange="30" LargeChange="365" IsVisible="{Binding Retro.IsEpicycle}"
+                                        ToolTip.Tip="{loc:Localize Retro_Timeline_Years}" AutomationProperties.Name="{loc:Localize Retro_Timeline_Years}" />
+                                <TextBlock MinWidth="96" Margin="4,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Retro.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -2646,6 +2646,165 @@
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>So the Moon's shape tells you roughly when it rises and sets. Drag across the picture to change the time and go looking for the Moon.</value>
   </data>
+  <data name="Narr_Retro_Above_01" xml:space="preserve">
+    <value>Now let's fly far above the Sun and look down. Here are the orbits of Earth and Mars, drawn to scale. They both go round the same way.</value>
+  </data>
+  <data name="Narr_Retro_Above_02" xml:space="preserve">
+    <value>Earth is on the inside lane. It has a shorter way to go, and it moves faster, about thirty kilometres every second.</value>
+  </data>
+  <data name="Narr_Retro_Above_03" xml:space="preserve">
+    <value>This line is our line of sight: from Earth, through Mars, on towards the distant stars. Its direction is where we see Mars in the sky.</value>
+  </data>
+  <data name="Narr_Retro_Above_04" xml:space="preserve">
+    <value>The numbers mark the line of sight at different moments. In the circle in the corner, they're all drawn from one point, because the stars are so far away that only the direction counts. One, then two: the line turns forward, so Mars drifts east.</value>
+  </data>
+  <data name="Narr_Retro_Above_05" xml:space="preserve">
+    <value>Now Earth catches up with Mars, and overtakes it on the inside. At three, the line stops turning. At four and five, it has swung backwards. That's the retrograde loop.</value>
+  </data>
+  <data name="Narr_Retro_Above_06" xml:space="preserve">
+    <value>So, why does Mars seem to go backwards?</value>
+  </data>
+  <data name="Narr_Retro_Above_07" xml:space="preserve">
+    <value>Once Earth is past, the line swings forward again. Mars never really reverses. It's like overtaking a slower car on the motorway: for a moment, it seems to slide backwards against the hills far away.</value>
+  </data>
+  <data name="Narr_Retro_Above_08" xml:space="preserve">
+    <value>For Mercury and Venus, it's the other way round. They're on the inside lane, so they overtake us, and they go backwards as they pass between Earth and the Sun.</value>
+  </data>
+  <data name="Narr_Retro_Above_09" xml:space="preserve">
+    <value>Your turn. Drag Earth round its orbit and watch the line of sight, or try another planet.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_01" xml:space="preserve">
+    <value>For almost two thousand years, people put Earth at the centre of everything. Let's do the same. Hold Earth still, and see where Mars goes.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_02" xml:space="preserve">
+    <value>Mars draws loop after loop, roughly one every two years. And every loop comes when Mars is closest to us.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_03" xml:space="preserve">
+    <value>The ancient astronomer Ptolemy explained this with circles. Mars rides on a small circle, the epicycle, and the centre of that circle goes round a big one, the deferent.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_04" xml:space="preserve">
+    <value>Here's the surprise. The epicycle is just Earth's own orbit, seen from Earth. Its arm always points the same way as the Sun, and it turns once a year.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_05" xml:space="preserve">
+    <value>What do you think happens if we hold the Sun still instead?</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_06" xml:space="preserve">
+    <value>Copernicus put the Sun in the middle. Watch the loops untangle into a plain, almost circular orbit. The same motion, but a much simpler picture.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_07" xml:space="preserve">
+    <value>Back to Earth at the centre, this time with Venus. Over eight years, Venus loops five times and draws a five-petalled flower, then starts again almost exactly where it began.</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_08" xml:space="preserve">
+    <value>Your turn. Switch between Earth and the Sun at the centre, or choose another planet and watch its pattern grow.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Conjunction" xml:space="preserve">
+    <value>Inferior conjunction: the planet passes between Earth and the Sun. It's lost in the Sun's glare, at its closest to us, and going backwards fastest.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Deferent" xml:space="preserve">
+    <value>The deferent: Ptolemy's big circle round Earth. The centre of the epicycle rides round it.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Earth" xml:space="preserve">
+    <value>Earth, our moving viewpoint. Because we watch from a planet that is itself going round the Sun, the other planets seem to loop.</value>
+  </data>
+  <data name="Narr_Retro_Obj_EarthOrbit" xml:space="preserve">
+    <value>Earth's orbit: one lap a year, at about thirty kilometres every second.</value>
+  </data>
+  <data name="Narr_Retro_Obj_East" xml:space="preserve">
+    <value>East among the stars. This is the way the planets usually drift, night after night, and the way the Sun and the Moon move against the stars too.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Ecliptic" xml:space="preserve">
+    <value>The ecliptic: the Sun's path round the sky in a year. The planets' orbits lie almost in the same plane as Earth's, so they always wander close to it.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Epicycle" xml:space="preserve">
+    <value>The epicycle: the small circle the planet rides on. For Mars, Jupiter and Saturn it is really Earth's own orbit in disguise. For Mercury and Venus it is the planet's own orbit round the Sun.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Fan" xml:space="preserve">
+    <value>The lines of sight, all drawn from one point. The stars are so far away that only a line's direction matters, so here you can see the line turn forward, then back, then forward again.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Frame" xml:space="preserve">
+    <value>What is held still in the middle. With Earth still, the planets loop. With the Sun still, they go round in plain orbits. Either way, it's the very same motion.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Jupiter" xml:space="preserve">
+    <value>Jupiter, the giant. It moves so slowly that Earth laps it about every thirteen months, and each time it goes backwards for about four months.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Loop" xml:space="preserve">
+    <value>A retrograde loop, seen from Earth. Each one comes when Earth and the planet are at their closest.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Marks" xml:space="preserve">
+    <value>The line of sight at seven moments: before the loop, halfway to the first stop, at the first stop, in the middle, at the second stop, halfway on, and after.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Mars" xml:space="preserve">
+    <value>Mars, the red planet, one step out from Earth. Earth overtakes it about every twenty-six months, and then it goes backwards for about ten weeks.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Mercury" xml:space="preserve">
+    <value>Mercury, the planet nearest the Sun. It goes round in eighty-eight days and overtakes us three or four times a year, so it goes backwards more often than any other planet, for about three weeks each time.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Opposition" xml:space="preserve">
+    <value>Opposition: the planet is opposite the Sun in our sky, with Earth right between them. It's up all night, near its closest and brightest, and going backwards fastest.</value>
+  </data>
+  <data name="Narr_Retro_Obj_PlanetOrbit" xml:space="preserve">
+    <value>The planet's orbit, drawn to scale. The farther a planet is from the Sun, the slower it goes, and the longer its year.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Retro" xml:space="preserve">
+    <value>The retrograde stretch. For these weeks the planet moves west against the stars, the opposite of its usual way.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Saturn" xml:space="preserve">
+    <value>Saturn, the ringed planet. It's so slow that Earth passes it almost every year, and it spends about four and a half months going backwards.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Scale" xml:space="preserve">
+    <value>A ruler for the sky. Ten degrees is about the width of your fist, held out at arm's length.</value>
+  </data>
+  <data name="Narr_Retro_Obj_SightLine" xml:space="preserve">
+    <value>Our line of sight: from Earth, through the planet, on towards the far stars. Its direction is where we see the planet in the sky.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Speed" xml:space="preserve">
+    <value>How fast each one moves along its orbit. The inner planet is always the faster one, so it's always the one that overtakes.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Stars" xml:space="preserve">
+    <value>The background stars. Here they're drawn just outside the orbits, but really they're far, far away. Even the nearest one is more than a quarter of a million times farther than the Sun.</value>
+  </data>
+  <data name="Narr_Retro_Obj_StationDirect" xml:space="preserve">
+    <value>The second station. The backward motion slows to a stop, and then the planet heads east again.</value>
+  </data>
+  <data name="Narr_Retro_Obj_StationRetro" xml:space="preserve">
+    <value>The first station. The planet's eastward drift slows down to nothing, and it seems to stand still for a few days before it starts going backwards.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Sun" xml:space="preserve">
+    <value>The Sun. Every planet goes round it the same way. In our sky it moves steadily east along the ecliptic, and it never goes backwards.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Venus" xml:space="preserve">
+    <value>Venus, the brightest planet. It goes backwards about every nineteen months, for some six weeks, as it passes between Earth and the Sun.</value>
+  </data>
+  <data name="Narr_Retro_Obj_Zodiac" xml:space="preserve">
+    <value>The zodiac constellations, the star patterns along the ecliptic. The Sun, the Moon and the planets all pass through them.</value>
+  </data>
+  <data name="Narr_Retro_Sky_01" xml:space="preserve">
+    <value>This is a strip of the night sky along the zodiac, the band of stars the planets wander through. The bright dot is Mars. Let's watch it for a few months. Night after night, it creeps along among the stars.</value>
+  </data>
+  <data name="Narr_Retro_Sky_02" xml:space="preserve">
+    <value>Most of the time, Mars drifts eastward, the way the gold arrow points. All the planets do, because they all go round the Sun in the same direction as Earth.</value>
+  </data>
+  <data name="Narr_Retro_Sky_03" xml:space="preserve">
+    <value>But now, look. Mars slows down, and stops. For a few days it hardly moves against the stars at all. This is called a station.</value>
+  </data>
+  <data name="Narr_Retro_Sky_04" xml:space="preserve">
+    <value>What do you think Mars does next?</value>
+  </data>
+  <data name="Narr_Retro_Sky_05" xml:space="preserve">
+    <value>It turns round and goes backwards, westward, for about ten weeks. Astronomers call this retrograde motion. The orange stretch is the backward part.</value>
+  </data>
+  <data name="Narr_Retro_Sky_06" xml:space="preserve">
+    <value>Right in the middle of the backward stretch, Mars is opposite the Sun in our sky. It rises at sunset, shines all night, and is at its closest and brightest.</value>
+  </data>
+  <data name="Narr_Retro_Sky_07" xml:space="preserve">
+    <value>Then it slows down, stops a second time, and turns east again, as if nothing had happened.</value>
+  </data>
+  <data name="Narr_Retro_Sky_08" xml:space="preserve">
+    <value>Here's the whole path. Sometimes it's a loop, sometimes a zigzag, depending on how the planet's orbit is tilted against ours. And it always stays close to the ecliptic, the Sun's yearly path.</value>
+  </data>
+  <data name="Narr_Retro_Sky_09" xml:space="preserve">
+    <value>Your turn. Pick another planet and watch its loop, or drag across the sky to move through the days.</value>
+  </data>
   <data name="Narr_Seasons_Distance_01" xml:space="preserve">
     <value>Lots of people think summer is warm because Earth is closer to the Sun. And Earth's path really isn't a perfect circle. It's a very slightly squashed oval.</value>
   </data>
@@ -3347,6 +3506,561 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>Walkthroughs {0}/{1}</value>
+  </data>
+  <data name="Retro_Above_Fact1" xml:space="preserve">
+    <value>Average orbital speeds: Mercury 47 km/s, Venus 35, Earth 30, Mars 24, Jupiter 13, Saturn 10. The inner planet always overtakes.</value>
+  </data>
+  <data name="Retro_Above_Fact2" xml:space="preserve">
+    <value>When you overtake a slower car on the motorway, it seems to slide backwards against faraway hills, though both cars keep driving forwards.</value>
+  </data>
+  <data name="Retro_Above_Fact3" xml:space="preserve">
+    <value>Seen from above Earth's north pole, every planet goes round the Sun anticlockwise. That is why their usual drift among the stars is eastward.</value>
+  </data>
+  <data name="Retro_Above_Fact4" xml:space="preserve">
+    <value>The farther away the planet, the smaller its backward step: Mars backs up some 10 to 20 degrees, Jupiter about 10, Saturn about 7.</value>
+  </data>
+  <data name="Retro_Above_Fact5" xml:space="preserve">
+    <value>Mercury and Venus go backwards as they pass between Earth and the Sun, just when they move from the evening sky to the morning sky.</value>
+  </data>
+  <data name="Retro_Above_Note" xml:space="preserve">
+    <value>Seen from above the Sun's north; orbits and distances to scale (the stars are really far, far farther away).</value>
+  </data>
+  <data name="Retro_Above_Subtitle" xml:space="preserve">
+    <value>Earth and {0}, seen from above</value>
+  </data>
+  <data name="Retro_Chart_Caption" xml:space="preserve">
+    <value>Longitude through the loop</value>
+  </data>
+  <data name="Retro_Chart_East" xml:space="preserve">
+    <value>↑ east</value>
+  </data>
+  <data name="Retro_Chart_Note" xml:space="preserve">
+    <value>The planet's ecliptic longitude through the loop: rising means moving east; the orange dip is the retrograde stretch, the circles the two stations.</value>
+  </data>
+  <data name="Retro_Date" xml:space="preserve">
+    <value>{0:d MMM yyyy}</value>
+  </data>
+  <data name="Retro_Dir_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Retro_Dir_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Retro_Epicycle_Earth_Inner" xml:space="preserve">
+    <value>With Earth held still, the planet circles the Sun while the Sun circles Earth: the deferent carries the Sun, and the epicycle is the planet's own orbit.</value>
+  </data>
+  <data name="Retro_Epicycle_Earth_Outer" xml:space="preserve">
+    <value>With Earth held still, the planet's path is its own orbit plus a copy of Earth's orbit: a circle carried round on a circle, just as Ptolemy drew it.</value>
+  </data>
+  <data name="Retro_Epicycle_Earth_Title" xml:space="preserve">
+    <value>Earth held still: {0} loops</value>
+  </data>
+  <data name="Retro_Epicycle_Fact1" xml:space="preserve">
+    <value>Ptolemy's Almagest, written in Alexandria around AD 150, predicted the planets with deferents, epicycles and the equant. It was used for some 1,400 years.</value>
+  </data>
+  <data name="Retro_Epicycle_Fact2" xml:space="preserve">
+    <value>Copernicus's book of 1543 put the Sun in the middle and explained the loops as Earth's own motion showing up in the sky.</value>
+  </data>
+  <data name="Retro_Epicycle_Fact3" xml:space="preserve">
+    <value>In Ptolemy's model the epicycles of Mars, Jupiter and Saturn all turned once a year, in step with the Sun: a clue nobody could explain until the Sun went in the middle.</value>
+  </data>
+  <data name="Retro_Epicycle_Fact4" xml:space="preserve">
+    <value>13 Venus years are almost exactly 8 Earth years, so the pattern Venus draws as seen from Earth repeats every eight years.</value>
+  </data>
+  <data name="Retro_Epicycle_Fact5" xml:space="preserve">
+    <value>Kepler swapped circles for ellipses in 1609, and the planets finally matched Tycho Brahe's careful measurements.</value>
+  </data>
+  <data name="Retro_Epicycle_Note" xml:space="preserve">
+    <value>The planet's real positions with Earth or the Sun held still in the middle; distances to scale.</value>
+  </data>
+  <data name="Retro_Epicycle_Subtitle" xml:space="preserve">
+    <value>{0} with Earth or the Sun at the centre</value>
+  </data>
+  <data name="Retro_Epicycle_Sun_Inner" xml:space="preserve">
+    <value>With the Sun held still, the planet simply goes round inside Earth's orbit. The loops came from watching it from a moving Earth.</value>
+  </data>
+  <data name="Retro_Epicycle_Sun_Outer" xml:space="preserve">
+    <value>With the Sun held still, each planet simply goes round its own orbit. The loops were Earth's own motion showing up in what we see.</value>
+  </data>
+  <data name="Retro_Epicycle_Sun_Title" xml:space="preserve">
+    <value>Sun held still: {0} just goes round</value>
+  </data>
+  <data name="Retro_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Retro_Frame_Earth" xml:space="preserve">
+    <value>Earth at the centre (Ptolemy)</value>
+  </data>
+  <data name="Retro_Frame_Sun" xml:space="preserve">
+    <value>Sun at the centre (Copernicus)</value>
+  </data>
+  <data name="Retro_Hint_Above" xml:space="preserve">
+    <value>Drag Earth round its orbit to move through the days.</value>
+  </data>
+  <data name="Retro_Hint_Epicycle" xml:space="preserve">
+    <value>Drag sideways to run time forwards or back.</value>
+  </data>
+  <data name="Retro_Hint_Sky" xml:space="preserve">
+    <value>Drag across the sky to move through the days.</value>
+  </data>
+  <data name="Retro_Km_Unit" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Retro_Label_Conjunction" xml:space="preserve">
+    <value>Between us and the Sun · {0}</value>
+  </data>
+  <data name="Retro_Label_Deferent" xml:space="preserve">
+    <value>Deferent</value>
+  </data>
+  <data name="Retro_Label_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Retro_Label_East" xml:space="preserve">
+    <value>Usual drift: east</value>
+  </data>
+  <data name="Retro_Label_Ecliptic" xml:space="preserve">
+    <value>Ecliptic · the Sun's path</value>
+  </data>
+  <data name="Retro_Label_Epicycle" xml:space="preserve">
+    <value>Epicycle</value>
+  </data>
+  <data name="Retro_Label_Fan" xml:space="preserve">
+    <value>Seen from Earth: directions only (angles ×{0})</value>
+  </data>
+  <data name="Retro_Label_Loop" xml:space="preserve">
+    <value>Loop: closest to Earth</value>
+  </data>
+  <data name="Retro_Label_Opposition" xml:space="preserve">
+    <value>Opposition · {0}</value>
+  </data>
+  <data name="Retro_Label_Scale10" xml:space="preserve">
+    <value>{0}° ≈ a fist at arm's length</value>
+  </data>
+  <data name="Retro_Label_Scale5" xml:space="preserve">
+    <value>{0}° ≈ three fingers at arm's length</value>
+  </data>
+  <data name="Retro_Label_Speed" xml:space="preserve">
+    <value>{0} km/s</value>
+  </data>
+  <data name="Retro_Label_Stars" xml:space="preserve">
+    <value>Distant stars (really far, far farther)</value>
+  </data>
+  <data name="Retro_Label_StationDirect" xml:space="preserve">
+    <value>Stops, turns east · {0}</value>
+  </data>
+  <data name="Retro_Label_StationRetro" xml:space="preserve">
+    <value>Stops, turns back · {0}</value>
+  </data>
+  <data name="Retro_Label_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Retro_Label_TrailYears" xml:space="preserve">
+    <value>{0} years drawn</value>
+  </data>
+  <data name="Retro_Lesson_Above_Choice1" xml:space="preserve">
+    <value>Earth overtakes it on the inside lane</value>
+  </data>
+  <data name="Retro_Lesson_Above_Choice2" xml:space="preserve">
+    <value>Mars really turns round</value>
+  </data>
+  <data name="Retro_Lesson_Above_Choice3" xml:space="preserve">
+    <value>The stars behind it move</value>
+  </data>
+  <data name="Retro_Lesson_Epicycle_Choice1" xml:space="preserve">
+    <value>The loops untangle into plain orbits</value>
+  </data>
+  <data name="Retro_Lesson_Epicycle_Choice2" xml:space="preserve">
+    <value>The loops get bigger</value>
+  </data>
+  <data name="Retro_Lesson_Epicycle_Choice3" xml:space="preserve">
+    <value>Mars stops moving</value>
+  </data>
+  <data name="Retro_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>It turns back west for a while</value>
+  </data>
+  <data name="Retro_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>It carries on east</value>
+  </data>
+  <data name="Retro_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>It stays put for good</value>
+  </data>
+  <data name="Retro_Loop_Next" xml:space="preserve">
+    <value>Next ▶</value>
+  </data>
+  <data name="Retro_Loop_Previous" xml:space="preserve">
+    <value>◀ Previous</value>
+  </data>
+  <data name="Retro_Loops_Caption" xml:space="preserve">
+    <value>Retrograde loops</value>
+  </data>
+  <data name="Retro_Loops_Note" xml:space="preserve">
+    <value>The dates are when the planet stops and turns, worked out from the planets' orbits (good to a day or two).</value>
+  </data>
+  <data name="Retro_Mode_Above" xml:space="preserve">
+    <value>From above</value>
+  </data>
+  <data name="Retro_Mode_Epicycle" xml:space="preserve">
+    <value>Epicycles</value>
+  </data>
+  <data name="Retro_Mode_Sky" xml:space="preserve">
+    <value>In the sky</value>
+  </data>
+  <data name="Retro_Month" xml:space="preserve">
+    <value>{0:MMM}</value>
+  </data>
+  <data name="Retro_Obj_Conjunction" xml:space="preserve">
+    <value>Inferior conjunction</value>
+  </data>
+  <data name="Retro_Obj_Deferent" xml:space="preserve">
+    <value>The deferent</value>
+  </data>
+  <data name="Retro_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Retro_Obj_EarthOrbit" xml:space="preserve">
+    <value>Earth's orbit</value>
+  </data>
+  <data name="Retro_Obj_East" xml:space="preserve">
+    <value>East among the stars</value>
+  </data>
+  <data name="Retro_Obj_Ecliptic" xml:space="preserve">
+    <value>The ecliptic</value>
+  </data>
+  <data name="Retro_Obj_Epicycle" xml:space="preserve">
+    <value>The epicycle</value>
+  </data>
+  <data name="Retro_Obj_Fan" xml:space="preserve">
+    <value>Directions seen from Earth</value>
+  </data>
+  <data name="Retro_Obj_Frame" xml:space="preserve">
+    <value>What is at the centre</value>
+  </data>
+  <data name="Retro_Obj_Jupiter" xml:space="preserve">
+    <value>Jupiter</value>
+  </data>
+  <data name="Retro_Obj_Loop" xml:space="preserve">
+    <value>A retrograde loop</value>
+  </data>
+  <data name="Retro_Obj_Marks" xml:space="preserve">
+    <value>Lines of sight, step by step</value>
+  </data>
+  <data name="Retro_Obj_Mars" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="Retro_Obj_Mercury" xml:space="preserve">
+    <value>Mercury</value>
+  </data>
+  <data name="Retro_Obj_Opposition" xml:space="preserve">
+    <value>Opposition</value>
+  </data>
+  <data name="Retro_Obj_PlanetOrbit" xml:space="preserve">
+    <value>The planet's orbit</value>
+  </data>
+  <data name="Retro_Obj_Retro" xml:space="preserve">
+    <value>The retrograde stretch</value>
+  </data>
+  <data name="Retro_Obj_Saturn" xml:space="preserve">
+    <value>Saturn</value>
+  </data>
+  <data name="Retro_Obj_Scale" xml:space="preserve">
+    <value>How big is ten degrees?</value>
+  </data>
+  <data name="Retro_Obj_SightLine" xml:space="preserve">
+    <value>Line of sight</value>
+  </data>
+  <data name="Retro_Obj_Speed" xml:space="preserve">
+    <value>Orbital speed</value>
+  </data>
+  <data name="Retro_Obj_Stars" xml:space="preserve">
+    <value>The background stars</value>
+  </data>
+  <data name="Retro_Obj_StationDirect" xml:space="preserve">
+    <value>Second station: it turns east again</value>
+  </data>
+  <data name="Retro_Obj_StationRetro" xml:space="preserve">
+    <value>First station: it turns back</value>
+  </data>
+  <data name="Retro_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Retro_Obj_Venus" xml:space="preserve">
+    <value>Venus</value>
+  </data>
+  <data name="Retro_Obj_Zodiac" xml:space="preserve">
+    <value>The zodiac constellations</value>
+  </data>
+  <data name="Retro_Option_EarthFrame" xml:space="preserve">
+    <value>Earth at the centre</value>
+  </data>
+  <data name="Retro_Option_Epicycles" xml:space="preserve">
+    <value>Deferent and epicycle</value>
+  </data>
+  <data name="Retro_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Retro_Option_SightLines" xml:space="preserve">
+    <value>Earlier lines of sight</value>
+  </data>
+  <data name="Retro_Option_SunFrame" xml:space="preserve">
+    <value>Sun at the centre</value>
+  </data>
+  <data name="Retro_Option_WholePath" xml:space="preserve">
+    <value>Whole path</value>
+  </data>
+  <data name="Retro_Option_WholePattern" xml:space="preserve">
+    <value>Whole pattern</value>
+  </data>
+  <data name="Retro_Options_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Retro_Orientation_North" xml:space="preserve">
+    <value>In the sky strip east is on the left, as you see it facing the planet from {0} (northern hemisphere).</value>
+  </data>
+  <data name="Retro_Orientation_South" xml:space="preserve">
+    <value>In the sky strip east is on the right, as you see it facing the planet from {0} (southern hemisphere).</value>
+  </data>
+  <data name="Retro_Pattern_Jupiter" xml:space="preserve">
+    <value>11 loops in 12 years, about one in each zodiac constellation</value>
+  </data>
+  <data name="Retro_Pattern_Mars" xml:space="preserve">
+    <value>7 loops in about 15 years</value>
+  </data>
+  <data name="Retro_Pattern_Mercury" xml:space="preserve">
+    <value>About 3 loops a year</value>
+  </data>
+  <data name="Retro_Pattern_Saturn" xml:space="preserve">
+    <value>About 28 loops in 29½ years</value>
+  </data>
+  <data name="Retro_Pattern_Venus" xml:space="preserve">
+    <value>5 loops in 8 years: a five-petalled flower</value>
+  </data>
+  <data name="Retro_Phase_Pro_Inner" xml:space="preserve">
+    <value>Its usual way among the stars: east, as it goes round the Sun, though it never strays far from the Sun in our sky.</value>
+  </data>
+  <data name="Retro_Phase_Pro_Outer" xml:space="preserve">
+    <value>Its usual way: it goes round the Sun more slowly than Earth, and night after night it moves a little east against the stars.</value>
+  </data>
+  <data name="Retro_Phase_Pro_Title" xml:space="preserve">
+    <value>{0} is drifting east</value>
+  </data>
+  <data name="Retro_Phase_Retro_Inner" xml:space="preserve">
+    <value>It is passing between Earth and the Sun, overtaking us on the inside lane, so it seems to slide back west against the stars.</value>
+  </data>
+  <data name="Retro_Phase_Retro_Outer" xml:space="preserve">
+    <value>Earth is overtaking it on the inside lane, so it seems to slide back west against the far stars, though it is still going round the Sun as always.</value>
+  </data>
+  <data name="Retro_Phase_Retro_Title" xml:space="preserve">
+    <value>{0} is going backwards: retrograde</value>
+  </data>
+  <data name="Retro_Phase_Station_Inner" xml:space="preserve">
+    <value>Seen from Earth, its sideways motion cancels out for a few days, so it seems to stand still among the stars before it turns.</value>
+  </data>
+  <data name="Retro_Phase_Station_Outer" xml:space="preserve">
+    <value>Earth is catching up with it on the inside lane. For these days the two motions cancel out and it hardly moves against the stars.</value>
+  </data>
+  <data name="Retro_Phase_Station_Title" xml:space="preserve">
+    <value>{0} is standing still</value>
+  </data>
+  <data name="Retro_Planet_Caption" xml:space="preserve">
+    <value>Planet</value>
+  </data>
+  <data name="Retro_Planet_Jupiter" xml:space="preserve">
+    <value>Jupiter</value>
+  </data>
+  <data name="Retro_Planet_Mars" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="Retro_Planet_Mercury" xml:space="preserve">
+    <value>Mercury</value>
+  </data>
+  <data name="Retro_Planet_Saturn" xml:space="preserve">
+    <value>Saturn</value>
+  </data>
+  <data name="Retro_Planet_Venus" xml:space="preserve">
+    <value>Venus</value>
+  </data>
+  <data name="Retro_PlayPause" xml:space="preserve">
+    <value>Play / pause</value>
+  </data>
+  <data name="Retro_Restart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="Retro_ShortDate" xml:space="preserve">
+    <value>{0:d MMM}</value>
+  </data>
+  <data name="Retro_Sky_Fact1" xml:space="preserve">
+    <value>Mars goes backwards about every 26 months, for two to three months. Jupiter does it every 13 months and Saturn every 12½, each for four to five months.</value>
+  </data>
+  <data name="Retro_Sky_Fact2" xml:space="preserve">
+    <value>Mercury goes retrograde three or four times a year, for about three weeks; Venus only every 19 months, for about six weeks.</value>
+  </data>
+  <data name="Retro_Sky_Fact3" xml:space="preserve">
+    <value>An outer planet is in the middle of its loop at opposition, opposite the Sun: up all night, at its closest and brightest. That is the best time to look.</value>
+  </data>
+  <data name="Retro_Sky_Fact4" xml:space="preserve">
+    <value>Whether the path makes a loop or a zigzag depends on the planet's tilted orbit: if it crosses the plane of Earth's orbit during the loop, the path folds into a Z.</value>
+  </data>
+  <data name="Retro_Sky_Fact5" xml:space="preserve">
+    <value>Retrograde motion changes nothing about the planet, or about us. It is only how its path looks from a moving Earth.</value>
+  </data>
+  <data name="Retro_Sky_Note" xml:space="preserve">
+    <value>A strip of sky along the ecliptic, longitude and latitude to the same scale; real planet positions and real stars.</value>
+  </data>
+  <data name="Retro_Sky_Subtitle" xml:space="preserve">
+    <value>{0}'s loop among the stars</value>
+  </data>
+  <data name="Retro_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Retro_Stat_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Retro_Stat_Distance" xml:space="preserve">
+    <value>From Earth</value>
+  </data>
+  <data name="Retro_Stat_Distance_Value" xml:space="preserve">
+    <value>{0} AU · {1} million km</value>
+  </data>
+  <data name="Retro_Stat_Elongation" xml:space="preserve">
+    <value>From the Sun</value>
+  </data>
+  <data name="Retro_Stat_Elongation_East" xml:space="preserve">
+    <value>{0}° east of the Sun</value>
+  </data>
+  <data name="Retro_Stat_Elongation_West" xml:space="preserve">
+    <value>{0}° west of the Sun</value>
+  </data>
+  <data name="Retro_Stat_Frame" xml:space="preserve">
+    <value>Held still</value>
+  </data>
+  <data name="Retro_Stat_Loop" xml:space="preserve">
+    <value>This loop</value>
+  </data>
+  <data name="Retro_Stat_Loop_Value" xml:space="preserve">
+    <value>{0} – {1} ({2} days)</value>
+  </data>
+  <data name="Retro_Stat_Loops" xml:space="preserve">
+    <value>Drawn so far</value>
+  </data>
+  <data name="Retro_Stat_Loops_Value" xml:space="preserve">
+    <value>{0} loops in {1} years</value>
+  </data>
+  <data name="Retro_Stat_Motion" xml:space="preserve">
+    <value>Moving</value>
+  </data>
+  <data name="Retro_Stat_Motion_East" xml:space="preserve">
+    <value>{0}° a day, eastward</value>
+  </data>
+  <data name="Retro_Stat_Motion_Still" xml:space="preserve">
+    <value>Standing still</value>
+  </data>
+  <data name="Retro_Stat_Motion_West" xml:space="preserve">
+    <value>{0}° a day, westward (backwards)</value>
+  </data>
+  <data name="Retro_Stat_Pattern" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="Retro_Stat_Progress" xml:space="preserve">
+    <value>Backwards</value>
+  </data>
+  <data name="Retro_Stat_Progress_After" xml:space="preserve">
+    <value>Ended {0} days ago</value>
+  </data>
+  <data name="Retro_Stat_Progress_Before" xml:space="preserve">
+    <value>Starts in {0} days</value>
+  </data>
+  <data name="Retro_Stat_Progress_Inside" xml:space="preserve">
+    <value>Day {0} of {1}</value>
+  </data>
+  <data name="Retro_Stat_Progress_JustEnded" xml:space="preserve">
+    <value>Just ended</value>
+  </data>
+  <data name="Retro_Stat_Progress_Tomorrow" xml:space="preserve">
+    <value>Starts tomorrow</value>
+  </data>
+  <data name="Retro_Stat_Progress_Yesterday" xml:space="preserve">
+    <value>Ended yesterday</value>
+  </data>
+  <data name="Retro_Stat_Speeds" xml:space="preserve">
+    <value>Orbital speeds</value>
+  </data>
+  <data name="Retro_Stat_Speeds_Value" xml:space="preserve">
+    <value>Earth {0} km/s · {1} {2} km/s</value>
+  </data>
+  <data name="Retro_Stat_Synodic" xml:space="preserve">
+    <value>Loops come</value>
+  </data>
+  <data name="Retro_Stat_Synodic_Value" xml:space="preserve">
+    <value>every {0} days (about {1} months)</value>
+  </data>
+  <data name="Retro_Stat_Where" xml:space="preserve">
+    <value>Among the stars</value>
+  </data>
+  <data name="Retro_Stat_Where_Value" xml:space="preserve">
+    <value>{0} · longitude {1}°</value>
+  </data>
+  <data name="Retro_Timeline_Loop" xml:space="preserve">
+    <value>Through the loop</value>
+  </data>
+  <data name="Retro_Timeline_Years" xml:space="preserve">
+    <value>Years</value>
+  </data>
+  <data name="Retro_Title" xml:space="preserve">
+    <value>Retrograde motion</value>
+  </data>
+  <data name="Retro_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Retro_Today_In" xml:space="preserve">
+    <value>{0} is going backwards today, until {1}.</value>
+  </data>
+  <data name="Retro_Today_Next" xml:space="preserve">
+    <value>{0} isn't retrograde today; its next loop starts {1} (in {2} days).</value>
+  </data>
+  <data name="Retro_Upcoming_Detail" xml:space="preserve">
+    <value>{0} days · in {1}</value>
+  </data>
+  <data name="Retro_Upcoming_Range" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Retro_Zodiac_Aquarius" xml:space="preserve">
+    <value>Aquarius</value>
+  </data>
+  <data name="Retro_Zodiac_Aries" xml:space="preserve">
+    <value>Aries</value>
+  </data>
+  <data name="Retro_Zodiac_Cancer" xml:space="preserve">
+    <value>Cancer</value>
+  </data>
+  <data name="Retro_Zodiac_Capricornus" xml:space="preserve">
+    <value>Capricornus</value>
+  </data>
+  <data name="Retro_Zodiac_Gemini" xml:space="preserve">
+    <value>Gemini</value>
+  </data>
+  <data name="Retro_Zodiac_Leo" xml:space="preserve">
+    <value>Leo</value>
+  </data>
+  <data name="Retro_Zodiac_Libra" xml:space="preserve">
+    <value>Libra</value>
+  </data>
+  <data name="Retro_Zodiac_Ophiuchus" xml:space="preserve">
+    <value>Ophiuchus</value>
+  </data>
+  <data name="Retro_Zodiac_Pisces" xml:space="preserve">
+    <value>Pisces</value>
+  </data>
+  <data name="Retro_Zodiac_Sagittarius" xml:space="preserve">
+    <value>Sagittarius</value>
+  </data>
+  <data name="Retro_Zodiac_Scorpius" xml:space="preserve">
+    <value>Scorpius</value>
+  </data>
+  <data name="Retro_Zodiac_Taurus" xml:space="preserve">
+    <value>Taurus</value>
+  </data>
+  <data name="Retro_Zodiac_Virgo" xml:space="preserve">
+    <value>Virgo</value>
   </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>Animate</value>

@@ -15,6 +15,7 @@
              xmlns:tides="using:Lemon.Explore.Book.Chapters.Tides"
              xmlns:kepler="using:Lemon.Explore.Book.Chapters.Kepler"
              xmlns:startrails="using:Lemon.Explore.Book.Chapters.StarTrails"
+             xmlns:retrograde="using:Lemon.Explore.Book.Chapters.Retrograde"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -43,6 +44,8 @@
 
         <DataTemplate DataType="startrails:StarTrailsTextPageViewModel"><startrails:StarTrailsTextPageView /></DataTemplate>
         <DataTemplate DataType="startrails:StarTrailsDiagramPageViewModel"><startrails:StarTrailsDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="retrograde:RetrogradeTextPageViewModel"><retrograde:RetrogradeTextPageView /></DataTemplate>
+        <DataTemplate DataType="retrograde:RetrogradeDiagramPageViewModel"><retrograde:RetrogradeDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

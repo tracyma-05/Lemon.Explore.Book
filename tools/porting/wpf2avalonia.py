@@ -226,6 +226,7 @@ def convert_types(s: str, namespace: str) -> str:
     s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
     # A property passed to a helper (Push(DependencyProperty property, object value)).
     s = re.sub(r"\bDependencyProperty (?=\w+\s*[,)])", "AvaloniaProperty ", s)
+    s = convert_recurring(s)
     # A two-colour gradient between two points of the drawing (WPF's absolute mapping).
     arg = r"((?:[^,()]|\([^()]*\))+)"
     s = re.sub(rf"new LinearGradientBrush\({arg}, {arg}, 0\)\s*\{{\s*MappingMode = BrushMappingMode\.Absolute,\s*"
@@ -300,6 +301,49 @@ def expand_register_helpers(s: str) -> str:
 
 
 CLASS = re.compile(r"^(?P<head>(?:(?:public|internal|private|protected|sealed|abstract|static|partial)\s+)*class (?P<name>\w+)[^\n]*)\n\{\n", re.M)
+
+
+def convert_recurring(s: str) -> str:
+    """Idioms many of the original's diagrams share, beyond the one-line rewrites."""
+    arg = r"((?:[^,()]|\([^()]*\))+)"
+
+    # A line through points as one figure: BeginFigure(p, filled) ... LineTo(p), then EndFigure(closed) after the loop.
+    s = re.sub(
+        r"(?P<i>[ \t]*)var first = true;\n(?P<j>[ \t]*)foreach \((?P<head>[^\n]*)\)\n(?P<k>[ \t]*)\{\n"
+        r"(?P<l>[ \t]*)if \(first\) (?P<c>\w+)\.BeginFigure\((?P<p>\w+), (?P<filled>[\w!.]+), (?P<closed>[\w!.]+)\);\n"
+        r"(?P=l)else (?P=c)\.LineTo\((?P=p), (?:true|false), (?:true|false)\);\n(?P=l)first = false;\n(?P=k)\}\n",
+        lambda m: (f"{m['i']}var first = true;\n{m['j']}foreach ({m['head']})\n{m['k']}{{\n"
+                   f"{m['l']}if (first) {m['c']}.BeginFigure({m['p']}, {m['filled']});\n"
+                   f"{m['l']}else {m['c']}.LineTo({m['p']});\n{m['l']}first = false;\n{m['k']}}}\n\n"
+                   f"{m['i']}if (!first) {m['c']}.EndFigure({m['closed']});\n"),
+        s)
+
+    # A radial gradient over what it fills, centre and radii relative to it.
+    s = re.sub(
+        rf"(?:Freeze\()?new RadialGradientBrush\({arg}, {arg}\)\s*\{{\s*Center = new Point\({arg}, {arg}\),\s*"
+        rf"GradientOrigin = new Point\({arg}, {arg}\),\s*RadiusX = {arg},\s*RadiusY = {arg},?\s*\}}\)?",
+        lambda m: ("new ImmutableRadialGradientBrush(\n"
+                   f"            [new ImmutableGradientStop(0, {m[1]}), new ImmutableGradientStop(1, {m[2]})],\n"
+                   f"            center: new RelativePoint({m[3]}, {m[4]}, RelativeUnit.Relative),\n"
+                   f"            gradientOrigin: new RelativePoint({m[5]}, {m[6]}, RelativeUnit.Relative),\n"
+                   f"            radiusX: new RelativeScalar({m[7]}, RelativeUnit.Relative),\n"
+                   f"            radiusY: new RelativeScalar({m[8]}, RelativeUnit.Relative))"),
+        s)
+
+    # Rect.Inflate returns a new rect; Rect.Union is an instance method.
+    s = re.sub(r"^([ \t]*)(\w+)\.Inflate\(([^;]+)\);$", r"\1\2 = \2.Inflate(new Thickness(\3));", s, flags=re.M)
+    s = re.sub(rf"\bRect\.Union\({arg}, {arg}\)", r"\1.Union(\2)", s)
+
+    # Capturing the pointer cannot fail in Avalonia.
+    s = re.sub(r"^([ \t]*)if \(!CaptureMouse\(\)\)\n[ \t]*\{\n(?:[^\n]*\n)*?[ \t]*return;\n[ \t]*\}\n",
+               r"\1e.Pointer.Capture(this);\n", s, flags=re.M)
+
+    # A pen with line caps (and a join): an immutable pen.
+    s = re.sub(
+        rf"(?:Freeze\()?new Pen\({arg}, {arg}\)\s*\{{\s*StartLineCap = ([\w.]+),\s*EndLineCap = [\w.]+(?:,\s*LineJoin = ([\w.]+))?,?\s*\}}\)?",
+        lambda m: f"new ImmutablePen(((IBrush){m[1]}).ToImmutable(), {m[2]}, null, {m[3]}, {m[4] or 'PenLineJoin.Miter'})",
+        s)
+    return s
 
 
 def convert_properties(s: str, part: str | None = None) -> str:
@@ -686,6 +730,8 @@ def write(target: str, s: str) -> None:
 
 
 def main(argv: list[str] | None = None) -> None:
+    # Reports quote Chinese strings; a console in another code page would garble them.
+    sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     sub = parser.add_subparsers(dest="command", required=True)
     for name, func in (("drawing", drawing), ("viewmodel", viewmodel)):

@@ -1,0 +1,173 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:retro="using:Lemon.Explore.Book.Chapters.Retrograde"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Retrograde.RetrogradeTextPageView"
+                         x:DataType="retro:RetrogradeTextPageViewModel">
+    <!-- Left page of the Retrograde spread: the planet, its loops, each view's options, the chart and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <!-- A coming loop: the whole row turns to it. -->
+        <Style Selector="Button.loop">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Padding" Value="10,6" />
+            <Setter Property="Margin" Value="0,0,0,4" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <Border Name="Row" Background="{TemplateBinding Background}" BorderBrush="{DynamicResource ChipBorderBrush}"
+                            BorderThickness="1" CornerRadius="10" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalContentAlignment="Stretch" />
+                    </Border>
+                </ControlTemplate>
+            </Setter>
+        </Style>
+        <Style Selector="Button.loop:pointerover /template/ Border#Row">
+            <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
+        </Style>
+        <Style Selector="Button.loop.now /template/ Border#Row">
+            <Setter Property="BorderBrush" Value="{DynamicResource AccentBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Retro.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Retro.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Retro.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="RetroMode" IsChecked="{Binding Retro.IsSky}" Content="{loc:Localize Retro_Mode_Sky}" />
+                    <RadioButton Classes="chip" GroupName="RetroMode" IsChecked="{Binding Retro.IsAbove}" Content="{loc:Localize Retro_Mode_Above}" />
+                    <RadioButton Classes="chip" GroupName="RetroMode" IsChecked="{Binding Retro.IsEpicycle}" Content="{loc:Localize Retro_Mode_Epicycle}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Retro.Card}" />
+
+                <!-- Which planet -->
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Retro_Planet_Caption}" />
+                <WrapPanel>
+                    <RadioButton Classes="chip" GroupName="RetroPlanet" IsChecked="{Binding Retro.PlanetChoice[Mercury]}" Content="{loc:Localize Retro_Planet_Mercury}" />
+                    <RadioButton Classes="chip" GroupName="RetroPlanet" IsChecked="{Binding Retro.PlanetChoice[Venus]}" Content="{loc:Localize Retro_Planet_Venus}" />
+                    <RadioButton Classes="chip" GroupName="RetroPlanet" IsChecked="{Binding Retro.PlanetChoice[Mars]}" Content="{loc:Localize Retro_Planet_Mars}" />
+                    <RadioButton Classes="chip" GroupName="RetroPlanet" IsChecked="{Binding Retro.PlanetChoice[Jupiter]}" Content="{loc:Localize Retro_Planet_Jupiter}" />
+                    <RadioButton Classes="chip" GroupName="RetroPlanet" IsChecked="{Binding Retro.PlanetChoice[Saturn]}" Content="{loc:Localize Retro_Planet_Saturn}" />
+                </WrapPanel>
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Retro.TodayStatus}" />
+
+                <!-- The loops: the one shown, the ones before and after, and the coming ones -->
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Retro_Loops_Caption}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Retro.StepLoopCommand}" CommandParameter="-1" Content="{loc:Localize Retro_Loop_Previous}" />
+                    <Button Classes="chip" Command="{Binding Retro.TodayCommand}" Content="{loc:Localize Retro_Today}" />
+                    <Button Classes="chip" Command="{Binding Retro.StepLoopCommand}" CommandParameter="1" Content="{loc:Localize Retro_Loop_Next}" />
+                    <Button Classes="chip" Command="{Binding Retro.RestartCommand}" Content="{loc:Localize Retro_Restart}" />
+                </WrapPanel>
+                <ItemsControl Margin="0,4,0,0" ItemsSource="{Binding Retro.Upcoming}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="retro:RetroPeriodItem">
+                            <Button Classes="loop" Classes.now="{Binding IsNow}"
+                                    Command="{Binding $parent[ItemsControl].((retro:RetrogradeTextPageViewModel)DataContext).Retro.JumpToPeriodCommand}"
+                                    CommandParameter="{Binding}" AutomationProperties.Name="{Binding Dates}">
+                                <StackPanel>
+                                    <TextBlock FontSize="13" TextWrapping="Wrap" Foreground="{DynamicResource InkBrush}" Text="{Binding Dates}" />
+                                    <TextBlock FontSize="11.5" TextWrapping="Wrap" Foreground="{DynamicResource FaintInkBrush}" Text="{Binding Detail}" />
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <SelectableTextBlock Classes="note" Text="{loc:Localize Retro_Loops_Note}" />
+
+                <!-- Where: which side east is on in the sky strip -->
+                <explore:LocationChip Margin="0,14,0,0" Service="{Binding Retro.Location}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Retro.OrientationNote}" />
+
+                <!-- The view's options -->
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Retro_Options_Caption}" />
+                <WrapPanel IsVisible="{Binding Retro.IsSky}">
+                    <ToggleButton Classes="chip" IsChecked="{Binding Retro.ShowWholePath}" Content="{loc:Localize Retro_Option_WholePath}" />
+                    <ToggleButton Classes="chip" IsChecked="{Binding Retro.ShowLabels}" Content="{loc:Localize Retro_Option_Labels}" />
+                </WrapPanel>
+                <WrapPanel IsVisible="{Binding Retro.IsAbove}">
+                    <ToggleButton Classes="chip" IsChecked="{Binding Retro.ShowGuides}" Content="{loc:Localize Retro_Option_SightLines}" />
+                    <ToggleButton Classes="chip" IsChecked="{Binding Retro.ShowLabels}" Content="{loc:Localize Retro_Option_Labels}" />
+                </WrapPanel>
+                <WrapPanel IsVisible="{Binding Retro.IsEpicycle}">
+                    <RadioButton Classes="chip" GroupName="RetroFrame" IsChecked="{Binding Retro.IsEarthFrame}" Content="{loc:Localize Retro_Option_EarthFrame}" />
+                    <RadioButton Classes="chip" GroupName="RetroFrame" IsChecked="{Binding Retro.SunCentered}" Content="{loc:Localize Retro_Option_SunFrame}" />
+                    <ToggleButton Classes="chip" IsChecked="{Binding Retro.ShowGuides}" Content="{loc:Localize Retro_Option_Epicycles}" />
+                    <ToggleButton Classes="chip" IsChecked="{Binding Retro.ShowLabels}" Content="{loc:Localize Retro_Option_Labels}" />
+                    <Button Classes="chip" Command="{Binding Retro.WholePatternCommand}" Content="{loc:Localize Retro_Option_WholePattern}" />
+                </WrapPanel>
+
+                <!-- The longitude through the loop -->
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Retro_Chart_Caption}" />
+                <Border Classes="plate" Height="170">
+                    <retro:LongitudeChart Planet="{Binding Retro.Planet}" Day="{Binding Retro.Day}"
+                                          WindowStart="{Binding Retro.WindowStart}" WindowEnd="{Binding Retro.WindowEnd}"
+                                          AutomationProperties.Name="{loc:Localize Retro_Chart_Caption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Retro_Chart_Note}" />
+
+                <!-- What is happening now: a coloured edge for it -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Retro.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Retro.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Retro.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Retro.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Retro_Facts}" />
+                <ItemsControl ItemsSource="{Binding Retro.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

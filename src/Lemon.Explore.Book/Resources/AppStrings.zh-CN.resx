@@ -2646,6 +2646,165 @@
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>所以，看月亮的形状，就能大致知道它什么时候升起、什么时候落下。你可以左右拖动画面换个时间，找一找月亮在哪儿。</value>
   </data>
+  <data name="Narr_Retro_Above_01" xml:space="preserve">
+    <value>现在我们飞到太阳的正上方往下看。这是地球和火星的轨道，按真实比例画的。它们都朝同一个方向转。</value>
+  </data>
+  <data name="Narr_Retro_Above_02" xml:space="preserve">
+    <value>地球在内圈跑道上。它要跑的路更短，速度也更快，每秒大约三十公里。</value>
+  </data>
+  <data name="Narr_Retro_Above_03" xml:space="preserve">
+    <value>这条线是我们的视线：从地球出发，穿过火星，伸向远方的星星。它的方向，就是我们在天空中看到火星的位置。</value>
+  </data>
+  <data name="Narr_Retro_Above_04" xml:space="preserve">
+    <value>数字标出不同时刻的视线。在角落的圆圈里，它们都从同一点画出，因为恒星太远了，只有方向才重要。一，然后二：视线往前转，所以火星向东走。</value>
+  </data>
+  <data name="Narr_Retro_Above_05" xml:space="preserve">
+    <value>现在，地球从内圈追上了火星，并且超了过去。到三，视线停住不转了；到四和五，它往回摆了。这就是逆行。</value>
+  </data>
+  <data name="Narr_Retro_Above_06" xml:space="preserve">
+    <value>那么，火星为什么看起来在倒着走？</value>
+  </data>
+  <data name="Narr_Retro_Above_07" xml:space="preserve">
+    <value>等地球超过去，视线又往前摆了。火星从来没有真的掉头。就像在高速公路上超过一辆慢车：那一瞬间，在远处山影的衬托下，它好像在往后退。</value>
+  </data>
+  <data name="Narr_Retro_Above_08" xml:space="preserve">
+    <value>水星和金星正好相反。它们在内圈，是它们超过我们。它们从地球和太阳之间经过的时候，就会逆行。</value>
+  </data>
+  <data name="Narr_Retro_Above_09" xml:space="preserve">
+    <value>该你了。拖着地球沿轨道走，看看视线怎么摆；或者换一颗行星试试。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_01" xml:space="preserve">
+    <value>差不多两千年里，人们都把地球放在宇宙的中心。我们也这样做：让地球不动，看看火星会怎么走。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_02" xml:space="preserve">
+    <value>火星画出一个又一个圈，大约每两年一个。而且每个圈，都出现在火星离我们最近的时候。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_03" xml:space="preserve">
+    <value>古代天文学家托勒密用圆来解释它。火星坐在一个小圆上，叫本轮；本轮的圆心又沿着一个大圆转，叫均轮。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_04" xml:space="preserve">
+    <value>惊喜来了：这个本轮，其实就是从地球上看到的地球自己的轨道。它的半径总是和太阳的方向平行，一年转一圈。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_05" xml:space="preserve">
+    <value>如果改成让太阳不动，你猜会怎样？</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_06" xml:space="preserve">
+    <value>哥白尼把太阳放在中间。看，那些圈解开了，变成一条简单的、近乎圆形的轨道。同样的运动，图像却简单多了。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_07" xml:space="preserve">
+    <value>再回到地球为中心，这次换成金星。八年里，金星绕了五个圈，画出一朵五瓣花，然后几乎在原来的位置重新开始。</value>
+  </data>
+  <data name="Narr_Retro_Epicycle_08" xml:space="preserve">
+    <value>该你了。在地球和太阳为中心之间切换，或者换一颗行星，看它画出的图案。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Conjunction" xml:space="preserve">
+    <value>下合：行星从地球和太阳之间经过。这时它淹没在阳光里，离我们最近，逆行也最快。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Deferent" xml:space="preserve">
+    <value>均轮：托勒密画的绕着地球的大圆。本轮的圆心就沿着它转。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Earth" xml:space="preserve">
+    <value>地球，我们这个会动的观测台。正因为我们是站在一颗本身也在绕太阳转的行星上看，别的行星才显得会打圈。</value>
+  </data>
+  <data name="Narr_Retro_Obj_EarthOrbit" xml:space="preserve">
+    <value>地球的轨道：一年跑一圈，每秒大约三十公里。</value>
+  </data>
+  <data name="Narr_Retro_Obj_East" xml:space="preserve">
+    <value>星空中的东方。行星平常就是一夜一夜朝这个方向移动的，太阳和月亮在星空中也是往这个方向走。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Ecliptic" xml:space="preserve">
+    <value>黄道，就是太阳一年在天空中走过的路线。行星的轨道和地球轨道几乎在同一个平面上，所以它们总在黄道附近游走。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Epicycle" xml:space="preserve">
+    <value>本轮：行星坐着转的小圆。对火星、木星和土星来说，它其实就是换了个样子的地球轨道；对水星和金星来说，它就是行星自己绕太阳的轨道。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Fan" xml:space="preserve">
+    <value>把各个时刻的视线都从同一点画出来。恒星实在太远，只有视线的方向才重要，所以在这里能看清视线先往前转、再往回转、然后又往前转。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Frame" xml:space="preserve">
+    <value>画面中心固定不动的是谁。地球不动，行星就会打圈；太阳不动，它们就沿着简单的轨道转。其实无论哪种，都是同一种运动。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Jupiter" xml:space="preserve">
+    <value>木星，行星中的巨人。它走得很慢，地球大约每十三个月就超它一圈，每次它都要逆行大约四个月。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Loop" xml:space="preserve">
+    <value>从地球上看到的一个逆行圈。每个圈都出现在地球和这颗行星离得最近的时候。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Marks" xml:space="preserve">
+    <value>七个时刻的视线：逆行之前、走到第一个「留」的半路、第一个「留」、逆行正中、第二个「留」、再往后一半，以及逆行之后。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Mars" xml:space="preserve">
+    <value>火星，红色的行星，就在地球外面一圈。地球大约每二十六个月超它一次，那时它会逆行大约十个星期。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Mercury" xml:space="preserve">
+    <value>水星，离太阳最近的行星。它八十八天绕太阳一圈，一年要超过我们三四次，所以它逆行得最频繁，每次大约三个星期。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Opposition" xml:space="preserve">
+    <value>冲日：行星和太阳在天空中正好相对，地球就夹在它们中间。这时它整夜可见，几乎离我们最近、也最亮，逆行得也最快。</value>
+  </data>
+  <data name="Narr_Retro_Obj_PlanetOrbit" xml:space="preserve">
+    <value>这颗行星的轨道，按比例画的。行星离太阳越远，走得越慢，一年也越长。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Retro" xml:space="preserve">
+    <value>逆行的一段。在这几个星期里，行星在星空中向西走，和平常的方向相反。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Saturn" xml:space="preserve">
+    <value>土星，戴着光环的行星。它走得太慢了，地球几乎每年都超它一次，它每次要逆行大约四个半月。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Scale" xml:space="preserve">
+    <value>这是天空的尺子。十度大约就是你伸直手臂时，一个拳头的宽度。</value>
+  </data>
+  <data name="Narr_Retro_Obj_SightLine" xml:space="preserve">
+    <value>我们的视线：从地球出发，穿过行星，指向远方的星星。它的方向，就是我们在天空中看到这颗行星的位置。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Speed" xml:space="preserve">
+    <value>它们各自在轨道上跑得多快。内圈的行星总是更快，所以超车的总是内圈的那一颗。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Stars" xml:space="preserve">
+    <value>背景的恒星。这里把它们画在轨道外面不远，其实它们远得多：就连最近的一颗，也比太阳远二十多万倍。</value>
+  </data>
+  <data name="Narr_Retro_Obj_StationDirect" xml:space="preserve">
+    <value>第二个「留」。逆行慢慢停住，然后行星重新朝东走。</value>
+  </data>
+  <data name="Narr_Retro_Obj_StationRetro" xml:space="preserve">
+    <value>第一个「留」。行星向东的移动慢慢停了下来，在开始逆行之前，它好像站着不动好几天。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Sun" xml:space="preserve">
+    <value>太阳。所有行星都朝同一个方向绕它转。在天空中，它沿着黄道稳稳地向东走，从来不会逆行。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Venus" xml:space="preserve">
+    <value>金星，最亮的行星。它大约每十九个月逆行一次，每次六个星期左右，那时它正从地球和太阳之间经过。</value>
+  </data>
+  <data name="Narr_Retro_Obj_Zodiac" xml:space="preserve">
+    <value>黄道星座，就是沿着黄道排开的那些星座。太阳、月亮和行星都会从它们中间经过。</value>
+  </data>
+  <data name="Narr_Retro_Sky_01" xml:space="preserve">
+    <value>这是一条沿着黄道带的星空，行星们就在这条星带里游走。这个亮点是火星。我们快进看它几个月：一夜又一夜，它在群星之间慢慢挪动。</value>
+  </data>
+  <data name="Narr_Retro_Sky_02" xml:space="preserve">
+    <value>大多数时候，火星朝东走，就是金色箭头指的方向。所有行星都是这样，因为它们和地球一样，都朝同一个方向绕太阳转。</value>
+  </data>
+  <data name="Narr_Retro_Sky_03" xml:space="preserve">
+    <value>可是你看，火星慢了下来，停住了。有好几天，它在星空里几乎一动不动。这叫做「留」。</value>
+  </data>
+  <data name="Narr_Retro_Sky_04" xml:space="preserve">
+    <value>你猜，火星接下来会怎么走？</value>
+  </data>
+  <data name="Narr_Retro_Sky_05" xml:space="preserve">
+    <value>它掉头往回走，朝西退了大约十个星期。天文学家把这叫做逆行。橙色的这一段，就是它倒着走的路。</value>
+  </data>
+  <data name="Narr_Retro_Sky_06" xml:space="preserve">
+    <value>就在逆行的正中间，火星在天空中正好和太阳相对，这叫冲日。它日落时升起，整夜都在，而且离我们最近、也最亮。</value>
+  </data>
+  <data name="Narr_Retro_Sky_07" xml:space="preserve">
+    <value>接着它又慢下来，第二次停住，然后重新朝东走，就好像什么都没发生过。</value>
+  </data>
+  <data name="Narr_Retro_Sky_08" xml:space="preserve">
+    <value>这是完整的路线。有时候是一个圈，有时候是一个 Z 字，取决于行星的轨道和地球轨道之间的倾斜。不过它总是贴着黄道，也就是太阳一年走过的路。</value>
+  </data>
+  <data name="Narr_Retro_Sky_09" xml:space="preserve">
+    <value>该你了。换一颗行星，看看它的逆行环；或者在星空上拖动，前后移动日期。</value>
+  </data>
   <data name="Narr_Seasons_Distance_01" xml:space="preserve">
     <value>很多人以为，夏天热是因为地球离太阳更近。地球的轨道确实不是正圆，而是一个稍微有点扁的椭圆。</value>
   </data>
@@ -3347,6 +3506,561 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>讲解 {0}/{1}</value>
+  </data>
+  <data name="Retro_Above_Fact1" xml:space="preserve">
+    <value>平均公转速度：水星 47 公里/秒，金星 35，地球 30，火星 24，木星 13，土星 10。总是内圈的去超外圈的。</value>
+  </data>
+  <data name="Retro_Above_Fact2" xml:space="preserve">
+    <value>在高速公路上超过一辆慢车时，在远处山的衬托下它好像在往后退，其实两辆车都在往前开。</value>
+  </data>
+  <data name="Retro_Above_Fact3" xml:space="preserve">
+    <value>从地球北极上方看，所有行星都逆时针绕太阳转。所以它们平常在星空中都是往东走的。</value>
+  </data>
+  <data name="Retro_Above_Fact4" xml:space="preserve">
+    <value>行星越远，往回退的那一步越小：火星退 10 到 20 度，木星约 10 度，土星约 7 度。</value>
+  </data>
+  <data name="Retro_Above_Fact5" xml:space="preserve">
+    <value>水星和金星从地球和太阳之间经过时会逆行，那正是它们从黄昏的天空转到黎明的天空的时候。</value>
+  </data>
+  <data name="Retro_Above_Note" xml:space="preserve">
+    <value>从太阳北方往下看；轨道和距离按比例（恒星实际上远得多）。</value>
+  </data>
+  <data name="Retro_Above_Subtitle" xml:space="preserve">
+    <value>从上方看地球和{0}</value>
+  </data>
+  <data name="Retro_Chart_Caption" xml:space="preserve">
+    <value>逆行前后的黄经</value>
+  </data>
+  <data name="Retro_Chart_East" xml:space="preserve">
+    <value>↑ 向东</value>
+  </data>
+  <data name="Retro_Chart_Note" xml:space="preserve">
+    <value>行星在这次逆行前后的黄经：曲线上升表示向东走；橙色的下凹段是逆行，圆圈是两个「留」。</value>
+  </data>
+  <data name="Retro_Date" xml:space="preserve">
+    <value>{0:yyyy年M月d日}</value>
+  </data>
+  <data name="Retro_Dir_E" xml:space="preserve">
+    <value>东</value>
+  </data>
+  <data name="Retro_Dir_W" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="Retro_Epicycle_Earth_Inner" xml:space="preserve">
+    <value>让地球固定不动，行星绕着太阳转，而太阳又绕着地球转：均轮带着太阳，本轮就是行星自己的轨道。</value>
+  </data>
+  <data name="Retro_Epicycle_Earth_Outer" xml:space="preserve">
+    <value>让地球固定不动，行星的路线就是它自己的轨道再叠加一份地球轨道：一个圆带着另一个圆转，正是托勒密画的那样。</value>
+  </data>
+  <data name="Retro_Epicycle_Earth_Title" xml:space="preserve">
+    <value>地球不动：{0}在打圈</value>
+  </data>
+  <data name="Retro_Epicycle_Fact1" xml:space="preserve">
+    <value>托勒密约公元 150 年在亚历山大写成《天文学大成》，用均轮、本轮和偏心匀速点来预测行星的位置，被沿用了约 1400 年。</value>
+  </data>
+  <data name="Retro_Epicycle_Fact2" xml:space="preserve">
+    <value>哥白尼在 1543 年出版的书里把太阳放在中心，把逆行解释为地球自身运动在天空中的反映。</value>
+  </data>
+  <data name="Retro_Epicycle_Fact3" xml:space="preserve">
+    <value>在托勒密的模型里，火星、木星和土星的本轮都恰好一年转一圈，和太阳步调一致。这个线索一直无法解释，直到太阳被放到中心。</value>
+  </data>
+  <data name="Retro_Epicycle_Fact4" xml:space="preserve">
+    <value>金星的 13 年几乎正好等于地球的 8 年，所以从地球看金星画出的图案每 8 年重复一次。</value>
+  </data>
+  <data name="Retro_Epicycle_Fact5" xml:space="preserve">
+    <value>1609 年开普勒用椭圆取代了圆，行星的位置终于和第谷的精密观测吻合了。</value>
+  </data>
+  <data name="Retro_Epicycle_Note" xml:space="preserve">
+    <value>行星的真实位置，画面中心固定地球或太阳；距离按比例。</value>
+  </data>
+  <data name="Retro_Epicycle_Subtitle" xml:space="preserve">
+    <value>以地球或太阳为中心看{0}</value>
+  </data>
+  <data name="Retro_Epicycle_Sun_Inner" xml:space="preserve">
+    <value>让太阳固定，这颗行星只是在地球轨道里面绕圈。那些圈，来自我们从运动的地球上去看它。</value>
+  </data>
+  <data name="Retro_Epicycle_Sun_Outer" xml:space="preserve">
+    <value>让太阳固定，每颗行星都只是沿着自己的轨道转。那些圈，其实是地球自己的运动反映在我们看到的景象里。</value>
+  </data>
+  <data name="Retro_Epicycle_Sun_Title" xml:space="preserve">
+    <value>太阳不动：{0}只是在绕圈</value>
+  </data>
+  <data name="Retro_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Retro_Frame_Earth" xml:space="preserve">
+    <value>地球在中心（托勒密）</value>
+  </data>
+  <data name="Retro_Frame_Sun" xml:space="preserve">
+    <value>太阳在中心（哥白尼）</value>
+  </data>
+  <data name="Retro_Hint_Above" xml:space="preserve">
+    <value>拖动地球沿轨道走，可以移动日期。</value>
+  </data>
+  <data name="Retro_Hint_Epicycle" xml:space="preserve">
+    <value>左右拖动，让时间前进或倒退。</value>
+  </data>
+  <data name="Retro_Hint_Sky" xml:space="preserve">
+    <value>在星空上左右拖动，可以前后移动日期。</value>
+  </data>
+  <data name="Retro_Km_Unit" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Retro_Label_Conjunction" xml:space="preserve">
+    <value>下合 · {0}</value>
+  </data>
+  <data name="Retro_Label_Deferent" xml:space="preserve">
+    <value>均轮</value>
+  </data>
+  <data name="Retro_Label_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Retro_Label_East" xml:space="preserve">
+    <value>平时的方向：向东</value>
+  </data>
+  <data name="Retro_Label_Ecliptic" xml:space="preserve">
+    <value>黄道 · 太阳的路</value>
+  </data>
+  <data name="Retro_Label_Epicycle" xml:space="preserve">
+    <value>本轮</value>
+  </data>
+  <data name="Retro_Label_Fan" xml:space="preserve">
+    <value>从地球看：只看方向（角度放大 {0} 倍）</value>
+  </data>
+  <data name="Retro_Label_Loop" xml:space="preserve">
+    <value>逆行圈：离地球最近</value>
+  </data>
+  <data name="Retro_Label_Opposition" xml:space="preserve">
+    <value>冲日 · {0}</value>
+  </data>
+  <data name="Retro_Label_Scale10" xml:space="preserve">
+    <value>{0}° ≈ 伸直手臂时一个拳头</value>
+  </data>
+  <data name="Retro_Label_Scale5" xml:space="preserve">
+    <value>{0}° ≈ 伸直手臂时三根手指</value>
+  </data>
+  <data name="Retro_Label_Speed" xml:space="preserve">
+    <value>{0} 公里/秒</value>
+  </data>
+  <data name="Retro_Label_Stars" xml:space="preserve">
+    <value>远方的恒星（实际远得多）</value>
+  </data>
+  <data name="Retro_Label_StationDirect" xml:space="preserve">
+    <value>留，恢复顺行 · {0}</value>
+  </data>
+  <data name="Retro_Label_StationRetro" xml:space="preserve">
+    <value>留，开始逆行 · {0}</value>
+  </data>
+  <data name="Retro_Label_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Retro_Label_TrailYears" xml:space="preserve">
+    <value>已画 {0} 年</value>
+  </data>
+  <data name="Retro_Lesson_Above_Choice1" xml:space="preserve">
+    <value>地球在内圈超过了它</value>
+  </data>
+  <data name="Retro_Lesson_Above_Choice2" xml:space="preserve">
+    <value>火星真的掉头了</value>
+  </data>
+  <data name="Retro_Lesson_Above_Choice3" xml:space="preserve">
+    <value>背后的星星在动</value>
+  </data>
+  <data name="Retro_Lesson_Epicycle_Choice1" xml:space="preserve">
+    <value>圈圈解开，变成普通的轨道</value>
+  </data>
+  <data name="Retro_Lesson_Epicycle_Choice2" xml:space="preserve">
+    <value>圈变得更大</value>
+  </data>
+  <data name="Retro_Lesson_Epicycle_Choice3" xml:space="preserve">
+    <value>火星停下不动</value>
+  </data>
+  <data name="Retro_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>掉头往西走一阵子</value>
+  </data>
+  <data name="Retro_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>继续往东走</value>
+  </data>
+  <data name="Retro_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>从此停在那里</value>
+  </data>
+  <data name="Retro_Loop_Next" xml:space="preserve">
+    <value>下一次 ▶</value>
+  </data>
+  <data name="Retro_Loop_Previous" xml:space="preserve">
+    <value>◀ 上一次</value>
+  </data>
+  <data name="Retro_Loops_Caption" xml:space="preserve">
+    <value>逆行时段</value>
+  </data>
+  <data name="Retro_Loops_Note" xml:space="preserve">
+    <value>日期是行星停下并掉头的时刻，由行星轨道算出（误差一两天）。</value>
+  </data>
+  <data name="Retro_Mode_Above" xml:space="preserve">
+    <value>俯视</value>
+  </data>
+  <data name="Retro_Mode_Epicycle" xml:space="preserve">
+    <value>本轮</value>
+  </data>
+  <data name="Retro_Mode_Sky" xml:space="preserve">
+    <value>天空中</value>
+  </data>
+  <data name="Retro_Month" xml:space="preserve">
+    <value>{0:%M}月</value>
+  </data>
+  <data name="Retro_Obj_Conjunction" xml:space="preserve">
+    <value>下合</value>
+  </data>
+  <data name="Retro_Obj_Deferent" xml:space="preserve">
+    <value>均轮</value>
+  </data>
+  <data name="Retro_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Retro_Obj_EarthOrbit" xml:space="preserve">
+    <value>地球轨道</value>
+  </data>
+  <data name="Retro_Obj_East" xml:space="preserve">
+    <value>星空中的东方</value>
+  </data>
+  <data name="Retro_Obj_Ecliptic" xml:space="preserve">
+    <value>黄道</value>
+  </data>
+  <data name="Retro_Obj_Epicycle" xml:space="preserve">
+    <value>本轮</value>
+  </data>
+  <data name="Retro_Obj_Fan" xml:space="preserve">
+    <value>从地球看的方向</value>
+  </data>
+  <data name="Retro_Obj_Frame" xml:space="preserve">
+    <value>谁在中心</value>
+  </data>
+  <data name="Retro_Obj_Jupiter" xml:space="preserve">
+    <value>木星</value>
+  </data>
+  <data name="Retro_Obj_Loop" xml:space="preserve">
+    <value>逆行圈</value>
+  </data>
+  <data name="Retro_Obj_Marks" xml:space="preserve">
+    <value>一步步的视线</value>
+  </data>
+  <data name="Retro_Obj_Mars" xml:space="preserve">
+    <value>火星</value>
+  </data>
+  <data name="Retro_Obj_Mercury" xml:space="preserve">
+    <value>水星</value>
+  </data>
+  <data name="Retro_Obj_Opposition" xml:space="preserve">
+    <value>冲日</value>
+  </data>
+  <data name="Retro_Obj_PlanetOrbit" xml:space="preserve">
+    <value>行星轨道</value>
+  </data>
+  <data name="Retro_Obj_Retro" xml:space="preserve">
+    <value>逆行段</value>
+  </data>
+  <data name="Retro_Obj_Saturn" xml:space="preserve">
+    <value>土星</value>
+  </data>
+  <data name="Retro_Obj_Scale" xml:space="preserve">
+    <value>十度有多大</value>
+  </data>
+  <data name="Retro_Obj_SightLine" xml:space="preserve">
+    <value>视线</value>
+  </data>
+  <data name="Retro_Obj_Speed" xml:space="preserve">
+    <value>公转速度</value>
+  </data>
+  <data name="Retro_Obj_Stars" xml:space="preserve">
+    <value>背景恒星</value>
+  </data>
+  <data name="Retro_Obj_StationDirect" xml:space="preserve">
+    <value>第二个留：恢复顺行</value>
+  </data>
+  <data name="Retro_Obj_StationRetro" xml:space="preserve">
+    <value>第一个留：开始逆行</value>
+  </data>
+  <data name="Retro_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Retro_Obj_Venus" xml:space="preserve">
+    <value>金星</value>
+  </data>
+  <data name="Retro_Obj_Zodiac" xml:space="preserve">
+    <value>黄道星座</value>
+  </data>
+  <data name="Retro_Option_EarthFrame" xml:space="preserve">
+    <value>地球为中心</value>
+  </data>
+  <data name="Retro_Option_Epicycles" xml:space="preserve">
+    <value>均轮与本轮</value>
+  </data>
+  <data name="Retro_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Retro_Option_SightLines" xml:space="preserve">
+    <value>之前的视线</value>
+  </data>
+  <data name="Retro_Option_SunFrame" xml:space="preserve">
+    <value>太阳为中心</value>
+  </data>
+  <data name="Retro_Option_WholePath" xml:space="preserve">
+    <value>完整路线</value>
+  </data>
+  <data name="Retro_Option_WholePattern" xml:space="preserve">
+    <value>完整图案</value>
+  </data>
+  <data name="Retro_Options_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Retro_Orientation_North" xml:space="preserve">
+    <value>星空条里东方在左边，就像在{0}（北半球）面对行星时看到的那样。</value>
+  </data>
+  <data name="Retro_Orientation_South" xml:space="preserve">
+    <value>星空条里东方在右边，就像在{0}（南半球）面对行星时看到的那样。</value>
+  </data>
+  <data name="Retro_Pattern_Jupiter" xml:space="preserve">
+    <value>12 年 11 个圈，几乎每个黄道星座一个</value>
+  </data>
+  <data name="Retro_Pattern_Mars" xml:space="preserve">
+    <value>约 15 年 7 个圈</value>
+  </data>
+  <data name="Retro_Pattern_Mercury" xml:space="preserve">
+    <value>一年约 3 个圈</value>
+  </data>
+  <data name="Retro_Pattern_Saturn" xml:space="preserve">
+    <value>29 年半里约 28 个圈</value>
+  </data>
+  <data name="Retro_Pattern_Venus" xml:space="preserve">
+    <value>8 年 5 个圈：一朵五瓣花</value>
+  </data>
+  <data name="Retro_Phase_Pro_Inner" xml:space="preserve">
+    <value>这是它在星空中平常的走法：往东。不过它在天上总不会离太阳太远。</value>
+  </data>
+  <data name="Retro_Phase_Pro_Outer" xml:space="preserve">
+    <value>这是它平常的走法：它绕太阳比地球慢，一夜一夜地在星空中往东挪一点。</value>
+  </data>
+  <data name="Retro_Phase_Pro_Title" xml:space="preserve">
+    <value>{0}正在向东顺行</value>
+  </data>
+  <data name="Retro_Phase_Retro_Inner" xml:space="preserve">
+    <value>它正从地球和太阳之间经过，从内圈超过我们，所以它在星空中看起来往西退。</value>
+  </data>
+  <data name="Retro_Phase_Retro_Outer" xml:space="preserve">
+    <value>地球正从内圈超过它，所以它在远方星星的衬托下看起来往西退，其实它还是像往常一样绕着太阳转。</value>
+  </data>
+  <data name="Retro_Phase_Retro_Title" xml:space="preserve">
+    <value>{0}正在逆行</value>
+  </data>
+  <data name="Retro_Phase_Station_Inner" xml:space="preserve">
+    <value>从地球上看，它横向的移动有几天刚好抵消，所以它在星空里像是停住了，然后才掉头。</value>
+  </data>
+  <data name="Retro_Phase_Station_Outer" xml:space="preserve">
+    <value>地球正从内圈追上它。这几天里，两种运动刚好抵消，它在星空中几乎不动。</value>
+  </data>
+  <data name="Retro_Phase_Station_Title" xml:space="preserve">
+    <value>{0}停住不动（留）</value>
+  </data>
+  <data name="Retro_Planet_Caption" xml:space="preserve">
+    <value>行星</value>
+  </data>
+  <data name="Retro_Planet_Jupiter" xml:space="preserve">
+    <value>木星</value>
+  </data>
+  <data name="Retro_Planet_Mars" xml:space="preserve">
+    <value>火星</value>
+  </data>
+  <data name="Retro_Planet_Mercury" xml:space="preserve">
+    <value>水星</value>
+  </data>
+  <data name="Retro_Planet_Saturn" xml:space="preserve">
+    <value>土星</value>
+  </data>
+  <data name="Retro_Planet_Venus" xml:space="preserve">
+    <value>金星</value>
+  </data>
+  <data name="Retro_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停</value>
+  </data>
+  <data name="Retro_Restart" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Retro_ShortDate" xml:space="preserve">
+    <value>{0:M月d日}</value>
+  </data>
+  <data name="Retro_Sky_Fact1" xml:space="preserve">
+    <value>火星大约每 26 个月逆行一次，每次两三个月。木星每 13 个月一次，土星每 12 个半月一次，每次四五个月。</value>
+  </data>
+  <data name="Retro_Sky_Fact2" xml:space="preserve">
+    <value>水星一年逆行三四次，每次约三个星期；金星每 19 个月才逆行一次，每次约六个星期。</value>
+  </data>
+  <data name="Retro_Sky_Fact3" xml:space="preserve">
+    <value>外行星逆行的正中间就是冲日：和太阳相对，整夜可见，离我们最近也最亮，正是观测的好时机。</value>
+  </data>
+  <data name="Retro_Sky_Fact4" xml:space="preserve">
+    <value>路线是一个圈还是一个 Z 字，取决于行星倾斜的轨道：如果逆行期间它正好穿过地球轨道所在的平面，路线就会折成 Z 字形。</value>
+  </data>
+  <data name="Retro_Sky_Fact5" xml:space="preserve">
+    <value>逆行不会改变行星本身，也不会影响我们。它只是从运动的地球上看过去的样子。</value>
+  </data>
+  <data name="Retro_Sky_Note" xml:space="preserve">
+    <value>沿黄道的一条星空，经度和纬度比例相同；行星位置和星星都是真实的。</value>
+  </data>
+  <data name="Retro_Sky_Subtitle" xml:space="preserve">
+    <value>{0}在星空中走出的逆行环</value>
+  </data>
+  <data name="Retro_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Retro_Stat_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Retro_Stat_Distance" xml:space="preserve">
+    <value>离地球</value>
+  </data>
+  <data name="Retro_Stat_Distance_Value" xml:space="preserve">
+    <value>{0} 天文单位 · {1} 万公里</value>
+  </data>
+  <data name="Retro_Stat_Elongation" xml:space="preserve">
+    <value>离太阳</value>
+  </data>
+  <data name="Retro_Stat_Elongation_East" xml:space="preserve">
+    <value>在太阳以东 {0}°</value>
+  </data>
+  <data name="Retro_Stat_Elongation_West" xml:space="preserve">
+    <value>在太阳以西 {0}°</value>
+  </data>
+  <data name="Retro_Stat_Frame" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="Retro_Stat_Loop" xml:space="preserve">
+    <value>本次逆行</value>
+  </data>
+  <data name="Retro_Stat_Loop_Value" xml:space="preserve">
+    <value>{0} – {1}（{2} 天）</value>
+  </data>
+  <data name="Retro_Stat_Loops" xml:space="preserve">
+    <value>已画出</value>
+  </data>
+  <data name="Retro_Stat_Loops_Value" xml:space="preserve">
+    <value>{1} 年里 {0} 个圈</value>
+  </data>
+  <data name="Retro_Stat_Motion" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="Retro_Stat_Motion_East" xml:space="preserve">
+    <value>每天向东 {0}°</value>
+  </data>
+  <data name="Retro_Stat_Motion_Still" xml:space="preserve">
+    <value>几乎不动</value>
+  </data>
+  <data name="Retro_Stat_Motion_West" xml:space="preserve">
+    <value>每天向西 {0}°（逆行）</value>
+  </data>
+  <data name="Retro_Stat_Pattern" xml:space="preserve">
+    <value>图案</value>
+  </data>
+  <data name="Retro_Stat_Progress" xml:space="preserve">
+    <value>逆行进度</value>
+  </data>
+  <data name="Retro_Stat_Progress_After" xml:space="preserve">
+    <value>已结束 {0} 天</value>
+  </data>
+  <data name="Retro_Stat_Progress_Before" xml:space="preserve">
+    <value>{0} 天后开始</value>
+  </data>
+  <data name="Retro_Stat_Progress_Inside" xml:space="preserve">
+    <value>第 {0} 天 / 共 {1} 天</value>
+  </data>
+  <data name="Retro_Stat_Progress_JustEnded" xml:space="preserve">
+    <value>刚刚结束</value>
+  </data>
+  <data name="Retro_Stat_Progress_Tomorrow" xml:space="preserve">
+    <value>明天开始</value>
+  </data>
+  <data name="Retro_Stat_Progress_Yesterday" xml:space="preserve">
+    <value>昨天结束</value>
+  </data>
+  <data name="Retro_Stat_Speeds" xml:space="preserve">
+    <value>公转速度</value>
+  </data>
+  <data name="Retro_Stat_Speeds_Value" xml:space="preserve">
+    <value>地球 {0} 公里/秒 · {1} {2} 公里/秒</value>
+  </data>
+  <data name="Retro_Stat_Synodic" xml:space="preserve">
+    <value>逆行周期</value>
+  </data>
+  <data name="Retro_Stat_Synodic_Value" xml:space="preserve">
+    <value>每 {0} 天一次（约 {1} 个月）</value>
+  </data>
+  <data name="Retro_Stat_Where" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Retro_Stat_Where_Value" xml:space="preserve">
+    <value>{0} · 黄经 {1}°</value>
+  </data>
+  <data name="Retro_Timeline_Loop" xml:space="preserve">
+    <value>逆行前后</value>
+  </data>
+  <data name="Retro_Timeline_Years" xml:space="preserve">
+    <value>年份</value>
+  </data>
+  <data name="Retro_Title" xml:space="preserve">
+    <value>行星逆行</value>
+  </data>
+  <data name="Retro_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Retro_Today_In" xml:space="preserve">
+    <value>{0}今天正在逆行，直到{1}。</value>
+  </data>
+  <data name="Retro_Today_Next" xml:space="preserve">
+    <value>{0}今天没有逆行；下一次逆行从{1}开始（还有 {2} 天）。</value>
+  </data>
+  <data name="Retro_Upcoming_Detail" xml:space="preserve">
+    <value>{0} 天 · 在{1}</value>
+  </data>
+  <data name="Retro_Upcoming_Range" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Retro_Zodiac_Aquarius" xml:space="preserve">
+    <value>宝瓶座</value>
+  </data>
+  <data name="Retro_Zodiac_Aries" xml:space="preserve">
+    <value>白羊座</value>
+  </data>
+  <data name="Retro_Zodiac_Cancer" xml:space="preserve">
+    <value>巨蟹座</value>
+  </data>
+  <data name="Retro_Zodiac_Capricornus" xml:space="preserve">
+    <value>摩羯座</value>
+  </data>
+  <data name="Retro_Zodiac_Gemini" xml:space="preserve">
+    <value>双子座</value>
+  </data>
+  <data name="Retro_Zodiac_Leo" xml:space="preserve">
+    <value>狮子座</value>
+  </data>
+  <data name="Retro_Zodiac_Libra" xml:space="preserve">
+    <value>天秤座</value>
+  </data>
+  <data name="Retro_Zodiac_Ophiuchus" xml:space="preserve">
+    <value>蛇夫座</value>
+  </data>
+  <data name="Retro_Zodiac_Pisces" xml:space="preserve">
+    <value>双鱼座</value>
+  </data>
+  <data name="Retro_Zodiac_Sagittarius" xml:space="preserve">
+    <value>人马座</value>
+  </data>
+  <data name="Retro_Zodiac_Scorpius" xml:space="preserve">
+    <value>天蝎座</value>
+  </data>
+  <data name="Retro_Zodiac_Taurus" xml:space="preserve">
+    <value>金牛座</value>
+  </data>
+  <data name="Retro_Zodiac_Virgo" xml:space="preserve">
+    <value>室女座</value>
   </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>动画</value>
