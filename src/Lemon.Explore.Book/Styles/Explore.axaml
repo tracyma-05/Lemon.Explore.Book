@@ -12,7 +12,6 @@
         <SolidColorBrush x:Key="SpaceGlassBorder" Color="#2EFFFFFF" />
         <SolidColorBrush x:Key="SpaceDivider" Color="#1FFFFFFF" />
         <SolidColorBrush x:Key="PlateBrush" Color="#06080F" />
-        <SolidColorBrush x:Key="ChipBorderBrush" Color="#D2C8B6" />
 
         <!-- Simple 24x24 icons, drawn for this project. -->
         <StreamGeometry x:Key="Icon.Play">M8,5 L19,12 L8,19 Z</StreamGeometry>
@@ -24,6 +23,7 @@
         <StreamGeometry x:Key="Icon.Voice">M3,9 H7 L12,4 V20 L7,15 H3 Z M15,7 A6,6 0 0 1 15,17 L15,15 A4,4 0 0 0 15,9 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Pin">M12,2 A7,7 0 0 1 19,9 C19,14 12,22 12,22 C12,22 5,14 5,9 A7,7 0 0 1 12,2 Z M12,6 A3,3 0 1 0 12,12 A3,3 0 1 0 12,6 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.ChevronDown">M7,9 L12,14 L17,9 L18.4,10.4 L12,16.8 L5.6,10.4 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Bookmark">M6,2.5 H18 V21.5 L12,16.8 L6,21.5 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Settings">F1 M12,4.5 A7.5,7.5 0 1 1 12,19.5 A7.5,7.5 0 1 1 12,4.5 Z M18,10.3 L21.5,10.3 L21.5,13.7 L18,13.7 Z M17.44,15.04 L19.92,17.52 L17.52,19.92 L15.04,17.44 Z M13.7,18 L13.7,21.5 L10.3,21.5 L10.3,18 Z M8.96,17.44 L6.48,19.92 L4.08,17.52 L6.56,15.04 Z M6,13.7 L2.5,13.7 L2.5,10.3 L6,10.3 Z M6.56,8.96 L4.08,6.48 L6.48,4.08 L8.96,6.56 Z M10.3,6 L10.3,2.5 L13.7,2.5 L13.7,6 Z M15.04,6.56 L17.52,4.08 L19.92,6.48 L17.44,8.96 Z M12,8.5 A3.5,3.5 0 1 0 12,15.5 A3.5,3.5 0 1 0 12,8.5 Z</StreamGeometry>
 
         <!-- A flat, round pill: the template of every `space` and `chip` button. -->
@@ -76,8 +76,8 @@
 
     <!-- A flyout on paper (the location picker, the settings) -->
     <Style Selector="FlyoutPresenter.paper">
-        <Setter Property="Background" Value="#FBF7EF" />
-        <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}" />
+        <Setter Property="Background" Value="{DynamicResource FlyoutPaperBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ChipBorderBrush}" />
         <Setter Property="BorderThickness" Value="1" />
         <Setter Property="CornerRadius" Value="12" />
         <Setter Property="Padding" Value="16,4,16,16" />
@@ -89,9 +89,9 @@
     <!-- Light pills on the paper page -->
     <Style Selector="Button.chip, RadioButton.chip, ToggleButton.chip">
         <Setter Property="Template" Value="{StaticResource PillTemplate}" />
-        <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         <Setter Property="Background" Value="Transparent" />
-        <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ChipBorderBrush}" />
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Cursor" Value="Hand" />
         <Setter Property="Padding" Value="11,4" />
@@ -99,14 +99,14 @@
         <Setter Property="MinHeight" Value="28" />
     </Style>
     <Style Selector="Button.chip:pointerover /template/ Border#Chrome, RadioButton.chip:pointerover /template/ Border#Chrome, ToggleButton.chip:pointerover /template/ Border#Chrome">
-        <Setter Property="Background" Value="#14B5532E" />
+        <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
     </Style>
     <Style Selector="RadioButton.chip:checked /template/ Border#Chrome, ToggleButton.chip:checked /template/ Border#Chrome">
-        <Setter Property="Background" Value="#22B5532E" />
-        <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}" />
+        <Setter Property="Background" Value="{DynamicResource AccentSoftBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentBrush}" />
     </Style>
     <Style Selector="Button.chip:focus-visible /template/ Border#Chrome, RadioButton.chip:focus-visible /template/ Border#Chrome, ToggleButton.chip:focus-visible /template/ Border#Chrome">
-        <Setter Property="BorderBrush" Value="{StaticResource InkBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource InkBrush}" />
     </Style>
     <Style Selector=".chip PathIcon">
         <Setter Property="Width" Value="14" />
@@ -121,9 +121,9 @@
     </Style>
     <Style Selector="ListBox.chips ListBoxItem">
         <Setter Property="Template" Value="{StaticResource PillTemplate}" />
-        <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         <Setter Property="Background" Value="Transparent" />
-        <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ChipBorderBrush}" />
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Cursor" Value="Hand" />
         <Setter Property="Padding" Value="10,4,12,4" />
@@ -131,14 +131,14 @@
         <Setter Property="MinHeight" Value="28" />
     </Style>
     <Style Selector="ListBox.chips ListBoxItem:pointerover /template/ Border#Chrome">
-        <Setter Property="Background" Value="#14B5532E" />
+        <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
     </Style>
     <Style Selector="ListBox.chips ListBoxItem:selected /template/ Border#Chrome">
-        <Setter Property="Background" Value="#22B5532E" />
-        <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}" />
+        <Setter Property="Background" Value="{DynamicResource AccentSoftBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentBrush}" />
     </Style>
     <Style Selector="ListBox.chips ListBoxItem:focus-visible /template/ Border#Chrome">
-        <Setter Property="BorderBrush" Value="{StaticResource InkBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource InkBrush}" />
     </Style>
 
     <!-- Captions and text on a chapter's left page -->
@@ -147,19 +147,19 @@
         <Setter Property="FontSize" Value="12.5" />
         <Setter Property="FontWeight" Value="SemiBold" />
         <Setter Property="TextWrapping" Value="Wrap" />
-        <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
     </Style>
     <Style Selector="TextBlock.note">
         <Setter Property="FontSize" Value="13" />
         <Setter Property="LineHeight" Value="20" />
         <Setter Property="TextWrapping" Value="Wrap" />
-        <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
     </Style>
     <Style Selector="TextBlock.text">
         <Setter Property="FontSize" Value="14.5" />
         <Setter Property="LineHeight" Value="23" />
         <Setter Property="TextWrapping" Value="Wrap" />
-        <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource BodyInkBrush}" />
     </Style>
 
     <!-- A framed figure on the paper page: a dark plate with rounded corners. -->

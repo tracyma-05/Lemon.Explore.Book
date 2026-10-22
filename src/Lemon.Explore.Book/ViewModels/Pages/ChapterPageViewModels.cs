@@ -17,6 +17,8 @@ public class ChapterTextPageViewModel(int index, IBookNavigator navigator, Chapt
 
     public string VolumeTitle => LocalizationService.Instance.GetString("Volume_" + Chapter.Volume);
 
+    public override string Caption => LocalizationService.Instance.Format("Page_Caption_Chapter", Number, Title);
+
     protected override void OnCultureChanged()
     {
         OnPropertyChanged(nameof(NumberLabel));
@@ -32,4 +34,7 @@ public class ChapterDiagramPageViewModel(int index, IBookNavigator navigator, Ch
     public Chapter Chapter { get; } = chapter;
 
     public Volume Volume => Chapter.Volume;
+
+    public override string Caption => LocalizationService.Instance.Format(
+        "Page_Caption_Diagram", LocalizationService.Instance.GetString(Chapter.TitleKey));
 }

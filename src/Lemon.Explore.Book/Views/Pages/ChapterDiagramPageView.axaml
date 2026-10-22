@@ -7,11 +7,11 @@
     <Grid RowDefinitions="*,Auto" Margin="44,40,44,20">
         <!-- Stand-in for the chapter's interactive diagram until the chapter is ported. -->
         <Grid>
-            <Rectangle Stroke="#C9BFAE" StrokeThickness="1.5" StrokeDashArray="6,5" RadiusX="12" RadiusY="12" />
+            <Rectangle Stroke="{DynamicResource ChipBorderBrush}" StrokeThickness="1.5" StrokeDashArray="6,5" RadiusX="12" RadiusY="12" />
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="14">
                 <Viewbox Width="120" Height="120">
                     <Canvas Width="100" Height="100">
-                        <Ellipse Canvas.Left="10" Canvas.Top="10" Width="80" Height="80" Stroke="#C9BFAE" StrokeThickness="2" />
+                        <Ellipse Canvas.Left="10" Canvas.Top="10" Width="80" Height="80" Stroke="{DynamicResource ChipBorderBrush}" StrokeThickness="2" />
                         <Ellipse Canvas.Left="38" Canvas.Top="38" Width="24" Height="24" Fill="#E9C46A" />
                         <Ellipse Canvas.Left="80" Canvas.Top="44" Width="12" Height="12" Fill="#7FB3D5" />
                     </Canvas>

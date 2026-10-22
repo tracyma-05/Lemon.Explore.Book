@@ -4261,7 +4261,7 @@
     <value>Settings</value>
   </data>
   <data name="Settings_Tip" xml:space="preserve">
-    <value>Language, observer location, narration and page turning</value>
+    <value>Language, theme, observer location, narration and page turning</value>
   </data>
   <data name="Settings_Saved" xml:space="preserve">
     <value>Changes take effect at once and are saved on this device.</value>
@@ -4301,5 +4301,107 @@
   </data>
   <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
     <value>Off: pages change at once, for readers who prefer less motion.</value>
+  </data>
+  <data name="Location_City_Changsha" xml:space="preserve">
+    <value>Changsha</value>
+  </data>
+  <data name="Page_Caption" xml:space="preserve">
+    <value>Page {0}</value>
+  </data>
+  <data name="Page_Caption_Cover" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="Page_Caption_HowToUse" xml:space="preserve">
+    <value>How to use this book</value>
+  </data>
+  <data name="Page_Caption_Title" xml:space="preserve">
+    <value>Title page</value>
+  </data>
+  <data name="Page_Caption_BackCover" xml:space="preserve">
+    <value>Back cover</value>
+  </data>
+  <data name="Page_Caption_Chapter" xml:space="preserve">
+    <value>Chapter {0} · {1}</value>
+  </data>
+  <data name="Page_Caption_Diagram" xml:space="preserve">
+    <value>{0} · picture</value>
+  </data>
+  <data name="Page_Caption_Contents" xml:space="preserve">
+    <value>Contents · {0}</value>
+  </data>
+  <data name="Bookmarks_Title" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="Bookmarks_Tip" xml:space="preserve">
+    <value>Bookmark this page, or turn to a bookmarked one</value>
+  </data>
+  <data name="Bookmarks_Add" xml:space="preserve">
+    <value>Bookmark this page</value>
+  </data>
+  <data name="Bookmarks_Remove" xml:space="preserve">
+    <value>Remove this page's bookmark</value>
+  </data>
+  <data name="Bookmarks_RemoveOne" xml:space="preserve">
+    <value>Remove bookmark</value>
+  </data>
+  <data name="Bookmarks_Empty" xml:space="preserve">
+    <value>No bookmarks yet. Bookmarked pages get a ribbon at the top.</value>
+  </data>
+  <data name="Bookmarks_Details" xml:space="preserve">
+    <value>Page {0} · added {1}</value>
+  </data>
+  <data name="Bookmarks_Shortcut" xml:space="preserve">
+    <value>Shortcut: Ctrl+D</value>
+  </data>
+  <data name="Progress_Opened" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="Progress_Walkthroughs" xml:space="preserve">
+    <value>Walkthroughs {0}/{1}</value>
+  </data>
+  <data name="Progress_Complete" xml:space="preserve">
+    <value>✓ Done</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Follow system</value>
+  </data>
+  <data name="Settings_Accent" xml:space="preserve">
+    <value>Accent colour</value>
+  </data>
+  <data name="Theme_Accent_Terracotta" xml:space="preserve">
+    <value>Terracotta</value>
+  </data>
+  <data name="Theme_Accent_Indigo" xml:space="preserve">
+    <value>Indigo</value>
+  </data>
+  <data name="Theme_Accent_Pine" xml:space="preserve">
+    <value>Pine</value>
+  </data>
+  <data name="Theme_Accent_Plum" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="Theme_Accent_Amber" xml:space="preserve">
+    <value>Amber</value>
+  </data>
+  <data name="Settings_Progress" xml:space="preserve">
+    <value>Reading progress</value>
+  </data>
+  <data name="Settings_Progress_Summary" xml:space="preserve">
+    <value>{0} chapters opened, {1} with every walkthrough heard.</value>
+  </data>
+  <data name="Settings_Progress_Note" xml:space="preserve">
+    <value>Shown in the table of contents. Clearing it keeps your bookmarks.</value>
+  </data>
+  <data name="Settings_Progress_Clear" xml:space="preserve">
+    <value>Clear reading progress</value>
   </data>
 </root>

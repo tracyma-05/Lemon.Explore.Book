@@ -8,7 +8,7 @@
         <TextBlock Grid.Row="1" Classes="pageTitle" FontSize="40" TextAlignment="Center" Text="{loc:Localize Book_Title}" />
         <TextBlock Grid.Row="2" Classes="body" TextAlignment="Center" Text="{loc:Localize Book_Subtitle}" />
         <StackPanel Grid.Row="4" Spacing="4">
-            <Rectangle Height="1" Fill="#D9D0BE" Margin="0,0,0,10" />
+            <Rectangle Height="1" Fill="{DynamicResource RuleBrush}" Margin="0,0,0,10" />
             <TextBlock Classes="folio" TextAlignment="Center" Text="{loc:Localize Title_Edition}" />
             <TextBlock Classes="folio" TextAlignment="Center" Text="{loc:Localize Title_License}" />
         </StackPanel>

@@ -102,7 +102,7 @@ public sealed class NarrationService : INarrationService
 
         var voiceTurnedOff = Settings.VoiceEnabled && !settings.VoiceEnabled;
         Settings = settings with { Volume = Math.Clamp(settings.Volume, 0, 1) };
-        _store.Set(SettingKeys.Narration, JsonSerializer.Serialize(Settings));
+        _store.Set(SettingKeys.Narration, JsonSerializer.Serialize(Settings, BookJson.Default.NarrationSettings));
         _audio.Volume = Settings.Volume;
 
         // Carry on where the voice was, without it.
@@ -194,7 +194,7 @@ public sealed class NarrationService : INarrationService
         try
         {
             return store.Get(SettingKeys.Narration) is { } json
-                ? JsonSerializer.Deserialize<NarrationSettings>(json) ?? new NarrationSettings()
+                ? JsonSerializer.Deserialize(json, BookJson.Default.NarrationSettings) ?? new NarrationSettings()
                 : new NarrationSettings();
         }
         catch (JsonException)

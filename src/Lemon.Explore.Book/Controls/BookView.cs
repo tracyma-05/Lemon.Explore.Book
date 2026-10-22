@@ -41,6 +41,10 @@ public sealed class BookView : Control
     public static readonly StyledProperty<bool> AnimatesTurnsProperty =
         AvaloniaProperty.Register<BookView, bool>(nameof(AnimatesTurns), true);
 
+    /// <summary>Pages with a bookmark; each gets a ribbon at its top outer corner.</summary>
+    public static readonly StyledProperty<IReadOnlyCollection<int>?> BookmarkedPagesProperty =
+        AvaloniaProperty.Register<BookView, IReadOnlyCollection<int>?>(nameof(BookmarkedPages));
+
     /// <summary>Narrowest window that still shows two pages side by side.</summary>
     internal const double MinSpreadWidth = 860;
 
@@ -57,8 +61,11 @@ public sealed class BookView : Control
         GradientStops = { new GradientStop(Color.Parse("#4A3527"), 0), new GradientStop(Color.Parse("#2A1D15"), 1) },
     }.ToImmutable();
 
-    internal static readonly IBrush PaperBrush = new ImmutableSolidColorBrush(Color.Parse("#FBF7EE"));
-    private static readonly IPen PageEdgePen = new ImmutablePen(new ImmutableSolidColorBrush(Color.Parse("#D9D0BE")), 1);
+    // Defaults for the theme's BookPaperBrush, BookPageEdgeBrush, BookTableBrush and AccentBrush (App.axaml).
+    private static readonly IBrush PaperBrush = new ImmutableSolidColorBrush(Color.Parse("#FBF7EE"));
+    private static readonly IBrush PageEdgeBrush = new ImmutableSolidColorBrush(Color.Parse("#D9D0BE"));
+    private static readonly IBrush RibbonBrush = new ImmutableSolidColorBrush(Color.Parse("#B5532E"));
+    private static readonly IBrush RibbonShade = new ImmutableSolidColorBrush(Color.FromArgb(0x40, 0, 0, 0));
 
     private static readonly BoxShadows BookShadow = new(new BoxShadow
     {
@@ -107,6 +114,42 @@ public sealed class BookView : Control
 
         // Tunnelling, so a grab on a page edge wins over whatever the page shows there.
         AddHandler(PointerPressedEvent, OnPagePointerPressed, Avalonia.Interactivity.RoutingStrategies.Tunnel);
+
+        // The paper, the table and the ribbons follow the light or dark theme and the accent colour.
+        ActualThemeVariantChanged += (_, _) => OnThemeChanged();
+        ResourcesChanged += (_, _) => OnThemeChanged();
+    }
+
+    public IReadOnlyCollection<int>? BookmarkedPages
+    {
+        get => GetValue(BookmarkedPagesProperty);
+        set => SetValue(BookmarkedPagesProperty, value);
+    }
+
+    private IBrush Paper => Themed("BookPaperBrush") ?? PaperBrush;
+
+    private IBrush Table => Themed("BookTableBrush") ?? TableBrush;
+
+    private IPen PageEdgePen => new ImmutablePen((Themed("BookPageEdgeBrush") ?? PageEdgeBrush).ToImmutable(), 1);
+
+    private IBrush? Themed(string key) =>
+        this.TryFindResource(key, ActualThemeVariant, out var value) && value is IBrush brush ? brush : null;
+
+    protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)
+    {
+        base.OnAttachedToVisualTree(e);
+        OnThemeChanged();
+    }
+
+    private void OnThemeChanged()
+    {
+        foreach (var presenter in _live.Concat(_staging))
+        {
+            presenter.Background = Paper;
+        }
+
+        InvalidateVisual();
+        _overlay.InvalidateVisual();
     }
 
     public IReadOnlyList<object>? Pages
@@ -156,6 +199,10 @@ public sealed class BookView : Control
         else if (change.Property == PageIndexProperty && !_writingPageIndex)
         {
             TurnTo(PositionOf(PageIndex));
+        }
+        else if (change.Property == BookmarkedPagesProperty)
+        {
+            _overlay.InvalidateVisual();
         }
     }
 
@@ -493,11 +540,11 @@ public sealed class BookView : Control
 
     // ---- Pages ------------------------------------------------------------------------------------------
 
-    private static ContentControl CreatePresenter() => new()
+    private ContentControl CreatePresenter() => new()
     {
         // Hidden until it holds a page: an empty presenter would still paint blank paper.
         IsVisible = false,
-        Background = PaperBrush,
+        Background = Paper,
         ClipToBounds = true,
         HorizontalContentAlignment = Avalonia.Layout.HorizontalAlignment.Stretch,
         VerticalContentAlignment = Avalonia.Layout.VerticalAlignment.Stretch,
@@ -522,6 +569,7 @@ public sealed class BookView : Control
         var (left, right) = position < 0 ? (-1, -1) : PagesAt(position);
         Fill(pair[0], left);
         Fill(pair[1], right);
+        if (pair == _live) _overlay.InvalidateVisual();
 
         void Fill(ContentControl presenter, int page)
         {
@@ -544,6 +592,9 @@ public sealed class BookView : Control
     private void WritePageIndex(int position)
     {
         var page = _isSpread ? SpreadLayout.ReadingPage(position, PageCount) : position;
+
+        // The ribbons belong to the pages now on show.
+        _overlay.InvalidateVisual();
         _writingPageIndex = true;
         try
         {
@@ -579,7 +630,7 @@ public sealed class BookView : Control
 
     private void DrawTable(DrawingContext context, BookLayout layout, int position)
     {
-        context.FillRectangle(TableBrush, new Rect(Bounds.Size));
+        context.FillRectangle(Table, new Rect(Bounds.Size));
         if (PageCount == 0)
         {
             return;
@@ -589,7 +640,7 @@ public sealed class BookView : Control
         var book = left >= 0 && right >= 0 ? layout.LeftPage.Union(layout.RightPage)
             : left >= 0 ? layout.LeftPage
             : layout.RightPage;
-        context.DrawRectangle(PaperBrush, null, new RoundedRect(book, 3), BookShadow);
+        context.DrawRectangle(Paper, null, new RoundedRect(book, 3), BookShadow);
 
         // The page block's thickness: a line or two per side for the pages already read and still to come.
         if (right >= 0)
@@ -603,13 +654,14 @@ public sealed class BookView : Control
         }
     }
 
-    private static void DrawPageEdges(DrawingContext context, Rect page, int pagesBeyond, bool toRight)
+    private void DrawPageEdges(DrawingContext context, Rect page, int pagesBeyond, bool toRight)
     {
         var lines = Math.Min(4, (pagesBeyond + 9) / 10);
+        var pen = PageEdgePen;
         for (var i = 1; i <= lines; i++)
         {
             var x = toRight ? page.Right + (i * 1.5) : page.Left - (i * 1.5);
-            context.DrawLine(PageEdgePen, new Point(x, page.Top + i), new Point(x, page.Bottom - i));
+            context.DrawLine(pen, new Point(x, page.Top + i), new Point(x, page.Bottom - i));
         }
     }
 
@@ -619,6 +671,7 @@ public sealed class BookView : Control
         if (_turn is not { } turn)
         {
             DrawSpine(context, layout);
+            DrawRibbons(context, layout);
             return;
         }
 
@@ -648,7 +701,7 @@ public sealed class BookView : Control
         var lifted = geometry.LiftedRegion();
         using (context.PushGeometryClip(Polygon(lifted)))
         {
-            context.FillRectangle(TableBrush, pageRect);
+            context.FillRectangle(Table, pageRect);
             DrawPage(context, turn.Later.Right, pageRect);
             DrawBand(context, geometry, geometry.FoldNormal, UncoveredShade, Math.Min(70, 8 + (((Vector)(geometry.RestingCorner - geometry.Corner)).Length * 0.25)));
         }
@@ -664,7 +717,7 @@ public sealed class BookView : Control
             }
             else
             {
-                context.FillRectangle(PaperBrush, backRect);
+                context.FillRectangle(Paper, backRect);
             }
         }
 
@@ -685,6 +738,42 @@ public sealed class BookView : Control
 
         var spine = layout.Spine;
         context.FillRectangle(SpineShade, new Rect(spine - 28, layout.RightPage.Top, 56, layout.RightPage.Height));
+    }
+
+    /// <summary>A ribbon hanging over the top edge, near the outer corner, of each bookmarked page on show.</summary>
+    private void DrawRibbons(DrawingContext context, BookLayout layout)
+    {
+        if (BookmarkedPages is not { Count: > 0 } marked)
+        {
+            return;
+        }
+
+        var brush = Themed("AccentBrush") ?? RibbonBrush;
+        var (left, right) = PagesAt(_shown);
+        foreach (var (page, rect, outerLeft) in new[] { (left, layout.LeftPage, true), (right, layout.RightPage, false) })
+        {
+            if (page < 0 || !marked.Contains(page))
+            {
+                continue;
+            }
+
+            const double width = 18, length = 46, notch = 7;
+            var x = outerLeft ? rect.Left + 12 : rect.Right - 12 - width;
+            var top = rect.Top - 4;
+            var ribbon = new StreamGeometry();
+            using (var ctx = ribbon.Open())
+            {
+                ctx.BeginFigure(new Point(x, top), true);
+                ctx.LineTo(new Point(x + width, top));
+                ctx.LineTo(new Point(x + width, top + length));
+                ctx.LineTo(new Point(x + (width / 2), top + length - notch));
+                ctx.LineTo(new Point(x, top + length));
+                ctx.EndFigure(true);
+            }
+
+            context.FillRectangle(RibbonShade, new Rect(x - 1, top, width + 2, 4));
+            context.DrawGeometry(brush, null, ribbon);
+        }
     }
 
     private static void DrawPage(DrawingContext context, Bitmap? page, Rect destination)

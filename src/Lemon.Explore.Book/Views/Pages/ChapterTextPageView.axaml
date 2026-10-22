@@ -9,8 +9,8 @@
         <TextBlock Grid.Row="1" Classes="chapterNumber" Text="{Binding NumberLabel}" />
         <TextBlock Grid.Row="2" Classes="pageTitle" Text="{Binding Title}" />
 
-        <Border Grid.Row="3" VerticalAlignment="Top" Padding="18,14" CornerRadius="8" Background="#0FB5532E"
-                BorderBrush="#33B5532E" BorderThickness="1">
+        <Border Grid.Row="3" VerticalAlignment="Top" Padding="18,14" CornerRadius="8" Background="{DynamicResource AccentFaintBrush}"
+                BorderBrush="{DynamicResource AccentSoftBrush}" BorderThickness="1">
             <TextBlock Classes="body" Text="{loc:Localize Chapter_Placeholder}" />
         </Border>
 

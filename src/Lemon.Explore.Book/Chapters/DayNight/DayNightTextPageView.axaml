@@ -10,21 +10,21 @@
         <Style Selector="TextBlock.statName">
             <Setter Property="Margin" Value="0,3,12,3" />
             <Setter Property="FontSize" Value="13" />
-            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
         </Style>
         <Style Selector="TextBlock.statValue">
             <Setter Property="Grid.Column" Value="1" />
             <Setter Property="Margin" Value="0,3,0,3" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="TextWrapping" Value="Wrap" />
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
         <Style Selector="TextBlock.value">
             <Setter Property="DockPanel.Dock" Value="Right" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="VerticalAlignment" Value="Bottom" />
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
         <Style Selector="Rectangle.legend">
             <Setter Property="Width" Value="12" />
@@ -36,7 +36,7 @@
         </Style>
         <Style Selector="TextBlock.legend">
             <Setter Property="FontSize" Value="12" />
-            <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource BodyInkBrush}" />
         </Style>
 
         <!-- A row of the world clock: the whole row picks the city. -->
@@ -55,10 +55,10 @@
             </Setter>
         </Style>
         <Style Selector="Button.clock:pointerover /template/ Border#Row">
-            <Setter Property="Background" Value="#14B5532E" />
+            <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
         </Style>
         <Style Selector="Button.clock.selected /template/ Border#Row">
-            <Setter Property="Background" Value="#26B5532E" />
+            <Setter Property="Background" Value="{DynamicResource AccentSoftBrush}" />
         </Style>
         <Style Selector="Button.clock:focus-visible /template/ Border#Row">
             <Setter Property="Background" Value="#1F2B2622" />
@@ -186,7 +186,7 @@
                             <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Astronomical}" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
-                            <Rectangle Classes="legend" Fill="#0A1024" />
+                            <Rectangle Classes="legend" Fill="#0A1024" Stroke="{DynamicResource ChipBorderBrush}" StrokeThickness="1" />
                             <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Night}" />
                         </StackPanel>
                     </WrapPanel>
@@ -207,14 +207,14 @@
                                         <PathIcon Classes="sun" Classes.day="{Binding IsDaylight}" Width="16" Height="16"
                                                   HorizontalAlignment="Left" Data="{Binding Icon}" />
                                         <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                            <TextBlock FontSize="13" Foreground="{StaticResource InkBrush}" TextTrimming="CharacterEllipsis"
+                                            <TextBlock FontSize="13" Foreground="{DynamicResource InkBrush}" TextTrimming="CharacterEllipsis"
                                                        Text="{Binding Name}" />
-                                            <TextBlock FontSize="11" Foreground="{StaticResource FaintInkBrush}" Text="{Binding OffsetText}" />
+                                            <TextBlock FontSize="11" Foreground="{DynamicResource FaintInkBrush}" Text="{Binding OffsetText}" />
                                         </StackPanel>
                                         <TextBlock Grid.Column="2" Margin="6,0" VerticalAlignment="Center" FontSize="11"
-                                                   Foreground="{StaticResource AccentBrush}" Text="{Binding DayText}" />
+                                                   Foreground="{DynamicResource AccentBrush}" Text="{Binding DayText}" />
                                         <TextBlock Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Right"
-                                                   FontSize="15" FontWeight="SemiBold" Foreground="{StaticResource InkBrush}"
+                                                   FontSize="15" FontWeight="SemiBold" Foreground="{DynamicResource InkBrush}"
                                                    Text="{Binding TimeText}" />
                                     </Grid>
                                 </Button>
@@ -243,12 +243,12 @@
                 </StackPanel>
 
                 <!-- What is happening now: a coloured edge for the Sun's state -->
-                <Border Margin="0,16,0,0" CornerRadius="10" Background="#0D2B2622" ClipToBounds="True">
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
                     <DockPanel>
                         <Border DockPanel.Dock="Left" Width="6" Background="{Binding Day.StageBrush}" />
                         <StackPanel Margin="14,12">
                             <TextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
-                                       Foreground="{StaticResource InkBrush}" Text="{Binding Day.StageTitle}" />
+                                       Foreground="{DynamicResource InkBrush}" Text="{Binding Day.StageTitle}" />
                             <TextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Day.StageDescription}" />
                             <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
                                 <TextBlock Grid.Row="0" Classes="statName" Text="{loc:Localize DayNight_Stat_LocalTime}" />
@@ -278,7 +278,7 @@
                         <DataTemplate x:DataType="x:String">
                             <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
                                 <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
-                                         Fill="{StaticResource AccentBrush}" />
+                                         Fill="{DynamicResource AccentBrush}" />
                                 <TextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
                             </Grid>
                         </DataTemplate>

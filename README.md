@@ -38,8 +38,13 @@ dotnet run --project src/Lemon.Explore.Book.Browser
 
 - Turn a page: drag a page's outer edge, click it, or press ← / →.
 - **Contents** in the toolbar goes back to the table of contents.
-- **Settings** (top right) has everything you can set: the language, your observer location, narration (voice,
-  volume, subtitles) and page-turn animation. Changes apply at once and are saved on the device.
+- **Bookmarks** marks the page you are reading (or press Ctrl+D) and lists your bookmarks; a bookmarked page has a
+  ribbon at the top. The book also reopens at the page you left.
+- The table of contents shows your progress: chapters you have opened, and how many of a chapter's walkthroughs you
+  have heard to the end.
+- **Settings** (top right) has everything you can set: the language, light or dark paper and an accent colour, your
+  observer location, narration (voice, volume, subtitles), page-turn animation, and clearing your reading progress.
+  Changes apply at once and are saved on the device.
 
 ## Project layout
 

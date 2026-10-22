@@ -4261,7 +4261,7 @@
     <value>设置</value>
   </data>
   <data name="Settings_Tip" xml:space="preserve">
-    <value>语言、观察地点、讲解和翻页</value>
+    <value>语言、主题、观察地点、讲解和翻页</value>
   </data>
   <data name="Settings_Saved" xml:space="preserve">
     <value>修改立即生效，并保存在这台设备上。</value>
@@ -4301,5 +4301,107 @@
   </data>
   <data name="Settings_AnimatesTurns_Note" xml:space="preserve">
     <value>关闭后直接换页，适合不喜欢动态效果的读者。</value>
+  </data>
+  <data name="Location_City_Changsha" xml:space="preserve">
+    <value>长沙</value>
+  </data>
+  <data name="Page_Caption" xml:space="preserve">
+    <value>第 {0} 页</value>
+  </data>
+  <data name="Page_Caption_Cover" xml:space="preserve">
+    <value>封面</value>
+  </data>
+  <data name="Page_Caption_HowToUse" xml:space="preserve">
+    <value>使用说明</value>
+  </data>
+  <data name="Page_Caption_Title" xml:space="preserve">
+    <value>扉页</value>
+  </data>
+  <data name="Page_Caption_BackCover" xml:space="preserve">
+    <value>封底</value>
+  </data>
+  <data name="Page_Caption_Chapter" xml:space="preserve">
+    <value>第 {0} 章 · {1}</value>
+  </data>
+  <data name="Page_Caption_Diagram" xml:space="preserve">
+    <value>{0} · 图</value>
+  </data>
+  <data name="Page_Caption_Contents" xml:space="preserve">
+    <value>目录 · {0}</value>
+  </data>
+  <data name="Bookmarks_Title" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="Bookmarks_Tip" xml:space="preserve">
+    <value>给这一页加书签，或翻到加过书签的页</value>
+  </data>
+  <data name="Bookmarks_Add" xml:space="preserve">
+    <value>给这一页加书签</value>
+  </data>
+  <data name="Bookmarks_Remove" xml:space="preserve">
+    <value>移除这一页的书签</value>
+  </data>
+  <data name="Bookmarks_RemoveOne" xml:space="preserve">
+    <value>移除书签</value>
+  </data>
+  <data name="Bookmarks_Empty" xml:space="preserve">
+    <value>还没有书签。加了书签的页顶部会挂一条丝带。</value>
+  </data>
+  <data name="Bookmarks_Details" xml:space="preserve">
+    <value>第 {0} 页 · {1}添加</value>
+  </data>
+  <data name="Bookmarks_Shortcut" xml:space="preserve">
+    <value>快捷键：Ctrl+D</value>
+  </data>
+  <data name="Progress_Opened" xml:space="preserve">
+    <value>已读</value>
+  </data>
+  <data name="Progress_Walkthroughs" xml:space="preserve">
+    <value>讲解 {0}/{1}</value>
+  </data>
+  <data name="Progress_Complete" xml:space="preserve">
+    <value>✓ 已完成</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>跟随系统</value>
+  </data>
+  <data name="Settings_Accent" xml:space="preserve">
+    <value>强调色</value>
+  </data>
+  <data name="Theme_Accent_Terracotta" xml:space="preserve">
+    <value>赭红</value>
+  </data>
+  <data name="Theme_Accent_Indigo" xml:space="preserve">
+    <value>靛蓝</value>
+  </data>
+  <data name="Theme_Accent_Pine" xml:space="preserve">
+    <value>松绿</value>
+  </data>
+  <data name="Theme_Accent_Plum" xml:space="preserve">
+    <value>梅紫</value>
+  </data>
+  <data name="Theme_Accent_Amber" xml:space="preserve">
+    <value>琥珀</value>
+  </data>
+  <data name="Settings_Progress" xml:space="preserve">
+    <value>阅读进度</value>
+  </data>
+  <data name="Settings_Progress_Summary" xml:space="preserve">
+    <value>已打开 {0} 章，其中 {1} 章的讲解全部听完。</value>
+  </data>
+  <data name="Settings_Progress_Note" xml:space="preserve">
+    <value>进度显示在目录里。清除进度不会删除书签。</value>
+  </data>
+  <data name="Settings_Progress_Clear" xml:space="preserve">
+    <value>清除阅读进度</value>
   </data>
 </root>

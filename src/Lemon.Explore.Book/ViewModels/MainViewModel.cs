@@ -11,6 +11,7 @@ namespace Lemon.Explore.Book.ViewModels;
 public sealed partial class MainViewModel : ObservableObject, IBookNavigator
 {
     private readonly ISettingsStore _settings;
+    private readonly ReadingProgress _progress;
 
     [ObservableProperty]
     private int _pageIndex;
@@ -31,12 +32,18 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
             : 0;
         _pageIndex = Math.Clamp(saved, 0, Pages.Count - 1);
         Settings = new SettingsViewModel(services);
+        Bookmarks = new BookmarksViewModel(services.Bookmarks, Pages, this, _pageIndex);
+        _progress = services.Progress;
+        MarkOpened(_pageIndex);
     }
 
     public IReadOnlyList<PageViewModel> Pages { get; }
 
     /// <summary>Language, observer location, narration and page turning (the settings button).</summary>
     public SettingsViewModel Settings { get; }
+
+    /// <summary>The bookmarks button and the ribbons on marked pages.</summary>
+    public BookmarksViewModel Bookmarks { get; }
 
     public void GoToPage(int pageIndex) => PageIndex = Math.Clamp(pageIndex, 0, Pages.Count - 1);
 
@@ -47,8 +54,24 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
     [RelayCommand]
     private void SwitchLanguage() => Settings.SwitchLanguage();
 
-    partial void OnPageIndexChanged(int value) =>
+    partial void OnPageIndexChanged(int value)
+    {
         _settings.Set(SettingKeys.PageIndex, value.ToString(CultureInfo.InvariantCulture));
+        Bookmarks.SetCurrent(value);
+        MarkOpened(value);
+    }
+
+    /// <summary>Turning to a chapter's pages counts as opening it, for the progress in the contents.</summary>
+    private void MarkOpened(int page)
+    {
+        var chapter = Pages[page] switch
+        {
+            ChapterTextPageViewModel text => text.Chapter,
+            ChapterDiagramPageViewModel diagram => diagram.Chapter,
+            _ => null,
+        };
+        if (chapter is not null) _progress.MarkOpened(chapter.Slug);
+    }
 
     internal static IReadOnlyList<PageViewModel> BuildPages(IBookNavigator navigator, BookServices services)
     {
@@ -61,7 +84,7 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
 
         foreach (var volume in BookContents.Volumes)
         {
-            pages.Add(new ContentsPageViewModel(pages.Count, navigator, volume));
+            pages.Add(new ContentsPageViewModel(pages.Count, navigator, volume, services.Progress));
         }
 
         for (var i = 0; i < BookContents.Chapters.Count; i++)

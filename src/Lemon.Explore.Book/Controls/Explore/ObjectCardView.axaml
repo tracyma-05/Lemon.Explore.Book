@@ -19,7 +19,7 @@
                     <PathIcon Data="{StaticResource Icon.Close}" />
                 </Button>
                 <TextBlock Text="{Binding Title}" FontSize="16" FontWeight="SemiBold" VerticalAlignment="Center"
-                           TextWrapping="Wrap" Foreground="{StaticResource InkBrush}" />
+                           TextWrapping="Wrap" Foreground="{DynamicResource InkBrush}" />
             </DockPanel>
             <TextBlock Classes="text" Margin="0,6,8,8" Text="{Binding Text}" />
             <Button HorizontalAlignment="Left" Classes="chip" Command="{Binding ListenCommand}">

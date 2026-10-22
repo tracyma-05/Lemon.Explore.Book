@@ -60,6 +60,7 @@ public static class ExplorePlaces
     public static IReadOnlyList<ExplorePlace> All { get; } =
     [
         new("Beijing", 39.90, 116.40, 44, "Asia/Shanghai", 8),
+        new("Changsha", 28.23, 112.94, 45, "Asia/Shanghai", 8),
         new("Shanghai", 31.23, 121.47, 4, "Asia/Shanghai", 8),
         new("Guangzhou", 23.13, 113.26, 21, "Asia/Shanghai", 8),
         new("Wuhan", 30.59, 114.31, 23, "Asia/Shanghai", 8),

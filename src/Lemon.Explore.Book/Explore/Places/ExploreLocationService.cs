@@ -83,7 +83,7 @@ public sealed class ExploreLocationService : IExploreLocationService
     private void Apply(ExploreLocationSettings settings)
     {
         _settings = settings;
-        _store.Set(SettingKey, JsonSerializer.Serialize(settings));
+        _store.Set(SettingKey, JsonSerializer.Serialize(settings, BookJson.Default.ExploreLocationSettings));
         Current = Resolve(settings);
         Changed?.Invoke(this, EventArgs.Empty);
     }
@@ -93,7 +93,7 @@ public sealed class ExploreLocationService : IExploreLocationService
         try
         {
             return store.Get(SettingKey) is { } json
-                ? JsonSerializer.Deserialize<ExploreLocationSettings>(json) ?? new ExploreLocationSettings()
+                ? JsonSerializer.Deserialize(json, BookJson.Default.ExploreLocationSettings) ?? new ExploreLocationSettings()
                 : new ExploreLocationSettings();
         }
         catch (JsonException)

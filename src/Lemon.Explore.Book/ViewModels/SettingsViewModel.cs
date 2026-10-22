@@ -1,28 +1,40 @@
 using System.ComponentModel;
+using Avalonia;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Explore.Places;
 using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
+using Lemon.Explore.Book.Infrastructures.Theming;
 
 namespace Lemon.Explore.Book.ViewModels;
 
 /// <summary>
-/// Everything the reader can set, in one place (the settings button at the top right): language, observer location,
-/// narration and page turning. Each choice is saved on this device as soon as it is made.
+/// Everything the reader can set, in one place (the settings button at the top right): language, theme and colour,
+/// observer location, narration, page turning and reading progress. Each choice is saved on this device as soon as it
+/// is made.
 /// </summary>
-public sealed class SettingsViewModel : ObservableObject
+public sealed partial class SettingsViewModel : ObservableObject
 {
     private readonly ISettingsStore _store;
     private readonly INarrationService _narration;
+    private readonly ReadingProgress _progress;
     private bool _animatesTurns;
+    private BookThemeMode _themeMode;
+    private AccentColor _accent;
 
     public SettingsViewModel(BookServices services)
     {
         _store = services.Settings;
         _narration = services.Narration;
         _animatesTurns = _store.Get(SettingKeys.AnimatesTurns) != bool.FalseString;
+        _progress = services.Progress;
+        _themeMode = BookTheme.LoadMode(_store);
+        _accent = BookTheme.LoadAccent(_store);
+        Accents = BookTheme.Accents.Select(a => new AccentChoice(a, this)).ToList();
+        _progress.Changed += (_, _) => OnPropertyChanged(nameof(ProgressSummary));
         Location = new ExploreLocationPickerViewModel(services.Location);
         _narration.SettingsChanged += (_, _) => RaiseNarration();
         LocalizationService.Instance.PropertyChanged += OnLanguageChanged;
@@ -71,7 +83,92 @@ public sealed class SettingsViewModel : ObservableObject
     {
         OnPropertyChanged(nameof(IsChinese));
         OnPropertyChanged(nameof(IsEnglish));
+        OnPropertyChanged(nameof(ProgressSummary));
+        foreach (var accent in Accents) accent.RefreshName();
     }
+
+    #endregion
+
+    #region theme and colour
+
+    public bool IsLightTheme
+    {
+        get => _themeMode == BookThemeMode.Light;
+        set
+        {
+            if (value) SetThemeMode(BookThemeMode.Light);
+        }
+    }
+
+    public bool IsDarkTheme
+    {
+        get => _themeMode == BookThemeMode.Dark;
+        set
+        {
+            if (value) SetThemeMode(BookThemeMode.Dark);
+        }
+    }
+
+    /// <summary>Light or dark as the system is set.</summary>
+    public bool IsSystemTheme
+    {
+        get => _themeMode == BookThemeMode.System;
+        set
+        {
+            if (value) SetThemeMode(BookThemeMode.System);
+        }
+    }
+
+    public BookThemeMode ThemeMode => _themeMode;
+
+    /// <summary>The accent colours to choose from, as swatches.</summary>
+    public IReadOnlyList<AccentChoice> Accents { get; }
+
+    public AccentColor Accent
+    {
+        get => _accent;
+        set
+        {
+            if (_accent == value) return;
+            _accent = value;
+            _store.Set(BookTheme.AccentSetting, value.Id);
+            ApplyTheme();
+            OnPropertyChanged();
+            foreach (var accent in Accents) accent.RefreshSelected();
+        }
+    }
+
+    private void SetThemeMode(BookThemeMode mode)
+    {
+        if (_themeMode == mode) return;
+        _themeMode = mode;
+        _store.Set(BookTheme.ThemeSetting, mode.ToString());
+        ApplyTheme();
+        OnPropertyChanged(nameof(IsLightTheme));
+        OnPropertyChanged(nameof(IsDarkTheme));
+        OnPropertyChanged(nameof(IsSystemTheme));
+        OnPropertyChanged(nameof(ThemeMode));
+    }
+
+    private void ApplyTheme() => BookTheme.Apply(Application.Current, _themeMode, _accent);
+
+    #endregion
+
+    #region reading progress
+
+    /// <summary>e.g. "5 chapters opened, 2 finished".</summary>
+    public string ProgressSummary
+    {
+        get
+        {
+            var (opened, complete) = _progress.Summary();
+            return LocalizationService.Instance.Format("Settings_Progress_Summary", opened, complete);
+        }
+    }
+
+    /// <summary>Forgets which chapters were opened and which walkthroughs were heard (bookmarks stay).</summary>
+    [RelayCommand]
+    private void ClearProgress() => _progress.Clear();
 
     #endregion
 
@@ -122,4 +219,27 @@ public sealed class SettingsViewModel : ObservableObject
             _store.Set(SettingKeys.AnimatesTurns, value ? null : bool.FalseString);
         }
     }
+}
+
+/// <summary>One accent colour as a swatch in the settings.</summary>
+public sealed class AccentChoice(AccentColor color, SettingsViewModel settings) : ObservableObject
+{
+    public AccentColor Color { get; } = color;
+
+    public Avalonia.Media.IBrush Swatch { get; } = new Avalonia.Media.Immutable.ImmutableSolidColorBrush(color.OnLight);
+
+    public string Name => LocalizationService.Instance.GetString(Color.NameKey);
+
+    public bool IsSelected
+    {
+        get => settings.Accent == Color;
+        set
+        {
+            if (value) settings.Accent = Color;
+        }
+    }
+
+    internal void RefreshSelected() => OnPropertyChanged(nameof(IsSelected));
+
+    internal void RefreshName() => OnPropertyChanged(nameof(Name));
 }

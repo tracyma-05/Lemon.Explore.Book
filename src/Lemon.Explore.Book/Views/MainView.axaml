@@ -50,6 +50,10 @@
         <DataTemplate DataType="pages:BackCoverPageViewModel"><pageViews:BackCoverPageView /></DataTemplate>
     </UserControl.DataTemplates>
 
+    <UserControl.KeyBindings>
+        <KeyBinding Gesture="Ctrl+D" Command="{Binding Bookmarks.ToggleCurrentCommand}" />
+    </UserControl.KeyBindings>
+
     <DockPanel>
         <Border DockPanel.Dock="Top" Classes="toolbar">
             <Grid ColumnDefinitions="*,Auto">
@@ -62,6 +66,20 @@
                             ToolTip.Tip="{loc:Localize Toolbar_Next}"
                             AutomationProperties.Name="{loc:Localize Toolbar_Next}" />
                     <Button Content="{loc:Localize Toolbar_Contents}" Command="{Binding GoToContentsCommand}" />
+                    <!-- Bookmarks: mark this page, or turn to a marked one -->
+                    <Button x:Name="BookmarksButton"
+                            ToolTip.Tip="{loc:Localize Bookmarks_Tip}"
+                            AutomationProperties.Name="{loc:Localize Bookmarks_Title}">
+                        <StackPanel Orientation="Horizontal" Spacing="6">
+                            <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Bookmark}" />
+                            <TextBlock VerticalAlignment="Center" Text="{loc:Localize Bookmarks_Title}" />
+                        </StackPanel>
+                        <Button.Flyout>
+                            <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
+                                <views:BookmarksView DataContext="{Binding Bookmarks}" />
+                            </Flyout>
+                        </Button.Flyout>
+                    </Button>
                     <!-- Everything the reader can set, in one place -->
                     <Button x:Name="SettingsButton"
                             ToolTip.Tip="{loc:Localize Settings_Tip}"
@@ -83,6 +101,7 @@
         <controls:BookView x:Name="Book"
                            Pages="{Binding Pages}"
                            PageIndex="{Binding PageIndex}"
-                           AnimatesTurns="{Binding Settings.AnimatesTurns}" />
+                           AnimatesTurns="{Binding Settings.AnimatesTurns}"
+                           BookmarkedPages="{Binding Bookmarks.MarkedPages}" />
     </DockPanel>
 </UserControl>

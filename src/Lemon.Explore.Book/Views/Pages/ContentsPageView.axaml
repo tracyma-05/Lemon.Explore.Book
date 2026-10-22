@@ -4,10 +4,21 @@
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              x:Class="Lemon.Explore.Book.Views.Pages.ContentsPageView"
              x:DataType="pages:ContentsPageViewModel">
+    <UserControl.Styles>
+        <Style Selector="TextBlock.progress">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.progress.complete">
+            <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+    </UserControl.Styles>
+
     <Grid RowDefinitions="Auto,Auto,*,Auto" Margin="56,44,56,20">
         <StackPanel Orientation="Horizontal" Spacing="10">
             <TextBlock Classes="kicker" Text="{loc:Localize Contents_Title}" />
-            <TextBlock Classes="kicker" Foreground="{StaticResource FaintInkBrush}" Text="{Binding PartLabel}" />
+            <TextBlock Classes="kicker" Foreground="{DynamicResource FaintInkBrush}" Text="{Binding PartLabel}" />
         </StackPanel>
         <TextBlock Grid.Row="1" Classes="pageTitle" Text="{Binding VolumeTitle}" />
 
@@ -16,10 +27,13 @@
                 <ItemsControl.ItemTemplate>
                     <DataTemplate x:DataType="pages:ContentsEntry">
                         <Button Classes="contentsEntry" Command="{Binding OpenCommand}">
-                            <Grid ColumnDefinitions="40,*,Auto">
-                                <TextBlock Foreground="{StaticResource FaintInkBrush}" Text="{Binding Number}" />
+                            <Grid ColumnDefinitions="40,*,Auto,Auto">
+                                <TextBlock Foreground="{DynamicResource FaintInkBrush}" Text="{Binding Number}" />
                                 <TextBlock Grid.Column="1" Text="{Binding Title}" TextTrimming="CharacterEllipsis" />
-                                <TextBlock Grid.Column="2" Foreground="{StaticResource FaintInkBrush}" Margin="16,0,0,0" Text="{Binding PageText}" />
+                                <!-- How far the reader got: read, walkthroughs heard, or done -->
+                                <TextBlock Grid.Column="2" Classes="progress" Classes.complete="{Binding IsComplete}" Margin="12,0,0,0"
+                                           VerticalAlignment="Center" Text="{Binding ProgressText}" />
+                                <TextBlock Grid.Column="3" Foreground="{DynamicResource FaintInkBrush}" Margin="16,0,0,0" Text="{Binding PageText}" />
                             </Grid>
                         </Button>
                     </DataTemplate>

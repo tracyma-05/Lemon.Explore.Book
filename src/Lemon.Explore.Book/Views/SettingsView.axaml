@@ -11,15 +11,15 @@
             <Setter Property="Margin" Value="0,16,0,8" />
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontWeight" Value="SemiBold" />
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
         <Style Selector="Rectangle.divider">
             <Setter Property="Height" Value="1" />
             <Setter Property="Margin" Value="0,16,0,0" />
-            <Setter Property="Fill" Value="{StaticResource ChipBorderBrush}" />
+            <Setter Property="Fill" Value="{DynamicResource ChipBorderBrush}" />
         </Style>
         <Style Selector="CheckBox">
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="MinHeight" Value="28" />
         </Style>
@@ -40,6 +40,35 @@
 
             <Rectangle Classes="divider" />
 
+            <!-- Appearance: light or dark paper, and the accent colour -->
+            <TextBlock Classes="section" Text="{loc:Localize Settings_Appearance}" />
+            <WrapPanel>
+                <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsLightTheme}" Content="{loc:Localize Settings_Theme_Light}" />
+                <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsDarkTheme}" Content="{loc:Localize Settings_Theme_Dark}" />
+                <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsSystemTheme}" Content="{loc:Localize Settings_Theme_System}" />
+            </WrapPanel>
+            <TextBlock Classes="note" Margin="0,6,0,6" Text="{loc:Localize Settings_Accent}" />
+            <ItemsControl ItemsSource="{Binding Accents}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="vm:AccentChoice">
+                        <RadioButton Classes="chip" GroupName="SettingsAccent" IsChecked="{Binding IsSelected}"
+                                     AutomationProperties.Name="{Binding Name}">
+                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                <Ellipse Width="12" Height="12" VerticalAlignment="Center" Fill="{Binding Swatch}" />
+                                <TextBlock VerticalAlignment="Center" Text="{Binding Name}" />
+                            </StackPanel>
+                        </RadioButton>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Rectangle Classes="divider" />
+
             <!-- Observer location -->
             <TextBlock Classes="section" Text="{loc:Localize Location_Title}" />
             <explore:LocationPickerView DataContext="{Binding Location}" />
@@ -51,9 +80,9 @@
             <CheckBox IsChecked="{Binding VoiceEnabled}" Content="{loc:Localize Settings_Voice}" />
             <DockPanel Margin="0,4,0,0" IsEnabled="{Binding VoiceEnabled}">
                 <TextBlock DockPanel.Dock="Left" Margin="0,0,12,0" VerticalAlignment="Center" FontSize="13"
-                           Foreground="{StaticResource BodyInkBrush}" Text="{loc:Localize Settings_Volume}" />
+                           Foreground="{DynamicResource BodyInkBrush}" Text="{loc:Localize Settings_Volume}" />
                 <TextBlock DockPanel.Dock="Right" Margin="12,0,0,0" MinWidth="32" VerticalAlignment="Center" FontSize="13"
-                           TextAlignment="Right" Foreground="{StaticResource InkBrush}" Text="{Binding VolumePercent}" />
+                           TextAlignment="Right" Foreground="{DynamicResource InkBrush}" Text="{Binding VolumePercent}" />
                 <Slider Minimum="0" Maximum="100" SmallChange="5" LargeChange="10" Value="{Binding VolumePercent}"
                         AutomationProperties.Name="{loc:Localize Settings_Volume}" />
             </DockPanel>
@@ -67,6 +96,15 @@
             <TextBlock Classes="section" Text="{loc:Localize Settings_Reading}" />
             <CheckBox IsChecked="{Binding AnimatesTurns}" Content="{loc:Localize Settings_AnimatesTurns}" />
             <TextBlock Classes="note" Margin="0,4,0,0" Text="{loc:Localize Settings_AnimatesTurns_Note}" />
+
+            <Rectangle Classes="divider" />
+
+            <!-- Reading progress, shown in the table of contents -->
+            <TextBlock Classes="section" Text="{loc:Localize Settings_Progress}" />
+            <TextBlock Classes="note" Text="{Binding ProgressSummary}" />
+            <TextBlock Classes="note" Margin="0,2,0,8" Text="{loc:Localize Settings_Progress_Note}" />
+            <Button Classes="chip" HorizontalAlignment="Left" Command="{Binding ClearProgressCommand}"
+                    Content="{loc:Localize Settings_Progress_Clear}" />
         </StackPanel>
     </ScrollViewer>
 </UserControl>

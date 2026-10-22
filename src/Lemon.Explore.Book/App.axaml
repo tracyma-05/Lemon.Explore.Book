@@ -4,15 +4,57 @@
              RequestedThemeVariant="Light">
 
     <Application.Resources>
-        <SolidColorBrush x:Key="InkBrush" Color="#2B2622" />
-        <SolidColorBrush x:Key="BodyInkBrush" Color="#3A332D" />
-        <SolidColorBrush x:Key="FaintInkBrush" Color="#8C8073" />
-        <SolidColorBrush x:Key="AccentBrush" Color="#B5532E" />
-        <SolidColorBrush x:Key="CoverGoldBrush" Color="#E9C46A" />
-        <LinearGradientBrush x:Key="CoverBrush" StartPoint="0%,0%" EndPoint="100%,100%">
-            <GradientStop Color="#22345C" Offset="0" />
-            <GradientStop Color="#0E1630" Offset="1" />
-        </LinearGradientBrush>
+        <ResourceDictionary>
+            <!--
+                Paper and ink for the light and dark themes. The accent brushes are set from the reader's colour choice
+                (Infrastructures/Theming/BookTheme); these are the defaults. Use them with DynamicResource so a change
+                of theme or colour reaches every page.
+            -->
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="InkBrush" Color="#2B2622" />
+                    <SolidColorBrush x:Key="BodyInkBrush" Color="#3A332D" />
+                    <SolidColorBrush x:Key="FaintInkBrush" Color="#8C8073" />
+                    <SolidColorBrush x:Key="ChipBorderBrush" Color="#D2C8B6" />
+                    <SolidColorBrush x:Key="RuleBrush" Color="#D9D0BE" />
+                    <SolidColorBrush x:Key="TintBrush" Color="#0D2B2622" />
+                    <SolidColorBrush x:Key="FlyoutPaperBrush" Color="#FBF7EF" />
+                    <SolidColorBrush x:Key="BookPaperBrush" Color="#FBF7EE" />
+                    <SolidColorBrush x:Key="BookPageEdgeBrush" Color="#D9D0BE" />
+                    <LinearGradientBrush x:Key="BookTableBrush" StartPoint="0%,0%" EndPoint="0%,100%">
+                        <GradientStop Color="#4A3527" Offset="0" />
+                        <GradientStop Color="#2A1D15" Offset="1" />
+                    </LinearGradientBrush>
+                    <SolidColorBrush x:Key="AccentBrush" Color="#B5532E" />
+                    <SolidColorBrush x:Key="AccentSoftBrush" Color="#22B5532E" />
+                    <SolidColorBrush x:Key="AccentFaintBrush" Color="#14B5532E" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="InkBrush" Color="#EEE6D8" />
+                    <SolidColorBrush x:Key="BodyInkBrush" Color="#D9CFBF" />
+                    <SolidColorBrush x:Key="FaintInkBrush" Color="#A3978A" />
+                    <SolidColorBrush x:Key="ChipBorderBrush" Color="#4E453B" />
+                    <SolidColorBrush x:Key="RuleBrush" Color="#463E35" />
+                    <SolidColorBrush x:Key="TintBrush" Color="#14FFFFFF" />
+                    <SolidColorBrush x:Key="FlyoutPaperBrush" Color="#2A2520" />
+                    <SolidColorBrush x:Key="BookPaperBrush" Color="#25211C" />
+                    <SolidColorBrush x:Key="BookPageEdgeBrush" Color="#3D362E" />
+                    <LinearGradientBrush x:Key="BookTableBrush" StartPoint="0%,0%" EndPoint="0%,100%">
+                        <GradientStop Color="#1C1511" Offset="0" />
+                        <GradientStop Color="#0E0A08" Offset="1" />
+                    </LinearGradientBrush>
+                    <SolidColorBrush x:Key="AccentBrush" Color="#E38A62" />
+                    <SolidColorBrush x:Key="AccentSoftBrush" Color="#33E38A62" />
+                    <SolidColorBrush x:Key="AccentFaintBrush" Color="#1FE38A62" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+
+            <SolidColorBrush x:Key="CoverGoldBrush" Color="#E9C46A" />
+            <LinearGradientBrush x:Key="CoverBrush" StartPoint="0%,0%" EndPoint="100%,100%">
+                <GradientStop Color="#22345C" Offset="0" />
+                <GradientStop Color="#0E1630" Offset="1" />
+            </LinearGradientBrush>
+        </ResourceDictionary>
     </Application.Resources>
 
     <Application.Styles>
@@ -24,29 +66,29 @@
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="LetterSpacing" Value="1.2" />
-            <Setter Property="Foreground" Value="{StaticResource AccentBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
         </Style>
         <Style Selector="TextBlock.pageTitle">
             <Setter Property="FontSize" Value="32" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="TextWrapping" Value="Wrap" />
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
             <Setter Property="Margin" Value="0,6,0,18" />
         </Style>
         <Style Selector="TextBlock.chapterNumber">
             <Setter Property="FontSize" Value="18" />
-            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
             <Setter Property="Margin" Value="0,18,0,0" />
         </Style>
         <Style Selector="TextBlock.body">
             <Setter Property="FontSize" Value="17" />
             <Setter Property="LineHeight" Value="28" />
             <Setter Property="TextWrapping" Value="Wrap" />
-            <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource BodyInkBrush}" />
         </Style>
         <Style Selector="TextBlock.folio">
             <Setter Property="FontSize" Value="13" />
-            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
             <Setter Property="Margin" Value="0,8,0,0" />
         </Style>
 
@@ -57,11 +99,11 @@
             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
             <Setter Property="Padding" Value="10,7" />
             <Setter Property="CornerRadius" Value="6" />
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
             <Setter Property="FontSize" Value="17" />
         </Style>
         <Style Selector="Button.contentsEntry:pointerover /template/ ContentPresenter">
-            <Setter Property="Background" Value="#1AB5532E" />
+            <Setter Property="Background" Value="{DynamicResource AccentFaintBrush}" />
         </Style>
 
         <!-- Toolbar above the book -->

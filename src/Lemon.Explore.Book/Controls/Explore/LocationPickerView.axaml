@@ -11,7 +11,7 @@
             <Setter Property="DockPanel.Dock" Value="Right" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />
-            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
     </UserControl.Styles>
 
@@ -56,11 +56,11 @@
             <Button Classes="chip" Command="{Binding CopyCurrentCommand}" Content="{loc:Localize Location_Custom_FromCurrent}" />
         </WrapPanel>
 
-        <Rectangle Height="1" Margin="0,12,0,10" Fill="{StaticResource ChipBorderBrush}" />
-        <TextBlock FontSize="13" TextWrapping="Wrap" Foreground="{StaticResource InkBrush}">
+        <Rectangle Height="1" Margin="0,12,0,10" Fill="{DynamicResource ChipBorderBrush}" />
+        <TextBlock FontSize="13" TextWrapping="Wrap" Foreground="{DynamicResource InkBrush}">
             <Run Text="{Binding Name, Mode=OneWay}" FontWeight="SemiBold" />
             <Run Text="  " />
-            <Run Text="{Binding CoordinatesText, Mode=OneWay}" Foreground="{StaticResource BodyInkBrush}" />
+            <Run Text="{Binding CoordinatesText, Mode=OneWay}" Foreground="{DynamicResource BodyInkBrush}" />
         </TextBlock>
         <TextBlock Classes="note" Margin="0,4,0,0" Text="{Binding DetailsText}" />
     </StackPanel>

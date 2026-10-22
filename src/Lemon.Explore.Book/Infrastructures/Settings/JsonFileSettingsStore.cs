@@ -40,7 +40,7 @@ public sealed class JsonFileSettingsStore : ISettingsStore
         try
         {
             Directory.CreateDirectory(Path.GetDirectoryName(_path)!);
-            File.WriteAllText(_path, JsonSerializer.Serialize(_values));
+            File.WriteAllText(_path, JsonSerializer.Serialize(_values, BookJson.Default.DictionaryStringString));
         }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
         {
@@ -54,7 +54,7 @@ public sealed class JsonFileSettingsStore : ISettingsStore
         {
             if (File.Exists(path))
             {
-                return JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(path))
+                return JsonSerializer.Deserialize(File.ReadAllText(path), BookJson.Default.DictionaryStringString)
                        ?? new Dictionary<string, string>(StringComparer.Ordinal);
             }
         }

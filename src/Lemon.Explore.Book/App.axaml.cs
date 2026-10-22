@@ -4,6 +4,7 @@ using Avalonia.Markup.Xaml;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
+using Lemon.Explore.Book.Infrastructures.Theming;
 using Lemon.Explore.Book.ViewModels;
 using Lemon.Explore.Book.Views;
 
@@ -38,6 +39,7 @@ public partial class App : Application
     {
         var localization = LocalizationService.Instance;
         localization.SetCulture(localization.ResolveSupportedCulture(Settings.Get(SettingKeys.Culture)));
+        BookTheme.Apply(this, Settings);
 
         var book = new MainViewModel(BookServices.Create(Settings));
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)

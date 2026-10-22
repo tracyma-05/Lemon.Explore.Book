@@ -37,6 +37,9 @@ public abstract class PageViewModel : ObservableObject
     /// <summary>Odd pages are left-hand pages, so their number sits at the outer (left) corner.</summary>
     public HorizontalAlignment FolioAlignment => Index % 2 == 1 ? HorizontalAlignment.Left : HorizontalAlignment.Right;
 
+    /// <summary>What the page is, for the bookmark list: a chapter's title, "Contents · Sky", or "Page 12".</summary>
+    public virtual string Caption => LocalizationService.Instance.Format("Page_Caption", Index);
+
     /// <summary>Called when the reader switches language, to raise properties built from localized text.</summary>
     protected virtual void OnCultureChanged()
     {
@@ -47,6 +50,7 @@ public abstract class PageViewModel : ObservableObject
         if (e.PropertyName == nameof(LocalizationService.CurrentCulture))
         {
             OnPropertyChanged(nameof(Folio));
+            OnPropertyChanged(nameof(Caption));
             OnCultureChanged();
         }
     }

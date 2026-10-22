@@ -26,6 +26,7 @@ public static class ChapterRegistry
             case "Solar-System":
             {
                 var solar = new SolarSystemViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, solar.Lesson, () => "Tour", ["Tour"]);
                 return (new SolarSystemTextPageViewModel(textPage, navigator, chapter, number, solar),
                     new SolarSystemDiagramPageViewModel(textPage + 1, navigator, chapter, solar));
             }
@@ -33,6 +34,7 @@ public static class ChapterRegistry
             case "Eclipses":
             {
                 var eclipse = new EclipseViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, eclipse.Lesson, () => eclipse.Mode.ToString(), Enum.GetNames<EclipseMode>());
                 return (new EclipseTextPageViewModel(textPage, navigator, chapter, number, eclipse),
                     new EclipseDiagramPageViewModel(textPage + 1, navigator, chapter, eclipse));
             }
@@ -40,6 +42,7 @@ public static class ChapterRegistry
             case "Seasons":
             {
                 var seasons = new SeasonsViewModel(services.Narration, services.Settings);
+                services.Progress.Track(chapter.Slug, seasons.Lesson, () => seasons.Mode.ToString(), Enum.GetNames<SeasonsMode>());
                 return (new SeasonsTextPageViewModel(textPage, navigator, chapter, number, seasons),
                     new SeasonsDiagramPageViewModel(textPage + 1, navigator, chapter, seasons));
             }
@@ -47,6 +50,7 @@ public static class ChapterRegistry
             case "Moon-Phases":
             {
                 var moon = new MoonPhasesViewModel(services.Narration, navigator);
+                services.Progress.Track(chapter.Slug, moon.Lesson, () => moon.Mode.ToString(), Enum.GetNames<MoonPhasesMode>());
                 return (new MoonPhasesTextPageViewModel(textPage, navigator, chapter, number, moon),
                     new MoonPhasesDiagramPageViewModel(textPage + 1, navigator, chapter, moon));
             }
@@ -54,6 +58,7 @@ public static class ChapterRegistry
             case "Day-Night":
             {
                 var day = new DayNightViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, day.Lesson, () => day.Mode.ToString(), Enum.GetNames<DayNightMode>());
                 return (new DayNightTextPageViewModel(textPage, navigator, chapter, number, day),
                     new DayNightDiagramPageViewModel(textPage + 1, navigator, chapter, day));
             }
@@ -61,6 +66,7 @@ public static class ChapterRegistry
             case "Tides":
             {
                 var tides = new TidesViewModel(navigator, services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, tides.Lesson, () => tides.Mode.ToString(), Enum.GetNames<TidesMode>());
                 return (new TidesTextPageViewModel(textPage, navigator, chapter, number, tides),
                     new TidesDiagramPageViewModel(textPage + 1, navigator, chapter, tides));
             }
@@ -68,6 +74,7 @@ public static class ChapterRegistry
             case "Kepler":
             {
                 var kepler = new KeplerViewModel(navigator, services.Narration);
+                services.Progress.Track(chapter.Slug, kepler.Lesson, () => kepler.Mode.ToString(), Enum.GetNames<KeplerMode>());
                 return (new KeplerTextPageViewModel(textPage, navigator, chapter, number, kepler),
                     new KeplerDiagramPageViewModel(textPage + 1, navigator, chapter, kepler));
             }

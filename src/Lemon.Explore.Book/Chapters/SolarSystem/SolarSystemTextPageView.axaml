@@ -64,7 +64,7 @@
                         </Grid>
                     </Border>
 
-                    <TextBlock Margin="0,12,0,0" FontSize="28" FontWeight="SemiBold" Foreground="{StaticResource InkBrush}"
+                    <TextBlock Margin="0,12,0,0" FontSize="28" FontWeight="SemiBold" Foreground="{DynamicResource InkBrush}"
                                Text="{Binding Solar.SelectedBody.Name}" />
                     <!-- A moon links back to its planet. -->
                     <Button Classes="chip" HorizontalAlignment="Left" Margin="0,4,0,0"
@@ -113,9 +113,9 @@
                             <DataTemplate x:DataType="solar:BodyFact">
                                 <Border Padding="0,7" BorderBrush="#1A2B2622" BorderThickness="0,0,0,1">
                                     <Grid ColumnDefinitions="Auto,*">
-                                        <TextBlock Margin="0,0,16,0" FontSize="13" Foreground="{StaticResource FaintInkBrush}" Text="{Binding Label}" />
+                                        <TextBlock Margin="0,0,16,0" FontSize="13" Foreground="{DynamicResource FaintInkBrush}" Text="{Binding Label}" />
                                         <TextBlock Grid.Column="1" TextAlignment="Right" TextWrapping="Wrap" FontSize="13"
-                                                   Foreground="{StaticResource InkBrush}" Text="{Binding Value}" />
+                                                   Foreground="{DynamicResource InkBrush}" Text="{Binding Value}" />
                                     </Grid>
                                 </Border>
                             </DataTemplate>
