@@ -1,0 +1,112 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:breeze="using:Lemon.Explore.Book.Chapters.SeaBreeze"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.SeaBreeze.SeaBreezeDiagramPageView"
+                         x:DataType="breeze:SeaBreezeDiagramPageViewModel">
+    <!-- Right page of the Sea breeze spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <!-- The title is on the left page, so the picture needs no room for one (TitleHeight stays 0). -->
+                <breeze:BreezeDiagram Mode="{Binding Breeze.Mode}"
+                                      Sky="{Binding Breeze.Sky}"
+                                      ShowFlow="{Binding Breeze.ShowFlow}"
+                                      ShowPressure="{Binding Breeze.ShowPressure}"
+                                      ShowLabels="{Binding Breeze.ShowLabels}"
+                                      Hour="{Binding Breeze.Hour, Mode=TwoWay}"
+                                      LandTemperature="{Binding Breeze.LandTemperature}"
+                                      SeaTemperature="{Binding Breeze.SeaTemperature}"
+                                      StepTime="{Binding Breeze.StepTime, Mode=TwoWay}"
+                                      Month="{Binding Breeze.Month, Mode=TwoWay}"
+                                      City="{Binding Breeze.City, Mode=TwoWay}"
+                                      Speed="{Binding Breeze.Speed}"
+                                      IsPlaying="{Binding Breeze.IsPlaying, Mode=TwoWay}"
+                                      ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                      Highlight="{Binding Breeze.Lesson.Highlight}"
+                                      IsLessonActive="{Binding Breeze.Lesson.IsActive}"
+                                      SelectedObject="{Binding Breeze.Card.Id, Mode=TwoWay}"
+                                      InteractionCommand="{Binding Breeze.UserInteractedCommand}"
+                                      ToolTip.Tip="{Binding Breeze.Hint}"
+                                      AutomationProperties.Name="{Binding Breeze.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Breeze.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Breeze.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Breeze.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Breeze.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Breeze_PlayPause}" AutomationProperties.Name="{loc:Localize Breeze_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Breeze.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Breeze.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- The cell: a step back, from the start, a step on -->
+                            <StackPanel Orientation="Horizontal" IsVisible="{Binding Breeze.IsCell}">
+                                <Button Classes="space" Command="{Binding Breeze.StepCommand}" CommandParameter="-1"
+                                        ToolTip.Tip="{loc:Localize Breeze_StepBack}" AutomationProperties.Name="{loc:Localize Breeze_StepBack}">
+                                    <PathIcon Data="{StaticResource Icon.Previous}" />
+                                </Button>
+                                <Button Classes="space" Command="{Binding Breeze.RestartCellCommand}"
+                                        ToolTip.Tip="{loc:Localize Breeze_Restart}" AutomationProperties.Name="{loc:Localize Breeze_Restart}">
+                                    <PathIcon Data="{StaticResource Icon.Restart}" />
+                                </Button>
+                                <Button Classes="space" Command="{Binding Breeze.StepCommand}" CommandParameter="1"
+                                        ToolTip.Tip="{loc:Localize Breeze_StepForward}" AutomationProperties.Name="{loc:Localize Breeze_StepForward}">
+                                    <PathIcon Data="{StaticResource Icon.Next}" />
+                                </Button>
+                            </StackPanel>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Breeze_Speed}">
+                                <RadioButton Classes="space speed" GroupName="BreezeSpeed" Content="½×" IsChecked="{Binding Breeze.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="BreezeSpeed" Content="1×" IsChecked="{Binding Breeze.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="BreezeSpeed" Content="2×" IsChecked="{Binding Breeze.SpeedChoice[2]}" />
+                                <RadioButton Classes="space speed" GroupName="BreezeSpeed" Content="4×" IsChecked="{Binding Breeze.SpeedChoice[4]}" />
+                            </StackPanel>
+                            <!-- The timeline of the view: the hours of the day, the steps, the months -->
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="24" Value="{Binding Breeze.Hour}" SmallChange="0.25" LargeChange="1"
+                                        IsVisible="{Binding Breeze.IsCoast}"
+                                        ToolTip.Tip="{loc:Localize Breeze_Timeline_Day}" AutomationProperties.Name="{loc:Localize Breeze_Timeline_Day}" />
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Breeze.CellDuration}" Value="{Binding Breeze.StepTime}" SmallChange="0.2" LargeChange="1"
+                                        IsVisible="{Binding Breeze.IsCell}"
+                                        ToolTip.Tip="{loc:Localize Breeze_Timeline_Steps}" AutomationProperties.Name="{loc:Localize Breeze_Timeline_Steps}" />
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="12" Value="{Binding Breeze.Month}" SmallChange="0.1" LargeChange="1"
+                                        IsVisible="{Binding Breeze.IsMonsoon}"
+                                        ToolTip.Tip="{loc:Localize Breeze_Timeline_Year}" AutomationProperties.Name="{loc:Localize Breeze_Timeline_Year}" />
+                                <TextBlock MinWidth="120" Margin="6,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Breeze.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

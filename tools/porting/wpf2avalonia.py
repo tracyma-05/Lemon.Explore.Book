@@ -803,6 +803,8 @@ def convert_points(s: str) -> str:
         rest = s[m.end():m.end() + 1500]
         if re.search(rf"\b{m.group(1)}\.Length\b|\b{m.group(1)} /= ", rest):
             s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
+    # WPF's Vector.Normalize() changes the vector; Avalonia's returns a new one and leaves it as it was.
+    s = re.sub(r"^(\s*)(\w+)\.Normalize\(\);$", r"\1\2 = \2.Normalize();", s, flags=re.M)
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
     # (also after an `if (...)` on the same line)
@@ -941,7 +943,7 @@ def load_resx(path: Path) -> dict[str, str]:
     return {d.get("name"): (d.find("value").text or "") for d in root.findall("data")}
 
 
-LAYOUT_WORDS = re.compile(r"\bon the (?:right|left)\b|\bside panel\b|\bthe panel\b|\bthis page\b|\bmenu\b|右侧|左侧|右边|左边|侧栏|面板|本页面|菜单", re.I)
+LAYOUT_WORDS = re.compile(r"\bon the (?:right|left)\b|\bside panel\b|\bthe panel\b|\bthis page\b|\bmenu\b|右侧|左侧|右边|左边|侧边栏|侧栏|边栏|面板|本页面|菜单", re.I)
 
 
 def strings(args: argparse.Namespace) -> None:

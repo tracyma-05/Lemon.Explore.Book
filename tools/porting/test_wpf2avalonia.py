@@ -127,11 +127,13 @@ public static readonly Brush Dot = Freeze(new SolidColorBrush(Gold));
         away /= away.Length;
         topLeft.X = Math.Max(0, x);
         if (at.X + text.Width > plot.Right) at.X = point.X - 8;
+        tangent.Normalize();
 """
         out = tool.convert_points(source)
         self.assertIn("Vector away = center - moon;", out)
         self.assertIn("topLeft = topLeft.WithX(Math.Max(0, x));", out)
         self.assertIn("if (at.X + text.Width > plot.Right) at = at.WithX(point.X - 8);", out)
+        self.assertIn("tangent = tangent.Normalize();", out)
 
 
 class LateTests(unittest.TestCase):

@@ -5,6 +5,7 @@ using Lemon.Explore.Book.Chapters.Expansion;
 using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Retrograde;
+using Lemon.Explore.Book.Chapters.SeaBreeze;
 using Lemon.Explore.Book.Chapters.Seasons;
 using Lemon.Explore.Book.Chapters.SolarSystem;
 using Lemon.Explore.Book.Chapters.StarLife;
@@ -22,7 +23,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -131,6 +132,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, water.Lesson, () => water.Mode.ToString(), Enum.GetNames<WaterMode>());
                 return (new WaterCycleTextPageViewModel(textPage, navigator, chapter, number, water),
                     new WaterCycleDiagramPageViewModel(textPage + 1, navigator, chapter, water));
+            }
+
+            case "Sea-Breeze":
+            {
+                var breeze = new SeaBreezeViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, breeze.Lesson, () => breeze.Mode.ToString(), Enum.GetNames<BreezeMode>());
+                return (new SeaBreezeTextPageViewModel(textPage, navigator, chapter, number, breeze),
+                    new SeaBreezeDiagramPageViewModel(textPage + 1, navigator, chapter, breeze));
             }
 
             default:

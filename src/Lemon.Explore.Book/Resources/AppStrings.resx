@@ -48,6 +48,696 @@
   <data name="Bookmarks_Title" xml:space="preserve">
     <value>Bookmarks</value>
   </data>
+  <data name="Breeze_Calm" xml:space="preserve">
+    <value>Calm</value>
+  </data>
+  <data name="Breeze_CellTime_Caption" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Breeze_CellTime_Day" xml:space="preserve">
+    <value>Day (land warmer)</value>
+  </data>
+  <data name="Breeze_CellTime_Night" xml:space="preserve">
+    <value>Night (land colder)</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Day_Description" xml:space="preserve">
+    <value>Compare at one height: over the land the pressure surfaces have moved up, so at that height the pressure over the land is now higher than over the sea (a raised pressure surface means high pressure). Air aloft flows from the land toward the sea, from high to low.</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Day_Title" xml:space="preserve">
+    <value>Aloft the land's pressure is higher: air flows to the sea</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Night_Description" xml:space="preserve">
+    <value>Now the pressure surfaces are lower over the land, so at the same height the pressure over the sea is higher. Air aloft flows from the sea toward the land.</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Night_Title" xml:space="preserve">
+    <value>Aloft the sea's pressure is higher: air flows to the land</value>
+  </data>
+  <data name="Breeze_Cell_AloftLabel" xml:space="preserve">
+    <value>Aloft: from high to low</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Day_Description" xml:space="preserve">
+    <value>Over the warm land the air rises, aloft it flows out to sea, over the cool sea it sinks, and at the ground it comes back to the land: one closed loop driven only by a difference in temperature. The same loop turns between a city and its countryside, a valley and its mountain slopes, and a continent and its ocean (the monsoon).</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Day_Title" xml:space="preserve">
+    <value>The thermal circulation: up where it is warm, down where it is cool</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Night_Description" xml:space="preserve">
+    <value>Now the sea is the warm side: air rises over the sea, flows to the land aloft, sinks over the cold land and drains back out to sea along the ground. A smaller, weaker loop than by day.</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Night_Title" xml:space="preserve">
+    <value>The thermal circulation, turned round at night</value>
+  </data>
+  <data name="Breeze_Cell_Clock" xml:space="preserve">
+    <value>Step {0} of {1}</value>
+  </data>
+  <data name="Breeze_Cell_Even_Day_Description" xml:space="preserve">
+    <value>Each pressure surface (a surface on which the air pressure is the same everywhere) lies flat: at any height the pressure over the land equals the pressure over the sea. Nothing pushes the air sideways, so there is no wind.</value>
+  </data>
+  <data name="Breeze_Cell_Even_Day_Title" xml:space="preserve">
+    <value>Land and sea equally warm</value>
+  </data>
+  <data name="Breeze_Cell_Even_Night_Description" xml:space="preserve">
+    <value>After a sunny day the land cools quickly once the Sun sets and soon matches the sea. For a moment the pressure surfaces lie flat and the air is calm.</value>
+  </data>
+  <data name="Breeze_Cell_Even_Night_Title" xml:space="preserve">
+    <value>Evening: land and sea equally warm</value>
+  </data>
+  <data name="Breeze_Cell_Fact1" xml:space="preserve">
+    <value>Warm air is thicker: the height between two pressure levels grows with the air's mean temperature (the hypsometric equation). Between 1000 and 900 hPa it is about 3 m more for every degree.</value>
+  </data>
+  <data name="Breeze_Cell_Fact2" xml:space="preserve">
+    <value>A pressure difference of 1 hPa over 20 km pushes air at about 4 mm per second every second: in twenty minutes it would reach 5 m/s if nothing held it back.</value>
+  </data>
+  <data name="Breeze_Cell_Fact3" xml:space="preserve">
+    <value>On a pressure surface, a bulge upward marks high pressure and a dip marks low pressure at that height. At the ground, high and low over the land are the opposite of those aloft.</value>
+  </data>
+  <data name="Breeze_Cell_Fact4" xml:space="preserve">
+    <value>Sideways, air moves from high to low pressure at the same height; up and down, warm air rises and cool air sinks. Together they make the thermal circulation, the simplest form of motion in the atmosphere.</value>
+  </data>
+  <data name="Breeze_Cell_Fact5" xml:space="preserve">
+    <value>The same loop drives the valley breeze up mountain slopes by day and the mountain breeze down them at night, the country breeze into a warm city, and on the largest scale the monsoon.</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Day_Description" xml:space="preserve">
+    <value>The Sun shines on land and sea alike, but the land heats only a thin top layer and warms up fast, while the sea mixes its heat down tens of metres and hardly warms at all. The warmed air over the land expands upward: the column gets taller and lifts the pressure surfaces above it, the higher up the more.</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Day_Title" xml:space="preserve">
+    <value>The land warms faster; its air expands</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Night_Description" xml:space="preserve">
+    <value>At night the land radiates its heat away quickly while the sea stays warm. The cooled air over the land contracts: its column gets shorter and the pressure surfaces above it sink.</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Night_Title" xml:space="preserve">
+    <value>The land cools faster; its air shrinks</value>
+  </data>
+  <data name="Breeze_Cell_NoDifference" xml:space="preserve">
+    <value>No temperature difference, no wind</value>
+  </data>
+  <data name="Breeze_Cell_NoDifference_Description" xml:space="preserve">
+    <value>With land and sea at the same temperature both columns of air weigh the same and stand equally tall: the pressure surfaces stay flat and nothing moves. Drag the two temperatures apart.</value>
+  </data>
+  <data name="Breeze_Cell_Note" xml:space="preserve">
+    <value>A schematic. The bending of the pressure surfaces is exaggerated hundreds of times: in real air they move by only some 10–20 m.</value>
+  </data>
+  <data name="Breeze_Cell_StepTitle" xml:space="preserve">
+    <value>{0}/{1} · {2}</value>
+  </data>
+  <data name="Breeze_Cell_Subtitle" xml:space="preserve">
+    <value>How a difference in temperature becomes a wind</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Day_Description" xml:space="preserve">
+    <value>Air has left the top of the land's column and piled up over the sea, so the land's column now holds less air in all: the pressure at the ground falls over the land (a heat low) and rises over the sea. Near the ground the pressure surfaces now dip over the land and bulge over the sea.</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Day_Title" xml:space="preserve">
+    <value>At the ground: low over the land, high over the sea</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Night_Description" xml:space="preserve">
+    <value>Air has flowed in aloft over the land and out of the sea's column, so the pressure at the ground rises over the land and falls over the sea.</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Night_Title" xml:space="preserve">
+    <value>At the ground: high over the land, low over the sea</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Day_Description" xml:space="preserve">
+    <value>At the ground the push now runs from the sea's high to the land's low, so cool sea air flows inland. The pressure difference is only about 1 hPa, a thousandth of the air pressure, yet over tens of kilometres it is enough to drive a breeze of 3–7 m/s.</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Day_Title" xml:space="preserve">
+    <value>At the ground the wind blows from sea to land: the sea breeze</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Night_Description" xml:space="preserve">
+    <value>At the ground the push runs from the land's high to the sea's low, so the cold land air drains out to sea. The land breeze is gentler than the sea breeze, usually 1–3 m/s.</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Night_Title" xml:space="preserve">
+    <value>At the ground the wind blows from land to sea: the land breeze</value>
+  </data>
+  <data name="Breeze_Chart_AfterFlow" xml:space="preserve">
+    <value>after the air moved</value>
+  </data>
+  <data name="Breeze_Chart_Day_Caption" xml:space="preserve">
+    <value>Temperatures and the wind at the beach through the day</value>
+  </data>
+  <data name="Breeze_Chart_Day_Note" xml:space="preserve">
+    <value>The land's air swings by about 11 °C, the sea by less than 1 °C. The wind follows the difference less than an hour later, and only once the land is a degree or two warmer (or colder) than the sea. Shaded: night.</value>
+  </data>
+  <data name="Breeze_Chart_JustHeated" xml:space="preserve">
+    <value>just heated</value>
+  </data>
+  <data name="Breeze_Chart_Land" xml:space="preserve">
+    <value>Land air</value>
+  </data>
+  <data name="Breeze_Chart_LandBreeze" xml:space="preserve">
+    <value>Land breeze (offshore)</value>
+  </data>
+  <data name="Breeze_Chart_LandHigher" xml:space="preserve">
+    <value>land higher →</value>
+  </data>
+  <data name="Breeze_Chart_LandLower" xml:space="preserve">
+    <value>← land lower</value>
+  </data>
+  <data name="Breeze_Chart_PressureAxis" xml:space="preserve">
+    <value>land minus sea, hPa</value>
+  </data>
+  <data name="Breeze_Chart_Profile_Caption" xml:space="preserve">
+    <value>Land minus sea pressure at each height</value>
+  </data>
+  <data name="Breeze_Chart_Profile_Note" xml:space="preserve">
+    <value>Worked out from the hydrostatic equation, with the land's extra warmth fading out 1 km up. Just after heating the difference is zero at the ground and grows upward; once air has flowed out aloft it is negative at the ground and positive aloft. That is why the wind blows one way at the ground and the other way aloft.</value>
+  </data>
+  <data name="Breeze_Chart_Rain_Caption" xml:space="preserve">
+    <value>Rainfall by month</value>
+  </data>
+  <data name="Breeze_Chart_Rain_Note" xml:space="preserve">
+    <value>Typical (long-term average) rainfall, rounded. A monsoon climate has a wet summer and a dry winter; Darwin, south of the equator, has them the other way round.</value>
+  </data>
+  <data name="Breeze_Chart_Sea" xml:space="preserve">
+    <value>Sea surface</value>
+  </data>
+  <data name="Breeze_Chart_SeaBreeze" xml:space="preserve">
+    <value>Sea breeze (onshore)</value>
+  </data>
+  <data name="Breeze_Chart_Year" xml:space="preserve">
+    <value>Year {0} mm</value>
+  </data>
+  <data name="Breeze_City_Beijing" xml:space="preserve">
+    <value>Beijing</value>
+  </data>
+  <data name="Breeze_City_Caption" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Breeze_City_Changsha" xml:space="preserve">
+    <value>Changsha</value>
+  </data>
+  <data name="Breeze_City_Darwin" xml:space="preserve">
+    <value>Darwin</value>
+  </data>
+  <data name="Breeze_City_Guangzhou" xml:space="preserve">
+    <value>Guangzhou</value>
+  </data>
+  <data name="Breeze_City_Mumbai" xml:space="preserve">
+    <value>Mumbai</value>
+  </data>
+  <data name="Breeze_City_Shanghai" xml:space="preserve">
+    <value>Shanghai</value>
+  </data>
+  <data name="Breeze_Clock" xml:space="preserve">
+    <value>{0} · wind {1} m/s</value>
+  </data>
+  <data name="Breeze_Coast_EveningCalm_Description" xml:space="preserve">
+    <value>After sunset the land cools quickly and soon matches the sea: for an hour or two there is no breeze at all, the sticky, still time of a summer evening on the coast. As the land cools further the wind turns round into a land breeze.</value>
+  </data>
+  <data name="Breeze_Coast_EveningCalm_Title" xml:space="preserve">
+    <value>Evening calm</value>
+  </data>
+  <data name="Breeze_Coast_Fact1" xml:space="preserve">
+    <value>Water needs about four to five times as much heat as dry sand or soil to warm by one degree (about 4.2 against 0.8–1 kJ per kilogram), and sunlight reaches metres into the sea while waves mix the heat down tens of metres. On land it stays in the top few centimetres.</value>
+  </data>
+  <data name="Breeze_Coast_Fact2" xml:space="preserve">
+    <value>Evaporation cools the sea's surface too: much of the sunshine falling on the sea goes into turning water into vapour rather than into warming it.</value>
+  </data>
+  <data name="Breeze_Coast_Fact3" xml:space="preserve">
+    <value>A typical sea breeze blows at 3–7 m/s (force 2–4), is a few hundred metres to about a kilometre deep, and its front travels 20–50 km inland, sometimes more than 100 km.</value>
+  </data>
+  <data name="Breeze_Coast_Fact4" xml:space="preserve">
+    <value>When the sea-breeze front passes, the air can cool by several degrees within minutes and the humidity jumps: welcome relief on a hot coast.</value>
+  </data>
+  <data name="Breeze_Coast_Fact5" xml:space="preserve">
+    <value>Clouds and showers often line up along the sea-breeze front. In Florida, where the sea breezes from both coasts meet over the peninsula, summer afternoon thunderstorms are more frequent than anywhere else in the United States.</value>
+  </data>
+  <data name="Breeze_Coast_LandBreeze_Description" xml:space="preserve">
+    <value>At night the land loses its heat to the sky much faster than the sea does. The air over the land is now the colder and denser, the pressure at the ground is higher over the land, and a gentle wind drifts out to sea. It is weaker and shallower than the sea breeze, because cold air lies still near the ground.</value>
+  </data>
+  <data name="Breeze_Coast_LandBreeze_Title" xml:space="preserve">
+    <value>Land breeze</value>
+  </data>
+  <data name="Breeze_Coast_MorningCalm_Description" xml:space="preserve">
+    <value>The Sun has been up a few hours and the land has caught up with the sea, or just edged past it. A difference of a degree or two is not yet enough to push the air: the land breeze has died away and the smoke goes straight up.</value>
+  </data>
+  <data name="Breeze_Coast_MorningCalm_Title" xml:space="preserve">
+    <value>Morning calm</value>
+  </data>
+  <data name="Breeze_Coast_Note" xml:space="preserve">
+    <value>A summer day, local solar time. Heights are drawn more than ten times taller than real: the breeze is about 1 km deep and reaches tens of kilometres inland.</value>
+  </data>
+  <data name="Breeze_Coast_Overcast_Description" xml:space="preserve">
+    <value>A cloud deck keeps the Sun off the land by day and holds its heat in at night, so land and sea stay within a degree or two of each other. Without a temperature difference there is no pressure difference, and the sea and land breezes hardly form. What wind there is comes from bigger weather systems.</value>
+  </data>
+  <data name="Breeze_Coast_Overcast_Title" xml:space="preserve">
+    <value>Overcast: hardly any breeze</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeBuilding_Description" xml:space="preserve">
+    <value>The land is now a few degrees warmer than the sea. Its air expands and rises, the pressure at the ground drops over the land, and cooler air starts flowing in from the sea, first right at the coast. Its leading edge, the sea-breeze front, starts moving inland.</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeBuilding_Title" xml:space="preserve">
+    <value>Sea breeze setting in</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeFading_Description" xml:space="preserve">
+    <value>Late afternoon: the Sun is low and the land is cooling, so the difference with the sea shrinks and the sea breeze weakens. The front stops moving inland and its clouds fade.</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeFading_Title" xml:space="preserve">
+    <value>Sea breeze dying down</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreeze_Description" xml:space="preserve">
+    <value>Early afternoon, the land at its warmest: cool, moist air blows in from the sea, strongest at the beach. Over the land it rises, at a height of 1–2 km it flows back out to sea, and over the sea it sinks again. Where the front pushes the warm land air up, a line of cumulus clouds often forms.</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreeze_Title" xml:space="preserve">
+    <value>Sea breeze</value>
+  </data>
+  <data name="Breeze_Coast_Subtitle" xml:space="preserve">
+    <value>Sea breeze by day, land breeze by night</value>
+  </data>
+  <data name="Breeze_Compass_E" xml:space="preserve">
+    <value>East wind</value>
+  </data>
+  <data name="Breeze_Compass_N" xml:space="preserve">
+    <value>North wind</value>
+  </data>
+  <data name="Breeze_Compass_NE" xml:space="preserve">
+    <value>North-east wind</value>
+  </data>
+  <data name="Breeze_Compass_NW" xml:space="preserve">
+    <value>North-west wind</value>
+  </data>
+  <data name="Breeze_Compass_S" xml:space="preserve">
+    <value>South wind</value>
+  </data>
+  <data name="Breeze_Compass_SE" xml:space="preserve">
+    <value>South-east wind</value>
+  </data>
+  <data name="Breeze_Compass_SW" xml:space="preserve">
+    <value>South-west wind</value>
+  </data>
+  <data name="Breeze_Compass_W" xml:space="preserve">
+    <value>West wind</value>
+  </data>
+  <data name="Breeze_Equator" xml:space="preserve">
+    <value>Equator</value>
+  </data>
+  <data name="Breeze_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Breeze_FromLand" xml:space="preserve">
+    <value>from inland</value>
+  </data>
+  <data name="Breeze_FromSea" xml:space="preserve">
+    <value>from the sea</value>
+  </data>
+  <data name="Breeze_Front_Label" xml:space="preserve">
+    <value>Sea-breeze front · {0} km inland</value>
+  </data>
+  <data name="Breeze_High" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Breeze_Hint_Cell" xml:space="preserve">
+    <value>Six steps play in turn: step through them with the arrows, or switch to night to see it all turn round.</value>
+  </data>
+  <data name="Breeze_Hint_Coast" xml:space="preserve">
+    <value>Watch the flag, the smoke and the sails turn round; drag the timeline to any time of day.</value>
+  </data>
+  <data name="Breeze_Hint_Monsoon" xml:space="preserve">
+    <value>Play the year and watch the winds turn round; click a city to see its rain.</value>
+  </data>
+  <data name="Breeze_Isobar" xml:space="preserve">
+    <value>Pressure surfaces</value>
+  </data>
+  <data name="Breeze_Jump_Afternoon" xml:space="preserve">
+    <value>Afternoon 15:00</value>
+  </data>
+  <data name="Breeze_Jump_April" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Breeze_Jump_Caption" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Breeze_Jump_Evening" xml:space="preserve">
+    <value>Evening 20:30</value>
+  </data>
+  <data name="Breeze_Jump_January" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Breeze_Jump_July" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Breeze_Jump_Late_Morning" xml:space="preserve">
+    <value>Late morning 11:00</value>
+  </data>
+  <data name="Breeze_Jump_Morning" xml:space="preserve">
+    <value>Morning 08:30</value>
+  </data>
+  <data name="Breeze_Jump_Night" xml:space="preserve">
+    <value>Night 03:00</value>
+  </data>
+  <data name="Breeze_Jump_October" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Breeze_Land" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Breeze_LandBreeze" xml:space="preserve">
+    <value>Land breeze</value>
+  </data>
+  <data name="Breeze_LandBreeze_Label" xml:space="preserve">
+    <value>Land breeze {0} m/s</value>
+  </data>
+  <data name="Breeze_LandTemperature" xml:space="preserve">
+    <value>Air over the land</value>
+  </data>
+  <data name="Breeze_Land_Reading" xml:space="preserve">
+    <value>Land {0} °C</value>
+  </data>
+  <data name="Breeze_Lat_N" xml:space="preserve">
+    <value>{0}° N</value>
+  </data>
+  <data name="Breeze_Lat_S" xml:space="preserve">
+    <value>{0}° S</value>
+  </data>
+  <data name="Breeze_Lesson_Cell_Choice1" xml:space="preserve">
+    <value>From over the land toward the sea</value>
+  </data>
+  <data name="Breeze_Lesson_Cell_Choice2" xml:space="preserve">
+    <value>From over the sea toward the land</value>
+  </data>
+  <data name="Breeze_Lesson_Cell_Choice3" xml:space="preserve">
+    <value>Straight up</value>
+  </data>
+  <data name="Breeze_Lesson_Coast_Choice1" xml:space="preserve">
+    <value>From the sea to the land</value>
+  </data>
+  <data name="Breeze_Lesson_Coast_Choice2" xml:space="preserve">
+    <value>From the land to the sea</value>
+  </data>
+  <data name="Breeze_Lesson_Coast_Choice3" xml:space="preserve">
+    <value>There's no wind at all</value>
+  </data>
+  <data name="Breeze_Lesson_Monsoon_Choice1" xml:space="preserve">
+    <value>Low pressure forms over the land</value>
+  </data>
+  <data name="Breeze_Lesson_Monsoon_Choice2" xml:space="preserve">
+    <value>The high gets even stronger</value>
+  </data>
+  <data name="Breeze_Lesson_Monsoon_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Breeze_Low" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Breeze_Mode_Cell" xml:space="preserve">
+    <value>Thermal circulation</value>
+  </data>
+  <data name="Breeze_Mode_Coast" xml:space="preserve">
+    <value>A day on the coast</value>
+  </data>
+  <data name="Breeze_Mode_Monsoon" xml:space="preserve">
+    <value>Monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_Australia" xml:space="preserve">
+    <value>Australian NW monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_Autumn_Description" xml:space="preserve">
+    <value>The land cools again and the heat low fills in. The monsoon withdraws southward, from north-west India in mid-September and from all of India by about mid-October, and the winter monsoon sets in. Northern China turns clear and dry, while the north-east winds bring south-east India its late-year rains.</value>
+  </data>
+  <data name="Breeze_Monsoon_Autumn_Title" xml:space="preserve">
+    <value>Autumn: the monsoon retreats</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact1" xml:space="preserve">
+    <value>"Monsoon" comes from the Arabic mawsim, "season": Arab sailors rode the south-west winds to India in summer and the north-east winds home in winter.</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact2" xml:space="preserve">
+    <value>India gets about three quarters of its yearly rain from the summer monsoon, June to September; a weak monsoon means drought for hundreds of millions of farmers.</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact3" xml:space="preserve">
+    <value>In June and July the plum rains (meiyu) soak the Yangtze valley, where warm, moist monsoon air from the south meets cooler air from the north along a front that stalls for weeks.</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact4" xml:space="preserve">
+    <value>Where the monsoon runs into the Khasi Hills of north-east India, Mawsynram and Cherrapunji average around 11,000–12,000 mm of rain a year, among the wettest places on Earth.</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact5" xml:space="preserve">
+    <value>The land-sea difference is not the whole story: the planet's pressure belts also follow the Sun north and south through the year, and the Tibetan Plateau, heating the air 4–5 km up, strengthens the Asian summer monsoon.</value>
+  </data>
+  <data name="Breeze_Monsoon_NE" xml:space="preserve">
+    <value>NE monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_NW" xml:space="preserve">
+    <value>NW winter monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_Note" xml:space="preserve">
+    <value>Sea-level pressure and surface winds from a simple model of the average January and July charts; rainfall is a long-term average and real years vary a lot.</value>
+  </data>
+  <data name="Breeze_Monsoon_SE" xml:space="preserve">
+    <value>SE monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_SW" xml:space="preserve">
+    <value>SW monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_Spring_Description" xml:space="preserve">
+    <value>The land warms quickly and the Siberian High weakens. Southern China gets its first heavy spring rains while India bakes before the monsoon (May is its hottest month). Over the Indian subcontinent a heat low deepens; the summer monsoon usually reaches Kerala, on India's south-west tip, around 1 June and spreads north from there.</value>
+  </data>
+  <data name="Breeze_Monsoon_Spring_Title" xml:space="preserve">
+    <value>Spring: the monsoon turns round</value>
+  </data>
+  <data name="Breeze_Monsoon_Subtitle" xml:space="preserve">
+    <value>The monsoon: a sea breeze the size of a continent and a year</value>
+  </data>
+  <data name="Breeze_Monsoon_Summer_Description" xml:space="preserve">
+    <value>In summer the continent heats far above the ocean. A huge heat low forms over north-west India, Pakistan and Iran, and moist ocean air pours in: the south-west monsoon over India (the south-east trade winds of the southern Indian Ocean cross the equator and turn) and the south-east monsoon over eastern China, on the flank of the West Pacific subtropical high. It brings most of the year's rain: Mumbai gets about nine tenths of its rain from June to September.</value>
+  </data>
+  <data name="Breeze_Monsoon_Summer_Title" xml:space="preserve">
+    <value>Summer monsoon</value>
+  </data>
+  <data name="Breeze_Monsoon_Winter_Description" xml:space="preserve">
+    <value>In winter the continent cools far below the ocean. Cold, dense air piles up over Mongolia and Siberia: the Siberian High, the strongest high-pressure system on Earth, often above 1,035 hPa. Cold, dry winds blow out of it, from the north-west over northern China and from the north-east over southern China and India, so Beijing and Mumbai have dry, sunny winters. South of the equator it is summer, and northern Australia gets its own rainy north-west monsoon.</value>
+  </data>
+  <data name="Breeze_Monsoon_Winter_Title" xml:space="preserve">
+    <value>Winter monsoon</value>
+  </data>
+  <data name="Breeze_Obj_Australia" xml:space="preserve">
+    <value>Australia's pressure centre</value>
+  </data>
+  <data name="Breeze_Obj_Boat" xml:space="preserve">
+    <value>Sailing boats</value>
+  </data>
+  <data name="Breeze_Obj_Cooling" xml:space="preserve">
+    <value>The land cooling at night</value>
+  </data>
+  <data name="Breeze_Obj_Flag" xml:space="preserve">
+    <value>Flag on the beach</value>
+  </data>
+  <data name="Breeze_Obj_Front" xml:space="preserve">
+    <value>Sea-breeze front</value>
+  </data>
+  <data name="Breeze_Obj_High" xml:space="preserve">
+    <value>High pressure</value>
+  </data>
+  <data name="Breeze_Obj_Low" xml:space="preserve">
+    <value>Low pressure</value>
+  </data>
+  <data name="Breeze_Obj_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Breeze_Obj_Shower" xml:space="preserve">
+    <value>Night showers at sea</value>
+  </data>
+  <data name="Breeze_Obj_Smoke" xml:space="preserve">
+    <value>Chimney smoke</value>
+  </data>
+  <data name="Breeze_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Breeze_Option_Flow" xml:space="preserve">
+    <value>Air flow</value>
+  </data>
+  <data name="Breeze_Option_Isobars" xml:space="preserve">
+    <value>Isobars and centres</value>
+  </data>
+  <data name="Breeze_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Breeze_Option_Pressure" xml:space="preserve">
+    <value>Pressure surfaces</value>
+  </data>
+  <data name="Breeze_Option_Winds" xml:space="preserve">
+    <value>Winds</value>
+  </data>
+  <data name="Breeze_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Breeze_Rain_Value" xml:space="preserve">
+    <value>{0} mm</value>
+  </data>
+  <data name="Breeze_Restart" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="Breeze_Return" xml:space="preserve">
+    <value>Return flow aloft</value>
+  </data>
+  <data name="Breeze_Rising" xml:space="preserve">
+    <value>Rising air</value>
+  </data>
+  <data name="Breeze_Scale" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Breeze_Sea" xml:space="preserve">
+    <value>Sea</value>
+  </data>
+  <data name="Breeze_SeaBreeze" xml:space="preserve">
+    <value>Sea breeze</value>
+  </data>
+  <data name="Breeze_SeaBreeze_Label" xml:space="preserve">
+    <value>Sea breeze {0} m/s</value>
+  </data>
+  <data name="Breeze_SeaTemperature" xml:space="preserve">
+    <value>Air over the sea</value>
+  </data>
+  <data name="Breeze_Sea_Reading" xml:space="preserve">
+    <value>Sea {0} °C</value>
+  </data>
+  <data name="Breeze_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Breeze_Sinking" xml:space="preserve">
+    <value>Sinking air</value>
+  </data>
+  <data name="Breeze_Sky_Caption" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="Breeze_Sky_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Breeze_Sky_Overcast" xml:space="preserve">
+    <value>Overcast</value>
+  </data>
+  <data name="Breeze_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Breeze_Stat_Aloft" xml:space="preserve">
+    <value>Difference 1 km up, just heated</value>
+  </data>
+  <data name="Breeze_Stat_AsianLow" xml:space="preserve">
+    <value>Over north-west India</value>
+  </data>
+  <data name="Breeze_Stat_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Breeze_Stat_CityWind" xml:space="preserve">
+    <value>Wind there</value>
+  </data>
+  <data name="Breeze_Stat_CityWind_Value" xml:space="preserve">
+    <value>{0} · about {1} m/s · {2}</value>
+  </data>
+  <data name="Breeze_Stat_Contrast" xml:space="preserve">
+    <value>Land minus sea</value>
+  </data>
+  <data name="Breeze_Stat_Depth" xml:space="preserve">
+    <value>Depth of the breeze</value>
+  </data>
+  <data name="Breeze_Stat_Expansion" xml:space="preserve">
+    <value>Volume of the land's air</value>
+  </data>
+  <data name="Breeze_Stat_Expansion_Value" xml:space="preserve">
+    <value>{0}% compared with the sea's</value>
+  </data>
+  <data name="Breeze_Stat_Front" xml:space="preserve">
+    <value>Sea-breeze front</value>
+  </data>
+  <data name="Breeze_Stat_Front_Value" xml:space="preserve">
+    <value>{0} km inland</value>
+  </data>
+  <data name="Breeze_Stat_Land" xml:space="preserve">
+    <value>Air over the land</value>
+  </data>
+  <data name="Breeze_Stat_Level900" xml:space="preserve">
+    <value>Height of 900 hPa</value>
+  </data>
+  <data name="Breeze_Stat_Level900_Value" xml:space="preserve">
+    <value>sea {0} m · land {1} m ({2} m)</value>
+  </data>
+  <data name="Breeze_Stat_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Breeze_Stat_Pressure" xml:space="preserve">
+    <value>Pressure at the ground</value>
+  </data>
+  <data name="Breeze_Stat_Pressure_Even" xml:space="preserve">
+    <value>the same over land and sea</value>
+  </data>
+  <data name="Breeze_Stat_Pressure_LandHigh" xml:space="preserve">
+    <value>about {0} hPa higher over the land</value>
+  </data>
+  <data name="Breeze_Stat_Pressure_LandLow" xml:space="preserve">
+    <value>about {0} hPa lower over the land</value>
+  </data>
+  <data name="Breeze_Stat_Rain" xml:space="preserve">
+    <value>Rain this month</value>
+  </data>
+  <data name="Breeze_Stat_Rain_Value" xml:space="preserve">
+    <value>{0} mm (year {1} mm)</value>
+  </data>
+  <data name="Breeze_Stat_Reach" xml:space="preserve">
+    <value>Land breeze reaches</value>
+  </data>
+  <data name="Breeze_Stat_Reach_Value" xml:space="preserve">
+    <value>{0} km out to sea</value>
+  </data>
+  <data name="Breeze_Stat_Sea" xml:space="preserve">
+    <value>Sea</value>
+  </data>
+  <data name="Breeze_Stat_Siberian" xml:space="preserve">
+    <value>Over Mongolia and Siberia</value>
+  </data>
+  <data name="Breeze_Stat_Surface" xml:space="preserve">
+    <value>Difference at the ground, after</value>
+  </data>
+  <data name="Breeze_Stat_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Breeze_Stat_Wind" xml:space="preserve">
+    <value>Wind at the beach</value>
+  </data>
+  <data name="Breeze_Stat_Wind_Calm" xml:space="preserve">
+    <value>calm ({0} m/s)</value>
+  </data>
+  <data name="Breeze_Stat_Wind_Offshore" xml:space="preserve">
+    <value>{0} m/s out to sea · force {1}</value>
+  </data>
+  <data name="Breeze_Stat_Wind_Onshore" xml:space="preserve">
+    <value>{0} m/s from the sea · force {1}</value>
+  </data>
+  <data name="Breeze_StepBack" xml:space="preserve">
+    <value>Previous step</value>
+  </data>
+  <data name="Breeze_StepForward" xml:space="preserve">
+    <value>Next step</value>
+  </data>
+  <data name="Breeze_System_AsianLow_Low" xml:space="preserve">
+    <value>Asian heat low</value>
+  </data>
+  <data name="Breeze_System_Australia_High" xml:space="preserve">
+    <value>Australian High</value>
+  </data>
+  <data name="Breeze_System_Australia_Low" xml:space="preserve">
+    <value>Australian heat low</value>
+  </data>
+  <data name="Breeze_System_Mascarene_High" xml:space="preserve">
+    <value>Mascarene High</value>
+  </data>
+  <data name="Breeze_System_PacificRidge_High" xml:space="preserve">
+    <value>West Pacific subtropical high</value>
+  </data>
+  <data name="Breeze_System_Siberian_High" xml:space="preserve">
+    <value>Siberian High</value>
+  </data>
+  <data name="Breeze_Timeline_Day" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="Breeze_Timeline_Steps" xml:space="preserve">
+    <value>Steps</value>
+  </data>
+  <data name="Breeze_Timeline_Year" xml:space="preserve">
+    <value>Time of year</value>
+  </data>
+  <data name="Breeze_Title" xml:space="preserve">
+    <value>Sea and land breezes</value>
+  </data>
+  <data name="Breeze_Trough" xml:space="preserve">
+    <value>Equatorial trough (ITCZ)</value>
+  </data>
   <data name="Chapter_Acids_Bases" xml:space="preserve">
     <value>Acids and bases</value>
   </data>
@@ -3668,6 +4358,201 @@
   </data>
   <data name="MoonPhases_Upcoming_When" xml:space="preserve">
     <value>{0} ({1}) {2}</value>
+  </data>
+  <data name="Narr_Breeze_Cell_01" xml:space="preserve">
+    <value>Let's build that loop step by step. Sea on the left, land on the right. These white lines are surfaces of equal pressure. While the land and the sea are equally warm, they lie flat.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_02" xml:space="preserve">
+    <value>Now the Sun heats the land, and the air over it warms from twenty-four to thirty-two degrees. Warm air expands, so the column over the land grows taller. The pressure surfaces bulge upward, more and more the higher you go.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_03" xml:space="preserve">
+    <value>Look at one height, high up. Over the land the pressure surfaces have been pushed above it, so the pressure there is now higher than over the sea. Which way will the air move up there?</value>
+  </data>
+  <data name="Narr_Breeze_Cell_04" xml:space="preserve">
+    <value>Up high, air flows from higher pressure to lower: from over the land, out over the sea. Watch the white arrow at the top.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_05" xml:space="preserve">
+    <value>Now the land's column has lost some air, so it presses less on the ground: low pressure at the surface. The sea's column has gained air: high pressure. Look at the two marks near the ground.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_06" xml:space="preserve">
+    <value>Near the ground, the air now flows from the sea's high to the land's low. That's the sea breeze.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_07" xml:space="preserve">
+    <value>Put it all together. Air rises over the warm land, flows out to sea up high, sinks over the cool sea, and comes back along the ground. A closed loop, driven only by a difference in temperature: we call it a thermal circulation.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_08" xml:space="preserve">
+    <value>At night the land cools to about eighteen degrees, below the sea's twenty-four. Every step happens the other way round: the air sinks over the land, rises over the sea, and near the ground the land breeze blows out to sea.</value>
+  </data>
+  <data name="Narr_Breeze_Cell_09" xml:space="preserve">
+    <value>Your turn. Drag the land or the sea temperature slider. The bigger the difference, the stronger the circulation. Make them equal, and the loop stops.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_01" xml:space="preserve">
+    <value>Here's a coast on a sunny summer afternoon: the sea on the left, the land on the right. Look at the two thermometers. The air over the land is about thirty-one degrees, but over the sea it's only about twenty-four.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_02" xml:space="preserve">
+    <value>Why such a difference, under the same Sun? Water warms slowly. Sunlight reaches metres down, waves mix the heat even deeper, and water needs a lot of energy to warm up. The ground only heats a thin top layer, so it gets hot fast.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_03" xml:space="preserve">
+    <value>The hot ground warms the air above it. Warm air expands, becomes lighter, and rises. See the orange arrow going up over the land.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_04" xml:space="preserve">
+    <value>So the air over the land is rising, and something has to take its place near the ground. Which way do you think the wind blows along the beach?</value>
+  </data>
+  <data name="Narr_Breeze_Coast_05" xml:space="preserve">
+    <value>It blows from the sea. Cooler sea air slides in along the ground: this is the sea breeze. Look at the beach: the flag, the chimney smoke and the sails all point inland.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_06" xml:space="preserve">
+    <value>Now let's turn on the pressure lines. Near the ground, the warm land has low pressure and the cool sea has high pressure, and air always flows from high to low. Higher up it's the other way round, so the air flows back out to sea. One closed loop.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_07" xml:space="preserve">
+    <value>The leading edge of the sea breeze is called the sea-breeze front. Through the afternoon it pushes inland, here about seventeen kilometres, lifting the warm air ahead of it. That's why a line of puffy clouds often forms along it.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_08" xml:space="preserve">
+    <value>Now jump to three in the morning. On a clear night the land loses its heat to the sky fast, and ends up cooler than the sea. So everything turns round: a gentle land breeze blows out to sea. It's weaker, and much shallower, than the sea breeze.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_09" xml:space="preserve">
+    <value>What about a cloudy day? Under thick cloud the land hardly warms up, so it's barely warmer than the sea. With almost no temperature difference, there's almost no wind. See: calm.</value>
+  </data>
+  <data name="Narr_Breeze_Coast_10" xml:space="preserve">
+    <value>Your turn. It's half past eight in the morning. Drag the time slider through the day, and find out when the sea breeze starts, and when it turns into a land breeze.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_01" xml:space="preserve">
+    <value>The same idea works on a much bigger scale: a whole continent, and a whole year. It's January. The heart of Asia is bitterly cold, and the cold, dense air piles up into a huge high-pressure system: the Siberian High.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_02" xml:space="preserve">
+    <value>Air spreads out of it toward the warmer ocean. Over northern China it arrives as the cold, dry north-west winter monsoon, and over India as the north-east monsoon. So winter here is the dry season.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_03" xml:space="preserve">
+    <value>Now think about summer. The land heats up far more than the ocean. What happens to the pressure over the continent?</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_04" xml:space="preserve">
+    <value>Low pressure forms over the land. Jump to July: the Siberian High is gone, and a deep heat low sits over north-west India instead.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_05" xml:space="preserve">
+    <value>Moist air from the ocean is pulled in: the south-west monsoon over India. Watch the winds south of the equator. They start as south-east trade winds, and as they cross the equator, Earth's spin bends them into south-westerlies.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_06" xml:space="preserve">
+    <value>This dashed line is the equatorial trough, where the winds from both hemispheres meet and rain clouds build up. In July it has moved far to the north; in January it lies south of the equator.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_07" xml:space="preserve">
+    <value>Look at Mumbai. In July alone it gets about eight hundred and forty millimetres of rain, yet from December to April it hardly rains at all. A wet summer and a dry winter: that's a monsoon climate.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_08" xml:space="preserve">
+    <value>South of the equator, the seasons are the other way round. Back in January it's summer in Darwin, in northern Australia, and the rain pours down; in July it's almost dry.</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_09" xml:space="preserve">
+    <value>Your turn. Click a city on the map, then drag the month slider through the year, and watch how its rain comes and goes.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_AsianLow" xml:space="preserve">
+    <value>The Asian heat low forms in summer over north-west India, Pakistan and Iran, where the land gets scorching hot. It pulls in moist air from the Indian Ocean: the south-west monsoon.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Australia" xml:space="preserve">
+    <value>Over Australia, the pressure swings with the seasons: a heat low in the southern summer, which draws the north-west monsoon onto northern Australia, and a high in the southern winter.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Beijing" xml:space="preserve">
+    <value>Beijing has a strongly monsoonal climate. Most of its rain falls in July and August, while its winters, under the cold north-west monsoon, are very dry, with only a few millimetres a month.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Boat" xml:space="preserve">
+    <value>Sailors have used these breezes for thousands of years. Fishing boats went out on the land breeze before dawn, and came home on the sea breeze in the afternoon.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Calm" xml:space="preserve">
+    <value>Calm. Around sunrise and sunset, and on cloudy days, the land and the sea are almost equally warm. With no temperature difference there's nothing to push the air, so the wind dies away.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Changsha" xml:space="preserve">
+    <value>Changsha lies inland, in central China. Its rain comes early, with the spring rains and the June plum rains; then late summer turns hot and drier, under the subtropical high.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Cooling" xml:space="preserve">
+    <value>At night the land gives off its heat to the sky, as invisible infrared radiation. With no Sun to warm it again, the ground and the air just above it cool quickly, and end up colder than the sea.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Darwin" xml:space="preserve">
+    <value>Darwin, in northern Australia, lies south of the equator, so its wet season runs from December to March, the southern summer. From June to August it hardly rains at all.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Equator" xml:space="preserve">
+    <value>At the equator, Earth's spin doesn't bend the wind. North of it, winds are bent to the right; south of it, to the left. That's why the south-east trades turn into the south-west monsoon as they cross into the north.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Flag" xml:space="preserve">
+    <value>A flag is a simple wind vane: it streams out with the wind. In the afternoon it points inland, at night it points out to sea, and in a calm it hangs limp.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Front" xml:space="preserve">
+    <value>The sea-breeze front is where cool sea air meets the hot air over the land. It creeps inland through the afternoon and lifts the warm air ahead of it, so a line of cumulus clouds, sometimes even a thunderstorm, can grow along it.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Guangzhou" xml:space="preserve">
+    <value>Guangzhou, in southern China, has rain for much of the year, but most of it falls from April to September, brought by moist summer winds from the South China Sea, and by typhoons.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_High" xml:space="preserve">
+    <value>High pressure. At this height, the pressure here is higher than at the same height nearby. Air flows out of a high, toward lower pressure.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Isobars" xml:space="preserve">
+    <value>Surfaces of equal pressure. Where a surface bulges up, the pressure at that height is higher than around it; where it dips, it's lower. The bends are hugely exaggerated here: in real air they move only ten or twenty metres.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Land" xml:space="preserve">
+    <value>The land heats fast, and cools fast. Only a thin layer of ground takes the Sun's heat, and soil and rock need far less heat than water to warm up. On a clear summer day, the air over it can swing by more than ten degrees.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_LandBreeze" xml:space="preserve">
+    <value>The land breeze blows from the land out to sea at night, once the land has become cooler than the water. It's gentle and shallow, only a few hundred metres deep, because cold air lies heavy and still near the ground.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Low" xml:space="preserve">
+    <value>Low pressure. At this height, the pressure here is lower than at the same height nearby. Air flows in toward a low from around it, and near the ground, the air that gathers there has to rise.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Mascarene" xml:space="preserve">
+    <value>The Mascarene High sits over the southern Indian Ocean. In the northern summer it strengthens, and the trade winds flowing out of it cross the equator to feed the Indian monsoon.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonAustralia" xml:space="preserve">
+    <value>Northern Australia's monsoon. In the southern summer, winds from the Asian side cross the equator and turn into north-westerlies, bringing the wet season to Darwin.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonNE" xml:space="preserve">
+    <value>The north-east monsoon is India's winter wind, blowing from the cold continent toward the ocean. It keeps most of India dry, but it picks up moisture over the Bay of Bengal and brings winter rain to the south-east coast.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonNW" xml:space="preserve">
+    <value>The north-west monsoon blows out of the Siberian High in winter, over northern China, Korea and Japan. It's cold and dry, and sometimes it surges south as a cold wave.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonSE" xml:space="preserve">
+    <value>The south-east monsoon blows from the Pacific onto eastern China in summer, bringing warm, moist air and the rainy season.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonSW" xml:space="preserve">
+    <value>The south-west monsoon blows from the Indian Ocean onto India and South-east Asia in summer. It carries huge amounts of moisture, and its arrival, usually in June, starts the rainy season.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Mumbai" xml:space="preserve">
+    <value>Mumbai, on India's west coast, has a classic monsoon climate: about two thousand four hundred millimetres of rain a year, almost all of it from June to September, when the south-west monsoon arrives from the Arabian Sea.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_PacificRidge" xml:space="preserve">
+    <value>The western Pacific subtropical high shapes East Asia's summer. Moist air flowing round its western edge brings the south-east monsoon to China, and where it meets cooler air from the north, the plum-rain front forms.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Return" xml:space="preserve">
+    <value>The return flow, higher up. The air that rose drifts back the other way, from higher pressure to lower. You can't feel it on the beach, but without it the loop couldn't close.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Rising" xml:space="preserve">
+    <value>Rising air. Wherever it's warmest, the air expands, becomes lighter, and rises: over the land by day, over the sea at night. As it rises it cools, so clouds can form.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Scale" xml:space="preserve">
+    <value>This picture is stretched upward. The sea breeze is only about a kilometre deep, but it reaches tens of kilometres inland. Drawn to true scale, the whole circulation would be a thin sliver.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Sea" xml:space="preserve">
+    <value>The sea warms and cools slowly. Sunlight reaches metres into the water, waves mix the heat downward, and water needs a lot of heat to change its temperature. So day and night, its surface changes by only about a degree.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_SeaBreeze" xml:space="preserve">
+    <value>The sea breeze blows from the sea onto the land on sunny days, strongest in the early afternoon. It's cool and moist, a welcome relief on a hot coast, and it can reach tens of kilometres inland.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Shanghai" xml:space="preserve">
+    <value>Shanghai's rain peaks in June with the plum rains, the Meiyu, when the summer monsoon stalls over the Yangtze for weeks. Its winters are cool and fairly dry.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Shower" xml:space="preserve">
+    <value>At night, the land breeze meets the warmer sea air offshore and pushes it up. So clouds and showers can form out at sea before dawn, while the coast stays clear.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Siberian" xml:space="preserve">
+    <value>The Mongolian-Siberian High forms in winter, when the interior of Asia gets extremely cold. It's the strongest high-pressure system on Earth, and its cold air spills out as the winter monsoon. In summer it all but disappears.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Sinking" xml:space="preserve">
+    <value>Sinking air. Over the cooler side, air comes down to close the loop. Sinking air is squeezed and warms up, so clouds dry out: skies here are usually clear.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Smoke" xml:space="preserve">
+    <value>Smoke from the chimney shows the wind near the ground. In the sea breeze it's carried inland, in the land breeze it drifts out to sea, and in a calm it rises almost straight up.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Sun" xml:space="preserve">
+    <value>The Sun shines on the land and the sea alike. The difference is how they take its heat: the land warms up fast, while the sea hardly changes. That difference is what drives the wind.</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Trough" xml:space="preserve">
+    <value>The equatorial trough, also called the ITCZ, is a belt of low pressure where the trade winds of the two hemispheres meet. The air there rises, so it's full of rain clouds. It follows the Sun: north in July, south in January.</value>
   </data>
   <data name="Narr_Common_MoveOn" xml:space="preserve">
     <value>Let's keep going. You can try it again later.</value>

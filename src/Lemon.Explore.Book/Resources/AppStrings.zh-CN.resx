@@ -48,6 +48,696 @@
   <data name="Bookmarks_Title" xml:space="preserve">
     <value>书签</value>
   </data>
+  <data name="Breeze_Calm" xml:space="preserve">
+    <value>静风</value>
+  </data>
+  <data name="Breeze_CellTime_Caption" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Breeze_CellTime_Day" xml:space="preserve">
+    <value>白天（陆地更热）</value>
+  </data>
+  <data name="Breeze_CellTime_Night" xml:space="preserve">
+    <value>夜晚（陆地更冷）</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Day_Description" xml:space="preserve">
+    <value>在同一高度上比较：陆地上空的等压面抬高了，所以这个高度上陆地的气压比海洋高（等压面上凸处为高压）。高空的空气从陆地流向海洋，由高压流向低压。</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Day_Title" xml:space="preserve">
+    <value>高空陆地气压高，空气流向海洋</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Night_Description" xml:space="preserve">
+    <value>现在陆地上空的等压面较低，同一高度上海洋的气压更高。高空的空气从海洋流向陆地。</value>
+  </data>
+  <data name="Breeze_Cell_AloftFlow_Night_Title" xml:space="preserve">
+    <value>高空海洋气压高，空气流向陆地</value>
+  </data>
+  <data name="Breeze_Cell_AloftLabel" xml:space="preserve">
+    <value>高空：由高压流向低压</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Day_Description" xml:space="preserve">
+    <value>空气在温暖的陆地上空上升，在高空流向海洋，在凉爽的海面上空下沉，再沿地面流回陆地：仅靠温差驱动的一个闭合环流。同样的环流也出现在城市与郊区之间、山谷与山坡之间，以及大陆与海洋之间（季风）。</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Day_Title" xml:space="preserve">
+    <value>热力环流：受热上升，冷却下沉</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Night_Description" xml:space="preserve">
+    <value>这时海洋是温暖的一方：空气在海面上空上升，在高空流向陆地，在寒冷的陆地上空下沉，再沿地面流回海洋。这个环流比白天的更小、更弱。</value>
+  </data>
+  <data name="Breeze_Cell_Circulation_Night_Title" xml:space="preserve">
+    <value>热力环流：夜里方向相反</value>
+  </data>
+  <data name="Breeze_Cell_Clock" xml:space="preserve">
+    <value>第 {0}/{1} 步</value>
+  </data>
+  <data name="Breeze_Cell_Even_Day_Description" xml:space="preserve">
+    <value>每个等压面（气压处处相等的面）都是平的：在任何高度上，陆地上空和海洋上空的气压都一样。没有力量推动空气水平移动，所以没有风。</value>
+  </data>
+  <data name="Breeze_Cell_Even_Day_Title" xml:space="preserve">
+    <value>海陆温度相同</value>
+  </data>
+  <data name="Breeze_Cell_Even_Night_Description" xml:space="preserve">
+    <value>晴天傍晚，太阳一落山陆地就迅速降温，很快和海洋一样冷暖。这时等压面是平的，空气静止。</value>
+  </data>
+  <data name="Breeze_Cell_Even_Night_Title" xml:space="preserve">
+    <value>傍晚：海陆温度相同</value>
+  </data>
+  <data name="Breeze_Cell_Fact1" xml:space="preserve">
+    <value>暖空气更“厚”：两个等压面之间的高度随气温升高而增大（压高公式）。在 1000 hPa 与 900 hPa 之间，每升温 1 °C 约增加 3 米。</value>
+  </data>
+  <data name="Breeze_Cell_Fact2" xml:space="preserve">
+    <value>20 千米内 1 hPa 的气压差，能让空气每秒加速约 4 毫米/秒；如果没有阻力，二十分钟就能达到 5 m/s。</value>
+  </data>
+  <data name="Breeze_Cell_Fact3" xml:space="preserve">
+    <value>等压面向上凸起的地方气压高，向下凹的地方气压低。同一地点近地面和高空的气压高低正好相反。</value>
+  </data>
+  <data name="Breeze_Cell_Fact4" xml:space="preserve">
+    <value>水平方向上，同一高度的空气由高压流向低压；垂直方向上，受热上升，冷却下沉。两者合在一起就是热力环流，大气运动最简单的形式。</value>
+  </data>
+  <data name="Breeze_Cell_Fact5" xml:space="preserve">
+    <value>同样的环流还造成了白天吹向山坡的谷风、夜里沿山坡下泄的山风，郊区吹向温暖城市的城市风，最大尺度上就是季风。</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Day_Description" xml:space="preserve">
+    <value>阳光同样照在陆地和海洋上，但陆地只加热很薄的表层，升温很快；海水把热量向下混合到几十米深，几乎不升温。陆地上空的空气受热向上膨胀，气柱变高，把上方的等压面抬起来，越往高处抬得越多。</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Day_Title" xml:space="preserve">
+    <value>陆地升温快，空气受热膨胀</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Night_Description" xml:space="preserve">
+    <value>夜里陆地很快把热量辐射掉，海洋却仍然温暖。陆地上空的空气冷却收缩，气柱变矮，上方的等压面随之下降。</value>
+  </data>
+  <data name="Breeze_Cell_Heating_Night_Title" xml:space="preserve">
+    <value>陆地降温快，空气冷却收缩</value>
+  </data>
+  <data name="Breeze_Cell_NoDifference" xml:space="preserve">
+    <value>没有温差，就没有风</value>
+  </data>
+  <data name="Breeze_Cell_NoDifference_Description" xml:space="preserve">
+    <value>海陆温度相同时，两边的气柱一样重、一样高：等压面保持水平，空气不流动。把两个温度拉开试试。</value>
+  </data>
+  <data name="Breeze_Cell_Note" xml:space="preserve">
+    <value>示意图。等压面的弯曲被放大了几百倍：真实大气中它们只上下移动约 10–20 米。</value>
+  </data>
+  <data name="Breeze_Cell_StepTitle" xml:space="preserve">
+    <value>{0}/{1} · {2}</value>
+  </data>
+  <data name="Breeze_Cell_Subtitle" xml:space="preserve">
+    <value>热力环流：温差怎样变成风</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Day_Description" xml:space="preserve">
+    <value>空气从陆地气柱的上部流走、堆积到海洋上空，陆地气柱里的空气总量变少：陆地地面气压降低（热低压），海洋地面气压升高。近地面的等压面在陆地上空下凹，在海洋上空上凸。</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Day_Title" xml:space="preserve">
+    <value>地面：陆地形成低压，海洋形成高压</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Night_Description" xml:space="preserve">
+    <value>高空空气流进了陆地上空、离开了海洋上空，于是陆地地面气压升高，海洋地面气压降低。</value>
+  </data>
+  <data name="Breeze_Cell_SurfacePressure_Night_Title" xml:space="preserve">
+    <value>地面：陆地形成高压，海洋形成低压</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Day_Description" xml:space="preserve">
+    <value>近地面由海洋的高压指向陆地的低压，凉爽的海上空气流向陆地。气压差只有约 1 hPa，相当于气压的千分之一，但在几十千米范围内足以吹起 3–7 m/s 的海风。</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Day_Title" xml:space="preserve">
+    <value>近地面风从海洋吹向陆地：海风</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Night_Description" xml:space="preserve">
+    <value>近地面由陆地的高压指向海洋的低压，陆地上的冷空气流向海洋。陆风比海风柔和，一般只有 1–3 m/s。</value>
+  </data>
+  <data name="Breeze_Cell_SurfaceWind_Night_Title" xml:space="preserve">
+    <value>近地面风从陆地吹向海洋：陆风</value>
+  </data>
+  <data name="Breeze_Chart_AfterFlow" xml:space="preserve">
+    <value>空气流动后</value>
+  </data>
+  <data name="Breeze_Chart_Day_Caption" xml:space="preserve">
+    <value>一天里的气温和海滩上的风</value>
+  </data>
+  <data name="Breeze_Chart_Day_Note" xml:space="preserve">
+    <value>陆地气温一天变化约 11 °C，海面不到 1 °C。风比温差晚不到一小时，而且陆地要比海面热（或冷）一两度以上才吹得起来。阴影部分是夜间。</value>
+  </data>
+  <data name="Breeze_Chart_JustHeated" xml:space="preserve">
+    <value>刚受热</value>
+  </data>
+  <data name="Breeze_Chart_Land" xml:space="preserve">
+    <value>陆地气温</value>
+  </data>
+  <data name="Breeze_Chart_LandBreeze" xml:space="preserve">
+    <value>陆风（吹向海洋）</value>
+  </data>
+  <data name="Breeze_Chart_LandHigher" xml:space="preserve">
+    <value>陆地气压高 →</value>
+  </data>
+  <data name="Breeze_Chart_LandLower" xml:space="preserve">
+    <value>← 陆地气压低</value>
+  </data>
+  <data name="Breeze_Chart_PressureAxis" xml:space="preserve">
+    <value>陆地减海洋，hPa</value>
+  </data>
+  <data name="Breeze_Chart_Profile_Caption" xml:space="preserve">
+    <value>各高度上陆地与海洋的气压差</value>
+  </data>
+  <data name="Breeze_Chart_Profile_Note" xml:space="preserve">
+    <value>按静力平衡方程计算，陆地多出的热量到 1 千米高处减为零。刚受热时，地面没有气压差，越往上差越大；高空空气流走以后，地面变成陆地气压低、高空陆地气压高。所以近地面和高空的风向正好相反。</value>
+  </data>
+  <data name="Breeze_Chart_Rain_Caption" xml:space="preserve">
+    <value>逐月降水量</value>
+  </data>
+  <data name="Breeze_Chart_Rain_Note" xml:space="preserve">
+    <value>多年平均降水量（取整）。季风气候夏季多雨、冬季干燥；位于南半球的达尔文正好相反。</value>
+  </data>
+  <data name="Breeze_Chart_Sea" xml:space="preserve">
+    <value>海面温度</value>
+  </data>
+  <data name="Breeze_Chart_SeaBreeze" xml:space="preserve">
+    <value>海风（吹向陆地）</value>
+  </data>
+  <data name="Breeze_Chart_Year" xml:space="preserve">
+    <value>全年 {0} mm</value>
+  </data>
+  <data name="Breeze_City_Beijing" xml:space="preserve">
+    <value>北京</value>
+  </data>
+  <data name="Breeze_City_Caption" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="Breeze_City_Changsha" xml:space="preserve">
+    <value>长沙</value>
+  </data>
+  <data name="Breeze_City_Darwin" xml:space="preserve">
+    <value>达尔文</value>
+  </data>
+  <data name="Breeze_City_Guangzhou" xml:space="preserve">
+    <value>广州</value>
+  </data>
+  <data name="Breeze_City_Mumbai" xml:space="preserve">
+    <value>孟买</value>
+  </data>
+  <data name="Breeze_City_Shanghai" xml:space="preserve">
+    <value>上海</value>
+  </data>
+  <data name="Breeze_Clock" xml:space="preserve">
+    <value>{0} · 风速 {1} m/s</value>
+  </data>
+  <data name="Breeze_Coast_EveningCalm_Description" xml:space="preserve">
+    <value>日落后陆地迅速降温，很快和海面一样冷暖：有一两个小时完全没有风，这就是海边夏夜那段闷热无风的时候。陆地继续变冷，风向就反过来，变成陆风。</value>
+  </data>
+  <data name="Breeze_Coast_EveningCalm_Title" xml:space="preserve">
+    <value>傍晚无风</value>
+  </data>
+  <data name="Breeze_Coast_Fact1" xml:space="preserve">
+    <value>让 1 千克水升温 1 °C 需要的热量是干沙或土壤的四五倍（约 4.2 千焦对 0.8–1 千焦），而且阳光能照进海水几米深，海浪又把热量混合到几十米深；陆地上的热量只停留在表层几厘米。</value>
+  </data>
+  <data name="Breeze_Coast_Fact2" xml:space="preserve">
+    <value>蒸发也让海面降温：照到海上的阳光，有很大一部分用来把水变成水汽，而不是让海水升温。</value>
+  </data>
+  <data name="Breeze_Coast_Fact3" xml:space="preserve">
+    <value>典型的海风风速 3–7 m/s（2–4 级），厚几百米到 1 千米左右，海风锋能深入内陆 20–50 千米，有时超过 100 千米。</value>
+  </data>
+  <data name="Breeze_Coast_Fact4" xml:space="preserve">
+    <value>海风锋经过时，气温能在几分钟内下降好几度，湿度骤然升高，给炎热的海边带来一阵清凉。</value>
+  </data>
+  <data name="Breeze_Coast_Fact5" xml:space="preserve">
+    <value>海风锋上常常排列着云和阵雨。美国佛罗里达半岛两侧的海风在半岛上空相遇，那里夏季午后雷暴之多居全美之首。</value>
+  </data>
+  <data name="Breeze_Coast_LandBreeze_Description" xml:space="preserve">
+    <value>夜里陆地向天空散热比海洋快得多。陆地上空的空气变得更冷、更重，地面气压陆地比海洋高，于是微风从陆地吹向海洋。陆风比海风弱、也薄得多，因为冷空气稳稳地贴在地面上。</value>
+  </data>
+  <data name="Breeze_Coast_LandBreeze_Title" xml:space="preserve">
+    <value>陆风</value>
+  </data>
+  <data name="Breeze_Coast_MorningCalm_Description" xml:space="preserve">
+    <value>太阳升起几个小时后，陆地的温度追上了海洋，或者刚刚超过一点。一两度的温差还推不动空气：陆风停了，烟笔直地往上升。</value>
+  </data>
+  <data name="Breeze_Coast_MorningCalm_Title" xml:space="preserve">
+    <value>清晨无风</value>
+  </data>
+  <data name="Breeze_Coast_Note" xml:space="preserve">
+    <value>夏日，地方时。高度方向放大了十多倍：海风只有约 1 千米厚，却能深入内陆几十千米。</value>
+  </data>
+  <data name="Breeze_Coast_Overcast_Description" xml:space="preserve">
+    <value>云层白天挡住阳光，夜里又把热量捂住，海陆温差只有一两度。没有温差就没有气压差，海陆风几乎形成不了。这时候的风来自更大范围的天气系统。</value>
+  </data>
+  <data name="Breeze_Coast_Overcast_Title" xml:space="preserve">
+    <value>阴天：几乎没有海陆风</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeBuilding_Description" xml:space="preserve">
+    <value>现在陆地比海面热了几度。陆地上空的空气受热膨胀上升，地面气压降低，海上较凉的空气开始向陆地流动，最先在海岸边吹起。海风的前缘——海风锋——开始向内陆推进。</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeBuilding_Title" xml:space="preserve">
+    <value>海风渐起</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeFading_Description" xml:space="preserve">
+    <value>傍晚前后：太阳西斜，陆地开始降温，海陆温差变小，海风逐渐减弱。海风锋不再向内陆推进，锋上的云也渐渐消散。</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreezeFading_Title" xml:space="preserve">
+    <value>海风减弱</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreeze_Description" xml:space="preserve">
+    <value>午后陆地最热的时候：凉爽湿润的空气从海上吹来，海滩上风最大。空气在陆地上空上升，在 1–2 千米高处流回海洋，又在海面上空下沉。海风锋把陆地的热空气向上推，那里常常排起一列积云。</value>
+  </data>
+  <data name="Breeze_Coast_SeaBreeze_Title" xml:space="preserve">
+    <value>海风</value>
+  </data>
+  <data name="Breeze_Coast_Subtitle" xml:space="preserve">
+    <value>白天吹海风，夜里吹陆风</value>
+  </data>
+  <data name="Breeze_Compass_E" xml:space="preserve">
+    <value>东风</value>
+  </data>
+  <data name="Breeze_Compass_N" xml:space="preserve">
+    <value>北风</value>
+  </data>
+  <data name="Breeze_Compass_NE" xml:space="preserve">
+    <value>东北风</value>
+  </data>
+  <data name="Breeze_Compass_NW" xml:space="preserve">
+    <value>西北风</value>
+  </data>
+  <data name="Breeze_Compass_S" xml:space="preserve">
+    <value>南风</value>
+  </data>
+  <data name="Breeze_Compass_SE" xml:space="preserve">
+    <value>东南风</value>
+  </data>
+  <data name="Breeze_Compass_SW" xml:space="preserve">
+    <value>西南风</value>
+  </data>
+  <data name="Breeze_Compass_W" xml:space="preserve">
+    <value>西风</value>
+  </data>
+  <data name="Breeze_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="Breeze_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Breeze_FromLand" xml:space="preserve">
+    <value>来自内陆</value>
+  </data>
+  <data name="Breeze_FromSea" xml:space="preserve">
+    <value>来自海洋</value>
+  </data>
+  <data name="Breeze_Front_Label" xml:space="preserve">
+    <value>海风锋 · 深入内陆 {0} km</value>
+  </data>
+  <data name="Breeze_High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Breeze_Hint_Cell" xml:space="preserve">
+    <value>六个步骤依次播放：可以用箭头逐步查看，或切换到夜晚看整个环流反过来。</value>
+  </data>
+  <data name="Breeze_Hint_Coast" xml:space="preserve">
+    <value>看旗子、烟和船帆怎样掉头；拖动时间轴可以看一天中任一时刻。</value>
+  </data>
+  <data name="Breeze_Hint_Monsoon" xml:space="preserve">
+    <value>播放一整年，看风向怎样反转；点击城市查看它的降水。</value>
+  </data>
+  <data name="Breeze_Isobar" xml:space="preserve">
+    <value>等压面</value>
+  </data>
+  <data name="Breeze_Jump_Afternoon" xml:space="preserve">
+    <value>午后 15:00</value>
+  </data>
+  <data name="Breeze_Jump_April" xml:space="preserve">
+    <value>4月</value>
+  </data>
+  <data name="Breeze_Jump_Caption" xml:space="preserve">
+    <value>跳到</value>
+  </data>
+  <data name="Breeze_Jump_Evening" xml:space="preserve">
+    <value>傍晚 20:30</value>
+  </data>
+  <data name="Breeze_Jump_January" xml:space="preserve">
+    <value>1月</value>
+  </data>
+  <data name="Breeze_Jump_July" xml:space="preserve">
+    <value>7月</value>
+  </data>
+  <data name="Breeze_Jump_Late_Morning" xml:space="preserve">
+    <value>上午 11:00</value>
+  </data>
+  <data name="Breeze_Jump_Morning" xml:space="preserve">
+    <value>清晨 08:30</value>
+  </data>
+  <data name="Breeze_Jump_Night" xml:space="preserve">
+    <value>深夜 03:00</value>
+  </data>
+  <data name="Breeze_Jump_October" xml:space="preserve">
+    <value>10月</value>
+  </data>
+  <data name="Breeze_Land" xml:space="preserve">
+    <value>陆地</value>
+  </data>
+  <data name="Breeze_LandBreeze" xml:space="preserve">
+    <value>陆风</value>
+  </data>
+  <data name="Breeze_LandBreeze_Label" xml:space="preserve">
+    <value>陆风 {0} m/s</value>
+  </data>
+  <data name="Breeze_LandTemperature" xml:space="preserve">
+    <value>陆地上空气温</value>
+  </data>
+  <data name="Breeze_Land_Reading" xml:space="preserve">
+    <value>陆地 {0} °C</value>
+  </data>
+  <data name="Breeze_Lat_N" xml:space="preserve">
+    <value>北纬 {0}°</value>
+  </data>
+  <data name="Breeze_Lat_S" xml:space="preserve">
+    <value>南纬 {0}°</value>
+  </data>
+  <data name="Breeze_Lesson_Cell_Choice1" xml:space="preserve">
+    <value>从陆地上空流向海洋上空</value>
+  </data>
+  <data name="Breeze_Lesson_Cell_Choice2" xml:space="preserve">
+    <value>从海洋上空流向陆地上空</value>
+  </data>
+  <data name="Breeze_Lesson_Cell_Choice3" xml:space="preserve">
+    <value>直接往上走</value>
+  </data>
+  <data name="Breeze_Lesson_Coast_Choice1" xml:space="preserve">
+    <value>从海上吹向陆地</value>
+  </data>
+  <data name="Breeze_Lesson_Coast_Choice2" xml:space="preserve">
+    <value>从陆地吹向海上</value>
+  </data>
+  <data name="Breeze_Lesson_Coast_Choice3" xml:space="preserve">
+    <value>一点风都没有</value>
+  </data>
+  <data name="Breeze_Lesson_Monsoon_Choice1" xml:space="preserve">
+    <value>陆地上形成低压</value>
+  </data>
+  <data name="Breeze_Lesson_Monsoon_Choice2" xml:space="preserve">
+    <value>高压变得更强</value>
+  </data>
+  <data name="Breeze_Lesson_Monsoon_Choice3" xml:space="preserve">
+    <value>没什么变化</value>
+  </data>
+  <data name="Breeze_Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="Breeze_Mode_Cell" xml:space="preserve">
+    <value>热力环流</value>
+  </data>
+  <data name="Breeze_Mode_Coast" xml:space="preserve">
+    <value>海岸的一天</value>
+  </data>
+  <data name="Breeze_Mode_Monsoon" xml:space="preserve">
+    <value>季风</value>
+  </data>
+  <data name="Breeze_Monsoon_Australia" xml:space="preserve">
+    <value>澳大利亚西北季风</value>
+  </data>
+  <data name="Breeze_Monsoon_Autumn_Description" xml:space="preserve">
+    <value>陆地重新降温，热低压逐渐填塞。季风向南撤退：9 月中旬从印度西北部开始，到 10 月中旬前后撤出整个印度，冬季风随之建立。华北秋高气爽，而东北风给印度东南部带来年末的降雨。</value>
+  </data>
+  <data name="Breeze_Monsoon_Autumn_Title" xml:space="preserve">
+    <value>秋季：季风撤退</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact1" xml:space="preserve">
+    <value>英文 monsoon（季风）来自阿拉伯语 mawsim，意思是“季节”：阿拉伯水手夏季借西南风航行到印度，冬季再借东北风回航。</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact2" xml:space="preserve">
+    <value>印度全年约四分之三的降水来自 6–9 月的夏季风；季风偏弱，就意味着数亿农民要面对干旱。</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact3" xml:space="preserve">
+    <value>每年 6–7 月，长江中下游进入梅雨季：南来的暖湿季风气流与北方较冷的空气在这里相遇，形成停滞几周的锋面。</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact4" xml:space="preserve">
+    <value>季风撞上印度东北部的卡西丘陵，那里的毛辛拉姆和乞拉朋齐年平均降水量约 11000–12000 毫米，是地球上最湿润的地方之一。</value>
+  </data>
+  <data name="Breeze_Monsoon_Fact5" xml:space="preserve">
+    <value>海陆热力差异并不是全部原因：全球气压带也随太阳直射点南北移动，青藏高原在 4–5 千米高空加热大气，也增强了亚洲的夏季风。</value>
+  </data>
+  <data name="Breeze_Monsoon_NE" xml:space="preserve">
+    <value>东北季风</value>
+  </data>
+  <data name="Breeze_Monsoon_NW" xml:space="preserve">
+    <value>西北季风</value>
+  </data>
+  <data name="Breeze_Monsoon_Note" xml:space="preserve">
+    <value>海平面气压和地面风来自对 1 月、7 月平均天气图的简化模型；降水量是多年平均值，具体年份差别很大。</value>
+  </data>
+  <data name="Breeze_Monsoon_SE" xml:space="preserve">
+    <value>东南季风</value>
+  </data>
+  <data name="Breeze_Monsoon_SW" xml:space="preserve">
+    <value>西南季风</value>
+  </data>
+  <data name="Breeze_Monsoon_Spring_Description" xml:space="preserve">
+    <value>陆地迅速升温，蒙古-西伯利亚高压减弱。华南迎来第一批春雨，印度在季风到来前酷热难当（5 月是最热的月份）。南亚上空的热低压不断加深；夏季风通常在 6 月 1 日前后抵达印度西南端的喀拉拉邦，再一路向北推进。</value>
+  </data>
+  <data name="Breeze_Monsoon_Spring_Title" xml:space="preserve">
+    <value>春季：季风转换</value>
+  </data>
+  <data name="Breeze_Monsoon_Subtitle" xml:space="preserve">
+    <value>季风：放大到一块大陆、一整年的海陆风</value>
+  </data>
+  <data name="Breeze_Monsoon_Summer_Description" xml:space="preserve">
+    <value>夏季大陆比海洋热得多。印度西北部、巴基斯坦和伊朗一带形成巨大的热低压，湿润的海洋空气源源不断地涌入：印度吹西南季风（南印度洋的东南信风越过赤道后偏转而成），中国东部在西太平洋副热带高压的西侧吹东南季风。一年中的大部分雨水都在这时落下：孟买约九成的降水集中在 6–9 月。</value>
+  </data>
+  <data name="Breeze_Monsoon_Summer_Title" xml:space="preserve">
+    <value>夏季风</value>
+  </data>
+  <data name="Breeze_Monsoon_Winter_Description" xml:space="preserve">
+    <value>冬季大陆比海洋冷得多。寒冷沉重的空气堆积在蒙古和西伯利亚上空，形成蒙古-西伯利亚高压——地球上最强的高压，中心气压常超过 1035 hPa。寒冷干燥的风从这里吹出：华北吹西北风，华南和印度吹东北风，所以北京和孟买的冬天干燥晴朗。赤道以南正值夏季，澳大利亚北部吹起多雨的西北季风。</value>
+  </data>
+  <data name="Breeze_Monsoon_Winter_Title" xml:space="preserve">
+    <value>冬季风</value>
+  </data>
+  <data name="Breeze_Obj_Australia" xml:space="preserve">
+    <value>澳大利亚的气压中心</value>
+  </data>
+  <data name="Breeze_Obj_Boat" xml:space="preserve">
+    <value>帆船</value>
+  </data>
+  <data name="Breeze_Obj_Cooling" xml:space="preserve">
+    <value>夜间地面散热</value>
+  </data>
+  <data name="Breeze_Obj_Flag" xml:space="preserve">
+    <value>海滩上的旗子</value>
+  </data>
+  <data name="Breeze_Obj_Front" xml:space="preserve">
+    <value>海风锋</value>
+  </data>
+  <data name="Breeze_Obj_High" xml:space="preserve">
+    <value>高压</value>
+  </data>
+  <data name="Breeze_Obj_Low" xml:space="preserve">
+    <value>低压</value>
+  </data>
+  <data name="Breeze_Obj_Scale" xml:space="preserve">
+    <value>比例尺</value>
+  </data>
+  <data name="Breeze_Obj_Shower" xml:space="preserve">
+    <value>海上的夜雨</value>
+  </data>
+  <data name="Breeze_Obj_Smoke" xml:space="preserve">
+    <value>烟囱的烟</value>
+  </data>
+  <data name="Breeze_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Breeze_Option_Flow" xml:space="preserve">
+    <value>气流</value>
+  </data>
+  <data name="Breeze_Option_Isobars" xml:space="preserve">
+    <value>等压线和气压中心</value>
+  </data>
+  <data name="Breeze_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Breeze_Option_Pressure" xml:space="preserve">
+    <value>等压面</value>
+  </data>
+  <data name="Breeze_Option_Winds" xml:space="preserve">
+    <value>风</value>
+  </data>
+  <data name="Breeze_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Breeze_Rain_Value" xml:space="preserve">
+    <value>{0} mm</value>
+  </data>
+  <data name="Breeze_Restart" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Breeze_Return" xml:space="preserve">
+    <value>高空回流</value>
+  </data>
+  <data name="Breeze_Rising" xml:space="preserve">
+    <value>上升气流</value>
+  </data>
+  <data name="Breeze_Scale" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Breeze_Sea" xml:space="preserve">
+    <value>海洋</value>
+  </data>
+  <data name="Breeze_SeaBreeze" xml:space="preserve">
+    <value>海风</value>
+  </data>
+  <data name="Breeze_SeaBreeze_Label" xml:space="preserve">
+    <value>海风 {0} m/s</value>
+  </data>
+  <data name="Breeze_SeaTemperature" xml:space="preserve">
+    <value>海洋上空气温</value>
+  </data>
+  <data name="Breeze_Sea_Reading" xml:space="preserve">
+    <value>海面 {0} °C</value>
+  </data>
+  <data name="Breeze_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Breeze_Sinking" xml:space="preserve">
+    <value>下沉气流</value>
+  </data>
+  <data name="Breeze_Sky_Caption" xml:space="preserve">
+    <value>天气</value>
+  </data>
+  <data name="Breeze_Sky_Clear" xml:space="preserve">
+    <value>晴天</value>
+  </data>
+  <data name="Breeze_Sky_Overcast" xml:space="preserve">
+    <value>阴天</value>
+  </data>
+  <data name="Breeze_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Breeze_Stat_Aloft" xml:space="preserve">
+    <value>1 千米高处气压差（刚受热）</value>
+  </data>
+  <data name="Breeze_Stat_AsianLow" xml:space="preserve">
+    <value>印度西北部气压</value>
+  </data>
+  <data name="Breeze_Stat_City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="Breeze_Stat_CityWind" xml:space="preserve">
+    <value>当地风向</value>
+  </data>
+  <data name="Breeze_Stat_CityWind_Value" xml:space="preserve">
+    <value>{0} · 约 {1} m/s · {2}</value>
+  </data>
+  <data name="Breeze_Stat_Contrast" xml:space="preserve">
+    <value>海陆温差</value>
+  </data>
+  <data name="Breeze_Stat_Depth" xml:space="preserve">
+    <value>风层厚度</value>
+  </data>
+  <data name="Breeze_Stat_Expansion" xml:space="preserve">
+    <value>陆地上空空气体积</value>
+  </data>
+  <data name="Breeze_Stat_Expansion_Value" xml:space="preserve">
+    <value>比海洋上空 {0}%</value>
+  </data>
+  <data name="Breeze_Stat_Front" xml:space="preserve">
+    <value>海风锋</value>
+  </data>
+  <data name="Breeze_Stat_Front_Value" xml:space="preserve">
+    <value>深入内陆 {0} km</value>
+  </data>
+  <data name="Breeze_Stat_Land" xml:space="preserve">
+    <value>陆地气温</value>
+  </data>
+  <data name="Breeze_Stat_Level900" xml:space="preserve">
+    <value>900 hPa 等压面高度</value>
+  </data>
+  <data name="Breeze_Stat_Level900_Value" xml:space="preserve">
+    <value>海洋 {0} m · 陆地 {1} m（{2} m）</value>
+  </data>
+  <data name="Breeze_Stat_Month" xml:space="preserve">
+    <value>月份</value>
+  </data>
+  <data name="Breeze_Stat_Pressure" xml:space="preserve">
+    <value>地面气压</value>
+  </data>
+  <data name="Breeze_Stat_Pressure_Even" xml:space="preserve">
+    <value>海陆相同</value>
+  </data>
+  <data name="Breeze_Stat_Pressure_LandHigh" xml:space="preserve">
+    <value>陆地比海洋高约 {0} hPa</value>
+  </data>
+  <data name="Breeze_Stat_Pressure_LandLow" xml:space="preserve">
+    <value>陆地比海洋低约 {0} hPa</value>
+  </data>
+  <data name="Breeze_Stat_Rain" xml:space="preserve">
+    <value>本月降水</value>
+  </data>
+  <data name="Breeze_Stat_Rain_Value" xml:space="preserve">
+    <value>{0} mm（全年 {1} mm）</value>
+  </data>
+  <data name="Breeze_Stat_Reach" xml:space="preserve">
+    <value>陆风伸展到</value>
+  </data>
+  <data name="Breeze_Stat_Reach_Value" xml:space="preserve">
+    <value>离岸 {0} km</value>
+  </data>
+  <data name="Breeze_Stat_Sea" xml:space="preserve">
+    <value>海洋</value>
+  </data>
+  <data name="Breeze_Stat_Siberian" xml:space="preserve">
+    <value>蒙古-西伯利亚一带气压</value>
+  </data>
+  <data name="Breeze_Stat_Surface" xml:space="preserve">
+    <value>地面气压差（空气流动后）</value>
+  </data>
+  <data name="Breeze_Stat_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Breeze_Stat_Wind" xml:space="preserve">
+    <value>海滩上的风</value>
+  </data>
+  <data name="Breeze_Stat_Wind_Calm" xml:space="preserve">
+    <value>静风（{0} m/s）</value>
+  </data>
+  <data name="Breeze_Stat_Wind_Offshore" xml:space="preserve">
+    <value>{0} m/s，由陆吹向海 · {1} 级</value>
+  </data>
+  <data name="Breeze_Stat_Wind_Onshore" xml:space="preserve">
+    <value>{0} m/s，由海吹向陆 · {1} 级</value>
+  </data>
+  <data name="Breeze_StepBack" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="Breeze_StepForward" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="Breeze_System_AsianLow_Low" xml:space="preserve">
+    <value>亚洲低压（印度低压）</value>
+  </data>
+  <data name="Breeze_System_Australia_High" xml:space="preserve">
+    <value>澳大利亚高压</value>
+  </data>
+  <data name="Breeze_System_Australia_Low" xml:space="preserve">
+    <value>澳大利亚低压</value>
+  </data>
+  <data name="Breeze_System_Mascarene_High" xml:space="preserve">
+    <value>马斯克林高压</value>
+  </data>
+  <data name="Breeze_System_PacificRidge_High" xml:space="preserve">
+    <value>西太平洋副热带高压</value>
+  </data>
+  <data name="Breeze_System_Siberian_High" xml:space="preserve">
+    <value>蒙古-西伯利亚高压</value>
+  </data>
+  <data name="Breeze_Timeline_Day" xml:space="preserve">
+    <value>一天中的时刻</value>
+  </data>
+  <data name="Breeze_Timeline_Steps" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="Breeze_Timeline_Year" xml:space="preserve">
+    <value>一年中的月份</value>
+  </data>
+  <data name="Breeze_Title" xml:space="preserve">
+    <value>海陆风</value>
+  </data>
+  <data name="Breeze_Trough" xml:space="preserve">
+    <value>赤道低压带</value>
+  </data>
   <data name="Chapter_Acids_Bases" xml:space="preserve">
     <value>酸碱与 pH</value>
   </data>
@@ -3668,6 +4358,201 @@
   </data>
   <data name="MoonPhases_Upcoming_When" xml:space="preserve">
     <value>{0}（{1}）{2}</value>
+  </data>
+  <data name="Narr_Breeze_Cell_01" xml:space="preserve">
+    <value>我们一步一步来搭这个环流。左边是海，右边是陆地。这几条白线是等压面，也就是气压相同的面。海陆温度一样的时候，它们都是平的。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_02" xml:space="preserve">
+    <value>太阳把陆地晒热了，陆地上空的气温从 24 度升到 32 度。热空气膨胀，陆地上的气柱被撑高了，等压面也跟着向上拱起，而且越往高处拱得越多。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_03" xml:space="preserve">
+    <value>看高空的同一个高度：陆地上空的等压面被抬了上去，所以那里的气压比海面上空高。你觉得，高空的空气会往哪边流？</value>
+  </data>
+  <data name="Narr_Breeze_Cell_04" xml:space="preserve">
+    <value>高空的空气从高压流向低压，也就是从陆地上空流到海洋上空。看最上面这支白色箭头。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_05" xml:space="preserve">
+    <value>这样一来，陆地上的气柱少了一些空气，压在地面上的分量变轻，地面就成了低压；海洋上的气柱多了空气，地面成了高压。看近地面的“低”和“高”。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_06" xml:space="preserve">
+    <value>于是近地面的空气，从海面的高压流向陆地的低压，这就是海风。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_07" xml:space="preserve">
+    <value>把这几步连起来：空气在温暖的陆地上升，在高空流向海洋，在凉爽的海面下沉，再沿地面流回陆地。只靠温差就能转起来的闭合环流，叫作热力环流。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_08" xml:space="preserve">
+    <value>到了夜里，陆地降到 18 度左右，比海面的 24 度还冷。每一步都反过来：空气在陆地上空下沉，在海面上空上升，近地面吹的是从陆地吹向海洋的陆风。</value>
+  </data>
+  <data name="Narr_Breeze_Cell_09" xml:space="preserve">
+    <value>轮到你了。拖动陆地或海洋的气温滑块试试：温差越大，环流越强；两边一样热，环流就停了。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_01" xml:space="preserve">
+    <value>这是夏天一个晴朗的午后，左边是大海，右边是陆地。看看这两支温度计：陆地上的空气大约 31 度，海面上却只有 24 度左右。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_02" xml:space="preserve">
+    <value>同样的太阳，为什么差这么多？因为水升温很慢：阳光能照进几米深，波浪又把热量搅到更深处，而且水本身要吸收很多热量才会变暖。陆地只有薄薄一层表面受热，所以很快就烫了。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_03" xml:space="preserve">
+    <value>滚烫的地面把上面的空气也烤热了。热空气膨胀、变轻，就往上升。看陆地上空这支向上的橙色箭头。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_04" xml:space="preserve">
+    <value>陆地上的空气在上升，近地面总得有空气来补上。你觉得，海滩上的风会往哪边吹？</value>
+  </data>
+  <data name="Narr_Breeze_Coast_05" xml:space="preserve">
+    <value>风是从海上吹来的。海上较凉的空气贴着地面吹过来，这就是海风。看看海滩上：旗子、烟囱的烟、帆船的帆，全都指向内陆。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_06" xml:space="preserve">
+    <value>现在打开等压面看看。近地面，热的陆地是低压，凉的海面是高压，空气总是从高压流向低压。到了高空正好反过来，空气又流回海上，绕成一个完整的圈。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_07" xml:space="preserve">
+    <value>海风最前面的边界叫海风锋。整个下午它都在往内陆推进，现在大约深入了 17 千米，一路把前面的热空气抬起来。所以海风锋上方常常会排起一列积云。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_08" xml:space="preserve">
+    <value>再跳到凌晨三点。晴朗的夜里，陆地向天空散热很快，反而比海面还凉。于是整个环流反了过来：微弱的陆风从陆地吹向海上。它比海风弱得多，也薄得多。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_09" xml:space="preserve">
+    <value>如果是阴天呢？厚厚的云挡住阳光，陆地几乎热不起来，只比海面高一度多。没有温差，也就几乎没有风，你看，静风。</value>
+  </data>
+  <data name="Narr_Breeze_Coast_10" xml:space="preserve">
+    <value>轮到你了。现在是早上八点半。拖动时间轴走过这一天，找一找海风什么时候吹起来，又是什么时候变成陆风的。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_01" xml:space="preserve">
+    <value>同样的道理，放大到整个大陆、整整一年，也成立。现在是一月，亚洲内陆冷得厉害，又冷又重的空气堆积起来，形成一个巨大的高压：蒙古-西伯利亚高压。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_02" xml:space="preserve">
+    <value>空气从这里向温暖的海洋流出去。到了中国北方，就是又冷又干的西北季风；到了印度，就是东北季风。所以这些地方的冬天是旱季。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_03" xml:space="preserve">
+    <value>再想想夏天。陆地升温比海洋快得多，那大陆上空的气压会怎么变？</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_04" xml:space="preserve">
+    <value>陆地上会形成低压。跳到七月看看：西伯利亚高压不见了，取而代之的是印度西北部一个很深的热低压。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_05" xml:space="preserve">
+    <value>海洋上的湿空气被吸了进来，这就是吹向印度的西南季风。注意看赤道以南的风：它们原本是东南信风，一越过赤道，就被地球自转偏转，变成了西南风。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_06" xml:space="preserve">
+    <value>这条虚线是赤道低压带，南北两边的风在这里汇合，雨云也在这里堆积。到了七月，它已经北移到很远的地方；一月的时候，它还在赤道以南。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_07" xml:space="preserve">
+    <value>看孟买：光是七月就下了大约 840 毫米的雨，可从十二月到四月，几乎一滴雨都没有。夏季多雨、冬季干燥，这就是季风气候。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_08" xml:space="preserve">
+    <value>到了赤道以南，季节正好相反。回到一月，澳大利亚北部的达尔文正是夏天，大雨不断；而到了七月，那里几乎不下雨。</value>
+  </data>
+  <data name="Narr_Breeze_Monsoon_09" xml:space="preserve">
+    <value>轮到你了。在地图上点一座城市，再拖动月份滑块走过一年，看看它的雨是怎么来、怎么走的。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_AsianLow" xml:space="preserve">
+    <value>亚洲低压，也叫印度低压，夏天出现在印度西北部、巴基斯坦和伊朗上空，那里的陆地被晒得滚烫。它把印度洋上的湿空气吸进来，形成西南季风。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Australia" xml:space="preserve">
+    <value>澳大利亚上空的气压随季节变化：南半球夏天是热低压，把西北季风吸到澳大利亚北部；南半球冬天则变成高压。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Beijing" xml:space="preserve">
+    <value>北京的季风气候非常明显：雨水大多下在七、八月，而冬天吹着寒冷的西北季风，干燥得很，每个月只有几毫米降水。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Boat" xml:space="preserve">
+    <value>几千年来，渔民一直借着海陆风航行：天亮前乘着陆风出海，下午再乘着海风回港。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Calm" xml:space="preserve">
+    <value>静风。日出、日落前后，或者阴天的时候，陆地和海面差不多一样暖。没有温差，就没有推动空气的力量，风也就停了。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Changsha" xml:space="preserve">
+    <value>长沙在华中内陆。它的雨来得早，春雨和六月的梅雨最多；到了盛夏，在副热带高压控制下，天气又热又比较干。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Cooling" xml:space="preserve">
+    <value>夜里，陆地以看不见的红外辐射把热量散到天空。没有太阳再给它加热，地面和贴近地面的空气很快变冷，最后比海面还凉。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Darwin" xml:space="preserve">
+    <value>达尔文在澳大利亚北部、赤道以南，所以它的雨季在十二月到三月，也就是南半球的夏天；六到八月几乎一滴雨都没有。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Equator" xml:space="preserve">
+    <value>在赤道上，地球自转不会让风偏转；赤道以北，风向右偏；赤道以南，风向左偏。所以东南信风越过赤道进入北半球后，就变成了西南季风。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Flag" xml:space="preserve">
+    <value>旗子就是一个简单的风向标，它总是顺着风飘。下午它指向内陆，夜里指向海上，没风的时候就垂下来。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Front" xml:space="preserve">
+    <value>海风锋是凉爽的海风和陆地热空气相遇的地方。整个下午它都在向内陆推进，把前面的热空气抬升起来，所以上方常常长出一排积云，有时甚至会发展成雷阵雨。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Guangzhou" xml:space="preserve">
+    <value>广州在华南，一年里大部分时候都有雨，但主要集中在四到九月，那时湿润的夏季风从南海吹来，还有台风带来的降雨。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_High" xml:space="preserve">
+    <value>高压。在这个高度上，这里的气压比同一高度的周围更高。空气会从高压流向周围气压较低的地方。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Isobars" xml:space="preserve">
+    <value>等压面，就是气压相同的面。等压面向上拱起的地方，同一高度上气压比周围高；向下凹的地方，气压比周围低。图里的弯曲被放大了很多倍，真实大气里它们只上下移动十几二十米。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Land" xml:space="preserve">
+    <value>陆地升温快，降温也快。只有地面薄薄一层吸收阳光，而且泥土和岩石升温需要的热量比水少得多。晴朗的夏天，陆地上的气温一天能变化十度以上。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_LandBreeze" xml:space="preserve">
+    <value>陆风在夜里从陆地吹向海洋，那时陆地已经比海水凉了。它很轻柔，也很薄，只有几百米厚，因为冷空气又重又稳，贴着地面不爱动。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Low" xml:space="preserve">
+    <value>低压。在这个高度上，这里的气压比同一高度的周围更低。空气会从四周流向低压；在近地面，汇聚到这里的空气只能往上升。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Mascarene" xml:space="preserve">
+    <value>马斯克林高压位于南印度洋上空。北半球夏天时它会增强，从这里流出的信风越过赤道，为印度的季风输送水汽。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonAustralia" xml:space="preserve">
+    <value>澳大利亚的西北季风。南半球夏天，来自亚洲一侧的风越过赤道，转成西北风，给达尔文带来雨季。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonNE" xml:space="preserve">
+    <value>东北季风是印度冬天的风，从寒冷的大陆吹向海洋。印度大部分地方因此干燥少雨，但它经过孟加拉湾时吸收了水汽，会给印度东南沿海带来冬雨。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonNW" xml:space="preserve">
+    <value>西北季风冬天从西伯利亚高压吹向中国北方、朝鲜半岛和日本。它又冷又干，有时还会猛烈南下，形成寒潮。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonSE" xml:space="preserve">
+    <value>东南季风夏天从太平洋吹向中国东部，带来温暖湿润的空气和雨季。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_MonsoonSW" xml:space="preserve">
+    <value>西南季风夏天从印度洋吹向印度和东南亚，带来大量水汽。它通常在六月到来，标志着雨季开始。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Mumbai" xml:space="preserve">
+    <value>孟买位于印度西海岸，是典型的季风气候。一年降水约 2400 毫米，几乎全部集中在六到九月，那时西南季风从阿拉伯海吹来。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_PacificRidge" xml:space="preserve">
+    <value>西太平洋副热带高压对东亚的夏天影响很大。湿润的空气沿着它的西侧吹进来，带给中国东南季风；它与北方冷空气交汇的地方，就形成梅雨锋。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Return" xml:space="preserve">
+    <value>高空回流。上升的空气在高处往回流，从高压流向低压。在海滩上感觉不到它，但没有它，环流就接不上。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Rising" xml:space="preserve">
+    <value>上升气流。哪里最暖，哪里的空气就膨胀变轻、往上升：白天在陆地上空，夜里在海面上空。空气上升会变冷，所以容易形成云。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Scale" xml:space="preserve">
+    <value>这幅图在高度方向被拉长了。海风只有大约一千米厚，却能深入内陆几十千米；如果按真实比例画，整个环流会是薄薄的一片。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Sea" xml:space="preserve">
+    <value>海水升温慢，降温也慢。阳光能照进几米深，波浪把热量往下搅，而且水要吸收很多热量才会升温。所以不管白天黑夜，海面温度只变化一度左右。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_SeaBreeze" xml:space="preserve">
+    <value>海风在晴天从海上吹向陆地，午后最强。它凉爽湿润，是炎热海边的天然空调，能一直吹到内陆几十千米。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Shanghai" xml:space="preserve">
+    <value>上海的降雨在六月达到高峰，这是梅雨季节，夏季风在长江一带停留好几个星期。冬天比较凉，也相对干燥。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Shower" xml:space="preserve">
+    <value>夜里，陆风在海上和较暖的海面空气相遇，把它抬升起来。所以黎明前海上常有云和阵雨，海岸边却是晴的。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Siberian" xml:space="preserve">
+    <value>蒙古-西伯利亚高压在冬天形成，那时亚洲内陆冷到极点。它是地球上最强的高压系统，冷空气从这里涌出，就是冬季风。到了夏天，它几乎完全消失。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Sinking" xml:space="preserve">
+    <value>下沉气流。在较凉的一边，空气下沉，把环流接上。下沉的空气被压缩会变暖，云就消散了，所以这里通常是晴天。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Smoke" xml:space="preserve">
+    <value>烟囱里的烟能看出近地面的风。吹海风时它被带向内陆，吹陆风时飘向海上，静风时几乎笔直上升。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Sun" xml:space="preserve">
+    <value>太阳同样照在陆地和海面上，区别在于它们怎么接收热量：陆地很快就热了，海面却几乎不变。正是这个温差在推动风。</value>
+  </data>
+  <data name="Narr_Breeze_Obj_Trough" xml:space="preserve">
+    <value>赤道低压带，也叫热带辐合带，是南北两半球信风汇合的低压带。这里空气上升，雨云密布。它跟着太阳走，七月北移，一月南移。</value>
   </data>
   <data name="Narr_Common_MoveOn" xml:space="preserve">
     <value>我们先接着往下看，等会儿可以再试一试。</value>
