@@ -1,0 +1,231 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:lightning="using:Lemon.Explore.Book.Chapters.Lightning"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Lightning.LightningTextPageView"
+                         x:DataType="lightning:LightningTextPageViewModel">
+    <!-- Left page of the Lightning spread: the view's settings, its charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Lightning.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Lightning.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Lightning.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="LightningMode" IsChecked="{Binding Lightning.IsStatic}" Content="{loc:Localize Lightning_Mode_Static}" />
+                    <RadioButton Classes="chip" GroupName="LightningMode" IsChecked="{Binding Lightning.IsCloud}" Content="{loc:Localize Lightning_Mode_Cloud}" />
+                    <RadioButton Classes="chip" GroupName="LightningMode" IsChecked="{Binding Lightning.IsStrike}" Content="{loc:Localize Lightning_Mode_Strike}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Lightning.Card}" />
+
+                <!-- Static: the rod, the cloth, the air -->
+                <StackPanel IsVisible="{Binding Lightning.IsStatic}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Rod_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LightningRod" IsChecked="{Binding Lightning.RodChoice[Balloon]}" Content="{loc:Localize Lightning_Material_Balloon}" />
+                        <RadioButton Classes="chip" GroupName="LightningRod" IsChecked="{Binding Lightning.RodChoice[Glass]}" Content="{loc:Localize Lightning_Material_Glass}" />
+                        <RadioButton Classes="chip" GroupName="LightningRod" IsChecked="{Binding Lightning.RodChoice[Rubber]}" Content="{loc:Localize Lightning_Material_Rubber}" />
+                        <RadioButton Classes="chip" GroupName="LightningRod" IsChecked="{Binding Lightning.RodChoice[Pvc]}" Content="{loc:Localize Lightning_Material_Pvc}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Cloth_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LightningCloth" IsChecked="{Binding Lightning.ClothChoice[Hair]}" Content="{loc:Localize Lightning_Material_Hair}" />
+                        <RadioButton Classes="chip" GroupName="LightningCloth" IsChecked="{Binding Lightning.ClothChoice[Fur]}" Content="{loc:Localize Lightning_Material_Fur}" />
+                        <RadioButton Classes="chip" GroupName="LightningCloth" IsChecked="{Binding Lightning.ClothChoice[Wool]}" Content="{loc:Localize Lightning_Material_Wool}" />
+                        <RadioButton Classes="chip" GroupName="LightningCloth" IsChecked="{Binding Lightning.ClothChoice[Silk]}" Content="{loc:Localize Lightning_Material_Silk}" />
+                        <RadioButton Classes="chip" GroupName="LightningCloth" IsChecked="{Binding Lightning.ClothChoice[Cotton]}" Content="{loc:Localize Lightning_Material_Cotton}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lightning.HumidityText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lightning_Humidity}" />
+                    </DockPanel>
+                    <Slider Minimum="10" Maximum="90" Value="{Binding Lightning.Humidity}" SmallChange="1" LargeChange="10"
+                            IsSnapToTickEnabled="True" TickFrequency="1" AutomationProperties.Name="{loc:Localize Lightning_Humidity}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Lightning.SetHumidityCommand}" CommandParameter="20" Content="{loc:Localize Lightning_Humidity_Winter}" />
+                        <Button Classes="chip" Command="{Binding Lightning.SetHumidityCommand}" CommandParameter="50" Content="{loc:Localize Lightning_Humidity_Indoor}" />
+                        <Button Classes="chip" Command="{Binding Lightning.SetHumidityCommand}" CommandParameter="85" Content="{loc:Localize Lightning_Humidity_Rainy}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Try_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.AutoHand}" Content="{loc:Localize Lightning_Option_AutoHand}" />
+                        <Button Classes="chip" Command="{Binding Lightning.DischargeCommand}" Content="{loc:Localize Lightning_Option_Discharge}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.ShowLabels}" Content="{loc:Localize Lightning_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Chart_Series_Caption}" />
+                    <Border Classes="plate" Height="200">
+                        <lightning:SeriesChart Rod="{Binding Lightning.Rod}" Cloth="{Binding Lightning.Cloth}" AutomationProperties.Name="{loc:Localize Lightning_Chart_Series_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Lightning_Chart_Series_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Chart_Charge_Caption}" />
+                    <Border Classes="plate" Height="150">
+                        <lightning:HistoryChart Time="{Binding Lightning.StaticTime}" Value="{Binding Lightning.Charge}" Span="30" Minimum="-300" Maximum="300" Step="100" Unit="nC"
+                                                AutomationProperties.Name="{loc:Localize Lightning_Chart_Charge_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Lightning_Chart_Charge_Note}" />
+                </StackPanel>
+
+                <!-- The cloud: where you are, how tall the storm grows -->
+                <StackPanel IsVisible="{Binding Lightning.IsCloud}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Lightning.Location}" />
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lightning.CloudTopText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lightning_CloudTop}" />
+                    </DockPanel>
+                    <Slider Minimum="8" Maximum="16" Value="{Binding Lightning.CloudTop}" SmallChange="0.1" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="0.1" AutomationProperties.Name="{loc:Localize Lightning_CloudTop}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Lightning.SetTopCommand}" CommandParameter="9" Content="{loc:Localize Lightning_CloudTop_Shower}" />
+                        <Button Classes="chip" Command="{Binding Lightning.SetTopCommand}" CommandParameter="12" Content="{loc:Localize Lightning_CloudTop_Storm}" />
+                        <Button Classes="chip" Command="{Binding Lightning.SetTopCommand}" CommandParameter="16" Content="{loc:Localize Lightning_CloudTop_Supercell}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Text="{loc:Localize Lightning_CloudTop_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Try_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.ShowCharges}" Content="{loc:Localize Lightning_Option_Charges}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.ShowLabels}" Content="{loc:Localize Lightning_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Chart_Field_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <lightning:HistoryChart Time="{Binding Lightning.CloudTime}" Value="{Binding Lightning.GroundField}" Span="60" Minimum="-4" Maximum="12" Step="4" Unit="kV/m"
+                                                Mark="5" MarkText="{loc:Localize Lightning_Chart_Field_Mark}" BySign="False"
+                                                AutomationProperties.Name="{loc:Localize Lightning_Chart_Field_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Lightning_Chart_Field_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Chart_Rate_Caption}" />
+                    <Border Classes="plate" Height="150">
+                        <lightning:FlashRateChart Top="{Binding Lightning.CloudTop}" AutomationProperties.Name="{loc:Localize Lightning_Chart_Rate_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Lightning_Chart_Rate_Note}" />
+                </StackPanel>
+
+                <!-- The strike: its current, the rod, how far away you are -->
+                <StackPanel IsVisible="{Binding Lightning.IsStrike}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lightning.PeakCurrentText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lightning_Current}" />
+                    </DockPanel>
+                    <Slider Minimum="3" Maximum="150" Value="{Binding Lightning.PeakCurrent}" SmallChange="1" LargeChange="10"
+                            IsSnapToTickEnabled="True" TickFrequency="1" AutomationProperties.Name="{loc:Localize Lightning_Current}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Lightning.SetCurrentCommand}" CommandParameter="8" Content="{loc:Localize Lightning_Current_Weak}" />
+                        <Button Classes="chip" Command="{Binding Lightning.SetCurrentCommand}" CommandParameter="30" Content="{loc:Localize Lightning_Current_Typical}" />
+                        <Button Classes="chip" Command="{Binding Lightning.SetCurrentCommand}" CommandParameter="100" Content="{loc:Localize Lightning_Current_Strong}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lightning.DistanceText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lightning_Distance}" />
+                    </DockPanel>
+                    <Slider Minimum="0.5" Maximum="15" Value="{Binding Lightning.Distance}" SmallChange="0.1" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="0.1" AutomationProperties.Name="{loc:Localize Lightning_Distance}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Strokes_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LightningStrokes" IsChecked="{Binding Lightning.StrokeChoice[1]}" Content="1" />
+                        <RadioButton Classes="chip" GroupName="LightningStrokes" IsChecked="{Binding Lightning.StrokeChoice[2]}" Content="2" />
+                        <RadioButton Classes="chip" GroupName="LightningStrokes" IsChecked="{Binding Lightning.StrokeChoice[3]}" Content="3" />
+                        <RadioButton Classes="chip" GroupName="LightningStrokes" IsChecked="{Binding Lightning.StrokeChoice[4]}" Content="4" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Try_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.LightningRod}" Content="{loc:Localize Lightning_Option_Rod}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.ShowSphere}" Content="{loc:Localize Lightning_Option_Sphere}" />
+                        <Button Classes="chip" Command="{Binding Lightning.NewStrikeCommand}" Content="{loc:Localize Lightning_Option_NewStrike}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lightning.ShowLabels}" Content="{loc:Localize Lightning_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Chart_Current_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <lightning:CurrentChart Peak="{Binding Lightning.PeakCurrent}" AutomationProperties.Name="{loc:Localize Lightning_Chart_Current_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Lightning_Chart_Current_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Chart_Reach_Caption}" />
+                    <Border Classes="plate" Height="150">
+                        <lightning:ReachChart Peak="{Binding Lightning.PeakCurrent}" AutomationProperties.Name="{loc:Localize Lightning_Chart_Reach_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Lightning_Chart_Reach_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Lightning.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Lightning.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Lightning.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Lightning.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Lightning_Facts}" />
+                <ItemsControl ItemsSource="{Binding Lightning.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

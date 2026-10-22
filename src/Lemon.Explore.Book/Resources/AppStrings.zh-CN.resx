@@ -4704,6 +4704,768 @@
   <data name="Lesson_TimeLeft" xml:space="preserve">
     <value>剩余答题时间</value>
   </data>
+  <data name="Lightning_Chart_Ago" xml:space="preserve">
+    <value>{0} 秒前</value>
+  </data>
+  <data name="Lightning_Chart_Charge_Caption" xml:space="preserve">
+    <value>棒子的电荷（最近 30 秒）</value>
+  </data>
+  <data name="Lightning_Chart_Charge_Note" xml:space="preserve">
+    <value>摩擦让电荷逐渐增加到一个上限（再多，表面的空气就会被击穿）；放电时骤降一截；空气潮湿时慢慢漏光。</value>
+  </data>
+  <data name="Lightning_Chart_Current_Caption" xml:space="preserve">
+    <value>回击电流</value>
+  </data>
+  <data name="Lightning_Chart_Current_First" xml:space="preserve">
+    <value>首次 {0} kA</value>
+  </data>
+  <data name="Lightning_Chart_Current_Later" xml:space="preserve">
+    <value>之后 {0} kA</value>
+  </data>
+  <data name="Lightning_Chart_Current_Note" xml:space="preserve">
+    <value>电流约 1 微秒内达到峰值，约 200 微秒后降到一半；之后的回击更小、更快（IEC 62305 的波形）。一半的首次回击峰值不到 30 kA。</value>
+  </data>
+  <data name="Lightning_Chart_Field_Caption" xml:space="preserve">
+    <value>地面电场（最近 1 分钟）</value>
+  </data>
+  <data name="Lightning_Chart_Field_Mark" xml:space="preserve">
+    <value>危险</value>
+  </data>
+  <data name="Lightning_Chart_Field_Note" xml:space="preserve">
+    <value>晴天时电场约 0.13 kV/m，方向向下。雷暴下方电场反转并不断增强，每次闪电又让它骤降：气象站的电场仪记录到的就是这种锯齿。</value>
+  </data>
+  <data name="Lightning_Chart_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Axis" xml:space="preserve">
+    <value>云顶高度，km</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Caption" xml:space="preserve">
+    <value>云越高，闪电越多</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Note" xml:space="preserve">
+    <value>闪电频率约与云顶高度的 5 次方成正比（Price 与 Rind 1992）：云高一倍，闪电约多 30 倍。</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Unit" xml:space="preserve">
+    <value>次/分</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Value" xml:space="preserve">
+    <value>每分钟 {0} 次</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Caption" xml:space="preserve">
+    <value>击距与滚球半径</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Classes" xml:space="preserve">
+    <value>IEC 防雷等级 I–IV</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Note" xml:space="preserve">
+    <value>电流越弱，先导要离得越近才有东西迎上去，所以弱的闪电可能“绕过”避雷针。防雷标准用 20–60 米的滚球（I–IV 级）在建筑上滚一遍，找出哪里需要接闪器。</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Value" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Lightning_Chart_Series_Caption" xml:space="preserve">
+    <value>摩擦起电序列</value>
+  </data>
+  <data name="Lightning_Chart_Series_Gives" xml:space="preserve">
+    <value>易失电子</value>
+  </data>
+  <data name="Lightning_Chart_Series_Note" xml:space="preserve">
+    <value>两种材料相互摩擦，排在上面的把电子交给下面的：上面的带正电，下面的带负电；相隔越远，带电越多。顺序取常见的序列，柱子长短只是示意。</value>
+  </data>
+  <data name="Lightning_Chart_Series_Takes" xml:space="preserve">
+    <value>易得电子</value>
+  </data>
+  <data name="Lightning_Cloth_Caption" xml:space="preserve">
+    <value>……用这个</value>
+  </data>
+  <data name="Lightning_CloudTop" xml:space="preserve">
+    <value>云顶高度</value>
+  </data>
+  <data name="Lightning_CloudTop_Note" xml:space="preserve">
+    <value>云越高，上升气流越强，云中寒冷部分碰撞的冰粒和霰就越多，充电也快得多。</value>
+  </data>
+  <data name="Lightning_CloudTop_Shower" xml:space="preserve">
+    <value>雷阵雨</value>
+  </data>
+  <data name="Lightning_CloudTop_Storm" xml:space="preserve">
+    <value>雷暴</value>
+  </data>
+  <data name="Lightning_CloudTop_Supercell" xml:space="preserve">
+    <value>超级单体</value>
+  </data>
+  <data name="Lightning_Cloud_Anvil" xml:space="preserve">
+    <value>云砧</value>
+  </data>
+  <data name="Lightning_Cloud_Charging_Description" xml:space="preserve">
+    <value>上升气流把小冰晶带上去，霰在其间下落。每碰一次就交换一点电荷：轻的冰晶带着正电升到云顶，重的霰带着负电留在中部。地面的电场越来越强。</value>
+  </data>
+  <data name="Lightning_Cloud_Charging_Title" xml:space="preserve">
+    <value>云在充电</value>
+  </data>
+  <data name="Lightning_Cloud_Clock" xml:space="preserve">
+    <value>已闪 {0} 次 · 每分钟 {1} 次</value>
+  </data>
+  <data name="Lightning_Cloud_CloudToGround_Description" xml:space="preserve">
+    <value>一道闪电把云中部的负电荷导入了大地。地面电场骤降，然后云又重新充电：电场仪的读数呈锯齿形。</value>
+  </data>
+  <data name="Lightning_Cloud_CloudToGround_Title" xml:space="preserve">
+    <value>云地闪电</value>
+  </data>
+  <data name="Lightning_Cloud_Danger_Description" xml:space="preserve">
+    <value>风暴下方的地面感应出大量正电荷，电场超过 5 kV/m：树梢、头发这样的尖端开始放电（电晕）。闪电随时可能落下。</value>
+  </data>
+  <data name="Lightning_Cloud_Danger_Title" xml:space="preserve">
+    <value>电场已很危险</value>
+  </data>
+  <data name="Lightning_Cloud_Fact1" xml:space="preserve">
+    <value>闪电就是一次巨大的静电放电：云里的冰粒把几十库仑的电荷分开，电压可达上亿伏。</value>
+  </data>
+  <data name="Lightning_Cloud_Fact2" xml:space="preserve">
+    <value>大约 −15 °C 是电荷“反转”的温度：比它冷时，霰被冰晶撞后带负电；比它暖时带正电（Takahashi 1978 年的实验）。</value>
+  </data>
+  <data name="Lightning_Cloud_Fact3" xml:space="preserve">
+    <value>卫星观测表明，全球平均每秒约有 44 次闪电，大多发生在陆地上空：午后的太阳把陆地晒热，上升气流更强。</value>
+  </data>
+  <data name="Lightning_Cloud_Fact4" xml:space="preserve">
+    <value>大部分闪电并不落地：云内闪与云地闪之比，热带约 6∶1，中纬度约 3∶1（Prentice 与 Mackerras 1977）。</value>
+  </data>
+  <data name="Lightning_Cloud_Fact5" xml:space="preserve">
+    <value>头发竖起、皮肤发麻、金属物发出嗡嗡声，说明地面电场已经很强，雷击可能就在几秒之后——立即离开高处和空旷地。</value>
+  </data>
+  <data name="Lightning_Cloud_Freezing" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Lightning_Cloud_Glaciation" xml:space="preserve">
+    <value>{0} °C 全是冰</value>
+  </data>
+  <data name="Lightning_Cloud_Graupel" xml:space="preserve">
+    <value>霰（软雹）</value>
+  </data>
+  <data name="Lightning_Cloud_Ice" xml:space="preserve">
+    <value>冰晶</value>
+  </data>
+  <data name="Lightning_Cloud_Intracloud_Description" xml:space="preserve">
+    <value>空气先在云里被击穿：从中部的负电荷区到云顶的正电荷区。大多数闪电都是这样，地面上只看到云被照亮。</value>
+  </data>
+  <data name="Lightning_Cloud_Intracloud_Title" xml:space="preserve">
+    <value>云内闪电</value>
+  </data>
+  <data name="Lightning_Cloud_Meter_Down" xml:space="preserve">
+    <value>电场 {0} kV/m ↓</value>
+  </data>
+  <data name="Lightning_Cloud_Meter_Up" xml:space="preserve">
+    <value>电场 {0} kV/m ↑</value>
+  </data>
+  <data name="Lightning_Cloud_Note" xml:space="preserve">
+    <value>雷暴云剖面，宽 36 km、高 16.5 km，按比例。三极电荷结构为示意；闪电频率按 Price 与 Rind（1992）；时间与现实同步，冰粒运动加快显示。</value>
+  </data>
+  <data name="Lightning_Cloud_Rain" xml:space="preserve">
+    <value>降雨</value>
+  </data>
+  <data name="Lightning_Cloud_Reversal" xml:space="preserve">
+    <value>{0} °C 电荷反转</value>
+  </data>
+  <data name="Lightning_Cloud_Subtitle" xml:space="preserve">
+    <value>雷暴云是怎样“充电”的</value>
+  </data>
+  <data name="Lightning_Cloud_Top" xml:space="preserve">
+    <value>云顶 {0} km，{1} °C</value>
+  </data>
+  <data name="Lightning_Cloud_Updraft" xml:space="preserve">
+    <value>上升气流</value>
+  </data>
+  <data name="Lightning_Current" xml:space="preserve">
+    <value>首次回击的峰值电流</value>
+  </data>
+  <data name="Lightning_Current_Strong" xml:space="preserve">
+    <value>强</value>
+  </data>
+  <data name="Lightning_Current_Typical" xml:space="preserve">
+    <value>典型</value>
+  </data>
+  <data name="Lightning_Current_Weak" xml:space="preserve">
+    <value>弱</value>
+  </data>
+  <data name="Lightning_Distance" xml:space="preserve">
+    <value>你离雷击点的距离</value>
+  </data>
+  <data name="Lightning_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Lightning_Hint_Cloud" xml:space="preserve">
+    <value>点击地面可以移动电场仪（和人）；把云顶调高，看闪电变得频繁多少。</value>
+  </data>
+  <data name="Lightning_Hint_Static" xml:space="preserve">
+    <value>可以自己拖动棒子（或气球）：先在布上来回摩擦，再拿去靠近纸屑、水流和金属球。换种材料、调调湿度试试。</value>
+  </data>
+  <data name="Lightning_Hint_Strike" xml:space="preserve">
+    <value>左右拖动画面可前后查看；去掉避雷针或改变电流，看看闪电会打到哪里。</value>
+  </data>
+  <data name="Lightning_Humidity" xml:space="preserve">
+    <value>空气湿度</value>
+  </data>
+  <data name="Lightning_Humidity_Indoor" xml:space="preserve">
+    <value>普通室内</value>
+  </data>
+  <data name="Lightning_Humidity_Rainy" xml:space="preserve">
+    <value>雨天</value>
+  </data>
+  <data name="Lightning_Humidity_Winter" xml:space="preserve">
+    <value>干燥的冬天</value>
+  </data>
+  <data name="Lightning_Km_Value" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Lightning_Lesson_Cloud_Choice1" xml:space="preserve">
+    <value>带上正电，被云中间的负电荷吸引过来</value>
+  </data>
+  <data name="Lightning_Lesson_Cloud_Choice2" xml:space="preserve">
+    <value>和云底一样，带上负电</value>
+  </data>
+  <data name="Lightning_Lesson_Cloud_Choice3" xml:space="preserve">
+    <value>没有变化，地面不会带电</value>
+  </data>
+  <data name="Lightning_Lesson_Static_Choice1" xml:space="preserve">
+    <value>气球抓电子抓得更牢</value>
+  </data>
+  <data name="Lightning_Lesson_Static_Choice2" xml:space="preserve">
+    <value>摩擦产生了新的电子</value>
+  </data>
+  <data name="Lightning_Lesson_Static_Choice3" xml:space="preserve">
+    <value>头发比气球暖和</value>
+  </data>
+  <data name="Lightning_Lesson_Strike_Choice1" xml:space="preserve">
+    <value>先导来到大约一百米以内时</value>
+  </data>
+  <data name="Lightning_Lesson_Strike_Choice2" xml:space="preserve">
+    <value>先导碰到它的时候</value>
+  </data>
+  <data name="Lightning_Lesson_Strike_Choice3" xml:space="preserve">
+    <value>先导一离开云底就开始</value>
+  </data>
+  <data name="Lightning_Material_Balloon" xml:space="preserve">
+    <value>气球</value>
+  </data>
+  <data name="Lightning_Material_Cotton" xml:space="preserve">
+    <value>棉布</value>
+  </data>
+  <data name="Lightning_Material_Fur" xml:space="preserve">
+    <value>毛皮</value>
+  </data>
+  <data name="Lightning_Material_Glass" xml:space="preserve">
+    <value>玻璃棒</value>
+  </data>
+  <data name="Lightning_Material_Hair" xml:space="preserve">
+    <value>头发</value>
+  </data>
+  <data name="Lightning_Material_Pvc" xml:space="preserve">
+    <value>塑料（PVC）棒</value>
+  </data>
+  <data name="Lightning_Material_Rubber" xml:space="preserve">
+    <value>橡胶棒</value>
+  </data>
+  <data name="Lightning_Material_Silk" xml:space="preserve">
+    <value>丝绸</value>
+  </data>
+  <data name="Lightning_Material_Wool" xml:space="preserve">
+    <value>羊毛</value>
+  </data>
+  <data name="Lightning_Mode_Cloud" xml:space="preserve">
+    <value>雷暴云</value>
+  </data>
+  <data name="Lightning_Mode_Static" xml:space="preserve">
+    <value>摩擦起电</value>
+  </data>
+  <data name="Lightning_Mode_Strike" xml:space="preserve">
+    <value>一次雷击</value>
+  </data>
+  <data name="Lightning_Obj_Cloth" xml:space="preserve">
+    <value>摩擦用的布</value>
+  </data>
+  <data name="Lightning_Obj_CloudBase" xml:space="preserve">
+    <value>云底</value>
+  </data>
+  <data name="Lightning_Obj_Corona" xml:space="preserve">
+    <value>雷雨云下的树</value>
+  </data>
+  <data name="Lightning_Obj_Earth" xml:space="preserve">
+    <value>接地线</value>
+  </data>
+  <data name="Lightning_Obj_Field" xml:space="preserve">
+    <value>地面电场</value>
+  </data>
+  <data name="Lightning_Obj_Freezing" xml:space="preserve">
+    <value>零度层</value>
+  </data>
+  <data name="Lightning_Obj_Glaciation" xml:space="preserve">
+    <value>全冰层</value>
+  </data>
+  <data name="Lightning_Obj_Hit" xml:space="preserve">
+    <value>被击中的目标</value>
+  </data>
+  <data name="Lightning_Obj_House" xml:space="preserve">
+    <value>房子</value>
+  </data>
+  <data name="Lightning_Obj_Humidity" xml:space="preserve">
+    <value>空气湿度</value>
+  </data>
+  <data name="Lightning_Obj_Lower" xml:space="preserve">
+    <value>下部正电荷</value>
+  </data>
+  <data name="Lightning_Obj_Main" xml:space="preserve">
+    <value>主负电荷区</value>
+  </data>
+  <data name="Lightning_Obj_Meter" xml:space="preserve">
+    <value>电场仪</value>
+  </data>
+  <data name="Lightning_Obj_Person" xml:space="preserve">
+    <value>空旷处的人</value>
+  </data>
+  <data name="Lightning_Obj_Reversal" xml:space="preserve">
+    <value>电荷反转层</value>
+  </data>
+  <data name="Lightning_Obj_Rod" xml:space="preserve">
+    <value>摩擦过的棒子</value>
+  </data>
+  <data name="Lightning_Obj_Slow" xml:space="preserve">
+    <value>慢动作</value>
+  </data>
+  <data name="Lightning_Obj_Spark" xml:space="preserve">
+    <value>火花</value>
+  </data>
+  <data name="Lightning_Obj_Squeezed" xml:space="preserve">
+    <value>压缩的高度</value>
+  </data>
+  <data name="Lightning_Obj_Strip" xml:space="preserve">
+    <value>雷声在路上</value>
+  </data>
+  <data name="Lightning_Obj_Top" xml:space="preserve">
+    <value>云顶</value>
+  </data>
+  <data name="Lightning_Obj_Tree" xml:space="preserve">
+    <value>高大的树</value>
+  </data>
+  <data name="Lightning_Obj_Upper" xml:space="preserve">
+    <value>上部正电荷</value>
+  </data>
+  <data name="Lightning_Obj_Zone" xml:space="preserve">
+    <value>保护区</value>
+  </data>
+  <data name="Lightning_Option_AutoHand" xml:space="preserve">
+    <value>自动演示</value>
+  </data>
+  <data name="Lightning_Option_Charges" xml:space="preserve">
+    <value>电荷</value>
+  </data>
+  <data name="Lightning_Option_Discharge" xml:space="preserve">
+    <value>让棒子接地</value>
+  </data>
+  <data name="Lightning_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Lightning_Option_NewStrike" xml:space="preserve">
+    <value>换一道闪电</value>
+  </data>
+  <data name="Lightning_Option_Rod" xml:space="preserve">
+    <value>避雷针</value>
+  </data>
+  <data name="Lightning_Option_Sphere" xml:space="preserve">
+    <value>滚球</value>
+  </data>
+  <data name="Lightning_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Lightning_Rod_Caption" xml:space="preserve">
+    <value>摩擦这个……</value>
+  </data>
+  <data name="Lightning_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Lightning_Stat_Charge" xml:space="preserve">
+    <value>电荷</value>
+  </data>
+  <data name="Lightning_Stat_Electrons" xml:space="preserve">
+    <value>转移的电子</value>
+  </data>
+  <data name="Lightning_Stat_Field" xml:space="preserve">
+    <value>电场仪读数</value>
+  </data>
+  <data name="Lightning_Stat_Field_Down" xml:space="preserve">
+    <value>{0} kV/m，向下（距中心 {1} km）</value>
+  </data>
+  <data name="Lightning_Stat_Field_Up" xml:space="preserve">
+    <value>{0} kV/m，向上（距中心 {1} km）</value>
+  </data>
+  <data name="Lightning_Stat_HalfLife" xml:space="preserve">
+    <value>电荷减半需要</value>
+  </data>
+  <data name="Lightning_Stat_HalfLife_Value" xml:space="preserve">
+    <value>{1}（湿度 {0}%）</value>
+  </data>
+  <data name="Lightning_Stat_Hit" xml:space="preserve">
+    <value>击中</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Ground" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Lightning_Stat_Hit_House" xml:space="preserve">
+    <value>{0}：电流穿过屋顶和墙</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Person" xml:space="preserve">
+    <value>{0}：在空旷地里，人可能就是最高点！</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Rod" xml:space="preserve">
+    <value>{0}：沿引下线安全入地</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Tree" xml:space="preserve">
+    <value>{0}：千万别在树下躲雨</value>
+  </data>
+  <data name="Lightning_Stat_Main" xml:space="preserve">
+    <value>主负电荷区</value>
+  </data>
+  <data name="Lightning_Stat_Main_Value" xml:space="preserve">
+    <value>高 {0} km，约 {1} °C 处</value>
+  </data>
+  <data name="Lightning_Stat_Peak" xml:space="preserve">
+    <value>峰值电流</value>
+  </data>
+  <data name="Lightning_Stat_Peak_Value" xml:space="preserve">
+    <value>首次 {0} kA，之后约 {1} kA</value>
+  </data>
+  <data name="Lightning_Stat_Rate" xml:space="preserve">
+    <value>闪电频率</value>
+  </data>
+  <data name="Lightning_Stat_Rate_Value" xml:space="preserve">
+    <value>每分钟 {0} 次（约 {1} 秒一次）</value>
+  </data>
+  <data name="Lightning_Stat_Reach" xml:space="preserve">
+    <value>击距（滚球半径）</value>
+  </data>
+  <data name="Lightning_Stat_Reach_Value" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Lightning_Stat_Share" xml:space="preserve">
+    <value>云内闪 ∶ 云地闪</value>
+  </data>
+  <data name="Lightning_Stat_Share_Value" xml:space="preserve">
+    <value>{0}约 {1} ∶ 1（{2}% 落地）</value>
+  </data>
+  <data name="Lightning_Stat_Spark" xml:space="preserve">
+    <value>能击穿的空气</value>
+  </data>
+  <data name="Lightning_Stat_Spark_None" xml:space="preserve">
+    <value>击不穿（不到约 300 伏）</value>
+  </data>
+  <data name="Lightning_Stat_Spark_Value" xml:space="preserve">
+    <value>最多 {0} 毫米</value>
+  </data>
+  <data name="Lightning_Stat_Strokes" xml:space="preserve">
+    <value>回击</value>
+  </data>
+  <data name="Lightning_Stat_Strokes_Value" xml:space="preserve">
+    <value>{0} 次，整道闪电共 {1}</value>
+  </data>
+  <data name="Lightning_Stat_Thunder" xml:space="preserve">
+    <value>雷声</value>
+  </data>
+  <data name="Lightning_Stat_Thunder_Value" xml:space="preserve">
+    <value>闪电后 {0} 秒，从 {1} km 外传来</value>
+  </data>
+  <data name="Lightning_Stat_Top" xml:space="preserve">
+    <value>云顶</value>
+  </data>
+  <data name="Lightning_Stat_Top_Value" xml:space="preserve">
+    <value>{0} km，{1} °C</value>
+  </data>
+  <data name="Lightning_Stat_Voltage" xml:space="preserve">
+    <value>电压</value>
+  </data>
+  <data name="Lightning_Stat_Who" xml:space="preserve">
+    <value>谁得到电子</value>
+  </data>
+  <data name="Lightning_Stat_Who_Gives" xml:space="preserve">
+    <value>{0}把电子交给{1}</value>
+  </data>
+  <data name="Lightning_Stat_Who_Same" xml:space="preserve">
+    <value>都不：同种材料不起电</value>
+  </data>
+  <data name="Lightning_Stat_Who_Takes" xml:space="preserve">
+    <value>{0}从{1}夺得电子</value>
+  </data>
+  <data name="Lightning_Static_Ball" xml:space="preserve">
+    <value>接地的金属球</value>
+  </data>
+  <data name="Lightning_Static_Bending_Description" xml:space="preserve">
+    <value>细水流被吸向棒子，不管棒子带正电还是负电都一样：水流靠近棒子的一侧感应出异种电荷，异种电荷相吸。</value>
+  </data>
+  <data name="Lightning_Static_Bending_Title" xml:space="preserve">
+    <value>水流弯了</value>
+  </data>
+  <data name="Lightning_Static_Charged_Description" xml:space="preserve">
+    <value>棒子是绝缘体，电荷就停在被摩擦的那一段，不会流走；只有空气潮湿时，表面的一层水膜让它慢慢漏掉。</value>
+  </data>
+  <data name="Lightning_Static_Charged_Title" xml:space="preserve">
+    <value>带电了</value>
+  </data>
+  <data name="Lightning_Static_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Lightning_Static_Fact1" xml:space="preserve">
+    <value>摩擦并不“产生”电，只是让电子从一个物体转移到另一个：一个带多少负电，另一个就带多少正电，总量不变。</value>
+  </data>
+  <data name="Lightning_Static_Fact2" xml:space="preserve">
+    <value>冬天空气干燥（湿度 10%–20%）时，在地毯上走几步，人身上可带上约 35000 伏电压；空气潮湿（65%–90%）时只有约 1500 伏。</value>
+  </data>
+  <data name="Lightning_Static_Fact3" xml:space="preserve">
+    <value>电压虽高，电荷却很少：气球的一次放电只有几毫焦的能量，所以只是“麻一下”，并不伤人。</value>
+  </data>
+  <data name="Lightning_Static_Fact4" xml:space="preserve">
+    <value>人一般要到约 3000 伏才感觉得到静电放电，而手机、电脑里的芯片几百伏甚至更低就可能被击坏，所以电子厂的工人要戴防静电手环。</value>
+  </data>
+  <data name="Lightning_Static_Fact5" xml:space="preserve">
+    <value>汽油蒸气只要约 0.2 毫焦的火花就能点燃，比一次静电放电还小。所以加油机旁有金属的静电释放器，加油前先摸一下把静电放掉。</value>
+  </data>
+  <data name="Lightning_Static_Humidity" xml:space="preserve">
+    <value>湿度 {0}%</value>
+  </data>
+  <data name="Lightning_Static_Lifting_Description" xml:space="preserve">
+    <value>纸屑本身不带电，但棒子的电荷把纸屑里的电荷“拉偏”了（极化）：靠近的一侧带异种电荷，被吸起来。碰到棒子后纸屑分到同种电荷，又被弹开。</value>
+  </data>
+  <data name="Lightning_Static_Lifting_Title" xml:space="preserve">
+    <value>吸起纸屑</value>
+  </data>
+  <data name="Lightning_Static_Neutral_Description" xml:space="preserve">
+    <value>棒子里正、负电荷一样多，整体不带电。把它放到布上来回摩擦吧。</value>
+  </data>
+  <data name="Lightning_Static_Neutral_Title" xml:space="preserve">
+    <value>不带电</value>
+  </data>
+  <data name="Lightning_Static_Note" xml:space="preserve">
+    <value>正视图，台面宽 1 米。电荷多少按摩擦起电序列和空气击穿极限估算，火花距离按帕邢定律计算；“+”“−”的个数只表示多少。</value>
+  </data>
+  <data name="Lightning_Static_Paper" xml:space="preserve">
+    <value>纸屑</value>
+  </data>
+  <data name="Lightning_Static_RodLabel" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Lightning_Static_Rubbing_Description" xml:space="preserve">
+    <value>两种材料接触又分开时，对电子“抓得更紧”的那一方会夺走对方的一些电子。摩擦只是让它们接触得更多、更充分。</value>
+  </data>
+  <data name="Lightning_Static_Rubbing_Title" xml:space="preserve">
+    <value>摩擦中</value>
+  </data>
+  <data name="Lightning_Static_Spark_Description" xml:space="preserve">
+    <value>电压高到足以击穿缝隙里的空气：空气被电离成发光、导电的通道，电荷冲了过去。这就是一道微型闪电。棒子是绝缘体，只有尖端附近的电荷放掉了。</value>
+  </data>
+  <data name="Lightning_Static_Spark_Title" xml:space="preserve">
+    <value>啪！放电火花</value>
+  </data>
+  <data name="Lightning_Static_Subtitle" xml:space="preserve">
+    <value>摩擦起电：电子从一样东西跑到另一样</value>
+  </data>
+  <data name="Lightning_Static_Touched_Description" xml:space="preserve">
+    <value>电压不够高，打不出看得见的火花，电荷在接触处直接流进了接地的金属球。</value>
+  </data>
+  <data name="Lightning_Static_Touched_Title" xml:space="preserve">
+    <value>悄悄放电</value>
+  </data>
+  <data name="Lightning_Static_Water" xml:space="preserve">
+    <value>细水流</value>
+  </data>
+  <data name="Lightning_Static_Zap" xml:space="preserve">
+    <value>啪！{0}</value>
+  </data>
+  <data name="Lightning_Strike_Attach_Description" xml:space="preserve">
+    <value>先导头部离某样东西只剩“击距”时，那里的电场强到能发出一道向上的流光。谁的流光先接上先导，闪电就打谁——这就是“滚球”的道理。</value>
+  </data>
+  <data name="Lightning_Strike_Attach_Short" xml:space="preserve">
+    <value>上行流光</value>
+  </data>
+  <data name="Lightning_Strike_Attach_Title" xml:space="preserve">
+    <value>地面迎上去</value>
+  </data>
+  <data name="Lightning_Strike_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Lightning_Strike_CloudBase" xml:space="preserve">
+    <value>云底，{0} km</value>
+  </data>
+  <data name="Lightning_Strike_Dart_Description" xml:space="preserve">
+    <value>下一次放电不再分叉“摸索”，而是沿着还没冷却的旧通道一下子冲下来，只用一两毫秒。</value>
+  </data>
+  <data name="Lightning_Strike_Dart_Short" xml:space="preserve">
+    <value>直窜先导</value>
+  </data>
+  <data name="Lightning_Strike_Dart_Title" xml:space="preserve">
+    <value>直窜先导</value>
+  </data>
+  <data name="Lightning_Strike_Fact1" xml:space="preserve">
+    <value>闪电通道只有几厘米粗，却能在几微秒内被加热到约 30000 °C，是太阳表面温度的 5 倍。</value>
+  </data>
+  <data name="Lightning_Strike_Fact2" xml:space="preserve">
+    <value>一道闪电通常有 3–4 次回击，沿同一条通道、相隔几十毫秒，所以闪电看上去在“闪烁”。</value>
+  </data>
+  <data name="Lightning_Strike_Fact3" xml:space="preserve">
+    <value>雷声是空气被瞬间加热、猛烈膨胀产生的冲击波。从看到闪电开始数秒，秒数除以 3 大约就是闪电离你的公里数。</value>
+  </data>
+  <data name="Lightning_Strike_Fact4" xml:space="preserve">
+    <value>避雷针并不会从远处“吸引”闪电：先导靠近时，它抢先发出上行流光，再把电流沿引下线导入大地。它是富兰克林在 1750 年前后提出的。</value>
+  </data>
+  <data name="Lightning_Strike_Fact5" xml:space="preserve">
+    <value>雷雨时千万别躲在孤立的大树下：电流可能从树干“旁闪”到人身上，或在地面上形成跨步电压。有防雷设施的建筑、关好门窗的汽车（金属车身是个笼子）才安全。</value>
+  </data>
+  <data name="Lightning_Strike_Glow_Description" xml:space="preserve">
+    <value>回击之后通道还亮一阵、慢慢冷却变暗；云里别处的电荷正向通道顶端汇集，准备下一次放电。</value>
+  </data>
+  <data name="Lightning_Strike_Glow_Short" xml:space="preserve">
+    <value>余辉</value>
+  </data>
+  <data name="Lightning_Strike_Glow_Title" xml:space="preserve">
+    <value>通道渐暗</value>
+  </data>
+  <data name="Lightning_Strike_Heard_Description" xml:space="preserve">
+    <value>长长的通道各处发出的声音先后到达，所以雷声是“隆隆”的一串，而不是一声。秒数除以 3，大约就是到雷击点的公里数。</value>
+  </data>
+  <data name="Lightning_Strike_Heard_Short" xml:space="preserve">
+    <value>雷声</value>
+  </data>
+  <data name="Lightning_Strike_Heard_Title" xml:space="preserve">
+    <value>听到雷声了！</value>
+  </data>
+  <data name="Lightning_Strike_Hit" xml:space="preserve">
+    <value>击中：{0}</value>
+  </data>
+  <data name="Lightning_Strike_House" xml:space="preserve">
+    <value>房屋（无避雷针）</value>
+  </data>
+  <data name="Lightning_Strike_HouseRod" xml:space="preserve">
+    <value>装了避雷针的房屋</value>
+  </data>
+  <data name="Lightning_Strike_Label_Dart" xml:space="preserve">
+    <value>直窜先导</value>
+  </data>
+  <data name="Lightning_Strike_Label_Later" xml:space="preserve">
+    <value>再次回击</value>
+  </data>
+  <data name="Lightning_Strike_Label_Leader" xml:space="preserve">
+    <value>梯级先导</value>
+  </data>
+  <data name="Lightning_Strike_Label_Streamer" xml:space="preserve">
+    <value>上行流光</value>
+  </data>
+  <data name="Lightning_Strike_Label_Stroke" xml:space="preserve">
+    <value>回击</value>
+  </data>
+  <data name="Lightning_Strike_Later_Description" xml:space="preserve">
+    <value>同一条通道被重复使用：电流比第一次小，上升得却更快。闪电“一闪一闪”的，就是这几次回击。</value>
+  </data>
+  <data name="Lightning_Strike_Later_Short" xml:space="preserve">
+    <value>再次回击</value>
+  </data>
+  <data name="Lightning_Strike_Later_Title" xml:space="preserve">
+    <value>再次回击</value>
+  </data>
+  <data name="Lightning_Strike_Leader_Description" xml:space="preserve">
+    <value>云底的负电荷沿着一条电离的通道向下“摸索”：每次跳 50 米左右，停几十微秒再跳，还不断分叉。它很暗，肉眼几乎看不见。</value>
+  </data>
+  <data name="Lightning_Strike_Leader_Short" xml:space="preserve">
+    <value>梯级先导</value>
+  </data>
+  <data name="Lightning_Strike_Leader_Title" xml:space="preserve">
+    <value>梯级先导</value>
+  </data>
+  <data name="Lightning_Strike_Note" xml:space="preserve">
+    <value>离地约 100 米以内按比例，再往上到云底（2 km）的高度被压缩。闪电的各个阶段放慢的倍数不同；最后一次回击之后按真实时间走，雷声以 343 m/s 传播。</value>
+  </data>
+  <data name="Lightning_Strike_Person" xml:space="preserve">
+    <value>空地上的人</value>
+  </data>
+  <data name="Lightning_Strike_RealTime" xml:space="preserve">
+    <value>真实时间</value>
+  </data>
+  <data name="Lightning_Strike_Slow" xml:space="preserve">
+    <value>慢放：画面 1 秒 = {0}</value>
+  </data>
+  <data name="Lightning_Strike_Squeezed" xml:space="preserve">
+    <value>以上高度被压缩</value>
+  </data>
+  <data name="Lightning_Strike_Strip_Counting" xml:space="preserve">
+    <value>{0} 秒…… 声音走了 {1} km</value>
+  </data>
+  <data name="Lightning_Strike_Strip_Heard" xml:space="preserve">
+    <value>{0} 秒后听到雷声：{1} km 远（{0} ÷ 3 ≈ {2}）</value>
+  </data>
+  <data name="Lightning_Strike_Strip_Wait" xml:space="preserve">
+    <value>光瞬间就到；声音要走 {0} 秒</value>
+  </data>
+  <data name="Lightning_Strike_Stroke_Description" xml:space="preserve">
+    <value>通道接通的一瞬间，巨大的电流（典型值约 3 万安培）以约三分之一光速从地面往上冲，把通道加热到约 3 万摄氏度：这就是我们看到的那道亮光。</value>
+  </data>
+  <data name="Lightning_Strike_Stroke_Short" xml:space="preserve">
+    <value>回击</value>
+  </data>
+  <data name="Lightning_Strike_Stroke_Title" xml:space="preserve">
+    <value>回击</value>
+  </data>
+  <data name="Lightning_Strike_Subtitle" xml:space="preserve">
+    <value>慢放一次雷击，还有它的雷声</value>
+  </data>
+  <data name="Lightning_Strike_Thunder_Description" xml:space="preserve">
+    <value>光几乎瞬间就到了你这里，声音却每秒只走 343 米。数一数看到闪电后过了几秒。</value>
+  </data>
+  <data name="Lightning_Strike_Thunder_Short" xml:space="preserve">
+    <value>雷声在路上</value>
+  </data>
+  <data name="Lightning_Strike_Thunder_Title" xml:space="preserve">
+    <value>雷声在路上</value>
+  </data>
+  <data name="Lightning_Strike_Tree" xml:space="preserve">
+    <value>大树 16 m</value>
+  </data>
+  <data name="Lightning_Strokes_Caption" xml:space="preserve">
+    <value>回击次数</value>
+  </data>
+  <data name="Lightning_Target_Ground" xml:space="preserve">
+    <value>空地</value>
+  </data>
+  <data name="Lightning_Target_House" xml:space="preserve">
+    <value>房屋</value>
+  </data>
+  <data name="Lightning_Target_Person" xml:space="preserve">
+    <value>人</value>
+  </data>
+  <data name="Lightning_Target_Rod" xml:space="preserve">
+    <value>避雷针</value>
+  </data>
+  <data name="Lightning_Target_Tree" xml:space="preserve">
+    <value>大树</value>
+  </data>
+  <data name="Lightning_Timeline" xml:space="preserve">
+    <value>雷击过程（慢放）</value>
+  </data>
+  <data name="Lightning_Title" xml:space="preserve">
+    <value>雷电与静电</value>
+  </data>
+  <data name="Lightning_Try_Caption" xml:space="preserve">
+    <value>试一试</value>
+  </data>
+  <data name="Lightning_Unit_H" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Lightning_Unit_Min" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="Lightning_Unit_Ms" xml:space="preserve">
+    <value>{0} 毫秒</value>
+  </data>
+  <data name="Lightning_Unit_S" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Lightning_Unit_Us" xml:space="preserve">
+    <value>{0} 微秒</value>
+  </data>
   <data name="Location_Change" xml:space="preserve">
     <value>更改</value>
   </data>
@@ -6408,6 +7170,207 @@
   <data name="Narr_Kepler_Periods_07" xml:space="preserve">
     <value>这条规律对每颗行星都成立。后来，牛顿找到了它背后的原因：离太阳越远，太阳的引力就越弱。左页上的表格，可以一颗一颗地验证它。</value>
   </data>
+  <data name="Narr_Lightning_Cloud_01" xml:space="preserve">
+    <value>这是一朵被剖开的雷雨云，宽三十六公里，按真实比例画出。它的云顶高达十二公里，那里比零下四十度还冷。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_02" xml:space="preserve">
+    <value>强烈的上升气流把空气托着往上送。细小的冰晶随着它往上飘，而更重的软雹，也就是霰粒，则慢慢穿过它们往下落。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_03" xml:space="preserve">
+    <value>它们一碰撞，电荷就在彼此之间转移。在这条大约零下十五度的线以上，霰粒带负电，冰晶带正电；在它以下，正好反过来。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_04" xml:space="preserve">
+    <value>于是云里的电荷分了层：顶部是冰晶带上去的正电荷，中间是一大片负电荷，底部还有一小块正电荷。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_05" xml:space="preserve">
+    <value>那么，你觉得雷雨云下面的地面会怎样？</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_06" xml:space="preserve">
+    <value>地面会带上正电。云中间的负电荷把地里的正电荷吸引到正下方。电场仪显示电场朝上，比晴天时强好多倍，强到能让你的头发竖起来。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_07" xml:space="preserve">
+    <value>电荷积累到足够多时，空气被击穿，闪电就出现了！大多数闪电都留在云里，只有一部分会打到地面，就像这一道。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_08" xml:space="preserve">
+    <value>我们把云顶调高到十六公里。更强的上升气流分离电荷快得多，所以闪电比刚才频繁了大约四倍。</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_09" xml:space="preserve">
+    <value>轮到你了。调一调云顶的高度，或者点击地面移动电场仪，看看电场和闪电怎么变。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Anvil" xml:space="preserve">
+    <value>砧状云：雷雨云顶部的上升气流再也升不上去，就向四周铺开，形成一片扁平的冰晶云。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Ball" xml:space="preserve">
+    <value>一个用导线接地的金属球。棒子会把相反的电荷吸到球靠近它的一侧，间隙够小时，火花就跳过去。点一下，让棒子靠近金属球。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Cloth" xml:space="preserve">
+    <value>用来摩擦的布。棒子得到多少电荷，布就失去多少，所以布带上等量的相反电荷。点一下可以看摩擦的过程。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_CloudBase" xml:space="preserve">
+    <value>云底，离地两公里，梯级先导就从这里开始往下走。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Corona" xml:space="preserve">
+    <value>雷雨云正下方的一棵树。电场很强时，树叶尖端会发出微弱的电晕光：尖端附近的空气开始导电了。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Dart" xml:space="preserve">
+    <value>直窜先导：它沿着还没冷却的通道顺畅地滑下来，只需几毫秒，不分步也不分叉，接着就引发下一次回击。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Earth" xml:space="preserve">
+    <value>接地的导线。大地非常大，能给出或吸收任意多的电荷，所以电荷可以自由地流进流出。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Field" xml:space="preserve">
+    <value>地面的电场。晴天时它微弱地指向下方；在雷雨云下，它翻转过来指向上方，而且强了几十倍。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Freezing" xml:space="preserve">
+    <value>零度层。在它以上，云里是冰和过冷水滴的混合，起电就发生在这里。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Glaciation" xml:space="preserve">
+    <value>零下四十度：比这更冷，所有水滴都冻结了，云里全是冰。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Graupel" xml:space="preserve">
+    <value>霰粒：一种软雹，是一粒粒松软的冰球。它们够重，能穿过上升气流往下落，一路上和冰晶不断碰撞。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Hit" xml:space="preserve">
+    <value>被闪电击中的目标：哪个物体发出的流光最先接上，就打在哪里。通常是离先导尖端最近的高物，而不一定是周围最高的东西。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_House" xml:space="preserve">
+    <value>一座房子。没有避雷针时，雷击屋顶可能引起火灾，或者让电流窜进电线。有了避雷针，电流就顺着导线安全地流进大地。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Humidity" xml:space="preserve">
+    <value>空气的潮湿程度。潮湿时，物体表面有一层薄薄的水膜，电荷几秒钟就漏光了；空气干燥时，电荷能保持好几分钟。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Ice" xml:space="preserve">
+    <value>冰晶：又小又轻，被上升气流带着往上飘。在云的高处碰撞时，它们带上正电，并把正电荷带到云顶。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Later" xml:space="preserve">
+    <value>随后的又一次回击，走的是同一条通道。后续回击的电流通常比第一次小，也不再分叉。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Leader" xml:space="preserve">
+    <value>梯级先导：一条微弱的电离空气通道，每次向下跳大约五十米，还不断分叉。它下来要几十毫秒。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_LightningRod" xml:space="preserve">
+    <value>避雷针：屋顶上的一根金属尖杆，用粗导线连到埋在地里的接地极。它并不会把远处的闪电吸过来，而是给雷电一条安全的通路。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Lower" xml:space="preserve">
+    <value>云底附近的一小块正电荷，来自在反转层以下带正电的霰粒。它有助于闪电开始向地面发展。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Main" xml:space="preserve">
+    <value>主负电荷区，在云的中部，大约零下十五度的高度。大多数闪电都从这里出发，要么打向云顶，要么打向地面。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Meter" xml:space="preserve">
+    <value>电场仪，还有站在旁边的你。它测量地面的电场。点击地面，可以把它移近或移远雷雨云。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Paper" xml:space="preserve">
+    <value>纸屑本身不带电。可带电的棒子一靠近，就会让它们里面的电子挪位置，于是照样被吸起来。点一下，让棒子举到纸屑上方。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Person" xml:space="preserve">
+    <value>空旷处的人：周围最高的就是他了。听到雷声，就赶快进屋或者进到车里，不要躲在树下。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Rain" xml:space="preserve">
+    <value>从云底落下的雨。霰粒落到零度层以下，就融化成了大颗的雨滴。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Reversal" xml:space="preserve">
+    <value>电荷反转层，大约零下十五度。比这里冷，冰晶碰撞后霰粒带负电；比这里暖，霰粒就带正电。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Rod" xml:space="preserve">
+    <value>棒子或气球，上面的符号表示它带的电荷，标签上是它的电压。在绝缘体上，电荷会停留在摩擦过的地方。你可以自己拖动它。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Slow" xml:space="preserve">
+    <value>画面放慢了多少。整个闪电不到一秒就结束了，所以每个阶段都按不同的倍数放慢，让你看得清。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Spark" xml:space="preserve">
+    <value>火花：棒子和金属球之间的空气被击穿，瞬间导电、发热、发光。你听到的啪的一声，就是一个小小的雷声。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Sphere" xml:space="preserve">
+    <value>击距，画成先导尖端周围的一个圆。圆里的任何东西都可能发出流光并接上先导。电流越强，击距越远。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Squeezed" xml:space="preserve">
+    <value>这条线以上的高度是压缩过的，这样两公里高的云底才能放进画面。线以下全部按真实比例。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Streamer" xml:space="preserve">
+    <value>上行流光：从高而尖的物体向上发出、去迎接先导的火花。可能有好几道同时升起，谁先接上，闪电就打在哪里。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Strip" xml:space="preserve">
+    <value>闪电和雷声正在传向你。光瞬间就到，声音每走一公里大约要三秒。点一下可以播放雷声的传播。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Stroke" xml:space="preserve">
+    <value>回击：真正的主闪光。巨大的电流沿接通的通道向上飞奔，把空气加热到大约三万度，比太阳表面还热。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Top" xml:space="preserve">
+    <value>雷雨云的云顶，以及那里有多冷。云越高，上升气流越强，闪电就越频繁。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Tree" xml:space="preserve">
+    <value>一棵孤零零的高树：很容易被雷击中，雷雨天躲在树下很危险。雷电可能从树干跳到站在旁边的人身上。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Updraft" xml:space="preserve">
+    <value>上升气流：暖湿空气从雷雨云中间快速上升，速度常常达到每秒几十米。它让冰晶和霰粒不停地混在一起碰撞，云就是这样起电的。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Upper" xml:space="preserve">
+    <value>上部的正电荷，是冰晶带到云顶的。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Water" xml:space="preserve">
+    <value>水龙头流出的一股细水流。水分子会转过来对着电荷，所以不管棒子带正电还是负电，水流都会弯过去。点一下，让棒子靠近水流。</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Zone" xml:space="preserve">
+    <value>保护区。拿一个半径等于击距的球，在地面和所有物体上滚一遍：球碰不到的地方，闪电也打不到。</value>
+  </data>
+  <data name="Narr_Lightning_Static_01" xml:space="preserve">
+    <value>实验台上，一只气球正在头发上来回摩擦。它们都由原子组成，每个原子里的正电荷和负电荷正好抵消。可一摩擦，情况就变了。</value>
+  </data>
+  <data name="Narr_Lightning_Static_02" xml:space="preserve">
+    <value>看这些蓝色的小点，它们是电子，正从头发跳到气球上。气球多了电子，带上负电；头发少了电子，就带上了正电。</value>
+  </data>
+  <data name="Narr_Lightning_Static_03" xml:space="preserve">
+    <value>问你一个问题：电子为什么跑到气球上，而不是反过来？</value>
+  </data>
+  <data name="Narr_Lightning_Static_04" xml:space="preserve">
+    <value>对。每种材料抓电子的本领不一样，两样东西一接触，电子就跑向抓得更牢的那个。电荷没有被创造，只是搬了家。看标签：大约两万伏，可电荷很少，所以没有危险。</value>
+  </data>
+  <data name="Narr_Lightning_Static_05" xml:space="preserve">
+    <value>把气球举到纸屑上方，纸屑跳了起来，虽然它们本身不带电。气球把纸屑里的电子推到远端，近端受的吸引大于远端受的排斥。有些纸屑粘上去，分到一点电荷，又被弹开。</value>
+  </data>
+  <data name="Narr_Lightning_Static_06" xml:space="preserve">
+    <value>再把它靠近一股细细的水流，水流就弯向了气球。水分子会把相反的一端转向电荷，所以不管气球带正电还是负电，水都会被吸过去。</value>
+  </data>
+  <data name="Narr_Lightning_Static_07" xml:space="preserve">
+    <value>现在把它靠近一个接地的金属球。间隙小到一定程度，空气就被击穿，啪的一声，冒出火花！每跳过一毫米空气，就需要几千伏的电压。闪电其实是同一回事，只是大得多。</value>
+  </data>
+  <data name="Narr_Lightning_Static_08" xml:space="preserve">
+    <value>现在把空气变得潮湿。即使一直在摩擦，气球也只能带上一点点电荷，因为电荷会顺着表面一层薄薄的水膜漏走，来多少漏多少。所以静电电人，大多发生在干燥的冬天。</value>
+  </data>
+  <data name="Narr_Lightning_Static_09" xml:space="preserve">
+    <value>轮到你了。换换材料或空气湿度，或者自己拖动棒子：先在布上摩擦，再拿去靠近纸屑、水流和金属球。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_01" xml:space="preserve">
+    <value>现在我们用慢动作看一次雷击。云底离地两公里。最下面一百米按真实比例画出，上面的部分压缩了才放得下。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_02" xml:space="preserve">
+    <value>一道梯级先导从云底一步步向下探路，每一步大约五十米，一边走一边分叉。它很暗，肉眼几乎看不见。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_03" xml:space="preserve">
+    <value>它快到地面时，地上会有东西向上迎接它。你觉得这是什么时候发生的？</value>
+  </data>
+  <data name="Narr_Lightning_Strike_04" xml:space="preserve">
+    <value>对。对于三万安培的闪电，先导一进入大约九十米的范围，也就是击距，高而尖的东西就会向上发出流光。避雷针的流光最先接上了先导。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_05" xml:space="preserve">
+    <value>两者一接通，回击就沿着通道向上飞奔，速度约为光速的三分之一，电流有三万安培。我们看到的耀眼闪光，就是它。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_06" xml:space="preserve">
+    <value>现在把避雷针拿掉。同一道先导改为打在屋顶上，没有了通往大地的导线，电流只能自己穿过房子找路。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_07" xml:space="preserve">
+    <value>装回避雷针，再看这片绿色区域。拿一个半径等于击距的大球在地面和物体上滚过，它碰不到这里面的任何东西，闪电也就打不进去。避雷针就是这样来布置的。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_08" xml:space="preserve">
+    <value>大多数闪电不止一次回击。一道直窜先导沿着同一条炽热的通道滑下来，紧接着又是一次回击。所以闪电看起来会一闪一闪的。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_09" xml:space="preserve">
+    <value>光几乎瞬间就到了你这里，可声音每秒只走三百四十三米。在三公里外，雷声要差不多九秒才传到。数一数秒数，再除以三，就是闪电离你有几公里。</value>
+  </data>
+  <data name="Narr_Lightning_Strike_10" xml:space="preserve">
+    <value>轮到你了。改变电流，拿掉避雷针，站远一点，或者换一道闪电，看看会打到哪里。</value>
+  </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>从一个新月到下一个新月，要二十九天半。可是月亮绕地球转一圈，其实只要二十七天多。多出来的两天，是从哪里来的呢？</value>
   </data>
@@ -6797,6 +7760,111 @@
   </data>
   <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
     <value>所以，季节的秘密不在距离，而在地轴的倾斜。你可以拖动左页上的滑块，换一个倾角或纬度，看看卡片上的白昼时长和正午太阳高度怎么变。</value>
+  </data>
+  <data name="Narr_Sky_Obj_Air" xml:space="preserve">
+    <value>大气，被画厚了很多倍。几乎所有的空气都在最低的五十公里里，和地球比起来，是非常薄的一层。</value>
+  </data>
+  <data name="Narr_Sky_Obj_BeltOfVenus" xml:space="preserve">
+    <value>维纳斯带，紧贴在地球影子上方的一圈粉红色的光。那是高处的空气，还被落日发红的光照着。</value>
+  </data>
+  <data name="Narr_Sky_Obj_Box" xml:space="preserve">
+    <value>空气盒子。它代表阳光到达你之前要穿过的全部空气：中午很少，日落时大约是四十倍。</value>
+  </data>
+  <data name="Narr_Sky_Obj_EarthShadow" xml:space="preserve">
+    <value>地球的影子。太阳落山后，太阳对面的空气不再被照亮，地球自己的影子就显现出来，成为一条从地平线升起的深蓝色带子。</value>
+  </data>
+  <data name="Narr_Sky_Obj_EndEye" xml:space="preserve">
+    <value>这只眼睛顺着光束往回看太阳。它看到的是散射之后剩下的光：中午是白色，太阳低的时候是橙红色。</value>
+  </data>
+  <data name="Narr_Sky_Obj_Overhead" xml:space="preserve">
+    <value>你头顶正上方的空气。光穿过多少空气，就以它为单位来计算。</value>
+  </data>
+  <data name="Narr_Sky_Obj_Ray" xml:space="preserve">
+    <value>照到你的那束阳光走过的路，路上每一处的颜色，就是光在那里还剩下的颜色。</value>
+  </data>
+  <data name="Narr_Sky_Obj_SideEye" xml:space="preserve">
+    <value>这只眼睛从侧面看着光束。它只看到从光束里被弹向它的光，而那大多是蓝光，也就是蓝天。</value>
+  </data>
+  <data name="Narr_Sky_Obj_Sun" xml:space="preserve">
+    <value>太阳。它的光是白色的，由各种颜色混合而成。只有当空气从中拿走一部分蓝光，它才会显得发黄、发橙或者发红。</value>
+  </data>
+  <data name="Narr_Sky_Obj_SunBehind" xml:space="preserve">
+    <value>太阳在你身后。日落后背对着它，你就能看到地球的影子慢慢升起来。</value>
+  </data>
+  <data name="Narr_Sky_Obj_You" xml:space="preserve">
+    <value>这是你，站在地面上。在你周围拖动，就能移动太阳。</value>
+  </data>
+  <data name="Narr_Sky_Path_01" xml:space="preserve">
+    <value>这是地球和大气的一个切面。为了看得清，大气被画厚了很多倍。这个是你，站在地面上。</value>
+  </data>
+  <data name="Narr_Sky_Path_02" xml:space="preserve">
+    <value>中午的时候，阳光几乎是从高处照下来的。它只穿过薄薄一层空气，所以还是白色的。</value>
+  </data>
+  <data name="Narr_Sky_Path_03" xml:space="preserve">
+    <value>这条虚线，是你头顶正上方的空气。光要穿过多少空气，就以它为单位来计算。</value>
+  </data>
+  <data name="Narr_Sky_Path_04" xml:space="preserve">
+    <value>想一想：日落的时候，阳光穿过的空气，是头顶正上方的多少倍？</value>
+  </data>
+  <data name="Narr_Sky_Path_05" xml:space="preserve">
+    <value>大约四十倍。阳光贴着最低、最厚的那层空气斜着穿过来，一路上蓝光都被散射掉了，到你这里时，已经变成了橙红色。</value>
+  </data>
+  <data name="Narr_Sky_Path_06" xml:space="preserve">
+    <value>太阳落山后，阳光照不到你了。它从你头顶上空掠过，照亮高处的空气，而你已经站在地球的影子里。</value>
+  </data>
+  <data name="Narr_Sky_Path_07" xml:space="preserve">
+    <value>现在你来试试：在你的周围拖动，移动太阳，看看光走的路会变得多长。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_01" xml:space="preserve">
+    <value>这是一束阳光，正在穿过一个装满空气的盒子。这些彩色的小短线是光子，也就是一份一份的光，阳光里的各种颜色都有。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_02" xml:space="preserve">
+    <value>这个盒子，代表阳光到达你之前要穿过的全部空气。中午的时候，并没有多少。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_03" xml:space="preserve">
+    <value>仔细看这些光子。时不时就有一个撞上空气分子，被弹到一边去。蓝光和紫光被弹开的次数，比红光多得多，大约是四五倍。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_04" xml:space="preserve">
+    <value>这只眼睛从侧面看着光束。它只能看到被弹向它的光，而那大多是蓝光。这就是蓝天。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_05" xml:space="preserve">
+    <value>这只眼睛顺着光束往回看，正对着太阳。它看到的，是去掉一部分蓝光之后剩下的光，所以太阳看起来有点发黄。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_06" xml:space="preserve">
+    <value>想一想：如果太阳很低，阳光要穿过多得多的空气，光束的末端会变成什么颜色？</value>
+  </data>
+  <data name="Narr_Sky_Scatter_07" xml:space="preserve">
+    <value>先是橙色，然后是红色。路途太长，蓝光和绿光大都被散射掉了，能穿过来的主要是橙光和红光。这就是落日的颜色。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_08" xml:space="preserve">
+    <value>现在你来试试：在左页上，调一调空气中的雾霾和尘埃，看看颜色会怎么变。</value>
+  </data>
+  <data name="Narr_Sky_Scatter_09" xml:space="preserve">
+    <value>雾霾和尘埃比空气分子大得多，它们对各种颜色的散射差不多一样。所以它们会让天空变得更淡，更像牛奶一样发白。</value>
+  </data>
+  <data name="Narr_Sky_Sky_01" xml:space="preserve">
+    <value>这是一个晴朗下午，海面上的天空。阳光看起来是白色的，其实它是彩虹里所有颜色混在一起。</value>
+  </data>
+  <data name="Narr_Sky_Sky_02" xml:space="preserve">
+    <value>那天空为什么是蓝的？阳光穿过空气的时候，空气里极小的分子会把一部分光弹向四面八方，而且蓝光被弹开的比红光多得多。这些被散射的蓝光，从天空的每个方向来到我们眼里。</value>
+  </data>
+  <data name="Narr_Sky_Sky_03" xml:space="preserve">
+    <value>想一想：如果地球上完全没有空气，白天的天空会是什么颜色？</value>
+  </data>
+  <data name="Narr_Sky_Sky_04" xml:space="preserve">
+    <value>黑色，就像在月球上一样。没有空气，就没有东西去散射光，你会看到一个耀眼的太阳，挂在满是星星的黑色天空里。</value>
+  </data>
+  <data name="Narr_Sky_Sky_05" xml:space="preserve">
+    <value>现在看太阳慢慢落下。它越低，光要穿过的空气就越多，一路上被散射掉的蓝光也越来越多。剩下的光先变黄，再变橙，最后变红。</value>
+  </data>
+  <data name="Narr_Sky_Sky_06" xml:space="preserve">
+    <value>太阳落山后，转过身去。在太阳对面的低空，会升起一条深蓝色的带子，那是地球自己投在空气上的影子。它上面那圈粉红色的光，叫维纳斯带。</value>
+  </data>
+  <data name="Narr_Sky_Sky_07" xml:space="preserve">
+    <value>现在你来试试：在天空中上下拖动，移动太阳，看看颜色怎么变。</value>
+  </data>
+  <data name="Narr_Sky_Sky_08" xml:space="preserve">
+    <value>蓝天和红色的日落，原因是同一个：空气散射蓝光比散射红光多得多。另外两个画面，会告诉你这是怎么发生的。</value>
   </data>
   <data name="Narr_SolarSystem_Obj_Ariel" xml:space="preserve">
     <value>天卫一，天王星最亮的卫星之一，表面被一道道长长的峡谷划过。</value>
@@ -8975,6 +10043,396 @@
   </data>
   <data name="Settings_Volume" xml:space="preserve">
     <value>音量</value>
+  </data>
+  <data name="Sky_AirMass_Caption" xml:space="preserve">
+    <value>阳光要穿过多少空气</value>
+  </data>
+  <data name="Sky_AirMass_Note" xml:space="preserve">
+    <value>以头顶正上方的空气为 1，随太阳高度变化（对数坐标）。太阳高时几乎不变，最后几度里急剧增加。</value>
+  </data>
+  <data name="Sky_Chart_Altitude" xml:space="preserve">
+    <value>太阳高度</value>
+  </data>
+  <data name="Sky_Chart_Ground" xml:space="preserve">
+    <value>到达地面</value>
+  </data>
+  <data name="Sky_Chart_Nm" xml:space="preserve">
+    <value>纳米</value>
+  </data>
+  <data name="Sky_Chart_Noon" xml:space="preserve">
+    <value>今天正午</value>
+  </data>
+  <data name="Sky_Chart_Scatter" xml:space="preserve">
+    <value>散射强度</value>
+  </data>
+  <data name="Sky_Chart_SkyLight" xml:space="preserve">
+    <value>天空的光</value>
+  </data>
+  <data name="Sky_Chart_Space" xml:space="preserve">
+    <value>太空中</value>
+  </data>
+  <data name="Sky_Chart_SunDown" xml:space="preserve">
+    <value>太阳在地平线下</value>
+  </data>
+  <data name="Sky_Chart_Times" xml:space="preserve">
+    <value>紫光是红光的 {0} 倍</value>
+  </data>
+  <data name="Sky_Clock" xml:space="preserve">
+    <value>{0} · 太阳高度 {1}°</value>
+  </data>
+  <data name="Sky_Compass_E" xml:space="preserve">
+    <value>东</value>
+  </data>
+  <data name="Sky_Compass_N" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Sky_Compass_NE" xml:space="preserve">
+    <value>东北</value>
+  </data>
+  <data name="Sky_Compass_NW" xml:space="preserve">
+    <value>西北</value>
+  </data>
+  <data name="Sky_Compass_S" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Sky_Compass_SE" xml:space="preserve">
+    <value>东南</value>
+  </data>
+  <data name="Sky_Compass_SW" xml:space="preserve">
+    <value>西南</value>
+  </data>
+  <data name="Sky_Compass_W" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="Sky_DragHint_Path" xml:space="preserve">
+    <value>在“你”的周围拖动，移动太阳</value>
+  </data>
+  <data name="Sky_DragHint_Scattering" xml:space="preserve">
+    <value>改变时间，看看阳光要穿过多少空气</value>
+  </data>
+  <data name="Sky_DragHint_Sky" xml:space="preserve">
+    <value>在天空中上下拖动，移动太阳</value>
+  </data>
+  <data name="Sky_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Sky_Haze_Caption" xml:space="preserve">
+    <value>空气中的雾霾和尘埃</value>
+  </data>
+  <data name="Sky_Haze_Clean" xml:space="preserve">
+    <value>清澈</value>
+  </data>
+  <data name="Sky_Haze_Hazy" xml:space="preserve">
+    <value>雾霾</value>
+  </data>
+  <data name="Sky_Haze_Normal" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Sky_JumpTo" xml:space="preserve">
+    <value>跳到</value>
+  </data>
+  <data name="Sky_Label_BeltOfVenus" xml:space="preserve">
+    <value>维纳斯带</value>
+  </data>
+  <data name="Sky_Label_EarthShadow" xml:space="preserve">
+    <value>地球的影子</value>
+  </data>
+  <data name="Sky_Label_Sun" xml:space="preserve">
+    <value>太阳 · 高 {0}°</value>
+  </data>
+  <data name="Sky_Label_SunBehind" xml:space="preserve">
+    <value>太阳在你身后</value>
+  </data>
+  <data name="Sky_Label_SunBelow" xml:space="preserve">
+    <value>太阳在地平线下 {0}°</value>
+  </data>
+  <data name="Sky_Label_SunShort" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Sky_Lesson_Path_Choice1" xml:space="preserve">
+    <value>大约四十倍</value>
+  </data>
+  <data name="Sky_Lesson_Path_Choice2" xml:space="preserve">
+    <value>大约两倍</value>
+  </data>
+  <data name="Sky_Lesson_Path_Choice3" xml:space="preserve">
+    <value>一样多</value>
+  </data>
+  <data name="Sky_Lesson_Scatter_Choice1" xml:space="preserve">
+    <value>橙色和红色</value>
+  </data>
+  <data name="Sky_Lesson_Scatter_Choice2" xml:space="preserve">
+    <value>深蓝色</value>
+  </data>
+  <data name="Sky_Lesson_Scatter_Choice3" xml:space="preserve">
+    <value>亮白色</value>
+  </data>
+  <data name="Sky_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>黑色</value>
+  </data>
+  <data name="Sky_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="Sky_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="Sky_LookAway" xml:space="preserve">
+    <value>背对太阳</value>
+  </data>
+  <data name="Sky_Mode_Path" xml:space="preserve">
+    <value>光的路程</value>
+  </data>
+  <data name="Sky_Mode_Scattering" xml:space="preserve">
+    <value>散射</value>
+  </data>
+  <data name="Sky_Mode_Sky" xml:space="preserve">
+    <value>天空</value>
+  </data>
+  <data name="Sky_Obj_Air" xml:space="preserve">
+    <value>画厚了的大气</value>
+  </data>
+  <data name="Sky_Obj_BeltOfVenus" xml:space="preserve">
+    <value>维纳斯带</value>
+  </data>
+  <data name="Sky_Obj_Box" xml:space="preserve">
+    <value>空气盒子</value>
+  </data>
+  <data name="Sky_Obj_EarthShadow" xml:space="preserve">
+    <value>地球的影子</value>
+  </data>
+  <data name="Sky_Obj_EndEye" xml:space="preserve">
+    <value>看太阳</value>
+  </data>
+  <data name="Sky_Obj_Overhead" xml:space="preserve">
+    <value>头顶的空气</value>
+  </data>
+  <data name="Sky_Obj_Ray" xml:space="preserve">
+    <value>阳光的路程</value>
+  </data>
+  <data name="Sky_Obj_SideEye" xml:space="preserve">
+    <value>看天空</value>
+  </data>
+  <data name="Sky_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Sky_Obj_SunBehind" xml:space="preserve">
+    <value>身后的太阳</value>
+  </data>
+  <data name="Sky_Obj_You" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Sky_Path_Air" xml:space="preserve">
+    <value>大气画厚了约 {0} 倍</value>
+  </data>
+  <data name="Sky_Path_Fact1" xml:space="preserve">
+    <value>太阳在头顶时，阳光只穿过一层空气；在 30° 高时，穿过两倍；在地平线上，约 38 倍。</value>
+  </data>
+  <data name="Sky_Path_Fact2" xml:space="preserve">
+    <value>如果把头顶的空气都压缩成海平面那样的密度，只有约 8 公里厚。</value>
+  </data>
+  <data name="Sky_Path_Fact3" xml:space="preserve">
+    <value>你的夕阳里少掉的蓝光并没有消失：它照亮了更西边人们的天空，那里的太阳还比较高。</value>
+  </data>
+  <data name="Sky_Path_Fact4" xml:space="preserve">
+    <value>在地平线附近，空气会把阳光向上折射约半度，正好是太阳自己的大小：当太阳看起来刚碰到地平线时，它其实已经落下去了。本章没有计算这种折射。</value>
+  </data>
+  <data name="Sky_Path_Fact5" xml:space="preserve">
+    <value>月全食时月亮会变红：照到它的阳光都是穿过地球大气折射过去的，就像同时穿过了地球上所有的日出和日落。</value>
+  </data>
+  <data name="Sky_Path_Grazing" xml:space="preserve">
+    <value>阳光从你头顶上空掠过，照亮高处的空气</value>
+  </data>
+  <data name="Sky_Path_Length" xml:space="preserve">
+    <value>穿过的空气：头顶正上方的 {0} 倍</value>
+  </data>
+  <data name="Sky_Path_Note" xml:space="preserve">
+    <value>地球的一个切面，大气画厚了很多倍（只画了最低的 50 公里，几乎全部空气都在这里）。颜色表示照到每一点的阳光。</value>
+  </data>
+  <data name="Sky_Path_Overhead" xml:space="preserve">
+    <value>太阳在头顶时：只穿过这么一点空气</value>
+  </data>
+  <data name="Sky_Path_Subtitle" xml:space="preserve">
+    <value>日落时阳光要穿过多得多的空气，一路上蓝光都被散射掉了</value>
+  </data>
+  <data name="Sky_Path_You" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Sky_Phase_Day_Description" xml:space="preserve">
+    <value>阳光一路下来只穿过不多的空气，所以太阳看起来是白的。空气把其中一部分散射到四面八方，蓝光比红光多得多，这些光从各个方向来到你眼里，就是蓝天。</value>
+  </data>
+  <data name="Sky_Phase_Day_Title" xml:space="preserve">
+    <value>白天：蓝天</value>
+  </data>
+  <data name="Sky_Phase_GoldenHour_Description" xml:space="preserve">
+    <value>太阳很低，阳光要在空气里走很长的路。一路上大量蓝光被散射掉，剩下的光偏黄、偏暖，影子也拉得很长。</value>
+  </data>
+  <data name="Sky_Phase_GoldenHour_Title" xml:space="preserve">
+    <value>黄金时刻</value>
+  </data>
+  <data name="Sky_Phase_NauticalTwilight_Description" xml:space="preserve">
+    <value>只有最高处的空气还被阳光照着。天空变成深蓝，最亮的星星出来了；太阳低于地平线 12° 后，就可以算是夜晚了。</value>
+  </data>
+  <data name="Sky_Phase_NauticalTwilight_Title" xml:space="preserve">
+    <value>航海晨昏蒙影</value>
+  </data>
+  <data name="Sky_Phase_Night_Description" xml:space="preserve">
+    <value>太阳在地平线下超过 12°，几乎没有阳光被散射到你这里。最后一点余晖（天文晨昏蒙影）在 18° 时消失。</value>
+  </data>
+  <data name="Sky_Phase_Night_Title" xml:space="preserve">
+    <value>夜晚</value>
+  </data>
+  <data name="Sky_Phase_Sunrise_Description" xml:space="preserve">
+    <value>阳光贴着地面而来，穿过的空气约是头顶正上方的 38 倍。蓝光和绿光几乎都被散射掉了，只有橙光和红光透过来，所以初升的太阳是红的。</value>
+  </data>
+  <data name="Sky_Phase_Sunrise_Title" xml:space="preserve">
+    <value>日出</value>
+  </data>
+  <data name="Sky_Phase_Sunset_Description" xml:space="preserve">
+    <value>阳光贴着地面而来，穿过的空气约是头顶正上方的 38 倍。蓝光和绿光几乎都被散射掉了，只有橙光和红光透过来，所以落日是红的。</value>
+  </data>
+  <data name="Sky_Phase_Sunset_Title" xml:space="preserve">
+    <value>日落</value>
+  </data>
+  <data name="Sky_Phase_Twilight_Description" xml:space="preserve">
+    <value>太阳已在地平线下，但仍照着你头顶高处的空气，所以天还亮着：头顶蓝色，太阳那边的低空是橙红色。对面的天空上，是地球自己的影子。</value>
+  </data>
+  <data name="Sky_Phase_Twilight_Title" xml:space="preserve">
+    <value>民用晨昏蒙影</value>
+  </data>
+  <data name="Sky_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停</value>
+  </data>
+  <data name="Sky_Scatter_Box" xml:space="preserve">
+    <value>空气：相当于头顶正上方的 {0} 倍</value>
+  </data>
+  <data name="Sky_Scatter_Box_Down" xml:space="preserve">
+    <value>空气：太阳已落下；沿着地平线约是头顶正上方的 38 倍</value>
+  </data>
+  <data name="Sky_Scatter_Caption" xml:space="preserve">
+    <value>各种颜色被散射的程度</value>
+  </data>
+  <data name="Sky_Scatter_EndEye" xml:space="preserve">
+    <value>看太阳：剩下的光</value>
+  </data>
+  <data name="Sky_Scatter_Note" xml:space="preserve">
+    <value>柱：空气分子的散射，与 1/λ⁴ 成正比。虚线：天空的光（阳光乘以散射），蓝色最强；圆点是它的颜色。</value>
+  </data>
+  <data name="Sky_Scatter_SideEye" xml:space="preserve">
+    <value>看天空：被散射出来的光</value>
+  </data>
+  <data name="Sky_Scattering_Fact1" xml:space="preserve">
+    <value>氮气和氧气分子比光的波长小约一千倍。这么小的粒子对短波的散射强得多，与 1/λ⁴ 成正比，这叫瑞利散射，由瑞利勋爵在 1871 年推导出来。</value>
+  </data>
+  <data name="Sky_Scattering_Fact2" xml:space="preserve">
+    <value>所以紫光（400 纳米）被散射的程度约是红光（700 纳米）的 9 倍，蓝光（450 纳米）约是 6 倍。</value>
+  </data>
+  <data name="Sky_Scattering_Fact3" xml:space="preserve">
+    <value>那天空为什么不是紫色的？阳光里的紫光本来就比蓝光少，一部分还在高空被吸收，而且我们的眼睛对紫光很不敏感：散射来的各色光混在一起，看起来就是天蓝色。</value>
+  </data>
+  <data name="Sky_Scattering_Fact4" xml:space="preserve">
+    <value>云是白的，因为云里的水滴比光的波长大得多，对各种颜色的散射几乎一样。</value>
+  </data>
+  <data name="Sky_Scattering_Fact5" xml:space="preserve">
+    <value>天空的光是偏振的，在离太阳 90° 的地方最强：戴偏光太阳镜看那片天会更暗，蜜蜂还会利用这种偏振图案来辨认方向。</value>
+  </data>
+  <data name="Sky_Scattering_Note" xml:space="preserve">
+    <value>每个光子被散射的概率按空气的真实数值计算：这个盒子代表此刻阳光一路要穿过的全部空气。</value>
+  </data>
+  <data name="Sky_Scattering_Subtitle" xml:space="preserve">
+    <value>空气把蓝光散射到四面八方，比红光多得多</value>
+  </data>
+  <data name="Sky_Sky_Fact1" xml:space="preserve">
+    <value>阳光看起来是白的，因为它混合了所有颜色。天空的蓝色，就是同一束阳光被空气散射到你眼里的那部分。</value>
+  </data>
+  <data name="Sky_Sky_Fact2" xml:space="preserve">
+    <value>日落后面朝东方：地平线上升起的深蓝色带子是地球投在空气上的影子，它上面被红色夕阳照亮的粉色带子叫“维纳斯带”。</value>
+  </data>
+  <data name="Sky_Sky_Fact3" xml:space="preserve">
+    <value>日落后头顶的天空还是蓝的，一部分要归功于臭氧：它在高空吸收了掠过头顶的阳光中的橙光和黄光。</value>
+  </data>
+  <data name="Sky_Sky_Fact4" xml:space="preserve">
+    <value>尘埃、烟和水滴对各种颜色散射得差不多，所以雾霾天的天空发白。像喀拉喀托火山（1883 年）这样的大喷发，火山灰让全世界都看到了格外红艳的晚霞。</value>
+  </data>
+  <data name="Sky_Sky_Fact5" xml:space="preserve">
+    <value>火星上正好相反：细小的尘埃让白天的天空呈黄褐色，而日落是蓝色的，因为尘埃把蓝光向前散射在太阳周围。</value>
+  </data>
+  <data name="Sky_Sky_Note" xml:space="preserve">
+    <value>天空的颜色是按阳光被空气和雾霾散射算出来的：{0}（{1}），春分或秋分那天，地方太阳时。太阳画大了约 6 倍。</value>
+  </data>
+  <data name="Sky_Sky_Subtitle" xml:space="preserve">
+    <value>天空为什么是蓝的？日落为什么是红的？</value>
+  </data>
+  <data name="Sky_Stat_AirMass" xml:space="preserve">
+    <value>穿过的空气</value>
+  </data>
+  <data name="Sky_Stat_AirMass_Value" xml:space="preserve">
+    <value>头顶正上方的 {0} 倍</value>
+  </data>
+  <data name="Sky_Stat_Altitude" xml:space="preserve">
+    <value>太阳高度</value>
+  </data>
+  <data name="Sky_Stat_Blue" xml:space="preserve">
+    <value>蓝光透过（450 nm）</value>
+  </data>
+  <data name="Sky_Stat_Haze" xml:space="preserve">
+    <value>空气</value>
+  </data>
+  <data name="Sky_Stat_Red" xml:space="preserve">
+    <value>红光透过（650 nm）</value>
+  </data>
+  <data name="Sky_Stat_SunColour" xml:space="preserve">
+    <value>太阳看起来</value>
+  </data>
+  <data name="Sky_Stat_SunDown" xml:space="preserve">
+    <value>太阳在地平线下</value>
+  </data>
+  <data name="Sky_Stat_Time" xml:space="preserve">
+    <value>地方太阳时</value>
+  </data>
+  <data name="Sky_SunColour_Orange" xml:space="preserve">
+    <value>橙色</value>
+  </data>
+  <data name="Sky_SunColour_Red" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="Sky_SunColour_White" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="Sky_SunColour_Yellow" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="Sky_SunColour_YellowWhite" xml:space="preserve">
+    <value>淡黄白色</value>
+  </data>
+  <data name="Sky_Sunlight_Caption" xml:space="preserve">
+    <value>照到地面的阳光</value>
+  </data>
+  <data name="Sky_Sunlight_Note" xml:space="preserve">
+    <value>虚线：进入大气之前的阳光。填色：一路穿过来的那部分。太阳越低，蓝光少得越多；圆点是剩下的光的颜色。</value>
+  </data>
+  <data name="Sky_Time_Afternoon" xml:space="preserve">
+    <value>下午</value>
+  </data>
+  <data name="Sky_Time_Golden" xml:space="preserve">
+    <value>黄金时刻</value>
+  </data>
+  <data name="Sky_Time_Noon" xml:space="preserve">
+    <value>正午</value>
+  </data>
+  <data name="Sky_Time_Sunrise" xml:space="preserve">
+    <value>日出</value>
+  </data>
+  <data name="Sky_Time_Sunset" xml:space="preserve">
+    <value>日落</value>
+  </data>
+  <data name="Sky_Time_Twilight" xml:space="preserve">
+    <value>暮光</value>
+  </data>
+  <data name="Sky_Timeline" xml:space="preserve">
+    <value>一天中的时间</value>
+  </data>
+  <data name="Sky_Title" xml:space="preserve">
+    <value>天空为什么是蓝的</value>
   </data>
   <data name="SolarSystem_Ariel_Description" xml:space="preserve">
     <value>天卫一的表面在天王星几颗大卫星中最亮，可能也最年轻。长长的断层谷横贯表面，一些区域像是被“冰火山”的熔岩流铺平过。大型撞击坑很少，说明它的表面在较近的时期被重塑过。</value>

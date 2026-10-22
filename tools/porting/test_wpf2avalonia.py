@@ -214,6 +214,20 @@ class LateTests(unittest.TestCase):
         self.assertIn("pen = flat ? new ImmutablePen(((IBrush)brush).ToImmutable(), thickness) : MakePen", out)
         self.assertIn("AddBox(id, Text(dc, name, new Point(x, y)).Union(Text(dc, size, new Point(x, y + 17))));", out)
 
+    def test_point_assignment_but_not_a_class_field(self):
+        source = """        at.X = Math.Max(0, at.X);
+        g.Z -= 1;
+        g.X += 0.1;
+        g.X = 2;
+"""
+        out = tool.convert_points(source)
+        self.assertIn("at = at.WithX(Math.Max(0, at.X));", out)
+        self.assertIn("        g.X = 2;", out)
+
+    def test_split_top_ignores_lambda_arrow(self):
+        args = tool.split_top("0.0, (d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)")
+        self.assertEqual(["0.0", "(d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)"], args)
+
 
 if __name__ == "__main__":
     unittest.main()

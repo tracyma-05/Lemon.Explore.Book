@@ -1,0 +1,148 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:sky="using:Lemon.Explore.Book.Chapters.BlueSky"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.BlueSky.BlueSkyTextPageView"
+                         x:DataType="sky:BlueSkyTextPageViewModel">
+    <!-- Left page of the Blue sky spread: the time and the haze, the view's own chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Sky.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Sky.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Sky.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="SkyMode" IsChecked="{Binding Sky.IsSky}" Content="{loc:Localize Sky_Mode_Sky}" />
+                    <RadioButton Classes="chip" GroupName="SkyMode" IsChecked="{Binding Sky.IsScattering}" Content="{loc:Localize Sky_Mode_Scattering}" />
+                    <RadioButton Classes="chip" GroupName="SkyMode" IsChecked="{Binding Sky.IsPath}" Content="{loc:Localize Sky_Mode_Path}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Sky.Card}" />
+                <explore:LocationChip Margin="0,14,0,0" Service="{Binding Sky.Location}" />
+
+                <!-- Moments of the day -->
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Sky_JumpTo}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Sky.SetTimeCommand}" CommandParameter="Sunrise" Content="{loc:Localize Sky_Time_Sunrise}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetTimeCommand}" CommandParameter="Noon" Content="{loc:Localize Sky_Time_Noon}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetTimeCommand}" CommandParameter="Afternoon" Content="{loc:Localize Sky_Time_Afternoon}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetTimeCommand}" CommandParameter="Golden" Content="{loc:Localize Sky_Time_Golden}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetTimeCommand}" CommandParameter="Sunset" Content="{loc:Localize Sky_Time_Sunset}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetTimeCommand}" CommandParameter="Twilight" Content="{loc:Localize Sky_Time_Twilight}" />
+                </WrapPanel>
+
+                <!-- How hazy the air is -->
+                <DockPanel Margin="0,14,0,2">
+                    <SelectableTextBlock Classes="value" Text="{Binding Sky.HazeText}" />
+                    <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sky_Haze_Caption}" />
+                </DockPanel>
+                <Slider Minimum="0" Maximum="1" Value="{Binding Sky.Haze}" SmallChange="0.02" LargeChange="0.1"
+                        AutomationProperties.Name="{loc:Localize Sky_Haze_Caption}" />
+                <WrapPanel Margin="0,6,0,0">
+                    <Button Classes="chip" Command="{Binding Sky.SetHazeCommand}" CommandParameter="0.05" Content="{loc:Localize Sky_Haze_Clean}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetHazeCommand}" CommandParameter="0.3" Content="{loc:Localize Sky_Haze_Normal}" />
+                    <Button Classes="chip" Command="{Binding Sky.SetHazeCommand}" CommandParameter="0.85" Content="{loc:Localize Sky_Haze_Hazy}" />
+                </WrapPanel>
+
+                <!-- Sky: which way to look, and the sunlight reaching you -->
+                <StackPanel IsVisible="{Binding Sky.IsSky}">
+                    <WrapPanel Margin="0,10,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Sky.LookAway}" Content="{loc:Localize Sky_LookAway}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sky_Sunlight_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <sky:SpectrumChart Kind="Sunlight" Altitude="{Binding Sky.Altitude}" Haze="{Binding Sky.Haze}"
+                                           AutomationProperties.Name="{loc:Localize Sky_Sunlight_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Sky_Sunlight_Note}" />
+                </StackPanel>
+
+                <!-- Scattering: how strongly each colour is bounced aside -->
+                <StackPanel IsVisible="{Binding Sky.IsScattering}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sky_Scatter_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <sky:SpectrumChart Kind="Scattering" Altitude="{Binding Sky.Altitude}" Haze="{Binding Sky.Haze}"
+                                           AutomationProperties.Name="{loc:Localize Sky_Scatter_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Sky_Scatter_Note}" />
+                </StackPanel>
+
+                <!-- Path: how much air, by the Sun's altitude -->
+                <StackPanel IsVisible="{Binding Sky.IsPath}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sky_AirMass_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <sky:AirMassChart Altitude="{Binding Sky.Altitude}" Latitude="{Binding Sky.Latitude}"
+                                          AutomationProperties.Name="{loc:Localize Sky_AirMass_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Sky_AirMass_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Sky.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Sky.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Sky.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Sky.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="sky:SkyStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Sky_Facts}" />
+                <ItemsControl ItemsSource="{Binding Sky.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -69,7 +69,7 @@ def split_top(text: str) -> list[str]:
     for i, c in enumerate(text):
         if c in "([{<":
             depth += 1
-        elif c in ")]}>":
+        elif c in ")]}>" and not (c == ">" and text[i - 1:i] == "="):  # the '>' of a lambda's '=>' closes nothing
             depth -= 1
         elif c == "," and depth == 0:
             parts.append(text[start:i].strip())
@@ -274,7 +274,7 @@ def convert_types(s: str, namespace: str) -> str:
                r"new ImmutableLinearGradientBrush([new ImmutableGradientStop(0, \1), new ImmutableGradientStop(1, \2)], "
                r"startPoint: new RelativePoint(\3, RelativeUnit.Absolute), endPoint: new RelativePoint(\4, RelativeUnit.Absolute))", s)
     # Premultiplied BGRA bitmaps written from a uint[] of pixels.
-    s = re.sub(r"new WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.Pbgra32, null\)",
+    s = re.sub(r"new WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.(?:Pbgra32|Bgr32), null\)",
                r"new WriteableBitmap(new PixelSize(\1, \2), new Vector(96, 96), PixelFormat.Bgra8888, AlphaFormat.Premul)", s)
     s = re.sub(r"([\w!]+)\.WritePixels\(new Int32Rect\(0, 0, ([^,]+), ([^)]+)\), (\w+), [^;]+\);",
                r"SpaceDrawing.WritePixels(\1, \4, \2, \3);", s)
@@ -822,9 +822,13 @@ def convert_points(s: str) -> str:
     s = re.sub(r"^(\s*)(\w+)\.Offset\((.+)\);$", r"\1\2 = \2.Translate(new Vector(\3));", s, flags=re.M)
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
-    # (also after an `if (...)` on the same line)
-    s = re.sub(r"^(\s*(?:if \((?:[^()\n]|\([^()\n]*\))*\) )?)(\w+)\.([XY]) = (.+);$",
-               lambda m: f"{m.group(1)}{m.group(2)} = {m.group(2)}.With{m.group(3)}({m.group(4)});", s, flags=re.M)
+    # (also after an `if (...)` on the same line). Not a variable also changed with `v.X +=`: that is one of the file's
+    # own classes with an X field, which assigns fine.
+    def with_xy(m):
+        if re.search(rf"\b{m.group(2)}\.[XY] [-+*/]= ", s):
+            return m.group(0)
+        return f"{m.group(1)}{m.group(2)} = {m.group(2)}.With{m.group(3)}({m.group(4)});"
+    s = re.sub(r"^(\s*(?:if \((?:[^()\n]|\([^()\n]*\))*\) )?)(\w+)\.([XY]) = (.+);$", with_xy, s, flags=re.M)
     s = s.replace("return Geometry.Empty;", "return null;")
     s = re.sub(r"!(\w+)\.IsEmpty\(\)", r"\1 is not null", s)
     s = re.sub(r"(\w+)\.IsEmpty\(\)", r"\1 is null", s)

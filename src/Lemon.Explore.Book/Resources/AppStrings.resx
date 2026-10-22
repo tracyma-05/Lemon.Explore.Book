@@ -4704,6 +4704,768 @@
   <data name="Lesson_TimeLeft" xml:space="preserve">
     <value>Time left to answer</value>
   </data>
+  <data name="Lightning_Chart_Ago" xml:space="preserve">
+    <value>{0} s ago</value>
+  </data>
+  <data name="Lightning_Chart_Charge_Caption" xml:space="preserve">
+    <value>The rod's charge, last 30 seconds</value>
+  </data>
+  <data name="Lightning_Chart_Charge_Note" xml:space="preserve">
+    <value>Rubbing builds it up toward a limit (beyond it the air at the surface breaks down); a spark takes a bite out of it; damp air drains it away.</value>
+  </data>
+  <data name="Lightning_Chart_Current_Caption" xml:space="preserve">
+    <value>Current of a return stroke</value>
+  </data>
+  <data name="Lightning_Chart_Current_First" xml:space="preserve">
+    <value>first {0} kA</value>
+  </data>
+  <data name="Lightning_Chart_Current_Later" xml:space="preserve">
+    <value>later {0} kA</value>
+  </data>
+  <data name="Lightning_Chart_Current_Note" xml:space="preserve">
+    <value>It peaks within about a microsecond and halves in about 200 µs; later strokes are smaller and quicker (IEC 62305 shapes). Half of all first strokes stay under 30 kA.</value>
+  </data>
+  <data name="Lightning_Chart_Field_Caption" xml:space="preserve">
+    <value>The field at the ground, last minute</value>
+  </data>
+  <data name="Lightning_Chart_Field_Mark" xml:space="preserve">
+    <value>danger</value>
+  </data>
+  <data name="Lightning_Chart_Field_Note" xml:space="preserve">
+    <value>Fair weather gives about 0.13 kV/m pointing down. Under a storm it turns over and climbs; each flash knocks it back: the saw-tooth meteorologists' field mills record.</value>
+  </data>
+  <data name="Lightning_Chart_Now" xml:space="preserve">
+    <value>now</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Axis" xml:space="preserve">
+    <value>storm top, km</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Caption" xml:space="preserve">
+    <value>Taller storms flash far more</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Note" xml:space="preserve">
+    <value>Flashes a minute grow as the fifth power of the storm's height (Price and Rind 1992): a storm twice as tall flashes about 30 times as often.</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Unit" xml:space="preserve">
+    <value>a min</value>
+  </data>
+  <data name="Lightning_Chart_Rate_Value" xml:space="preserve">
+    <value>{0} a minute</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Caption" xml:space="preserve">
+    <value>Striking distance and the rolling sphere</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Classes" xml:space="preserve">
+    <value>IEC classes I–IV</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Note" xml:space="preserve">
+    <value>Weaker strokes come closer before anything reaches up, so they can slip past a rod: protection standards roll spheres of 20 to 60 m (classes I to IV) over a building to find where it needs rods.</value>
+  </data>
+  <data name="Lightning_Chart_Reach_Value" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Lightning_Chart_Series_Caption" xml:space="preserve">
+    <value>The triboelectric series</value>
+  </data>
+  <data name="Lightning_Chart_Series_Gives" xml:space="preserve">
+    <value>gives electrons</value>
+  </data>
+  <data name="Lightning_Chart_Series_Note" xml:space="preserve">
+    <value>Rub two materials together and the higher one gives electrons to the lower one: it ends up positive, the lower one negative. The further apart, the more charge. The order is the usual one; the bar lengths are only illustrative.</value>
+  </data>
+  <data name="Lightning_Chart_Series_Takes" xml:space="preserve">
+    <value>takes electrons</value>
+  </data>
+  <data name="Lightning_Cloth_Caption" xml:space="preserve">
+    <value>…with this</value>
+  </data>
+  <data name="Lightning_CloudTop" xml:space="preserve">
+    <value>Height of the storm's top</value>
+  </data>
+  <data name="Lightning_CloudTop_Note" xml:space="preserve">
+    <value>Taller storms have stronger updrafts and more ice and graupel colliding in the cold part of the cloud, so they charge much faster.</value>
+  </data>
+  <data name="Lightning_CloudTop_Shower" xml:space="preserve">
+    <value>Thundery shower</value>
+  </data>
+  <data name="Lightning_CloudTop_Storm" xml:space="preserve">
+    <value>Thunderstorm</value>
+  </data>
+  <data name="Lightning_CloudTop_Supercell" xml:space="preserve">
+    <value>Supercell</value>
+  </data>
+  <data name="Lightning_Cloud_Anvil" xml:space="preserve">
+    <value>Anvil</value>
+  </data>
+  <data name="Lightning_Cloud_Charging_Description" xml:space="preserve">
+    <value>The updraft carries small ice crystals up past falling graupel. Each knock moves a little charge: the light crystals take positive charge up to the top, the heavy graupel keeps negative charge in the middle. The field at the ground grows.</value>
+  </data>
+  <data name="Lightning_Cloud_Charging_Title" xml:space="preserve">
+    <value>Charging up</value>
+  </data>
+  <data name="Lightning_Cloud_Clock" xml:space="preserve">
+    <value>{0} flashes · {1} a minute</value>
+  </data>
+  <data name="Lightning_Cloud_CloudToGround_Description" xml:space="preserve">
+    <value>A flash carried the middle's negative charge down into the ground. The field drops at once, then the cloud charges up again: the meter draws a saw-tooth.</value>
+  </data>
+  <data name="Lightning_Cloud_CloudToGround_Title" xml:space="preserve">
+    <value>A strike to the ground</value>
+  </data>
+  <data name="Lightning_Cloud_Danger_Description" xml:space="preserve">
+    <value>The ground under the storm is strongly positive and the field is over 5 kV/m: points such as treetops and hair start to leak charge (corona). A flash could come down at any moment.</value>
+  </data>
+  <data name="Lightning_Cloud_Danger_Title" xml:space="preserve">
+    <value>The field is dangerous</value>
+  </data>
+  <data name="Lightning_Cloud_Fact1" xml:space="preserve">
+    <value>Lightning is one enormous static spark: the ice in the cloud pulls tens of coulombs of charge apart, building up some hundred million volts.</value>
+  </data>
+  <data name="Lightning_Cloud_Fact2" xml:space="preserve">
+    <value>About −15 °C is where the charging turns over: colder, graupel hit by ice crystals goes negative; warmer, it goes positive (Takahashi's 1978 experiments).</value>
+  </data>
+  <data name="Lightning_Cloud_Fact3" xml:space="preserve">
+    <value>Satellites count about 44 flashes a second over the whole Earth, most of them over land, where the afternoon sun drives strong updrafts.</value>
+  </data>
+  <data name="Lightning_Cloud_Fact4" xml:space="preserve">
+    <value>Most flashes never reach the ground: about six stay in the cloud for each one to the ground in the tropics, about three in middle latitudes (Prentice and Mackerras 1977).</value>
+  </data>
+  <data name="Lightning_Cloud_Fact5" xml:space="preserve">
+    <value>Hair standing on end, a tingling skin or a buzzing from metal means the field at the ground is already strong: a strike may be seconds away. Get off high ground at once.</value>
+  </data>
+  <data name="Lightning_Cloud_Freezing" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Lightning_Cloud_Glaciation" xml:space="preserve">
+    <value>{0} °C all ice</value>
+  </data>
+  <data name="Lightning_Cloud_Graupel" xml:space="preserve">
+    <value>Graupel (soft hail)</value>
+  </data>
+  <data name="Lightning_Cloud_Ice" xml:space="preserve">
+    <value>Ice crystals</value>
+  </data>
+  <data name="Lightning_Cloud_Intracloud_Description" xml:space="preserve">
+    <value>The air broke down inside the cloud, between the negative middle and the positive top. Most flashes are like this: from the ground you only see the cloud light up.</value>
+  </data>
+  <data name="Lightning_Cloud_Intracloud_Title" xml:space="preserve">
+    <value>A flash in the cloud</value>
+  </data>
+  <data name="Lightning_Cloud_Meter_Down" xml:space="preserve">
+    <value>Field {0} kV/m ↓</value>
+  </data>
+  <data name="Lightning_Cloud_Meter_Up" xml:space="preserve">
+    <value>Field {0} kV/m ↑</value>
+  </data>
+  <data name="Lightning_Cloud_Note" xml:space="preserve">
+    <value>A storm in slice, 36 km across and 16.5 km high, to scale. The tripole of charges is a sketch; flash rate from Price and Rind (1992); the clock runs in real time, the grains move faster than real.</value>
+  </data>
+  <data name="Lightning_Cloud_Rain" xml:space="preserve">
+    <value>Rain</value>
+  </data>
+  <data name="Lightning_Cloud_Reversal" xml:space="preserve">
+    <value>{0} °C charge reversal</value>
+  </data>
+  <data name="Lightning_Cloud_Subtitle" xml:space="preserve">
+    <value>How a thundercloud charges up</value>
+  </data>
+  <data name="Lightning_Cloud_Top" xml:space="preserve">
+    <value>Top {0} km, {1} °C</value>
+  </data>
+  <data name="Lightning_Cloud_Updraft" xml:space="preserve">
+    <value>Updraft</value>
+  </data>
+  <data name="Lightning_Current" xml:space="preserve">
+    <value>Peak current of the first stroke</value>
+  </data>
+  <data name="Lightning_Current_Strong" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="Lightning_Current_Typical" xml:space="preserve">
+    <value>Typical</value>
+  </data>
+  <data name="Lightning_Current_Weak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="Lightning_Distance" xml:space="preserve">
+    <value>How far away you are</value>
+  </data>
+  <data name="Lightning_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Lightning_Hint_Cloud" xml:space="preserve">
+    <value>Click the ground to move the field meter (and the person); grow the storm taller and watch how much more often it flashes.</value>
+  </data>
+  <data name="Lightning_Hint_Static" xml:space="preserve">
+    <value>Drag the rod (or balloon) yourself: rub it on the cloth, then take it to the paper, the water and the metal ball. Try other materials, or damper air.</value>
+  </data>
+  <data name="Lightning_Hint_Strike" xml:space="preserve">
+    <value>Drag the picture sideways to go back and forth in time; take the rod away or change the current and see what gets hit.</value>
+  </data>
+  <data name="Lightning_Humidity" xml:space="preserve">
+    <value>Humidity of the air</value>
+  </data>
+  <data name="Lightning_Humidity_Indoor" xml:space="preserve">
+    <value>Ordinary room</value>
+  </data>
+  <data name="Lightning_Humidity_Rainy" xml:space="preserve">
+    <value>Rainy day</value>
+  </data>
+  <data name="Lightning_Humidity_Winter" xml:space="preserve">
+    <value>Dry winter</value>
+  </data>
+  <data name="Lightning_Km_Value" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Lightning_Lesson_Cloud_Choice1" xml:space="preserve">
+    <value>It turns positive, pulled up by the cloud's negative middle</value>
+  </data>
+  <data name="Lightning_Lesson_Cloud_Choice2" xml:space="preserve">
+    <value>It turns negative, like the bottom of the cloud</value>
+  </data>
+  <data name="Lightning_Lesson_Cloud_Choice3" xml:space="preserve">
+    <value>Nothing: the ground can't hold charge</value>
+  </data>
+  <data name="Lightning_Lesson_Static_Choice1" xml:space="preserve">
+    <value>The balloon holds on to electrons more strongly</value>
+  </data>
+  <data name="Lightning_Lesson_Static_Choice2" xml:space="preserve">
+    <value>Rubbing makes new electrons</value>
+  </data>
+  <data name="Lightning_Lesson_Static_Choice3" xml:space="preserve">
+    <value>The hair is warmer than the balloon</value>
+  </data>
+  <data name="Lightning_Lesson_Strike_Choice1" xml:space="preserve">
+    <value>When the leader comes within about a hundred metres</value>
+  </data>
+  <data name="Lightning_Lesson_Strike_Choice2" xml:space="preserve">
+    <value>Only when the leader touches it</value>
+  </data>
+  <data name="Lightning_Lesson_Strike_Choice3" xml:space="preserve">
+    <value>As soon as the leader leaves the cloud</value>
+  </data>
+  <data name="Lightning_Material_Balloon" xml:space="preserve">
+    <value>Balloon</value>
+  </data>
+  <data name="Lightning_Material_Cotton" xml:space="preserve">
+    <value>Cotton</value>
+  </data>
+  <data name="Lightning_Material_Fur" xml:space="preserve">
+    <value>Fur</value>
+  </data>
+  <data name="Lightning_Material_Glass" xml:space="preserve">
+    <value>Glass rod</value>
+  </data>
+  <data name="Lightning_Material_Hair" xml:space="preserve">
+    <value>Hair</value>
+  </data>
+  <data name="Lightning_Material_Pvc" xml:space="preserve">
+    <value>Plastic (PVC) rod</value>
+  </data>
+  <data name="Lightning_Material_Rubber" xml:space="preserve">
+    <value>Rubber rod</value>
+  </data>
+  <data name="Lightning_Material_Silk" xml:space="preserve">
+    <value>Silk</value>
+  </data>
+  <data name="Lightning_Material_Wool" xml:space="preserve">
+    <value>Wool</value>
+  </data>
+  <data name="Lightning_Mode_Cloud" xml:space="preserve">
+    <value>Thundercloud</value>
+  </data>
+  <data name="Lightning_Mode_Static" xml:space="preserve">
+    <value>Rubbing</value>
+  </data>
+  <data name="Lightning_Mode_Strike" xml:space="preserve">
+    <value>A strike</value>
+  </data>
+  <data name="Lightning_Obj_Cloth" xml:space="preserve">
+    <value>The cloth</value>
+  </data>
+  <data name="Lightning_Obj_CloudBase" xml:space="preserve">
+    <value>Cloud base</value>
+  </data>
+  <data name="Lightning_Obj_Corona" xml:space="preserve">
+    <value>Tree under the storm</value>
+  </data>
+  <data name="Lightning_Obj_Earth" xml:space="preserve">
+    <value>Earth connection</value>
+  </data>
+  <data name="Lightning_Obj_Field" xml:space="preserve">
+    <value>Electric field at the ground</value>
+  </data>
+  <data name="Lightning_Obj_Freezing" xml:space="preserve">
+    <value>Freezing level</value>
+  </data>
+  <data name="Lightning_Obj_Glaciation" xml:space="preserve">
+    <value>All-ice level</value>
+  </data>
+  <data name="Lightning_Obj_Hit" xml:space="preserve">
+    <value>What gets hit</value>
+  </data>
+  <data name="Lightning_Obj_House" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="Lightning_Obj_Humidity" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="Lightning_Obj_Lower" xml:space="preserve">
+    <value>Lower positive charge</value>
+  </data>
+  <data name="Lightning_Obj_Main" xml:space="preserve">
+    <value>Main negative charge</value>
+  </data>
+  <data name="Lightning_Obj_Meter" xml:space="preserve">
+    <value>Field meter</value>
+  </data>
+  <data name="Lightning_Obj_Person" xml:space="preserve">
+    <value>Person in the open</value>
+  </data>
+  <data name="Lightning_Obj_Reversal" xml:space="preserve">
+    <value>Charge reversal level</value>
+  </data>
+  <data name="Lightning_Obj_Rod" xml:space="preserve">
+    <value>The rubbed rod</value>
+  </data>
+  <data name="Lightning_Obj_Slow" xml:space="preserve">
+    <value>Slow motion</value>
+  </data>
+  <data name="Lightning_Obj_Spark" xml:space="preserve">
+    <value>Spark</value>
+  </data>
+  <data name="Lightning_Obj_Squeezed" xml:space="preserve">
+    <value>Squeezed heights</value>
+  </data>
+  <data name="Lightning_Obj_Strip" xml:space="preserve">
+    <value>Thunder on its way</value>
+  </data>
+  <data name="Lightning_Obj_Top" xml:space="preserve">
+    <value>Cloud top</value>
+  </data>
+  <data name="Lightning_Obj_Tree" xml:space="preserve">
+    <value>Tall tree</value>
+  </data>
+  <data name="Lightning_Obj_Upper" xml:space="preserve">
+    <value>Upper positive charge</value>
+  </data>
+  <data name="Lightning_Obj_Zone" xml:space="preserve">
+    <value>Protected zone</value>
+  </data>
+  <data name="Lightning_Option_AutoHand" xml:space="preserve">
+    <value>Demonstrate</value>
+  </data>
+  <data name="Lightning_Option_Charges" xml:space="preserve">
+    <value>Charges</value>
+  </data>
+  <data name="Lightning_Option_Discharge" xml:space="preserve">
+    <value>Earth the rod</value>
+  </data>
+  <data name="Lightning_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Lightning_Option_NewStrike" xml:space="preserve">
+    <value>Another strike</value>
+  </data>
+  <data name="Lightning_Option_Rod" xml:space="preserve">
+    <value>Lightning rod</value>
+  </data>
+  <data name="Lightning_Option_Sphere" xml:space="preserve">
+    <value>Rolling sphere</value>
+  </data>
+  <data name="Lightning_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Lightning_Rod_Caption" xml:space="preserve">
+    <value>Rub this…</value>
+  </data>
+  <data name="Lightning_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Lightning_Stat_Charge" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="Lightning_Stat_Electrons" xml:space="preserve">
+    <value>Electrons moved</value>
+  </data>
+  <data name="Lightning_Stat_Field" xml:space="preserve">
+    <value>Field at the meter</value>
+  </data>
+  <data name="Lightning_Stat_Field_Down" xml:space="preserve">
+    <value>{0} kV/m, pointing down ({1} km out)</value>
+  </data>
+  <data name="Lightning_Stat_Field_Up" xml:space="preserve">
+    <value>{0} kV/m, pointing up ({1} km out)</value>
+  </data>
+  <data name="Lightning_Stat_HalfLife" xml:space="preserve">
+    <value>Half the charge gone in</value>
+  </data>
+  <data name="Lightning_Stat_HalfLife_Value" xml:space="preserve">
+    <value>{1} at {0}% humidity</value>
+  </data>
+  <data name="Lightning_Stat_Hit" xml:space="preserve">
+    <value>What it hits</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Ground" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Lightning_Stat_Hit_House" xml:space="preserve">
+    <value>{0}: the current goes through roof and walls</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Person" xml:space="preserve">
+    <value>{0}: in the open you may be the highest point!</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Rod" xml:space="preserve">
+    <value>{0}: led safely into the earth</value>
+  </data>
+  <data name="Lightning_Stat_Hit_Tree" xml:space="preserve">
+    <value>{0}: never shelter under one</value>
+  </data>
+  <data name="Lightning_Stat_Main" xml:space="preserve">
+    <value>Main negative charge</value>
+  </data>
+  <data name="Lightning_Stat_Main_Value" xml:space="preserve">
+    <value>at {0} km, where it is {1} °C</value>
+  </data>
+  <data name="Lightning_Stat_Peak" xml:space="preserve">
+    <value>Peak current</value>
+  </data>
+  <data name="Lightning_Stat_Peak_Value" xml:space="preserve">
+    <value>{0} kA first, about {1} kA later</value>
+  </data>
+  <data name="Lightning_Stat_Rate" xml:space="preserve">
+    <value>Flash rate</value>
+  </data>
+  <data name="Lightning_Stat_Rate_Value" xml:space="preserve">
+    <value>{0} a minute (one every {1} s)</value>
+  </data>
+  <data name="Lightning_Stat_Reach" xml:space="preserve">
+    <value>Striking distance</value>
+  </data>
+  <data name="Lightning_Stat_Reach_Value" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Lightning_Stat_Share" xml:space="preserve">
+    <value>In the cloud : to the ground</value>
+  </data>
+  <data name="Lightning_Stat_Share_Value" xml:space="preserve">
+    <value>{1} : 1 at {0} ({2}% reach the ground)</value>
+  </data>
+  <data name="Lightning_Stat_Spark" xml:space="preserve">
+    <value>Sparks across</value>
+  </data>
+  <data name="Lightning_Stat_Spark_None" xml:space="preserve">
+    <value>no gap (under about 300 V)</value>
+  </data>
+  <data name="Lightning_Stat_Spark_Value" xml:space="preserve">
+    <value>up to {0} mm</value>
+  </data>
+  <data name="Lightning_Stat_Strokes" xml:space="preserve">
+    <value>Strokes</value>
+  </data>
+  <data name="Lightning_Stat_Strokes_Value" xml:space="preserve">
+    <value>{0}, the whole flash {1}</value>
+  </data>
+  <data name="Lightning_Stat_Thunder" xml:space="preserve">
+    <value>Thunder</value>
+  </data>
+  <data name="Lightning_Stat_Thunder_Value" xml:space="preserve">
+    <value>{0} s after the flash, from {1} km</value>
+  </data>
+  <data name="Lightning_Stat_Top" xml:space="preserve">
+    <value>Top of the storm</value>
+  </data>
+  <data name="Lightning_Stat_Top_Value" xml:space="preserve">
+    <value>{0} km, {1} °C</value>
+  </data>
+  <data name="Lightning_Stat_Voltage" xml:space="preserve">
+    <value>Voltage</value>
+  </data>
+  <data name="Lightning_Stat_Who" xml:space="preserve">
+    <value>Who takes electrons</value>
+  </data>
+  <data name="Lightning_Stat_Who_Gives" xml:space="preserve">
+    <value>{0} gives them to {1}</value>
+  </data>
+  <data name="Lightning_Stat_Who_Same" xml:space="preserve">
+    <value>Neither: like rubbed on like</value>
+  </data>
+  <data name="Lightning_Stat_Who_Takes" xml:space="preserve">
+    <value>{0} takes them from {1}</value>
+  </data>
+  <data name="Lightning_Static_Ball" xml:space="preserve">
+    <value>Earthed metal ball</value>
+  </data>
+  <data name="Lightning_Static_Bending_Description" xml:space="preserve">
+    <value>The stream bends toward the rod whichever charge it has: the side of the water nearest the rod takes the opposite charge, and opposites attract.</value>
+  </data>
+  <data name="Lightning_Static_Bending_Title" xml:space="preserve">
+    <value>The water bends</value>
+  </data>
+  <data name="Lightning_Static_Charged_Description" xml:space="preserve">
+    <value>The rod is an insulator, so its charge stays on the part that was rubbed. It only leaks away slowly, through the thin film of water damp air leaves on its surface.</value>
+  </data>
+  <data name="Lightning_Static_Charged_Title" xml:space="preserve">
+    <value>Charged</value>
+  </data>
+  <data name="Lightning_Static_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Lightning_Static_Fact1" xml:space="preserve">
+    <value>Rubbing does not make charge, it moves it: electrons pass from one material to the other, so one ends up exactly as negative as the other is positive.</value>
+  </data>
+  <data name="Lightning_Static_Fact2" xml:space="preserve">
+    <value>Shuffling across a carpet can charge you to about 35 000 V in dry winter air (10–20% humidity), but only about 1500 V when the air is damp (65–90%).</value>
+  </data>
+  <data name="Lightning_Static_Fact3" xml:space="preserve">
+    <value>The volts are high but the charge is tiny: a balloon's spark carries only a few millijoules, which is why it stings but does no harm.</value>
+  </data>
+  <data name="Lightning_Static_Fact4" xml:space="preserve">
+    <value>You only feel a discharge above about 3000 V, yet the chips in a phone can be damaged by a few hundred volts or less, so electronics factories ground their workers with wrist straps.</value>
+  </data>
+  <data name="Lightning_Static_Fact5" xml:space="preserve">
+    <value>Petrol vapour can be lit by a spark of about 0.2 millijoules, less than a static shock: that is why pumps have a metal plate to touch first, to discharge yourself.</value>
+  </data>
+  <data name="Lightning_Static_Humidity" xml:space="preserve">
+    <value>Humidity {0}%</value>
+  </data>
+  <data name="Lightning_Static_Lifting_Description" xml:space="preserve">
+    <value>The paper has no charge, but the rod pulls its charges a little apart (polarises it): the near side takes the opposite charge and is pulled up. Once it touches, it shares the rod's charge and is pushed off again.</value>
+  </data>
+  <data name="Lightning_Static_Lifting_Title" xml:space="preserve">
+    <value>Lifting paper</value>
+  </data>
+  <data name="Lightning_Static_Neutral_Description" xml:space="preserve">
+    <value>The rod holds as many positive charges as negative ones, so it is neutral. Rub it to and fro on the cloth.</value>
+  </data>
+  <data name="Lightning_Static_Neutral_Title" xml:space="preserve">
+    <value>Not charged</value>
+  </data>
+  <data name="Lightning_Static_Note" xml:space="preserve">
+    <value>A bench a metre wide, from the front. Charges from the triboelectric series and the air's breakdown limit; spark gaps from Paschen's law; the number of + and − signs only shows how much.</value>
+  </data>
+  <data name="Lightning_Static_Paper" xml:space="preserve">
+    <value>Paper bits</value>
+  </data>
+  <data name="Lightning_Static_RodLabel" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Lightning_Static_Rubbing_Description" xml:space="preserve">
+    <value>Where two materials touch and part, the one that holds electrons more tightly pulls some away from the other. Rubbing just makes more of them touch.</value>
+  </data>
+  <data name="Lightning_Static_Rubbing_Title" xml:space="preserve">
+    <value>Rubbing</value>
+  </data>
+  <data name="Lightning_Static_Spark_Description" xml:space="preserve">
+    <value>The voltage was high enough to break down the air in the gap: the air turned into a glowing, conducting path and the charge rushed across. A lightning bolt in miniature. Only the charge near the tip goes: the rod is an insulator.</value>
+  </data>
+  <data name="Lightning_Static_Spark_Title" xml:space="preserve">
+    <value>Zap! A spark</value>
+  </data>
+  <data name="Lightning_Static_Subtitle" xml:space="preserve">
+    <value>Charging by rubbing: electrons hop from one thing to another</value>
+  </data>
+  <data name="Lightning_Static_Touched_Description" xml:space="preserve">
+    <value>Too few volts for a spark you could see: the charge simply flowed into the earthed ball where they touched.</value>
+  </data>
+  <data name="Lightning_Static_Touched_Title" xml:space="preserve">
+    <value>A quiet discharge</value>
+  </data>
+  <data name="Lightning_Static_Water" xml:space="preserve">
+    <value>Thin stream of water</value>
+  </data>
+  <data name="Lightning_Static_Zap" xml:space="preserve">
+    <value>Zap! {0}</value>
+  </data>
+  <data name="Lightning_Strike_Attach_Description" xml:space="preserve">
+    <value>When the leader's tip comes within striking distance of something, the field there is strong enough to send a streamer up. Whatever's streamer meets the leader first gets the strike: that is the rolling sphere.</value>
+  </data>
+  <data name="Lightning_Strike_Attach_Short" xml:space="preserve">
+    <value>Streamers</value>
+  </data>
+  <data name="Lightning_Strike_Attach_Title" xml:space="preserve">
+    <value>Something reaches up</value>
+  </data>
+  <data name="Lightning_Strike_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Lightning_Strike_CloudBase" xml:space="preserve">
+    <value>Cloud base, {0} km</value>
+  </data>
+  <data name="Lightning_Strike_Dart_Description" xml:space="preserve">
+    <value>The next discharge does not feel its way or branch: it darts straight down the still-warm channel in a millisecond or two.</value>
+  </data>
+  <data name="Lightning_Strike_Dart_Short" xml:space="preserve">
+    <value>Dart leader</value>
+  </data>
+  <data name="Lightning_Strike_Dart_Title" xml:space="preserve">
+    <value>A dart leader</value>
+  </data>
+  <data name="Lightning_Strike_Fact1" xml:space="preserve">
+    <value>The channel is only a few centimetres wide, but within microseconds it is heated to about 30 000 °C, five times hotter than the surface of the Sun.</value>
+  </data>
+  <data name="Lightning_Strike_Fact2" xml:space="preserve">
+    <value>A flash usually has 3 or 4 return strokes, tens of milliseconds apart, down the same channel: that is why lightning flickers.</value>
+  </data>
+  <data name="Lightning_Strike_Fact3" xml:space="preserve">
+    <value>Thunder is the shock wave of air heated and expanding all at once. Count the seconds from the flash and divide by 3: that is roughly how many kilometres away it was.</value>
+  </data>
+  <data name="Lightning_Strike_Fact4" xml:space="preserve">
+    <value>A lightning rod does not attract lightning from afar: when a leader comes near, it sends up its streamer first, and leads the current down its conductor into the earth. Benjamin Franklin proposed it around 1750.</value>
+  </data>
+  <data name="Lightning_Strike_Fact5" xml:space="preserve">
+    <value>Never shelter under a lone tree: the current can jump from its trunk to you, or spread through the ground (step voltage). A building with protection, or a car with its doors shut (a metal cage), is safe.</value>
+  </data>
+  <data name="Lightning_Strike_Glow_Description" xml:space="preserve">
+    <value>After a stroke the channel glows on for a while as it cools, while charge elsewhere in the cloud gathers at its top, ready to go again.</value>
+  </data>
+  <data name="Lightning_Strike_Glow_Short" xml:space="preserve">
+    <value>Afterglow</value>
+  </data>
+  <data name="Lightning_Strike_Glow_Title" xml:space="preserve">
+    <value>The channel fades</value>
+  </data>
+  <data name="Lightning_Strike_Heard_Description" xml:space="preserve">
+    <value>Sound from every part of the long channel arrives one after another, so thunder rumbles instead of banging once. The seconds divided by 3 are about the kilometres to the strike.</value>
+  </data>
+  <data name="Lightning_Strike_Heard_Short" xml:space="preserve">
+    <value>Thunder</value>
+  </data>
+  <data name="Lightning_Strike_Heard_Title" xml:space="preserve">
+    <value>Thunder!</value>
+  </data>
+  <data name="Lightning_Strike_Hit" xml:space="preserve">
+    <value>Hits: {0}</value>
+  </data>
+  <data name="Lightning_Strike_House" xml:space="preserve">
+    <value>House, no rod</value>
+  </data>
+  <data name="Lightning_Strike_HouseRod" xml:space="preserve">
+    <value>House with a rod</value>
+  </data>
+  <data name="Lightning_Strike_Label_Dart" xml:space="preserve">
+    <value>Dart leader</value>
+  </data>
+  <data name="Lightning_Strike_Label_Later" xml:space="preserve">
+    <value>Next return stroke</value>
+  </data>
+  <data name="Lightning_Strike_Label_Leader" xml:space="preserve">
+    <value>Stepped leader</value>
+  </data>
+  <data name="Lightning_Strike_Label_Streamer" xml:space="preserve">
+    <value>Upward streamers</value>
+  </data>
+  <data name="Lightning_Strike_Label_Stroke" xml:space="preserve">
+    <value>Return stroke</value>
+  </data>
+  <data name="Lightning_Strike_Later_Description" xml:space="preserve">
+    <value>The same channel is used again: the current is smaller but rises faster. These repeated strokes are why lightning flickers.</value>
+  </data>
+  <data name="Lightning_Strike_Later_Short" xml:space="preserve">
+    <value>Next stroke</value>
+  </data>
+  <data name="Lightning_Strike_Later_Title" xml:space="preserve">
+    <value>Another return stroke</value>
+  </data>
+  <data name="Lightning_Strike_Leader_Description" xml:space="preserve">
+    <value>Negative charge from the cloud's base feels its way down along an ionised channel, jumping about 50 m at a time, pausing tens of microseconds, branching as it goes. It is faint: you would hardly see it.</value>
+  </data>
+  <data name="Lightning_Strike_Leader_Short" xml:space="preserve">
+    <value>Stepped leader</value>
+  </data>
+  <data name="Lightning_Strike_Leader_Title" xml:space="preserve">
+    <value>The stepped leader</value>
+  </data>
+  <data name="Lightning_Strike_Note" xml:space="preserve">
+    <value>The lowest 100-odd metres are to scale, the rest up to the cloud (2 km) squeezed. Each part of the flash is slowed by a different amount; after the last stroke time runs at its real pace and the thunder travels at 343 m/s.</value>
+  </data>
+  <data name="Lightning_Strike_Person" xml:space="preserve">
+    <value>Person in the open</value>
+  </data>
+  <data name="Lightning_Strike_RealTime" xml:space="preserve">
+    <value>Real time</value>
+  </data>
+  <data name="Lightning_Strike_Slow" xml:space="preserve">
+    <value>Slowed: 1 s here = {0}</value>
+  </data>
+  <data name="Lightning_Strike_Squeezed" xml:space="preserve">
+    <value>above: heights squeezed</value>
+  </data>
+  <data name="Lightning_Strike_Strip_Counting" xml:space="preserve">
+    <value>{0} s… sound has gone {1} km</value>
+  </data>
+  <data name="Lightning_Strike_Strip_Heard" xml:space="preserve">
+    <value>Thunder after {0} s: {1} km away ({0} ÷ 3 ≈ {2})</value>
+  </data>
+  <data name="Lightning_Strike_Strip_Wait" xml:space="preserve">
+    <value>The light reaches you at once; the sound will take {0} s</value>
+  </data>
+  <data name="Lightning_Strike_Stroke_Description" xml:space="preserve">
+    <value>The moment the channel connects, a huge current (typically 30 000 amps) surges up from the ground at about a third of the speed of light, heating the channel to some 30 000 °C: the flash you see.</value>
+  </data>
+  <data name="Lightning_Strike_Stroke_Short" xml:space="preserve">
+    <value>Return stroke</value>
+  </data>
+  <data name="Lightning_Strike_Stroke_Title" xml:space="preserve">
+    <value>The return stroke</value>
+  </data>
+  <data name="Lightning_Strike_Subtitle" xml:space="preserve">
+    <value>One strike in slow motion, and its thunder</value>
+  </data>
+  <data name="Lightning_Strike_Thunder_Description" xml:space="preserve">
+    <value>The light reached you almost at once; the sound covers only 343 m a second. Count the seconds since the flash.</value>
+  </data>
+  <data name="Lightning_Strike_Thunder_Short" xml:space="preserve">
+    <value>Thunder on its way</value>
+  </data>
+  <data name="Lightning_Strike_Thunder_Title" xml:space="preserve">
+    <value>The thunder is on its way</value>
+  </data>
+  <data name="Lightning_Strike_Tree" xml:space="preserve">
+    <value>Tree, 16 m</value>
+  </data>
+  <data name="Lightning_Strokes_Caption" xml:space="preserve">
+    <value>Return strokes in the flash</value>
+  </data>
+  <data name="Lightning_Target_Ground" xml:space="preserve">
+    <value>open ground</value>
+  </data>
+  <data name="Lightning_Target_House" xml:space="preserve">
+    <value>the house</value>
+  </data>
+  <data name="Lightning_Target_Person" xml:space="preserve">
+    <value>the person</value>
+  </data>
+  <data name="Lightning_Target_Rod" xml:space="preserve">
+    <value>the lightning rod</value>
+  </data>
+  <data name="Lightning_Target_Tree" xml:space="preserve">
+    <value>the tree</value>
+  </data>
+  <data name="Lightning_Timeline" xml:space="preserve">
+    <value>The strike, slowed down</value>
+  </data>
+  <data name="Lightning_Title" xml:space="preserve">
+    <value>Lightning and static</value>
+  </data>
+  <data name="Lightning_Try_Caption" xml:space="preserve">
+    <value>Try</value>
+  </data>
+  <data name="Lightning_Unit_H" xml:space="preserve">
+    <value>{0} h</value>
+  </data>
+  <data name="Lightning_Unit_Min" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Lightning_Unit_Ms" xml:space="preserve">
+    <value>{0} ms</value>
+  </data>
+  <data name="Lightning_Unit_S" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Lightning_Unit_Us" xml:space="preserve">
+    <value>{0} µs</value>
+  </data>
   <data name="Location_Change" xml:space="preserve">
     <value>Change</value>
   </data>
@@ -6408,6 +7170,207 @@
   <data name="Narr_Kepler_Periods_07" xml:space="preserve">
     <value>This rule works for every planet. Later, Isaac Newton showed where it comes from: the Sun's gravity gets weaker the farther away you are. The table on the left page checks it for each planet.</value>
   </data>
+  <data name="Narr_Lightning_Cloud_01" xml:space="preserve">
+    <value>This is a thundercloud cut in half, thirty-six kilometres across and drawn to scale. Its top reaches twelve kilometres up, where it's colder than minus forty degrees.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_02" xml:space="preserve">
+    <value>A strong updraft carries air up through the cloud. Tiny ice crystals ride up with it, while heavier pellets of soft hail, called graupel, fall slowly through them.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_03" xml:space="preserve">
+    <value>When they collide, charge moves between them. Above this line, at about minus fifteen degrees, the graupel takes negative charge and the crystals positive. Below it, it's the other way round.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_04" xml:space="preserve">
+    <value>So the cloud sorts itself out: positive charge at the top, carried up by the crystals, a big negative layer in the middle, and a little positive charge near the bottom.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_05" xml:space="preserve">
+    <value>Now, what do you think happens to the ground under the storm?</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_06" xml:space="preserve">
+    <value>It turns positive. The negative middle of the cloud draws positive charge in the ground towards it. The field meter shows the field pointing up, many times stronger than on a fair day: strong enough to make your hair stand on end.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_07" xml:space="preserve">
+    <value>When the charge grows big enough, the air breaks down, and there's a flash! Most flashes stay inside the cloud. Only some reach the ground, like this one.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_08" xml:space="preserve">
+    <value>Let's make the storm taller, up to sixteen kilometres. A stronger updraft separates charge much faster, so it flashes about four times as often as before.</value>
+  </data>
+  <data name="Narr_Lightning_Cloud_09" xml:space="preserve">
+    <value>Your turn. Change the height of the storm, or click the ground to move the field meter, and watch the field and the flashes.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Anvil" xml:space="preserve">
+    <value>The anvil: at the top of the storm the rising air can go no higher, so it spreads out sideways into a flat sheet of ice cloud.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Ball" xml:space="preserve">
+    <value>A metal ball, joined to the earth by a wire. The rod draws opposite charge up into its near side, and when the gap is small enough, a spark jumps across. Click to bring the rod up to it.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Cloth" xml:space="preserve">
+    <value>The cloth it's rubbed on. Whatever the rod takes, the cloth loses, so the cloth ends up with the same amount of the opposite charge. Click it to watch the rubbing.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_CloudBase" xml:space="preserve">
+    <value>The base of the cloud, two kilometres up, where the leader starts its way down.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Corona" xml:space="preserve">
+    <value>A tree right under the storm. When the field is strong, the tips of its leaves glow faintly with corona: the air around sharp points starts to conduct.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Dart" xml:space="preserve">
+    <value>A dart leader: it slides smoothly down the still-hot channel in a couple of thousandths of a second, without stepping or branching, and sets off the next stroke.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Earth" xml:space="preserve">
+    <value>The wire to earth. The ground is so big that it can give or take any amount of charge, so charge flows to or from it freely.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Field" xml:space="preserve">
+    <value>The electric field at the ground. On a fair day it points gently down. Under a storm it turns over, points up, and grows dozens of times stronger.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Freezing" xml:space="preserve">
+    <value>The freezing level, zero degrees. Above it, the cloud holds a mix of ice and supercooled water, which is where the charging happens.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Glaciation" xml:space="preserve">
+    <value>Minus forty degrees: colder than this, every droplet has frozen, and the cloud is all ice.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Graupel" xml:space="preserve">
+    <value>Graupel: soft hail, little pellets of rime ice. They're heavy enough to fall through the updraft, colliding with the crystals on the way.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Hit" xml:space="preserve">
+    <value>What the lightning hit: whatever sent up the streamer that connected first. That's usually the tallest thing near the leader's tip, not simply the tallest thing around.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_House" xml:space="preserve">
+    <value>A house. Without a rod, a strike to the roof can set it on fire or send current through the wiring. With a rod, the current goes safely down a conductor into the ground.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Humidity" xml:space="preserve">
+    <value>How damp the air is. In damp air a thin film of water on every surface lets charge leak away in seconds. In dry air it can last for many minutes.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Ice" xml:space="preserve">
+    <value>Ice crystals: tiny and light, carried up by the updraft. They take positive charge in collisions high in the cloud and carry it to the top.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Later" xml:space="preserve">
+    <value>A later return stroke, down the same channel. Later strokes usually carry less current than the first, and there's no branching.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Leader" xml:space="preserve">
+    <value>The stepped leader: a faint channel of charged air, jumping down about fifty metres at a time and branching. It takes a few hundredths of a second to come down.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_LightningRod" xml:space="preserve">
+    <value>A lightning rod: a metal point on the roof, joined by a thick conductor to a rod in the ground. It doesn't attract lightning from far away; it gives a strike a safe path down.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Lower" xml:space="preserve">
+    <value>A small positive charge low in the cloud, from graupel that charged positive below the reversal level. It can help a flash get started towards the ground.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Main" xml:space="preserve">
+    <value>The main negative charge, in the middle of the cloud around minus fifteen degrees. Most flashes start here, to the top of the cloud or down to the ground.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Meter" xml:space="preserve">
+    <value>A field meter, and you beside it. It measures the electric field at the ground. Click the ground to move it nearer or further from the storm.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Paper" xml:space="preserve">
+    <value>Bits of paper, with no charge of their own. A charged rod nearby pulls them up anyway, because it shifts their electrons. Click to hold the rod over them.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Person" xml:space="preserve">
+    <value>A person in the open: the tallest thing around. If you hear thunder, get indoors or into a car. Don't stand under a tree.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Rain" xml:space="preserve">
+    <value>Rain falling from the cloud base. Below the freezing level, the graupel melts into heavy raindrops.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Reversal" xml:space="preserve">
+    <value>The charge reversal level, about minus fifteen degrees. Colder than this, graupel turns negative when crystals bounce off it; warmer, it turns positive.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Rod" xml:space="preserve">
+    <value>The rod or balloon, with its charge drawn as signs and its voltage on the label. On an insulator the charge stays where it was rubbed. Drag it yourself to move it.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Slow" xml:space="preserve">
+    <value>How much the picture is slowed down. The whole flash is over in a fraction of a second, so each part is slowed by a different amount for you to see it.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Spark" xml:space="preserve">
+    <value>A spark: the air between the rod and the ball breaks down and conducts for a moment, heats up and glows. The crack you hear is a tiny clap of thunder.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Sphere" xml:space="preserve">
+    <value>The striking distance, drawn as a circle around the leader's tip. Anything inside it can send up a streamer that connects. Stronger flashes reach further.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Squeezed" xml:space="preserve">
+    <value>Above this line the heights are squeezed, so the whole two kilometres up to the cloud fit on the screen. Below it, everything is to scale.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Streamer" xml:space="preserve">
+    <value>Upward streamers: sparks rising from tall, pointed things to meet the leader. Several may rise; the first to connect decides where the lightning strikes.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Strip" xml:space="preserve">
+    <value>The flash and its thunder on their way to you. Light arrives at once; sound takes about three seconds for every kilometre. Click to play the thunder.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Stroke" xml:space="preserve">
+    <value>The return stroke: the main flash. A huge current races up the connected channel, heating the air to around thirty thousand degrees, hotter than the Sun's surface.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Top" xml:space="preserve">
+    <value>The top of the storm and how cold it is up there. The taller the storm, the stronger its updraft, and the more often it flashes.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Tree" xml:space="preserve">
+    <value>A tall, lone tree: a likely target, and a dangerous place to shelter in a storm. A strike can jump from the trunk to someone standing close by.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Updraft" xml:space="preserve">
+    <value>The updraft: warm, moist air rising fast up the middle of the storm, often at tens of metres a second. It keeps the ice and graupel mixing, which is what charges the cloud.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Upper" xml:space="preserve">
+    <value>The upper positive charge, carried up by the ice crystals to the top of the storm.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Water" xml:space="preserve">
+    <value>A thin stream of water from a tap. Its molecules turn to face the charge, so it bends towards a charged rod, positive or negative. Click to bring the rod beside it.</value>
+  </data>
+  <data name="Narr_Lightning_Obj_Zone" xml:space="preserve">
+    <value>The protected zone. Roll a ball as big as the striking distance over the ground and everything on it: where the ball can't reach, lightning can't either.</value>
+  </data>
+  <data name="Narr_Lightning_Static_01" xml:space="preserve">
+    <value>On this bench, a balloon is being rubbed on some hair. Both are made of atoms, and in each atom the positive and negative charges exactly balance. Until we start rubbing.</value>
+  </data>
+  <data name="Narr_Lightning_Static_02" xml:space="preserve">
+    <value>Watch the little blue dots. They're electrons, hopping from the hair onto the balloon. The balloon gains extra electrons and turns negative, and the hair, left short of them, turns positive.</value>
+  </data>
+  <data name="Narr_Lightning_Static_03" xml:space="preserve">
+    <value>Here's a question. Why do the electrons go onto the balloon, and not the other way round?</value>
+  </data>
+  <data name="Narr_Lightning_Static_04" xml:space="preserve">
+    <value>Right. Every material grips its electrons differently, and when two touch, electrons move to the one that grips harder. Nothing is made, only moved. The label shows about twenty thousand volts, but so little charge that it's harmless.</value>
+  </data>
+  <data name="Narr_Lightning_Static_05" xml:space="preserve">
+    <value>Hold the balloon over bits of paper, and they jump up, though they have no charge of their own. The balloon pushes the paper's electrons to its far side, so the near side is pulled harder than the far side is pushed. Some cling, take a little charge, and are flung off again.</value>
+  </data>
+  <data name="Narr_Lightning_Static_06" xml:space="preserve">
+    <value>Now bring it beside a thin stream of water. The stream bends towards the balloon. Water molecules turn their opposite end towards the charge, so the water is pulled whichever sign the balloon has.</value>
+  </data>
+  <data name="Narr_Lightning_Static_07" xml:space="preserve">
+    <value>Now up to an earthed metal ball. When the gap is small enough, the air breaks down, and there's a spark! It takes several thousand volts to jump each millimetre of air. A lightning flash is the same thing, only vastly bigger.</value>
+  </data>
+  <data name="Narr_Lightning_Static_08" xml:space="preserve">
+    <value>Now make the air damp. Even while it's being rubbed, the balloon holds only a little charge: it leaks away through a thin film of water as fast as it's made. That's why static shocks happen in dry winter air.</value>
+  </data>
+  <data name="Narr_Lightning_Static_09" xml:space="preserve">
+    <value>Your turn. Try other materials or other air, or drag the rod yourself: rub it on the cloth, then take it to the paper, the water and the ball.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_01" xml:space="preserve">
+    <value>Now let's watch one strike in slow motion. The cloud base is two kilometres up. The lowest hundred metres are drawn to scale, and everything above is squeezed to fit.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_02" xml:space="preserve">
+    <value>A stepped leader feels its way down from the cloud, about fifty metres at a jump, branching as it goes. It's faint: you'd hardly see it.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_03" xml:space="preserve">
+    <value>As it nears the ground, something will reach up to meet it. When do you think that happens?</value>
+  </data>
+  <data name="Narr_Lightning_Strike_04" xml:space="preserve">
+    <value>Right. For a thirty-kiloampere flash, once the leader is within about ninety metres, the striking distance, sparks called streamers rise from tall, pointed things. The lightning rod's streamer got there first.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_05" xml:space="preserve">
+    <value>They connect, and the return stroke races up the channel at about a third of the speed of light, carrying thirty thousand amps. That's the blinding flash we see.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_06" xml:space="preserve">
+    <value>Now take the rod away. The same leader strikes the roof instead, and with no path to earth, the current finds its own way through the house.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_07" xml:space="preserve">
+    <value>With the rod back, look at the green zone. A ball as big as the striking distance, rolled over everything, can't touch anything in there. Lightning won't reach it: that's how rods are placed.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_08" xml:space="preserve">
+    <value>Most flashes don't stop at one stroke. A dart leader slides back down the same hot channel, and another stroke follows. That's why lightning flickers.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_09" xml:space="preserve">
+    <value>The light reaches you at once, but sound travels only three hundred and forty-three metres a second. From three kilometres away, the thunder takes nearly nine seconds. Count the seconds and divide by three, and you have the distance in kilometres.</value>
+  </data>
+  <data name="Narr_Lightning_Strike_10" xml:space="preserve">
+    <value>Your turn. Change the current, take the rod away, move further off, or try another strike, and see what gets hit.</value>
+  </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>From one new moon to the next takes twenty-nine and a half days. But the Moon only needs about twenty-seven days to go once around Earth. So where do the extra two days come from?</value>
   </data>
@@ -6797,6 +7760,111 @@
   </data>
   <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
     <value>So the secret of the seasons isn't distance. It's the tilt of the axis. Try the sliders on the left page with a different tilt or latitude, and watch how the day length and the noon Sun on the card change.</value>
+  </data>
+  <data name="Narr_Sky_Obj_Air" xml:space="preserve">
+    <value>The air, drawn many times too thick. Nearly all of it is in the lowest fifty kilometres, a very thin layer compared with Earth.</value>
+  </data>
+  <data name="Narr_Sky_Obj_BeltOfVenus" xml:space="preserve">
+    <value>The Belt of Venus, a pink glow just above Earth's shadow. It's air high up, still lit by the reddened light of the setting Sun.</value>
+  </data>
+  <data name="Narr_Sky_Obj_Box" xml:space="preserve">
+    <value>The box of air. It stands for all the air the sunlight crosses before it reaches you: a little at noon, and about forty times as much at sunset.</value>
+  </data>
+  <data name="Narr_Sky_Obj_EarthShadow" xml:space="preserve">
+    <value>Earth's shadow. After sunset, the air opposite the Sun is no longer lit, and Earth's own shadow shows as a dark blue band rising from the horizon.</value>
+  </data>
+  <data name="Narr_Sky_Obj_EndEye" xml:space="preserve">
+    <value>This eye looks back along the beam at the Sun. It sees what's left after the scattering: white at noon, orange and red when the Sun is low.</value>
+  </data>
+  <data name="Narr_Sky_Obj_Overhead" xml:space="preserve">
+    <value>The air straight overhead. The amount of air the light crosses is counted in units of this.</value>
+  </data>
+  <data name="Narr_Sky_Obj_Ray" xml:space="preserve">
+    <value>The path of the sunlight that reaches you, coloured by what's left of the light along the way.</value>
+  </data>
+  <data name="Narr_Sky_Obj_SideEye" xml:space="preserve">
+    <value>This eye looks at the side of the beam. It sees only the light bounced out of the beam towards it, and that's mostly blue: the blue sky.</value>
+  </data>
+  <data name="Narr_Sky_Obj_Sun" xml:space="preserve">
+    <value>The Sun. Its light is white, a mix of every colour. It only looks yellow, orange or red when the air has taken some of the blue out of it.</value>
+  </data>
+  <data name="Narr_Sky_Obj_SunBehind" xml:space="preserve">
+    <value>The Sun is behind you. Facing away from it after sunset, you can watch Earth's shadow rise.</value>
+  </data>
+  <data name="Narr_Sky_Obj_You" xml:space="preserve">
+    <value>You, standing on the ground. Drag around yourself to move the Sun.</value>
+  </data>
+  <data name="Narr_Sky_Path_01" xml:space="preserve">
+    <value>Here's a slice through Earth and its air. The air is drawn many times too thick, so you can see it. And this is you, standing on the ground.</value>
+  </data>
+  <data name="Narr_Sky_Path_02" xml:space="preserve">
+    <value>At noon, sunlight comes down to you quite steeply. It crosses only a thin layer of air, so it stays white.</value>
+  </data>
+  <data name="Narr_Sky_Path_03" xml:space="preserve">
+    <value>This dashed line is the air straight overhead. The amount of air that light crosses is measured in units of this.</value>
+  </data>
+  <data name="Narr_Sky_Path_04" xml:space="preserve">
+    <value>Think about it. At sunset, how much air does sunlight cross, compared with the air straight overhead?</value>
+  </data>
+  <data name="Narr_Sky_Path_05" xml:space="preserve">
+    <value>About forty times as much. The light skims through the thickest, lowest air, and loses its blue along the way. By the time it reaches you, it's orange and red.</value>
+  </data>
+  <data name="Narr_Sky_Path_06" xml:space="preserve">
+    <value>After sunset, the light no longer reaches you. It passes over your head and lights the air high above, while you stand in Earth's shadow.</value>
+  </data>
+  <data name="Narr_Sky_Path_07" xml:space="preserve">
+    <value>Now you try. Drag around yourself to move the Sun, and watch how long the light's path becomes.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_01" xml:space="preserve">
+    <value>Here's a beam of sunlight passing through a box of air. The little coloured streaks are photons, tiny bits of light, in all the colours of sunlight.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_02" xml:space="preserve">
+    <value>The box stands for all the air the sunlight crosses before it reaches you. At noon, that's not very much.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_03" xml:space="preserve">
+    <value>Watch the photons. Now and then, one hits a molecule and bounces off to the side. Blue and violet photons bounce far more often than red ones, four or five times as often.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_04" xml:space="preserve">
+    <value>This eye looks at the side of the beam. It only sees light that was bounced towards it, and that's mostly blue. That's the blue sky.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_05" xml:space="preserve">
+    <value>This eye looks straight back along the beam, at the Sun. It sees what's left once some of the blue has gone, so the Sun looks a little yellow.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_06" xml:space="preserve">
+    <value>Think about it. If the Sun were low in the sky, so its light crossed far more air, what colour would the end of the beam turn?</value>
+  </data>
+  <data name="Narr_Sky_Scatter_07" xml:space="preserve">
+    <value>Orange, then red. On the long trip, so much blue and green is scattered away that mostly orange and red get through. That's the colour of the setting Sun.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_08" xml:space="preserve">
+    <value>Now you try. On the left-hand page, change the haze and dust in the air, and watch what happens to the colours.</value>
+  </data>
+  <data name="Narr_Sky_Scatter_09" xml:space="preserve">
+    <value>Haze and dust are much bigger than air molecules, and they scatter all colours about the same. So they make the sky paler and more milky white.</value>
+  </data>
+  <data name="Narr_Sky_Sky_01" xml:space="preserve">
+    <value>Here's the sky over the sea on a clear afternoon. Sunlight looks white, but it's really a mix of all the colours of the rainbow.</value>
+  </data>
+  <data name="Narr_Sky_Sky_02" xml:space="preserve">
+    <value>So why is the sky blue? As sunlight passes through the air, the tiny molecules of air bounce some of it aside, and they bounce blue light far more than red. That scattered blue light reaches us from every part of the sky.</value>
+  </data>
+  <data name="Narr_Sky_Sky_03" xml:space="preserve">
+    <value>Think about it. If Earth had no air at all, what colour would the daytime sky be?</value>
+  </data>
+  <data name="Narr_Sky_Sky_04" xml:space="preserve">
+    <value>Black, just like on the Moon. With no air, there's nothing to scatter the light, so you'd see a blazing Sun in a black sky full of stars.</value>
+  </data>
+  <data name="Narr_Sky_Sky_05" xml:space="preserve">
+    <value>Now watch the Sun go down. The lower it gets, the more air its light has to cross, and more and more blue is scattered away on the way. What's left turns yellow, then orange, then red.</value>
+  </data>
+  <data name="Narr_Sky_Sky_06" xml:space="preserve">
+    <value>After sunset, turn around. Low in the sky opposite the Sun, a dark blue band rises. It's Earth's own shadow, cast on the air. The pink glow above it is called the Belt of Venus.</value>
+  </data>
+  <data name="Narr_Sky_Sky_07" xml:space="preserve">
+    <value>Now you try. Drag up or down in the sky to move the Sun, and watch how the colours change.</value>
+  </data>
+  <data name="Narr_Sky_Sky_08" xml:space="preserve">
+    <value>Blue skies and red sunsets have the same cause: air scatters blue light far more than red. The other two views show how.</value>
   </data>
   <data name="Narr_SolarSystem_Obj_Ariel" xml:space="preserve">
     <value>Ariel, one of the brightest moons of Uranus, crossed by long valleys.</value>
@@ -8975,6 +10043,396 @@
   </data>
   <data name="Settings_Volume" xml:space="preserve">
     <value>Volume</value>
+  </data>
+  <data name="Sky_AirMass_Caption" xml:space="preserve">
+    <value>How much air the sunlight crosses</value>
+  </data>
+  <data name="Sky_AirMass_Note" xml:space="preserve">
+    <value>In times the air straight overhead, against the Sun's altitude (log scale). It hardly changes while the Sun is high, then shoots up in the last few degrees.</value>
+  </data>
+  <data name="Sky_Chart_Altitude" xml:space="preserve">
+    <value>Sun's altitude</value>
+  </data>
+  <data name="Sky_Chart_Ground" xml:space="preserve">
+    <value>At the ground</value>
+  </data>
+  <data name="Sky_Chart_Nm" xml:space="preserve">
+    <value>nm</value>
+  </data>
+  <data name="Sky_Chart_Noon" xml:space="preserve">
+    <value>noon today</value>
+  </data>
+  <data name="Sky_Chart_Scatter" xml:space="preserve">
+    <value>Scattering</value>
+  </data>
+  <data name="Sky_Chart_SkyLight" xml:space="preserve">
+    <value>Sky light</value>
+  </data>
+  <data name="Sky_Chart_Space" xml:space="preserve">
+    <value>In space</value>
+  </data>
+  <data name="Sky_Chart_SunDown" xml:space="preserve">
+    <value>Sun below the horizon</value>
+  </data>
+  <data name="Sky_Chart_Times" xml:space="preserve">
+    <value>violet: {0}× red</value>
+  </data>
+  <data name="Sky_Clock" xml:space="preserve">
+    <value>{0} · Sun {1}°</value>
+  </data>
+  <data name="Sky_Compass_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Sky_Compass_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Sky_Compass_NE" xml:space="preserve">
+    <value>NE</value>
+  </data>
+  <data name="Sky_Compass_NW" xml:space="preserve">
+    <value>NW</value>
+  </data>
+  <data name="Sky_Compass_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Sky_Compass_SE" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="Sky_Compass_SW" xml:space="preserve">
+    <value>SW</value>
+  </data>
+  <data name="Sky_Compass_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Sky_DragHint_Path" xml:space="preserve">
+    <value>Drag round the observer to move the Sun</value>
+  </data>
+  <data name="Sky_DragHint_Scattering" xml:space="preserve">
+    <value>Change the time of day to change how much air the light crosses</value>
+  </data>
+  <data name="Sky_DragHint_Sky" xml:space="preserve">
+    <value>Drag up or down in the sky to move the Sun</value>
+  </data>
+  <data name="Sky_Facts" xml:space="preserve">
+    <value>Did you know?</value>
+  </data>
+  <data name="Sky_Haze_Caption" xml:space="preserve">
+    <value>Haze and dust in the air</value>
+  </data>
+  <data name="Sky_Haze_Clean" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="Sky_Haze_Hazy" xml:space="preserve">
+    <value>Hazy</value>
+  </data>
+  <data name="Sky_Haze_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Sky_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Sky_Label_BeltOfVenus" xml:space="preserve">
+    <value>Belt of Venus</value>
+  </data>
+  <data name="Sky_Label_EarthShadow" xml:space="preserve">
+    <value>Earth's shadow</value>
+  </data>
+  <data name="Sky_Label_Sun" xml:space="preserve">
+    <value>Sun · {0}° up</value>
+  </data>
+  <data name="Sky_Label_SunBehind" xml:space="preserve">
+    <value>The Sun is behind you</value>
+  </data>
+  <data name="Sky_Label_SunBelow" xml:space="preserve">
+    <value>Sun {0}° below the horizon</value>
+  </data>
+  <data name="Sky_Label_SunShort" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Sky_Lesson_Path_Choice1" xml:space="preserve">
+    <value>About forty times as much</value>
+  </data>
+  <data name="Sky_Lesson_Path_Choice2" xml:space="preserve">
+    <value>About twice as much</value>
+  </data>
+  <data name="Sky_Lesson_Path_Choice3" xml:space="preserve">
+    <value>The same</value>
+  </data>
+  <data name="Sky_Lesson_Scatter_Choice1" xml:space="preserve">
+    <value>Orange and red</value>
+  </data>
+  <data name="Sky_Lesson_Scatter_Choice2" xml:space="preserve">
+    <value>Deep blue</value>
+  </data>
+  <data name="Sky_Lesson_Scatter_Choice3" xml:space="preserve">
+    <value>Bright white</value>
+  </data>
+  <data name="Sky_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Sky_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="Sky_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Sky_LookAway" xml:space="preserve">
+    <value>Turn your back to the Sun</value>
+  </data>
+  <data name="Sky_Mode_Path" xml:space="preserve">
+    <value>Path of light</value>
+  </data>
+  <data name="Sky_Mode_Scattering" xml:space="preserve">
+    <value>Scattering</value>
+  </data>
+  <data name="Sky_Mode_Sky" xml:space="preserve">
+    <value>Sky</value>
+  </data>
+  <data name="Sky_Obj_Air" xml:space="preserve">
+    <value>The air, drawn thick</value>
+  </data>
+  <data name="Sky_Obj_BeltOfVenus" xml:space="preserve">
+    <value>Belt of Venus</value>
+  </data>
+  <data name="Sky_Obj_Box" xml:space="preserve">
+    <value>The box of air</value>
+  </data>
+  <data name="Sky_Obj_EarthShadow" xml:space="preserve">
+    <value>Earth's shadow</value>
+  </data>
+  <data name="Sky_Obj_EndEye" xml:space="preserve">
+    <value>Looking at the Sun</value>
+  </data>
+  <data name="Sky_Obj_Overhead" xml:space="preserve">
+    <value>The air overhead</value>
+  </data>
+  <data name="Sky_Obj_Ray" xml:space="preserve">
+    <value>The path of sunlight</value>
+  </data>
+  <data name="Sky_Obj_SideEye" xml:space="preserve">
+    <value>Looking at the sky</value>
+  </data>
+  <data name="Sky_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Sky_Obj_SunBehind" xml:space="preserve">
+    <value>The Sun behind you</value>
+  </data>
+  <data name="Sky_Obj_You" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Sky_Path_Air" xml:space="preserve">
+    <value>Air drawn about {0}× too thick</value>
+  </data>
+  <data name="Sky_Path_Fact1" xml:space="preserve">
+    <value>With the Sun overhead its light crosses the air once; at 30° up, twice as much; on the horizon, about 38 times as much.</value>
+  </data>
+  <data name="Sky_Path_Fact2" xml:space="preserve">
+    <value>Squeezed to the density at sea level, all the air above you would be a layer only about 8 km thick.</value>
+  </data>
+  <data name="Sky_Path_Fact3" xml:space="preserve">
+    <value>The blue taken out of your sunset is not lost: it lights the sky for people further west, where the Sun is still higher.</value>
+  </data>
+  <data name="Sky_Path_Fact4" xml:space="preserve">
+    <value>Near the horizon the air bends sunlight up by about half a degree, the Sun's own width: when it seems to touch the horizon, it has already set. This chapter leaves the bending out.</value>
+  </data>
+  <data name="Sky_Path_Fact5" xml:space="preserve">
+    <value>In a total lunar eclipse the Moon turns red: the only sunlight reaching it is bent through the Earth's air, as if through every sunrise and sunset at once.</value>
+  </data>
+  <data name="Sky_Path_Grazing" xml:space="preserve">
+    <value>Sunlight skims over you and lights the air above</value>
+  </data>
+  <data name="Sky_Path_Length" xml:space="preserve">
+    <value>Crossing {0}× the air overhead</value>
+  </data>
+  <data name="Sky_Path_Note" xml:space="preserve">
+    <value>A slice through the Earth, its air drawn many times too thick (only the lowest 50 km, where nearly all of it is). The colours show the sunlight that reaches each point.</value>
+  </data>
+  <data name="Sky_Path_Overhead" xml:space="preserve">
+    <value>Sun overhead: only this much air</value>
+  </data>
+  <data name="Sky_Path_Subtitle" xml:space="preserve">
+    <value>At sunset the light crosses far more air, and loses its blue on the way</value>
+  </data>
+  <data name="Sky_Path_You" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Sky_Phase_Day_Description" xml:space="preserve">
+    <value>Sunlight crosses little air on its way down, so the Sun looks white. The air bounces a share of it aside, blue far more than red, and that light reaches you from every direction: the blue sky.</value>
+  </data>
+  <data name="Sky_Phase_Day_Title" xml:space="preserve">
+    <value>Day: a blue sky</value>
+  </data>
+  <data name="Sky_Phase_GoldenHour_Description" xml:space="preserve">
+    <value>The Sun is low and its light comes a long way through the air. Much of its blue is scattered out on the way, so the light left is yellow and warm, and shadows are long.</value>
+  </data>
+  <data name="Sky_Phase_GoldenHour_Title" xml:space="preserve">
+    <value>Golden hour</value>
+  </data>
+  <data name="Sky_Phase_NauticalTwilight_Description" xml:space="preserve">
+    <value>Only the highest air is still in sunlight. The sky turns deep blue and the brightest stars come out; once the Sun is 12° down it is dark enough to call it night.</value>
+  </data>
+  <data name="Sky_Phase_NauticalTwilight_Title" xml:space="preserve">
+    <value>Nautical twilight</value>
+  </data>
+  <data name="Sky_Phase_Night_Description" xml:space="preserve">
+    <value>The Sun is more than 12° below the horizon and hardly any sunlight is scattered towards you. The last glow (astronomical twilight) fades by 18°.</value>
+  </data>
+  <data name="Sky_Phase_Night_Title" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="Sky_Phase_Sunrise_Description" xml:space="preserve">
+    <value>The Sun's light skims along the ground through about 38 times as much air as straight overhead. Nearly all its blue and green is scattered out; orange and red get through, so the rising Sun is red.</value>
+  </data>
+  <data name="Sky_Phase_Sunrise_Title" xml:space="preserve">
+    <value>Sunrise</value>
+  </data>
+  <data name="Sky_Phase_Sunset_Description" xml:space="preserve">
+    <value>The Sun's light skims along the ground through about 38 times as much air as straight overhead. Nearly all its blue and green is scattered out; orange and red get through, so the setting Sun is red.</value>
+  </data>
+  <data name="Sky_Phase_Sunset_Title" xml:space="preserve">
+    <value>Sunset</value>
+  </data>
+  <data name="Sky_Phase_Twilight_Description" xml:space="preserve">
+    <value>The Sun is below the horizon but still lights the air high above you, so the sky stays bright: blue overhead, orange and red low on the Sun's side. Opposite it, the Earth's shadow lies on the air.</value>
+  </data>
+  <data name="Sky_Phase_Twilight_Title" xml:space="preserve">
+    <value>Civil twilight</value>
+  </data>
+  <data name="Sky_PlayPause" xml:space="preserve">
+    <value>Play / pause</value>
+  </data>
+  <data name="Sky_Scatter_Box" xml:space="preserve">
+    <value>Air: {0}× the air straight overhead</value>
+  </data>
+  <data name="Sky_Scatter_Box_Down" xml:space="preserve">
+    <value>Air: the Sun has set; about 38× the air overhead along the horizon</value>
+  </data>
+  <data name="Sky_Scatter_Caption" xml:space="preserve">
+    <value>How strongly each colour is scattered</value>
+  </data>
+  <data name="Sky_Scatter_EndEye" xml:space="preserve">
+    <value>Looking at the Sun: what is left</value>
+  </data>
+  <data name="Sky_Scatter_Note" xml:space="preserve">
+    <value>Bars: scattering by the air's molecules, as 1/λ⁴. Dashed: the light of the sky (sunlight times scattering), strongest in the blue; the dot is its colour.</value>
+  </data>
+  <data name="Sky_Scatter_SideEye" xml:space="preserve">
+    <value>Looking at the sky: the light scattered out</value>
+  </data>
+  <data name="Sky_Scattering_Fact1" xml:space="preserve">
+    <value>Nitrogen and oxygen molecules are about a thousand times smaller than a wavelength of light. Things that small scatter short waves far more strongly, as 1/λ⁴: Rayleigh scattering, worked out by Lord Rayleigh in 1871.</value>
+  </data>
+  <data name="Sky_Scattering_Fact2" xml:space="preserve">
+    <value>So violet light (400 nm) is scattered about 9 times as much as red (700 nm), and blue (450 nm) about 6 times as much.</value>
+  </data>
+  <data name="Sky_Scattering_Fact3" xml:space="preserve">
+    <value>Why not a violet sky? Sunlight has less violet than blue, some violet is absorbed high up, and our eyes are far less sensitive to it: the mix of scattered colours looks sky blue.</value>
+  </data>
+  <data name="Sky_Scattering_Fact4" xml:space="preserve">
+    <value>Clouds are white because their droplets are much bigger than a wavelength and scatter every colour almost equally.</value>
+  </data>
+  <data name="Sky_Scattering_Fact5" xml:space="preserve">
+    <value>Skylight is polarised, most strongly 90° from the Sun: polarising sunglasses make that part of the sky darker, and bees use the pattern to find their way.</value>
+  </data>
+  <data name="Sky_Scattering_Note" xml:space="preserve">
+    <value>The chance of each photon being scattered comes from the real values for air: the box stands for all the air the sunlight crosses at this time of day.</value>
+  </data>
+  <data name="Sky_Scattering_Subtitle" xml:space="preserve">
+    <value>The air bounces blue light aside far more than red</value>
+  </data>
+  <data name="Sky_Sky_Fact1" xml:space="preserve">
+    <value>Sunlight looks white because it is a mix of every colour. The blue of the sky is that same sunlight, bounced towards you by the air.</value>
+  </data>
+  <data name="Sky_Sky_Fact2" xml:space="preserve">
+    <value>After sunset, face east: a dark blue band rising from the horizon is the Earth's own shadow on the air, and the pink band above it, lit by red sunset light, is the belt of Venus.</value>
+  </data>
+  <data name="Sky_Sky_Fact3" xml:space="preserve">
+    <value>The sky overhead stays blue after sunset partly thanks to ozone: high up, it absorbs orange and yellow from the sunlight skimming over you.</value>
+  </data>
+  <data name="Sky_Sky_Fact4" xml:space="preserve">
+    <value>Dust, smoke and droplets scatter every colour alike, so hazy air makes a paler, whiter sky. Ash from big volcanic eruptions such as Krakatoa (1883) gave vivid red sunsets round the world.</value>
+  </data>
+  <data name="Sky_Sky_Fact5" xml:space="preserve">
+    <value>On Mars it is the other way round: fine dust makes the day sky butterscotch, and sunsets are blue, because the dust scatters blue light forward round the Sun.</value>
+  </data>
+  <data name="Sky_Sky_Note" xml:space="preserve">
+    <value>The sky is worked out from sunlight scattered by the air and haze, on an equinox day in {0} ({1}), in local solar time. The Sun is drawn about 6 times its real size.</value>
+  </data>
+  <data name="Sky_Sky_Subtitle" xml:space="preserve">
+    <value>Why is the sky blue, and the sunset red?</value>
+  </data>
+  <data name="Sky_Stat_AirMass" xml:space="preserve">
+    <value>Air crossed</value>
+  </data>
+  <data name="Sky_Stat_AirMass_Value" xml:space="preserve">
+    <value>{0}× the air overhead</value>
+  </data>
+  <data name="Sky_Stat_Altitude" xml:space="preserve">
+    <value>Sun's altitude</value>
+  </data>
+  <data name="Sky_Stat_Blue" xml:space="preserve">
+    <value>Blue getting through (450 nm)</value>
+  </data>
+  <data name="Sky_Stat_Haze" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="Sky_Stat_Red" xml:space="preserve">
+    <value>Red getting through (650 nm)</value>
+  </data>
+  <data name="Sky_Stat_SunColour" xml:space="preserve">
+    <value>The Sun looks</value>
+  </data>
+  <data name="Sky_Stat_SunDown" xml:space="preserve">
+    <value>the Sun is below the horizon</value>
+  </data>
+  <data name="Sky_Stat_Time" xml:space="preserve">
+    <value>Local solar time</value>
+  </data>
+  <data name="Sky_SunColour_Orange" xml:space="preserve">
+    <value>orange</value>
+  </data>
+  <data name="Sky_SunColour_Red" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="Sky_SunColour_White" xml:space="preserve">
+    <value>white</value>
+  </data>
+  <data name="Sky_SunColour_Yellow" xml:space="preserve">
+    <value>yellow</value>
+  </data>
+  <data name="Sky_SunColour_YellowWhite" xml:space="preserve">
+    <value>yellowish white</value>
+  </data>
+  <data name="Sky_Sunlight_Caption" xml:space="preserve">
+    <value>Sunlight reaching the ground</value>
+  </data>
+  <data name="Sky_Sunlight_Note" xml:space="preserve">
+    <value>Dashed: sunlight before it meets the air. Filled: what of it comes straight through. The lower the Sun, the more blue goes missing; the dot is the colour of what is left.</value>
+  </data>
+  <data name="Sky_Time_Afternoon" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="Sky_Time_Golden" xml:space="preserve">
+    <value>Golden hour</value>
+  </data>
+  <data name="Sky_Time_Noon" xml:space="preserve">
+    <value>Noon</value>
+  </data>
+  <data name="Sky_Time_Sunrise" xml:space="preserve">
+    <value>Sunrise</value>
+  </data>
+  <data name="Sky_Time_Sunset" xml:space="preserve">
+    <value>Sunset</value>
+  </data>
+  <data name="Sky_Time_Twilight" xml:space="preserve">
+    <value>Twilight</value>
+  </data>
+  <data name="Sky_Timeline" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="Sky_Title" xml:space="preserve">
+    <value>Why the sky is blue</value>
   </data>
   <data name="SolarSystem_Ariel_Description" xml:space="preserve">
     <value>Ariel has the brightest and probably the youngest surface of Uranus's large moons. Long fault valleys cut across it, and some areas look smoothed over by flows that may have been icy lava. Few large craters survive, suggesting it was resurfaced relatively recently.</value>
