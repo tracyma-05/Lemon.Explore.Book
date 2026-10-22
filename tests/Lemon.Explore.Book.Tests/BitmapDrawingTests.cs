@@ -17,14 +17,14 @@ public sealed class BitmapDrawingTests
     [AvaloniaFact]
     public void AHighDpiBitmap_IsDrawnWhole()
     {
-        // 100 × 100 pixels at 192 DPI is 50 × 50 DIPs; red over its top-left 25 × 25 DIPs.
+        // 100 × 100 pixels at 192 DPI is 50 × 50 DIPs; red over its top-left 25 × 25 DIPs (on a clear bitmap).
         var source = new RenderTargetBitmap(new PixelSize(100, 100), new Vector(192, 192));
         using (var dc = source.CreateDrawingContext(true))
         {
             dc.DrawRectangle(Brushes.Red, null, new Rect(0, 0, 25, 25));
         }
 
-        Assert.Equal((50, 50), RedExtent(source));
+        Assert.Equal((50, 50), DrawnExtent(source));
 
         var target = new RenderTargetBitmap(new PixelSize(50, 50), new Vector(96, 96));
         using (var dc = target.CreateDrawingContext(true))
@@ -32,7 +32,7 @@ public sealed class BitmapDrawingTests
             SpaceDrawing.DrawWhole(dc, source, new Rect(0, 0, 50, 50));
         }
 
-        Assert.Equal((25, 25), RedExtent(target));
+        Assert.Equal((25, 25), DrawnExtent(target));
     }
 
     [AvaloniaFact]
@@ -41,7 +41,7 @@ public sealed class BitmapDrawingTests
         // 40 × 40 DIPs at 2 pixels per DIP; red over the top-left 10 × 10 DIPs.
         var bitmap = SpaceDrawing.RenderToBitmap(40, 40, 2, dc => dc.DrawRectangle(Brushes.Red, null, new Rect(0, 0, 10, 10)));
         Assert.Equal(new PixelSize(80, 80), bitmap.PixelSize);
-        Assert.Equal((20, 20), RedExtent(bitmap));
+        Assert.Equal((20, 20), DrawnExtent(bitmap));
 
         // Drawn over 40 × 40 DIPs, all of it shows.
         var target = new RenderTargetBitmap(new PixelSize(40, 40), new Vector(96, 96));
@@ -50,11 +50,11 @@ public sealed class BitmapDrawingTests
             dc.DrawImage(bitmap, new Rect(0, 0, 40, 40));
         }
 
-        Assert.Equal((10, 10), RedExtent(target));
+        Assert.Equal((10, 10), DrawnExtent(target));
     }
 
-    /// <summary>How far the red reaches across and down, in pixels.</summary>
-    private static (int Width, int Height) RedExtent(RenderTargetBitmap bitmap)
+    /// <summary>How far what is drawn reaches across and down, in pixels.</summary>
+    private static (int Width, int Height) DrawnExtent(RenderTargetBitmap bitmap)
     {
         var (w, h) = (bitmap.PixelSize.Width, bitmap.PixelSize.Height);
         var pixels = new byte[w * h * 4];
@@ -73,7 +73,8 @@ public sealed class BitmapDrawingTests
         {
             for (var x = 0; x < w; x++)
             {
-                if (pixels[(((y * w) + x) * 4) + 2] > 128)
+                // Alpha: the fourth byte in BGRA and RGBA alike (the platforms differ); the rest is clear.
+                if (pixels[(((y * w) + x) * 4) + 3] > 128)
                 {
                     right = Math.Max(right, x + 1);
                     bottom = Math.Max(bottom, y + 1);
