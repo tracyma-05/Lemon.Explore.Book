@@ -6,6 +6,7 @@ using Lemon.Explore.Book.Chapters.Earthquakes;
 using Lemon.Explore.Book.Chapters.Eclipses;
 using Lemon.Explore.Book.Chapters.Expansion;
 using Lemon.Explore.Book.Chapters.Greenhouse;
+using Lemon.Explore.Book.Chapters.IceAges;
 using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Chapters.Lightning;
 using Lemon.Explore.Book.Chapters.MoonPhases;
@@ -31,7 +32,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -212,6 +213,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, volcano.Lesson, () => volcano.Mode.ToString(), Enum.GetNames<VolcanoMode>());
                 return (new VolcanoTextPageViewModel(textPage, navigator, chapter, number, volcano),
                     new VolcanoDiagramPageViewModel(textPage + 1, navigator, chapter, volcano));
+            }
+
+            case "Ice-Ages":
+            {
+                var ice = new IceAgeViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, ice.Lesson, () => ice.Mode.ToString(), Enum.GetNames<IceAgeMode>());
+                return (new IceAgeTextPageViewModel(textPage, navigator, chapter, number, ice),
+                    new IceAgeDiagramPageViewModel(textPage + 1, navigator, chapter, ice));
             }
 
             default:

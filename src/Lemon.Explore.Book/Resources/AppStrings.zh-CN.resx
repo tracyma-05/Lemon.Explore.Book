@@ -5049,6 +5049,723 @@
   <data name="HowTo_Turn" xml:space="preserve">
     <value>翻页：拖动书页外侧的边缘，或者点一下它，也可以按键盘上的左右方向键。</value>
   </data>
+  <data name="Ice_Chart_Future" xml:space="preserve">
+    <value>未来（不算人类排放）</value>
+  </data>
+  <data name="Ice_Chart_GroundLine" xml:space="preserve">
+    <value>地面下沉</value>
+  </data>
+  <data name="Ice_Chart_Ice" xml:space="preserve">
+    <value>北半球冰量（末次盛冰期 = 1）和海平面</value>
+  </data>
+  <data name="Ice_Chart_IceLine" xml:space="preserve">
+    <value>冰量</value>
+  </data>
+  <data name="Ice_Chart_IceShare" xml:space="preserve">
+    <value>冰量（末次盛冰期 = 1）</value>
+  </data>
+  <data name="Ice_Chart_Latitude" xml:space="preserve">
+    <value>纬度</value>
+  </data>
+  <data name="Ice_Chart_Month" xml:space="preserve">
+    <value>月份</value>
+  </data>
+  <data name="Ice_Chart_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="Ice_Chart_Orbit_Caption" xml:space="preserve">
+    <value>夏至日照：从赤道到北极</value>
+  </data>
+  <data name="Ice_Chart_Orbit_Note" xml:space="preserve">
+    <value>金色：所选时间（只让所选的周期变化）；虚线：今天。变化最大的是高纬度。</value>
+  </data>
+  <data name="Ice_Chart_OutOfWindow" xml:space="preserve">
+    <value>所选时间不在这张图的范围内</value>
+  </data>
+  <data name="Ice_Chart_Sheet_Caption" xml:space="preserve">
+    <value>末次冰期：冰和冰下的地面</value>
+  </data>
+  <data name="Ice_Chart_Sheet_Note" xml:space="preserve">
+    <value>白色：冰量；橙色：地面下沉了多少（换算成它“追上”的冰量）。地面要落后几千年。点或拖动可以穿越时间。</value>
+  </data>
+  <data name="Ice_Chart_Sunshine" xml:space="preserve">
+    <value>北纬 65° 夏至日照（W/m²）</value>
+  </data>
+  <data name="Ice_Chart_Sunshine_Caption" xml:space="preserve">
+    <value>北纬 65° 一年中的日照</value>
+  </data>
+  <data name="Ice_Chart_Sunshine_Note" xml:space="preserve">
+    <value>金色：所选时间；虚线：今天。近日点落在北半球夏天时，夏天的峰值更高，冬天更低。</value>
+  </data>
+  <data name="Ice_Chart_Tick" xml:space="preserve">
+    <value>{0}万</value>
+  </data>
+  <data name="Ice_Chart_TickUnit" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Ice_Chart_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Ice_Chart_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Ice_Chart_Wm2" xml:space="preserve">
+    <value>W/m²</value>
+  </data>
+  <data name="Ice_Cycle_All" xml:space="preserve">
+    <value>三个一起</value>
+  </data>
+  <data name="Ice_Cycle_All_Text" xml:space="preserve">
+    <value>轨道的偏心率、地轴的倾角和岁差同时在变，各有各的节奏。叠在一起，北方高纬度的夏季日照会上下变化约 10%，冰期的节奏就是这样来的。</value>
+  </data>
+  <data name="Ice_Cycle_All_Title" xml:space="preserve">
+    <value>三个周期叠在一起</value>
+  </data>
+  <data name="Ice_Cycle_Caption" xml:space="preserve">
+    <value>让哪个周期变化</value>
+  </data>
+  <data name="Ice_Cycle_Eccentricity" xml:space="preserve">
+    <value>偏心率</value>
+  </data>
+  <data name="Ice_Cycle_Eccentricity_Text" xml:space="preserve">
+    <value>木星和土星的引力让地球轨道在接近正圆和略扁之间来回变化，周期约 10 万年和 40.5 万年。它自己几乎不改变一年的总日照，但决定了岁差的作用有多大。</value>
+  </data>
+  <data name="Ice_Cycle_Eccentricity_Title" xml:space="preserve">
+    <value>轨道的偏心率</value>
+  </data>
+  <data name="Ice_Cycle_Precession" xml:space="preserve">
+    <value>岁差</value>
+  </data>
+  <data name="Ice_Cycle_Precession_Text" xml:space="preserve">
+    <value>地轴像陀螺一样慢慢转圈，近日点的日期因此在一年中移动：现在在 1 月初，1.1 万年前在北半球的夏天。夏天恰好遇上近日点时，北半球夏天最强。</value>
+  </data>
+  <data name="Ice_Cycle_Precession_Title" xml:space="preserve">
+    <value>地轴的摆动（岁差）</value>
+  </data>
+  <data name="Ice_Cycle_Tilt" xml:space="preserve">
+    <value>倾角</value>
+  </data>
+  <data name="Ice_Cycle_Tilt_Text" xml:space="preserve">
+    <value>每 4.1 万年，地轴在 22.1° 和 24.5° 之间来回。倾角大时，两极夏天阳光更多、冬天更少：四季更分明，夏天融化的雪也更多。</value>
+  </data>
+  <data name="Ice_Cycle_Tilt_Title" xml:space="preserve">
+    <value>地轴的倾角</value>
+  </data>
+  <data name="Ice_Date_Format" xml:space="preserve">
+    <value>M月d日</value>
+  </data>
+  <data name="Ice_Distance_Digits" xml:space="preserve">
+    <value>0.000</value>
+  </data>
+  <data name="Ice_Distance_Unit" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Ice_Facts" xml:space="preserve">
+    <value>知识点</value>
+  </data>
+  <data name="Ice_Gauge_Held" xml:space="preserve">
+    <value>保持今天的值</value>
+  </data>
+  <data name="Ice_Gauge_PerihelionDate" xml:space="preserve">
+    <value>近日点在{0}</value>
+  </data>
+  <data name="Ice_Gauge_Stretch" xml:space="preserve">
+    <value>偏心率（轨道有多扁）</value>
+  </data>
+  <data name="Ice_Gauge_StretchPeriod" xml:space="preserve">
+    <value>周期约 10 万年和 40.5 万年</value>
+  </data>
+  <data name="Ice_Gauge_StretchValue" xml:space="preserve">
+    <value>e = {0}</value>
+  </data>
+  <data name="Ice_Gauge_Tilt" xml:space="preserve">
+    <value>倾角（地轴有多斜）</value>
+  </data>
+  <data name="Ice_Gauge_TiltPeriod" xml:space="preserve">
+    <value>约 4.1 万年在 22.1° 和 24.5° 间来回</value>
+  </data>
+  <data name="Ice_Gauge_TiltValue" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Ice_Gauge_Times" xml:space="preserve">
+    <value>变化 ×{0}</value>
+  </data>
+  <data name="Ice_Gauge_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Ice_Gauge_Wobble" xml:space="preserve">
+    <value>岁差（地轴的摆动）</value>
+  </data>
+  <data name="Ice_Gauge_WobblePeriod" xml:space="preserve">
+    <value>地轴约 2.6 万年转一圈</value>
+  </data>
+  <data name="Ice_Hint_Orbit" xml:space="preserve">
+    <value>左右拖动，或沿时间条拖动，就能穿越时间。点一个仪表，只看那一个周期。</value>
+  </data>
+  <data name="Ice_Hint_Sheet" xml:space="preserve">
+    <value>左右拖动，或沿时间条拖动，就能穿越时间。点雪线、地面或海岸看看。</value>
+  </data>
+  <data name="Ice_Hint_Sunshine" xml:space="preserve">
+    <value>沿任一张图拖动就能穿越时间。点红色数字，跳到那次冰期结束的时候。</value>
+  </data>
+  <data name="Ice_Jump_Eemian" xml:space="preserve">
+    <value>12.5万年前</value>
+  </data>
+  <data name="Ice_Jump_Inception" xml:space="preserve">
+    <value>11.5万年前</value>
+  </data>
+  <data name="Ice_Jump_Lgm" xml:space="preserve">
+    <value>2.1万年前</value>
+  </data>
+  <data name="Ice_Jump_Next" xml:space="preserve">
+    <value>5.5万年后</value>
+  </data>
+  <data name="Ice_Jump_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Ice_Lesson_Orbit_Choice1" xml:space="preserve">
+    <value>更暖：极地附近阳光更多</value>
+  </data>
+  <data name="Ice_Lesson_Orbit_Choice2" xml:space="preserve">
+    <value>更冷：太阳离得更远</value>
+  </data>
+  <data name="Ice_Lesson_Orbit_Choice3" xml:space="preserve">
+    <value>完全没变化</value>
+  </data>
+  <data name="Ice_Lesson_Sheet_Choice1" xml:space="preserve">
+    <value>它反射阳光，而且顶部又高又冷</value>
+  </data>
+  <data name="Ice_Lesson_Sheet_Choice2" xml:space="preserve">
+    <value>它让太阳变弱</value>
+  </data>
+  <data name="Ice_Lesson_Sheet_Choice3" xml:space="preserve">
+    <value>它把地球推离太阳</value>
+  </data>
+  <data name="Ice_Lesson_Sunshine_Choice1" xml:space="preserve">
+    <value>雪整个夏天都不化，一年年堆起来</value>
+  </data>
+  <data name="Ice_Lesson_Sunshine_Choice2" xml:space="preserve">
+    <value>冰会融化掉</value>
+  </data>
+  <data name="Ice_Lesson_Sunshine_Choice3" xml:space="preserve">
+    <value>没影响：夏天无所谓</value>
+  </data>
+  <data name="Ice_Map_65" xml:space="preserve">
+    <value>北纬 65°</value>
+  </data>
+  <data name="Ice_Map_America" xml:space="preserve">
+    <value>北美</value>
+  </data>
+  <data name="Ice_Map_Asia" xml:space="preserve">
+    <value>亚洲</value>
+  </data>
+  <data name="Ice_Map_Europe" xml:space="preserve">
+    <value>欧洲</value>
+  </data>
+  <data name="Ice_Map_Fennoscandian" xml:space="preserve">
+    <value>芬诺斯堪的亚冰盖</value>
+  </data>
+  <data name="Ice_Map_Greenland" xml:space="preserve">
+    <value>格陵兰</value>
+  </data>
+  <data name="Ice_Map_Laurentide" xml:space="preserve">
+    <value>劳伦泰德冰盖</value>
+  </data>
+  <data name="Ice_Map_Pole" xml:space="preserve">
+    <value>北极</value>
+  </data>
+  <data name="Ice_Map_SeaIce" xml:space="preserve">
+    <value>夏季海冰</value>
+  </data>
+  <data name="Ice_Map_SunMeter" xml:space="preserve">
+    <value>北纬 65° 夏至：{0} W/m²（比今天 {1}）</value>
+  </data>
+  <data name="Ice_Mode_Orbit" xml:space="preserve">
+    <value>三种轨道变化</value>
+  </data>
+  <data name="Ice_Mode_Sheet" xml:space="preserve">
+    <value>冰盖剖面</value>
+  </data>
+  <data name="Ice_Mode_Sunshine" xml:space="preserve">
+    <value>日照与冰盖</value>
+  </data>
+  <data name="Ice_Moment_Eemian" xml:space="preserve">
+    <value>末次间冰期</value>
+  </data>
+  <data name="Ice_Moment_Lgm" xml:space="preserve">
+    <value>末次盛冰期</value>
+  </data>
+  <data name="Ice_Moment_Mis11" xml:space="preserve">
+    <value>漫长的间冰期</value>
+  </data>
+  <data name="Ice_Month_Format" xml:space="preserve">
+    <value>M月</value>
+  </data>
+  <data name="Ice_Obj_Aphelion" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Ice_Obj_Axis" xml:space="preserve">
+    <value>地轴</value>
+  </data>
+  <data name="Ice_Obj_Co2" xml:space="preserve">
+    <value>二氧化碳与温度</value>
+  </data>
+  <data name="Ice_Obj_Coast" xml:space="preserve">
+    <value>海岸与海平面</value>
+  </data>
+  <data name="Ice_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Ice_Obj_Eccentricity" xml:space="preserve">
+    <value>偏心率</value>
+  </data>
+  <data name="Ice_Obj_Fennoscandian" xml:space="preserve">
+    <value>芬诺斯堪的亚冰盖</value>
+  </data>
+  <data name="Ice_Obj_Future" xml:space="preserve">
+    <value>未来</value>
+  </data>
+  <data name="Ice_Obj_Globe" xml:space="preserve">
+    <value>从北极上空看</value>
+  </data>
+  <data name="Ice_Obj_Greenland" xml:space="preserve">
+    <value>格陵兰冰盖</value>
+  </data>
+  <data name="Ice_Obj_Ground" xml:space="preserve">
+    <value>被压下的地面</value>
+  </data>
+  <data name="Ice_Obj_Hudson" xml:space="preserve">
+    <value>哈德孙湾</value>
+  </data>
+  <data name="Ice_Obj_IceChart" xml:space="preserve">
+    <value>冰量的变化</value>
+  </data>
+  <data name="Ice_Obj_Laurentide" xml:space="preserve">
+    <value>劳伦泰德冰盖</value>
+  </data>
+  <data name="Ice_Obj_Melt" xml:space="preserve">
+    <value>边缘的融化</value>
+  </data>
+  <data name="Ice_Obj_Now" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Ice_Obj_Orbit" xml:space="preserve">
+    <value>地球轨道</value>
+  </data>
+  <data name="Ice_Obj_Perihelion" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Ice_Obj_PoleStar" xml:space="preserve">
+    <value>岁差与北极星</value>
+  </data>
+  <data name="Ice_Obj_Reflect" xml:space="preserve">
+    <value>被反射的阳光</value>
+  </data>
+  <data name="Ice_Obj_Ring65" xml:space="preserve">
+    <value>北纬 65°</value>
+  </data>
+  <data name="Ice_Obj_SeaIce" xml:space="preserve">
+    <value>海冰</value>
+  </data>
+  <data name="Ice_Obj_Sheet" xml:space="preserve">
+    <value>冰盖</value>
+  </data>
+  <data name="Ice_Obj_SnowLine" xml:space="preserve">
+    <value>雪线</value>
+  </data>
+  <data name="Ice_Obj_Snowfall" xml:space="preserve">
+    <value>降雪</value>
+  </data>
+  <data name="Ice_Obj_Strip" xml:space="preserve">
+    <value>时间条</value>
+  </data>
+  <data name="Ice_Obj_SummerHalf" xml:space="preserve">
+    <value>一年的两个半年</value>
+  </data>
+  <data name="Ice_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Ice_Obj_SunMeter" xml:space="preserve">
+    <value>夏季日照表</value>
+  </data>
+  <data name="Ice_Obj_SunRays" xml:space="preserve">
+    <value>夏天的阳光</value>
+  </data>
+  <data name="Ice_Obj_SunshineChart" xml:space="preserve">
+    <value>夏季日照的变化</value>
+  </data>
+  <data name="Ice_Obj_Terminations" xml:space="preserve">
+    <value>冰期的结束</value>
+  </data>
+  <data name="Ice_Obj_Tilt" xml:space="preserve">
+    <value>倾角</value>
+  </data>
+  <data name="Ice_Option_Arrows" xml:space="preserve">
+    <value>阳光、降雪和融化</value>
+  </data>
+  <data name="Ice_Option_Exaggerate" xml:space="preserve">
+    <value>放大显示</value>
+  </data>
+  <data name="Ice_Option_Ground" xml:space="preserve">
+    <value>地面下沉</value>
+  </data>
+  <data name="Ice_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Ice_Option_Terminations" xml:space="preserve">
+    <value>冰期结束点</value>
+  </data>
+  <data name="Ice_Orbit_Aphelion" xml:space="preserve">
+    <value>远日点 · {0} · {1}</value>
+  </data>
+  <data name="Ice_Orbit_AphelionShort" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Ice_Orbit_Fact1" xml:space="preserve">
+    <value>塞尔维亚工程师米卢廷·米兰科维奇在 20 世纪 20—30 年代，用手算出了这些周期和它们带来的日照变化。</value>
+  </data>
+  <data name="Ice_Orbit_Fact2" xml:space="preserve">
+    <value>地球 1 月初离太阳最近（1.47 亿千米），7 月初最远（1.52 亿千米），1 月的阳光约强 7%。</value>
+  </data>
+  <data name="Ice_Orbit_Fact3" xml:space="preserve">
+    <value>地轴倾角在慢慢变小：约 1 万年前是 24.2°，现在是 23.44°。</value>
+  </data>
+  <data name="Ice_Orbit_Fact4" xml:space="preserve">
+    <value>因为地轴在摆动，北极星会换：建金字塔时是右枢，现在是北极星（勾陈一），约 1.2 万年后是织女星。</value>
+  </data>
+  <data name="Ice_Orbit_Fact5" xml:space="preserve">
+    <value>1976 年，海斯、因布里和沙克尔顿在海底泥芯里找到了同样的 10 万年、4.1 万年和 2.3 万年节律，称之为“冰期的起搏器”。</value>
+  </data>
+  <data name="Ice_Orbit_Note" xml:space="preserve">
+    <value>斜着看的轨道。打开“放大显示”时，偏心率画大 5 倍，倾角的变化画大 3 倍；日期和距离是真实的。</value>
+  </data>
+  <data name="Ice_Orbit_Panel_Note" xml:space="preserve">
+    <value>只选一个周期时，另外两个保持今天的值，这样能单独看出它的作用。</value>
+  </data>
+  <data name="Ice_Orbit_Perihelion" xml:space="preserve">
+    <value>近日点 · {0} · {1}</value>
+  </data>
+  <data name="Ice_Orbit_PerihelionShort" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Ice_Orbit_Subtitle" xml:space="preserve">
+    <value>地球轨道会变扁变圆，地轴会倾斜、会摆动</value>
+  </data>
+  <data name="Ice_Orbit_SummerHalf" xml:space="preserve">
+    <value>春分 → 秋分：{0} 天</value>
+  </data>
+  <data name="Ice_Orbit_WinterHalf" xml:space="preserve">
+    <value>秋分 → 春分：{0} 天</value>
+  </data>
+  <data name="Ice_Place_Arctic" xml:space="preserve">
+    <value>北极群岛</value>
+  </data>
+  <data name="Ice_Place_Chicago" xml:space="preserve">
+    <value>芝加哥</value>
+  </data>
+  <data name="Ice_Place_Gulf" xml:space="preserve">
+    <value>墨西哥湾岸</value>
+  </data>
+  <data name="Ice_Place_Hudson" xml:space="preserve">
+    <value>哈德孙湾</value>
+  </data>
+  <data name="Ice_Place_Shield" xml:space="preserve">
+    <value>加拿大地盾</value>
+  </data>
+  <data name="Ice_Place_StLouis" xml:space="preserve">
+    <value>圣路易斯</value>
+  </data>
+  <data name="Ice_PlayPause" xml:space="preserve">
+    <value>播放或暂停时间</value>
+  </data>
+  <data name="Ice_Season_Autumn" xml:space="preserve">
+    <value>秋分</value>
+  </data>
+  <data name="Ice_Season_Spring" xml:space="preserve">
+    <value>春分</value>
+  </data>
+  <data name="Ice_Season_Summer" xml:space="preserve">
+    <value>夏至</value>
+  </data>
+  <data name="Ice_Season_Winter" xml:space="preserve">
+    <value>冬至</value>
+  </data>
+  <data name="Ice_Sheet_Co2" xml:space="preserve">
+    <value>CO₂ {0} ppm · 全球 {1} °C</value>
+  </data>
+  <data name="Ice_Sheet_Coast" xml:space="preserve">
+    <value>海岸 · 海平面 {0} 米</value>
+  </data>
+  <data name="Ice_Sheet_Fact1" xml:space="preserve">
+    <value>劳伦泰德冰盖最大时覆盖了加拿大大部分地区，向南越过芝加哥；哈德孙湾上空的冰厚超过 3 千米。</value>
+  </data>
+  <data name="Ice_Sheet_Fact2" xml:space="preserve">
+    <value>冰离开已经 1 万年了，哈德孙湾一带的地面仍在以每年约 1 厘米的速度上升。</value>
+  </data>
+  <data name="Ice_Sheet_Fact3" xml:space="preserve">
+    <value>冰川挖出了五大湖，还留下了一道道沙石堆成的丘陵（冰碛），标出了冰盖边缘曾经的位置。</value>
+  </data>
+  <data name="Ice_Sheet_Fact4" xml:space="preserve">
+    <value>新雪能把约 80%—90% 的阳光反射回去，森林和海洋却会吸收约 90%。冰越多，地球越亮也越冷。</value>
+  </data>
+  <data name="Ice_Sheet_Fact5" xml:space="preserve">
+    <value>如果没有人类排放的二氧化碳，下一次冰期大约会在 5 万年后开始；有了这些排放，会晚得多。</value>
+  </data>
+  <data name="Ice_Sheet_Growing_Text" xml:space="preserve">
+    <value>雪线很低，冰面上落的雪比化掉的多。穹顶越来越厚、向南扩展，并慢慢把下面的地面压下去。</value>
+  </data>
+  <data name="Ice_Sheet_Growing_Title" xml:space="preserve">
+    <value>冰盖在增长</value>
+  </data>
+  <data name="Ice_Sheet_Height" xml:space="preserve">
+    <value>厚 {0} 千米</value>
+  </data>
+  <data name="Ice_Sheet_Melting_Text" xml:space="preserve">
+    <value>雪线升到了大部分冰面之上。冰盖边缘后退，融水流进大海；还被压着的地面开始重新上升。</value>
+  </data>
+  <data name="Ice_Sheet_Melting_Title" xml:space="preserve">
+    <value>冰盖在融化</value>
+  </data>
+  <data name="Ice_Sheet_None_Text" xml:space="preserve">
+    <value>夏天能化掉冬天所有的雪。冰盖曾经压着的地面还在慢慢回弹，海水来到今天的海岸。</value>
+  </data>
+  <data name="Ice_Sheet_None_Title" xml:space="preserve">
+    <value>这里没有冰盖</value>
+  </data>
+  <data name="Ice_Sheet_Note" xml:space="preserve">
+    <value>大约沿西经 88°，从墨西哥湾到北冰洋。高度画大约 600 倍；冰量用的是同一个模型。</value>
+  </data>
+  <data name="Ice_Sheet_Panel_Note" xml:space="preserve">
+    <value>冰盖的大小跟着模型的冰量变化；形状是冰在自身重量下摊开时的经典穹顶形。</value>
+  </data>
+  <data name="Ice_Sheet_SnowLine" xml:space="preserve">
+    <value>夏季雪线 {0} 米</value>
+  </data>
+  <data name="Ice_Sheet_Steady_Text" xml:space="preserve">
+    <value>顶上新增的雪和边缘的融化大致相当，冰盖暂时保持大小。</value>
+  </data>
+  <data name="Ice_Sheet_Steady_Title" xml:space="preserve">
+    <value>冰盖维持着</value>
+  </data>
+  <data name="Ice_Sheet_Subtitle" xml:space="preserve">
+    <value>穿过北美冰盖的一个剖面</value>
+  </data>
+  <data name="Ice_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Ice_Speed_Caption" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Ice_Speed_Fast" xml:space="preserve">
+    <value>每秒 2 万年</value>
+  </data>
+  <data name="Ice_Speed_Medium" xml:space="preserve">
+    <value>每秒 5000 年</value>
+  </data>
+  <data name="Ice_Speed_Slow" xml:space="preserve">
+    <value>每秒 1000 年</value>
+  </data>
+  <data name="Ice_Star_Deneb" xml:space="preserve">
+    <value>天津四</value>
+  </data>
+  <data name="Ice_Star_Polaris" xml:space="preserve">
+    <value>北极星</value>
+  </data>
+  <data name="Ice_Star_Thuban" xml:space="preserve">
+    <value>右枢</value>
+  </data>
+  <data name="Ice_Star_Vega" xml:space="preserve">
+    <value>织女星</value>
+  </data>
+  <data name="Ice_Stat_Co2" xml:space="preserve">
+    <value>空气中的 CO₂（模型）</value>
+  </data>
+  <data name="Ice_Stat_Eccentricity" xml:space="preserve">
+    <value>偏心率</value>
+  </data>
+  <data name="Ice_Stat_Halves" xml:space="preserve">
+    <value>春分→秋分 / 秋分→春分</value>
+  </data>
+  <data name="Ice_Stat_Height" xml:space="preserve">
+    <value>穹顶厚度</value>
+  </data>
+  <data name="Ice_Stat_Ice" xml:space="preserve">
+    <value>北半球冰量（相对末次盛冰期）</value>
+  </data>
+  <data name="Ice_Stat_NearFar" xml:space="preserve">
+    <value>近日点比远日点阳光强</value>
+  </data>
+  <data name="Ice_Stat_Perihelion" xml:space="preserve">
+    <value>近日点日期</value>
+  </data>
+  <data name="Ice_Stat_Sea" xml:space="preserve">
+    <value>海平面（与今天比）</value>
+  </data>
+  <data name="Ice_Stat_Sinking" xml:space="preserve">
+    <value>地面被压下</value>
+  </data>
+  <data name="Ice_Stat_SnowLine" xml:space="preserve">
+    <value>夏季雪线</value>
+  </data>
+  <data name="Ice_Stat_SouthEdge" xml:space="preserve">
+    <value>南缘</value>
+  </data>
+  <data name="Ice_Stat_State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Ice_Stat_Sunshine" xml:space="preserve">
+    <value>北纬 65° 夏至日照</value>
+  </data>
+  <data name="Ice_Stat_Temperature" xml:space="preserve">
+    <value>全球温度（与今天比，模型）</value>
+  </data>
+  <data name="Ice_Stat_Tilt" xml:space="preserve">
+    <value>倾角</value>
+  </data>
+  <data name="Ice_Stat_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Ice_StateName_FullGlacial" xml:space="preserve">
+    <value>冰期最盛</value>
+  </data>
+  <data name="Ice_StateName_Glacial" xml:space="preserve">
+    <value>冰期</value>
+  </data>
+  <data name="Ice_StateName_Interglacial" xml:space="preserve">
+    <value>温暖（间冰期）</value>
+  </data>
+  <data name="Ice_State_Full_Text" xml:space="preserve">
+    <value>冰盖巨大，海平面低得多，空气里的二氧化碳也少。这么大的冰盖反而脆弱：北纬 65° 的下一次强夏天会让它们迅速垮掉。</value>
+  </data>
+  <data name="Ice_State_Full_Title" xml:space="preserve">
+    <value>冰期最盛</value>
+  </data>
+  <data name="Ice_State_Growing_Text" xml:space="preserve">
+    <value>夏天太弱，化不掉冬天的雪，雪一年年堆积变成冰。冰盖从加拿大北部和斯堪的纳维亚铺开，海平面随之下降。</value>
+  </data>
+  <data name="Ice_State_Growing_Title" xml:space="preserve">
+    <value>冰在增长</value>
+  </data>
+  <data name="Ice_State_Holding_Text" xml:space="preserve">
+    <value>夏天稍微变强，冰少了一点，但还不足以结束冰期。巨大的冰盖等着下一次弱夏天，再继续长大。</value>
+  </data>
+  <data name="Ice_State_Holding_Title" xml:space="preserve">
+    <value>冰期中，暂时停住</value>
+  </data>
+  <data name="Ice_State_Melting_Text" xml:space="preserve">
+    <value>强烈的夏天让冰融化得比长出来快得多：不到 1 万年，冰盖就消失了，海平面上升 100 多米。</value>
+  </data>
+  <data name="Ice_State_Melting_Title" xml:space="preserve">
+    <value>冰期正在结束</value>
+  </data>
+  <data name="Ice_State_Warm_Text" xml:space="preserve">
+    <value>除了格陵兰，北方几乎没有冰盖，每年冬天的雪夏天都能化掉。直到北纬 65° 的夏天弱到雪能整年不化，温暖期才结束。</value>
+  </data>
+  <data name="Ice_State_Warm_Title" xml:space="preserve">
+    <value>温暖期（间冰期）</value>
+  </data>
+  <data name="Ice_Strip_Eccentricity" xml:space="preserve">
+    <value>轨道偏心率</value>
+  </data>
+  <data name="Ice_Strip_Ice" xml:space="preserve">
+    <value>北半球冰量</value>
+  </data>
+  <data name="Ice_Strip_Precession" xml:space="preserve">
+    <value>岁差（向上：近日点更靠近北半球夏天）</value>
+  </data>
+  <data name="Ice_Strip_Sunshine" xml:space="preserve">
+    <value>北纬 65° 夏至日照</value>
+  </data>
+  <data name="Ice_Strip_Tilt" xml:space="preserve">
+    <value>地轴倾角</value>
+  </data>
+  <data name="Ice_Sunshine_Fact1" xml:space="preserve">
+    <value>冰盖长在陆地上，而北纬 65° 附近的陆地大多在北美和欧亚大陆。所以决定冰期节奏的是北半球的夏天，而不是南半球。</value>
+  </data>
+  <data name="Ice_Sunshine_Fact2" xml:space="preserve">
+    <value>末次盛冰期（约 2.1 万年前），海平面低约 120 米：人们可以从西伯利亚走到阿拉斯加，从英国走到法国。</value>
+  </data>
+  <data name="Ice_Sunshine_Fact3" xml:space="preserve">
+    <value>南极冰芯里有 80 万年前的气泡：二氧化碳随冰期在约 180 到 280 ppm 之间起落。现在已超过 420 ppm。</value>
+  </data>
+  <data name="Ice_Sunshine_Fact4" xml:space="preserve">
+    <value>大约 100 万年前以前，冰期跟着倾角每 4.1 万年来一次。之后为什么变成约 10 万年一次，科学家仍在研究。</value>
+  </data>
+  <data name="Ice_Sunshine_Fact5" xml:space="preserve">
+    <value>本章的冰量是一个简单模型：冰期的时间基本对得上，但真实的冰还受二氧化碳、海洋和尘埃的影响。</value>
+  </data>
+  <data name="Ice_Sunshine_Note" xml:space="preserve">
+    <value>日照：北纬 65° 夏至那天大气顶的日平均日照（Berger 1978）。冰量：由日照推动的一个简单模型（Paillard 1998）。</value>
+  </data>
+  <data name="Ice_Sunshine_Panel_Note" xml:space="preserve">
+    <value>模型里：夏天一变弱就离开温暖期，冰慢慢长几万年；冰很多时，下一次强夏天一来，冰期就结束。</value>
+  </data>
+  <data name="Ice_Sunshine_Subtitle" xml:space="preserve">
+    <value>北方的夏天一变弱，冰盖就长起来</value>
+  </data>
+  <data name="Ice_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Ice_Time_Ago" xml:space="preserve">
+    <value>{0}年前</value>
+  </data>
+  <data name="Ice_Time_Ahead" xml:space="preserve">
+    <value>{0}年后</value>
+  </data>
+  <data name="Ice_Time_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Ice_Title" xml:space="preserve">
+    <value>冰期与米兰科维奇周期</value>
+  </data>
+  <data name="Ice_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Ice_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Ice_Value_Distance" xml:space="preserve">
+    <value>{0}亿千米</value>
+  </data>
+  <data name="Ice_Value_Halves" xml:space="preserve">
+    <value>{0} / {1} 天</value>
+  </data>
+  <data name="Ice_Value_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Ice_Value_Lat" xml:space="preserve">
+    <value>北纬 {0}°</value>
+  </data>
+  <data name="Ice_Value_LatN" xml:space="preserve">
+    <value>北纬 {0}°</value>
+  </data>
+  <data name="Ice_Value_M" xml:space="preserve">
+    <value>{0} 米</value>
+  </data>
+  <data name="Ice_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Ice_Value_Ppm" xml:space="preserve">
+    <value>{0} ppm</value>
+  </data>
+  <data name="Ice_Value_Sea" xml:space="preserve">
+    <value>海平面 {0} 米</value>
+  </data>
+  <data name="Ice_Value_Sunshine" xml:space="preserve">
+    <value>{0} W/m²（比今天 {1}）</value>
+  </data>
+  <data name="Ice_Value_Wm2" xml:space="preserve">
+    <value>{0} W/m²</value>
+  </data>
+  <data name="Ice_Years_Digits" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Ice_Years_Unit" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Ice_Years_UnitName" xml:space="preserve">
+    <value>万</value>
+  </data>
   <data name="Kepler_Areas_Fact1" xml:space="preserve">
     <value>开普勒其实先发现了这条定律（1609 年），那时他还不知道轨道是椭圆。</value>
   </data>
@@ -8123,6 +8840,204 @@
   </data>
   <data name="Narr_Hole_Shadow_10" xml:space="preserve">
     <value>现在轮到你了。在画面上上下拖动，改变观看的角度。当你从侧面看时，注意那道拱形是怎样升到顶上的。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Aphelion" xml:space="preserve">
+    <value>远日点是离太阳最远的位置，比近日点远五百万千米。现在它在 7 月初，所以北半球的夏天会温和一点。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Axis" xml:space="preserve">
+    <value>地球绕着这根倾斜的轴自转。一年里，轴始终指向同一个方向，于是南北半球轮流朝向太阳，这就有了四季。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Co2" xml:space="preserve">
+    <value>冰期时，寒冷的海洋从空气中吸收了二氧化碳。二氧化碳少了，温室效应变弱，整个世界就降温了大约六度。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Coast" xml:space="preserve">
+    <value>这些冰原本都是海水。所以冰一多，海平面就下降，最多能降一百二十米，海岸线也会向外推出去很远。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Earth" xml:space="preserve">
+    <value>这是正在绕太阳公转的地球。注意它的速度：离太阳近时跑得快，离得远时就慢下来。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Eccentricity" xml:space="preserve">
+    <value>偏心率说的是轨道有多扁。零就是正圆。木星和土星的引力让它慢慢变化，周期大约是十万年和四十万年。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Fennoscandian" xml:space="preserve">
+    <value>这个冰盖从斯堪的纳维亚向外铺开，盖住了波罗的海，一直延伸到英国和德国北部。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Future" xml:space="preserve">
+    <value>这是只考虑轨道时的未来：下一次冰期大约在五万年后开始。不过，人类排放的二氧化碳会把它推迟得更久。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Globe" xml:space="preserve">
+    <value>这是从北极正上方往下看的地球顶部。左边是北美，下边是欧洲，白色的地方就是冰。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Greenland" xml:space="preserve">
+    <value>格陵兰冰盖是北半球唯一一个，在今天这样温暖的时期也没有化掉的大冰盖。它是上一次冰期留下来的。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Ground" xml:space="preserve">
+    <value>几千米厚的冰非常重，能把地面压下去将近一千米。地面反应很慢，所以会持续下沉、或回升上千年。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Hudson" xml:space="preserve">
+    <value>哈德孙湾正好在古冰盖的正中央下方。直到今天，那里的地面还在以每年大约一厘米的速度上升。</value>
+  </data>
+  <data name="Narr_Ice_Obj_IceChart" xml:space="preserve">
+    <value>这里显示北方有多少冰，右边是海平面。看看它的形状：慢慢爬升，然后突然下跌。冰长得慢，化得快。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Laurentide" xml:space="preserve">
+    <value>劳伦泰德冰盖长在加拿大上空。最大时，它和今天的南极冰盖差不多大，厚度超过三千米。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Melt" xml:space="preserve">
+    <value>在低矮的南缘，天气暖到足以融化，融水流向大海。融化一旦超过降雪，冰盖就会缩小。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Now" xml:space="preserve">
+    <value>这条线就是今天。我们正处在一个叫全新世的温暖期里，它大约从一万一千年前开始。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Orbit" xml:space="preserve">
+    <value>地球轨道是椭圆，不过非常接近圆。金色的一半是北半球的春夏，蓝色的一半是秋冬。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Perihelion" xml:space="preserve">
+    <value>近日点是地球离太阳最近的位置。现在它在 1 月初，正是北半球的冬天。不过这个日期会在一年里慢慢移动。</value>
+  </data>
+  <data name="Narr_Ice_Obj_PoleStar" xml:space="preserve">
+    <value>像旋转的陀螺一样，地轴在天空中慢慢画出一个圆。现在它指向北极星附近，大约一万两千年后，会指向织女星附近。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Reflect" xml:space="preserve">
+    <value>白色的冰会把大部分阳光直接反射回太空，所以大冰盖能让自己保持寒冷。科学家把这叫作冰—反照率反馈。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Ring65" xml:space="preserve">
+    <value>这个圈是北纬六十五度。它穿过加拿大、斯堪的纳维亚和西伯利亚，正好是大冰盖生长的地方，所以科学家就在这里测量夏季日照。</value>
+  </data>
+  <data name="Narr_Ice_Obj_SeaIce" xml:space="preserve">
+    <value>冻结的海水漂在北冰洋上。冰期时，夏天的海冰向南延伸得远得多，让北方更亮、也更冷。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Sheet" xml:space="preserve">
+    <value>冰盖是一个几千米厚的冰穹。它在自身重量下向四周摊开，就像盘子里的一大团蜂蜜。</value>
+  </data>
+  <data name="Narr_Ice_Obj_SnowLine" xml:space="preserve">
+    <value>在雪线以上，冬天的雪能熬过整个夏天；雪线以下，雪就会化掉。夏天变弱，雪线就下降，雪便能在冰上越积越多。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Snowfall" xml:space="preserve">
+    <value>雪落在冰穹顶上，被后来的雪埋住，慢慢压成冰。冰盖就是这样长大的。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Strip" xml:space="preserve">
+    <value>这条时间条横跨九十万年，从八十万年前一直到十万年后。沿着它拖动，就能在时间里穿行。</value>
+  </data>
+  <data name="Narr_Ice_Obj_SummerHalf" xml:space="preserve">
+    <value>数一数从春分到秋分的天数，再数一数从秋分回到春分的。两者并不相等！地球离太阳远时走得最慢，所以那半年更长一些。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Sun" xml:space="preserve">
+    <value>太阳在轨道的一个焦点上，而不在正中间。所以一年里，地球有一段时间离它近一点，另一段时间远一点。</value>
+  </data>
+  <data name="Narr_Ice_Obj_SunMeter" xml:space="preserve">
+    <value>这个表显示北纬六十五度夏至的日照，以及和今天相比差多少。几十瓦听起来不多，可要是持续几千年，就决定了雪能不能留下来。</value>
+  </data>
+  <data name="Narr_Ice_Obj_SunRays" xml:space="preserve">
+    <value>这是夏至前后的阳光。阳光越强，能化掉的雪就越多。而它的强弱，是由地球轨道决定的。</value>
+  </data>
+  <data name="Narr_Ice_Obj_SunshineChart" xml:space="preserve">
+    <value>这条线是根据轨道算出来的北纬六十五度夏季日照。它跟着岁差快速起伏，起伏的大小又跟着偏心率变大变小。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Terminations" xml:space="preserve">
+    <value>每个红色数字标出一次大冰期的结束。你会发现，它们之间大约相隔十万年。每一次，都是强烈的夏天遇上了庞大又脆弱的冰盖。</value>
+  </data>
+  <data name="Narr_Ice_Obj_Tilt" xml:space="preserve">
+    <value>这是地轴的倾角。每四万一千年，它在大约二十二度到二十四度半之间来回摆。倾角越大，四季越分明，极地附近尤其明显。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_01" xml:space="preserve">
+    <value>你有没有想过，为什么会有冰期？答案要从太空说起，从地球绕太阳的旅程说起。看，这就是地球，一年绕太阳一圈。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_02" xml:space="preserve">
+    <value>这条轨道并不完全是圆，而是一个稍微拉长的椭圆。为了让你看清楚，这里把拉长的程度放大了五倍。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_03" xml:space="preserve">
+    <value>第一个周期是偏心率。时间飞快流过时，看看这个仪表。大约十万年里，轨道从接近正圆变得扁一些，然后又变回来。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_04" xml:space="preserve">
+    <value>第二个周期是倾角。地轴慢慢地来回摆动，大约每四万一千年一个来回。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_05" xml:space="preserve">
+    <value>来想一个问题：地轴倾斜得更厉害时，北极附近的夏天会怎么样？</value>
+  </data>
+  <data name="Narr_Ice_Orbit_06" xml:space="preserve">
+    <value>第三个周期是岁差。看看近日点，也就是离太阳最近的那一点。现在，地球在 1 月初经过它，正是北半球的隆冬。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_07" xml:space="preserve">
+    <value>现在跳回一万一千年前。近日点挪到了北半球的夏天！夏天正好离太阳最近，北半球的夏天就更强烈。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_08" xml:space="preserve">
+    <value>岁差还会让地轴在天空中转圈，就像旋转的陀螺。看，天极正慢慢地从一颗星移向另一颗星。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_09" xml:space="preserve">
+    <value>还有一个惊喜：数数一年两半各有多少天。因为 7 月地球离太阳远，北半球的春天和夏天要长大约一个星期。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_10" xml:space="preserve">
+    <value>现在把三个周期叠在一起。时间条显示的是它们带给遥远北方的夏季日照。十一万五千年前，日照降得很低，上一次冰期就开始了。</value>
+  </data>
+  <data name="Narr_Ice_Orbit_11" xml:space="preserve">
+    <value>轮到你了！沿着时间条拖动，找一找那些低谷。你能找到北方夏天最弱的时候吗？</value>
+  </data>
+  <data name="Narr_Ice_Sheet_01" xml:space="preserve">
+    <value>我们把两万一千年前的北美切开来看。这个白色的穹顶就是冰盖，厚度超过三千米。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_02" xml:space="preserve">
+    <value>这条虚线是夏季雪线。在它上面，雪能熬过夏天。夏天变弱时，雪线下降，就有更多的冰面落在它上方。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_03" xml:space="preserve">
+    <value>雪不停地落在高高的穹顶中部，被埋起来、压成冰，冰盖就这样长大了。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_04" xml:space="preserve">
+    <value>再看看阳光。阳光照到白色的冰上，大部分都直接被反射回了太空。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_05" xml:space="preserve">
+    <value>那么，有一个谜题：为什么大冰盖反而会帮助自己长得更大？</value>
+  </data>
+  <data name="Narr_Ice_Sheet_06" xml:space="preserve">
+    <value>还有一件事：冰实在太重了，把下面的地面压下去好几百米。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_07" xml:space="preserve">
+    <value>而这些冰都来自海洋。所以海平面下降，海岸线一直推进到墨西哥湾很远的地方。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_08" xml:space="preserve">
+    <value>现在跳到一万三千年前。夏天变强，雪线升高，冰盖边缘正在快速消退。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_09" xml:space="preserve">
+    <value>到了九千年前，大部分冰都已消失，可地面还被压着。它慢慢地回弹，在哈德孙湾一带，直到今天还在上升。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_10" xml:space="preserve">
+    <value>还有一个帮手：二氧化碳。冰期时空气里的二氧化碳更少，全世界都更冷，这帮了冰的忙；等它回升，又推动了融化。</value>
+  </data>
+  <data name="Narr_Ice_Sheet_11" xml:space="preserve">
+    <value>轮到你了！沿着时间条拖动，看冰盖怎样长大，又怎样融化。别忘了留意雪线和海岸线。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_01" xml:space="preserve">
+    <value>现在我们从北极正上方往下看。金色的圈是北纬六十五度，那里正是大冰盖生长的地方。这里夏天的阳光，就是关键所在。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_02" xml:space="preserve">
+    <value>这张图显示了八十万年来那里的夏季日照。它起起伏伏，变化大约有十分之一，全都是因为地球轨道。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_03" xml:space="preserve">
+    <value>我们回到十一万五千年前。看看日照表：那时北方的夏天比今天弱多了。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_04" xml:space="preserve">
+    <value>你觉得，如果夏天连续几千年都很弱，雪会怎么样？</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_05" xml:space="preserve">
+    <value>我们来看看它是怎么发生的。每年夏天都会剩下一点雪，一年又一年地堆积，一片冰盖就在加拿大铺展开来。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_06" xml:space="preserve">
+    <value>这是末次盛冰期，大约两万一千年前。冰多到海平面下降了大约一百二十米。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_07" xml:space="preserve">
+    <value>接着，夏天又变强了，冰融化的速度比长出来时快得多。红色数字就标出了每一次这样的大冰期结束的时刻。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_08" xml:space="preserve">
+    <value>看看整体的样子：慢慢爬升，再突然崩塌，大约每十万年一次。这就是冰期那锯齿一样的节奏。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_09" xml:space="preserve">
+    <value>而这里就是今天。我们正处在一个温暖期里，它大约开始于一万一千年前，那时最后的冰盖刚刚融化。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_10" xml:space="preserve">
+    <value>在这个只考虑轨道的简单模型里，下一次冰期大约在五万年后开始。不过，我们排放的二氧化碳会让它推迟得更久。</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_11" xml:space="preserve">
+    <value>轮到你了！沿着日照图拖动。看看夏天弱的时候冰盖怎么长大，夏天强的时候又怎么融化。</value>
   </data>
   <data name="Narr_Kepler_Areas_01" xml:space="preserve">
     <value>开普勒第二定律讲的是速度。想象从太阳到行星连一条线。行星往前走，这条线就像汽车的雨刷一样，在轨道里扫过去。</value>

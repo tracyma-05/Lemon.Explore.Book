@@ -265,6 +265,15 @@ class LateTests(unittest.TestCase):
         self.assertIn("foreach (var next in points) g.LineTo(next);", out)
         self.assertIn("ab.SquaredLength", out)
 
+    def test_rect_union_and_inflate_keep_their_result(self):
+        out = tool.convert_points("        box.Union(new Rect(x, y, 2, 2));\n        box.Inflate(4, 2);\n")
+        self.assertIn("box = box.Union(new Rect(x, y, 2, 2));", out)
+        self.assertIn("box = box.Inflate(new Thickness(4, 2));", out)
+
+    def test_explore_helpers_by_name(self):
+        out = tool.convert_late("        dc.DrawLine(Explore.ExploreTargets.GlowPen(now, 7), a, b);\n")
+        self.assertIn("dc.DrawLine(ExploreTargets.GlowPen(now, 7), a, b);", out)
+
     def test_split_top_ignores_lambda_arrow(self):
         args = tool.split_top("0.0, (d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)")
         self.assertEqual(["0.0", "(d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)"], args)

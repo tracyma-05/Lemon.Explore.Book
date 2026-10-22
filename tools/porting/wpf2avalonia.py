@@ -384,6 +384,11 @@ def convert_late(s: str) -> str:
     s = rewrite_initialized_gradients(s)
     s = rewrite_frozen_pens(s)
     s = s.replace(".LengthSquared", ".SquaredLength")
+    # The original reached its shared explore helpers as Explore.X from Controls.*; here they are imported by name.
+    if re.search(r"\bExplore\.(ExploreTargets|ObjectCard|LessonPanel)\.", s):
+        s = re.sub(r"\bExplore\.(ExploreTargets|ObjectCard|LessonPanel)\.", r"\1.", s)
+        if "using Lemon.Explore.Book.Controls.Explore;" not in s:
+            s = s.replace("using Avalonia;\n", "using Avalonia;\nusing Lemon.Explore.Book.Controls.Explore;\n", 1)
     s = re.sub(r"^(\s*)([\w.]+) = e\.Pointer\.Capture\(this\);$", r"\1e.Pointer.Capture(this);\n\1\2 = true;", s, flags=re.M)
     # A polyline added in one call: Avalonia's context takes the points one by one.
     s = re.sub(r"^(\s*)(\w+)\.PolyLineTo\((.+?), (?:true|false), (?:true|false)\);$",
@@ -890,6 +895,9 @@ def convert_points(s: str) -> str:
     s = re.sub(r"^(\s*)(\w+)\.Normalize\(\);$", r"\1\2 = \2.Normalize();", s, flags=re.M)
     # (and Rect.Offset moves the rect; Avalonia's Translate returns a moved one)
     s = re.sub(r"^(\s*)(\w+)\.Offset\((.+)\);$", r"\1\2 = \2.Translate(new Vector(\3));", s, flags=re.M)
+    # (so do Union, Intersect and Inflate; a Union with a point fails to compile and is fixed by hand)
+    s = re.sub(r"^(\s*)(\w+)\.(Union|Intersect)\((.+)\);$", r"\1\2 = \2.\3(\4);", s, flags=re.M)
+    s = re.sub(r"^(\s*)(\w+)\.Inflate\(([^;]+)\);$", r"\1\2 = \2.Inflate(new Thickness(\3));", s, flags=re.M)
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
     # (also after an `if (...)` on the same line). Not a variable also changed with `v.X +=`: that is one of the file's

@@ -1,0 +1,65 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:ice="using:Lemon.Explore.Book.Chapters.IceAges"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.IceAges.IceAgeDiagramPageView"
+                         x:DataType="ice:IceAgeDiagramPageViewModel">
+    <!-- Right page of the Ice ages spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <ice:IceAgeDiagram Mode="{Binding Ice.Mode}"
+                                   TimeKa="{Binding Ice.TimeKa, Mode=TwoWay}"
+                                   Speed="{Binding Ice.Speed}"
+                                   Cycle="{Binding Ice.Cycle, Mode=TwoWay}"
+                                   Exaggerate="{Binding Ice.Exaggerate}"
+                                   ShowTerminations="{Binding Ice.ShowTerminations}"
+                                   ShowArrows="{Binding Ice.ShowArrows}"
+                                   ShowGround="{Binding Ice.ShowGround}"
+                                   ShowLabels="{Binding Ice.ShowLabels}"
+                                   IsPlaying="{Binding Ice.IsPlaying, Mode=TwoWay}"
+                                   ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                   Highlight="{Binding Ice.Lesson.Highlight}"
+                                   IsLessonActive="{Binding Ice.Lesson.IsActive}"
+                                   SelectedObject="{Binding Ice.Card.Id, Mode=TwoWay}"
+                                   InteractionCommand="{Binding Ice.UserInteractedCommand}"
+                                   ToolTip.Tip="{Binding Ice.Hint}"
+                                   AutomationProperties.Name="{Binding Ice.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Ice.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Ice.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Ice.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Ice.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Ice_PlayPause}" AutomationProperties.Name="{loc:Localize Ice_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Ice.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Ice.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <TextBlock MinWidth="110" Margin="6,0,6,0" VerticalAlignment="Center" FontSize="13"
+                                       Foreground="{StaticResource SpaceText}" Text="{Binding Ice.TimeText}" />
+                            <ToggleButton Classes="space" IsChecked="{Binding Ice.ShowLabels}" Content="{loc:Localize Ice_Option_Labels}"
+                                          ToolTip.Tip="{loc:Localize Ice_Option_Labels}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

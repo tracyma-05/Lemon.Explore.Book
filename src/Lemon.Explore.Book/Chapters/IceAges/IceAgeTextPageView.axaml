@@ -1,0 +1,159 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:ice="using:Lemon.Explore.Book.Chapters.IceAges"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.IceAges.IceAgeTextPageView"
+                         x:DataType="ice:IceAgeTextPageViewModel">
+    <!-- Left page of the Ice ages spread: the time, the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Ice.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Ice.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Ice.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="IceAgeMode" IsChecked="{Binding Ice.IsOrbit}" Content="{loc:Localize Ice_Mode_Orbit}" />
+                    <RadioButton Classes="chip" GroupName="IceAgeMode" IsChecked="{Binding Ice.IsSunshine}" Content="{loc:Localize Ice_Mode_Sunshine}" />
+                    <RadioButton Classes="chip" GroupName="IceAgeMode" IsChecked="{Binding Ice.IsSheet}" Content="{loc:Localize Ice_Mode_Sheet}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Ice.Card}" />
+
+                <!-- When: the time, a few moments to jump to, how fast it runs -->
+                <DockPanel Margin="0,14,0,2">
+                    <SelectableTextBlock Classes="value" Text="{Binding Ice.TimeText}" />
+                    <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Ice_Time}" />
+                </DockPanel>
+                <Slider Minimum="-800" Maximum="100" Value="{Binding Ice.TimeKa}" SmallChange="1" LargeChange="10"
+                        AutomationProperties.Name="{loc:Localize Ice_Time}" />
+                <WrapPanel Margin="0,10,0,0">
+                    <Button Classes="chip" Command="{Binding Ice.JumpToCommand}" CommandParameter="0" Content="{loc:Localize Ice_Jump_Today}" />
+                    <Button Classes="chip" Command="{Binding Ice.JumpToCommand}" CommandParameter="-21" Content="{loc:Localize Ice_Jump_Lgm}" />
+                    <Button Classes="chip" Command="{Binding Ice.JumpToCommand}" CommandParameter="-115" Content="{loc:Localize Ice_Jump_Inception}" />
+                    <Button Classes="chip" Command="{Binding Ice.JumpToCommand}" CommandParameter="-125" Content="{loc:Localize Ice_Jump_Eemian}" />
+                    <Button Classes="chip" Command="{Binding Ice.JumpToCommand}" CommandParameter="55" Content="{loc:Localize Ice_Jump_Next}" />
+                </WrapPanel>
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Ice_Speed_Caption}" />
+                <WrapPanel>
+                    <RadioButton Classes="chip" GroupName="IceAgeSpeed" IsChecked="{Binding Ice.SpeedChoice[1]}" Content="{loc:Localize Ice_Speed_Slow}" />
+                    <RadioButton Classes="chip" GroupName="IceAgeSpeed" IsChecked="{Binding Ice.SpeedChoice[5]}" Content="{loc:Localize Ice_Speed_Medium}" />
+                    <RadioButton Classes="chip" GroupName="IceAgeSpeed" IsChecked="{Binding Ice.SpeedChoice[20]}" Content="{loc:Localize Ice_Speed_Fast}" />
+                </WrapPanel>
+
+                <!-- The orbit: which of its cycles to watch -->
+                <StackPanel IsVisible="{Binding Ice.IsOrbit}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Ice_Cycle_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="IceAgeCycle" IsChecked="{Binding Ice.CycleChoice[All]}" Content="{loc:Localize Ice_Cycle_All}" />
+                        <RadioButton Classes="chip" GroupName="IceAgeCycle" IsChecked="{Binding Ice.CycleChoice[Eccentricity]}" Content="{loc:Localize Ice_Cycle_Eccentricity}" />
+                        <RadioButton Classes="chip" GroupName="IceAgeCycle" IsChecked="{Binding Ice.CycleChoice[Tilt]}" Content="{loc:Localize Ice_Cycle_Tilt}" />
+                        <RadioButton Classes="chip" GroupName="IceAgeCycle" IsChecked="{Binding Ice.CycleChoice[Precession]}" Content="{loc:Localize Ice_Cycle_Precession}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Ice_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.Exaggerate}" Content="{loc:Localize Ice_Option_Exaggerate}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.ShowLabels}" Content="{loc:Localize Ice_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Ice_Orbit_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Summer sunshine in the north, and the ice that follows it -->
+                <StackPanel IsVisible="{Binding Ice.IsSunshine}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Ice_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.ShowTerminations}" Content="{loc:Localize Ice_Option_Terminations}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.ShowLabels}" Content="{loc:Localize Ice_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Ice_Sunshine_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The ice sheet: its flow and the land under it -->
+                <StackPanel IsVisible="{Binding Ice.IsSheet}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Ice_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.ShowArrows}" Content="{loc:Localize Ice_Option_Arrows}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.ShowGround}" Content="{loc:Localize Ice_Option_Ground}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Ice.ShowLabels}" Content="{loc:Localize Ice_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Ice_Sheet_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Ice.ChartCaption}" />
+                <Border Classes="plate" Height="190">
+                    <ice:IceAgeChart Mode="{Binding Ice.Mode}" TimeKa="{Binding Ice.TimeKa, Mode=TwoWay}" Cycle="{Binding Ice.Cycle}"
+                                     IsPlaying="{Binding Ice.IsPlaying, Mode=TwoWay}" InteractionCommand="{Binding Ice.UserInteractedCommand}"
+                                     AutomationProperties.Name="{Binding Ice.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Ice.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Ice.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Ice.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Ice.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Ice.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Ice_Facts}" />
+                <ItemsControl ItemsSource="{Binding Ice.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

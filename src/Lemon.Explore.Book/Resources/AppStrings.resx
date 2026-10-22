@@ -5049,6 +5049,723 @@
   <data name="HowTo_Turn" xml:space="preserve">
     <value>Turn a page: drag the outer edge of a page, click it, or press the left and right arrow keys.</value>
   </data>
+  <data name="Ice_Chart_Future" xml:space="preserve">
+    <value>future (without people's CO₂)</value>
+  </data>
+  <data name="Ice_Chart_GroundLine" xml:space="preserve">
+    <value>ground sunk</value>
+  </data>
+  <data name="Ice_Chart_Ice" xml:space="preserve">
+    <value>Northern ice (last glacial maximum = 1) and sea level</value>
+  </data>
+  <data name="Ice_Chart_IceLine" xml:space="preserve">
+    <value>ice</value>
+  </data>
+  <data name="Ice_Chart_IceShare" xml:space="preserve">
+    <value>ice (last maximum = 1)</value>
+  </data>
+  <data name="Ice_Chart_Latitude" xml:space="preserve">
+    <value>latitude</value>
+  </data>
+  <data name="Ice_Chart_Month" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="Ice_Chart_Now" xml:space="preserve">
+    <value>now</value>
+  </data>
+  <data name="Ice_Chart_Orbit_Caption" xml:space="preserve">
+    <value>Midsummer sunshine from the equator to the pole</value>
+  </data>
+  <data name="Ice_Chart_Orbit_Note" xml:space="preserve">
+    <value>Gold: the time shown, with only the chosen cycle changing. Dashed: today. Most of the change is near the pole.</value>
+  </data>
+  <data name="Ice_Chart_OutOfWindow" xml:space="preserve">
+    <value>the time shown is outside this window</value>
+  </data>
+  <data name="Ice_Chart_Sheet_Caption" xml:space="preserve">
+    <value>The last ice age: the ice and the ground under it</value>
+  </data>
+  <data name="Ice_Chart_Sheet_Note" xml:space="preserve">
+    <value>White: the ice. Orange: how far the ground has sunk, as the ice it has caught up with. The ground lags thousands of years behind. Click or drag to move through time.</value>
+  </data>
+  <data name="Ice_Chart_Sunshine" xml:space="preserve">
+    <value>Midsummer sunshine at 65° N (W/m²)</value>
+  </data>
+  <data name="Ice_Chart_Sunshine_Caption" xml:space="preserve">
+    <value>Sunshine at 65° N through the year</value>
+  </data>
+  <data name="Ice_Chart_Sunshine_Note" xml:space="preserve">
+    <value>Gold: the time shown. Dashed: today. When perihelion falls in northern summer, the summer peak is higher and the winter lower.</value>
+  </data>
+  <data name="Ice_Chart_Tick" xml:space="preserve">
+    <value>{0}k</value>
+  </data>
+  <data name="Ice_Chart_TickUnit" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ice_Chart_Time" xml:space="preserve">
+    <value>time</value>
+  </data>
+  <data name="Ice_Chart_Today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="Ice_Chart_Wm2" xml:space="preserve">
+    <value>W/m²</value>
+  </data>
+  <data name="Ice_Cycle_All" xml:space="preserve">
+    <value>All three</value>
+  </data>
+  <data name="Ice_Cycle_All_Text" xml:space="preserve">
+    <value>The orbit's stretch, the axis's tilt and its wobble all change at once, each at its own pace. Together they move the summer sunshine in the far north up and down by about 10%, and that is what paces the ice ages.</value>
+  </data>
+  <data name="Ice_Cycle_All_Title" xml:space="preserve">
+    <value>Three cycles at once</value>
+  </data>
+  <data name="Ice_Cycle_Caption" xml:space="preserve">
+    <value>Which cycle changes</value>
+  </data>
+  <data name="Ice_Cycle_Eccentricity" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="Ice_Cycle_Eccentricity_Text" xml:space="preserve">
+    <value>Jupiter and Saturn tug the orbit from nearly round to slightly oval and back, every 100,000 and 405,000 years. On its own it hardly changes the year's sunshine, but it decides how much the wobble matters.</value>
+  </data>
+  <data name="Ice_Cycle_Eccentricity_Title" xml:space="preserve">
+    <value>The stretch of the orbit</value>
+  </data>
+  <data name="Ice_Cycle_Precession" xml:space="preserve">
+    <value>Wobble</value>
+  </data>
+  <data name="Ice_Cycle_Precession_Text" xml:space="preserve">
+    <value>The axis turns round like a spinning top's, so the date of perihelion moves through the year: now early January, 11,000 years ago in northern summer. Northern summers are strongest when they come at perihelion.</value>
+  </data>
+  <data name="Ice_Cycle_Precession_Title" xml:space="preserve">
+    <value>The wobble of the axis</value>
+  </data>
+  <data name="Ice_Cycle_Tilt" xml:space="preserve">
+    <value>Tilt</value>
+  </data>
+  <data name="Ice_Cycle_Tilt_Text" xml:space="preserve">
+    <value>Every 41,000 years the axis leans from 22.1° to 24.5° and back. A bigger tilt gives the poles more summer sun and less winter sun: stronger seasons, and summers that melt more snow.</value>
+  </data>
+  <data name="Ice_Cycle_Tilt_Title" xml:space="preserve">
+    <value>The tilt of the axis</value>
+  </data>
+  <data name="Ice_Date_Format" xml:space="preserve">
+    <value>MMM d</value>
+  </data>
+  <data name="Ice_Distance_Digits" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="Ice_Distance_Unit" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ice_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Ice_Gauge_Held" xml:space="preserve">
+    <value>held at today's</value>
+  </data>
+  <data name="Ice_Gauge_PerihelionDate" xml:space="preserve">
+    <value>perihelion on {0}</value>
+  </data>
+  <data name="Ice_Gauge_Stretch" xml:space="preserve">
+    <value>Stretch (eccentricity)</value>
+  </data>
+  <data name="Ice_Gauge_StretchPeriod" xml:space="preserve">
+    <value>cycles of about 100,000 and 405,000 years</value>
+  </data>
+  <data name="Ice_Gauge_StretchValue" xml:space="preserve">
+    <value>e = {0}</value>
+  </data>
+  <data name="Ice_Gauge_Tilt" xml:space="preserve">
+    <value>Tilt (obliquity)</value>
+  </data>
+  <data name="Ice_Gauge_TiltPeriod" xml:space="preserve">
+    <value>22.1° to 24.5° and back in about 41,000 years</value>
+  </data>
+  <data name="Ice_Gauge_TiltValue" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Ice_Gauge_Times" xml:space="preserve">
+    <value>changes ×{0}</value>
+  </data>
+  <data name="Ice_Gauge_Today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="Ice_Gauge_Wobble" xml:space="preserve">
+    <value>Wobble (precession)</value>
+  </data>
+  <data name="Ice_Gauge_WobblePeriod" xml:space="preserve">
+    <value>the axis circles in ~26,000 years</value>
+  </data>
+  <data name="Ice_Hint_Orbit" xml:space="preserve">
+    <value>Drag sideways, or along the strip, to move through time. Click a gauge to watch that cycle alone.</value>
+  </data>
+  <data name="Ice_Hint_Sheet" xml:space="preserve">
+    <value>Drag sideways, or along the strip, to move through time. Click the snow line, the ground or the coast.</value>
+  </data>
+  <data name="Ice_Hint_Sunshine" xml:space="preserve">
+    <value>Drag along either chart to move through time. Click a red number to jump to the end of that ice age.</value>
+  </data>
+  <data name="Ice_Jump_Eemian" xml:space="preserve">
+    <value>125,000 years ago</value>
+  </data>
+  <data name="Ice_Jump_Inception" xml:space="preserve">
+    <value>115,000 years ago</value>
+  </data>
+  <data name="Ice_Jump_Lgm" xml:space="preserve">
+    <value>21,000 years ago</value>
+  </data>
+  <data name="Ice_Jump_Next" xml:space="preserve">
+    <value>In 55,000 years</value>
+  </data>
+  <data name="Ice_Jump_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Ice_Lesson_Orbit_Choice1" xml:space="preserve">
+    <value>Warmer: more sun near the pole</value>
+  </data>
+  <data name="Ice_Lesson_Orbit_Choice2" xml:space="preserve">
+    <value>Cooler: the Sun is farther away</value>
+  </data>
+  <data name="Ice_Lesson_Orbit_Choice3" xml:space="preserve">
+    <value>No change at all</value>
+  </data>
+  <data name="Ice_Lesson_Sheet_Choice1" xml:space="preserve">
+    <value>It reflects sunlight, and its top is high and cold</value>
+  </data>
+  <data name="Ice_Lesson_Sheet_Choice2" xml:space="preserve">
+    <value>It makes the Sun weaker</value>
+  </data>
+  <data name="Ice_Lesson_Sheet_Choice3" xml:space="preserve">
+    <value>It pulls Earth farther from the Sun</value>
+  </data>
+  <data name="Ice_Lesson_Sunshine_Choice1" xml:space="preserve">
+    <value>Snow stays all summer and piles up</value>
+  </data>
+  <data name="Ice_Lesson_Sunshine_Choice2" xml:space="preserve">
+    <value>The ice melts away</value>
+  </data>
+  <data name="Ice_Lesson_Sunshine_Choice3" xml:space="preserve">
+    <value>Nothing: summer doesn't matter</value>
+  </data>
+  <data name="Ice_Map_65" xml:space="preserve">
+    <value>65° N</value>
+  </data>
+  <data name="Ice_Map_America" xml:space="preserve">
+    <value>North America</value>
+  </data>
+  <data name="Ice_Map_Asia" xml:space="preserve">
+    <value>Asia</value>
+  </data>
+  <data name="Ice_Map_Europe" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="Ice_Map_Fennoscandian" xml:space="preserve">
+    <value>Fennoscandian ice sheet</value>
+  </data>
+  <data name="Ice_Map_Greenland" xml:space="preserve">
+    <value>Greenland</value>
+  </data>
+  <data name="Ice_Map_Laurentide" xml:space="preserve">
+    <value>Laurentide ice sheet</value>
+  </data>
+  <data name="Ice_Map_Pole" xml:space="preserve">
+    <value>North Pole</value>
+  </data>
+  <data name="Ice_Map_SeaIce" xml:space="preserve">
+    <value>summer sea ice</value>
+  </data>
+  <data name="Ice_Map_SunMeter" xml:space="preserve">
+    <value>65° N midsummer: {0} W/m² ({1} vs today)</value>
+  </data>
+  <data name="Ice_Mode_Orbit" xml:space="preserve">
+    <value>Three cycles</value>
+  </data>
+  <data name="Ice_Mode_Sheet" xml:space="preserve">
+    <value>An ice sheet</value>
+  </data>
+  <data name="Ice_Mode_Sunshine" xml:space="preserve">
+    <value>Sunshine and ice</value>
+  </data>
+  <data name="Ice_Moment_Eemian" xml:space="preserve">
+    <value>last interglacial</value>
+  </data>
+  <data name="Ice_Moment_Lgm" xml:space="preserve">
+    <value>last glacial maximum</value>
+  </data>
+  <data name="Ice_Moment_Mis11" xml:space="preserve">
+    <value>a long warm spell</value>
+  </data>
+  <data name="Ice_Month_Format" xml:space="preserve">
+    <value>MMM</value>
+  </data>
+  <data name="Ice_Obj_Aphelion" xml:space="preserve">
+    <value>Aphelion</value>
+  </data>
+  <data name="Ice_Obj_Axis" xml:space="preserve">
+    <value>Earth's axis</value>
+  </data>
+  <data name="Ice_Obj_Co2" xml:space="preserve">
+    <value>Carbon dioxide and temperature</value>
+  </data>
+  <data name="Ice_Obj_Coast" xml:space="preserve">
+    <value>The coast and the sea level</value>
+  </data>
+  <data name="Ice_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Ice_Obj_Eccentricity" xml:space="preserve">
+    <value>Eccentricity</value>
+  </data>
+  <data name="Ice_Obj_Fennoscandian" xml:space="preserve">
+    <value>The Fennoscandian ice sheet</value>
+  </data>
+  <data name="Ice_Obj_Future" xml:space="preserve">
+    <value>The future</value>
+  </data>
+  <data name="Ice_Obj_Globe" xml:space="preserve">
+    <value>The north from above</value>
+  </data>
+  <data name="Ice_Obj_Greenland" xml:space="preserve">
+    <value>Greenland's ice</value>
+  </data>
+  <data name="Ice_Obj_Ground" xml:space="preserve">
+    <value>The ground pressed down</value>
+  </data>
+  <data name="Ice_Obj_Hudson" xml:space="preserve">
+    <value>Hudson Bay</value>
+  </data>
+  <data name="Ice_Obj_IceChart" xml:space="preserve">
+    <value>Ice through time</value>
+  </data>
+  <data name="Ice_Obj_Laurentide" xml:space="preserve">
+    <value>The Laurentide ice sheet</value>
+  </data>
+  <data name="Ice_Obj_Melt" xml:space="preserve">
+    <value>Melting at the edge</value>
+  </data>
+  <data name="Ice_Obj_Now" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Ice_Obj_Orbit" xml:space="preserve">
+    <value>Earth's orbit</value>
+  </data>
+  <data name="Ice_Obj_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Ice_Obj_PoleStar" xml:space="preserve">
+    <value>Wobble and the pole star</value>
+  </data>
+  <data name="Ice_Obj_Reflect" xml:space="preserve">
+    <value>Sunlight sent back</value>
+  </data>
+  <data name="Ice_Obj_Ring65" xml:space="preserve">
+    <value>65° north</value>
+  </data>
+  <data name="Ice_Obj_SeaIce" xml:space="preserve">
+    <value>Sea ice</value>
+  </data>
+  <data name="Ice_Obj_Sheet" xml:space="preserve">
+    <value>The ice sheet</value>
+  </data>
+  <data name="Ice_Obj_SnowLine" xml:space="preserve">
+    <value>The snow line</value>
+  </data>
+  <data name="Ice_Obj_Snowfall" xml:space="preserve">
+    <value>Snowfall</value>
+  </data>
+  <data name="Ice_Obj_Strip" xml:space="preserve">
+    <value>The time line</value>
+  </data>
+  <data name="Ice_Obj_SummerHalf" xml:space="preserve">
+    <value>The two halves of the year</value>
+  </data>
+  <data name="Ice_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Ice_Obj_SunMeter" xml:space="preserve">
+    <value>The summer sun meter</value>
+  </data>
+  <data name="Ice_Obj_SunRays" xml:space="preserve">
+    <value>Summer sunlight</value>
+  </data>
+  <data name="Ice_Obj_SunshineChart" xml:space="preserve">
+    <value>Summer sunshine through time</value>
+  </data>
+  <data name="Ice_Obj_Terminations" xml:space="preserve">
+    <value>The ends of ice ages</value>
+  </data>
+  <data name="Ice_Obj_Tilt" xml:space="preserve">
+    <value>Tilt (obliquity)</value>
+  </data>
+  <data name="Ice_Option_Arrows" xml:space="preserve">
+    <value>Sunlight, snow and melt</value>
+  </data>
+  <data name="Ice_Option_Exaggerate" xml:space="preserve">
+    <value>Draw bigger</value>
+  </data>
+  <data name="Ice_Option_Ground" xml:space="preserve">
+    <value>Ground pressed down</value>
+  </data>
+  <data name="Ice_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Ice_Option_Terminations" xml:space="preserve">
+    <value>Ends of ice ages</value>
+  </data>
+  <data name="Ice_Orbit_Aphelion" xml:space="preserve">
+    <value>aphelion · {0} · {1}</value>
+  </data>
+  <data name="Ice_Orbit_AphelionShort" xml:space="preserve">
+    <value>aphelion</value>
+  </data>
+  <data name="Ice_Orbit_Fact1" xml:space="preserve">
+    <value>Milutin Milanković, a Serbian engineer, worked out these cycles and the sunshine they make by hand in the 1920s and 1930s.</value>
+  </data>
+  <data name="Ice_Orbit_Fact2" xml:space="preserve">
+    <value>Earth is closest to the Sun in early January, at 147 million km, and farthest in early July, at 152 million km: about 7% more sunlight in January.</value>
+  </data>
+  <data name="Ice_Orbit_Fact3" xml:space="preserve">
+    <value>The tilt is slowly getting smaller: it was 24.2° about 10,000 years ago and is 23.44° now.</value>
+  </data>
+  <data name="Ice_Orbit_Fact4" xml:space="preserve">
+    <value>Because the axis wobbles, the pole star changes: Thuban for the builders of the pyramids, Polaris now, Vega in about 12,000 years.</value>
+  </data>
+  <data name="Ice_Orbit_Fact5" xml:space="preserve">
+    <value>In 1976 Hays, Imbrie and Shackleton found the same 100,000, 41,000 and 23,000-year rhythms in mud from the ocean floor: the “pacemaker of the ice ages”.</value>
+  </data>
+  <data name="Ice_Orbit_Note" xml:space="preserve">
+    <value>Seen at a slant. With “Draw bigger” on, the stretch is drawn 5× and the tilt's swings 3×; dates and distances are the real ones.</value>
+  </data>
+  <data name="Ice_Orbit_Panel_Note" xml:space="preserve">
+    <value>With one cycle chosen, the other two stay as they are today, so you can see what that one does on its own.</value>
+  </data>
+  <data name="Ice_Orbit_Perihelion" xml:space="preserve">
+    <value>perihelion · {0} · {1}</value>
+  </data>
+  <data name="Ice_Orbit_PerihelionShort" xml:space="preserve">
+    <value>perihelion</value>
+  </data>
+  <data name="Ice_Orbit_Subtitle" xml:space="preserve">
+    <value>Earth's orbit stretches, and its axis tilts and wobbles</value>
+  </data>
+  <data name="Ice_Orbit_SummerHalf" xml:space="preserve">
+    <value>spring → autumn: {0} days</value>
+  </data>
+  <data name="Ice_Orbit_WinterHalf" xml:space="preserve">
+    <value>autumn → spring: {0} days</value>
+  </data>
+  <data name="Ice_Place_Arctic" xml:space="preserve">
+    <value>Arctic islands</value>
+  </data>
+  <data name="Ice_Place_Chicago" xml:space="preserve">
+    <value>Chicago</value>
+  </data>
+  <data name="Ice_Place_Gulf" xml:space="preserve">
+    <value>Gulf coast</value>
+  </data>
+  <data name="Ice_Place_Hudson" xml:space="preserve">
+    <value>Hudson Bay</value>
+  </data>
+  <data name="Ice_Place_Shield" xml:space="preserve">
+    <value>Canadian Shield</value>
+  </data>
+  <data name="Ice_Place_StLouis" xml:space="preserve">
+    <value>St. Louis</value>
+  </data>
+  <data name="Ice_PlayPause" xml:space="preserve">
+    <value>Play or pause time</value>
+  </data>
+  <data name="Ice_Season_Autumn" xml:space="preserve">
+    <value>autumn equinox</value>
+  </data>
+  <data name="Ice_Season_Spring" xml:space="preserve">
+    <value>spring equinox</value>
+  </data>
+  <data name="Ice_Season_Summer" xml:space="preserve">
+    <value>northern summer solstice</value>
+  </data>
+  <data name="Ice_Season_Winter" xml:space="preserve">
+    <value>northern winter solstice</value>
+  </data>
+  <data name="Ice_Sheet_Co2" xml:space="preserve">
+    <value>CO₂ {0} ppm · world {1} °C</value>
+  </data>
+  <data name="Ice_Sheet_Coast" xml:space="preserve">
+    <value>coast · sea level {0} m</value>
+  </data>
+  <data name="Ice_Sheet_Fact1" xml:space="preserve">
+    <value>At its biggest the Laurentide ice sheet covered most of Canada and reached south of Chicago; over Hudson Bay it was more than 3 km thick.</value>
+  </data>
+  <data name="Ice_Sheet_Fact2" xml:space="preserve">
+    <value>The ground around Hudson Bay is still rising, about 1 cm a year, 10,000 years after the ice left.</value>
+  </data>
+  <data name="Ice_Sheet_Fact3" xml:space="preserve">
+    <value>The ice dug out the Great Lakes, and left the hills of sand and stones (moraines) that mark where its edge stood.</value>
+  </data>
+  <data name="Ice_Sheet_Fact4" xml:space="preserve">
+    <value>Fresh snow sends back about 80–90% of the sunlight; forests and the sea keep about 90% of it. More ice means a cooler, brighter Earth.</value>
+  </data>
+  <data name="Ice_Sheet_Fact5" xml:space="preserve">
+    <value>Without the CO₂ people have added, the next ice age would start in about 50,000 years; with it, much later.</value>
+  </data>
+  <data name="Ice_Sheet_Growing_Text" xml:space="preserve">
+    <value>The snow line is low, so more snow falls on the ice than melts. The dome thickens and spreads south, and slowly presses the ground down under it.</value>
+  </data>
+  <data name="Ice_Sheet_Growing_Title" xml:space="preserve">
+    <value>The sheet is growing</value>
+  </data>
+  <data name="Ice_Sheet_Height" xml:space="preserve">
+    <value>{0} km thick</value>
+  </data>
+  <data name="Ice_Sheet_Melting_Text" xml:space="preserve">
+    <value>The snow line has risen above much of the ice. Its edges melt back, meltwater runs to the sea, and the ground, still pressed down, starts to rise again.</value>
+  </data>
+  <data name="Ice_Sheet_Melting_Title" xml:space="preserve">
+    <value>The sheet is melting</value>
+  </data>
+  <data name="Ice_Sheet_None_Text" xml:space="preserve">
+    <value>Summers melt all the winter's snow. Where the ice was, the ground is still slowly rising back up, and the sea reaches today's coast.</value>
+  </data>
+  <data name="Ice_Sheet_None_Title" xml:space="preserve">
+    <value>No ice sheet here</value>
+  </data>
+  <data name="Ice_Sheet_Note" xml:space="preserve">
+    <value>Along about 88° W, from the Gulf of Mexico to the Arctic. Heights are drawn about 600× taller; the ice follows the same model.</value>
+  </data>
+  <data name="Ice_Sheet_Panel_Note" xml:space="preserve">
+    <value>The ice sheet's size follows the model's ice; its shape is the classic dome of a sheet of ice spreading under its own weight.</value>
+  </data>
+  <data name="Ice_Sheet_SnowLine" xml:space="preserve">
+    <value>summer snow line {0} m</value>
+  </data>
+  <data name="Ice_Sheet_Steady_Text" xml:space="preserve">
+    <value>Snow added on top about balances the melt at the edges, so the sheet keeps its size for now.</value>
+  </data>
+  <data name="Ice_Sheet_Steady_Title" xml:space="preserve">
+    <value>The sheet is holding</value>
+  </data>
+  <data name="Ice_Sheet_Subtitle" xml:space="preserve">
+    <value>A slice through the North American ice sheet</value>
+  </data>
+  <data name="Ice_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Ice_Speed_Caption" xml:space="preserve">
+    <value>Speed while playing</value>
+  </data>
+  <data name="Ice_Speed_Fast" xml:space="preserve">
+    <value>20,000 years a second</value>
+  </data>
+  <data name="Ice_Speed_Medium" xml:space="preserve">
+    <value>5,000 years a second</value>
+  </data>
+  <data name="Ice_Speed_Slow" xml:space="preserve">
+    <value>1,000 years a second</value>
+  </data>
+  <data name="Ice_Star_Deneb" xml:space="preserve">
+    <value>Deneb</value>
+  </data>
+  <data name="Ice_Star_Polaris" xml:space="preserve">
+    <value>Polaris</value>
+  </data>
+  <data name="Ice_Star_Thuban" xml:space="preserve">
+    <value>Thuban</value>
+  </data>
+  <data name="Ice_Star_Vega" xml:space="preserve">
+    <value>Vega</value>
+  </data>
+  <data name="Ice_Stat_Co2" xml:space="preserve">
+    <value>CO₂ in the air (model)</value>
+  </data>
+  <data name="Ice_Stat_Eccentricity" xml:space="preserve">
+    <value>Eccentricity</value>
+  </data>
+  <data name="Ice_Stat_Halves" xml:space="preserve">
+    <value>Spring→autumn / autumn→spring</value>
+  </data>
+  <data name="Ice_Stat_Height" xml:space="preserve">
+    <value>Dome's thickness</value>
+  </data>
+  <data name="Ice_Stat_Ice" xml:space="preserve">
+    <value>Northern ice (of the last maximum)</value>
+  </data>
+  <data name="Ice_Stat_NearFar" xml:space="preserve">
+    <value>Sunlight at perihelion vs aphelion</value>
+  </data>
+  <data name="Ice_Stat_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Ice_Stat_Sea" xml:space="preserve">
+    <value>Sea level against today</value>
+  </data>
+  <data name="Ice_Stat_Sinking" xml:space="preserve">
+    <value>Ground pressed down by</value>
+  </data>
+  <data name="Ice_Stat_SnowLine" xml:space="preserve">
+    <value>Summer snow line</value>
+  </data>
+  <data name="Ice_Stat_SouthEdge" xml:space="preserve">
+    <value>Southern edge</value>
+  </data>
+  <data name="Ice_Stat_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Ice_Stat_Sunshine" xml:space="preserve">
+    <value>65° N midsummer sunshine</value>
+  </data>
+  <data name="Ice_Stat_Temperature" xml:space="preserve">
+    <value>World temperature against today (model)</value>
+  </data>
+  <data name="Ice_Stat_Tilt" xml:space="preserve">
+    <value>Tilt</value>
+  </data>
+  <data name="Ice_Stat_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Ice_StateName_FullGlacial" xml:space="preserve">
+    <value>full ice age</value>
+  </data>
+  <data name="Ice_StateName_Glacial" xml:space="preserve">
+    <value>ice age</value>
+  </data>
+  <data name="Ice_StateName_Interglacial" xml:space="preserve">
+    <value>warm (interglacial)</value>
+  </data>
+  <data name="Ice_State_Full_Text" xml:space="preserve">
+    <value>The ice sheets are huge, the sea is far lower and the air holds less CO₂. Such big sheets are fragile: the next strong summers at 65° N bring them down fast.</value>
+  </data>
+  <data name="Ice_State_Full_Title" xml:space="preserve">
+    <value>A full ice age</value>
+  </data>
+  <data name="Ice_State_Growing_Text" xml:space="preserve">
+    <value>Summers are too weak to melt the winter's snow, so snow piles up year after year and turns to ice. Sheets of ice spread from northern Canada and Scandinavia, and the sea falls.</value>
+  </data>
+  <data name="Ice_State_Growing_Title" xml:space="preserve">
+    <value>The ice is growing</value>
+  </data>
+  <data name="Ice_State_Holding_Text" xml:space="preserve">
+    <value>Summers have strengthened a little and the ice shrinks a bit, but not enough to end the ice age. The big sheets wait for the next weak summers to grow again.</value>
+  </data>
+  <data name="Ice_State_Holding_Title" xml:space="preserve">
+    <value>An ice age, holding on</value>
+  </data>
+  <data name="Ice_State_Melting_Text" xml:space="preserve">
+    <value>Strong summers melt the ice far faster than it grew: in under 10,000 years the sheets are gone and the sea rises by more than 100 metres.</value>
+  </data>
+  <data name="Ice_State_Melting_Title" xml:space="preserve">
+    <value>An ice age ending</value>
+  </data>
+  <data name="Ice_State_Warm_Text" xml:space="preserve">
+    <value>Outside Greenland there is little ice in the north. Summers melt each winter's snow. A warm spell lasts until summers at 65° N turn weak enough for snow to stay all year.</value>
+  </data>
+  <data name="Ice_State_Warm_Title" xml:space="preserve">
+    <value>A warm spell (interglacial)</value>
+  </data>
+  <data name="Ice_Strip_Eccentricity" xml:space="preserve">
+    <value>stretch of the orbit</value>
+  </data>
+  <data name="Ice_Strip_Ice" xml:space="preserve">
+    <value>northern ice</value>
+  </data>
+  <data name="Ice_Strip_Precession" xml:space="preserve">
+    <value>wobble (up: perihelion nearer northern summer)</value>
+  </data>
+  <data name="Ice_Strip_Sunshine" xml:space="preserve">
+    <value>midsummer sunshine at 65° N</value>
+  </data>
+  <data name="Ice_Strip_Tilt" xml:space="preserve">
+    <value>tilt of the axis</value>
+  </data>
+  <data name="Ice_Sunshine_Fact1" xml:space="preserve">
+    <value>Ice sheets grow on land, and most of the land near 65° N is in North America and Eurasia. That is why northern summers, not southern, pace the ice ages.</value>
+  </data>
+  <data name="Ice_Sunshine_Fact2" xml:space="preserve">
+    <value>At the last glacial maximum, about 21,000 years ago, the sea was about 120 m lower: people could walk from Siberia to Alaska, and from Britain to France.</value>
+  </data>
+  <data name="Ice_Sunshine_Fact3" xml:space="preserve">
+    <value>Antarctic ice holds air bubbles 800,000 years old: CO₂ went up and down between about 180 and 280 ppm with the ice ages. It is over 420 ppm now.</value>
+  </data>
+  <data name="Ice_Sunshine_Fact4" xml:space="preserve">
+    <value>Until about a million years ago ice ages came every 41,000 years, with the tilt. Why they then switched to about 100,000 years is still being worked out.</value>
+  </data>
+  <data name="Ice_Sunshine_Fact5" xml:space="preserve">
+    <value>This chapter's ice is a simple model: it gets the timing of the ice ages right, but the real ice also answers to CO₂, the oceans and the dust.</value>
+  </data>
+  <data name="Ice_Sunshine_Note" xml:space="preserve">
+    <value>Sunshine: the day's mean at the top of the air at 65° N on the northern summer solstice (Berger 1978). Ice: a simple model driven by it (Paillard 1998).</value>
+  </data>
+  <data name="Ice_Sunshine_Panel_Note" xml:space="preserve">
+    <value>The model leaves a warm spell when summers turn weak, grows ice for tens of thousands of years, and ends a big ice age at the next strong summers.</value>
+  </data>
+  <data name="Ice_Sunshine_Subtitle" xml:space="preserve">
+    <value>Weak northern summers let the ice grow</value>
+  </data>
+  <data name="Ice_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Ice_Time_Ago" xml:space="preserve">
+    <value>{0} years ago</value>
+  </data>
+  <data name="Ice_Time_Ahead" xml:space="preserve">
+    <value>in {0} years</value>
+  </data>
+  <data name="Ice_Time_Today" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="Ice_Title" xml:space="preserve">
+    <value>Ice ages and Milankovitch cycles</value>
+  </data>
+  <data name="Ice_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Ice_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Ice_Value_Distance" xml:space="preserve">
+    <value>{0} million km</value>
+  </data>
+  <data name="Ice_Value_Halves" xml:space="preserve">
+    <value>{0} / {1} days</value>
+  </data>
+  <data name="Ice_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Ice_Value_Lat" xml:space="preserve">
+    <value>{0}° N</value>
+  </data>
+  <data name="Ice_Value_LatN" xml:space="preserve">
+    <value>{0}° N</value>
+  </data>
+  <data name="Ice_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Ice_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Ice_Value_Ppm" xml:space="preserve">
+    <value>{0} ppm</value>
+  </data>
+  <data name="Ice_Value_Sea" xml:space="preserve">
+    <value>sea level {0} m</value>
+  </data>
+  <data name="Ice_Value_Sunshine" xml:space="preserve">
+    <value>{0} W/m² ({1} vs today)</value>
+  </data>
+  <data name="Ice_Value_Wm2" xml:space="preserve">
+    <value>{0} W/m²</value>
+  </data>
+  <data name="Ice_Years_Digits" xml:space="preserve">
+    <value>#,##0</value>
+  </data>
+  <data name="Ice_Years_Unit" xml:space="preserve">
+    <value>1000000000</value>
+  </data>
+  <data name="Ice_Years_UnitName" xml:space="preserve">
+    <value> billion</value>
+  </data>
   <data name="Kepler_Areas_Fact1" xml:space="preserve">
     <value>Kepler actually found this law first, in 1609, before he knew the orbit was an ellipse.</value>
   </data>
@@ -8123,6 +8840,204 @@
   </data>
   <data name="Narr_Hole_Shadow_10" xml:space="preserve">
     <value>Now it's your turn. Drag up or down on the picture to tilt your view, and watch the arch rise over the top as you look from the side.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Aphelion" xml:space="preserve">
+    <value>Aphelion is the farthest point, five million kilometres farther out. Today it falls in early July, so northern summers are a little gentler.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Axis" xml:space="preserve">
+    <value>Earth spins around this tilted axis. The axis keeps pointing the same way all year, so first one hemisphere leans toward the Sun, then the other. That gives us seasons.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Co2" xml:space="preserve">
+    <value>In ice ages, the cold oceans soaked up carbon dioxide from the air. Less carbon dioxide meant a weaker greenhouse effect, so the whole world cooled, by about six degrees.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Coast" xml:space="preserve">
+    <value>All that ice was once sea water. So when the ice grows, the sea falls, by up to a hundred and twenty metres. The coast moves far out.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Earth" xml:space="preserve">
+    <value>Here's Earth on its yearly trip. Watch its speed: it hurries when it's close to the Sun and slows down when it's far away.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Eccentricity" xml:space="preserve">
+    <value>Eccentricity tells you how stretched the orbit is. Zero would be a perfect circle. The pull of Jupiter and Saturn slowly changes it, over cycles of about a hundred thousand and four hundred thousand years.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Fennoscandian" xml:space="preserve">
+    <value>This ice sheet spread out from Scandinavia. It covered the Baltic Sea and reached across to Britain and northern Germany.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Future" xml:space="preserve">
+    <value>This is the future, if only the orbit mattered. The next ice age would begin in about fifty thousand years. But the carbon dioxide people have added will hold it off for much longer.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Globe" xml:space="preserve">
+    <value>This is the top of the world, seen from straight above the North Pole. North America is on the left and Europe is at the bottom. White shows the ice.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Greenland" xml:space="preserve">
+    <value>Greenland is the one big northern ice sheet that survives even in warm times like today. It's a leftover from the last ice age.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Ground" xml:space="preserve">
+    <value>Kilometres of ice are so heavy that they press the ground down, by up to almost a kilometre. The ground is slow to respond, so it keeps sinking, or rising, for thousands of years.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Hudson" xml:space="preserve">
+    <value>Hudson Bay sits right under the middle of the old ice sheet. The ground there is still rising today, about a centimetre a year.</value>
+  </data>
+  <data name="Narr_Ice_Obj_IceChart" xml:space="preserve">
+    <value>This shows how much ice there was in the north, with sea level on the right. Look at its shape: a slow climb, then a sudden drop. Slow to grow, fast to melt.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Laurentide" xml:space="preserve">
+    <value>The Laurentide ice sheet grew over Canada. At its biggest it was about as large as Antarctica's ice is today, and more than three kilometres thick.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Melt" xml:space="preserve">
+    <value>At the low southern edge, it's warm enough to melt. Meltwater runs off toward the sea. When melting beats snowfall, the sheet shrinks.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Now" xml:space="preserve">
+    <value>This line is today. We're in a warm spell called the Holocene, which began about eleven thousand years ago.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Orbit" xml:space="preserve">
+    <value>Earth's orbit is an ellipse, but a very round one. The gold half is northern spring and summer, the blue half is autumn and winter.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Perihelion" xml:space="preserve">
+    <value>Perihelion is the point where Earth comes closest to the Sun. Today that happens in early January, during northern winter. But the date slowly moves through the year.</value>
+  </data>
+  <data name="Narr_Ice_Obj_PoleStar" xml:space="preserve">
+    <value>Like a spinning top, Earth's axis slowly traces a circle in the sky. Today it points near Polaris. In about twelve thousand years, it will point near Vega instead.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Reflect" xml:space="preserve">
+    <value>White ice sends most of the sunlight straight back to space. So a big ice sheet keeps itself cold. Scientists call this the ice–albedo feedback.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Ring65" xml:space="preserve">
+    <value>This circle is sixty-five degrees north. It runs through Canada, Scandinavia and Siberia, right where the great ice sheets grew. So scientists measure summer sunshine here.</value>
+  </data>
+  <data name="Narr_Ice_Obj_SeaIce" xml:space="preserve">
+    <value>Frozen sea water floats on the Arctic Ocean. In ice ages, summer sea ice reached much farther south, and made the north even brighter and colder.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Sheet" xml:space="preserve">
+    <value>An ice sheet is a dome of ice kilometres thick. It spreads out under its own weight, like thick honey on a plate.</value>
+  </data>
+  <data name="Narr_Ice_Obj_SnowLine" xml:space="preserve">
+    <value>Above the snow line, winter snow lasts through the whole summer. Below it, the snow melts. Weak summers bring this line down, and then snow can pile up on the ice.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Snowfall" xml:space="preserve">
+    <value>Snow falls on top of the dome, gets buried and is squeezed into ice. This is how an ice sheet grows.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Strip" xml:space="preserve">
+    <value>This strip covers nine hundred thousand years, from eight hundred thousand years ago to a hundred thousand years from now. Drag along it to travel through time.</value>
+  </data>
+  <data name="Narr_Ice_Obj_SummerHalf" xml:space="preserve">
+    <value>Count the days from the spring equinox to the autumn one, then back again. They aren't equal! Earth moves slowest when it's far from the Sun, so that half of the year lasts longer.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Sun" xml:space="preserve">
+    <value>The Sun sits at one focus of the orbit, not in the middle. That's why Earth is a little closer to it at one end of the year than at the other.</value>
+  </data>
+  <data name="Narr_Ice_Obj_SunMeter" xml:space="preserve">
+    <value>This meter shows the midsummer sunshine at sixty-five degrees north, compared with today. A few tens of watts may not sound like much, but kept up for thousands of years, it decides whether snow survives.</value>
+  </data>
+  <data name="Narr_Ice_Obj_SunRays" xml:space="preserve">
+    <value>This is the midsummer sunlight. The stronger it is, the more snow it can melt. Its strength is set by the orbit.</value>
+  </data>
+  <data name="Narr_Ice_Obj_SunshineChart" xml:space="preserve">
+    <value>This line is the summer sunshine at sixty-five degrees north, worked out from the orbit. It wiggles fast with the wobble, and its wiggles grow and shrink with the stretch.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Terminations" xml:space="preserve">
+    <value>Each red number marks the end of a big ice age. Notice that they're roughly a hundred thousand years apart. Each one comes when strong summers meet a huge, fragile ice sheet.</value>
+  </data>
+  <data name="Narr_Ice_Obj_Tilt" xml:space="preserve">
+    <value>This is the tilt of Earth's axis. Every forty-one thousand years, it rocks between about twenty-two and twenty-four and a half degrees. A bigger tilt means stronger seasons, especially near the poles.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_01" xml:space="preserve">
+    <value>Have you ever wondered why there were ice ages? The answer starts up in space, with Earth's trip around the Sun. Here's Earth, going round once a year.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_02" xml:space="preserve">
+    <value>This orbit isn't quite a circle. It's a slightly stretched ellipse, and here we've drawn the stretch five times bigger, so you can see it.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_03" xml:space="preserve">
+    <value>The first cycle is the stretch. Watch the gauge as time runs by. Over about a hundred thousand years, the orbit goes from nearly round to a bit more oval, and back again.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_04" xml:space="preserve">
+    <value>The second cycle is the tilt. Earth's axis slowly rocks back and forth, about once every forty-one thousand years.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_05" xml:space="preserve">
+    <value>Here's a question. When the axis leans more, what happens to summers near the North Pole?</value>
+  </data>
+  <data name="Narr_Ice_Orbit_06" xml:space="preserve">
+    <value>The third cycle is the wobble. Look at where perihelion is, the point closest to the Sun. Today, we pass it in early January, in the middle of northern winter.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_07" xml:space="preserve">
+    <value>Now jump back eleven thousand years. Perihelion has moved into northern summer! Being closest to the Sun in summer made northern summers stronger.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_08" xml:space="preserve">
+    <value>The wobble also turns the axis around in the sky, like a spinning top. Watch the pole drift slowly from star to star.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_09" xml:space="preserve">
+    <value>And here's a surprise. Count the days in the two halves of the year. Because Earth is far from the Sun in July, northern spring and summer last about a week longer.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_10" xml:space="preserve">
+    <value>Now put all three cycles together. The strip shows the summer sunshine they make in the far north. A hundred and fifteen thousand years ago, it dropped very low, and the last ice age began.</value>
+  </data>
+  <data name="Narr_Ice_Orbit_11" xml:space="preserve">
+    <value>Your turn! Drag along the strip and look for the low points. Can you find the times when summers in the north were weakest?</value>
+  </data>
+  <data name="Narr_Ice_Sheet_01" xml:space="preserve">
+    <value>Let's cut a slice through North America, twenty-one thousand years ago. This white dome is the ice sheet, more than three kilometres thick.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_02" xml:space="preserve">
+    <value>This dashed line is the summer snow line. Above it, snow survives the summer. When summers are weak, the line sinks, and more of the ice sits above it.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_03" xml:space="preserve">
+    <value>Snow keeps falling on the high middle of the dome. It gets buried and pressed into ice, so the sheet grows.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_04" xml:space="preserve">
+    <value>Now look at the sunlight. When it hits the white ice, most of it bounces straight back to space.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_05" xml:space="preserve">
+    <value>So here's a puzzle. Why does a big ice sheet help itself grow even bigger?</value>
+  </data>
+  <data name="Narr_Ice_Sheet_06" xml:space="preserve">
+    <value>Here's something else. The ice is so heavy that it pushes the ground down underneath it, by hundreds of metres.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_07" xml:space="preserve">
+    <value>And all that ice came from the sea. So the sea level fell, and the coast moved far out into the Gulf of Mexico.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_08" xml:space="preserve">
+    <value>Now jump to thirteen thousand years ago. Summers are strong, and the snow line has climbed. The edges are melting back fast.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_09" xml:space="preserve">
+    <value>Nine thousand years ago, most of the ice is gone, but the ground is still pressed down. It rises back slowly, and around Hudson Bay, it's still rising today.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_10" xml:space="preserve">
+    <value>One more helper: carbon dioxide. In ice ages there was less of it in the air, so the whole world was colder, which helped the ice. When it came back, it helped the melting.</value>
+  </data>
+  <data name="Narr_Ice_Sheet_11" xml:space="preserve">
+    <value>Your turn! Drag along the strip and watch the ice sheet grow, then melt. Keep an eye on the snow line and the coast.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_01" xml:space="preserve">
+    <value>Now we're looking down on the North Pole. The gold circle is sixty-five degrees north, where the great ice sheets grew. Summer sunshine here is the key.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_02" xml:space="preserve">
+    <value>This chart shows that summer sunshine over eight hundred thousand years. It goes up and down by about a tenth, all because of the orbit.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_03" xml:space="preserve">
+    <value>Let's go back a hundred and fifteen thousand years. Look at the sun meter: summers in the north were much weaker than today.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_04" xml:space="preserve">
+    <value>So what do you think happens to the snow when summers stay weak for thousands of years?</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_05" xml:space="preserve">
+    <value>Let's watch it happen. Each summer, a little snow is left over. Year after year it piles up, and a sheet of ice spreads across Canada.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_06" xml:space="preserve">
+    <value>This is the last glacial maximum, about twenty-one thousand years ago. There's so much ice that the sea has dropped about a hundred and twenty metres.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_07" xml:space="preserve">
+    <value>Then summers grow strong again, and the ice melts much faster than it grew. The red numbers mark the end of each big ice age like this one.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_08" xml:space="preserve">
+    <value>Look at the whole pattern: a slow climb, then a sudden collapse, about every hundred thousand years. That's the sawtooth rhythm of the ice ages.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_09" xml:space="preserve">
+    <value>And this is today. We're in a warm spell that began about eleven thousand years ago, when the last ice sheets melted.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_10" xml:space="preserve">
+    <value>In this simple model, with the orbit alone, the next ice age would begin about fifty thousand years from now. But the carbon dioxide we've added will delay it far longer.</value>
+  </data>
+  <data name="Narr_Ice_Sunshine_11" xml:space="preserve">
+    <value>Your turn! Drag along the sunshine chart. Watch the ice sheets grow when summers are weak, and melt away when they're strong.</value>
   </data>
   <data name="Narr_Kepler_Areas_01" xml:space="preserve">
     <value>Kepler's second law is about speed. Imagine a line from the Sun to the planet. As the planet moves, this line sweeps across the orbit, a bit like a windscreen wiper.</value>

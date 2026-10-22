@@ -29,6 +29,7 @@
              xmlns:aurora="using:Lemon.Explore.Book.Chapters.Aurora"
              xmlns:earthquakes="using:Lemon.Explore.Book.Chapters.Earthquakes"
              xmlns:volcanoes="using:Lemon.Explore.Book.Chapters.Volcanoes"
+             xmlns:iceages="using:Lemon.Explore.Book.Chapters.IceAges"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -85,6 +86,8 @@
         <DataTemplate DataType="earthquakes:QuakeDiagramPageViewModel"><earthquakes:QuakeDiagramPageView /></DataTemplate>
         <DataTemplate DataType="volcanoes:VolcanoTextPageViewModel"><volcanoes:VolcanoTextPageView /></DataTemplate>
         <DataTemplate DataType="volcanoes:VolcanoDiagramPageViewModel"><volcanoes:VolcanoDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="iceages:IceAgeTextPageViewModel"><iceages:IceAgeTextPageView /></DataTemplate>
+        <DataTemplate DataType="iceages:IceAgeDiagramPageViewModel"><iceages:IceAgeDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>
