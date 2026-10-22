@@ -1,0 +1,204 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:typhoon="using:Lemon.Explore.Book.Chapters.Typhoon"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Typhoon.TyphoonTextPageView"
+                         x:DataType="typhoon:TyphoonTextPageViewModel">
+    <!-- Left page of the Typhoon spread: the view's settings, its charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Typhoon.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Typhoon.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Typhoon.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="TyphoonMode" IsChecked="{Binding Typhoon.IsStorm}" Content="{loc:Localize Typhoon_Mode_Storm}" />
+                    <RadioButton Classes="chip" GroupName="TyphoonMode" IsChecked="{Binding Typhoon.IsEngine}" Content="{loc:Localize Typhoon_Mode_Engine}" />
+                    <RadioButton Classes="chip" GroupName="TyphoonMode" IsChecked="{Binding Typhoon.IsTrack}" Content="{loc:Localize Typhoon_Mode_Track}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Typhoon.Card}" />
+
+                <!-- The storm: how deep, which hemisphere, the Earth's turn, moving -->
+                <StackPanel IsVisible="{Binding Typhoon.IsStorm}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Typhoon.CentralPressureText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Typhoon_Pressure}" />
+                    </DockPanel>
+                    <Slider Minimum="{Binding Typhoon.MinPressure}" Maximum="{Binding Typhoon.MaxPressure}" Value="{Binding Typhoon.CentralPressure}"
+                            SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" TickFrequency="1" IsDirectionReversed="True"
+                            AutomationProperties.Name="{loc:Localize Typhoon_Pressure}" />
+                    <SelectableTextBlock Classes="note" Text="{loc:Localize Typhoon_Pressure_Note}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Typhoon.SetPressureCommand}" CommandParameter="990" Content="{loc:Localize Typhoon_Grade_TropicalStorm}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.SetPressureCommand}" CommandParameter="980" Content="{loc:Localize Typhoon_Grade_SevereTropicalStorm}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.SetPressureCommand}" CommandParameter="965" Content="{loc:Localize Typhoon_Grade_Typhoon}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.SetPressureCommand}" CommandParameter="945" Content="{loc:Localize Typhoon_Grade_SevereTyphoon}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.SetPressureCommand}" CommandParameter="915" Content="{loc:Localize Typhoon_Grade_SuperTyphoon}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Try_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.Spin}" Content="{loc:Localize Typhoon_Option_Spin}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.Southern}" Content="{loc:Localize Typhoon_Option_Southern}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.Moving}" Content="{loc:Localize Typhoon_Option_Moving}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.ShowIsobars}" Content="{loc:Localize Typhoon_Option_Isobars}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.ShowLabels}" Content="{loc:Localize Typhoon_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Chart_Profile_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <typhoon:ProfileChart CentralPressure="{Binding Typhoon.CentralPressure}" ProbeDistance="{Binding Typhoon.ProbeDistance}"
+                                              AutomationProperties.Name="{loc:Localize Typhoon_Chart_Profile_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Typhoon_Chart_Profile_Note}" />
+                </StackPanel>
+
+                <!-- The heat engine: the sea's warmth, landfall -->
+                <StackPanel IsVisible="{Binding Typhoon.IsEngine}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Typhoon.SeaTemperatureText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Typhoon_Sea}" />
+                    </DockPanel>
+                    <Slider Minimum="24" Maximum="31" Value="{Binding Typhoon.SeaTemperature}" SmallChange="0.1" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="0.1" AutomationProperties.Name="{loc:Localize Typhoon_Sea}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Typhoon.SetSeaCommand}" CommandParameter="25.5" Content="{loc:Localize Typhoon_Sea_Cool}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.SetSeaCommand}" CommandParameter="27.5" Content="{loc:Localize Typhoon_Sea_Warm}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.SetSeaCommand}" CommandParameter="30" Content="{loc:Localize Typhoon_Sea_Hot}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Try_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.Landfall}" Content="{loc:Localize Typhoon_Option_Landfall}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.ShowLabels}" Content="{loc:Localize Typhoon_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Chart_Potential_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <typhoon:PotentialChart SeaTemperature="{Binding Typhoon.SeaTemperature}" AutomationProperties.Name="{loc:Localize Typhoon_Chart_Potential_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Typhoon_Chart_Potential_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Chart_Decay_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <typhoon:DecayChart SeaTemperature="{Binding Typhoon.SeaTemperature}" Hours="{Binding Typhoon.LandfallHours}" Landfall="{Binding Typhoon.Landfall}"
+                                            AutomationProperties.Name="{loc:Localize Typhoon_Chart_Decay_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Typhoon_Chart_Decay_Note}" />
+                </StackPanel>
+
+                <!-- The track: where you are, the month, the subtropical high, where it starts -->
+                <StackPanel IsVisible="{Binding Typhoon.IsTrack}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Typhoon.Location}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Month_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="TyphoonMonth" IsChecked="{Binding Typhoon.MonthChoice[6]}" Content="{loc:Localize Typhoon_Month_6}" />
+                        <RadioButton Classes="chip" GroupName="TyphoonMonth" IsChecked="{Binding Typhoon.MonthChoice[7]}" Content="{loc:Localize Typhoon_Month_7}" />
+                        <RadioButton Classes="chip" GroupName="TyphoonMonth" IsChecked="{Binding Typhoon.MonthChoice[8]}" Content="{loc:Localize Typhoon_Month_8}" />
+                        <RadioButton Classes="chip" GroupName="TyphoonMonth" IsChecked="{Binding Typhoon.MonthChoice[9]}" Content="{loc:Localize Typhoon_Month_9}" />
+                        <RadioButton Classes="chip" GroupName="TyphoonMonth" IsChecked="{Binding Typhoon.MonthChoice[10]}" Content="{loc:Localize Typhoon_Month_10}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Typhoon.RidgeWestText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Typhoon_Ridge}" />
+                    </DockPanel>
+                    <Slider Minimum="105" Maximum="150" Value="{Binding Typhoon.RidgeWest}" SmallChange="1" LargeChange="5"
+                            IsSnapToTickEnabled="True" TickFrequency="1" IsDirectionReversed="True"
+                            AutomationProperties.Name="{loc:Localize Typhoon_Ridge}" />
+                    <SelectableTextBlock Classes="note" Text="{loc:Localize Typhoon_Ridge_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Start_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Typhoon.UseStartCommand}" CommandParameter="Guam" Content="{loc:Localize Typhoon_Start_Guam}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.UseStartCommand}" CommandParameter="Philippines" Content="{loc:Localize Typhoon_Start_Philippines}" />
+                        <Button Classes="chip" Command="{Binding Typhoon.UseStartCommand}" CommandParameter="SouthChinaSea" Content="{loc:Localize Typhoon_Start_SouthChinaSea}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Typhoon.ShowLabels}" Content="{loc:Localize Typhoon_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Chart_Intensity_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <typhoon:IntensityChart StartLatitude="{Binding Typhoon.StartLatitude}" StartLongitude="{Binding Typhoon.StartLongitude}"
+                                                RidgeWest="{Binding Typhoon.RidgeWest}" Month="{Binding Typhoon.Month}" Hour="{Binding Typhoon.TrackHour}"
+                                                AutomationProperties.Name="{loc:Localize Typhoon_Chart_Intensity_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Typhoon_Chart_Intensity_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Chart_Season_Caption}" />
+                    <Border Classes="plate" Height="140">
+                        <typhoon:SeasonChart Month="{Binding Typhoon.Month}" AutomationProperties.Name="{loc:Localize Typhoon_Chart_Season_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Typhoon_Chart_Season_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Typhoon.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Typhoon.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Typhoon.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Typhoon.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Typhoon_Facts}" />
+                <ItemsControl ItemsSource="{Binding Typhoon.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

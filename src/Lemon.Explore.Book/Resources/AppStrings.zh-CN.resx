@@ -7485,6 +7485,180 @@
   <data name="Narr_Trails_Year_08" xml:space="preserve">
     <value>该你来试试了。拖着地球绕太阳转，或者选一个日期，看看傍晚的天空里有哪些星座。</value>
   </data>
+  <data name="Narr_Typhoon_Engine_01" xml:space="preserve">
+    <value>现在我们把台风从中间剖开，从海面一直到云顶，宽六百公里，高度方向拉长了才放得下。下面的海水有二十九点五度，这片温暖的海水就是台风的燃料。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_02" xml:space="preserve">
+    <value>贴近海面，暖湿空气旋转着向中心流入，就是这些蓝色的点。它掠过温暖的海面，带上了越来越多的水汽。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_03" xml:space="preserve">
+    <value>到了眼墙，空气猛地向上冲，能冲到十五公里以上。它一边上升一边冷却，水汽凝结成高耸的云和倾盆大雨。看，这些点越往上，颜色就从白色变成橙色。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_04" xml:space="preserve">
+    <value>问你一个问题：台风的风，能量是从哪里来的？</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_05" xml:space="preserve">
+    <value>对，是水汽凝结。水汽从海里蒸发时带走了热量，凝结成水滴时又把热量放了出来。这些热量让中心变暖，气压更低，风就吸进更多暖湿空气。台风就这样自己给自己加油。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_06" xml:space="preserve">
+    <value>到了顶部，空气向四周散开，形成一层几百公里宽的薄薄冰晶卷云，然后在远处慢慢沉下来。风眼里的空气也在下沉，被压缩后变暖，所以风眼里常常是晴的。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_07" xml:space="preserve">
+    <value>我们把海温降到二十五点五度。低于大约二十六点五度，海洋就提供不了足够的热量和水汽。雷暴还会冒出来，但再也组织不成旋转的风暴。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_08" xml:space="preserve">
+    <value>海温调回来，现在让台风登陆。我把时间停在登陆后十二小时。陆地上流进来的是干空气，就是这些褐色的点，燃料被切断了。最大风速已经从每秒七十一米左右，降到了三十米左右。</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_09" xml:space="preserve">
+    <value>轮到你了。调一调海温，让台风登陆，或者左右拖动拨动时间，看看它能变得多强。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Bands" xml:space="preserve">
+    <value>螺旋雨带：一条条阵雨和雷暴组成的长臂，旋转着伸向中心。雨带之间雨会暂时变小，下一条雨带一来，又是狂风暴雨。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Coast" xml:space="preserve">
+    <value>海岸线，随着台风深入内陆向后退去。陆地上没有温暖的海水可以蒸发，山和树又拖慢了风，台风就逐渐减弱。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Day" xml:space="preserve">
+    <value>台风每过一天就画一个点。点一下，就跳到那一刻。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Edge588" xml:space="preserve">
+    <value>588 线是副热带高压的边缘，那里 500 百帕面的高度是 5880 米。预报员看它向西伸到哪里，来判断台风往哪里走。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Eye" xml:space="preserve">
+    <value>风眼：台风平静的中心，直径通常几十公里。这里的空气下沉、被压缩变暖，所以常常是晴天，可最猛烈的风就在几公里之外。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Eyewall" xml:space="preserve">
+    <value>眼墙：围着风眼的一圈高耸的积雨云。这里空气上升最快，雨下得最大，风也是整个台风里最强的。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_High" xml:space="preserve">
+    <value>副热带高压：盘踞在太平洋上空的一大片下沉气流。它周围的风顺时针旋转，像溪水带着落叶一样，引导台风沿着它的边缘移动。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Inflow" xml:space="preserve">
+    <value>低层流入：暖湿空气贴着海面旋转流入。一路上它带走大量水汽，这些水汽里藏着驱动台风的热量。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Isobars" xml:space="preserve">
+    <value>等压线把气压相同的地方连起来，这里每十百帕画一条。等压线越密，气压在短距离内变化越快，风也就越大。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Landfall" xml:space="preserve">
+    <value>登陆点：台风中心越过海岸线的地方。点一下就跳到那时候。最猛的风、雨和风暴潮，往往就在登陆前后几个小时。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Low" xml:space="preserve">
+    <value>低压中心。还没有形成风眼时，这里就是气压最低、空气被吸过来的地方。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Motion" xml:space="preserve">
+    <value>台风正以每小时二十公里的速度向西北移动，是周围的气流推着它走的。整个风场都跟着它一起移动。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Outflow" xml:space="preserve">
+    <value>高空流出：在台风顶部，常常有十五公里高，升上来的空气向外散开，形成一层冰晶卷云。从太空看，就是台风那个白亮的圆盘。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Pacific" xml:space="preserve">
+    <value>西北太平洋：全世界台风最多的海域，每年大约生成二十五个有名字的台风，大多在八、九月。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Place" xml:space="preserve">
+    <value>你所在的位置。如果台风经过附近，会有一条虚线把它和路径上最近的点连起来，并标出最近的距离和那里的风力。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Probe" xml:space="preserve">
+    <value>探测点测量某一处的风和气压，你可以把它拖到台风里的任何地方。金色箭头是你在那里感受到的风，蓝色箭头是指向中心的气压梯度力。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Push" xml:space="preserve">
+    <value>气压梯度力：空气被从高压推向低压，笔直指向中心。地球自转让流动的空气偏转，所以它不是直接冲进去，而是绕着中心转。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Scale" xml:space="preserve">
+    <value>比例尺是两百公里。整幅图大约一千二百公里宽，比很多国家还大。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Sea" xml:space="preserve">
+    <value>温暖的海水就是燃料。台风需要至少二十六点五度的海水，而且要暖到大约五十米深。海水越热，台风能变得越强。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Showers" xml:space="preserve">
+    <value>海温低于大约二十六点五度时，雷暴此起彼伏，但没有足够的热量和水汽，组织不成台风。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_SouthChinaSea" xml:space="preserve">
+    <value>南海。这里也会生成台风，而且离陆地很近，生成后一两天就可能登陆。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Start" xml:space="preserve">
+    <value>台风生成的地方。点这里可以从头再看一遍。你也可以点击温暖海面上的任何地方，在那里生成一个新台风。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Steering" xml:space="preserve">
+    <value>引导气流。每个箭头表示那里的风会把台风带往哪个方向，箭头越长，走得越快。台风跟着它们走，自己还会稍微往西北漂。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_StormNow" xml:space="preserve">
+    <value>此刻的台风，云团按比例画出。标签上是它的等级、最大风速和中心气压。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_StrongSide" xml:space="preserve">
+    <value>在这一侧，台风的旋转和它的前进方向一致，两股风速叠加在一起。在北半球就是路径的右侧，航海的人叫它危险半圆。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Track" xml:space="preserve">
+    <value>台风的路径，颜色表示它的等级：蓝色是热带低压，往上是绿色、黄色、橙色，红色和紫色是最强的台风。左右拖动可以沿着路径前后移动。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Turn" xml:space="preserve">
+    <value>气流旋转的方向。受地球自转偏转，北半球的台风逆时针旋转着流入，南半球则是顺时针。赤道附近偏转太弱，所以那里几乎不会生成台风。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_WarmCore" xml:space="preserve">
+    <value>暖心：水汽凝结时放出的热量，让台风中心变暖。暖空气更轻，地面气压就下降，风也就刮得更猛。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_WarmEdge" xml:space="preserve">
+    <value>这条虚线是海温二十六点五度的位置。在它南边，台风可以增强。到了夏末，暖水会伸到更北的地方。</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Wind" xml:space="preserve">
+    <value>台风此刻的最大风速。海水有多暖，决定了它最高能到多少；一旦登陆，它就一小时一小时地降下来。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_01" xml:space="preserve">
+    <value>这是从高空俯视的一个台风，宽约一千二百公里。整个风暴都绕着中间一个小小的、平静的洞在转，这就是风眼。我们来看看它为什么会旋转，最强的风又在哪里。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_02" xml:space="preserve">
+    <value>这些虚线圆圈是等压线，每隔十百帕画一条。气压越往中心越低，靠近风眼的地方，圆圈挤得越来越密。等压线越密，把空气往里推的力就越大。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_03" xml:space="preserve">
+    <value>看这个探测点。蓝色箭头是气压梯度力，笔直指向中心。可金色箭头，也就是风，几乎没有朝里吹。它基本是绕着风暴转，只稍微向里偏一点。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_04" xml:space="preserve">
+    <value>那么，空气为什么不直接冲进低压，把它填平呢？你觉得是什么让它拐了弯？</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_05" xml:space="preserve">
+    <value>答案是地球自转。我刚把它关掉了：现在空气直奔中心，一天之内就会把低压填平。在旋转的地球上，北半球流动的空气会向右偏，于是只能逆时针绕着中心转。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_06" xml:space="preserve">
+    <value>地球自转重新打开了。我把探测点移到了眼墙，就是紧挨着风眼的那一圈云墙。这里的风最强，大约每秒四十八米，十五级。再往里一步进入风眼，反而几乎没有风。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_07" xml:space="preserve">
+    <value>现在把中心气压降到九百一十五百帕，它变成了超强台风。看，等压线挤得更密了：推力更大，风也更强，眼墙处每秒大约六十五米。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_08" xml:space="preserve">
+    <value>那赤道以南呢？在那里，地球自转让流动的空气向左偏，同样的风暴就变成了顺时针旋转。所以南北半球的台风，转的方向正好相反。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_09" xml:space="preserve">
+    <value>回到北半球，让台风以每小时二十公里的速度向西北移动。在它前进方向的右侧，旋转的风和台风自身的移动叠加在一起，风最大，这就是危险半圆。</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_10" xml:space="preserve">
+    <value>轮到你了。拖动气压滑块，切换地球自转或南北半球，或者移动探测点，看看风会怎样变化。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_01" xml:space="preserve">
+    <value>这是西北太平洋的地图，全世界这里生成的台风最多。我们的台风八月份在关岛附近诞生，就在这里。它会往哪里走呢？</value>
+  </data>
+  <data name="Narr_Typhoon_Track_02" xml:space="preserve">
+    <value>这条虚线标出海温二十六点五度的位置。它南边颜色较浅的海面，水温都比这更高，台风在那里能不断增强；跑到虚线北边较冷的海面上，就开始减弱。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_03" xml:space="preserve">
+    <value>这个大大的 H 是副热带高压，一大片下沉的空气。风绕着它顺时针转，就是这些白色的小箭头。台风自己几乎不会走，是这些引导气流推着它前进。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_04" xml:space="preserve">
+    <value>四天后，台风沿着副高的南缘向西北偏西移动，一路在温暖的海面上增强。路径的颜色，表示它在每一处的强度。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_05" xml:space="preserve">
+    <value>假如副热带高压往西伸得更远，一直伸到中国沿海，台风的路径会怎样变化？</value>
+  </data>
+  <data name="Narr_Typhoon_Track_06" xml:space="preserve">
+    <value>没错。副高西伸得很远，引导气流一直把台风往西推，它就在华南登陆了。上岸以后，没有了温暖海水的补给，它很快就减弱了。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_07" xml:space="preserve">
+    <value>现在把副高往东收回去。台风很快就走到副高的西端，绕着它转向北，改朝日本方向去了。同一个台风，路径却完全不同，关键就看副高。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_08" xml:space="preserve">
+    <value>金色的点是你所在的位置。台风经过附近时，一条虚线会把你的位置和路径上最近的一点连起来，旁边的标签告诉你它离你多近，那里的风有多大。</value>
+  </data>
+  <data name="Narr_Typhoon_Track_09" xml:space="preserve">
+    <value>轮到你了。换个月份，移动副高的西端，或者在温暖的海面上随便点一下，生成一个新台风，看看它会去哪里。</value>
+  </data>
   <data name="Narr_Water_Cloud_01" xml:space="preserve">
     <value>云是怎么形成的？在一块被晒热的田野上方，一团空气被地面加热，像热气球一样自己往上升。</value>
   </data>
@@ -10985,6 +11159,708 @@
   </data>
   <data name="Trails_Year_Turned" xml:space="preserve">
     <value>{0} 小时</value>
+  </data>
+  <data name="Typhoon_Chart_Decay_Caption" xml:space="preserve">
+    <value>登陆后的衰减</value>
+  </data>
+  <data name="Typhoon_Chart_Decay_None" xml:space="preserve">
+    <value>没有台风可以登陆</value>
+  </data>
+  <data name="Typhoon_Chart_Decay_Note" xml:space="preserve">
+    <value>按实测规律（Kaplan 和 DeMaria，1995）：在海岸线上先减弱一成，之后每小时减掉超出 13.7 m/s 部分的约 9.5%。</value>
+  </data>
+  <data name="Typhoon_Chart_Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Typhoon_Chart_Intensity_Caption" xml:space="preserve">
+    <value>沿路径的强度变化</value>
+  </data>
+  <data name="Typhoon_Chart_Intensity_Note" xml:space="preserve">
+    <value>逐日的最大风速；红线表示登陆。台风在暖海上增强，在较冷的海面上减弱，在陆地上消亡。</value>
+  </data>
+  <data name="Typhoon_Chart_Potential_Caption" xml:space="preserve">
+    <value>海温决定的强度上限</value>
+  </data>
+  <data name="Typhoon_Chart_Potential_Edge" xml:space="preserve">
+    <value>26.5 °C</value>
+  </data>
+  <data name="Typhoon_Chart_Potential_Note" xml:space="preserve">
+    <value>在这样的海温上台风能达到的最大风速（经验公式，DeMaria 和 Kaplan，1994）。大多数台风达不到这个上限。</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Caption" xml:space="preserve">
+    <value>风速与气压随距离的变化</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Note" xml:space="preserve">
+    <value>金色：风速，风眼里平静，眼墙处最强，向外慢慢减弱。蓝色：气压。虚线是探测点的位置。</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Pressure" xml:space="preserve">
+    <value>气压</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Wind" xml:space="preserve">
+    <value>风速</value>
+  </data>
+  <data name="Typhoon_Chart_Season_Caption" xml:space="preserve">
+    <value>每月生成的台风个数</value>
+  </data>
+  <data name="Typhoon_Chart_Season_Note" xml:space="preserve">
+    <value>西北太平洋每月生成的命名风暴个数，1991–2020 年平均值（日本气象厅，取约数）：全年约 25 个。</value>
+  </data>
+  <data name="Typhoon_City_Busan" xml:space="preserve">
+    <value>釜山</value>
+  </data>
+  <data name="Typhoon_City_DaNang" xml:space="preserve">
+    <value>岘港</value>
+  </data>
+  <data name="Typhoon_City_Fuzhou" xml:space="preserve">
+    <value>福州</value>
+  </data>
+  <data name="Typhoon_City_Haikou" xml:space="preserve">
+    <value>海口</value>
+  </data>
+  <data name="Typhoon_City_Haiphong" xml:space="preserve">
+    <value>海防</value>
+  </data>
+  <data name="Typhoon_City_HongKong" xml:space="preserve">
+    <value>香港</value>
+  </data>
+  <data name="Typhoon_City_Hualien" xml:space="preserve">
+    <value>花莲</value>
+  </data>
+  <data name="Typhoon_City_Kagoshima" xml:space="preserve">
+    <value>鹿儿岛</value>
+  </data>
+  <data name="Typhoon_City_Manila" xml:space="preserve">
+    <value>马尼拉</value>
+  </data>
+  <data name="Typhoon_City_Naha" xml:space="preserve">
+    <value>那霸</value>
+  </data>
+  <data name="Typhoon_City_Ningbo" xml:space="preserve">
+    <value>宁波</value>
+  </data>
+  <data name="Typhoon_City_Osaka" xml:space="preserve">
+    <value>大阪</value>
+  </data>
+  <data name="Typhoon_City_Qingdao" xml:space="preserve">
+    <value>青岛</value>
+  </data>
+  <data name="Typhoon_City_Shanghai" xml:space="preserve">
+    <value>上海</value>
+  </data>
+  <data name="Typhoon_City_Shantou" xml:space="preserve">
+    <value>汕头</value>
+  </data>
+  <data name="Typhoon_City_Taipei" xml:space="preserve">
+    <value>台北</value>
+  </data>
+  <data name="Typhoon_City_Tokyo" xml:space="preserve">
+    <value>东京</value>
+  </data>
+  <data name="Typhoon_City_Wenzhou" xml:space="preserve">
+    <value>温州</value>
+  </data>
+  <data name="Typhoon_City_Xiamen" xml:space="preserve">
+    <value>厦门</value>
+  </data>
+  <data name="Typhoon_City_Yangjiang" xml:space="preserve">
+    <value>阳江</value>
+  </data>
+  <data name="Typhoon_City_Zhanjiang" xml:space="preserve">
+    <value>湛江</value>
+  </data>
+  <data name="Typhoon_Engine_Bands" xml:space="preserve">
+    <value>螺旋雨带</value>
+  </data>
+  <data name="Typhoon_Engine_Clock" xml:space="preserve">
+    <value>海温 {0} °C</value>
+  </data>
+  <data name="Typhoon_Engine_ClockLand" xml:space="preserve">
+    <value>登陆后 {0} 小时 · {1} m/s</value>
+  </data>
+  <data name="Typhoon_Engine_Coast" xml:space="preserve">
+    <value>海岸线</value>
+  </data>
+  <data name="Typhoon_Engine_Distance" xml:space="preserve">
+    <value>距中心 km</value>
+  </data>
+  <data name="Typhoon_Engine_Eye" xml:space="preserve">
+    <value>风眼：下沉、晴朗、温暖</value>
+  </data>
+  <data name="Typhoon_Engine_Eyewall" xml:space="preserve">
+    <value>眼墙：高耸的积雨云</value>
+  </data>
+  <data name="Typhoon_Engine_Fact1" xml:space="preserve">
+    <value>台风需要至少 26.5 °C、深达约 50 m 的海水，潮湿的空气，以及上下风向风速变化不大的环境，否则风暴会被“吹散”。</value>
+  </data>
+  <data name="Typhoon_Engine_Fact2" xml:space="preserve">
+    <value>一个典型飓风降雨释放的热量约为 6 × 10¹⁴ W，大约是全世界平均发电功率的 200 倍；其中只有约四百分之一变成了风。</value>
+  </data>
+  <data name="Typhoon_Engine_Fact3" xml:space="preserve">
+    <value>空气沿眼墙冲到 15 km 甚至更高，然后在高空向四周散开，形成宽达数百公里的卷云盖：就是卫星云图上那个白色圆盘。</value>
+  </data>
+  <data name="Typhoon_Engine_Fact4" xml:space="preserve">
+    <value>风眼里空气下沉、受压增温，所以风眼晴朗，台风中心比周围更暖。</value>
+  </data>
+  <data name="Typhoon_Engine_Fact5" xml:space="preserve">
+    <value>台风会把下层的冷水翻搅上来，使经过的海面降温，有时降好几度；移动缓慢的台风可能因此削弱自己。</value>
+  </data>
+  <data name="Typhoon_Engine_Height" xml:space="preserve">
+    <value>高度 km</value>
+  </data>
+  <data name="Typhoon_Engine_Inflow" xml:space="preserve">
+    <value>暖湿空气旋转流入</value>
+  </data>
+  <data name="Typhoon_Engine_Landfall_Description" xml:space="preserve">
+    <value>陆地上没有温暖的海水可蒸发：流入的空气是干的，山地和树木又减慢了风，台风一两天内就会减弱。但它仍可能带来大量降雨。</value>
+  </data>
+  <data name="Typhoon_Engine_Landfall_Title" xml:space="preserve">
+    <value>登陆：燃料被切断</value>
+  </data>
+  <data name="Typhoon_Engine_Note" xml:space="preserve">
+    <value>剖面宽 600 km、高 18 km，高度方向放大约 15 倍。台风强度取海温允许上限的 90%（DeMaria 和 Kaplan，1994）；登陆后按实测规律衰减（Kaplan 和 DeMaria，1995）。</value>
+  </data>
+  <data name="Typhoon_Engine_Outflow" xml:space="preserve">
+    <value>高空流出：卷云盖</value>
+  </data>
+  <data name="Typhoon_Engine_Running_Description" xml:space="preserve">
+    <value>暖湿空气在海面上旋转流入，在眼墙中上升，水汽凝结。释放的热量加热中心，气压进一步降低，风又吸入更多暖湿空气。海水越暖，台风可能越强。</value>
+  </data>
+  <data name="Typhoon_Engine_Running_Title" xml:space="preserve">
+    <value>以暖海为燃料的热机</value>
+  </data>
+  <data name="Typhoon_Engine_Sea" xml:space="preserve">
+    <value>海温 {0} °C：燃料</value>
+  </data>
+  <data name="Typhoon_Engine_Subtitle" xml:space="preserve">
+    <value>以温暖海水为燃料的热机</value>
+  </data>
+  <data name="Typhoon_Engine_TooCool" xml:space="preserve">
+    <value>低于 {0} °C：只有零散雷暴，形不成台风</value>
+  </data>
+  <data name="Typhoon_Engine_TooCool_Description" xml:space="preserve">
+    <value>海温低于约 26.5 °C 时，海洋提供不了足够的热量和水汽：雷暴此起彼伏，却组织不成旋转的风暴。</value>
+  </data>
+  <data name="Typhoon_Engine_TooCool_Title" xml:space="preserve">
+    <value>海水太冷，形不成台风</value>
+  </data>
+  <data name="Typhoon_Engine_WarmCore" xml:space="preserve">
+    <value>暖心：水汽凝结释放的热量</value>
+  </data>
+  <data name="Typhoon_Engine_Wind" xml:space="preserve">
+    <value>最大风速 {0} m/s，{1}</value>
+  </data>
+  <data name="Typhoon_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Typhoon_Force" xml:space="preserve">
+    <value>{0} 级</value>
+  </data>
+  <data name="Typhoon_Force_Above" xml:space="preserve">
+    <value>17 级以上</value>
+  </data>
+  <data name="Typhoon_Grade_Depression" xml:space="preserve">
+    <value>热带低压</value>
+  </data>
+  <data name="Typhoon_Grade_Depression_Description" xml:space="preserve">
+    <value>10.8–17.1 m/s，6–7 级：雷暴云团开始绕着低压中心旋转。</value>
+  </data>
+  <data name="Typhoon_Grade_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Typhoon_Grade_None_Description" xml:space="preserve">
+    <value>风速低于 10.8 m/s：只是一个低压，还算不上热带气旋。</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTropicalStorm" xml:space="preserve">
+    <value>强热带风暴</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTropicalStorm_Description" xml:space="preserve">
+    <value>24.5–32.6 m/s，10–11 级：树木被连根拔起，海上巨浪翻滚。</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTyphoon" xml:space="preserve">
+    <value>强台风</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTyphoon_Description" xml:space="preserve">
+    <value>41.5–50.9 m/s，14–15 级：风眼清晰，眼墙狂风环绕，破坏范围很大。</value>
+  </data>
+  <data name="Typhoon_Grade_SuperTyphoon" xml:space="preserve">
+    <value>超强台风</value>
+  </data>
+  <data name="Typhoon_Grade_SuperTyphoon_Description" xml:space="preserve">
+    <value>51 m/s 以上，16 级及以上：破坏力最强，风眼又圆又清晰。</value>
+  </data>
+  <data name="Typhoon_Grade_TropicalStorm" xml:space="preserve">
+    <value>热带风暴</value>
+  </data>
+  <data name="Typhoon_Grade_TropicalStorm_Description" xml:space="preserve">
+    <value>17.2–24.4 m/s，8–9 级：这时会得到一个名字。阵雨带围着中心旋转，还没有风眼。</value>
+  </data>
+  <data name="Typhoon_Grade_Typhoon" xml:space="preserve">
+    <value>台风</value>
+  </data>
+  <data name="Typhoon_Grade_Typhoon_Description" xml:space="preserve">
+    <value>32.7–41.4 m/s，12–13 级：通常已经出现风眼；屋顶、招牌会被掀翻。</value>
+  </data>
+  <data name="Typhoon_Hint_Engine" xml:space="preserve">
+    <value>调节海温，或者让台风登陆，看它怎样逐渐减弱；左右拖动可以拨动时间。</value>
+  </data>
+  <data name="Typhoon_Hint_Storm" xml:space="preserve">
+    <value>点击或拖动探测点查看任意位置的风和气压；关掉地球自转或切到南半球，看看台风为什么会旋转。</value>
+  </data>
+  <data name="Typhoon_Hint_Track" xml:space="preserve">
+    <value>调节副热带高压的西伸位置、切换月份；点击海面可以在那里生成台风；左右拖动可以拨动时间。</value>
+  </data>
+  <data name="Typhoon_Lat_N" xml:space="preserve">
+    <value>北纬{0}°</value>
+  </data>
+  <data name="Typhoon_Lesson_Engine_Choice1" xml:space="preserve">
+    <value>水汽凝结时放出的热量</value>
+  </data>
+  <data name="Typhoon_Lesson_Engine_Choice2" xml:space="preserve">
+    <value>风本身的旋转</value>
+  </data>
+  <data name="Typhoon_Lesson_Engine_Choice3" xml:space="preserve">
+    <value>阳光晒热了云顶</value>
+  </data>
+  <data name="Typhoon_Lesson_Storm_Choice1" xml:space="preserve">
+    <value>地球自转让流动的空气偏转</value>
+  </data>
+  <data name="Typhoon_Lesson_Storm_Choice2" xml:space="preserve">
+    <value>海浪把空气推向一边</value>
+  </data>
+  <data name="Typhoon_Lesson_Storm_Choice3" xml:space="preserve">
+    <value>风眼把空气吹了回去</value>
+  </data>
+  <data name="Typhoon_Lesson_Track_Choice1" xml:space="preserve">
+    <value>继续向西，在华南登陆</value>
+  </data>
+  <data name="Typhoon_Lesson_Track_Choice2" xml:space="preserve">
+    <value>更早转向北</value>
+  </data>
+  <data name="Typhoon_Lesson_Track_Choice3" xml:space="preserve">
+    <value>停在原地不动</value>
+  </data>
+  <data name="Typhoon_List_Separator" xml:space="preserve">
+    <value>、</value>
+  </data>
+  <data name="Typhoon_Lon_E" xml:space="preserve">
+    <value>东经{0}°</value>
+  </data>
+  <data name="Typhoon_Mode_Engine" xml:space="preserve">
+    <value>热机剖面</value>
+  </data>
+  <data name="Typhoon_Mode_Storm" xml:space="preserve">
+    <value>俯视</value>
+  </data>
+  <data name="Typhoon_Mode_Track" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="Typhoon_Month_10" xml:space="preserve">
+    <value>10 月</value>
+  </data>
+  <data name="Typhoon_Month_6" xml:space="preserve">
+    <value>6 月</value>
+  </data>
+  <data name="Typhoon_Month_7" xml:space="preserve">
+    <value>7 月</value>
+  </data>
+  <data name="Typhoon_Month_8" xml:space="preserve">
+    <value>8 月</value>
+  </data>
+  <data name="Typhoon_Month_9" xml:space="preserve">
+    <value>9 月</value>
+  </data>
+  <data name="Typhoon_Month_Caption" xml:space="preserve">
+    <value>月份</value>
+  </data>
+  <data name="Typhoon_Obj_Bands" xml:space="preserve">
+    <value>螺旋雨带</value>
+  </data>
+  <data name="Typhoon_Obj_Coast" xml:space="preserve">
+    <value>海岸与陆地</value>
+  </data>
+  <data name="Typhoon_Obj_Day" xml:space="preserve">
+    <value>台风的一天</value>
+  </data>
+  <data name="Typhoon_Obj_Edge588" xml:space="preserve">
+    <value>588 线</value>
+  </data>
+  <data name="Typhoon_Obj_Eye" xml:space="preserve">
+    <value>风眼</value>
+  </data>
+  <data name="Typhoon_Obj_Eyewall" xml:space="preserve">
+    <value>眼墙</value>
+  </data>
+  <data name="Typhoon_Obj_High" xml:space="preserve">
+    <value>副热带高压</value>
+  </data>
+  <data name="Typhoon_Obj_Inflow" xml:space="preserve">
+    <value>低层流入</value>
+  </data>
+  <data name="Typhoon_Obj_Landfall" xml:space="preserve">
+    <value>登陆</value>
+  </data>
+  <data name="Typhoon_Obj_Low" xml:space="preserve">
+    <value>低压中心</value>
+  </data>
+  <data name="Typhoon_Obj_Motion" xml:space="preserve">
+    <value>台风的移动</value>
+  </data>
+  <data name="Typhoon_Obj_Outflow" xml:space="preserve">
+    <value>高空流出</value>
+  </data>
+  <data name="Typhoon_Obj_Place" xml:space="preserve">
+    <value>你的位置</value>
+  </data>
+  <data name="Typhoon_Obj_Push" xml:space="preserve">
+    <value>气压梯度力</value>
+  </data>
+  <data name="Typhoon_Obj_Scale" xml:space="preserve">
+    <value>比例尺</value>
+  </data>
+  <data name="Typhoon_Obj_Sea" xml:space="preserve">
+    <value>温暖的海水</value>
+  </data>
+  <data name="Typhoon_Obj_Showers" xml:space="preserve">
+    <value>零散雷暴</value>
+  </data>
+  <data name="Typhoon_Obj_Start" xml:space="preserve">
+    <value>生成地点</value>
+  </data>
+  <data name="Typhoon_Obj_Steering" xml:space="preserve">
+    <value>引导气流</value>
+  </data>
+  <data name="Typhoon_Obj_StormNow" xml:space="preserve">
+    <value>此刻的台风</value>
+  </data>
+  <data name="Typhoon_Obj_StrongSide" xml:space="preserve">
+    <value>危险半圆</value>
+  </data>
+  <data name="Typhoon_Obj_Track" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="Typhoon_Obj_Turn" xml:space="preserve">
+    <value>旋转方向</value>
+  </data>
+  <data name="Typhoon_Obj_WarmCore" xml:space="preserve">
+    <value>暖心</value>
+  </data>
+  <data name="Typhoon_Obj_WarmEdge" xml:space="preserve">
+    <value>暖海边界</value>
+  </data>
+  <data name="Typhoon_Option_Isobars" xml:space="preserve">
+    <value>等压线</value>
+  </data>
+  <data name="Typhoon_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Typhoon_Option_Landfall" xml:space="preserve">
+    <value>登陆</value>
+  </data>
+  <data name="Typhoon_Option_Moving" xml:space="preserve">
+    <value>向西北移动</value>
+  </data>
+  <data name="Typhoon_Option_Southern" xml:space="preserve">
+    <value>南半球</value>
+  </data>
+  <data name="Typhoon_Option_Spin" xml:space="preserve">
+    <value>地球自转（科里奥利力）</value>
+  </data>
+  <data name="Typhoon_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Typhoon_Pressure" xml:space="preserve">
+    <value>中心气压</value>
+  </data>
+  <data name="Typhoon_Pressure_Note" xml:space="preserve">
+    <value>气压越低，风越强（滑块越往右气压越低）。</value>
+  </data>
+  <data name="Typhoon_Probe_Distance" xml:space="preserve">
+    <value>距中心 {0} km</value>
+  </data>
+  <data name="Typhoon_Probe_Pressure" xml:space="preserve">
+    <value>气压 {0} hPa</value>
+  </data>
+  <data name="Typhoon_Probe_Push" xml:space="preserve">
+    <value>气压梯度力</value>
+  </data>
+  <data name="Typhoon_Probe_Wind" xml:space="preserve">
+    <value>风速 {0} m/s（{1} km/h），{2}</value>
+  </data>
+  <data name="Typhoon_Ridge" xml:space="preserve">
+    <value>副热带高压西伸脊点</value>
+  </data>
+  <data name="Typhoon_Ridge_Note" xml:space="preserve">
+    <value>副高越往西伸，台风越容易一路西行登陆华南；副高东退时，台风则北上转向台湾、浙江、日本或海上。</value>
+  </data>
+  <data name="Typhoon_Sea" xml:space="preserve">
+    <value>海面温度</value>
+  </data>
+  <data name="Typhoon_Sea_Cool" xml:space="preserve">
+    <value>偏冷 25.5</value>
+  </data>
+  <data name="Typhoon_Sea_Hot" xml:space="preserve">
+    <value>炎热 30</value>
+  </data>
+  <data name="Typhoon_Sea_Warm" xml:space="preserve">
+    <value>温暖 27.5</value>
+  </data>
+  <data name="Typhoon_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Typhoon_Start_Caption" xml:space="preserve">
+    <value>生成位置（也可以点击海面）</value>
+  </data>
+  <data name="Typhoon_Start_Guam" xml:space="preserve">
+    <value>关岛附近</value>
+  </data>
+  <data name="Typhoon_Start_Philippines" xml:space="preserve">
+    <value>菲律宾以东</value>
+  </data>
+  <data name="Typhoon_Start_SouthChinaSea" xml:space="preserve">
+    <value>南海</value>
+  </data>
+  <data name="Typhoon_Stat_Ashore" xml:space="preserve">
+    <value>登陆后</value>
+  </data>
+  <data name="Typhoon_Stat_Ashore_Value" xml:space="preserve">
+    <value>{0} 小时，深入内陆约 {1} km</value>
+  </data>
+  <data name="Typhoon_Stat_Ceiling" xml:space="preserve">
+    <value>强度上限</value>
+  </data>
+  <data name="Typhoon_Stat_Ceiling_None" xml:space="preserve">
+    <value>无：海温太低</value>
+  </data>
+  <data name="Typhoon_Stat_Ceiling_Value" xml:space="preserve">
+    <value>{0} m/s（{1}）</value>
+  </data>
+  <data name="Typhoon_Stat_Eye" xml:space="preserve">
+    <value>风眼直径</value>
+  </data>
+  <data name="Typhoon_Stat_Eye_None" xml:space="preserve">
+    <value>尚未形成</value>
+  </data>
+  <data name="Typhoon_Stat_Grade" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="Typhoon_Stat_Km_Value" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Typhoon_Stat_Landfall_Item" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="Typhoon_Stat_Landfalls" xml:space="preserve">
+    <value>登陆</value>
+  </data>
+  <data name="Typhoon_Stat_Landfalls_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Typhoon_Stat_MaxWind" xml:space="preserve">
+    <value>最大风速</value>
+  </data>
+  <data name="Typhoon_Stat_Pass" xml:space="preserve">
+    <value>离你最近</value>
+  </data>
+  <data name="Typhoon_Stat_Pass_Far" xml:space="preserve">
+    <value>{0}：距离太远，感受不到</value>
+  </data>
+  <data name="Typhoon_Stat_Pass_Value" xml:space="preserve">
+    <value>{0}：生成后第 {3} 天最近，{1} km，{2}</value>
+  </data>
+  <data name="Typhoon_Stat_Pressure" xml:space="preserve">
+    <value>中心气压</value>
+  </data>
+  <data name="Typhoon_Stat_Probe" xml:space="preserve">
+    <value>探测点</value>
+  </data>
+  <data name="Typhoon_Stat_Probe_Value" xml:space="preserve">
+    <value>距中心 {0} km：{1} m/s，{2}，{3} hPa</value>
+  </data>
+  <data name="Typhoon_Stat_Rmax" xml:space="preserve">
+    <value>最大风速半径</value>
+  </data>
+  <data name="Typhoon_Stat_Sea" xml:space="preserve">
+    <value>海温</value>
+  </data>
+  <data name="Typhoon_Stat_Sea_Land" xml:space="preserve">
+    <value>在陆地上</value>
+  </data>
+  <data name="Typhoon_Stat_Tops" xml:space="preserve">
+    <value>云顶高度</value>
+  </data>
+  <data name="Typhoon_Stat_Turn" xml:space="preserve">
+    <value>旋转方向</value>
+  </data>
+  <data name="Typhoon_Stat_Turn_Anticlockwise" xml:space="preserve">
+    <value>逆时针</value>
+  </data>
+  <data name="Typhoon_Stat_Turn_Clockwise" xml:space="preserve">
+    <value>顺时针</value>
+  </data>
+  <data name="Typhoon_Stat_Turn_None" xml:space="preserve">
+    <value>不旋转</value>
+  </data>
+  <data name="Typhoon_Stat_Where" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Typhoon_Stat_Where_Value" xml:space="preserve">
+    <value>北纬 {0}°，东经 {1}°</value>
+  </data>
+  <data name="Typhoon_Stat_Wind_Value" xml:space="preserve">
+    <value>{0} m/s（{1} km/h），{2}</value>
+  </data>
+  <data name="Typhoon_Storm_Anticlockwise" xml:space="preserve">
+    <value>北半球：气流逆时针旋转着流入</value>
+  </data>
+  <data name="Typhoon_Storm_Bands" xml:space="preserve">
+    <value>螺旋雨带</value>
+  </data>
+  <data name="Typhoon_Storm_Clock" xml:space="preserve">
+    <value>{0} · {1} m/s · {2} hPa</value>
+  </data>
+  <data name="Typhoon_Storm_Clockwise" xml:space="preserve">
+    <value>南半球：气流顺时针旋转着流入</value>
+  </data>
+  <data name="Typhoon_Storm_Eye" xml:space="preserve">
+    <value>风眼</value>
+  </data>
+  <data name="Typhoon_Storm_Eyewall" xml:space="preserve">
+    <value>眼墙：风力最强</value>
+  </data>
+  <data name="Typhoon_Storm_Fact1" xml:space="preserve">
+    <value>台风、飓风和气旋是同一种风暴：在西北太平洋叫台风，在大西洋和东北太平洋叫飓风，在印度洋和南太平洋叫气旋。</value>
+  </data>
+  <data name="Typhoon_Storm_Fact2" xml:space="preserve">
+    <value>风眼里风平浪静，常常晴空可见，大多直径 30–60 km。最强的风和最大的雨都在紧挨着它的眼墙里。</value>
+  </data>
+  <data name="Typhoon_Storm_Fact3" xml:space="preserve">
+    <value>冲向低压的空气被地球自转偏转（北半球向右），于是绕着中心逆时针旋转，而不是把低压填平。赤道附近 5° 以内这种偏转太弱，几乎不会生成台风。</value>
+  </data>
+  <data name="Typhoon_Storm_Fact4" xml:space="preserve">
+    <value>北半球台风路径的右侧是“危险半圆”：那里台风的移动速度和旋转风叠加在一起。</value>
+  </data>
+  <data name="Typhoon_Storm_Fact5" xml:space="preserve">
+    <value>有记录以来最低的海平面气压是 870 hPa，出现在 1979 年 10 月西北太平洋的台风“泰培”中。</value>
+  </data>
+  <data name="Typhoon_Storm_Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="Typhoon_Storm_Motion" xml:space="preserve">
+    <value>向西北移动，20 km/h</value>
+  </data>
+  <data name="Typhoon_Storm_NoSpin" xml:space="preserve">
+    <value>没有地球自转，空气直接冲向中心，把低压填平</value>
+  </data>
+  <data name="Typhoon_Storm_NoSpin_Description" xml:space="preserve">
+    <value>空气直奔低压中心，一天之内就把它填平。正是地球自转（科里奥利效应）让空气偏转，绕着中心转而不是直接流入，低压才能越来越深。</value>
+  </data>
+  <data name="Typhoon_Storm_NoSpin_Title" xml:space="preserve">
+    <value>没有地球自转：形不成台风</value>
+  </data>
+  <data name="Typhoon_Storm_Note" xml:space="preserve">
+    <value>俯视图，范围 1200 km。风速按 Holland（1980）风廓线和西北太平洋风压关系计算；云图为示意；时间加快约 900 倍。</value>
+  </data>
+  <data name="Typhoon_Storm_StrongSide" xml:space="preserve">
+    <value>危险半圆：旋转风加上移动速度</value>
+  </data>
+  <data name="Typhoon_Storm_Subtitle" xml:space="preserve">
+    <value>从上空看台风：风眼、眼墙与螺旋雨带</value>
+  </data>
+  <data name="Typhoon_Timeline_Landfall" xml:space="preserve">
+    <value>登陆后的小时数</value>
+  </data>
+  <data name="Typhoon_Timeline_Track" xml:space="preserve">
+    <value>台风的生命历程</value>
+  </data>
+  <data name="Typhoon_Title" xml:space="preserve">
+    <value>台风</value>
+  </data>
+  <data name="Typhoon_Track_588" xml:space="preserve">
+    <value>588 线：副高边缘</value>
+  </data>
+  <data name="Typhoon_Track_Clock" xml:space="preserve">
+    <value>第 {0} 天 {1} 时</value>
+  </data>
+  <data name="Typhoon_Track_Day" xml:space="preserve">
+    <value>第{0}天</value>
+  </data>
+  <data name="Typhoon_Track_Dissipated" xml:space="preserve">
+    <value>已消散</value>
+  </data>
+  <data name="Typhoon_Track_Fact1" xml:space="preserve">
+    <value>西北太平洋每年约生成 25 个命名风暴，比任何其他海域都多，大多集中在 8、9 月。</value>
+  </data>
+  <data name="Typhoon_Track_Fact2" xml:space="preserve">
+    <value>台风自己几乎不会走，而是被周围的气流带着走，其中最重要的是副热带高压。我国预报员常用 500 hPa 高度场上的 5880 m 等值线（588 线）表示副高的边缘。</value>
+  </data>
+  <data name="Typhoon_Track_Fact3" xml:space="preserve">
+    <value>副高西伸时，台风多一路西行登陆华南、海南或越南；副高东退时，台风则北上转向台湾、浙江、上海、朝鲜半岛或日本，或者在海上转向东北。</value>
+  </data>
+  <data name="Typhoon_Track_Fact4" xml:space="preserve">
+    <value>平均每年约有 7 个热带风暴及以上强度的台风登陆我国，多在广东、海南、台湾、福建和浙江。</value>
+  </data>
+  <data name="Typhoon_Track_Fact5" xml:space="preserve">
+    <value>即使深入内陆、强度减弱，台风残余仍可能给湖南、江西、广西等地带来连续几天的强降雨；那里最大的危险往往是洪涝。</value>
+  </data>
+  <data name="Typhoon_Track_Growing_Description" xml:space="preserve">
+    <value>在高于 26.5 °C 的海面上，台风不断吸收热量而增强，同时被副热带高压周围的气流带着移动。</value>
+  </data>
+  <data name="Typhoon_Track_Growing_Title" xml:space="preserve">
+    <value>在暖海上增强</value>
+  </data>
+  <data name="Typhoon_Track_High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Typhoon_Track_HighName" xml:space="preserve">
+    <value>副热带高压</value>
+  </data>
+  <data name="Typhoon_Track_Land_Description" xml:space="preserve">
+    <value>离开了温暖的海洋，台风迅速减弱，但它的降雨会深入内陆很远。</value>
+  </data>
+  <data name="Typhoon_Track_Land_Title" xml:space="preserve">
+    <value>在陆地上</value>
+  </data>
+  <data name="Typhoon_Track_Landfall" xml:space="preserve">
+    <value>{0}附近登陆 · {1} {2} m/s</value>
+  </data>
+  <data name="Typhoon_Track_Note" xml:space="preserve">
+    <value>简化的引导气流模型：把副热带高压看作一条高压脊，加上它北侧的西风带和台风自身向西北的漂移；台风在暖海上增强、在陆地上减弱。真实路径还受低压槽、其他台风和季风等影响。</value>
+  </data>
+  <data name="Typhoon_Track_Now" xml:space="preserve">
+    <value>{0} · {1} m/s · {2} hPa</value>
+  </data>
+  <data name="Typhoon_Track_Over_Description" xml:space="preserve">
+    <value>它已经在陆地上消散、离开了地图，或者北上进入冷空气，变成了普通的温带低压。点击海面可以再生成一个。</value>
+  </data>
+  <data name="Typhoon_Track_Over_Title" xml:space="preserve">
+    <value>台风已结束</value>
+  </data>
+  <data name="Typhoon_Track_Pacific" xml:space="preserve">
+    <value>太平洋</value>
+  </data>
+  <data name="Typhoon_Track_Pass" xml:space="preserve">
+    <value>最近 {0} km，{1}</value>
+  </data>
+  <data name="Typhoon_Track_Sea_Description" xml:space="preserve">
+    <value>引导气流把它带到哪里，它就走到哪里。往北海水变凉，它就无法再增强了。</value>
+  </data>
+  <data name="Typhoon_Track_Sea_Title" xml:space="preserve">
+    <value>在海上</value>
+  </data>
+  <data name="Typhoon_Track_SouthChinaSea" xml:space="preserve">
+    <value>南海</value>
+  </data>
+  <data name="Typhoon_Track_Start" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="Typhoon_Track_Subtitle" xml:space="preserve">
+    <value>台风往哪里走，在哪里登陆</value>
+  </data>
+  <data name="Typhoon_Track_WarmEdge" xml:space="preserve">
+    <value>海温 26.5 °C</value>
+  </data>
+  <data name="Typhoon_Try_Caption" xml:space="preserve">
+    <value>试一试</value>
   </data>
   <data name="Update_Banner_Download" xml:space="preserve">
     <value>探索之书 {0} 已发布。下载后关闭本程序，再覆盖安装。</value>

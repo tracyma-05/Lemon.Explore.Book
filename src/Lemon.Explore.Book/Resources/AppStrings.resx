@@ -7485,6 +7485,180 @@
   <data name="Narr_Trails_Year_08" xml:space="preserve">
     <value>Your turn. Drag Earth round its orbit, or pick a date, and see which constellations fill the evening sky.</value>
   </data>
+  <data name="Narr_Typhoon_Engine_01" xml:space="preserve">
+    <value>Now we slice through the typhoon, from the sea to the top of its clouds, six hundred kilometres wide. The heights are stretched to fit. The sea below is twenty-nine and a half degrees, and that warm water is the storm's fuel.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_02" xml:space="preserve">
+    <value>Near the sea, warm, moist air spirals in towards the centre, shown in blue. As it skims the warm water, it picks up more and more water vapour.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_03" xml:space="preserve">
+    <value>At the eyewall the air shoots upward, fifteen kilometres or more. As it rises it cools, and its water vapour condenses into towering clouds and heavy rain. Watch the dots turn from white to orange as they climb.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_04" xml:space="preserve">
+    <value>Here's a question. Where does a typhoon get the energy for its winds?</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_05" xml:space="preserve">
+    <value>Right: condensation. Water vapour took heat from the sea when it evaporated, and gives it back as it turns into droplets. That heat warms the core, the pressure falls further, and the wind draws in still more moist air. The storm feeds itself.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_06" xml:space="preserve">
+    <value>At the top, the air spreads out as a thin sheet of icy cirrus, hundreds of kilometres wide, and far out it slowly sinks back down. In the eye the air sinks too, warming as it's squeezed. That's why the eye is clear.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_07" xml:space="preserve">
+    <value>Let's cool the sea to twenty-five and a half degrees. Below about twenty-six and a half, the sea can't give enough heat and moisture. Thunderstorms still pop up, but they never organise into a spinning storm.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_08" xml:space="preserve">
+    <value>Warm sea again, and now the storm comes ashore. I've stopped the clock twelve hours later. Over land the air comes in dry, shown in brown, and the fuel is cut off. The strongest wind has fallen from about seventy-one to about thirty metres a second.</value>
+  </data>
+  <data name="Narr_Typhoon_Engine_09" xml:space="preserve">
+    <value>Your turn. Change the sea's temperature, let the storm come ashore, or drag sideways to turn the hours, and see how strong it can get.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Bands" xml:space="preserve">
+    <value>Spiral rain bands: long arms of showers and thunderstorms curling in towards the centre. Between them the rain eases for a while, then the next band brings gusts and downpours.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Coast" xml:space="preserve">
+    <value>The coast, sliding away behind the storm as it moves inland. Over land there's no warm sea to evaporate, and hills and trees slow the wind, so the storm runs down.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Day" xml:space="preserve">
+    <value>A dot for each day of the storm's life. Click one to jump to that moment.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Edge588" xml:space="preserve">
+    <value>The 588 line marks the edge of the subtropical high, where the 500 hectopascal surface is 5880 metres high. Forecasters watch how far west it reaches to tell where a typhoon will go.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Eye" xml:space="preserve">
+    <value>The eye: the calm centre of the storm, usually a few dozen kilometres across. Air sinks here and warms as it's squeezed, so the sky is often clear, even though the fiercest winds are only a few kilometres away.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Eyewall" xml:space="preserve">
+    <value>The eyewall: a ring of towering storm clouds around the eye. Here the air rises fastest, the rain is heaviest, and the wind is the strongest anywhere in the storm.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_High" xml:space="preserve">
+    <value>The subtropical high: a vast area of sinking air over the Pacific. The winds around it turn clockwise, and steer typhoons along its edge, like a stream carrying a leaf.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Inflow" xml:space="preserve">
+    <value>The inflow: warm, moist air spiralling in low over the sea. On the way it picks up water vapour, which carries the heat that will power the storm.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Isobars" xml:space="preserve">
+    <value>Isobars join places with the same pressure, here one every ten hectopascals. Where they crowd together, the pressure changes quickly over a short distance, and the wind is strong.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Landfall" xml:space="preserve">
+    <value>Landfall: where the storm's centre crosses the coast. Click it to jump there. The worst wind, rain and storm surge often come in the hours around landfall.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Low" xml:space="preserve">
+    <value>The centre of the low. Before a proper eye has formed, this is simply where the pressure is lowest, and where the air is drawn towards.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Motion" xml:space="preserve">
+    <value>The storm is moving north-west at twenty kilometres an hour, carried by the winds around it. Its whole pattern of winds travels along with it.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Outflow" xml:space="preserve">
+    <value>The outflow: at the top of the storm, often fifteen kilometres up, the risen air spreads out as a shield of icy cirrus. From space, it's the bright white disc of the typhoon.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Pacific" xml:space="preserve">
+    <value>The north-west Pacific: the busiest typhoon ocean in the world, with about twenty-five named storms a year, most of them in August and September.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Place" xml:space="preserve">
+    <value>Your place. If the storm comes within reach, a dashed line joins it to the nearest point of the track, with how close the storm came and how strong the wind was there.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Probe" xml:space="preserve">
+    <value>The probe measures the wind and the pressure at one spot. Drag it anywhere in the storm. The gold arrow is the wind you'd feel there, and the blue arrow is the pressure push towards the centre.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Push" xml:space="preserve">
+    <value>The pressure push: air is pushed from high pressure towards low, straight at the centre. The Earth's turn bends the moving air aside, so instead of rushing in, it circles round.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Scale" xml:space="preserve">
+    <value>The scale bar is two hundred kilometres. The whole picture is about twelve hundred kilometres across, wider than many countries.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Sea" xml:space="preserve">
+    <value>The warm sea is the fuel. A typhoon needs water of at least twenty-six and a half degrees, warm to a depth of about fifty metres. The warmer it is, the stronger the storm can get.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Showers" xml:space="preserve">
+    <value>Over sea cooler than about twenty-six and a half degrees, thunderstorms come and go, but there isn't enough heat and moisture for them to organise into a typhoon.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_SouthChinaSea" xml:space="preserve">
+    <value>The South China Sea. Storms can form right here too, close to land, so they can come ashore within a day or two of forming.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Start" xml:space="preserve">
+    <value>Where the storm formed. Click here to watch it again from the start. You can also click anywhere on the warm sea to start a new storm there.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Steering" xml:space="preserve">
+    <value>The steering winds. Each arrow shows which way the wind would carry a storm there, and the longer the arrow, the faster. Typhoons follow them, and drift a little north-west on their own.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_StormNow" xml:space="preserve">
+    <value>The storm right now, its cloud drawn to scale. The label shows its grade, its strongest wind and its central pressure.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_StrongSide" xml:space="preserve">
+    <value>On this side, the storm's spin and its forward motion point the same way, so the winds add up. In the north it's the right of the track, and sailors call it the dangerous semicircle.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Track" xml:space="preserve">
+    <value>The storm's track, coloured by its grade: blue for a depression, then green, yellow and orange, up to red and purple for the strongest typhoons. Drag sideways to move along it.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Turn" xml:space="preserve">
+    <value>Which way the air turns. Deflected by the Earth's turn, it spirals in anticlockwise in the northern hemisphere, and clockwise in the southern. Near the equator the deflection is too weak, so typhoons almost never form there.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_WarmCore" xml:space="preserve">
+    <value>The warm core: the heat given off as water vapour condenses warms the middle of the storm. Warm air is lighter, so the pressure at the surface falls, and the winds blow harder.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_WarmEdge" xml:space="preserve">
+    <value>The dashed line is where the sea is twenty-six and a half degrees. South of it, storms can grow. By late summer, the warm water reaches further north.</value>
+  </data>
+  <data name="Narr_Typhoon_Obj_Wind" xml:space="preserve">
+    <value>The strongest wind in the storm right now. How warm the sea is sets its limit, and once the storm is ashore, it falls hour by hour.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_01" xml:space="preserve">
+    <value>This is a typhoon seen from above, about twelve hundred kilometres across. The whole storm turns around one small, calm hole in the middle: the eye. Let's find out why it spins, and where its winds are strongest.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_02" xml:space="preserve">
+    <value>The dashed circles are isobars, lines of equal pressure, one every ten hectopascals. The pressure falls towards the centre, and near the eye the circles crowd together. The closer they are, the harder the air is pushed inward.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_03" xml:space="preserve">
+    <value>Look at the probe. The blue arrow is the pressure push, pointing straight at the centre. But the gold arrow, the wind, hardly points inward at all. It blows almost around the storm, angled in only a little.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_04" xml:space="preserve">
+    <value>So why doesn't the air just rush straight into the low and fill it up? What do you think turns it aside?</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_05" xml:space="preserve">
+    <value>It's the Earth's turn. I've just switched it off: now the air heads straight for the centre, and the low fills up within a day. On our turning Earth, moving air is deflected to the right in the north, so it circles anticlockwise instead.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_06" xml:space="preserve">
+    <value>The Earth's turn is back on. I've moved the probe to the eyewall, the ring of cloud just outside the eye. Here the wind is strongest: about forty-eight metres a second, force fifteen. One step inside, in the eye, it is almost calm.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_07" xml:space="preserve">
+    <value>Now let's deepen the storm to nine hundred and fifteen hectopascals. It becomes a super typhoon. See how the isobars crowd even closer together: a stronger push, and so a stronger wind, about sixty-five metres a second at the eyewall.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_08" xml:space="preserve">
+    <value>What about south of the equator? There the Earth's turn deflects moving air to the left, so the same storm spins clockwise. That's why these storms turn opposite ways in the two hemispheres.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_09" xml:space="preserve">
+    <value>Back in the north, let the storm move north-west at twenty kilometres an hour. On the right of its track, the swirling wind and the storm's own motion add together. That's the dangerous side, where the winds are strongest.</value>
+  </data>
+  <data name="Narr_Typhoon_Storm_10" xml:space="preserve">
+    <value>Your turn. Drag the pressure slider, switch the Earth's turn or the hemisphere, or move the probe, and watch how the winds change.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_01" xml:space="preserve">
+    <value>This is a map of the north-west Pacific, where more typhoons form than anywhere else. Our storm is born here, near Guam, in August. Where will it go?</value>
+  </data>
+  <data name="Narr_Typhoon_Track_02" xml:space="preserve">
+    <value>This dashed line marks where the sea is twenty-six and a half degrees. All the paler water south of it is warmer than that, and there a storm can grow. North of the line, over cooler water, it starts to weaken.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_03" xml:space="preserve">
+    <value>This big H is the subtropical high, a huge dome of sinking air. Winds circle it clockwise, shown by the little white arrows. A typhoon hardly moves by itself: these steering winds carry it along.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_04" xml:space="preserve">
+    <value>Four days later, the storm has been carried west-north-west along the southern edge of the high, growing over the warm sea. The colour of its track shows how strong it was at each point.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_05" xml:space="preserve">
+    <value>Suppose the high stretches further west, towards the coast of China. What will happen to the storm's track?</value>
+  </data>
+  <data name="Narr_Typhoon_Track_06" xml:space="preserve">
+    <value>Right. With the high reaching far west, the steering wind keeps pushing the storm west, and it comes ashore in South China. Over land, cut off from the warm sea, it weakens quickly.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_07" xml:space="preserve">
+    <value>Now pull the high back east. The storm reaches the high's west end sooner, turns north around it, and heads for Japan instead. Same storm, very different track: it all depends on the high.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_08" xml:space="preserve">
+    <value>The gold dot is your place. When a storm comes close, a dashed line joins your place to the nearest point of the track, and the label says how close it came and how strong the wind was there.</value>
+  </data>
+  <data name="Narr_Typhoon_Track_09" xml:space="preserve">
+    <value>Your turn. Change the month, move the high's west end, or click anywhere on the warm sea to start a new storm, and see where it goes.</value>
+  </data>
   <data name="Narr_Water_Cloud_01" xml:space="preserve">
     <value>How does a cloud form? Over a sunny field, a bubble of air is warmed by the ground and starts to rise on its own, like a hot-air balloon.</value>
   </data>
@@ -10985,6 +11159,708 @@
   </data>
   <data name="Trails_Year_Turned" xml:space="preserve">
     <value>{0} h</value>
+  </data>
+  <data name="Typhoon_Chart_Decay_Caption" xml:space="preserve">
+    <value>After landfall</value>
+  </data>
+  <data name="Typhoon_Chart_Decay_None" xml:space="preserve">
+    <value>no storm to come ashore</value>
+  </data>
+  <data name="Typhoon_Chart_Decay_Note" xml:space="preserve">
+    <value>As measured (Kaplan and DeMaria 1995): it loses a tenth at the coast, then about 9.5% of what is left above 13.7 m/s each hour.</value>
+  </data>
+  <data name="Typhoon_Chart_Hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="Typhoon_Chart_Intensity_Caption" xml:space="preserve">
+    <value>Strength along the track</value>
+  </data>
+  <data name="Typhoon_Chart_Intensity_Note" xml:space="preserve">
+    <value>The strongest wind day by day; the red lines are landfalls. It grows over warm sea, weakens over cooler water and dies over land.</value>
+  </data>
+  <data name="Typhoon_Chart_Potential_Caption" xml:space="preserve">
+    <value>How strong the sea lets it get</value>
+  </data>
+  <data name="Typhoon_Chart_Potential_Edge" xml:space="preserve">
+    <value>26.5 °C</value>
+  </data>
+  <data name="Typhoon_Chart_Potential_Note" xml:space="preserve">
+    <value>The strongest wind a storm can reach over sea of this temperature (an empirical fit, DeMaria and Kaplan 1994). Most storms stay below it.</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Caption" xml:space="preserve">
+    <value>Wind and pressure from the centre out</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Note" xml:space="preserve">
+    <value>Gold: the wind, calm in the eye, strongest at the eyewall, slowly falling off outward. Blue: the pressure. The dashed line is the probe.</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Pressure" xml:space="preserve">
+    <value>pressure</value>
+  </data>
+  <data name="Typhoon_Chart_Profile_Wind" xml:space="preserve">
+    <value>wind</value>
+  </data>
+  <data name="Typhoon_Chart_Season_Caption" xml:space="preserve">
+    <value>Typhoons a month</value>
+  </data>
+  <data name="Typhoon_Chart_Season_Note" xml:space="preserve">
+    <value>Named storms a month over the north-west Pacific, averages for 1991–2020 (Japan Meteorological Agency, rounded): about 25 a year.</value>
+  </data>
+  <data name="Typhoon_City_Busan" xml:space="preserve">
+    <value>Busan</value>
+  </data>
+  <data name="Typhoon_City_DaNang" xml:space="preserve">
+    <value>Da Nang</value>
+  </data>
+  <data name="Typhoon_City_Fuzhou" xml:space="preserve">
+    <value>Fuzhou</value>
+  </data>
+  <data name="Typhoon_City_Haikou" xml:space="preserve">
+    <value>Haikou</value>
+  </data>
+  <data name="Typhoon_City_Haiphong" xml:space="preserve">
+    <value>Haiphong</value>
+  </data>
+  <data name="Typhoon_City_HongKong" xml:space="preserve">
+    <value>Hong Kong</value>
+  </data>
+  <data name="Typhoon_City_Hualien" xml:space="preserve">
+    <value>Hualien</value>
+  </data>
+  <data name="Typhoon_City_Kagoshima" xml:space="preserve">
+    <value>Kagoshima</value>
+  </data>
+  <data name="Typhoon_City_Manila" xml:space="preserve">
+    <value>Manila</value>
+  </data>
+  <data name="Typhoon_City_Naha" xml:space="preserve">
+    <value>Naha</value>
+  </data>
+  <data name="Typhoon_City_Ningbo" xml:space="preserve">
+    <value>Ningbo</value>
+  </data>
+  <data name="Typhoon_City_Osaka" xml:space="preserve">
+    <value>Osaka</value>
+  </data>
+  <data name="Typhoon_City_Qingdao" xml:space="preserve">
+    <value>Qingdao</value>
+  </data>
+  <data name="Typhoon_City_Shanghai" xml:space="preserve">
+    <value>Shanghai</value>
+  </data>
+  <data name="Typhoon_City_Shantou" xml:space="preserve">
+    <value>Shantou</value>
+  </data>
+  <data name="Typhoon_City_Taipei" xml:space="preserve">
+    <value>Taipei</value>
+  </data>
+  <data name="Typhoon_City_Tokyo" xml:space="preserve">
+    <value>Tokyo</value>
+  </data>
+  <data name="Typhoon_City_Wenzhou" xml:space="preserve">
+    <value>Wenzhou</value>
+  </data>
+  <data name="Typhoon_City_Xiamen" xml:space="preserve">
+    <value>Xiamen</value>
+  </data>
+  <data name="Typhoon_City_Yangjiang" xml:space="preserve">
+    <value>Yangjiang</value>
+  </data>
+  <data name="Typhoon_City_Zhanjiang" xml:space="preserve">
+    <value>Zhanjiang</value>
+  </data>
+  <data name="Typhoon_Engine_Bands" xml:space="preserve">
+    <value>rain bands</value>
+  </data>
+  <data name="Typhoon_Engine_Clock" xml:space="preserve">
+    <value>sea {0} °C</value>
+  </data>
+  <data name="Typhoon_Engine_ClockLand" xml:space="preserve">
+    <value>{0} h ashore · {1} m/s</value>
+  </data>
+  <data name="Typhoon_Engine_Coast" xml:space="preserve">
+    <value>coast</value>
+  </data>
+  <data name="Typhoon_Engine_Distance" xml:space="preserve">
+    <value>km from the centre</value>
+  </data>
+  <data name="Typhoon_Engine_Eye" xml:space="preserve">
+    <value>eye: sinking, clear, warm</value>
+  </data>
+  <data name="Typhoon_Engine_Eyewall" xml:space="preserve">
+    <value>eyewall: towering storm clouds</value>
+  </data>
+  <data name="Typhoon_Engine_Fact1" xml:space="preserve">
+    <value>A typhoon needs sea of at least 26.5 °C down to about 50 m, moist air, and winds that change little with height, so the storm is not torn apart.</value>
+  </data>
+  <data name="Typhoon_Engine_Fact2" xml:space="preserve">
+    <value>The heat given off by the rain of a typical hurricane is about 6 × 10¹⁴ W, some 200 times the average power of all the world's electricity; only about a four-hundredth of it goes into the wind.</value>
+  </data>
+  <data name="Typhoon_Engine_Fact3" xml:space="preserve">
+    <value>The air shoots up the eyewall to 15 km or more, then spreads out at the top as a sheet of cirrus hundreds of kilometres wide: the white disc seen from satellites.</value>
+  </data>
+  <data name="Typhoon_Engine_Fact4" xml:space="preserve">
+    <value>In the eye the air sinks and warms as it is squeezed, which is why the eye is clear and the storm's core is warmer than its surroundings.</value>
+  </data>
+  <data name="Typhoon_Engine_Fact5" xml:space="preserve">
+    <value>A typhoon cools the sea behind it by stirring up colder water from below, sometimes by several degrees; a slow storm can weaken itself this way.</value>
+  </data>
+  <data name="Typhoon_Engine_Height" xml:space="preserve">
+    <value>km up</value>
+  </data>
+  <data name="Typhoon_Engine_Inflow" xml:space="preserve">
+    <value>warm, moist air spirals in</value>
+  </data>
+  <data name="Typhoon_Engine_Landfall_Description" xml:space="preserve">
+    <value>Over land there is no warm sea to evaporate: the air coming in is dry, hills and trees slow it down, and the storm runs down within a day or two. It can still pour down huge amounts of rain.</value>
+  </data>
+  <data name="Typhoon_Engine_Landfall_Title" xml:space="preserve">
+    <value>Ashore: the fuel is cut</value>
+  </data>
+  <data name="Typhoon_Engine_Note" xml:space="preserve">
+    <value>A slice 600 km wide and 18 km high, heights stretched about 15 times. The storm is 90% as strong as the sea allows (DeMaria and Kaplan 1994); after landfall it fades as measured (Kaplan and DeMaria 1995).</value>
+  </data>
+  <data name="Typhoon_Engine_Outflow" xml:space="preserve">
+    <value>outflow: the cirrus shield</value>
+  </data>
+  <data name="Typhoon_Engine_Running_Description" xml:space="preserve">
+    <value>Warm, moist air spirals in over the sea, rises in the eyewall and its water vapour condenses. The heat given off warms the core, the pressure falls further and the wind draws in still more moist air. The warmer the sea, the stronger it can get.</value>
+  </data>
+  <data name="Typhoon_Engine_Running_Title" xml:space="preserve">
+    <value>A heat engine on warm sea</value>
+  </data>
+  <data name="Typhoon_Engine_Sea" xml:space="preserve">
+    <value>sea {0} °C: the fuel</value>
+  </data>
+  <data name="Typhoon_Engine_Subtitle" xml:space="preserve">
+    <value>A heat engine running on warm sea</value>
+  </data>
+  <data name="Typhoon_Engine_TooCool" xml:space="preserve">
+    <value>below {0} °C: thunderstorms, but no typhoon</value>
+  </data>
+  <data name="Typhoon_Engine_TooCool_Description" xml:space="preserve">
+    <value>Below about 26.5 °C the sea cannot give enough heat and moisture: thunderstorms come and go but never organise into a spinning storm.</value>
+  </data>
+  <data name="Typhoon_Engine_TooCool_Title" xml:space="preserve">
+    <value>Too cool for a typhoon</value>
+  </data>
+  <data name="Typhoon_Engine_WarmCore" xml:space="preserve">
+    <value>warm core: heat from condensation</value>
+  </data>
+  <data name="Typhoon_Engine_Wind" xml:space="preserve">
+    <value>strongest wind {0} m/s, {1}</value>
+  </data>
+  <data name="Typhoon_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Typhoon_Force" xml:space="preserve">
+    <value>force {0}</value>
+  </data>
+  <data name="Typhoon_Force_Above" xml:space="preserve">
+    <value>above force 17</value>
+  </data>
+  <data name="Typhoon_Grade_Depression" xml:space="preserve">
+    <value>Tropical depression</value>
+  </data>
+  <data name="Typhoon_Grade_Depression_Description" xml:space="preserve">
+    <value>10.8–17.1 m/s, force 6–7: a low whose thunderstorms are starting to circle.</value>
+  </data>
+  <data name="Typhoon_Grade_None" xml:space="preserve">
+    <value>No storm</value>
+  </data>
+  <data name="Typhoon_Grade_None_Description" xml:space="preserve">
+    <value>Below 10.8 m/s: just a low, not yet a tropical cyclone.</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTropicalStorm" xml:space="preserve">
+    <value>Severe tropical storm</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTropicalStorm_Description" xml:space="preserve">
+    <value>24.5–32.6 m/s, force 10–11: trees are uprooted and the sea runs high.</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTyphoon" xml:space="preserve">
+    <value>Severe typhoon</value>
+  </data>
+  <data name="Typhoon_Grade_SevereTyphoon_Description" xml:space="preserve">
+    <value>41.5–50.9 m/s, force 14–15: a clear eye ringed by violent winds; damage is widespread.</value>
+  </data>
+  <data name="Typhoon_Grade_SuperTyphoon" xml:space="preserve">
+    <value>Super typhoon</value>
+  </data>
+  <data name="Typhoon_Grade_SuperTyphoon_Description" xml:space="preserve">
+    <value>51 m/s or more, force 16 and above: the most destructive storms, with a sharp, round eye.</value>
+  </data>
+  <data name="Typhoon_Grade_TropicalStorm" xml:space="preserve">
+    <value>Tropical storm</value>
+  </data>
+  <data name="Typhoon_Grade_TropicalStorm_Description" xml:space="preserve">
+    <value>17.2–24.4 m/s, force 8–9: the storm gets its name. Showers circle a centre that has no eye yet.</value>
+  </data>
+  <data name="Typhoon_Grade_Typhoon" xml:space="preserve">
+    <value>Typhoon</value>
+  </data>
+  <data name="Typhoon_Grade_Typhoon_Description" xml:space="preserve">
+    <value>32.7–41.4 m/s, force 12–13: an eye has usually formed; roofs and signs are torn off.</value>
+  </data>
+  <data name="Typhoon_Hint_Engine" xml:space="preserve">
+    <value>Change the sea's temperature, or let the storm come ashore and watch it run down; drag sideways to turn the hours.</value>
+  </data>
+  <data name="Typhoon_Hint_Storm" xml:space="preserve">
+    <value>Click or drag the probe anywhere in the storm; switch off the Earth's turn, or go south of the equator, to see why it spins.</value>
+  </data>
+  <data name="Typhoon_Hint_Track" xml:space="preserve">
+    <value>Move the subtropical high's west end and change the month; click on the sea to start a storm there; drag sideways to turn the days.</value>
+  </data>
+  <data name="Typhoon_Lat_N" xml:space="preserve">
+    <value>{0}° N</value>
+  </data>
+  <data name="Typhoon_Lesson_Engine_Choice1" xml:space="preserve">
+    <value>The heat given off when water vapour condenses</value>
+  </data>
+  <data name="Typhoon_Lesson_Engine_Choice2" xml:space="preserve">
+    <value>The spin of the wind itself</value>
+  </data>
+  <data name="Typhoon_Lesson_Engine_Choice3" xml:space="preserve">
+    <value>Sunlight warming the tops of the clouds</value>
+  </data>
+  <data name="Typhoon_Lesson_Storm_Choice1" xml:space="preserve">
+    <value>The Earth's turn deflects the moving air</value>
+  </data>
+  <data name="Typhoon_Lesson_Storm_Choice2" xml:space="preserve">
+    <value>The waves push the air sideways</value>
+  </data>
+  <data name="Typhoon_Lesson_Storm_Choice3" xml:space="preserve">
+    <value>The eye blows the air back out</value>
+  </data>
+  <data name="Typhoon_Lesson_Track_Choice1" xml:space="preserve">
+    <value>It keeps heading west, into South China</value>
+  </data>
+  <data name="Typhoon_Lesson_Track_Choice2" xml:space="preserve">
+    <value>It turns north sooner</value>
+  </data>
+  <data name="Typhoon_Lesson_Track_Choice3" xml:space="preserve">
+    <value>It stops and stays where it is</value>
+  </data>
+  <data name="Typhoon_List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Typhoon_Lon_E" xml:space="preserve">
+    <value>{0}° E</value>
+  </data>
+  <data name="Typhoon_Mode_Engine" xml:space="preserve">
+    <value>Heat engine</value>
+  </data>
+  <data name="Typhoon_Mode_Storm" xml:space="preserve">
+    <value>From above</value>
+  </data>
+  <data name="Typhoon_Mode_Track" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="Typhoon_Month_10" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Typhoon_Month_6" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="Typhoon_Month_7" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Typhoon_Month_8" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Typhoon_Month_9" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="Typhoon_Month_Caption" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Typhoon_Obj_Bands" xml:space="preserve">
+    <value>Spiral rain bands</value>
+  </data>
+  <data name="Typhoon_Obj_Coast" xml:space="preserve">
+    <value>Coast and land</value>
+  </data>
+  <data name="Typhoon_Obj_Day" xml:space="preserve">
+    <value>A day of the storm</value>
+  </data>
+  <data name="Typhoon_Obj_Edge588" xml:space="preserve">
+    <value>The 588 line</value>
+  </data>
+  <data name="Typhoon_Obj_Eye" xml:space="preserve">
+    <value>Eye</value>
+  </data>
+  <data name="Typhoon_Obj_Eyewall" xml:space="preserve">
+    <value>Eyewall</value>
+  </data>
+  <data name="Typhoon_Obj_High" xml:space="preserve">
+    <value>Subtropical high</value>
+  </data>
+  <data name="Typhoon_Obj_Inflow" xml:space="preserve">
+    <value>Inflow</value>
+  </data>
+  <data name="Typhoon_Obj_Landfall" xml:space="preserve">
+    <value>Landfall</value>
+  </data>
+  <data name="Typhoon_Obj_Low" xml:space="preserve">
+    <value>Low-pressure centre</value>
+  </data>
+  <data name="Typhoon_Obj_Motion" xml:space="preserve">
+    <value>The storm's motion</value>
+  </data>
+  <data name="Typhoon_Obj_Outflow" xml:space="preserve">
+    <value>Outflow</value>
+  </data>
+  <data name="Typhoon_Obj_Place" xml:space="preserve">
+    <value>Your place</value>
+  </data>
+  <data name="Typhoon_Obj_Push" xml:space="preserve">
+    <value>Pressure push</value>
+  </data>
+  <data name="Typhoon_Obj_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Typhoon_Obj_Sea" xml:space="preserve">
+    <value>Warm sea</value>
+  </data>
+  <data name="Typhoon_Obj_Showers" xml:space="preserve">
+    <value>Scattered thunderstorms</value>
+  </data>
+  <data name="Typhoon_Obj_Start" xml:space="preserve">
+    <value>Where it formed</value>
+  </data>
+  <data name="Typhoon_Obj_Steering" xml:space="preserve">
+    <value>Steering winds</value>
+  </data>
+  <data name="Typhoon_Obj_StormNow" xml:space="preserve">
+    <value>The storm now</value>
+  </data>
+  <data name="Typhoon_Obj_StrongSide" xml:space="preserve">
+    <value>Dangerous semicircle</value>
+  </data>
+  <data name="Typhoon_Obj_Track" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="Typhoon_Obj_Turn" xml:space="preserve">
+    <value>Which way it turns</value>
+  </data>
+  <data name="Typhoon_Obj_WarmCore" xml:space="preserve">
+    <value>Warm core</value>
+  </data>
+  <data name="Typhoon_Obj_WarmEdge" xml:space="preserve">
+    <value>Edge of the warm sea</value>
+  </data>
+  <data name="Typhoon_Option_Isobars" xml:space="preserve">
+    <value>Isobars</value>
+  </data>
+  <data name="Typhoon_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Typhoon_Option_Landfall" xml:space="preserve">
+    <value>Come ashore</value>
+  </data>
+  <data name="Typhoon_Option_Moving" xml:space="preserve">
+    <value>Moving north-west</value>
+  </data>
+  <data name="Typhoon_Option_Southern" xml:space="preserve">
+    <value>Southern hemisphere</value>
+  </data>
+  <data name="Typhoon_Option_Spin" xml:space="preserve">
+    <value>Earth's turn (Coriolis)</value>
+  </data>
+  <data name="Typhoon_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Typhoon_Pressure" xml:space="preserve">
+    <value>Central pressure</value>
+  </data>
+  <data name="Typhoon_Pressure_Note" xml:space="preserve">
+    <value>The lower the pressure, the stronger the wind (further right is deeper).</value>
+  </data>
+  <data name="Typhoon_Probe_Distance" xml:space="preserve">
+    <value>{0} km from the centre</value>
+  </data>
+  <data name="Typhoon_Probe_Pressure" xml:space="preserve">
+    <value>pressure {0} hPa</value>
+  </data>
+  <data name="Typhoon_Probe_Push" xml:space="preserve">
+    <value>pressure push</value>
+  </data>
+  <data name="Typhoon_Probe_Wind" xml:space="preserve">
+    <value>wind {0} m/s ({1} km/h), {2}</value>
+  </data>
+  <data name="Typhoon_Ridge" xml:space="preserve">
+    <value>West end of the subtropical high</value>
+  </data>
+  <data name="Typhoon_Ridge_Note" xml:space="preserve">
+    <value>Reaching far west, it steers storms into South China; pulled back east, it lets them turn north towards Taiwan, Zhejiang, Japan or out to sea.</value>
+  </data>
+  <data name="Typhoon_Sea" xml:space="preserve">
+    <value>Sea surface temperature</value>
+  </data>
+  <data name="Typhoon_Sea_Cool" xml:space="preserve">
+    <value>Cool 25.5</value>
+  </data>
+  <data name="Typhoon_Sea_Hot" xml:space="preserve">
+    <value>Hot 30</value>
+  </data>
+  <data name="Typhoon_Sea_Warm" xml:space="preserve">
+    <value>Warm 27.5</value>
+  </data>
+  <data name="Typhoon_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Typhoon_Start_Caption" xml:space="preserve">
+    <value>Where it forms (or click on the sea)</value>
+  </data>
+  <data name="Typhoon_Start_Guam" xml:space="preserve">
+    <value>Near Guam</value>
+  </data>
+  <data name="Typhoon_Start_Philippines" xml:space="preserve">
+    <value>East of the Philippines</value>
+  </data>
+  <data name="Typhoon_Start_SouthChinaSea" xml:space="preserve">
+    <value>South China Sea</value>
+  </data>
+  <data name="Typhoon_Stat_Ashore" xml:space="preserve">
+    <value>Ashore for</value>
+  </data>
+  <data name="Typhoon_Stat_Ashore_Value" xml:space="preserve">
+    <value>{0} h, about {1} km inland</value>
+  </data>
+  <data name="Typhoon_Stat_Ceiling" xml:space="preserve">
+    <value>The sea's limit</value>
+  </data>
+  <data name="Typhoon_Stat_Ceiling_None" xml:space="preserve">
+    <value>none: too cool</value>
+  </data>
+  <data name="Typhoon_Stat_Ceiling_Value" xml:space="preserve">
+    <value>{0} m/s ({1})</value>
+  </data>
+  <data name="Typhoon_Stat_Eye" xml:space="preserve">
+    <value>Eye across</value>
+  </data>
+  <data name="Typhoon_Stat_Eye_None" xml:space="preserve">
+    <value>not formed yet</value>
+  </data>
+  <data name="Typhoon_Stat_Grade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="Typhoon_Stat_Km_Value" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Typhoon_Stat_Landfall_Item" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Typhoon_Stat_Landfalls" xml:space="preserve">
+    <value>Landfalls</value>
+  </data>
+  <data name="Typhoon_Stat_Landfalls_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Typhoon_Stat_MaxWind" xml:space="preserve">
+    <value>Strongest wind</value>
+  </data>
+  <data name="Typhoon_Stat_Pass" xml:space="preserve">
+    <value>Nearest to you</value>
+  </data>
+  <data name="Typhoon_Stat_Pass_Far" xml:space="preserve">
+    <value>{0}: too far away to feel it</value>
+  </data>
+  <data name="Typhoon_Stat_Pass_Value" xml:space="preserve">
+    <value>{0}: {1} km away after {3} days, {2}</value>
+  </data>
+  <data name="Typhoon_Stat_Pressure" xml:space="preserve">
+    <value>Central pressure</value>
+  </data>
+  <data name="Typhoon_Stat_Probe" xml:space="preserve">
+    <value>Probe</value>
+  </data>
+  <data name="Typhoon_Stat_Probe_Value" xml:space="preserve">
+    <value>{0} km out: {1} m/s, {2}, {3} hPa</value>
+  </data>
+  <data name="Typhoon_Stat_Rmax" xml:space="preserve">
+    <value>Strongest winds at</value>
+  </data>
+  <data name="Typhoon_Stat_Sea" xml:space="preserve">
+    <value>Sea</value>
+  </data>
+  <data name="Typhoon_Stat_Sea_Land" xml:space="preserve">
+    <value>over land</value>
+  </data>
+  <data name="Typhoon_Stat_Tops" xml:space="preserve">
+    <value>Cloud tops</value>
+  </data>
+  <data name="Typhoon_Stat_Turn" xml:space="preserve">
+    <value>Turns</value>
+  </data>
+  <data name="Typhoon_Stat_Turn_Anticlockwise" xml:space="preserve">
+    <value>anticlockwise</value>
+  </data>
+  <data name="Typhoon_Stat_Turn_Clockwise" xml:space="preserve">
+    <value>clockwise</value>
+  </data>
+  <data name="Typhoon_Stat_Turn_None" xml:space="preserve">
+    <value>not at all</value>
+  </data>
+  <data name="Typhoon_Stat_Where" xml:space="preserve">
+    <value>Where</value>
+  </data>
+  <data name="Typhoon_Stat_Where_Value" xml:space="preserve">
+    <value>{0}° N, {1}° E</value>
+  </data>
+  <data name="Typhoon_Stat_Wind_Value" xml:space="preserve">
+    <value>{0} m/s ({1} km/h), {2}</value>
+  </data>
+  <data name="Typhoon_Storm_Anticlockwise" xml:space="preserve">
+    <value>Northern hemisphere: the air spirals in anticlockwise</value>
+  </data>
+  <data name="Typhoon_Storm_Bands" xml:space="preserve">
+    <value>spiral rain bands</value>
+  </data>
+  <data name="Typhoon_Storm_Clock" xml:space="preserve">
+    <value>{0} · {1} m/s · {2} hPa</value>
+  </data>
+  <data name="Typhoon_Storm_Clockwise" xml:space="preserve">
+    <value>Southern hemisphere: the air spirals in clockwise</value>
+  </data>
+  <data name="Typhoon_Storm_Eye" xml:space="preserve">
+    <value>eye</value>
+  </data>
+  <data name="Typhoon_Storm_Eyewall" xml:space="preserve">
+    <value>eyewall: the strongest winds</value>
+  </data>
+  <data name="Typhoon_Storm_Fact1" xml:space="preserve">
+    <value>Typhoon, hurricane and cyclone are the same kind of storm: a typhoon in the north-west Pacific, a hurricane in the Atlantic and north-east Pacific, a cyclone in the Indian Ocean and the South Pacific.</value>
+  </data>
+  <data name="Typhoon_Storm_Fact2" xml:space="preserve">
+    <value>The eye is calm and often clear, most of them 30–60 km across. The strongest winds and heaviest rain are in the eyewall right around it.</value>
+  </data>
+  <data name="Typhoon_Storm_Fact3" xml:space="preserve">
+    <value>Air rushing towards the low is turned aside by the Earth's turn (to the right in the north), so it circles anticlockwise instead of filling the low. Within about 5° of the equator the effect is too weak, and typhoons almost never form there.</value>
+  </data>
+  <data name="Typhoon_Storm_Fact4" xml:space="preserve">
+    <value>In the north the right side of the track is the dangerous one: there the storm's forward motion adds to its swirl.</value>
+  </data>
+  <data name="Typhoon_Storm_Fact5" xml:space="preserve">
+    <value>The lowest sea-level pressure ever measured was 870 hPa, in Typhoon Tip over the north-west Pacific in October 1979.</value>
+  </data>
+  <data name="Typhoon_Storm_Low" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Typhoon_Storm_Motion" xml:space="preserve">
+    <value>moving north-west, 20 km/h</value>
+  </data>
+  <data name="Typhoon_Storm_NoSpin" xml:space="preserve">
+    <value>Without the Earth's turn the air rushes straight in and fills the low</value>
+  </data>
+  <data name="Typhoon_Storm_NoSpin_Description" xml:space="preserve">
+    <value>The air heads straight for the low and fills it within a day. It is the Earth's turn (the Coriolis effect) that bends the air aside, so that it circles round instead of in and the low can deepen.</value>
+  </data>
+  <data name="Typhoon_Storm_NoSpin_Title" xml:space="preserve">
+    <value>No Earth's turn: no typhoon</value>
+  </data>
+  <data name="Typhoon_Storm_Note" xml:space="preserve">
+    <value>Seen from above, 1200 km across. Winds from the Holland (1980) profile and the north-west Pacific wind–pressure relation; the cloud is illustrative; time runs about 900 times faster.</value>
+  </data>
+  <data name="Typhoon_Storm_StrongSide" xml:space="preserve">
+    <value>stronger side: swirl plus motion</value>
+  </data>
+  <data name="Typhoon_Storm_Subtitle" xml:space="preserve">
+    <value>A typhoon from above: eye, eyewall and rain bands</value>
+  </data>
+  <data name="Typhoon_Timeline_Landfall" xml:space="preserve">
+    <value>Hours after landfall</value>
+  </data>
+  <data name="Typhoon_Timeline_Track" xml:space="preserve">
+    <value>The storm's life</value>
+  </data>
+  <data name="Typhoon_Title" xml:space="preserve">
+    <value>Typhoons</value>
+  </data>
+  <data name="Typhoon_Track_588" xml:space="preserve">
+    <value>588 line: the high's edge</value>
+  </data>
+  <data name="Typhoon_Track_Clock" xml:space="preserve">
+    <value>day {0}, {1}:00</value>
+  </data>
+  <data name="Typhoon_Track_Day" xml:space="preserve">
+    <value>day {0}</value>
+  </data>
+  <data name="Typhoon_Track_Dissipated" xml:space="preserve">
+    <value>dissipated</value>
+  </data>
+  <data name="Typhoon_Track_Fact1" xml:space="preserve">
+    <value>About 25 named storms form over the north-west Pacific each year, more than over any other ocean, most of them in August and September.</value>
+  </data>
+  <data name="Typhoon_Track_Fact2" xml:space="preserve">
+    <value>A typhoon hardly moves by itself: it is carried by the winds around it, above all those round the subtropical high. Chinese forecasters watch its edge as the 588 line, where the 500 hPa surface is 5880 m high.</value>
+  </data>
+  <data name="Typhoon_Track_Fact3" xml:space="preserve">
+    <value>When the high reaches far west, storms head straight into South China, Hainan or Vietnam; when it pulls back east, they turn north towards Taiwan, Zhejiang, Shanghai, Korea or Japan, or curve away over the sea.</value>
+  </data>
+  <data name="Typhoon_Track_Fact4" xml:space="preserve">
+    <value>On average about seven tropical storms or stronger come ashore in China each year, most in Guangdong, Hainan, Taiwan, Fujian and Zhejiang.</value>
+  </data>
+  <data name="Typhoon_Track_Fact5" xml:space="preserve">
+    <value>Far inland a weakened typhoon can still bring days of heavy rain, to Hunan, Jiangxi or Guangxi; floods are often the biggest danger there.</value>
+  </data>
+  <data name="Typhoon_Track_Growing_Description" xml:space="preserve">
+    <value>Over sea warmer than 26.5 °C the storm draws in more heat and strengthens, carried along by the winds round the subtropical high.</value>
+  </data>
+  <data name="Typhoon_Track_Growing_Title" xml:space="preserve">
+    <value>Growing over warm sea</value>
+  </data>
+  <data name="Typhoon_Track_High" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Typhoon_Track_HighName" xml:space="preserve">
+    <value>subtropical high</value>
+  </data>
+  <data name="Typhoon_Track_Land_Description" xml:space="preserve">
+    <value>Cut off from the warm sea, the storm weakens quickly, but its rain spreads far inland.</value>
+  </data>
+  <data name="Typhoon_Track_Land_Title" xml:space="preserve">
+    <value>Over land</value>
+  </data>
+  <data name="Typhoon_Track_Landfall" xml:space="preserve">
+    <value>landfall near {0} · {1} {2} m/s</value>
+  </data>
+  <data name="Typhoon_Track_Note" xml:space="preserve">
+    <value>A simplified steering model: the subtropical high as a ridge, the westerlies north of it and the storm's own drift north-west, with growth over warm sea and decay over land. Real tracks also depend on troughs, other storms and the monsoon.</value>
+  </data>
+  <data name="Typhoon_Track_Now" xml:space="preserve">
+    <value>{0} · {1} m/s · {2} hPa</value>
+  </data>
+  <data name="Typhoon_Track_Over_Description" xml:space="preserve">
+    <value>It has died out over land, left the map, or gone north into cold air and become an ordinary low. Click on the sea to start another one.</value>
+  </data>
+  <data name="Typhoon_Track_Over_Title" xml:space="preserve">
+    <value>The storm is over</value>
+  </data>
+  <data name="Typhoon_Track_Pacific" xml:space="preserve">
+    <value>Pacific Ocean</value>
+  </data>
+  <data name="Typhoon_Track_Pass" xml:space="preserve">
+    <value>closest {0} km, {1}</value>
+  </data>
+  <data name="Typhoon_Track_Sea_Description" xml:space="preserve">
+    <value>It goes where the steering winds take it. Over cooler water further north it can no longer grow.</value>
+  </data>
+  <data name="Typhoon_Track_Sea_Title" xml:space="preserve">
+    <value>At sea</value>
+  </data>
+  <data name="Typhoon_Track_SouthChinaSea" xml:space="preserve">
+    <value>South China Sea</value>
+  </data>
+  <data name="Typhoon_Track_Start" xml:space="preserve">
+    <value>formed</value>
+  </data>
+  <data name="Typhoon_Track_Subtitle" xml:space="preserve">
+    <value>Where typhoons go, and where they come ashore</value>
+  </data>
+  <data name="Typhoon_Track_WarmEdge" xml:space="preserve">
+    <value>sea 26.5 °C</value>
+  </data>
+  <data name="Typhoon_Try_Caption" xml:space="preserve">
+    <value>Try</value>
   </data>
   <data name="Update_Banner_Download" xml:space="preserve">
     <value>Version {0} of the book is available. Download it, close the book and install it over this copy.</value>
