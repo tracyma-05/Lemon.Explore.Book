@@ -231,6 +231,12 @@ class LateTests(unittest.TestCase):
         self.assertIn("Vector outgoing = exit.To - exit.From;", out)
         self.assertIn("outgoing = outgoing.Normalize();", out)
 
+    def test_title_band_becomes_a_margin(self):
+        out = tool.convert_late(
+            "    private double TitleSpace => Math.Max(Math.Clamp(146 + ((1050 - ActualWidth) * 0.3), 146, 220), 22 + TitleHeight + 12);\n")
+        self.assertIn("    private double TitleSpace => 22 + TitleHeight + 12;", out)
+        self.assertNotIn("Math.Max", out)
+
     def test_split_top_ignores_lambda_arrow(self):
         args = tool.split_top("0.0, (d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)")
         self.assertEqual(["0.0", "(d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)"], args)

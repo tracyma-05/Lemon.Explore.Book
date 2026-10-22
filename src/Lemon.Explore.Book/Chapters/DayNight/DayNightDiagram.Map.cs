@@ -13,8 +13,8 @@ namespace Lemon.Explore.Book.Chapters.DayNight;
 /// <summary>The flat map: the lit half of Earth, twilight, the noon and midnight meridians, cities and time zones.</summary>
 public sealed partial class DayNightDiagram
 {
-    /// <summary>Room left for the title (top, five lines with the click hint) and the toolbar (bottom).</summary>
-    private const double TitleSpace = 150;
+    /// <summary>The book puts the title on the left page: only a margin at the top (the original kept 150 for its title).</summary>
+    private const double TitleSpace = 34;
 
     /// <summary>The toolbar, and a walkthrough's subtitles above it while one runs.</summary>
     private double ToolbarSpace => 92 + _reserve.Current;

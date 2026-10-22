@@ -45,7 +45,9 @@ public sealed partial class TyphoonDiagram
         var span = TrackModel.East - TrackModel.West;
         var tall = TrackModel.North - TrackModel.South;
         var k = Math.Max(1, Math.Min((stage.Width - 40) / span, (stage.Height - 8) / tall));
-        var map = new Rect(stage.Left + ((stage.Width - (span * k)) / 2), stage.Top + 4, span * k, tall * k);
+        // Centred in the stage's height when its width is what limits it.
+        var map = new Rect(stage.Left + ((stage.Width - (span * k)) / 2), stage.Top + 4 + Math.Max(0, (stage.Height - 8 - (tall * k)) / 2),
+            span * k, tall * k);
         return new TrackView(map, k);
     }
 

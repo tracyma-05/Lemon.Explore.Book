@@ -60,7 +60,9 @@ public sealed partial class BreezeDiagram
         var span = BreezeModel.East - BreezeModel.West;
         var tall = BreezeModel.North - BreezeModel.South;
         var k = Math.Max(1, Math.Min((stage.Width - 40) / span, (stage.Height - 8) / tall));
-        var map = new Rect(stage.Left + ((stage.Width - (span * k)) / 2), stage.Top + 4, span * k, tall * k);
+        // Centred in the stage's height when its width is what limits it.
+        var map = new Rect(stage.Left + ((stage.Width - (span * k)) / 2), stage.Top + 4 + Math.Max(0, (stage.Height - 8 - (tall * k)) / 2),
+            span * k, tall * k);
         return new MonsoonView(map, k);
     }
 

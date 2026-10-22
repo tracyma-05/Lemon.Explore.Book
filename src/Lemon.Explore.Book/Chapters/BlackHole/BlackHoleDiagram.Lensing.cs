@@ -56,7 +56,6 @@ public sealed partial class BlackHoleDiagram
         var lens = new Point(LensX, LensY);
         var image = _lens.Render(w, h, new Point(origin.X / LensPixel, origin.Y / LensPixel), upp * LensPixel, LensSource, lens, EinsteinRadius, LensOn);
         SpaceDrawing.DrawSmooth(dc, image, new Rect(0, 0, w * LensPixel, h * LensPixel));
-        DrawTitleShade(dc);
 
         Point S(double x, double y) => new(origin.X + (x / upp), origin.Y - (y / upp));
         var lensAt = S(lens.X, lens.Y);

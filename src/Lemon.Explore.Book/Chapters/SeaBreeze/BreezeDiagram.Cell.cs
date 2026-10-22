@@ -36,7 +36,8 @@ public sealed partial class BreezeDiagram
         var stage = Stage(TitleSpace + 34);
         var width = Math.Min(stage.Width - 90, (stage.Height - 40) * 1.75);
         var height = width / 1.75;
-        var box = new Rect(stage.Left + ((stage.Width - width) / 2), stage.Top + 8, width, height);
+        // Centred in the stage's height when its width is what limits it.
+        var box = new Rect(stage.Left + ((stage.Width - width) / 2), stage.Top + 8 + Math.Max(0, (stage.Height - 40 - height) / 2), width, height);
         return new CellBox(box, box.Bottom - (height * 0.17));
     }
 

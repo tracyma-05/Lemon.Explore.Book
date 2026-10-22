@@ -212,7 +212,8 @@ public sealed partial class LightningDiagram
     /// The title sits over the top of the picture; in a narrow window, where the title wraps across the whole width, the
     /// picture starts lower, and never above the title's last line (its top margin is 22).
     /// </summary>
-    private double TitleSpace => Math.Max(Math.Clamp(146 + ((1050 - ActualWidth) * 0.3), 146, 220), 22 + TitleHeight + 12);
+    // The book puts the title on the left page: only a margin at the top, not the original's title band.
+    private double TitleSpace => 22 + TitleHeight + 12;
 
     private void OnFlashRequested(FlashKind kind)
     {

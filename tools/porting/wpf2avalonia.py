@@ -359,6 +359,10 @@ CLASS = re.compile(r"^(?P<head>(?:(?:public|internal|private|protected|sealed|ab
 def convert_late(s: str) -> str:
     """Rewrites of what the other passes produced: run last."""
     arg = r"((?:[^,()]|\((?:[^()]|\([^()]*\))*\))+)"
+    # The book puts a chapter's title on its left page: the diagram keeps only the margin, not a band for the title.
+    s = re.sub(r"^(\s*)private double TitleSpace => Math\.Max\(.*, (22 \+ TitleHeight \+ \d+)\);$",
+               r"\1// The book puts the title on the left page: only a margin at the top, not the original's title band.\n"
+               r"\1private double TitleSpace => \2;", s, flags=re.M)
     # A pen given a dash style after it is made: the dash goes into the immutable pen.
     s = re.sub(
         rf"(?P<lhs>\w+) = new ImmutablePen\({arg}, {arg}, null, {arg}, {arg}\);\n(?P<i>[ \t]*)if \((?P<c>[\w!.]+)\) (?P=lhs)\.DashStyle = new DashStyle\(\[(?P<d>[^\]]*)\], 0\);",

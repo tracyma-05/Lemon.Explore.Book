@@ -63,7 +63,9 @@ public sealed partial class LightningDiagram
         var room = new Rect(stage.Left + 62, stage.Top + 4, Math.Max(100, stage.Width - 62 - 150), Math.Max(100, stage.Height - 40));
         var scale = Math.Min(room.Width / (CloudRight - CloudLeft), room.Height / CloudHeight);
         var x0 = room.Left + ((room.Width - (scale * (CloudRight - CloudLeft))) / 2);
-        return new CloudView(x0, room.Top + (CloudHeight * scale), scale);
+        // A wide page fits the cloud by its height; a narrow one leaves room above and below: centre it.
+        var y0 = room.Top + Math.Max(0, (room.Height - (CloudHeight * scale)) / 2);
+        return new CloudView(x0, y0 + (CloudHeight * scale), scale);
     }
 
     private void MoveMeter(Point screen)

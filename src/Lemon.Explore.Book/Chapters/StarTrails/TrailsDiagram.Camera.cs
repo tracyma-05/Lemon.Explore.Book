@@ -55,9 +55,6 @@ public sealed partial class TrailsDiagram
         DrawTrails(dc, lst0, lst);
         if (ShowFigures) DrawFigures(dc, lst);
 
-        // A shade behind the title so it stays readable over a sky full of trails.
-        var shade = SpaceDrawing.LinearGradient(Color.FromArgb(170, 0, 0, 0), Color.FromArgb(0, 0, 0, 0), 90);
-        dc.DrawRectangle(shade, null, new Rect(0, 0, width, TitleSpace + 20));
         DrawGround(dc, width, height);
         DrawPoleMark(dc, lst0, lst);
         DrawCompass(dc, width, height);

@@ -33,8 +33,8 @@ public sealed partial class RainbowDiagram : Control
 
     private double RenderScale() => TopLevel.GetTopLevel(this)?.RenderScaling ?? 1;
 
-    /// <summary>Room for the title and the notes under it.</summary>
-    private const double TitleSpace = 164;
+    /// <summary>The book puts the title on the left page: only a margin at the top (the original kept 164 for its title).</summary>
+    private const double TitleSpace = 34;
 
     /// <summary>Room for the toolbar at the bottom (its margin and a gap included).</summary>
     private const double ToolbarSpace = 86;

@@ -173,7 +173,8 @@ public sealed partial class ExpansionDiagram
     }
 
     /// <summary>The title sits over the top of the picture: the picture starts below its last line (its top margin is 22), however it wraps.</summary>
-    private double TitleSpace => Math.Max(140, 22 + TitleHeight + 14);
+    // The book puts the title on the left page: only a margin at the top, not the original's title band.
+    private double TitleSpace => 22 + TitleHeight + 14;
 
     #region clicking and dragging
 

@@ -38,7 +38,6 @@ public sealed partial class BlackHoleDiagram
         var image = _shadow.Render(w, h, scale / ShadowPixel, new Point(centre.X / ShadowPixel, centre.Y / ShadowPixel),
             Inclination, BendLight, ShowDisk, Doppler, ShowStars, _diskTime);
         SpaceDrawing.DrawSmooth(dc, image, new Rect(0, 0, w * ShadowPixel, h * ShadowPixel));
-        DrawTitleShade(dc);
 
         var shadowR = ShadowRenderer.ShadowRadius(BendLight) * scale;
         var horizonR = BlackHoleModel.Horizon * scale;
@@ -111,15 +110,6 @@ public sealed partial class BlackHoleDiagram
 
         DrawScaleBar(dc, stage, scale);
     }
-
-    /// <summary>A soft darkening behind the title, so its lines stay readable over a busy picture.</summary>
-    private void DrawTitleShade(PaintContext dc) =>
-        dc.DrawRectangle(TitleShade, null, new Rect(0, 0, Math.Min(ActualWidth, 760), TitleSpace));
-
-    private static readonly IBrush TitleShade = SpaceDrawing.LinearGradient(90,
-            (Color.FromArgb(170, 2, 3, 8), 0),
-            (Color.FromArgb(120, 2, 3, 8), 0.6),
-            (Color.FromArgb(0, 2, 3, 8), 1));
 
     /// <summary>A bar 10 M long in the bottom-left corner of the stage.</summary>
     private void DrawScaleBar(PaintContext dc, Rect stage, double scale)

@@ -62,7 +62,10 @@ cross-platform book.
 7. A chapter that depends on where you are takes `BookServices.Location` and exposes it for a `LocationChip` on its
    left page. A link to another chapter turns to `BookContents.ChapterPageOf(slug)`.
 8. The original puts its controls in a side panel on the right; the book puts them on the left page, and the title
-   there too (bind the diagram's `TitleHeight` to nothing, its `ToolbarHeight` to the toolbar's `Bounds.Height`).
+   there too (bind the diagram's `TitleHeight` to nothing, its `ToolbarHeight` to the toolbar's `Bounds.Height`), so
+   the diagram keeps only a margin at the top instead of the original's title band (`tools/porting` rewrites a
+   computed `TitleSpace`; a fixed one becomes 34 by hand). A picture limited by the page's width is then centred in
+   the stage's height rather than hung from its top.
    `tools/porting` flags strings that mention the old layout ("the panel on the right"): reword them for the left
    page, in both languages.
 9. `OscillationStat` and `OscillationChoice` (a row of the "what is happening" card, one of a row of chips) are
