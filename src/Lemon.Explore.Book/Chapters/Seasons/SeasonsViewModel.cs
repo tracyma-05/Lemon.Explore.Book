@@ -4,6 +4,7 @@ using Avalonia.Media;
 using Avalonia.Media.Immutable;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Explore.Lessons;
 using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Infrastructures.Localization;
@@ -18,7 +19,7 @@ namespace Lemon.Explore.Book.Chapters.Seasons;
 /// current view, and clicking a thing in the diagram (<see cref="Card"/>) explains it. One instance serves both pages
 /// of the chapter's spread.
 /// </summary>
-public partial class SeasonsViewModel : ObservableObject, IDisposable
+public partial class SeasonsViewModel : ObservableObject, IChapterContent, IDisposable
 {
     /// <summary>Where the chapter starts before the reader picks a place: Beijing, one of the presets.</summary>
     internal const double DefaultLatitude = 39.9;

@@ -1,0 +1,130 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:solar="using:Lemon.Explore.Book.Chapters.SolarSystem"
+                         xmlns:space="using:Lemon.Explore.Book.Controls.Space"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.SolarSystem.SolarSystemTextPageView"
+                         x:DataType="solar:SolarSystemTextPageViewModel">
+    <!-- Left page of the Solar System spread: the date, the bodies to pick, and the chosen body's story. -->
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <TextBlock Classes="pageTitle" Margin="0,4,0,4" Text="{Binding Title}" />
+
+                <TextBlock Classes="text" FontSize="22" LineHeight="30" Text="{Binding Solar.DateText}" />
+                <TextBlock Classes="note" Margin="0,6,0,0" Text="{loc:Localize SolarSystem_Hint}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize SolarSystem_ScaleNote}" />
+
+                <TextBlock Classes="caption" Text="{loc:Localize SolarSystem_Bodies}" />
+                <ListBox Classes="chips"
+                         ItemsSource="{Binding Solar.Bodies}"
+                         SelectedItem="{Binding Solar.ChipSelection}"
+                         AutomationProperties.Name="{loc:Localize SolarSystem_Bodies}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel />
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate x:DataType="space:CelestialBody">
+                            <StackPanel Orientation="Horizontal" Spacing="7">
+                                <Ellipse Width="9" Height="9" VerticalAlignment="Center" Fill="{Binding AccentBrush}" />
+                                <TextBlock Text="{Binding Name}" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <!-- The chosen body: close-up, story and key figures -->
+                <StackPanel IsVisible="{Binding Solar.IsDetailOpen}" Margin="0,10,0,0">
+                    <Border Classes="plate" Height="210">
+                        <Grid>
+                            <solar:PlanetPreview Margin="8" Body="{Binding Solar.SelectedBody}" />
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6">
+                                <Button Classes="space" Command="{Binding Solar.PreviousBodyCommand}"
+                                        ToolTip.Tip="{loc:Localize SolarSystem_Previous}"
+                                        AutomationProperties.Name="{loc:Localize SolarSystem_Previous}">
+                                    <PathIcon Data="{StaticResource Icon.Previous}" />
+                                </Button>
+                                <Button Classes="space" Command="{Binding Solar.NextBodyCommand}"
+                                        ToolTip.Tip="{loc:Localize SolarSystem_Next}"
+                                        AutomationProperties.Name="{loc:Localize SolarSystem_Next}">
+                                    <PathIcon Data="{StaticResource Icon.Next}" />
+                                </Button>
+                            </StackPanel>
+                            <Button Classes="space" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="6"
+                                    Command="{Binding Solar.CloseDetailCommand}"
+                                    ToolTip.Tip="{loc:Localize SolarSystem_Close}"
+                                    AutomationProperties.Name="{loc:Localize SolarSystem_Close}">
+                                <PathIcon Data="{StaticResource Icon.Close}" />
+                            </Button>
+                        </Grid>
+                    </Border>
+
+                    <TextBlock Margin="0,12,0,0" FontSize="28" FontWeight="SemiBold" Foreground="{StaticResource InkBrush}"
+                               Text="{Binding Solar.SelectedBody.Name}" />
+                    <!-- A moon links back to its planet. -->
+                    <Button Classes="chip" HorizontalAlignment="Left" Margin="0,4,0,0"
+                            Command="{Binding Solar.SelectParentCommand}" IsVisible="{Binding Solar.IsMoonSelected}"
+                            Content="{Binding Solar.BackToText}" />
+                    <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,12">
+                        <Ellipse Width="10" Height="10" VerticalAlignment="Center" Fill="{Binding Solar.SelectedBody.AccentBrush}" />
+                        <TextBlock Classes="text" FontStyle="Italic" Text="{Binding Solar.SelectedBody.Tagline}" />
+                    </StackPanel>
+                    <TextBlock Classes="text" Text="{Binding Solar.SelectedBody.Description}" />
+                    <Button Classes="chip" HorizontalAlignment="Left" Margin="0,10,0,0"
+                            Command="{Binding Solar.Card.ListenCommand}" IsVisible="{Binding Solar.Card.HasObject}"
+                            AutomationProperties.Name="{loc:Localize Lesson_Listen}">
+                        <StackPanel Orientation="Horizontal" Spacing="6">
+                            <PathIcon Data="{StaticResource Icon.Voice}" />
+                            <TextBlock Text="{loc:Localize Lesson_Listen}" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+
+                    <!-- Major moons of the planet (or of the chosen moon's planet). -->
+                    <StackPanel IsVisible="{Binding Solar.HasSatellites}">
+                        <TextBlock Classes="caption" Text="{Binding Solar.MoonsOfText}" />
+                        <ListBox Classes="chips"
+                                 ItemsSource="{Binding Solar.Satellites}"
+                                 SelectedItem="{Binding Solar.SatelliteSelection}"
+                                 AutomationProperties.Name="{loc:Localize SolarSystem_Moons}">
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel />
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate x:DataType="space:CelestialBody">
+                                    <StackPanel Orientation="Horizontal" Spacing="7">
+                                        <Ellipse Width="9" Height="9" VerticalAlignment="Center" Fill="{Binding AccentBrush}" />
+                                        <TextBlock Text="{Binding Name}" VerticalAlignment="Center" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+
+                    <TextBlock Classes="caption" Text="{loc:Localize SolarSystem_Facts}" />
+                    <ItemsControl ItemsSource="{Binding Solar.Facts}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="solar:BodyFact">
+                                <Border Padding="0,7" BorderBrush="#1A2B2622" BorderThickness="0,0,0,1">
+                                    <Grid ColumnDefinitions="Auto,*">
+                                        <TextBlock Margin="0,0,16,0" FontSize="13" Foreground="{StaticResource FaintInkBrush}" Text="{Binding Label}" />
+                                        <TextBlock Grid.Column="1" TextAlignment="Right" TextWrapping="Wrap" FontSize="13"
+                                                   Foreground="{StaticResource InkBrush}" Text="{Binding Value}" />
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

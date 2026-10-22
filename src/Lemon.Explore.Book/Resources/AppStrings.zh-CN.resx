@@ -348,6 +348,123 @@
   <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
     <value>所以，季节的秘密不在距离，而在地轴的倾斜。你可以拖动右边的滑块，换一个倾角或纬度，看看卡片上的白昼时长和正午太阳高度怎么变。</value>
   </data>
+  <data name="Narr_SolarSystem_Obj_Ariel" xml:space="preserve">
+    <value>天卫一，天王星最亮的卫星之一，表面被一道道长长的峡谷划过。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Callisto" xml:space="preserve">
+    <value>木卫四，我们知道的陨石坑最多的星球之一。几十亿年来，它的表面几乎没有变过。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Deimos" xml:space="preserve">
+    <value>火卫二，火星较小的卫星，只有大约十二公里宽。火星的两颗卫星，可能都是被它抓住的小行星。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Dione" xml:space="preserve">
+    <value>土卫四，土星的一颗冰卫星，表面布满了一道道明亮的冰崖。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Earth" xml:space="preserve">
+    <value>地球，我们的家，也是我们知道的唯一有生命的地方。它的表面大部分被液态的海洋覆盖。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Enceladus" xml:space="preserve">
+    <value>土卫二，土星一颗又小又亮的卫星。它南极附近的裂缝里会喷出水柱，水来自冰层下面藏着的海洋。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Europa" xml:space="preserve">
+    <value>木卫二，外面裹着一层冰壳。冰下面很可能有一片很深的咸水海洋，是寻找生命最有希望的地方之一。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Ganymede" xml:space="preserve">
+    <value>木卫三，太阳系里最大的卫星，比水星这颗行星还要大。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Iapetus" xml:space="preserve">
+    <value>土卫八，一颗两面不同的卫星：一面黑得像煤，另一面白得像雪。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Io" xml:space="preserve">
+    <value>木卫一，太阳系里火山最活跃的地方。木星的引力把它挤压得太厉害，几百座火山不停地喷发。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Jupiter" xml:space="preserve">
+    <value>木星，最大的行星，一个巨大的气体球。它的大红斑是一场比地球还大的风暴，已经刮了好几百年。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Mars" xml:space="preserve">
+    <value>火星，红色的星球。生了锈的尘土给了它红色，它还有太阳系里最高的火山，奥林帕斯山。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Mercury" xml:space="preserve">
+    <value>水星，最小的行星，也是离太阳最近的。它几乎没有大气，白天热得能把铅熔化，夜里又冷得结冰。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Mimas" xml:space="preserve">
+    <value>土卫一，土星的一颗小冰卫星。它身上有一个巨大的陨石坑，宽度差不多是整颗卫星的三分之一。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Miranda" xml:space="preserve">
+    <value>天卫五，天王星的一颗小卫星。它的表面乱七八糟，还有太阳系里最高的悬崖之一。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Moon" xml:space="preserve">
+    <value>月球，地球唯一的天然卫星。它总是用同一面对着我们，也是人类除了地球以外唯一走上去过的地方。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Neptune" xml:space="preserve">
+    <value>海王星，最远的行星，有太阳系里最快的风。在有人看见它之前，它就已经被数学计算出来了。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Oberon" xml:space="preserve">
+    <value>天卫四，天王星几颗大卫星里最外面的一颗，古老而且布满陨石坑。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Phobos" xml:space="preserve">
+    <value>火卫一，火星两颗小卫星里大的那一颗。它正一点点地向火星靠近，总有一天会碎裂开来。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Rhea" xml:space="preserve">
+    <value>土卫五，土星第二大的卫星，一个冰冷的、布满陨石坑的冰石球。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Saturn" xml:space="preserve">
+    <value>土星，以它的光环闻名，光环由数不清的冰块和石块组成。按个头来说，它轻得能浮在水上。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Sun" xml:space="preserve">
+    <value>太阳，太阳系中心的那颗恒星。它里面能装下大约一百万个地球，它的光要走大约八分钟才能到达我们这里。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Tethys" xml:space="preserve">
+    <value>土卫三，土星的一颗卫星，几乎全是由水冰构成的。它身上有一条巨大的峡谷，绕了它大半圈。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Titan" xml:space="preserve">
+    <value>土卫六，土星最大的卫星。它有一层浓厚的橙色大气，还有液态甲烷形成的湖泊和海洋。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Titania" xml:space="preserve">
+    <value>天卫三，天王星最大的卫星，冰冷的表面上横着几条大峡谷。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Triton" xml:space="preserve">
+    <value>海卫一，海王星的大卫星。它是反着转的，说明它很可能是被海王星抓来的。它上面还有喷出氮气的间歇泉。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Umbriel" xml:space="preserve">
+    <value>天卫二，天王星几颗大卫星里最暗的一颗，表面却有一个奇怪的亮圈。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Uranus" xml:space="preserve">
+    <value>天王星，一颗冰巨星。它几乎是躺着的，像一个皮球一样，滚着绕太阳转。</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Venus" xml:space="preserve">
+    <value>金星，最热的行星，比水星还热，因为浓厚的云层把热量都困住了。它还是倒着转的，所以在金星上，太阳从西边升起。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_01" xml:space="preserve">
+    <value>这是从上往下看的太阳系，每颗行星都在它今天真实的位置上。正中间是太阳，它占了整个太阳系百分之九十九以上的质量。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_02" xml:space="preserve">
+    <value>靠里的四颗行星，水星、金星、地球和火星，个头小，都是岩石构成的。地球是从太阳往外数的第三颗。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_03" xml:space="preserve">
+    <value>火星外面是小行星带：数不清的岩石块，是行星形成时剩下来的。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_04" xml:space="preserve">
+    <value>再往外就是巨行星了。木星是最大的行星，大得多，里面能装下一千多个地球。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_05" xml:space="preserve">
+    <value>土星戴着有名的冰环。按它的个头来说，它轻得出奇，要是有够大的浴缸，它能浮在水面上。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_06" xml:space="preserve">
+    <value>最远处是两颗冰巨星，天王星和海王星。海王星绕太阳一圈，要一百六十五年。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_07" xml:space="preserve">
+    <value>这张图里，行星之间的距离是平均分开的，好让它们都放得下。想一想：在真实世界里，海王星离太阳有多远，是地球的几倍？</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_08" xml:space="preserve">
+    <value>大约三十倍。现在的距离是按真实比例画的：内行星都挤在太阳旁边，外行星之间隔得很远很远。即使这样，行星本身还是画得太大了。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_09" xml:space="preserve">
+    <value>我们飞到地球去看看。绕着它转的是月球，那是人类除了地球以外，唯一走上去过的地方。</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
+    <value>现在你来试试：点击任意一颗行星或卫星，飞过去听听它的故事。</value>
+  </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>动画</value>
   </data>
@@ -747,8 +864,443 @@
   <data name="Seasons_Today" xml:space="preserve">
     <value>今天</value>
   </data>
+  <data name="SolarSystem_Ariel_Description" xml:space="preserve">
+    <value>天卫一的表面在天王星几颗大卫星中最亮，可能也最年轻。长长的断层谷横贯表面，一些区域像是被“冰火山”的熔岩流铺平过。大型撞击坑很少，说明它的表面在较近的时期被重塑过。</value>
+  </data>
+  <data name="SolarSystem_Ariel_Name" xml:space="preserve">
+    <value>天卫一</value>
+  </data>
+  <data name="SolarSystem_Ariel_Tagline" xml:space="preserve">
+    <value>天王星最亮的卫星</value>
+  </data>
+  <data name="SolarSystem_BackTo" xml:space="preserve">
+    <value>返回{0}</value>
+  </data>
+  <data name="SolarSystem_Bodies" xml:space="preserve">
+    <value>太阳与行星</value>
+  </data>
+  <data name="SolarSystem_Callisto_Description" xml:space="preserve">
+    <value>木卫四暗色的表面是太阳系撞击坑最密集的地方之一，约 40 亿年来几乎没有变化。它最大的撞击结构瓦尔哈拉是一个直径约 3800 千米的多环“靶心”。它在木星最强烈的辐射带之外运行，因此被视为未来人类基地的候选地。</value>
+  </data>
+  <data name="SolarSystem_Callisto_Name" xml:space="preserve">
+    <value>木卫四</value>
+  </data>
+  <data name="SolarSystem_Callisto_Tagline" xml:space="preserve">
+    <value>布满陨坑的古老世界</value>
+  </data>
+  <data name="SolarSystem_Close" xml:space="preserve">
+    <value>关闭（Esc）</value>
+  </data>
+  <data name="SolarSystem_Deimos_Description" xml:space="preserve">
+    <value>火卫二是火星两颗卫星中较小、较远的一颗，直径只有约 12 千米。厚厚的松散尘土填平了许多撞击坑，使它的表面看上去较为光滑。从火星上看，它像一颗明亮的星星，每次升起后要在天空中停留约两天半。它和火卫一可能都是被俘获的小行星，或是远古撞击抛出的碎块。</value>
+  </data>
+  <data name="SolarSystem_Deimos_Name" xml:space="preserve">
+    <value>火卫二</value>
+  </data>
+  <data name="SolarSystem_Deimos_Tagline" xml:space="preserve">
+    <value>火星的小个子外侧卫星</value>
+  </data>
+  <data name="SolarSystem_Dione_Description" xml:space="preserve">
+    <value>土卫四背向运动方向的半球布满明亮的细纹，后来发现那是冰壳开裂形成的、高达数百米的冰崖；朝向运动方向的一面则布满撞击坑。卡西尼号在它周围探测到极稀薄的氧气，研究还表明它的深处可能存在海洋。</value>
+  </data>
+  <data name="SolarSystem_Dione_Name" xml:space="preserve">
+    <value>土卫四</value>
+  </data>
+  <data name="SolarSystem_Dione_Tagline" xml:space="preserve">
+    <value>冰崖纵横的卫星</value>
+  </data>
+  <data name="SolarSystem_Earth_Description" xml:space="preserve">
+    <value>地球是距离太阳第三近的行星，也是目前已知唯一存在生命的星球。约 71% 的表面被海洋覆盖，富含氮气和氧气的大气层与磁场一起保护地表免受太阳风和宇宙射线的侵袭。地球自转轴倾斜约 23.4°，由此产生了四季。它唯一的大型天然卫星——月球——引起海洋潮汐，并帮助稳定地轴的倾角。</value>
+  </data>
+  <data name="SolarSystem_Earth_Name" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="SolarSystem_Earth_Tagline" xml:space="preserve">
+    <value>我们的家园</value>
+  </data>
+  <data name="SolarSystem_Enceladus_Description" xml:space="preserve">
+    <value>土卫二几乎反射所有照到它的阳光，是太阳系反照率最高的天体。它南极附近被称为“虎纹”的裂缝不断喷出水蒸气和冰粒，来源是冰壳下的海洋。这些喷流补给着土星的 E 环，卡西尼号探测器还在其中发现了盐类和有机分子。</value>
+  </data>
+  <data name="SolarSystem_Enceladus_Name" xml:space="preserve">
+    <value>土卫二</value>
+  </data>
+  <data name="SolarSystem_Enceladus_Tagline" xml:space="preserve">
+    <value>喷射冰泉的雪球</value>
+  </data>
+  <data name="SolarSystem_Europa_Description" xml:space="preserve">
+    <value>木卫二表面是光滑的冰壳，布满红褐色的裂纹和山脊，撞击坑却很少，说明表面相当年轻。冰层之下是一片全球性的咸水海洋，水量可能约为地球所有海洋的两倍，因此它被认为是太阳系中最有希望寻找生命的地方之一。NASA 于 2024 年发射的“欧罗巴快船”正在前往探测它。</value>
+  </data>
+  <data name="SolarSystem_Europa_Name" xml:space="preserve">
+    <value>木卫二</value>
+  </data>
+  <data name="SolarSystem_Europa_Tagline" xml:space="preserve">
+    <value>冰壳下藏着海洋</value>
+  </data>
+  <data name="SolarSystem_Fact_Age" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="SolarSystem_Fact_AxialTilt" xml:space="preserve">
+    <value>自转轴倾角</value>
+  </data>
+  <data name="SolarSystem_Fact_CoreTemperature" xml:space="preserve">
+    <value>核心温度</value>
+  </data>
+  <data name="SolarSystem_Fact_Diameter" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="SolarSystem_Fact_Distance" xml:space="preserve">
+    <value>与太阳的平均距离</value>
+  </data>
+  <data name="SolarSystem_Fact_Gravity" xml:space="preserve">
+    <value>表面重力</value>
+  </data>
+  <data name="SolarSystem_Fact_Mass" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="SolarSystem_Fact_MassEarths" xml:space="preserve">
+    <value>质量（地球 = 1）</value>
+  </data>
+  <data name="SolarSystem_Fact_Moons" xml:space="preserve">
+    <value>已知卫星</value>
+  </data>
+  <data name="SolarSystem_Fact_OrbitalPeriod" xml:space="preserve">
+    <value>公转周期</value>
+  </data>
+  <data name="SolarSystem_Fact_Parent" xml:space="preserve">
+    <value>环绕</value>
+  </data>
+  <data name="SolarSystem_Fact_PlanetDistance" xml:space="preserve">
+    <value>与行星的平均距离</value>
+  </data>
+  <data name="SolarSystem_Fact_Rotation" xml:space="preserve">
+    <value>自转周期</value>
+  </data>
+  <data name="SolarSystem_Fact_SurfaceTemperature" xml:space="preserve">
+    <value>表面温度</value>
+  </data>
+  <data name="SolarSystem_Fact_Temperature" xml:space="preserve">
+    <value>平均温度</value>
+  </data>
+  <data name="SolarSystem_Fact_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="SolarSystem_Facts" xml:space="preserve">
+    <value>基本数据</value>
+  </data>
+  <data name="SolarSystem_Ganymede_Description" xml:space="preserve">
+    <value>木卫三是太阳系最大的卫星，比水星还大。它是已知唯一拥有自身磁场的卫星，磁场在两极附近形成极光。它的表面既有古老、暗色、布满撞击坑的区域，也有较亮的沟槽地形；科学家认为它的冰层深处同样藏着咸水海洋。</value>
+  </data>
+  <data name="SolarSystem_Ganymede_Name" xml:space="preserve">
+    <value>木卫三</value>
+  </data>
+  <data name="SolarSystem_Ganymede_Tagline" xml:space="preserve">
+    <value>太阳系最大的卫星</value>
+  </data>
+  <data name="SolarSystem_Hint" xml:space="preserve">
+    <value>滚轮缩放（放大后可见卫星）· 拖动平移 · 点击星球查看详情 · 双击空白处复位</value>
+  </data>
+  <data name="SolarSystem_Iapetus_Description" xml:space="preserve">
+    <value>土卫八以“阴阳脸”闻名：朝向运动方向的半球像煤一样黑，另一半却几乎和雪一样亮。一条高达约 20 千米的山脊沿赤道延伸，使它看上去像一颗核桃。它在离土星很远的地方运行，轨道相对土星赤道倾斜约 15°。</value>
+  </data>
+  <data name="SolarSystem_Iapetus_Name" xml:space="preserve">
+    <value>土卫八</value>
+  </data>
+  <data name="SolarSystem_Iapetus_Tagline" xml:space="preserve">
+    <value>一半黑一半白的卫星</value>
+  </data>
+  <data name="SolarSystem_Io_Description" xml:space="preserve">
+    <value>木卫一是太阳系火山活动最剧烈的天体，拥有数百座火山，有的喷出高达数百千米的硫磺羽流。木星以及邻近的木卫二、木卫三产生的潮汐挤压，让它的内部始终保持炽热。各种硫化物把它的表面染成黄、橙、红、白相间的颜色。</value>
+  </data>
+  <data name="SolarSystem_Io_Name" xml:space="preserve">
+    <value>木卫一</value>
+  </data>
+  <data name="SolarSystem_Io_Tagline" xml:space="preserve">
+    <value>火山最活跃的天体</value>
+  </data>
+  <data name="SolarSystem_Jupiter_Description" xml:space="preserve">
+    <value>木星是太阳系最大的行星，质量是其他所有行星总和的 2.5 倍，体积可以装下 1300 多个地球。它是一颗主要由氢和氦组成的气态巨行星，强劲的高空急流把云层拉成明暗相间的条带。南半球的大红斑是一个比地球还大的巨型风暴，已被持续观测了近 200 年。木星自转一周不到 10 小时，是自转最快的行星；它拥有众多卫星，其中木卫三是太阳系最大的卫星。</value>
+  </data>
+  <data name="SolarSystem_Jupiter_Name" xml:space="preserve">
+    <value>木星</value>
+  </data>
+  <data name="SolarSystem_Jupiter_Tagline" xml:space="preserve">
+    <value>行星之王</value>
+  </data>
+  <data name="SolarSystem_Lesson_Tour_Choice1" xml:space="preserve">
+    <value>大约三十倍</value>
+  </data>
+  <data name="SolarSystem_Lesson_Tour_Choice2" xml:space="preserve">
+    <value>大约八倍</value>
+  </data>
+  <data name="SolarSystem_Lesson_Tour_Choice3" xml:space="preserve">
+    <value>大约两倍</value>
+  </data>
+  <data name="SolarSystem_Mars_Description" xml:space="preserve">
+    <value>火星尘土中富含氧化铁，使它呈现标志性的锈红色。这里有太阳系最高的火山——奥林帕斯山，高约 22 千米，接近珠穆朗玛峰的 2.5 倍；还有绵延约 4000 千米的水手号峡谷。火星大气稀薄，主要成分是二氧化碳，两极覆盖着由水冰和干冰组成的极冠。大量证据表明火星表面曾有液态水流过，它也是人类探测器到访最多的行星之一。</value>
+  </data>
+  <data name="SolarSystem_Mars_Name" xml:space="preserve">
+    <value>火星</value>
+  </data>
+  <data name="SolarSystem_Mars_Tagline" xml:space="preserve">
+    <value>红色星球</value>
+  </data>
+  <data name="SolarSystem_Mercury_Description" xml:space="preserve">
+    <value>水星是太阳系中最小、离太阳最近的行星，绕太阳一圈只需 88 天。它几乎没有大气来保存热量，白天表面可达约 430 °C，夜间又降到 −180 °C，是昼夜温差最大的行星。水星表面布满撞击坑，看上去与月球十分相似。它每公转 2 圈恰好自转 3 圈，因此一个“太阳日”长达约 176 个地球日。</value>
+  </data>
+  <data name="SolarSystem_Mercury_Name" xml:space="preserve">
+    <value>水星</value>
+  </data>
+  <data name="SolarSystem_Mercury_Tagline" xml:space="preserve">
+    <value>最小、离太阳最近的行星</value>
+  </data>
+  <data name="SolarSystem_Mimas_Description" xml:space="preserve">
+    <value>土卫一是一颗小型冰质卫星，表面的赫歇尔撞击坑直径约 140 千米，约占卫星直径的三分之一，使它看起来很像《星球大战》里的“死星”。形成这个坑的撞击几乎把它撞碎。土卫一的引力还清空了土星环中暗色的卡西尼缝。</value>
+  </data>
+  <data name="SolarSystem_Mimas_Name" xml:space="preserve">
+    <value>土卫一</value>
+  </data>
+  <data name="SolarSystem_Mimas_Tagline" xml:space="preserve">
+    <value>“死星”卫星</value>
+  </data>
+  <data name="SolarSystem_Miranda_Description" xml:space="preserve">
+    <value>天卫五看上去像是由不同碎块拼凑而成：带有沟槽和山脊的“冕状地形”紧挨着古老的撞击坑区域。它的维罗纳断崖可能高达 20 千米，或许是太阳系最高的悬崖。旅行者 2 号在 1986 年飞掠时拍下了它。</value>
+  </data>
+  <data name="SolarSystem_Miranda_Name" xml:space="preserve">
+    <value>天卫五</value>
+  </data>
+  <data name="SolarSystem_Miranda_Tagline" xml:space="preserve">
+    <value>像拼凑而成的卫星</value>
+  </data>
+  <data name="SolarSystem_Moon_Description" xml:space="preserve">
+    <value>月球是太阳系第五大卫星，直径略大于地球的四分之一。它被潮汐锁定，始终以同一面朝向地球；表面那些暗色的“月海”是远古熔岩凝固而成的平原。月球正以每年约 3.8 厘米的速度远离地球。1969 至 1972 年间共有 12 名宇航员登上月面；2019 年，中国的嫦娥四号首次在月球背面实现软着陆。</value>
+  </data>
+  <data name="SolarSystem_Moon_Name" xml:space="preserve">
+    <value>月球</value>
+  </data>
+  <data name="SolarSystem_Moon_Tagline" xml:space="preserve">
+    <value>地球唯一的天然卫星</value>
+  </data>
+  <data name="SolarSystem_Moons" xml:space="preserve">
+    <value>卫星</value>
+  </data>
+  <data name="SolarSystem_MoonsOf" xml:space="preserve">
+    <value>{0}的主要卫星</value>
+  </data>
+  <data name="SolarSystem_Neptune_Description" xml:space="preserve">
+    <value>海王星是离太阳最远的行星，距离约为日地距离的 30 倍，阳光要走 4 个多小时才能到达。它是第一颗先通过数学计算预言位置、再被观测证实的行星，于 1846 年被发现。海王星呈深邃的蓝色，风速可达每小时约 2000 千米，是太阳系中风速最快的行星。它最大的卫星海卫一（特里同）逆向公转，正缓慢地螺旋靠近海王星。</value>
+  </data>
+  <data name="SolarSystem_Neptune_Name" xml:space="preserve">
+    <value>海王星</value>
+  </data>
+  <data name="SolarSystem_Neptune_Tagline" xml:space="preserve">
+    <value>狂风呼啸的遥远蓝星</value>
+  </data>
+  <data name="SolarSystem_Next" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="SolarSystem_Oberon_Description" xml:space="preserve">
+    <value>天卫四是天王星最外侧的大卫星，与天卫三在 1787 年同一夜被赫歇尔发现。它古老的表面布满撞击坑，一些坑底覆盖着暗色物质。旅行者 2 号的图像显示，它的边缘耸立着一座高约 11 千米的山峰。</value>
+  </data>
+  <data name="SolarSystem_Oberon_Name" xml:space="preserve">
+    <value>天卫四</value>
+  </data>
+  <data name="SolarSystem_Oberon_Tagline" xml:space="preserve">
+    <value>天王星最外侧的大卫星</value>
+  </data>
+  <data name="SolarSystem_Phobos_Description" xml:space="preserve">
+    <value>火卫一是一颗形状不规则的小卫星，直径约 22 千米，在火星表面上空仅约 6000 千米处运行。它绕火星一圈比火星自转还快，所以在火星上看它是西升东落。潮汐力正以每百年约 1.8 米的速度把它拉近，大约 5000 万年后它将撞上火星或碎裂成环。它最大的撞击坑斯蒂克尼宽近 9 千米。</value>
+  </data>
+  <data name="SolarSystem_Phobos_Name" xml:space="preserve">
+    <value>火卫一</value>
+  </data>
+  <data name="SolarSystem_Phobos_Tagline" xml:space="preserve">
+    <value>注定坠落的内侧卫星</value>
+  </data>
+  <data name="SolarSystem_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="SolarSystem_Previous" xml:space="preserve">
+    <value>上一个</value>
+  </data>
+  <data name="SolarSystem_RealScale" xml:space="preserve">
+    <value>真实距离</value>
+  </data>
+  <data name="SolarSystem_RealScale_Tooltip" xml:space="preserve">
+    <value>按与太阳的真实距离（天文单位）排布，而不是等间距圆环</value>
+  </data>
+  <data name="SolarSystem_ResetView" xml:space="preserve">
+    <value>复位视图（Home）</value>
+  </data>
+  <data name="SolarSystem_Reverse" xml:space="preserve">
+    <value>时间倒流</value>
+  </data>
+  <data name="SolarSystem_Rhea_Description" xml:space="preserve">
+    <value>土卫五是土星的第二大卫星，一颗布满撞击坑、由冰和岩石组成的寒冷星球。2010 年，卡西尼号在它周围探测到由氧气和二氧化碳组成的极稀薄外逸层。在背阴处，它的表面温度可低至约 −220 °C。</value>
+  </data>
+  <data name="SolarSystem_Rhea_Name" xml:space="preserve">
+    <value>土卫五</value>
+  </data>
+  <data name="SolarSystem_Rhea_Tagline" xml:space="preserve">
+    <value>土星的第二大卫星</value>
+  </data>
+  <data name="SolarSystem_Saturn_Description" xml:space="preserve">
+    <value>土星是太阳系第二大行星，以壮观的光环闻名。光环由无数冰块和岩石组成，小如微尘、大如房屋，直径约 28 万千米，厚度却通常只有 10 米到 1 千米。土星的平均密度比水还低，如果有足够大的海洋，它能浮在水面上。它是已知卫星最多的行星，其中土卫六（泰坦）拥有浓厚的大气，土卫二的冰壳下则藏着液态海洋。</value>
+  </data>
+  <data name="SolarSystem_Saturn_Name" xml:space="preserve">
+    <value>土星</value>
+  </data>
+  <data name="SolarSystem_Saturn_Tagline" xml:space="preserve">
+    <value>戴着光环的明珠</value>
+  </data>
+  <data name="SolarSystem_ScaleNote" xml:space="preserve">
+    <value>星球大小未按真实比例绘制。</value>
+  </data>
+  <data name="SolarSystem_ShowLabels" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SolarSystem_ShowOrbits" xml:space="preserve">
+    <value>轨道</value>
+  </data>
+  <data name="SolarSystem_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="SolarSystem_Speed_Day" xml:space="preserve">
+    <value>1 天/秒</value>
+  </data>
+  <data name="SolarSystem_Speed_Hour" xml:space="preserve">
+    <value>1 小时/秒</value>
+  </data>
+  <data name="SolarSystem_Speed_Month" xml:space="preserve">
+    <value>1 月/秒</value>
+  </data>
+  <data name="SolarSystem_Speed_Week" xml:space="preserve">
+    <value>1 周/秒</value>
+  </data>
+  <data name="SolarSystem_Speed_Year" xml:space="preserve">
+    <value>1 年/秒</value>
+  </data>
+  <data name="SolarSystem_Sun_Age" xml:space="preserve">
+    <value>约 46 亿年</value>
+  </data>
+  <data name="SolarSystem_Sun_CoreTemperature" xml:space="preserve">
+    <value>约 1500 万 °C</value>
+  </data>
+  <data name="SolarSystem_Sun_Description" xml:space="preserve">
+    <value>太阳是一颗约 46 亿岁的黄矮星，占太阳系总质量的 99.86%。它的核心温度约 1500 万 °C，每秒把约 6 亿吨氢聚变为氦。这些能量要花数万年才能从核心传到表面，再以阳光的形式用大约 8 分 20 秒抵达地球。太阳的引力维系着行星、矮行星、小行星和彗星的运行。</value>
+  </data>
   <data name="SolarSystem_Sun_Name" xml:space="preserve">
     <value>太阳</value>
+  </data>
+  <data name="SolarSystem_Sun_Tagline" xml:space="preserve">
+    <value>太阳系的中心恒星</value>
+  </data>
+  <data name="SolarSystem_Sun_Type" xml:space="preserve">
+    <value>G2V 型主序星（黄矮星）</value>
+  </data>
+  <data name="SolarSystem_Tethys_Description" xml:space="preserve">
+    <value>土卫三几乎完全由水冰组成，密度只比水略高。它的表面有一个直径约 450 千米的巨大撞击坑“奥德修斯”，还有一条长约 2000 千米的伊萨卡峡谷横贯表面。</value>
+  </data>
+  <data name="SolarSystem_Tethys_Name" xml:space="preserve">
+    <value>土卫三</value>
+  </data>
+  <data name="SolarSystem_Tethys_Tagline" xml:space="preserve">
+    <value>几乎由纯水冰构成</value>
+  </data>
+  <data name="SolarSystem_Titan_Description" xml:space="preserve">
+    <value>土卫六是土星最大的卫星，也是唯一拥有浓厚大气的卫星。它的大气主要由氮气组成，笼罩着一层橙色雾霾，地表气压约为地球的 1.5 倍。它是除地球外唯一已知表面存在稳定液体的天体——那里有液态甲烷和乙烷构成的湖泊与海洋。惠更斯号探测器于 2005 年在其表面着陆，NASA 的“蜻蜓”旋翼无人机计划于 2028 年发射。</value>
+  </data>
+  <data name="SolarSystem_Titan_Name" xml:space="preserve">
+    <value>土卫六</value>
+  </data>
+  <data name="SolarSystem_Titan_Tagline" xml:space="preserve">
+    <value>拥有浓厚大气的卫星</value>
+  </data>
+  <data name="SolarSystem_Titania_Description" xml:space="preserve">
+    <value>天卫三是天王星最大的卫星，由威廉·赫歇尔于 1787 年发现。长达约 1500 千米的断层峡谷划过表面，表明它的内部曾因水结冰而膨胀。它的冰壳下也许仍有一层液态水。</value>
+  </data>
+  <data name="SolarSystem_Titania_Name" xml:space="preserve">
+    <value>天卫三</value>
+  </data>
+  <data name="SolarSystem_Titania_Tagline" xml:space="preserve">
+    <value>天王星最大的卫星</value>
+  </data>
+  <data name="SolarSystem_Title" xml:space="preserve">
+    <value>太阳系</value>
+  </data>
+  <data name="SolarSystem_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="SolarSystem_Today_Tooltip" xml:space="preserve">
+    <value>回到今天的行星位置</value>
+  </data>
+  <data name="SolarSystem_Triton_Description" xml:space="preserve">
+    <value>海卫一是海王星最大的卫星，也是唯一一颗逆行（运行方向与行星自转相反）的大型卫星，这强烈表明它是被俘获的柯伊伯带天体。它的表面温度约 −235 °C，是已知最冷的天体表面之一，但旅行者 2 号仍观测到高约 8 千米的氮气间歇泉。潮汐作用正慢慢把它拉近，终有一天它会被撕碎。</value>
+  </data>
+  <data name="SolarSystem_Triton_Name" xml:space="preserve">
+    <value>海卫一</value>
+  </data>
+  <data name="SolarSystem_Triton_Tagline" xml:space="preserve">
+    <value>逆行的冰冷卫星</value>
+  </data>
+  <data name="SolarSystem_Umbriel_Description" xml:space="preserve">
+    <value>天卫二是天王星五颗大卫星中最暗的一颗，表面古老，布满撞击坑。它赤道附近的旺达撞击坑上有一圈直径约 130 千米的神秘亮环，被戏称为“荧光甜甜圈”。</value>
+  </data>
+  <data name="SolarSystem_Umbriel_Name" xml:space="preserve">
+    <value>天卫二</value>
+  </data>
+  <data name="SolarSystem_Umbriel_Tagline" xml:space="preserve">
+    <value>天王星最暗的大卫星</value>
+  </data>
+  <data name="SolarSystem_Uranus_Description" xml:space="preserve">
+    <value>天王星是一颗冰巨星，大气中的甲烷吸收红光，使它呈现淡淡的青蓝色。它的自转轴倾斜约 98°，几乎是“躺”着绕太阳运行，因此两极会轮流经历约 42 年的极昼和 42 年的极夜。天王星是第一颗借助望远镜发现的行星，由威廉·赫歇尔于 1781 年发现。它拥有 13 条暗淡的细环，云顶温度可低至 −224 °C，是太阳系中最冷的行星大气。</value>
+  </data>
+  <data name="SolarSystem_Uranus_Name" xml:space="preserve">
+    <value>天王星</value>
+  </data>
+  <data name="SolarSystem_Uranus_Tagline" xml:space="preserve">
+    <value>“躺着”自转的冰巨星</value>
+  </data>
+  <data name="SolarSystem_Value_Celsius" xml:space="preserve">
+    <value>{0:N0} °C</value>
+  </data>
+  <data name="SolarSystem_Value_Days" xml:space="preserve">
+    <value>{0:N1} 天</value>
+  </data>
+  <data name="SolarSystem_Value_Distance" xml:space="preserve">
+    <value>{0:N0} 万千米（{1} AU）</value>
+  </data>
+  <data name="SolarSystem_Value_DistanceUnitKm" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="SolarSystem_Value_Hours" xml:space="preserve">
+    <value>{0:N1} 小时</value>
+  </data>
+  <data name="SolarSystem_Value_Km" xml:space="preserve">
+    <value>{0:N0} 千米</value>
+  </data>
+  <data name="SolarSystem_Value_Mass" xml:space="preserve">
+    <value>{0} × 10{1} 千克</value>
+  </data>
+  <data name="SolarSystem_Value_Retrograde" xml:space="preserve">
+    <value>（逆向自转）</value>
+  </data>
+  <data name="SolarSystem_Value_RetrogradeOrbit" xml:space="preserve">
+    <value>（逆行轨道）</value>
+  </data>
+  <data name="SolarSystem_Value_Synchronous" xml:space="preserve">
+    <value>同步自转（潮汐锁定）</value>
+  </data>
+  <data name="SolarSystem_Value_Years" xml:space="preserve">
+    <value>{0:N1} 年</value>
+  </data>
+  <data name="SolarSystem_Venus_Description" xml:space="preserve">
+    <value>金星的大小和质量都与地球相近，常被称为地球的“姐妹星”。它被浓厚的二氧化碳大气和硫酸云层包裹，地表气压约为地球的 92 倍，失控的温室效应让表面温度高达约 465 °C，比水星还热。金星的自转方向与大多数行星相反，自转一周需要 243 天，比它绕太阳一圈的 225 天还长。在夜空中，它是仅次于月亮的最亮天体。</value>
+  </data>
+  <data name="SolarSystem_Venus_Name" xml:space="preserve">
+    <value>金星</value>
+  </data>
+  <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
+    <value>最炽热的行星</value>
   </data>
   <data name="Title_Edition" xml:space="preserve">
     <value>第一版（编写中）</value>

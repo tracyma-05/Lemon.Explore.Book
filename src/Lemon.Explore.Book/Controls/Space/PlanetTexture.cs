@@ -101,7 +101,7 @@ public sealed class PlanetTexture
 
     private static readonly ConcurrentDictionary<string, PlanetTexture> Cache = new();
     private static readonly ConcurrentDictionary<string, byte> Requested = new();
-    private static readonly Queue<SpaceBody> Pending = new();
+    private static readonly Queue<CelestialBody> Pending = new();
     private static readonly Lock PendingLock = new();
     private static bool _working;
 
@@ -109,7 +109,7 @@ public sealed class PlanetTexture
     /// The body's texture if it is ready. The first request queues it for generation on a background worker, in
     /// request order, so the bodies on screen are textured first.
     /// </summary>
-    public static PlanetTexture? TryGet(SpaceBody body)
+    public static PlanetTexture? TryGet(CelestialBody body)
     {
         if (Cache.TryGetValue(body.Id, out var texture))
         {
@@ -136,7 +136,7 @@ public sealed class PlanetTexture
     {
         while (true)
         {
-            SpaceBody body;
+            CelestialBody body;
             lock (PendingLock)
             {
                 if (!Pending.TryDequeue(out body!))
@@ -158,7 +158,7 @@ public sealed class PlanetTexture
         }
     }
 
-    internal static PlanetTexture Create(SpaceBody body)
+    internal static PlanetTexture Create(CelestialBody body)
     {
         // Stars and moons are never drawn large enough to need full-size maps.
         var width = body.IsStar || body.IsMoon ? Math.Min(512, PlanetWidth) : PlanetWidth;
@@ -174,7 +174,7 @@ public sealed class PlanetTexture
                 var lon = ((i + 0.5) / width * 2 * Math.PI) - Math.PI;
                 var (sinLon, cosLon) = Math.SinCos(lon);
                 var p = new V3(cosLat * cosLon, sinLat, cosLat * sinLon);
-                var (r, g, b, s) = PlanetSurfaces.Shade(body, p, lat);
+                var (r, g, b, s) = PlanetSurfaces.Shade(body, p, lat, lon);
                 pixels[(j * width) + i] = Pack(r, g, b, s);
             }
         });

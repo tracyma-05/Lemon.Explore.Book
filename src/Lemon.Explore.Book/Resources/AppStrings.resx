@@ -348,6 +348,123 @@
   <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
     <value>So the secret of the seasons isn't distance. It's the tilt of the axis. Try the sliders on the right with a different tilt or latitude, and watch how the day length and the noon Sun on the card change.</value>
   </data>
+  <data name="Narr_SolarSystem_Obj_Ariel" xml:space="preserve">
+    <value>Ariel, one of the brightest moons of Uranus, crossed by long valleys.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Callisto" xml:space="preserve">
+    <value>Callisto, one of the most heavily cratered worlds we know. Its surface has hardly changed for billions of years.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Deimos" xml:space="preserve">
+    <value>Deimos, Mars's smaller moon, only about twelve kilometres across. Both of Mars's moons may be captured asteroids.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Dione" xml:space="preserve">
+    <value>Dione, an icy moon of Saturn, its surface streaked with bright cliffs of ice.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Earth" xml:space="preserve">
+    <value>Earth, our home, and the only place we know of with life. Most of its surface is covered by oceans of liquid water.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Enceladus" xml:space="preserve">
+    <value>Enceladus, a small, bright moon of Saturn. Jets of water shoot out from cracks near its south pole, from an ocean hidden under the ice.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Europa" xml:space="preserve">
+    <value>Europa, covered in a shell of ice. Underneath there's probably a deep ocean of salty water, one of the best places to look for life.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Ganymede" xml:space="preserve">
+    <value>Ganymede, the biggest moon in the solar system, even bigger than the planet Mercury.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Iapetus" xml:space="preserve">
+    <value>Iapetus, a two-faced moon: one side is as dark as coal, and the other as bright as snow.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Io" xml:space="preserve">
+    <value>Io, the most volcanic place in the solar system. Jupiter's pull squeezes it so hard that hundreds of volcanoes keep erupting.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Jupiter" xml:space="preserve">
+    <value>Jupiter, the biggest planet, a giant ball of gas. Its Great Red Spot is a storm bigger than Earth that has been raging for centuries.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Mars" xml:space="preserve">
+    <value>Mars, the red planet. Rusty dust gives it its colour, and it has the tallest volcano in the solar system, Olympus Mons.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Mercury" xml:space="preserve">
+    <value>Mercury, the smallest planet and the closest to the Sun. It has almost no air, so its days are hot enough to melt lead, and its nights are freezing.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Mimas" xml:space="preserve">
+    <value>Mimas, a small icy moon of Saturn, with one enormous crater almost a third as wide as the whole moon.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Miranda" xml:space="preserve">
+    <value>Miranda, a small moon of Uranus with a jumbled-up surface and some of the tallest cliffs in the solar system.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Moon" xml:space="preserve">
+    <value>The Moon, Earth's only natural satellite. It always shows us the same face, and it's the only other world where people have walked.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Neptune" xml:space="preserve">
+    <value>Neptune, the farthest planet, with the fastest winds in the solar system. It was found by mathematics before anyone had seen it.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Oberon" xml:space="preserve">
+    <value>Oberon, the outermost of Uranus's big moons, old and heavily cratered.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Phobos" xml:space="preserve">
+    <value>Phobos, the bigger of Mars's two little moons. It's slowly spiralling in towards Mars, and one day it will break apart.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Rhea" xml:space="preserve">
+    <value>Rhea, Saturn's second-biggest moon, a cold, cratered ball of ice and rock.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Saturn" xml:space="preserve">
+    <value>Saturn, famous for its rings, made of countless chunks of ice and rock. It's so light for its size that it would float in water.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Sun" xml:space="preserve">
+    <value>The Sun, the star at the centre of our solar system. About a million Earths could fit inside it, and its light takes about eight minutes to reach us.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Tethys" xml:space="preserve">
+    <value>Tethys, a moon of Saturn made almost entirely of water ice, with a huge canyon stretching most of the way around it.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Titan" xml:space="preserve">
+    <value>Titan, Saturn's biggest moon. It has a thick orange atmosphere, and lakes and seas of liquid methane.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Titania" xml:space="preserve">
+    <value>Titania, the biggest moon of Uranus, with great canyons cut across its icy surface.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Triton" xml:space="preserve">
+    <value>Triton, Neptune's big moon. It goes round the wrong way, which suggests Neptune captured it, and it has geysers that shoot out nitrogen.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Umbriel" xml:space="preserve">
+    <value>Umbriel, the darkest of Uranus's big moons, with a strange bright ring on its surface.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Uranus" xml:space="preserve">
+    <value>Uranus, an ice giant tipped right over on its side, so it rolls around the Sun like a ball.</value>
+  </data>
+  <data name="Narr_SolarSystem_Obj_Venus" xml:space="preserve">
+    <value>Venus, the hottest planet, even hotter than Mercury. Its thick clouds trap the heat. It also spins backwards, so there the Sun rises in the west.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_01" xml:space="preserve">
+    <value>This is our solar system, seen from above, with the planets where they really are today. In the middle is the Sun. It holds more than ninety-nine percent of all the mass in the whole solar system.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_02" xml:space="preserve">
+    <value>The four inner planets, Mercury, Venus, Earth and Mars, are small and rocky. Earth is the third one out from the Sun.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_03" xml:space="preserve">
+    <value>Beyond Mars is the asteroid belt: millions of rocky lumps, left over from when the planets formed.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_04" xml:space="preserve">
+    <value>Then come the giants. Jupiter is the biggest planet by far. More than a thousand Earths would fit inside it.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_05" xml:space="preserve">
+    <value>Saturn, with its famous rings of ice, is so light for its size that it would float in a big enough bath.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_06" xml:space="preserve">
+    <value>Far out are the two ice giants, Uranus and Neptune. Neptune takes a hundred and sixty-five years to go once around the Sun.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_07" xml:space="preserve">
+    <value>In this picture, the planets are spaced out evenly, so they all fit. Think about it: in real life, how far out is Neptune, compared with Earth?</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_08" xml:space="preserve">
+    <value>About thirty times as far. Now the distances are true to scale. The inner planets huddle close to the Sun, and the outer ones are spread far apart. Even so, the planets themselves are still drawn much too big.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_09" xml:space="preserve">
+    <value>Let's fly to Earth. Going round it is the Moon, the only other world where people have walked.</value>
+  </data>
+  <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
+    <value>Now you try. Click any planet or moon to fly to it and hear about it.</value>
+  </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>Animate</value>
   </data>
@@ -747,8 +864,443 @@
   <data name="Seasons_Today" xml:space="preserve">
     <value>Today</value>
   </data>
+  <data name="SolarSystem_Ariel_Description" xml:space="preserve">
+    <value>Ariel has the brightest and probably the youngest surface of Uranus's large moons. Long fault valleys cut across it, and some areas look smoothed over by flows that may have been icy lava. Few large craters survive, suggesting it was resurfaced relatively recently.</value>
+  </data>
+  <data name="SolarSystem_Ariel_Name" xml:space="preserve">
+    <value>Ariel</value>
+  </data>
+  <data name="SolarSystem_Ariel_Tagline" xml:space="preserve">
+    <value>The brightest moon of Uranus</value>
+  </data>
+  <data name="SolarSystem_BackTo" xml:space="preserve">
+    <value>Back to {0}</value>
+  </data>
+  <data name="SolarSystem_Bodies" xml:space="preserve">
+    <value>Sun and planets</value>
+  </data>
+  <data name="SolarSystem_Callisto_Description" xml:space="preserve">
+    <value>Callisto's dark surface is one of the most heavily cratered in the Solar System and has barely changed in about four billion years. Its largest impact feature, Valhalla, is a bullseye of rings some 3,800 km across. It orbits outside Jupiter's most intense radiation, which makes it a candidate site for a future human base.</value>
+  </data>
+  <data name="SolarSystem_Callisto_Name" xml:space="preserve">
+    <value>Callisto</value>
+  </data>
+  <data name="SolarSystem_Callisto_Tagline" xml:space="preserve">
+    <value>An ancient, cratered world</value>
+  </data>
+  <data name="SolarSystem_Close" xml:space="preserve">
+    <value>Close (Esc)</value>
+  </data>
+  <data name="SolarSystem_Deimos_Description" xml:space="preserve">
+    <value>Deimos is the smaller and more distant of Mars's two moons, only about 12 km across. A thick layer of loose dust fills many of its craters and makes its surface look smooth. Seen from Mars it looks like a bright star and stays above the horizon for about two and a half days at a time. Like Phobos, it may be a captured asteroid or debris from an ancient impact.</value>
+  </data>
+  <data name="SolarSystem_Deimos_Name" xml:space="preserve">
+    <value>Deimos</value>
+  </data>
+  <data name="SolarSystem_Deimos_Tagline" xml:space="preserve">
+    <value>Mars's tiny outer moon</value>
+  </data>
+  <data name="SolarSystem_Dione_Description" xml:space="preserve">
+    <value>Dione's trailing hemisphere is streaked with bright, wispy lines that turned out to be ice cliffs hundreds of metres high, formed as the crust cracked; its leading side is heavily cratered. Cassini detected a trace of oxygen around it, and studies suggest an ocean may lie deep below the surface.</value>
+  </data>
+  <data name="SolarSystem_Dione_Name" xml:space="preserve">
+    <value>Dione</value>
+  </data>
+  <data name="SolarSystem_Dione_Tagline" xml:space="preserve">
+    <value>Cliffs of ice</value>
+  </data>
+  <data name="SolarSystem_Earth_Description" xml:space="preserve">
+    <value>Earth is the third planet from the Sun and the only world known to host life. Oceans cover about 71% of its surface, and a nitrogen-oxygen atmosphere together with a magnetic field shields the surface from the solar wind and cosmic rays. Its axis is tilted about 23.4°, which gives us the seasons. Its one large natural satellite, the Moon, raises the ocean tides and helps keep that tilt stable.</value>
+  </data>
+  <data name="SolarSystem_Earth_Name" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="SolarSystem_Earth_Tagline" xml:space="preserve">
+    <value>Our home</value>
+  </data>
+  <data name="SolarSystem_Enceladus_Description" xml:space="preserve">
+    <value>Enceladus reflects almost all the sunlight that reaches it, making it the most reflective body in the Solar System. Near its south pole, cracks nicknamed "tiger stripes" vent geysers of water vapour and ice from an ocean beneath the crust. The spray feeds Saturn's E ring, and the Cassini probe found salts and organic molecules in it.</value>
+  </data>
+  <data name="SolarSystem_Enceladus_Name" xml:space="preserve">
+    <value>Enceladus</value>
+  </data>
+  <data name="SolarSystem_Enceladus_Tagline" xml:space="preserve">
+    <value>A snowball with geysers</value>
+  </data>
+  <data name="SolarSystem_Europa_Description" xml:space="preserve">
+    <value>Europa's smooth, icy crust is criss-crossed by reddish-brown cracks and ridges and has very few craters, a sign that the surface is young. Beneath the ice lies a global salty ocean that may hold about twice as much water as all of Earth's oceans, which makes Europa one of the most promising places to look for life. NASA's Europa Clipper, launched in 2024, is on its way to study it.</value>
+  </data>
+  <data name="SolarSystem_Europa_Name" xml:space="preserve">
+    <value>Europa</value>
+  </data>
+  <data name="SolarSystem_Europa_Tagline" xml:space="preserve">
+    <value>An ocean under the ice</value>
+  </data>
+  <data name="SolarSystem_Fact_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="SolarSystem_Fact_AxialTilt" xml:space="preserve">
+    <value>Axial tilt</value>
+  </data>
+  <data name="SolarSystem_Fact_CoreTemperature" xml:space="preserve">
+    <value>Core temperature</value>
+  </data>
+  <data name="SolarSystem_Fact_Diameter" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="SolarSystem_Fact_Distance" xml:space="preserve">
+    <value>Mean distance from the Sun</value>
+  </data>
+  <data name="SolarSystem_Fact_Gravity" xml:space="preserve">
+    <value>Surface gravity</value>
+  </data>
+  <data name="SolarSystem_Fact_Mass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="SolarSystem_Fact_MassEarths" xml:space="preserve">
+    <value>Mass (Earth = 1)</value>
+  </data>
+  <data name="SolarSystem_Fact_Moons" xml:space="preserve">
+    <value>Known moons</value>
+  </data>
+  <data name="SolarSystem_Fact_OrbitalPeriod" xml:space="preserve">
+    <value>Orbital period</value>
+  </data>
+  <data name="SolarSystem_Fact_Parent" xml:space="preserve">
+    <value>Orbits</value>
+  </data>
+  <data name="SolarSystem_Fact_PlanetDistance" xml:space="preserve">
+    <value>Mean distance from its planet</value>
+  </data>
+  <data name="SolarSystem_Fact_Rotation" xml:space="preserve">
+    <value>Rotation period</value>
+  </data>
+  <data name="SolarSystem_Fact_SurfaceTemperature" xml:space="preserve">
+    <value>Surface temperature</value>
+  </data>
+  <data name="SolarSystem_Fact_Temperature" xml:space="preserve">
+    <value>Mean temperature</value>
+  </data>
+  <data name="SolarSystem_Fact_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SolarSystem_Facts" xml:space="preserve">
+    <value>Key figures</value>
+  </data>
+  <data name="SolarSystem_Ganymede_Description" xml:space="preserve">
+    <value>Ganymede is the largest moon in the Solar System, bigger than the planet Mercury. It is the only moon known to have its own magnetic field, which produces auroras around its poles. Its surface mixes old, dark, cratered regions with lighter grooved terrain, and a salty ocean is thought to lie deep beneath the ice.</value>
+  </data>
+  <data name="SolarSystem_Ganymede_Name" xml:space="preserve">
+    <value>Ganymede</value>
+  </data>
+  <data name="SolarSystem_Ganymede_Tagline" xml:space="preserve">
+    <value>The largest moon in the Solar System</value>
+  </data>
+  <data name="SolarSystem_Hint" xml:space="preserve">
+    <value>Scroll to zoom (moons appear up close) · drag to pan · click a body for details · double-click to reset</value>
+  </data>
+  <data name="SolarSystem_Iapetus_Description" xml:space="preserve">
+    <value>Iapetus is famous for its two-tone colouring: its leading hemisphere is as dark as coal while the trailing one is almost as bright as snow. A ridge up to about 20 km high runs along its equator, giving it a walnut-like shape. It orbits far from Saturn, on an orbit tilted about 15° to the planet's equator.</value>
+  </data>
+  <data name="SolarSystem_Iapetus_Name" xml:space="preserve">
+    <value>Iapetus</value>
+  </data>
+  <data name="SolarSystem_Iapetus_Tagline" xml:space="preserve">
+    <value>The two-faced moon</value>
+  </data>
+  <data name="SolarSystem_Io_Description" xml:space="preserve">
+    <value>Io is the most volcanically active body in the Solar System, with hundreds of volcanoes, some throwing plumes of sulfur hundreds of kilometres high. Tidal squeezing by Jupiter and its neighbours Europa and Ganymede keeps its interior hot. Sulfur compounds paint its surface yellow, orange, red and white.</value>
+  </data>
+  <data name="SolarSystem_Io_Name" xml:space="preserve">
+    <value>Io</value>
+  </data>
+  <data name="SolarSystem_Io_Tagline" xml:space="preserve">
+    <value>The most volcanic world</value>
+  </data>
+  <data name="SolarSystem_Jupiter_Description" xml:space="preserve">
+    <value>Jupiter is the largest planet: 2.5 times as massive as all the other planets combined, and big enough to hold more than 1,300 Earths. A gas giant made mostly of hydrogen and helium, its clouds are stretched by powerful jet streams into light zones and dark belts. The Great Red Spot in its southern hemisphere is a storm larger than Earth that has been watched for nearly 200 years. Jupiter spins in under 10 hours, faster than any other planet, and its many moons include Ganymede, the largest moon in the Solar System.</value>
+  </data>
+  <data name="SolarSystem_Jupiter_Name" xml:space="preserve">
+    <value>Jupiter</value>
+  </data>
+  <data name="SolarSystem_Jupiter_Tagline" xml:space="preserve">
+    <value>King of the planets</value>
+  </data>
+  <data name="SolarSystem_Lesson_Tour_Choice1" xml:space="preserve">
+    <value>About thirty times as far</value>
+  </data>
+  <data name="SolarSystem_Lesson_Tour_Choice2" xml:space="preserve">
+    <value>About eight times as far</value>
+  </data>
+  <data name="SolarSystem_Lesson_Tour_Choice3" xml:space="preserve">
+    <value>About twice as far</value>
+  </data>
+  <data name="SolarSystem_Mars_Description" xml:space="preserve">
+    <value>Iron oxide in its dust gives Mars its familiar rusty colour. It hosts the tallest volcano in the Solar System, Olympus Mons — about 22 km high, nearly 2.5 times Everest — and Valles Marineris, a canyon system some 4,000 km long. Its thin atmosphere is mostly carbon dioxide, and caps of water ice and dry ice cover both poles. Ample evidence shows that liquid water once flowed on its surface, and Mars is among the planets most visited by spacecraft.</value>
+  </data>
+  <data name="SolarSystem_Mars_Name" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="SolarSystem_Mars_Tagline" xml:space="preserve">
+    <value>The Red Planet</value>
+  </data>
+  <data name="SolarSystem_Mercury_Description" xml:space="preserve">
+    <value>Mercury is the smallest planet and the closest to the Sun, circling it in just 88 days. With almost no atmosphere to hold heat, its surface swings from about 430 °C in daylight to −180 °C at night — the widest range of any planet. Its heavily cratered surface looks much like the Moon's. Mercury spins three times for every two orbits, so one solar day there lasts about 176 Earth days.</value>
+  </data>
+  <data name="SolarSystem_Mercury_Name" xml:space="preserve">
+    <value>Mercury</value>
+  </data>
+  <data name="SolarSystem_Mercury_Tagline" xml:space="preserve">
+    <value>The smallest planet, closest to the Sun</value>
+  </data>
+  <data name="SolarSystem_Mimas_Description" xml:space="preserve">
+    <value>Mimas is a small icy moon whose giant crater Herschel, about 140 km across and a third of the moon's width, makes it look like the Death Star from Star Wars. The impact that made it nearly shattered Mimas. Its gravity also clears the Cassini Division, the dark gap in Saturn's rings.</value>
+  </data>
+  <data name="SolarSystem_Mimas_Name" xml:space="preserve">
+    <value>Mimas</value>
+  </data>
+  <data name="SolarSystem_Mimas_Tagline" xml:space="preserve">
+    <value>The "Death Star" moon</value>
+  </data>
+  <data name="SolarSystem_Miranda_Description" xml:space="preserve">
+    <value>Miranda looks as if it were pieced together from different parts: grooved, ridged regions called coronae sit next to old cratered terrain. Its cliff Verona Rupes may be as much as 20 km high, perhaps the tallest cliff in the Solar System. Voyager 2 photographed it during its 1986 flyby.</value>
+  </data>
+  <data name="SolarSystem_Miranda_Name" xml:space="preserve">
+    <value>Miranda</value>
+  </data>
+  <data name="SolarSystem_Miranda_Tagline" xml:space="preserve">
+    <value>The patchwork moon</value>
+  </data>
+  <data name="SolarSystem_Moon_Description" xml:space="preserve">
+    <value>The Moon is the fifth-largest moon in the Solar System, a little over a quarter of Earth's diameter. It is tidally locked, so the same face always points at Earth, and its dark plains, the maria, are ancient lava flows. It is drifting away by about 3.8 cm a year. Twelve astronauts walked on it between 1969 and 1972, and in 2019 China's Chang'e 4 made the first soft landing on its far side.</value>
+  </data>
+  <data name="SolarSystem_Moon_Name" xml:space="preserve">
+    <value>Moon</value>
+  </data>
+  <data name="SolarSystem_Moon_Tagline" xml:space="preserve">
+    <value>Earth's only natural satellite</value>
+  </data>
+  <data name="SolarSystem_Moons" xml:space="preserve">
+    <value>Moons</value>
+  </data>
+  <data name="SolarSystem_MoonsOf" xml:space="preserve">
+    <value>Major moons of {0}</value>
+  </data>
+  <data name="SolarSystem_Neptune_Description" xml:space="preserve">
+    <value>Neptune is the farthest planet, about 30 times Earth's distance from the Sun; sunlight takes more than four hours to get there. It was the first planet found by mathematical prediction before anyone saw it, in 1846. Deep blue in colour, it has the fastest winds in the Solar System, reaching about 2,000 km/h. Its largest moon, Triton, orbits backwards and is slowly spiralling inward.</value>
+  </data>
+  <data name="SolarSystem_Neptune_Name" xml:space="preserve">
+    <value>Neptune</value>
+  </data>
+  <data name="SolarSystem_Neptune_Tagline" xml:space="preserve">
+    <value>The windswept outer world</value>
+  </data>
+  <data name="SolarSystem_Next" xml:space="preserve">
+    <value>Next body</value>
+  </data>
+  <data name="SolarSystem_Oberon_Description" xml:space="preserve">
+    <value>Oberon is the outermost of Uranus's large moons and was discovered by Herschel on the same night as Titania in 1787. Its old surface is heavily cratered, and dark material covers some crater floors. Voyager 2 images show a mountain about 11 km high rising at its edge.</value>
+  </data>
+  <data name="SolarSystem_Oberon_Name" xml:space="preserve">
+    <value>Oberon</value>
+  </data>
+  <data name="SolarSystem_Oberon_Tagline" xml:space="preserve">
+    <value>The outermost large moon of Uranus</value>
+  </data>
+  <data name="SolarSystem_Phobos_Description" xml:space="preserve">
+    <value>Phobos is a lumpy moon about 22 km across that circles Mars only about 6,000 km above its surface. It goes round faster than Mars spins, so from the ground it rises in the west and sets in the east. Tides are pulling it inward by about 1.8 m per century; in roughly 50 million years it will hit Mars or break up into a ring. Its largest crater, Stickney, is almost 9 km wide.</value>
+  </data>
+  <data name="SolarSystem_Phobos_Name" xml:space="preserve">
+    <value>Phobos</value>
+  </data>
+  <data name="SolarSystem_Phobos_Tagline" xml:space="preserve">
+    <value>The doomed inner moon</value>
+  </data>
+  <data name="SolarSystem_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="SolarSystem_Previous" xml:space="preserve">
+    <value>Previous body</value>
+  </data>
+  <data name="SolarSystem_RealScale" xml:space="preserve">
+    <value>True distances</value>
+  </data>
+  <data name="SolarSystem_RealScale_Tooltip" xml:space="preserve">
+    <value>Place the planets at their true distances from the Sun (AU) instead of evenly spaced rings</value>
+  </data>
+  <data name="SolarSystem_ResetView" xml:space="preserve">
+    <value>Reset view (Home)</value>
+  </data>
+  <data name="SolarSystem_Reverse" xml:space="preserve">
+    <value>Run time backwards</value>
+  </data>
+  <data name="SolarSystem_Rhea_Description" xml:space="preserve">
+    <value>Rhea is Saturn's second-largest moon, a cold, cratered ball of ice and rock. In 2010 Cassini detected a very thin exosphere of oxygen and carbon dioxide around it. In the shade its surface drops to about −220 °C.</value>
+  </data>
+  <data name="SolarSystem_Rhea_Name" xml:space="preserve">
+    <value>Rhea</value>
+  </data>
+  <data name="SolarSystem_Rhea_Tagline" xml:space="preserve">
+    <value>Saturn's second-largest moon</value>
+  </data>
+  <data name="SolarSystem_Saturn_Description" xml:space="preserve">
+    <value>Saturn, the second-largest planet, is famous for its spectacular rings: countless pieces of ice and rock, from dust grains to house-sized chunks, spread about 280,000 km across yet typically only 10 metres to 1 km thick. Saturn's average density is lower than water's — given a big enough ocean, it would float. It has more known moons than any other planet; Titan has a thick atmosphere, and Enceladus hides a liquid ocean beneath its icy crust.</value>
+  </data>
+  <data name="SolarSystem_Saturn_Name" xml:space="preserve">
+    <value>Saturn</value>
+  </data>
+  <data name="SolarSystem_Saturn_Tagline" xml:space="preserve">
+    <value>The ringed jewel</value>
+  </data>
+  <data name="SolarSystem_ScaleNote" xml:space="preserve">
+    <value>Body sizes are not to scale.</value>
+  </data>
+  <data name="SolarSystem_ShowLabels" xml:space="preserve">
+    <value>Names</value>
+  </data>
+  <data name="SolarSystem_ShowOrbits" xml:space="preserve">
+    <value>Orbits</value>
+  </data>
+  <data name="SolarSystem_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="SolarSystem_Speed_Day" xml:space="preserve">
+    <value>1 day / s</value>
+  </data>
+  <data name="SolarSystem_Speed_Hour" xml:space="preserve">
+    <value>1 hour / s</value>
+  </data>
+  <data name="SolarSystem_Speed_Month" xml:space="preserve">
+    <value>1 month / s</value>
+  </data>
+  <data name="SolarSystem_Speed_Week" xml:space="preserve">
+    <value>1 week / s</value>
+  </data>
+  <data name="SolarSystem_Speed_Year" xml:space="preserve">
+    <value>1 year / s</value>
+  </data>
+  <data name="SolarSystem_Sun_Age" xml:space="preserve">
+    <value>About 4.6 billion years</value>
+  </data>
+  <data name="SolarSystem_Sun_CoreTemperature" xml:space="preserve">
+    <value>About 15 million °C</value>
+  </data>
+  <data name="SolarSystem_Sun_Description" xml:space="preserve">
+    <value>The Sun is a 4.6-billion-year-old yellow dwarf that holds 99.86% of the Solar System's mass. Its core reaches about 15 million °C and fuses roughly 600 million tonnes of hydrogen into helium every second. That energy takes tens of thousands of years to work its way to the surface, then about 8 minutes 20 seconds to reach Earth as sunlight. The Sun's gravity keeps the planets, dwarf planets, asteroids and comets on their paths.</value>
+  </data>
   <data name="SolarSystem_Sun_Name" xml:space="preserve">
     <value>Sun</value>
+  </data>
+  <data name="SolarSystem_Sun_Tagline" xml:space="preserve">
+    <value>The star at the heart of the Solar System</value>
+  </data>
+  <data name="SolarSystem_Sun_Type" xml:space="preserve">
+    <value>G2V main-sequence star (yellow dwarf)</value>
+  </data>
+  <data name="SolarSystem_Tethys_Description" xml:space="preserve">
+    <value>Tethys is made almost entirely of water ice, so its density is barely above that of water. It bears a huge crater, Odysseus, about 450 km wide, and a canyon, Ithaca Chasma, that runs some 2,000 km across its surface.</value>
+  </data>
+  <data name="SolarSystem_Tethys_Name" xml:space="preserve">
+    <value>Tethys</value>
+  </data>
+  <data name="SolarSystem_Tethys_Tagline" xml:space="preserve">
+    <value>Almost pure water ice</value>
+  </data>
+  <data name="SolarSystem_Titan_Description" xml:space="preserve">
+    <value>Titan is Saturn's largest moon and the only moon with a thick atmosphere, mostly nitrogen, wrapped in orange haze; the pressure at its surface is about 1.5 times Earth's. It is the only world besides Earth known to have stable liquid on its surface: lakes and seas of liquid methane and ethane. The Huygens probe landed there in 2005, and NASA's Dragonfly rotorcraft is due to launch in 2028.</value>
+  </data>
+  <data name="SolarSystem_Titan_Name" xml:space="preserve">
+    <value>Titan</value>
+  </data>
+  <data name="SolarSystem_Titan_Tagline" xml:space="preserve">
+    <value>A moon with a thick atmosphere</value>
+  </data>
+  <data name="SolarSystem_Titania_Description" xml:space="preserve">
+    <value>Titania is the largest moon of Uranus, discovered by William Herschel in 1787. Fault canyons up to about 1,500 km long scar its surface, signs that its interior once expanded as water froze. A thin layer of liquid water may still lie beneath its crust.</value>
+  </data>
+  <data name="SolarSystem_Titania_Name" xml:space="preserve">
+    <value>Titania</value>
+  </data>
+  <data name="SolarSystem_Titania_Tagline" xml:space="preserve">
+    <value>Uranus's largest moon</value>
+  </data>
+  <data name="SolarSystem_Title" xml:space="preserve">
+    <value>Solar System</value>
+  </data>
+  <data name="SolarSystem_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="SolarSystem_Today_Tooltip" xml:space="preserve">
+    <value>Jump back to today's planet positions</value>
+  </data>
+  <data name="SolarSystem_Triton_Description" xml:space="preserve">
+    <value>Triton is Neptune's largest moon and the only large moon that orbits backwards, against its planet's rotation — strong evidence that it is a captured Kuiper Belt object. At about −235 °C it has one of the coldest surfaces known, yet Voyager 2 saw geysers of nitrogen gas rising some 8 km. Tides are slowly drawing it inward, and one day it will be torn apart.</value>
+  </data>
+  <data name="SolarSystem_Triton_Name" xml:space="preserve">
+    <value>Triton</value>
+  </data>
+  <data name="SolarSystem_Triton_Tagline" xml:space="preserve">
+    <value>The moon that orbits backwards</value>
+  </data>
+  <data name="SolarSystem_Umbriel_Description" xml:space="preserve">
+    <value>Umbriel is the darkest of Uranus's five large moons, with an ancient, heavily cratered surface. A puzzling bright ring about 130 km across, nicknamed the "fluorescent Cheerio", sits on the crater Wunda near its equator.</value>
+  </data>
+  <data name="SolarSystem_Umbriel_Name" xml:space="preserve">
+    <value>Umbriel</value>
+  </data>
+  <data name="SolarSystem_Umbriel_Tagline" xml:space="preserve">
+    <value>The darkest of Uranus's large moons</value>
+  </data>
+  <data name="SolarSystem_Uranus_Description" xml:space="preserve">
+    <value>Uranus is an ice giant whose methane-rich atmosphere absorbs red light, giving it a pale cyan tint. Its axis is tilted about 98°, so it rolls around the Sun on its side, and each pole gets about 42 years of continuous daylight followed by 42 years of night. It was the first planet discovered with a telescope, by William Herschel in 1781. It has 13 faint, narrow rings, and its cloud tops can drop to −224 °C, the coldest planetary atmosphere in the Solar System.</value>
+  </data>
+  <data name="SolarSystem_Uranus_Name" xml:space="preserve">
+    <value>Uranus</value>
+  </data>
+  <data name="SolarSystem_Uranus_Tagline" xml:space="preserve">
+    <value>The ice giant that rolls on its side</value>
+  </data>
+  <data name="SolarSystem_Value_Celsius" xml:space="preserve">
+    <value>{0:N0} °C</value>
+  </data>
+  <data name="SolarSystem_Value_Days" xml:space="preserve">
+    <value>{0:N1} days</value>
+  </data>
+  <data name="SolarSystem_Value_Distance" xml:space="preserve">
+    <value>{0:N1} million km ({1} AU)</value>
+  </data>
+  <data name="SolarSystem_Value_DistanceUnitKm" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="SolarSystem_Value_Hours" xml:space="preserve">
+    <value>{0:N1} hours</value>
+  </data>
+  <data name="SolarSystem_Value_Km" xml:space="preserve">
+    <value>{0:N0} km</value>
+  </data>
+  <data name="SolarSystem_Value_Mass" xml:space="preserve">
+    <value>{0} × 10{1} kg</value>
+  </data>
+  <data name="SolarSystem_Value_Retrograde" xml:space="preserve">
+    <value> (retrograde)</value>
+  </data>
+  <data name="SolarSystem_Value_RetrogradeOrbit" xml:space="preserve">
+    <value> (retrograde orbit)</value>
+  </data>
+  <data name="SolarSystem_Value_Synchronous" xml:space="preserve">
+    <value>Synchronous (tidally locked)</value>
+  </data>
+  <data name="SolarSystem_Value_Years" xml:space="preserve">
+    <value>{0:N1} years</value>
+  </data>
+  <data name="SolarSystem_Venus_Description" xml:space="preserve">
+    <value>Venus is close to Earth in size and mass and is often called Earth's twin. A thick carbon-dioxide atmosphere with clouds of sulfuric acid presses down at about 92 times Earth's surface pressure, and a runaway greenhouse effect heats the surface to around 465 °C — hotter than Mercury. Venus spins backwards compared with most planets, and one rotation takes 243 days, longer than its 225-day year. After the Moon, it is the brightest object in the night sky.</value>
+  </data>
+  <data name="SolarSystem_Venus_Name" xml:space="preserve">
+    <value>Venus</value>
+  </data>
+  <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
+    <value>The hottest planet</value>
   </data>
   <data name="Title_Edition" xml:space="preserve">
     <value>First edition, still being written</value>

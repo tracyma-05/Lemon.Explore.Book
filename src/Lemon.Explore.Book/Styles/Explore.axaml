@@ -98,6 +98,34 @@
         <Setter Property="Height" Value="14" />
     </Style>
 
+    <!-- A list shown as light pills that wrap (pick one), on the paper page -->
+    <Style Selector="ListBox.chips">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Padding" Value="0" />
+    </Style>
+    <Style Selector="ListBox.chips ListBoxItem">
+        <Setter Property="Template" Value="{StaticResource PillTemplate}" />
+        <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Padding" Value="10,4,12,4" />
+        <Setter Property="Margin" Value="0,0,6,6" />
+        <Setter Property="MinHeight" Value="28" />
+    </Style>
+    <Style Selector="ListBox.chips ListBoxItem:pointerover /template/ Border#Chrome">
+        <Setter Property="Background" Value="#14B5532E" />
+    </Style>
+    <Style Selector="ListBox.chips ListBoxItem:selected /template/ Border#Chrome">
+        <Setter Property="Background" Value="#22B5532E" />
+        <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}" />
+    </Style>
+    <Style Selector="ListBox.chips ListBoxItem:focus-visible /template/ Border#Chrome">
+        <Setter Property="BorderBrush" Value="{StaticResource InkBrush}" />
+    </Style>
+
     <!-- Captions and text on a chapter's left page -->
     <Style Selector="TextBlock.caption">
         <Setter Property="Margin" Value="0,16,0,6" />

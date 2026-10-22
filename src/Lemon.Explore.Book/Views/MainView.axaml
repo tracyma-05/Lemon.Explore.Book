@@ -7,6 +7,7 @@
              xmlns:pageViews="using:Lemon.Explore.Book.Views.Pages"
              xmlns:controls="using:Lemon.Explore.Book.Controls"
              xmlns:seasons="using:Lemon.Explore.Book.Chapters.Seasons"
+             xmlns:solar="using:Lemon.Explore.Book.Chapters.SolarSystem"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -18,6 +19,8 @@
         chapter's page types (subclasses of the placeholder pages) come first.
     -->
     <UserControl.DataTemplates>
+        <DataTemplate DataType="solar:SolarSystemTextPageViewModel"><solar:SolarSystemTextPageView /></DataTemplate>
+        <DataTemplate DataType="solar:SolarSystemDiagramPageViewModel"><solar:SolarSystemDiagramPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsTextPageViewModel"><seasons:SeasonsTextPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsDiagramPageViewModel"><seasons:SeasonsDiagramPageView /></DataTemplate>
 

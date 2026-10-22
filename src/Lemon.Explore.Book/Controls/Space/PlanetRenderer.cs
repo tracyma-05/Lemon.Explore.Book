@@ -20,7 +20,7 @@ public sealed class PlanetRenderer
     private const double ViewInclination = 18 * Math.PI / 180;
     private const int ParallelThreshold = 4_096;
 
-    private readonly SpaceBody _body;
+    private readonly CelestialBody _body;
     private readonly double _extent;
     private readonly V3 _pole;
     private readonly V3 _e1;
@@ -34,13 +34,13 @@ public sealed class PlanetRenderer
     private float[] _ringT = [], _ringZ = [], _ringShadow = [];
     private LightVector _lastShadowLight;
 
-    public PlanetRenderer(SpaceBody body)
+    public PlanetRenderer(CelestialBody body)
         : this(body, DefaultPole(body))
     {
     }
 
     /// <summary>A renderer whose north pole points along <paramref name="pole"/> in view space.</summary>
-    public PlanetRenderer(SpaceBody body, LightVector pole)
+    public PlanetRenderer(CelestialBody body, LightVector pole)
     {
         _body = body;
         var atmosphere = body.AtmosphereColor is null ? 0.03 : 0.12;
@@ -54,7 +54,7 @@ public sealed class PlanetRenderer
     }
 
     /// <summary>The pole leans towards the viewer a little (so rings open up) and rolls by the axial tilt.</summary>
-    private static LightVector DefaultPole(SpaceBody body)
+    private static LightVector DefaultPole(CelestialBody body)
     {
         var roll = -body.AxialTiltDegrees * Math.PI / 180;
         var (sr, cr) = Math.SinCos(roll);

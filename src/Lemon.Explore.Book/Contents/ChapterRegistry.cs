@@ -1,4 +1,5 @@
 using Lemon.Explore.Book.Chapters.Seasons;
+using Lemon.Explore.Book.Chapters.SolarSystem;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.Contents;
@@ -10,13 +11,20 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Seasons" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Seasons" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
     {
         switch (chapter.Slug)
         {
+            case "Solar-System":
+            {
+                var solar = new SolarSystemViewModel(services.Narration);
+                return (new SolarSystemTextPageViewModel(textPage, navigator, chapter, number, solar),
+                    new SolarSystemDiagramPageViewModel(textPage + 1, navigator, chapter, solar));
+            }
+
             case "Seasons":
             {
                 var seasons = new SeasonsViewModel(services.Narration, services.Settings);

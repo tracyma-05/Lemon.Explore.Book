@@ -1,0 +1,86 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:solar="using:Lemon.Explore.Book.Chapters.SolarSystem"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.SolarSystem.SolarSystemDiagramPageView"
+                         x:DataType="solar:SolarSystemDiagramPageViewModel">
+    <!-- Right page of the Solar System spread: the animated system on a dark plate, its tour and playback. -->
+    <explore:ChapterPageView.KeyBindings>
+        <KeyBinding Gesture="Escape" Command="{Binding Solar.CloseDetailCommand}" />
+    </explore:ChapterPageView.KeyBindings>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <solar:SolarSystemCanvas x:Name="Scene"
+                                         Bodies="{Binding Solar.Bodies}"
+                                         SelectedBody="{Binding Solar.SelectedBody}"
+                                         SimulationTime="{Binding Solar.SimulationTime}"
+                                         DaysPerSecond="{Binding Solar.DaysPerSecond}"
+                                         IsPlaying="{Binding Solar.IsPlaying}"
+                                         ShowLabels="{Binding Solar.ShowLabels}"
+                                         ShowOrbits="{Binding Solar.ShowOrbits}"
+                                         IsRealScale="{Binding Solar.IsRealScale}"
+                                         Highlight="{Binding Solar.Lesson.Highlight}"
+                                         IsLessonActive="{Binding Solar.Lesson.IsActive}"
+                                         InteractionCommand="{Binding Solar.UserInteractedCommand}"
+                                         ReselectedCommand="{Binding Solar.ReselectedCommand}"
+                                         AutomationProperties.Name="{loc:Localize SolarSystem_Title}" />
+
+                <!-- The tour's subtitles, and playback and display options under them -->
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Solar.Lesson}" />
+                    <Border HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space" IsChecked="{Binding Solar.IsReversed}"
+                                          ToolTip.Tip="{loc:Localize SolarSystem_Reverse}"
+                                          AutomationProperties.Name="{loc:Localize SolarSystem_Reverse}">
+                                <PathIcon Data="{StaticResource Icon.Previous}" />
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Solar.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize SolarSystem_PlayPause}"
+                                    AutomationProperties.Name="{loc:Localize SolarSystem_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Solar.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Solar.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Width="100" Margin="6,0" VerticalAlignment="Center" Foreground="#7FB2FF"
+                                        Minimum="0" Maximum="{Binding Solar.MaxSpeedIndex}" Value="{Binding Solar.SpeedIndex}"
+                                        TickFrequency="1" IsSnapToTickEnabled="True" SmallChange="1" LargeChange="1"
+                                        ToolTip.Tip="{loc:Localize SolarSystem_Speed}"
+                                        AutomationProperties.Name="{loc:Localize SolarSystem_Speed}" />
+                                <TextBlock MinWidth="64" VerticalAlignment="Center" FontSize="12.5"
+                                           Foreground="{StaticResource SpaceTextSecondary}" Text="{Binding Solar.SpeedText}" />
+                            </StackPanel>
+                            <Button Classes="space" Command="{Binding Solar.TodayCommand}"
+                                    ToolTip.Tip="{loc:Localize SolarSystem_Today_Tooltip}" Content="{loc:Localize SolarSystem_Today}" />
+                            <ToggleButton Classes="space" IsChecked="{Binding Solar.ShowLabels}" Content="{loc:Localize SolarSystem_ShowLabels}" />
+                            <ToggleButton Classes="space" IsChecked="{Binding Solar.ShowOrbits}" Content="{loc:Localize SolarSystem_ShowOrbits}" />
+                            <ToggleButton Classes="space" IsChecked="{Binding Solar.IsRealScale}"
+                                          ToolTip.Tip="{loc:Localize SolarSystem_RealScale_Tooltip}" Content="{loc:Localize SolarSystem_RealScale}" />
+                            <Button Classes="space" Click="OnResetViewClick"
+                                    ToolTip.Tip="{loc:Localize SolarSystem_ResetView}" Content="{loc:Localize SolarSystem_ResetView}" />
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Solar.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Solar.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>
