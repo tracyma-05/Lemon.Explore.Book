@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 10 of 34 in the book: Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 12 of 34 in the book; the Sky volume is complete (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion) |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -41,6 +41,8 @@ cross-platform book.
 | `StreamGeometryContext.BeginFigure(p, filled, closed)` | `BeginFigure(p, filled)` … `EndFigure(closed)` |
 | `WriteableBitmap.WritePixels` | `SpaceDrawing.WritePixels` (locks the bitmap and copies rows) |
 | `OnPropertyChanged("Item[]")` for an indexer | `OnPropertyChanged("Item")` (Avalonia listens for the indexer's name) |
+| `DrawingVisual` + `RenderTargetBitmap.Render` | `SpaceDrawing.RenderToBitmap(width, height, scale, dc => …)` |
+| `DrawImage(bitmap, rect)` of a bitmap at the screen's DPI | `SpaceDrawing.DrawWhole`: the source rectangle is in pixels, a bitmap's `Size` in DIPs |
 
 ### Porting a chapter (the Seasons pattern)
 
