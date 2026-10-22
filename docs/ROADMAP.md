@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 7 of 34 in the book: Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 10 of 34 in the book: Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -57,13 +57,20 @@ cross-platform book.
    screen); page views derive from `ChapterPageView`. `ChapterTestKit` has the shared test helpers.
 7. A chapter that depends on where you are takes `BookServices.Location` and exposes it for a `LocationChip` on its
    left page. A link to another chapter turns to `BookContents.ChapterPageOf(slug)`.
+8. The original puts its controls in a side panel on the right; the book puts them on the left page, and the title
+   there too (bind the diagram's `TitleHeight` to nothing, its `ToolbarHeight` to the toolbar's `Bounds.Height`).
+   `tools/porting` flags strings that mention the old layout ("the panel on the right"): reword them for the left
+   page, in both languages.
+9. `OscillationStat` and `OscillationChoice` (a row of the "what is happening" card, one of a row of chips) are
+   shared by most chapters and live in `Explore/Lessons` under those names.
 
 ### Simplifications so far
 
 - The shared observer location (`Explore/Places`, saved in the reader's settings, chosen from `LocationChip`) is
-  followed by Day and night and Tides. Seasons and Moon phases still watch from Beijing (a preset), and "the other
-  hemisphere" from Sydney; moving them onto the shared location is a follow-up.
-- Pages are narrower than the original window, so a few wide diagrams (the eclipse seasons view) crop at the edge.
+  followed by Day and night, Tides, Star trails and Retrograde. Seasons and Moon phases still watch from Beijing (a
+  preset), and "the other hemisphere" from Sydney; moving them onto the shared location is a follow-up.
+- Pages are narrower than the original window, so a few wide diagrams crop at the edge (the eclipse seasons view,
+  the inset panels of the star trails year view).
 
 ## Narration
 
