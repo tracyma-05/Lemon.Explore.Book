@@ -6,6 +6,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Lemon.Explore.Book</RootNamespace>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <!-- The sphere renderer and starfield copy pixel rows straight into bitmap memory. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>

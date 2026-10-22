@@ -4,8 +4,12 @@ using Avalonia.Media;
 using Avalonia.Media.Fonts;
 using Lemon.Explore.Book;
 using Lemon.Explore.Book.Browser;
+using Lemon.Explore.Book.Controls.Space;
 
 App.Settings = new LocalStorageSettingsStore();
+
+// The browser runs the planet texture generator on its only thread; a smaller map keeps the first frames responsive.
+PlanetTexture.PlanetWidth = 512;
 
 await AppBuilder.Configure<App>()
     .ConfigureFonts(fonts => fonts.AddFontCollection(new EmbeddedFontCollection(

@@ -1,0 +1,237 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:seasons="using:Lemon.Explore.Book.Chapters.Seasons"
+             xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Chapters.Seasons.SeasonsTextPageView"
+             x:DataType="seasons:SeasonsTextPageViewModel">
+    <!-- Left page of the seasons spread: the chapter's text, the reader's controls and what is happening now. -->
+    <UserControl.Styles>
+        <Style Selector="TextBlock.statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.settingValue">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+        </Style>
+        <Style Selector="Rectangle.legend">
+            <Setter Property="Width" Value="16" />
+            <Setter Property="Height" Value="2.5" />
+            <Setter Property="Margin" Value="0,0,6,0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="TextBlock.legend">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+        </Style>
+    </UserControl.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <TextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <!-- What this view shows, and how to work it -->
+                <TextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Seasons.Subtitle}" />
+                <TextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Seasons.ScaleNote}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Seasons.DragHint}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="SeasonsMode" IsChecked="{Binding Seasons.IsTilt}"
+                                 Content="{loc:Localize Seasons_Mode_Tilt}" />
+                    <RadioButton Classes="chip" GroupName="SeasonsMode" IsChecked="{Binding Seasons.IsSunPath}"
+                                 Content="{loc:Localize Seasons_Mode_SunPath}" />
+                    <RadioButton Classes="chip" GroupName="SeasonsMode" IsChecked="{Binding Seasons.IsDistance}"
+                                 Content="{loc:Localize Seasons_Mode_Distance}" />
+                </WrapPanel>
+
+                <!-- The thing clicked in the picture, and what it is -->
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Seasons.Card}" />
+
+                <!-- Latitude -->
+                <DockPanel Margin="0,14,0,0">
+                    <TextBlock Classes="settingValue" Text="{Binding Seasons.LatitudeText}" />
+                    <TextBlock Classes="caption" Margin="0" Text="{loc:Localize Seasons_Latitude}" />
+                </DockPanel>
+                <Slider Minimum="-90" Maximum="90" Value="{Binding Seasons.Latitude}"
+                        SmallChange="0.5" LargeChange="10"
+                        AutomationProperties.Name="{loc:Localize Seasons_Latitude}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Seasons.SetLatitudeCommand}" CommandParameter="1.35"
+                            Content="{loc:Localize Seasons_City_Singapore}" />
+                    <Button Classes="chip" Command="{Binding Seasons.SetLatitudeCommand}" CommandParameter="31.2"
+                            Content="{loc:Localize Seasons_City_Shanghai}" />
+                    <Button Classes="chip" Command="{Binding Seasons.SetLatitudeCommand}" CommandParameter="39.9"
+                            Content="{loc:Localize Seasons_City_Beijing}" />
+                    <Button Classes="chip" Command="{Binding Seasons.SetLatitudeCommand}" CommandParameter="69.6"
+                            Content="{loc:Localize Seasons_City_Tromso}" />
+                    <Button Classes="chip" Command="{Binding Seasons.SetLatitudeCommand}" CommandParameter="-33.9"
+                            Content="{loc:Localize Seasons_City_Sydney}" />
+                </WrapPanel>
+
+                <!-- Axial tilt -->
+                <DockPanel Margin="0,8,0,0">
+                    <TextBlock Classes="settingValue" Text="{Binding Seasons.TiltText}" />
+                    <TextBlock Classes="caption" Margin="0" Text="{loc:Localize Seasons_Tilt}" />
+                </DockPanel>
+                <Slider Minimum="0" Maximum="90" Value="{Binding Seasons.Tilt}"
+                        SmallChange="0.5" LargeChange="5"
+                        AutomationProperties.Name="{loc:Localize Seasons_Tilt}" />
+                <DockPanel>
+                    <Button DockPanel.Dock="Left" Classes="chip" VerticalAlignment="Top"
+                            Command="{Binding Seasons.ResetTiltCommand}" Content="{loc:Localize Seasons_Tilt_Reset}" />
+                    <TextBlock Classes="note" VerticalAlignment="Center" Text="{loc:Localize Seasons_Tilt_Hint}" />
+                </DockPanel>
+
+                <!-- Why seasons: noon sunlight at this latitude -->
+                <StackPanel IsVisible="{Binding Seasons.IsTilt}">
+                    <TextBlock Classes="caption" Text="{loc:Localize Seasons_Noon_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <seasons:NoonSunlightView Latitude="{Binding Seasons.Latitude}"
+                                                  Declination="{Binding Seasons.Declination}"
+                                                  AutomationProperties.Name="{loc:Localize Seasons_Noon_Caption}" />
+                    </Border>
+                    <TextBlock Classes="caption" Text="{loc:Localize Seasons_Beam_Caption}" />
+                    <Border Classes="plate" Height="110">
+                        <seasons:BeamSpreadView Altitude="{Binding Seasons.NoonAltitude}"
+                                                AutomationProperties.Name="{loc:Localize Seasons_Beam_Caption}" />
+                    </Border>
+                    <TextBlock Classes="text" Margin="0,8,0,0" Text="{Binding Seasons.BeamText}" />
+                </StackPanel>
+
+                <!-- Sun's path: time of day and the length of the day through the year -->
+                <StackPanel IsVisible="{Binding Seasons.IsSunPath}">
+                    <TextBlock Classes="caption" Text="{loc:Localize Seasons_Animate}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SeasonsAnimate" IsChecked="{Binding Seasons.AnimatesDay}"
+                                     Content="{loc:Localize Seasons_Animate_Day}" />
+                        <RadioButton Classes="chip" GroupName="SeasonsAnimate" IsChecked="{Binding Seasons.AnimatesYear}"
+                                     Content="{loc:Localize Seasons_Animate_Year}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,4,0,0">
+                        <TextBlock DockPanel.Dock="Left" Margin="0,0,12,0" VerticalAlignment="Center" FontSize="13"
+                                   Foreground="{StaticResource BodyInkBrush}" Text="{loc:Localize Seasons_TimeOfDay}" />
+                        <Slider VerticalAlignment="Center" Minimum="0" Maximum="24" Value="{Binding Seasons.TimeOfDay}"
+                                SmallChange="0.25" LargeChange="1"
+                                AutomationProperties.Name="{loc:Localize Seasons_TimeOfDay}" />
+                    </DockPanel>
+                    <TextBlock Classes="text" Margin="0,4,0,0" Text="{Binding Seasons.SunNowText}" />
+
+                    <TextBlock Classes="caption" Text="{loc:Localize Seasons_DayLength_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <seasons:SeasonChart Kind="DayLength" Day="{Binding Seasons.Day}"
+                                             Latitude="{Binding Seasons.Latitude}" Tilt="{Binding Seasons.Tilt}"
+                                             AutomationProperties.Name="{loc:Localize Seasons_DayLength_Caption}" />
+                    </Border>
+                    <WrapPanel Margin="0,8,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Classes="legend" Fill="#E0A82E" />
+                            <TextBlock Classes="legend" Text="{Binding Seasons.LatitudeLegend}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Classes="legend" Fill="#5C8FD6" />
+                            <TextBlock Classes="legend" Text="{Binding Seasons.OppositeLegend}" />
+                        </StackPanel>
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Closer to the Sun? -->
+                <StackPanel IsVisible="{Binding Seasons.IsDistance}">
+                    <TextBlock Classes="caption" Text="{loc:Localize Seasons_DistanceChart_Caption}" />
+                    <Border Classes="plate" Height="240">
+                        <seasons:SeasonChart Kind="Distance" Day="{Binding Seasons.Day}"
+                                             Latitude="{Binding Seasons.Latitude}" Tilt="{Binding Seasons.Tilt}"
+                                             AutomationProperties.Name="{loc:Localize Seasons_DistanceChart_Caption}" />
+                    </Border>
+                    <WrapPanel Margin="0,8,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Classes="legend" Fill="#8C8073" />
+                            <TextBlock Classes="legend" Text="{loc:Localize Seasons_Legend_Distance}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Classes="legend" Fill="#E0A82E" />
+                            <TextBlock Classes="legend" Text="{Binding Seasons.NorthLegend}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Classes="legend" Fill="#5C8FD6" />
+                            <TextBlock Classes="legend" Text="{Binding Seasons.SouthLegend}" />
+                        </StackPanel>
+                    </WrapPanel>
+                    <TextBlock Classes="note" Text="{loc:Localize Seasons_DistanceChart_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the season -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="#0D2B2622" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Seasons.StageBrush}" />
+                        <StackPanel Margin="14,12">
+                            <TextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                       Foreground="{StaticResource InkBrush}" Text="{Binding Seasons.StageTitle}" />
+                            <TextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Seasons.StageDescription}" />
+                            <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
+                                <TextBlock Grid.Row="0" Classes="statName" Text="{loc:Localize Seasons_Stat_Date}" />
+                                <TextBlock Grid.Row="0" Classes="statValue" Text="{Binding Seasons.DateText}" />
+                                <TextBlock Grid.Row="1" Classes="statName" Text="{loc:Localize Seasons_Stat_NoonAltitude}" />
+                                <TextBlock Grid.Row="1" Classes="statValue" Text="{Binding Seasons.NoonAltitudeText}" />
+                                <TextBlock Grid.Row="2" Classes="statName" Text="{loc:Localize Seasons_Stat_DayLength}" />
+                                <TextBlock Grid.Row="2" Classes="statValue" Text="{Binding Seasons.DayLengthText}" />
+                                <TextBlock Grid.Row="3" Classes="statName" Text="{loc:Localize Seasons_Stat_Sunrise}" />
+                                <TextBlock Grid.Row="3" Classes="statValue" Text="{Binding Seasons.SunriseText}" />
+                                <TextBlock Grid.Row="4" Classes="statName" Text="{loc:Localize Seasons_Stat_Sunlight}"
+                                           ToolTip.Tip="{loc:Localize Seasons_Stat_Sunlight_ToolTip}" />
+                                <TextBlock Grid.Row="4" Classes="statValue" Text="{Binding Seasons.SunlightText}"
+                                           ToolTip.Tip="{loc:Localize Seasons_Stat_Sunlight_ToolTip}" />
+                                <TextBlock Grid.Row="5" Classes="statName" Text="{loc:Localize Seasons_Stat_Distance}" />
+                                <TextBlock Grid.Row="5" Classes="statValue" Text="{Binding Seasons.DistanceText}" />
+                            </Grid>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <TextBlock Classes="caption" Text="{loc:Localize Seasons_JumpTo}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Seasons.JumpToCommand}" CommandParameter="MarchEquinox"
+                            Content="{loc:Localize Seasons_Event_MarchEquinox}" />
+                    <Button Classes="chip" Command="{Binding Seasons.JumpToCommand}" CommandParameter="JuneSolstice"
+                            Content="{loc:Localize Seasons_Event_JuneSolstice}" />
+                    <Button Classes="chip" Command="{Binding Seasons.JumpToCommand}" CommandParameter="SeptemberEquinox"
+                            Content="{loc:Localize Seasons_Event_SeptemberEquinox}" />
+                    <Button Classes="chip" Command="{Binding Seasons.JumpToCommand}" CommandParameter="DecemberSolstice"
+                            Content="{loc:Localize Seasons_Event_DecemberSolstice}" />
+                    <Button Classes="chip" Command="{Binding Seasons.JumpToCommand}" CommandParameter="Today"
+                            Content="{loc:Localize Seasons_Today}" />
+                </WrapPanel>
+
+                <TextBlock Classes="caption" Text="{loc:Localize Seasons_Facts}" />
+                <ItemsControl ItemsSource="{Binding Seasons.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{StaticResource AccentBrush}" />
+                                <TextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</UserControl>

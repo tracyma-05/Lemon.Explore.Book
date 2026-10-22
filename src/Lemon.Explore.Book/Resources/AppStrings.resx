@@ -159,6 +159,9 @@
   <data name="Diagram_Placeholder" xml:space="preserve">
     <value>Interactive picture coming soon</value>
   </data>
+  <data name="Explore_ClickHint" xml:space="preserve">
+    <value>Click anything in the picture to hear what it is</value>
+  </data>
   <data name="HowTo_Contents" xml:space="preserve">
     <value>Lost your place? The Contents button takes you back to the table of contents.</value>
   </data>
@@ -173,6 +176,579 @@
   </data>
   <data name="HowTo_Turn" xml:space="preserve">
     <value>Turn a page: drag the outer edge of a page, click it, or press the left and right arrow keys.</value>
+  </data>
+  <data name="Lesson_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Lesson_Done_Text" xml:space="preserve">
+    <value>That's the end of this walkthrough. Keep dragging and clicking things in the picture to explore, or switch to another view and listen again.</value>
+  </data>
+  <data name="Lesson_Listen" xml:space="preserve">
+    <value>Listen again</value>
+  </data>
+  <data name="Lesson_Next" xml:space="preserve">
+    <value>Next step</value>
+  </data>
+  <data name="Lesson_PauseResume" xml:space="preserve">
+    <value>Pause or resume</value>
+  </data>
+  <data name="Lesson_Previous" xml:space="preserve">
+    <value>Previous step</value>
+  </data>
+  <data name="Lesson_Restart" xml:space="preserve">
+    <value>Start over</value>
+  </data>
+  <data name="Lesson_Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="Lesson_Start" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="Lesson_Start_Tooltip" xml:space="preserve">
+    <value>A spoken walkthrough of this view, with subtitles</value>
+  </data>
+  <data name="Lesson_State_Done" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="Lesson_State_Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="Lesson_State_Quiz" xml:space="preserve">
+    <value>Think about it</value>
+  </data>
+  <data name="Lesson_State_Speaking" xml:space="preserve">
+    <value>Walkthrough</value>
+  </data>
+  <data name="Lesson_State_TryIt" xml:space="preserve">
+    <value>Your turn</value>
+  </data>
+  <data name="Lesson_Step" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="Lesson_Stop" xml:space="preserve">
+    <value>End the walkthrough</value>
+  </data>
+  <data name="Lesson_TimeLeft" xml:space="preserve">
+    <value>Time left to answer</value>
+  </data>
+  <data name="Narr_Common_MoveOn" xml:space="preserve">
+    <value>Let's keep going. You can try it again later.</value>
+  </data>
+  <data name="Narr_Common_Nice" xml:space="preserve">
+    <value>Nicely done!</value>
+  </data>
+  <data name="Narr_Common_Reveal" xml:space="preserve">
+    <value>Time's up! Here's the right answer.</value>
+  </data>
+  <data name="Narr_Common_Right" xml:space="preserve">
+    <value>That's right!</value>
+  </data>
+  <data name="Narr_Common_Wrong" xml:space="preserve">
+    <value>Not quite. Let's look at the answer.</value>
+  </data>
+  <data name="Narr_Seasons_Distance_01" xml:space="preserve">
+    <value>Lots of people think summer is warm because Earth is closer to the Sun. And Earth's path really isn't a perfect circle. It's a very slightly squashed oval.</value>
+  </data>
+  <data name="Narr_Seasons_Distance_02" xml:space="preserve">
+    <value>So here's one for you to guess. In which month is Earth closest to the Sun?</value>
+  </data>
+  <data name="Narr_Seasons_Distance_03" xml:space="preserve">
+    <value>The answer is early January. That's when Earth is closest to the Sun, at a point called perihelion. Yet January is the coldest time of year in the north!</value>
+  </data>
+  <data name="Narr_Seasons_Distance_04" xml:space="preserve">
+    <value>And in early July, Earth is at its farthest, a point called aphelion. But that's the middle of summer in the north.</value>
+  </data>
+  <data name="Narr_Seasons_Distance_05" xml:space="preserve">
+    <value>Over the year the distance changes by only about three percent, which hardly affects the temperature. So the seasons aren't really about distance. The real reason is the tilt of Earth's axis.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Aphelion" xml:space="preserve">
+    <value>This is aphelion. Every year in early July, Earth is farthest from the Sun, about a hundred and fifty-two million kilometres away.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Axis" xml:space="preserve">
+    <value>This line is Earth's axis, and it always points at the North Star. Because its direction never changes, the north and south take turns leaning towards the Sun as Earth goes around.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_December" xml:space="preserve">
+    <value>This is the December solstice. The Sun is overhead at the Tropic of Capricorn, so the north has its shortest day, and the south its longest.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Earth" xml:space="preserve">
+    <value>This is Earth. It spins on its axis while it travels around the Sun. One spin is a day, and one trip around is a year. The gold line on it is your latitude.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Equinox" xml:space="preserve">
+    <value>This is an equinox. On this day the axis leans neither towards the Sun nor away from it, so day and night are about the same length all over the world.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_June" xml:space="preserve">
+    <value>This is the June solstice. The Sun is overhead at the Tropic of Cancer, so the north has its longest day, and the south its shortest.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Noon" xml:space="preserve">
+    <value>This is where the Sun is at noon, its highest point of the day. The number beside it is how high it stands above the horizon.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Perihelion" xml:space="preserve">
+    <value>This is perihelion. Every year in early January, Earth comes closest to the Sun, about a hundred and forty-seven million kilometres away.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Shadow" xml:space="preserve">
+    <value>This is an upright post and its shadow. In a day, the shadow is shortest at noon. Over a year, noon shadows are shortest in summer and longest in winter.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_SkySun" xml:space="preserve">
+    <value>This is where the Sun is right now. The higher it is above the horizon, the more directly its light hits the ground, and the more warmth the ground gets.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Sun" xml:space="preserve">
+    <value>This is the Sun, the source of the energy behind the seasons. The Sun and Earth are drawn far bigger than they really are, or you couldn't see them.</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Sunrise" xml:space="preserve">
+    <value>This is where the Sun rises and sets. Only around the equinoxes does it rise due east and set due west. On other days it rises and sets further north or south.</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_01" xml:space="preserve">
+    <value>This time we're standing on the ground. The little post in the middle marks where you are, and the dome over it is your sky.</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_02" xml:space="preserve">
+    <value>Watch the Sun. It rises in the east, slowly arcs across the sky, and sets in the west. This gold curve is the path it takes today.</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_03" xml:space="preserve">
+    <value>The highest point of the curve is noon. The higher the Sun climbs, the more concentrated its light is, and the more it warms the ground.</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_04" xml:space="preserve">
+    <value>Now look at the post's shadow. When the Sun is high, the shadow is short. When it's low, the shadow is long. Long ago, people tracked the seasons by measuring shadows just like this.</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_05" xml:space="preserve">
+    <value>Now let's run time through a whole year instead. Look at the two dashed curves. In summer the Sun's path is high and long. In winter it's low and short.</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_06" xml:space="preserve">
+    <value>Think about it. Why is summer warmer than winter?</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_07" xml:space="preserve">
+    <value>There are two reasons, working together. The Sun climbs higher, so its light is more concentrated, and the days are longer, so the ground warms for more hours. Drag left and right across the picture to move through the day yourself.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_01" xml:space="preserve">
+    <value>Have you ever wondered why summer is warm and winter is cold? A lot of people guess it's because Earth gets closer to the Sun in summer. Let's find out together.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_02" xml:space="preserve">
+    <value>In the middle is the Sun. Earth travels around it along this dashed path, and one trip around takes a whole year.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_03" xml:space="preserve">
+    <value>Now look at the white line through Earth. It's called the axis, and Earth spins around it. Notice that it isn't upright. It leans over by about twenty-three and a half degrees.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_04" xml:space="preserve">
+    <value>Here's the clever part. Wherever Earth is on its path, the axis always points the same way, towards the North Star. Keep your eye on it for a moment. It always leans to the upper right.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_05" xml:space="preserve">
+    <value>Let's stop in June. Right now the northern half of Earth leans towards the Sun. The sunlight comes in more steeply, and the days are longer, so it's summer in the north.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_06" xml:space="preserve">
+    <value>Now it's your turn. Drag Earth round to December, or just click on December, and see what happens to the north.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_07" xml:space="preserve">
+    <value>In December the axis still points the same way, but now the north leans away from the Sun. The light arrives at a low slant, the days are short, and the north has winter. The south is the other way round. It's having summer.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_08" xml:space="preserve">
+    <value>Quick question. What would happen if Earth's axis didn't lean at all?</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_09" xml:space="preserve">
+    <value>Let's set the tilt to zero and see. Now every day of the year is much the same. The Sun is always overhead at the equator, day and night are equal, and the seasons disappear.</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
+    <value>So the secret of the seasons isn't distance. It's the tilt of the axis. Try the sliders on the right with a different tilt or latitude, and watch how the day length and the noon Sun on the card change.</value>
+  </data>
+  <data name="Seasons_Animate" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="Seasons_Animate_Day" xml:space="preserve">
+    <value>A day passes</value>
+  </data>
+  <data name="Seasons_Animate_Year" xml:space="preserve">
+    <value>The year passes</value>
+  </data>
+  <data name="Seasons_Beam_Caption" xml:space="preserve">
+    <value>The same beam of sunlight on the ground</value>
+  </data>
+  <data name="Seasons_Beam_None" xml:space="preserve">
+    <value>Today the Sun does not rise here, so no sunlight reaches the ground.</value>
+  </data>
+  <data name="Seasons_Beam_Text" xml:space="preserve">
+    <value>The lower the Sun, the larger the patch the same sunlight spreads over. Today at noon each patch of ground gets {0:P0} of the light it would get with the Sun straight overhead.</value>
+  </data>
+  <data name="Seasons_City_Beijing" xml:space="preserve">
+    <value>Beijing</value>
+  </data>
+  <data name="Seasons_City_Shanghai" xml:space="preserve">
+    <value>Shanghai</value>
+  </data>
+  <data name="Seasons_City_Singapore" xml:space="preserve">
+    <value>Singapore</value>
+  </data>
+  <data name="Seasons_City_Sydney" xml:space="preserve">
+    <value>Sydney</value>
+  </data>
+  <data name="Seasons_City_Tromso" xml:space="preserve">
+    <value>Tromsø</value>
+  </data>
+  <data name="Seasons_Compass_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Seasons_Compass_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Seasons_Compass_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Seasons_Compass_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Seasons_DayLength_Caption" xml:space="preserve">
+    <value>Hours of daylight through the year</value>
+  </data>
+  <data name="Seasons_Degrees" xml:space="preserve">
+    <value>{0:0.0}°</value>
+  </data>
+  <data name="Seasons_DistanceChart_Caption" xml:space="preserve">
+    <value>Distance to the Sun (million km), and daily sunlight in the north and the south</value>
+  </data>
+  <data name="Seasons_DistanceChart_Note" xml:space="preserve">
+    <value>Earth is closest to the Sun in January, yet the north has winter then: the tilt matters far more than the distance.</value>
+  </data>
+  <data name="Seasons_Distance_Fact1" xml:space="preserve">
+    <value>Many people think summer comes when Earth is closest to the Sun. In fact Earth is closest in early January, in the middle of the northern winter.</value>
+  </data>
+  <data name="Seasons_Distance_Fact2" xml:space="preserve">
+    <value>Earth's orbit is almost a circle: the distance changes by only about 3%, from 147.1 to 152.1 million km. That changes the sunlight by about 7%, far less than the tilt does.</value>
+  </data>
+  <data name="Seasons_Distance_Fact3" xml:space="preserve">
+    <value>If the distance caused the seasons, both hemispheres would have summer at the same time. Instead they always have opposite seasons.</value>
+  </data>
+  <data name="Seasons_Distance_Fact4" xml:space="preserve">
+    <value>The distance does matter a little: southern summers get about 7% more sunlight than northern ones, but the southern hemisphere's large oceans even this out.</value>
+  </data>
+  <data name="Seasons_Distance_Note" xml:space="preserve">
+    <value>The orbit is drawn in its true shape: almost a perfect circle</value>
+  </data>
+  <data name="Seasons_Distance_Subtitle" xml:space="preserve">
+    <value>Myth: is it summer when Earth is closer to the Sun?</value>
+  </data>
+  <data name="Seasons_DragHint_Orbit" xml:space="preserve">
+    <value>Drag to move Earth along its orbit</value>
+  </data>
+  <data name="Seasons_DragHint_Sky" xml:space="preserve">
+    <value>Drag left or right to move the Sun through the day</value>
+  </data>
+  <data name="Seasons_Duration" xml:space="preserve">
+    <value>{0} h {1:00} min</value>
+  </data>
+  <data name="Seasons_Event_DecemberSolstice" xml:space="preserve">
+    <value>December solstice</value>
+  </data>
+  <data name="Seasons_Event_JuneSolstice" xml:space="preserve">
+    <value>June solstice</value>
+  </data>
+  <data name="Seasons_Event_MarchEquinox" xml:space="preserve">
+    <value>March equinox</value>
+  </data>
+  <data name="Seasons_Event_SeptemberEquinox" xml:space="preserve">
+    <value>September equinox</value>
+  </data>
+  <data name="Seasons_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Seasons_Hemisphere_North" xml:space="preserve">
+    <value>Northern hemisphere</value>
+  </data>
+  <data name="Seasons_Hemisphere_South" xml:space="preserve">
+    <value>Southern hemisphere</value>
+  </data>
+  <data name="Seasons_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Seasons_Label_Aphelion" xml:space="preserve">
+    <value>Farthest from the Sun (aphelion)</value>
+  </data>
+  <data name="Seasons_Label_ApsisDetail" xml:space="preserve">
+    <value>{0} · {1:N1} million km</value>
+  </data>
+  <data name="Seasons_Label_Distance" xml:space="preserve">
+    <value>{0:N1} million km</value>
+  </data>
+  <data name="Seasons_Label_EquinoxPath" xml:space="preserve">
+    <value>Equinoxes</value>
+  </data>
+  <data name="Seasons_Label_Hemispheres" xml:space="preserve">
+    <value>North: {0} · South: {1}</value>
+  </data>
+  <data name="Seasons_Label_NoSeasons" xml:space="preserve">
+    <value>No seasons</value>
+  </data>
+  <data name="Seasons_Label_NoSunlight" xml:space="preserve">
+    <value>No sunlight today</value>
+  </data>
+  <data name="Seasons_Label_NoonAltitude" xml:space="preserve">
+    <value>Noon {0:0}°</value>
+  </data>
+  <data name="Seasons_Label_North" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Seasons_Label_Observer" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Seasons_Label_Overhead" xml:space="preserve">
+    <value>Sun overhead</value>
+  </data>
+  <data name="Seasons_Label_Perihelion" xml:space="preserve">
+    <value>Closest to the Sun (perihelion)</value>
+  </data>
+  <data name="Seasons_Label_Polaris" xml:space="preserve">
+    <value>Towards the North Star</value>
+  </data>
+  <data name="Seasons_Label_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="Seasons_Label_Sunrise" xml:space="preserve">
+    <value>Sunrise {0}</value>
+  </data>
+  <data name="Seasons_Label_Sunset" xml:space="preserve">
+    <value>Sunset {0}</value>
+  </data>
+  <data name="Seasons_Latitude" xml:space="preserve">
+    <value>Your latitude</value>
+  </data>
+  <data name="Seasons_Latitude_Equator" xml:space="preserve">
+    <value>Equator</value>
+  </data>
+  <data name="Seasons_Latitude_North" xml:space="preserve">
+    <value>{0:0.0}° N</value>
+  </data>
+  <data name="Seasons_Latitude_South" xml:space="preserve">
+    <value>{0:0.0}° S</value>
+  </data>
+  <data name="Seasons_Legend_Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Seasons_Legend_Latitude" xml:space="preserve">
+    <value>Your latitude ({0})</value>
+  </data>
+  <data name="Seasons_Legend_Opposite" xml:space="preserve">
+    <value>Across the equator ({0})</value>
+  </data>
+  <data name="Seasons_Lesson_Distance_Choice1" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Seasons_Lesson_Distance_Choice2" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Seasons_Lesson_Distance_Choice3" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Seasons_Lesson_SunPath_Choice1" xml:space="preserve">
+    <value>The Sun is higher and the days are longer</value>
+  </data>
+  <data name="Seasons_Lesson_SunPath_Choice2" xml:space="preserve">
+    <value>Earth is closer to the Sun</value>
+  </data>
+  <data name="Seasons_Lesson_SunPath_Choice3" xml:space="preserve">
+    <value>The Sun shines brighter</value>
+  </data>
+  <data name="Seasons_Lesson_Tilt_Choice1" xml:space="preserve">
+    <value>The seasons get stronger</value>
+  </data>
+  <data name="Seasons_Lesson_Tilt_Choice2" xml:space="preserve">
+    <value>There are no seasons</value>
+  </data>
+  <data name="Seasons_Lesson_Tilt_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Seasons_Million_Km" xml:space="preserve">
+    <value>{0:N1} million km</value>
+  </data>
+  <data name="Seasons_Mode_Distance" xml:space="preserve">
+    <value>Closer to the Sun?</value>
+  </data>
+  <data name="Seasons_Mode_SunPath" xml:space="preserve">
+    <value>The Sun's path</value>
+  </data>
+  <data name="Seasons_Mode_Tilt" xml:space="preserve">
+    <value>Why seasons</value>
+  </data>
+  <data name="Seasons_Noon_Caption" xml:space="preserve">
+    <value>Noon sunlight where you are (Earth cut in half)</value>
+  </data>
+  <data name="Seasons_Obj_Aphelion" xml:space="preserve">
+    <value>Aphelion</value>
+  </data>
+  <data name="Seasons_Obj_Axis" xml:space="preserve">
+    <value>Axis and North Star</value>
+  </data>
+  <data name="Seasons_Obj_December" xml:space="preserve">
+    <value>December solstice</value>
+  </data>
+  <data name="Seasons_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Seasons_Obj_Equinox" xml:space="preserve">
+    <value>Equinox</value>
+  </data>
+  <data name="Seasons_Obj_June" xml:space="preserve">
+    <value>June solstice</value>
+  </data>
+  <data name="Seasons_Obj_Noon" xml:space="preserve">
+    <value>The Sun at noon</value>
+  </data>
+  <data name="Seasons_Obj_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Seasons_Obj_Shadow" xml:space="preserve">
+    <value>Post and shadow</value>
+  </data>
+  <data name="Seasons_Obj_SkySun" xml:space="preserve">
+    <value>The Sun now</value>
+  </data>
+  <data name="Seasons_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Seasons_Obj_Sunrise" xml:space="preserve">
+    <value>Sunrise and sunset</value>
+  </data>
+  <data name="Seasons_Percent" xml:space="preserve">
+    <value>{0:P0}</value>
+  </data>
+  <data name="Seasons_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Seasons_Season_Autumn" xml:space="preserve">
+    <value>autumn</value>
+  </data>
+  <data name="Seasons_Season_Spring" xml:space="preserve">
+    <value>spring</value>
+  </data>
+  <data name="Seasons_Season_Summer" xml:space="preserve">
+    <value>summer</value>
+  </data>
+  <data name="Seasons_Season_Winter" xml:space="preserve">
+    <value>winter</value>
+  </data>
+  <data name="Seasons_Stage_Autumn_Description" xml:space="preserve">
+    <value>The axis is side-on to the Sun, and your hemisphere is turning away from it: every day the noon Sun is a little lower and the days grow shorter.</value>
+  </data>
+  <data name="Seasons_Stage_Equator" xml:space="preserve">
+    <value>At the equator</value>
+  </data>
+  <data name="Seasons_Stage_Equator_Description" xml:space="preserve">
+    <value>The day is always about 12 hours long and the noon Sun is high all year. Instead of four seasons, many tropical places have a wet and a dry season.</value>
+  </data>
+  <data name="Seasons_Stage_NoTilt" xml:space="preserve">
+    <value>No seasons</value>
+  </data>
+  <data name="Seasons_Stage_NoTilt_Description" xml:space="preserve">
+    <value>Without a tilt the Sun is over the equator every day of the year: every place has the same noon Sun and 12-hour days all year round.</value>
+  </data>
+  <data name="Seasons_Stage_Spring_Description" xml:space="preserve">
+    <value>The axis is side-on to the Sun, but your hemisphere is turning towards it: every day the noon Sun climbs a little higher and the days grow longer.</value>
+  </data>
+  <data name="Seasons_Stage_Summer_Description" xml:space="preserve">
+    <value>Your hemisphere leans towards the Sun. The Sun climbs high at noon and stays up longer, so the ground gets much more sunlight every day.</value>
+  </data>
+  <data name="Seasons_Stage_Title" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Seasons_Stage_Winter_Description" xml:space="preserve">
+    <value>Your hemisphere leans away from the Sun. The Sun stays low and the days are short: sunlight comes in at a slant, and for fewer hours.</value>
+  </data>
+  <data name="Seasons_Stat_BelowHorizon" xml:space="preserve">
+    <value>Below the horizon all day</value>
+  </data>
+  <data name="Seasons_Stat_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Seasons_Stat_DayLength" xml:space="preserve">
+    <value>Day length</value>
+  </data>
+  <data name="Seasons_Stat_Distance" xml:space="preserve">
+    <value>Distance to the Sun</value>
+  </data>
+  <data name="Seasons_Stat_NoonAltitude" xml:space="preserve">
+    <value>Noon Sun altitude</value>
+  </data>
+  <data name="Seasons_Stat_PolarDay" xml:space="preserve">
+    <value>The Sun does not set (polar day)</value>
+  </data>
+  <data name="Seasons_Stat_PolarNight" xml:space="preserve">
+    <value>The Sun does not rise (polar night)</value>
+  </data>
+  <data name="Seasons_Stat_Sunlight" xml:space="preserve">
+    <value>Sunlight today</value>
+  </data>
+  <data name="Seasons_Stat_Sunlight_ToolTip" xml:space="preserve">
+    <value>Sunlight reaching a level patch of ground over the whole day, above the atmosphere; 100% is the equator at an equinox</value>
+  </data>
+  <data name="Seasons_Stat_Sunrise" xml:space="preserve">
+    <value>Sunrise – sunset</value>
+  </data>
+  <data name="Seasons_Stat_SunriseSunset" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Seasons_SunNow_Down" xml:space="preserve">
+    <value>{0}: the Sun is below the horizon.</value>
+  </data>
+  <data name="Seasons_SunNow_Up" xml:space="preserve">
+    <value>{0}: the Sun is {1:0}° above the horizon.</value>
+  </data>
+  <data name="Seasons_SunPath_Fact1" xml:space="preserve">
+    <value>At the equinoxes the Sun rises due east and sets due west everywhere on Earth, and day and night are each about 12 hours.</value>
+  </data>
+  <data name="Seasons_SunPath_Fact2" xml:space="preserve">
+    <value>In summer the Sun rises north of east and sets north of west (south of them in the southern hemisphere). Its path is longer and higher, so the day is longer.</value>
+  </data>
+  <data name="Seasons_SunPath_Fact3" xml:space="preserve">
+    <value>Beyond the Arctic and Antarctic Circles (66.6°) the Sun can stay up all day in summer (polar day) and not rise at all in winter (polar night). Try Tromsø.</value>
+  </data>
+  <data name="Seasons_SunPath_Fact4" xml:space="preserve">
+    <value>Times here are local solar time. Clock time differs because of time zones and daylight saving, and the atmosphere bends sunlight so that real days are a few minutes longer than shown.</value>
+  </data>
+  <data name="Seasons_SunPath_Note" xml:space="preserve">
+    <value>Times are local solar time: the Sun is highest at 12:00</value>
+  </data>
+  <data name="Seasons_SunPath_Subtitle" xml:space="preserve">
+    <value>The Sun's path across your sky, through the day and the year</value>
+  </data>
+  <data name="Seasons_Tilt" xml:space="preserve">
+    <value>Earth's axial tilt</value>
+  </data>
+  <data name="Seasons_Tilt_Fact1" xml:space="preserve">
+    <value>Earth's axis is tilted about 23.4° and keeps pointing the same way in space, towards the North Star, all year. So for half the year the north leans towards the Sun, and for the other half the south does.</value>
+  </data>
+  <data name="Seasons_Tilt_Fact2" xml:space="preserve">
+    <value>When your hemisphere leans towards the Sun you get two things at once: a higher noon Sun, so the light is more concentrated, and longer days, so it shines for more hours.</value>
+  </data>
+  <data name="Seasons_Tilt_Fact3" xml:space="preserve">
+    <value>The two hemispheres always have opposite seasons: when it is summer in Beijing it is winter in Sydney.</value>
+  </data>
+  <data name="Seasons_Tilt_Fact4" xml:space="preserve">
+    <value>The hottest weeks come about a month after the June solstice, and the coldest a month after the December one: land and sea take time to warm up and to cool down.</value>
+  </data>
+  <data name="Seasons_Tilt_Fact5" xml:space="preserve">
+    <value>Here the seasons start at the equinoxes and solstices (astronomical seasons). Weather services often use whole months instead, and the traditional Chinese solar terms start them about six weeks earlier, at Lichun, Lixia, Liqiu and Lidong.</value>
+  </data>
+  <data name="Seasons_Tilt_Hint" xml:space="preserve">
+    <value>Try 0° (no seasons) or 90° (like Uranus).</value>
+  </data>
+  <data name="Seasons_Tilt_Note" xml:space="preserve">
+    <value>Sizes and distances are not to scale</value>
+  </data>
+  <data name="Seasons_Tilt_Reset" xml:space="preserve">
+    <value>Back to 23.4°</value>
+  </data>
+  <data name="Seasons_Tilt_Subtitle" xml:space="preserve">
+    <value>Why are there seasons? Because Earth's axis is tilted</value>
+  </data>
+  <data name="Seasons_TimeOfDay" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="Seasons_Timeline" xml:space="preserve">
+    <value>Day of the year</value>
+  </data>
+  <data name="Seasons_Title" xml:space="preserve">
+    <value>Seasons</value>
+  </data>
+  <data name="Seasons_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="SolarSystem_Sun_Name" xml:space="preserve">
+    <value>Sun</value>
   </data>
   <data name="Title_Edition" xml:space="preserve">
     <value>First edition, still being written</value>

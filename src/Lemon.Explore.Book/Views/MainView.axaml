@@ -6,14 +6,21 @@
              xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
              xmlns:pageViews="using:Lemon.Explore.Book.Views.Pages"
              xmlns:controls="using:Lemon.Explore.Book.Controls"
+             xmlns:seasons="using:Lemon.Explore.Book.Chapters.Seasons"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
              x:DataType="vm:MainViewModel"
              Background="#2A1D15">
 
-    <!-- One view per page type; BookView's presenters pick them up from here. -->
+    <!--
+        One view per page type; BookView's presenters pick them up from here. The first match wins, so a ported
+        chapter's page types (subclasses of the placeholder pages) come first.
+    -->
     <UserControl.DataTemplates>
+        <DataTemplate DataType="seasons:SeasonsTextPageViewModel"><seasons:SeasonsTextPageView /></DataTemplate>
+        <DataTemplate DataType="seasons:SeasonsDiagramPageViewModel"><seasons:SeasonsDiagramPageView /></DataTemplate>
+
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

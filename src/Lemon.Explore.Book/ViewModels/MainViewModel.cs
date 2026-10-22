@@ -17,9 +17,15 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
     private int _pageIndex;
 
     public MainViewModel(ISettingsStore settings)
+        : this(BookServices.Create(settings))
     {
+    }
+
+    public MainViewModel(BookServices services)
+    {
+        var settings = services.Settings;
         _settings = settings;
-        Pages = BuildPages(this);
+        Pages = BuildPages(this, services);
 
         var saved = int.TryParse(settings.Get(SettingKeys.PageIndex), NumberStyles.Integer, CultureInfo.InvariantCulture, out var page)
             ? page
@@ -50,7 +56,7 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
     partial void OnPageIndexChanged(int value) =>
         _settings.Set(SettingKeys.PageIndex, value.ToString(CultureInfo.InvariantCulture));
 
-    internal static IReadOnlyList<PageViewModel> BuildPages(IBookNavigator navigator)
+    internal static IReadOnlyList<PageViewModel> BuildPages(IBookNavigator navigator, BookServices services)
     {
         var pages = new List<PageViewModel>(BookContents.PageCount)
         {
@@ -66,9 +72,9 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
 
         for (var i = 0; i < BookContents.Chapters.Count; i++)
         {
-            var chapter = BookContents.Chapters[i];
-            pages.Add(new ChapterTextPageViewModel(pages.Count, navigator, chapter, i + 1));
-            pages.Add(new ChapterDiagramPageViewModel(pages.Count, navigator, chapter));
+            var (text, diagram) = ChapterRegistry.CreatePages(BookContents.Chapters[i], i + 1, pages.Count, navigator, services);
+            pages.Add(text);
+            pages.Add(diagram);
         }
 
         pages.Add(new CreditsPageViewModel(pages.Count, navigator));

@@ -1,0 +1,128 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+        Shared by the chapter pages. Diagrams are drawn on dark "plates" (space is dark), so controls over a plate use
+        the dark `space` classes; controls on the paper page use the light `chip` classes.
+    -->
+    <Styles.Resources>
+        <SolidColorBrush x:Key="SpaceText" Color="#F2F4F8" />
+        <SolidColorBrush x:Key="SpaceTextSecondary" Color="#C9D1DC" />
+        <SolidColorBrush x:Key="SpaceTextDim" Color="#9AA5B5" />
+        <SolidColorBrush x:Key="SpaceGlass" Color="#D10B1019" />
+        <SolidColorBrush x:Key="SpaceGlassBorder" Color="#2EFFFFFF" />
+        <SolidColorBrush x:Key="SpaceDivider" Color="#1FFFFFFF" />
+        <SolidColorBrush x:Key="PlateBrush" Color="#06080F" />
+        <SolidColorBrush x:Key="ChipBorderBrush" Color="#D2C8B6" />
+
+        <!-- Simple 24x24 icons, drawn for this project. -->
+        <StreamGeometry x:Key="Icon.Play">M8,5 L19,12 L8,19 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Pause">M6,5 H10 V19 H6 Z M14,5 H18 V19 H14 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Previous">M6,5 H8 V19 H6 Z M19,5 V19 L9,12 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Next">M16,5 H18 V19 H16 Z M5,5 V19 L15,12 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Close">M5.6,4.2 L12,10.6 L18.4,4.2 L19.8,5.6 L13.4,12 L19.8,18.4 L18.4,19.8 L12,13.4 L5.6,19.8 L4.2,18.4 L10.6,12 L4.2,5.6 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Check">M9,16.2 L4.8,12 L3.4,13.4 L9,19 L21,7 L19.6,5.6 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Voice">M3,9 H7 L12,4 V20 L7,15 H3 Z M15,7 A6,6 0 0 1 15,17 L15,15 A4,4 0 0 0 15,9 Z</StreamGeometry>
+
+        <!-- A flat, round pill: the template of every `space` and `chip` button. -->
+        <ControlTemplate x:Key="PillTemplate" TargetType="ContentControl">
+            <Border Name="Chrome"
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="1"
+                    CornerRadius="17"
+                    Padding="{TemplateBinding Padding}">
+                <ContentPresenter Content="{TemplateBinding Content}"
+                                  ContentTemplate="{TemplateBinding ContentTemplate}"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center" />
+            </Border>
+        </ControlTemplate>
+    </Styles.Resources>
+
+    <!-- Dark controls over a diagram plate -->
+    <Style Selector=":is(Button).space, ToggleButton.space, RadioButton.space">
+        <Setter Property="Template" Value="{StaticResource PillTemplate}" />
+        <Setter Property="Foreground" Value="{StaticResource SpaceText}" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Padding" Value="9,6" />
+        <Setter Property="Margin" Value="2,0" />
+        <Setter Property="MinHeight" Value="34" />
+        <Setter Property="MinWidth" Value="34" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+    <Style Selector=":is(Button).space:pointerover /template/ Border#Chrome, ToggleButton.space:pointerover /template/ Border#Chrome, RadioButton.space:pointerover /template/ Border#Chrome">
+        <Setter Property="Background" Value="#1FFFFFFF" />
+    </Style>
+    <Style Selector="ToggleButton.space:checked /template/ Border#Chrome, RadioButton.space:checked /template/ Border#Chrome">
+        <Setter Property="Background" Value="#3D5AA9FF" />
+        <Setter Property="BorderBrush" Value="#995AA9FF" />
+    </Style>
+    <Style Selector=":is(Button).space:focus-visible /template/ Border#Chrome, ToggleButton.space:focus-visible /template/ Border#Chrome, RadioButton.space:focus-visible /template/ Border#Chrome">
+        <Setter Property="BorderBrush" Value="#E6FFFFFF" />
+    </Style>
+    <Style Selector=":is(Button).space:disabled, ToggleButton.space:disabled">
+        <Setter Property="Opacity" Value="0.4" />
+    </Style>
+    <Style Selector=".space PathIcon">
+        <Setter Property="Width" Value="16" />
+        <Setter Property="Height" Value="16" />
+    </Style>
+
+    <!-- Light pills on the paper page -->
+    <Style Selector="Button.chip, RadioButton.chip, ToggleButton.chip">
+        <Setter Property="Template" Value="{StaticResource PillTemplate}" />
+        <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Padding" Value="11,4" />
+        <Setter Property="Margin" Value="0,0,6,6" />
+        <Setter Property="MinHeight" Value="28" />
+    </Style>
+    <Style Selector="Button.chip:pointerover /template/ Border#Chrome, RadioButton.chip:pointerover /template/ Border#Chrome, ToggleButton.chip:pointerover /template/ Border#Chrome">
+        <Setter Property="Background" Value="#14B5532E" />
+    </Style>
+    <Style Selector="RadioButton.chip:checked /template/ Border#Chrome, ToggleButton.chip:checked /template/ Border#Chrome">
+        <Setter Property="Background" Value="#22B5532E" />
+        <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}" />
+    </Style>
+    <Style Selector="Button.chip:focus-visible /template/ Border#Chrome, RadioButton.chip:focus-visible /template/ Border#Chrome, ToggleButton.chip:focus-visible /template/ Border#Chrome">
+        <Setter Property="BorderBrush" Value="{StaticResource InkBrush}" />
+    </Style>
+    <Style Selector=".chip PathIcon">
+        <Setter Property="Width" Value="14" />
+        <Setter Property="Height" Value="14" />
+    </Style>
+
+    <!-- Captions and text on a chapter's left page -->
+    <Style Selector="TextBlock.caption">
+        <Setter Property="Margin" Value="0,16,0,6" />
+        <Setter Property="FontSize" Value="12.5" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+    </Style>
+    <Style Selector="TextBlock.note">
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="LineHeight" Value="20" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+    </Style>
+    <Style Selector="TextBlock.text">
+        <Setter Property="FontSize" Value="14.5" />
+        <Setter Property="LineHeight" Value="23" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+    </Style>
+
+    <!-- A framed figure on the paper page: a dark plate with rounded corners. -->
+    <Style Selector="Border.plate">
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="Background" Value="{StaticResource PlateBrush}" />
+        <Setter Property="ClipToBounds" Value="True" />
+    </Style>
+</Styles>

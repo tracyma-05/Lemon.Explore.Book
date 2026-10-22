@@ -26,6 +26,10 @@ one shared project. Plan and phases: `docs/ROADMAP.md`.
   spread; `BookContentsTests` checks this.
 - A page is a `PageViewModel` subclass plus a view in `Views/Pages`, mapped in `MainView.axaml`'s data templates.
 - `Controls/BookView.cs` shows and turns pages; `Controls/PageCurlGeometry.cs` is the turn's geometry, unit-tested.
+- Ported chapters live in `Chapters/<Topic>/` and are wired in `Contents/ChapterRegistry.cs`; follow "Porting a
+  chapter" in `docs/ROADMAP.md`. Seasons is the reference.
+- Every `Narr_*` key is a narration clip and must exist in both languages; walkthrough steps and clickable targets
+  are checked per chapter (see `SeasonsChapterTests`).
 
 ## Before committing
 

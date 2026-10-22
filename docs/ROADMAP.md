@@ -20,7 +20,7 @@ cross-platform book.
 |---|---|---|
 | P0 | Repository, CI, secret scanning, localization | done |
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
-| P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | next |
+| P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
 | P4 | Port the other 33 chapters, a few per change, comparing screenshots against the original | |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
@@ -33,8 +33,25 @@ cross-platform book.
 | `FormattedText`, `StreamGeometry` | same names, small API differences |
 | `CompositionTarget.Rendering`, `DispatcherTimer` | `TopLevel.RequestAnimationFrame` |
 | `DependencyProperty` | `StyledProperty` / `DirectProperty` |
-| `MediaPlayer` | `IAudioPlayer` (desktop audio library, `HTMLAudioElement` / Web Audio in the browser) |
-| MaterialDesign `PackIcon` | an icon font or path icons (to be chosen) |
+| `MediaPlayer` | `INarrationAudio` (desktop audio library, Web Audio in the browser); none yet, so clips run as timed subtitles |
+| MaterialDesign `PackIcon` | `PathIcon` with the project's own geometries (`Styles/Explore.axaml`) |
+| `dc.PushOpacity(...)` … `dc.Pop()` | `using (dc.PushOpacity(...)) { … }` |
+| `Point - Point` is a `Vector` | it is a `Point`: write `Vector v = a - b;` |
+| `Rect.Inflate` changes the rect | it returns a new one |
+| `StreamGeometryContext.BeginFigure(p, filled, closed)` | `BeginFigure(p, filled)` … `EndFigure(closed)` |
+| `WriteableBitmap.WritePixels` | `SpaceDrawing.WritePixels` (locks the bitmap and copies rows) |
+
+### Porting a chapter (the Seasons pattern)
+
+1. Drawing code and models go to `Chapters/<Topic>/`. Shared space drawing (sphere renderer, textures, stars,
+   labels) is in `Controls/Space`; add bodies to `SpaceBodies` and surfaces to `PlanetSurfaces` as needed.
+2. The chapter view model is ported almost as is; one instance serves both pages of the spread.
+3. Add `<Topic>TextPageViewModel` / `<Topic>DiagramPageViewModel` (subclasses of the placeholder pages), their views,
+   a case in `Contents/ChapterRegistry.cs`, and data templates at the top of `MainView.axaml`.
+4. Left page: the text, controls and side figures (on dark plates). Right page: the diagram plate with the
+   walkthrough panel and playback toolbar.
+5. Copy the chapter's strings into both resx files, then add tests like `SeasonsChapterTests` (targets have words,
+   walkthrough keys exist, the spread renders and responds).
 
 ## Narration
 

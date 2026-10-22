@@ -18,4 +18,5 @@ public static class SettingKeys
     public const string Culture = "culture";
     public const string PageIndex = "pageIndex";
     public const string AnimatesTurns = "animatesTurns";
+    public const string Narration = "narration";
 }

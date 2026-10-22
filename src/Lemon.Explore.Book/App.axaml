@@ -17,6 +17,7 @@
 
     <Application.Styles>
         <FluentTheme />
+        <StyleInclude Source="/Styles/Explore.axaml" />
 
         <!-- Page typography -->
         <Style Selector="TextBlock.kicker">

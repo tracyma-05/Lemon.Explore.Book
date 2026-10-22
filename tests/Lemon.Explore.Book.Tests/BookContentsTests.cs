@@ -31,7 +31,7 @@ public class BookContentsTests
     [Fact]
     public void BuiltPages_MatchTheRunningOrder()
     {
-        var pages = MainViewModel.BuildPages(new NullNavigator());
+        var pages = MainViewModel.BuildPages(new NullNavigator(), BookServices.Create(new MemorySettingsStore()));
 
         Assert.Equal(BookContents.PageCount, pages.Count);
         Assert.Equal(Enumerable.Range(0, pages.Count), pages.Select(page => page.Index));
@@ -45,8 +45,8 @@ public class BookContentsTests
 
         for (var i = 0; i < BookContents.Chapters.Count; i++)
         {
-            var text = Assert.IsType<ChapterTextPageViewModel>(pages[BookContents.ChapterPage(i)]);
-            var diagram = Assert.IsType<ChapterDiagramPageViewModel>(pages[BookContents.ChapterPage(i) + 1]);
+            var text = Assert.IsAssignableFrom<ChapterTextPageViewModel>(pages[BookContents.ChapterPage(i)]);
+            var diagram = Assert.IsAssignableFrom<ChapterDiagramPageViewModel>(pages[BookContents.ChapterPage(i) + 1]);
             Assert.Same(BookContents.Chapters[i], text.Chapter);
             Assert.Same(BookContents.Chapters[i], diagram.Chapter);
         }
@@ -55,12 +55,12 @@ public class BookContentsTests
     [Fact]
     public void Contents_ListEveryChapter_WithItsPage()
     {
-        var pages = MainViewModel.BuildPages(new NullNavigator());
+        var pages = MainViewModel.BuildPages(new NullNavigator(), BookServices.Create(new MemorySettingsStore()));
         var entries = pages.OfType<ContentsPageViewModel>().SelectMany(p => p.Entries).ToArray();
 
         Assert.Equal(BookContents.Chapters.Count, entries.Length);
         Assert.Equal(Enumerable.Range(1, entries.Length), entries.Select(e => e.Number));
-        Assert.All(entries, e => Assert.IsType<ChapterTextPageViewModel>(pages[e.PageIndex]));
+        Assert.All(entries, e => Assert.IsAssignableFrom<ChapterTextPageViewModel>(pages[e.PageIndex]));
     }
 
     [Fact]

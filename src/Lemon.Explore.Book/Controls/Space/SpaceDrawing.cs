@@ -1,0 +1,127 @@
+using System.Runtime.InteropServices;
+using Avalonia;
+using Avalonia.Media;
+using Avalonia.Media.Imaging;
+using Avalonia.Media.Immutable;
+
+namespace Lemon.Explore.Book.Controls.Space;
+
+/// <summary>Drawing helpers shared by the space diagrams (brushes, pens, shapes, ray-cast spheres).</summary>
+internal static class SpaceDrawing
+{
+    /// <summary>Draws a ray-cast body centred on <paramref name="center"/>; <paramref name="scale"/> is device pixels per DIP.</summary>
+    public static void DrawSphere(DrawingContext dc, PlanetRenderer renderer, Point center, double radius, LightVector light, double scale, double spin = 0)
+    {
+        if (radius < 0.5)
+        {
+            return;
+        }
+
+        var size = renderer.SizeFor(radius * scale);
+        renderer.Render(size, light, spin);
+        var edge = size / scale;
+        dc.DrawImage(renderer.Bitmap!, new Rect(center.X - (edge / 2), center.Y - (edge / 2), edge, edge));
+    }
+
+    /// <summary>Light for a body drawn on screen, coming from the screen point <paramref name="sun"/>.</summary>
+    public static LightVector LightFrom(Point body, Point sun, double towardsViewer = 0.3)
+    {
+        Vector v = sun - body;
+        if (v.Length < 1e-6)
+        {
+            return new LightVector(0, 0, 1);
+        }
+
+        v /= v.Length;
+        return LightVector.Normalize(v.X, -v.Y, towardsViewer);
+    }
+
+    public static Color Lerp(Color a, Color b, double t)
+    {
+        t = Math.Clamp(t, 0, 1);
+        return Color.FromArgb(
+            (byte)(a.A + ((b.A - a.A) * t)),
+            (byte)(a.R + ((b.R - a.R) * t)),
+            (byte)(a.G + ((b.G - a.G) * t)),
+            (byte)(a.B + ((b.B - a.B) * t)));
+    }
+
+    public static Color WithAlpha(Color color, double alpha) =>
+        Color.FromArgb((byte)Math.Clamp(alpha * 255, 0, 255), color.R, color.G, color.B);
+
+    public static IImmutableSolidColorBrush Solid(byte a, byte r, byte g, byte b) =>
+        new ImmutableSolidColorBrush(Color.FromArgb(a, r, g, b));
+
+    public static IImmutableSolidColorBrush Solid(Color color) => new ImmutableSolidColorBrush(color);
+
+    private static readonly ImmutableDashStyle Dashes = new([4, 3], 0);
+
+    public static IPen MakePen(IBrush brush, double thickness, bool dashed = false) =>
+        new ImmutablePen((IImmutableBrush)brush, thickness, dashed ? Dashes : null, PenLineCap.Round);
+
+    /// <summary>A two-colour linear gradient at <paramref name="angle"/> degrees (0 = left to right, 90 = top to bottom).</summary>
+    public static IImmutableBrush LinearGradient(Color from, Color to, double angle)
+    {
+        var (sin, cos) = Math.SinCos(angle * Math.PI / 180);
+        return new ImmutableLinearGradientBrush(
+            [new ImmutableGradientStop(0, from), new ImmutableGradientStop(1, to)],
+            startPoint: new RelativePoint(0.5 - (cos / 2), 0.5 - (sin / 2), RelativeUnit.Relative),
+            endPoint: new RelativePoint(0.5 + (cos / 2), 0.5 + (sin / 2), RelativeUnit.Relative));
+    }
+
+    /// <summary>A radial gradient from the centre (offset 0) to the edge (offset 1) of what it fills.</summary>
+    public static IImmutableBrush RadialGradient(params (Color Color, double Offset)[] stops)
+    {
+        var brush = new RadialGradientBrush();
+        foreach (var (color, offset) in stops)
+        {
+            brush.GradientStops.Add(new GradientStop(color, offset));
+        }
+
+        return brush.ToImmutable();
+    }
+
+    public static StreamGeometry Polygon(params Point[] points)
+    {
+        var geometry = new StreamGeometry();
+        using (var ctx = geometry.Open())
+        {
+            ctx.BeginFigure(points[0], true);
+            for (var i = 1; i < points.Length; i++)
+            {
+                ctx.LineTo(points[i]);
+            }
+
+            ctx.EndFigure(true);
+        }
+
+        return geometry;
+    }
+
+    /// <summary>A small arrow head at <paramref name="tip"/> pointing along <paramref name="direction"/>.</summary>
+    public static void DrawArrowHead(DrawingContext dc, IBrush brush, Point tip, Vector direction, double size)
+    {
+        if (direction.Length < 1e-9)
+        {
+            return;
+        }
+
+        direction /= direction.Length;
+        var normal = new Vector(-direction.Y, direction.X);
+        var back = tip - (direction * size);
+        dc.DrawGeometry(brush, null, Polygon(tip, back + (normal * size * 0.55), back - (normal * size * 0.55)));
+    }
+
+    /// <summary>Copies premultiplied BGRA pixels (one <see cref="uint"/> each) into a bitmap of the same size.</summary>
+    public static unsafe void WritePixels(WriteableBitmap bitmap, uint[] pixels, int width, int height)
+    {
+        using var buffer = bitmap.Lock();
+        var source = MemoryMarshal.AsBytes(pixels.AsSpan());
+        var rowBytes = width * 4;
+        for (var y = 0; y < height; y++)
+        {
+            var target = new Span<byte>((byte*)buffer.Address + (y * buffer.RowBytes), rowBytes);
+            source.Slice(y * rowBytes, rowBytes).CopyTo(target);
+        }
+    }
+}

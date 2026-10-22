@@ -1,0 +1,68 @@
+namespace Lemon.Explore.Book.Explore.Narration;
+
+/// <summary>
+/// Plays narration clips on one platform: a desktop audio library, or Web Audio in the browser. It knows where a
+/// clip's audio is (a downloaded pack, a same-origin URL); the narration service decides what to play and when.
+/// </summary>
+public interface INarrationAudio
+{
+    /// <summary>True when the clip's audio is available here (downloaded, or reachable).</summary>
+    bool Has(string culture, string key);
+
+    /// <summary>Starts the clip from the beginning, replacing whatever was playing; false if it cannot be played.</summary>
+    bool Play(string culture, string key, double volume);
+
+    void Pause();
+
+    void Resume();
+
+    void Stop();
+
+    double Volume { set; }
+
+    /// <summary>Seconds into the clip being played.</summary>
+    double Position { get; }
+
+    /// <summary>The clip has played to its end.</summary>
+    bool IsEnded { get; }
+
+    /// <summary>Playback failed part-way (a broken file, a lost connection); the service carries on silently.</summary>
+    event EventHandler? Failed;
+}
+
+/// <summary>No audio at all: every clip runs on the silent clock with timed subtitles.</summary>
+public sealed class SilentNarrationAudio : INarrationAudio
+{
+    public static SilentNarrationAudio Instance { get; } = new();
+
+    public bool Has(string culture, string key) => false;
+
+    public bool Play(string culture, string key, double volume) => false;
+
+    public void Pause()
+    {
+    }
+
+    public void Resume()
+    {
+    }
+
+    public void Stop()
+    {
+    }
+
+    public double Volume
+    {
+        set { }
+    }
+
+    public double Position => 0;
+
+    public bool IsEnded => true;
+
+    public event EventHandler? Failed
+    {
+        add { }
+        remove { }
+    }
+}

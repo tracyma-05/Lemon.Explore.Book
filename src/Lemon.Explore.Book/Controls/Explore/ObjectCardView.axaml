@@ -1,0 +1,33 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Controls.Explore.ObjectCardView"
+             x:DataType="lessons:ObjectCard"
+             IsVisible="{Binding HasObject}">
+    <!-- The thing clicked in a diagram and what it is, on the chapter's text page. DataContext is an ObjectCard. -->
+    <Border Padding="14,10,8,12"
+            CornerRadius="10"
+            Background="#145AA9FF"
+            BorderBrush="#995AA9FF"
+            BorderThickness="1">
+        <StackPanel>
+            <DockPanel>
+                <Button DockPanel.Dock="Right" Classes="chip" Margin="0" MinWidth="28" Padding="4" BorderBrush="Transparent"
+                        Command="{Binding CloseCommand}"
+                        ToolTip.Tip="{loc:Localize Lesson_Close}" AutomationProperties.Name="{loc:Localize Lesson_Close}">
+                    <PathIcon Data="{StaticResource Icon.Close}" />
+                </Button>
+                <TextBlock Text="{Binding Title}" FontSize="16" FontWeight="SemiBold" VerticalAlignment="Center"
+                           TextWrapping="Wrap" Foreground="{StaticResource InkBrush}" />
+            </DockPanel>
+            <TextBlock Classes="text" Margin="0,6,8,8" Text="{Binding Text}" />
+            <Button HorizontalAlignment="Left" Classes="chip" Command="{Binding ListenCommand}">
+                <StackPanel Orientation="Horizontal" Spacing="6">
+                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                    <TextBlock Text="{loc:Localize Lesson_Listen}" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Border>
+</UserControl>

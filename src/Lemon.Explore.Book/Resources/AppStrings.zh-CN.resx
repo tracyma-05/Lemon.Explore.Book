@@ -159,6 +159,9 @@
   <data name="Diagram_Placeholder" xml:space="preserve">
     <value>互动图即将到来</value>
   </data>
+  <data name="Explore_ClickHint" xml:space="preserve">
+    <value>点一下画面里的东西，听听它是什么</value>
+  </data>
   <data name="HowTo_Contents" xml:space="preserve">
     <value>找不到看到哪儿了？点上方的“目录”就能回到目录页。</value>
   </data>
@@ -173,6 +176,579 @@
   </data>
   <data name="HowTo_Turn" xml:space="preserve">
     <value>翻页：拖动书页外侧的边缘，或者点一下它，也可以按键盘上的左右方向键。</value>
+  </data>
+  <data name="Lesson_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Lesson_Done_Text" xml:space="preserve">
+    <value>讲完啦！你可以继续拖动画面、点一点里面的东西自己探索，或者换一个视图再听一段讲解。</value>
+  </data>
+  <data name="Lesson_Listen" xml:space="preserve">
+    <value>再听一遍</value>
+  </data>
+  <data name="Lesson_Next" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="Lesson_PauseResume" xml:space="preserve">
+    <value>暂停 / 继续</value>
+  </data>
+  <data name="Lesson_Previous" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="Lesson_Restart" xml:space="preserve">
+    <value>从头再听</value>
+  </data>
+  <data name="Lesson_Skip" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="Lesson_Start" xml:space="preserve">
+    <value>听讲解</value>
+  </data>
+  <data name="Lesson_Start_Tooltip" xml:space="preserve">
+    <value>播放这个视图的语音讲解（带字幕）</value>
+  </data>
+  <data name="Lesson_State_Done" xml:space="preserve">
+    <value>讲解结束</value>
+  </data>
+  <data name="Lesson_State_Paused" xml:space="preserve">
+    <value>已暂停</value>
+  </data>
+  <data name="Lesson_State_Quiz" xml:space="preserve">
+    <value>想一想</value>
+  </data>
+  <data name="Lesson_State_Speaking" xml:space="preserve">
+    <value>讲解中</value>
+  </data>
+  <data name="Lesson_State_TryIt" xml:space="preserve">
+    <value>动手试试</value>
+  </data>
+  <data name="Lesson_Step" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="Lesson_Stop" xml:space="preserve">
+    <value>结束讲解</value>
+  </data>
+  <data name="Lesson_TimeLeft" xml:space="preserve">
+    <value>剩余答题时间</value>
+  </data>
+  <data name="Narr_Common_MoveOn" xml:space="preserve">
+    <value>我们先接着往下看，等会儿可以再试一试。</value>
+  </data>
+  <data name="Narr_Common_Nice" xml:space="preserve">
+    <value>很好，就是这样！</value>
+  </data>
+  <data name="Narr_Common_Reveal" xml:space="preserve">
+    <value>时间到啦，我们来看看正确答案。</value>
+  </data>
+  <data name="Narr_Common_Right" xml:space="preserve">
+    <value>答对了！</value>
+  </data>
+  <data name="Narr_Common_Wrong" xml:space="preserve">
+    <value>不太对哦，我们来看看答案。</value>
+  </data>
+  <data name="Narr_Seasons_Distance_01" xml:space="preserve">
+    <value>很多人以为，夏天热是因为地球离太阳更近。地球的轨道确实不是正圆，而是一个稍微有点扁的椭圆。</value>
+  </data>
+  <data name="Narr_Seasons_Distance_02" xml:space="preserve">
+    <value>那你来猜一猜：一年里，地球在几月离太阳最近？</value>
+  </data>
+  <data name="Narr_Seasons_Distance_03" xml:space="preserve">
+    <value>答案是一月初。这时地球离太阳最近，这个位置叫近日点。可是一月，正是北半球最冷的时候！</value>
+  </data>
+  <data name="Narr_Seasons_Distance_04" xml:space="preserve">
+    <value>而到了七月初，地球离太阳最远，这里叫远日点。这时候的北半球，却正在过夏天。</value>
+  </data>
+  <data name="Narr_Seasons_Distance_05" xml:space="preserve">
+    <value>一年里，日地距离只变化百分之三左右，对温度的影响很小。所以季节和远近关系不大，真正的原因，还是地轴的倾斜。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Aphelion" xml:space="preserve">
+    <value>这是远日点。每年七月初，地球离太阳最远，大约一亿五千二百万公里。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Axis" xml:space="preserve">
+    <value>这根线是地轴，它总是指向北极星。正因为方向不变，地球走到轨道不同的位置时，南北半球就轮流朝向太阳。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_December" xml:space="preserve">
+    <value>这是十二月的冬至。这一天太阳直射南回归线，北半球白天最短；南半球则是白天最长的一天。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Earth" xml:space="preserve">
+    <value>这是地球。它一边绕着太阳公转，一边绕着地轴自转：自转一圈是一天，公转一圈是一年。地球上那条金色的线，是你所在的纬度。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Equinox" xml:space="preserve">
+    <value>这是春分或秋分的位置。这一天，地轴既不朝着太阳，也不背着太阳，全世界的白天和黑夜都差不多一样长。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_June" xml:space="preserve">
+    <value>这是六月的夏至。这一天太阳直射北回归线，北半球白天最长；南半球则是一年里白天最短的一天。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Noon" xml:space="preserve">
+    <value>这是正午时太阳的位置，也是它一天里最高的地方。旁边的数字，就是正午太阳离地平线的角度。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Perihelion" xml:space="preserve">
+    <value>这是近日点。每年一月初，地球离太阳最近，大约一亿四千七百万公里。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Shadow" xml:space="preserve">
+    <value>这是一根竖直的杆子和它的影子。一天里，正午的影子最短；一年里，夏天正午的影子最短，冬天最长。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_SkySun" xml:space="preserve">
+    <value>这是太阳现在的位置。它离地平线越高，阳光照得越直，地面得到的热量也就越多。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Sun" xml:space="preserve">
+    <value>这是太阳，四季变化的能量都来自它。图里的太阳和地球都画得比实际大很多，不然就看不清了。</value>
+  </data>
+  <data name="Narr_Seasons_Obj_Sunrise" xml:space="preserve">
+    <value>这是日出和日落的地方。只有在春分和秋分前后，太阳才从正东升起、正西落下；其他日子，都会偏向南边或者北边。</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_01" xml:space="preserve">
+    <value>这一次，我们站到地面上来看。中间这根小杆子就是你站的地方，罩在上面的半球，就是你头顶的天空。</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_02" xml:space="preserve">
+    <value>看太阳：它从东边升起，慢慢划过天空，再从西边落下。这条金色的弧线，就是太阳今天要走的路。</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_03" xml:space="preserve">
+    <value>弧线的最高点就是正午。太阳越高，阳光就越集中，地面也就晒得越热。</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_04" xml:space="preserve">
+    <value>再看杆子的影子。太阳高的时候，影子短；太阳低的时候，影子长。古人就是用这样一根杆子量影子，来确定节气的。</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_05" xml:space="preserve">
+    <value>现在让时间按一年来走。注意这两条虚线：夏天，太阳的路又高又长；冬天，又低又短。</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_06" xml:space="preserve">
+    <value>想一想：夏天为什么比冬天热？</value>
+  </data>
+  <data name="Narr_Seasons_SunPath_07" xml:space="preserve">
+    <value>原因有两个：太阳更高，阳光更集中；白天更长，地面晒的时间也更久。你可以在画面上左右拖动，自己调一调时间。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_01" xml:space="preserve">
+    <value>你有没有想过，为什么夏天热、冬天冷？很多人会猜，是因为夏天地球离太阳更近。我们一起来看看，是不是这样。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_02" xml:space="preserve">
+    <value>画面中间是太阳。地球沿着这条虚线轨道绕着太阳转，转一圈，就是一年。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_03" xml:space="preserve">
+    <value>现在请注意穿过地球的这根白线，它叫地轴，地球就绕着它自转。你看，它不是竖直的，而是倾斜了大约二十三点五度。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_04" xml:space="preserve">
+    <value>更奇妙的是，不管地球走到轨道的哪个位置，地轴总是指向同一个方向，也就是北极星。你盯着它看一会儿：它一直朝着右上方。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_05" xml:space="preserve">
+    <value>我们停在六月。这时候，北半球正好朝着太阳倾斜。阳光照得更直，白天也更长，所以北半球是夏天。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_06" xml:space="preserve">
+    <value>现在轮到你了。用鼠标把地球拖到十二月，或者直接点一下十二月的位置，看看北半球会发生什么。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_07" xml:space="preserve">
+    <value>到了十二月，地轴还是指向同一个方向，可是北半球已经背着太阳倾斜了。阳光斜斜地照过来，白天变短，北半球就进入了冬天。南半球正好相反，这时候在过夏天。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_08" xml:space="preserve">
+    <value>考考你：如果地轴一点都不倾斜，会怎么样呢？</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_09" xml:space="preserve">
+    <value>我们把倾角调成零度试试。现在一年里每一天都差不多：太阳总是直射赤道，白天和黑夜一样长，四季也就消失了。</value>
+  </data>
+  <data name="Narr_Seasons_Tilt_10" xml:space="preserve">
+    <value>所以，季节的秘密不在距离，而在地轴的倾斜。你可以拖动右边的滑块，换一个倾角或纬度，看看卡片上的白昼时长和正午太阳高度怎么变。</value>
+  </data>
+  <data name="Seasons_Animate" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="Seasons_Animate_Day" xml:space="preserve">
+    <value>一天的变化</value>
+  </data>
+  <data name="Seasons_Animate_Year" xml:space="preserve">
+    <value>一年的变化</value>
+  </data>
+  <data name="Seasons_Beam_Caption" xml:space="preserve">
+    <value>同一束阳光照到地面</value>
+  </data>
+  <data name="Seasons_Beam_None" xml:space="preserve">
+    <value>今天这里太阳不会升起，阳光照不到地面。</value>
+  </data>
+  <data name="Seasons_Beam_Text" xml:space="preserve">
+    <value>太阳越低，同样多的阳光铺开的面积越大。今天正午，每块地面得到的光是太阳直射时的 {0:P0}。</value>
+  </data>
+  <data name="Seasons_City_Beijing" xml:space="preserve">
+    <value>北京</value>
+  </data>
+  <data name="Seasons_City_Shanghai" xml:space="preserve">
+    <value>上海</value>
+  </data>
+  <data name="Seasons_City_Singapore" xml:space="preserve">
+    <value>新加坡</value>
+  </data>
+  <data name="Seasons_City_Sydney" xml:space="preserve">
+    <value>悉尼</value>
+  </data>
+  <data name="Seasons_City_Tromso" xml:space="preserve">
+    <value>特罗姆瑟</value>
+  </data>
+  <data name="Seasons_Compass_E" xml:space="preserve">
+    <value>东</value>
+  </data>
+  <data name="Seasons_Compass_N" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Seasons_Compass_S" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Seasons_Compass_W" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="Seasons_DayLength_Caption" xml:space="preserve">
+    <value>一年中白昼的时长（小时）</value>
+  </data>
+  <data name="Seasons_Degrees" xml:space="preserve">
+    <value>{0:0.0}°</value>
+  </data>
+  <data name="Seasons_DistanceChart_Caption" xml:space="preserve">
+    <value>日地距离（百万公里），以及南北半球每天得到的阳光</value>
+  </data>
+  <data name="Seasons_DistanceChart_Note" xml:space="preserve">
+    <value>地球在 1 月离太阳最近，北半球此时却是冬天：地轴倾斜的影响远大于距离。</value>
+  </data>
+  <data name="Seasons_Distance_Fact1" xml:space="preserve">
+    <value>很多人以为地球离太阳最近时是夏天。其实地球在 1 月初离太阳最近，正是北半球的隆冬。</value>
+  </data>
+  <data name="Seasons_Distance_Fact2" xml:space="preserve">
+    <value>地球轨道几乎是正圆：距离只变化约 3%，从 1.471 亿公里到 1.521 亿公里。这让阳光强度变化约 7%，远小于地轴倾斜带来的变化。</value>
+  </data>
+  <data name="Seasons_Distance_Fact3" xml:space="preserve">
+    <value>如果季节由距离决定，南北半球就会同时过夏天。实际上它们的季节总是相反的。</value>
+  </data>
+  <data name="Seasons_Distance_Fact4" xml:space="preserve">
+    <value>距离也有一点影响：南半球的夏天比北半球的夏天多得到约 7% 的阳光，但南半球广阔的海洋把这点差别抵消了。</value>
+  </data>
+  <data name="Seasons_Distance_Note" xml:space="preserve">
+    <value>轨道按真实形状绘制：几乎是一个正圆</value>
+  </data>
+  <data name="Seasons_Distance_Subtitle" xml:space="preserve">
+    <value>误区：地球离太阳近的时候就是夏天？</value>
+  </data>
+  <data name="Seasons_DragHint_Orbit" xml:space="preserve">
+    <value>拖动可让地球沿轨道移动</value>
+  </data>
+  <data name="Seasons_DragHint_Sky" xml:space="preserve">
+    <value>左右拖动可改变一天中的时间</value>
+  </data>
+  <data name="Seasons_Duration" xml:space="preserve">
+    <value>{0} 小时 {1:00} 分</value>
+  </data>
+  <data name="Seasons_Event_DecemberSolstice" xml:space="preserve">
+    <value>冬至</value>
+  </data>
+  <data name="Seasons_Event_JuneSolstice" xml:space="preserve">
+    <value>夏至</value>
+  </data>
+  <data name="Seasons_Event_MarchEquinox" xml:space="preserve">
+    <value>春分</value>
+  </data>
+  <data name="Seasons_Event_SeptemberEquinox" xml:space="preserve">
+    <value>秋分</value>
+  </data>
+  <data name="Seasons_Facts" xml:space="preserve">
+    <value>小知识</value>
+  </data>
+  <data name="Seasons_Hemisphere_North" xml:space="preserve">
+    <value>北半球</value>
+  </data>
+  <data name="Seasons_Hemisphere_South" xml:space="preserve">
+    <value>南半球</value>
+  </data>
+  <data name="Seasons_JumpTo" xml:space="preserve">
+    <value>跳转到</value>
+  </data>
+  <data name="Seasons_Label_Aphelion" xml:space="preserve">
+    <value>远日点（离太阳最远）</value>
+  </data>
+  <data name="Seasons_Label_ApsisDetail" xml:space="preserve">
+    <value>{0} · {1:N1} 百万公里</value>
+  </data>
+  <data name="Seasons_Label_Distance" xml:space="preserve">
+    <value>{0:N1} 百万公里</value>
+  </data>
+  <data name="Seasons_Label_EquinoxPath" xml:space="preserve">
+    <value>春分 / 秋分</value>
+  </data>
+  <data name="Seasons_Label_Hemispheres" xml:space="preserve">
+    <value>北半球：{0} · 南半球：{1}</value>
+  </data>
+  <data name="Seasons_Label_NoSeasons" xml:space="preserve">
+    <value>没有四季</value>
+  </data>
+  <data name="Seasons_Label_NoSunlight" xml:space="preserve">
+    <value>今天没有阳光</value>
+  </data>
+  <data name="Seasons_Label_NoonAltitude" xml:space="preserve">
+    <value>正午 {0:0}°</value>
+  </data>
+  <data name="Seasons_Label_North" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Seasons_Label_Observer" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Seasons_Label_Overhead" xml:space="preserve">
+    <value>太阳直射时</value>
+  </data>
+  <data name="Seasons_Label_Perihelion" xml:space="preserve">
+    <value>近日点（离太阳最近）</value>
+  </data>
+  <data name="Seasons_Label_Polaris" xml:space="preserve">
+    <value>指向北极星</value>
+  </data>
+  <data name="Seasons_Label_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="Seasons_Label_Sunrise" xml:space="preserve">
+    <value>日出 {0}</value>
+  </data>
+  <data name="Seasons_Label_Sunset" xml:space="preserve">
+    <value>日落 {0}</value>
+  </data>
+  <data name="Seasons_Latitude" xml:space="preserve">
+    <value>你所在的纬度</value>
+  </data>
+  <data name="Seasons_Latitude_Equator" xml:space="preserve">
+    <value>赤道</value>
+  </data>
+  <data name="Seasons_Latitude_North" xml:space="preserve">
+    <value>北纬 {0:0.0}°</value>
+  </data>
+  <data name="Seasons_Latitude_South" xml:space="preserve">
+    <value>南纬 {0:0.0}°</value>
+  </data>
+  <data name="Seasons_Legend_Distance" xml:space="preserve">
+    <value>日地距离</value>
+  </data>
+  <data name="Seasons_Legend_Latitude" xml:space="preserve">
+    <value>你的纬度（{0}）</value>
+  </data>
+  <data name="Seasons_Legend_Opposite" xml:space="preserve">
+    <value>赤道另一侧（{0}）</value>
+  </data>
+  <data name="Seasons_Lesson_Distance_Choice1" xml:space="preserve">
+    <value>一月</value>
+  </data>
+  <data name="Seasons_Lesson_Distance_Choice2" xml:space="preserve">
+    <value>四月</value>
+  </data>
+  <data name="Seasons_Lesson_Distance_Choice3" xml:space="preserve">
+    <value>七月</value>
+  </data>
+  <data name="Seasons_Lesson_SunPath_Choice1" xml:space="preserve">
+    <value>太阳更高，白天更长</value>
+  </data>
+  <data name="Seasons_Lesson_SunPath_Choice2" xml:space="preserve">
+    <value>地球离太阳更近</value>
+  </data>
+  <data name="Seasons_Lesson_SunPath_Choice3" xml:space="preserve">
+    <value>太阳变得更亮了</value>
+  </data>
+  <data name="Seasons_Lesson_Tilt_Choice1" xml:space="preserve">
+    <value>季节会更明显</value>
+  </data>
+  <data name="Seasons_Lesson_Tilt_Choice2" xml:space="preserve">
+    <value>就没有四季了</value>
+  </data>
+  <data name="Seasons_Lesson_Tilt_Choice3" xml:space="preserve">
+    <value>和现在一样</value>
+  </data>
+  <data name="Seasons_Million_Km" xml:space="preserve">
+    <value>{0:N1} 百万公里</value>
+  </data>
+  <data name="Seasons_Mode_Distance" xml:space="preserve">
+    <value>离太阳更近？</value>
+  </data>
+  <data name="Seasons_Mode_SunPath" xml:space="preserve">
+    <value>太阳轨迹</value>
+  </data>
+  <data name="Seasons_Mode_Tilt" xml:space="preserve">
+    <value>四季成因</value>
+  </data>
+  <data name="Seasons_Noon_Caption" xml:space="preserve">
+    <value>正午阳光照到你所在的地方（地球剖面）</value>
+  </data>
+  <data name="Seasons_Obj_Aphelion" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Seasons_Obj_Axis" xml:space="preserve">
+    <value>地轴与北极星</value>
+  </data>
+  <data name="Seasons_Obj_December" xml:space="preserve">
+    <value>冬至（12月）</value>
+  </data>
+  <data name="Seasons_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Seasons_Obj_Equinox" xml:space="preserve">
+    <value>春分与秋分</value>
+  </data>
+  <data name="Seasons_Obj_June" xml:space="preserve">
+    <value>夏至（6月）</value>
+  </data>
+  <data name="Seasons_Obj_Noon" xml:space="preserve">
+    <value>正午的太阳</value>
+  </data>
+  <data name="Seasons_Obj_Perihelion" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Seasons_Obj_Shadow" xml:space="preserve">
+    <value>杆子和影子</value>
+  </data>
+  <data name="Seasons_Obj_SkySun" xml:space="preserve">
+    <value>此刻的太阳</value>
+  </data>
+  <data name="Seasons_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Seasons_Obj_Sunrise" xml:space="preserve">
+    <value>日出与日落</value>
+  </data>
+  <data name="Seasons_Percent" xml:space="preserve">
+    <value>{0:P0}</value>
+  </data>
+  <data name="Seasons_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格键）</value>
+  </data>
+  <data name="Seasons_Season_Autumn" xml:space="preserve">
+    <value>秋季</value>
+  </data>
+  <data name="Seasons_Season_Spring" xml:space="preserve">
+    <value>春季</value>
+  </data>
+  <data name="Seasons_Season_Summer" xml:space="preserve">
+    <value>夏季</value>
+  </data>
+  <data name="Seasons_Season_Winter" xml:space="preserve">
+    <value>冬季</value>
+  </data>
+  <data name="Seasons_Stage_Autumn_Description" xml:space="preserve">
+    <value>地轴侧对太阳，你所在的半球正逐渐背离太阳：正午太阳一天比一天低，白天一天比一天短。</value>
+  </data>
+  <data name="Seasons_Stage_Equator" xml:space="preserve">
+    <value>在赤道上</value>
+  </data>
+  <data name="Seasons_Stage_Equator_Description" xml:space="preserve">
+    <value>白天始终约 12 小时，正午太阳全年都很高。许多热带地区没有四季，只有雨季和旱季。</value>
+  </data>
+  <data name="Seasons_Stage_NoTilt" xml:space="preserve">
+    <value>没有四季</value>
+  </data>
+  <data name="Seasons_Stage_NoTilt_Description" xml:space="preserve">
+    <value>没有倾斜时，太阳一年到头都直射赤道：每个地方全年的正午太阳高度都一样，白天始终是 12 小时。</value>
+  </data>
+  <data name="Seasons_Stage_Spring_Description" xml:space="preserve">
+    <value>地轴侧对太阳，但你所在的半球正逐渐转向太阳：正午太阳一天比一天高，白天一天比一天长。</value>
+  </data>
+  <data name="Seasons_Stage_Summer_Description" xml:space="preserve">
+    <value>你所在的半球朝太阳倾斜。正午太阳高，白天长，地面每天得到的阳光多得多。</value>
+  </data>
+  <data name="Seasons_Stage_Title" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="Seasons_Stage_Winter_Description" xml:space="preserve">
+    <value>你所在的半球背离太阳倾斜。太阳低，白天短：阳光斜射，照射的时间也短。</value>
+  </data>
+  <data name="Seasons_Stat_BelowHorizon" xml:space="preserve">
+    <value>全天在地平线以下</value>
+  </data>
+  <data name="Seasons_Stat_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Seasons_Stat_DayLength" xml:space="preserve">
+    <value>白昼时长</value>
+  </data>
+  <data name="Seasons_Stat_Distance" xml:space="preserve">
+    <value>日地距离</value>
+  </data>
+  <data name="Seasons_Stat_NoonAltitude" xml:space="preserve">
+    <value>正午太阳高度</value>
+  </data>
+  <data name="Seasons_Stat_PolarDay" xml:space="preserve">
+    <value>太阳不落（极昼）</value>
+  </data>
+  <data name="Seasons_Stat_PolarNight" xml:space="preserve">
+    <value>太阳不升（极夜）</value>
+  </data>
+  <data name="Seasons_Stat_Sunlight" xml:space="preserve">
+    <value>今天的日照</value>
+  </data>
+  <data name="Seasons_Stat_Sunlight_ToolTip" xml:space="preserve">
+    <value>一天中照到一块水平地面上的阳光总量（大气层外）；100% 为春分或秋分时的赤道</value>
+  </data>
+  <data name="Seasons_Stat_Sunrise" xml:space="preserve">
+    <value>日出 – 日落</value>
+  </data>
+  <data name="Seasons_Stat_SunriseSunset" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="Seasons_SunNow_Down" xml:space="preserve">
+    <value>{0}：太阳在地平线以下。</value>
+  </data>
+  <data name="Seasons_SunNow_Up" xml:space="preserve">
+    <value>{0}：太阳在地平线以上 {1:0}°。</value>
+  </data>
+  <data name="Seasons_SunPath_Fact1" xml:space="preserve">
+    <value>春分和秋分时，地球上各处的太阳都从正东升起、正西落下，昼夜各约 12 小时。</value>
+  </data>
+  <data name="Seasons_SunPath_Fact2" xml:space="preserve">
+    <value>夏天太阳从东偏北升起、西偏北落下（南半球则偏南）。它的轨迹更长、更高，所以白天更长。</value>
+  </data>
+  <data name="Seasons_SunPath_Fact3" xml:space="preserve">
+    <value>在南北极圈（66.6°）以内，夏天太阳可以整天不落（极昼），冬天整天不升（极夜）。试试特罗姆瑟。</value>
+  </data>
+  <data name="Seasons_SunPath_Fact4" xml:space="preserve">
+    <value>这里的时间是地方太阳时。钟表时间会因时区和夏令时而不同；大气折射也会让实际的白天比图中长几分钟。</value>
+  </data>
+  <data name="Seasons_SunPath_Note" xml:space="preserve">
+    <value>时间为地方太阳时：太阳在 12:00 时最高</value>
+  </data>
+  <data name="Seasons_SunPath_Subtitle" xml:space="preserve">
+    <value>太阳在天空中的轨迹：一天之中，一年之中</value>
+  </data>
+  <data name="Seasons_Tilt" xml:space="preserve">
+    <value>地轴倾角</value>
+  </data>
+  <data name="Seasons_Tilt_Fact1" xml:space="preserve">
+    <value>地轴倾斜约 23.4°，并且一年到头在空间中指向同一个方向（北极星）。所以半年是北半球朝太阳倾斜，另外半年是南半球。</value>
+  </data>
+  <data name="Seasons_Tilt_Fact2" xml:space="preserve">
+    <value>当你所在的半球朝太阳倾斜时，两件事同时发生：正午太阳更高，阳光更集中；白天更长，照射时间更久。</value>
+  </data>
+  <data name="Seasons_Tilt_Fact3" xml:space="preserve">
+    <value>南北半球的季节总是相反：北京是夏天时，悉尼是冬天。</value>
+  </data>
+  <data name="Seasons_Tilt_Fact4" xml:space="preserve">
+    <value>最热的时候大约在夏至后一个月，最冷的时候在冬至后一个月：陆地和海洋升温、降温都需要时间。</value>
+  </data>
+  <data name="Seasons_Tilt_Fact5" xml:space="preserve">
+    <value>这里的季节以二分二至为起点（天文季节）。气象上常按整月划分；中国传统的二十四节气则以立春、立夏、立秋、立冬为起点，约早一个半月。</value>
+  </data>
+  <data name="Seasons_Tilt_Hint" xml:space="preserve">
+    <value>试试 0°（没有四季）或 90°（像天王星）。</value>
+  </data>
+  <data name="Seasons_Tilt_Note" xml:space="preserve">
+    <value>大小和距离未按比例</value>
+  </data>
+  <data name="Seasons_Tilt_Reset" xml:space="preserve">
+    <value>恢复 23.4°</value>
+  </data>
+  <data name="Seasons_Tilt_Subtitle" xml:space="preserve">
+    <value>为什么有四季？因为地轴是倾斜的</value>
+  </data>
+  <data name="Seasons_TimeOfDay" xml:space="preserve">
+    <value>一天中的时间</value>
+  </data>
+  <data name="Seasons_Timeline" xml:space="preserve">
+    <value>一年中的日期</value>
+  </data>
+  <data name="Seasons_Title" xml:space="preserve">
+    <value>四季的形成</value>
+  </data>
+  <data name="Seasons_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="SolarSystem_Sun_Name" xml:space="preserve">
+    <value>太阳</value>
   </data>
   <data name="Title_Edition" xml:space="preserve">
     <value>第一版（编写中）</value>
