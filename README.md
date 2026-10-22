@@ -34,6 +34,19 @@ dotnet workload install wasm-tools
 dotnet run --project src/Lemon.Explore.Book.Browser
 ```
 
+### Native AOT
+
+The book builds as a native AOT app (no .NET runtime needed, fast start). The shared library is marked
+`IsAotCompatible`, so any change that would break AOT or trimming shows up as a build warning.
+
+```bash
+dotnet publish src/Lemon.Explore.Book.Desktop -c Release -r win-x64 -p:PublishAot=true
+```
+
+Use `osx-arm64` / `osx-x64` on a Mac. On Windows this needs the Visual Studio C++ build tools (the linker). The web
+edition can be AOT-compiled to WebAssembly with `-p:RunAOTCompilation=true` once the `wasm-tools` workload is
+installed; it starts faster but downloads more.
+
 ## Reading
 
 - Turn a page: drag a page's outer edge, click it, or press ← / →.

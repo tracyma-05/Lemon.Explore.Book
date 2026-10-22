@@ -8,6 +8,8 @@
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
     <!-- The sphere renderer and starfield copy pixel rows straight into bitmap memory. -->
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Native AOT and trimming: every build warns about anything that would break them. -->
+    <IsAotCompatible>true</IsAotCompatible>
   </PropertyGroup>
 
   <ItemGroup>

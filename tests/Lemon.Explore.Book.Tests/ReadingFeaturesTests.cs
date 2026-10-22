@@ -165,6 +165,20 @@ public sealed class ReadingFeaturesTests
         }
     }
 
+    [AvaloniaFact]
+    public void OpeningTheBook_AddsNoBookmark()
+    {
+        var store = new MemorySettingsStore();
+        store.Set(SettingKeys.PageIndex, TextPageOf("Tides").ToString(CultureInfo.InvariantCulture));
+        var model = new MainViewModel(store);
+        var window = new Window { Width = 1300, Height = 860, Content = new Views.MainView { DataContext = model } };
+        window.Show();
+        Frames(10);
+        window.Close();
+
+        Assert.Null(store.Get(Bookmarks.SettingKey));
+    }
+
     private static ContentsEntry ContentsEntryFor(MainViewModel model, string slug) =>
         model.Pages.OfType<ContentsPageViewModel>().SelectMany(p => p.Entries)
             .First(e => e.PageIndex == TextPageOf(slug));
