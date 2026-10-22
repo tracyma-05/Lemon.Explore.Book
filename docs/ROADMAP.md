@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 12 of 34 in the book; the Sky volume is complete (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion) |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 14 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); Earth: Water cycle, Sea breeze |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -41,7 +41,8 @@ cross-platform book.
 | `StreamGeometryContext.BeginFigure(p, filled, closed)` | `BeginFigure(p, filled)` … `EndFigure(closed)` |
 | `WriteableBitmap.WritePixels` | `SpaceDrawing.WritePixels` (locks the bitmap and copies rows) |
 | `OnPropertyChanged("Item[]")` for an indexer | `OnPropertyChanged("Item")` (Avalonia listens for the indexer's name) |
-| `DrawingVisual` + `RenderTargetBitmap.Render` | `SpaceDrawing.RenderToBitmap(width, height, scale, dc => …)` |
+| `DrawingVisual` + `RenderTargetBitmap.Render` | `SpaceDrawing.RenderPixels(w, h, dpi, dc => …)` (or `RenderToBitmap` in DIPs) |
+| `v.Normalize();`, `r.Offset(…)` change the struct | they return a new one: `v = v.Normalize();`, `r = r.Translate(…)` |
 | `DrawImage(bitmap, rect)` of a bitmap at the screen's DPI | `SpaceDrawing.DrawWhole`: the source rectangle is in pixels, a bitmap's `Size` in DIPs |
 
 ### Porting a chapter (the Seasons pattern)
@@ -69,10 +70,10 @@ cross-platform book.
 ### Simplifications so far
 
 - The shared observer location (`Explore/Places`, saved in the reader's settings, chosen from `LocationChip`) is
-  followed by Day and night, Tides, Star trails and Retrograde. Seasons and Moon phases still watch from Beijing (a
+  followed by Day and night, Tides, Star trails, Retrograde and the Sea breeze monsoon. Seasons and Moon phases still watch from Beijing (a
   preset), and "the other hemisphere" from Sydney; moving them onto the shared location is a follow-up.
 - Pages are narrower than the original window, so a few wide diagrams crop at the edge (the eclipse seasons view,
-  the inset panels of the star trails year view).
+  the inset panels of the star trails year view); the water cycle's stores view draws Earth smaller to keep its enlarged balls).
 
 ## Narration
 
