@@ -5,8 +5,8 @@
              x:Class="Lemon.Explore.Book.Views.Pages.TitlePageView"
              x:DataType="pages:TitlePageViewModel">
     <Grid RowDefinitions="*,Auto,Auto,*,Auto" Margin="56,48">
-        <TextBlock Grid.Row="1" Classes="pageTitle" FontSize="40" TextAlignment="Center" Text="{loc:Localize Book_Title}" />
-        <TextBlock Grid.Row="2" Classes="body" TextAlignment="Center" Text="{loc:Localize Book_Subtitle}" />
+        <SelectableTextBlock Grid.Row="1" Classes="pageTitle" FontSize="40" TextAlignment="Center" Text="{loc:Localize Book_Title}" />
+        <SelectableTextBlock Grid.Row="2" Classes="body" TextAlignment="Center" Text="{loc:Localize Book_Subtitle}" />
         <StackPanel Grid.Row="4" Spacing="4">
             <Rectangle Height="1" Fill="{DynamicResource RuleBrush}" Margin="0,0,0,10" />
             <TextBlock Classes="folio" TextAlignment="Center" Text="{loc:Localize Title_Edition}" />

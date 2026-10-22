@@ -13,5 +13,7 @@ namespace Lemon.Explore.Book.Infrastructures.Settings;
 [JsonSerializable(typeof(NarrationSettings))]
 [JsonSerializable(typeof(ExploreLocationSettings))]
 [JsonSerializable(typeof(List<BookmarkRecord>))]
+[JsonSerializable(typeof(List<NoteRecord>))]
 [JsonSerializable(typeof(Dictionary<string, ChapterProgressRecord>))]
+[JsonSerializable(typeof(Views.WindowPlacement))]
 internal sealed partial class BookJson : JsonSerializerContext;

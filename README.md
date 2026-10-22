@@ -60,6 +60,22 @@ installed; it starts faster but downloads more.
 - **Settings** (top right) has everything you can set: the language, light or dark paper and an accent colour, your
   observer location, narration (voice, volume, subtitles), page-turn animation, and clearing your reading progress.
   Changes apply at once and are saved on the device.
+- The text on a chapter's left page can be selected and copied. Right-click it for **Copy**, **Select all** and
+  **Add to notes**.
+- **Notes**: write a note on the page you are reading, quote text from it, edit or delete notes, and **Export** them
+  all as a Markdown file (or **Copy all**). Notes are saved on the device.
+- On the desktop the toolbar is the window's title bar: drag it to move the window, double-click it to maximize.
+  F11 reads full screen, and the window reopens where it was, at its size.
+
+## Updates and releases
+
+The desktop book checks for updates when it opens and installs them in place (**Update and restart**). By default a
+release updates from the GitHub Releases of the repository that built it. The address can be replaced: at build
+time, with `update-feed.txt` next to the program, or in Settings → Updates. It can point at any server that serves a
+small JSON manifest. See [docs/UPDATES.md](docs/UPDATES.md), which also describes publishing a release (push a `v*`
+tag; `.github/workflows/release.yml` builds and publishes everything).
+
+`scripts/package-desktop.sh <rid> [update-address]` builds one desktop package locally, the same way the release does.
 
 ## Project layout
 

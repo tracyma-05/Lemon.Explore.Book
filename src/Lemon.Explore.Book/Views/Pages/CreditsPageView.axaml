@@ -5,12 +5,12 @@
              x:Class="Lemon.Explore.Book.Views.Pages.CreditsPageView"
              x:DataType="pages:CreditsPageViewModel">
     <Grid RowDefinitions="Auto,*,Auto" Margin="56,44,56,20">
-        <TextBlock Classes="pageTitle" Text="{loc:Localize Credits_Title}" />
+        <SelectableTextBlock Classes="pageTitle" Text="{loc:Localize Credits_Title}" />
         <StackPanel Grid.Row="1" Spacing="12">
-            <TextBlock Classes="body" Text="{loc:Localize Credits_Code}" />
-            <TextBlock Classes="body" Text="{loc:Localize Credits_Maps}" />
-            <TextBlock Classes="body" Text="{loc:Localize Credits_Fonts}" />
-            <TextBlock Classes="body" Text="{loc:Localize Credits_Narration}" />
+            <SelectableTextBlock Classes="body" Text="{loc:Localize Credits_Code}" />
+            <SelectableTextBlock Classes="body" Text="{loc:Localize Credits_Maps}" />
+            <SelectableTextBlock Classes="body" Text="{loc:Localize Credits_Fonts}" />
+            <SelectableTextBlock Classes="body" Text="{loc:Localize Credits_Narration}" />
         </StackPanel>
         <TextBlock Grid.Row="2" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
     </Grid>

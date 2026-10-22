@@ -579,9 +579,9 @@ public sealed partial class CityClock(WorldCity city) : ObservableObject
     [ObservableProperty]
     private string _offsetText = string.Empty;
 
-    /// <summary>The Sun there: up, rising or setting, or down.</summary>
+    /// <summary>The Sun there: up, rising or setting, or down (the page draws it with <see cref="SkyIcons"/>).</summary>
     [ObservableProperty]
-    private Geometry _icon = SkyIcons.Sun;
+    private SunState _sun;
 
     [ObservableProperty]
     private bool _isDaylight;
@@ -606,12 +606,12 @@ public sealed partial class CityClock(WorldCity city) : ObservableObject
 
         var altitude = DayNightGeometry.Altitude(sun, city.Latitude, city.Longitude);
         var phase = DayNightGeometry.PhaseOf(altitude, DayNightGeometry.HourAngle(sun, city.Longitude));
-        Icon = phase switch
+        Sun = phase switch
         {
-            DayPhase.Day => SkyIcons.Sun,
-            DayPhase.Sunrise or DayPhase.Dawn => SkyIcons.Sunrise,
-            DayPhase.Sunset or DayPhase.Dusk => SkyIcons.Sunset,
-            _ => SkyIcons.Night,
+            DayPhase.Day => SunState.Up,
+            DayPhase.Sunrise or DayPhase.Dawn => SunState.Rising,
+            DayPhase.Sunset or DayPhase.Dusk => SunState.Setting,
+            _ => SunState.Down,
         };
         IsDaylight = altitude >= DayNightGeometry.SunriseAltitude;
         IsSelected = city.Id == placeCity;

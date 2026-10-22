@@ -10,15 +10,15 @@
     <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
             <StackPanel>
-                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
-                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
-                <TextBlock Classes="pageTitle" Margin="0,4,0,4" Text="{Binding Title}" />
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,4" Text="{Binding Title}" />
 
-                <TextBlock Classes="text" FontSize="22" LineHeight="30" Text="{Binding Solar.DateText}" />
-                <TextBlock Classes="note" Margin="0,6,0,0" Text="{loc:Localize SolarSystem_Hint}" />
-                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize SolarSystem_ScaleNote}" />
+                <SelectableTextBlock Classes="text" FontSize="22" LineHeight="30" Text="{Binding Solar.DateText}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{loc:Localize SolarSystem_Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize SolarSystem_ScaleNote}" />
 
-                <TextBlock Classes="caption" Text="{loc:Localize SolarSystem_Bodies}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize SolarSystem_Bodies}" />
                 <ListBox Classes="chips"
                          ItemsSource="{Binding Solar.Bodies}"
                          SelectedItem="{Binding Solar.ChipSelection}"
@@ -64,7 +64,7 @@
                         </Grid>
                     </Border>
 
-                    <TextBlock Margin="0,12,0,0" FontSize="28" FontWeight="SemiBold" Foreground="{DynamicResource InkBrush}"
+                    <SelectableTextBlock Margin="0,12,0,0" FontSize="28" FontWeight="SemiBold" Foreground="{DynamicResource InkBrush}"
                                Text="{Binding Solar.SelectedBody.Name}" />
                     <!-- A moon links back to its planet. -->
                     <Button Classes="chip" HorizontalAlignment="Left" Margin="0,4,0,0"
@@ -72,9 +72,9 @@
                             Content="{Binding Solar.BackToText}" />
                     <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,12">
                         <Ellipse Width="10" Height="10" VerticalAlignment="Center" Fill="{Binding Solar.SelectedBody.AccentBrush}" />
-                        <TextBlock Classes="text" FontStyle="Italic" Text="{Binding Solar.SelectedBody.Tagline}" />
+                        <SelectableTextBlock Classes="text" FontStyle="Italic" Text="{Binding Solar.SelectedBody.Tagline}" />
                     </StackPanel>
-                    <TextBlock Classes="text" Text="{Binding Solar.SelectedBody.Description}" />
+                    <SelectableTextBlock Classes="text" Text="{Binding Solar.SelectedBody.Description}" />
                     <Button Classes="chip" HorizontalAlignment="Left" Margin="0,10,0,0"
                             Command="{Binding Solar.Card.ListenCommand}" IsVisible="{Binding Solar.Card.HasObject}"
                             AutomationProperties.Name="{loc:Localize Lesson_Listen}">
@@ -86,7 +86,7 @@
 
                     <!-- Major moons of the planet (or of the chosen moon's planet). -->
                     <StackPanel IsVisible="{Binding Solar.HasSatellites}">
-                        <TextBlock Classes="caption" Text="{Binding Solar.MoonsOfText}" />
+                        <SelectableTextBlock Classes="caption" Text="{Binding Solar.MoonsOfText}" />
                         <ListBox Classes="chips"
                                  ItemsSource="{Binding Solar.Satellites}"
                                  SelectedItem="{Binding Solar.SatelliteSelection}"
@@ -107,14 +107,14 @@
                         </ListBox>
                     </StackPanel>
 
-                    <TextBlock Classes="caption" Text="{loc:Localize SolarSystem_Facts}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize SolarSystem_Facts}" />
                     <ItemsControl ItemsSource="{Binding Solar.Facts}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="solar:BodyFact">
                                 <Border Padding="0,7" BorderBrush="#1A2B2622" BorderThickness="0,0,0,1">
                                     <Grid ColumnDefinitions="Auto,*">
-                                        <TextBlock Margin="0,0,16,0" FontSize="13" Foreground="{DynamicResource FaintInkBrush}" Text="{Binding Label}" />
-                                        <TextBlock Grid.Column="1" TextAlignment="Right" TextWrapping="Wrap" FontSize="13"
+                                        <SelectableTextBlock Margin="0,0,16,0" FontSize="13" Foreground="{DynamicResource FaintInkBrush}" Text="{Binding Label}" />
+                                        <SelectableTextBlock Grid.Column="1" TextAlignment="Right" TextWrapping="Wrap" FontSize="13"
                                                    Foreground="{DynamicResource InkBrush}" Text="{Binding Value}" />
                                     </Grid>
                                 </Border>

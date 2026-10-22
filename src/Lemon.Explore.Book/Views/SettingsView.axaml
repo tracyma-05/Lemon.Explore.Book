@@ -7,7 +7,7 @@
              x:DataType="vm:SettingsViewModel">
     <!-- The settings, opened from the button at the top right: language, observer location, narration, page turning. -->
     <UserControl.Styles>
-        <Style Selector="TextBlock.section">
+        <Style Selector=":is(TextBlock).section">
             <Setter Property="Margin" Value="0,16,0,8" />
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontWeight" Value="SemiBold" />
@@ -96,6 +96,31 @@
             <TextBlock Classes="section" Text="{loc:Localize Settings_Reading}" />
             <CheckBox IsChecked="{Binding AnimatesTurns}" Content="{loc:Localize Settings_AnimatesTurns}" />
             <TextBlock Classes="note" Margin="0,4,0,0" Text="{loc:Localize Settings_AnimatesTurns_Note}" />
+
+            <!-- Updates (desktop): the version, the update address and checking -->
+            <StackPanel IsVisible="{Binding Update.IsSupported, FallbackValue=False}">
+                <Rectangle Classes="divider" />
+                <TextBlock Classes="section" Text="{loc:Localize Update_Title}" />
+                <TextBlock Classes="note" Text="{Binding VersionText}" />
+                <TextBlock Classes="note" Margin="0,8,0,4" Text="{loc:Localize Update_Feed_Caption}" />
+                <TextBox Text="{Binding Update.FeedText}" FontSize="12.5"
+                         PlaceholderText="{loc:Localize Update_Feed_Placeholder}"
+                         AutomationProperties.Name="{loc:Localize Update_Feed_Caption}" />
+                <TextBlock Classes="note" Margin="0,4,0,0" Text="{Binding Update.FeedOriginText}" />
+                <TextBlock Classes="note" Foreground="#C0392B"
+                           IsVisible="{Binding Update.FeedError, Converter={x:Static ObjectConverters.IsNotNull}}"
+                           Text="{Binding Update.FeedError}" />
+                <TextBlock Classes="note" Margin="0,2,0,6" Text="{loc:Localize Update_Feed_Help}" />
+                <WrapPanel>
+                    <Button Classes="chip" Command="{Binding Update.SaveFeedCommand}" Content="{loc:Localize Update_Feed_Save}" />
+                    <Button Classes="chip" Command="{Binding Update.ResetFeedCommand}" IsVisible="{Binding Update.HasReaderFeed}"
+                            Content="{loc:Localize Update_Feed_Reset}" />
+                    <Button Classes="chip" Command="{Binding Update.CheckCommand}" Content="{loc:Localize Update_Check}" />
+                </WrapPanel>
+                <CheckBox IsChecked="{Binding Update.CheckOnStartup}" Content="{loc:Localize Update_CheckOnStartup}" />
+                <TextBlock Classes="note" TextWrapping="Wrap" Text="{Binding Update.Status}"
+                           IsVisible="{Binding Update.Status, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+            </StackPanel>
 
             <Rectangle Classes="divider" />
 

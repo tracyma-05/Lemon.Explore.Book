@@ -17,6 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!--
+      Where this build looks for updates (see Updates/UpdateFeed.cs): github:owner/repo, or the address of a JSON
+      manifest. Empty in local builds; the release workflow passes -p:UpdateFeed=github:<the repository it runs in>.
+    -->
+    <AssemblyMetadata Include="UpdateFeed" Value="$(UpdateFeed)" />
+  </ItemGroup>
+
+  <ItemGroup>
     <AvaloniaResource Include="Assets\**" Exclude="Assets\Maps\**" />
     <!-- Natural Earth 1:110m land (public domain), read by the world map. -->
     <EmbeddedResource Include="Assets\Maps\land-110m.txt" LogicalName="Lemon.Explore.Book.Maps.Land110m" />

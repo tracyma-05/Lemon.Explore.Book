@@ -1,8 +1,11 @@
 using System.Globalization;
+using Avalonia;
+using Avalonia.Controls.ApplicationLifetimes;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Infrastructures.Settings;
+using Lemon.Explore.Book.Updates;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.ViewModels;
@@ -31,8 +34,10 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
             ? page
             : 0;
         _pageIndex = Math.Clamp(saved, 0, Pages.Count - 1);
-        Settings = new SettingsViewModel(services);
         Bookmarks = new BookmarksViewModel(services.Bookmarks, Pages, this, _pageIndex);
+        Notes = new NotesViewModel(services.Notes, Pages, this, _pageIndex);
+        Update = new UpdateViewModel(settings, ExitApplication);
+        Settings = new SettingsViewModel(services, Update);
         _progress = services.Progress;
         MarkOpened(_pageIndex);
     }
@@ -44,6 +49,21 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
 
     /// <summary>The bookmarks button and the ribbons on marked pages.</summary>
     public BookmarksViewModel Bookmarks { get; }
+
+    /// <summary>The notes button: notes on pages, quotes from them, and the Markdown export.</summary>
+    public NotesViewModel Notes { get; }
+
+    /// <summary>The update address, checking and installing (desktop only).</summary>
+    public UpdateViewModel Update { get; }
+
+    /// <summary>Ends the desktop app, so the updater can replace it.</summary>
+    private static void ExitApplication()
+    {
+        if (Application.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        {
+            desktop.Shutdown();
+        }
+    }
 
     public void GoToPage(int pageIndex) => PageIndex = Math.Clamp(pageIndex, 0, Pages.Count - 1);
 
@@ -58,6 +78,7 @@ public sealed partial class MainViewModel : ObservableObject, IBookNavigator
     {
         _settings.Set(SettingKeys.PageIndex, value.ToString(CultureInfo.InvariantCulture));
         Bookmarks.SetCurrent(value);
+        Notes.SetCurrent(value);
         MarkOpened(value);
     }
 

@@ -80,6 +80,7 @@ public static class BookTheme
         theme["AccentBrush"] = new SolidColorBrush(color);
         theme["AccentSoftBrush"] = new SolidColorBrush(WithAlpha(color, (byte)(variant == ThemeVariant.Dark ? 0x33 : 0x22)));
         theme["AccentFaintBrush"] = new SolidColorBrush(WithAlpha(color, (byte)(variant == ThemeVariant.Dark ? 0x1F : 0x14)));
+        theme["AccentSelectionBrush"] = new SolidColorBrush(WithAlpha(color, (byte)(variant == ThemeVariant.Dark ? 0x66 : 0x55)));
 
         // Fluent's own accent (slider tracks, check boxes, focus), with its lighter and darker steps.
         theme["SystemAccentColor"] = color;

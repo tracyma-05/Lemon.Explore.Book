@@ -55,10 +55,35 @@
     </UserControl.KeyBindings>
 
     <DockPanel>
-        <Border DockPanel.Dock="Top" Classes="toolbar">
-            <Grid ColumnDefinitions="*,Auto">
-                <TextBlock Classes="toolbarTitle" Text="{loc:Localize App_Title}" />
-                <StackPanel Grid.Column="1" Classes="toolbarButtons" Orientation="Horizontal" Spacing="6">
+        <!--
+            The toolbar is also the window's title bar on the desktop (MainWindow extends the book into it): drag it to
+            move the window, double-click to maximize, and on Windows 11 hover the maximize button for snap layouts.
+            ElementRole tells the system which part is which; the book's own buttons are "User" so they stay clickable.
+        -->
+        <Border x:Name="TitleBar" DockPanel.Dock="Top" Classes="toolbar" WindowDecorationProperties.ElementRole="TitleBar">
+            <Grid ColumnDefinitions="*,Auto,Auto">
+                <TextBlock x:Name="TitleText" Classes="toolbarTitle" Text="{loc:Localize App_Title}" />
+                <!-- Minimize, maximize / restore and close: shown by MainWindow on Windows and Linux. -->
+                <StackPanel x:Name="CaptionButtons" Grid.Column="2" Orientation="Horizontal" Margin="10,-6,-12,-6"
+                            IsVisible="False">
+                    <Button Classes="caption" Click="OnMinimizeClick"
+                            ToolTip.Tip="{loc:Localize Window_Minimize}" AutomationProperties.Name="{loc:Localize Window_Minimize}"
+                            WindowDecorationProperties.ElementRole="MinimizeButton">
+                        <PathIcon Data="{StaticResource Icon.WindowMinimize}" />
+                    </Button>
+                    <Button Classes="caption" Click="OnMaximizeClick"
+                            ToolTip.Tip="{loc:Localize Window_Maximize}" AutomationProperties.Name="{loc:Localize Window_Maximize}"
+                            WindowDecorationProperties.ElementRole="MaximizeButton">
+                        <PathIcon x:Name="MaximizeIcon" Data="{StaticResource Icon.WindowMaximize}" />
+                    </Button>
+                    <Button Classes="caption close" Click="OnCloseClick"
+                            ToolTip.Tip="{loc:Localize Window_Close}" AutomationProperties.Name="{loc:Localize Window_Close}"
+                            WindowDecorationProperties.ElementRole="CloseButton">
+                        <PathIcon Data="{StaticResource Icon.WindowClose}" />
+                    </Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Classes="toolbarButtons" Orientation="Horizontal" Spacing="6"
+                            WindowDecorationProperties.ElementRole="User">
                     <Button Content="&#x2039;" Click="OnPreviousClick"
                             ToolTip.Tip="{loc:Localize Toolbar_Previous}"
                             AutomationProperties.Name="{loc:Localize Toolbar_Previous}" />
@@ -80,6 +105,20 @@
                             </Flyout>
                         </Button.Flyout>
                     </Button>
+                    <!-- Notes: write on the reading page, quote its text, export them all -->
+                    <Button x:Name="NotesButton"
+                            ToolTip.Tip="{loc:Localize Notes_Tip}"
+                            AutomationProperties.Name="{loc:Localize Notes_Title}">
+                        <StackPanel Orientation="Horizontal" Spacing="6">
+                            <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Note}" />
+                            <TextBlock VerticalAlignment="Center" Text="{loc:Localize Notes_Title}" />
+                        </StackPanel>
+                        <Button.Flyout>
+                            <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
+                                <views:NotesView x:Name="NotesPanel" DataContext="{Binding Notes}" />
+                            </Flyout>
+                        </Button.Flyout>
+                    </Button>
                     <!-- Everything the reader can set, in one place -->
                     <Button x:Name="SettingsButton"
                             ToolTip.Tip="{loc:Localize Settings_Tip}"
@@ -96,6 +135,43 @@
                     </Button>
                 </StackPanel>
             </Grid>
+        </Border>
+
+        <!-- A new version (or how the last update went): under the title bar, until installed or put off. -->
+        <Border DockPanel.Dock="Top" Classes="updateBanner" IsVisible="{Binding Update.ShowsBanner}">
+            <StackPanel Spacing="6">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Spacing="8" Margin="12,0,0,0">
+                        <Button Classes="bannerPrimary" IsVisible="{Binding !Update.HasNotice}"
+                                Command="{Binding Update.InstallOrDownloadCommand}" Content="{Binding Update.PrimaryButtonText}" />
+                        <Button Classes="banner" IsVisible="{Binding Update.ReleaseNotes, Converter={x:Static ObjectConverters.IsNotNull}}"
+                                Content="{loc:Localize Update_WhatsNew}">
+                            <Button.Flyout>
+                                <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
+                                    <StackPanel>
+                                        <TextBlock Classes="kicker" Margin="0,12,0,6" Text="{loc:Localize Update_WhatsNew}" />
+                                        <ScrollViewer MaxHeight="360" HorizontalScrollBarVisibility="Disabled">
+                                            <SelectableTextBlock Classes="text" FontSize="13" Text="{Binding Update.ReleaseNotes}" />
+                                        </ScrollViewer>
+                                        <Button Classes="chip" Margin="0,10,0,0" HorizontalAlignment="Left"
+                                                Command="{Binding Update.OpenReleasePageCommand}" Content="{loc:Localize Update_ReleasePage}" />
+                                    </StackPanel>
+                                </Flyout>
+                            </Button.Flyout>
+                        </Button>
+                        <Button Classes="banner" Command="{Binding Update.DismissCommand}" Content="{loc:Localize Update_Later}" />
+                    </StackPanel>
+                    <TextBlock Classes="bannerText" IsVisible="{Binding !Update.HasNotice}" Text="{Binding Update.BannerText}" />
+                    <TextBlock Classes="bannerText" IsVisible="{Binding Update.HasNotice}" Text="{Binding Update.Notice}" />
+                </DockPanel>
+                <StackPanel IsVisible="{Binding Update.IsInstalling}" Spacing="4">
+                    <ProgressBar Minimum="0" Maximum="100" Value="{Binding Update.Progress}"
+                                 IsIndeterminate="{Binding Update.IsProgressIndeterminate}" />
+                    <TextBlock Classes="bannerText" FontSize="12" Text="{Binding Update.ProgressText}" />
+                </StackPanel>
+                <TextBlock Classes="bannerText" FontSize="12" Foreground="#FFE3DA"
+                           IsVisible="{Binding Update.HasInstallError}" Text="{Binding Update.InstallError}" />
+            </StackPanel>
         </Border>
 
         <controls:BookView x:Name="Book"

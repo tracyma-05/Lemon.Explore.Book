@@ -8,8 +8,15 @@
         Title="{loc:Localize App_Title}"
         Icon="/Assets/book.ico"
         Width="1280" Height="820"
-        MinWidth="360" MinHeight="480"
+        MinWidth="480" MinHeight="420"
         WindowStartupLocation="CenterScreen"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaTitleBarHeightHint="44"
+        WindowDecorations="BorderOnly"
         Background="#2A1D15">
-    <views:MainView />
+    <!--
+        The book's dark toolbar is the title bar (see MainView): one bar instead of the system's on top of the book's.
+        F11 reads full screen; the window remembers its size, place and whether it was maximized.
+    -->
+    <views:MainView x:Name="View" />
 </Window>

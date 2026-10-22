@@ -5,13 +5,13 @@
              x:Class="Lemon.Explore.Book.Views.Pages.ChapterTextPageView"
              x:DataType="pages:ChapterTextPageViewModel">
     <Grid RowDefinitions="Auto,Auto,Auto,*,Auto" Margin="56,44,56,20">
-        <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
-        <TextBlock Grid.Row="1" Classes="chapterNumber" Text="{Binding NumberLabel}" />
-        <TextBlock Grid.Row="2" Classes="pageTitle" Text="{Binding Title}" />
+        <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+        <SelectableTextBlock Grid.Row="1" Classes="chapterNumber" Text="{Binding NumberLabel}" />
+        <SelectableTextBlock Grid.Row="2" Classes="pageTitle" Text="{Binding Title}" />
 
         <Border Grid.Row="3" VerticalAlignment="Top" Padding="18,14" CornerRadius="8" Background="{DynamicResource AccentFaintBrush}"
                 BorderBrush="{DynamicResource AccentSoftBrush}" BorderThickness="1">
-            <TextBlock Classes="body" Text="{loc:Localize Chapter_Placeholder}" />
+            <SelectableTextBlock Classes="body" Text="{loc:Localize Chapter_Placeholder}" />
         </Border>
 
         <TextBlock Grid.Row="4" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />

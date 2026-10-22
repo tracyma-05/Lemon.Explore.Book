@@ -1,0 +1,160 @@
+# Publishes a version of the book when a version tag is pushed:
+#   - native AOT desktop packages for Windows (win-x64) and macOS (osx-arm64, osx-x64), and the web edition, as the
+#     assets of a GitHub Release. Installed copies check this repository's latest release and offer the update.
+#   - optionally the web edition to GitHub Pages (set the repository variable DEPLOY_PAGES to true, and choose
+#     "GitHub Actions" as the Pages source).
+#
+# Release a version:
+#   1. set <Version> in Directory.Build.props and commit ("Release 0.2.0")
+#   2. git tag v0.2.0 && git push origin main v0.2.0
+# The tag must equal Directory.Build.props' Version (checked below).
+#
+# Each build has this repository as its update address (github:<owner>/<repo>), so a fork that runs this workflow
+# publishes builds that update from the fork. To point them elsewhere, set the repository variable UPDATE_FEED
+# (e.g. https://downloads.example.com/explore-book/latest.json); see docs/UPDATES.md.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write # create the release and upload its assets
+
+env:
+  UPDATE_FEED: ${{ vars.UPDATE_FEED || format('github:{0}', github.repository) }}
+
+jobs:
+  version:
+    name: Check the version
+    runs-on: ubuntu-latest
+    outputs:
+      value: ${{ steps.version.outputs.value }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read the version from the tag
+        id: version
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          declared="$(sed -nE 's|.*<Version>([^<]+)</Version>.*|\1|p' Directory.Build.props | head -1)"
+          if [ "$version" != "$declared" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match <Version>$declared</Version> in Directory.Build.props."
+            exit 1
+          fi
+          echo "value=$version" >> "$GITHUB_OUTPUT"
+
+  test:
+    name: Test
+    needs: version
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - run: dotnet test tests/Lemon.Explore.Book.Tests -c Release
+
+  desktop:
+    name: Package (${{ matrix.rid }})
+    needs: [version, test]
+    strategy:
+      fail-fast: true
+      matrix:
+        include:
+          - os: windows-latest
+            rid: win-x64
+          - os: macos-latest
+            rid: osx-arm64
+          # Cross-compiled on the Apple silicon runner: native AOT targets either macOS architecture.
+          - os: macos-latest
+            rid: osx-x64
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - name: Package
+        shell: bash
+        run: bash scripts/package-desktop.sh "${{ matrix.rid }}" "$UPDATE_FEED"
+      # Only a hand-over to the release job: the published copies are the release assets.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: package-${{ matrix.rid }}
+          path: artifacts/explore-book-${{ needs.version.outputs.value }}-${{ matrix.rid }}.zip
+          if-no-files-found: error
+          retention-days: 3
+
+  web:
+    name: Package (web)
+    needs: [version, test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      # Links Skia's native WebAssembly code into the app.
+      - run: dotnet workload install wasm-tools
+      - run: dotnet publish src/Lemon.Explore.Book.Browser -c Release -o publish/web
+      - name: Zip the site
+        run: |
+          mkdir -p artifacts
+          (cd publish/web/wwwroot && zip -qr "$GITHUB_WORKSPACE/artifacts/explore-book-${{ needs.version.outputs.value }}-web.zip" .)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: package-web
+          path: artifacts/explore-book-${{ needs.version.outputs.value }}-web.zip
+          if-no-files-found: error
+          retention-days: 3
+      - uses: actions/upload-pages-artifact@v3
+        if: vars.DEPLOY_PAGES == 'true'
+        with:
+          path: publish/web/wwwroot
+
+  release:
+    name: Publish the release
+    needs: [version, desktop, web]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # the notes are the commits since the previous release
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: package-*
+          path: packages
+          merge-multiple: true
+      - name: Write the release notes
+        run: |
+          # Commit subjects since the previous version tag (all of them for the first release).
+          since="$(git describe --tags --abbrev=0 "$GITHUB_REF_NAME^" 2> /dev/null || true)"
+          range="${since:+$since..}$GITHUB_REF_NAME"
+          git log "$range" --no-merges --format='- %s' | grep -v '^- Release ' > release-notes.md || true
+          cat release-notes.md
+      - name: Create the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # A re-run replaces the assets of the release it created the first time.
+          if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" packages/* --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" packages/* --title "$GITHUB_REF_NAME" --verify-tag \
+              --notes-file release-notes.md
+          fi
+
+  pages:
+    name: Deploy the web edition
+    needs: [web, release]
+    if: vars.DEPLOY_PAGES == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

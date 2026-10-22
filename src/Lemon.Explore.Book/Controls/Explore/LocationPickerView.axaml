@@ -7,7 +7,7 @@
     <!-- The observer location picker: presets, a point of your own, and the chosen place. Shown in the location chip's
          flyout and in the settings. -->
     <UserControl.Styles>
-        <Style Selector="TextBlock.value">
+        <Style Selector=":is(TextBlock).value">
             <Setter Property="DockPanel.Dock" Value="Right" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />

@@ -5,11 +5,11 @@
              x:Class="Lemon.Explore.Book.Views.Pages.ContentsPageView"
              x:DataType="pages:ContentsPageViewModel">
     <UserControl.Styles>
-        <Style Selector="TextBlock.progress">
+        <Style Selector=":is(TextBlock).progress">
             <Setter Property="FontSize" Value="12" />
             <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
         </Style>
-        <Style Selector="TextBlock.progress.complete">
+        <Style Selector=":is(TextBlock).progress.complete">
             <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
             <Setter Property="FontWeight" Value="SemiBold" />
         </Style>

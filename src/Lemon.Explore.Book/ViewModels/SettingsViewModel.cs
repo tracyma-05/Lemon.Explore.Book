@@ -8,6 +8,7 @@ using Lemon.Explore.Book.Explore.Places;
 using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Lemon.Explore.Book.Infrastructures.Theming;
+using Lemon.Explore.Book.Updates;
 
 namespace Lemon.Explore.Book.ViewModels;
 
@@ -25,8 +26,9 @@ public sealed partial class SettingsViewModel : ObservableObject
     private BookThemeMode _themeMode;
     private AccentColor _accent;
 
-    public SettingsViewModel(BookServices services)
+    public SettingsViewModel(BookServices services, UpdateViewModel? update = null)
     {
+        Update = update;
         _store = services.Settings;
         _narration = services.Narration;
         _animatesTurns = _store.Get(SettingKeys.AnimatesTurns) != bool.FalseString;
@@ -39,6 +41,12 @@ public sealed partial class SettingsViewModel : ObservableObject
         _narration.SettingsChanged += (_, _) => RaiseNarration();
         LocalizationService.Instance.PropertyChanged += OnLanguageChanged;
     }
+
+    /// <summary>The update address and checking (desktop); null when the settings are built alone (tests).</summary>
+    public UpdateViewModel? Update { get; }
+
+    /// <summary>e.g. "Version 0.2.0".</summary>
+    public string VersionText => LocalizationService.Instance.Format("Update_Version", Update?.CurrentVersion ?? string.Empty);
 
     /// <summary>The observer location picker, the same one a chapter's location chip opens.</summary>
     public ExploreLocationPickerViewModel Location { get; }
@@ -84,6 +92,7 @@ public sealed partial class SettingsViewModel : ObservableObject
         OnPropertyChanged(nameof(IsChinese));
         OnPropertyChanged(nameof(IsEnglish));
         OnPropertyChanged(nameof(ProgressSummary));
+        OnPropertyChanged(nameof(VersionText));
         foreach (var accent in Accents) accent.RefreshName();
     }
 

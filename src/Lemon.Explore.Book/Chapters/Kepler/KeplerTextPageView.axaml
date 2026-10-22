@@ -7,30 +7,30 @@
                          x:DataType="kepler:KeplerTextPageViewModel">
     <!-- Left page of the Kepler spread: the orbit's settings, each view's own pictures and the planets' periods. -->
     <explore:ChapterPageView.Styles>
-        <Style Selector="TextBlock.statName">
+        <Style Selector=":is(TextBlock).statName">
             <Setter Property="Margin" Value="0,3,12,3" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
         </Style>
-        <Style Selector="TextBlock.statValue">
+        <Style Selector=":is(TextBlock).statValue">
             <Setter Property="Grid.Column" Value="1" />
             <Setter Property="Margin" Value="0,3,0,3" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="TextWrapping" Value="Wrap" />
             <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
-        <Style Selector="TextBlock.cell">
+        <Style Selector=":is(TextBlock).cell">
             <Setter Property="Margin" Value="0,3,10,3" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
-        <Style Selector="TextBlock.head">
+        <Style Selector=":is(TextBlock).head">
             <Setter Property="Margin" Value="0,0,10,4" />
             <Setter Property="FontSize" Value="12" />
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
         </Style>
-        <Style Selector="TextBlock.value">
+        <Style Selector=":is(TextBlock).value">
             <Setter Property="DockPanel.Dock" Value="Right" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />
@@ -42,14 +42,14 @@
     <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
             <StackPanel>
-                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
-                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
-                <TextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
 
-                <TextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Kepler.Subtitle}" />
-                <TextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Kepler.ScaleNote}" />
-                <TextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Kepler.DragHint}" />
-                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Kepler.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Kepler.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Kepler.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
 
                 <WrapPanel Margin="0,14,0,0">
                     <RadioButton Classes="chip" GroupName="KeplerMode" IsChecked="{Binding Kepler.IsEllipse}"
@@ -64,7 +64,7 @@
 
                 <!-- Ellipse and areas: which body, and the shape of its orbit -->
                 <StackPanel IsVisible="{Binding Kepler.IsOrbitMode}">
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_Body_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Body_Caption}" />
                     <WrapPanel>
                         <RadioButton Classes="chip" GroupName="KeplerBody" IsChecked="{Binding Kepler.Body[Custom]}"
                                      Content="{loc:Localize Kepler_Body_Custom}" />
@@ -80,8 +80,8 @@
                                      Content="{loc:Localize Kepler_Body_Halley}" />
                     </WrapPanel>
                     <DockPanel Margin="0,8,0,2">
-                        <TextBlock Classes="value" Text="{Binding Kepler.EccentricityText}" />
-                        <TextBlock Classes="caption" Margin="0" Text="{loc:Localize Kepler_Ecc_Slider}" />
+                        <SelectableTextBlock Classes="value" Text="{Binding Kepler.EccentricityText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Kepler_Ecc_Slider}" />
                     </DockPanel>
                     <Slider Minimum="0" Maximum="{Binding Kepler.MaxEccentricity}" Value="{Binding Kepler.Eccentricity}"
                             SmallChange="0.01" LargeChange="0.1" AutomationProperties.Name="{loc:Localize Kepler_Ecc_Slider}" />
@@ -93,17 +93,17 @@
                         <ToggleButton Classes="chip" IsChecked="{Binding Kepler.ShowString}" Content="{loc:Localize Kepler_ShowString}" />
                         <ToggleButton Classes="chip" IsChecked="{Binding Kepler.ShowCircle}" Content="{loc:Localize Kepler_ShowCircle}" />
                     </WrapPanel>
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_Ecc_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Ecc_Caption}" />
                     <Border Classes="plate" Height="230">
                         <kepler:EccentricityView Eccentricity="{Binding Kepler.Eccentricity}"
                                                  AutomationProperties.Name="{loc:Localize Kepler_Ecc_Caption}" />
                     </Border>
-                    <TextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Kepler_Ecc_Note}" />
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Kepler_Ecc_Note}" />
                 </StackPanel>
 
                 <!-- Areas: how many stretches, the velocity arrow, and the speed through one round -->
                 <StackPanel IsVisible="{Binding Kepler.IsAreas}">
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_Sectors_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Sectors_Caption}" />
                     <WrapPanel>
                         <RadioButton Classes="chip" GroupName="KeplerSectors" IsChecked="{Binding Kepler.SectorChoice[6]}" Content="6" />
                         <RadioButton Classes="chip" GroupName="KeplerSectors" IsChecked="{Binding Kepler.SectorChoice[8]}" Content="8" />
@@ -111,24 +111,24 @@
                         <RadioButton Classes="chip" GroupName="KeplerSectors" IsChecked="{Binding Kepler.SectorChoice[24]}" Content="24" />
                         <ToggleButton Classes="chip" IsChecked="{Binding Kepler.ShowVelocity}" Content="{loc:Localize Kepler_ShowVelocity}" />
                     </WrapPanel>
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_Speed_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Speed_Caption}" />
                     <Border Classes="plate" Height="170">
                         <kepler:SpeedChart Phase="{Binding Kepler.Phase}" Eccentricity="{Binding Kepler.Eccentricity}"
                                            SemiMajorAxis="{Binding Kepler.SemiMajorAxis}"
                                            AutomationProperties.Name="{loc:Localize Kepler_Speed_Caption}" />
                     </Border>
-                    <TextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Kepler_Speed_Note}" />
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Kepler_Speed_Note}" />
                 </StackPanel>
 
                 <!-- Periods: your planet's distance, the law on a chart, and the measured planets -->
                 <StackPanel IsVisible="{Binding Kepler.IsPeriods}">
                     <DockPanel Margin="0,16,0,2">
-                        <TextBlock Classes="value" Text="{Binding Kepler.YourAxisText}" />
-                        <TextBlock Classes="caption" Margin="0" Text="{loc:Localize Kepler_YourAxis_Caption}" />
+                        <SelectableTextBlock Classes="value" Text="{Binding Kepler.YourAxisText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Kepler_YourAxis_Caption}" />
                     </DockPanel>
                     <Slider Minimum="{Binding Kepler.MinYourAxis}" Maximum="{Binding Kepler.MaxYourAxis}" Value="{Binding Kepler.YourAxis}"
                             SmallChange="0.05" LargeChange="0.5" AutomationProperties.Name="{loc:Localize Kepler_YourAxis_Caption}" />
-                    <TextBlock Classes="note" Margin="0,4,0,6" Text="{loc:Localize Kepler_YourAxis_Like}" />
+                    <SelectableTextBlock Classes="note" Margin="0,4,0,6" Text="{loc:Localize Kepler_YourAxis_Like}" />
                     <WrapPanel>
                         <Button Classes="chip" Command="{Binding Kepler.SetYourAxisCommand}" CommandParameter="0.387"
                                 Content="{loc:Localize SolarSystem_Mercury_Name}" />
@@ -143,28 +143,28 @@
                         <Button Classes="chip" Command="{Binding Kepler.SetYourAxisCommand}" CommandParameter="9.537"
                                 Content="{loc:Localize SolarSystem_Saturn_Name}" />
                     </WrapPanel>
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_PeriodChart_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_PeriodChart_Caption}" />
                     <Border Classes="plate" Height="240">
                         <kepler:PeriodChart YourAxis="{Binding Kepler.YourAxis}"
                                             AutomationProperties.Name="{loc:Localize Kepler_PeriodChart_Caption}" />
                     </Border>
-                    <TextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Kepler_PeriodChart_Note}" />
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Kepler_PeriodChart_Note}" />
 
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_Table_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Table_Caption}" />
                     <Grid ColumnDefinitions="90,90,90,*">
-                        <TextBlock Classes="head" Text="{loc:Localize Kepler_Table_Body}" />
-                        <TextBlock Grid.Column="1" Classes="head" Text="{loc:Localize Kepler_Table_A}" />
-                        <TextBlock Grid.Column="2" Classes="head" Text="{loc:Localize Kepler_Table_T}" />
-                        <TextBlock Grid.Column="3" Classes="head" Text="{loc:Localize Kepler_Table_Ratio}" />
+                        <SelectableTextBlock Classes="head" Text="{loc:Localize Kepler_Table_Body}" />
+                        <SelectableTextBlock Grid.Column="1" Classes="head" Text="{loc:Localize Kepler_Table_A}" />
+                        <SelectableTextBlock Grid.Column="2" Classes="head" Text="{loc:Localize Kepler_Table_T}" />
+                        <SelectableTextBlock Grid.Column="3" Classes="head" Text="{loc:Localize Kepler_Table_Ratio}" />
                     </Grid>
                     <ItemsControl ItemsSource="{Binding Kepler.PeriodRows}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="kepler:KeplerPeriodRow">
                                 <Grid ColumnDefinitions="90,90,90,*">
-                                    <TextBlock Classes="statName" Text="{Binding Name}" />
-                                    <TextBlock Grid.Column="1" Classes="cell" Text="{Binding Distance}" />
-                                    <TextBlock Grid.Column="2" Classes="cell" Text="{Binding Period}" />
-                                    <TextBlock Grid.Column="3" Classes="cell" Foreground="{DynamicResource AccentBrush}" Text="{Binding Ratio}" />
+                                    <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                    <SelectableTextBlock Grid.Column="1" Classes="cell" Text="{Binding Distance}" />
+                                    <SelectableTextBlock Grid.Column="2" Classes="cell" Text="{Binding Period}" />
+                                    <SelectableTextBlock Grid.Column="3" Classes="cell" Foreground="{DynamicResource AccentBrush}" Text="{Binding Ratio}" />
                                 </Grid>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
@@ -176,15 +176,15 @@
                     <DockPanel>
                         <Border DockPanel.Dock="Left" Width="6" Background="{Binding Kepler.StageBrush}" />
                         <StackPanel Margin="14,12">
-                            <TextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
                                        Foreground="{DynamicResource InkBrush}" Text="{Binding Kepler.StageTitle}" />
-                            <TextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Kepler.StageDescription}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Kepler.StageDescription}" />
                             <ItemsControl ItemsSource="{Binding Kepler.Stats}">
                                 <ItemsControl.ItemTemplate>
                                     <DataTemplate x:DataType="kepler:KeplerStat">
                                         <Grid ColumnDefinitions="130,*">
-                                            <TextBlock Classes="statName" Text="{Binding Name}" />
-                                            <TextBlock Classes="statValue" Text="{Binding Value}" />
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
                                         </Grid>
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>
@@ -193,7 +193,7 @@
                     </DockPanel>
                 </Border>
 
-                <TextBlock Classes="caption" Text="{loc:Localize Kepler_JumpTo}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_JumpTo}" />
                 <WrapPanel>
                     <Button Classes="chip" Command="{Binding Kepler.JumpToCommand}" CommandParameter="Perihelion"
                             IsVisible="{Binding Kepler.IsOrbitMode}" Content="{loc:Localize Kepler_Jump_Perihelion}" />
@@ -205,28 +205,28 @@
 
                 <!-- Earth's own perihelion and aphelion -->
                 <StackPanel IsVisible="{Binding Kepler.IsOrbitMode}">
-                    <TextBlock Classes="caption" Text="{loc:Localize Kepler_Earth_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Earth_Caption}" />
                     <ItemsControl ItemsSource="{Binding Kepler.EarthApsides}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="kepler:KeplerStat">
                                 <Grid ColumnDefinitions="130,*">
-                                    <TextBlock Classes="statName" Text="{Binding Name}" />
-                                    <TextBlock Classes="statValue" Text="{Binding Value}" />
+                                    <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                    <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
                                 </Grid>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
-                    <TextBlock Classes="note" Margin="0,4,0,0" Text="{loc:Localize Kepler_Earth_Note}" />
+                    <SelectableTextBlock Classes="note" Margin="0,4,0,0" Text="{loc:Localize Kepler_Earth_Note}" />
                 </StackPanel>
 
-                <TextBlock Classes="caption" Text="{loc:Localize Kepler_Facts}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Kepler_Facts}" />
                 <ItemsControl ItemsSource="{Binding Kepler.Facts}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate x:DataType="x:String">
                             <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
                                 <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
                                          Fill="{DynamicResource AccentBrush}" />
-                                <TextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
                             </Grid>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>

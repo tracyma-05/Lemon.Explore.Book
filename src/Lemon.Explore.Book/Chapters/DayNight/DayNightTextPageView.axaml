@@ -7,19 +7,19 @@
                          x:DataType="daynight:DayNightTextPageViewModel">
     <!-- Left page of the Day and night spread: where you are, the date, each view's own pictures and the clocks. -->
     <explore:ChapterPageView.Styles>
-        <Style Selector="TextBlock.statName">
+        <Style Selector=":is(TextBlock).statName">
             <Setter Property="Margin" Value="0,3,12,3" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
         </Style>
-        <Style Selector="TextBlock.statValue">
+        <Style Selector=":is(TextBlock).statValue">
             <Setter Property="Grid.Column" Value="1" />
             <Setter Property="Margin" Value="0,3,0,3" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="TextWrapping" Value="Wrap" />
             <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
-        <Style Selector="TextBlock.value">
+        <Style Selector=":is(TextBlock).value">
             <Setter Property="DockPanel.Dock" Value="Right" />
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />
@@ -34,7 +34,7 @@
             <Setter Property="Margin" Value="0,0,6,0" />
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
-        <Style Selector="TextBlock.legend">
+        <Style Selector=":is(TextBlock).legend">
             <Setter Property="FontSize" Value="12" />
             <Setter Property="Foreground" Value="{DynamicResource BodyInkBrush}" />
         </Style>
@@ -74,14 +74,14 @@
     <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
             <StackPanel>
-                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
-                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
-                <TextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
 
-                <TextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Day.Subtitle}" />
-                <TextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Day.ScaleNote}" />
-                <TextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Day.DragHint}" />
-                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Day.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Day.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Day.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
 
                 <WrapPanel Margin="0,14,0,0">
                     <RadioButton Classes="chip" GroupName="DayNightMode" IsChecked="{Binding Day.IsMap}"
@@ -98,8 +98,8 @@
 
                 <!-- Place -->
                 <DockPanel Margin="0,16,0,6">
-                    <TextBlock Classes="value" Text="{Binding Day.PlaceName}" />
-                    <TextBlock Classes="caption" Margin="0" Text="{loc:Localize DayNight_Place}" />
+                    <SelectableTextBlock Classes="value" Text="{Binding Day.PlaceName}" />
+                    <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize DayNight_Place}" />
                 </DockPanel>
                 <WrapPanel>
                     <Button Classes="chip" Command="{Binding Day.GoHomeCommand}" IsVisible="{Binding Day.ShowsHomeButton}"
@@ -117,12 +117,12 @@
                     <Button Classes="chip" Command="{Binding Day.SelectCityCommand}" CommandParameter="Tromso"
                             Content="{loc:Localize DayNight_City_Tromso}" />
                 </WrapPanel>
-                <TextBlock Classes="note" Text="{loc:Localize DayNight_Place_Hint}" />
+                <SelectableTextBlock Classes="note" Text="{loc:Localize DayNight_Place_Hint}" />
 
                 <!-- Date -->
                 <DockPanel Margin="0,16,0,2">
-                    <TextBlock Classes="value" Text="{Binding Day.DateText}" />
-                    <TextBlock Classes="caption" Margin="0" Text="{loc:Localize DayNight_Date}" />
+                    <SelectableTextBlock Classes="value" Text="{Binding Day.DateText}" />
+                    <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize DayNight_Date}" />
                 </DockPanel>
                 <Slider Minimum="0" Maximum="{Binding Day.LastDay}" Value="{Binding Day.Day}" SmallChange="1" LargeChange="15"
                         AutomationProperties.Name="{loc:Localize DayNight_Date}" />
@@ -137,7 +137,7 @@
                             Content="{loc:Localize DayNight_Event_DecemberSolstice}" />
                 </WrapPanel>
 
-                <TextBlock Classes="caption" Text="{loc:Localize DayNight_Animate}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize DayNight_Animate}" />
                 <WrapPanel>
                     <RadioButton Classes="chip" GroupName="DayNightAnimate" IsChecked="{Binding Day.AnimatesDay}"
                                  Content="{loc:Localize DayNight_Animate_Day}" />
@@ -152,7 +152,7 @@
                                       Content="{loc:Localize DayNight_ShowTwilight}" />
                     </WrapPanel>
 
-                    <TextBlock Classes="caption" Text="{Binding Day.GlobeCaption}" />
+                    <SelectableTextBlock Classes="caption" Text="{Binding Day.GlobeCaption}" />
                     <Border Classes="plate" Height="210">
                         <daynight:PlaceGlobeView Instant="{Binding Day.Instant}"
                                                  PlaceLatitude="{Binding Day.PlaceLatitude}"
@@ -160,7 +160,7 @@
                                                  AutomationProperties.Name="{Binding Day.GlobeCaption}" />
                     </Border>
 
-                    <TextBlock Classes="caption" Text="{Binding Day.ChartCaption}" />
+                    <SelectableTextBlock Classes="caption" Text="{Binding Day.ChartCaption}" />
                     <Border Classes="plate" Height="190" Padding="0,4,0,0">
                         <daynight:SunClockChart Instant="{Binding Day.Instant}"
                                                 PlaceLatitude="{Binding Day.PlaceLatitude}"
@@ -171,31 +171,31 @@
                     <WrapPanel Margin="0,10,0,0">
                         <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
                             <Rectangle Classes="legend" Fill="#6CAEE6" />
-                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Day}" />
+                            <SelectableTextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Day}" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
                             <Rectangle Classes="legend" Fill="#33528C" />
-                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Civil}" />
+                            <SelectableTextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Civil}" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
                             <Rectangle Classes="legend" Fill="#213568" />
-                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Nautical}" />
+                            <SelectableTextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Nautical}" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
                             <Rectangle Classes="legend" Fill="#152146" />
-                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Astronomical}" />
+                            <SelectableTextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Astronomical}" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" Margin="0,0,12,4">
                             <Rectangle Classes="legend" Fill="#0A1024" Stroke="{DynamicResource ChipBorderBrush}" StrokeThickness="1" />
-                            <TextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Night}" />
+                            <SelectableTextBlock Classes="legend" Text="{loc:Localize DayNight_Legend_Night}" />
                         </StackPanel>
                     </WrapPanel>
-                    <TextBlock Classes="note" Text="{loc:Localize DayNight_Chart_Note}" />
+                    <SelectableTextBlock Classes="note" Text="{loc:Localize DayNight_Chart_Note}" />
                 </StackPanel>
 
                 <!-- Time zones: the world clock -->
                 <StackPanel IsVisible="{Binding Day.IsTimeZones}">
-                    <TextBlock Classes="caption" Text="{loc:Localize DayNight_Clocks_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize DayNight_Clocks_Caption}" />
                     <ItemsControl ItemsSource="{Binding Day.Clocks}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="daynight:CityClock">
@@ -205,7 +205,7 @@
                                         AutomationProperties.Name="{Binding Name}">
                                     <Grid ColumnDefinitions="24,*,Auto,54">
                                         <PathIcon Classes="sun" Classes.day="{Binding IsDaylight}" Width="16" Height="16"
-                                                  HorizontalAlignment="Left" Data="{Binding Icon}" />
+                                                  HorizontalAlignment="Left" Data="{Binding Sun, Converter={x:Static explore:SkyIcons.ForState}}" />
                                         <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                             <TextBlock FontSize="13" Foreground="{DynamicResource InkBrush}" TextTrimming="CharacterEllipsis"
                                                        Text="{Binding Name}" />
@@ -221,7 +221,7 @@
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
-                    <TextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Day.ClocksNote}" />
+                    <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Day.ClocksNote}" />
                 </StackPanel>
 
                 <!-- Globe: the view and the same moment on the flat map -->
@@ -229,17 +229,17 @@
                     <DockPanel Margin="0,10,0,0">
                         <Button DockPanel.Dock="Left" Classes="chip" VerticalAlignment="Top"
                                 Command="{Binding Day.ResetViewCommand}" Content="{loc:Localize DayNight_ResetView}" />
-                        <TextBlock Classes="note" VerticalAlignment="Center" Text="{loc:Localize DayNight_ResetView_Hint}" />
+                        <SelectableTextBlock Classes="note" VerticalAlignment="Center" Text="{loc:Localize DayNight_ResetView_Hint}" />
                     </DockPanel>
 
-                    <TextBlock Classes="caption" Text="{loc:Localize DayNight_MiniMap_Caption}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize DayNight_MiniMap_Caption}" />
                     <Border Classes="plate" Height="170">
                         <daynight:MiniMapView Instant="{Binding Day.Instant}"
                                               PlaceLatitude="{Binding Day.PlaceLatitude}"
                                               PlaceLongitude="{Binding Day.PlaceLongitude}"
                                               AutomationProperties.Name="{loc:Localize DayNight_MiniMap_Caption}" />
                     </Border>
-                    <TextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize DayNight_MiniMap_Note}" />
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize DayNight_MiniMap_Note}" />
                 </StackPanel>
 
                 <!-- What is happening now: a coloured edge for the Sun's state -->
@@ -247,39 +247,39 @@
                     <DockPanel>
                         <Border DockPanel.Dock="Left" Width="6" Background="{Binding Day.StageBrush}" />
                         <StackPanel Margin="14,12">
-                            <TextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
                                        Foreground="{DynamicResource InkBrush}" Text="{Binding Day.StageTitle}" />
-                            <TextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Day.StageDescription}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Day.StageDescription}" />
                             <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
-                                <TextBlock Grid.Row="0" Classes="statName" Text="{loc:Localize DayNight_Stat_LocalTime}" />
-                                <TextBlock Grid.Row="0" Classes="statValue" Text="{Binding Day.LocalTimeText}" />
-                                <TextBlock Grid.Row="1" Classes="statName" Text="{loc:Localize DayNight_Stat_Solar}"
+                                <SelectableTextBlock Grid.Row="0" Classes="statName" Text="{loc:Localize DayNight_Stat_LocalTime}" />
+                                <SelectableTextBlock Grid.Row="0" Classes="statValue" Text="{Binding Day.LocalTimeText}" />
+                                <SelectableTextBlock Grid.Row="1" Classes="statName" Text="{loc:Localize DayNight_Stat_Solar}"
                                            ToolTip.Tip="{loc:Localize DayNight_Stat_Solar_ToolTip}" />
-                                <TextBlock Grid.Row="1" Classes="statValue" Text="{Binding Day.SolarTimeText}"
+                                <SelectableTextBlock Grid.Row="1" Classes="statValue" Text="{Binding Day.SolarTimeText}"
                                            ToolTip.Tip="{loc:Localize DayNight_Stat_Solar_ToolTip}" />
-                                <TextBlock Grid.Row="2" Classes="statName" Text="{loc:Localize DayNight_Stat_Altitude}" />
-                                <TextBlock Grid.Row="2" Classes="statValue" Text="{Binding Day.AltitudeText}" />
-                                <TextBlock Grid.Row="3" Classes="statName" Text="{loc:Localize DayNight_Stat_Sunrise}"
+                                <SelectableTextBlock Grid.Row="2" Classes="statName" Text="{loc:Localize DayNight_Stat_Altitude}" />
+                                <SelectableTextBlock Grid.Row="2" Classes="statValue" Text="{Binding Day.AltitudeText}" />
+                                <SelectableTextBlock Grid.Row="3" Classes="statName" Text="{loc:Localize DayNight_Stat_Sunrise}"
                                            ToolTip.Tip="{loc:Localize DayNight_Stat_Sunrise_ToolTip}" />
-                                <TextBlock Grid.Row="3" Classes="statValue" Text="{Binding Day.SunriseText}"
+                                <SelectableTextBlock Grid.Row="3" Classes="statValue" Text="{Binding Day.SunriseText}"
                                            ToolTip.Tip="{loc:Localize DayNight_Stat_Sunrise_ToolTip}" />
-                                <TextBlock Grid.Row="4" Classes="statName" Text="{loc:Localize DayNight_Stat_DayLength}" />
-                                <TextBlock Grid.Row="4" Classes="statValue" Text="{Binding Day.DayLengthText}" />
-                                <TextBlock Grid.Row="5" Classes="statName" Text="{loc:Localize DayNight_Stat_Subsolar}" />
-                                <TextBlock Grid.Row="5" Classes="statValue" Text="{Binding Day.SubsolarText}" />
+                                <SelectableTextBlock Grid.Row="4" Classes="statName" Text="{loc:Localize DayNight_Stat_DayLength}" />
+                                <SelectableTextBlock Grid.Row="4" Classes="statValue" Text="{Binding Day.DayLengthText}" />
+                                <SelectableTextBlock Grid.Row="5" Classes="statName" Text="{loc:Localize DayNight_Stat_Subsolar}" />
+                                <SelectableTextBlock Grid.Row="5" Classes="statValue" Text="{Binding Day.SubsolarText}" />
                             </Grid>
                         </StackPanel>
                     </DockPanel>
                 </Border>
 
-                <TextBlock Classes="caption" Text="{loc:Localize DayNight_Facts}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize DayNight_Facts}" />
                 <ItemsControl ItemsSource="{Binding Day.Facts}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate x:DataType="x:String">
                             <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
                                 <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
                                          Fill="{DynamicResource AccentBrush}" />
-                                <TextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
                             </Grid>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>

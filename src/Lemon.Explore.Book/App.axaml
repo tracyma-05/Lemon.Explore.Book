@@ -28,6 +28,7 @@
                     <SolidColorBrush x:Key="AccentBrush" Color="#B5532E" />
                     <SolidColorBrush x:Key="AccentSoftBrush" Color="#22B5532E" />
                     <SolidColorBrush x:Key="AccentFaintBrush" Color="#14B5532E" />
+                    <SolidColorBrush x:Key="AccentSelectionBrush" Color="#55B5532E" />
                 </ResourceDictionary>
                 <ResourceDictionary x:Key="Dark">
                     <SolidColorBrush x:Key="InkBrush" Color="#EEE6D8" />
@@ -46,6 +47,7 @@
                     <SolidColorBrush x:Key="AccentBrush" Color="#E38A62" />
                     <SolidColorBrush x:Key="AccentSoftBrush" Color="#33E38A62" />
                     <SolidColorBrush x:Key="AccentFaintBrush" Color="#1FE38A62" />
+                    <SolidColorBrush x:Key="AccentSelectionBrush" Color="#66E38A62" />
                 </ResourceDictionary>
             </ResourceDictionary.ThemeDictionaries>
 
@@ -62,31 +64,31 @@
         <StyleInclude Source="/Styles/Explore.axaml" />
 
         <!-- Page typography -->
-        <Style Selector="TextBlock.kicker">
+        <Style Selector=":is(TextBlock).kicker">
             <Setter Property="FontSize" Value="13" />
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="LetterSpacing" Value="1.2" />
             <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
         </Style>
-        <Style Selector="TextBlock.pageTitle">
+        <Style Selector=":is(TextBlock).pageTitle">
             <Setter Property="FontSize" Value="32" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="TextWrapping" Value="Wrap" />
             <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
             <Setter Property="Margin" Value="0,6,0,18" />
         </Style>
-        <Style Selector="TextBlock.chapterNumber">
+        <Style Selector=":is(TextBlock).chapterNumber">
             <Setter Property="FontSize" Value="18" />
             <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
             <Setter Property="Margin" Value="0,18,0,0" />
         </Style>
-        <Style Selector="TextBlock.body">
+        <Style Selector=":is(TextBlock).body">
             <Setter Property="FontSize" Value="17" />
             <Setter Property="LineHeight" Value="28" />
             <Setter Property="TextWrapping" Value="Wrap" />
             <Setter Property="Foreground" Value="{DynamicResource BodyInkBrush}" />
         </Style>
-        <Style Selector="TextBlock.folio">
+        <Style Selector=":is(TextBlock).folio">
             <Setter Property="FontSize" Value="13" />
             <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
             <Setter Property="Margin" Value="0,8,0,0" />
@@ -111,12 +113,76 @@
             <Setter Property="Background" Value="#1F1510" />
             <Setter Property="Padding" Value="12,6" />
         </Style>
-        <Style Selector="Border.toolbar TextBlock.toolbarTitle">
+        <Style Selector="Border.toolbar :is(TextBlock).toolbarTitle">
             <Setter Property="Foreground" Value="#F3E9DA" />
             <Setter Property="FontSize" Value="15" />
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
+        <!--
+            Reading text on the pages can be selected and copied. Its menu (copy, select all, add to notes) is the
+            book's own, opened by MainView, so the theme's default one is switched off here.
+        -->
+        <Style Selector="SelectableTextBlock">
+            <Setter Property="SelectionBrush" Value="{DynamicResource AccentSelectionBrush}" />
+            <Setter Property="ContextFlyout" Value="{x:Null}" />
+            <Setter Property="Cursor" Value="IBeam" />
+        </Style>
+
+        <!-- The update banner under the title bar -->
+        <Style Selector="Border.updateBanner">
+            <Setter Property="Background" Value="{DynamicResource AccentBrush}" />
+            <Setter Property="Padding" Value="16,8" />
+        </Style>
+        <Style Selector="Border.updateBanner TextBlock.bannerText">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="13.5" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style Selector="Border.updateBanner Button.banner, Border.updateBanner Button.bannerPrimary">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="#33FFFFFF" />
+            <Setter Property="Padding" Value="12,4" />
+            <Setter Property="FontSize" Value="13" />
+        </Style>
+        <Style Selector="Border.updateBanner Button.bannerPrimary">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+        <Style Selector="Border.updateBanner ProgressBar">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="#40FFFFFF" />
+        </Style>
+
+        <!-- Minimize, maximize and close, drawn by the book on Windows and Linux (macOS keeps its own). -->
+        <Style Selector="Button.caption">
+            <Setter Property="Width" Value="46" />
+            <Setter Property="MinHeight" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Foreground" Value="#F3E9DA" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <Border Name="Bg" Background="{TemplateBinding Background}">
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Setter>
+        </Style>
+        <Style Selector="Button.caption PathIcon">
+            <Setter Property="Width" Value="14" />
+            <Setter Property="Height" Value="14" />
+        </Style>
+        <Style Selector="Button.caption:pointerover /template/ Border#Bg">
+            <Setter Property="Background" Value="#26FFFFFF" />
+        </Style>
+        <Style Selector="Button.caption.close:pointerover /template/ Border#Bg">
+            <Setter Property="Background" Value="#E81123" />
+        </Style>
+
         <Style Selector="Border.toolbar StackPanel.toolbarButtons > Button">
             <Setter Property="Foreground" Value="#F3E9DA" />
             <Setter Property="Background" Value="#26FFFFFF" />
@@ -129,14 +195,14 @@
         </Style>
 
         <!-- Covers -->
-        <Style Selector="TextBlock.coverTitle">
+        <Style Selector=":is(TextBlock).coverTitle">
             <Setter Property="FontSize" Value="44" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Foreground" Value="{StaticResource CoverGoldBrush}" />
             <Setter Property="TextAlignment" Value="Center" />
             <Setter Property="TextWrapping" Value="Wrap" />
         </Style>
-        <Style Selector="TextBlock.coverText">
+        <Style Selector=":is(TextBlock).coverText">
             <Setter Property="FontSize" Value="17" />
             <Setter Property="Foreground" Value="#E6EAF2" />
             <Setter Property="TextAlignment" Value="Center" />
