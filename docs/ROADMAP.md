@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 4 of 34 in the book: Solar System, Eclipses, Seasons, Moon phases |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 7 of 34 in the book: Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -40,6 +40,7 @@ cross-platform book.
 | `Rect.Inflate` changes the rect | it returns a new one |
 | `StreamGeometryContext.BeginFigure(p, filled, closed)` | `BeginFigure(p, filled)` … `EndFigure(closed)` |
 | `WriteableBitmap.WritePixels` | `SpaceDrawing.WritePixels` (locks the bitmap and copies rows) |
+| `OnPropertyChanged("Item[]")` for an indexer | `OnPropertyChanged("Item")` (Avalonia listens for the indexer's name) |
 
 ### Porting a chapter (the Seasons pattern)
 
@@ -54,11 +55,14 @@ cross-platform book.
    walkthrough keys exist, the spread renders and responds).
 6. The chapter view model implements `IChapterContent` (stop its walkthrough when the last of its views leaves the
    screen); page views derive from `ChapterPageView`. `ChapterTestKit` has the shared test helpers.
+7. A chapter that depends on where you are takes `BookServices.Location` and exposes it for a `LocationChip` on its
+   left page. A link to another chapter turns to `BookContents.ChapterPageOf(slug)`.
 
 ### Simplifications so far
 
-- The original's shared observer location is not in the book yet: the seasons and Moon chapters watch from Beijing
-  (a preset), and "the other hemisphere" from Sydney. A book-wide place setting can come later.
+- The shared observer location (`Explore/Places`, saved in the reader's settings, chosen from `LocationChip`) is
+  followed by Day and night and Tides. Seasons and Moon phases still watch from Beijing (a preset), and "the other
+  hemisphere" from Sydney; moving them onto the shared location is a follow-up.
 - Pages are narrower than the original window, so a few wide diagrams (the eclipse seasons view) crop at the edge.
 
 ## Narration
