@@ -1,0 +1,76 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:eclipses="using:Lemon.Explore.Book.Chapters.Eclipses"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Eclipses.EclipseDiagramPageView"
+                         x:DataType="eclipses:EclipseDiagramPageViewModel">
+    <!-- Right page of the eclipses spread: the shadows on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <eclipses:EclipseDiagram Mode="{Binding Eclipse.Mode}"
+                                         MoonAngle="{Binding Eclipse.MoonAngle}"
+                                         SeasonDay="{Binding Eclipse.SeasonDay}"
+                                         IsPlaying="{Binding Eclipse.IsPlaying}"
+                                         IsMoonNear="{Binding Eclipse.IsMoonNear}"
+                                         ObserverOffset="{Binding Eclipse.ObserverOffset}"
+                                         LunarHeight="{Binding Eclipse.LunarHeight}"
+                                         Highlight="{Binding Eclipse.Lesson.Highlight}"
+                                         IsLessonActive="{Binding Eclipse.Lesson.IsActive}"
+                                         SelectedObject="{Binding Eclipse.Card.Id}"
+                                         InteractionCommand="{Binding Eclipse.UserInteractedCommand}"
+                                         ToolTip.Tip="{Binding Eclipse.DragHint}"
+                                         AutomationProperties.Name="{Binding Eclipse.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Eclipse.Lesson}" />
+                    <Border HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Eclipse.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Eclipse.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Eclipse.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Eclipse_PlayPause}"
+                                    AutomationProperties.Name="{loc:Localize Eclipse_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Eclipse.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Eclipse.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- Timeline: the Moon's place in its orbit, or the day of the year in the seasons view. -->
+                            <Slider Width="150" Margin="6,0" VerticalAlignment="Center" Foreground="#7FB2FF"
+                                    Minimum="0" Maximum="360" Value="{Binding Eclipse.MoonAngle}" SmallChange="1" LargeChange="10"
+                                    ToolTip.Tip="{loc:Localize Eclipse_Timeline_Moon}"
+                                    AutomationProperties.Name="{loc:Localize Eclipse_Timeline_Moon}"
+                                    IsVisible="{Binding Eclipse.IsMonthly}" />
+                            <Slider Width="150" Margin="6,0" VerticalAlignment="Center" Foreground="#7FB2FF"
+                                    Minimum="0" Maximum="{Binding Eclipse.YearLength}" Value="{Binding Eclipse.DayOfYear}"
+                                    SmallChange="1" LargeChange="15"
+                                    ToolTip.Tip="{loc:Localize Eclipse_Timeline_Year}"
+                                    AutomationProperties.Name="{loc:Localize Eclipse_Timeline_Year}"
+                                    IsVisible="{Binding Eclipse.IsSeasons}" />
+                            <Button Classes="space" Command="{Binding Eclipse.ReplayCommand}">
+                                <Panel>
+                                    <TextBlock Text="{loc:Localize Eclipse_Replay}" IsVisible="{Binding !Eclipse.IsSeasons}" />
+                                    <TextBlock Text="{loc:Localize Eclipse_NextSeason}" IsVisible="{Binding Eclipse.IsSeasons}" />
+                                </Panel>
+                            </Button>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

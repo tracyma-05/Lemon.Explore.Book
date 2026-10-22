@@ -1,0 +1,166 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:eclipses="using:Lemon.Explore.Book.Chapters.Eclipses"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Eclipses.EclipseTextPageView"
+                         x:DataType="eclipses:EclipseTextPageViewModel">
+    <!-- Left page of the eclipses spread: the view from Earth, the options of each view, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="Ellipse.legend">
+            <Setter Property="Width" Value="9" />
+            <Setter Property="Height" Value="9" />
+            <Setter Property="Margin" Value="0,0,6,0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="TextBlock.legend">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <TextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <TextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <TextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Eclipse.Subtitle}" />
+                <TextBlock Classes="note" Margin="0,6,0,0" Text="{loc:Localize Eclipse_ScaleNote}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Eclipse.DragHint}" />
+                <TextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="EclipseMode" IsChecked="{Binding Eclipse.IsSolar}"
+                                 Content="{loc:Localize Eclipse_Mode_Solar}" />
+                    <RadioButton Classes="chip" GroupName="EclipseMode" IsChecked="{Binding Eclipse.IsLunar}"
+                                 Content="{loc:Localize Eclipse_Mode_Lunar}" />
+                    <RadioButton Classes="chip" GroupName="EclipseMode" IsChecked="{Binding Eclipse.IsSeasons}"
+                                 Content="{loc:Localize Eclipse_Mode_Seasons}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Eclipse.Card}" />
+
+                <!-- Solar eclipse -->
+                <StackPanel IsVisible="{Binding Eclipse.IsSolar}">
+                    <TextBlock Classes="caption" Text="{loc:Localize Eclipse_SolarSky_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <eclipses:EclipseSkyView Mode="Solar"
+                                                 MoonAngle="{Binding Eclipse.MoonAngle}"
+                                                 IsMoonNear="{Binding Eclipse.IsMoonNear}"
+                                                 ObserverOffset="{Binding Eclipse.ObserverOffset}"
+                                                 AutomationProperties.Name="{loc:Localize Eclipse_SolarSky_Caption}" />
+                    </Border>
+
+                    <TextBlock Classes="caption" Text="{loc:Localize Eclipse_Track_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <eclipses:ShadowTrackView MoonAngle="{Binding Eclipse.MoonAngle}"
+                                                  IsMoonNear="{Binding Eclipse.IsMoonNear}"
+                                                  ObserverOffset="{Binding Eclipse.ObserverOffset}"
+                                                  ToolTip.Tip="{loc:Localize Eclipse_Track_Tooltip}"
+                                                  AutomationProperties.Name="{loc:Localize Eclipse_Track_Caption}" />
+                    </Border>
+
+                    <DockPanel Margin="0,10,0,0">
+                        <TextBlock DockPanel.Dock="Left" Margin="0,0,12,0" VerticalAlignment="Center" FontSize="13"
+                                   Foreground="{StaticResource BodyInkBrush}" Text="{loc:Localize Eclipse_Observer}" />
+                        <Slider VerticalAlignment="Center" Minimum="-1" Maximum="1" Value="{Binding Eclipse.ObserverOffset}"
+                                SmallChange="0.05" LargeChange="0.2" AutomationProperties.Name="{loc:Localize Eclipse_Observer}" />
+                    </DockPanel>
+
+                    <TextBlock Classes="caption" Text="{loc:Localize Eclipse_MoonDistance}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="MoonDistance" IsChecked="{Binding Eclipse.IsMoonNear}"
+                                     Content="{loc:Localize Eclipse_MoonNear}" />
+                        <RadioButton Classes="chip" GroupName="MoonDistance" IsChecked="{Binding Eclipse.IsMoonFar}"
+                                     Content="{loc:Localize Eclipse_MoonFar}" />
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Lunar eclipse -->
+                <StackPanel IsVisible="{Binding Eclipse.IsLunar}">
+                    <TextBlock Classes="caption" Text="{loc:Localize Eclipse_LunarSky_Caption}" />
+                    <Border Classes="plate" Height="220">
+                        <eclipses:EclipseSkyView Mode="Lunar"
+                                                 MoonAngle="{Binding Eclipse.MoonAngle}"
+                                                 LunarHeight="{Binding Eclipse.LunarHeight}"
+                                                 AutomationProperties.Name="{loc:Localize Eclipse_LunarSky_Caption}" />
+                    </Border>
+
+                    <TextBlock Classes="caption" Text="{loc:Localize Eclipse_LunarPath}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LunarPath" IsChecked="{Binding Eclipse.IsPathCentral}"
+                                     Content="{loc:Localize Eclipse_Path_Central}" />
+                        <RadioButton Classes="chip" GroupName="LunarPath" IsChecked="{Binding Eclipse.IsPathOffCentre}"
+                                     Content="{loc:Localize Eclipse_Path_OffCentre}" />
+                        <RadioButton Classes="chip" GroupName="LunarPath" IsChecked="{Binding Eclipse.IsPathGrazing}"
+                                     Content="{loc:Localize Eclipse_Path_Grazing}" />
+                    </WrapPanel>
+                    <TextBlock Classes="note" Text="{loc:Localize Eclipse_LunarPath_Note}" />
+                </StackPanel>
+
+                <!-- Why not every month -->
+                <StackPanel IsVisible="{Binding Eclipse.IsSeasons}">
+                    <TextBlock Classes="caption" Text="{loc:Localize Eclipse_Chart_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <eclipses:MoonLatitudeChart Day="{Binding Eclipse.SeasonDay}"
+                                                    AutomationProperties.Name="{loc:Localize Eclipse_Chart_Caption}" />
+                    </Border>
+                    <WrapPanel Margin="0,8,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Ellipse Classes="legend" Fill="#121622" Stroke="#E0A82E" StrokeThickness="1.5" />
+                            <TextBlock Classes="legend" Text="{loc:Localize Eclipse_Legend_NewMoon}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Ellipse Classes="legend" Fill="#D8D4C6" Stroke="#8C8073" StrokeThickness="1" />
+                            <TextBlock Classes="legend" Text="{loc:Localize Eclipse_Legend_FullMoon}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Width="14" Height="9" Margin="0,0,6,0" VerticalAlignment="Center" Fill="#88E0A82E" />
+                            <TextBlock Classes="legend" Text="{loc:Localize Eclipse_Legend_SolarZone}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,14,4">
+                            <Rectangle Width="14" Height="9" Margin="0,0,6,0" VerticalAlignment="Center" Fill="#99E0703C" />
+                            <TextBlock Classes="legend" Text="{loc:Localize Eclipse_Legend_LunarZone}" />
+                        </StackPanel>
+                    </WrapPanel>
+                    <TextBlock Classes="text" Margin="0,8,0,0" Text="{Binding Eclipse.LastNewMoonText}" />
+                    <TextBlock Classes="text" Margin="0,4,0,0" Text="{Binding Eclipse.LastFullMoonText}" />
+                    <TextBlock Classes="text" Margin="0,4,0,0" Text="{Binding Eclipse.YearCountText}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the kind of eclipse -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="#0D2B2622" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Eclipse.StageBrush}" />
+                        <StackPanel Margin="14,12">
+                            <DockPanel>
+                                <TextBlock DockPanel.Dock="Right" Margin="8,0,0,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource FaintInkBrush}" Text="{Binding Eclipse.MeasureText}" />
+                                <TextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                           Foreground="{StaticResource InkBrush}" Text="{Binding Eclipse.StageTitle}" />
+                            </DockPanel>
+                            <TextBlock Classes="text" Margin="0,6,0,0" Text="{Binding Eclipse.StageDescription}" />
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <TextBlock Classes="caption" Text="{loc:Localize Eclipse_Facts}" />
+                <ItemsControl ItemsSource="{Binding Eclipse.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{StaticResource AccentBrush}" />
+                                <TextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

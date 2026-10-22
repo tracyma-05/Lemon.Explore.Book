@@ -159,6 +159,342 @@
   <data name="Diagram_Placeholder" xml:space="preserve">
     <value>Interactive picture coming soon</value>
   </data>
+  <data name="Eclipse_Chart_Caption" xml:space="preserve">
+    <value>The Moon's latitude: how far above or below the ecliptic (the Sun's path) it is</value>
+  </data>
+  <data name="Eclipse_Coverage" xml:space="preserve">
+    <value>Sun covered: {0:P0}</value>
+  </data>
+  <data name="Eclipse_DragHint_Moon" xml:space="preserve">
+    <value>Drag to move the Moon around its orbit</value>
+  </data>
+  <data name="Eclipse_DragHint_Year" xml:space="preserve">
+    <value>Drag sideways to move through the year</value>
+  </data>
+  <data name="Eclipse_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Eclipse_Label_AnnularPath" xml:space="preserve">
+    <value>Path of annularity</value>
+  </data>
+  <data name="Eclipse_Label_Antumbra" xml:space="preserve">
+    <value>Antumbra</value>
+  </data>
+  <data name="Eclipse_Label_Ecliptic" xml:space="preserve">
+    <value>Ecliptic plane</value>
+  </data>
+  <data name="Eclipse_Label_FullMoon" xml:space="preserve">
+    <value>Full moon</value>
+  </data>
+  <data name="Eclipse_Label_LunarEclipse" xml:space="preserve">
+    <value>Lunar eclipse!</value>
+  </data>
+  <data name="Eclipse_Label_MoonOrbit" xml:space="preserve">
+    <value>Moon's orbit (tilt exaggerated)</value>
+  </data>
+  <data name="Eclipse_Label_NewMoon" xml:space="preserve">
+    <value>New moon</value>
+  </data>
+  <data name="Eclipse_Label_NodeLine" xml:space="preserve">
+    <value>Line of nodes</value>
+  </data>
+  <data name="Eclipse_Label_Observer" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Eclipse_Label_Penumbra" xml:space="preserve">
+    <value>Penumbra</value>
+  </data>
+  <data name="Eclipse_Label_PenumbralEclipse" xml:space="preserve">
+    <value>Penumbral lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Label_Season" xml:space="preserve">
+    <value>Eclipse season</value>
+  </data>
+  <data name="Eclipse_Label_SolarEclipse" xml:space="preserve">
+    <value>Solar eclipse!</value>
+  </data>
+  <data name="Eclipse_Label_TotalityPath" xml:space="preserve">
+    <value>Path of totality</value>
+  </data>
+  <data name="Eclipse_Label_Umbra" xml:space="preserve">
+    <value>Umbra</value>
+  </data>
+  <data name="Eclipse_Legend_FullMoon" xml:space="preserve">
+    <value>Full moon</value>
+  </data>
+  <data name="Eclipse_Legend_LunarZone" xml:space="preserve">
+    <value>Lunar eclipse zone</value>
+  </data>
+  <data name="Eclipse_Legend_NewMoon" xml:space="preserve">
+    <value>New moon</value>
+  </data>
+  <data name="Eclipse_Legend_SolarZone" xml:space="preserve">
+    <value>Solar eclipse zone</value>
+  </data>
+  <data name="Eclipse_Lesson_Lunar_Choice1" xml:space="preserve">
+    <value>Copper red</value>
+  </data>
+  <data name="Eclipse_Lesson_Lunar_Choice2" xml:space="preserve">
+    <value>Completely black</value>
+  </data>
+  <data name="Eclipse_Lesson_Lunar_Choice3" xml:space="preserve">
+    <value>Bright blue</value>
+  </data>
+  <data name="Eclipse_Lesson_Seasons_Choice1" xml:space="preserve">
+    <value>The Moon passes just above or below the Sun</value>
+  </data>
+  <data name="Eclipse_Lesson_Seasons_Choice2" xml:space="preserve">
+    <value>There's always a solar eclipse</value>
+  </data>
+  <data name="Eclipse_Lesson_Seasons_Choice3" xml:space="preserve">
+    <value>The Moon stops moving</value>
+  </data>
+  <data name="Eclipse_Lesson_Solar_Choice1" xml:space="preserve">
+    <value>The Sun completely hidden</value>
+  </data>
+  <data name="Eclipse_Lesson_Solar_Choice2" xml:space="preserve">
+    <value>Only part of the Sun hidden</value>
+  </data>
+  <data name="Eclipse_Lesson_Solar_Choice3" xml:space="preserve">
+    <value>Nothing special</value>
+  </data>
+  <data name="Eclipse_LunarPath" xml:space="preserve">
+    <value>The Moon's path through Earth's shadow</value>
+  </data>
+  <data name="Eclipse_LunarPath_Note" xml:space="preserve">
+    <value>Where the Moon passes depends on how close to a node the full moon falls (see “Why not every month?”).</value>
+  </data>
+  <data name="Eclipse_LunarSky_Caption" xml:space="preserve">
+    <value>The Moon seen from Earth's night side</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact1" xml:space="preserve">
+    <value>A lunar eclipse can only happen at full moon, when Earth is between the Sun and the Moon.</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact2" xml:space="preserve">
+    <value>Everyone on Earth's night side sees it at the same time. It lasts hours, and totality alone can last up to about 1 hour 40 minutes.</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact3" xml:space="preserve">
+    <value>The red is the light of all of Earth's sunrises and sunsets at once: Earth's atmosphere bends sunlight into the umbra and scatters the blue away.</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact4" xml:space="preserve">
+    <value>A lunar eclipse is completely safe to watch with the naked eye.</value>
+  </data>
+  <data name="Eclipse_Lunar_Subtitle" xml:space="preserve">
+    <value>Lunar eclipse: at full moon, the Moon passes through Earth's shadow</value>
+  </data>
+  <data name="Eclipse_Mode_Lunar" xml:space="preserve">
+    <value>Lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Mode_Seasons" xml:space="preserve">
+    <value>Why not every month?</value>
+  </data>
+  <data name="Eclipse_Mode_Solar" xml:space="preserve">
+    <value>Solar eclipse</value>
+  </data>
+  <data name="Eclipse_MoonDistance" xml:space="preserve">
+    <value>Distance of the Moon</value>
+  </data>
+  <data name="Eclipse_MoonFar" xml:space="preserve">
+    <value>Far (apogee)</value>
+  </data>
+  <data name="Eclipse_MoonNear" xml:space="preserve">
+    <value>Near (perigee)</value>
+  </data>
+  <data name="Eclipse_NextSeason" xml:space="preserve">
+    <value>Next eclipse season</value>
+  </data>
+  <data name="Eclipse_Obj_Antumbra" xml:space="preserve">
+    <value>Antumbra</value>
+  </data>
+  <data name="Eclipse_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Eclipse_Obj_Ecliptic" xml:space="preserve">
+    <value>Plane of the ecliptic</value>
+  </data>
+  <data name="Eclipse_Obj_FullMoon" xml:space="preserve">
+    <value>Full moon</value>
+  </data>
+  <data name="Eclipse_Obj_Moon" xml:space="preserve">
+    <value>The Moon</value>
+  </data>
+  <data name="Eclipse_Obj_MoonOrbit" xml:space="preserve">
+    <value>The Moon's orbit</value>
+  </data>
+  <data name="Eclipse_Obj_NewMoon" xml:space="preserve">
+    <value>New moon</value>
+  </data>
+  <data name="Eclipse_Obj_NodeLine" xml:space="preserve">
+    <value>Line of nodes</value>
+  </data>
+  <data name="Eclipse_Obj_Observer" xml:space="preserve">
+    <value>Your position</value>
+  </data>
+  <data name="Eclipse_Obj_Penumbra" xml:space="preserve">
+    <value>Penumbra</value>
+  </data>
+  <data name="Eclipse_Obj_Season" xml:space="preserve">
+    <value>Eclipse season</value>
+  </data>
+  <data name="Eclipse_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Eclipse_Obj_Umbra" xml:space="preserve">
+    <value>Umbra</value>
+  </data>
+  <data name="Eclipse_Observer" xml:space="preserve">
+    <value>Your position</value>
+  </data>
+  <data name="Eclipse_Path_Central" xml:space="preserve">
+    <value>Through the centre</value>
+  </data>
+  <data name="Eclipse_Path_Grazing" xml:space="preserve">
+    <value>Only the penumbra</value>
+  </data>
+  <data name="Eclipse_Path_OffCentre" xml:space="preserve">
+    <value>Off centre</value>
+  </data>
+  <data name="Eclipse_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Eclipse_Replay" xml:space="preserve">
+    <value>Replay</value>
+  </data>
+  <data name="Eclipse_Result_Lunar" xml:space="preserve">
+    <value>a lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Result_None" xml:space="preserve">
+    <value>no eclipse</value>
+  </data>
+  <data name="Eclipse_Result_Penumbral" xml:space="preserve">
+    <value>a penumbral lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Result_Solar" xml:space="preserve">
+    <value>a solar eclipse</value>
+  </data>
+  <data name="Eclipse_ScaleNote" xml:space="preserve">
+    <value>Sizes and distances are not to scale</value>
+  </data>
+  <data name="Eclipse_Season_LastFullMoon" xml:space="preserve">
+    <value>Last full moon: the Moon passed {0}° from the centre of Earth's shadow, {1}.</value>
+  </data>
+  <data name="Eclipse_Season_LastNewMoon" xml:space="preserve">
+    <value>Last new moon: the Moon passed {0}° from the Sun's path, {1}.</value>
+  </data>
+  <data name="Eclipse_Season_YearCount" xml:space="preserve">
+    <value>Past 12 months: {0} solar, {1} lunar and {2} penumbral lunar eclipses.</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact1" xml:space="preserve">
+    <value>The Moon's orbit is tilted about 5.1° to the plane of Earth's orbit (the ecliptic); the picture exaggerates the tilt. The two planes cross along the line of nodes.</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact2" xml:space="preserve">
+    <value>Most months the new moon passes a little above or below the Sun, and the full moon above or below Earth's shadow, so nothing happens.</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact3" xml:space="preserve">
+    <value>Twice a year the line of nodes points at the Sun. These eclipse seasons last about 34 days, longer than a month (29.5 days), so each brings at least one solar eclipse: there are 2 to 5 a year.</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact4" xml:space="preserve">
+    <value>The line of nodes slowly turns, once every 18.6 years, so the eclipse seasons come about 19 days earlier each year. The picture leaves this out.</value>
+  </data>
+  <data name="Eclipse_Seasons_Subtitle" xml:space="preserve">
+    <value>Why not every month? Because the Moon's orbit is tilted</value>
+  </data>
+  <data name="Eclipse_SolarSky_Caption" xml:space="preserve">
+    <value>What you see from Earth</value>
+  </data>
+  <data name="Eclipse_Solar_Fact1" xml:space="preserve">
+    <value>The Sun is about 400 times wider than the Moon and about 400 times farther away, so the two look almost the same size in the sky: just enough for the Moon to cover the Sun.</value>
+  </data>
+  <data name="Eclipse_Solar_Fact2" xml:space="preserve">
+    <value>A solar eclipse can only happen at new moon. The Moon's umbra is small, so totality is seen only along a narrow path, usually 100–200 km wide; on either side people see a partial eclipse.</value>
+  </data>
+  <data name="Eclipse_Solar_Fact3" xml:space="preserve">
+    <value>Totality lasts a few minutes at most, never more than about 7½. At any one place a total eclipse comes round only once every few hundred years on average.</value>
+  </data>
+  <data name="Eclipse_Solar_Fact4" xml:space="preserve">
+    <value>Never look at the Sun directly, or through a camera, binoculars or a telescope, without a proper solar filter, not even when most of it is covered. Only during totality is it safe to look.</value>
+  </data>
+  <data name="Eclipse_Solar_Subtitle" xml:space="preserve">
+    <value>Solar eclipse: at new moon, the Moon's shadow falls on Earth</value>
+  </data>
+  <data name="Eclipse_Stage_InSeason" xml:space="preserve">
+    <value>Eclipse season</value>
+  </data>
+  <data name="Eclipse_Stage_InSeason_Description" xml:space="preserve">
+    <value>The line of nodes points (nearly) at the Sun. For about five weeks the new and full moons fall close to the ecliptic, so eclipses happen.</value>
+  </data>
+  <data name="Eclipse_Stage_LunarNone" xml:space="preserve">
+    <value>No lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_LunarNone_Description" xml:space="preserve">
+    <value>No eclipse right now. A lunar eclipse can only happen at full moon, when the Moon passes behind Earth into its shadow.</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPartial" xml:space="preserve">
+    <value>Partial lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPartial_Description" xml:space="preserve">
+    <value>Part of the Moon is in Earth's umbra and looks as if a dark bite had been taken out of it.</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPenumbral" xml:space="preserve">
+    <value>Penumbral lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPenumbral_Description" xml:space="preserve">
+    <value>The Moon is in Earth's penumbra, where only part of the Sun is hidden. It dims a little, which is easy to miss with the naked eye.</value>
+  </data>
+  <data name="Eclipse_Stage_LunarTotal" xml:space="preserve">
+    <value>Total lunar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_LunarTotal_Description" xml:space="preserve">
+    <value>The whole Moon is in Earth's umbra. It does not go black: sunlight bent through Earth's atmosphere still reaches it, and as the blue is scattered away on the way, the Moon glows copper red.</value>
+  </data>
+  <data name="Eclipse_Stage_OutOfSeason" xml:space="preserve">
+    <value>Outside an eclipse season</value>
+  </data>
+  <data name="Eclipse_Stage_OutOfSeason_Description" xml:space="preserve">
+    <value>The line of nodes points away from the Sun. At new and full moon the Moon passes above or below the Sun or Earth's shadow, so there is no eclipse.</value>
+  </data>
+  <data name="Eclipse_Stage_SolarAnnular" xml:space="preserve">
+    <value>Annular solar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_SolarAnnular_Description" xml:space="preserve">
+    <value>The Moon is near its farthest point and looks a little smaller than the Sun, so its umbra ends before it reaches Earth. You are in the antumbra and see a ring of fire around the Moon.</value>
+  </data>
+  <data name="Eclipse_Stage_SolarNone" xml:space="preserve">
+    <value>No solar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_SolarNone_Description" xml:space="preserve">
+    <value>No eclipse right now. A solar eclipse can only happen at new moon, when the Moon passes between the Sun and Earth, and only where its shadow falls.</value>
+  </data>
+  <data name="Eclipse_Stage_SolarPartial" xml:space="preserve">
+    <value>Partial solar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_SolarPartial_Description" xml:space="preserve">
+    <value>You are in the Moon's penumbra: from here the Moon covers only part of the Sun. Without eclipse glasses you would hardly notice the daylight fading.</value>
+  </data>
+  <data name="Eclipse_Stage_SolarTotal" xml:space="preserve">
+    <value>Total solar eclipse</value>
+  </data>
+  <data name="Eclipse_Stage_SolarTotal_Description" xml:space="preserve">
+    <value>You are in the Moon's umbra: the Sun is completely hidden. The sky turns dark, bright stars and planets appear, and the Sun's pearly corona shines around the black Moon.</value>
+  </data>
+  <data name="Eclipse_Timeline_Moon" xml:space="preserve">
+    <value>The Moon's position in its orbit</value>
+  </data>
+  <data name="Eclipse_Timeline_Year" xml:space="preserve">
+    <value>Time of year</value>
+  </data>
+  <data name="Eclipse_Title" xml:space="preserve">
+    <value>Eclipses</value>
+  </data>
+  <data name="Eclipse_Track_Caption" xml:space="preserve">
+    <value>Earth seen from the Sun: the Moon's shadow sweeps across</value>
+  </data>
+  <data name="Eclipse_Track_Tooltip" xml:space="preserve">
+    <value>Drag (or use the arrow keys) to move north or south of the eclipse path</value>
+  </data>
+  <data name="Eclipse_UmbraCoverage" xml:space="preserve">
+    <value>In the umbra: {0:P0}</value>
+  </data>
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>Click anything in the picture to hear what it is</value>
   </data>
@@ -245,6 +581,123 @@
   </data>
   <data name="Narr_Common_Wrong" xml:space="preserve">
     <value>Not quite. Let's look at the answer.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_01" xml:space="preserve">
+    <value>Now it's Earth's turn to cast a shadow. Like the Moon's, it points straight away from the Sun, out into space.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_02" xml:space="preserve">
+    <value>When the Moon is on the far side of Earth from the Sun, it's full moon. That's the only time it can pass through Earth's shadow.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_03" xml:space="preserve">
+    <value>Earth's umbra is much wider than the Moon, so the whole Moon fits inside it. That's why a total lunar eclipse can last for more than an hour.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_04" xml:space="preserve">
+    <value>Now the Moon is deep in Earth's umbra. Think about it: what colour does it turn?</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_05" xml:space="preserve">
+    <value>Copper red. Earth's air bends a little sunlight into the shadow, and on the way the blue light is scattered away, just like at sunset. In a way, the Moon is lit by all the sunrises and sunsets on Earth at once.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_06" xml:space="preserve">
+    <value>And unlike a solar eclipse, everyone on the night side of Earth can see a lunar eclipse, all at the same time.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_07" xml:space="preserve">
+    <value>Now you try. In the panel on the right, choose a different path for the Moon through Earth's shadow, and watch how the eclipse changes.</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_08" xml:space="preserve">
+    <value>If the Moon only passes through the penumbra, it just dims a little. It's so faint that most people never notice.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Antumbra" xml:space="preserve">
+    <value>The antumbra, beyond the tip of the umbra. From here, the Moon looks a little smaller than the Sun, so you see a ring of sunlight around it. That's an annular eclipse.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Earth" xml:space="preserve">
+    <value>Earth. The side facing the Sun is in daytime. Its shadow points away from the Sun, and at full moon the Moon can pass through it.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Ecliptic" xml:space="preserve">
+    <value>The plane of Earth's orbit, called the plane of the ecliptic. Seen from Earth, the Sun always moves along it.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_FullMoon" xml:space="preserve">
+    <value>Full moon. Earth is between the Sun and the Moon, and we see the Moon's whole lit side. Only now can a lunar eclipse happen.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Moon" xml:space="preserve">
+    <value>The Moon. At new moon its shadow can fall on Earth, and at full moon it can move into Earth's shadow. In the side views you can drag it around its orbit.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_MoonOrbit" xml:space="preserve">
+    <value>The Moon's orbit, tilted by about five degrees, drawn steeper here. The solid half is above the plane of Earth's orbit, and the dashed half is below.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_NewMoon" xml:space="preserve">
+    <value>New moon. The Moon is between the Sun and Earth, and its lit side faces away from us. Only now can a solar eclipse happen.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_NodeLine" xml:space="preserve">
+    <value>The line of nodes, joining the two points where the Moon crosses the plane of Earth's orbit. When it points at the Sun, it's eclipse season.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Observer" xml:space="preserve">
+    <value>This is you, on Earth's day side, where it's around noon. In the panel on the right, you can move north or south and see how the eclipse looks from there.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Penumbra" xml:space="preserve">
+    <value>The penumbra, the lighter shadow around the umbra. From here, only part of the Sun is hidden.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Season" xml:space="preserve">
+    <value>An eclipse season. While Earth is on this stretch of its orbit, the line of nodes points close to the Sun, and eclipses can happen.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Sun" xml:space="preserve">
+    <value>The Sun. It's about four hundred times wider than the Moon, and about four hundred times farther away. That's why the two look almost the same size in our sky.</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Umbra" xml:space="preserve">
+    <value>The umbra, the darkest part of a shadow. From inside it, the Sun is completely hidden.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_01" xml:space="preserve">
+    <value>If there's a new moon every month, why isn't there a solar eclipse every month? Here's Earth going round the Sun over a year, with the Moon going round Earth.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_02" xml:space="preserve">
+    <value>Look at the Moon's orbit. It's tilted, really by about five degrees, drawn steeper here so you can see it. The solid blue half is above the plane of Earth's orbit, and the dashed orange half is below it.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_03" xml:space="preserve">
+    <value>The Moon crosses the plane of Earth's orbit at two points, called nodes. The line joining them is the line of nodes.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_04" xml:space="preserve">
+    <value>Think about it. In most months, what happens at new moon?</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_05" xml:space="preserve">
+    <value>Most of the time, the Moon passes just above or below the Sun, so its shadow misses Earth. For an eclipse, the new or full moon has to fall close to a node.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_06" xml:space="preserve">
+    <value>That only happens when the line of nodes points towards the Sun: twice a year, for about five weeks each time. These are the eclipse seasons.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_07" xml:space="preserve">
+    <value>Every eclipse season brings at least one solar eclipse somewhere on Earth, and often a lunar eclipse too. That's why there are between four and seven eclipses every year.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_08" xml:space="preserve">
+    <value>Now you try. Drag across the picture to move through the year, and find the next eclipse season.</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_09" xml:space="preserve">
+    <value>The line of nodes slowly turns, so the eclipse seasons come about nineteen days earlier each year.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_01" xml:space="preserve">
+    <value>This is a view from far above. The Sun is on the left, Earth on the right, and the Moon goes round Earth. The sizes and distances aren't to scale, or the Sun would be far off the screen.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_02" xml:space="preserve">
+    <value>The Moon goes round Earth about once a month. When it passes between the Sun and Earth, we call it new moon.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_03" xml:space="preserve">
+    <value>Like everything in sunlight, the Moon casts a shadow. The darkest part is called the umbra. Inside it, the Sun is completely hidden.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_04" xml:space="preserve">
+    <value>Around it is a lighter shadow, the penumbra. From there, the Moon covers only part of the Sun.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_05" xml:space="preserve">
+    <value>Now the Moon's shadow falls on Earth. Think about it: if you stood right inside the umbra, what would you see?</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_06" xml:space="preserve">
+    <value>A total solar eclipse. The sky goes dark, bright stars come out, and the Sun's pearly corona glows around the black Moon. The umbra only covers a narrow strip of Earth, so most people see a partial eclipse instead.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_07" xml:space="preserve">
+    <value>The Moon's distance from Earth changes a little. When it's farther away, its umbra is too short to reach Earth. Then we see an annular eclipse: a ring of fire around the Moon.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_08" xml:space="preserve">
+    <value>Now you try. Drag the Moon around its orbit, and watch its shadow sweep across Earth.</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
+    <value>So a solar eclipse can only happen at new moon. At full moon, it's the Moon's turn to move into Earth's shadow. That's a lunar eclipse.</value>
   </data>
   <data name="Narr_Seasons_Distance_01" xml:space="preserve">
     <value>Lots of people think summer is warm because Earth is closer to the Sun. And Earth's path really isn't a perfect circle. It's a very slightly squashed oval.</value>

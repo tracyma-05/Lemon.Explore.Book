@@ -159,6 +159,342 @@
   <data name="Diagram_Placeholder" xml:space="preserve">
     <value>互动图即将到来</value>
   </data>
+  <data name="Eclipse_Chart_Caption" xml:space="preserve">
+    <value>月球的黄纬：它在黄道（太阳路径）上方或下方多远</value>
+  </data>
+  <data name="Eclipse_Coverage" xml:space="preserve">
+    <value>太阳被遮住 {0:P0}</value>
+  </data>
+  <data name="Eclipse_DragHint_Moon" xml:space="preserve">
+    <value>拖动可以让月球沿轨道移动</value>
+  </data>
+  <data name="Eclipse_DragHint_Year" xml:space="preserve">
+    <value>左右拖动可以在一年里前后移动</value>
+  </data>
+  <data name="Eclipse_Facts" xml:space="preserve">
+    <value>小知识</value>
+  </data>
+  <data name="Eclipse_Label_AnnularPath" xml:space="preserve">
+    <value>环食带</value>
+  </data>
+  <data name="Eclipse_Label_Antumbra" xml:space="preserve">
+    <value>伪本影</value>
+  </data>
+  <data name="Eclipse_Label_Ecliptic" xml:space="preserve">
+    <value>黄道面</value>
+  </data>
+  <data name="Eclipse_Label_FullMoon" xml:space="preserve">
+    <value>满月</value>
+  </data>
+  <data name="Eclipse_Label_LunarEclipse" xml:space="preserve">
+    <value>月食！</value>
+  </data>
+  <data name="Eclipse_Label_MoonOrbit" xml:space="preserve">
+    <value>月球轨道（倾角已放大）</value>
+  </data>
+  <data name="Eclipse_Label_NewMoon" xml:space="preserve">
+    <value>新月</value>
+  </data>
+  <data name="Eclipse_Label_NodeLine" xml:space="preserve">
+    <value>交点线</value>
+  </data>
+  <data name="Eclipse_Label_Observer" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Eclipse_Label_Penumbra" xml:space="preserve">
+    <value>半影</value>
+  </data>
+  <data name="Eclipse_Label_PenumbralEclipse" xml:space="preserve">
+    <value>半影月食</value>
+  </data>
+  <data name="Eclipse_Label_Season" xml:space="preserve">
+    <value>食季</value>
+  </data>
+  <data name="Eclipse_Label_SolarEclipse" xml:space="preserve">
+    <value>日食！</value>
+  </data>
+  <data name="Eclipse_Label_TotalityPath" xml:space="preserve">
+    <value>全食带</value>
+  </data>
+  <data name="Eclipse_Label_Umbra" xml:space="preserve">
+    <value>本影</value>
+  </data>
+  <data name="Eclipse_Legend_FullMoon" xml:space="preserve">
+    <value>满月</value>
+  </data>
+  <data name="Eclipse_Legend_LunarZone" xml:space="preserve">
+    <value>月食范围</value>
+  </data>
+  <data name="Eclipse_Legend_NewMoon" xml:space="preserve">
+    <value>新月</value>
+  </data>
+  <data name="Eclipse_Legend_SolarZone" xml:space="preserve">
+    <value>日食范围</value>
+  </data>
+  <data name="Eclipse_Lesson_Lunar_Choice1" xml:space="preserve">
+    <value>红铜色</value>
+  </data>
+  <data name="Eclipse_Lesson_Lunar_Choice2" xml:space="preserve">
+    <value>完全变黑</value>
+  </data>
+  <data name="Eclipse_Lesson_Lunar_Choice3" xml:space="preserve">
+    <value>亮蓝色</value>
+  </data>
+  <data name="Eclipse_Lesson_Seasons_Choice1" xml:space="preserve">
+    <value>月球从太阳的上方或下方经过</value>
+  </data>
+  <data name="Eclipse_Lesson_Seasons_Choice2" xml:space="preserve">
+    <value>一定会发生日食</value>
+  </data>
+  <data name="Eclipse_Lesson_Seasons_Choice3" xml:space="preserve">
+    <value>月球停下来不动</value>
+  </data>
+  <data name="Eclipse_Lesson_Solar_Choice1" xml:space="preserve">
+    <value>太阳被完全挡住</value>
+  </data>
+  <data name="Eclipse_Lesson_Solar_Choice2" xml:space="preserve">
+    <value>太阳只缺了一块</value>
+  </data>
+  <data name="Eclipse_Lesson_Solar_Choice3" xml:space="preserve">
+    <value>什么也看不出来</value>
+  </data>
+  <data name="Eclipse_LunarPath" xml:space="preserve">
+    <value>月球穿过地影的路径</value>
+  </data>
+  <data name="Eclipse_LunarPath_Note" xml:space="preserve">
+    <value>月球从哪里穿过，取决于满月时它离交点有多近（见“为何不是每月都有？”）。</value>
+  </data>
+  <data name="Eclipse_LunarSky_Caption" xml:space="preserve">
+    <value>从地球夜半球看月亮</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact1" xml:space="preserve">
+    <value>月食只发生在满月（望），这时地球位于太阳和月球之间。</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact2" xml:space="preserve">
+    <value>整个夜半球的人都能同时看到月食。整个过程长达数小时，其中全食阶段最长约 1 小时 40 分钟。</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact3" xml:space="preserve">
+    <value>月亮的红色来自地球上所有日出和日落的光：地球大气把阳光折射进本影，蓝光在途中被散射掉，只剩下红光。</value>
+  </data>
+  <data name="Eclipse_Lunar_Fact4" xml:space="preserve">
+    <value>月食可以用肉眼安全地直接观看。</value>
+  </data>
+  <data name="Eclipse_Lunar_Subtitle" xml:space="preserve">
+    <value>月食：满月时，月球穿过地球的影子</value>
+  </data>
+  <data name="Eclipse_Mode_Lunar" xml:space="preserve">
+    <value>月食</value>
+  </data>
+  <data name="Eclipse_Mode_Seasons" xml:space="preserve">
+    <value>为何不是每月都有？</value>
+  </data>
+  <data name="Eclipse_Mode_Solar" xml:space="preserve">
+    <value>日食</value>
+  </data>
+  <data name="Eclipse_MoonDistance" xml:space="preserve">
+    <value>月球距离</value>
+  </data>
+  <data name="Eclipse_MoonFar" xml:space="preserve">
+    <value>远（远地点）</value>
+  </data>
+  <data name="Eclipse_MoonNear" xml:space="preserve">
+    <value>近（近地点）</value>
+  </data>
+  <data name="Eclipse_NextSeason" xml:space="preserve">
+    <value>下一个食季</value>
+  </data>
+  <data name="Eclipse_Obj_Antumbra" xml:space="preserve">
+    <value>伪本影</value>
+  </data>
+  <data name="Eclipse_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Eclipse_Obj_Ecliptic" xml:space="preserve">
+    <value>黄道面</value>
+  </data>
+  <data name="Eclipse_Obj_FullMoon" xml:space="preserve">
+    <value>满月</value>
+  </data>
+  <data name="Eclipse_Obj_Moon" xml:space="preserve">
+    <value>月球</value>
+  </data>
+  <data name="Eclipse_Obj_MoonOrbit" xml:space="preserve">
+    <value>月球轨道</value>
+  </data>
+  <data name="Eclipse_Obj_NewMoon" xml:space="preserve">
+    <value>新月</value>
+  </data>
+  <data name="Eclipse_Obj_NodeLine" xml:space="preserve">
+    <value>交点线</value>
+  </data>
+  <data name="Eclipse_Obj_Observer" xml:space="preserve">
+    <value>你的位置</value>
+  </data>
+  <data name="Eclipse_Obj_Penumbra" xml:space="preserve">
+    <value>半影</value>
+  </data>
+  <data name="Eclipse_Obj_Season" xml:space="preserve">
+    <value>食季</value>
+  </data>
+  <data name="Eclipse_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Eclipse_Obj_Umbra" xml:space="preserve">
+    <value>本影</value>
+  </data>
+  <data name="Eclipse_Observer" xml:space="preserve">
+    <value>你的位置</value>
+  </data>
+  <data name="Eclipse_Path_Central" xml:space="preserve">
+    <value>穿过中心</value>
+  </data>
+  <data name="Eclipse_Path_Grazing" xml:space="preserve">
+    <value>只经过半影</value>
+  </data>
+  <data name="Eclipse_Path_OffCentre" xml:space="preserve">
+    <value>偏离中心</value>
+  </data>
+  <data name="Eclipse_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Eclipse_Replay" xml:space="preserve">
+    <value>重新演示</value>
+  </data>
+  <data name="Eclipse_Result_Lunar" xml:space="preserve">
+    <value>发生月食</value>
+  </data>
+  <data name="Eclipse_Result_None" xml:space="preserve">
+    <value>没有发生食</value>
+  </data>
+  <data name="Eclipse_Result_Penumbral" xml:space="preserve">
+    <value>发生半影月食</value>
+  </data>
+  <data name="Eclipse_Result_Solar" xml:space="preserve">
+    <value>发生日食</value>
+  </data>
+  <data name="Eclipse_ScaleNote" xml:space="preserve">
+    <value>大小和距离均未按比例绘制</value>
+  </data>
+  <data name="Eclipse_Season_LastFullMoon" xml:space="preserve">
+    <value>上次满月：月球偏离地影中心 {0}°，{1}。</value>
+  </data>
+  <data name="Eclipse_Season_LastNewMoon" xml:space="preserve">
+    <value>上次新月：月球偏离太阳路径 {0}°，{1}。</value>
+  </data>
+  <data name="Eclipse_Season_YearCount" xml:space="preserve">
+    <value>过去 12 个月：日食 {0} 次，月食 {1} 次，半影月食 {2} 次。</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact1" xml:space="preserve">
+    <value>月球轨道相对地球公转轨道面（黄道面）倾斜约 5.1°，图中把倾角放大了。两个轨道面的交线叫交点线。</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact2" xml:space="preserve">
+    <value>大多数月份里，新月时月球从太阳的上方或下方经过，满月时从地球影子的上方或下方经过，所以不会发生食。</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact3" xml:space="preserve">
+    <value>每年有两次交点线指向太阳，称为食季。每个食季约 34 天，比一个朔望月（29.5 天）长，所以每个食季至少有一次日食：每年有 2 到 5 次日食。</value>
+  </data>
+  <data name="Eclipse_Seasons_Fact4" xml:space="preserve">
+    <value>交点线会缓慢转动，每 18.6 年转一圈，所以食季每年提前约 19 天。图中忽略了这一点。</value>
+  </data>
+  <data name="Eclipse_Seasons_Subtitle" xml:space="preserve">
+    <value>为什么不是每个月都有？因为月球轨道是倾斜的</value>
+  </data>
+  <data name="Eclipse_SolarSky_Caption" xml:space="preserve">
+    <value>你在地面上看到的天空</value>
+  </data>
+  <data name="Eclipse_Solar_Fact1" xml:space="preserve">
+    <value>太阳的直径约是月球的 400 倍，离地球也约远 400 倍，所以两者在天空中看起来几乎一样大——月球恰好能挡住太阳。</value>
+  </data>
+  <data name="Eclipse_Solar_Fact2" xml:space="preserve">
+    <value>日食只发生在新月（朔）。月球的本影很小，只有在一条狭窄的全食带（通常宽 100–200 公里）里才能看到日全食，两侧的人只能看到日偏食。</value>
+  </data>
+  <data name="Eclipse_Solar_Fact3" xml:space="preserve">
+    <value>日全食最多只持续几分钟，从不超过约 7 分半。对同一个地点来说，平均几百年才轮到一次日全食。</value>
+  </data>
+  <data name="Eclipse_Solar_Fact4" xml:space="preserve">
+    <value>切勿直接或通过相机、望远镜观看太阳，必须使用合格的太阳滤镜——即使太阳大部分被遮住也一样。只有在全食阶段才可以直接观看。</value>
+  </data>
+  <data name="Eclipse_Solar_Subtitle" xml:space="preserve">
+    <value>日食：新月时，月球的影子落在地球上</value>
+  </data>
+  <data name="Eclipse_Stage_InSeason" xml:space="preserve">
+    <value>食季</value>
+  </data>
+  <data name="Eclipse_Stage_InSeason_Description" xml:space="preserve">
+    <value>交点线（几乎）指向太阳。在大约五周内，新月和满月都很靠近黄道，因此会发生日食或月食。</value>
+  </data>
+  <data name="Eclipse_Stage_LunarNone" xml:space="preserve">
+    <value>无月食</value>
+  </data>
+  <data name="Eclipse_Stage_LunarNone_Description" xml:space="preserve">
+    <value>现在没有月食。只有在满月、月球运行到地球背后进入地球影子时才可能发生月食。</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPartial" xml:space="preserve">
+    <value>月偏食</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPartial_Description" xml:space="preserve">
+    <value>月球的一部分进入了地球本影，看起来像被咬掉了一块。</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPenumbral" xml:space="preserve">
+    <value>半影月食</value>
+  </data>
+  <data name="Eclipse_Stage_LunarPenumbral_Description" xml:space="preserve">
+    <value>月球位于地球的半影中，那里只有部分阳光被挡住。月亮只是稍微变暗，肉眼很容易忽略。</value>
+  </data>
+  <data name="Eclipse_Stage_LunarTotal" xml:space="preserve">
+    <value>月全食</value>
+  </data>
+  <data name="Eclipse_Stage_LunarTotal_Description" xml:space="preserve">
+    <value>整个月球都在地球本影中。它不会完全变黑：阳光经地球大气折射后仍能照到月面，蓝光在途中被散射掉，月亮呈现红铜色（“血月”）。</value>
+  </data>
+  <data name="Eclipse_Stage_OutOfSeason" xml:space="preserve">
+    <value>非食季</value>
+  </data>
+  <data name="Eclipse_Stage_OutOfSeason_Description" xml:space="preserve">
+    <value>交点线没有指向太阳。新月和满月时，月球从太阳或地球影子的上方或下方经过，不会发生食。</value>
+  </data>
+  <data name="Eclipse_Stage_SolarAnnular" xml:space="preserve">
+    <value>日环食</value>
+  </data>
+  <data name="Eclipse_Stage_SolarAnnular_Description" xml:space="preserve">
+    <value>月球接近远地点，看起来比太阳略小，它的本影到达不了地面。你位于伪本影中，会看到月球周围一圈“金环”。</value>
+  </data>
+  <data name="Eclipse_Stage_SolarNone" xml:space="preserve">
+    <value>无日食</value>
+  </data>
+  <data name="Eclipse_Stage_SolarNone_Description" xml:space="preserve">
+    <value>现在没有日食。只有在新月、月球从太阳和地球之间经过时才可能发生日食，而且只有月影落到的地方才看得到。</value>
+  </data>
+  <data name="Eclipse_Stage_SolarPartial" xml:space="preserve">
+    <value>日偏食</value>
+  </data>
+  <data name="Eclipse_Stage_SolarPartial_Description" xml:space="preserve">
+    <value>你位于月球的半影中：从这里看，月球只挡住了太阳的一部分。如果不戴日食眼镜，几乎察觉不到天色变暗。</value>
+  </data>
+  <data name="Eclipse_Stage_SolarTotal" xml:space="preserve">
+    <value>日全食</value>
+  </data>
+  <data name="Eclipse_Stage_SolarTotal_Description" xml:space="preserve">
+    <value>你位于月球的本影中：太阳被完全挡住。天空变暗，亮星和行星出现，黑色的月球周围闪耀着珍珠色的日冕。</value>
+  </data>
+  <data name="Eclipse_Timeline_Moon" xml:space="preserve">
+    <value>月球在轨道上的位置</value>
+  </data>
+  <data name="Eclipse_Timeline_Year" xml:space="preserve">
+    <value>一年中的时间</value>
+  </data>
+  <data name="Eclipse_Title" xml:space="preserve">
+    <value>日食与月食</value>
+  </data>
+  <data name="Eclipse_Track_Caption" xml:space="preserve">
+    <value>从太阳看地球：月影扫过地面</value>
+  </data>
+  <data name="Eclipse_Track_Tooltip" xml:space="preserve">
+    <value>拖动（或用上下方向键）把自己移到食带的北边或南边</value>
+  </data>
+  <data name="Eclipse_UmbraCoverage" xml:space="preserve">
+    <value>进入本影 {0:P0}</value>
+  </data>
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>点一下画面里的东西，听听它是什么</value>
   </data>
@@ -245,6 +581,123 @@
   </data>
   <data name="Narr_Common_Wrong" xml:space="preserve">
     <value>不太对哦，我们来看看答案。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_01" xml:space="preserve">
+    <value>这回轮到地球投下影子了。和月球的影子一样，它背着太阳，一直伸向太空深处。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_02" xml:space="preserve">
+    <value>当月球走到地球背着太阳的那一边，就是满月。只有这时候，它才可能穿过地球的影子。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_03" xml:space="preserve">
+    <value>地球的本影比月球宽得多，整个月球都能装进去。所以月全食可以持续一个多小时。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_04" xml:space="preserve">
+    <value>现在月球深深地进入了地球的本影。想一想：它会变成什么颜色？</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_05" xml:space="preserve">
+    <value>红铜色。地球的大气会把一点阳光折进影子里，路上蓝光被散射掉了，就像日落时一样。可以说，这时的月亮，是被地球上所有的日出和日落一起照亮的。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_06" xml:space="preserve">
+    <value>而且和日食不一样，地球上所有处在夜晚的地方，都能在同一时间看到月食。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_07" xml:space="preserve">
+    <value>现在你来试试：在右边面板里，给月球换一条穿过地球影子的路线，看看月食会变成什么样。</value>
+  </data>
+  <data name="Narr_Eclipse_Lunar_08" xml:space="preserve">
+    <value>如果月球只穿过半影，它只会稍微暗一点，淡到大多数人根本察觉不到。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Antumbra" xml:space="preserve">
+    <value>伪本影，在本影尖端的后面。从这里看，月亮比太阳稍小一点，四周露出一圈阳光，这就是日环食。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Earth" xml:space="preserve">
+    <value>地球。朝着太阳的一面是白天。它的影子背着太阳伸出去，满月时，月球可能会穿过这个影子。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Ecliptic" xml:space="preserve">
+    <value>地球轨道所在的平面，叫黄道面。从地球上看，太阳总是沿着它移动。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_FullMoon" xml:space="preserve">
+    <value>满月。地球在太阳和月球中间，我们能看到月球被照亮的整整一面。只有这时候，才可能发生月食。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Moon" xml:space="preserve">
+    <value>月球。新月时，它的影子可能落到地球上；满月时，它可能走进地球的影子里。在日食和月食的画面里，你可以拖着它沿轨道走。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_MoonOrbit" xml:space="preserve">
+    <value>月球的轨道，倾斜大约五度，这里画得陡一些。实线的一半在地球轨道平面上方，虚线的一半在下方。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_NewMoon" xml:space="preserve">
+    <value>新月。月球在太阳和地球中间，被照亮的一面背对着我们。只有这时候，才可能发生日食。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_NodeLine" xml:space="preserve">
+    <value>交点线，连接月球穿过地球轨道平面的两个点。它对准太阳的时候，就是食季。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Observer" xml:space="preserve">
+    <value>这是你，在地球白天的一面，大约是正午。在右边面板里，你可以往北或往南移动，看看从那里看到的日食是什么样。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Penumbra" xml:space="preserve">
+    <value>半影，本影外面那圈淡一些的影子。站在这里，太阳只被挡住一部分。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Season" xml:space="preserve">
+    <value>食季。地球走到轨道上这一段的时候，交点线差不多对着太阳，就可能发生日食和月食。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Sun" xml:space="preserve">
+    <value>太阳。它的直径大约是月球的四百倍，离我们也差不多远了四百倍，所以在天上，太阳和月亮看起来差不多一样大。</value>
+  </data>
+  <data name="Narr_Eclipse_Obj_Umbra" xml:space="preserve">
+    <value>本影，影子里最暗的部分。站在本影里，太阳被完全挡住。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_01" xml:space="preserve">
+    <value>既然每个月都有新月，为什么不是每个月都有日食呢？这里是地球一年绕太阳一圈，月球同时绕着地球转。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_02" xml:space="preserve">
+    <value>看月球的轨道，它是倾斜的。实际只斜了大约五度，这里故意画得陡一些，方便看清。蓝色实线的一半在地球轨道平面的上方，橙色虚线的一半在下方。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_03" xml:space="preserve">
+    <value>月球的轨道和地球轨道平面相交在两个点上，这两个点叫交点，连起来就是交点线。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_04" xml:space="preserve">
+    <value>想一想：大多数月份里，新月的时候会怎样？</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_05" xml:space="preserve">
+    <value>大多数时候，月球从太阳的上方或下方经过，影子落不到地球上。要发生日食或月食，新月或满月就得正好落在交点附近。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_06" xml:space="preserve">
+    <value>只有当交点线正好对着太阳的时候才行，一年两次，每次大约五个星期。这两段时间，就叫食季。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_07" xml:space="preserve">
+    <value>每个食季，地球上总会发生至少一次日食，常常还有一次月食。所以每年会有四到七次日食和月食。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_08" xml:space="preserve">
+    <value>现在你来试试：在画面上左右拖动，让时间在一年里前后移动，找找下一个食季。</value>
+  </data>
+  <data name="Narr_Eclipse_Seasons_09" xml:space="preserve">
+    <value>交点线还在慢慢转动，所以食季每年会提前大约十九天。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_01" xml:space="preserve">
+    <value>这是从很高的地方往下看。左边是太阳，右边是地球，月球绕着地球转。大小和距离都没按比例画，不然太阳早就跑到屏幕外面去了。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_02" xml:space="preserve">
+    <value>月球大约一个月绕地球一圈。当它走到太阳和地球中间的时候，就是新月。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_03" xml:space="preserve">
+    <value>和所有被阳光照着的东西一样，月球也有影子。影子最暗的部分叫本影，在本影里，太阳被完全挡住。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_04" xml:space="preserve">
+    <value>本影外面是一圈淡一些的影子，叫半影。在半影里，月球只挡住太阳的一部分。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_05" xml:space="preserve">
+    <value>现在月球的影子落到了地球上。想一想：如果你正好站在本影里，会看到什么？</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_06" xml:space="preserve">
+    <value>日全食。天一下子暗下来，亮星都出来了，黑色的月亮周围，亮起一圈珍珠色的日冕。本影只盖住地球上窄窄的一条，所以大多数人看到的只是日偏食。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_07" xml:space="preserve">
+    <value>月球离地球的距离会有些变化。离得远一点的时候，它的本影就够不着地球了。这时我们看到的是日环食：月亮周围一圈火环。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_08" xml:space="preserve">
+    <value>现在你来试试：拖着月球沿轨道走，看它的影子怎么扫过地球。</value>
+  </data>
+  <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
+    <value>所以，日食只会发生在新月的时候。到了满月，就轮到月球走进地球的影子里了，那就是月食。</value>
   </data>
   <data name="Narr_Seasons_Distance_01" xml:space="preserve">
     <value>很多人以为，夏天热是因为地球离太阳更近。地球的轨道确实不是正圆，而是一个稍微有点扁的椭圆。</value>

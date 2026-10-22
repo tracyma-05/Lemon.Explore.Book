@@ -69,6 +69,27 @@ internal static class SpaceDrawing
             endPoint: new RelativePoint(0.5 + (cos / 2), 0.5 + (sin / 2), RelativeUnit.Relative));
     }
 
+    /// <summary>A linear gradient with several stops at <paramref name="angle"/> degrees (0 = left to right).</summary>
+    public static IImmutableBrush LinearGradient(double angle, params (Color Color, double Offset)[] stops)
+    {
+        var (sin, cos) = Math.SinCos(angle * Math.PI / 180);
+        return new ImmutableLinearGradientBrush(
+            stops.Select(s => new ImmutableGradientStop(s.Offset, s.Color)).ToArray(),
+            startPoint: new RelativePoint(0.5 - (cos / 2), 0.5 - (sin / 2), RelativeUnit.Relative),
+            endPoint: new RelativePoint(0.5 + (cos / 2), 0.5 + (sin / 2), RelativeUnit.Relative));
+    }
+
+    /// <summary>The body (or moon) with this id from the catalog.</summary>
+    public static CelestialBody Body(string id) => SolarSystemCatalog.Body(id);
+
+    /// <summary>A rotation by <paramref name="degrees"/> about (<paramref name="x"/>, <paramref name="y"/>), as WPF's RotateTransform.</summary>
+    public static Matrix Rotation(double degrees, double x, double y) =>
+        Matrix.CreateTranslation(-x, -y) * Matrix.CreateRotation(degrees * Math.PI / 180) * Matrix.CreateTranslation(x, y);
+
+    /// <summary>An ellipse geometry by centre and radii, as WPF's EllipseGeometry.</summary>
+    public static EllipseGeometry Ellipse(Point center, double radiusX, double radiusY) =>
+        new(new Rect(center.X - radiusX, center.Y - radiusY, 2 * radiusX, 2 * radiusY));
+
     /// <summary>A radial gradient from the centre (offset 0) to the edge (offset 1) of what it fills.</summary>
     public static IImmutableBrush RadialGradient(params (Color Color, double Offset)[] stops)
     {
