@@ -1,0 +1,559 @@
+"""The mechanical part of porting a chapter from the original WPF app to this book's Avalonia code.
+
+    python -I tools/porting/wpf2avalonia.py drawing   SRC.cs DST.cs --namespace NS --source-prefix ROOT [--map A=B ...]
+    python -I tools/porting/wpf2avalonia.py viewmodel SRC.cs DST.cs --namespace NS --source-prefix ROOT [--map A=B ...]
+                                                      [--chapter] [--replacements FILE.py]
+    python -I tools/porting/wpf2avalonia.py strings   SRC_RESOURCES_DIR DST_RESOURCES_DIR PATTERN [PATTERN ...]
+
+ROOT is the original app's root namespace (passed in, never written into this repository). --map maps a namespace
+below it to one below `Lemon.Explore.Book`, e.g. `--map Controls.Eclipse=Chapters.Eclipses`; the shared ones (space
+drawing, lessons, narration, localization) are built in.
+
+`drawing` handles a diagram or figure: namespaces and usings, brush and pen types, frozen brushes and gradients,
+rotate transforms, ellipse geometries, single-figure StreamGeometry blocks, dependency properties (to styled
+properties with their change callbacks and AffectsRender), OnRender, ActualWidth/Height, DPI, mouse handlers,
+cursors, the CompositionTarget animation loop, Loaded/Unloaded language subscriptions, and Point/Vector idioms.
+`viewmodel` handles a view model or lessons file; with --chapter it also adds the IChapterContent view lifetimes
+and immutable brushes. `strings` copies resx keys (exact, or prefixes ending in `*`) into both of this book's resx
+files.
+
+Whatever it reports as "fix by hand" is left for a person, and the compiler finds the rest (docs/ROADMAP.md has the
+conversion table). Every rewrite is a plain text pattern: read the diff.
+"""
+from __future__ import annotations
+
+import argparse
+import re
+import runpy
+import sys
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from xml.sax.saxutils import escape
+
+TARGET_ROOT = "Lemon.Explore.Book"
+
+# Namespaces below the source root that every chapter shares, and where they live in this book.
+SHARED_NAMESPACES = {
+    "Controls.SolarSystem": "Controls.Space",
+    "Controls.Explore": "Controls.Explore",
+    "ViewModels.Explore.Lessons": "Explore.Lessons",
+    "Services.Explore.Narration": "Explore.Narration",
+    "Infrastructures.Localization": "Infrastructures.Localization",
+}
+
+
+# ---- helpers ---------------------------------------------------------------------------------------------------
+
+
+def match_bracket(text: str, open_index: int) -> int:
+    """Index of the bracket closing the one at open_index ((, [ or {)."""
+    depth = 0
+    for i in range(open_index, len(text)):
+        if text[i] in "([{":
+            depth += 1
+        elif text[i] in ")]}":
+            depth -= 1
+            if depth == 0:
+                return i
+    raise ValueError("unbalanced brackets")
+
+
+def split_top(text: str) -> list[str]:
+    """Splits an argument list at its top-level commas."""
+    parts, depth, start = [], 0, 0
+    for i, c in enumerate(text):
+        if c in "([{<":
+            depth += 1
+        elif c in ")]}>":
+            depth -= 1
+        elif c == "," and depth == 0:
+            parts.append(text[start:i].strip())
+            start = i + 1
+    parts.append(text[start:].strip())
+    return [p for p in parts if p]
+
+
+def namespace_map(source_prefix: str, maps: list[str]) -> dict[str, str]:
+    pairs = dict(SHARED_NAMESPACES)
+    for m in maps:
+        old, new = m.split("=", 1)
+        pairs[old] = new
+    return {f"{source_prefix}.{old}": f"{TARGET_ROOT}.{new}" for old, new in pairs.items()}
+
+
+def apply_namespaces(s: str, namespace: str, source_prefix: str, maps: list[str]) -> str:
+    s = re.sub(r"^namespace [\w.]+;", f"namespace {namespace};", s, count=1, flags=re.M)
+    for old, new in sorted(namespace_map(source_prefix, maps).items(), key=lambda kv: -len(kv[0])):
+        s = s.replace(old, new)
+    # The original's drawing helpers are this book's SpaceDrawing, whatever namespace they were in.
+    s = re.sub(r"using static [\w.]+\.EclipseDrawing;", f"using static {TARGET_ROOT}.Controls.Space.SpaceDrawing;", s)
+    s = s.replace("EclipseDrawing", "SpaceDrawing")
+    s = s.replace(f"using {namespace};\n", "")
+    return s
+
+
+# ---- drawing: brushes, geometry, DPI ---------------------------------------------------------------------------
+
+
+def _stops(list_text: str) -> list[str]:
+    stops = []
+    for stop in split_top(list_text):
+        if not stop.startswith("new GradientStop("):
+            raise ValueError(stop)
+        args = split_top(stop[len("new GradientStop("):-1])
+        stops.append(f"({args[0]}, {args[1]})")
+    return stops
+
+
+def rewrite_brushes(text: str) -> str:
+    """Frozen solid brushes and (frozen or not) gradient brushes to SpaceDrawing's immutable helpers."""
+    out, i = [], 0
+    pattern = re.compile(r"(Freeze\()?new (Radial|Linear)GradientBrush\(|Freeze\(new SolidColorBrush\(")
+    while True:
+        m = pattern.search(text, i)
+        if not m:
+            out.append(text[i:])
+            return "".join(out)
+        out.append(text[i:m.start()])
+        open_index = m.end() - 1
+        close = match_bracket(text, open_index)
+        inner = text[open_index + 1:close]
+        frozen = m.group(0).startswith("Freeze(")
+        end = match_bracket(text, m.start() + len("Freeze")) + 1 if frozen else close + 1
+        tail = text[close + 1:end - 1] if frozen else ""
+        if m.group(0).endswith("SolidColorBrush("):
+            out.append(f"SpaceDrawing.Solid({inner})")
+            i = end
+            continue
+        if tail.strip() or text[end:].lstrip().startswith("{"):
+            out.append(text[m.start():end])  # an initializer or more arguments: by hand
+            i = end
+            continue
+        args = split_top(inner)
+        kind = m.group(2)
+        indent = "\n            "
+        try:
+            if args and args[0].startswith("["):
+                stops = _stops(args[0][1:-1])
+                if kind == "Radial":
+                    out.append("SpaceDrawing.RadialGradient(" + indent + ("," + indent).join(stops) + ")")
+                else:
+                    out.append(f"SpaceDrawing.LinearGradient({args[1]}," + indent + ("," + indent).join(stops) + ")")
+            elif kind == "Linear" and len(args) == 3:
+                out.append(f"SpaceDrawing.LinearGradient({args[0]}, {args[1]}, {args[2]})")
+            elif kind == "Radial" and len(args) == 2:
+                out.append(f"SpaceDrawing.RadialGradient(({args[0]}, 0), ({args[1]}, 1))")
+            else:
+                out.append(text[m.start():end])
+        except ValueError:
+            out.append(text[m.start():end])
+        i = end
+
+
+def rewrite_figures(text: str) -> str:
+    """`using (var ctx = g.Open()) {…}` with one BeginFigure(p, filled, closed): two-argument BeginFigure + EndFigure."""
+    out, i = [], 0
+    pattern = re.compile(r"using \(var (\w+) = \w+\.Open\(\)\)\s*\{")
+    while True:
+        m = pattern.search(text, i)
+        if not m:
+            out.append(text[i:])
+            return "".join(out)
+        ctx = m.group(1)
+        open_brace = m.end() - 1
+        close = match_bracket(text, open_brace)
+        body = text[open_brace + 1:close]
+        figures = list(re.finditer(rf"{ctx}\.BeginFigure\((.*), (true|false), (true|false)\);", body))
+        if len(figures) == 1:
+            f = figures[0]
+            body = body[:f.start()] + f"{ctx}.BeginFigure({f.group(1)}, {f.group(2)});" + body[f.end():]
+            indent = re.search(r"\n(\s*)\S", body).group(1)
+            body = body.rstrip() + f"\n\n{indent}{ctx}.EndFigure({f.group(3)});\n" + indent[:-4]
+        out.append(text[i:open_brace + 1] + body)
+        i = close
+
+
+USINGS = {
+    "using System.Windows;\n": "using Avalonia;\n",
+    "using System.Windows.Media;\n": "using Avalonia.Media;\nusing Avalonia.Media.Immutable;\n",
+    "using System.Windows.Media.Imaging;\n": "using Avalonia.Media.Imaging;\n",
+    "using System.Windows.Input;\n": "using System.Windows.Input;\nusing Avalonia.Input;\n",
+    "using System.Windows.Documents;\n": "",
+    "using System.Windows.Shapes;\n": "",
+    "using System.Windows.Automation.Peers;\n": "",
+    "using System.Windows.Threading;\n": "using Avalonia.Threading;\n",
+    "using Serilog;\n": "",
+    "using Volo.Abp.DependencyInjection;\n": "",
+}
+
+
+def convert_types(s: str, namespace: str) -> str:
+    for old, new in USINGS.items():
+        s = s.replace(old, new)
+    if namespace != f"{TARGET_ROOT}.Controls.Space" and f"using {TARGET_ROOT}.Controls.Space;" not in s and s.startswith("using"):
+        s = s.replace("\nnamespace ", f"using {TARGET_ROOT}.Controls.Space;\n\nnamespace ", 1)
+    s = re.sub(r"\bDrawingContext dc\b", "PaintContext dc", s)
+    s = re.sub(r"\bDpiScale dpi\b", "double dpi", s)
+    s = re.sub(r"\bdpi\.(DpiScaleX|DpiScaleY|PixelsPerDip)\b", "dpi", s)
+    s = re.sub(r"VisualTreeHelper\.GetDpi\(this\)", "RenderScale()", s)
+    s = re.sub(r"(?<![\w.])Pen(?=[\s\[\]?>,)])", "IPen", s)
+    s = re.sub(r"(?<![\w.])Brush(?=[\s\[\]?>,)])", "IBrush", s)
+    s = s.replace("((SolidColorBrush)", "((ISolidColorBrush)")
+    s = s.replace("new RotateTransform(", "SpaceDrawing.Rotation(")
+    s = s.replace("new EllipseGeometry(", "SpaceDrawing.Ellipse(")
+    s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
+    s = re.sub(r"^\s*RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.\w+\);\s*\n", "", s, flags=re.M)
+    s = re.sub(r"ctx\.LineTo\((.*), (?:true|false), (?:true|false)\);", r"ctx.LineTo(\1);", s)
+    s = re.sub(r"Freeze\(new Pen\((.*), ([\d.]+)\)\);", r"MakePen(\1, \2);", s)
+    s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
+    s = rewrite_brushes(s)
+    s = rewrite_figures(s)
+    return s
+
+
+# ---- drawing: dependency properties and element plumbing --------------------------------------------------------
+
+
+def convert_properties(s: str) -> str:
+    """DependencyProperty.Register -> AvaloniaProperty.Register, with callbacks, AffectsRender and attach/detach."""
+    affects_render, callbacks = [], []
+    owner = None
+    out, i = [], 0
+    pattern = re.compile(r"public static readonly DependencyProperty (\w+)Property = DependencyProperty\.Register\(")
+    while True:
+        m = pattern.search(s, i)
+        if not m:
+            out.append(s[i:])
+            break
+        out.append(s[i:m.start()])
+        close = match_bracket(s, m.end() - 1)
+        args = split_top(s[m.end():close])
+        name = m.group(1)
+        type_ = args[1][len("typeof("):-1]
+        owner = args[2][len("typeof("):-1]
+        default, two_way, render, callback = None, False, False, None
+        if len(args) > 3:
+            meta = args[3]
+            meta_args = split_top(meta[meta.index("(") + 1:meta.rindex(")")])
+            if meta_args:
+                default = meta_args[0]
+            for extra in meta_args[1:]:
+                two_way |= "BindsTwoWayByDefault" in extra
+                render |= "AffectsRender" in extra
+                if "=>" in extra:
+                    callback = extra
+        t = type_ + ("?" if default == "null" and not type_.endswith("?") else "")
+        params = [f"nameof({name})"]
+        if default not in (None, "null"):
+            params.append(default)
+        if two_way:
+            params.append("defaultBindingMode: BindingMode.TwoWay")
+        out.append(f"public static readonly StyledProperty<{t}> {name}Property =\n"
+                   f"        AvaloniaProperty.Register<{owner}, {t}>({', '.join(params)})")
+        if render:
+            affects_render.append(f"{name}Property")
+        if callback:
+            body = callback.split("=>", 1)[1].strip()
+            body = re.sub(rf"\(\({owner}\)d\)\.", "", body)
+            body = re.sub(r"e\.NewValue as [\w.<>?]+|\([\w.<>?]+\)e\.NewValue", f"change.GetNewValue<{t}>()", body)
+            callbacks.append((name, body))
+        i = close + 1
+
+    s = "".join(out)
+    s = re.sub(r"\((?:[\w.]+(?:<[\w.,\s?]+>)?\??)\)GetValue\(", "GetValue(", s)
+    s = re.sub(r"class (\w+) : FrameworkElement", r"class \1 : Control", s)
+    s = re.sub(r"protected override void OnRender\(PaintContext dc\)\s*\{",
+               "public override void Render(DrawingContext context)\n    {\n        using var dc = new PaintContext(context);", s)
+
+    language = False
+    if re.search(r"Loaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged \+= OnLanguageChanged;", s):
+        s = re.sub(r"^\s*Loaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged \+= OnLanguageChanged;\n", "", s, flags=re.M)
+        s = re.sub(r"^\s*Unloaded \+= \(_, _\) => LocalizationService\.Instance\.PropertyChanged -= OnLanguageChanged;\n", "", s, flags=re.M)
+        language = True
+
+    generated = []
+    if affects_render:
+        generated.append(f"    static {owner}()\n    {{\n        AffectsRender<{owner}>({', '.join(affects_render)});\n    }}\n")
+    if callbacks:
+        lines = ["    protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)", "    {",
+                 "        base.OnPropertyChanged(change);"]
+        for n, (name, body) in enumerate(callbacks):
+            lines += [f"        {'if' if n == 0 else 'else if'} (change.Property == {name}Property)", "        {",
+                      f"            {body};", "        }"]
+        lines.append("    }\n")
+        generated.append("\n".join(lines))
+    if language:
+        generated.append("""    protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)
+    {
+        base.OnAttachedToVisualTree(e);
+        LocalizationService.Instance.PropertyChanged += OnLanguageChanged;
+    }
+
+    protected override void OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs e)
+    {
+        base.OnDetachedFromVisualTree(e);
+        LocalizationService.Instance.PropertyChanged -= OnLanguageChanged;
+    }
+""")
+    if re.search(r"class \w+ : Control", s) and ("ActualWidth" in s or "RenderScale()" in s):
+        generated.append("""    private double ActualWidth => Bounds.Width;
+
+    private double ActualHeight => Bounds.Height;
+
+    private double RenderScale() => TopLevel.GetTopLevel(this)?.RenderScaling ?? 1;
+""")
+    if generated:
+        m = re.search(r"class \w+ : Control[^\n]*\n\{\n", s) or re.search(r"partial class \w+[^\n]*\n\{\n", s)
+        s = s[:m.end()] + "\n".join(generated) + "\n" + s[m.end():]
+
+    head = s.split("namespace")[0]
+    for using in ("Avalonia.Controls", "Avalonia.Data"):
+        if f"using {using};" not in head:
+            s = s.replace("using Avalonia;\n", f"using Avalonia;\nusing {using};\n", 1)
+    return s
+
+
+PLUMBING = [
+    (r"protected override void OnMouseLeftButtonDown\(MouseButtonEventArgs e\)\n(\s*)\{\n(\s*)base\.OnMouseLeftButtonDown\(e\);",
+     r"protected override void OnPointerPressed(PointerPressedEventArgs e)\n\1{\n\2base.OnPointerPressed(e);\n\2if (!e.GetCurrentPoint(this).Properties.IsLeftButtonPressed) return;"),
+    (r"if \(!CaptureMouse\(\)\) return;", "e.Pointer.Capture(this);"),
+    (r"(?<!\.)CaptureMouse\(\);", "e.Pointer.Capture(this);"),
+    (r"protected override void OnMouseMove\(MouseEventArgs e\)", "protected override void OnPointerMoved(PointerEventArgs e)"),
+    (r"base\.OnMouseMove\(e\);", "base.OnPointerMoved(e);"),
+    (r"protected override void OnMouseLeftButtonUp\(MouseButtonEventArgs e\)", "protected override void OnPointerReleased(PointerReleasedEventArgs e)"),
+    (r"base\.OnMouseLeftButtonUp\(e\);", "base.OnPointerReleased(e);"),
+    (r"if \(IsMouseCaptured\) ReleaseMouseCapture\(\);", "e.Pointer.Capture(null);"),
+    (r"(?<!\.)ReleaseMouseCapture\(\);", "e.Pointer.Capture(null);"),
+    (r"\bIsMouseCaptured\b", "ReferenceEquals(e.Pointer.Captured, this)"),
+    (r"protected override void OnMouseLeave\(MouseEventArgs e\)", "protected override void OnPointerExited(PointerEventArgs e)"),
+    (r"base\.OnMouseLeave\(e\);", "base.OnPointerExited(e);"),
+    (r"protected override void OnLostMouseCapture\(MouseEventArgs e\)", "protected override void OnPointerCaptureLost(PointerCaptureLostEventArgs e)"),
+    (r"base\.OnLostMouseCapture\(e\);", "base.OnPointerCaptureLost(e);"),
+    (r"protected override void OnMouseWheel\(MouseWheelEventArgs e\)", "protected override void OnPointerWheelChanged(PointerWheelEventArgs e)"),
+    (r"base\.OnMouseWheel\(e\);", "base.OnPointerWheelChanged(e);"),
+    (r"e\.Delta / 120\.0", "e.Delta.Y"),
+    (r"Cursors\.Hand", "new Cursor(StandardCursorType.Hand)"),
+    (r"Cursors\.SizeNS", "new Cursor(StandardCursorType.SizeNorthSouth)"),
+    (r"Cursors\.SizeWE", "new Cursor(StandardCursorType.SizeWestEast)"),
+    (r"Cursors\.SizeAll", "new Cursor(StandardCursorType.SizeAll)"),
+    (r"Cursors\.Arrow", "Cursor.Default"),
+    (r"^\s*Focusable = false;\n", ""),
+    (r"^\s*FocusVisualStyle = null;\n", ""),
+    (r"^\s*protected override AutomationPeer OnCreateAutomationPeer\(\) => new FrameworkElementAutomationPeer\(this\);\n\n?", ""),
+    (r"\((\w+(?:\.\w+)?) - (\w+(?:\.\w+)?)\)\.Length\b", r"((Vector)(\1 - \2)).Length"),
+    (r"^\s*Loaded \+= OnLoaded;\n", ""),
+    (r"^\s*Unloaded \+= OnUnloaded;\n", ""),
+    (r"private void OnLoaded\(object sender, RoutedEventArgs e\)\n(\s*)\{\n",
+     r"protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)\n\1{\n\1    base.OnAttachedToVisualTree(e);\n\1    _attached = true;\n"),
+    (r"private void OnUnloaded\(object sender, RoutedEventArgs e\)\n(\s*)\{\n",
+     r"protected override void OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs e)\n\1{\n\1    base.OnDetachedFromVisualTree(e);\n\1    _attached = false;\n"),
+    (r"^\s*CompositionTarget\.Rendering -= OnRendering;\n", ""),
+    (r"CompositionTarget\.Rendering \+= OnRendering;", "RequestFrame();"),
+    (r"private void OnRendering\(object\? sender, EventArgs e\)", "private void OnRendering()"),
+    (r"if \(!IsVisible \|\|", "if (!IsEffectivelyVisible ||"),
+    (r"<see cref=\"CompositionTarget\.Rendering\"/> while loaded and visible", "an animation frame per screen refresh while it is on screen"),
+    (r"protected override void OnRenderSizeChanged\(SizeChangedInfo sizeInfo\)\n(\s*)\{\n(\s*)base\.OnRenderSizeChanged\(sizeInfo\);",
+     r"protected override void OnSizeChanged(SizeChangedEventArgs e)\n\1{\n\2base.OnSizeChanged(e);"),
+]
+
+FRAME_LOOP = """    private bool _attached;
+
+    private void RequestFrame()
+    {
+        if (_attached)
+        {
+            TopLevel.GetTopLevel(this)?.RequestAnimationFrame(OnFrame);
+        }
+    }
+
+    private void OnFrame(TimeSpan time)
+    {
+        if (!_attached)
+        {
+            return;
+        }
+
+        OnRendering();
+        RequestFrame();
+    }
+
+"""
+
+
+def convert_plumbing(s: str) -> str:
+    for pattern, replacement in PLUMBING:
+        s = re.sub(pattern, replacement, s, flags=re.M)
+    if "RequestFrame();" in s and "private void RequestFrame()" not in s and "protected override void OnAttachedToVisualTree" in s:
+        i = s.index("    protected override void OnAttachedToVisualTree")
+        s = s[:i] + FRAME_LOOP + s[i:]
+    if ("Cursor(" in s or "PointerPressedEventArgs" in s) and "using Avalonia.Input;" not in s:
+        s = s.replace("using Avalonia;\n", "using Avalonia;\nusing Avalonia.Input;\n", 1)
+    return s
+
+
+def convert_points(s: str) -> str:
+    """WPF Point/Vector idioms that mean something else, or nothing, in Avalonia."""
+    # A Point difference is a Point in Avalonia: `var x = a - b;` whose Length is used becomes a Vector.
+    for m in reversed(list(re.finditer(r"\bvar (\w+) = ([\w.()]+) - ([\w.()]+);", s))):
+        rest = s[m.end():m.end() + 1500]
+        if re.search(rf"\b{m.group(1)}\.Length\b|\b{m.group(1)} /= ", rest):
+            s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
+    s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
+    s = s.replace("Vector.Multiply(", "Vector.Dot(")
+    s = re.sub(r"^(\s*)(\w+)\.([XY]) = (.+);$", lambda m: f"{m.group(1)}{m.group(2)} = {m.group(2)}.With{m.group(3)}({m.group(4)});", s, flags=re.M)
+    s = s.replace("return Geometry.Empty;", "return null;")
+    s = re.sub(r"!(\w+)\.IsEmpty\(\)", r"\1 is not null", s)
+    s = re.sub(r"(\w+)\.IsEmpty\(\)", r"\1 is null", s)
+    return s
+
+
+LEFT_FOR_HAND = ("System.Windows.", "DependencyProperty", "Freeze(", "GradientBrush(", "MouseButton", "CompositionTarget",
+                 "WritePixels", "PathGeometry", "PathFigure", "new Pen(", "SolidColorBrush(", "TextElement", "FormattedText(",
+                 "Cursors.", "OnRender(", "RoutedEventArgs", "MappingMode", "Geometry.Empty")
+
+
+def report(name: str, s: str) -> None:
+    left = [n for n in LEFT_FOR_HAND if n in s]
+    figures = len(re.findall(r"BeginFigure\([^;]*, (?:true|false), (?:true|false)\)", s))
+    if figures:
+        left.append(f"{figures} BeginFigure(p, filled, closed)")
+    inflates = len(re.findall(r"^\s*\w+\.Inflate\(", s, flags=re.M))
+    if inflates:
+        left.append(f"{inflates} Rect.Inflate used as a statement (it returns a new Rect)")
+    print(f"{name}: fix by hand: {', '.join(left)}" if left else f"{name}: nothing flagged")
+
+
+def drawing(args: argparse.Namespace) -> None:
+    s = Path(args.source).read_text(encoding="utf-8")
+    s = apply_namespaces(s, args.namespace, args.source_prefix, args.map)
+    s = convert_types(s, args.namespace)
+    s = convert_properties(s)
+    s = convert_plumbing(s)
+    s = convert_points(s)
+    write(args.target, s)
+    report(Path(args.target).name, s)
+
+
+# ---- view models -----------------------------------------------------------------------------------------------
+
+CHAPTER_LIFETIMES = """
+
+    /// <summary>A view of the chapter came on screen.</summary>
+    public void ViewAttached() => _views++;
+
+    /// <summary>The last view of the chapter left the screen: the walkthrough and any explanation being read stop.</summary>
+    public void ViewDetached()
+    {
+        _views = Math.Max(0, _views - 1);
+        if (_views > 0)
+        {
+            return;
+        }
+
+        Lesson.Stop();
+        Card.Close();
+    }"""
+
+
+def viewmodel(args: argparse.Namespace) -> None:
+    s = Path(args.source).read_text(encoding="utf-8")
+    s = apply_namespaces(s, args.namespace, args.source_prefix, args.map)
+    s = s.replace("using Volo.Abp.DependencyInjection;\n", "").replace(", ITransientDependency", "")
+    # Usings of the original's own plumbing (DI, navigation, constants, controls folders already mapped away).
+    s = re.sub(rf"^using {re.escape(args.source_prefix)}\.[\w.]+;\n", "", s, flags=re.M)
+
+    if args.chapter:
+        cls = re.search(r"public (?:sealed )?partial class (\w+ViewModel)", s).group(1)
+        s = s.replace("using System.Windows.Media;\n", "using Avalonia.Media;\nusing Avalonia.Media.Immutable;\n")
+        s = s.replace(f"using {TARGET_ROOT}.Explore.Lessons;\n",
+                      f"using {TARGET_ROOT}.Controls.Explore;\nusing {TARGET_ROOT}.Explore.Lessons;\n")
+        s = re.sub(r"(?<![\w.])Brush(?=[\s\[\]?>,)])", "IBrush", s)
+        s = re.sub(r"    private static IBrush Frozen\(byte r, byte g, byte b\)\n    \{\n.*?\n    \}\n",
+                   "    private static IBrush Frozen(byte r, byte g, byte b) => new ImmutableSolidColorBrush(Color.FromRgb(r, g, b));\n",
+                   s, flags=re.S)
+        s = s.replace(": ObservableObject, IDisposable", ": ObservableObject, IChapterContent, IDisposable")
+        s = s.replace("    private readonly ILocalizationService _localization;\n",
+                      "    private readonly ILocalizationService _localization = LocalizationService.Instance;\n    private int _views;\n")
+        s = re.sub(r"ILocalizationService localization, ", "", s)
+        s = re.sub(r"^\s*_localization = localization;\n", "", s, flags=re.M)
+        ctor = re.search(rf"\n    public {cls}\([^)]*\)\n    \{{\n", s)
+        close = match_bracket(s, ctor.end() - 2)
+        s = s[:close + 1] + CHAPTER_LIFETIMES + s[close + 1:]
+        s = re.sub(r"/// The (\w+) page\b", r"/// The \1 chapter", s)
+
+    if args.replacements:
+        for old, new in runpy.run_path(args.replacements)["REPLACEMENTS"]:
+            if old not in s:
+                sys.exit(f"{Path(args.target).name}: replacement not found: {old[:100]!r}")
+            s = s.replace(old, new)
+
+    write(args.target, s)
+    left = [line.strip() for line in s.splitlines() if args.source_prefix in line or "ITransientDependency" in line]
+    print(f"{Path(args.target).name}: fix by hand: {left}" if left else f"{Path(args.target).name}: ok")
+
+
+# ---- strings ---------------------------------------------------------------------------------------------------
+
+RESX_FILES = ("AppStrings.resx", "AppStrings.zh-CN.resx")
+
+
+def load_resx(path: Path) -> dict[str, str]:
+    root = ET.parse(path).getroot()
+    return {d.get("name"): (d.find("value").text or "") for d in root.findall("data")}
+
+
+def strings(args: argparse.Namespace) -> None:
+    def wanted(key: str) -> bool:
+        return any(key.startswith(p[:-1]) if p.endswith("*") else key == p for p in args.patterns)
+
+    added = 0
+    for name in RESX_FILES:
+        source = load_resx(Path(args.source) / name)
+        target_path = Path(args.target) / name
+        target = load_resx(target_path)
+        for key, value in source.items():
+            if wanted(key) and key not in target:
+                target[key] = value
+                added += 1
+        text = target_path.read_text(encoding="utf-8")
+        header = text[: text.rindex("</resheader>\n") + len("</resheader>\n")]
+        body = "".join(f'  <data name="{k}" xml:space="preserve">\n    <value>{escape(v)}</value>\n  </data>\n'
+                       for k, v in sorted(target.items()))
+        target_path.write_text(header + body + "</root>\n", encoding="utf-8", newline="\r\n")
+    print(f"{added} values added")
+
+
+# ---- command line ----------------------------------------------------------------------------------------------
+
+
+def write(target: str, s: str) -> None:
+    path = Path(target)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(s, encoding="utf-8")
+
+
+def main(argv: list[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    sub = parser.add_subparsers(dest="command", required=True)
+    for name, func in (("drawing", drawing), ("viewmodel", viewmodel)):
+        p = sub.add_parser(name)
+        p.add_argument("source")
+        p.add_argument("target")
+        p.add_argument("--namespace", required=True, help="namespace of the ported file in this book")
+        p.add_argument("--source-prefix", required=True, help="root namespace of the original app")
+        p.add_argument("--map", action="append", default=[], help="Original.Sub=Book.Sub, below the two roots")
+        if name == "viewmodel":
+            p.add_argument("--chapter", action="store_true", help="a chapter view model: IChapterContent, brushes")
+            p.add_argument("--replacements", help="a .py file with REPLACEMENTS = [(old, new), ...]")
+        p.set_defaults(func=func)
+    p = sub.add_parser("strings")
+    p.add_argument("source", help="the original app's Resources folder")
+    p.add_argument("target", help="this book's Resources folder")
+    p.add_argument("patterns", nargs="+", help="keys, or prefixes ending in *")
+    p.set_defaults(func=strings)
+    args = parser.parse_args(argv)
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()
