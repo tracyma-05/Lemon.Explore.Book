@@ -63,6 +63,13 @@ public static class BookContents
     /// </summary>
     public static int ChapterPage(int chapterIndex) => FrontMatterPages + Volumes.Count + (chapterIndex * 2);
 
+    /// <summary>Index of the text page of the chapter with this slug, e.g. "Moon-Phases".</summary>
+    public static int ChapterPageOf(string slug)
+    {
+        var index = Chapters.ToList().FindIndex(c => c.Slug == slug);
+        return index >= 0 ? ChapterPage(index) : throw new ArgumentException($"No chapter '{slug}'.", nameof(slug));
+    }
+
     /// <summary>Total pages: front matter, contents, two per chapter, credits and the back cover.</summary>
     public static int PageCount => ChapterPage(Chapters.Count) + 2;
 }

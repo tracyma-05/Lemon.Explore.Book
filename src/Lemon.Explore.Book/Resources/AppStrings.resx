@@ -2226,6 +2226,129 @@
   <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
     <value>Now you try. Click any planet or moon to fly to it and hear about it.</value>
   </data>
+  <data name="Narr_Tides_Bulges_01" xml:space="preserve">
+    <value>Here's Earth seen from above the North Pole, with the Moon going round it. The blue layer is the ocean. Its bulges are hugely exaggerated, so you can see them.</value>
+  </data>
+  <data name="Narr_Tides_Bulges_02" xml:space="preserve">
+    <value>The Moon pulls on everything on Earth, but not equally. The side facing the Moon is pulled a little harder than Earth's centre, and the far side a little less. These arrows show the difference. It's called the tidal force.</value>
+  </data>
+  <data name="Narr_Tides_Bulges_03" xml:space="preserve">
+    <value>So the water piles up into a bulge on the side facing the Moon. That's a high tide.</value>
+  </data>
+  <data name="Narr_Tides_Bulges_04" xml:space="preserve">
+    <value>And here's the surprise: there's a second bulge on the far side. The water there is pulled less than Earth itself, so it gets left behind.</value>
+  </data>
+  <data name="Narr_Tides_Bulges_05" xml:space="preserve">
+    <value>Earth turns once a day underneath these two bulges. Think about it: how many high tides does a place by the sea get each day?</value>
+  </data>
+  <data name="Narr_Tides_Bulges_06" xml:space="preserve">
+    <value>Two. As Earth turns, it carries you through both bulges, so you get two high tides and two low tides a day.</value>
+  </data>
+  <data name="Narr_Tides_Bulges_07" xml:space="preserve">
+    <value>But the Moon moves along its orbit at the same time, so Earth has to turn a little extra to catch up. That's why high tide comes about fifty minutes later each day.</value>
+  </data>
+  <data name="Narr_Tides_Bulges_08" xml:space="preserve">
+    <value>Now you try. Drag sideways across the picture to turn Earth, and watch the water rise and fall where you are.</value>
+  </data>
+  <data name="Narr_Tides_Coast_01" xml:space="preserve">
+    <value>Here's a harbour, seen from the side, with the open sea on the left. Watch the sea come in, and go out again.</value>
+  </data>
+  <data name="Narr_Tides_Coast_02" xml:space="preserve">
+    <value>This post on the pier is a tide staff. It measures how high the water is, in metres.</value>
+  </data>
+  <data name="Narr_Tides_Coast_03" xml:space="preserve">
+    <value>The arrow shows the height right now, and whether the tide is coming in or going out.</value>
+  </data>
+  <data name="Narr_Tides_Coast_04" xml:space="preserve">
+    <value>These lines mark today's high water and low water. The difference between them is called the tidal range.</value>
+  </data>
+  <data name="Narr_Tides_Coast_05" xml:space="preserve">
+    <value>Think about it. How long is it from one high tide to the next?</value>
+  </data>
+  <data name="Narr_Tides_Coast_06" xml:space="preserve">
+    <value>About twelve and a half hours: half of twenty-four hours and fifty minutes. Boats in the harbour rise and fall with the water. In some harbours, they sit on the mud at low tide.</value>
+  </data>
+  <data name="Narr_Tides_Coast_07" xml:space="preserve">
+    <value>Now you try. Drag sideways to move through the day, and find high water and low water on the tide staff.</value>
+  </data>
+  <data name="Narr_Tides_Coast_08" xml:space="preserve">
+    <value>On real coasts, the shape of the sea floor and the coastline matter a lot. In the Mediterranean, the tide is only a few tens of centimetres. In the Bay of Fundy in Canada, it can be more than fifteen metres.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Boat" xml:space="preserve">
+    <value>A boat at anchor. It rises and falls with the water, and its anchor line goes slack at low tide.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Earth" xml:space="preserve">
+    <value>Earth, turning once a day. The oceans are drawn around it as a blue layer, with the tidal bulges hugely exaggerated.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Force" xml:space="preserve">
+    <value>The tidal force: the Moon's pull at each place, minus its pull on Earth's centre. It points outwards towards and away from the Moon, and inwards in between.</value>
+  </data>
+  <data name="Narr_Tides_Obj_HighFar" xml:space="preserve">
+    <value>The bulge on the far side. The water here is pulled a little less than Earth's centre, so it's left behind as Earth is pulled towards the Moon.</value>
+  </data>
+  <data name="Narr_Tides_Obj_HighNear" xml:space="preserve">
+    <value>The bulge facing the Moon. The Moon pulls the water here a little harder than it pulls Earth's centre, so the water piles up.</value>
+  </data>
+  <data name="Narr_Tides_Obj_HighWater" xml:space="preserve">
+    <value>The highest the water reaches today. The wet sand above the waterline shows where it has been.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Level" xml:space="preserve">
+    <value>The water level right now, and whether the tide is rising or falling.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Low" xml:space="preserve">
+    <value>Low tide, halfway between the two bulges. Water has flowed away from here into the bulges.</value>
+  </data>
+  <data name="Narr_Tides_Obj_LowWater" xml:space="preserve">
+    <value>The lowest the water falls today. At low water, more of the beach is uncovered.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Moon" xml:space="preserve">
+    <value>The Moon. Its pull is a little stronger on the side of Earth facing it, and a little weaker on the far side. That difference stretches the oceans into two bulges.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Neap" xml:space="preserve">
+    <value>Neap tide. At first and last quarter, the Sun and the Moon pull at right angles, and the tides are at their smallest.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Range" xml:space="preserve">
+    <value>The tidal range: how far the water rises from low tide to high tide. It grows towards spring tides and shrinks towards neap tides.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Spin" xml:space="preserve">
+    <value>Earth turns once a day, from west to east. Seen from above the North Pole, that's anticlockwise.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Spring" xml:space="preserve">
+    <value>Spring tide. At new moon and full moon, the Sun's bulges add to the Moon's, so high tides are higher and low tides lower.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Staff" xml:space="preserve">
+    <value>The tide staff. Its marks are in metres above the lowest low water, so sailors can tell how deep the harbour is.</value>
+  </data>
+  <data name="Narr_Tides_Obj_Sun" xml:space="preserve">
+    <value>The Sun. It raises tides as well, a little under half as big as the Moon's. When the two line up, the tides are biggest.</value>
+  </data>
+  <data name="Narr_Tides_Obj_You" xml:space="preserve">
+    <value>You, on the equator. Earth's turning carries you through high and low tide. The label shows your time and what the tide is doing.</value>
+  </data>
+  <data name="Narr_Tides_Spring_01" xml:space="preserve">
+    <value>The Sun raises tides too. It's far bigger than the Moon, but also far more distant, so its tides are a little under half as big.</value>
+  </data>
+  <data name="Narr_Tides_Spring_02" xml:space="preserve">
+    <value>This gold outline shows the Sun's two bulges, along the line towards the Sun.</value>
+  </data>
+  <data name="Narr_Tides_Spring_03" xml:space="preserve">
+    <value>And this blue outline shows the Moon's two bulges. The real water is the two added together.</value>
+  </data>
+  <data name="Narr_Tides_Spring_04" xml:space="preserve">
+    <value>At new moon, the Sun and the Moon line up, and their bulges add together. The tides are extra big. These are spring tides. They have nothing to do with springtime: the water springs up.</value>
+  </data>
+  <data name="Narr_Tides_Spring_05" xml:space="preserve">
+    <value>Now it's first quarter. The Moon is at right angles to the Sun. Think about it: what happens to the tides?</value>
+  </data>
+  <data name="Narr_Tides_Spring_06" xml:space="preserve">
+    <value>They get smaller. The Sun's bulges partly fill in the Moon's low tides and take away from its high tides. These weaker tides are neap tides.</value>
+  </data>
+  <data name="Narr_Tides_Spring_07" xml:space="preserve">
+    <value>So spring tides and neap tides take turns, twice a month each: spring tides at new and full moon, neap tides at the quarters.</value>
+  </data>
+  <data name="Narr_Tides_Spring_08" xml:space="preserve">
+    <value>Now you try. Drag the Moon around its orbit, and watch the tides grow and shrink.</value>
+  </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>Animate</value>
   </data>
@@ -3062,6 +3185,441 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>The hottest planet</value>
+  </data>
+  <data name="Tides_Bulges_Fact1" xml:space="preserve">
+    <value>The tidal force is the difference between the Moon's pull on a piece of ocean and its pull on Earth's centre. It weakens with the cube of the distance, so what matters is how near the Moon is, not how big.</value>
+  </data>
+  <data name="Tides_Bulges_Fact2" xml:space="preserve">
+    <value>On the far side the Moon pulls the water less than it pulls Earth itself, so Earth is pulled away from that water: it is left behind as the second bulge.</value>
+  </data>
+  <data name="Tides_Bulges_Fact3" xml:space="preserve">
+    <value>The Moon's tidal force is only about one ten-millionth of Earth's gravity. On an ocean covering the whole Earth it would lift the water only about half a metre; coasts and bays turn that into metres.</value>
+  </data>
+  <data name="Tides_Bulges_Fact4" xml:space="preserve">
+    <value>While Earth turns once, the Moon moves on about 13° the same way, so Earth needs about 50 more minutes to catch up: the tides come about 50 minutes later each day.</value>
+  </data>
+  <data name="Tides_Bulges_Fact5" xml:space="preserve">
+    <value>Tidal friction slows Earth's spin: the day grows about 2 milliseconds longer every century, and the Moon moves about 3.8 cm farther away each year.</value>
+  </data>
+  <data name="Tides_Bulges_Note" xml:space="preserve">
+    <value>Seen from above the North Pole, sunlight from the left; the Moon's tide alone. Not to scale: the bulges are exaggerated millions of times, and the Moon is really 60 Earth radii away.</value>
+  </data>
+  <data name="Tides_Bulges_Subtitle" xml:space="preserve">
+    <value>Why two high tides a day? The Moon stretches the oceans into two bulges</value>
+  </data>
+  <data name="Tides_Chart_Caption" xml:space="preserve">
+    <value>Tide curve</value>
+  </data>
+  <data name="Tides_Chart_Caption_Moon" xml:space="preserve">
+    <value>The water where you are (the Moon's tide alone)</value>
+  </data>
+  <data name="Tides_Chart_Day" xml:space="preserve">
+    <value>Day {0}</value>
+  </data>
+  <data name="Tides_Chart_Gap" xml:space="preserve">
+    <value>{0} h {1:00} min</value>
+  </data>
+  <data name="Tides_Chart_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Tides_Chart_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="Tides_Chart_Mean" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="Tides_Chart_Note" xml:space="preserve">
+    <value>Metres above chart datum; shaded: night. With the Sun added, the time between high tides varies a little around 12 h 25 min.</value>
+  </data>
+  <data name="Tides_Chart_Note_Moon" xml:space="preserve">
+    <value>Shaded: night. Two highs and two lows every 24 h 50 min.</value>
+  </data>
+  <data name="Tides_Clock" xml:space="preserve">
+    <value>Day {0} · {1}</value>
+  </data>
+  <data name="Tides_Coast_Fact1" xml:space="preserve">
+    <value>Tide tables give heights above chart datum, about the lowest the water ever falls, so the depth shown on a chart is the least to expect.</value>
+  </data>
+  <data name="Tides_Coast_Fact2" xml:space="preserve">
+    <value>Rule of twelfths: from low to high water, in each of the six hours the water rises about 1/12, 2/12, 3/12, 3/12, 2/12 and 1/12 of the range, fastest in the middle hours.</value>
+  </data>
+  <data name="Tides_Coast_Fact3" xml:space="preserve">
+    <value>On real coasts high water comes hours after the Moon is highest: the oceans cannot keep up with the bulges and the continents get in the way. The delay is nearly the same each day at a given port, which is how tides are predicted.</value>
+  </data>
+  <data name="Tides_Coast_Fact4" xml:space="preserve">
+    <value>Some coasts have only one high tide a day, such as the Beibu Gulf off Beihai, where the shape of the gulf strengthens the once-a-day tide.</value>
+  </data>
+  <data name="Tides_Coast_Fact5" xml:space="preserve">
+    <value>The Bay of Fundy in Canada has the largest tides in the world, up to about 16 m between high and low water; China's largest are in Hangzhou Bay, up to about 9 m.</value>
+  </data>
+  <data name="Tides_Coast_Note" xml:space="preserve">
+    <value>A coast at the latitude of {1} ({0}) where the Moon alone would move the water 1 m above and below the mean. Here high water comes when the Moon is highest or lowest; on real coasts it comes hours later.</value>
+  </data>
+  <data name="Tides_Coast_Subtitle" xml:space="preserve">
+    <value>At the coast: the sea comes in and goes out twice a day</value>
+  </data>
+  <data name="Tides_DragHint_Moon" xml:space="preserve">
+    <value>Drag the Moon along its orbit</value>
+  </data>
+  <data name="Tides_DragHint_Time" xml:space="preserve">
+    <value>Drag sideways to move the time: a day across the view</value>
+  </data>
+  <data name="Tides_Duration" xml:space="preserve">
+    <value>{0} h {1:00} min</value>
+  </data>
+  <data name="Tides_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Tides_Force_Caption" xml:space="preserve">
+    <value>Why is there a bulge on the far side too?</value>
+  </data>
+  <data name="Tides_Force_Centre" xml:space="preserve">
+    <value>Centre</value>
+  </data>
+  <data name="Tides_Force_Far" xml:space="preserve">
+    <value>Far side</value>
+  </data>
+  <data name="Tides_Force_Near" xml:space="preserve">
+    <value>Near side</value>
+  </data>
+  <data name="Tides_Force_Note" xml:space="preserve">
+    <value>Exaggerated: the Moon is drawn 3 Earth radii away instead of 60, so the differences show.</value>
+  </data>
+  <data name="Tides_Force_Pull" xml:space="preserve">
+    <value>1. The Moon's pull: strongest on the near side</value>
+  </data>
+  <data name="Tides_Force_Tidal" xml:space="preserve">
+    <value>2. Take away the pull on the centre: the tidal force</value>
+  </data>
+  <data name="Tides_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Tides_Kind_Growing" xml:space="preserve">
+    <value>Tides growing</value>
+  </data>
+  <data name="Tides_Kind_Growing_Description" xml:space="preserve">
+    <value>Heading for new or full moon: the two pairs of bulges come into line and the range grows day by day.</value>
+  </data>
+  <data name="Tides_Kind_Neap" xml:space="preserve">
+    <value>Neap tides</value>
+  </data>
+  <data name="Tides_Kind_Neap_Description" xml:space="preserve">
+    <value>Seen from Earth, the Sun and the Moon are at right angles (first or last quarter): the Sun's bulges fill in the Moon's lows, so the range is smallest.</value>
+  </data>
+  <data name="Tides_Kind_Shrinking" xml:space="preserve">
+    <value>Tides shrinking</value>
+  </data>
+  <data name="Tides_Kind_Shrinking_Description" xml:space="preserve">
+    <value>Heading for a quarter moon: the two pairs of bulges move apart and the range shrinks day by day.</value>
+  </data>
+  <data name="Tides_Kind_Spring" xml:space="preserve">
+    <value>Spring tides</value>
+  </data>
+  <data name="Tides_Kind_Spring_Description" xml:space="preserve">
+    <value>The Sun, Earth and the Moon are nearly in line (new or full moon): the Sun's bulges add to the Moon's, so high water is higher and low water lower.</value>
+  </data>
+  <data name="Tides_Label_Force" xml:space="preserve">
+    <value>Tidal force</value>
+  </data>
+  <data name="Tides_Label_HighFar" xml:space="preserve">
+    <value>High tide (far side)</value>
+  </data>
+  <data name="Tides_Label_HighNear" xml:space="preserve">
+    <value>High tide (facing the Moon)</value>
+  </data>
+  <data name="Tides_Label_HighWater" xml:space="preserve">
+    <value>Today's high water {0:0.0} m</value>
+  </data>
+  <data name="Tides_Label_Level" xml:space="preserve">
+    <value>{0:0.00} m · {1}</value>
+  </data>
+  <data name="Tides_Label_Low" xml:space="preserve">
+    <value>Low tide</value>
+  </data>
+  <data name="Tides_Label_LowWater" xml:space="preserve">
+    <value>Today's low water {0:0.0} m</value>
+  </data>
+  <data name="Tides_Label_Moon" xml:space="preserve">
+    <value>Moon</value>
+  </data>
+  <data name="Tides_Label_Neap" xml:space="preserve">
+    <value>Neap tide</value>
+  </data>
+  <data name="Tides_Label_Range" xml:space="preserve">
+    <value>{0}: range {1:0.0} m</value>
+  </data>
+  <data name="Tides_Label_Spin" xml:space="preserve">
+    <value>Earth turns once a day</value>
+  </data>
+  <data name="Tides_Label_Spring" xml:space="preserve">
+    <value>Spring tide</value>
+  </data>
+  <data name="Tides_Label_Sun" xml:space="preserve">
+    <value>Sun (far to the left)</value>
+  </data>
+  <data name="Tides_Label_You" xml:space="preserve">
+    <value>You {0} · {1}</value>
+  </data>
+  <data name="Tides_Legend_Caption" xml:space="preserve">
+    <value>In the picture</value>
+  </data>
+  <data name="Tides_Legend_Moon" xml:space="preserve">
+    <value>Moon's bulges</value>
+  </data>
+  <data name="Tides_Legend_Sun" xml:space="preserve">
+    <value>Sun's bulges</value>
+  </data>
+  <data name="Tides_Legend_Water" xml:space="preserve">
+    <value>Water (the sum)</value>
+  </data>
+  <data name="Tides_Lesson_Bulges_Choice1" xml:space="preserve">
+    <value>Two</value>
+  </data>
+  <data name="Tides_Lesson_Bulges_Choice2" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="Tides_Lesson_Bulges_Choice3" xml:space="preserve">
+    <value>Four</value>
+  </data>
+  <data name="Tides_Lesson_Coast_Choice1" xml:space="preserve">
+    <value>About twelve and a half hours</value>
+  </data>
+  <data name="Tides_Lesson_Coast_Choice2" xml:space="preserve">
+    <value>Exactly twenty-four hours</value>
+  </data>
+  <data name="Tides_Lesson_Coast_Choice3" xml:space="preserve">
+    <value>About six hours</value>
+  </data>
+  <data name="Tides_Lesson_Spring_Choice1" xml:space="preserve">
+    <value>They get smaller</value>
+  </data>
+  <data name="Tides_Lesson_Spring_Choice2" xml:space="preserve">
+    <value>They get bigger</value>
+  </data>
+  <data name="Tides_Lesson_Spring_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Tides_Metres" xml:space="preserve">
+    <value>{0:0.00} m</value>
+  </data>
+  <data name="Tides_Mode_Bulges" xml:space="preserve">
+    <value>Two bulges</value>
+  </data>
+  <data name="Tides_Mode_Coast" xml:space="preserve">
+    <value>At the coast</value>
+  </data>
+  <data name="Tides_Mode_SpringNeap" xml:space="preserve">
+    <value>Spring and neap</value>
+  </data>
+  <data name="Tides_NextHigh" xml:space="preserve">
+    <value>Next high tide</value>
+  </data>
+  <data name="Tides_NextLow" xml:space="preserve">
+    <value>Next low tide</value>
+  </data>
+  <data name="Tides_Obj_Boat" xml:space="preserve">
+    <value>Boat at anchor</value>
+  </data>
+  <data name="Tides_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Tides_Obj_Force" xml:space="preserve">
+    <value>Tidal force</value>
+  </data>
+  <data name="Tides_Obj_HighFar" xml:space="preserve">
+    <value>High tide, far side</value>
+  </data>
+  <data name="Tides_Obj_HighNear" xml:space="preserve">
+    <value>High tide, facing the Moon</value>
+  </data>
+  <data name="Tides_Obj_HighWater" xml:space="preserve">
+    <value>Today's high water</value>
+  </data>
+  <data name="Tides_Obj_Level" xml:space="preserve">
+    <value>Water level now</value>
+  </data>
+  <data name="Tides_Obj_Low" xml:space="preserve">
+    <value>Low tide</value>
+  </data>
+  <data name="Tides_Obj_LowWater" xml:space="preserve">
+    <value>Today's low water</value>
+  </data>
+  <data name="Tides_Obj_Moon" xml:space="preserve">
+    <value>The Moon</value>
+  </data>
+  <data name="Tides_Obj_Neap" xml:space="preserve">
+    <value>Neap tide</value>
+  </data>
+  <data name="Tides_Obj_Range" xml:space="preserve">
+    <value>Tidal range</value>
+  </data>
+  <data name="Tides_Obj_Spin" xml:space="preserve">
+    <value>Earth's daily turn</value>
+  </data>
+  <data name="Tides_Obj_Spring" xml:space="preserve">
+    <value>Spring tide</value>
+  </data>
+  <data name="Tides_Obj_Staff" xml:space="preserve">
+    <value>Tide staff</value>
+  </data>
+  <data name="Tides_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Tides_Obj_You" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Tides_OpenMoonPhases" xml:space="preserve">
+    <value>Moon phases</value>
+  </data>
+  <data name="Tides_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Tides_Range_Caption" xml:space="preserve">
+    <value>Range between high and low water through the month</value>
+  </data>
+  <data name="Tides_Range_Note" xml:space="preserve">
+    <value>Dashed: the Moon alone. The Sun makes the range swing between 1.1 m and 2.9 m.</value>
+  </data>
+  <data name="Tides_ShowForces" xml:space="preserve">
+    <value>Tidal force arrows</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact1" xml:space="preserve">
+    <value>The Sun pulls on Earth about 180 times as hard as the Moon, yet its tidal force is only 46% of the Moon's: it is 389 times as far away, and the tidal force falls with the cube of the distance.</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact2" xml:space="preserve">
+    <value>Spring tides have nothing to do with the season (the name means the water springs up): they come twice a month, around new and full moon, the 1st and the 15th of the Chinese lunar month. Neap tides come around the 8th and the 23rd.</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact3" xml:space="preserve">
+    <value>Real spring tides usually come one to three days after new or full moon, because the oceans take time to respond to the pull. This delay is called the age of the tide.</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact4" xml:space="preserve">
+    <value>When a new or full moon comes with the Moon at its closest to Earth (perigee), its tidal force is nearly 20% stronger than on average and the spring tides are bigger still: perigean spring tides, or king tides.</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact5" xml:space="preserve">
+    <value>The Qiantang River bore near Hangzhou is at its grandest around the 18th of the eighth lunar month: an autumn spring tide pushed into a funnel-shaped estuary rises into a wall of water up to a few metres high.</value>
+  </data>
+  <data name="Tides_SpringNeap_Note" xml:space="preserve">
+    <value>Dashed outlines: the Moon's and the Sun's bulges on their own; the blue water is the two added together. Not to scale.</value>
+  </data>
+  <data name="Tides_SpringNeap_Subtitle" xml:space="preserve">
+    <value>The Sun joins in: big spring tides and small neap tides</value>
+  </data>
+  <data name="Tides_Stage_Falling" xml:space="preserve">
+    <value>Falling tide</value>
+  </data>
+  <data name="Tides_Stage_Falling_Description" xml:space="preserve">
+    <value>Earth's turning carries you away from the bulge, and the water goes out.</value>
+  </data>
+  <data name="Tides_Stage_High" xml:space="preserve">
+    <value>High tide</value>
+  </data>
+  <data name="Tides_Stage_High_Description" xml:space="preserve">
+    <value>High water: this place is under one of the two bulges, the one facing the Moon or the one opposite it.</value>
+  </data>
+  <data name="Tides_Stage_Low" xml:space="preserve">
+    <value>Low tide</value>
+  </data>
+  <data name="Tides_Stage_Low_Description" xml:space="preserve">
+    <value>Low water: you are halfway between the two bulges.</value>
+  </data>
+  <data name="Tides_Stage_Rising" xml:space="preserve">
+    <value>Rising tide</value>
+  </data>
+  <data name="Tides_Stage_Rising_Description" xml:space="preserve">
+    <value>You are turning towards the next bulge, and the water comes in.</value>
+  </data>
+  <data name="Tides_Stat_Angle" xml:space="preserve">
+    <value>Angle between the bulges</value>
+  </data>
+  <data name="Tides_Stat_Angle_Value" xml:space="preserve">
+    <value>{0:0}°</value>
+  </data>
+  <data name="Tides_Stat_HighWater" xml:space="preserve">
+    <value>Highest water</value>
+  </data>
+  <data name="Tides_Stat_Level" xml:space="preserve">
+    <value>Water level</value>
+  </data>
+  <data name="Tides_Stat_Level_Value" xml:space="preserve">
+    <value>{0:0.00} m above chart datum</value>
+  </data>
+  <data name="Tides_Stat_Moon" xml:space="preserve">
+    <value>The Moon</value>
+  </data>
+  <data name="Tides_Stat_Moon_Down" xml:space="preserve">
+    <value>{0:0}° below the horizon</value>
+  </data>
+  <data name="Tides_Stat_Moon_East" xml:space="preserve">
+    <value>{0:0}° up in the east</value>
+  </data>
+  <data name="Tides_Stat_Moon_Overhead" xml:space="preserve">
+    <value>Nearly overhead</value>
+  </data>
+  <data name="Tides_Stat_Moon_West" xml:space="preserve">
+    <value>{0:0}° up in the west</value>
+  </data>
+  <data name="Tides_Stat_NextHigh" xml:space="preserve">
+    <value>Next high tide</value>
+  </data>
+  <data name="Tides_Stat_NextLow" xml:space="preserve">
+    <value>Next low tide</value>
+  </data>
+  <data name="Tides_Stat_Period" xml:space="preserve">
+    <value>High tide to high tide</value>
+  </data>
+  <data name="Tides_Stat_Phase" xml:space="preserve">
+    <value>Moon phase</value>
+  </data>
+  <data name="Tides_Stat_Phase_Value" xml:space="preserve">
+    <value>{0}, {1:0.0} days old</value>
+  </data>
+  <data name="Tides_Stat_Range" xml:space="preserve">
+    <value>Range today</value>
+  </data>
+  <data name="Tides_Stat_RangeOf" xml:space="preserve">
+    <value>{0:0.0} m (spring {1:0.0}, neap {2:0.0})</value>
+  </data>
+  <data name="Tides_Stat_Range_Value" xml:space="preserve">
+    <value>{0:0.0} m · {1}</value>
+  </data>
+  <data name="Tides_Stat_Turn_Value" xml:space="preserve">
+    <value>{0} (in {1})</value>
+  </data>
+  <data name="Tides_Table_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Tides_Table_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="Tides_Timeline" xml:space="preserve">
+    <value>Time through the Moon's month</value>
+  </data>
+  <data name="Tides_Title" xml:space="preserve">
+    <value>Tides</value>
+  </data>
+  <data name="Tides_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Tides_Today_Caption" xml:space="preserve">
+    <value>Tides on day {0}</value>
+  </data>
+  <data name="Tides_Today_Text" xml:space="preserve">
+    <value>Today the Moon is {0:0.0} days old · {1}</value>
+  </data>
+  <data name="Tides_Upcoming" xml:space="preserve">
+    <value>Coming spring and neap tides</value>
+  </data>
+  <data name="Tides_Upcoming_Neap" xml:space="preserve">
+    <value>Neap tides ({0})</value>
+  </data>
+  <data name="Tides_Upcoming_Note" xml:space="preserve">
+    <value>From the real dates of the new moon, quarters and full moon in your time zone. The biggest tides usually come one to three days later.</value>
+  </data>
+  <data name="Tides_Upcoming_Spring" xml:space="preserve">
+    <value>Spring tides ({0})</value>
+  </data>
+  <data name="Tides_Upcoming_When" xml:space="preserve">
+    <value>around {0}, {1}</value>
   </data>
   <data name="Title_Edition" xml:space="preserve">
     <value>First edition, still being written</value>

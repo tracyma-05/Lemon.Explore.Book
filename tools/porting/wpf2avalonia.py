@@ -41,6 +41,8 @@ SHARED_NAMESPACES = {
     "Controls.Explore": "Controls.Explore",
     "ViewModels.Explore.Lessons": "Explore.Lessons",
     "Services.Explore.Narration": "Explore.Narration",
+    # The observer location (IExploreLocationService, ExplorePlaces).
+    "Services.Explore": "Explore.Places",
     "Infrastructures.Localization": "Infrastructures.Localization",
 }
 
@@ -91,8 +93,18 @@ def apply_namespaces(s: str, namespace: str, source_prefix: str, maps: list[str]
     # The original's drawing helpers are this book's SpaceDrawing, whatever namespace they were in.
     s = re.sub(r"using static [\w.]+\.EclipseDrawing;", f"using static {TARGET_ROOT}.Controls.Space.SpaceDrawing;", s)
     s = s.replace("EclipseDrawing", "SpaceDrawing")
+    s = re.sub(r"\bControls\.\w+\.SpaceDrawing\.", "SpaceDrawing.", s)
     s = s.replace(f"using {namespace};\n", "")
-    return s
+    # Two source namespaces can map to one (e.g. the solar-system and eclipse helpers): keep each using once.
+    seen: set[str] = set()
+    lines = []
+    for line in s.split("\n"):
+        if line.startswith("using ") and line.endswith(";"):
+            if line in seen:
+                continue
+            seen.add(line)
+        lines.append(line)
+    return "\n".join(lines)
 
 
 # ---- drawing: brushes, geometry, DPI ---------------------------------------------------------------------------
@@ -211,6 +223,7 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"Freeze\(new Pen\((.*), ([\d.]+)\)\);", r"MakePen(\1, \2);", s)
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
     s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
+    s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
     # Premultiplied BGRA bitmaps written from a uint[] of pixels.
     s = re.sub(r"new WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.Pbgra32, null\)",
                r"new WriteableBitmap(new PixelSize(\1, \2), new Vector(96, 96), PixelFormat.Bgra8888, AlphaFormat.Premul)", s)
@@ -487,6 +500,12 @@ def viewmodel(args: argparse.Namespace) -> None:
         s = re.sub(r"    private static IBrush Frozen\(byte r, byte g, byte b\)\n    \{\n.*?\n    \}\n",
                    "    private static IBrush Frozen(byte r, byte g, byte b) => new ImmutableSolidColorBrush(Color.FromRgb(r, g, b));\n",
                    s, flags=re.S)
+        s = re.sub(r"    private static IBrush Frozen\(Color color\)\n    \{\n.*?\n    \}\n",
+                   "    private static IBrush Frozen(Color color) => new ImmutableSolidColorBrush(color);\n",
+                   s, flags=re.S)
+        if "SpaceDrawing." in s and f"using {TARGET_ROOT}.Controls.Space;" not in s:
+            s = s.replace(f"using {TARGET_ROOT}.Controls.Explore;\n",
+                          f"using {TARGET_ROOT}.Controls.Explore;\nusing {TARGET_ROOT}.Controls.Space;\n", 1)
         s = s.replace(": ObservableObject, IDisposable", ": ObservableObject, IChapterContent, IDisposable")
         s = s.replace("    private readonly ILocalizationService _localization;\n",
                       "    private readonly ILocalizationService _localization = LocalizationService.Instance;\n    private int _views;\n")
@@ -496,6 +515,13 @@ def viewmodel(args: argparse.Namespace) -> None:
         close = match_bracket(s, ctor.end() - 2)
         s = s[:close + 1] + CHAPTER_LIFETIMES + s[close + 1:]
         s = re.sub(r"/// The (\w+) page\b", r"/// The \1 chapter", s)
+        # Opening another Explore page turns to that chapter of the book; its slug is the route's last segment.
+        s = s.replace("IMenuNavigator", "IBookNavigator")
+        s = re.sub(r"_navigator\.NavigateTo\(Constants\.Explore(\w+)\)",
+                   lambda m: f'_navigator.GoToPage(BookContents.ChapterPageOf("{re.sub(r"(?<=[a-z])(?=[A-Z])", "-", m.group(1))}"))', s)
+        if "IBookNavigator" in s and f"using {TARGET_ROOT}.ViewModels.Pages;" not in s:
+            s = s.replace(f"using {TARGET_ROOT}.Explore.Lessons;\n",
+                          f"using {TARGET_ROOT}.Explore.Lessons;\nusing {TARGET_ROOT}.Contents;\nusing {TARGET_ROOT}.ViewModels.Pages;\n")
 
     if args.replacements:
         for old, new in runpy.run_path(args.replacements)["REPLACEMENTS"]:

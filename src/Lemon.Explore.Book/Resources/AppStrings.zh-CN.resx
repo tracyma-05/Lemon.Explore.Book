@@ -2226,6 +2226,129 @@
   <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
     <value>现在你来试试：点击任意一颗行星或卫星，飞过去听听它的故事。</value>
   </data>
+  <data name="Narr_Tides_Bulges_01" xml:space="preserve">
+    <value>这是从北极上方往下看的地球，月球绕着它转。外面这层蓝色就是海洋。海水的隆起被放大了很多很多倍，好让你看得清。</value>
+  </data>
+  <data name="Narr_Tides_Bulges_02" xml:space="preserve">
+    <value>月球吸引着地球上的一切，但各处受力并不一样。朝着月球的一面，被拉得比地心稍强一点；背着月球的一面，又稍弱一点。这些箭头画的就是这个差别，叫做潮汐力。</value>
+  </data>
+  <data name="Narr_Tides_Bulges_03" xml:space="preserve">
+    <value>于是，海水在朝着月球的一面堆起一个隆起，那里就是高潮。</value>
+  </data>
+  <data name="Narr_Tides_Bulges_04" xml:space="preserve">
+    <value>让人意外的是，背着月球的另一面，也有一个隆起。那里的海水受到的拉力比地球本身还小，就被落在了后面。</value>
+  </data>
+  <data name="Narr_Tides_Bulges_05" xml:space="preserve">
+    <value>地球每天在这两个隆起下面自转一圈。想一想：海边的一个地方，每天会遇到几次高潮？</value>
+  </data>
+  <data name="Narr_Tides_Bulges_06" xml:space="preserve">
+    <value>两次。地球转一圈，会带着你先后穿过两个隆起，所以每天有两次高潮、两次低潮。</value>
+  </data>
+  <data name="Narr_Tides_Bulges_07" xml:space="preserve">
+    <value>不过，月球同时也在沿着轨道往前走，地球得多转一点才能追上它。所以高潮每天大约推迟五十分钟。</value>
+  </data>
+  <data name="Narr_Tides_Bulges_08" xml:space="preserve">
+    <value>现在你来试试：在画面上左右拖动，让地球转起来，看看你所在的地方，海水怎么涨、怎么落。</value>
+  </data>
+  <data name="Narr_Tides_Coast_01" xml:space="preserve">
+    <value>这是从侧面看的一个港口，左边是大海。看，海水涨上来，又退下去。</value>
+  </data>
+  <data name="Narr_Tides_Coast_02" xml:space="preserve">
+    <value>码头上这根标尺叫水尺，用来量海水有多高，单位是米。</value>
+  </data>
+  <data name="Narr_Tides_Coast_03" xml:space="preserve">
+    <value>箭头指着现在的水位，旁边还写着潮水正在涨还是在落。</value>
+  </data>
+  <data name="Narr_Tides_Coast_04" xml:space="preserve">
+    <value>这两条线标出了今天的最高潮位和最低潮位，两者的差，就叫潮差。</value>
+  </data>
+  <data name="Narr_Tides_Coast_05" xml:space="preserve">
+    <value>想一想：从一次高潮到下一次高潮，要隔多久？</value>
+  </data>
+  <data name="Narr_Tides_Coast_06" xml:space="preserve">
+    <value>大约十二个半小时，也就是二十四小时五十分钟的一半。港口里的船也跟着海水一起升降。有些港口到了低潮，船就搁在泥滩上了。</value>
+  </data>
+  <data name="Narr_Tides_Coast_07" xml:space="preserve">
+    <value>现在你来试试：左右拖动，让时间在一天里前后移动，在水尺上找找高潮和低潮。</value>
+  </data>
+  <data name="Narr_Tides_Coast_08" xml:space="preserve">
+    <value>在真实的海岸，海底和海岸线的形状影响很大。地中海的潮差只有几十厘米，而加拿大的芬迪湾，潮差能超过十五米。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Boat" xml:space="preserve">
+    <value>一条抛了锚的小船。它跟着海水一起升降，到了低潮，锚绳就松下来了。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Earth" xml:space="preserve">
+    <value>地球，每天自转一圈。外面那层蓝色是海洋，潮汐的隆起被放大了很多倍。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Force" xml:space="preserve">
+    <value>潮汐力：月球对每个地方的拉力，减去它对地心的拉力。它在朝月和背月的方向向外，在两者中间向内。</value>
+  </data>
+  <data name="Narr_Tides_Obj_HighFar" xml:space="preserve">
+    <value>背着月球的隆起。这里的海水受到的拉力比地心稍弱，地球被月球拉过去时，它就被留在了后面。</value>
+  </data>
+  <data name="Narr_Tides_Obj_HighNear" xml:space="preserve">
+    <value>朝着月球的隆起。月球拉这里的海水，比拉地心稍微用力一些，海水就堆了起来。</value>
+  </data>
+  <data name="Narr_Tides_Obj_HighWater" xml:space="preserve">
+    <value>今天海水涨到的最高位置。水面上方那片湿沙，就是海水退去时留下的痕迹。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Level" xml:space="preserve">
+    <value>现在的水位，以及潮水正在涨还是在落。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Low" xml:space="preserve">
+    <value>低潮，在两个隆起的正中间。这里的海水流到隆起那边去了。</value>
+  </data>
+  <data name="Narr_Tides_Obj_LowWater" xml:space="preserve">
+    <value>今天海水退到的最低位置。到了低潮，露出来的沙滩更多。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Moon" xml:space="preserve">
+    <value>月球。它对地球朝向它的一面拉得稍强，对背面拉得稍弱。正是这个差别，把海洋拉成了两个隆起。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Neap" xml:space="preserve">
+    <value>小潮。上弦和下弦时，太阳和月球的拉力成直角，潮水最小。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Range" xml:space="preserve">
+    <value>潮差：海水从低潮涨到高潮，升高了多少。临近大潮时它变大，临近小潮时它变小。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Spin" xml:space="preserve">
+    <value>地球每天自西向东自转一圈。从北极上方看，就是逆时针方向。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Spring" xml:space="preserve">
+    <value>大潮。新月和满月时，太阳的隆起叠加在月球的隆起上，高潮更高，低潮更低。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Staff" xml:space="preserve">
+    <value>水尺。上面的刻度，是从最低的低潮算起的米数，水手看一眼就知道港口里的水有多深。</value>
+  </data>
+  <data name="Narr_Tides_Obj_Sun" xml:space="preserve">
+    <value>太阳。它也会引起潮汐，大小还不到月球的一半。太阳和月球排成一线时，潮水最大。</value>
+  </data>
+  <data name="Narr_Tides_Obj_You" xml:space="preserve">
+    <value>这是你，站在赤道上。地球的自转带着你经过高潮和低潮。标签上写着你那里的时间，以及潮水正在做什么。</value>
+  </data>
+  <data name="Narr_Tides_Spring_01" xml:space="preserve">
+    <value>太阳也会引起潮汐。它比月球大得多，可也远得多，所以它引起的潮汐还不到月球的一半。</value>
+  </data>
+  <data name="Narr_Tides_Spring_02" xml:space="preserve">
+    <value>这条金色的轮廓，是太阳引起的两个隆起，沿着朝向太阳的方向。</value>
+  </data>
+  <data name="Narr_Tides_Spring_03" xml:space="preserve">
+    <value>这条蓝色的轮廓，是月球引起的两个隆起。真正的海水，是两者加在一起的结果。</value>
+  </data>
+  <data name="Narr_Tides_Spring_04" xml:space="preserve">
+    <value>新月的时候，太阳和月球排成一线，两组隆起叠在一起，潮水特别大，这就是大潮。</value>
+  </data>
+  <data name="Narr_Tides_Spring_05" xml:space="preserve">
+    <value>现在是上弦月，月球和太阳成直角。想一想：潮水会怎样？</value>
+  </data>
+  <data name="Narr_Tides_Spring_06" xml:space="preserve">
+    <value>变小了。太阳的隆起正好填进月球的低潮处，又削低了月球的高潮。这种比较弱的潮汐，就叫小潮。</value>
+  </data>
+  <data name="Narr_Tides_Spring_07" xml:space="preserve">
+    <value>所以，大潮和小潮轮流出现，每个月各两次：新月和满月时是大潮，上弦和下弦时是小潮。</value>
+  </data>
+  <data name="Narr_Tides_Spring_08" xml:space="preserve">
+    <value>现在你来试试：拖着月球沿轨道走，看看潮水怎么变大、又变小。</value>
+  </data>
   <data name="Seasons_Animate" xml:space="preserve">
     <value>动画</value>
   </data>
@@ -3062,6 +3185,441 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>最炽热的行星</value>
+  </data>
+  <data name="Tides_Bulges_Fact1" xml:space="preserve">
+    <value>潮汐力是月球对某处海水的引力与对地心引力之差。它与距离的三次方成反比，所以关键在于月球离得近，而不是它有多大。</value>
+  </data>
+  <data name="Tides_Bulges_Fact2" xml:space="preserve">
+    <value>在背对月球的一侧，海水受到的引力比地心小，地球被“拉走”了一点，海水落在后面，于是形成第二个隆起。</value>
+  </data>
+  <data name="Tides_Bulges_Fact3" xml:space="preserve">
+    <value>月球的潮汐力只有地球重力的约千万分之一。如果海洋覆盖整个地球，它只能让海面起伏约半米；海岸和海湾的地形把它放大到几米。</value>
+  </data>
+  <data name="Tides_Bulges_Fact4" xml:space="preserve">
+    <value>地球自转一圈时，月球也沿同一方向前进了约 13°，地球还要多转约 50 分钟才能追上，所以潮水每天大约推迟 50 分钟。</value>
+  </data>
+  <data name="Tides_Bulges_Fact5" xml:space="preserve">
+    <value>潮汐摩擦让地球自转变慢：每过一百年，一天约变长 2 毫秒；月球则每年远离地球约 3.8 厘米。</value>
+  </data>
+  <data name="Tides_Bulges_Note" xml:space="preserve">
+    <value>从北极上空俯视，阳光从左侧照来；这里只画月球引起的潮汐。未按比例：隆起被放大了数百万倍，月球实际远在 60 个地球半径之外。</value>
+  </data>
+  <data name="Tides_Bulges_Subtitle" xml:space="preserve">
+    <value>为什么一天涨两次潮？月球把海洋拉成了两个隆起</value>
+  </data>
+  <data name="Tides_Chart_Caption" xml:space="preserve">
+    <value>潮位曲线</value>
+  </data>
+  <data name="Tides_Chart_Caption_Moon" xml:space="preserve">
+    <value>你所在处的海面（仅月球潮汐）</value>
+  </data>
+  <data name="Tides_Chart_Day" xml:space="preserve">
+    <value>第{0}天</value>
+  </data>
+  <data name="Tides_Chart_Gap" xml:space="preserve">
+    <value>{0}小时{1:00}分</value>
+  </data>
+  <data name="Tides_Chart_High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Tides_Chart_Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="Tides_Chart_Mean" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="Tides_Chart_Note" xml:space="preserve">
+    <value>潮高从海图基准面起算，阴影为夜间。加上太阳后，两次高潮的间隔在 12 小时 25 分上下略有变化。</value>
+  </data>
+  <data name="Tides_Chart_Note_Moon" xml:space="preserve">
+    <value>阴影为夜间。每 24 小时 50 分钟有两次高潮、两次低潮。</value>
+  </data>
+  <data name="Tides_Clock" xml:space="preserve">
+    <value>第 {0} 天 · {1}</value>
+  </data>
+  <data name="Tides_Coast_Fact1" xml:space="preserve">
+    <value>潮汐表中的潮高从海图基准面（约等于最低低潮面）起算，所以海图上标的水深是能预期的最浅水深。</value>
+  </data>
+  <data name="Tides_Coast_Fact2" xml:space="preserve">
+    <value>十二分法：从低潮到高潮的六个小时里，每小时上涨约潮差的 1/12、2/12、3/12、3/12、2/12、1/12，中间两小时涨得最快。</value>
+  </data>
+  <data name="Tides_Coast_Fact3" xml:space="preserve">
+    <value>实际海岸的高潮比月亮上中天晚几个小时：海水跟不上隆起的移动，陆地也会阻挡。每个港口的这个延迟（高潮间隙）基本固定，潮汐预报就利用了这一点。</value>
+  </data>
+  <data name="Tides_Coast_Fact4" xml:space="preserve">
+    <value>有些海岸一天只有一次高潮，例如广西北海附近的北部湾，那里的海湾形状放大了一天一次的全日潮。</value>
+  </data>
+  <data name="Tides_Coast_Fact5" xml:space="preserve">
+    <value>加拿大芬迪湾的潮差世界最大，可达约 16 米；中国最大的潮差在杭州湾，澉浦一带可达约 9 米。</value>
+  </data>
+  <data name="Tides_Coast_Note" xml:space="preserve">
+    <value>与{1}同纬度（{0}）的一处海岸，假设仅月球就让海面在平均值上下各起伏 1 米。图中高潮出现在月亮最高或最低时，实际海岸会晚几个小时。</value>
+  </data>
+  <data name="Tides_Coast_Subtitle" xml:space="preserve">
+    <value>在海边：潮起潮落，一天两回</value>
+  </data>
+  <data name="Tides_DragHint_Moon" xml:space="preserve">
+    <value>拖动月球可沿轨道移动它</value>
+  </data>
+  <data name="Tides_DragHint_Time" xml:space="preserve">
+    <value>左右拖动可调整时间：拖过整个画面为一天</value>
+  </data>
+  <data name="Tides_Duration" xml:space="preserve">
+    <value>{0} 小时 {1:00} 分</value>
+  </data>
+  <data name="Tides_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Tides_Force_Caption" xml:space="preserve">
+    <value>为什么背对月球的一侧也会隆起？</value>
+  </data>
+  <data name="Tides_Force_Centre" xml:space="preserve">
+    <value>地心</value>
+  </data>
+  <data name="Tides_Force_Far" xml:space="preserve">
+    <value>远月侧</value>
+  </data>
+  <data name="Tides_Force_Near" xml:space="preserve">
+    <value>近月侧</value>
+  </data>
+  <data name="Tides_Force_Note" xml:space="preserve">
+    <value>已夸大：月球画在 3 个地球半径处（实际约 60 个），差别才看得出来。</value>
+  </data>
+  <data name="Tides_Force_Pull" xml:space="preserve">
+    <value>① 月球的引力：近处最强，远处最弱</value>
+  </data>
+  <data name="Tides_Force_Tidal" xml:space="preserve">
+    <value>② 减去地心受到的引力，剩下的就是潮汐力</value>
+  </data>
+  <data name="Tides_JumpTo" xml:space="preserve">
+    <value>跳转到</value>
+  </data>
+  <data name="Tides_Kind_Growing" xml:space="preserve">
+    <value>潮差渐大</value>
+  </data>
+  <data name="Tides_Kind_Growing_Description" xml:space="preserve">
+    <value>月相正走向新月或满月：两组隆起越来越重合，潮差一天天变大。</value>
+  </data>
+  <data name="Tides_Kind_Neap" xml:space="preserve">
+    <value>小潮</value>
+  </data>
+  <data name="Tides_Kind_Neap_Description" xml:space="preserve">
+    <value>从地球看，太阳和月球成直角（上弦或下弦）：太阳的隆起正好填在月球的低潮处，潮差最小。</value>
+  </data>
+  <data name="Tides_Kind_Shrinking" xml:space="preserve">
+    <value>潮差渐小</value>
+  </data>
+  <data name="Tides_Kind_Shrinking_Description" xml:space="preserve">
+    <value>月相正走向上弦或下弦：两组隆起越来越错开，潮差一天天变小。</value>
+  </data>
+  <data name="Tides_Kind_Spring" xml:space="preserve">
+    <value>大潮</value>
+  </data>
+  <data name="Tides_Kind_Spring_Description" xml:space="preserve">
+    <value>太阳、地球和月球几乎排成一线（新月或满月）：太阳的隆起叠加在月球的隆起上，高潮更高，低潮更低。</value>
+  </data>
+  <data name="Tides_Label_Force" xml:space="preserve">
+    <value>潮汐力</value>
+  </data>
+  <data name="Tides_Label_HighFar" xml:space="preserve">
+    <value>高潮（背月一侧）</value>
+  </data>
+  <data name="Tides_Label_HighNear" xml:space="preserve">
+    <value>高潮（朝月一侧）</value>
+  </data>
+  <data name="Tides_Label_HighWater" xml:space="preserve">
+    <value>今日最高潮位 {0:0.0} 米</value>
+  </data>
+  <data name="Tides_Label_Level" xml:space="preserve">
+    <value>{0:0.00} 米 · {1}</value>
+  </data>
+  <data name="Tides_Label_Low" xml:space="preserve">
+    <value>低潮</value>
+  </data>
+  <data name="Tides_Label_LowWater" xml:space="preserve">
+    <value>今日最低潮位 {0:0.0} 米</value>
+  </data>
+  <data name="Tides_Label_Moon" xml:space="preserve">
+    <value>月球</value>
+  </data>
+  <data name="Tides_Label_Neap" xml:space="preserve">
+    <value>小潮</value>
+  </data>
+  <data name="Tides_Label_Range" xml:space="preserve">
+    <value>{0}：潮差 {1:0.0} 米</value>
+  </data>
+  <data name="Tides_Label_Spin" xml:space="preserve">
+    <value>地球每天自转一圈</value>
+  </data>
+  <data name="Tides_Label_Spring" xml:space="preserve">
+    <value>大潮</value>
+  </data>
+  <data name="Tides_Label_Sun" xml:space="preserve">
+    <value>太阳（在左方远处）</value>
+  </data>
+  <data name="Tides_Label_You" xml:space="preserve">
+    <value>你 {0} · {1}</value>
+  </data>
+  <data name="Tides_Legend_Caption" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="Tides_Legend_Moon" xml:space="preserve">
+    <value>月球造成的隆起</value>
+  </data>
+  <data name="Tides_Legend_Sun" xml:space="preserve">
+    <value>太阳造成的隆起</value>
+  </data>
+  <data name="Tides_Legend_Water" xml:space="preserve">
+    <value>海水（两者之和）</value>
+  </data>
+  <data name="Tides_Lesson_Bulges_Choice1" xml:space="preserve">
+    <value>两次</value>
+  </data>
+  <data name="Tides_Lesson_Bulges_Choice2" xml:space="preserve">
+    <value>一次</value>
+  </data>
+  <data name="Tides_Lesson_Bulges_Choice3" xml:space="preserve">
+    <value>四次</value>
+  </data>
+  <data name="Tides_Lesson_Coast_Choice1" xml:space="preserve">
+    <value>大约十二个半小时</value>
+  </data>
+  <data name="Tides_Lesson_Coast_Choice2" xml:space="preserve">
+    <value>正好二十四小时</value>
+  </data>
+  <data name="Tides_Lesson_Coast_Choice3" xml:space="preserve">
+    <value>大约六小时</value>
+  </data>
+  <data name="Tides_Lesson_Spring_Choice1" xml:space="preserve">
+    <value>变小</value>
+  </data>
+  <data name="Tides_Lesson_Spring_Choice2" xml:space="preserve">
+    <value>变大</value>
+  </data>
+  <data name="Tides_Lesson_Spring_Choice3" xml:space="preserve">
+    <value>没有变化</value>
+  </data>
+  <data name="Tides_Metres" xml:space="preserve">
+    <value>{0:0.00} 米</value>
+  </data>
+  <data name="Tides_Mode_Bulges" xml:space="preserve">
+    <value>两个隆起</value>
+  </data>
+  <data name="Tides_Mode_Coast" xml:space="preserve">
+    <value>在海边</value>
+  </data>
+  <data name="Tides_Mode_SpringNeap" xml:space="preserve">
+    <value>大潮与小潮</value>
+  </data>
+  <data name="Tides_NextHigh" xml:space="preserve">
+    <value>下次高潮</value>
+  </data>
+  <data name="Tides_NextLow" xml:space="preserve">
+    <value>下次低潮</value>
+  </data>
+  <data name="Tides_Obj_Boat" xml:space="preserve">
+    <value>抛锚的小船</value>
+  </data>
+  <data name="Tides_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Tides_Obj_Force" xml:space="preserve">
+    <value>潮汐力</value>
+  </data>
+  <data name="Tides_Obj_HighFar" xml:space="preserve">
+    <value>背月一侧的高潮</value>
+  </data>
+  <data name="Tides_Obj_HighNear" xml:space="preserve">
+    <value>朝月一侧的高潮</value>
+  </data>
+  <data name="Tides_Obj_HighWater" xml:space="preserve">
+    <value>今日最高潮位</value>
+  </data>
+  <data name="Tides_Obj_Level" xml:space="preserve">
+    <value>现在的水位</value>
+  </data>
+  <data name="Tides_Obj_Low" xml:space="preserve">
+    <value>低潮</value>
+  </data>
+  <data name="Tides_Obj_LowWater" xml:space="preserve">
+    <value>今日最低潮位</value>
+  </data>
+  <data name="Tides_Obj_Moon" xml:space="preserve">
+    <value>月球</value>
+  </data>
+  <data name="Tides_Obj_Neap" xml:space="preserve">
+    <value>小潮</value>
+  </data>
+  <data name="Tides_Obj_Range" xml:space="preserve">
+    <value>潮差</value>
+  </data>
+  <data name="Tides_Obj_Spin" xml:space="preserve">
+    <value>地球自转</value>
+  </data>
+  <data name="Tides_Obj_Spring" xml:space="preserve">
+    <value>大潮</value>
+  </data>
+  <data name="Tides_Obj_Staff" xml:space="preserve">
+    <value>水尺</value>
+  </data>
+  <data name="Tides_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Tides_Obj_You" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Tides_OpenMoonPhases" xml:space="preserve">
+    <value>月相的变化</value>
+  </data>
+  <data name="Tides_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格键）</value>
+  </data>
+  <data name="Tides_Range_Caption" xml:space="preserve">
+    <value>一个月中的潮差变化</value>
+  </data>
+  <data name="Tides_Range_Note" xml:space="preserve">
+    <value>虚线为仅有月球时的潮差。太阳让潮差在 1.1 米到 2.9 米之间变化。</value>
+  </data>
+  <data name="Tides_ShowForces" xml:space="preserve">
+    <value>潮汐力箭头</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact1" xml:space="preserve">
+    <value>太阳对地球的引力约是月球的 180 倍，潮汐力却只有月球的 46%：它远了 389 倍，而潮汐力与距离的三次方成反比。</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact2" xml:space="preserve">
+    <value>大潮与季节无关，每个月有两次，在新月和满月前后，也就是农历初一、十五前后；小潮在农历初八、廿三前后。</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact3" xml:space="preserve">
+    <value>实际的大潮通常比新月、满月晚一到三天出现，因为海水对引力的响应需要时间。这段延迟叫作“潮龄”。</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact4" xml:space="preserve">
+    <value>如果新月或满月时月球恰好在近地点，它的潮汐力比平均强近 20%，大潮会更大，称为近地点大潮（天文大潮）。</value>
+  </data>
+  <data name="Tides_SpringNeap_Fact5" xml:space="preserve">
+    <value>钱塘江大潮在农历八月十八前后最壮观：秋季的大潮涌进喇叭形的杭州湾河口，被挤成一堵高达数米的水墙。</value>
+  </data>
+  <data name="Tides_SpringNeap_Note" xml:space="preserve">
+    <value>虚线分别是月球和太阳单独造成的隆起，蓝色海水是两者之和。未按比例。</value>
+  </data>
+  <data name="Tides_SpringNeap_Subtitle" xml:space="preserve">
+    <value>太阳也来帮忙：大潮与小潮</value>
+  </data>
+  <data name="Tides_Stage_Falling" xml:space="preserve">
+    <value>落潮</value>
+  </data>
+  <data name="Tides_Stage_Falling_Description" xml:space="preserve">
+    <value>地球自转把你带离隆起，海水渐渐退去。</value>
+  </data>
+  <data name="Tides_Stage_High" xml:space="preserve">
+    <value>高潮</value>
+  </data>
+  <data name="Tides_Stage_High_Description" xml:space="preserve">
+    <value>满潮：此处正处在两个潮汐隆起之一的下方——朝向月球的那个，或背对月球的那个。</value>
+  </data>
+  <data name="Tides_Stage_Low" xml:space="preserve">
+    <value>低潮</value>
+  </data>
+  <data name="Tides_Stage_Low_Description" xml:space="preserve">
+    <value>干潮：你正处在两个隆起中间，海水退到最低。</value>
+  </data>
+  <data name="Tides_Stage_Rising" xml:space="preserve">
+    <value>涨潮</value>
+  </data>
+  <data name="Tides_Stage_Rising_Description" xml:space="preserve">
+    <value>你正转向下一个隆起，海水渐渐涨上来。</value>
+  </data>
+  <data name="Tides_Stat_Angle" xml:space="preserve">
+    <value>两组隆起的夹角</value>
+  </data>
+  <data name="Tides_Stat_Angle_Value" xml:space="preserve">
+    <value>{0:0}°</value>
+  </data>
+  <data name="Tides_Stat_HighWater" xml:space="preserve">
+    <value>最高潮位</value>
+  </data>
+  <data name="Tides_Stat_Level" xml:space="preserve">
+    <value>潮高</value>
+  </data>
+  <data name="Tides_Stat_Level_Value" xml:space="preserve">
+    <value>{0:0.00} 米（基准面以上）</value>
+  </data>
+  <data name="Tides_Stat_Moon" xml:space="preserve">
+    <value>月球位置</value>
+  </data>
+  <data name="Tides_Stat_Moon_Down" xml:space="preserve">
+    <value>在地平线下 {0:0}°</value>
+  </data>
+  <data name="Tides_Stat_Moon_East" xml:space="preserve">
+    <value>东方天空，高度 {0:0}°</value>
+  </data>
+  <data name="Tides_Stat_Moon_Overhead" xml:space="preserve">
+    <value>几乎在头顶</value>
+  </data>
+  <data name="Tides_Stat_Moon_West" xml:space="preserve">
+    <value>西方天空，高度 {0:0}°</value>
+  </data>
+  <data name="Tides_Stat_NextHigh" xml:space="preserve">
+    <value>下次高潮</value>
+  </data>
+  <data name="Tides_Stat_NextLow" xml:space="preserve">
+    <value>下次低潮</value>
+  </data>
+  <data name="Tides_Stat_Period" xml:space="preserve">
+    <value>两次高潮间隔</value>
+  </data>
+  <data name="Tides_Stat_Phase" xml:space="preserve">
+    <value>月相</value>
+  </data>
+  <data name="Tides_Stat_Phase_Value" xml:space="preserve">
+    <value>{0}，月龄 {1:0.0} 天</value>
+  </data>
+  <data name="Tides_Stat_Range" xml:space="preserve">
+    <value>今日潮差</value>
+  </data>
+  <data name="Tides_Stat_RangeOf" xml:space="preserve">
+    <value>{0:0.0} 米（大潮 {1:0.0}，小潮 {2:0.0}）</value>
+  </data>
+  <data name="Tides_Stat_Range_Value" xml:space="preserve">
+    <value>{0:0.0} 米 · {1}</value>
+  </data>
+  <data name="Tides_Stat_Turn_Value" xml:space="preserve">
+    <value>{0}（{1}后）</value>
+  </data>
+  <data name="Tides_Table_High" xml:space="preserve">
+    <value>高潮</value>
+  </data>
+  <data name="Tides_Table_Low" xml:space="preserve">
+    <value>低潮</value>
+  </data>
+  <data name="Tides_Timeline" xml:space="preserve">
+    <value>月相周期中的时间</value>
+  </data>
+  <data name="Tides_Title" xml:space="preserve">
+    <value>潮汐</value>
+  </data>
+  <data name="Tides_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Tides_Today_Caption" xml:space="preserve">
+    <value>第 {0} 天的潮汐</value>
+  </data>
+  <data name="Tides_Today_Text" xml:space="preserve">
+    <value>今天月龄 {0:0.0} 天：{1}。</value>
+  </data>
+  <data name="Tides_Upcoming" xml:space="preserve">
+    <value>近期的大潮与小潮</value>
+  </data>
+  <data name="Tides_Upcoming_Neap" xml:space="preserve">
+    <value>小潮（{0}）</value>
+  </data>
+  <data name="Tides_Upcoming_Note" xml:space="preserve">
+    <value>按真实的新月、上下弦和满月日期（本地时间）。实际最大的潮水通常还要再晚一到三天。</value>
+  </data>
+  <data name="Tides_Upcoming_Spring" xml:space="preserve">
+    <value>大潮（{0}）</value>
+  </data>
+  <data name="Tides_Upcoming_When" xml:space="preserve">
+    <value>{0} {1} 前后</value>
   </data>
   <data name="Title_Edition" xml:space="preserve">
     <value>第一版（编写中）</value>
