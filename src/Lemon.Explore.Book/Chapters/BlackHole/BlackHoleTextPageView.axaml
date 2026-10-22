@@ -1,0 +1,201 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:hole="using:Lemon.Explore.Book.Chapters.BlackHole"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.BlackHole.BlackHoleTextPageView"
+                         x:DataType="hole:BlackHoleTextPageViewModel">
+    <!-- Left page of the Black hole spread: the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Hole.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Hole.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Hole.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="HoleMode" IsChecked="{Binding Hole.IsShadow}" Content="{loc:Localize Hole_Mode_Shadow}" />
+                    <RadioButton Classes="chip" GroupName="HoleMode" IsChecked="{Binding Hole.IsOrbits}" Content="{loc:Localize Hole_Mode_Orbits}" />
+                    <RadioButton Classes="chip" GroupName="HoleMode" IsChecked="{Binding Hole.IsLensing}" Content="{loc:Localize Hole_Mode_Lensing}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Hole.Card}" />
+
+                <!-- Up close: the tilt, what is drawn and which black hole -->
+                <StackPanel IsVisible="{Binding Hole.IsShadow}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Hole.InclinationText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Hole_Tilt}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="90" Value="{Binding Hole.Inclination}" SmallChange="1" LargeChange="10"
+                            AutomationProperties.Name="{loc:Localize Hole_Tilt}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Hole.TiltToCommand}" CommandParameter="Above" Content="{loc:Localize Hole_Tilt_Above}" />
+                        <Button Classes="chip" Command="{Binding Hole.TiltToCommand}" CommandParameter="Tilted" Content="{loc:Localize Hole_Tilt_Tilted}" />
+                        <Button Classes="chip" Command="{Binding Hole.TiltToCommand}" CommandParameter="Edge" Content="{loc:Localize Hole_Tilt_Edge}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.BendLight}" Content="{loc:Localize Hole_Option_Bend}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowDisk}" Content="{loc:Localize Hole_Option_Disk}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.Doppler}" Content="{loc:Localize Hole_Option_Doppler}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowStars}" Content="{loc:Localize Hole_Option_Stars}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowLabels}" Content="{loc:Localize Hole_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Example_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="HoleExample" IsChecked="{Binding Hole.ExampleChoice[CygX1]}" Content="{loc:Localize Hole_Example_CygX1}" />
+                        <RadioButton Classes="chip" GroupName="HoleExample" IsChecked="{Binding Hole.ExampleChoice[SgrA]}" Content="{loc:Localize Hole_Example_SgrA}" />
+                        <RadioButton Classes="chip" GroupName="HoleExample" IsChecked="{Binding Hole.ExampleChoice[M87]}" Content="{loc:Localize Hole_Example_M87}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Hole_Shadow_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Light and orbits: the probe's launch and what is drawn -->
+                <StackPanel IsVisible="{Binding Hole.IsOrbits}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Launch_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="HoleLaunch" IsChecked="{Binding Hole.LaunchChoice[Circle]}" Content="{loc:Localize Hole_Launch_Circle}" />
+                        <RadioButton Classes="chip" GroupName="HoleLaunch" IsChecked="{Binding Hole.LaunchChoice[Rosette]}" Content="{loc:Localize Hole_Launch_Rosette}" />
+                        <RadioButton Classes="chip" GroupName="HoleLaunch" IsChecked="{Binding Hole.LaunchChoice[Isco]}" Content="{loc:Localize Hole_Launch_Isco}" />
+                        <RadioButton Classes="chip" GroupName="HoleLaunch" IsChecked="{Binding Hole.LaunchChoice[Plunge]}" Content="{loc:Localize Hole_Launch_Plunge}" />
+                        <RadioButton Classes="chip" GroupName="HoleLaunch" IsChecked="{Binding Hole.LaunchChoice[Escape]}" Content="{loc:Localize Hole_Launch_Escape}" />
+                        <RadioButton Classes="chip" GroupName="HoleLaunch" IsChecked="{Binding Hole.LaunchChoice[Custom]}" IsEnabled="False" Content="{loc:Localize Hole_Launch_Custom}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,4,0,0">
+                        <Button Classes="chip" Command="{Binding Hole.RelaunchCommand}" Content="{loc:Localize Hole_Relaunch}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowRays}" Content="{loc:Localize Hole_Option_Rays}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowNewton}" Content="{loc:Localize Hole_Option_Newton}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowLabels}" Content="{loc:Localize Hole_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Hole_Orbits_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Lensing: what is behind, which lens and its mass -->
+                <StackPanel IsVisible="{Binding Hole.IsLensing}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Source_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="HoleSource" IsChecked="{Binding Hole.SourceChoice[Galaxy]}" Content="{loc:Localize Hole_Source_Galaxy}" />
+                        <RadioButton Classes="chip" GroupName="HoleSource" IsChecked="{Binding Hole.SourceChoice[Star]}" Content="{loc:Localize Hole_Source_Star}" />
+                        <RadioButton Classes="chip" GroupName="HoleSource" IsChecked="{Binding Hole.SourceChoice[Grid]}" Content="{loc:Localize Hole_Source_Grid}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_LensKind_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="HoleLens" IsChecked="{Binding Hole.LensChoice[Stellar]}" Content="{loc:Localize Hole_LensKind_Stellar}" />
+                        <RadioButton Classes="chip" GroupName="HoleLens" IsChecked="{Binding Hole.LensChoice[Galaxy]}" Content="{loc:Localize Hole_LensKind_Galaxy}" />
+                        <RadioButton Classes="chip" GroupName="HoleLens" IsChecked="{Binding Hole.LensChoice[Cluster]}" Content="{loc:Localize Hole_LensKind_Cluster}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Hole.MassText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Hole_Mass}" />
+                    </DockPanel>
+                    <Slider Minimum="-1" Maximum="1" Value="{Binding Hole.MassSlider}" SmallChange="0.05" LargeChange="0.25"
+                            AutomationProperties.Name="{loc:Localize Hole_Mass}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Hole.RestartTrackCommand}" Content="{loc:Localize Hole_RestartTrack}" />
+                        <Button Classes="chip" Command="{Binding Hole.LineUpCommand}" Content="{loc:Localize Hole_LineUp}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.LensOn}" Content="{loc:Localize Hole_Option_LensOn}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowRing}" Content="{loc:Localize Hole_Option_Ring}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowTruePosition}" Content="{loc:Localize Hole_Option_True}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Hole.ShowLabels}" Content="{loc:Localize Hole_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Hole_Lensing_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Hole.ChartCaption}" />
+                <Border Classes="plate" Height="200">
+                    <hole:BlackHoleChart Mode="{Binding Hole.Mode}"
+                                         StartRadius="{Binding Hole.StartRadius}"
+                                         StartRadialSpeed="{Binding Hole.StartRadialSpeed}"
+                                         StartAngularMomentum="{Binding Hole.StartAngularMomentum}"
+                                         ProbeRadius="{Binding Hole.ProbeRadius}"
+                                         LensX="{Binding Hole.LensX, Mode=TwoWay}"
+                                         LensY="{Binding Hole.LensY, Mode=TwoWay}"
+                                         EinsteinRadius="{Binding Hole.EinsteinRadius}"
+                                         IsPlaying="{Binding Hole.IsPlaying, Mode=TwoWay}"
+                                         InteractionCommand="{Binding Hole.UserInteractedCommand}"
+                                         AutomationProperties.Name="{Binding Hole.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Hole.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Hole.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Hole.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Hole.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Hole.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Hole_Facts}" />
+                <ItemsControl ItemsSource="{Binding Hole.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

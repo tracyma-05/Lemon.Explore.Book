@@ -1,3 +1,4 @@
+using Lemon.Explore.Book.Chapters.BlackHole;
 using Lemon.Explore.Book.Chapters.DayNight;
 using Lemon.Explore.Book.Chapters.Eclipses;
 using Lemon.Explore.Book.Chapters.Kepler;
@@ -19,7 +20,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -104,6 +105,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, star.Lesson, () => star.Mode.ToString(), Enum.GetNames<StarMode>());
                 return (new StarLifeTextPageViewModel(textPage, navigator, chapter, number, star),
                     new StarLifeDiagramPageViewModel(textPage + 1, navigator, chapter, star));
+            }
+
+            case "Black-Hole":
+            {
+                var hole = new BlackHoleViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, hole.Lesson, () => hole.Mode.ToString(), Enum.GetNames<BlackHoleMode>());
+                return (new BlackHoleTextPageViewModel(textPage, navigator, chapter, number, hole),
+                    new BlackHoleDiagramPageViewModel(textPage + 1, navigator, chapter, hole));
             }
 
             default:

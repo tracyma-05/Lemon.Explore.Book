@@ -226,6 +226,12 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
     s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
     s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
+    s = re.sub(r"\bImageSource\b", "IImage", s)
+    # A bitmap's size in pixels.
+    s = re.sub(r"\b(_?\w+[!?]?)\.Pixel(Width|Height)\b", lambda m: f"{m[1]}.PixelSize.{m[2][5:] if False else ('Width' if m[2] == 'Width' else 'Height')}", s)
+    # The length of the gap between two points (indexed or not).
+    s = re.sub(r"\(([\w.]+(?:\[[^\]]*\])?) - ([\w.]+(?:\[[^\]]*\])?)\)\.Length\b", r"((Vector)(\1 - \2)).Length", s)
+    s = s.replace("System.Windows.Threading.DispatcherTimer", "Avalonia.Threading.DispatcherTimer")
     # A property passed to a helper (Push(DependencyProperty property, object value)).
     s = re.sub(r"\bDependencyProperty (?=\w+\s*[,)])", "AvaloniaProperty ", s)
     s = convert_recurring(s)
@@ -251,42 +257,48 @@ def convert_types(s: str, namespace: str) -> str:
 
 
 HELPER = re.compile(
-    r"\n(?:[ \t]*///[^\n]*\n)*[ \t]*(?:private|protected|internal|public) static DependencyProperty Register(?:<(?P<gen>[^>]+)>)?"
-    r"\((?P<params>[^)]*)\)\s*=>\s*(?P<body>.*?);\n", re.S)
+    r"\n(?:[ \t]*///[^\n]*\n)*[ \t]*(?:private|protected|internal|public) static DependencyProperty (?P<name>\w+)(?:<(?P<gen>[^>]+)>)?"
+    r"\((?P<params>[^)]*)\)\s*=>\s*(?P<body>DependencyProperty\.Register\(.*?);\n", re.S)
 
 
 def expand_register_helpers(s: str) -> str:
     """
-    A local helper (`static DependencyProperty Register<T>(string name, T value, ...) => DependencyProperty.Register(...)`)
-    and its uses become plain DependencyProperty.Register calls, which convert_properties understands. The value type
-    comes from the helper's generic arguments at the call, or from the CLR property's type.
+    Local helpers (`static DependencyProperty Register<T>(string name, T value, ...) => DependencyProperty.Register(...)`,
+    or `TwoWay(string name, double value)` and the like) and their uses become plain DependencyProperty.Register calls,
+    which convert_properties understands. The value type is the helper's own (typeof(double)), or comes from the generic
+    arguments at the call, or from the CLR property's type.
     """
-    helpers = list(HELPER.finditer(s))
+    helpers = {}
+    for m in HELPER.finditer(s):
+        body = m.group("body")
+        generic = [g.strip() for g in split_top(m.group("gen") or "")]
+        typeofs = [t for t in re.findall(r"typeof\((\w+)\)", body) if t not in generic]
+        # DependencyProperty.Register(name, typeof(Value), typeof(Owner), ...): the value type is the first.
+        value_type = typeofs[0] if len(typeofs) >= 2 else None
+        owner = typeofs[-1] if typeofs else None
+        flags = [f for f, word in (("FrameworkPropertyMetadataOptions.AffectsRender", "AffectsRender"),
+                                   ("FrameworkPropertyMetadataOptions.BindsTwoWayByDefault", "BindsTwoWayByDefault"))
+                 if word in body]
+        helpers[m.group("name")] = (m.span(), owner, value_type, flags, len(generic) == 2)
     if not helpers:
         return s
 
-    first = helpers[0]
-    body = first.group("body")
-    generic = [g.strip() for g in split_top(first.group("gen") or "")]
-    owner_match = next((m for m in re.finditer(r"typeof\((\w+)\)", body) if m.group(1) not in generic), None)
-    helper_owner = owner_match.group(1) if owner_match else None
-    flags = [f for f, word in (("FrameworkPropertyMetadataOptions.AffectsRender", "AffectsRender"),
-                               ("FrameworkPropertyMetadataOptions.BindsTwoWayByDefault", "BindsTwoWayByDefault"))
-             if word in body]
-    for m in reversed(helpers):
-        s = s[:m.start()] + "\n" + s[m.end():]
+    for span, *_ in sorted(helpers.values(), key=lambda h: h[0][0], reverse=True):
+        s = s[:span[0]] + "\n" + s[span[1]:]
 
-    call = re.compile(r"public static readonly DependencyProperty (\w+)Property = Register(?:<([^>]+)>)?\(")
+    call = re.compile(rf"public static readonly DependencyProperty (\w+)Property = ({'|'.join(map(re.escape, helpers))})(?:<([^>]+)>)?\(")
     out, i = [], 0
     while (m := call.search(s, i)) is not None:
         out.append(s[i:m.start()])
         close = match_bracket(s, m.end() - 1)
         args = split_top(s[m.end():close])
         name = m.group(1)
-        if m.group(2):
-            owner, type_ = (a.strip() for a in split_top(m.group(2)))
+        _, owner, value_type, flags, _ = helpers[m.group(2)]
+        if m.group(3):
+            owner, type_ = (a.strip() for a in split_top(m.group(3)))
+        elif value_type:
+            type_ = value_type
         else:
-            owner = helper_owner
             clr = re.search(rf"public ([\w.<>?,\[\] ]+?) {name}\s*(?:\{{|=>)", s)
             type_ = clr.group(1) if clr else "object"
         meta = [args[1]]
@@ -305,6 +317,24 @@ def expand_register_helpers(s: str) -> str:
 CLASS = re.compile(r"^(?P<head>(?:(?:public|internal|private|protected|sealed|abstract|static|partial)\s+)*class (?P<name>\w+)[^\n]*)\n\{\n", re.M)
 
 
+def convert_late(s: str) -> str:
+    """Rewrites of what the other passes produced: run last."""
+    arg = r"((?:[^,()]|\((?:[^()]|\([^()]*\))*\))+)"
+    # A pen given a dash style after it is made: the dash goes into the immutable pen.
+    s = re.sub(
+        rf"(?P<lhs>\w+) = new ImmutablePen\({arg}, {arg}, null, {arg}, {arg}\);\n(?P<i>[ \t]*)if \((?P<c>[\w!.]+)\) (?P=lhs)\.DashStyle = new DashStyle\(\[(?P<d>[^\]]*)\], 0\);",
+        lambda m: f"{m['lhs']} = new ImmutablePen({m[2]}, {m[3]}, {m['c']} ? new ImmutableDashStyle([{m['d']}], 0) : null, {m[4]}, {m[5]});",
+        s)
+    s = re.sub(
+        rf"(?P<lhs>\w+) = new Pen\({arg}, {arg}\) \{{ LineJoin = ([\w.]+) \}};\n(?P<i>[ \t]*)if \((?P<c>[\w!.]+)\) (?P=lhs)\.DashStyle = new DashStyle\(\[(?P<d>[^\]]*)\], 0\);",
+        lambda m: f"{m['lhs']} = new ImmutablePen(((IBrush){m[2]}).ToImmutable(), {m[3]}, {m['c']} ? new ImmutableDashStyle([{m['d']}], 0) : null, PenLineCap.Flat, {m[4]});",
+        s)
+
+    # SpaceDrawing.Freeze(new LinearGradientBrush(...)) becomes SpaceDrawing.SpaceDrawing.LinearGradient(...).
+    s = s.replace("SpaceDrawing.SpaceDrawing.", "SpaceDrawing.")
+    return s
+
+
 def convert_recurring(s: str) -> str:
     """Idioms many of the original's diagrams share, beyond the one-line rewrites."""
     arg = r"((?:[^,()]|\((?:[^()]|\([^()]*\))*\))+)"
@@ -313,7 +343,7 @@ def convert_recurring(s: str) -> str:
     s = re.sub(
         r"(?P<i>[ \t]*)var first = true;\n(?P<j>[ \t]*)foreach \((?P<head>[^\n]*)\)\n(?P<k>[ \t]*)\{\n"
         r"(?P<l>[ \t]*)if \(first\) (?P<c>\w+)\.BeginFigure\((?P<p>\w+), (?P<filled>[\w!.]+), (?P<closed>[\w!.]+)\);\n"
-        r"(?P=l)else (?P=c)\.LineTo\((?P=p), (?:true|false), (?:true|false)\);\n(?P=l)first = false;\n(?P=k)\}\n",
+        r"(?P=l)else (?P=c)\.LineTo\((?P=p)(?:, (?:true|false), (?:true|false))?\);\n(?P=l)first = false;\n(?P=k)\}\n",
         lambda m: (f"{m['i']}var first = true;\n{m['j']}foreach ({m['head']})\n{m['k']}{{\n"
                    f"{m['l']}if (first) {m['c']}.BeginFigure({m['p']}, {m['filled']});\n"
                    f"{m['l']}else {m['c']}.LineTo({m['p']});\n{m['l']}first = false;\n{m['k']}}}\n\n"
@@ -337,6 +367,8 @@ def convert_recurring(s: str) -> str:
     s = re.sub(rf"\bRect\.Union\({arg}, {arg}\)", r"\1.Union(\2)", s)
 
     # Capturing the pointer cannot fail in Avalonia.
+    s = re.sub(r"^([ \t]*)if \((.*) \|\| !CaptureMouse\(\)\) return;\n", r"\1if (\2) return;\n\1e.Pointer.Capture(this);\n", s, flags=re.M)
+    # (and as a statement block)
     s = re.sub(r"^([ \t]*)if \(!CaptureMouse\(\)\)\n[ \t]*\{\n(?:[^\n]*\n)*?[ \t]*return;\n[ \t]*\}\n",
                r"\1e.Pointer.Capture(this);\n", s, flags=re.M)
 
@@ -604,6 +636,7 @@ def drawing(args: argparse.Namespace) -> None:
     s = convert_properties(s, part)
     s = convert_plumbing(s)
     s = convert_points(s)
+    s = convert_late(s)
     write(args.target, s)
     report(Path(args.target).name, s)
     # Anything still naming the original (resource names, string literals) must not reach the repository.
@@ -657,6 +690,7 @@ def viewmodel(args: argparse.Namespace) -> None:
                           f"using {TARGET_ROOT}.Controls.Explore;\nusing {TARGET_ROOT}.Controls.Space;\n", 1)
         s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
         s = re.sub(r"new SolidColorBrush\(", "new ImmutableSolidColorBrush(", s)
+        s = s.replace("System.Windows.Threading.DispatcherTimer", "Avalonia.Threading.DispatcherTimer")
         s = s.replace(": ObservableObject, IDisposable", ": ObservableObject, IChapterContent, IDisposable")
         s = s.replace("    private readonly ILocalizationService _localization;\n",
                       "    private readonly ILocalizationService _localization = LocalizationService.Instance;\n    private int _views;\n")

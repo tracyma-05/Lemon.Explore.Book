@@ -1068,6 +1068,756 @@
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>点一下画面里的东西，听听它是什么</value>
   </data>
+  <data name="Hole_Chart_Barrier" xml:space="preserve">
+    <value>山顶</value>
+  </data>
+  <data name="Hole_Chart_Brighter" xml:space="preserve">
+    <value>亮度倍数</value>
+  </data>
+  <data name="Hole_Chart_Caught" xml:space="preserve">
+    <value>被吞掉</value>
+  </data>
+  <data name="Hole_Chart_Degrees" xml:space="preserve">
+    <value>拐过的角度（°）</value>
+  </data>
+  <data name="Hole_Chart_Einstein" xml:space="preserve">
+    <value>4M/b</value>
+  </data>
+  <data name="Hole_Chart_Energy" xml:space="preserve">
+    <value>探测器的能量</value>
+  </data>
+  <data name="Hole_Chart_Impact" xml:space="preserve">
+    <value>经过的距离（M）</value>
+  </data>
+  <data name="Hole_Chart_Lensing_Caption" xml:space="preserve">
+    <value>源看起来亮了多少</value>
+  </data>
+  <data name="Hole_Chart_Lensing_Note" xml:space="preserve">
+    <value>黑洞沿着轨迹漂过时，源中心的光被聚焦，变亮，然后又暗下去。点击或拖动图表可以移动黑洞。</value>
+  </data>
+  <data name="Hole_Chart_Newton" xml:space="preserve">
+    <value>牛顿</value>
+  </data>
+  <data name="Hole_Chart_Orbits_Caption" xml:space="preserve">
+    <value>探测器的能量和它要翻越的“山”</value>
+  </data>
+  <data name="Hole_Chart_Orbits_Note" xml:space="preserve">
+    <value>曲线是探测器绕黑洞转动时的“有效势”，蓝线是它的能量：蓝线高于曲线的地方它才能到达。爱因斯坦的曲线在黑洞附近有个顶，牛顿的没有；能量高过这个顶，探测器就会掉进去。</value>
+  </data>
+  <data name="Hole_Chart_Potential" xml:space="preserve">
+    <value>能量²</value>
+  </data>
+  <data name="Hole_Chart_Radius" xml:space="preserve">
+    <value>r（M）</value>
+  </data>
+  <data name="Hole_Chart_Real" xml:space="preserve">
+    <value>真实</value>
+  </data>
+  <data name="Hole_Chart_Relativity" xml:space="preserve">
+    <value>爱因斯坦</value>
+  </data>
+  <data name="Hole_Chart_Shadow_Caption" xml:space="preserve">
+    <value>光被弯折了多少</value>
+  </data>
+  <data name="Hole_Chart_Shadow_Note" xml:space="preserve">
+    <value>光离黑洞越近，拐的角度越大；比 5.2 M 更近就被吞掉了，这就是阴影的边缘。虚线是远处光线的爱因斯坦公式 4M/b。</value>
+  </data>
+  <data name="Hole_Chart_Times" xml:space="preserve">
+    <value>×{0}</value>
+  </data>
+  <data name="Hole_Chart_TimesHuge" xml:space="preserve">
+    <value>×100+</value>
+  </data>
+  <data name="Hole_Chart_Track" xml:space="preserve">
+    <value>沿轨迹的位置</value>
+  </data>
+  <data name="Hole_Clock_Far" xml:space="preserve">
+    <value>远处</value>
+  </data>
+  <data name="Hole_Clock_Forever" xml:space="preserve">
+    <value>永远看不到它越过</value>
+  </data>
+  <data name="Hole_Clock_M" xml:space="preserve">
+    <value>{0} M 时间</value>
+  </data>
+  <data name="Hole_Clock_Probe" xml:space="preserve">
+    <value>探测器</value>
+  </data>
+  <data name="Hole_Example_Caption" xml:space="preserve">
+    <value>哪个黑洞</value>
+  </data>
+  <data name="Hole_Example_CygX1" xml:space="preserve">
+    <value>天鹅座 X-1</value>
+  </data>
+  <data name="Hole_Example_CygX1_Mass" xml:space="preserve">
+    <value>21 个太阳</value>
+  </data>
+  <data name="Hole_Example_M87" xml:space="preserve">
+    <value>M87*</value>
+  </data>
+  <data name="Hole_Example_M87_Mass" xml:space="preserve">
+    <value>65 亿个太阳</value>
+  </data>
+  <data name="Hole_Example_SgrA" xml:space="preserve">
+    <value>人马座 A*</value>
+  </data>
+  <data name="Hole_Example_SgrA_Mass" xml:space="preserve">
+    <value>430 万个太阳</value>
+  </data>
+  <data name="Hole_Facts" xml:space="preserve">
+    <value>你知道吗？</value>
+  </data>
+  <data name="Hole_Hint_Lensing" xml:space="preserve">
+    <value>拖动黑洞在天空中移动，或者点一下任意位置把它放过去。</value>
+  </data>
+  <data name="Hole_Hint_Orbits" xml:space="preserve">
+    <value>拖动探测器可以改变出发点，拖动绿色箭头可以自己设定发射速度和方向。</value>
+  </data>
+  <data name="Hole_Hint_Shadow" xml:space="preserve">
+    <value>在画面上上下拖动，可以改变观看的倾角。</value>
+  </data>
+  <data name="Hole_Km_Big_Unit" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Hole_Label_Arc" xml:space="preserve">
+    <value>被拉成弧</value>
+  </data>
+  <data name="Hole_Label_Below" xml:space="preserve">
+    <value>盘的下表面，被弯到了下方</value>
+  </data>
+  <data name="Hole_Label_Bent" xml:space="preserve">
+    <value>稍稍弯折</value>
+  </data>
+  <data name="Hole_Label_Caught" xml:space="preserve">
+    <value>被吞掉</value>
+  </data>
+  <data name="Hole_Label_Coming" xml:space="preserve">
+    <value>朝你而来：更亮</value>
+  </data>
+  <data name="Hole_Label_ComingFlat" xml:space="preserve">
+    <value>朝你而来</value>
+  </data>
+  <data name="Hole_Label_Critical" xml:space="preserve">
+    <value>绕了一圈</value>
+  </data>
+  <data name="Hole_Label_Going" xml:space="preserve">
+    <value>离你而去：更暗</value>
+  </data>
+  <data name="Hole_Label_GoingFlat" xml:space="preserve">
+    <value>离你而去</value>
+  </data>
+  <data name="Hole_Label_Hat" xml:space="preserve">
+    <value>盘的后半部分，被弯到了上方</value>
+  </data>
+  <data name="Hole_Label_Horizon" xml:space="preserve">
+    <value>事件视界（真实大小）</value>
+  </data>
+  <data name="Hole_Label_HorizonTop" xml:space="preserve">
+    <value>事件视界（2 M）</value>
+  </data>
+  <data name="Hole_Label_Image1" xml:space="preserve">
+    <value>像 ×{0}</value>
+  </data>
+  <data name="Hole_Label_Image2" xml:space="preserve">
+    <value>第二个像 ×{0}</value>
+  </data>
+  <data name="Hole_Label_Inner" xml:space="preserve">
+    <value>内边缘（6 M）</value>
+  </data>
+  <data name="Hole_Label_Isco" xml:space="preserve">
+    <value>最内稳定圆轨道（6 M）</value>
+  </data>
+  <data name="Hole_Label_Launch" xml:space="preserve">
+    <value>发射</value>
+  </data>
+  <data name="Hole_Label_Lens" xml:space="preserve">
+    <value>黑洞</value>
+  </data>
+  <data name="Hole_Label_Lost" xml:space="preserve">
+    <value>探测器落入</value>
+  </data>
+  <data name="Hole_Label_Newton" xml:space="preserve">
+    <value>牛顿</value>
+  </data>
+  <data name="Hole_Label_PhotonRing" xml:space="preserve">
+    <value>光子环</value>
+  </data>
+  <data name="Hole_Label_PhotonSphere" xml:space="preserve">
+    <value>光子球（3 M）</value>
+  </data>
+  <data name="Hole_Label_Probe" xml:space="preserve">
+    <value>探测器</value>
+  </data>
+  <data name="Hole_Label_Ring" xml:space="preserve">
+    <value>爱因斯坦环</value>
+  </data>
+  <data name="Hole_Label_Shadow" xml:space="preserve">
+    <value>阴影</value>
+  </data>
+  <data name="Hole_Label_Stars" xml:space="preserve">
+    <value>被弯曲的星光</value>
+  </data>
+  <data name="Hole_Label_True" xml:space="preserve">
+    <value>实际在这里</value>
+  </data>
+  <data name="Hole_Launch_Caption" xml:space="preserve">
+    <value>发射探测器</value>
+  </data>
+  <data name="Hole_Launch_Circle" xml:space="preserve">
+    <value>圆轨道</value>
+  </data>
+  <data name="Hole_Launch_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Hole_Launch_Escape" xml:space="preserve">
+    <value>逃逸</value>
+  </data>
+  <data name="Hole_Launch_Isco" xml:space="preserve">
+    <value>最内圆轨道</value>
+  </data>
+  <data name="Hole_Launch_Plunge" xml:space="preserve">
+    <value>太慢</value>
+  </data>
+  <data name="Hole_Launch_Rosette" xml:space="preserve">
+    <value>玫瑰线</value>
+  </data>
+  <data name="Hole_LensKind_Caption" xml:space="preserve">
+    <value>谁在弯曲光线</value>
+  </data>
+  <data name="Hole_LensKind_Cluster" xml:space="preserve">
+    <value>一个星系团</value>
+  </data>
+  <data name="Hole_LensKind_Galaxy" xml:space="preserve">
+    <value>一个星系</value>
+  </data>
+  <data name="Hole_LensKind_Stellar" xml:space="preserve">
+    <value>恒星级黑洞</value>
+  </data>
+  <data name="Hole_Lens_Far_Text" xml:space="preserve">
+    <value>离源的视线较远时，黑洞只把光弯一点点：它周围的画面被向外推开，就像透过高脚杯的杯底看东西。</value>
+  </data>
+  <data name="Hole_Lens_Far_Title" xml:space="preserve">
+    <value>偏在一旁</value>
+  </data>
+  <data name="Hole_Lens_Inside_Text" xml:space="preserve">
+    <value>源离视线已不到一个爱因斯坦半径：两个像都贴近这个环，光被强烈聚焦。</value>
+  </data>
+  <data name="Hole_Lens_Inside_Title" xml:space="preserve">
+    <value>进入爱因斯坦环之内</value>
+  </data>
+  <data name="Hole_Lens_Near_Text" xml:space="preserve">
+    <value>源被拉成一道绕着黑洞的弧，另一侧又出现了一个较小的第二个像。两个像加起来比源本身更亮。</value>
+  </data>
+  <data name="Hole_Lens_Near_Title" xml:space="preserve">
+    <value>越来越近</value>
+  </data>
+  <data name="Hole_Lens_Off_Text" xml:space="preserve">
+    <value>这是天空本来的样子。重新打开弯曲，看看黑洞对它做了什么。</value>
+  </data>
+  <data name="Hole_Lens_Off_Title" xml:space="preserve">
+    <value>关掉弯曲</value>
+  </data>
+  <data name="Hole_Lens_Ring_Text" xml:space="preserve">
+    <value>正好对准时，光从四面八方一样地绕过来，源变成了围住黑洞的一个完整光环。</value>
+  </data>
+  <data name="Hole_Lens_Ring_Title" xml:space="preserve">
+    <value>爱因斯坦环</value>
+  </data>
+  <data name="Hole_Lensing_Fact1" xml:space="preserve">
+    <value>1919 年日全食时，爱丁顿测到太阳附近的星星位置偏了 1.75 角秒，正如爱因斯坦所预言，是牛顿理论的两倍。爱因斯坦一夜成名。</value>
+  </data>
+  <data name="Hole_Lensing_Fact2" xml:space="preserve">
+    <value>1979 年发现了第一个被引力透镜放大的类星体，看起来是并排的一对“双胞胎”，其实是同一个类星体被前面的星系分成了两个像。</value>
+  </data>
+  <data name="Hole_Lensing_Fact3" xml:space="preserve">
+    <value>星系团会把远处星系的光弯成长长的弧。弯得多少说明了它有多少质量：比它的恒星多得多，大部分是暗物质。</value>
+  </data>
+  <data name="Hole_Lensing_Fact4" xml:space="preserve">
+    <value>2022 年，天文学家宣布第一次用引力透镜找到一个“流浪”黑洞：约 7 个太阳质量，距离 5000 光年。它从一颗背景恒星前经过时，让那颗星亮了好几个月。</value>
+  </data>
+  <data name="Hole_Lensing_Fact5" xml:space="preserve">
+    <value>2014 年，透过一个星系团看到的一颗超新星同时出现了四个像。天文学家预言它还会沿一条更长的路径再出现一次，果然 2015 年它又出现了。</value>
+  </data>
+  <data name="Hole_Lensing_Note" xml:space="preserve">
+    <value>不按比例：黑洞本身小到根本看不见，弯曲的程度也被大大放大了。</value>
+  </data>
+  <data name="Hole_Lensing_Panel_Note" xml:space="preserve">
+    <value>真实的环有多大取决于透镜：恒星级黑洞只有约千分之一角秒，一个星系则有几角秒。</value>
+  </data>
+  <data name="Hole_Lensing_Subtitle" xml:space="preserve">
+    <value>远处的黑洞弯曲了它身后的光</value>
+  </data>
+  <data name="Hole_Lesson_Lensing_Choice1" xml:space="preserve">
+    <value>宽两倍</value>
+  </data>
+  <data name="Hole_Lesson_Lensing_Choice2" xml:space="preserve">
+    <value>宽四倍</value>
+  </data>
+  <data name="Hole_Lesson_Lensing_Choice3" xml:space="preserve">
+    <value>大小不变</value>
+  </data>
+  <data name="Hole_Lesson_Orbits_Choice1" xml:space="preserve">
+    <value>探测器上的钟</value>
+  </data>
+  <data name="Hole_Lesson_Orbits_Choice2" xml:space="preserve">
+    <value>远处的钟</value>
+  </data>
+  <data name="Hole_Lesson_Orbits_Choice3" xml:space="preserve">
+    <value>两个一样快</value>
+  </data>
+  <data name="Hole_Lesson_Shadow_Choice1" xml:space="preserve">
+    <value>那边的气体正朝我们运动</value>
+  </data>
+  <data name="Hole_Lesson_Shadow_Choice2" xml:space="preserve">
+    <value>那一边温度更高</value>
+  </data>
+  <data name="Hole_Lesson_Shadow_Choice3" xml:space="preserve">
+    <value>那一边离我们更近</value>
+  </data>
+  <data name="Hole_LineUp" xml:space="preserve">
+    <value>正好对准</value>
+  </data>
+  <data name="Hole_Mass" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="Hole_Mode_Lensing" xml:space="preserve">
+    <value>引力透镜</value>
+  </data>
+  <data name="Hole_Mode_Orbits" xml:space="preserve">
+    <value>光线与轨道</value>
+  </data>
+  <data name="Hole_Mode_Shadow" xml:space="preserve">
+    <value>近看黑洞</value>
+  </data>
+  <data name="Hole_Obj_Arc" xml:space="preserve">
+    <value>弧</value>
+  </data>
+  <data name="Hole_Obj_Arrow" xml:space="preserve">
+    <value>发射箭头</value>
+  </data>
+  <data name="Hole_Obj_Below" xml:space="preserve">
+    <value>被弯到下方的下表面</value>
+  </data>
+  <data name="Hole_Obj_Bent" xml:space="preserve">
+    <value>被弯折的光线</value>
+  </data>
+  <data name="Hole_Obj_Caught" xml:space="preserve">
+    <value>被吞掉的光线</value>
+  </data>
+  <data name="Hole_Obj_Clocks" xml:space="preserve">
+    <value>两个钟</value>
+  </data>
+  <data name="Hole_Obj_Coming" xml:space="preserve">
+    <value>朝你而来的一侧</value>
+  </data>
+  <data name="Hole_Obj_Critical" xml:space="preserve">
+    <value>绕了一圈的光线</value>
+  </data>
+  <data name="Hole_Obj_Going" xml:space="preserve">
+    <value>离你而去的一侧</value>
+  </data>
+  <data name="Hole_Obj_Hat" xml:space="preserve">
+    <value>被弯到顶上的远侧</value>
+  </data>
+  <data name="Hole_Obj_Horizon" xml:space="preserve">
+    <value>事件视界</value>
+  </data>
+  <data name="Hole_Obj_Image1" xml:space="preserve">
+    <value>较亮的像</value>
+  </data>
+  <data name="Hole_Obj_Image2" xml:space="preserve">
+    <value>第二个像</value>
+  </data>
+  <data name="Hole_Obj_Inner" xml:space="preserve">
+    <value>吸积盘的内边缘</value>
+  </data>
+  <data name="Hole_Obj_Isco" xml:space="preserve">
+    <value>最内稳定圆轨道</value>
+  </data>
+  <data name="Hole_Obj_Lens" xml:space="preserve">
+    <value>黑洞</value>
+  </data>
+  <data name="Hole_Obj_Newton" xml:space="preserve">
+    <value>牛顿的探测器</value>
+  </data>
+  <data name="Hole_Obj_PhotonRing" xml:space="preserve">
+    <value>光子环</value>
+  </data>
+  <data name="Hole_Obj_PhotonSphere" xml:space="preserve">
+    <value>光子球</value>
+  </data>
+  <data name="Hole_Obj_Probe" xml:space="preserve">
+    <value>探测器</value>
+  </data>
+  <data name="Hole_Obj_Ring" xml:space="preserve">
+    <value>爱因斯坦环</value>
+  </data>
+  <data name="Hole_Obj_Scale" xml:space="preserve">
+    <value>尺寸标尺</value>
+  </data>
+  <data name="Hole_Obj_Shadow" xml:space="preserve">
+    <value>阴影</value>
+  </data>
+  <data name="Hole_Obj_SideView" xml:space="preserve">
+    <value>侧视图</value>
+  </data>
+  <data name="Hole_Obj_Stars" xml:space="preserve">
+    <value>被弯曲的星光</value>
+  </data>
+  <data name="Hole_Obj_Start" xml:space="preserve">
+    <value>出发点</value>
+  </data>
+  <data name="Hole_Obj_Track" xml:space="preserve">
+    <value>轨迹</value>
+  </data>
+  <data name="Hole_Obj_Trail" xml:space="preserve">
+    <value>探测器的路径</value>
+  </data>
+  <data name="Hole_Obj_True" xml:space="preserve">
+    <value>真实的位置</value>
+  </data>
+  <data name="Hole_Option_Bend" xml:space="preserve">
+    <value>光线弯曲</value>
+  </data>
+  <data name="Hole_Option_Disk" xml:space="preserve">
+    <value>吸积盘</value>
+  </data>
+  <data name="Hole_Option_Doppler" xml:space="preserve">
+    <value>多普勒效应</value>
+  </data>
+  <data name="Hole_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Hole_Option_LensOn" xml:space="preserve">
+    <value>弯曲光线</value>
+  </data>
+  <data name="Hole_Option_Newton" xml:space="preserve">
+    <value>牛顿的探测器</value>
+  </data>
+  <data name="Hole_Option_Rays" xml:space="preserve">
+    <value>光线</value>
+  </data>
+  <data name="Hole_Option_Ring" xml:space="preserve">
+    <value>爱因斯坦环</value>
+  </data>
+  <data name="Hole_Option_Stars" xml:space="preserve">
+    <value>星空</value>
+  </data>
+  <data name="Hole_Option_True" xml:space="preserve">
+    <value>真实位置</value>
+  </data>
+  <data name="Hole_Orbit_Circle_Text" xml:space="preserve">
+    <value>在 10 M 处，探测器稳稳地绕圈，就像行星绕恒星。同样出发的牛顿探测器却甩出去走了一个椭圆：离得这么近，引力比牛顿定律说的更强。离得远时，两者就一致了。</value>
+  </data>
+  <data name="Hole_Orbit_Circle_Title" xml:space="preserve">
+    <value>圆轨道</value>
+  </data>
+  <data name="Hole_Orbit_Custom_Text" xml:space="preserve">
+    <value>看看图表：如果蓝色的能量线低于黑洞附近的那座“山”，探测器就会被留在轨道上；高于山顶，它就会掉进去，除非快到能逃走。</value>
+  </data>
+  <data name="Hole_Orbit_Custom_Title" xml:space="preserve">
+    <value>你自己的发射</value>
+  </data>
+  <data name="Hole_Orbit_Escape_Text" xml:space="preserve">
+    <value>能量超过了需要的量，探测器飞走就不再回来，离开时路径被弯了一点。</value>
+  </data>
+  <data name="Hole_Orbit_Escape_Title" xml:space="preserve">
+    <value>快到能逃走</value>
+  </data>
+  <data name="Hole_Orbit_Escaped_Text" xml:space="preserve">
+    <value>探测器一去不返了。离黑洞远了，引力变弱，它的钟又几乎和远处的钟走得一样快。</value>
+  </data>
+  <data name="Hole_Orbit_Escaped_Title" xml:space="preserve">
+    <value>逃走了</value>
+  </data>
+  <data name="Hole_Orbit_Isco_Text" xml:space="preserve">
+    <value>6 M 处，也就是事件视界半径的 3 倍，是能保持的最后一个圆轨道。稍微往里推一点，探测器就会螺旋落入；同样出发的牛顿探测器却永远不会。</value>
+  </data>
+  <data name="Hole_Orbit_Isco_Title" xml:space="preserve">
+    <value>最内稳定圆轨道</value>
+  </data>
+  <data name="Hole_Orbit_Lost_Text" xml:space="preserve">
+    <value>探测器已经越过事件视界，再也发不出任何信号。它自己的钟一直在走，可从远处看，它会越来越慢、越来越红，最后好像冻结在边缘。</value>
+  </data>
+  <data name="Hole_Orbit_Lost_Title" xml:space="preserve">
+    <value>穿过了事件视界</value>
+  </data>
+  <data name="Hole_Orbit_Plunge_Text" xml:space="preserve">
+    <value>牛顿的探测器绕到近处又甩了出来。真实的探测器转得不够快，翻不过黑洞附近有效势的顶，于是一头扎了进去。</value>
+  </data>
+  <data name="Hole_Orbit_Plunge_Title" xml:space="preserve">
+    <value>侧向速度不够</value>
+  </data>
+  <data name="Hole_Orbit_Rosette_Text" xml:space="preserve">
+    <value>牛顿的探测器每次都走同一个椭圆。真实的探测器每次经过近点都多绕一段，所以椭圆在转动，画出一朵玫瑰线。</value>
+  </data>
+  <data name="Hole_Orbit_Rosette_Title" xml:space="preserve">
+    <value>会转动的轨道</value>
+  </data>
+  <data name="Hole_Orbits_Fact1" xml:space="preserve">
+    <value>离得远时，黑洞的引力和同样质量的恒星一模一样。假如太阳变成黑洞，地球还会照原样绕着它转，只是天变黑了。</value>
+  </data>
+  <data name="Hole_Orbits_Fact2" xml:space="preserve">
+    <value>水星的轨道每个世纪比牛顿预言的多转 43 角秒。1915 年爱因斯坦的理论解释了它，这和这里的玫瑰线是同一种转动，只是小得多。</value>
+  </data>
+  <data name="Hole_Orbits_Fact3" xml:space="preserve">
+    <value>比事件视界半径的 3 倍更近，就没有稳定的圆轨道了。气体一到这条线就会螺旋落入，所以黑洞周围的吸积盘有清晰的内边缘。</value>
+  </data>
+  <data name="Hole_Orbits_Fact4" xml:space="preserve">
+    <value>就连在地球上，引力也会让时间变慢。GPS 卫星在高处，引力弱，每天快约 45 微秒（速度又让它慢约 7 微秒）；不修正的话，GPS 每天会偏差好几千米。</value>
+  </data>
+  <data name="Hole_Orbits_Fact5" xml:space="preserve">
+    <value>掉进一个小黑洞时，脚受到的引力比头大得多，人会被拉成面条；而掉进一个巨大的黑洞，越过事件视界时什么感觉都没有。</value>
+  </data>
+  <data name="Hole_Orbits_Note" xml:space="preserve">
+    <value>从上往下看，长度以黑洞质量 M 为单位（10 个太阳质量时 1 M 约 15 千米）。金色按爱因斯坦的引力计算，灰色按牛顿的。</value>
+  </data>
+  <data name="Hole_Orbits_Panel_Note" xml:space="preserve">
+    <value>两个探测器的出发状态完全相同。速度以光速为单位。</value>
+  </data>
+  <data name="Hole_Orbits_Subtitle" xml:space="preserve">
+    <value>黑洞怎样弯曲光线、改变轨道</value>
+  </data>
+  <data name="Hole_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格键）</value>
+  </data>
+  <data name="Hole_Relaunch" xml:space="preserve">
+    <value>重新发射</value>
+  </data>
+  <data name="Hole_RestartTrack" xml:space="preserve">
+    <value>重新漂过</value>
+  </data>
+  <data name="Hole_Ring_M" xml:space="preserve">
+    <value>{0} M</value>
+  </data>
+  <data name="Hole_Scale_TenM" xml:space="preserve">
+    <value>10 M</value>
+  </data>
+  <data name="Hole_Shadow_Above_Text" xml:space="preserve">
+    <value>从上往下看，吸积盘是一个发光的圆环，中间是阴影。它的内边缘就是最内稳定圆轨道，比这更近，气体会直接落进去。</value>
+  </data>
+  <data name="Hole_Shadow_Above_Title" xml:space="preserve">
+    <value>从上方看</value>
+  </data>
+  <data name="Hole_Shadow_Edge_Text" xml:space="preserve">
+    <value>吸积盘在黑洞前面成了一条细带，可你同时还能看到它的后半部分被弯到顶上，下表面被弯到底下。朝你转过来的那一侧更亮。</value>
+  </data>
+  <data name="Hole_Shadow_Edge_Title" xml:space="preserve">
+    <value>几乎侧着看</value>
+  </data>
+  <data name="Hole_Shadow_Fact1" xml:space="preserve">
+    <value>黑洞是被压得极其紧密的物质，连光都逃不出来。它的边界叫事件视界，那里并没有表面，只是一条“有去无回”的界线。</value>
+  </data>
+  <data name="Hole_Shadow_Fact2" xml:space="preserve">
+    <value>把地球压成直径约 18 毫米、比弹珠还小的球，它就会变成黑洞；太阳则要压到直径只有 6 千米。</value>
+  </data>
+  <data name="Hole_Shadow_Fact3" xml:space="preserve">
+    <value>事件视界望远镜把全球各地的射电望远镜连成一台地球那么大的望远镜，2019 年拍到了 M87* 的阴影，2022 年拍到了银河系中心人马座 A* 的阴影。</value>
+  </data>
+  <data name="Hole_Shadow_Fact4" xml:space="preserve">
+    <value>阴影的宽度约是事件视界的 2.6 倍：光被黑洞弯折，让它看起来比实际大得多。</value>
+  </data>
+  <data name="Hole_Shadow_Fact5" xml:space="preserve">
+    <value>电影《星际穿越》里的黑洞也是用这种光线追踪算出来的。电影去掉了多普勒效应，所以它的吸积盘两边一样亮。</value>
+  </data>
+  <data name="Hole_Shadow_Flat_Text" xml:space="preserve">
+    <value>现在两边一样亮，就像电影《星际穿越》里那样。只剩下引力红移：从黑洞附近往外爬的光会损失能量，显得更红、更暗。</value>
+  </data>
+  <data name="Hole_Shadow_Flat_Title" xml:space="preserve">
+    <value>去掉多普勒效应</value>
+  </data>
+  <data name="Hole_Shadow_NoDisk_Text" xml:space="preserve">
+    <value>没有气体时，黑洞只是天上的一块黑斑。在它的边缘，后面的星光被弯曲、拉长，像一面扭曲的镜子映出了整个天空。</value>
+  </data>
+  <data name="Hole_Shadow_NoDisk_Title" xml:space="preserve">
+    <value>只有黑洞和星空</value>
+  </data>
+  <data name="Hole_Shadow_Note" xml:space="preserve">
+    <value>逐像素光线追踪：每个像素的光都沿着它真实的弯曲路径倒推回去。吸积盘的颜色换成了可见光来显示。</value>
+  </data>
+  <data name="Hole_Shadow_Panel_Note" xml:space="preserve">
+    <value>不自转的黑洞，不管多大，看起来都是这个样子，只是大小不同。选一个看看它的真实尺寸。</value>
+  </data>
+  <data name="Hole_Shadow_Straight_Text" xml:space="preserve">
+    <value>如果光不弯曲，你只会看到一个扁平的盘和一个小黑球，也就是真实大小的事件视界。那道拱、那些光环和大大的阴影，全是引力弯曲光线造成的。</value>
+  </data>
+  <data name="Hole_Shadow_Straight_Title" xml:space="preserve">
+    <value>假如光走直线</value>
+  </data>
+  <data name="Hole_Shadow_Subtitle" xml:space="preserve">
+    <value>黑洞近看是什么样子</value>
+  </data>
+  <data name="Hole_Shadow_Tilted_Text" xml:space="preserve">
+    <value>吸积盘像一个倾斜的圆环，但它的远侧被抬起、弯向你，所以黑洞四周一圈都被光包围着。</value>
+  </data>
+  <data name="Hole_Shadow_Tilted_Title" xml:space="preserve">
+    <value>斜着看</value>
+  </data>
+  <data name="Hole_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Hole_Side_Hole" xml:space="preserve">
+    <value>黑洞</value>
+  </data>
+  <data name="Hole_Side_Source" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Hole_Side_Title" xml:space="preserve">
+    <value>侧面看（不按比例）</value>
+  </data>
+  <data name="Hole_Side_Us" xml:space="preserve">
+    <value>我们</value>
+  </data>
+  <data name="Hole_Source_Caption" xml:space="preserve">
+    <value>黑洞后面是什么</value>
+  </data>
+  <data name="Hole_Source_Galaxy" xml:space="preserve">
+    <value>一个星系</value>
+  </data>
+  <data name="Hole_Source_Grid" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="Hole_Source_Star" xml:space="preserve">
+    <value>一颗恒星</value>
+  </data>
+  <data name="Hole_Stat_Alignment" xml:space="preserve">
+    <value>偏离视线</value>
+  </data>
+  <data name="Hole_Stat_Apart" xml:space="preserve">
+    <value>两个像相距</value>
+  </data>
+  <data name="Hole_Stat_Brighter" xml:space="preserve">
+    <value>源中心的亮度</value>
+  </data>
+  <data name="Hole_Stat_ClockRate" xml:space="preserve">
+    <value>探测器的钟走速</value>
+  </data>
+  <data name="Hole_Stat_Einstein" xml:space="preserve">
+    <value>真实的爱因斯坦环半径</value>
+  </data>
+  <data name="Hole_Stat_Energy" xml:space="preserve">
+    <value>能量（远处静止 = 1）</value>
+  </data>
+  <data name="Hole_Stat_Example" xml:space="preserve">
+    <value>黑洞</value>
+  </data>
+  <data name="Hole_Stat_FarClock" xml:space="preserve">
+    <value>远处的钟</value>
+  </data>
+  <data name="Hole_Stat_FromEarth" xml:space="preserve">
+    <value>从地球看</value>
+  </data>
+  <data name="Hole_Stat_Horizon" xml:space="preserve">
+    <value>事件视界半径</value>
+  </data>
+  <data name="Hole_Stat_Inner" xml:space="preserve">
+    <value>最内气体绕一圈</value>
+  </data>
+  <data name="Hole_Stat_Lap" xml:space="preserve">
+    <value>光绕一圈</value>
+  </data>
+  <data name="Hole_Stat_Lens" xml:space="preserve">
+    <value>透镜</value>
+  </data>
+  <data name="Hole_Stat_LensMass" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="Hole_Stat_Mass" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="Hole_Stat_Momentum" xml:space="preserve">
+    <value>绕黑洞的角动量 L</value>
+  </data>
+  <data name="Hole_Stat_ProbeClock" xml:space="preserve">
+    <value>探测器的钟</value>
+  </data>
+  <data name="Hole_Stat_Radius" xml:space="preserve">
+    <value>当前距离</value>
+  </data>
+  <data name="Hole_Stat_ShadowSize" xml:space="preserve">
+    <value>阴影</value>
+  </data>
+  <data name="Hole_Stat_Start" xml:space="preserve">
+    <value>发射</value>
+  </data>
+  <data name="Hole_Stat_Tilt" xml:space="preserve">
+    <value>观看倾角</value>
+  </data>
+  <data name="Hole_Tilt" xml:space="preserve">
+    <value>观看倾角</value>
+  </data>
+  <data name="Hole_Tilt_Above" xml:space="preserve">
+    <value>从上方看</value>
+  </data>
+  <data name="Hole_Tilt_Edge" xml:space="preserve">
+    <value>侧着看</value>
+  </data>
+  <data name="Hole_Tilt_Tilted" xml:space="preserve">
+    <value>斜着看</value>
+  </data>
+  <data name="Hole_Title" xml:space="preserve">
+    <value>黑洞与引力透镜</value>
+  </data>
+  <data name="Hole_Value_Arcsec" xml:space="preserve">
+    <value>{0} 角秒</value>
+  </data>
+  <data name="Hole_Value_Au" xml:space="preserve">
+    <value>{0} 倍日地距离</value>
+  </data>
+  <data name="Hole_Value_Days" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Hole_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Hole_Value_Einsteins" xml:space="preserve">
+    <value>{0} 个爱因斯坦半径</value>
+  </data>
+  <data name="Hole_Value_Hours" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Hole_Value_Inside" xml:space="preserve">
+    <value>在事件视界之内</value>
+  </data>
+  <data name="Hole_Value_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Hole_Value_KmBig" xml:space="preserve">
+    <value>{0} 万千米</value>
+  </data>
+  <data name="Hole_Value_M" xml:space="preserve">
+    <value>{0} M</value>
+  </data>
+  <data name="Hole_Value_Mas" xml:space="preserve">
+    <value>{0} 毫角秒</value>
+  </data>
+  <data name="Hole_Value_MicroArcsec" xml:space="preserve">
+    <value>{0} 微角秒宽</value>
+  </data>
+  <data name="Hole_Value_Minutes" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="Hole_Value_Ms" xml:space="preserve">
+    <value>{0} 毫秒</value>
+  </data>
+  <data name="Hole_Value_Percent" xml:space="preserve">
+    <value>远处钟的 {0}%</value>
+  </data>
+  <data name="Hole_Value_RingBright" xml:space="preserve">
+    <value>铺成一个环，亮得多</value>
+  </data>
+  <data name="Hole_Value_Seconds" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Hole_Value_Shadow" xml:space="preserve">
+    <value>直径约 {0}</value>
+  </data>
+  <data name="Hole_Value_Start" xml:space="preserve">
+    <value>{0} M 处，{1} 倍光速</value>
+  </data>
+  <data name="Hole_Value_Times" xml:space="preserve">
+    <value>×{0}</value>
+  </data>
   <data name="HowTo_Contents" xml:space="preserve">
     <value>找不到看到哪儿了？点上方的“目录”就能回到目录页。</value>
   </data>
@@ -2387,6 +3137,186 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>所以，日食只会发生在新月的时候。到了满月，就轮到月球走进地球的影子里了，那就是月食。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_01" xml:space="preserve">
+    <value>现在我们离得非常远。一个黑洞正从一个遥远的星系前面漂过。黑洞本身小得根本看不见，但请注意它对身后射来的光做了什么。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_02" xml:space="preserve">
+    <value>绿色的轮廓标出了星系真正的位置。黑洞靠近时，记住它在哪里。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_03" xml:space="preserve">
+    <value>黑洞靠近时，星系被拉长，弯成一道绕着它的弧。星系的光在来我们这里的路上，被黑洞弯折了。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_04" xml:space="preserve">
+    <value>现在黑洞正好挡在前面。光从四面八方一样地绕过来，星系变成了一个完整的圆环。这叫做爱因斯坦环。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_05" xml:space="preserve">
+    <value>这个小小的侧视图说明了原因。从黑洞上方经过的光和从下方经过的光，都被弯向了我们。所以我们同时从两个方向看到了同一样东西。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_06" xml:space="preserve">
+    <value>换成一颗恒星放在后面。现在你看到了它的两个像，黑洞两边各一个。两个像加起来，比恒星本来的样子更亮。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_07" xml:space="preserve">
+    <value>考考你：如果黑洞的质量变成四倍，它的爱因斯坦环会变成多大？</value>
+  </data>
+  <data name="Narr_Hole_Lensing_08" xml:space="preserve">
+    <value>宽两倍。环的大小随质量的平方根增长。天文学家就是用这样的环和弧，去称量那些看不见的东西，比如暗物质。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_09" xml:space="preserve">
+    <value>对于银河系里一个恒星大小的黑洞，这个环小得看不见。可当它漂过时，后面那颗星会先变亮，再暗下去，图表上就是这条曲线。2022 年，天文学家正是这样找到了一个“流浪”黑洞。</value>
+  </data>
+  <data name="Narr_Hole_Lensing_10" xml:space="preserve">
+    <value>轮到你了。拖动黑洞在这张网格上移动，看看它是怎样扭曲周围天空的画面的。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Arc" xml:space="preserve">
+    <value>星系被拉长，绕着黑洞弯成了一道弧。在星系团周围就能看到这种巨大的弧，它们来自后面几十亿光年远的星系。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Arrow" xml:space="preserve">
+    <value>绿色箭头是探测器的发射速度和方向。拖动箭头尖：往侧面让它绕圈，往外帮它逃走，往里则把它送向黑洞。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Below" xml:space="preserve">
+    <value>阴影下方这道细弧，是吸积盘的下表面。它的光从黑洞底下绕过来，又被弯回向上，到达你这里。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Bent" xml:space="preserve">
+    <value>这条光线从较远处经过。引力把它弯了一点，它又继续前进。光经过得越远，被拐的角度就越小。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Caught" xml:space="preserve">
+    <value>这条光线经过得太近了。它弯进去，掉进了事件视界。凡是瞄准离中心约两倍半事件视界半径以内的光，都会这样被吞掉。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Clocks" xml:space="preserve">
+    <value>一个钟留在远处，另一个跟着探测器走。在黑洞附近，引力和速度都让探测器的时间变慢。从远处看，一个正在下落的探测器，好像冻结在了事件视界上。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Coming" xml:space="preserve">
+    <value>在这一侧，气体正向你冲过来。它的光被压缩到更高的能量，所以显得更蓝、更亮。这就是多普勒效应，也叫“聚束”。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Critical" xml:space="preserve">
+    <value>这条光线正好从临界距离经过。它在光子球上绕着黑洞转了一圈才逃出去。光子环就是由这样的光线形成的。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Going" xml:space="preserve">
+    <value>在这一侧，气体正离你而去。它的光被拉长，所以显得更红、更暗。光往外爬的时候，引力又把它拉长了一些。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Hat" xml:space="preserve">
+    <value>这道拱是吸积盘的后半部分，本来被黑洞挡住了。它的光被向上弯折，越过黑洞顶部来到你眼前，所以你能看见黑洞背后的东西。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Horizon" xml:space="preserve">
+    <value>事件视界是“有去无回”的界线。在它里面，连光都爬不出来。它不是一个实实在在的表面，只是一条边界。一个和太阳一样重的黑洞，它的事件视界离中心只有三千米。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Image1" xml:space="preserve">
+    <value>这是恒星较亮的那个像，和恒星真实位置在同一侧，被向外推远了一点。数字表示它比恒星本身亮了多少倍。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Image2" xml:space="preserve">
+    <value>这个较暗的像在黑洞的另一侧，它的光是从另一边绕过来的。黑洞和恒星越对齐，两个像就越靠近那个环。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Inner" xml:space="preserve">
+    <value>吸积盘到最内稳定圆轨道就结束了，那里是事件视界半径的三倍。再近一点，气体就没法留在轨道上，会倾泻进黑洞。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Isco" xml:space="preserve">
+    <value>这个虚线圆是最内稳定圆轨道，是事件视界半径的三倍。在它外面，探测器可以永远绕圈；在它里面，任何轨道都会螺旋落入黑洞。牛顿引力里没有这样的界限。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Lens" xml:space="preserve">
+    <value>这个标记就是黑洞。在这么远的地方它小得看不见，可它的引力会弯曲经过它周围的光。你可以把它拖到天空中的任何地方。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Newton" xml:space="preserve">
+    <value>灰色探测器的出发状态和金色的完全一样，但按牛顿引力运动。离得远时两者一致；离得近时，牛顿的探测器永远不会掉进去，它的椭圆也不会转动。</value>
+  </data>
+  <data name="Narr_Hole_Obj_PhotonRing" xml:space="preserve">
+    <value>光子环是阴影外面一道又细又亮的环。它的光绕黑洞转了一圈甚至更多圈才逃出来，所以里面压缩着黑洞周围一切景象的影像。</value>
+  </data>
+  <data name="Narr_Hole_Obj_PhotonSphere" xml:space="preserve">
+    <value>在事件视界半径的一倍半处，光可以绕着黑洞走圆圈。可这种平衡就像站在刀刃上，稍微偏一点，光不是掉进去，就是飞走。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Probe" xml:space="preserve">
+    <value>金色的探测器按照爱因斯坦的引力理论运动。拖动它，让它从更近或更远的地方出发，看看路径怎样变化。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Ring" xml:space="preserve">
+    <value>这个虚线圆就是爱因斯坦环。当黑洞正好挡在某样东西前面时，那东西的光会铺满这一整圈。环的大小能告诉你透镜的质量。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Scale" xml:space="preserve">
+    <value>这里的尺寸用 M 来量，这是由黑洞质量决定的一个长度。和太阳一样重的黑洞，一个 M 约一千五百米。黑洞越重，一切都按比例变大，但样子完全一样。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Shadow" xml:space="preserve">
+    <value>阴影是一块没有任何光到达你的黑色区域：从这里来的每一条光线都只能出自黑洞内部。它比事件视界宽约两倍半，因为光会绕着黑洞弯曲。</value>
+  </data>
+  <data name="Narr_Hole_Obj_SideView" xml:space="preserve">
+    <value>从侧面看：源发出的光从黑洞上方和下方经过，两条路径都被弯向我们。我们沿着每条光线最后一段的方向往回看，就看到了各自的像。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Stars" xml:space="preserve">
+    <value>在阴影周围，黑洞后面的星光被弯曲、拉长，有的星星甚至出现两次，两边各一个。黑洞就像一块扭曲的透镜，作用在整个天空上。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Start" xml:space="preserve">
+    <value>这个小圈标出了探测器的出发点。把它拖得离黑洞更近或更远，发射速度保持不变。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Track" xml:space="preserve">
+    <value>黑洞沿着这条虚线漂移。它经过源的附近时，光被聚焦、变亮，然后又暗下去，就像图表里那样。</value>
+  </data>
+  <data name="Narr_Hole_Obj_Trail" xml:space="preserve">
+    <value>这是探测器走过的路径。在黑洞附近，轨道不会首尾相接，每绕一圈都多转一点，画出一朵玫瑰线。</value>
+  </data>
+  <data name="Narr_Hole_Obj_True" xml:space="preserve">
+    <value>这个轮廓标出了星系或恒星真正的位置。你看到偏离这里的一切，都是在来我们这儿的路上被弯折的光。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_01" xml:space="preserve">
+    <value>现在我们从上往下俯视一个黑洞。这个黑色的圆就是事件视界。任何东西越过它，哪怕是光，都再也出不来了。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_02" xml:space="preserve">
+    <value>光从左边射过来。离黑洞较远的光线只被弯了一点点，几乎还是直直地往前走。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_03" xml:space="preserve">
+    <value>瞄得更近的光线就过不去了。它们弯进去，掉进事件视界，从此就消失了。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_04" xml:space="preserve">
+    <value>在这两者之间，有一个特别的距离。正好从那里经过的光，会被甩着绕黑洞一整圈才逃出去。它擦过的是光子球，在那里，光可以永远绕着黑洞转。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_05" xml:space="preserve">
+    <value>再看这个探测器。它在一条圆轨道上，一圈又一圈，就像行星绕着恒星转。灰色的点出发时和它一模一样，但按牛顿的引力运动，它却甩出去走了一个椭圆。离黑洞这么近，引力比牛顿想的更强。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_06" xml:space="preserve">
+    <value>这次探测器走的是椭圆。牛顿的探测器每一圈都重复同样的路径。可真实的探测器每次经过近点都多绕一段，于是轨道在转动，画出一朵玫瑰线。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_07" xml:space="preserve">
+    <value>看看角上的两个钟。一个在离黑洞很远的地方，一个跟着探测器走。哪一个走得更慢？</value>
+  </data>
+  <data name="Narr_Hole_Orbits_08" xml:space="preserve">
+    <value>现在探测器发射时的侧向速度小了一些。牛顿的探测器只是绕到近处，又甩了出来。可真实的探测器翻不过黑洞附近的那座“山”，一头扎了进去。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_09" xml:space="preserve">
+    <value>探测器下落时，留意远处的那个钟。从远处看，探测器越来越慢，好像冻结在了边缘，永远也越不过去。可它自己的钟一直在走，它其实直接穿了过去。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_10" xml:space="preserve">
+    <value>这条轨道正好在最内稳定圆轨道上，是事件视界的三倍大。只要轻轻推一下，它就会螺旋着落进去。所以黑洞周围的气体盘才会有一个内边缘。</value>
+  </data>
+  <data name="Narr_Hole_Orbits_11" xml:space="preserve">
+    <value>轮到你了。拖动绿色箭头，按你自己的方式发射探测器。你能找到一种能逃走的发射吗？或者一种刚好能留在轨道上的？</value>
+  </data>
+  <data name="Narr_Hole_Shadow_01" xml:space="preserve">
+    <value>这就是近看一个黑洞的样子，周围有一圈旋转的炽热气体。中间那块黑色就是它的阴影，那里一点光都发不出来。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_02" xml:space="preserve">
+    <value>这个虚线圆是事件视界的真实大小。你看，阴影比它大得多，宽了大约两倍半。光绕着黑洞弯曲，让它看起来比实际更大。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_03" xml:space="preserve">
+    <value>就在阴影的边缘，有一道又细又亮的光环。这些光几乎绕着黑洞转了一整圈，才终于逃出来，射向你。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_04" xml:space="preserve">
+    <value>再看顶上这道明亮的拱形。它其实是吸积盘的后半部分，本来被黑洞挡在后面。它的光被弯折，越过黑洞顶上，才到达你的眼睛。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_05" xml:space="preserve">
+    <value>下面这道细一些的弧，是吸积盘的下表面，它的光从另一边、从黑洞底下绕了过来。所以，你能同时看到盘的上面、后面和下面。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_06" xml:space="preserve">
+    <value>考考你：吸积盘的左边比右边亮得多。你觉得这是为什么？</value>
+  </data>
+  <data name="Narr_Hole_Shadow_07" xml:space="preserve">
+    <value>吸积盘转得非常快，接近光速的几分之一。朝你冲过来的气体，它的光被压缩，变得更蓝、更亮；离你而去的气体则显得更红、更暗。这就是多普勒效应。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_08" xml:space="preserve">
+    <value>现在假设光完全不会弯曲。你只会看到一个扁平的盘，中间一个小小的黑球。刚才看到的那些奇特形状，全都是引力弯曲光线造成的。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_09" xml:space="preserve">
+    <value>把弯曲重新打开，从上面看。吸积盘是一个发光的圆环，它的内边缘就是最内稳定圆轨道。再往里，气体就没法继续绕圈，会直接掉进去。</value>
+  </data>
+  <data name="Narr_Hole_Shadow_10" xml:space="preserve">
+    <value>现在轮到你了。在画面上上下拖动，改变观看的角度。当你从侧面看时，注意那道拱形是怎样升到顶上的。</value>
   </data>
   <data name="Narr_Kepler_Areas_01" xml:space="preserve">
     <value>开普勒第二定律讲的是速度。想象从太阳到行星连一条线。行星往前走，这条线就像汽车的雨刷一样，在轨道里扫过去。</value>

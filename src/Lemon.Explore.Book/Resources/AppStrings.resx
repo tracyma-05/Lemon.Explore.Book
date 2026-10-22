@@ -1068,6 +1068,756 @@
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>Click anything in the picture to hear what it is</value>
   </data>
+  <data name="Hole_Chart_Barrier" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="Hole_Chart_Brighter" xml:space="preserve">
+    <value>times as bright</value>
+  </data>
+  <data name="Hole_Chart_Caught" xml:space="preserve">
+    <value>caught</value>
+  </data>
+  <data name="Hole_Chart_Degrees" xml:space="preserve">
+    <value>turned (°)</value>
+  </data>
+  <data name="Hole_Chart_Einstein" xml:space="preserve">
+    <value>4M/b</value>
+  </data>
+  <data name="Hole_Chart_Energy" xml:space="preserve">
+    <value>probe's energy</value>
+  </data>
+  <data name="Hole_Chart_Impact" xml:space="preserve">
+    <value>passes at (M)</value>
+  </data>
+  <data name="Hole_Chart_Lensing_Caption" xml:space="preserve">
+    <value>How much brighter the source looks</value>
+  </data>
+  <data name="Hole_Chart_Lensing_Note" xml:space="preserve">
+    <value>As the hole drifts along its track, the light from the source's middle is focused and it brightens, then fades again. Click or drag the chart to move the hole.</value>
+  </data>
+  <data name="Hole_Chart_Newton" xml:space="preserve">
+    <value>Newton</value>
+  </data>
+  <data name="Hole_Chart_Orbits_Caption" xml:space="preserve">
+    <value>The probe's energy and the hill it must climb</value>
+  </data>
+  <data name="Hole_Chart_Orbits_Note" xml:space="preserve">
+    <value>The curves are the effective potential for the probe's spin round the hole. The blue line is its energy: where the line is above the curve, it can go. Einstein's curve has a top near the hole that Newton's lacks; above it, the probe falls in.</value>
+  </data>
+  <data name="Hole_Chart_Potential" xml:space="preserve">
+    <value>energy²</value>
+  </data>
+  <data name="Hole_Chart_Radius" xml:space="preserve">
+    <value>r (M)</value>
+  </data>
+  <data name="Hole_Chart_Real" xml:space="preserve">
+    <value>real</value>
+  </data>
+  <data name="Hole_Chart_Relativity" xml:space="preserve">
+    <value>Einstein</value>
+  </data>
+  <data name="Hole_Chart_Shadow_Caption" xml:space="preserve">
+    <value>How much light is bent</value>
+  </data>
+  <data name="Hole_Chart_Shadow_Note" xml:space="preserve">
+    <value>The closer light passes, the more it is turned. Below 5.2 M it is caught: that is the edge of the shadow. The dashed line is Einstein's rule for light passing far away, 4M/b.</value>
+  </data>
+  <data name="Hole_Chart_Times" xml:space="preserve">
+    <value>×{0}</value>
+  </data>
+  <data name="Hole_Chart_TimesHuge" xml:space="preserve">
+    <value>×100+</value>
+  </data>
+  <data name="Hole_Chart_Track" xml:space="preserve">
+    <value>along the track</value>
+  </data>
+  <data name="Hole_Clock_Far" xml:space="preserve">
+    <value>Far away</value>
+  </data>
+  <data name="Hole_Clock_Forever" xml:space="preserve">
+    <value>never sees it cross</value>
+  </data>
+  <data name="Hole_Clock_M" xml:space="preserve">
+    <value>{0} M of time</value>
+  </data>
+  <data name="Hole_Clock_Probe" xml:space="preserve">
+    <value>Probe</value>
+  </data>
+  <data name="Hole_Example_Caption" xml:space="preserve">
+    <value>Which black hole</value>
+  </data>
+  <data name="Hole_Example_CygX1" xml:space="preserve">
+    <value>Cygnus X-1</value>
+  </data>
+  <data name="Hole_Example_CygX1_Mass" xml:space="preserve">
+    <value>21 Suns</value>
+  </data>
+  <data name="Hole_Example_M87" xml:space="preserve">
+    <value>M87*</value>
+  </data>
+  <data name="Hole_Example_M87_Mass" xml:space="preserve">
+    <value>6.5 billion Suns</value>
+  </data>
+  <data name="Hole_Example_SgrA" xml:space="preserve">
+    <value>Sagittarius A*</value>
+  </data>
+  <data name="Hole_Example_SgrA_Mass" xml:space="preserve">
+    <value>4.3 million Suns</value>
+  </data>
+  <data name="Hole_Facts" xml:space="preserve">
+    <value>Did you know?</value>
+  </data>
+  <data name="Hole_Hint_Lensing" xml:space="preserve">
+    <value>Drag the black hole across the sky, or click anywhere to put it there.</value>
+  </data>
+  <data name="Hole_Hint_Orbits" xml:space="preserve">
+    <value>Drag the probe to move its start, or drag its green arrow to launch it your own way.</value>
+  </data>
+  <data name="Hole_Hint_Shadow" xml:space="preserve">
+    <value>Drag up or down on the picture to tilt the view.</value>
+  </data>
+  <data name="Hole_Km_Big_Unit" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Hole_Label_Arc" xml:space="preserve">
+    <value>Stretched into an arc</value>
+  </data>
+  <data name="Hole_Label_Below" xml:space="preserve">
+    <value>Underside, bent round below</value>
+  </data>
+  <data name="Hole_Label_Bent" xml:space="preserve">
+    <value>Bent a little</value>
+  </data>
+  <data name="Hole_Label_Caught" xml:space="preserve">
+    <value>Caught</value>
+  </data>
+  <data name="Hole_Label_Coming" xml:space="preserve">
+    <value>Coming towards you: brighter</value>
+  </data>
+  <data name="Hole_Label_ComingFlat" xml:space="preserve">
+    <value>Coming towards you</value>
+  </data>
+  <data name="Hole_Label_Critical" xml:space="preserve">
+    <value>Sent round</value>
+  </data>
+  <data name="Hole_Label_Going" xml:space="preserve">
+    <value>Going away: dimmer</value>
+  </data>
+  <data name="Hole_Label_GoingFlat" xml:space="preserve">
+    <value>Going away</value>
+  </data>
+  <data name="Hole_Label_Hat" xml:space="preserve">
+    <value>Far side of the disk, bent over the top</value>
+  </data>
+  <data name="Hole_Label_Horizon" xml:space="preserve">
+    <value>Event horizon (real size)</value>
+  </data>
+  <data name="Hole_Label_HorizonTop" xml:space="preserve">
+    <value>Event horizon (2 M)</value>
+  </data>
+  <data name="Hole_Label_Image1" xml:space="preserve">
+    <value>Image ×{0}</value>
+  </data>
+  <data name="Hole_Label_Image2" xml:space="preserve">
+    <value>Second image ×{0}</value>
+  </data>
+  <data name="Hole_Label_Inner" xml:space="preserve">
+    <value>Inner edge (6 M)</value>
+  </data>
+  <data name="Hole_Label_Isco" xml:space="preserve">
+    <value>Innermost stable orbit (6 M)</value>
+  </data>
+  <data name="Hole_Label_Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Hole_Label_Lens" xml:space="preserve">
+    <value>Black hole</value>
+  </data>
+  <data name="Hole_Label_Lost" xml:space="preserve">
+    <value>Probe lost</value>
+  </data>
+  <data name="Hole_Label_Newton" xml:space="preserve">
+    <value>Newton</value>
+  </data>
+  <data name="Hole_Label_PhotonRing" xml:space="preserve">
+    <value>Photon ring</value>
+  </data>
+  <data name="Hole_Label_PhotonSphere" xml:space="preserve">
+    <value>Photon sphere (3 M)</value>
+  </data>
+  <data name="Hole_Label_Probe" xml:space="preserve">
+    <value>Probe</value>
+  </data>
+  <data name="Hole_Label_Ring" xml:space="preserve">
+    <value>Einstein ring</value>
+  </data>
+  <data name="Hole_Label_Shadow" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="Hole_Label_Stars" xml:space="preserve">
+    <value>Bent starlight</value>
+  </data>
+  <data name="Hole_Label_True" xml:space="preserve">
+    <value>Really here</value>
+  </data>
+  <data name="Hole_Launch_Caption" xml:space="preserve">
+    <value>Launch the probe</value>
+  </data>
+  <data name="Hole_Launch_Circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="Hole_Launch_Custom" xml:space="preserve">
+    <value>Your own</value>
+  </data>
+  <data name="Hole_Launch_Escape" xml:space="preserve">
+    <value>Escape</value>
+  </data>
+  <data name="Hole_Launch_Isco" xml:space="preserve">
+    <value>Innermost circle</value>
+  </data>
+  <data name="Hole_Launch_Plunge" xml:space="preserve">
+    <value>Too slow</value>
+  </data>
+  <data name="Hole_Launch_Rosette" xml:space="preserve">
+    <value>Rosette</value>
+  </data>
+  <data name="Hole_LensKind_Caption" xml:space="preserve">
+    <value>What does the bending</value>
+  </data>
+  <data name="Hole_LensKind_Cluster" xml:space="preserve">
+    <value>A galaxy cluster</value>
+  </data>
+  <data name="Hole_LensKind_Galaxy" xml:space="preserve">
+    <value>A galaxy</value>
+  </data>
+  <data name="Hole_LensKind_Stellar" xml:space="preserve">
+    <value>A star-sized black hole</value>
+  </data>
+  <data name="Hole_Lens_Far_Text" xml:space="preserve">
+    <value>Far from the line to the source, the hole bends its light only a little: the picture is nudged outwards round the hole, like looking through the foot of a wine glass.</value>
+  </data>
+  <data name="Hole_Lens_Far_Title" xml:space="preserve">
+    <value>Off to one side</value>
+  </data>
+  <data name="Hole_Lens_Inside_Text" xml:space="preserve">
+    <value>The source is now within one Einstein radius of the line: both images sit close to the ring and the light is strongly focused.</value>
+  </data>
+  <data name="Hole_Lens_Inside_Title" xml:space="preserve">
+    <value>Inside the Einstein ring</value>
+  </data>
+  <data name="Hole_Lens_Near_Text" xml:space="preserve">
+    <value>The source is stretched round the hole into an arc, and a second, smaller image appears on the other side. Together they are brighter than the source alone.</value>
+  </data>
+  <data name="Hole_Lens_Near_Title" xml:space="preserve">
+    <value>Coming close</value>
+  </data>
+  <data name="Hole_Lens_Off_Text" xml:space="preserve">
+    <value>This is the sky as it really is. Switch the bending back on to see what the black hole does to it.</value>
+  </data>
+  <data name="Hole_Lens_Off_Title" xml:space="preserve">
+    <value>Bending switched off</value>
+  </data>
+  <data name="Hole_Lens_Ring_Text" xml:space="preserve">
+    <value>Lined up exactly, the light comes round every side alike, and the source becomes a complete ring round the hole.</value>
+  </data>
+  <data name="Hole_Lens_Ring_Title" xml:space="preserve">
+    <value>An Einstein ring</value>
+  </data>
+  <data name="Hole_Lensing_Fact1" xml:space="preserve">
+    <value>In 1919, during a total eclipse, Arthur Eddington measured stars near the Sun shifted by 1.75 arcseconds, as Einstein predicted, twice what Newton's ideas gave. It made Einstein famous overnight.</value>
+  </data>
+  <data name="Hole_Lensing_Fact2" xml:space="preserve">
+    <value>The first lensed quasar, found in 1979, appeared as two identical 'twins' side by side: one quasar seen twice through a galaxy in front of it.</value>
+  </data>
+  <data name="Hole_Lensing_Fact3" xml:space="preserve">
+    <value>Galaxy clusters bend the light of galaxies far behind them into long arcs. How much they bend shows how much mass they hold: far more than their stars, most of it dark matter.</value>
+  </data>
+  <data name="Hole_Lensing_Fact4" xml:space="preserve">
+    <value>In 2022 astronomers announced the first lone black hole found by lensing: about 7 Suns, 5000 light years away, seen when it made a background star brighten for months.</value>
+  </data>
+  <data name="Hole_Lensing_Fact5" xml:space="preserve">
+    <value>A supernova seen through a lensing cluster in 2014 appeared four times at once. Astronomers predicted it would appear once more, by a longer path, and it did, in 2015.</value>
+  </data>
+  <data name="Hole_Lensing_Note" xml:space="preserve">
+    <value>Not to scale: the black hole itself is far too small to see, and the bending is hugely enlarged.</value>
+  </data>
+  <data name="Hole_Lensing_Panel_Note" xml:space="preserve">
+    <value>The real ring's size depends on the lens: about a thousandth of an arcsecond for a star-sized hole, arcseconds for a galaxy.</value>
+  </data>
+  <data name="Hole_Lensing_Subtitle" xml:space="preserve">
+    <value>A black hole far away bends the light behind it</value>
+  </data>
+  <data name="Hole_Lesson_Lensing_Choice1" xml:space="preserve">
+    <value>Twice as wide</value>
+  </data>
+  <data name="Hole_Lesson_Lensing_Choice2" xml:space="preserve">
+    <value>Four times as wide</value>
+  </data>
+  <data name="Hole_Lesson_Lensing_Choice3" xml:space="preserve">
+    <value>The same size</value>
+  </data>
+  <data name="Hole_Lesson_Orbits_Choice1" xml:space="preserve">
+    <value>The probe's clock</value>
+  </data>
+  <data name="Hole_Lesson_Orbits_Choice2" xml:space="preserve">
+    <value>The far-away clock</value>
+  </data>
+  <data name="Hole_Lesson_Orbits_Choice3" xml:space="preserve">
+    <value>They run at the same pace</value>
+  </data>
+  <data name="Hole_Lesson_Shadow_Choice1" xml:space="preserve">
+    <value>The gas there is moving towards us</value>
+  </data>
+  <data name="Hole_Lesson_Shadow_Choice2" xml:space="preserve">
+    <value>That side is hotter</value>
+  </data>
+  <data name="Hole_Lesson_Shadow_Choice3" xml:space="preserve">
+    <value>That side is closer to us</value>
+  </data>
+  <data name="Hole_LineUp" xml:space="preserve">
+    <value>Line up exactly</value>
+  </data>
+  <data name="Hole_Mass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="Hole_Mode_Lensing" xml:space="preserve">
+    <value>Lensing</value>
+  </data>
+  <data name="Hole_Mode_Orbits" xml:space="preserve">
+    <value>Light and orbits</value>
+  </data>
+  <data name="Hole_Mode_Shadow" xml:space="preserve">
+    <value>Up close</value>
+  </data>
+  <data name="Hole_Obj_Arc" xml:space="preserve">
+    <value>An arc</value>
+  </data>
+  <data name="Hole_Obj_Arrow" xml:space="preserve">
+    <value>The launch arrow</value>
+  </data>
+  <data name="Hole_Obj_Below" xml:space="preserve">
+    <value>The underside, bent round below</value>
+  </data>
+  <data name="Hole_Obj_Bent" xml:space="preserve">
+    <value>A ray that's bent</value>
+  </data>
+  <data name="Hole_Obj_Caught" xml:space="preserve">
+    <value>A ray that's caught</value>
+  </data>
+  <data name="Hole_Obj_Clocks" xml:space="preserve">
+    <value>The two clocks</value>
+  </data>
+  <data name="Hole_Obj_Coming" xml:space="preserve">
+    <value>The side coming towards you</value>
+  </data>
+  <data name="Hole_Obj_Critical" xml:space="preserve">
+    <value>A ray sent round</value>
+  </data>
+  <data name="Hole_Obj_Going" xml:space="preserve">
+    <value>The side going away</value>
+  </data>
+  <data name="Hole_Obj_Hat" xml:space="preserve">
+    <value>The far side, bent over the top</value>
+  </data>
+  <data name="Hole_Obj_Horizon" xml:space="preserve">
+    <value>The event horizon</value>
+  </data>
+  <data name="Hole_Obj_Image1" xml:space="preserve">
+    <value>The brighter image</value>
+  </data>
+  <data name="Hole_Obj_Image2" xml:space="preserve">
+    <value>The second image</value>
+  </data>
+  <data name="Hole_Obj_Inner" xml:space="preserve">
+    <value>The inner edge of the disk</value>
+  </data>
+  <data name="Hole_Obj_Isco" xml:space="preserve">
+    <value>The innermost stable orbit</value>
+  </data>
+  <data name="Hole_Obj_Lens" xml:space="preserve">
+    <value>The black hole</value>
+  </data>
+  <data name="Hole_Obj_Newton" xml:space="preserve">
+    <value>Newton's probe</value>
+  </data>
+  <data name="Hole_Obj_PhotonRing" xml:space="preserve">
+    <value>The photon ring</value>
+  </data>
+  <data name="Hole_Obj_PhotonSphere" xml:space="preserve">
+    <value>The photon sphere</value>
+  </data>
+  <data name="Hole_Obj_Probe" xml:space="preserve">
+    <value>The probe</value>
+  </data>
+  <data name="Hole_Obj_Ring" xml:space="preserve">
+    <value>The Einstein ring</value>
+  </data>
+  <data name="Hole_Obj_Scale" xml:space="preserve">
+    <value>The size scale</value>
+  </data>
+  <data name="Hole_Obj_Shadow" xml:space="preserve">
+    <value>The shadow</value>
+  </data>
+  <data name="Hole_Obj_SideView" xml:space="preserve">
+    <value>The side view</value>
+  </data>
+  <data name="Hole_Obj_Stars" xml:space="preserve">
+    <value>Bent starlight</value>
+  </data>
+  <data name="Hole_Obj_Start" xml:space="preserve">
+    <value>The starting point</value>
+  </data>
+  <data name="Hole_Obj_Track" xml:space="preserve">
+    <value>The track</value>
+  </data>
+  <data name="Hole_Obj_Trail" xml:space="preserve">
+    <value>The probe's path</value>
+  </data>
+  <data name="Hole_Obj_True" xml:space="preserve">
+    <value>Where it really is</value>
+  </data>
+  <data name="Hole_Option_Bend" xml:space="preserve">
+    <value>Light bends</value>
+  </data>
+  <data name="Hole_Option_Disk" xml:space="preserve">
+    <value>Disk of gas</value>
+  </data>
+  <data name="Hole_Option_Doppler" xml:space="preserve">
+    <value>Doppler</value>
+  </data>
+  <data name="Hole_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Hole_Option_LensOn" xml:space="preserve">
+    <value>Bending</value>
+  </data>
+  <data name="Hole_Option_Newton" xml:space="preserve">
+    <value>Newton's probe</value>
+  </data>
+  <data name="Hole_Option_Rays" xml:space="preserve">
+    <value>Light rays</value>
+  </data>
+  <data name="Hole_Option_Ring" xml:space="preserve">
+    <value>Einstein ring</value>
+  </data>
+  <data name="Hole_Option_Stars" xml:space="preserve">
+    <value>Stars</value>
+  </data>
+  <data name="Hole_Option_True" xml:space="preserve">
+    <value>Where it really is</value>
+  </data>
+  <data name="Hole_Orbit_Circle_Text" xml:space="preserve">
+    <value>At 10 M the probe circles steadily, as a planet circles a star. Newton's probe, started the same way, swings out on an ellipse: this close in, gravity pulls harder than Newton's law says. Far out, the two agree.</value>
+  </data>
+  <data name="Hole_Orbit_Circle_Title" xml:space="preserve">
+    <value>A circular orbit</value>
+  </data>
+  <data name="Hole_Orbit_Custom_Text" xml:space="preserve">
+    <value>Watch the chart: if the blue energy line is below the hill near the hole, the probe is held in orbit; above it, the probe falls in, unless it is fast enough to escape.</value>
+  </data>
+  <data name="Hole_Orbit_Custom_Title" xml:space="preserve">
+    <value>Your own launch</value>
+  </data>
+  <data name="Hole_Orbit_Escape_Text" xml:space="preserve">
+    <value>With more energy than it needs, the probe flies off and never comes back, bent a little as it leaves.</value>
+  </data>
+  <data name="Hole_Orbit_Escape_Title" xml:space="preserve">
+    <value>Fast enough to get away</value>
+  </data>
+  <data name="Hole_Orbit_Escaped_Text" xml:space="preserve">
+    <value>The probe is heading out for good. Far from the hole, gravity is weak and its clock runs almost at the far clock's pace again.</value>
+  </data>
+  <data name="Hole_Orbit_Escaped_Title" xml:space="preserve">
+    <value>Got away</value>
+  </data>
+  <data name="Hole_Orbit_Isco_Text" xml:space="preserve">
+    <value>At 6 M, three times the horizon's radius, is the last circle a probe can keep to. A tiny nudge inwards and it spirals in. Newton's probe, given the same start, never would.</value>
+  </data>
+  <data name="Hole_Orbit_Isco_Title" xml:space="preserve">
+    <value>The innermost stable circle</value>
+  </data>
+  <data name="Hole_Orbit_Lost_Text" xml:space="preserve">
+    <value>The probe has crossed the event horizon and can never send anything out again. Its own clock kept ticking, but seen from far away it would seem to slow, redden and freeze at the edge.</value>
+  </data>
+  <data name="Hole_Orbit_Lost_Title" xml:space="preserve">
+    <value>Through the horizon</value>
+  </data>
+  <data name="Hole_Orbit_Plunge_Text" xml:space="preserve">
+    <value>Newton's probe swings close and comes back out. The real one has too little spin to get over the top of the potential near the hole, so it plunges in.</value>
+  </data>
+  <data name="Hole_Orbit_Plunge_Title" xml:space="preserve">
+    <value>Not enough sideways speed</value>
+  </data>
+  <data name="Hole_Orbit_Rosette_Text" xml:space="preserve">
+    <value>Newton's probe goes round the same ellipse every time. The real one swings round further at each close pass, so its ellipse turns and traces a rosette.</value>
+  </data>
+  <data name="Hole_Orbit_Rosette_Title" xml:space="preserve">
+    <value>An orbit that turns</value>
+  </data>
+  <data name="Hole_Orbits_Fact1" xml:space="preserve">
+    <value>Far from a black hole, it pulls just like a star of the same mass. If the Sun became a black hole, the Earth would keep going round it exactly as before (in the dark).</value>
+  </data>
+  <data name="Hole_Orbits_Fact2" xml:space="preserve">
+    <value>Mercury's orbit turns a little more each century than Newton predicts, 43 arcseconds. Einstein's theory explained this in 1915: the same turning as the rosette here, only much smaller.</value>
+  </data>
+  <data name="Hole_Orbits_Fact3" xml:space="preserve">
+    <value>Closer in than three times the horizon's radius, there is no steady circular orbit. Gas reaching that line spirals in, so disks round black holes have a sharp inner edge.</value>
+  </data>
+  <data name="Hole_Orbits_Fact4" xml:space="preserve">
+    <value>Gravity slows time even on Earth. GPS satellites higher up gain about 45 microseconds a day from weaker gravity (and lose 7 from their speed); without correcting for it, GPS would drift by kilometres a day.</value>
+  </data>
+  <data name="Hole_Orbits_Fact5" xml:space="preserve">
+    <value>Falling into a small black hole, the pull on your feet would be so much stronger than on your head that you would be stretched like spaghetti. At a giant one you would cross the horizon without feeling anything.</value>
+  </data>
+  <data name="Hole_Orbits_Note" xml:space="preserve">
+    <value>Seen from above, in units of the hole's mass M (for 10 Suns, 1 M is 15 km). Gold follows Einstein's gravity, grey follows Newton's.</value>
+  </data>
+  <data name="Hole_Orbits_Panel_Note" xml:space="preserve">
+    <value>Both probes start the same way. Speeds are fractions of the speed of light.</value>
+  </data>
+  <data name="Hole_Orbits_Subtitle" xml:space="preserve">
+    <value>How a black hole bends light and steers orbits</value>
+  </data>
+  <data name="Hole_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Hole_Relaunch" xml:space="preserve">
+    <value>Launch again</value>
+  </data>
+  <data name="Hole_RestartTrack" xml:space="preserve">
+    <value>Drift past again</value>
+  </data>
+  <data name="Hole_Ring_M" xml:space="preserve">
+    <value>{0} M</value>
+  </data>
+  <data name="Hole_Scale_TenM" xml:space="preserve">
+    <value>10 M</value>
+  </data>
+  <data name="Hole_Shadow_Above_Text" xml:space="preserve">
+    <value>Looking down on the disk, it is a glowing ring with the shadow in the middle. Its inner edge is the innermost stable orbit; closer than that, gas falls straight in.</value>
+  </data>
+  <data name="Hole_Shadow_Above_Title" xml:space="preserve">
+    <value>From above</value>
+  </data>
+  <data name="Hole_Shadow_Edge_Text" xml:space="preserve">
+    <value>The disk crosses in front of the hole as a thin band, yet you also see its far side, bent up over the top, and its underside, bent round below. The side coming towards you is brighter.</value>
+  </data>
+  <data name="Hole_Shadow_Edge_Title" xml:space="preserve">
+    <value>Nearly edge on</value>
+  </data>
+  <data name="Hole_Shadow_Fact1" xml:space="preserve">
+    <value>A black hole is mass packed so tightly that not even light can climb out. Its boundary, the event horizon, is not a surface: just the point of no return.</value>
+  </data>
+  <data name="Hole_Shadow_Fact2" xml:space="preserve">
+    <value>Squeeze the Earth into a ball about 18 mm across, smaller than a marble, and it becomes a black hole. The Sun would need to be just 6 km across.</value>
+  </data>
+  <data name="Hole_Shadow_Fact3" xml:space="preserve">
+    <value>The Event Horizon Telescope linked radio dishes across the Earth into one Earth-sized telescope. It showed the shadow of M87* in 2019 and of Sagittarius A* in 2022.</value>
+  </data>
+  <data name="Hole_Shadow_Fact4" xml:space="preserve">
+    <value>The shadow is about 2.6 times as wide as the horizon. Light bent round the hole makes it look much bigger than it is.</value>
+  </data>
+  <data name="Hole_Shadow_Fact5" xml:space="preserve">
+    <value>The black hole in the film Interstellar was worked out the same way, by tracing light rays. The film left out the Doppler effect, so both sides of its disk look equally bright.</value>
+  </data>
+  <data name="Hole_Shadow_Flat_Text" xml:space="preserve">
+    <value>Now both sides glow alike, as in the film Interstellar. Only gravity's own redshift is left: light climbing out from near the hole loses energy and looks redder and dimmer.</value>
+  </data>
+  <data name="Hole_Shadow_Flat_Title" xml:space="preserve">
+    <value>Without the Doppler effect</value>
+  </data>
+  <data name="Hole_Shadow_NoDisk_Text" xml:space="preserve">
+    <value>Without gas, a black hole is a black patch on the sky. Round its edge the stars behind it are bent and stretched into a warped mirror of the whole sky.</value>
+  </data>
+  <data name="Hole_Shadow_NoDisk_Title" xml:space="preserve">
+    <value>Just the hole and the stars</value>
+  </data>
+  <data name="Hole_Shadow_Note" xml:space="preserve">
+    <value>Ray traced: each pixel's light is followed back along its real, bent path. The disk's colours are shifted into visible light.</value>
+  </data>
+  <data name="Hole_Shadow_Panel_Note" xml:space="preserve">
+    <value>The picture is the same for any black hole that does not spin; only its size changes. Pick one to see its real size.</value>
+  </data>
+  <data name="Hole_Shadow_Straight_Text" xml:space="preserve">
+    <value>Without bending, you would see a flat disk and a small black ball, the horizon at its real size. The arch, the rings and the big shadow are all made by gravity bending light.</value>
+  </data>
+  <data name="Hole_Shadow_Straight_Title" xml:space="preserve">
+    <value>If light went straight</value>
+  </data>
+  <data name="Hole_Shadow_Subtitle" xml:space="preserve">
+    <value>What a black hole looks like up close</value>
+  </data>
+  <data name="Hole_Shadow_Tilted_Text" xml:space="preserve">
+    <value>The disk looks like a tilted ring, but the far side is lifted up and bent towards you, so the hole is framed by light all the way round.</value>
+  </data>
+  <data name="Hole_Shadow_Tilted_Title" xml:space="preserve">
+    <value>Seen at a slant</value>
+  </data>
+  <data name="Hole_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Hole_Side_Hole" xml:space="preserve">
+    <value>Hole</value>
+  </data>
+  <data name="Hole_Side_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Hole_Side_Title" xml:space="preserve">
+    <value>Seen from the side (not to scale)</value>
+  </data>
+  <data name="Hole_Side_Us" xml:space="preserve">
+    <value>Us</value>
+  </data>
+  <data name="Hole_Source_Caption" xml:space="preserve">
+    <value>Behind the black hole</value>
+  </data>
+  <data name="Hole_Source_Galaxy" xml:space="preserve">
+    <value>A galaxy</value>
+  </data>
+  <data name="Hole_Source_Grid" xml:space="preserve">
+    <value>A grid</value>
+  </data>
+  <data name="Hole_Source_Star" xml:space="preserve">
+    <value>A star</value>
+  </data>
+  <data name="Hole_Stat_Alignment" xml:space="preserve">
+    <value>Off the line by</value>
+  </data>
+  <data name="Hole_Stat_Apart" xml:space="preserve">
+    <value>Images apart</value>
+  </data>
+  <data name="Hole_Stat_Brighter" xml:space="preserve">
+    <value>Source's middle looks</value>
+  </data>
+  <data name="Hole_Stat_ClockRate" xml:space="preserve">
+    <value>Probe's clock runs at</value>
+  </data>
+  <data name="Hole_Stat_Einstein" xml:space="preserve">
+    <value>Real Einstein ring radius</value>
+  </data>
+  <data name="Hole_Stat_Energy" xml:space="preserve">
+    <value>Energy (1 = at rest far away)</value>
+  </data>
+  <data name="Hole_Stat_Example" xml:space="preserve">
+    <value>Black hole</value>
+  </data>
+  <data name="Hole_Stat_FarClock" xml:space="preserve">
+    <value>Far-away clock</value>
+  </data>
+  <data name="Hole_Stat_FromEarth" xml:space="preserve">
+    <value>Seen from Earth</value>
+  </data>
+  <data name="Hole_Stat_Horizon" xml:space="preserve">
+    <value>Horizon radius</value>
+  </data>
+  <data name="Hole_Stat_Inner" xml:space="preserve">
+    <value>Inner gas, one orbit</value>
+  </data>
+  <data name="Hole_Stat_Lap" xml:space="preserve">
+    <value>Light's lap round it</value>
+  </data>
+  <data name="Hole_Stat_Lens" xml:space="preserve">
+    <value>Lens</value>
+  </data>
+  <data name="Hole_Stat_LensMass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="Hole_Stat_Mass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="Hole_Stat_Momentum" xml:space="preserve">
+    <value>Spin round the hole (L)</value>
+  </data>
+  <data name="Hole_Stat_ProbeClock" xml:space="preserve">
+    <value>Probe's clock</value>
+  </data>
+  <data name="Hole_Stat_Radius" xml:space="preserve">
+    <value>Distance now</value>
+  </data>
+  <data name="Hole_Stat_ShadowSize" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="Hole_Stat_Start" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Hole_Stat_Tilt" xml:space="preserve">
+    <value>Viewing angle</value>
+  </data>
+  <data name="Hole_Tilt" xml:space="preserve">
+    <value>Viewing angle</value>
+  </data>
+  <data name="Hole_Tilt_Above" xml:space="preserve">
+    <value>From above</value>
+  </data>
+  <data name="Hole_Tilt_Edge" xml:space="preserve">
+    <value>Edge on</value>
+  </data>
+  <data name="Hole_Tilt_Tilted" xml:space="preserve">
+    <value>Tilted</value>
+  </data>
+  <data name="Hole_Title" xml:space="preserve">
+    <value>Black holes and gravitational lensing</value>
+  </data>
+  <data name="Hole_Value_Arcsec" xml:space="preserve">
+    <value>{0} arcseconds</value>
+  </data>
+  <data name="Hole_Value_Au" xml:space="preserve">
+    <value>{0} times the Earth–Sun distance</value>
+  </data>
+  <data name="Hole_Value_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Hole_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Hole_Value_Einsteins" xml:space="preserve">
+    <value>{0} Einstein radii</value>
+  </data>
+  <data name="Hole_Value_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="Hole_Value_Inside" xml:space="preserve">
+    <value>inside the horizon</value>
+  </data>
+  <data name="Hole_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Hole_Value_KmBig" xml:space="preserve">
+    <value>{0} million km</value>
+  </data>
+  <data name="Hole_Value_M" xml:space="preserve">
+    <value>{0} M</value>
+  </data>
+  <data name="Hole_Value_Mas" xml:space="preserve">
+    <value>{0} thousandths of an arcsecond</value>
+  </data>
+  <data name="Hole_Value_MicroArcsec" xml:space="preserve">
+    <value>{0} µas across</value>
+  </data>
+  <data name="Hole_Value_Minutes" xml:space="preserve">
+    <value>{0} minutes</value>
+  </data>
+  <data name="Hole_Value_Ms" xml:space="preserve">
+    <value>{0} ms</value>
+  </data>
+  <data name="Hole_Value_Percent" xml:space="preserve">
+    <value>{0}% of the far clock's pace</value>
+  </data>
+  <data name="Hole_Value_RingBright" xml:space="preserve">
+    <value>spread into a ring, hugely brighter</value>
+  </data>
+  <data name="Hole_Value_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Hole_Value_Shadow" xml:space="preserve">
+    <value>about {0} across</value>
+  </data>
+  <data name="Hole_Value_Start" xml:space="preserve">
+    <value>at {0} M, {1} c</value>
+  </data>
+  <data name="Hole_Value_Times" xml:space="preserve">
+    <value>×{0}</value>
+  </data>
   <data name="HowTo_Contents" xml:space="preserve">
     <value>Lost your place? The Contents button takes you back to the table of contents.</value>
   </data>
@@ -2387,6 +3137,186 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>So a solar eclipse can only happen at new moon. At full moon, it's the Moon's turn to move into Earth's shadow. That's a lunar eclipse.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_01" xml:space="preserve">
+    <value>Now we're very far away. A black hole is drifting in front of a distant galaxy. The hole itself is far too small to see. But watch what it does to the light coming from behind it.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_02" xml:space="preserve">
+    <value>The green outline shows where the galaxy really is. Keep it in mind as the black hole moves in.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_03" xml:space="preserve">
+    <value>As the hole comes close, the galaxy is stretched round it into a curved arc. Its light has been bent round the black hole on its way to us.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_04" xml:space="preserve">
+    <value>Now the black hole is exactly in front. Light comes round every side equally, and the galaxy becomes a complete circle. This is called an Einstein ring.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_05" xml:space="preserve">
+    <value>This little side view shows why. Light passing above the hole and light passing below it are both bent towards us. So we see the same thing coming from two directions at once.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_06" xml:space="preserve">
+    <value>Let's put a single star behind instead. Now you see two images of it, one on each side of the black hole. Together, they're brighter than the star would be on its own.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_07" xml:space="preserve">
+    <value>A question: if the black hole had four times as much mass, how big would its Einstein ring be?</value>
+  </data>
+  <data name="Narr_Hole_Lensing_08" xml:space="preserve">
+    <value>Twice as wide. The ring grows with the square root of the mass. Astronomers use rings and arcs like these to weigh things they can't see, such as dark matter.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_09" xml:space="preserve">
+    <value>For a star-sized black hole in our own galaxy, the ring is far too tiny to see. But as it drifts past, the star behind it brightens and then fades again. The chart shows it. That's how astronomers found a lone black hole in 2022.</value>
+  </data>
+  <data name="Narr_Hole_Lensing_10" xml:space="preserve">
+    <value>Your turn. Drag the black hole across this grid, and see how it warps the picture of the sky around it.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Arc" xml:space="preserve">
+    <value>The galaxy is stretched round the black hole into an arc. Huge arcs like this are seen round galaxy clusters, from galaxies billions of light years behind them.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Arrow" xml:space="preserve">
+    <value>The green arrow is the probe's launch speed and direction. Drag its tip: sideways makes it orbit, outwards helps it escape, and inwards sends it towards the hole.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Below" xml:space="preserve">
+    <value>This thin arc under the shadow is the bottom side of the disk. Its light went under the black hole and was bent back up towards you.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Bent" xml:space="preserve">
+    <value>This ray passes further out. Gravity bends it a little, and it carries on. The further away light passes, the less it's turned.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Caught" xml:space="preserve">
+    <value>This ray passes too close. It curves in and falls through the event horizon. Any light aimed within about two and a half horizon radii of the centre is caught like this.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Clocks" xml:space="preserve">
+    <value>One clock stays far away, the other travels with the probe. Near the black hole, gravity and speed slow the probe's time. Seen from far away, a probe falling in seems to freeze at the horizon.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Coming" xml:space="preserve">
+    <value>On this side the gas is rushing towards you. Its light is squeezed to higher energy, so it looks bluer and much brighter. This is the Doppler effect, also called beaming.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Critical" xml:space="preserve">
+    <value>This ray passes at just the critical distance. It's swung round the black hole on the photon sphere before it escapes. Rays like this make the photon ring.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Going" xml:space="preserve">
+    <value>On this side the gas is moving away from you. Its light is stretched, so it looks redder and dimmer. Gravity stretches it a little more as it climbs out.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Hat" xml:space="preserve">
+    <value>This arch is the back half of the disk, hidden behind the black hole. Light from it was bent up and over the hole to reach you, so you can see what's behind it.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Horizon" xml:space="preserve">
+    <value>The event horizon is the point of no return. Inside it, even light can't climb out. It isn't a solid surface, just a boundary. For a black hole as heavy as the Sun, it would be only three kilometres from the centre.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Image1" xml:space="preserve">
+    <value>This is the brighter image of the star, on the same side as the star really is, pushed a little further out. The number shows how much brighter it looks than the star alone.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Image2" xml:space="preserve">
+    <value>This fainter image is on the opposite side of the black hole. Its light went round the other way. As the hole lines up with the star, the two images close in on the ring.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Inner" xml:space="preserve">
+    <value>The disk stops at the innermost stable orbit, three times the horizon's radius. Closer than that, gas can't stay in orbit and pours into the black hole.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Isco" xml:space="preserve">
+    <value>This dashed circle is the innermost stable orbit, three times the horizon's radius. Further out, a probe can circle forever. Closer in, any orbit spirals into the black hole. Newton's gravity has no such limit.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Lens" xml:space="preserve">
+    <value>This mark is the black hole. At this distance it's far too small to see, but its gravity bends the light passing round it. Drag it anywhere in front of the sky.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Newton" xml:space="preserve">
+    <value>The grey probe starts exactly like the gold one, but moves with Newton's gravity. Far out they agree. Close in, Newton's probe never falls in and its ellipse never turns.</value>
+  </data>
+  <data name="Narr_Hole_Obj_PhotonRing" xml:space="preserve">
+    <value>The photon ring is a thin, bright ring just outside the shadow. Its light went round the black hole once or more before escaping, so it holds a squeezed picture of everything around the hole.</value>
+  </data>
+  <data name="Narr_Hole_Obj_PhotonSphere" xml:space="preserve">
+    <value>At one and a half times the horizon's radius, light can travel in a circle round the black hole. But it's balanced on a knife edge. The slightest nudge sends it either falling in or flying away.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Probe" xml:space="preserve">
+    <value>The gold probe moves the way Einstein's theory of gravity says. Drag it to start it closer or further out, and watch how its path changes.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Ring" xml:space="preserve">
+    <value>The dashed circle is the Einstein ring. When the black hole is exactly in front of something, that thing's light is spread all the way round this circle. Its size tells you the mass of the lens.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Scale" xml:space="preserve">
+    <value>Sizes here are measured in M, a length set by the black hole's mass. For a black hole as heavy as the Sun, one M is about one and a half kilometres. The heavier the hole, the bigger everything gets, but the picture looks the same.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Shadow" xml:space="preserve">
+    <value>The shadow is the dark patch where no light reaches you: every ray from here would have come out of the black hole. It's about two and a half times wider than the event horizon, because light bends round the hole.</value>
+  </data>
+  <data name="Narr_Hole_Obj_SideView" xml:space="preserve">
+    <value>Seen from the side: light from the source passes above and below the black hole, and both paths are bent towards us. We see each image straight back along the last part of its path.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Stars" xml:space="preserve">
+    <value>Around the shadow, the stars behind the black hole are bent and stretched. Some stars even appear twice, once on each side. The black hole acts like a warped lens on the whole sky.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Start" xml:space="preserve">
+    <value>This ring marks where the probe starts. Drag it closer to the black hole or further away. The launch speed stays the same.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Track" xml:space="preserve">
+    <value>The black hole drifts along this dashed line. As it passes close to the source, the light is focused and brightens, then fades again, as the chart shows.</value>
+  </data>
+  <data name="Narr_Hole_Obj_Trail" xml:space="preserve">
+    <value>This is the path the probe has taken. Near a black hole, an orbit doesn't close up on itself. Each lap it turns a little further round, tracing a rosette.</value>
+  </data>
+  <data name="Narr_Hole_Obj_True" xml:space="preserve">
+    <value>This outline shows where the galaxy or star really is. Everything you see moved away from it is light bent on its way to us.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_01" xml:space="preserve">
+    <value>Here we're looking down on a black hole from above. The black circle is the event horizon. Anything that crosses it, even light, can never come back out.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_02" xml:space="preserve">
+    <value>Light comes in from the left. Rays that pass far from the hole are bent only a little, and carry on almost straight.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_03" xml:space="preserve">
+    <value>Rays aimed closer can't get past. They curve in and fall through the horizon. Once inside, they're gone for good.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_04" xml:space="preserve">
+    <value>In between is a special distance. Light passing just there is swung all the way round the hole before it escapes. It skims the photon sphere, where light could circle the hole forever.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_05" xml:space="preserve">
+    <value>Now look at the probe. It's in a circular orbit, round and round like a planet going round a star. The grey dot started off exactly the same way, but follows Newton's gravity. It swings out on an ellipse. This close to a black hole, gravity pulls harder than Newton thought.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_06" xml:space="preserve">
+    <value>This time the probe moves on an ellipse. Newton's probe repeats the same path every lap. But the real one swings further round at each close pass, so its orbit turns, tracing out a rosette.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_07" xml:space="preserve">
+    <value>Look at the two clocks in the corner. One is far away from the black hole, the other rides with the probe. Which one is running slower?</value>
+  </data>
+  <data name="Narr_Hole_Orbits_08" xml:space="preserve">
+    <value>Now the probe is launched with less sideways speed. Newton's probe just swings in close and back out again. But the real one can't get over the hill near the hole, and it plunges in.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_09" xml:space="preserve">
+    <value>Watch the far-away clock as the probe falls. Seen from far away, the probe slows down and seems to freeze at the edge. It never quite seems to cross. But its own clock keeps ticking, and it falls straight through.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_10" xml:space="preserve">
+    <value>This orbit sits on the innermost stable circle, three times the horizon's size. Give it the tiniest nudge, and it spirals in. That's why disks of gas round black holes have an inner edge.</value>
+  </data>
+  <data name="Narr_Hole_Orbits_11" xml:space="preserve">
+    <value>Your turn. Drag the green arrow to launch the probe your own way. Can you find a launch that escapes? Or one that just barely stays in orbit?</value>
+  </data>
+  <data name="Narr_Hole_Shadow_01" xml:space="preserve">
+    <value>This is what a black hole would look like up close, with a disk of hot gas swirling round it. The black patch in the middle is its shadow. No light at all comes from there.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_02" xml:space="preserve">
+    <value>The dashed circle shows the event horizon at its real size. Notice that the shadow is much bigger, about two and a half times as wide. Light bending round the hole makes it look larger than it really is.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_03" xml:space="preserve">
+    <value>Right at the edge of the shadow there's a thin, bright ring. That light went almost all the way round the black hole before it finally escaped towards you.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_04" xml:space="preserve">
+    <value>Now look at this bright arch over the top. It's the far side of the disk, the part hidden behind the black hole. Its light was bent up and over the hole to reach you.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_05" xml:space="preserve">
+    <value>And this thinner arc underneath is the bottom side of the disk. Its light was bent round the other way, under the hole. So you can see the top, the back and the bottom of the disk all at once.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_06" xml:space="preserve">
+    <value>Here's a question. The left side of the disk is much brighter than the right. Why do you think that is?</value>
+  </data>
+  <data name="Narr_Hole_Shadow_07" xml:space="preserve">
+    <value>The disk spins very fast, at a good fraction of the speed of light. Gas rushing towards you has its light squeezed, bluer and brighter. Gas rushing away looks redder and dimmer. That's the Doppler effect.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_08" xml:space="preserve">
+    <value>Now let's imagine light didn't bend at all. All you'd see is a flat disk with a small black ball in the middle. Every strange shape you saw before was made by gravity bending light.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_09" xml:space="preserve">
+    <value>Let's turn the bending back on and look from above. The disk is a glowing ring. Its inner edge is the innermost stable orbit. Any closer, and gas can't keep circling. It falls straight in.</value>
+  </data>
+  <data name="Narr_Hole_Shadow_10" xml:space="preserve">
+    <value>Now it's your turn. Drag up or down on the picture to tilt your view, and watch the arch rise over the top as you look from the side.</value>
   </data>
   <data name="Narr_Kepler_Areas_01" xml:space="preserve">
     <value>Kepler's second law is about speed. Imagine a line from the Sun to the planet. As the planet moves, this line sweeps across the orbit, a bit like a windscreen wiper.</value>
