@@ -1053,6 +1053,483 @@
   <data name="HowTo_Turn" xml:space="preserve">
     <value>Turn a page: drag the outer edge of a page, click it, or press the left and right arrow keys.</value>
   </data>
+  <data name="Kepler_Areas_Fact1" xml:space="preserve">
+    <value>Kepler actually found this law first, in 1609, before he knew the orbit was an ellipse.</value>
+  </data>
+  <data name="Kepler_Areas_Fact2" xml:space="preserve">
+    <value>Equal areas means the planet's angular momentum stays the same: at half the distance it goes twice as fast sideways. A spinning skater who pulls in their arms speeds up for the same reason.</value>
+  </data>
+  <data name="Kepler_Areas_Fact3" xml:space="preserve">
+    <value>Earth is fastest in early January (30.3 km/s) and slowest in early July (29.3 km/s).</value>
+  </data>
+  <data name="Kepler_Areas_Fact4" xml:space="preserve">
+    <value>So the northern summer half of the year, from the March to the September equinox, is about 7 days longer than the winter half.</value>
+  </data>
+  <data name="Kepler_Areas_Fact5" xml:space="preserve">
+    <value>Halley's comet races past the Sun at about 55 km/s, and crawls at under 1 km/s far out, where it spends most of its 75 years.</value>
+  </data>
+  <data name="Kepler_Areas_Note" xml:space="preserve">
+    <value>Each coloured slice takes the same time. Near the Sun they are short and wide, far out long and thin, but all have the same area. Not to scale.</value>
+  </data>
+  <data name="Kepler_Areas_Subtitle" xml:space="preserve">
+    <value>Second law: the line from the Sun to the planet sweeps equal areas in equal times</value>
+  </data>
+  <data name="Kepler_Body_Caption" xml:space="preserve">
+    <value>Whose orbit</value>
+  </data>
+  <data name="Kepler_Body_Ceres" xml:space="preserve">
+    <value>Ceres</value>
+  </data>
+  <data name="Kepler_Body_Custom" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="Kepler_Body_Halley" xml:space="preserve">
+    <value>Halley's comet</value>
+  </data>
+  <data name="Kepler_Body_Pluto" xml:space="preserve">
+    <value>Pluto</value>
+  </data>
+  <data name="Kepler_Chart_Aphelion" xml:space="preserve">
+    <value>Aphelion</value>
+  </data>
+  <data name="Kepler_Chart_AxisAu" xml:space="preserve">
+    <value>Distance a (AU)</value>
+  </data>
+  <data name="Kepler_Chart_AxisYears" xml:space="preserve">
+    <value>Year T (Earth years)</value>
+  </data>
+  <data name="Kepler_Chart_Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Kepler_Chart_Kms" xml:space="preserve">
+    <value>km/s</value>
+  </data>
+  <data name="Kepler_Chart_Law" xml:space="preserve">
+    <value>T² = a³</value>
+  </data>
+  <data name="Kepler_Chart_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Kepler_Chart_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Kepler_Clock_Orbit" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="Kepler_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Kepler_Distance" xml:space="preserve">
+    <value>{0} AU ({1})</value>
+  </data>
+  <data name="Kepler_DragHint_Orbit" xml:space="preserve">
+    <value>Drag to move the planet along its orbit</value>
+  </data>
+  <data name="Kepler_DragHint_You" xml:space="preserve">
+    <value>Drag to move your planet nearer to or farther from the Sun</value>
+  </data>
+  <data name="Kepler_Earth_Aphelion" xml:space="preserve">
+    <value>Aphelion</value>
+  </data>
+  <data name="Kepler_Earth_Caption" xml:space="preserve">
+    <value>Earth's coming perihelion and aphelion</value>
+  </data>
+  <data name="Kepler_Earth_Note" xml:space="preserve">
+    <value>From Earth's orbit, to within a day or two. Earth is closest to the Sun in the northern winter: the seasons come from the tilt of its axis, not from the distance.</value>
+  </data>
+  <data name="Kepler_Earth_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Kepler_Earth_When" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Kepler_Ecc_Caption" xml:space="preserve">
+    <value>What the eccentricity measures</value>
+  </data>
+  <data name="Kepler_Ecc_Circle" xml:space="preserve">
+    <value>0: circle</value>
+  </data>
+  <data name="Kepler_Ecc_Formula" xml:space="preserve">
+    <value>e = c / a = {0}</value>
+  </data>
+  <data name="Kepler_Ecc_Note" xml:space="preserve">
+    <value>c is how far the Sun is from the centre, a half the long axis. The planets are all near 0: their orbits are almost circles, just with the Sun a little off centre. Moving the slider shapes the example orbit.</value>
+  </data>
+  <data name="Kepler_Ecc_Open" xml:space="preserve">
+    <value>1: never comes back</value>
+  </data>
+  <data name="Kepler_Ecc_Slider" xml:space="preserve">
+    <value>Eccentricity: how flat</value>
+  </data>
+  <data name="Kepler_Ecc_Value" xml:space="preserve">
+    <value>e = {0}</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact1" xml:space="preserve">
+    <value>Kepler found the ellipse in 1609 from Tycho Brahe's measurements of Mars: a circle missed them by 8 arcminutes, a quarter of the Moon's width, and he would not ignore it.</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact2" xml:space="preserve">
+    <value>Earth's orbit is nearly a circle (e = 0.017): its distance from the Sun only goes from 147.1 to 152.1 million km.</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact3" xml:space="preserve">
+    <value>The Sun sits at one focus; the other is just an empty point in space. The centre of the ellipse is empty too.</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact4" xml:space="preserve">
+    <value>Newton showed in 1687 why: a pull that weakens with the square of the distance gives ellipses, or for anything fast enough to escape, open curves that never come back.</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact5" xml:space="preserve">
+    <value>Halley's comet (e = 0.967) goes from inside Venus's orbit to beyond Neptune's. It was last near the Sun in 1986 and comes back in 2061.</value>
+  </data>
+  <data name="Kepler_Ellipse_Note" xml:space="preserve">
+    <value>Like drawing with two pins and a loop of string: the two parts of the string always add up to the same length. Not to scale: the Sun and the planet are drawn far too big.</value>
+  </data>
+  <data name="Kepler_Ellipse_Subtitle" xml:space="preserve">
+    <value>First law: a planet goes round the Sun on an ellipse, with the Sun at one focus</value>
+  </data>
+  <data name="Kepler_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Kepler_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Kepler_Jump_Aphelion" xml:space="preserve">
+    <value>Aphelion</value>
+  </data>
+  <data name="Kepler_Jump_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Kepler_Jump_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Kepler_Km" xml:space="preserve">
+    <value>{0:N0} million km</value>
+  </data>
+  <data name="Kepler_Km_Unit" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Kepler_Label_Aphelion" xml:space="preserve">
+    <value>Aphelion {0} AU</value>
+  </data>
+  <data name="Kepler_Label_AphelionSpeed" xml:space="preserve">
+    <value>Aphelion: slowest, {0} km/s</value>
+  </data>
+  <data name="Kepler_Label_Circle" xml:space="preserve">
+    <value>Circle of the same size</value>
+  </data>
+  <data name="Kepler_Label_EqualAreas" xml:space="preserve">
+    <value>{0} slices of {1} each: all the same area</value>
+  </data>
+  <data name="Kepler_Label_MajorAxis" xml:space="preserve">
+    <value>Long axis 2a = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_OtherFocus" xml:space="preserve">
+    <value>Other focus (empty)</value>
+  </data>
+  <data name="Kepler_Label_Perihelion" xml:space="preserve">
+    <value>Perihelion {0} AU</value>
+  </data>
+  <data name="Kepler_Label_PerihelionSpeed" xml:space="preserve">
+    <value>Perihelion: fastest, {0} km/s</value>
+  </data>
+  <data name="Kepler_Label_PlanetYear" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Kepler_Label_R1" xml:space="preserve">
+    <value>r₁ = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_R2" xml:space="preserve">
+    <value>r₂ = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_ScaleAu" xml:space="preserve">
+    <value>{0} AU</value>
+  </data>
+  <data name="Kepler_Label_Speed" xml:space="preserve">
+    <value>{0} km/s</value>
+  </data>
+  <data name="Kepler_Label_StringSum" xml:space="preserve">
+    <value>r₁ + r₂ = long axis 2a = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_SunFocus" xml:space="preserve">
+    <value>Sun, at a focus</value>
+  </data>
+  <data name="Kepler_Label_You" xml:space="preserve">
+    <value>Your planet · {0} AU · year {1}</value>
+  </data>
+  <data name="Kepler_Lesson_Areas_Choice1" xml:space="preserve">
+    <value>Closest to the Sun</value>
+  </data>
+  <data name="Kepler_Lesson_Areas_Choice2" xml:space="preserve">
+    <value>Farthest from the Sun</value>
+  </data>
+  <data name="Kepler_Lesson_Areas_Choice3" xml:space="preserve">
+    <value>The same everywhere</value>
+  </data>
+  <data name="Kepler_Lesson_Ellipse_Choice1" xml:space="preserve">
+    <value>It's longer</value>
+  </data>
+  <data name="Kepler_Lesson_Ellipse_Choice2" xml:space="preserve">
+    <value>It's shorter too</value>
+  </data>
+  <data name="Kepler_Lesson_Ellipse_Choice3" xml:space="preserve">
+    <value>It's the same length</value>
+  </data>
+  <data name="Kepler_Lesson_Periods_Choice1" xml:space="preserve">
+    <value>8 years</value>
+  </data>
+  <data name="Kepler_Lesson_Periods_Choice2" xml:space="preserve">
+    <value>4 years</value>
+  </data>
+  <data name="Kepler_Lesson_Periods_Choice3" xml:space="preserve">
+    <value>16 years</value>
+  </data>
+  <data name="Kepler_Mode_Areas" xml:space="preserve">
+    <value>Equal areas</value>
+  </data>
+  <data name="Kepler_Mode_Ellipse" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="Kepler_Mode_Periods" xml:space="preserve">
+    <value>Periods</value>
+  </data>
+  <data name="Kepler_Obj_Aphelion" xml:space="preserve">
+    <value>Aphelion</value>
+  </data>
+  <data name="Kepler_Obj_Center" xml:space="preserve">
+    <value>Centre of the ellipse</value>
+  </data>
+  <data name="Kepler_Obj_Circle" xml:space="preserve">
+    <value>A circle to compare</value>
+  </data>
+  <data name="Kepler_Obj_EqualAreas" xml:space="preserve">
+    <value>Equal areas</value>
+  </data>
+  <data name="Kepler_Obj_FocalDistance" xml:space="preserve">
+    <value>Sun to centre</value>
+  </data>
+  <data name="Kepler_Obj_MajorAxis" xml:space="preserve">
+    <value>The long axis</value>
+  </data>
+  <data name="Kepler_Obj_OtherFocus" xml:space="preserve">
+    <value>The empty focus</value>
+  </data>
+  <data name="Kepler_Obj_Perihelion" xml:space="preserve">
+    <value>Perihelion</value>
+  </data>
+  <data name="Kepler_Obj_Planet" xml:space="preserve">
+    <value>The orbiting body</value>
+  </data>
+  <data name="Kepler_Obj_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Kepler_Obj_String" xml:space="preserve">
+    <value>The string</value>
+  </data>
+  <data name="Kepler_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Kepler_Obj_Velocity" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Kepler_Obj_You" xml:space="preserve">
+    <value>Your planet</value>
+  </data>
+  <data name="Kepler_OpenSolarSystem" xml:space="preserve">
+    <value>See the planets in the Solar System</value>
+  </data>
+  <data name="Kepler_PeriodChart_Caption" xml:space="preserve">
+    <value>Year against distance, on log scales</value>
+  </data>
+  <data name="Kepler_PeriodChart_Note" xml:space="preserve">
+    <value>On logarithmic scales T² = a³ is a straight line, rising 3 for every 2 across. Every planet, the dwarf planets and Halley's comet sit on it: one rule for everything going round the Sun.</value>
+  </data>
+  <data name="Kepler_Periods_Fact1" xml:space="preserve">
+    <value>Kepler published the third law in 1619, ten years after the first two, in his book Harmonices Mundi (The Harmony of the World).</value>
+  </data>
+  <data name="Kepler_Periods_Fact2" xml:space="preserve">
+    <value>Twice as far means 2.8 times as long a year: the path is twice as long and the planet goes 1.4 times slower.</value>
+  </data>
+  <data name="Kepler_Periods_Fact3" xml:space="preserve">
+    <value>Neptune takes 165 years: discovered in 1846, it finished its first round since then only in 2011.</value>
+  </data>
+  <data name="Kepler_Periods_Fact4" xml:space="preserve">
+    <value>Newton's version includes the mass in the middle, so a moon's orbit weighs its planet: that is how we know Jupiter's mass.</value>
+  </data>
+  <data name="Kepler_Periods_Fact5" xml:space="preserve">
+    <value>It works for satellites too: 42,164 km from Earth's centre one round takes 23 h 56 min, just as long as Earth takes to turn, so a geostationary satellite stays over one spot.</value>
+  </data>
+  <data name="Kepler_Periods_Note" xml:space="preserve">
+    <value>Distances to scale: the planets at their real places today, seen from above the Sun's north pole. The view zooms out to keep your planet in sight; the planets are drawn far too big.</value>
+  </data>
+  <data name="Kepler_Periods_Subtitle" xml:space="preserve">
+    <value>Third law: the square of a planet's year goes with the cube of its distance</value>
+  </data>
+  <data name="Kepler_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Kepler_Sectors_Caption" xml:space="preserve">
+    <value>Cut one round into</value>
+  </data>
+  <data name="Kepler_ShowCircle" xml:space="preserve">
+    <value>Compare with a circle</value>
+  </data>
+  <data name="Kepler_ShowString" xml:space="preserve">
+    <value>Pins and string</value>
+  </data>
+  <data name="Kepler_ShowVelocity" xml:space="preserve">
+    <value>Velocity arrow</value>
+  </data>
+  <data name="Kepler_Speed_Caption" xml:space="preserve">
+    <value>Speed and distance through one round</value>
+  </data>
+  <data name="Kepler_Speed_Note" xml:space="preserve">
+    <value>Where the distance is smallest the speed is greatest, and the other way round: distance times sideways speed stays the same all the way.</value>
+  </data>
+  <data name="Kepler_Stage_Aphelion" xml:space="preserve">
+    <value>Near aphelion: farthest and slowest</value>
+  </data>
+  <data name="Kepler_Stage_Aphelion_Description" xml:space="preserve">
+    <value>Farthest from the Sun and slowest. It does not stop: still moving sideways, it begins to fall back towards the Sun.</value>
+  </data>
+  <data name="Kepler_Stage_Approaching" xml:space="preserve">
+    <value>Falling back: speeding up</value>
+  </data>
+  <data name="Kepler_Stage_Approaching_Description" xml:space="preserve">
+    <value>Falling back towards the Sun, the pull now speeds it up, all the way to perihelion.</value>
+  </data>
+  <data name="Kepler_Stage_Circle" xml:space="preserve">
+    <value>A circle: the same speed all the way</value>
+  </data>
+  <data name="Kepler_Stage_Circle_Description" xml:space="preserve">
+    <value>On a circle the distance never changes, so neither does the speed: equal areas then simply means equal arcs.</value>
+  </data>
+  <data name="Kepler_Stage_Perihelion" xml:space="preserve">
+    <value>Near perihelion: closest and fastest</value>
+  </data>
+  <data name="Kepler_Stage_Perihelion_Description" xml:space="preserve">
+    <value>The Sun's pull is strongest here and the planet is moving fastest. It swings round the Sun and starts to climb away again.</value>
+  </data>
+  <data name="Kepler_Stage_Receding" xml:space="preserve">
+    <value>Moving away: slowing down</value>
+  </data>
+  <data name="Kepler_Stage_Receding_Description" xml:space="preserve">
+    <value>The Sun pulls back on it as it climbs outward, so it slows down, like a ball thrown upward.</value>
+  </data>
+  <data name="Kepler_Stat_AverageSpeed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Kepler_Stat_AverageSpeed_Value" xml:space="preserve">
+    <value>{0:0.0} km/s (Earth 29.8)</value>
+  </data>
+  <data name="Kepler_Stat_Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="Kepler_Stat_Check" xml:space="preserve">
+    <value>T² ÷ a³</value>
+  </data>
+  <data name="Kepler_Stat_Check_Value" xml:space="preserve">
+    <value>{0}² ÷ {1}³ = 1</value>
+  </data>
+  <data name="Kepler_Stat_Distance" xml:space="preserve">
+    <value>To the Sun (r₁)</value>
+  </data>
+  <data name="Kepler_Stat_Ecc" xml:space="preserve">
+    <value>Eccentricity</value>
+  </data>
+  <data name="Kepler_Stat_Ecc_Value" xml:space="preserve">
+    <value>e = {0}, Sun {1} AU off centre</value>
+  </data>
+  <data name="Kepler_Stat_Laps" xml:space="preserve">
+    <value>Rounds so far</value>
+  </data>
+  <data name="Kepler_Stat_Laps_Value" xml:space="preserve">
+    <value>yours {0}, Earth {1}</value>
+  </data>
+  <data name="Kepler_Stat_OtherFocus" xml:space="preserve">
+    <value>To the other focus (r₂)</value>
+  </data>
+  <data name="Kepler_Stat_Period" xml:space="preserve">
+    <value>One year</value>
+  </data>
+  <data name="Kepler_Stat_Range" xml:space="preserve">
+    <value>Nearest – farthest</value>
+  </data>
+  <data name="Kepler_Stat_Range_Value" xml:space="preserve">
+    <value>{0} – {1} AU</value>
+  </data>
+  <data name="Kepler_Stat_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Kepler_Stat_SpeedRange" xml:space="preserve">
+    <value>Slowest – fastest</value>
+  </data>
+  <data name="Kepler_Stat_SpeedRange_Value" xml:space="preserve">
+    <value>{0:0.0} – {1:0.0} km/s</value>
+  </data>
+  <data name="Kepler_Stat_Speed_Value" xml:space="preserve">
+    <value>{0:0.0} km/s</value>
+  </data>
+  <data name="Kepler_Stat_Sum" xml:space="preserve">
+    <value>r₁ + r₂</value>
+  </data>
+  <data name="Kepler_Stat_Sum_Value" xml:space="preserve">
+    <value>{0} AU, the long axis 2a, always</value>
+  </data>
+  <data name="Kepler_Stat_Swept" xml:space="preserve">
+    <value>Swept so far</value>
+  </data>
+  <data name="Kepler_Stat_Swept_Value" xml:space="preserve">
+    <value>{0:0}% of the area in {0:0}% of the time</value>
+  </data>
+  <data name="Kepler_Stat_YourAxis" xml:space="preserve">
+    <value>Distance (a)</value>
+  </data>
+  <data name="Kepler_Table_A" xml:space="preserve">
+    <value>a (AU)</value>
+  </data>
+  <data name="Kepler_Table_Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="Kepler_Table_Caption" xml:space="preserve">
+    <value>Measured: T² ÷ a³ is 1 for all of them</value>
+  </data>
+  <data name="Kepler_Table_Ratio" xml:space="preserve">
+    <value>T² ÷ a³</value>
+  </data>
+  <data name="Kepler_Table_T" xml:space="preserve">
+    <value>T (years)</value>
+  </data>
+  <data name="Kepler_Timeline_Orbit" xml:space="preserve">
+    <value>Time since perihelion: one round of the orbit</value>
+  </data>
+  <data name="Kepler_Timeline_Years" xml:space="preserve">
+    <value>Years from today</value>
+  </data>
+  <data name="Kepler_Title" xml:space="preserve">
+    <value>Kepler's laws</value>
+  </data>
+  <data name="Kepler_Years" xml:space="preserve">
+    <value>{0} years</value>
+  </data>
+  <data name="Kepler_You_Earth" xml:space="preserve">
+    <value>At Earth's distance its year is Earth's year: the two go round side by side.</value>
+  </data>
+  <data name="Kepler_You_Inner" xml:space="preserve">
+    <value>Closer than Earth: the Sun pulls harder, so it goes faster round a shorter path. Its year is shorter than ours and it laps Earth.</value>
+  </data>
+  <data name="Kepler_You_Outer" xml:space="preserve">
+    <value>Farther than Earth: a longer path at a slower speed, so its year is longer than ours and it falls behind Earth.</value>
+  </data>
+  <data name="Kepler_You_Title" xml:space="preserve">
+    <value>Your planet's year: {0}</value>
+  </data>
+  <data name="Kepler_YourAxis_Caption" xml:space="preserve">
+    <value>Your planet's distance from the Sun</value>
+  </data>
+  <data name="Kepler_YourAxis_Like" xml:space="preserve">
+    <value>Put it where a real one is:</value>
+  </data>
+  <data name="Kepler_YourAxis_Value" xml:space="preserve">
+    <value>{0} AU · {1}</value>
+  </data>
   <data name="Lesson_Close" xml:space="preserve">
     <value>Close</value>
   </data>
@@ -1877,6 +2354,135 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>So a solar eclipse can only happen at new moon. At full moon, it's the Moon's turn to move into Earth's shadow. That's a lunar eclipse.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_01" xml:space="preserve">
+    <value>Kepler's second law is about speed. Imagine a line from the Sun to the planet. As the planet moves, this line sweeps across the orbit, a bit like a windscreen wiper.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_02" xml:space="preserve">
+    <value>The orbit is cut into twelve coloured slices. The planet takes exactly the same time to cross each one: one twelfth of its year.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_03" xml:space="preserve">
+    <value>Compare these two slices. Near the Sun, the slice is short and wide. Far away, it's long and thin. But their areas are exactly the same.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_04" xml:space="preserve">
+    <value>So in the same amount of time, the planet covers much more of its orbit when it's near the Sun. This orange arrow shows its speed. Watch it grow and shrink.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_05" xml:space="preserve">
+    <value>Think about it. Where does the planet move fastest?</value>
+  </data>
+  <data name="Narr_Kepler_Areas_06" xml:space="preserve">
+    <value>Closest to the Sun. That point is called perihelion. The farthest point is aphelion, where the planet is slowest. Earth does this too: in early January it moves about one kilometre per second faster than in early July.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_07" xml:space="preserve">
+    <value>Now you try. Drag the planet around its orbit with the mouse, and watch how its speed changes.</value>
+  </data>
+  <data name="Narr_Kepler_Areas_08" xml:space="preserve">
+    <value>Halley's comet shows this most of all. It rushes past the Sun in a few months, then crawls through the far end of its orbit for decades. That's Kepler's second law: equal areas in equal times.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_01" xml:space="preserve">
+    <value>This loop is an orbit, the path a planet takes around the Sun. Look closely: it isn't a circle. It's an ellipse, a circle that's been stretched.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_02" xml:space="preserve">
+    <value>And the Sun isn't in the middle. It sits off to one side, at a special point called a focus.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_03" xml:space="preserve">
+    <value>An ellipse has two foci. The other one is over here, and it's completely empty. Nothing at all is there.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_04" xml:space="preserve">
+    <value>Now picture a loop of string pinned at both foci, with a pencil pulling it tight. The gold part runs from the Sun to the planet, and the blue part from the planet to the empty focus.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_05" xml:space="preserve">
+    <value>Here the planet is at its closest to the Sun, so the gold part is short. Think about it: what about the blue part?</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_06" xml:space="preserve">
+    <value>It's longer. Wherever the planet goes, the two parts always add up to the same length: the long axis of the ellipse. That's how gardeners mark out an oval flower bed, with two pegs and a loop of rope.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_07" xml:space="preserve">
+    <value>Now you try. Move the orbit shape slider in the panel on the right. Make the orbit rounder, or more stretched, and watch the empty focus move.</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_08" xml:space="preserve">
+    <value>This is Earth's real orbit. It's so close to a circle that you can hardly tell the difference. That's Kepler's first law: every planet moves on an ellipse, with the Sun at one focus.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Aphelion" xml:space="preserve">
+    <value>Aphelion, the point farthest from the Sun. Here the planet moves slowest. Earth passes it in early July.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Center" xml:space="preserve">
+    <value>The centre of the ellipse. Neither focus is here: the Sun sits off to one side.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Circle" xml:space="preserve">
+    <value>A circle of the same size, to compare. The more the orbit is stretched, the further it strays from this circle.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Earth" xml:space="preserve">
+    <value>Earth, our home. One trip round the Sun is one year, about three hundred and sixty-five days.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_EqualAreas" xml:space="preserve">
+    <value>Each coloured slice takes the same time and has the same area. That's Kepler's second law.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_FocalDistance" xml:space="preserve">
+    <value>This is how far the Sun sits from the centre. Divide it by half the long axis and you get the eccentricity: zero for a circle, and close to one for a very stretched orbit.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Jupiter" xml:space="preserve">
+    <value>Jupiter, about five times as far from the Sun as Earth. It takes almost twelve years to go round once.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_MajorAxis" xml:space="preserve">
+    <value>The long axis of the ellipse, from one end to the other. Half of it is the planet's average distance from the Sun, and that sets how long its year is.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Mars" xml:space="preserve">
+    <value>Mars, about one and a half times as far from the Sun as Earth. Its year is almost two of ours.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Mercury" xml:space="preserve">
+    <value>Mercury, the closest planet to the Sun. It goes round in just eighty-eight days, faster than any other planet.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_OtherFocus" xml:space="preserve">
+    <value>The other focus. Nothing is here at all, no star and no planet. It's just a point that belongs to the shape of the ellipse.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Perihelion" xml:space="preserve">
+    <value>Perihelion, the point of the orbit closest to the Sun. Here the planet moves fastest. Earth passes it in early January.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Planet" xml:space="preserve">
+    <value>The body going round the Sun. You can drag it along its orbit with the mouse.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Saturn" xml:space="preserve">
+    <value>Saturn, nearly ten times as far from the Sun as Earth. It goes round once in about twenty-nine and a half years.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Scale" xml:space="preserve">
+    <value>The scale bar. One astronomical unit is the distance from Earth to the Sun, about a hundred and fifty million kilometres.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_String" xml:space="preserve">
+    <value>The string. One part runs from the Sun to the planet, the other from the planet to the empty focus. As one grows, the other shrinks, but together they always make the same length.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Sun" xml:space="preserve">
+    <value>The Sun. Its gravity keeps every planet on its orbit. Notice that it isn't at the centre of an orbit, but at one of its two foci.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Velocity" xml:space="preserve">
+    <value>The planet's speed right now, in kilometres per second. The arrow points the way it's going.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Venus" xml:space="preserve">
+    <value>Venus, the second planet. Its year is about two hundred and twenty-five days, and its orbit is almost a perfect circle.</value>
+  </data>
+  <data name="Narr_Kepler_Obj_You" xml:space="preserve">
+    <value>Your planet. Drag it nearer to the Sun or farther away, and its year changes to follow Kepler's third law.</value>
+  </data>
+  <data name="Narr_Kepler_Periods_01" xml:space="preserve">
+    <value>Now let's compare planets. Here are the planets out to Saturn, seen from above, at their real places today. Earth goes round once in one year.</value>
+  </data>
+  <data name="Narr_Kepler_Periods_02" xml:space="preserve">
+    <value>Mercury, closest to the Sun, needs only eighty-eight days. The farther out, the longer the year: Mars takes almost two years, and Jupiter almost twelve.</value>
+  </data>
+  <data name="Narr_Kepler_Periods_03" xml:space="preserve">
+    <value>This green dot is a planet of your own. It started out in line with Earth, but it's farther from the Sun, so it slowly falls behind.</value>
+  </data>
+  <data name="Narr_Kepler_Periods_04" xml:space="preserve">
+    <value>Think about it. If your planet were four times as far from the Sun as Earth, how long would its year be?</value>
+  </data>
+  <data name="Narr_Kepler_Periods_05" xml:space="preserve">
+    <value>Eight years. Kepler found that the year, squared, equals the distance, cubed. Four cubed is sixty-four, and eight squared is sixty-four too. Planets farther out have a longer way to go, and they also move more slowly.</value>
+  </data>
+  <data name="Narr_Kepler_Periods_06" xml:space="preserve">
+    <value>Now you try. Drag your planet nearer to the Sun or farther away, and see how long its year becomes.</value>
+  </data>
+  <data name="Narr_Kepler_Periods_07" xml:space="preserve">
+    <value>This rule works for every planet. Later, Isaac Newton showed where it comes from: the Sun's gravity gets weaker the farther away you are. The table in the panel checks it for each planet.</value>
   </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>From one new moon to the next takes twenty-nine and a half days. But the Moon only needs about twenty-seven days to go once around Earth. So where do the extra two days come from?</value>

@@ -1053,6 +1053,483 @@
   <data name="HowTo_Turn" xml:space="preserve">
     <value>翻页：拖动书页外侧的边缘，或者点一下它，也可以按键盘上的左右方向键。</value>
   </data>
+  <data name="Kepler_Areas_Fact1" xml:space="preserve">
+    <value>开普勒其实先发现了这条定律（1609 年），那时他还不知道轨道是椭圆。</value>
+  </data>
+  <data name="Kepler_Areas_Fact2" xml:space="preserve">
+    <value>面积相等意味着角动量守恒：距离减半，横向速度就加倍。花样滑冰运动员收拢手臂会转得更快，也是同一个道理。</value>
+  </data>
+  <data name="Kepler_Areas_Fact3" xml:space="preserve">
+    <value>地球在 1 月初最快（30.3 千米/秒），7 月初最慢（29.3 千米/秒）。</value>
+  </data>
+  <data name="Kepler_Areas_Fact4" xml:space="preserve">
+    <value>所以从春分到秋分的北半球夏半年，比冬半年长了大约 7 天。</value>
+  </data>
+  <data name="Kepler_Areas_Fact5" xml:space="preserve">
+    <value>哈雷彗星以约 55 千米/秒的速度掠过太阳，到了远处却慢到不足 1 千米/秒，75 年中的大部分时间都在那里慢慢挪动。</value>
+  </data>
+  <data name="Kepler_Areas_Note" xml:space="preserve">
+    <value>每一块彩色扇形用的时间相同：靠近太阳的又短又宽，远离太阳的又长又窄，但面积都一样。未按比例。</value>
+  </data>
+  <data name="Kepler_Areas_Subtitle" xml:space="preserve">
+    <value>第二定律：太阳到行星的连线，在相等的时间内扫过相等的面积</value>
+  </data>
+  <data name="Kepler_Body_Caption" xml:space="preserve">
+    <value>看谁的轨道</value>
+  </data>
+  <data name="Kepler_Body_Ceres" xml:space="preserve">
+    <value>谷神星</value>
+  </data>
+  <data name="Kepler_Body_Custom" xml:space="preserve">
+    <value>示例轨道</value>
+  </data>
+  <data name="Kepler_Body_Halley" xml:space="preserve">
+    <value>哈雷彗星</value>
+  </data>
+  <data name="Kepler_Body_Pluto" xml:space="preserve">
+    <value>冥王星</value>
+  </data>
+  <data name="Kepler_Chart_Aphelion" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Kepler_Chart_AxisAu" xml:space="preserve">
+    <value>距离 a（AU）</value>
+  </data>
+  <data name="Kepler_Chart_AxisYears" xml:space="preserve">
+    <value>周期 T（地球年）</value>
+  </data>
+  <data name="Kepler_Chart_Distance" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="Kepler_Chart_Kms" xml:space="preserve">
+    <value>千米/秒</value>
+  </data>
+  <data name="Kepler_Chart_Law" xml:space="preserve">
+    <value>T² = a³</value>
+  </data>
+  <data name="Kepler_Chart_Perihelion" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Kepler_Chart_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Kepler_Clock_Orbit" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="Kepler_Days" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Kepler_Distance" xml:space="preserve">
+    <value>{0} AU（约 {1}）</value>
+  </data>
+  <data name="Kepler_DragHint_Orbit" xml:space="preserve">
+    <value>拖动可以把行星移到轨道上任意位置</value>
+  </data>
+  <data name="Kepler_DragHint_You" xml:space="preserve">
+    <value>拖动可以让你的行星离太阳更近或更远</value>
+  </data>
+  <data name="Kepler_Earth_Aphelion" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Kepler_Earth_Caption" xml:space="preserve">
+    <value>地球即将到来的近日点和远日点</value>
+  </data>
+  <data name="Kepler_Earth_Note" xml:space="preserve">
+    <value>由地球轨道推算，误差一两天。北半球冬天时地球离太阳最近：四季来自地轴的倾斜，而不是距离。</value>
+  </data>
+  <data name="Kepler_Earth_Perihelion" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Kepler_Earth_When" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Kepler_Ecc_Caption" xml:space="preserve">
+    <value>离心率衡量什么</value>
+  </data>
+  <data name="Kepler_Ecc_Circle" xml:space="preserve">
+    <value>0：圆</value>
+  </data>
+  <data name="Kepler_Ecc_Formula" xml:space="preserve">
+    <value>e = c / a = {0}</value>
+  </data>
+  <data name="Kepler_Ecc_Note" xml:space="preserve">
+    <value>c 是太阳到椭圆中心的距离，a 是长轴的一半。行星都在 0 附近：它们的轨道几乎是圆，只是太阳稍稍偏离了中心。拖动滑块会改变示例轨道的形状。</value>
+  </data>
+  <data name="Kepler_Ecc_Open" xml:space="preserve">
+    <value>1：一去不回</value>
+  </data>
+  <data name="Kepler_Ecc_Slider" xml:space="preserve">
+    <value>离心率：有多扁</value>
+  </data>
+  <data name="Kepler_Ecc_Value" xml:space="preserve">
+    <value>e = {0}</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact1" xml:space="preserve">
+    <value>开普勒在 1609 年根据第谷对火星的观测发现了椭圆：圆形轨道与观测差了 8 角分（约月亮直径的四分之一），他不肯放过这点误差。</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact2" xml:space="preserve">
+    <value>地球轨道几乎是圆（e = 0.017）：它离太阳的距离只在 1.471 亿到 1.521 亿公里之间变化。</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact3" xml:space="preserve">
+    <value>太阳在一个焦点上，另一个焦点只是太空中空无一物的一点，椭圆的中心也是空的。</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact4" xml:space="preserve">
+    <value>牛顿在 1687 年解释了原因：与距离平方成反比的引力会形成椭圆；速度快到能逃逸的物体则走上一去不回的开放曲线。</value>
+  </data>
+  <data name="Kepler_Ellipse_Fact5" xml:space="preserve">
+    <value>哈雷彗星（e = 0.967）从金星轨道以内一直跑到海王星轨道之外。它上次靠近太阳是 1986 年，下次回来是 2061 年。</value>
+  </data>
+  <data name="Kepler_Ellipse_Note" xml:space="preserve">
+    <value>就像用两枚图钉和一根绳子画椭圆：绳子的两段加起来总是一样长。未按比例：太阳和行星画得大多了。</value>
+  </data>
+  <data name="Kepler_Ellipse_Subtitle" xml:space="preserve">
+    <value>第一定律：行星沿椭圆轨道绕太阳运行，太阳在椭圆的一个焦点上</value>
+  </data>
+  <data name="Kepler_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Kepler_JumpTo" xml:space="preserve">
+    <value>跳转到</value>
+  </data>
+  <data name="Kepler_Jump_Aphelion" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Kepler_Jump_Perihelion" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Kepler_Jump_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Kepler_Km" xml:space="preserve">
+    <value>{0:0.00} 亿公里</value>
+  </data>
+  <data name="Kepler_Km_Unit" xml:space="preserve">
+    <value>100000000</value>
+  </data>
+  <data name="Kepler_Label_Aphelion" xml:space="preserve">
+    <value>远日点 {0} AU</value>
+  </data>
+  <data name="Kepler_Label_AphelionSpeed" xml:space="preserve">
+    <value>远日点：最慢 {0} 千米/秒</value>
+  </data>
+  <data name="Kepler_Label_Circle" xml:space="preserve">
+    <value>同样大小的圆</value>
+  </data>
+  <data name="Kepler_Label_EqualAreas" xml:space="preserve">
+    <value>{0} 块，每块 {1}：面积全都相等</value>
+  </data>
+  <data name="Kepler_Label_MajorAxis" xml:space="preserve">
+    <value>长轴 2a = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_OtherFocus" xml:space="preserve">
+    <value>另一个焦点（空的）</value>
+  </data>
+  <data name="Kepler_Label_Perihelion" xml:space="preserve">
+    <value>近日点 {0} AU</value>
+  </data>
+  <data name="Kepler_Label_PerihelionSpeed" xml:space="preserve">
+    <value>近日点：最快 {0} 千米/秒</value>
+  </data>
+  <data name="Kepler_Label_PlanetYear" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Kepler_Label_R1" xml:space="preserve">
+    <value>r₁ = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_R2" xml:space="preserve">
+    <value>r₂ = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_ScaleAu" xml:space="preserve">
+    <value>{0} AU</value>
+  </data>
+  <data name="Kepler_Label_Speed" xml:space="preserve">
+    <value>{0} 千米/秒</value>
+  </data>
+  <data name="Kepler_Label_StringSum" xml:space="preserve">
+    <value>r₁ + r₂ = 长轴 2a = {0} AU</value>
+  </data>
+  <data name="Kepler_Label_SunFocus" xml:space="preserve">
+    <value>太阳在焦点上</value>
+  </data>
+  <data name="Kepler_Label_You" xml:space="preserve">
+    <value>你的行星 · {0} AU · 一年 {1}</value>
+  </data>
+  <data name="Kepler_Lesson_Areas_Choice1" xml:space="preserve">
+    <value>离太阳最近的地方</value>
+  </data>
+  <data name="Kepler_Lesson_Areas_Choice2" xml:space="preserve">
+    <value>离太阳最远的地方</value>
+  </data>
+  <data name="Kepler_Lesson_Areas_Choice3" xml:space="preserve">
+    <value>哪里都一样</value>
+  </data>
+  <data name="Kepler_Lesson_Ellipse_Choice1" xml:space="preserve">
+    <value>变长了</value>
+  </data>
+  <data name="Kepler_Lesson_Ellipse_Choice2" xml:space="preserve">
+    <value>也变短了</value>
+  </data>
+  <data name="Kepler_Lesson_Ellipse_Choice3" xml:space="preserve">
+    <value>一样长</value>
+  </data>
+  <data name="Kepler_Lesson_Periods_Choice1" xml:space="preserve">
+    <value>8 年</value>
+  </data>
+  <data name="Kepler_Lesson_Periods_Choice2" xml:space="preserve">
+    <value>4 年</value>
+  </data>
+  <data name="Kepler_Lesson_Periods_Choice3" xml:space="preserve">
+    <value>16 年</value>
+  </data>
+  <data name="Kepler_Mode_Areas" xml:space="preserve">
+    <value>面积定律</value>
+  </data>
+  <data name="Kepler_Mode_Ellipse" xml:space="preserve">
+    <value>椭圆轨道</value>
+  </data>
+  <data name="Kepler_Mode_Periods" xml:space="preserve">
+    <value>周期定律</value>
+  </data>
+  <data name="Kepler_Obj_Aphelion" xml:space="preserve">
+    <value>远日点</value>
+  </data>
+  <data name="Kepler_Obj_Center" xml:space="preserve">
+    <value>椭圆的中心</value>
+  </data>
+  <data name="Kepler_Obj_Circle" xml:space="preserve">
+    <value>对比用的圆</value>
+  </data>
+  <data name="Kepler_Obj_EqualAreas" xml:space="preserve">
+    <value>面积相等</value>
+  </data>
+  <data name="Kepler_Obj_FocalDistance" xml:space="preserve">
+    <value>焦点到中心</value>
+  </data>
+  <data name="Kepler_Obj_MajorAxis" xml:space="preserve">
+    <value>长轴</value>
+  </data>
+  <data name="Kepler_Obj_OtherFocus" xml:space="preserve">
+    <value>空焦点</value>
+  </data>
+  <data name="Kepler_Obj_Perihelion" xml:space="preserve">
+    <value>近日点</value>
+  </data>
+  <data name="Kepler_Obj_Planet" xml:space="preserve">
+    <value>运行的天体</value>
+  </data>
+  <data name="Kepler_Obj_Scale" xml:space="preserve">
+    <value>比例尺</value>
+  </data>
+  <data name="Kepler_Obj_String" xml:space="preserve">
+    <value>绳子</value>
+  </data>
+  <data name="Kepler_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Kepler_Obj_Velocity" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Kepler_Obj_You" xml:space="preserve">
+    <value>你的行星</value>
+  </data>
+  <data name="Kepler_OpenSolarSystem" xml:space="preserve">
+    <value>去太阳系看看行星</value>
+  </data>
+  <data name="Kepler_PeriodChart_Caption" xml:space="preserve">
+    <value>周期与距离（对数坐标）</value>
+  </data>
+  <data name="Kepler_PeriodChart_Note" xml:space="preserve">
+    <value>在对数坐标上，T² = a³ 是一条直线：横向走 2 格，纵向升 3 格。所有行星、矮行星和哈雷彗星都落在这条线上：绕太阳运行的一切都遵守同一条规律。</value>
+  </data>
+  <data name="Kepler_Periods_Fact1" xml:space="preserve">
+    <value>开普勒在 1619 年的《世界的和谐》中发表了第三定律，比前两条晚了十年。</value>
+  </data>
+  <data name="Kepler_Periods_Fact2" xml:space="preserve">
+    <value>距离加倍，一年就变成 2.8 倍：路程长了一倍，速度又慢了 1.4 倍。</value>
+  </data>
+  <data name="Kepler_Periods_Fact3" xml:space="preserve">
+    <value>海王星绕太阳一圈要 165 年：它在 1846 年被发现，直到 2011 年才走完被发现后的第一圈。</value>
+  </data>
+  <data name="Kepler_Periods_Fact4" xml:space="preserve">
+    <value>牛顿的形式里包含中心天体的质量，所以卫星的轨道可以称出行星的质量：木星的质量就是这样得到的。</value>
+  </data>
+  <data name="Kepler_Periods_Fact5" xml:space="preserve">
+    <value>人造卫星也一样：在距地心 42,164 公里处绕一圈要 23 小时 56 分，正好等于地球自转一周的时间，所以地球静止卫星总是停在同一地点的上空。</value>
+  </data>
+  <data name="Kepler_Periods_Note" xml:space="preserve">
+    <value>距离按比例：行星在今天的真实位置，从太阳北极上方俯视。视图会自动缩放，让你的行星留在画面里；行星画得大多了。</value>
+  </data>
+  <data name="Kepler_Periods_Subtitle" xml:space="preserve">
+    <value>第三定律：公转周期的平方与轨道半长轴的立方成正比</value>
+  </data>
+  <data name="Kepler_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格键）</value>
+  </data>
+  <data name="Kepler_Sectors_Caption" xml:space="preserve">
+    <value>把一圈分成几段</value>
+  </data>
+  <data name="Kepler_ShowCircle" xml:space="preserve">
+    <value>和圆对比</value>
+  </data>
+  <data name="Kepler_ShowString" xml:space="preserve">
+    <value>图钉和绳子</value>
+  </data>
+  <data name="Kepler_ShowVelocity" xml:space="preserve">
+    <value>速度箭头</value>
+  </data>
+  <data name="Kepler_Speed_Caption" xml:space="preserve">
+    <value>一圈中的速度和距离</value>
+  </data>
+  <data name="Kepler_Speed_Note" xml:space="preserve">
+    <value>距离最小的地方速度最大，反过来也一样：距离乘以横向速度始终不变。</value>
+  </data>
+  <data name="Kepler_Stage_Aphelion" xml:space="preserve">
+    <value>远日点附近：最远，也最慢</value>
+  </data>
+  <data name="Kepler_Stage_Aphelion_Description" xml:space="preserve">
+    <value>离太阳最远，速度最慢。但它不会停下：仍在横向运动的它开始往太阳落回去。</value>
+  </data>
+  <data name="Kepler_Stage_Approaching" xml:space="preserve">
+    <value>落向太阳：越走越快</value>
+  </data>
+  <data name="Kepler_Stage_Approaching_Description" xml:space="preserve">
+    <value>朝太阳落回去时，引力让它不断加速，一直到近日点。</value>
+  </data>
+  <data name="Kepler_Stage_Circle" xml:space="preserve">
+    <value>圆轨道：速度始终不变</value>
+  </data>
+  <data name="Kepler_Stage_Circle_Description" xml:space="preserve">
+    <value>在圆轨道上距离从不改变，速度也就不变：相等的面积就是相等的弧长。</value>
+  </data>
+  <data name="Kepler_Stage_Perihelion" xml:space="preserve">
+    <value>近日点附近：最近，也最快</value>
+  </data>
+  <data name="Kepler_Stage_Perihelion_Description" xml:space="preserve">
+    <value>这里太阳的引力最强，行星跑得最快。它绕过太阳，又开始向外远离。</value>
+  </data>
+  <data name="Kepler_Stage_Receding" xml:space="preserve">
+    <value>远离太阳：越走越慢</value>
+  </data>
+  <data name="Kepler_Stage_Receding_Description" xml:space="preserve">
+    <value>行星向外爬升时，太阳一直往回拉它，所以它越走越慢，就像向上抛出的球。</value>
+  </data>
+  <data name="Kepler_Stat_AverageSpeed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Kepler_Stat_AverageSpeed_Value" xml:space="preserve">
+    <value>{0:0.0} 千米/秒（地球 29.8）</value>
+  </data>
+  <data name="Kepler_Stat_Body" xml:space="preserve">
+    <value>天体</value>
+  </data>
+  <data name="Kepler_Stat_Check" xml:space="preserve">
+    <value>T² ÷ a³</value>
+  </data>
+  <data name="Kepler_Stat_Check_Value" xml:space="preserve">
+    <value>{0}² ÷ {1}³ = 1</value>
+  </data>
+  <data name="Kepler_Stat_Distance" xml:space="preserve">
+    <value>到太阳（r₁）</value>
+  </data>
+  <data name="Kepler_Stat_Ecc" xml:space="preserve">
+    <value>离心率</value>
+  </data>
+  <data name="Kepler_Stat_Ecc_Value" xml:space="preserve">
+    <value>e = {0}，太阳偏离中心 {1} AU</value>
+  </data>
+  <data name="Kepler_Stat_Laps" xml:space="preserve">
+    <value>已绕圈数</value>
+  </data>
+  <data name="Kepler_Stat_Laps_Value" xml:space="preserve">
+    <value>你的 {0} 圈，地球 {1} 圈</value>
+  </data>
+  <data name="Kepler_Stat_OtherFocus" xml:space="preserve">
+    <value>到另一个焦点（r₂）</value>
+  </data>
+  <data name="Kepler_Stat_Period" xml:space="preserve">
+    <value>一年</value>
+  </data>
+  <data name="Kepler_Stat_Range" xml:space="preserve">
+    <value>最近 – 最远</value>
+  </data>
+  <data name="Kepler_Stat_Range_Value" xml:space="preserve">
+    <value>{0} – {1} AU</value>
+  </data>
+  <data name="Kepler_Stat_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Kepler_Stat_SpeedRange" xml:space="preserve">
+    <value>最慢 – 最快</value>
+  </data>
+  <data name="Kepler_Stat_SpeedRange_Value" xml:space="preserve">
+    <value>{0:0.0} – {1:0.0} 千米/秒</value>
+  </data>
+  <data name="Kepler_Stat_Speed_Value" xml:space="preserve">
+    <value>{0:0.0} 千米/秒</value>
+  </data>
+  <data name="Kepler_Stat_Sum" xml:space="preserve">
+    <value>r₁ + r₂</value>
+  </data>
+  <data name="Kepler_Stat_Sum_Value" xml:space="preserve">
+    <value>{0} AU，始终等于长轴 2a</value>
+  </data>
+  <data name="Kepler_Stat_Swept" xml:space="preserve">
+    <value>已扫过</value>
+  </data>
+  <data name="Kepler_Stat_Swept_Value" xml:space="preserve">
+    <value>{0:0}% 的时间，{0:0}% 的面积</value>
+  </data>
+  <data name="Kepler_Stat_YourAxis" xml:space="preserve">
+    <value>距离（a）</value>
+  </data>
+  <data name="Kepler_Table_A" xml:space="preserve">
+    <value>a（AU）</value>
+  </data>
+  <data name="Kepler_Table_Body" xml:space="preserve">
+    <value>天体</value>
+  </data>
+  <data name="Kepler_Table_Caption" xml:space="preserve">
+    <value>实测：所有天体的 T² ÷ a³ 都等于 1</value>
+  </data>
+  <data name="Kepler_Table_Ratio" xml:space="preserve">
+    <value>T² ÷ a³</value>
+  </data>
+  <data name="Kepler_Table_T" xml:space="preserve">
+    <value>T（年）</value>
+  </data>
+  <data name="Kepler_Timeline_Orbit" xml:space="preserve">
+    <value>从近日点算起的时间：绕轨道一圈</value>
+  </data>
+  <data name="Kepler_Timeline_Years" xml:space="preserve">
+    <value>从今天起的年数</value>
+  </data>
+  <data name="Kepler_Title" xml:space="preserve">
+    <value>开普勒定律</value>
+  </data>
+  <data name="Kepler_Years" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="Kepler_You_Earth" xml:space="preserve">
+    <value>和地球一样远，它的一年就是地球的一年：两颗行星并肩绕行。</value>
+  </data>
+  <data name="Kepler_You_Inner" xml:space="preserve">
+    <value>比地球近：太阳的引力更强，它在更短的路上跑得更快。它的一年比我们短，会一圈圈超过地球。</value>
+  </data>
+  <data name="Kepler_You_Outer" xml:space="preserve">
+    <value>比地球远：路更长，速度更慢，所以它的一年比我们长，会被地球甩在后面。</value>
+  </data>
+  <data name="Kepler_You_Title" xml:space="preserve">
+    <value>你的行星的一年：{0}</value>
+  </data>
+  <data name="Kepler_YourAxis_Caption" xml:space="preserve">
+    <value>你的行星离太阳多远</value>
+  </data>
+  <data name="Kepler_YourAxis_Like" xml:space="preserve">
+    <value>放到真实天体的位置：</value>
+  </data>
+  <data name="Kepler_YourAxis_Value" xml:space="preserve">
+    <value>{0} AU · {1}</value>
+  </data>
   <data name="Lesson_Close" xml:space="preserve">
     <value>关闭</value>
   </data>
@@ -1877,6 +2354,135 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>所以，日食只会发生在新月的时候。到了满月，就轮到月球走进地球的影子里了，那就是月食。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_01" xml:space="preserve">
+    <value>开普勒第二定律讲的是速度。想象从太阳到行星连一条线。行星往前走，这条线就像汽车的雨刷一样，在轨道里扫过去。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_02" xml:space="preserve">
+    <value>轨道被分成了十二块彩色的扇形。行星走过每一块，用的时间都一样，都是它一年的十二分之一。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_03" xml:space="preserve">
+    <value>比较一下这两块。靠近太阳的这块又短又宽，远处的那块又长又窄，可它们的面积完全一样。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_04" xml:space="preserve">
+    <value>所以，在同样长的时间里，行星靠近太阳的时候，走过的路要长得多。这个橙色箭头表示它的速度，看它怎么变长、又变短。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_05" xml:space="preserve">
+    <value>想一想：行星在哪里跑得最快？</value>
+  </data>
+  <data name="Narr_Kepler_Areas_06" xml:space="preserve">
+    <value>离太阳最近的地方。这一点叫近日点；最远的一点叫远日点，行星在那里跑得最慢。地球也是这样：一月初比七月初，每秒大约要快一千米。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_07" xml:space="preserve">
+    <value>现在你来试试：用鼠标拖着行星沿轨道走，看看它的速度怎么变。</value>
+  </data>
+  <data name="Narr_Kepler_Areas_08" xml:space="preserve">
+    <value>哈雷彗星最能说明这一点。它几个月就从太阳旁边冲过去，然后在轨道的远端慢慢爬上几十年。这就是开普勒第二定律：相等的时间，扫过相等的面积。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_01" xml:space="preserve">
+    <value>这个圈就是轨道，也就是行星绕着太阳走的路。仔细看，它不是圆，而是椭圆，就像一个被拉长了的圆。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_02" xml:space="preserve">
+    <value>而且太阳并不在正中间。它偏在一边，待在一个叫做焦点的特殊位置上。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_03" xml:space="preserve">
+    <value>椭圆有两个焦点。另一个在这里，它是空的，那里什么都没有。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_04" xml:space="preserve">
+    <value>现在想象一下：把一根绳子的两头钉在两个焦点上，再用一支笔把绳子绷紧。金色的一段从太阳连到行星，蓝色的一段从行星连到空焦点。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_05" xml:space="preserve">
+    <value>现在行星离太阳最近，所以金色这段很短。想一想：蓝色那段会怎么样？</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_06" xml:space="preserve">
+    <value>变长了。不管行星走到哪里，两段加起来总是一样长，正好等于椭圆的长轴。园丁画椭圆形的花坛，用的就是两根木桩加一圈绳子。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_07" xml:space="preserve">
+    <value>现在你来试试：拖动右边面板里的轨道形状滑块，让轨道变圆一点，或者更扁一点，看看空焦点怎么移动。</value>
+  </data>
+  <data name="Narr_Kepler_Ellipse_08" xml:space="preserve">
+    <value>这是地球真实的轨道。它太接近圆了，几乎看不出区别。这就是开普勒第一定律：每颗行星都沿着椭圆轨道运行，太阳就在椭圆的一个焦点上。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Aphelion" xml:space="preserve">
+    <value>远日点，轨道上离太阳最远的地方。行星在这里跑得最慢。地球每年七月初经过远日点。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Center" xml:space="preserve">
+    <value>这是椭圆的中心。两个焦点都不在这里，太阳偏在一边。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Circle" xml:space="preserve">
+    <value>一个同样大小的圆，用来对比。轨道拉得越扁，就离这个圆越远。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Earth" xml:space="preserve">
+    <value>地球，我们的家。绕太阳一圈就是一年，大约三百六十五天。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_EqualAreas" xml:space="preserve">
+    <value>每一块彩色的扇形，用的时间一样，面积也一样。这就是开普勒第二定律。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_FocalDistance" xml:space="preserve">
+    <value>这一段是太阳到椭圆中心的距离。用它除以长轴的一半，就得到偏心率：圆是零，轨道越扁，就越接近一。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Jupiter" xml:space="preserve">
+    <value>木星，离太阳的距离大约是地球的五倍。它绕一圈要将近十二年。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_MajorAxis" xml:space="preserve">
+    <value>椭圆的长轴，从一头到另一头。长轴的一半，就是行星到太阳的平均距离，它决定了这颗行星的一年有多长。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Mars" xml:space="preserve">
+    <value>火星，离太阳的距离大约是地球的一点五倍。它的一年，差不多是我们的两年。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Mercury" xml:space="preserve">
+    <value>水星，离太阳最近的行星。它绕太阳一圈只要八十八天，比哪颗行星都快。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_OtherFocus" xml:space="preserve">
+    <value>另一个焦点。这里什么都没有，没有恒星，也没有行星。它只是椭圆这个形状本身的一个点。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Perihelion" xml:space="preserve">
+    <value>近日点，轨道上离太阳最近的地方。行星在这里跑得最快。地球每年一月初经过近日点。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Planet" xml:space="preserve">
+    <value>这是绕着太阳运行的天体。你可以用鼠标拖着它沿轨道走。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Saturn" xml:space="preserve">
+    <value>土星，离太阳的距离差不多是地球的十倍。它大约要二十九年半才绕一圈。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Scale" xml:space="preserve">
+    <value>比例尺。一个天文单位，就是地球到太阳的距离，大约一亿五千万千米。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_String" xml:space="preserve">
+    <value>这根绳子：一段从太阳连到行星，另一段从行星连到空焦点。一段变长，另一段就变短，但两段加起来总是一样长。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Sun" xml:space="preserve">
+    <value>太阳。正是它的引力，让每颗行星都留在自己的轨道上。注意，它不在轨道的正中间，而是在两个焦点中的一个上。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Velocity" xml:space="preserve">
+    <value>行星此刻的速度，单位是千米每秒。箭头指向它前进的方向。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_Venus" xml:space="preserve">
+    <value>金星，第二颗行星。它的一年大约是二百二十五天，轨道几乎是一个正圆。</value>
+  </data>
+  <data name="Narr_Kepler_Obj_You" xml:space="preserve">
+    <value>这是你的行星。把它拖近或者拖远，它的一年就会按照开普勒第三定律跟着变。</value>
+  </data>
+  <data name="Narr_Kepler_Periods_01" xml:space="preserve">
+    <value>现在来比较不同的行星。这是从上往下看的太阳系，一直到土星，每颗行星都在它今天真实的位置上。地球绕一圈，就是一年。</value>
+  </data>
+  <data name="Narr_Kepler_Periods_02" xml:space="preserve">
+    <value>离太阳最近的水星，只要八十八天。越往外，一年就越长：火星差不多要两年，木星将近十二年。</value>
+  </data>
+  <data name="Narr_Kepler_Periods_03" xml:space="preserve">
+    <value>这个绿色的点，是一颗属于你的行星。它一开始和地球排在一条线上，但它离太阳更远，所以慢慢就落在了后面。</value>
+  </data>
+  <data name="Narr_Kepler_Periods_04" xml:space="preserve">
+    <value>想一想：如果你的行星离太阳的距离是地球的四倍，它的一年有多长？</value>
+  </data>
+  <data name="Narr_Kepler_Periods_05" xml:space="preserve">
+    <value>答案是八年。开普勒发现：一年时间的平方，等于距离的立方。四的立方是六十四，八的平方也是六十四。远处的行星不光要走的路更长，走得也更慢。</value>
+  </data>
+  <data name="Narr_Kepler_Periods_06" xml:space="preserve">
+    <value>现在你来试试：把你的行星往太阳拖近一点，或者拖远一点，看看它的一年变成多长。</value>
+  </data>
+  <data name="Narr_Kepler_Periods_07" xml:space="preserve">
+    <value>这条规律对每颗行星都成立。后来，牛顿找到了它背后的原因：离太阳越远，太阳的引力就越弱。右边面板里的表格，可以一颗一颗地验证它。</value>
   </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>从一个新月到下一个新月，要二十九天半。可是月亮绕地球转一圈，其实只要二十七天多。多出来的两天，是从哪里来的呢？</value>

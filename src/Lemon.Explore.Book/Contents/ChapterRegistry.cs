@@ -1,5 +1,6 @@
 using Lemon.Explore.Book.Chapters.DayNight;
 using Lemon.Explore.Book.Chapters.Eclipses;
+using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Seasons;
 using Lemon.Explore.Book.Chapters.SolarSystem;
@@ -15,7 +16,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -62,6 +63,13 @@ public static class ChapterRegistry
                 var tides = new TidesViewModel(navigator, services.Location, services.Narration);
                 return (new TidesTextPageViewModel(textPage, navigator, chapter, number, tides),
                     new TidesDiagramPageViewModel(textPage + 1, navigator, chapter, tides));
+            }
+
+            case "Kepler":
+            {
+                var kepler = new KeplerViewModel(navigator, services.Narration);
+                return (new KeplerTextPageViewModel(textPage, navigator, chapter, number, kepler),
+                    new KeplerDiagramPageViewModel(textPage + 1, navigator, chapter, kepler));
             }
 
             default:

@@ -12,6 +12,7 @@
              xmlns:moon="using:Lemon.Explore.Book.Chapters.MoonPhases"
              xmlns:daynight="using:Lemon.Explore.Book.Chapters.DayNight"
              xmlns:tides="using:Lemon.Explore.Book.Chapters.Tides"
+             xmlns:kepler="using:Lemon.Explore.Book.Chapters.Kepler"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -33,6 +34,8 @@
         <DataTemplate DataType="daynight:DayNightDiagramPageViewModel"><daynight:DayNightDiagramPageView /></DataTemplate>
         <DataTemplate DataType="tides:TidesTextPageViewModel"><tides:TidesTextPageView /></DataTemplate>
         <DataTemplate DataType="tides:TidesDiagramPageViewModel"><tides:TidesDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="kepler:KeplerTextPageViewModel"><kepler:KeplerTextPageView /></DataTemplate>
+        <DataTemplate DataType="kepler:KeplerDiagramPageViewModel"><kepler:KeplerDiagramPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsTextPageViewModel"><seasons:SeasonsTextPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsDiagramPageViewModel"><seasons:SeasonsDiagramPageView /></DataTemplate>
 

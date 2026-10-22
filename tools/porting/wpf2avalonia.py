@@ -224,6 +224,12 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"SolarSystemCanvas\.SpinAngle\(([\w.]+), ", r"\1.SpinAngle(", s)
     s = s.replace("SweepDirection.Counterclockwise", "SweepDirection.CounterClockwise")
     s = s.replace("FillRule.Nonzero", "FillRule.NonZero")
+    # A two-colour gradient between two points of the drawing (WPF's absolute mapping).
+    arg = r"((?:[^,()]|\([^()]*\))+)"
+    s = re.sub(rf"new LinearGradientBrush\({arg}, {arg}, 0\)\s*\{{\s*MappingMode = BrushMappingMode\.Absolute,\s*"
+               rf"StartPoint = {arg},\s*EndPoint = {arg},\s*\}}",
+               r"new ImmutableLinearGradientBrush([new ImmutableGradientStop(0, \1), new ImmutableGradientStop(1, \2)], "
+               r"startPoint: new RelativePoint(\3, RelativeUnit.Absolute), endPoint: new RelativePoint(\4, RelativeUnit.Absolute))", s)
     # Premultiplied BGRA bitmaps written from a uint[] of pixels.
     s = re.sub(r"new WriteableBitmap\(([^,]+), ([^,]+), 96, 96, PixelFormats\.Pbgra32, null\)",
                r"new WriteableBitmap(new PixelSize(\1, \2), new Vector(96, 96), PixelFormat.Bgra8888, AlphaFormat.Premul)", s)
@@ -432,13 +438,21 @@ def convert_points(s: str) -> str:
     return s
 
 
-LEFT_FOR_HAND = ("System.Windows.", "DependencyProperty", "Freeze(", "GradientBrush(", "MouseButton", "CompositionTarget",
-                 "WritePixels", "PathGeometry", "PathFigure", "new Pen(", "SolidColorBrush(", "TextElement", "FormattedText(",
-                 "Cursors.", "OnRender(", "RoutedEventArgs", "MappingMode", "Geometry.Empty")
+LEFT_FOR_HAND = ("DependencyProperty", "Freeze(", "MouseButton", "CompositionTarget", "WritePixels", "PathGeometry",
+                 "PathFigure", "new Pen(", "TextElement", "FormattedText(", "Cursors.", "OnRender(", "RoutedEventArgs",
+                 "MappingMode", "Geometry.Empty")
+
+# Patterns rather than text: the book's own immutable brushes and `System.Windows.Input` (ICommand) are fine.
+LEFT_FOR_HAND_PATTERNS = {
+    "System.Windows.": r"System\.Windows\.(?!Input;)",
+    "GradientBrush(": r"(?<!\w)(?:Linear|Radial)?GradientBrush\(",
+    "SolidColorBrush(": r"(?<!\w)SolidColorBrush\(",
+}
 
 
 def report(name: str, s: str) -> None:
     left = [n for n in LEFT_FOR_HAND if n in s]
+    left += [n for n, pattern in LEFT_FOR_HAND_PATTERNS.items() if re.search(pattern, s)]
     figures = len(re.findall(r"BeginFigure\([^;]*, (?:true|false), (?:true|false)\)", s))
     if figures:
         left.append(f"{figures} BeginFigure(p, filled, closed)")
@@ -517,6 +531,8 @@ def viewmodel(args: argparse.Namespace) -> None:
         s = re.sub(r"/// The (\w+) page\b", r"/// The \1 chapter", s)
         # Opening another Explore page turns to that chapter of the book; its slug is the route's last segment.
         s = s.replace("IMenuNavigator", "IBookNavigator")
+        # Avalonia's indexer bindings listen for the indexer's own name, not WPF's "Item[]".
+        s = s.replace('OnPropertyChanged("Item[]");', 'OnPropertyChanged("Item");')
         s = re.sub(r"_navigator\.NavigateTo\(Constants\.Explore(\w+)\)",
                    lambda m: f'_navigator.GoToPage(BookContents.ChapterPageOf("{re.sub(r"(?<=[a-z])(?=[A-Z])", "-", m.group(1))}"))', s)
         if "IBookNavigator" in s and f"using {TARGET_ROOT}.ViewModels.Pages;" not in s:
