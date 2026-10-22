@@ -9,6 +9,7 @@
              xmlns:seasons="using:Lemon.Explore.Book.Chapters.Seasons"
              xmlns:solar="using:Lemon.Explore.Book.Chapters.SolarSystem"
              xmlns:eclipses="using:Lemon.Explore.Book.Chapters.Eclipses"
+             xmlns:moon="using:Lemon.Explore.Book.Chapters.MoonPhases"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -24,6 +25,8 @@
         <DataTemplate DataType="solar:SolarSystemDiagramPageViewModel"><solar:SolarSystemDiagramPageView /></DataTemplate>
         <DataTemplate DataType="eclipses:EclipseTextPageViewModel"><eclipses:EclipseTextPageView /></DataTemplate>
         <DataTemplate DataType="eclipses:EclipseDiagramPageViewModel"><eclipses:EclipseDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="moon:MoonPhasesTextPageViewModel"><moon:MoonPhasesTextPageView /></DataTemplate>
+        <DataTemplate DataType="moon:MoonPhasesDiagramPageViewModel"><moon:MoonPhasesDiagramPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsTextPageViewModel"><seasons:SeasonsTextPageView /></DataTemplate>
         <DataTemplate DataType="seasons:SeasonsDiagramPageViewModel"><seasons:SeasonsDiagramPageView /></DataTemplate>
 

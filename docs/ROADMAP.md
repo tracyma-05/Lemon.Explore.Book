@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
-| P4 | Port the other 33 chapters, a few per change, comparing screenshots against the original | |
+| P4 | Port the other 33 chapters, a few per change, comparing screenshots against the original | 4 of 34 in the book: Solar System, Eclipses, Seasons, Moon phases |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -35,7 +35,7 @@ cross-platform book.
 | `DependencyProperty` | `StyledProperty` / `DirectProperty` |
 | `MediaPlayer` | `INarrationAudio` (desktop audio library, Web Audio in the browser); none yet, so clips run as timed subtitles |
 | MaterialDesign `PackIcon` | `PathIcon` with the project's own geometries (`Styles/Explore.axaml`) |
-| `dc.PushOpacity(...)` … `dc.Pop()` | `using (dc.PushOpacity(...)) { … }` |
+| `dc.PushOpacity(...)` … `dc.Pop()` | `using var dc = new PaintContext(context);` keeps Push/Pop as is (or `using (dc.PushOpacity(...)) { … }`) |
 | `Point - Point` is a `Vector` | it is a `Point`: write `Vector v = a - b;` |
 | `Rect.Inflate` changes the rect | it returns a new one |
 | `StreamGeometryContext.BeginFigure(p, filled, closed)` | `BeginFigure(p, filled)` … `EndFigure(closed)` |
@@ -52,6 +52,14 @@ cross-platform book.
    walkthrough panel and playback toolbar.
 5. Copy the chapter's strings into both resx files, then add tests like `SeasonsChapterTests` (targets have words,
    walkthrough keys exist, the spread renders and responds).
+6. The chapter view model implements `IChapterContent` (stop its walkthrough when the last of its views leaves the
+   screen); page views derive from `ChapterPageView`. `ChapterTestKit` has the shared test helpers.
+
+### Simplifications so far
+
+- The original's shared observer location is not in the book yet: the seasons and Moon chapters watch from Beijing
+  (a preset), and "the other hemisphere" from Sydney. A book-wide place setting can come later.
+- Pages are narrower than the original window, so a few wide diagrams (the eclipse seasons view) crop at the edge.
 
 ## Narration
 

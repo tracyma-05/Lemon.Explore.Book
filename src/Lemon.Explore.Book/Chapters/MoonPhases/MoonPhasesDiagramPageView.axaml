@@ -1,0 +1,68 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:moon="using:Lemon.Explore.Book.Chapters.MoonPhases"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.MoonPhases.MoonPhasesDiagramPageView"
+                         x:DataType="moon:MoonPhasesDiagramPageViewModel">
+    <!-- Right page of the Moon phases spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <moon:MoonPhasesDiagram Mode="{Binding Moon.Mode}"
+                                        Age="{Binding Moon.Age}"
+                                        TimeOfDay="{Binding Moon.TimeOfDay}"
+                                        IsPlaying="{Binding Moon.IsPlaying}"
+                                        AnimatesMonth="{Binding Moon.AnimatesMonth}"
+                                        IsSouthern="{Binding Moon.IsSouthern}"
+                                        Latitude="{Binding Moon.Latitude}"
+                                        Highlight="{Binding Moon.Lesson.Highlight}"
+                                        IsLessonActive="{Binding Moon.Lesson.IsActive}"
+                                        SelectedObject="{Binding Moon.Card.Id}"
+                                        InteractionCommand="{Binding Moon.UserInteractedCommand}"
+                                        ToolTip.Tip="{Binding Moon.DragHint}"
+                                        AutomationProperties.Name="{Binding Moon.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Moon.Lesson}" />
+                    <Border HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Moon.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Moon.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Moon.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize MoonPhases_PlayPause}"
+                                    AutomationProperties.Name="{loc:Localize MoonPhases_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Moon.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Moon.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <StackPanel Orientation="Horizontal">
+                                <!-- Timeline: days since new moon. -->
+                                <Slider Width="150" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Moon.MonthLength}" Value="{Binding Moon.Age}"
+                                        SmallChange="0.25" LargeChange="1"
+                                        ToolTip.Tip="{loc:Localize MoonPhases_Timeline}"
+                                        AutomationProperties.Name="{loc:Localize MoonPhases_Timeline}" />
+                                <TextBlock MinWidth="60" Margin="4,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Moon.AgeShortText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

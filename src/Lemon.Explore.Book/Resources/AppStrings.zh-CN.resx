@@ -567,6 +567,423 @@
   <data name="Lesson_TimeLeft" xml:space="preserve">
     <value>剩余答题时间</value>
   </data>
+  <data name="MoonPhases_Age_Short" xml:space="preserve">
+    <value>第 {0:0.0} 天</value>
+  </data>
+  <data name="MoonPhases_Animate" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="MoonPhases_Animate_Day" xml:space="preserve">
+    <value>一天的变化</value>
+  </data>
+  <data name="MoonPhases_Animate_Month" xml:space="preserve">
+    <value>每天同一时刻</value>
+  </data>
+  <data name="MoonPhases_Chart_Caption" xml:space="preserve">
+    <value>一个月中被照亮的比例</value>
+  </data>
+  <data name="MoonPhases_Chart_Day" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="MoonPhases_Clock_Evening" xml:space="preserve">
+    <value>日落</value>
+  </data>
+  <data name="MoonPhases_Clock_Midnight" xml:space="preserve">
+    <value>午夜</value>
+  </data>
+  <data name="MoonPhases_Clock_Morning" xml:space="preserve">
+    <value>日出</value>
+  </data>
+  <data name="MoonPhases_Clock_Noon" xml:space="preserve">
+    <value>正午</value>
+  </data>
+  <data name="MoonPhases_Compass_NE" xml:space="preserve">
+    <value>东北</value>
+  </data>
+  <data name="MoonPhases_Compass_NW" xml:space="preserve">
+    <value>西北</value>
+  </data>
+  <data name="MoonPhases_Compass_SE" xml:space="preserve">
+    <value>东南</value>
+  </data>
+  <data name="MoonPhases_Compass_SW" xml:space="preserve">
+    <value>西南</value>
+  </data>
+  <data name="MoonPhases_Direction_E" xml:space="preserve">
+    <value>东</value>
+  </data>
+  <data name="MoonPhases_Direction_N" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="MoonPhases_Direction_NE" xml:space="preserve">
+    <value>东北</value>
+  </data>
+  <data name="MoonPhases_Direction_NW" xml:space="preserve">
+    <value>西北</value>
+  </data>
+  <data name="MoonPhases_Direction_S" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="MoonPhases_Direction_SE" xml:space="preserve">
+    <value>东南</value>
+  </data>
+  <data name="MoonPhases_Direction_SW" xml:space="preserve">
+    <value>西南</value>
+  </data>
+  <data name="MoonPhases_Direction_W" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="MoonPhases_Disc_Caption" xml:space="preserve">
+    <value>从地球上看到的月亮</value>
+  </data>
+  <data name="MoonPhases_DragHint_Month" xml:space="preserve">
+    <value>左右拖动可在一个月中前后移动</value>
+  </data>
+  <data name="MoonPhases_DragHint_Orbit" xml:space="preserve">
+    <value>拖动可让月亮沿轨道移动</value>
+  </data>
+  <data name="MoonPhases_DragHint_Sky" xml:space="preserve">
+    <value>左右拖动可改变一天中的时间</value>
+  </data>
+  <data name="MoonPhases_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="MoonPhases_Hemisphere" xml:space="preserve">
+    <value>你在哪里</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_Hint" xml:space="preserve">
+    <value>同一天晚上，全世界看到的月相都一样，只是在南半球看，月亮是上下颠倒的。</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_Home" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_North" xml:space="preserve">
+    <value>北半球（北京）</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_NorthShort" xml:space="preserve">
+    <value>北半球</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_South" xml:space="preserve">
+    <value>南半球（悉尼）</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_SouthShort" xml:space="preserve">
+    <value>南半球</value>
+  </data>
+  <data name="MoonPhases_JumpTo" xml:space="preserve">
+    <value>跳转到</value>
+  </data>
+  <data name="MoonPhases_Label_DailyPath" xml:space="preserve">
+    <value>太阳和月亮在天空中的轨迹</value>
+  </data>
+  <data name="MoonPhases_Label_MonthStart" xml:space="preserve">
+    <value>第 0 天：新月</value>
+  </data>
+  <data name="MoonPhases_Label_MoonBelow" xml:space="preserve">
+    <value>在地平线以下</value>
+  </data>
+  <data name="MoonPhases_Label_MoonUp" xml:space="preserve">
+    <value>{0} · 高 {1:0}°</value>
+  </data>
+  <data name="MoonPhases_Label_Moonrise" xml:space="preserve">
+    <value>月出 {0}</value>
+  </data>
+  <data name="MoonPhases_Label_Moonset" xml:space="preserve">
+    <value>月落 {0}</value>
+  </data>
+  <data name="MoonPhases_Label_SiderealMark" xml:space="preserve">
+    <value>27.3 天：再次对准同一颗恒星</value>
+  </data>
+  <data name="MoonPhases_Label_SolarTime" xml:space="preserve">
+    <value>地方太阳时</value>
+  </data>
+  <data name="MoonPhases_Label_SunThisWay" xml:space="preserve">
+    <value>太阳在这一侧</value>
+  </data>
+  <data name="MoonPhases_Label_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="MoonPhases_Label_SynodicMark" xml:space="preserve">
+    <value>29.5 天：再次新月</value>
+  </data>
+  <data name="MoonPhases_Label_ToStar" xml:space="preserve">
+    <value>指向遥远的恒星</value>
+  </data>
+  <data name="MoonPhases_Label_ToSun" xml:space="preserve">
+    <value>指向太阳</value>
+  </data>
+  <data name="MoonPhases_Legend_Facing" xml:space="preserve">
+    <value>朝向地球的一半</value>
+  </data>
+  <data name="MoonPhases_Legend_Lit" xml:space="preserve">
+    <value>被太阳照亮的一半</value>
+  </data>
+  <data name="MoonPhases_Legend_Note" xml:space="preserve">
+    <value>我们只能看到既被照亮、又朝向我们的那部分，这就是月相。</value>
+  </data>
+  <data name="MoonPhases_Lesson_Month_Choice1" xml:space="preserve">
+    <value>地球也在绕着太阳走</value>
+  </data>
+  <data name="MoonPhases_Lesson_Month_Choice2" xml:space="preserve">
+    <value>月亮走慢了</value>
+  </data>
+  <data name="MoonPhases_Lesson_Month_Choice3" xml:space="preserve">
+    <value>太阳自己移动了</value>
+  </data>
+  <data name="MoonPhases_Lesson_Phases_Choice1" xml:space="preserve">
+    <value>满月</value>
+  </data>
+  <data name="MoonPhases_Lesson_Phases_Choice2" xml:space="preserve">
+    <value>新月</value>
+  </data>
+  <data name="MoonPhases_Lesson_Phases_Choice3" xml:space="preserve">
+    <value>半个月亮</value>
+  </data>
+  <data name="MoonPhases_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>白天，和太阳在一起</value>
+  </data>
+  <data name="MoonPhases_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>整个晚上</value>
+  </data>
+  <data name="MoonPhases_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>只在半夜</value>
+  </data>
+  <data name="MoonPhases_Mode_Month" xml:space="preserve">
+    <value>为什么是 29.5 天？</value>
+  </data>
+  <data name="MoonPhases_Mode_Phases" xml:space="preserve">
+    <value>月相成因</value>
+  </data>
+  <data name="MoonPhases_Mode_Sky" xml:space="preserve">
+    <value>何时可见</value>
+  </data>
+  <data name="MoonPhases_Moment_Sidereal" xml:space="preserve">
+    <value>相对恒星已转满一圈，但还没到新月</value>
+  </data>
+  <data name="MoonPhases_Moment_Synodic" xml:space="preserve">
+    <value>位于地球和太阳之间：新月</value>
+  </data>
+  <data name="MoonPhases_Month_Fact1" xml:space="preserve">
+    <value>恒星月 27.32 天：绕地球一圈，回到同一颗遥远恒星的方向。</value>
+  </data>
+  <data name="MoonPhases_Month_Fact2" xml:space="preserve">
+    <value>朔望月 29.53 天：从新月到下一次新月。一个月里地球绕太阳走了约 29°，月亮还要再走约 2.2 天才能追上。</value>
+  </data>
+  <data name="MoonPhases_Month_Fact3" xml:space="preserve">
+    <value>一天也是这样：地球相对恒星自转一圈要 23 小时 56 分，太阳回到天空中同一位置则要 24 小时。</value>
+  </data>
+  <data name="MoonPhases_Month_Fact4" xml:space="preserve">
+    <value>农历的月份跟着月相走：每月 29 或 30 天，从新月（初一）开始。十二个月只有 354 天，所以大约每三年要加一个闰月。</value>
+  </data>
+  <data name="MoonPhases_Month_Note" xml:space="preserve">
+    <value>未按比例：月球轨道相对地球轨道画得大了很多</value>
+  </data>
+  <data name="MoonPhases_Month_Subtitle" xml:space="preserve">
+    <value>月亮绕地球一圈只要 27.3 天，为什么月相要 29.5 天才轮回一次？</value>
+  </data>
+  <data name="MoonPhases_Month_Text" xml:space="preserve">
+    <value>第 {0:0.0} 天：相对恒星，月亮已经绕地球转了 {1:0}°；但相对太阳只转了 {2:0}°，因为这期间地球绕太阳走了 {3:0.0}°。</value>
+  </data>
+  <data name="MoonPhases_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="MoonPhases_Obj_EarthOrbit" xml:space="preserve">
+    <value>绕太阳走的地球</value>
+  </data>
+  <data name="MoonPhases_Obj_Moon" xml:space="preserve">
+    <value>月亮和它的两个半边</value>
+  </data>
+  <data name="MoonPhases_Obj_MoonOrbit" xml:space="preserve">
+    <value>绕地球转的月亮</value>
+  </data>
+  <data name="MoonPhases_Obj_Moonrise" xml:space="preserve">
+    <value>月出与月落</value>
+  </data>
+  <data name="MoonPhases_Obj_Sidereal" xml:space="preserve">
+    <value>转满一圈：27.3 天</value>
+  </data>
+  <data name="MoonPhases_Obj_SkyMoon" xml:space="preserve">
+    <value>天上的月亮</value>
+  </data>
+  <data name="MoonPhases_Obj_SkySun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="MoonPhases_Obj_Star" xml:space="preserve">
+    <value>遥远的恒星</value>
+  </data>
+  <data name="MoonPhases_Obj_Start" xml:space="preserve">
+    <value>开始时的新月</value>
+  </data>
+  <data name="MoonPhases_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="MoonPhases_Obj_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="MoonPhases_Obj_Synodic" xml:space="preserve">
+    <value>再次新月：29.5 天</value>
+  </data>
+  <data name="MoonPhases_Observer_Caption" xml:space="preserve">
+    <value>你在自转的地球上的位置（从北极上方俯瞰）</value>
+  </data>
+  <data name="MoonPhases_Observer_Note" xml:space="preserve">
+    <value>阴影所在的一侧是你的天空。月亮在其中时（带圈），它就在你的地平线以上。</value>
+  </data>
+  <data name="MoonPhases_OpenEclipses" xml:space="preserve">
+    <value>日食与月食：为什么不是每个月都有？</value>
+  </data>
+  <data name="MoonPhases_Phase_FirstQuarter" xml:space="preserve">
+    <value>上弦月</value>
+  </data>
+  <data name="MoonPhases_Phase_FirstQuarter_Description" xml:space="preserve">
+    <value>绕行了四分之一圈：我们看到被照亮一半的一半。日落时它在正南方，半夜前后落下。</value>
+  </data>
+  <data name="MoonPhases_Phase_Full" xml:space="preserve">
+    <value>满月</value>
+  </data>
+  <data name="MoonPhases_Phase_Full_Description" xml:space="preserve">
+    <value>地球位于太阳和月亮之间，被照亮的一半完全朝向我们。日落时升起，整夜可见。</value>
+  </data>
+  <data name="MoonPhases_Phase_LastQuarter" xml:space="preserve">
+    <value>下弦月</value>
+  </data>
+  <data name="MoonPhases_Phase_LastQuarter_Description" xml:space="preserve">
+    <value>绕行了四分之三圈：又是一半被照亮，但亮的是另一侧。半夜前后升起，日出时在正南方。</value>
+  </data>
+  <data name="MoonPhases_Phase_New" xml:space="preserve">
+    <value>新月</value>
+  </data>
+  <data name="MoonPhases_Phase_New_Description" xml:space="preserve">
+    <value>月亮位于地球和太阳之间，被照亮的一半背对着我们。它和太阳一起东升西落，淹没在阳光里。</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningCrescent" xml:space="preserve">
+    <value>残月</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningCrescent_Description" xml:space="preserve">
+    <value>被照亮的一半只剩一小条朝向我们。日出前在东方低空可以看到。</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningGibbous" xml:space="preserve">
+    <value>亏凸月</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningGibbous_Description" xml:space="preserve">
+    <value>被照亮的部分开始从另一侧缩小。晚上升起，日出后还挂在天上。</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingCrescent" xml:space="preserve">
+    <value>蛾眉月</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingCrescent_Description" xml:space="preserve">
+    <value>被照亮的一半开始有一小条转向我们。日落后不久，在西方低空可以看到。</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingGibbous" xml:space="preserve">
+    <value>盈凸月</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingGibbous_Description" xml:space="preserve">
+    <value>超过一半被照亮，而且还在变大。它下午升起，晚上大部分时间都能看到。</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact1" xml:space="preserve">
+    <value>月亮自己不发光。和地球一样，它总有一半被太阳照亮；月相就是这被照亮的一半有多少朝向我们。</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact2" xml:space="preserve">
+    <value>月相不是地球的影子造成的：蛾眉月时，地球的影子指向远离月亮的方向。只有月食时，地球的影子才会落到月亮上。</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact3" xml:space="preserve">
+    <value>日食只会发生在新月，月食只会发生在满月，但大多数月份都没有：月球轨道倾斜了 5°，月亮通常从上方或下方经过。</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact4" xml:space="preserve">
+    <value>月亮绕地球转一圈，自己也正好自转一圈，所以总是同一面朝向我们。背面并不黑暗：新月时它被完全照亮。</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact5" xml:space="preserve">
+    <value>在北半球看，盈月（变大）亮在右侧，亏月（变小）亮在左侧；在南半球正好相反。</value>
+  </data>
+  <data name="MoonPhases_Phases_Note" xml:space="preserve">
+    <value>从北极上方远处俯瞰，未按比例。外圈：从地球上看到的月亮（{0}）</value>
+  </data>
+  <data name="MoonPhases_Phases_Subtitle" xml:space="preserve">
+    <value>月亮为什么会变形状？它总有一半被太阳照亮</value>
+  </data>
+  <data name="MoonPhases_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格键）</value>
+  </data>
+  <data name="MoonPhases_SkyNow_Down" xml:space="preserve">
+    <value>{0}：月亮在地平线以下。{1}</value>
+  </data>
+  <data name="MoonPhases_SkyNow_SunDown" xml:space="preserve">
+    <value>太阳已经落下。</value>
+  </data>
+  <data name="MoonPhases_SkyNow_SunUp" xml:space="preserve">
+    <value>太阳在天上。</value>
+  </data>
+  <data name="MoonPhases_SkyNow_Up" xml:space="preserve">
+    <value>{0}：月亮在{2}方，高 {1:0}°。{3}</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact1" xml:space="preserve">
+    <value>月亮每天在星空中向东移动约 12°，所以每天大约晚 50 分钟升起。</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact2" xml:space="preserve">
+    <value>满月和太阳正好相对：太阳落下时它升起，太阳升起时它落下。</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact3" xml:space="preserve">
+    <value>蛾眉月和残月在天空中总是离太阳很近：蛾眉月在日落后的西方，残月在日出前的东方。</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact4" xml:space="preserve">
+    <value>一个月中大约有一半时间，白天也能看到月亮。上弦月前后，下午很容易看到它。</value>
+  </data>
+  <data name="MoonPhases_Sky_Note" xml:space="preserve">
+    <value>简化：太阳和月亮都沿天赤道运行（如同春分、秋分时）。时间为地方太阳时，月亮画得比实际大</value>
+  </data>
+  <data name="MoonPhases_Sky_Subtitle" xml:space="preserve">
+    <value>什么时候能看到月亮？它每天晚升起约 50 分钟</value>
+  </data>
+  <data name="MoonPhases_Stat_Age" xml:space="preserve">
+    <value>月龄</value>
+  </data>
+  <data name="MoonPhases_Stat_Age_Value" xml:space="preserve">
+    <value>{0:0.0} 天（共 {1:0.0} 天）</value>
+  </data>
+  <data name="MoonPhases_Stat_East" xml:space="preserve">
+    <value>东边 {0:0}°</value>
+  </data>
+  <data name="MoonPhases_Stat_Elongation" xml:space="preserve">
+    <value>与太阳的角距</value>
+  </data>
+  <data name="MoonPhases_Stat_Lit" xml:space="preserve">
+    <value>照亮比例</value>
+  </data>
+  <data name="MoonPhases_Stat_RiseSet" xml:space="preserve">
+    <value>升起 / 最高 / 落下</value>
+  </data>
+  <data name="MoonPhases_Stat_RiseSet_ToolTip" xml:space="preserve">
+    <value>春分、秋分时的地方太阳时。一年中实际时间最多会相差几个小时。</value>
+  </data>
+  <data name="MoonPhases_Stat_RiseSet_Value" xml:space="preserve">
+    <value>约 {0} / {1} / {2}</value>
+  </data>
+  <data name="MoonPhases_Stat_West" xml:space="preserve">
+    <value>西边 {0:0}°</value>
+  </data>
+  <data name="MoonPhases_TimeOfDay" xml:space="preserve">
+    <value>一天中的时间</value>
+  </data>
+  <data name="MoonPhases_Timeline" xml:space="preserve">
+    <value>新月后的天数</value>
+  </data>
+  <data name="MoonPhases_Title" xml:space="preserve">
+    <value>月相的变化</value>
+  </data>
+  <data name="MoonPhases_Today_Text" xml:space="preserve">
+    <value>今天：{0}，照亮 {1:P0}，新月后第 {2:0.0} 天。</value>
+  </data>
+  <data name="MoonPhases_Tonight" xml:space="preserve">
+    <value>今晚</value>
+  </data>
+  <data name="MoonPhases_Upcoming" xml:space="preserve">
+    <value>真实的月亮</value>
+  </data>
+  <data name="MoonPhases_Upcoming_Note" xml:space="preserve">
+    <value>按你所在的时区，计算值，误差在几分钟以内。</value>
+  </data>
+  <data name="MoonPhases_Upcoming_When" xml:space="preserve">
+    <value>{0}（{1}）{2}</value>
+  </data>
   <data name="Narr_Common_MoveOn" xml:space="preserve">
     <value>我们先接着往下看，等会儿可以再试一试。</value>
   </data>
@@ -698,6 +1115,135 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>所以，日食只会发生在新月的时候。到了满月，就轮到月球走进地球的影子里了，那就是月食。</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
+    <value>从一个新月到下一个新月，要二十九天半。可是月亮绕地球转一圈，其实只要二十七天多。多出来的两天，是从哪里来的呢？</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_02" xml:space="preserve">
+    <value>我们找一颗非常非常遥远的恒星当参照。这条白色虚线，始终指向同一颗星。</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_03" xml:space="preserve">
+    <value>过了二十七点三天，月亮又回到了指向那颗星的方向，它已经绕地球转满一圈了。可是你看，它还没有走到地球和太阳之间，还不是新月。</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_04" xml:space="preserve">
+    <value>想一想：为什么还差一点？</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_05" xml:space="preserve">
+    <value>这一个月里，地球带着月亮绕太阳走了一大段，太阳的方向也就转过了这么一个角度。月亮要再多追大约两天，才能赶上。</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_06" xml:space="preserve">
+    <value>到了二十九天半，月亮重新回到地球和太阳之间，新月又回来了。所以月相变化一轮，要比月亮绕地球一圈多出两天左右。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Earth" xml:space="preserve">
+    <value>这是从北极上空往下看的地球，白天的一面朝着左边的太阳。我们就是站在这里，看月亮绕着我们转。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_EarthOrbit" xml:space="preserve">
+    <value>这是正在沿着轨道绕太阳走的地球。地球一边走，从地球上看太阳的方向也在慢慢转动。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_FirstQuarter" xml:space="preserve">
+    <value>上弦月。我们看到的圆面亮了一半。月亮已经转过了四分之一圈，太阳落山时它正高挂在天上。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Full" xml:space="preserve">
+    <value>满月。月亮在地球背着太阳的那一边，被照亮的一半整个朝着我们。它太阳落山时升起，整夜都亮着。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_LastQuarter" xml:space="preserve">
+    <value>下弦月。又亮了一半，不过这次是另外一半。它半夜前后才升起，到了早上还挂在天上。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Moon" xml:space="preserve">
+    <value>这是月亮。金色的弧线标出它被照亮的一半，蓝色虚线标出朝着地球的一半。我们看到多少亮面，就是现在的月相。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_MoonOrbit" xml:space="preserve">
+    <value>这是绕着地球转的月亮。它总是用同一面对着我们，所以在地球上永远看不到它的背面。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Moonrise" xml:space="preserve">
+    <value>这是今天月亮升起和落下的时间。平均来说，它每天晚升起大约五十分钟，因为月亮绕地球转的方向，和地球自转的方向是一样的。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_New" xml:space="preserve">
+    <value>新月。月亮在地球和太阳之间，暗的一面朝着我们，所以看不见。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Sidereal" xml:space="preserve">
+    <value>过了二十七点三天，以恒星为参照，月亮绕地球正好转了一圈。这叫恒星月。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_SkyMoon" xml:space="preserve">
+    <value>这是你头顶天空中的月亮。它亮的那一侧总是指向太阳，哪怕太阳已经落到地平线下面了。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_SkySun" xml:space="preserve">
+    <value>这是太阳。月亮每天都比它多落后一些，所以月亮一天比一天升起得晚。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Star" xml:space="preserve">
+    <value>这是一颗非常遥远的恒星。它远到无论地球走到轨道的哪里，看它的方向都不变，所以是最好的固定参照。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Start" xml:space="preserve">
+    <value>这是这个月开始的地方：新月，月亮正好在地球和太阳之间。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Sun" xml:space="preserve">
+    <value>这是太阳。地球一年绕它转一圈，所以一个月里，地球大约走了轨道的十二分之一。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Sunlight" xml:space="preserve">
+    <value>阳光从左边照过来。太阳离得非常远，光线几乎是平行的，时时刻刻都照亮地球和月亮各自的一半。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Synodic" xml:space="preserve">
+    <value>过了二十九点五天，月亮重新回到地球和太阳之间，又是新月了。这叫朔望月，也就是月相变化的周期。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaningCrescent" xml:space="preserve">
+    <value>残月。天亮前在东边天空能看到一弯细细的月亮，一天比一天细，直到下一个新月。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaningGibbous" xml:space="preserve">
+    <value>亏凸月。刚过满月，亮面开始一点点变小，月亮也一天比一天升起得晚。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaxingCrescent" xml:space="preserve">
+    <value>蛾眉月。太阳落山后不久，西边天空出现一弯细细的亮边，而且一天比一天宽。</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaxingGibbous" xml:space="preserve">
+    <value>盈凸月。亮面已经超过一半，还在继续变大，快到满月了。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_01" xml:space="preserve">
+    <value>月亮为什么一会儿圆、一会儿弯？其实它自己并不发光，我们看到的，是它被太阳照亮的那一部分。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_02" xml:space="preserve">
+    <value>阳光从左边照过来。不管月亮走到哪里，朝着太阳的那一半总是亮的，另一半是黑的。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_03" xml:space="preserve">
+    <value>看月亮旁边的两条弧线：金色的是被照亮的一半，蓝色虚线是朝着地球的一半。两条弧线重叠的部分，就是我们能看到的亮面。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_04" xml:space="preserve">
+    <value>当月亮转到地球和太阳之间，亮的那一半完全背对着我们，我们几乎什么也看不到，这就是新月。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_05" xml:space="preserve">
+    <value>想一想：月亮转到地球的另一边，也就是背着太阳的那一侧时，我们会看到什么样的月亮？</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_06" xml:space="preserve">
+    <value>答案是满月。这时被照亮的一半正好全部朝着地球，整个圆盘都是亮的。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_07" xml:space="preserve">
+    <value>现在你来试试：把月亮拖到看上去正好亮一半的位置，也就是上弦月。也可以直接点一下外圈里上弦月的小图。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_08" xml:space="preserve">
+    <value>外面这一圈小图，就是从地球上看到的样子。从新月到满月，亮面一天天变大；再从满月回到新月，又一天天变小。走完一圈，大约要二十九天半。</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_09" xml:space="preserve">
+    <value>所以，月相并不是地球的影子挡出来的，而是我们从不同的角度，看到了月亮被照亮的那一半。点一点外圈的小图，听听每一种月相的介绍。</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_01" xml:space="preserve">
+    <value>现在我们站在地面上，面朝赤道的方向看天空。太阳每天从东边升起，沿着这条虚线划过天空，再从西边落下。</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_02" xml:space="preserve">
+    <value>月亮也走同一条路，只是比太阳晚一些。现在是上弦月，它中午前后升起，太阳落山的时候，它正高高挂在天上。</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_03" xml:space="preserve">
+    <value>满月正好在太阳的对面。太阳从西边落下的时候，满月从东边升起，整夜都挂在天上，天亮前后才落下。</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_04" xml:space="preserve">
+    <value>考考你：新月的时候，月亮在什么时候挂在天上？</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_05" xml:space="preserve">
+    <value>新月和太阳几乎在同一个方向，白天跟着太阳一起走过天空。它暗的一面朝着我们，又被耀眼的阳光淹没，所以我们根本注意不到它。</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_06" xml:space="preserve">
+    <value>现在让时间每天都停在傍晚的同一时刻。你会发现，月亮每天都往东挪一点，也一天比一天胖。它每天大约晚升起五十分钟。</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
+    <value>所以，看月亮的形状，就能大致知道它什么时候升起、什么时候落下。你可以左右拖动画面换个时间，找一找月亮在哪儿。</value>
   </data>
   <data name="Narr_Seasons_Distance_01" xml:space="preserve">
     <value>很多人以为，夏天热是因为地球离太阳更近。地球的轨道确实不是正圆，而是一个稍微有点扁的椭圆。</value>

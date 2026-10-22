@@ -1,4 +1,5 @@
 using Lemon.Explore.Book.Chapters.Eclipses;
+using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Seasons;
 using Lemon.Explore.Book.Chapters.SolarSystem;
 using Lemon.Explore.Book.ViewModels.Pages;
@@ -12,7 +13,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -38,6 +39,13 @@ public static class ChapterRegistry
                 var seasons = new SeasonsViewModel(services.Narration, services.Settings);
                 return (new SeasonsTextPageViewModel(textPage, navigator, chapter, number, seasons),
                     new SeasonsDiagramPageViewModel(textPage + 1, navigator, chapter, seasons));
+            }
+
+            case "Moon-Phases":
+            {
+                var moon = new MoonPhasesViewModel(services.Narration, navigator);
+                return (new MoonPhasesTextPageViewModel(textPage, navigator, chapter, number, moon),
+                    new MoonPhasesDiagramPageViewModel(textPage + 1, navigator, chapter, moon));
             }
 
             default:

@@ -79,6 +79,10 @@ internal static class SpaceDrawing
             endPoint: new RelativePoint(0.5 + (cos / 2), 0.5 + (sin / 2), RelativeUnit.Relative));
     }
 
+    /// <summary>The signed angle in degrees from <paramref name="from"/> to <paramref name="to"/>, as WPF's Vector.AngleBetween.</summary>
+    public static double AngleBetween(Vector from, Vector to) =>
+        Math.Atan2((from.X * to.Y) - (from.Y * to.X), (from.X * to.X) + (from.Y * to.Y)) * 180 / Math.PI;
+
     /// <summary>The body (or moon) with this id from the catalog.</summary>
     public static CelestialBody Body(string id) => SolarSystemCatalog.Body(id);
 

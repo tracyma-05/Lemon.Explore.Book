@@ -567,6 +567,423 @@
   <data name="Lesson_TimeLeft" xml:space="preserve">
     <value>Time left to answer</value>
   </data>
+  <data name="MoonPhases_Age_Short" xml:space="preserve">
+    <value>Day {0:0.0}</value>
+  </data>
+  <data name="MoonPhases_Animate" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="MoonPhases_Animate_Day" xml:space="preserve">
+    <value>A day passes</value>
+  </data>
+  <data name="MoonPhases_Animate_Month" xml:space="preserve">
+    <value>Same time each day</value>
+  </data>
+  <data name="MoonPhases_Chart_Caption" xml:space="preserve">
+    <value>How much is lit through the month</value>
+  </data>
+  <data name="MoonPhases_Chart_Day" xml:space="preserve">
+    <value>Day {0}</value>
+  </data>
+  <data name="MoonPhases_Clock_Evening" xml:space="preserve">
+    <value>Sunset</value>
+  </data>
+  <data name="MoonPhases_Clock_Midnight" xml:space="preserve">
+    <value>Midnight</value>
+  </data>
+  <data name="MoonPhases_Clock_Morning" xml:space="preserve">
+    <value>Sunrise</value>
+  </data>
+  <data name="MoonPhases_Clock_Noon" xml:space="preserve">
+    <value>Noon</value>
+  </data>
+  <data name="MoonPhases_Compass_NE" xml:space="preserve">
+    <value>NE</value>
+  </data>
+  <data name="MoonPhases_Compass_NW" xml:space="preserve">
+    <value>NW</value>
+  </data>
+  <data name="MoonPhases_Compass_SE" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="MoonPhases_Compass_SW" xml:space="preserve">
+    <value>SW</value>
+  </data>
+  <data name="MoonPhases_Direction_E" xml:space="preserve">
+    <value>east</value>
+  </data>
+  <data name="MoonPhases_Direction_N" xml:space="preserve">
+    <value>north</value>
+  </data>
+  <data name="MoonPhases_Direction_NE" xml:space="preserve">
+    <value>north-east</value>
+  </data>
+  <data name="MoonPhases_Direction_NW" xml:space="preserve">
+    <value>north-west</value>
+  </data>
+  <data name="MoonPhases_Direction_S" xml:space="preserve">
+    <value>south</value>
+  </data>
+  <data name="MoonPhases_Direction_SE" xml:space="preserve">
+    <value>south-east</value>
+  </data>
+  <data name="MoonPhases_Direction_SW" xml:space="preserve">
+    <value>south-west</value>
+  </data>
+  <data name="MoonPhases_Direction_W" xml:space="preserve">
+    <value>west</value>
+  </data>
+  <data name="MoonPhases_Disc_Caption" xml:space="preserve">
+    <value>The Moon as seen from Earth</value>
+  </data>
+  <data name="MoonPhases_DragHint_Month" xml:space="preserve">
+    <value>Drag left or right to move through the month</value>
+  </data>
+  <data name="MoonPhases_DragHint_Orbit" xml:space="preserve">
+    <value>Drag to move the Moon along its orbit</value>
+  </data>
+  <data name="MoonPhases_DragHint_Sky" xml:space="preserve">
+    <value>Drag left or right to change the time of day</value>
+  </data>
+  <data name="MoonPhases_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="MoonPhases_Hemisphere" xml:space="preserve">
+    <value>Where you are</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_Hint" xml:space="preserve">
+    <value>Everyone sees the same phase on the same night, but from the southern hemisphere the Moon looks upside down.</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_Home" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_North" xml:space="preserve">
+    <value>Northern hemisphere (Beijing)</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_NorthShort" xml:space="preserve">
+    <value>northern hemisphere</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_South" xml:space="preserve">
+    <value>Southern hemisphere (Sydney)</value>
+  </data>
+  <data name="MoonPhases_Hemisphere_SouthShort" xml:space="preserve">
+    <value>southern hemisphere</value>
+  </data>
+  <data name="MoonPhases_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="MoonPhases_Label_DailyPath" xml:space="preserve">
+    <value>Path of the Sun and the Moon across the sky</value>
+  </data>
+  <data name="MoonPhases_Label_MonthStart" xml:space="preserve">
+    <value>Day 0: new moon</value>
+  </data>
+  <data name="MoonPhases_Label_MoonBelow" xml:space="preserve">
+    <value>Below the horizon</value>
+  </data>
+  <data name="MoonPhases_Label_MoonUp" xml:space="preserve">
+    <value>{0} · {1:0}° up</value>
+  </data>
+  <data name="MoonPhases_Label_Moonrise" xml:space="preserve">
+    <value>Moonrise {0}</value>
+  </data>
+  <data name="MoonPhases_Label_Moonset" xml:space="preserve">
+    <value>Moonset {0}</value>
+  </data>
+  <data name="MoonPhases_Label_SiderealMark" xml:space="preserve">
+    <value>27.3 days: same star again</value>
+  </data>
+  <data name="MoonPhases_Label_SolarTime" xml:space="preserve">
+    <value>Local solar time</value>
+  </data>
+  <data name="MoonPhases_Label_SunThisWay" xml:space="preserve">
+    <value>Sun this way</value>
+  </data>
+  <data name="MoonPhases_Label_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="MoonPhases_Label_SynodicMark" xml:space="preserve">
+    <value>29.5 days: new moon again</value>
+  </data>
+  <data name="MoonPhases_Label_ToStar" xml:space="preserve">
+    <value>To a distant star</value>
+  </data>
+  <data name="MoonPhases_Label_ToSun" xml:space="preserve">
+    <value>To the Sun</value>
+  </data>
+  <data name="MoonPhases_Legend_Facing" xml:space="preserve">
+    <value>Half facing Earth</value>
+  </data>
+  <data name="MoonPhases_Legend_Lit" xml:space="preserve">
+    <value>Half lit by the Sun</value>
+  </data>
+  <data name="MoonPhases_Legend_Note" xml:space="preserve">
+    <value>We see only the part of the Moon that is both lit and facing us: that is the phase.</value>
+  </data>
+  <data name="MoonPhases_Lesson_Month_Choice1" xml:space="preserve">
+    <value>Earth has moved on around the Sun</value>
+  </data>
+  <data name="MoonPhases_Lesson_Month_Choice2" xml:space="preserve">
+    <value>The Moon slowed down</value>
+  </data>
+  <data name="MoonPhases_Lesson_Month_Choice3" xml:space="preserve">
+    <value>The Sun moved</value>
+  </data>
+  <data name="MoonPhases_Lesson_Phases_Choice1" xml:space="preserve">
+    <value>A full moon</value>
+  </data>
+  <data name="MoonPhases_Lesson_Phases_Choice2" xml:space="preserve">
+    <value>A new moon</value>
+  </data>
+  <data name="MoonPhases_Lesson_Phases_Choice3" xml:space="preserve">
+    <value>Half a moon</value>
+  </data>
+  <data name="MoonPhases_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>In the daytime, with the Sun</value>
+  </data>
+  <data name="MoonPhases_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>All night</value>
+  </data>
+  <data name="MoonPhases_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>Only around midnight</value>
+  </data>
+  <data name="MoonPhases_Mode_Month" xml:space="preserve">
+    <value>Why 29.5 days?</value>
+  </data>
+  <data name="MoonPhases_Mode_Phases" xml:space="preserve">
+    <value>Phases</value>
+  </data>
+  <data name="MoonPhases_Mode_Sky" xml:space="preserve">
+    <value>In the sky</value>
+  </data>
+  <data name="MoonPhases_Moment_Sidereal" xml:space="preserve">
+    <value>Once round against the stars, but not yet new moon</value>
+  </data>
+  <data name="MoonPhases_Moment_Synodic" xml:space="preserve">
+    <value>Between Earth and the Sun: new moon</value>
+  </data>
+  <data name="MoonPhases_Month_Fact1" xml:space="preserve">
+    <value>Sidereal month, 27.32 days: once round Earth, back in line with the same distant star.</value>
+  </data>
+  <data name="MoonPhases_Month_Fact2" xml:space="preserve">
+    <value>Synodic month, 29.53 days: from new moon to new moon. Earth moves about 29° round the Sun in a month, and the Moon needs about 2.2 more days to catch up.</value>
+  </data>
+  <data name="MoonPhases_Month_Fact3" xml:space="preserve">
+    <value>Days work the same way: Earth turns once against the stars in 23 h 56 min, but the Sun returns to the same place in the sky after 24 hours.</value>
+  </data>
+  <data name="MoonPhases_Month_Fact4" xml:space="preserve">
+    <value>The months of the Chinese calendar follow the phases: 29 or 30 days, starting at new moon. Twelve of them make only 354 days, so a leap month is added about every three years.</value>
+  </data>
+  <data name="MoonPhases_Month_Note" xml:space="preserve">
+    <value>Not to scale: the Moon's orbit is drawn far too large for Earth's</value>
+  </data>
+  <data name="MoonPhases_Month_Subtitle" xml:space="preserve">
+    <value>The Moon goes round Earth in 27.3 days, so why do the phases take 29.5?</value>
+  </data>
+  <data name="MoonPhases_Month_Text" xml:space="preserve">
+    <value>Day {0:0.0}: the Moon has gone {1:0}° round Earth against the stars, but only {2:0}° against the Sun, because Earth has moved {3:0.0}° round the Sun meanwhile.</value>
+  </data>
+  <data name="MoonPhases_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="MoonPhases_Obj_EarthOrbit" xml:space="preserve">
+    <value>Earth on its way round the Sun</value>
+  </data>
+  <data name="MoonPhases_Obj_Moon" xml:space="preserve">
+    <value>The Moon and its two halves</value>
+  </data>
+  <data name="MoonPhases_Obj_MoonOrbit" xml:space="preserve">
+    <value>The Moon going round Earth</value>
+  </data>
+  <data name="MoonPhases_Obj_Moonrise" xml:space="preserve">
+    <value>Moonrise and moonset</value>
+  </data>
+  <data name="MoonPhases_Obj_Sidereal" xml:space="preserve">
+    <value>Once round: 27.3 days</value>
+  </data>
+  <data name="MoonPhases_Obj_SkyMoon" xml:space="preserve">
+    <value>The Moon in the sky</value>
+  </data>
+  <data name="MoonPhases_Obj_SkySun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="MoonPhases_Obj_Star" xml:space="preserve">
+    <value>A distant star</value>
+  </data>
+  <data name="MoonPhases_Obj_Start" xml:space="preserve">
+    <value>New moon at the start</value>
+  </data>
+  <data name="MoonPhases_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="MoonPhases_Obj_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="MoonPhases_Obj_Synodic" xml:space="preserve">
+    <value>New moon again: 29.5 days</value>
+  </data>
+  <data name="MoonPhases_Observer_Caption" xml:space="preserve">
+    <value>Where you are on the turning Earth (seen from above the North Pole)</value>
+  </data>
+  <data name="MoonPhases_Observer_Note" xml:space="preserve">
+    <value>The shaded half is your sky. When the Moon is in it (ringed), the Moon is above your horizon.</value>
+  </data>
+  <data name="MoonPhases_OpenEclipses" xml:space="preserve">
+    <value>Eclipses: why not every month?</value>
+  </data>
+  <data name="MoonPhases_Phase_FirstQuarter" xml:space="preserve">
+    <value>First quarter</value>
+  </data>
+  <data name="MoonPhases_Phase_FirstQuarter_Description" xml:space="preserve">
+    <value>A quarter of the way round: we see half of the lit half. It is due south at sunset and sets around midnight.</value>
+  </data>
+  <data name="MoonPhases_Phase_Full" xml:space="preserve">
+    <value>Full moon</value>
+  </data>
+  <data name="MoonPhases_Phase_Full_Description" xml:space="preserve">
+    <value>Earth is between the Sun and the Moon: the whole lit half faces us. It rises at sunset and is up all night.</value>
+  </data>
+  <data name="MoonPhases_Phase_LastQuarter" xml:space="preserve">
+    <value>Last quarter</value>
+  </data>
+  <data name="MoonPhases_Phase_LastQuarter_Description" xml:space="preserve">
+    <value>Three quarters of the way round: half lit again, the other half. It rises around midnight and is due south at sunrise.</value>
+  </data>
+  <data name="MoonPhases_Phase_New" xml:space="preserve">
+    <value>New moon</value>
+  </data>
+  <data name="MoonPhases_Phase_New_Description" xml:space="preserve">
+    <value>The Moon is between Earth and the Sun: its lit half faces away from us. It crosses the sky with the Sun, lost in its glare.</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningCrescent" xml:space="preserve">
+    <value>Waning crescent</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningCrescent_Description" xml:space="preserve">
+    <value>Only a sliver of the lit half still faces us. Look low in the east just before sunrise.</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningGibbous" xml:space="preserve">
+    <value>Waning gibbous</value>
+  </data>
+  <data name="MoonPhases_Phase_WaningGibbous_Description" xml:space="preserve">
+    <value>The lit part shrinks, now from the other side. It rises in the evening and is still up after sunrise.</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingCrescent" xml:space="preserve">
+    <value>Waxing crescent</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingCrescent_Description" xml:space="preserve">
+    <value>A thin sliver of the lit half turns towards us. Look low in the west just after sunset.</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingGibbous" xml:space="preserve">
+    <value>Waxing gibbous</value>
+  </data>
+  <data name="MoonPhases_Phase_WaxingGibbous_Description" xml:space="preserve">
+    <value>More than half the disc is lit and growing. It rises in the afternoon and is up most of the evening.</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact1" xml:space="preserve">
+    <value>The Moon makes no light of its own. Like Earth, it is always half lit by the Sun; the phase is how much of that lit half faces us.</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact2" xml:space="preserve">
+    <value>The phases are not Earth's shadow: at a crescent, Earth's shadow points far away from the Moon. Earth's shadow only falls on the Moon in a lunar eclipse.</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact3" xml:space="preserve">
+    <value>Eclipses can only happen at new moon (solar) and full moon (lunar), yet most months there is none: the Moon's orbit is tilted 5°, so it usually passes above or below.</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact4" xml:space="preserve">
+    <value>The Moon turns once on its axis each time it goes round Earth, so it always shows us the same face. The far side is not dark: it is fully lit at new moon.</value>
+  </data>
+  <data name="MoonPhases_Phases_Fact5" xml:space="preserve">
+    <value>Waxing (growing) phases are lit on the right, waning ones on the left, as seen from the northern hemisphere; from the southern hemisphere it is the other way round.</value>
+  </data>
+  <data name="MoonPhases_Phases_Note" xml:space="preserve">
+    <value>Seen from far above the North Pole; not to scale. Outer ring: the Moon as seen from Earth ({0})</value>
+  </data>
+  <data name="MoonPhases_Phases_Subtitle" xml:space="preserve">
+    <value>Why does the Moon change shape? It is always half lit by the Sun</value>
+  </data>
+  <data name="MoonPhases_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="MoonPhases_SkyNow_Down" xml:space="preserve">
+    <value>{0}: the Moon is below the horizon. {1}</value>
+  </data>
+  <data name="MoonPhases_SkyNow_SunDown" xml:space="preserve">
+    <value>The Sun has set.</value>
+  </data>
+  <data name="MoonPhases_SkyNow_SunUp" xml:space="preserve">
+    <value>The Sun is up.</value>
+  </data>
+  <data name="MoonPhases_SkyNow_Up" xml:space="preserve">
+    <value>{0}: the Moon is {1:0}° up in the {2}. {3}</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact1" xml:space="preserve">
+    <value>The Moon moves about 12° east against the stars each day, so it rises about 50 minutes later each day.</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact2" xml:space="preserve">
+    <value>The full moon is opposite the Sun: it rises as the Sun sets and sets as the Sun rises.</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact3" xml:space="preserve">
+    <value>A crescent is always close to the Sun in the sky: in the west after sunset while waxing, in the east before sunrise while waning.</value>
+  </data>
+  <data name="MoonPhases_Sky_Fact4" xml:space="preserve">
+    <value>For about half of the month the Moon is up in daylight too. Around first quarter it is easy to see in the afternoon.</value>
+  </data>
+  <data name="MoonPhases_Sky_Note" xml:space="preserve">
+    <value>Simplified: the Sun and the Moon follow the celestial equator, as at an equinox. Local solar time; the Moon is drawn larger</value>
+  </data>
+  <data name="MoonPhases_Sky_Subtitle" xml:space="preserve">
+    <value>When can you see the Moon? It rises about 50 minutes later each day</value>
+  </data>
+  <data name="MoonPhases_Stat_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="MoonPhases_Stat_Age_Value" xml:space="preserve">
+    <value>{0:0.0} of {1:0.0} days</value>
+  </data>
+  <data name="MoonPhases_Stat_East" xml:space="preserve">
+    <value>{0:0}° east</value>
+  </data>
+  <data name="MoonPhases_Stat_Elongation" xml:space="preserve">
+    <value>From the Sun</value>
+  </data>
+  <data name="MoonPhases_Stat_Lit" xml:space="preserve">
+    <value>Lit</value>
+  </data>
+  <data name="MoonPhases_Stat_RiseSet" xml:space="preserve">
+    <value>Rises / highest / sets</value>
+  </data>
+  <data name="MoonPhases_Stat_RiseSet_ToolTip" xml:space="preserve">
+    <value>Local solar time at an equinox. Through the year real times shift by up to a few hours.</value>
+  </data>
+  <data name="MoonPhases_Stat_RiseSet_Value" xml:space="preserve">
+    <value>about {0} / {1} / {2}</value>
+  </data>
+  <data name="MoonPhases_Stat_West" xml:space="preserve">
+    <value>{0:0}° west</value>
+  </data>
+  <data name="MoonPhases_TimeOfDay" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="MoonPhases_Timeline" xml:space="preserve">
+    <value>Days since new moon</value>
+  </data>
+  <data name="MoonPhases_Title" xml:space="preserve">
+    <value>Moon phases</value>
+  </data>
+  <data name="MoonPhases_Today_Text" xml:space="preserve">
+    <value>Today: {0}, {1:P0} lit, {2:0.0} days after new moon.</value>
+  </data>
+  <data name="MoonPhases_Tonight" xml:space="preserve">
+    <value>Tonight</value>
+  </data>
+  <data name="MoonPhases_Upcoming" xml:space="preserve">
+    <value>The real Moon</value>
+  </data>
+  <data name="MoonPhases_Upcoming_Note" xml:space="preserve">
+    <value>In your time zone. Calculated, to within a few minutes.</value>
+  </data>
+  <data name="MoonPhases_Upcoming_When" xml:space="preserve">
+    <value>{0} ({1}) {2}</value>
+  </data>
   <data name="Narr_Common_MoveOn" xml:space="preserve">
     <value>Let's keep going. You can try it again later.</value>
   </data>
@@ -698,6 +1115,135 @@
   </data>
   <data name="Narr_Eclipse_Solar_09" xml:space="preserve">
     <value>So a solar eclipse can only happen at new moon. At full moon, it's the Moon's turn to move into Earth's shadow. That's a lunar eclipse.</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
+    <value>From one new moon to the next takes twenty-nine and a half days. But the Moon only needs about twenty-seven days to go once around Earth. So where do the extra two days come from?</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_02" xml:space="preserve">
+    <value>Let's measure against a very distant star. This dashed white line always points at that same star.</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_03" xml:space="preserve">
+    <value>After twenty-seven point three days, the Moon is back in line with that star. It has gone once around Earth. But look: it isn't between Earth and the Sun yet, so it isn't a new moon.</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_04" xml:space="preserve">
+    <value>Think about it. Why isn't it there yet?</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_05" xml:space="preserve">
+    <value>During the month, Earth has carried the Moon a good way around the Sun, so the direction of the Sun has turned by this angle. The Moon needs about two more days to catch up.</value>
+  </data>
+  <data name="Narr_MoonPhases_Month_06" xml:space="preserve">
+    <value>At twenty-nine and a half days, the Moon is between Earth and the Sun again, and the new moon is back. So a full round of phases takes about two days longer than one trip around Earth.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Earth" xml:space="preserve">
+    <value>This is Earth, seen from far above the North Pole. Its day side faces the Sun on the left. From here we watch the Moon go round.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_EarthOrbit" xml:space="preserve">
+    <value>This is Earth, moving along its orbit around the Sun. As it moves, the direction of the Sun seen from Earth slowly turns.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_FirstQuarter" xml:space="preserve">
+    <value>First quarter. Half of the face we see is lit. The Moon has gone a quarter of the way round, and it's high in the sky at sunset.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Full" xml:space="preserve">
+    <value>Full moon. The Moon is on the far side of Earth from the Sun, and its whole lit half faces us. It rises at sunset and shines all night.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_LastQuarter" xml:space="preserve">
+    <value>Last quarter. Half lit again, but the other half this time. It rises around midnight and is still up in the morning sky.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Moon" xml:space="preserve">
+    <value>This is the Moon. The gold arc marks its lit half, and the dashed blue arc marks the half facing Earth. The phase is simply how much of the lit half we can see.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_MoonOrbit" xml:space="preserve">
+    <value>This is the Moon going round Earth. It always keeps the same face towards us, so we never see its far side from Earth.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Moonrise" xml:space="preserve">
+    <value>These are the times the Moon rises and sets today. On average it rises about fifty minutes later each day, because it moves round Earth in the same direction Earth spins.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_New" xml:space="preserve">
+    <value>New moon. The Moon is between Earth and the Sun, with its dark side towards us, so we can't see it.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Sidereal" xml:space="preserve">
+    <value>After twenty-seven point three days the Moon has gone once around Earth, measured against the stars. This is called a sidereal month.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_SkyMoon" xml:space="preserve">
+    <value>This is the Moon in your sky. Its bright side always points back towards the Sun, even when the Sun is below the horizon.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_SkySun" xml:space="preserve">
+    <value>This is the Sun. Each day the Moon lags behind it a little more, which is why the Moon rises later every day.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Star" xml:space="preserve">
+    <value>This is a very distant star. It's so far away that it lies in the same direction from anywhere on Earth's orbit, which makes it a perfect fixed marker.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Start" xml:space="preserve">
+    <value>This is where the month starts: a new moon, with the Moon between Earth and the Sun.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Sun" xml:space="preserve">
+    <value>This is the Sun. Earth goes round it once a year, so in one month Earth covers about a twelfth of its orbit.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Sunlight" xml:space="preserve">
+    <value>Sunlight comes from the left. The Sun is so far away that its rays arrive almost parallel, lighting half of Earth and half of the Moon at all times.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_Synodic" xml:space="preserve">
+    <value>After twenty-nine point five days the Moon is back between Earth and the Sun: new moon again. This is called a synodic month, the month of the phases.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaningCrescent" xml:space="preserve">
+    <value>Waning crescent. A thin curve seen in the east before sunrise, getting thinner until the next new moon.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaningGibbous" xml:space="preserve">
+    <value>Waning gibbous. Just after full, the bright part starts to shrink, and the Moon rises later each evening.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaxingCrescent" xml:space="preserve">
+    <value>Waxing crescent. A thin bright curve appears in the west just after sunset, and it grows a little every night.</value>
+  </data>
+  <data name="Narr_MoonPhases_Obj_WaxingGibbous" xml:space="preserve">
+    <value>Waxing gibbous. More than half is lit, and it's still growing towards full.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_01" xml:space="preserve">
+    <value>Why does the Moon change shape through the month? It doesn't make any light of its own. What we see is the part lit up by the Sun.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_02" xml:space="preserve">
+    <value>Sunlight comes in from the left. Wherever the Moon is, the half facing the Sun is always lit, and the other half is dark.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_03" xml:space="preserve">
+    <value>Look at the two arcs beside the Moon. The gold one marks the lit half. The dashed blue one marks the half facing Earth. Where they overlap is the bright part we can see.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_04" xml:space="preserve">
+    <value>When the Moon passes between Earth and the Sun, its lit half faces completely away from us. We can hardly see it at all. That's the new moon.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_05" xml:space="preserve">
+    <value>Think about it. When the Moon moves round to the far side of Earth, away from the Sun, what will we see?</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_06" xml:space="preserve">
+    <value>It's a full moon. Now the lit half faces Earth completely, so the whole round face shines.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_07" xml:space="preserve">
+    <value>Now you try. Drag the Moon round until exactly half of it looks lit, a first quarter. Or just click its picture in the outer ring.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_08" xml:space="preserve">
+    <value>The outer ring shows how the Moon looks from Earth. From new to full, the bright part grows day by day. From full back to new, it shrinks again. The whole round takes about twenty-nine and a half days.</value>
+  </data>
+  <data name="Narr_MoonPhases_Phases_09" xml:space="preserve">
+    <value>So the phases aren't made by Earth's shadow. We're simply seeing the Moon's lit half from different angles. Click the little pictures in the outer ring to hear about each phase.</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_01" xml:space="preserve">
+    <value>Now we're standing on the ground, looking across the sky towards the equator. Every day the Sun rises in the east, crosses the sky along this dashed line, and sets in the west.</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_02" xml:space="preserve">
+    <value>The Moon travels the same road, just later than the Sun. This is a first quarter moon. It rises around midday, and it's high in the sky when the Sun sets.</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_03" xml:space="preserve">
+    <value>A full moon sits opposite the Sun. As the Sun goes down in the west, the full moon comes up in the east. It stays up all night and sets around dawn.</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_04" xml:space="preserve">
+    <value>Quick question. At new moon, when is the Moon up in the sky?</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_05" xml:space="preserve">
+    <value>A new moon is in almost the same direction as the Sun, so it crosses the sky with the Sun in the daytime. Its dark side faces us, and it's lost in the Sun's glare, so we don't notice it at all.</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_06" xml:space="preserve">
+    <value>Now let's look at the same time every evening. Each day the Moon has moved a little further east and grown a little fatter. It rises about fifty minutes later each day.</value>
+  </data>
+  <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
+    <value>So the Moon's shape tells you roughly when it rises and sets. Drag across the picture to change the time and go looking for the Moon.</value>
   </data>
   <data name="Narr_Seasons_Distance_01" xml:space="preserve">
     <value>Lots of people think summer is warm because Earth is closer to the Sun. And Earth's path really isn't a perfect circle. It's a very slightly squashed oval.</value>
