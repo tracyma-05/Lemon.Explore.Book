@@ -15,6 +15,882 @@
   <data name="App_Title" xml:space="preserve">
     <value>Explore Book</value>
   </data>
+  <data name="Aurora_BestHour" xml:space="preserve">
+    <value>Best hour tonight</value>
+  </data>
+  <data name="Aurora_Chart_Air" xml:space="preserve">
+    <value>air</value>
+  </data>
+  <data name="Aurora_Chart_Brightness" xml:space="preserve">
+    <value>brightness, each to its most</value>
+  </data>
+  <data name="Aurora_Chart_Geo" xml:space="preserve">
+    <value>Geostationary orbit</value>
+  </data>
+  <data name="Aurora_Chart_Green" xml:space="preserve">
+    <value>oxygen green</value>
+  </data>
+  <data name="Aurora_Chart_Km" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="Aurora_Chart_Latitude" xml:space="preserve">
+    <value>magnetic latitude</value>
+  </data>
+  <data name="Aurora_Chart_Lost" xml:space="preserve">
+    <value>turns back only below the air: lost</value>
+  </data>
+  <data name="Aurora_Chart_Mirror" xml:space="preserve">
+    <value>turns back</value>
+  </data>
+  <data name="Aurora_Chart_North" xml:space="preserve">
+    <value>Bz +5 nT (north)</value>
+  </data>
+  <data name="Aurora_Chart_Particles_Caption" xml:space="preserve">
+    <value>The field along the line</value>
+  </data>
+  <data name="Aurora_Chart_Particles_Note" xml:space="preserve">
+    <value>The field grows towards the poles. The particle turns back where it reaches the dashed level, 1/sin² of its pitch angle; if that lies past the air, it is lost.</value>
+  </data>
+  <data name="Aurora_Chart_Pressure" xml:space="preserve">
+    <value>push, nPa</value>
+  </data>
+  <data name="Aurora_Chart_Red" xml:space="preserve">
+    <value>oxygen red</value>
+  </data>
+  <data name="Aurora_Chart_Shield_Caption" xml:space="preserve">
+    <value>How far out the shield sits</value>
+  </data>
+  <data name="Aurora_Chart_Shield_Note" xml:space="preserve">
+    <value>Magnetopause distance against the solar wind's push (Shue et al. 1998); the dot is now. A southward field lets it in closer.</value>
+  </data>
+  <data name="Aurora_Chart_Sky_Caption" xml:space="preserve">
+    <value>Light by height</value>
+  </data>
+  <data name="Aurora_Chart_Sky_Note" xml:space="preserve">
+    <value>Where electrons of this energy stop (dashed) and which light survives there. Approximate: real aurorae mix many energies.</value>
+  </data>
+  <data name="Aurora_Chart_South" xml:space="preserve">
+    <value>Bz −10 nT (south)</value>
+  </data>
+  <data name="Aurora_Chart_Violet" xml:space="preserve">
+    <value>nitrogen violet</value>
+  </data>
+  <data name="Aurora_Chart_Zero" xml:space="preserve">
+    <value>Bz 0</value>
+  </data>
+  <data name="Aurora_Clock" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Aurora_Cycle_Arrive" xml:space="preserve">
+    <value>Arrives</value>
+  </data>
+  <data name="Aurora_Cycle_NoField" xml:space="preserve">
+    <value>No magnetic field</value>
+  </data>
+  <data name="Aurora_Cycle_North" xml:space="preserve">
+    <value>Northward field: the shield stays shut</value>
+  </data>
+  <data name="Aurora_Cycle_Open" xml:space="preserve">
+    <value>Opens at the nose</value>
+  </data>
+  <data name="Aurora_Cycle_Return" xml:space="preserve">
+    <value>Returns</value>
+  </data>
+  <data name="Aurora_Cycle_Sink" xml:space="preserve">
+    <value>Into the tail</value>
+  </data>
+  <data name="Aurora_Cycle_Snap" xml:space="preserve">
+    <value>Snaps back</value>
+  </data>
+  <data name="Aurora_Cycle_Zero" xml:space="preserve">
+    <value>No southward field: barely open</value>
+  </data>
+  <data name="Aurora_Energy_100keV" xml:space="preserve">
+    <value>100 keV</value>
+  </data>
+  <data name="Aurora_Energy_1MeV" xml:space="preserve">
+    <value>1 MeV</value>
+  </data>
+  <data name="Aurora_Energy_1keV" xml:space="preserve">
+    <value>1 keV</value>
+  </data>
+  <data name="Aurora_Energy_Name" xml:space="preserve">
+    <value>Electrons' energy</value>
+  </data>
+  <data name="Aurora_Energy_Tooltip" xml:space="preserve">
+    <value>Its energy changes its real numbers below; the picture keeps the same scale.</value>
+  </data>
+  <data name="Aurora_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Aurora_Globe_Caption" xml:space="preserve">
+    <value>From space</value>
+  </data>
+  <data name="Aurora_Hint_Particles" xml:space="preserve">
+    <value>Drag to turn the view round Earth.</value>
+  </data>
+  <data name="Aurora_Hint_Shield" xml:space="preserve">
+    <value>Drag sideways to move through the cycle.</value>
+  </data>
+  <data name="Aurora_Hint_Sky" xml:space="preserve">
+    <value>Drag sideways to move through the night.</value>
+  </data>
+  <data name="Aurora_Inset_Pitch" xml:space="preserve">
+    <value>Pitch angle and loss cone</value>
+  </data>
+  <data name="Aurora_Inset_Values" xml:space="preserve">
+    <value>pitch {0}°, loss cone {1}°</value>
+  </data>
+  <data name="Aurora_KpChip_1" xml:space="preserve">
+    <value>Quiet 1</value>
+  </data>
+  <data name="Aurora_KpChip_4" xml:space="preserve">
+    <value>Active 4</value>
+  </data>
+  <data name="Aurora_KpChip_6" xml:space="preserve">
+    <value>Storm 6</value>
+  </data>
+  <data name="Aurora_KpChip_8" xml:space="preserve">
+    <value>Strong 8</value>
+  </data>
+  <data name="Aurora_KpChip_9" xml:space="preserve">
+    <value>Extreme 9</value>
+  </data>
+  <data name="Aurora_Kp_Active" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="Aurora_Kp_Caption" xml:space="preserve">
+    <value>Geomagnetic activity</value>
+  </data>
+  <data name="Aurora_Kp_Extreme" xml:space="preserve">
+    <value>extreme storm</value>
+  </data>
+  <data name="Aurora_Kp_Name" xml:space="preserve">
+    <value>Kp index</value>
+  </data>
+  <data name="Aurora_Kp_Note" xml:space="preserve">
+    <value>Kp (0–9) says how disturbed Earth's field is over three hours. It follows the solar wind in the first view, or set it here.</value>
+  </data>
+  <data name="Aurora_Kp_Quiet" xml:space="preserve">
+    <value>quiet</value>
+  </data>
+  <data name="Aurora_Kp_Storm" xml:space="preserve">
+    <value>storm</value>
+  </data>
+  <data name="Aurora_Kp_Strong" xml:space="preserve">
+    <value>strong storm</value>
+  </data>
+  <data name="Aurora_Label_Aurora" xml:space="preserve">
+    <value>Aurora</value>
+  </data>
+  <data name="Aurora_Label_Belts" xml:space="preserve">
+    <value>Van Allen belts</value>
+  </data>
+  <data name="Aurora_Label_BowShock" xml:space="preserve">
+    <value>Bow shock</value>
+  </data>
+  <data name="Aurora_Label_Cusp" xml:space="preserve">
+    <value>Cusp</value>
+  </data>
+  <data name="Aurora_Label_DriftEast" xml:space="preserve">
+    <value>Drifts east</value>
+  </data>
+  <data name="Aurora_Label_DriftWest" xml:space="preserve">
+    <value>Drifts west</value>
+  </data>
+  <data name="Aurora_Label_Electron" xml:space="preserve">
+    <value>Electron</value>
+  </data>
+  <data name="Aurora_Label_Green" xml:space="preserve">
+    <value>Oxygen green</value>
+  </data>
+  <data name="Aurora_Label_Inner" xml:space="preserve">
+    <value>Inner belt</value>
+  </data>
+  <data name="Aurora_Label_Line" xml:space="preserve">
+    <value>Field line</value>
+  </data>
+  <data name="Aurora_Label_Lobe" xml:space="preserve">
+    <value>Tail lobe</value>
+  </data>
+  <data name="Aurora_Label_Lost" xml:space="preserve">
+    <value>Lost into the air: aurora!</value>
+  </data>
+  <data name="Aurora_Label_Magnetopause" xml:space="preserve">
+    <value>Magnetopause</value>
+  </data>
+  <data name="Aurora_Label_Mirror" xml:space="preserve">
+    <value>Mirror point</value>
+  </data>
+  <data name="Aurora_Label_Outer" xml:space="preserve">
+    <value>Outer belt</value>
+  </data>
+  <data name="Aurora_Label_Oval" xml:space="preserve">
+    <value>Auroral oval</value>
+  </data>
+  <data name="Aurora_Label_PlasmaSheet" xml:space="preserve">
+    <value>Plasma sheet</value>
+  </data>
+  <data name="Aurora_Label_Pole" xml:space="preserve">
+    <value>Magnetic pole</value>
+  </data>
+  <data name="Aurora_Label_Proton" xml:space="preserve">
+    <value>Proton</value>
+  </data>
+  <data name="Aurora_Label_Red" xml:space="preserve">
+    <value>Oxygen red</value>
+  </data>
+  <data name="Aurora_Label_Ring" xml:space="preserve">
+    <value>Ring current (westward)</value>
+  </data>
+  <data name="Aurora_Label_Sheath" xml:space="preserve">
+    <value>Magnetosheath</value>
+  </data>
+  <data name="Aurora_Label_Shell" xml:space="preserve">
+    <value>Drift shell</value>
+  </data>
+  <data name="Aurora_Label_Spiral" xml:space="preserve">
+    <value>Spiral (gyration)</value>
+  </data>
+  <data name="Aurora_Label_Stripped" xml:space="preserve">
+    <value>Air carried off</value>
+  </data>
+  <data name="Aurora_Label_Sun" xml:space="preserve">
+    <value>Sun (not to scale)</value>
+  </data>
+  <data name="Aurora_Label_Tail" xml:space="preserve">
+    <value>Magnetotail</value>
+  </data>
+  <data name="Aurora_Label_Violet" xml:space="preserve">
+    <value>Nitrogen violet</value>
+  </data>
+  <data name="Aurora_Label_Wind" xml:space="preserve">
+    <value>Solar wind</value>
+  </data>
+  <data name="Aurora_Label_You" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Aurora_Lesson_Particles_Choice1" xml:space="preserve">
+    <value>The angle between its path and the field line</value>
+  </data>
+  <data name="Aurora_Lesson_Particles_Choice2" xml:space="preserve">
+    <value>Its electric charge</value>
+  </data>
+  <data name="Aurora_Lesson_Particles_Choice3" xml:space="preserve">
+    <value>How far it is from the Sun</value>
+  </data>
+  <data name="Aurora_Lesson_Shield_Choice1" xml:space="preserve">
+    <value>It moves closer to Earth</value>
+  </data>
+  <data name="Aurora_Lesson_Shield_Choice2" xml:space="preserve">
+    <value>It moves farther away</value>
+  </data>
+  <data name="Aurora_Lesson_Shield_Choice3" xml:space="preserve">
+    <value>It stays where it is</value>
+  </data>
+  <data name="Aurora_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>Towards the equator</value>
+  </data>
+  <data name="Aurora_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>Towards the pole</value>
+  </data>
+  <data name="Aurora_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>It doesn't move</value>
+  </data>
+  <data name="Aurora_Mode_Particles" xml:space="preserve">
+    <value>Trapped particles</value>
+  </data>
+  <data name="Aurora_Mode_Shield" xml:space="preserve">
+    <value>Magnetic shield</value>
+  </data>
+  <data name="Aurora_Mode_Sky" xml:space="preserve">
+    <value>Aurora in the sky</value>
+  </data>
+  <data name="Aurora_Night_Caption" xml:space="preserve">
+    <value>The night</value>
+  </data>
+  <data name="Aurora_North" xml:space="preserve">
+    <value>north</value>
+  </data>
+  <data name="Aurora_Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="Aurora_Obj_Aurora" xml:space="preserve">
+    <value>Aurora</value>
+  </data>
+  <data name="Aurora_Obj_Belts" xml:space="preserve">
+    <value>Van Allen belts</value>
+  </data>
+  <data name="Aurora_Obj_BowShock" xml:space="preserve">
+    <value>Bow shock</value>
+  </data>
+  <data name="Aurora_Obj_ClosedLine" xml:space="preserve">
+    <value>Closed field line</value>
+  </data>
+  <data name="Aurora_Obj_Curtain" xml:space="preserve">
+    <value>Aurora curtain</value>
+  </data>
+  <data name="Aurora_Obj_Cusp" xml:space="preserve">
+    <value>Polar cusp</value>
+  </data>
+  <data name="Aurora_Obj_DayX" xml:space="preserve">
+    <value>Reconnection at the nose</value>
+  </data>
+  <data name="Aurora_Obj_Earth" xml:space="preserve">
+    <value>Earth's magnetic field</value>
+  </data>
+  <data name="Aurora_Obj_Foot" xml:space="preserve">
+    <value>Foot of the field line</value>
+  </data>
+  <data name="Aurora_Obj_Green" xml:space="preserve">
+    <value>Oxygen green</value>
+  </data>
+  <data name="Aurora_Obj_Horizon" xml:space="preserve">
+    <value>Your horizon</value>
+  </data>
+  <data name="Aurora_Obj_Imf" xml:space="preserve">
+    <value>The Sun's magnetic field</value>
+  </data>
+  <data name="Aurora_Obj_Inner" xml:space="preserve">
+    <value>Inner belt</value>
+  </data>
+  <data name="Aurora_Obj_Line" xml:space="preserve">
+    <value>Its field line</value>
+  </data>
+  <data name="Aurora_Obj_Lobe" xml:space="preserve">
+    <value>Tail lobes</value>
+  </data>
+  <data name="Aurora_Obj_LossCone" xml:space="preserve">
+    <value>Loss cone</value>
+  </data>
+  <data name="Aurora_Obj_Magnetopause" xml:space="preserve">
+    <value>Magnetopause</value>
+  </data>
+  <data name="Aurora_Obj_Meridian" xml:space="preserve">
+    <value>Magnetic meridian</value>
+  </data>
+  <data name="Aurora_Obj_Mirror" xml:space="preserve">
+    <value>Mirror point</value>
+  </data>
+  <data name="Aurora_Obj_Night" xml:space="preserve">
+    <value>Magnetic midnight</value>
+  </data>
+  <data name="Aurora_Obj_OpenLine" xml:space="preserve">
+    <value>Open field line</value>
+  </data>
+  <data name="Aurora_Obj_Outer" xml:space="preserve">
+    <value>Outer belt</value>
+  </data>
+  <data name="Aurora_Obj_Oval" xml:space="preserve">
+    <value>Auroral oval</value>
+  </data>
+  <data name="Aurora_Obj_Particle" xml:space="preserve">
+    <value>Trapped particle</value>
+  </data>
+  <data name="Aurora_Obj_PlasmaSheet" xml:space="preserve">
+    <value>Plasma sheet</value>
+  </data>
+  <data name="Aurora_Obj_Pole" xml:space="preserve">
+    <value>Geomagnetic pole</value>
+  </data>
+  <data name="Aurora_Obj_Red" xml:space="preserve">
+    <value>Oxygen red</value>
+  </data>
+  <data name="Aurora_Obj_Ring" xml:space="preserve">
+    <value>Ring current</value>
+  </data>
+  <data name="Aurora_Obj_Seen" xml:space="preserve">
+    <value>Seen from here</value>
+  </data>
+  <data name="Aurora_Obj_Sheath" xml:space="preserve">
+    <value>Magnetosheath</value>
+  </data>
+  <data name="Aurora_Obj_Shell" xml:space="preserve">
+    <value>Drift shell</value>
+  </data>
+  <data name="Aurora_Obj_Sight" xml:space="preserve">
+    <value>Lines of sight</value>
+  </data>
+  <data name="Aurora_Obj_Spiral" xml:space="preserve">
+    <value>Gyration</value>
+  </data>
+  <data name="Aurora_Obj_Stripped" xml:space="preserve">
+    <value>Air carried off</value>
+  </data>
+  <data name="Aurora_Obj_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Aurora_Obj_Tail" xml:space="preserve">
+    <value>Magnetotail</value>
+  </data>
+  <data name="Aurora_Obj_TailX" xml:space="preserve">
+    <value>Reconnection in the tail</value>
+  </data>
+  <data name="Aurora_Obj_View" xml:space="preserve">
+    <value>Your sky</value>
+  </data>
+  <data name="Aurora_Obj_Violet" xml:space="preserve">
+    <value>Nitrogen violet</value>
+  </data>
+  <data name="Aurora_Obj_Wind" xml:space="preserve">
+    <value>Solar wind</value>
+  </data>
+  <data name="Aurora_Obj_You" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="Aurora_Option_Belts" xml:space="preserve">
+    <value>Van Allen belts</value>
+  </data>
+  <data name="Aurora_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Aurora_Option_NoField" xml:space="preserve">
+    <value>No magnetic field</value>
+  </data>
+  <data name="Aurora_Option_Ring" xml:space="preserve">
+    <value>Ring current</value>
+  </data>
+  <data name="Aurora_Options_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Aurora_Particle_Caption" xml:space="preserve">
+    <value>The particle</value>
+  </data>
+  <data name="Aurora_Particle_Note" xml:space="preserve">
+    <value>Below the loss cone (a few degrees) the particle reaches the air and is lost.</value>
+  </data>
+  <data name="Aurora_Particle_Pitch" xml:space="preserve">
+    <value>Pitch angle</value>
+  </data>
+  <data name="Aurora_Particle_Shell" xml:space="preserve">
+    <value>Shell (L)</value>
+  </data>
+  <data name="Aurora_Particles_Fact1" xml:space="preserve">
+    <value>The radiation belts were found in 1958 by James Van Allen's Geiger counters on Explorer 1 and Explorer 3, the first American satellites.</value>
+  </data>
+  <data name="Aurora_Particles_Fact2" xml:space="preserve">
+    <value>An outer-belt electron goes round its spiral tens of thousands of times a second, bounces pole to pole in under a second, and drifts round Earth in minutes to hours.</value>
+  </data>
+  <data name="Aurora_Particles_Fact3" xml:space="preserve">
+    <value>In a storm the ring current swells and weakens the field at the ground. Its strength is tracked by the Dst index, which falls by hundreds of nT in great storms.</value>
+  </data>
+  <data name="Aurora_Particles_Fact4" xml:space="preserve">
+    <value>Over the South Atlantic the inner belt dips closest to the ground, because Earth's field is weaker there. Satellites and the space station pick up extra radiation crossing it.</value>
+  </data>
+  <data name="Aurora_Particles_Fact5" xml:space="preserve">
+    <value>Waves in space keep nudging trapped particles into the loss cone. That steady drizzle lights the faint, diffuse aurora.</value>
+  </data>
+  <data name="Aurora_Particles_Note" xml:space="preserve">
+    <value>Earth's field as a dipole, the shell to scale. The spiral is drawn far wider and the drift far faster than real.</value>
+  </data>
+  <data name="Aurora_Particles_Subtitle" xml:space="preserve">
+    <value>Caught in Earth's field: spiral, bounce, drift</value>
+  </data>
+  <data name="Aurora_PlayPause" xml:space="preserve">
+    <value>Play / pause</value>
+  </data>
+  <data name="Aurora_Restart" xml:space="preserve">
+    <value>New particle</value>
+  </data>
+  <data name="Aurora_See_Day_Text" xml:space="preserve">
+    <value>Even with the aurora overhead, daylight or twilight drowns it out. Move the night on until the sky is dark.</value>
+  </data>
+  <data name="Aurora_See_Day_Title" xml:space="preserve">
+    <value>Too bright to see</value>
+  </data>
+  <data name="Aurora_See_Hidden_Text" xml:space="preserve">
+    <value>The oval is too far away: the curve of the Earth hides even the top of the curtain. It would take a stronger storm to bring it closer.</value>
+  </data>
+  <data name="Aurora_See_Hidden_Title" xml:space="preserve">
+    <value>Below your horizon</value>
+  </data>
+  <data name="Aurora_See_High_Text" xml:space="preserve">
+    <value>The curtain stands well above your horizon on the side of the magnetic pole. Look that way on a clear, dark night.</value>
+  </data>
+  <data name="Aurora_See_High_Title" xml:space="preserve">
+    <value>Up in your sky</value>
+  </data>
+  <data name="Aurora_See_Low_Text" xml:space="preserve">
+    <value>Only the top of the curtain rises above your horizon, low and faint. A camera on a long exposure picks it up better than the eye.</value>
+  </data>
+  <data name="Aurora_See_Low_Title" xml:space="preserve">
+    <value>Low on the horizon</value>
+  </data>
+  <data name="Aurora_See_Overhead_Text" xml:space="preserve">
+    <value>You are under the oval: on a clear, dark night the curtains can fill the sky and ripple right above you.</value>
+  </data>
+  <data name="Aurora_See_Overhead_Title" xml:space="preserve">
+    <value>The aurora is overhead</value>
+  </data>
+  <data name="Aurora_Shield_Fact1" xml:space="preserve">
+    <value>The solar wind blows at 300 to 800 km/s and takes two to four days to reach Earth; storm clouds can do it in less than a day.</value>
+  </data>
+  <data name="Aurora_Shield_Fact2" xml:space="preserve">
+    <value>On the day side the magnetopause is usually about 10 Earth radii out (some 64 000 km). The tail stretches hundreds of Earth radii, far past the Moon.</value>
+  </data>
+  <data name="Aurora_Shield_Fact3" xml:space="preserve">
+    <value>In the strongest storms the magnetopause is pushed inside geostationary orbit, 6.6 Earth radii out, and satellites there find themselves in the solar wind.</value>
+  </data>
+  <data name="Aurora_Shield_Fact4" xml:space="preserve">
+    <value>Mars lost its global magnetic field billions of years ago, and the solar wind has been stripping its upper atmosphere ever since.</value>
+  </data>
+  <data name="Aurora_Shield_Fact5" xml:space="preserve">
+    <value>James Dungey proposed in 1961 that the solar wind's field joins Earth's and drives the whole magnetosphere round: the Dungey cycle.</value>
+  </data>
+  <data name="Aurora_Shield_Note" xml:space="preserve">
+    <value>The noon–midnight slice; Earth and the magnetosphere to scale (the Sun is far off). Field lines simplified, solar wind sped up about 100×.</value>
+  </data>
+  <data name="Aurora_Shield_Subtitle" xml:space="preserve">
+    <value>The solar wind and Earth's magnetic shield</value>
+  </data>
+  <data name="Aurora_Sky_Fact1" xml:space="preserve">
+    <value>Atomic oxygen's green line at 557.7 nm is the commonest aurora colour. Its red line at 630 nm comes from above about 200 km.</value>
+  </data>
+  <data name="Aurora_Sky_Fact2" xml:space="preserve">
+    <value>The aurora is 100 to 400 km up, far above aircraft. The space station orbits at about 400 km, so astronauts often look down on it.</value>
+  </data>
+  <data name="Aurora_Sky_Fact3" xml:space="preserve">
+    <value>Northern and southern lights happen together: the same field lines end in both hemispheres, so the two ovals are near mirror images.</value>
+  </data>
+  <data name="Aurora_Sky_Fact4" xml:space="preserve">
+    <value>In the great storm of September 1859, the Carrington event, aurorae were seen as far south as the Caribbean.</value>
+  </data>
+  <data name="Aurora_Sky_Fact5" xml:space="preserve">
+    <value>In May 2024 the strongest geomagnetic storm in over twenty years brought aurorae far from the poles, and cameras caught them across northern China.</value>
+  </data>
+  <data name="Aurora_Sky_Note" xml:space="preserve">
+    <value>Real coastlines and night for your place, a rule-of-thumb oval by Kp, and Earth's curve to scale in the slice.</value>
+  </data>
+  <data name="Aurora_Sky_Subtitle" xml:space="preserve">
+    <value>{0}: can you see the aurora?</value>
+  </data>
+  <data name="Aurora_Slice_Caption" xml:space="preserve">
+    <value>Slice from you to the aurora (true scale)</value>
+  </data>
+  <data name="Aurora_Slice_Hidden" xml:space="preserve">
+    <value>{0} km away; its top is {1}° below the horizon</value>
+  </data>
+  <data name="Aurora_Slice_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Aurora_Slice_Seen" xml:space="preserve">
+    <value>{0} km away; {1}° to {2}° above the horizon</value>
+  </data>
+  <data name="Aurora_South" xml:space="preserve">
+    <value>south</value>
+  </data>
+  <data name="Aurora_Species_Electron" xml:space="preserve">
+    <value>Electron</value>
+  </data>
+  <data name="Aurora_Species_Proton" xml:space="preserve">
+    <value>Proton</value>
+  </data>
+  <data name="Aurora_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Aurora_Stage_Arrive_Text" xml:space="preserve">
+    <value>The Sun's field, carried by the wind, meets the bow shock and drapes over the front of the magnetosphere. Here it points south, against Earth's northward field at the nose.</value>
+  </data>
+  <data name="Aurora_Stage_Arrive_Title" xml:space="preserve">
+    <value>A solar wind field line arrives</value>
+  </data>
+  <data name="Aurora_Stage_NoField_Text" xml:space="preserve">
+    <value>The solar wind flows straight onto the upper air. There is no magnetosphere to trap particles and no auroral oval, and over the ages the wind strips the air away.</value>
+  </data>
+  <data name="Aurora_Stage_NoField_Title" xml:space="preserve">
+    <value>No magnetic field</value>
+  </data>
+  <data name="Aurora_Stage_North_Text" xml:space="preserve">
+    <value>The Sun's field points the same way as Earth's at the nose, so they cannot join there. The lines drape over the magnetosphere and slide past, and the aurora stays quiet.</value>
+  </data>
+  <data name="Aurora_Stage_North_Title" xml:space="preserve">
+    <value>Northward field: the shield stays shut</value>
+  </data>
+  <data name="Aurora_Stage_Open_Text" xml:space="preserve">
+    <value>At the nose the two fields join. The line is cut and rejoined: one end is now tied to Earth, the other is out in the solar wind, which drags it over the pole.</value>
+  </data>
+  <data name="Aurora_Stage_Open_Title" xml:space="preserve">
+    <value>Reconnection opens the shield</value>
+  </data>
+  <data name="Aurora_Stage_Return_Text" xml:space="preserve">
+    <value>The closed line drifts round the sides of Earth back to the day side, ready to be opened again. A real cycle takes about an hour.</value>
+  </data>
+  <data name="Aurora_Stage_Return_Title" xml:space="preserve">
+    <value>Back round to the day side</value>
+  </data>
+  <data name="Aurora_Stage_Sink_Text" xml:space="preserve">
+    <value>The open lines pile up in the tail lobes, storing energy, and sink towards the middle of the tail.</value>
+  </data>
+  <data name="Aurora_Stage_Sink_Title" xml:space="preserve">
+    <value>Into the tail</value>
+  </data>
+  <data name="Aurora_Stage_Snap_Text" xml:space="preserve">
+    <value>In the tail the lines from north and south rejoin. The closed line snaps back towards Earth and shoots electrons down into the auroral oval, and the aurora flares up.</value>
+  </data>
+  <data name="Aurora_Stage_Snap_Title" xml:space="preserve">
+    <value>Tail reconnection: the line snaps back</value>
+  </data>
+  <data name="Aurora_Stage_Zero_Text" xml:space="preserve">
+    <value>With no southward part there is hardly any reconnection at the nose. The shield is barely open and the aurora is faint.</value>
+  </data>
+  <data name="Aurora_Stage_Zero_Title" xml:space="preserve">
+    <value>No north–south field</value>
+  </data>
+  <data name="Aurora_Stat_Arrival" xml:space="preserve">
+    <value>Sun to Earth</value>
+  </data>
+  <data name="Aurora_Stat_Arrival_Value" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Aurora_Stat_Bounce" xml:space="preserve">
+    <value>One bounce, there and back</value>
+  </data>
+  <data name="Aurora_Stat_Cone" xml:space="preserve">
+    <value>Loss cone</value>
+  </data>
+  <data name="Aurora_Stat_Cone_Value" xml:space="preserve">
+    <value>{0}° (pitch angle {1}°)</value>
+  </data>
+  <data name="Aurora_Stat_Distance_Value" xml:space="preserve">
+    <value>{0} Earth radii ({1} km)</value>
+  </data>
+  <data name="Aurora_Stat_Drift" xml:space="preserve">
+    <value>Once round Earth</value>
+  </data>
+  <data name="Aurora_Stat_Drift_East" xml:space="preserve">
+    <value>{0}, eastward</value>
+  </data>
+  <data name="Aurora_Stat_Drift_West" xml:space="preserve">
+    <value>{0}, westward</value>
+  </data>
+  <data name="Aurora_Stat_Edge" xml:space="preserve">
+    <value>Oval's edge, now</value>
+  </data>
+  <data name="Aurora_Stat_Edge_Value" xml:space="preserve">
+    <value>{0}° magnetic latitude</value>
+  </data>
+  <data name="Aurora_Stat_Field" xml:space="preserve">
+    <value>Its field (Bz)</value>
+  </data>
+  <data name="Aurora_Stat_FieldHere" xml:space="preserve">
+    <value>Field at the equator</value>
+  </data>
+  <data name="Aurora_Stat_FieldHere_Value" xml:space="preserve">
+    <value>{0} nT</value>
+  </data>
+  <data name="Aurora_Stat_Geo" xml:space="preserve">
+    <value>Geostationary orbit</value>
+  </data>
+  <data name="Aurora_Stat_Geo_Inside" xml:space="preserve">
+    <value>outside the shield!</value>
+  </data>
+  <data name="Aurora_Stat_Gyro" xml:space="preserve">
+    <value>One gyration (equator)</value>
+  </data>
+  <data name="Aurora_Stat_Kp" xml:space="preserve">
+    <value>Kp</value>
+  </data>
+  <data name="Aurora_Stat_Mirror" xml:space="preserve">
+    <value>Turns back at</value>
+  </data>
+  <data name="Aurora_Stat_Mirror_Air" xml:space="preserve">
+    <value>never: it reaches the air</value>
+  </data>
+  <data name="Aurora_Stat_Mirror_Value" xml:space="preserve">
+    <value>{0}° magnetic latitude</value>
+  </data>
+  <data name="Aurora_Stat_Mlat" xml:space="preserve">
+    <value>Magnetic latitude</value>
+  </data>
+  <data name="Aurora_Stat_Mlat_Value" xml:space="preserve">
+    <value>{0}° {1}</value>
+  </data>
+  <data name="Aurora_Stat_Mlt" xml:space="preserve">
+    <value>Magnetic local time</value>
+  </data>
+  <data name="Aurora_Stat_Mlt_Value" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Aurora_Stat_Needed" xml:space="preserve">
+    <value>Kp for its top to clear your horizon</value>
+  </data>
+  <data name="Aurora_Stat_Needed_Beyond" xml:space="preserve">
+    <value>beyond 9: only the greatest storms on record</value>
+  </data>
+  <data name="Aurora_Stat_Needed_Value" xml:space="preserve">
+    <value>about {0}, around midnight</value>
+  </data>
+  <data name="Aurora_Stat_Nose" xml:space="preserve">
+    <value>Magnetopause (nose)</value>
+  </data>
+  <data name="Aurora_Stat_Particle" xml:space="preserve">
+    <value>Particle</value>
+  </data>
+  <data name="Aurora_Stat_Particle_Value" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Aurora_Stat_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="Aurora_Stat_Pressure" xml:space="preserve">
+    <value>Its push</value>
+  </data>
+  <data name="Aurora_Stat_Pressure_Value" xml:space="preserve">
+    <value>{0} nPa</value>
+  </data>
+  <data name="Aurora_Stat_Shield" xml:space="preserve">
+    <value>Magnetosphere</value>
+  </data>
+  <data name="Aurora_Stat_Shield_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Aurora_Stat_Shock" xml:space="preserve">
+    <value>Bow shock (nose)</value>
+  </data>
+  <data name="Aurora_Stat_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Aurora_Stat_Speed_Value" xml:space="preserve">
+    <value>{0} km/s ({1}% of light's)</value>
+  </data>
+  <data name="Aurora_Stat_Sun" xml:space="preserve">
+    <value>Sun's altitude</value>
+  </data>
+  <data name="Aurora_Stat_Sun_Value" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Aurora_Stat_ToCurtain" xml:space="preserve">
+    <value>To the curtain</value>
+  </data>
+  <data name="Aurora_Stat_ToCurtain_Inside" xml:space="preserve">
+    <value>you are under it</value>
+  </data>
+  <data name="Aurora_Stat_ToCurtain_Value" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Aurora_Stat_Top" xml:space="preserve">
+    <value>Top of its glow</value>
+  </data>
+  <data name="Aurora_Stat_Top_Below" xml:space="preserve">
+    <value>{0} km up, {1}° below the horizon</value>
+  </data>
+  <data name="Aurora_Stat_Top_Value" xml:space="preserve">
+    <value>{0} km up, {1}° above the horizon</value>
+  </data>
+  <data name="Aurora_Stat_Wind" xml:space="preserve">
+    <value>Solar wind</value>
+  </data>
+  <data name="Aurora_Stat_Wind_Value" xml:space="preserve">
+    <value>{0} km/s, {1} per cm³</value>
+  </data>
+  <data name="Aurora_Timeline_Cycle" xml:space="preserve">
+    <value>Through the Dungey cycle</value>
+  </data>
+  <data name="Aurora_Timeline_Night" xml:space="preserve">
+    <value>Through the night (noon to noon)</value>
+  </data>
+  <data name="Aurora_Title" xml:space="preserve">
+    <value>Aurora and the magnetosphere</value>
+  </data>
+  <data name="Aurora_Trap_Held_Electron" xml:space="preserve">
+    <value>It spirals round its field line, bounces between the mirror points and drifts east round Earth. It can stay trapped for days or longer.</value>
+  </data>
+  <data name="Aurora_Trap_Held_Proton" xml:space="preserve">
+    <value>It spirals round its field line the other way, bounces between the mirror points and drifts west round Earth. Protons in the inner belt can stay for years.</value>
+  </data>
+  <data name="Aurora_Trap_Held_Title" xml:space="preserve">
+    <value>Trapped in Earth's field</value>
+  </data>
+  <data name="Aurora_Trap_Lost_Text" xml:space="preserve">
+    <value>Its pitch angle is inside the loss cone, so it would turn back only below the top of the atmosphere. It reaches the air near the pole and gives up its energy there: this is how the aurora is lit.</value>
+  </data>
+  <data name="Aurora_Trap_Lost_Title" xml:space="preserve">
+    <value>Lost into the air</value>
+  </data>
+  <data name="Aurora_Unit_H" xml:space="preserve">
+    <value>{0} h</value>
+  </data>
+  <data name="Aurora_Unit_Min" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Aurora_Unit_Ms" xml:space="preserve">
+    <value>{0} ms</value>
+  </data>
+  <data name="Aurora_Unit_S" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Aurora_Unit_Us" xml:space="preserve">
+    <value>{0} µs</value>
+  </data>
+  <data name="Aurora_Value_BzNorth" xml:space="preserve">
+    <value>{0} nT north</value>
+  </data>
+  <data name="Aurora_Value_BzSouth" xml:space="preserve">
+    <value>{0} nT south</value>
+  </data>
+  <data name="Aurora_Value_BzZero" xml:space="preserve">
+    <value>about 0 nT</value>
+  </data>
+  <data name="Aurora_Value_Density" xml:space="preserve">
+    <value>{0} per cm³</value>
+  </data>
+  <data name="Aurora_Value_Energy" xml:space="preserve">
+    <value>{0} keV</value>
+  </data>
+  <data name="Aurora_Value_Kp" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Aurora_Value_MeV" xml:space="preserve">
+    <value>{0} MeV</value>
+  </data>
+  <data name="Aurora_Value_Pitch" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Aurora_Value_Shell" xml:space="preserve">
+    <value>{0} Earth radii (foot at {1}°)</value>
+  </data>
+  <data name="Aurora_Value_Speed" xml:space="preserve">
+    <value>{0} km/s</value>
+  </data>
+  <data name="Aurora_View_Daylight" xml:space="preserve">
+    <value>Too bright: the Sun is up or only just set</value>
+  </data>
+  <data name="Aurora_View_Facing" xml:space="preserve">
+    <value>Your sky, facing the magnetic pole ({0})</value>
+  </data>
+  <data name="Aurora_View_FacingAway" xml:space="preserve">
+    <value>Your sky, facing the oval (towards the equator)</value>
+  </data>
+  <data name="Aurora_View_Hidden" xml:space="preserve">
+    <value>Nothing to see: the aurora is below your horizon</value>
+  </data>
+  <data name="Aurora_Wind_Bz" xml:space="preserve">
+    <value>North–south field (Bz)</value>
+  </data>
+  <data name="Aurora_Wind_Calm" xml:space="preserve">
+    <value>Calm</value>
+  </data>
+  <data name="Aurora_Wind_Caption" xml:space="preserve">
+    <value>The solar wind</value>
+  </data>
+  <data name="Aurora_Wind_Density" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="Aurora_Wind_Fast" xml:space="preserve">
+    <value>Fast stream</value>
+  </data>
+  <data name="Aurora_Wind_Note" xml:space="preserve">
+    <value>A southward (negative) Bz opens the shield. The wind here also sets the Kp used in the sky view.</value>
+  </data>
+  <data name="Aurora_Wind_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Aurora_Wind_Storm" xml:space="preserve">
+    <value>CME storm</value>
+  </data>
+  <data name="Aurora_Wind_Typical" xml:space="preserve">
+    <value>Typical</value>
+  </data>
   <data name="BackCover_Text" xml:space="preserve">
     <value>Look up, look around, and ask why.</value>
   </data>
@@ -5994,6 +6870,213 @@
   <data name="MoonPhases_Upcoming_When" xml:space="preserve">
     <value>{0} ({1}) {2}</value>
   </data>
+  <data name="Narr_Aurora_Obj_Aurora" xml:space="preserve">
+    <value>The aurora: a ring of light around each magnetic pole, where electrons from the magnetosphere crash into the upper air. It glows brighter when the solar wind is fast and its field points south.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Belts" xml:space="preserve">
+    <value>The Van Allen radiation belts: energetic particles trapped in Earth's field, in an inner and an outer belt. Spacecraft cross them quickly to keep the radiation dose down.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_BowShock" xml:space="preserve">
+    <value>The bow shock: where the supersonic solar wind suddenly slows down in front of Earth's field, like the wave piled up in front of a ship's bow.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_ClosedLine" xml:space="preserve">
+    <value>A closed field line: both ends are tied to Earth. After reconnecting in the tail it snaps back like a rubber band, and throws particles down into the auroral oval.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Curtain" xml:space="preserve">
+    <value>The aurora curtain: a thin sheet of light, often hundreds of kilometres tall but only about a kilometre thick, standing along the field lines.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Cusp" xml:space="preserve">
+    <value>The cusp: the funnel above each pole where the solar wind can reach right down into the upper air. It gives a faint red aurora around noon.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_DayX" xml:space="preserve">
+    <value>Reconnection at the nose: the southward field of the solar wind meets Earth's northward field. The lines break and rejoin, opening Earth's field to the solar wind.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Earth" xml:space="preserve">
+    <value>Earth. Electric currents in its molten iron outer core make a magnetic field much like a giant bar magnet's, tilted about ten degrees from the spin axis.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Foot" xml:space="preserve">
+    <value>Where the field line meets the air, about a hundred kilometres up. A particle in the loss cone ends up here and gives its energy to the air, which glows.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Green" xml:space="preserve">
+    <value>Oxygen green, at 557.7 nanometres: the commonest aurora colour, from about one hundred to two hundred kilometres up. Lower down, collisions take the energy before it can shine.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Horizon" xml:space="preserve">
+    <value>Your horizon. Anything below this line is hidden by the curve of the Earth, however bright it is.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Imf" xml:space="preserve">
+    <value>The interplanetary magnetic field: the Sun's field, carried out by the solar wind. Whether it points north or south decides whether it can join Earth's field and open the shield.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Inner" xml:space="preserve">
+    <value>The inner Van Allen belt, around one and a half Earth radii from the centre: mostly very energetic protons, made indirectly by cosmic rays striking the upper air.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Line" xml:space="preserve">
+    <value>The particle's field line. The centre of its spiral slides along this line, from one mirror point to the other.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Lobe" xml:space="preserve">
+    <value>The tail lobes: bundles of open field lines, tied to Earth at one end and to the solar wind at the other. They store the energy that a substorm later lets go.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_LossCone" xml:space="preserve">
+    <value>The loss cone. A particle whose pitch angle at the equator is smaller than this would only turn back below a hundred kilometres, so it hits the air instead. Out here the cone is just a few degrees wide.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Magnetopause" xml:space="preserve">
+    <value>The magnetopause: the edge of Earth's magnetic field, where its pressure balances the solar wind's. The stronger the wind, the closer it comes.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Meridian" xml:space="preserve">
+    <value>The magnetic meridian from you to the magnetic pole. The slice on the right is cut along this line.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Mirror" xml:space="preserve">
+    <value>A mirror point: where the field becomes strong enough to turn the particle back. Its spiral is tightest here, and for a moment it only goes round, not along.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Night" xml:space="preserve">
+    <value>The midnight side of the oval. Substorms usually break out here, a little before magnetic midnight, when the aurora suddenly brightens and starts to dance.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_OpenLine" xml:space="preserve">
+    <value>An open field line: one end is tied to Earth near the pole, the other is out in the solar wind. The wind drags it over the pole and into the tail.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Outer" xml:space="preserve">
+    <value>The outer Van Allen belt, about three to six Earth radii out: mostly energetic electrons. It swells and shrinks with every storm.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Oval" xml:space="preserve">
+    <value>The auroral oval: the ring around each magnetic pole where the aurora usually is. It keeps its place towards the Sun, is wider on the night side, and grows towards the equator in storms.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Particle" xml:space="preserve">
+    <value>A trapped particle. A real one is far too small to see, and much faster: an electron like this goes round its spiral tens of thousands of times a second.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_PlasmaSheet" xml:space="preserve">
+    <value>The plasma sheet: a layer of hot plasma in the middle of the tail. When the tail reconnects, particles from here are shot towards Earth and feed the aurora.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Pole" xml:space="preserve">
+    <value>The geomagnetic pole, where the axis of Earth's magnetic field comes out. It's about a thousand kilometres from the geographic pole, so two places at the same latitude can be very different distances from the aurora.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Red" xml:space="preserve">
+    <value>Oxygen red, at 630 nanometres: from above about two hundred kilometres, where the air is thin enough for an excited atom to wait nearly two minutes and still shine.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Ring" xml:space="preserve">
+    <value>The ring current: protons drift west and electrons east, so together they carry a current westward round Earth. In a storm it grows, and weakens the field at the ground.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Seen" xml:space="preserve">
+    <value>How far from the oval the top of the aurora can still peek over your horizon. The higher it glows, and slower electrons make it glow higher, the farther away it can be seen.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Sheath" xml:space="preserve">
+    <value>The magnetosheath: the slowed, hot, squeezed solar wind between the bow shock and the magnetopause. It flows around the magnetosphere, with the Sun's field draped over it.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Shell" xml:space="preserve">
+    <value>The drift shell. As it bounces, the particle also drifts slowly round Earth on this shell, because the field is stronger nearer Earth and bends its circles a little more on that side.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Sight" xml:space="preserve">
+    <value>Your lines of sight to the bottom and the top of the curtain. Their angles above the horizon are how high the aurora stands in your sky.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Spiral" xml:space="preserve">
+    <value>The spiral: the magnetic force always pushes sideways, so the particle circles the field line while gliding along it. Electrons and protons circle in opposite directions.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Stripped" xml:space="preserve">
+    <value>Without a magnetic field, the solar wind reaches the upper air directly and slowly strips it away. Mars has lost much of its atmosphere like this over billions of years.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Sun" xml:space="preserve">
+    <value>The Sun, drawn far too close: it's about twenty-three thousand Earth radii away. As well as light, it blows out the solar wind, and now and then it hurls out huge clouds of plasma that set off storms.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Tail" xml:space="preserve">
+    <value>The magnetotail: the night side of the magnetosphere, stretched by the solar wind to hundreds of Earth radii, far beyond the Moon's orbit.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_TailX" xml:space="preserve">
+    <value>Reconnection in the tail: the stretched open lines from north and south rejoin in the middle of the tail. The closed part snaps back towards Earth, and the rest flies off with the wind.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_View" xml:space="preserve">
+    <value>Your sky, facing the aurora. The curtain is drawn where the slice puts it, folding and rippling the way real ones do.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Violet" xml:space="preserve">
+    <value>Nitrogen violet and blue, around 428 nanometres: a fringe along the bottom edge, where the fastest electrons reach deepest.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Wind" xml:space="preserve">
+    <value>The solar wind: charged particles, mostly protons and electrons, streaming off the Sun at three hundred to eight hundred kilometres a second. It takes two to four days to reach Earth.</value>
+  </data>
+  <data name="Narr_Aurora_Obj_You" xml:space="preserve">
+    <value>This is you, at the observing place chosen on the left-hand page. Change it to see how far from the aurora other places are.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_01" xml:space="preserve">
+    <value>Some particles don't just flow past. They get trapped inside Earth's magnetic field. Follow this bright dot: it's a single electron.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_02" xml:space="preserve">
+    <value>A magnetic field pushes a moving charge sideways, so the electron can't cross the field line. Instead it circles around it while sliding along it. That makes a spiral.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_03" xml:space="preserve">
+    <value>Near the poles, the field lines crowd together and the field gets stronger. That squeezes the spiral tighter and tighter, until the electron stops and turns back. This turning point is called a mirror point.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_04" xml:space="preserve">
+    <value>So the electron bounces from north to south and back, again and again. And slowly, its whole path creeps around Earth. Electrons drift east, and protons drift west.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_05" xml:space="preserve">
+    <value>Here's a question. What decides how close to the pole the electron gets before it turns back?</value>
+  </data>
+  <data name="Narr_Aurora_Particles_06" xml:space="preserve">
+    <value>It's the angle between its path and the field, called the pitch angle. The more steeply it runs along the field, the farther it gets. Below a few degrees, inside what's called the loss cone, it never turns back at all.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_07" xml:space="preserve">
+    <value>Instead, it reaches the air near the pole and stops there, and its energy makes the air glow. Every aurora is made of particles like this one, falling out of the loss cone.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_08" xml:space="preserve">
+    <value>The particles that do stay trapped fill two huge doughnuts around Earth, the Van Allen belts. The inner one holds mostly protons, and the outer one mostly electrons.</value>
+  </data>
+  <data name="Narr_Aurora_Particles_09" xml:space="preserve">
+    <value>Your turn. Try a proton instead of an electron, and watch which way it drifts. Or change the pitch angle, and see where it turns back.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_01" xml:space="preserve">
+    <value>Here is Earth seen side on, with the Sun far away to the left. The Sun blows out a thin wind of charged particles, the solar wind, at around four hundred kilometres a second. Those are the streaks coming in from the left.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_02" xml:space="preserve">
+    <value>The wind is faster than any wave can travel through it. So in front of Earth it piles up into a shock wave, the bow shock, a bit like the wave in front of a boat. Behind it, the wind slows down and heats up.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_03" xml:space="preserve">
+    <value>Inside is Earth's own magnetic field. Its edge, the magnetopause, is where the field pushes back as hard as the wind pushes in. On the day side that's about ten Earth radii out. On the night side, the wind drags the field out into a long tail.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_04" xml:space="preserve">
+    <value>So here's a question. If the solar wind blows harder, what happens to the magnetopause?</value>
+  </data>
+  <data name="Narr_Aurora_Shield_05" xml:space="preserve">
+    <value>It gets pushed closer. Here is a storm: a cloud thrown off the Sun, arriving at over eight hundred kilometres a second. Look how much the magnetopause shrinks. In the biggest storms, satellites in geostationary orbit end up outside it, right in the solar wind.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_06" xml:space="preserve">
+    <value>The solar wind also carries the Sun's magnetic field along with it. When that field points south, as it does here, it points the opposite way to Earth's field at the front of the magnetosphere. Then something remarkable happens.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_07" xml:space="preserve">
+    <value>The two fields join up. The lines break and reconnect, so this field line from the Sun is now tied to Earth at one end. The wind keeps pulling at the other end, dragging it over the poles and back into the tail.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_08" xml:space="preserve">
+    <value>Deep in the tail, the stretched lines from north and south meet in the middle and reconnect a second time. The new closed line snaps back towards Earth like a released rubber band, and flings electrons down along it.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_09" xml:space="preserve">
+    <value>Those electrons rain down into the air in a ring around each pole and make it glow. That's the aurora. This whole loop is called the Dungey cycle, and a real one takes about an hour.</value>
+  </data>
+  <data name="Narr_Aurora_Shield_10" xml:space="preserve">
+    <value>Your turn. Use the slider to turn the Sun's field northward, or switch off Earth's field altogether, and see what happens to the shield.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_01" xml:space="preserve">
+    <value>Here is Earth seen from above the magnetic pole nearest you. The green ring is the auroral oval, where falling electrons reach the air. Notice it's centred on the magnetic pole, not the geographic one.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_02" xml:space="preserve">
+    <value>The oval stays turned away from the Sun, while Earth spins underneath it. It's brightest a little before magnetic midnight, so that's the best time to look.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_03" xml:space="preserve">
+    <value>The gold dot is you, at the observing place chosen on the left-hand page. The dashed blue line runs from you towards the magnetic pole, and the slice on the right is taken along it.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_04" xml:space="preserve">
+    <value>A question. When the Sun is stormy, which way does the oval move?</value>
+  </data>
+  <data name="Narr_Aurora_Sky_05" xml:space="preserve">
+    <value>It grows, and slides towards the equator. The dashed gold line shows how far away you can still glimpse it, low over the horizon. That's possible because the aurora is so high up, from about one hundred to four hundred kilometres.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_06" xml:space="preserve">
+    <value>On the right is a slice from you to the aurora, drawn with Earth's real curve. The curtain stands upright. If it's too far away, the curve of the Earth hides it below your horizon.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_07" xml:space="preserve">
+    <value>The colours come from the air itself. Low down, oxygen atoms glow green. Higher up, where the air is thin, oxygen glows red, because up there an excited atom can wait almost two minutes to shine without bumping into anything. At the very bottom, nitrogen adds a violet fringe.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_08" xml:space="preserve">
+    <value>Slower electrons stop higher up, so the aurora they make is mostly red. In great storms, people far from the poles often see only this red glow.</value>
+  </data>
+  <data name="Narr_Aurora_Sky_09" xml:space="preserve">
+    <value>Your turn. Drag the Kp slider up and down, or change the electrons' energy, and watch how the curtain, its colours, and your sky change.</value>
+  </data>
   <data name="Narr_Breeze_Cell_01" xml:space="preserve">
     <value>Let's build that loop step by step. Sea on the left, land on the right. These white lines are surfaces of equal pressure. While the land and the sea are equally warm, they lie flat.</value>
   </data>
@@ -7499,6 +8582,156 @@
   </data>
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>So the Moon's shape tells you roughly when it rises and sets. Drag across the picture to change the time and go looking for the Moon.</value>
+  </data>
+  <data name="Narr_Rain_Drop_01" xml:space="preserve">
+    <value>Now a single raindrop, drawn hugely magnified, with sunlight coming in from the left. A raindrop is a tiny ball of water, and it works a bit like a prism.</value>
+  </data>
+  <data name="Narr_Rain_Drop_02" xml:space="preserve">
+    <value>Follow one ray. It bends as it enters the drop, reflects once off the back, and bends again as it comes out, heading back toward the side the sunlight came from.</value>
+  </data>
+  <data name="Narr_Rain_Drop_03" xml:space="preserve">
+    <value>This is the ray that turns back the most steeply. Each colour comes out at a slightly different angle from the line back toward the Sun: red at about forty-two degrees, violet a little less. That's how the colours separate.</value>
+  </data>
+  <data name="Narr_Rain_Drop_04" xml:space="preserve">
+    <value>Now send rays in across the whole drop. They come out at all sorts of angles, but most of them crowd together near forty-two degrees. That crowding is what makes the rainbow bright.</value>
+  </data>
+  <data name="Narr_Rain_Drop_05" xml:space="preserve">
+    <value>So, where in the sky should you look to see a rainbow?</value>
+  </data>
+  <data name="Narr_Rain_Drop_06" xml:space="preserve">
+    <value>With your back to the Sun, because the light comes back out the way it came. And not all of it makes it: some reflects off the outside, some leaks out through the back. Only a small share comes out as rainbow light.</value>
+  </data>
+  <data name="Narr_Rain_Drop_07" xml:space="preserve">
+    <value>Some light reflects twice inside before it comes out. It crowds near fifty-one degrees, and makes a fainter second rainbow, with its colours the other way round.</value>
+  </data>
+  <data name="Narr_Rain_Drop_08" xml:space="preserve">
+    <value>Your turn. Drag up or down to move where the ray enters the drop, and find where it comes out at the steepest angle.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Antisolar" xml:space="preserve">
+    <value>The point opposite the Sun, where the shadow of your head falls. Every rainbow is a circle around it, so everyone sees their own rainbow.</value>
+  </data>
+  <data name="Narr_Rain_Obj_BowAngle" xml:space="preserve">
+    <value>The rainbow's radius, measured as an angle from the point opposite the Sun: about forty-two degrees for the main bow, and fifty-one for the second.</value>
+  </data>
+  <data name="Narr_Rain_Obj_BrightInside" xml:space="preserve">
+    <value>Inside the main bow the sky is brighter: drops at smaller angles still send light back to you, with the colours overlapping into white.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Crests" xml:space="preserve">
+    <value>The wave crests of the light, drawn more than ten thousand times bigger than real. Where light goes slower, the crests are closer together; the colour doesn't change.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Critical" xml:space="preserve">
+    <value>The critical angle. Light coming from inside at any steeper slant than this can't get out. The slower the material, the smaller the critical angle, which is why diamonds sparkle so much.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Crowd" xml:space="preserve">
+    <value>Where the rays crowd together. Rays entering near this point all come out at nearly the same angle, so lots of light goes that way: that's the rainbow angle.</value>
+  </data>
+  <data name="Narr_Rain_Obj_DarkBand" xml:space="preserve">
+    <value>Alexander's dark band, between the two bows. No light that has reflected once or twice in a drop comes out at these angles, so the sky there is darker.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Drop" xml:space="preserve">
+    <value>A raindrop, one or two millimetres across, drawn hugely magnified. Drag up or down to choose where the followed ray enters it.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Entry" xml:space="preserve">
+    <value>The angles where the ray enters the drop: outside, measured from the normal, and inside, smaller, because light slows down in water.</value>
+  </data>
+  <data name="Narr_Rain_Obj_ExitAngle" xml:space="preserve">
+    <value>The angle between the light coming out and the line back toward the Sun. For the main rainbow it can never be more than about forty-two degrees.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Incidence" xml:space="preserve">
+    <value>The angle of incidence: how far the incoming beam is tilted from the normal.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Index" xml:space="preserve">
+    <value>The refractive index, n, says how many times slower light goes in a material than in empty space: about 1.33 in water, 1.5 in glass, and 2.4 in diamond.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Lamp" xml:space="preserve">
+    <value>The lamp, sending out a narrow beam. Drag anywhere in the picture to aim it: the angle is measured from the normal, the upright dashed line.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Losses" xml:space="preserve">
+    <value>Light lost on the way: some reflects off the outside of the drop, and at each bounce inside some leaks out through the back.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Normal" xml:space="preserve">
+    <value>The normal: a line square to the surface where the light meets it. Angles in optics are measured from this line, not from the surface.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Out" xml:space="preserve">
+    <value>How much of the light that went in comes out along this path, toward someone watching the rainbow.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Primary" xml:space="preserve">
+    <value>The main rainbow, made by light reflected once inside the drops. Red on the outside, violet on the inside.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Prism" xml:space="preserve">
+    <value>A triangular prism. Its two faces bend the light the same way, so the colours spread twice as much as at one surface.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Reflected" xml:space="preserve">
+    <value>The share of light that bounces off the surface. Head-on it's only a few percent; at a grazing angle almost all of it reflects, like the glare off a lake.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Refracted" xml:space="preserve">
+    <value>The angle of refraction: how far the bent beam is tilted from the normal. Going into a slower material it's smaller than the angle of incidence; coming out, it's bigger.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Secondary" xml:space="preserve">
+    <value>The secondary rainbow, made by light reflected twice inside the drops. It's fainter, wider, and its colours are reversed.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Spectrum" xml:space="preserve">
+    <value>The spectrum: white light spread out into its colours, from red, bent the least, to violet, bent the most. Light of a single colour makes just one spot.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Through" xml:space="preserve">
+    <value>The share of light that goes on through the surface, bent by refraction. Together with the reflected share it adds up to all the light.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Total" xml:space="preserve">
+    <value>Total internal reflection: the light hits the surface from inside at more than the critical angle, and none of it can get out.</value>
+  </data>
+  <data name="Narr_Rain_Obj_Turn" xml:space="preserve">
+    <value>How far the prism turns the beam from its original direction. It's smallest when the light passes through the prism symmetrically.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_01" xml:space="preserve">
+    <value>A rainbow starts with light changing direction. Here a lamp shines a red beam down onto water. The stripes across the beam are its wave crests, moving along with the light.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_02" xml:space="preserve">
+    <value>Look at the crests once they're in the water: they bunch up closer together. Light travels about a quarter slower in water, so each wave covers less distance.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_03" xml:space="preserve">
+    <value>The beam meets the surface at a slant, so one edge of it slows down first, and the whole beam swings closer to the dashed upright line, the normal. That bending is called refraction.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_04" xml:space="preserve">
+    <value>Not all the light goes in. A little bounces off the surface instead: at this angle, just a few percent. The more slanting the beam, the more is reflected.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_05" xml:space="preserve">
+    <value>Now think about light going the other way, from inside the water up to the surface, at a very slanting angle. What happens?</value>
+  </data>
+  <data name="Narr_Rain_Refraction_06" xml:space="preserve">
+    <value>None of it gets out: it all reflects back inside. Past the critical angle, about forty-nine degrees for water, light can't escape. This total internal reflection is what keeps light trapped inside optical fibres.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_07" xml:space="preserve">
+    <value>Back to light going into the water, but now it's white light. Each colour bends by a slightly different amount: violet the most, red the least. The difference is drawn five times bigger here so you can see it.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_08" xml:space="preserve">
+    <value>A glass prism bends the light twice, once going in and once coming out, both times the same way. So the colours fan out even more, into a full spectrum on the screen.</value>
+  </data>
+  <data name="Narr_Rain_Refraction_09" xml:space="preserve">
+    <value>Your turn. Drag in the picture to aim the lamp at the prism from a different angle, and watch how the spectrum moves.</value>
+  </data>
+  <data name="Narr_Rain_Sky_01" xml:space="preserve">
+    <value>Now the real sky, with rain falling in front of you and the Sun low behind you. The point exactly opposite the Sun is where the shadow of your head falls.</value>
+  </data>
+  <data name="Narr_Rain_Sky_02" xml:space="preserve">
+    <value>Every raindrop that sits forty-two degrees away from that point sends its rainbow light straight to your eye. So the rainbow is a circle around the shadow of your head.</value>
+  </data>
+  <data name="Narr_Rain_Sky_03" xml:space="preserve">
+    <value>Red is on the outside and violet on the inside. Red light comes out at a slightly bigger angle, so the red you see comes from drops a little higher up.</value>
+  </data>
+  <data name="Narr_Rain_Sky_04" xml:space="preserve">
+    <value>Notice that the sky inside the bow is brighter. That's light from drops at smaller angles, all the colours mixed back into white.</value>
+  </data>
+  <data name="Narr_Rain_Sky_05" xml:space="preserve">
+    <value>Outside is the fainter second bow, with its colours reversed. And between the two, the sky is darker: a band called Alexander's dark band.</value>
+  </data>
+  <data name="Narr_Rain_Sky_06" xml:space="preserve">
+    <value>What do you think happens to the rainbow as the Sun climbs higher in the sky?</value>
+  </data>
+  <data name="Narr_Rain_Sky_07" xml:space="preserve">
+    <value>It sinks. The circle's centre is as far below the horizon as the Sun is above it. Once the Sun is higher than about forty-two degrees, the whole bow is below the horizon. That's why rainbows are usually seen in the morning or late in the afternoon.</value>
+  </data>
+  <data name="Narr_Rain_Sky_08" xml:space="preserve">
+    <value>Your turn. Drag the sky up or down to move the Sun, and watch the rainbow rise and sink.</value>
   </data>
   <data name="Narr_Retro_Above_01" xml:space="preserve">
     <value>Now let's fly far above the Sun and look down. Here are the orbits of Earth and Mars, drawn to scale. They both go round the same way.</value>
@@ -9017,6 +10250,720 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>Walkthroughs {0}/{1}</value>
+  </data>
+  <data name="Rain_Angle" xml:space="preserve">
+    <value>Angle from the normal</value>
+  </data>
+  <data name="Rain_Angle_Critical" xml:space="preserve">
+    <value>Critical angle</value>
+  </data>
+  <data name="Rain_Angle_Least" xml:space="preserve">
+    <value>Least turn</value>
+  </data>
+  <data name="Rain_Chart_AllReflected" xml:space="preserve">
+    <value>all reflected</value>
+  </data>
+  <data name="Rain_Chart_Bent" xml:space="preserve">
+    <value>bent angle θ₂</value>
+  </data>
+  <data name="Rain_Chart_DarkBand" xml:space="preserve">
+    <value>dark band: no light comes out</value>
+  </data>
+  <data name="Rain_Chart_DarkBandShort" xml:space="preserve">
+    <value>dark band</value>
+  </data>
+  <data name="Rain_Chart_Deviation_Caption" xml:space="preserve">
+    <value>Where the light comes out, by where it went in</value>
+  </data>
+  <data name="Rain_Chart_Deviation_Note" xml:space="preserve">
+    <value>Across: where the ray enters, from the centre (0) to the edge (1). Up: its angle from the point opposite the Sun. The primary curve tops out at 42° and turns back, so many rays pile up there; the secondary bottoms out at 51°. Nothing comes out in between.</value>
+  </data>
+  <data name="Rain_Chart_Least" xml:space="preserve">
+    <value>○ least turn</value>
+  </data>
+  <data name="Rain_Chart_Primary" xml:space="preserve">
+    <value>primary {0}°</value>
+  </data>
+  <data name="Rain_Chart_Prism_Caption" xml:space="preserve">
+    <value>How far the prism turns each colour</value>
+  </data>
+  <data name="Rain_Chart_Prism_Note" xml:space="preserve">
+    <value>Across: the angle the beam meets the first face at. Each colour has an angle of least turn (circle), where it crosses the prism symmetrically. Violet is always turned more than red; too flat a beam cannot get out of the second face.</value>
+  </data>
+  <data name="Rain_Chart_Profile_Caption" xml:space="preserve">
+    <value>Brightness by angle from the point opposite the Sun</value>
+  </data>
+  <data name="Rain_Chart_Profile_Note" xml:space="preserve">
+    <value>Worked out from rays through drops of this size, in the colours they make: the sky glows inside the primary, the bow peaks at 42°, then the dark band, then the fainter secondary at 51° (square-root scale, so the faint parts show).</value>
+  </data>
+  <data name="Rain_Chart_ReflectedShare" xml:space="preserve">
+    <value>share reflected</value>
+  </data>
+  <data name="Rain_Chart_Secondary" xml:space="preserve">
+    <value>secondary {0}°</value>
+  </data>
+  <data name="Rain_Chart_Side_Caption" xml:space="preserve">
+    <value>From the side: which drops send you which colour</value>
+  </data>
+  <data name="Rain_Chart_Side_Note" xml:space="preserve">
+    <value>Every drop sends red out at about 42° and violet at about 40.6°. So the red you see comes from drops a little higher up and the violet from drops a little lower: red is on the outside of the bow. In the secondary bow it is the other way round.</value>
+  </data>
+  <data name="Rain_Chart_Surface_Caption" xml:space="preserve">
+    <value>Bent angle and reflection, by the beam's angle</value>
+  </data>
+  <data name="Rain_Chart_Surface_Note" xml:space="preserve">
+    <value>The dashed line would be no bending at all. Going in, the bent ray is always nearer the normal; coming out it leaves further from it, until past the critical angle nothing leaves. Straight on only a few percent is reflected; toward grazing it climbs steeply.</value>
+  </data>
+  <data name="Rain_Chart_ToAntisolar" xml:space="preserve">
+    <value>to the point opposite the Sun</value>
+  </data>
+  <data name="Rain_Chart_Turn" xml:space="preserve">
+    <value>turn (deviation)</value>
+  </data>
+  <data name="Rain_Colour_Caption" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Rain_Colour_Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="Rain_Colour_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="Rain_Colour_Violet" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="Rain_Colour_White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Rain_Diagram_AllReflected" xml:space="preserve">
+    <value>All reflected: none gets out</value>
+  </data>
+  <data name="Rain_Diagram_Antisolar" xml:space="preserve">
+    <value>Opposite the Sun: your head's shadow</value>
+  </data>
+  <data name="Rain_Diagram_BrightInside" xml:space="preserve">
+    <value>Brighter inside the bow</value>
+  </data>
+  <data name="Rain_Diagram_Critical" xml:space="preserve">
+    <value>Critical angle {0}°</value>
+  </data>
+  <data name="Rain_Diagram_Crowd" xml:space="preserve">
+    <value>Rays crowd here: {0}°</value>
+  </data>
+  <data name="Rain_Diagram_CrowdSecondary" xml:space="preserve">
+    <value>Secondary's crowd: {0}°</value>
+  </data>
+  <data name="Rain_Diagram_DarkBand" xml:space="preserve">
+    <value>Alexander's dark band</value>
+  </data>
+  <data name="Rain_Diagram_DropSize" xml:space="preserve">
+    <value>One raindrop, 1–2 mm across (drawn huge)</value>
+  </data>
+  <data name="Rain_Diagram_ExitWhite" xml:space="preserve">
+    <value>red {0}° · violet {1}°</value>
+  </data>
+  <data name="Rain_Diagram_Medium" xml:space="preserve">
+    <value>{0} · n = {1} · light at {2}</value>
+  </data>
+  <data name="Rain_Diagram_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Rain_Diagram_Out" xml:space="preserve">
+    <value>{0} of the light comes out here</value>
+  </data>
+  <data name="Rain_Diagram_PrimaryBow" xml:space="preserve">
+    <value>Primary: red outside</value>
+  </data>
+  <data name="Rain_Diagram_Prism" xml:space="preserve">
+    <value>{0} prism · apex {1}°</value>
+  </data>
+  <data name="Rain_Diagram_Reflected" xml:space="preserve">
+    <value>Reflected {0}</value>
+  </data>
+  <data name="Rain_Diagram_SecondaryBow" xml:space="preserve">
+    <value>Secondary: colours reversed</value>
+  </data>
+  <data name="Rain_Diagram_Spectrum" xml:space="preserve">
+    <value>Spectrum</value>
+  </data>
+  <data name="Rain_Diagram_Spot" xml:space="preserve">
+    <value>One colour, one spot</value>
+  </data>
+  <data name="Rain_Diagram_SunBehind" xml:space="preserve">
+    <value>Sun behind you, {0}° up</value>
+  </data>
+  <data name="Rain_Diagram_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="Rain_Diagram_Through" xml:space="preserve">
+    <value>Through {0}</value>
+  </data>
+  <data name="Rain_Diagram_Turn" xml:space="preserve">
+    <value>turned {0}°</value>
+  </data>
+  <data name="Rain_Diagram_TurnWhite" xml:space="preserve">
+    <value>yellow turned {0}°</value>
+  </data>
+  <data name="Rain_DragHint_Drop" xml:space="preserve">
+    <value>Drag up or down to pick where the ray enters.</value>
+  </data>
+  <data name="Rain_DragHint_Refraction_Prism" xml:space="preserve">
+    <value>Drag to aim the lamp at the prism.</value>
+  </data>
+  <data name="Rain_DragHint_Refraction_Surface" xml:space="preserve">
+    <value>Drag anywhere to aim the lamp, or let it sweep.</value>
+  </data>
+  <data name="Rain_DragHint_Sky" xml:space="preserve">
+    <value>Drag the bow up or down: a lower bow means a higher Sun.</value>
+  </data>
+  <data name="Rain_Drop_Edge_Primary" xml:space="preserve">
+    <value>Past the rainbow ray the angle turns back and gets smaller again. So no light from a single reflection comes out wider than 42°: outside the bow the sky is darker.</value>
+  </data>
+  <data name="Rain_Drop_Edge_Secondary" xml:space="preserve">
+    <value>Past its rainbow ray the angle grows again. No twice-reflected light comes out at less than 51°, which leaves a dark band between the two bows.</value>
+  </data>
+  <data name="Rain_Drop_Edge_Title" xml:space="preserve">
+    <value>Near the edge</value>
+  </data>
+  <data name="Rain_Drop_Fact1" xml:space="preserve">
+    <value>René Descartes worked out the 42° in 1637 by following rays through a drop one by one, much as this chapter does.</value>
+  </data>
+  <data name="Rain_Drop_Fact2" xml:space="preserve">
+    <value>Each drop sends just one colour to your eye. The bow you see is made of millions of drops, a different set for each colour, and the person next to you sees a different bow.</value>
+  </data>
+  <data name="Rain_Drop_Fact3" xml:space="preserve">
+    <value>Light that reflects three or four times inside makes bows near the Sun, very faint and drowned in its glare; they were only photographed in 2011.</value>
+  </data>
+  <data name="Rain_Drop_Fact4" xml:space="preserve">
+    <value>Rainbow light is strongly polarised along the bow: through polarising sunglasses, parts of a rainbow can vanish as you tilt your head.</value>
+  </data>
+  <data name="Rain_Drop_Fact5" xml:space="preserve">
+    <value>Faint extra pink and green bands just inside a bright bow (supernumerary bows) cannot be explained by rays at all: they come from light waves interfering, which helped prove light is a wave.</value>
+  </data>
+  <data name="Rain_Drop_Middle_Primary" xml:space="preserve">
+    <value>A ray through the middle comes almost straight back. Further out it comes back at a wider and wider angle, but not past about 42°.</value>
+  </data>
+  <data name="Rain_Drop_Middle_Secondary" xml:space="preserve">
+    <value>With two reflections a ray near the middle carries on almost forward. Further out it comes back nearer and nearer the Sun's direction, down to about 51°.</value>
+  </data>
+  <data name="Rain_Drop_Middle_Title" xml:space="preserve">
+    <value>Near the middle</value>
+  </data>
+  <data name="Rain_Drop_Note" xml:space="preserve">
+    <value>Sunlight from the left through one drop. A ray bends going in, reflects off the back and bends again coming out, heading back toward someone with the Sun behind them.</value>
+  </data>
+  <data name="Rain_Drop_Rainbow_Primary" xml:space="preserve">
+    <value>About 0.86 of the way out, the ray comes back at its widest, 42°. Here moving the ray in or out hardly changes where it goes, so the light from a wide band of the drop piles up at this one angle: that bright pile-up is the rainbow.</value>
+  </data>
+  <data name="Rain_Drop_Rainbow_Secondary" xml:space="preserve">
+    <value>About 0.95 of the way out, the twice-reflected ray turns back least, at 51°. Light piles up here too: the secondary bow. Two reflections lose more light, so it is fainter.</value>
+  </data>
+  <data name="Rain_Drop_Rainbow_Title" xml:space="preserve">
+    <value>The rainbow ray</value>
+  </data>
+  <data name="Rain_Drop_Secondary_Note" xml:space="preserve">
+    <value>Sunlight from the left through one drop. A ray entering low bends going in, reflects off the back twice and bends again coming out of the top, heading back toward someone with the Sun behind them.</value>
+  </data>
+  <data name="Rain_Drop_Secondary_Subtitle" xml:space="preserve">
+    <value>In, reflected twice, and out at 51°</value>
+  </data>
+  <data name="Rain_Drop_Subtitle" xml:space="preserve">
+    <value>In, reflected, and out at 42°</value>
+  </data>
+  <data name="Rain_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Rain_Home_AllDay" xml:space="preserve">
+    <value>{0} today: the Sun stays below {1}° all day, so a rainbow can show at any hour when rain falls opposite the Sun.</value>
+  </data>
+  <data name="Rain_Home_Never" xml:space="preserve">
+    <value>{0} today: the Sun never gets below {1}° while it is up.</value>
+  </data>
+  <data name="Rain_Home_Now" xml:space="preserve">
+    <value>Now in {0}</value>
+  </data>
+  <data name="Rain_Home_Window" xml:space="preserve">
+    <value>{0} today: the Sun is higher than {1}° from {2} to {3}, too high for a rainbow. Look for one earlier or later in the day.</value>
+  </data>
+  <data name="Rain_Impact" xml:space="preserve">
+    <value>Where the ray enters</value>
+  </data>
+  <data name="Rain_Impact_Rainbow" xml:space="preserve">
+    <value>Follow the rainbow ray</value>
+  </data>
+  <data name="Rain_Impact_Value" xml:space="preserve">
+    <value>{0} × radius</value>
+  </data>
+  <data name="Rain_Lesson_Drop_Choice1" xml:space="preserve">
+    <value>With the Sun behind you</value>
+  </data>
+  <data name="Rain_Lesson_Drop_Choice2" xml:space="preserve">
+    <value>Toward the Sun</value>
+  </data>
+  <data name="Rain_Lesson_Drop_Choice3" xml:space="preserve">
+    <value>Straight overhead</value>
+  </data>
+  <data name="Rain_Lesson_Refraction_Choice1" xml:space="preserve">
+    <value>It all reflects back into the water</value>
+  </data>
+  <data name="Rain_Lesson_Refraction_Choice2" xml:space="preserve">
+    <value>It goes straight out without bending</value>
+  </data>
+  <data name="Rain_Lesson_Refraction_Choice3" xml:space="preserve">
+    <value>It bends toward the normal</value>
+  </data>
+  <data name="Rain_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>It sinks lower</value>
+  </data>
+  <data name="Rain_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>It rises higher</value>
+  </data>
+  <data name="Rain_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>It stays the same</value>
+  </data>
+  <data name="Rain_Medium_Air" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="Rain_Medium_Caption" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="Rain_Medium_Diamond" xml:space="preserve">
+    <value>Diamond</value>
+  </data>
+  <data name="Rain_Medium_Glass" xml:space="preserve">
+    <value>Glass</value>
+  </data>
+  <data name="Rain_Medium_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Rain_Mode_Drop" xml:space="preserve">
+    <value>A raindrop</value>
+  </data>
+  <data name="Rain_Mode_Refraction" xml:space="preserve">
+    <value>Refraction</value>
+  </data>
+  <data name="Rain_Mode_Sky" xml:space="preserve">
+    <value>In the sky</value>
+  </data>
+  <data name="Rain_Obj_Antisolar" xml:space="preserve">
+    <value>Point opposite the Sun</value>
+  </data>
+  <data name="Rain_Obj_BowAngle" xml:space="preserve">
+    <value>Rainbow radius</value>
+  </data>
+  <data name="Rain_Obj_BrightInside" xml:space="preserve">
+    <value>Brighter inside</value>
+  </data>
+  <data name="Rain_Obj_Crests" xml:space="preserve">
+    <value>Wave crests</value>
+  </data>
+  <data name="Rain_Obj_Critical" xml:space="preserve">
+    <value>Critical angle</value>
+  </data>
+  <data name="Rain_Obj_Crowd" xml:space="preserve">
+    <value>Where the rays crowd</value>
+  </data>
+  <data name="Rain_Obj_DarkBand" xml:space="preserve">
+    <value>Alexander's dark band</value>
+  </data>
+  <data name="Rain_Obj_Drop" xml:space="preserve">
+    <value>Raindrop</value>
+  </data>
+  <data name="Rain_Obj_Entry" xml:space="preserve">
+    <value>Bending on the way in</value>
+  </data>
+  <data name="Rain_Obj_ExitAngle" xml:space="preserve">
+    <value>Angle coming out</value>
+  </data>
+  <data name="Rain_Obj_Incidence" xml:space="preserve">
+    <value>Angle of incidence</value>
+  </data>
+  <data name="Rain_Obj_Index" xml:space="preserve">
+    <value>Refractive index</value>
+  </data>
+  <data name="Rain_Obj_Lamp" xml:space="preserve">
+    <value>Lamp</value>
+  </data>
+  <data name="Rain_Obj_Losses" xml:space="preserve">
+    <value>Light lost on the way</value>
+  </data>
+  <data name="Rain_Obj_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Rain_Obj_Out" xml:space="preserve">
+    <value>Light that comes out</value>
+  </data>
+  <data name="Rain_Obj_Primary" xml:space="preserve">
+    <value>Primary rainbow</value>
+  </data>
+  <data name="Rain_Obj_Prism" xml:space="preserve">
+    <value>Prism</value>
+  </data>
+  <data name="Rain_Obj_Reflected" xml:space="preserve">
+    <value>Reflected light</value>
+  </data>
+  <data name="Rain_Obj_Refracted" xml:space="preserve">
+    <value>Angle of refraction</value>
+  </data>
+  <data name="Rain_Obj_Secondary" xml:space="preserve">
+    <value>Secondary rainbow</value>
+  </data>
+  <data name="Rain_Obj_Spectrum" xml:space="preserve">
+    <value>Spectrum</value>
+  </data>
+  <data name="Rain_Obj_Through" xml:space="preserve">
+    <value>Light that goes through</value>
+  </data>
+  <data name="Rain_Obj_Total" xml:space="preserve">
+    <value>Total internal reflection</value>
+  </data>
+  <data name="Rain_Obj_Turn" xml:space="preserve">
+    <value>How far it turns</value>
+  </data>
+  <data name="Rain_Option_Exaggerate" xml:space="preserve">
+    <value>Spread colours ×5</value>
+  </data>
+  <data name="Rain_Option_FromInside" xml:space="preserve">
+    <value>From inside out</value>
+  </data>
+  <data name="Rain_Option_Guides" xml:space="preserve">
+    <value>Angles and labels</value>
+  </data>
+  <data name="Rain_Option_Losses" xml:space="preserve">
+    <value>Light lost on the way</value>
+  </data>
+  <data name="Rain_Option_Secondary" xml:space="preserve">
+    <value>Secondary bow</value>
+  </data>
+  <data name="Rain_Option_Sheet" xml:space="preserve">
+    <value>Sheet of rays</value>
+  </data>
+  <data name="Rain_Option_Waves" xml:space="preserve">
+    <value>Wave crests</value>
+  </data>
+  <data name="Rain_Order_Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="Rain_Order_Caption" xml:space="preserve">
+    <value>Which bow</value>
+  </data>
+  <data name="Rain_Order_Primary" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="Rain_Order_Secondary" xml:space="preserve">
+    <value>Secondary</value>
+  </data>
+  <data name="Rain_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Rain_Prism_Bent_Description" xml:space="preserve">
+    <value>One colour gives one spot on the screen. Going in it bends toward the face's normal, coming out away from the other face's normal: both turn it down toward the prism's base.</value>
+  </data>
+  <data name="Rain_Prism_Bent_Title" xml:space="preserve">
+    <value>Bent twice, the same way</value>
+  </data>
+  <data name="Rain_Prism_Least_Description" xml:space="preserve">
+    <value>The ray crosses the prism parallel to its base, symmetrically. Turning the prism either way only turns the light more. Measuring this angle is how the index of glass is found.</value>
+  </data>
+  <data name="Rain_Prism_Least_Title" xml:space="preserve">
+    <value>The least turn</value>
+  </data>
+  <data name="Rain_Prism_Split_Description" xml:space="preserve">
+    <value>Each colour has its own index: violet is slowed most and bent most, red least. The second face bends them the same way again, so the colours fan out into a spectrum.</value>
+  </data>
+  <data name="Rain_Prism_Split_Title" xml:space="preserve">
+    <value>Bent twice, split into colours</value>
+  </data>
+  <data name="Rain_Prism_Trapped_Description" xml:space="preserve">
+    <value>The beam meets the second face past the critical angle and is all reflected; it leaves through the base instead. Binoculars use prisms this way as mirrors.</value>
+  </data>
+  <data name="Rain_Prism_Trapped_Title" xml:space="preserve">
+    <value>Trapped: reflected inside</value>
+  </data>
+  <data name="Rain_Purity_Pastel" xml:space="preserve">
+    <value>pale</value>
+  </data>
+  <data name="Rain_Purity_Vivid" xml:space="preserve">
+    <value>vivid</value>
+  </data>
+  <data name="Rain_Purity_White" xml:space="preserve">
+    <value>white (a fog bow)</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact1" xml:space="preserve">
+    <value>Newton split sunlight with a prism in 1666, then put the colours back together with a second prism, showing that white light is a mix of all colours.</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact2" xml:space="preserve">
+    <value>Dispersion (each colour bent differently) is why cheap lenses give coloured fringes; camera lenses pair two glasses to cancel it.</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact3" xml:space="preserve">
+    <value>A diamond spreads colours about three times more than window glass: the flashes of colour it throws are called its fire.</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact4" xml:space="preserve">
+    <value>Violet light slows down more in glass than red, which is why it is bent more. In empty space every colour travels at the same speed.</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact5" xml:space="preserve">
+    <value>Binoculars and periscopes use prisms as mirrors: past the critical angle a glass face reflects all the light, better than a silvered mirror.</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Note" xml:space="preserve">
+    <value>Bent once going in and again coming out, both times the same way. Violet slows a little more than red, so it is bent a little more.</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Subtitle" xml:space="preserve">
+    <value>A prism splits white light into its colours</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact1" xml:space="preserve">
+    <value>Snell's law: n₁ sin θ₁ = n₂ sin θ₂. It was found by Ibn Sahl in Baghdad in 984, and again by Willebrord Snellius in 1621.</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact2" xml:space="preserve">
+    <value>A straw in a glass of water looks broken, and a pool looks shallower than it is (about three quarters as deep), because light bends as it leaves the water.</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact3" xml:space="preserve">
+    <value>A diamond's index of 2.42 gives it a critical angle of only 24°, so light that enters is reflected round inside many times before it gets out: that is its sparkle.</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact4" xml:space="preserve">
+    <value>Optical fibres carry the internet as light kept inside thin glass by total internal reflection, round bends and under oceans.</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact5" xml:space="preserve">
+    <value>Light's colour is set by its frequency, which never changes: in water the waves are only closer together. A fish sees the same colours you do.</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Note" xml:space="preserve">
+    <value>Light is slower in water (by 1.33 times), glass (1.5) and diamond (2.4). The crests are drawn more than 10 000 times further apart than real light's.</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Subtitle" xml:space="preserve">
+    <value>Light bends where it changes speed</value>
+  </data>
+  <data name="Rain_Scene_Caption" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="Rain_Scene_Prism" xml:space="preserve">
+    <value>Prism</value>
+  </data>
+  <data name="Rain_Scene_Surface" xml:space="preserve">
+    <value>Flat surface</value>
+  </data>
+  <data name="Rain_Size_Caption" xml:space="preserve">
+    <value>Drop size</value>
+  </data>
+  <data name="Rain_Size_Drizzle" xml:space="preserve">
+    <value>Drizzle, 0.2 mm</value>
+  </data>
+  <data name="Rain_Size_Fog" xml:space="preserve">
+    <value>Fog, 0.02 mm</value>
+  </data>
+  <data name="Rain_Size_Large" xml:space="preserve">
+    <value>Big drops, 2 mm</value>
+  </data>
+  <data name="Rain_Size_Rain" xml:space="preserve">
+    <value>Rain, 1 mm</value>
+  </data>
+  <data name="Rain_Sky_Fact1" xml:space="preserve">
+    <value>A rainbow is not in any one place: it is a direction, 42° from the point opposite the Sun. Walk toward it and it moves with you.</value>
+  </data>
+  <data name="Rain_Sky_Fact2" xml:space="preserve">
+    <value>From a plane or a mountain top, where there is rain below you as well, you can see the whole circle.</value>
+  </data>
+  <data name="Rain_Sky_Fact3" xml:space="preserve">
+    <value>The sky inside a rainbow is brighter than outside, and between the two bows is a darker band, named after Alexander of Aphrodisias, who described it around 200 AD.</value>
+  </data>
+  <data name="Rain_Sky_Fact4" xml:space="preserve">
+    <value>Fog and cloud droplets are so small that the colours smear together into a white fog bow; moonlight makes a faint moonbow that looks white to the eye.</value>
+  </data>
+  <data name="Rain_Sky_Fact5" xml:space="preserve">
+    <value>Because the bow's centre is as far below the horizon as the Sun is above it, from the ground you only see rainbows when the Sun is less than about 42° high (51° for the secondary).</value>
+  </data>
+  <data name="Rain_Sky_Low_Description" xml:space="preserve">
+    <value>The point opposite the Sun is on the horizon too, so half of each circle is in the sky: the tallest bows come early in the morning and late in the afternoon. Low sunlight is red, and so is the bow.</value>
+  </data>
+  <data name="Rain_Sky_Low_Title" xml:space="preserve">
+    <value>Sun on the horizon: a half circle</value>
+  </data>
+  <data name="Rain_Sky_Note" xml:space="preserve">
+    <value>Looking at falling rain with the Sun behind you. Colours and brightness are worked out from rays through the drops, coloured by the sunlight reaching them.</value>
+  </data>
+  <data name="Rain_Sky_SecondaryOnly_Description" xml:space="preserve">
+    <value>With the Sun more than 42° up, the primary bow is below the horizon. The secondary, 51° round, still peeks over it for a few more degrees.</value>
+  </data>
+  <data name="Rain_Sky_SecondaryOnly_Title" xml:space="preserve">
+    <value>Only the secondary is left</value>
+  </data>
+  <data name="Rain_Sky_Sinking_Description" xml:space="preserve">
+    <value>The bow is always centred on the point opposite the Sun, as far below the horizon as the Sun is above it. The higher the Sun, the less of the circle is left above the ground.</value>
+  </data>
+  <data name="Rain_Sky_Sinking_Title" xml:space="preserve">
+    <value>The bow sinks as the Sun climbs</value>
+  </data>
+  <data name="Rain_Sky_Subtitle" xml:space="preserve">
+    <value>A circle of light 42° round your shadow's head</value>
+  </data>
+  <data name="Rain_Sky_TooHigh_Description" xml:space="preserve">
+    <value>Both circles are below the horizon. Around midday in summer you will not see a rainbow from the ground, but you can from a plane, or in the spray of a garden hose looking down.</value>
+  </data>
+  <data name="Rain_Sky_TooHigh_Title" xml:space="preserve">
+    <value>Sun too high: no bow</value>
+  </data>
+  <data name="Rain_Spread_Note" xml:space="preserve">
+    <value>The colours are drawn spread five times wider than they really are, so they can be seen; the numbers are real.</value>
+  </data>
+  <data name="Rain_Stat_Antisolar" xml:space="preserve">
+    <value>Point opposite the Sun</value>
+  </data>
+  <data name="Rain_Stat_Antisolar_Value" xml:space="preserve">
+    <value>{0}° (as far down as the Sun is up)</value>
+  </data>
+  <data name="Rain_Stat_Bow" xml:space="preserve">
+    <value>{0}: bow at</value>
+  </data>
+  <data name="Rain_Stat_Bow_Value" xml:space="preserve">
+    <value>{0}° (red {1}°, violet {2}°), ray at {3} × radius</value>
+  </data>
+  <data name="Rain_Stat_Colour" xml:space="preserve">
+    <value>Colours</value>
+  </data>
+  <data name="Rain_Stat_Colour_Value" xml:space="preserve">
+    <value>{0}: smeared {1}°, red to violet {2}°</value>
+  </data>
+  <data name="Rain_Stat_Colours" xml:space="preserve">
+    <value>By colour</value>
+  </data>
+  <data name="Rain_Stat_Colours_Value" xml:space="preserve">
+    <value>red {0} · violet {1}</value>
+  </data>
+  <data name="Rain_Stat_Critical" xml:space="preserve">
+    <value>Critical angle</value>
+  </data>
+  <data name="Rain_Stat_Critical_Value" xml:space="preserve">
+    <value>{0}° (from {1} into air)</value>
+  </data>
+  <data name="Rain_Stat_Dispersion_Value" xml:space="preserve">
+    <value>red {0} · violet {1}</value>
+  </data>
+  <data name="Rain_Stat_Drops" xml:space="preserve">
+    <value>Drops</value>
+  </data>
+  <data name="Rain_Stat_Exit" xml:space="preserve">
+    <value>{0}: comes out at</value>
+  </data>
+  <data name="Rain_Stat_Exit_Value" xml:space="preserve">
+    <value>{0}° · {1} of the light</value>
+  </data>
+  <data name="Rain_Stat_Impact" xml:space="preserve">
+    <value>Enters at</value>
+  </data>
+  <data name="Rain_Stat_InAngles" xml:space="preserve">
+    <value>Angles</value>
+  </data>
+  <data name="Rain_Stat_InAngles_Value" xml:space="preserve">
+    <value>in at {0}°, bent to {1}°</value>
+  </data>
+  <data name="Rain_Stat_Incidence" xml:space="preserve">
+    <value>Angle in θ₁</value>
+  </data>
+  <data name="Rain_Stat_Indices" xml:space="preserve">
+    <value>Refractive index</value>
+  </data>
+  <data name="Rain_Stat_Least" xml:space="preserve">
+    <value>Least turn</value>
+  </data>
+  <data name="Rain_Stat_Least_Value" xml:space="preserve">
+    <value>{0}° (coming in at {1}°)</value>
+  </data>
+  <data name="Rain_Stat_None" xml:space="preserve">
+    <value>none: all reflected</value>
+  </data>
+  <data name="Rain_Stat_Path" xml:space="preserve">
+    <value>From → into</value>
+  </data>
+  <data name="Rain_Stat_Path_Value" xml:space="preserve">
+    <value>{0} → {1}</value>
+  </data>
+  <data name="Rain_Stat_Polarised" xml:space="preserve">
+    <value>Polarised</value>
+  </data>
+  <data name="Rain_Stat_Polarised_Value" xml:space="preserve">
+    <value>{0}% of the bow's light, along the bow</value>
+  </data>
+  <data name="Rain_Stat_Prism" xml:space="preserve">
+    <value>Prism</value>
+  </data>
+  <data name="Rain_Stat_Prism_Value" xml:space="preserve">
+    <value>{0}, apex {1}°</value>
+  </data>
+  <data name="Rain_Stat_Refraction" xml:space="preserve">
+    <value>Bent angle θ₂</value>
+  </data>
+  <data name="Rain_Stat_Shares" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Rain_Stat_Shares_Value" xml:space="preserve">
+    <value>reflected {0} · through {1}</value>
+  </data>
+  <data name="Rain_Stat_Speed" xml:space="preserve">
+    <value>Light's speed</value>
+  </data>
+  <data name="Rain_Stat_Speed_Value" xml:space="preserve">
+    <value>in {0}: {1} ({2}% of in air)</value>
+  </data>
+  <data name="Rain_Stat_Spread" xml:space="preserve">
+    <value>Violet turned more by</value>
+  </data>
+  <data name="Rain_Stat_Sun" xml:space="preserve">
+    <value>Sun's height</value>
+  </data>
+  <data name="Rain_Stat_Top" xml:space="preserve">
+    <value>{0}: top</value>
+  </data>
+  <data name="Rain_Stat_Top_Below" xml:space="preserve">
+    <value>below the horizon</value>
+  </data>
+  <data name="Rain_Stat_Top_Value" xml:space="preserve">
+    <value>{0}° up · {1}% of its circle in the sky</value>
+  </data>
+  <data name="Rain_Stat_Turn" xml:space="preserve">
+    <value>Turned by</value>
+  </data>
+  <data name="Rain_Stat_Wavelength" xml:space="preserve">
+    <value>Wavelength</value>
+  </data>
+  <data name="Rain_Stat_Wavelength_Value" xml:space="preserve">
+    <value>{0} nm in air → {1} nm in {2}</value>
+  </data>
+  <data name="Rain_SunAltitude" xml:space="preserve">
+    <value>Sun's height</value>
+  </data>
+  <data name="Rain_Surface_Away_Description" xml:space="preserve">
+    <value>Coming out into air the light speeds up, so the side that leaves first runs ahead and the beam swings away from the normal. The steeper it comes, the more it bends.</value>
+  </data>
+  <data name="Rain_Surface_Away_Title" xml:space="preserve">
+    <value>Bending away from the normal</value>
+  </data>
+  <data name="Rain_Surface_Grazing_Description" xml:space="preserve">
+    <value>Close to the critical angle the light that gets out barely leaves the surface, and more and more of it is reflected back inside.</value>
+  </data>
+  <data name="Rain_Surface_Grazing_Title" xml:space="preserve">
+    <value>Nearly skimming the surface</value>
+  </data>
+  <data name="Rain_Surface_Straight_Description" xml:space="preserve">
+    <value>Along the normal the whole wavefront slows down at the same moment, so nothing turns it. It only slows down, and its waves close up.</value>
+  </data>
+  <data name="Rain_Surface_Straight_Title" xml:space="preserve">
+    <value>Straight in: no bending</value>
+  </data>
+  <data name="Rain_Surface_Total_Description" xml:space="preserve">
+    <value>Past the critical angle the light would have to leave at more than 90°, so none gets out: the surface becomes a perfect mirror. Optical fibres and the sparkle of diamonds work this way.</value>
+  </data>
+  <data name="Rain_Surface_Total_Title" xml:space="preserve">
+    <value>Total internal reflection</value>
+  </data>
+  <data name="Rain_Surface_Toward_Description" xml:space="preserve">
+    <value>One side of each wavefront reaches the surface first and slows down first, while the other side is still fast. The front swings round, like a row of marchers stepping from road onto mud: the beam turns toward the normal.</value>
+  </data>
+  <data name="Rain_Surface_Toward_Title" xml:space="preserve">
+    <value>Bending toward the normal</value>
+  </data>
+  <data name="Rain_Sweep" xml:space="preserve">
+    <value>Sweep</value>
+  </data>
+  <data name="Rain_Title" xml:space="preserve">
+    <value>Refraction and rainbows</value>
   </data>
   <data name="Retro_Above_Fact1" xml:space="preserve">
     <value>Average orbital speeds: Mercury 47 km/s, Venus 35, Earth 30, Mars 24, Jupiter 13, Saturn 10. The inner planet always overtakes.</value>

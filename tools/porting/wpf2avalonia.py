@@ -248,7 +248,7 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
     s = re.sub(r"^\s*RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.\w+\);\s*\n", "", s, flags=re.M)
     s = re.sub(r"\b(\w+)\.LineTo\((.*), (?:true|false), (?:true|false)\);", r"\1.LineTo(\2);", s)
-    s = re.sub(r"\b(\w+)\.ArcTo\((.*), (?:true|false), (?:true|false)\);", r"\1.ArcTo(\2);", s)
+    s = re.sub(r"\b(\w+)\.ArcTo\(([^;]*?),\s+(?:true|false), (?:true|false)\);", r"\1.ArcTo(\2);", s)  # (the flags may wrap)
     s = re.sub(r"\b(\w+)\.BezierTo\((.*), (?:true|false), (?:true|false)\);", r"\1.CubicBezierTo(\2);", s)
     s = re.sub(r"\b(\w+)\.QuadraticBezierTo\((.*), (?:true|false), (?:true|false)\);", r"\1.QuadraticBezierTo(\2);", s)
     s = re.sub(r"Freeze\(new Pen\((.*), ([\d.]+)\)\);", r"MakePen(\1, \2);", s)
@@ -264,6 +264,9 @@ def convert_types(s: str, namespace: str) -> str:
     # The length of the gap between two points (indexed or not).
     s = re.sub(r"\(([\w.]+(?:\[[^\]]*\])?) - ([\w.]+(?:\[[^\]]*\])?)\)\.Length\b", r"((Vector)(\1 - \2)).Length", s)
     s = s.replace("System.Windows.Threading.DispatcherTimer", "Avalonia.Threading.DispatcherTimer")
+    # A pen named in full (beside a property or class of the same name): Avalonia's pens are IPen.
+    s = re.sub(r"\bSystem\.Windows\.Media\.Pen\b", "IPen", s)
+    s = re.sub(r"\bSystem\.Windows\.Media\.(?=\w)", "", s)
     # A property passed to a helper (Push(DependencyProperty property, object value)).
     s = re.sub(r"\bDependencyProperty (?=\w+\s*[,)])", "AvaloniaProperty ", s)
     s = convert_recurring(s)
@@ -814,7 +817,7 @@ def convert_points(s: str) -> str:
     # A Point difference is a Point in Avalonia: `var x = a - b;` whose Length is used becomes a Vector.
     for m in reversed(list(re.finditer(r"\bvar (\w+) = ([\w.()]+) - ([\w.()]+);", s))):
         rest = s[m.end():m.end() + 1500]
-        if re.search(rf"\b{m.group(1)}\.Length\b|\b{m.group(1)} /= ", rest):
+        if re.search(rf"\b{m.group(1)}\.(?:Length|Normalize\(\))|\b{m.group(1)} /= ", rest):
             s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
     # WPF's Vector.Normalize() changes the vector; Avalonia's returns a new one and leaves it as it was.
     s = re.sub(r"^(\s*)(\w+)\.Normalize\(\);$", r"\1\2 = \2.Normalize();", s, flags=re.M)

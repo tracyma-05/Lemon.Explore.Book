@@ -1,0 +1,238 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:rain="using:Lemon.Explore.Book.Chapters.Rainbow"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Rainbow.RainbowTextPageView"
+                         x:DataType="rain:RainbowTextPageViewModel">
+    <!-- Left page of the Rainbow spread: the view's settings, its charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Rainbow.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Rainbow.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Rainbow.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="RainMode" IsChecked="{Binding Rainbow.IsRefraction}" Content="{loc:Localize Rain_Mode_Refraction}" />
+                    <RadioButton Classes="chip" GroupName="RainMode" IsChecked="{Binding Rainbow.IsDrop}" Content="{loc:Localize Rain_Mode_Drop}" />
+                    <RadioButton Classes="chip" GroupName="RainMode" IsChecked="{Binding Rainbow.IsSky}" Content="{loc:Localize Rain_Mode_Sky}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Rainbow.Card}" />
+
+                <!-- Refraction: a flat surface or a prism, and what the light goes into -->
+                <StackPanel IsVisible="{Binding Rainbow.IsRefraction}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Scene_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="RainScene" IsChecked="{Binding Rainbow.SceneChoice[Surface]}" Content="{loc:Localize Rain_Scene_Surface}" />
+                        <RadioButton Classes="chip" GroupName="RainScene" IsChecked="{Binding Rainbow.SceneChoice[Prism]}" Content="{loc:Localize Rain_Scene_Prism}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Medium_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="RainMedium" IsChecked="{Binding Rainbow.MediumChoice[Water]}" Content="{loc:Localize Rain_Medium_Water}" />
+                        <RadioButton Classes="chip" GroupName="RainMedium" IsChecked="{Binding Rainbow.MediumChoice[Glass]}" Content="{loc:Localize Rain_Medium_Glass}" />
+                        <RadioButton Classes="chip" GroupName="RainMedium" IsChecked="{Binding Rainbow.MediumChoice[Diamond]}" Content="{loc:Localize Rain_Medium_Diamond}" />
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Drop: which bow -->
+                <StackPanel IsVisible="{Binding Rainbow.IsDrop}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Order_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="RainOrder" IsChecked="{Binding Rainbow.OrderChoice[Primary]}" Content="{loc:Localize Rain_Order_Primary}" />
+                        <RadioButton Classes="chip" GroupName="RainOrder" IsChecked="{Binding Rainbow.OrderChoice[Secondary]}" Content="{loc:Localize Rain_Order_Secondary}" />
+                        <RadioButton Classes="chip" GroupName="RainOrder" IsChecked="{Binding Rainbow.OrderChoice[Both]}" Content="{loc:Localize Rain_Order_Both}" />
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- The light's colour (the sky always has sunlight) -->
+                <StackPanel IsVisible="{Binding !Rainbow.IsSky}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Colour_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="RainColour" IsChecked="{Binding Rainbow.ColourChoice[White]}" Content="{loc:Localize Rain_Colour_White}" />
+                        <RadioButton Classes="chip" GroupName="RainColour" IsChecked="{Binding Rainbow.ColourChoice[Red]}" Content="{loc:Localize Rain_Colour_Red}" />
+                        <RadioButton Classes="chip" GroupName="RainColour" IsChecked="{Binding Rainbow.ColourChoice[Green]}" Content="{loc:Localize Rain_Colour_Green}" />
+                        <RadioButton Classes="chip" GroupName="RainColour" IsChecked="{Binding Rainbow.ColourChoice[Violet]}" Content="{loc:Localize Rain_Colour_Violet}" />
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Refraction: options, the angle, the chart -->
+                <StackPanel IsVisible="{Binding Rainbow.IsRefraction}">
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.FromInside}" Content="{loc:Localize Rain_Option_FromInside}" IsVisible="{Binding Rainbow.IsSurface}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.ShowWaves}" Content="{loc:Localize Rain_Option_Waves}" IsVisible="{Binding Rainbow.IsSurface}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.Exaggerate}" Content="{loc:Localize Rain_Option_Exaggerate}" IsVisible="{Binding Rainbow.IsWhite}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Text="{loc:Localize Rain_Spread_Note}" IsVisible="{Binding Rainbow.ShowsSpreadNote}" />
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Rainbow.AngleText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Rain_Angle}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="89" Value="{Binding Rainbow.Angle}" SmallChange="0.5" LargeChange="5"
+                            AutomationProperties.Name="{loc:Localize Rain_Angle}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Rainbow.SetAngleCommand}" CommandParameter="0" Content="0°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetAngleCommand}" CommandParameter="20" Content="20°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetAngleCommand}" CommandParameter="40" Content="40°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetAngleCommand}" CommandParameter="60" Content="60°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetAngleCommand}" CommandParameter="80" Content="80°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSpecialAngleCommand}" Content="{loc:Localize Rain_Angle_Critical}" IsVisible="{Binding Rainbow.FromInside}" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSpecialAngleCommand}" Content="{loc:Localize Rain_Angle_Least}" IsVisible="{Binding Rainbow.IsPrism}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Chart_Surface_Caption}" IsVisible="{Binding Rainbow.IsSurface}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Chart_Prism_Caption}" IsVisible="{Binding Rainbow.IsPrism}" />
+                    <Border Classes="plate" Height="180">
+                        <rain:RefractionChart Scene="{Binding Rainbow.Scene}" Medium="{Binding Rainbow.Medium}" Colour="{Binding Rainbow.Colour}"
+                                              FromInside="{Binding Rainbow.FromInside}" Angle="{Binding Rainbow.Angle}"
+                                              AutomationProperties.Name="{Binding Rainbow.Subtitle}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Rain_Chart_Surface_Note}" IsVisible="{Binding Rainbow.IsSurface}" />
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Rain_Chart_Prism_Note}" IsVisible="{Binding Rainbow.IsPrism}" />
+                </StackPanel>
+
+                <!-- Drop: options, where the ray enters, where it comes out -->
+                <StackPanel IsVisible="{Binding Rainbow.IsDrop}">
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.ShowSheet}" Content="{loc:Localize Rain_Option_Sheet}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.ShowLosses}" Content="{loc:Localize Rain_Option_Losses}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Rainbow.ImpactText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Rain_Impact}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="0.995" Value="{Binding Rainbow.Impact}" SmallChange="0.005" LargeChange="0.05"
+                            AutomationProperties.Name="{loc:Localize Rain_Impact}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Rainbow.SetRainbowRayCommand}" Content="{loc:Localize Rain_Impact_Rainbow}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Chart_Deviation_Caption}" />
+                    <Border Classes="plate" Height="180">
+                        <rain:DeviationChart Order="{Binding Rainbow.Order}" Colour="{Binding Rainbow.Colour}" Impact="{Binding Rainbow.Impact}"
+                                             AutomationProperties.Name="{loc:Localize Rain_Chart_Deviation_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Rain_Chart_Deviation_Note}" />
+                </StackPanel>
+
+                <!-- Sky: where you are, the Sun's height, the drops -->
+                <StackPanel IsVisible="{Binding Rainbow.IsSky}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Rainbow.Location}" />
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Rainbow.SunAltitudeText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Rain_SunAltitude}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="60" Value="{Binding Rainbow.SunAltitude}" SmallChange="0.5" LargeChange="5"
+                            AutomationProperties.Name="{loc:Localize Rain_SunAltitude}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSunAltitudeCommand}" CommandParameter="0" Content="0°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSunAltitudeCommand}" CommandParameter="10" Content="10°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSunAltitudeCommand}" CommandParameter="25" Content="25°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSunAltitudeCommand}" CommandParameter="40" Content="40°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetSunAltitudeCommand}" CommandParameter="48" Content="48°" />
+                        <Button Classes="chip" Command="{Binding Rainbow.SetHomeSunCommand}" Content="{Binding Rainbow.HomeNowText}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Rainbow.HomeWindowText}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Size_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="RainSize" IsChecked="{Binding Rainbow.DropChoice[Large]}" Content="{loc:Localize Rain_Size_Large}" />
+                        <RadioButton Classes="chip" GroupName="RainSize" IsChecked="{Binding Rainbow.DropChoice[Rain]}" Content="{loc:Localize Rain_Size_Rain}" />
+                        <RadioButton Classes="chip" GroupName="RainSize" IsChecked="{Binding Rainbow.DropChoice[Drizzle]}" Content="{loc:Localize Rain_Size_Drizzle}" />
+                        <RadioButton Classes="chip" GroupName="RainSize" IsChecked="{Binding Rainbow.DropChoice[Fog]}" Content="{loc:Localize Rain_Size_Fog}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.ShowSecondary}" Content="{loc:Localize Rain_Option_Secondary}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Rainbow.ShowGuides}" Content="{loc:Localize Rain_Option_Guides}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Chart_Side_Caption}" />
+                    <Border Classes="plate" Height="190">
+                        <rain:SkySideView SunAltitude="{Binding Rainbow.SunAltitude}" Secondary="{Binding Rainbow.ShowSecondary}"
+                                          AutomationProperties.Name="{loc:Localize Rain_Chart_Side_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Rain_Chart_Side_Note}" />
+                </StackPanel>
+
+                <!-- The bow's brightness across its width, for the drops' size -->
+                <StackPanel IsVisible="{Binding !Rainbow.IsRefraction}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Chart_Profile_Caption}" />
+                    <Border Classes="plate" Height="130">
+                        <rain:BowProfileChart DropSize="{Binding Rainbow.DropSize}" Secondary="{Binding Rainbow.ProfileSecondary}"
+                                              AutomationProperties.Name="{loc:Localize Rain_Chart_Profile_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Rain_Chart_Profile_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Rainbow.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Rainbow.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Rainbow.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Rainbow.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Rain_Facts}" />
+                <ItemsControl ItemsSource="{Binding Rainbow.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

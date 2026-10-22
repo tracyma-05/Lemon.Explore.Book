@@ -1,3 +1,4 @@
+using Lemon.Explore.Book.Chapters.Aurora;
 using Lemon.Explore.Book.Chapters.BlackHole;
 using Lemon.Explore.Book.Chapters.BlueSky;
 using Lemon.Explore.Book.Chapters.DayNight;
@@ -7,6 +8,7 @@ using Lemon.Explore.Book.Chapters.Greenhouse;
 using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Chapters.Lightning;
 using Lemon.Explore.Book.Chapters.MoonPhases;
+using Lemon.Explore.Book.Chapters.Rainbow;
 using Lemon.Explore.Book.Chapters.Retrograde;
 using Lemon.Explore.Book.Chapters.SeaBreeze;
 using Lemon.Explore.Book.Chapters.Seasons;
@@ -27,7 +29,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -176,6 +178,22 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, sky.Lesson, () => sky.Mode.ToString(), Enum.GetNames<SkyMode>());
                 return (new BlueSkyTextPageViewModel(textPage, navigator, chapter, number, sky),
                     new BlueSkyDiagramPageViewModel(textPage + 1, navigator, chapter, sky));
+            }
+
+            case "Rainbow":
+            {
+                var rainbow = new RainbowViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, rainbow.Lesson, () => rainbow.Mode.ToString(), Enum.GetNames<RainbowMode>());
+                return (new RainbowTextPageViewModel(textPage, navigator, chapter, number, rainbow),
+                    new RainbowDiagramPageViewModel(textPage + 1, navigator, chapter, rainbow));
+            }
+
+            case "Aurora":
+            {
+                var aurora = new AuroraViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, aurora.Lesson, () => aurora.Mode.ToString(), Enum.GetNames<AuroraMode>());
+                return (new AuroraTextPageViewModel(textPage, navigator, chapter, number, aurora),
+                    new AuroraDiagramPageViewModel(textPage + 1, navigator, chapter, aurora));
             }
 
             default:

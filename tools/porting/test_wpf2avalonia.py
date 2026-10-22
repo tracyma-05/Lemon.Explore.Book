@@ -224,6 +224,13 @@ class LateTests(unittest.TestCase):
         self.assertIn("at = at.WithX(Math.Max(0, at.X));", out)
         self.assertIn("        g.X = 2;", out)
 
+    def test_normalized_point_difference_is_a_vector(self):
+        out = tool.convert_points("""            var outgoing = exit.To - exit.From;
+            outgoing.Normalize();
+""")
+        self.assertIn("Vector outgoing = exit.To - exit.From;", out)
+        self.assertIn("outgoing = outgoing.Normalize();", out)
+
     def test_split_top_ignores_lambda_arrow(self):
         args = tool.split_top("0.0, (d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)")
         self.assertEqual(["0.0", "(d, e) => ((C)d).Changed((double)e.OldValue, (double)e.NewValue)"], args)

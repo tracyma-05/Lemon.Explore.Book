@@ -15,6 +15,882 @@
   <data name="App_Title" xml:space="preserve">
     <value>探索之书</value>
   </data>
+  <data name="Aurora_BestHour" xml:space="preserve">
+    <value>今晚最佳时刻</value>
+  </data>
+  <data name="Aurora_Chart_Air" xml:space="preserve">
+    <value>大气</value>
+  </data>
+  <data name="Aurora_Chart_Brightness" xml:space="preserve">
+    <value>亮度（各自归一）</value>
+  </data>
+  <data name="Aurora_Chart_Geo" xml:space="preserve">
+    <value>地球静止轨道</value>
+  </data>
+  <data name="Aurora_Chart_Green" xml:space="preserve">
+    <value>氧绿光</value>
+  </data>
+  <data name="Aurora_Chart_Km" xml:space="preserve">
+    <value>公里</value>
+  </data>
+  <data name="Aurora_Chart_Latitude" xml:space="preserve">
+    <value>地磁纬度</value>
+  </data>
+  <data name="Aurora_Chart_Lost" xml:space="preserve">
+    <value>要到大气以下才掉头：损失</value>
+  </data>
+  <data name="Aurora_Chart_Mirror" xml:space="preserve">
+    <value>掉头</value>
+  </data>
+  <data name="Aurora_Chart_North" xml:space="preserve">
+    <value>Bz +5 纳特（朝北）</value>
+  </data>
+  <data name="Aurora_Chart_Particles_Caption" xml:space="preserve">
+    <value>沿磁力线的磁场强度</value>
+  </data>
+  <data name="Aurora_Chart_Particles_Note" xml:space="preserve">
+    <value>磁场越靠近两极越强。磁场升到虚线（投掷角正弦平方的倒数）的地方，粒子就掉头；如果那要到大气以下，粒子就损失掉了。</value>
+  </data>
+  <data name="Aurora_Chart_Pressure" xml:space="preserve">
+    <value>动压，纳帕</value>
+  </data>
+  <data name="Aurora_Chart_Red" xml:space="preserve">
+    <value>氧红光</value>
+  </data>
+  <data name="Aurora_Chart_Shield_Caption" xml:space="preserve">
+    <value>磁盾离地球多远</value>
+  </data>
+  <data name="Aurora_Chart_Shield_Note" xml:space="preserve">
+    <value>磁层顶距离随太阳风动压的变化（Shue 等人 1998 年的模型），圆点是当前状态。磁场朝南时它会靠得更近。</value>
+  </data>
+  <data name="Aurora_Chart_Sky_Caption" xml:space="preserve">
+    <value>不同高度的光</value>
+  </data>
+  <data name="Aurora_Chart_Sky_Note" xml:space="preserve">
+    <value>这种能量的电子停在哪里（虚线），以及在那里哪种光能发出来。只是近似：真实的极光里混着各种能量的电子。</value>
+  </data>
+  <data name="Aurora_Chart_South" xml:space="preserve">
+    <value>Bz −10 纳特（朝南）</value>
+  </data>
+  <data name="Aurora_Chart_Violet" xml:space="preserve">
+    <value>氮紫光</value>
+  </data>
+  <data name="Aurora_Chart_Zero" xml:space="preserve">
+    <value>Bz 0</value>
+  </data>
+  <data name="Aurora_Clock" xml:space="preserve">
+    <value>{1} {0}</value>
+  </data>
+  <data name="Aurora_Cycle_Arrive" xml:space="preserve">
+    <value>到来</value>
+  </data>
+  <data name="Aurora_Cycle_NoField" xml:space="preserve">
+    <value>没有磁场</value>
+  </data>
+  <data name="Aurora_Cycle_North" xml:space="preserve">
+    <value>磁场朝北：磁盾保持关闭</value>
+  </data>
+  <data name="Aurora_Cycle_Open" xml:space="preserve">
+    <value>前端重联</value>
+  </data>
+  <data name="Aurora_Cycle_Return" xml:space="preserve">
+    <value>回到日侧</value>
+  </data>
+  <data name="Aurora_Cycle_Sink" xml:space="preserve">
+    <value>拖进磁尾</value>
+  </data>
+  <data name="Aurora_Cycle_Snap" xml:space="preserve">
+    <value>弹回地球</value>
+  </data>
+  <data name="Aurora_Cycle_Zero" xml:space="preserve">
+    <value>没有朝南分量：几乎不打开</value>
+  </data>
+  <data name="Aurora_Energy_100keV" xml:space="preserve">
+    <value>100 千电子伏</value>
+  </data>
+  <data name="Aurora_Energy_1MeV" xml:space="preserve">
+    <value>1 兆电子伏</value>
+  </data>
+  <data name="Aurora_Energy_1keV" xml:space="preserve">
+    <value>1 千电子伏</value>
+  </data>
+  <data name="Aurora_Energy_Name" xml:space="preserve">
+    <value>电子能量</value>
+  </data>
+  <data name="Aurora_Energy_Tooltip" xml:space="preserve">
+    <value>能量只改变下面的真实数值，画面比例不变。</value>
+  </data>
+  <data name="Aurora_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Aurora_Globe_Caption" xml:space="preserve">
+    <value>从太空看</value>
+  </data>
+  <data name="Aurora_Hint_Particles" xml:space="preserve">
+    <value>拖动可以绕地球转动视角。</value>
+  </data>
+  <data name="Aurora_Hint_Shield" xml:space="preserve">
+    <value>左右拖动，前后查看循环过程。</value>
+  </data>
+  <data name="Aurora_Hint_Sky" xml:space="preserve">
+    <value>左右拖动，调整夜里的时间。</value>
+  </data>
+  <data name="Aurora_Inset_Pitch" xml:space="preserve">
+    <value>投掷角与损失锥</value>
+  </data>
+  <data name="Aurora_Inset_Values" xml:space="preserve">
+    <value>投掷角 {0}°，损失锥 {1}°</value>
+  </data>
+  <data name="Aurora_KpChip_1" xml:space="preserve">
+    <value>平静 1</value>
+  </data>
+  <data name="Aurora_KpChip_4" xml:space="preserve">
+    <value>活跃 4</value>
+  </data>
+  <data name="Aurora_KpChip_6" xml:space="preserve">
+    <value>磁暴 6</value>
+  </data>
+  <data name="Aurora_KpChip_8" xml:space="preserve">
+    <value>强磁暴 8</value>
+  </data>
+  <data name="Aurora_KpChip_9" xml:space="preserve">
+    <value>特大 9</value>
+  </data>
+  <data name="Aurora_Kp_Active" xml:space="preserve">
+    <value>活跃</value>
+  </data>
+  <data name="Aurora_Kp_Caption" xml:space="preserve">
+    <value>地磁活动</value>
+  </data>
+  <data name="Aurora_Kp_Extreme" xml:space="preserve">
+    <value>特大磁暴</value>
+  </data>
+  <data name="Aurora_Kp_Name" xml:space="preserve">
+    <value>Kp 指数</value>
+  </data>
+  <data name="Aurora_Kp_Note" xml:space="preserve">
+    <value>Kp 指数（0–9）表示三小时内地磁场被扰动的程度。它跟随第一个视图里的太阳风，也可以在这里直接设置。</value>
+  </data>
+  <data name="Aurora_Kp_Quiet" xml:space="preserve">
+    <value>平静</value>
+  </data>
+  <data name="Aurora_Kp_Storm" xml:space="preserve">
+    <value>磁暴</value>
+  </data>
+  <data name="Aurora_Kp_Strong" xml:space="preserve">
+    <value>强磁暴</value>
+  </data>
+  <data name="Aurora_Label_Aurora" xml:space="preserve">
+    <value>极光</value>
+  </data>
+  <data name="Aurora_Label_Belts" xml:space="preserve">
+    <value>范艾伦带</value>
+  </data>
+  <data name="Aurora_Label_BowShock" xml:space="preserve">
+    <value>弓激波</value>
+  </data>
+  <data name="Aurora_Label_Cusp" xml:space="preserve">
+    <value>极尖区</value>
+  </data>
+  <data name="Aurora_Label_DriftEast" xml:space="preserve">
+    <value>向东漂移</value>
+  </data>
+  <data name="Aurora_Label_DriftWest" xml:space="preserve">
+    <value>向西漂移</value>
+  </data>
+  <data name="Aurora_Label_Electron" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Aurora_Label_Green" xml:space="preserve">
+    <value>氧·绿光</value>
+  </data>
+  <data name="Aurora_Label_Inner" xml:space="preserve">
+    <value>内带</value>
+  </data>
+  <data name="Aurora_Label_Line" xml:space="preserve">
+    <value>磁力线</value>
+  </data>
+  <data name="Aurora_Label_Lobe" xml:space="preserve">
+    <value>磁尾瓣</value>
+  </data>
+  <data name="Aurora_Label_Lost" xml:space="preserve">
+    <value>冲进大气：极光！</value>
+  </data>
+  <data name="Aurora_Label_Magnetopause" xml:space="preserve">
+    <value>磁层顶</value>
+  </data>
+  <data name="Aurora_Label_Mirror" xml:space="preserve">
+    <value>镜像点</value>
+  </data>
+  <data name="Aurora_Label_Outer" xml:space="preserve">
+    <value>外带</value>
+  </data>
+  <data name="Aurora_Label_Oval" xml:space="preserve">
+    <value>极光椭圆带</value>
+  </data>
+  <data name="Aurora_Label_PlasmaSheet" xml:space="preserve">
+    <value>等离子体片</value>
+  </data>
+  <data name="Aurora_Label_Pole" xml:space="preserve">
+    <value>地磁极</value>
+  </data>
+  <data name="Aurora_Label_Proton" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Aurora_Label_Red" xml:space="preserve">
+    <value>氧·红光</value>
+  </data>
+  <data name="Aurora_Label_Ring" xml:space="preserve">
+    <value>环电流（向西）</value>
+  </data>
+  <data name="Aurora_Label_Sheath" xml:space="preserve">
+    <value>磁鞘</value>
+  </data>
+  <data name="Aurora_Label_Shell" xml:space="preserve">
+    <value>漂移壳层</value>
+  </data>
+  <data name="Aurora_Label_Spiral" xml:space="preserve">
+    <value>螺旋（回旋）</value>
+  </data>
+  <data name="Aurora_Label_Stripped" xml:space="preserve">
+    <value>被吹走的大气</value>
+  </data>
+  <data name="Aurora_Label_Sun" xml:space="preserve">
+    <value>太阳（未按比例）</value>
+  </data>
+  <data name="Aurora_Label_Tail" xml:space="preserve">
+    <value>磁尾</value>
+  </data>
+  <data name="Aurora_Label_Violet" xml:space="preserve">
+    <value>氮·紫光</value>
+  </data>
+  <data name="Aurora_Label_Wind" xml:space="preserve">
+    <value>太阳风</value>
+  </data>
+  <data name="Aurora_Label_You" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Aurora_Lesson_Particles_Choice1" xml:space="preserve">
+    <value>它的运动方向和磁力线的夹角</value>
+  </data>
+  <data name="Aurora_Lesson_Particles_Choice2" xml:space="preserve">
+    <value>它带的电荷</value>
+  </data>
+  <data name="Aurora_Lesson_Particles_Choice3" xml:space="preserve">
+    <value>它离太阳有多远</value>
+  </data>
+  <data name="Aurora_Lesson_Shield_Choice1" xml:space="preserve">
+    <value>被压得离地球更近</value>
+  </data>
+  <data name="Aurora_Lesson_Shield_Choice2" xml:space="preserve">
+    <value>被推得更远</value>
+  </data>
+  <data name="Aurora_Lesson_Shield_Choice3" xml:space="preserve">
+    <value>位置不变</value>
+  </data>
+  <data name="Aurora_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>往赤道方向</value>
+  </data>
+  <data name="Aurora_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>往极点方向</value>
+  </data>
+  <data name="Aurora_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>不动</value>
+  </data>
+  <data name="Aurora_Mode_Particles" xml:space="preserve">
+    <value>被困的粒子</value>
+  </data>
+  <data name="Aurora_Mode_Shield" xml:space="preserve">
+    <value>磁盾</value>
+  </data>
+  <data name="Aurora_Mode_Sky" xml:space="preserve">
+    <value>天上的极光</value>
+  </data>
+  <data name="Aurora_Night_Caption" xml:space="preserve">
+    <value>夜晚</value>
+  </data>
+  <data name="Aurora_North" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Aurora_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="Aurora_Obj_Aurora" xml:space="preserve">
+    <value>极光</value>
+  </data>
+  <data name="Aurora_Obj_Belts" xml:space="preserve">
+    <value>范艾伦辐射带</value>
+  </data>
+  <data name="Aurora_Obj_BowShock" xml:space="preserve">
+    <value>弓激波</value>
+  </data>
+  <data name="Aurora_Obj_ClosedLine" xml:space="preserve">
+    <value>闭合磁力线</value>
+  </data>
+  <data name="Aurora_Obj_Curtain" xml:space="preserve">
+    <value>极光帘</value>
+  </data>
+  <data name="Aurora_Obj_Cusp" xml:space="preserve">
+    <value>极尖区</value>
+  </data>
+  <data name="Aurora_Obj_DayX" xml:space="preserve">
+    <value>日侧磁重联</value>
+  </data>
+  <data name="Aurora_Obj_Earth" xml:space="preserve">
+    <value>地球磁场</value>
+  </data>
+  <data name="Aurora_Obj_Foot" xml:space="preserve">
+    <value>磁力线的落脚点</value>
+  </data>
+  <data name="Aurora_Obj_Green" xml:space="preserve">
+    <value>氧原子绿光</value>
+  </data>
+  <data name="Aurora_Obj_Horizon" xml:space="preserve">
+    <value>你的地平线</value>
+  </data>
+  <data name="Aurora_Obj_Imf" xml:space="preserve">
+    <value>行星际磁场</value>
+  </data>
+  <data name="Aurora_Obj_Inner" xml:space="preserve">
+    <value>内辐射带</value>
+  </data>
+  <data name="Aurora_Obj_Line" xml:space="preserve">
+    <value>所在的磁力线</value>
+  </data>
+  <data name="Aurora_Obj_Lobe" xml:space="preserve">
+    <value>磁尾瓣</value>
+  </data>
+  <data name="Aurora_Obj_LossCone" xml:space="preserve">
+    <value>损失锥</value>
+  </data>
+  <data name="Aurora_Obj_Magnetopause" xml:space="preserve">
+    <value>磁层顶</value>
+  </data>
+  <data name="Aurora_Obj_Meridian" xml:space="preserve">
+    <value>磁子午线</value>
+  </data>
+  <data name="Aurora_Obj_Mirror" xml:space="preserve">
+    <value>镜像点</value>
+  </data>
+  <data name="Aurora_Obj_Night" xml:space="preserve">
+    <value>磁子夜</value>
+  </data>
+  <data name="Aurora_Obj_OpenLine" xml:space="preserve">
+    <value>开放磁力线</value>
+  </data>
+  <data name="Aurora_Obj_Outer" xml:space="preserve">
+    <value>外辐射带</value>
+  </data>
+  <data name="Aurora_Obj_Oval" xml:space="preserve">
+    <value>极光椭圆带</value>
+  </data>
+  <data name="Aurora_Obj_Particle" xml:space="preserve">
+    <value>被困的粒子</value>
+  </data>
+  <data name="Aurora_Obj_PlasmaSheet" xml:space="preserve">
+    <value>等离子体片</value>
+  </data>
+  <data name="Aurora_Obj_Pole" xml:space="preserve">
+    <value>地磁极</value>
+  </data>
+  <data name="Aurora_Obj_Red" xml:space="preserve">
+    <value>氧原子红光</value>
+  </data>
+  <data name="Aurora_Obj_Ring" xml:space="preserve">
+    <value>环电流</value>
+  </data>
+  <data name="Aurora_Obj_Seen" xml:space="preserve">
+    <value>能看到的范围</value>
+  </data>
+  <data name="Aurora_Obj_Sheath" xml:space="preserve">
+    <value>磁鞘</value>
+  </data>
+  <data name="Aurora_Obj_Shell" xml:space="preserve">
+    <value>漂移壳层</value>
+  </data>
+  <data name="Aurora_Obj_Sight" xml:space="preserve">
+    <value>视线</value>
+  </data>
+  <data name="Aurora_Obj_Spiral" xml:space="preserve">
+    <value>回旋运动</value>
+  </data>
+  <data name="Aurora_Obj_Stripped" xml:space="preserve">
+    <value>被吹走的大气</value>
+  </data>
+  <data name="Aurora_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Aurora_Obj_Tail" xml:space="preserve">
+    <value>磁尾</value>
+  </data>
+  <data name="Aurora_Obj_TailX" xml:space="preserve">
+    <value>磁尾磁重联</value>
+  </data>
+  <data name="Aurora_Obj_View" xml:space="preserve">
+    <value>你的天空</value>
+  </data>
+  <data name="Aurora_Obj_Violet" xml:space="preserve">
+    <value>氮分子紫光</value>
+  </data>
+  <data name="Aurora_Obj_Wind" xml:space="preserve">
+    <value>太阳风</value>
+  </data>
+  <data name="Aurora_Obj_You" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="Aurora_Option_Belts" xml:space="preserve">
+    <value>范艾伦带</value>
+  </data>
+  <data name="Aurora_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Aurora_Option_NoField" xml:space="preserve">
+    <value>没有磁场</value>
+  </data>
+  <data name="Aurora_Option_Ring" xml:space="preserve">
+    <value>环电流</value>
+  </data>
+  <data name="Aurora_Options_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Aurora_Particle_Caption" xml:space="preserve">
+    <value>粒子</value>
+  </data>
+  <data name="Aurora_Particle_Note" xml:space="preserve">
+    <value>投掷角小于损失锥（只有几度）时，粒子会冲进大气而损失掉。</value>
+  </data>
+  <data name="Aurora_Particle_Pitch" xml:space="preserve">
+    <value>投掷角</value>
+  </data>
+  <data name="Aurora_Particle_Shell" xml:space="preserve">
+    <value>壳层（L）</value>
+  </data>
+  <data name="Aurora_Particles_Fact1" xml:space="preserve">
+    <value>1958 年，詹姆斯·范艾伦用美国最早的卫星“探险者 1 号”和“探险者 3 号”上的盖革计数器发现了辐射带。</value>
+  </data>
+  <data name="Aurora_Particles_Fact2" xml:space="preserve">
+    <value>外带里的电子每秒绕螺旋转上万圈，不到一秒就在两极之间往返一次，几分钟到几小时就绕地球一圈。</value>
+  </data>
+  <data name="Aurora_Particles_Fact3" xml:space="preserve">
+    <value>磁暴时环电流增强，会削弱地面上的磁场。它的强弱用 Dst 指数来衡量，大磁暴时会下降几百纳特。</value>
+  </data>
+  <data name="Aurora_Particles_Fact4" xml:space="preserve">
+    <value>在南大西洋上空，地球磁场比较弱，内带离地面最近。卫星和空间站经过这里时会受到额外的辐射。</value>
+  </data>
+  <data name="Aurora_Particles_Fact5" xml:space="preserve">
+    <value>空间里的各种波动不断把被困的粒子推进损失锥，这种持续的“毛毛雨”点亮了微弱而弥散的极光。</value>
+  </data>
+  <data name="Aurora_Particles_Note" xml:space="preserve">
+    <value>地球磁场按偶极场处理，壳层按比例。螺旋画得比真实宽得多，漂移也快得多。</value>
+  </data>
+  <data name="Aurora_Particles_Subtitle" xml:space="preserve">
+    <value>困在地球磁场里：螺旋、弹跳、漂移</value>
+  </data>
+  <data name="Aurora_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停</value>
+  </data>
+  <data name="Aurora_Restart" xml:space="preserve">
+    <value>新粒子</value>
+  </data>
+  <data name="Aurora_See_Day_Text" xml:space="preserve">
+    <value>即使极光就在头顶，白天或黄昏的天光也会把它淹没。把时间往后拨，等天黑了再看。</value>
+  </data>
+  <data name="Aurora_See_Day_Title" xml:space="preserve">
+    <value>天太亮，看不见</value>
+  </data>
+  <data name="Aurora_See_Hidden_Text" xml:space="preserve">
+    <value>极光椭圆带离得太远，地球的弧度连极光帘的顶部都挡住了。要更强的磁暴才能把它带近。</value>
+  </data>
+  <data name="Aurora_See_Hidden_Title" xml:space="preserve">
+    <value>在你的地平线以下</value>
+  </data>
+  <data name="Aurora_See_High_Text" xml:space="preserve">
+    <value>极光帘高出你朝向磁极那一侧的地平线。晴朗的黑夜里，往那个方向看。</value>
+  </data>
+  <data name="Aurora_See_High_Title" xml:space="preserve">
+    <value>高挂在你的天空</value>
+  </data>
+  <data name="Aurora_See_Low_Text" xml:space="preserve">
+    <value>只有极光帘的顶部露出你的地平线，又低又暗。用相机长时间曝光比肉眼更容易拍到。</value>
+  </data>
+  <data name="Aurora_See_Low_Title" xml:space="preserve">
+    <value>低低地贴着地平线</value>
+  </data>
+  <data name="Aurora_See_Overhead_Text" xml:space="preserve">
+    <value>你正在极光椭圆带下面：晴朗的黑夜里，极光帘可能铺满天空，就在你头顶上舞动。</value>
+  </data>
+  <data name="Aurora_See_Overhead_Title" xml:space="preserve">
+    <value>极光就在头顶</value>
+  </data>
+  <data name="Aurora_Shield_Fact1" xml:space="preserve">
+    <value>太阳风的速度在每秒 300 到 800 公里之间，两到四天到达地球；猛烈的日冕物质抛射不到一天就能赶到。</value>
+  </data>
+  <data name="Aurora_Shield_Fact2" xml:space="preserve">
+    <value>在白天一侧，磁层顶一般离地球约 10 个地球半径（约 6.4 万公里）；磁尾则长达几百个地球半径，远远超过月球。</value>
+  </data>
+  <data name="Aurora_Shield_Fact3" xml:space="preserve">
+    <value>最强的磁暴会把磁层顶压进地球静止轨道（6.6 个地球半径）以内，那里的卫星就直接暴露在太阳风中。</value>
+  </data>
+  <data name="Aurora_Shield_Fact4" xml:space="preserve">
+    <value>火星在几十亿年前失去了全球性的磁场，从那以后，太阳风一直在剥蚀它的高层大气。</value>
+  </data>
+  <data name="Aurora_Shield_Fact5" xml:space="preserve">
+    <value>1961 年，詹姆斯·邓吉提出：太阳风的磁场会和地球磁场相连，带动整个磁层循环流动，这就是邓吉循环。</value>
+  </data>
+  <data name="Aurora_Shield_Note" xml:space="preserve">
+    <value>沿正午到子夜方向的剖面，地球和磁层按比例（太阳在很远处）。磁力线做了简化，太阳风加速约 100 倍。</value>
+  </data>
+  <data name="Aurora_Shield_Subtitle" xml:space="preserve">
+    <value>太阳风与地球的磁盾</value>
+  </data>
+  <data name="Aurora_Sky_Fact1" xml:space="preserve">
+    <value>氧原子 557.7 纳米的绿线是最常见的极光颜色；630 纳米的红线则来自约 200 公里以上。</value>
+  </data>
+  <data name="Aurora_Sky_Fact2" xml:space="preserve">
+    <value>极光在 100 到 400 公里的高空，比飞机高得多。空间站在约 400 公里高处运行，宇航员常常是俯视极光。</value>
+  </data>
+  <data name="Aurora_Sky_Fact3" xml:space="preserve">
+    <value>北极光和南极光同时出现：同一组磁力线的两端分别落在南北半球，所以两个极光椭圆带几乎互为镜像。</value>
+  </data>
+  <data name="Aurora_Sky_Fact4" xml:space="preserve">
+    <value>1859 年 9 月的大磁暴，也就是“卡林顿事件”，人们在南至加勒比海的地方都看到了极光。</value>
+  </data>
+  <data name="Aurora_Sky_Fact5" xml:space="preserve">
+    <value>2024 年 5 月，二十多年来最强的地磁暴把极光带到了远离极区的地方，中国北方很多地方都拍到了极光。</value>
+  </data>
+  <data name="Aurora_Sky_Note" xml:space="preserve">
+    <value>按你的位置画出真实海岸线和昼夜，按 Kp 估算极光椭圆带，剖面中地球弧度按真实比例。</value>
+  </data>
+  <data name="Aurora_Sky_Subtitle" xml:space="preserve">
+    <value>{0}：能看到极光吗？</value>
+  </data>
+  <data name="Aurora_Slice_Caption" xml:space="preserve">
+    <value>从你到极光的剖面（真实比例）</value>
+  </data>
+  <data name="Aurora_Slice_Hidden" xml:space="preserve">
+    <value>相距 {0} 公里；顶部低于地平线 {1}°</value>
+  </data>
+  <data name="Aurora_Slice_Km" xml:space="preserve">
+    <value>{0} 公里</value>
+  </data>
+  <data name="Aurora_Slice_Seen" xml:space="preserve">
+    <value>相距 {0} 公里；高出地平线 {1}° 到 {2}°</value>
+  </data>
+  <data name="Aurora_South" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Aurora_Species_Electron" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Aurora_Species_Proton" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Aurora_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Aurora_Stage_Arrive_Text" xml:space="preserve">
+    <value>被太阳风带来的太阳磁场遇到弓激波，披在磁层的前端。此刻它指向南方，和磁层前端指向北的地球磁场方向相反。</value>
+  </data>
+  <data name="Aurora_Stage_Arrive_Title" xml:space="preserve">
+    <value>一条太阳风磁力线到来</value>
+  </data>
+  <data name="Aurora_Stage_NoField_Text" xml:space="preserve">
+    <value>太阳风直接吹到高层大气上。没有磁层来困住粒子，也没有极光椭圆带；漫长的岁月里，太阳风会把大气一点点剥走。</value>
+  </data>
+  <data name="Aurora_Stage_NoField_Title" xml:space="preserve">
+    <value>没有磁场</value>
+  </data>
+  <data name="Aurora_Stage_North_Text" xml:space="preserve">
+    <value>太阳磁场在磁层前端和地球磁场方向相同，没法在那里连接。磁力线只是披在磁层外面滑过去，极光很平静。</value>
+  </data>
+  <data name="Aurora_Stage_North_Title" xml:space="preserve">
+    <value>磁场朝北：磁盾保持关闭</value>
+  </data>
+  <data name="Aurora_Stage_Open_Text" xml:space="preserve">
+    <value>两股磁场在磁层前端相连。磁力线被切断又重新接上：一端拴在地球上，另一端留在太阳风里，被拖着越过极区。</value>
+  </data>
+  <data name="Aurora_Stage_Open_Title" xml:space="preserve">
+    <value>磁重联打开了磁盾</value>
+  </data>
+  <data name="Aurora_Stage_Return_Text" xml:space="preserve">
+    <value>闭合磁力线绕着地球两侧漂回日侧，等着再一次被打开。真实的一个循环大约要一个小时。</value>
+  </data>
+  <data name="Aurora_Stage_Return_Title" xml:space="preserve">
+    <value>绕回日侧</value>
+  </data>
+  <data name="Aurora_Stage_Sink_Text" xml:space="preserve">
+    <value>开放磁力线在磁尾瓣里越堆越多，储存着能量，并向磁尾中间沉降。</value>
+  </data>
+  <data name="Aurora_Stage_Sink_Title" xml:space="preserve">
+    <value>拖进磁尾</value>
+  </data>
+  <data name="Aurora_Stage_Snap_Text" xml:space="preserve">
+    <value>南北两边的磁力线在磁尾重新连接。闭合的磁力线弹回地球，把电子射进极光椭圆带，极光随之变亮。</value>
+  </data>
+  <data name="Aurora_Stage_Snap_Title" xml:space="preserve">
+    <value>磁尾重联：磁力线弹回</value>
+  </data>
+  <data name="Aurora_Stage_Zero_Text" xml:space="preserve">
+    <value>没有朝南的分量，磁层前端几乎不发生重联。磁盾几乎没有打开，极光很暗。</value>
+  </data>
+  <data name="Aurora_Stage_Zero_Title" xml:space="preserve">
+    <value>没有南北方向的磁场</value>
+  </data>
+  <data name="Aurora_Stat_Arrival" xml:space="preserve">
+    <value>从太阳到地球</value>
+  </data>
+  <data name="Aurora_Stat_Arrival_Value" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Aurora_Stat_Bounce" xml:space="preserve">
+    <value>弹跳一次（往返）</value>
+  </data>
+  <data name="Aurora_Stat_Cone" xml:space="preserve">
+    <value>损失锥</value>
+  </data>
+  <data name="Aurora_Stat_Cone_Value" xml:space="preserve">
+    <value>{0}°（投掷角 {1}°）</value>
+  </data>
+  <data name="Aurora_Stat_Distance_Value" xml:space="preserve">
+    <value>{0} 个地球半径（{1} 公里）</value>
+  </data>
+  <data name="Aurora_Stat_Drift" xml:space="preserve">
+    <value>绕地球一圈</value>
+  </data>
+  <data name="Aurora_Stat_Drift_East" xml:space="preserve">
+    <value>{0}，向东</value>
+  </data>
+  <data name="Aurora_Stat_Drift_West" xml:space="preserve">
+    <value>{0}，向西</value>
+  </data>
+  <data name="Aurora_Stat_Edge" xml:space="preserve">
+    <value>此刻椭圆带边缘</value>
+  </data>
+  <data name="Aurora_Stat_Edge_Value" xml:space="preserve">
+    <value>地磁纬度 {0}°</value>
+  </data>
+  <data name="Aurora_Stat_Field" xml:space="preserve">
+    <value>磁场（Bz）</value>
+  </data>
+  <data name="Aurora_Stat_FieldHere" xml:space="preserve">
+    <value>赤道处磁场</value>
+  </data>
+  <data name="Aurora_Stat_FieldHere_Value" xml:space="preserve">
+    <value>{0} 纳特</value>
+  </data>
+  <data name="Aurora_Stat_Geo" xml:space="preserve">
+    <value>地球静止轨道</value>
+  </data>
+  <data name="Aurora_Stat_Geo_Inside" xml:space="preserve">
+    <value>已暴露在磁盾外！</value>
+  </data>
+  <data name="Aurora_Stat_Gyro" xml:space="preserve">
+    <value>回旋一圈（赤道处）</value>
+  </data>
+  <data name="Aurora_Stat_Kp" xml:space="preserve">
+    <value>Kp 指数</value>
+  </data>
+  <data name="Aurora_Stat_Mirror" xml:space="preserve">
+    <value>掉头的位置</value>
+  </data>
+  <data name="Aurora_Stat_Mirror_Air" xml:space="preserve">
+    <value>不会掉头：冲进大气</value>
+  </data>
+  <data name="Aurora_Stat_Mirror_Value" xml:space="preserve">
+    <value>地磁纬度 {0}°</value>
+  </data>
+  <data name="Aurora_Stat_Mlat" xml:space="preserve">
+    <value>地磁纬度</value>
+  </data>
+  <data name="Aurora_Stat_Mlat_Value" xml:space="preserve">
+    <value>{1}纬 {0}°</value>
+  </data>
+  <data name="Aurora_Stat_Mlt" xml:space="preserve">
+    <value>磁地方时</value>
+  </data>
+  <data name="Aurora_Stat_Mlt_Value" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Aurora_Stat_Needed" xml:space="preserve">
+    <value>极光顶部露出地平线所需的 Kp</value>
+  </data>
+  <data name="Aurora_Stat_Needed_Beyond" xml:space="preserve">
+    <value>超过 9：只有史上最强的磁暴才行</value>
+  </data>
+  <data name="Aurora_Stat_Needed_Value" xml:space="preserve">
+    <value>约 {0}（子夜前后）</value>
+  </data>
+  <data name="Aurora_Stat_Nose" xml:space="preserve">
+    <value>磁层顶（前端）</value>
+  </data>
+  <data name="Aurora_Stat_Particle" xml:space="preserve">
+    <value>粒子</value>
+  </data>
+  <data name="Aurora_Stat_Particle_Value" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="Aurora_Stat_Place" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="Aurora_Stat_Pressure" xml:space="preserve">
+    <value>动压</value>
+  </data>
+  <data name="Aurora_Stat_Pressure_Value" xml:space="preserve">
+    <value>{0} 纳帕</value>
+  </data>
+  <data name="Aurora_Stat_Shield" xml:space="preserve">
+    <value>磁层</value>
+  </data>
+  <data name="Aurora_Stat_Shield_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Aurora_Stat_Shock" xml:space="preserve">
+    <value>弓激波（前端）</value>
+  </data>
+  <data name="Aurora_Stat_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Aurora_Stat_Speed_Value" xml:space="preserve">
+    <value>每秒 {0} 公里（光速的 {1}%）</value>
+  </data>
+  <data name="Aurora_Stat_Sun" xml:space="preserve">
+    <value>太阳高度</value>
+  </data>
+  <data name="Aurora_Stat_Sun_Value" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Aurora_Stat_ToCurtain" xml:space="preserve">
+    <value>到极光帘</value>
+  </data>
+  <data name="Aurora_Stat_ToCurtain_Inside" xml:space="preserve">
+    <value>就在你头顶</value>
+  </data>
+  <data name="Aurora_Stat_ToCurtain_Value" xml:space="preserve">
+    <value>{0} 公里</value>
+  </data>
+  <data name="Aurora_Stat_Top" xml:space="preserve">
+    <value>光的顶部</value>
+  </data>
+  <data name="Aurora_Stat_Top_Below" xml:space="preserve">
+    <value>{0} 公里高，低于地平线 {1}°</value>
+  </data>
+  <data name="Aurora_Stat_Top_Value" xml:space="preserve">
+    <value>{0} 公里高，高出地平线 {1}°</value>
+  </data>
+  <data name="Aurora_Stat_Wind" xml:space="preserve">
+    <value>太阳风</value>
+  </data>
+  <data name="Aurora_Stat_Wind_Value" xml:space="preserve">
+    <value>每秒 {0} 公里，每立方厘米 {1} 个</value>
+  </data>
+  <data name="Aurora_Timeline_Cycle" xml:space="preserve">
+    <value>邓吉循环的进度</value>
+  </data>
+  <data name="Aurora_Timeline_Night" xml:space="preserve">
+    <value>夜里的时间（正午到次日正午）</value>
+  </data>
+  <data name="Aurora_Title" xml:space="preserve">
+    <value>极光与磁层</value>
+  </data>
+  <data name="Aurora_Trap_Held_Electron" xml:space="preserve">
+    <value>它绕着磁力线螺旋前进，在两个镜像点之间弹跳，同时向东绕地球漂移。它可以被困上好几天，甚至更久。</value>
+  </data>
+  <data name="Aurora_Trap_Held_Proton" xml:space="preserve">
+    <value>它以相反的方向绕磁力线螺旋前进，在镜像点之间弹跳，并向西绕地球漂移。内带里的质子可以停留好几年。</value>
+  </data>
+  <data name="Aurora_Trap_Held_Title" xml:space="preserve">
+    <value>被地球磁场困住了</value>
+  </data>
+  <data name="Aurora_Trap_Lost_Text" xml:space="preserve">
+    <value>它的投掷角落在损失锥里，要到大气层顶以下才会掉头。所以它一直冲进极区附近的大气，把能量交给空气——极光就是这样被点亮的。</value>
+  </data>
+  <data name="Aurora_Trap_Lost_Title" xml:space="preserve">
+    <value>落进了大气</value>
+  </data>
+  <data name="Aurora_Unit_H" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Aurora_Unit_Min" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="Aurora_Unit_Ms" xml:space="preserve">
+    <value>{0} 毫秒</value>
+  </data>
+  <data name="Aurora_Unit_S" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Aurora_Unit_Us" xml:space="preserve">
+    <value>{0} 微秒</value>
+  </data>
+  <data name="Aurora_Value_BzNorth" xml:space="preserve">
+    <value>向北 {0} 纳特</value>
+  </data>
+  <data name="Aurora_Value_BzSouth" xml:space="preserve">
+    <value>向南 {0} 纳特</value>
+  </data>
+  <data name="Aurora_Value_BzZero" xml:space="preserve">
+    <value>约 0 纳特</value>
+  </data>
+  <data name="Aurora_Value_Density" xml:space="preserve">
+    <value>每立方厘米 {0} 个</value>
+  </data>
+  <data name="Aurora_Value_Energy" xml:space="preserve">
+    <value>{0} 千电子伏</value>
+  </data>
+  <data name="Aurora_Value_Kp" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="Aurora_Value_MeV" xml:space="preserve">
+    <value>{0} 兆电子伏</value>
+  </data>
+  <data name="Aurora_Value_Pitch" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Aurora_Value_Shell" xml:space="preserve">
+    <value>{0} 个地球半径（落地纬度 {1}°）</value>
+  </data>
+  <data name="Aurora_Value_Speed" xml:space="preserve">
+    <value>每秒 {0} 公里</value>
+  </data>
+  <data name="Aurora_View_Daylight" xml:space="preserve">
+    <value>天太亮：太阳还没落山或刚落山</value>
+  </data>
+  <data name="Aurora_View_Facing" xml:space="preserve">
+    <value>你的天空：面朝磁极（{0}方）</value>
+  </data>
+  <data name="Aurora_View_FacingAway" xml:space="preserve">
+    <value>你的天空：面朝极光椭圆带（赤道方向）</value>
+  </data>
+  <data name="Aurora_View_Hidden" xml:space="preserve">
+    <value>什么也看不到：极光在地平线以下</value>
+  </data>
+  <data name="Aurora_Wind_Bz" xml:space="preserve">
+    <value>南北向磁场（Bz）</value>
+  </data>
+  <data name="Aurora_Wind_Calm" xml:space="preserve">
+    <value>平静</value>
+  </data>
+  <data name="Aurora_Wind_Caption" xml:space="preserve">
+    <value>太阳风</value>
+  </data>
+  <data name="Aurora_Wind_Density" xml:space="preserve">
+    <value>密度</value>
+  </data>
+  <data name="Aurora_Wind_Fast" xml:space="preserve">
+    <value>高速流</value>
+  </data>
+  <data name="Aurora_Wind_Note" xml:space="preserve">
+    <value>Bz 为负（朝南）时磁盾会被打开。这里的太阳风也决定了“天上的极光”里用的 Kp。</value>
+  </data>
+  <data name="Aurora_Wind_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Aurora_Wind_Storm" xml:space="preserve">
+    <value>日冕物质抛射</value>
+  </data>
+  <data name="Aurora_Wind_Typical" xml:space="preserve">
+    <value>一般</value>
+  </data>
   <data name="BackCover_Text" xml:space="preserve">
     <value>抬头看，四处看，问一句为什么。</value>
   </data>
@@ -5994,6 +6870,213 @@
   <data name="MoonPhases_Upcoming_When" xml:space="preserve">
     <value>{0}（{1}）{2}</value>
   </data>
+  <data name="Narr_Aurora_Obj_Aurora" xml:space="preserve">
+    <value>极光：围绕每个磁极的一圈光，来自磁层的电子在这里撞进高层大气。太阳风越快、磁场越朝南，它就越亮。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Belts" xml:space="preserve">
+    <value>范艾伦辐射带：被地球磁场困住的高能粒子，分成内带和外带。航天器都要尽快穿过它们，减少受到的辐射。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_BowShock" xml:space="preserve">
+    <value>弓激波：超声速的太阳风在地球磁场前方突然减速的地方，就像船头前面推起的浪。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_ClosedLine" xml:space="preserve">
+    <value>闭合磁力线：两端都连在地球上。在磁尾重联之后，它像橡皮筋一样弹回来，把粒子甩进极光椭圆带。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Curtain" xml:space="preserve">
+    <value>极光帘：一层很薄的光幕，常常有几百公里高，厚度却只有一公里左右，顺着磁力线竖立着。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Cusp" xml:space="preserve">
+    <value>极尖区：每个极区上方的漏斗形区域，太阳风可以从这里一直钻到高层大气，在正午前后形成微弱的红色极光。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_DayX" xml:space="preserve">
+    <value>日侧磁重联：太阳风中指向南的磁场，在磁层前端遇上指向北的地球磁场。磁力线断开再重新连接，把地球磁场向太阳风打开。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Earth" xml:space="preserve">
+    <value>地球。外核里流动的液态铁形成电流，产生的磁场很像一块巨大的条形磁铁，和自转轴大约偏了十度。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Foot" xml:space="preserve">
+    <value>磁力线和大气相交的地方，大约在一百公里高空。落进损失锥的粒子最后会到这里，把能量交给空气，让空气发光。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Green" xml:space="preserve">
+    <value>氧原子的绿光，波长 557.7 纳米，是最常见的极光颜色，大约在一百到两百公里高。再往下，碰撞会在它发光之前把能量夺走。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Horizon" xml:space="preserve">
+    <value>你的地平线。这条线以下的东西，不管多亮，都会被地球的弧度挡住。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Imf" xml:space="preserve">
+    <value>行星际磁场：被太阳风带出来的太阳磁场。它指向北还是指向南，决定了它能不能和地球磁场连接、打开这面磁盾。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Inner" xml:space="preserve">
+    <value>范艾伦内带，大约在离地心一点五个地球半径的地方，主要是能量很高的质子，是宇宙射线撞击高层大气间接产生的。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Line" xml:space="preserve">
+    <value>粒子所在的磁力线。螺旋的中心沿着这条线，从一个镜像点滑到另一个镜像点。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Lobe" xml:space="preserve">
+    <value>磁尾瓣：一束束开放磁力线，一端连着地球，一端连着太阳风。它们储存着能量，之后在亚暴中释放出来。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_LossCone" xml:space="preserve">
+    <value>损失锥。如果粒子在赤道处的投掷角比这个还小，它要到一百公里以下才会掉头，所以会直接撞进大气。在这里，损失锥只有几度宽。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Magnetopause" xml:space="preserve">
+    <value>磁层顶：地球磁场的边界，磁场的压力在这里和太阳风的压力相平衡。太阳风越强，它就离地球越近。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Meridian" xml:space="preserve">
+    <value>从你这里到磁极的磁子午线，右边的剖面就是沿着这条线切下来的。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Mirror" xml:space="preserve">
+    <value>镜像点：磁场强到足以让粒子掉头的地方。螺旋在这里最紧，粒子在那一瞬间只绕圈，不再前进。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Night" xml:space="preserve">
+    <value>极光椭圆带的子夜一侧。亚暴通常在磁子夜前不久从这里爆发，这时极光会突然变亮，舞动起来。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_OpenLine" xml:space="preserve">
+    <value>开放磁力线：一端拴在极区附近的地球上，另一端在太阳风里。太阳风拖着它越过极区，进入磁尾。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Outer" xml:space="preserve">
+    <value>范艾伦外带，大约在三到六个地球半径处，主要是高能电子。每次磁暴，它都会膨胀或收缩。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Oval" xml:space="preserve">
+    <value>极光椭圆带：围绕每个磁极、极光通常出现的那一圈。它相对太阳的位置不变，夜侧更宽，磁暴时向赤道扩展。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Particle" xml:space="preserve">
+    <value>一个被困住的粒子。真实的粒子小得根本看不见，速度也快得多：像这样的电子，每秒要绕螺旋转上万圈。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_PlasmaSheet" xml:space="preserve">
+    <value>等离子体片：磁尾中间的一层热等离子体。磁尾发生重联时，这里的粒子被射向地球，为极光提供能量。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Pole" xml:space="preserve">
+    <value>地磁极：地球磁场的轴从这里穿出。它离地理极点大约一千公里，所以同样纬度的两个地方，离极光的远近可能差很多。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Red" xml:space="preserve">
+    <value>氧原子的红光，波长 630 纳米，出现在大约两百公里以上，那里的空气足够稀薄，被激发的原子可以等将近两分钟再发光。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Ring" xml:space="preserve">
+    <value>环电流：质子向西漂，电子向东漂，合起来就是一股绕地球向西流的电流。磁暴时它会增强，让地面上的磁场变弱。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Seen" xml:space="preserve">
+    <value>离极光椭圆带多远，还能看到极光的顶部从地平线上探出头来。极光的光到得越高，就能在越远的地方看到；而速度越慢的电子，让它发光的位置越高。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Sheath" xml:space="preserve">
+    <value>磁鞘：弓激波和磁层顶之间被减速、加热、压缩的太阳风。它绕着磁层流过，把太阳磁场像披风一样披在磁层外面。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Shell" xml:space="preserve">
+    <value>漂移壳层。粒子一边弹跳，一边沿着这个壳层慢慢绕地球漂移，原因是离地球越近磁场越强，让它的圆圈在那一侧弯得更厉害。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Sight" xml:space="preserve">
+    <value>从你到极光帘底部和顶部的视线。它们高出地平线的角度，就是极光在你天空中的高度。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Spiral" xml:space="preserve">
+    <value>螺旋：磁力总是往侧面推，所以粒子一边绕着磁力线转圈，一边沿着它滑行。电子和质子转圈的方向相反。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Stripped" xml:space="preserve">
+    <value>如果没有磁场，太阳风会直接吹到高层大气，一点点把它剥走。火星在几十亿年里，就这样失去了大部分大气。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Sun" xml:space="preserve">
+    <value>太阳。这里画得太近了，实际上它离我们大约两万三千个地球半径。它除了发光，还不停地吹出太阳风，偶尔还会抛出巨大的等离子体云，引发磁暴。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Tail" xml:space="preserve">
+    <value>磁尾：磁层背对太阳的一侧，被太阳风拉得很长，可达几百个地球半径，远远超过月球轨道。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_TailX" xml:space="preserve">
+    <value>磁尾磁重联：南北两边被拉长的开放磁力线在磁尾中间重新连接。闭合的部分弹回地球，剩下的部分随太阳风飞走。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_View" xml:space="preserve">
+    <value>你看到的天空，面朝极光的方向。极光帘画在剖面图算出的位置上，像真的一样折叠、摇曳。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Violet" xml:space="preserve">
+    <value>氮分子的紫光和蓝光，波长约 428 纳米：沿着底边的一道镶边，那是最快的电子钻得最深的地方。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_Wind" xml:space="preserve">
+    <value>太阳风：从太阳流出来的带电粒子，主要是质子和电子，速度每秒三百到八百公里，两到四天就能到达地球。</value>
+  </data>
+  <data name="Narr_Aurora_Obj_You" xml:space="preserve">
+    <value>这是你，位置就是左页上选的观察地点。换一个地方，就能看到别的地方离极光有多远。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_01" xml:space="preserve">
+    <value>有些带电粒子不只是从旁边流过，而是被困在了地球磁场里。跟着这个亮点看，它是一个电子。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_02" xml:space="preserve">
+    <value>磁场会把运动的电荷往侧面推，所以电子没法横穿磁力线，只能一边绕着磁力线转圈，一边沿着它滑行，走出来的就是一条螺旋线。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_03" xml:space="preserve">
+    <value>越靠近两极，磁力线挤得越密，磁场也越强。螺旋被挤得越来越紧，最后电子停下来，掉头往回走。这个掉头的地方叫镜像点。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_04" xml:space="preserve">
+    <value>于是电子在南北之间来回弹跳，一遍又一遍；同时，整条路径还在慢慢绕着地球转。电子往东漂，质子往西漂。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_05" xml:space="preserve">
+    <value>问你一个问题：是什么决定了电子跑到离极区多近的地方才掉头？</value>
+  </data>
+  <data name="Narr_Aurora_Particles_06" xml:space="preserve">
+    <value>答案是它的运动方向和磁场之间的夹角，叫投掷角。电子越是顺着磁场跑，就跑得越远。如果投掷角小到只有几度，落进所谓的损失锥里，它就根本不会掉头。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_07" xml:space="preserve">
+    <value>它会一直冲进极区附近的大气，停在那里，把能量交给空气，让空气发光。每一次极光，都是无数个这样落进损失锥的粒子造成的。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_08" xml:space="preserve">
+    <value>那些一直被困住的粒子，在地球周围形成两个巨大的“甜甜圈”，叫范艾伦辐射带。内带主要是质子，外带主要是电子。</value>
+  </data>
+  <data name="Narr_Aurora_Particles_09" xml:space="preserve">
+    <value>轮到你了。把电子换成质子，看看它往哪边漂；或者改一改投掷角，看看它在哪里掉头。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_01" xml:space="preserve">
+    <value>这是从侧面看的地球，太阳在左边很远的地方。太阳不停地吹出一股由带电粒子组成的稀薄的风，叫太阳风，速度大约每秒四百公里。左边飞来的这些细线，就是太阳风。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_02" xml:space="preserve">
+    <value>太阳风比在它里面传播的任何波都快，所以在地球前方会堆成一道激波，叫弓激波，有点像船头前面推起的水波。穿过弓激波以后，太阳风就变慢、变热了。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_03" xml:space="preserve">
+    <value>里面是地球自己的磁场。它的边界叫磁层顶，在那里，磁场向外的推力正好顶住太阳风向内的压力。在白天一侧，磁层顶离地球大约十个地球半径；在夜晚一侧，太阳风把磁场拖成一条长长的尾巴。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_04" xml:space="preserve">
+    <value>问你一个问题：如果太阳风吹得更猛，磁层顶会怎么样？</value>
+  </data>
+  <data name="Narr_Aurora_Shield_05" xml:space="preserve">
+    <value>答案是：磁层顶会被压近。现在来了一场磁暴：太阳抛出的一团物质，以每秒八百多公里的速度冲过来。看，磁层顶缩小了很多。最强的磁暴里，地球静止轨道上的卫星甚至会被留在磁层外面，直接暴露在太阳风里。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_06" xml:space="preserve">
+    <value>太阳风还带着太阳的磁场一起来。当这股磁场指向南方，就像现在这样，它在磁层前端正好和地球磁场方向相反。这时，会发生一件很奇妙的事。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_07" xml:space="preserve">
+    <value>两股磁场连在了一起。磁力线断开又重新连接，这叫磁重联。现在这条来自太阳的磁力线，一端拴在了地球上。太阳风继续拉着它的另一端，把它拖过两极，拖进磁尾。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_08" xml:space="preserve">
+    <value>在磁尾深处，南北两边被拉长的磁力线在中间相遇，又发生了一次重联。新形成的闭合磁力线像松开的橡皮筋一样弹回地球，把电子顺着它甩下去。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_09" xml:space="preserve">
+    <value>这些电子在两极周围的一圈里落进大气，让空气发光，这就是极光。整个循环叫邓吉循环，真实的一圈大约要一个小时。</value>
+  </data>
+  <data name="Narr_Aurora_Shield_10" xml:space="preserve">
+    <value>轮到你了。用滑块把太阳磁场调成指向北方，或者干脆关掉地球磁场，看看这面磁盾会怎么样。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_01" xml:space="preserve">
+    <value>这是从离你最近的那个磁极上方看到的地球。绿色的环叫极光椭圆带，落下来的电子就在这里进入大气。注意，它围绕的是地磁极，而不是地理上的极点。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_02" xml:space="preserve">
+    <value>极光椭圆带始终背对太阳，地球就在它下面自转。它在磁子夜之前不久最亮，所以那时候最适合看极光。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_03" xml:space="preserve">
+    <value>金色的点就是你，位置就是左页上选的观察地点。蓝色虚线从你这里指向磁极，右边的剖面图就是沿着这条线切下来的。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_04" xml:space="preserve">
+    <value>问你一个问题：太阳活动剧烈、发生磁暴的时候，极光椭圆带会往哪边移动？</value>
+  </data>
+  <data name="Narr_Aurora_Sky_05" xml:space="preserve">
+    <value>它会变大，往赤道方向扩展。金色虚线表示，在多远的地方还能看到它低低地挂在地平线上。之所以隔这么远还能看见，是因为极光非常高，大约在一百到四百公里的高空。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_06" xml:space="preserve">
+    <value>右边是从你到极光的剖面，地球的弧度是按真实比例画的。极光像一道竖着的帘子。如果它离得太远，地球的弧度就会把它藏到你的地平线以下。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_07" xml:space="preserve">
+    <value>极光的颜色来自空气本身。低处的氧原子发绿光。更高的地方空气稀薄，氧原子发红光，因为在那里，一个被激发的原子可以等将近两分钟再发光，中间不会被别的分子撞到。在最底部，氮分子还会镶上一道紫色的边。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_08" xml:space="preserve">
+    <value>速度慢一些的电子停在更高的地方，它们造成的极光大多是红色的。在特大磁暴时，远离极区的人们看到的，往往就是这种红光。</value>
+  </data>
+  <data name="Narr_Aurora_Sky_09" xml:space="preserve">
+    <value>轮到你了。拖动 Kp 滑块，或者改变电子的能量，看看极光帘、它的颜色，还有你看到的天空会怎么变化。</value>
+  </data>
   <data name="Narr_Breeze_Cell_01" xml:space="preserve">
     <value>我们一步一步来搭这个环流。左边是海，右边是陆地。这几条白线是等压面，也就是气压相同的面。海陆温度一样的时候，它们都是平的。</value>
   </data>
@@ -7499,6 +8582,156 @@
   </data>
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>所以，看月亮的形状，就能大致知道它什么时候升起、什么时候落下。你可以左右拖动画面换个时间，找一找月亮在哪儿。</value>
+  </data>
+  <data name="Narr_Rain_Drop_01" xml:space="preserve">
+    <value>现在看一滴雨，这里把它放大了很多倍，阳光从左边照进来。雨滴就是一颗小水珠，它的作用有点像三棱镜。</value>
+  </data>
+  <data name="Narr_Rain_Drop_02" xml:space="preserve">
+    <value>跟着一条光线走：它进入雨滴时折射一次，在雨滴背面反射一次，出来时再折射一次，朝着阳光照来的那一侧返回。</value>
+  </data>
+  <data name="Narr_Rain_Drop_03" xml:space="preserve">
+    <value>这条光线是折回得最陡的一条。每种颜色出来时，和指回太阳的那条线所成的角度都略有不同：红光大约 42 度，紫光稍小一点。颜色就是这样分开的。</value>
+  </data>
+  <data name="Narr_Rain_Drop_04" xml:space="preserve">
+    <value>现在让光线照满整个雨滴。它们出来的角度各不相同，但大多数都挤在 42 度附近。正是这种扎堆，让彩虹显得很亮。</value>
+  </data>
+  <data name="Narr_Rain_Drop_05" xml:space="preserve">
+    <value>那么，要看到彩虹，你应该往天空的哪里看？</value>
+  </data>
+  <data name="Narr_Rain_Drop_06" xml:space="preserve">
+    <value>要背对太阳，因为光是从它照来的方向折回来的。而且并不是所有的光都能出来：有的在外表面就反射掉了，有的从背面漏了出去。最后变成彩虹的，只是一小部分。</value>
+  </data>
+  <data name="Narr_Rain_Drop_07" xml:space="preserve">
+    <value>还有一些光在雨滴里反射两次才出来。它们挤在 51 度附近，形成一条更淡的第二道彩虹，颜色顺序正好反过来。</value>
+  </data>
+  <data name="Narr_Rain_Drop_08" xml:space="preserve">
+    <value>轮到你了。上下拖动，改变光线射入雨滴的位置，找找它从哪里射入时，出来的角度最陡。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Antisolar" xml:space="preserve">
+    <value>对日点，就是你头影所在的位置。每一道彩虹都是围绕它的一个圆，所以每个人看到的都是属于自己的彩虹。</value>
+  </data>
+  <data name="Narr_Rain_Obj_BowAngle" xml:space="preserve">
+    <value>彩虹的半径，用离对日点的角度来量：主虹大约 42 度，副虹大约 51 度。</value>
+  </data>
+  <data name="Narr_Rain_Obj_BrightInside" xml:space="preserve">
+    <value>主虹里面的天空更亮：角度更小的雨滴也会把光送回来，各种颜色重叠在一起，成了白色。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Crests" xml:space="preserve">
+    <value>光波的波峰，这里画得比真实大了一万多倍。光走得慢的地方，波峰就挨得更近；颜色却不会变。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Critical" xml:space="preserve">
+    <value>临界角。从里面射来的光，只要比这个角度更斜，就出不去了。材料里光走得越慢，临界角就越小，这也是钻石特别闪亮的原因。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Crowd" xml:space="preserve">
+    <value>光线扎堆的地方。从这附近射入的光线，出来时角度都差不多，所以大量的光朝这个方向射出，这就是彩虹角。</value>
+  </data>
+  <data name="Narr_Rain_Obj_DarkBand" xml:space="preserve">
+    <value>亚历山大暗带，在两道虹之间。在雨滴里反射一次或两次的光，都不会从这些角度射出来，所以那里的天空更暗。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Drop" xml:space="preserve">
+    <value>一滴雨，直径一两毫米，这里放大了很多倍。上下拖动，可以选择那条光线从哪里射入雨滴。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Entry" xml:space="preserve">
+    <value>光线射入雨滴处的两个角：外面的入射角，以及里面更小的折射角，因为光在水里变慢了。</value>
+  </data>
+  <data name="Narr_Rain_Obj_ExitAngle" xml:space="preserve">
+    <value>射出的光和指回太阳的那条线之间的夹角。对主虹来说，这个角度最大不会超过大约 42 度。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Incidence" xml:space="preserve">
+    <value>入射角：射来的光束偏离法线多少度。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Index" xml:space="preserve">
+    <value>折射率 n，表示光在一种材料里比在真空中慢多少倍：水大约是 1.33，玻璃是 1.5，钻石是 2.4。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Lamp" xml:space="preserve">
+    <value>灯，发出一束细细的光。在图上任意处拖动就能瞄准它：角度是从法线，也就是那条竖直的虚线量起的。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Losses" xml:space="preserve">
+    <value>沿途漏掉的光：有的在雨滴外表面就被反射掉了，在里面每反射一次，又有一些从背面漏出去。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Normal" xml:space="preserve">
+    <value>法线：在光碰到表面的地方，和表面垂直的一条线。光学里的角度都是从这条线量起的，而不是从表面量起。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Out" xml:space="preserve">
+    <value>射入的光里，有多少沿着这条路出来，射向看彩虹的人。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Primary" xml:space="preserve">
+    <value>主虹，由在雨滴里反射一次的光形成。外圈是红色，内圈是紫色。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Prism" xml:space="preserve">
+    <value>三棱镜。它的两个面让光朝同一个方向偏折，所以颜色比只经过一个表面时散得更开。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Reflected" xml:space="preserve">
+    <value>被表面反射回去的那部分光。正对着照时只有百分之几；贴着表面照时几乎全部被反射，就像湖面上的反光。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Refracted" xml:space="preserve">
+    <value>折射角：拐弯以后的光束偏离法线多少度。射进更慢的材料时，它比入射角小；射出来时，它比入射角大。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Secondary" xml:space="preserve">
+    <value>副虹，由在雨滴里反射两次的光形成。它更淡、更宽，颜色顺序反过来。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Spectrum" xml:space="preserve">
+    <value>光谱：白光被分成各种颜色，从偏得最少的红光，到偏得最多的紫光。单一颜色的光，只会照出一个光点。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Through" xml:space="preserve">
+    <value>穿过表面继续前进的那部分光，它被折射弯了方向。它和反射光加起来，就是全部的光。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Total" xml:space="preserve">
+    <value>全反射：光从里面射向表面，角度超过了临界角，一点都出不去。</value>
+  </data>
+  <data name="Narr_Rain_Obj_Turn" xml:space="preserve">
+    <value>三棱镜让光束偏离原来方向的角度。光对称地穿过三棱镜时，这个角度最小。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_01" xml:space="preserve">
+    <value>彩虹，要从光改变方向说起。这里有一盏灯，把一束红光照向水面。光束上一道道横纹，就是光波的波峰，它们随着光一起往前走。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_02" xml:space="preserve">
+    <value>看看进到水里以后的波峰：它们挤得更近了。光在水里大约慢了四分之一，所以每个波走过的距离更短。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_03" xml:space="preserve">
+    <value>光束是斜着碰到水面的，所以它的一边先慢下来，整束光就朝那条竖直的虚线，也就是法线，偏过去。这种拐弯就叫折射。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_04" xml:space="preserve">
+    <value>并不是所有的光都进到水里。有一小部分会被水面反射回去，在这个角度只有百分之几。光照得越斜，反射的就越多。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_05" xml:space="preserve">
+    <value>现在想一想反过来的情况：光从水里射向水面，而且照得很斜。会发生什么？</value>
+  </data>
+  <data name="Narr_Rain_Refraction_06" xml:space="preserve">
+    <value>一点都出不去，全部反射回水里。超过临界角，对水来说大约是 49 度，光就逃不出去了。这叫全反射，光纤就是靠它把光关在里面的。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_07" xml:space="preserve">
+    <value>回到光射进水里的情况，不过这次是白光。每种颜色偏折的程度都略有不同：紫光偏得最多，红光偏得最少。这里把差别画大了五倍，方便你看清。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_08" xml:space="preserve">
+    <value>玻璃三棱镜让光偏折两次，进去一次、出来一次，而且两次朝同一个方向。所以各种颜色散得更开，在光屏上铺成一整条光谱。</value>
+  </data>
+  <data name="Narr_Rain_Refraction_09" xml:space="preserve">
+    <value>轮到你了。在图上拖动，换个角度把灯对准三棱镜，看看光谱怎样移动。</value>
+  </data>
+  <data name="Narr_Rain_Sky_01" xml:space="preserve">
+    <value>现在看真实的天空：前面在下雨，太阳低低地挂在你身后。正对着太阳的那个点，就是你头影所在的地方。</value>
+  </data>
+  <data name="Narr_Rain_Sky_02" xml:space="preserve">
+    <value>凡是离这个点 42 度的雨滴，都会把彩虹的光正好送进你的眼睛。所以彩虹是一个以你头影为中心的圆。</value>
+  </data>
+  <data name="Narr_Rain_Sky_03" xml:space="preserve">
+    <value>红色在外圈，紫色在内圈。红光出来的角度稍大一点，所以你看到的红光，来自位置稍高一些的雨滴。</value>
+  </data>
+  <data name="Narr_Rain_Sky_04" xml:space="preserve">
+    <value>注意彩虹里面的天空更亮一些。那是来自角度更小的雨滴的光，各种颜色又混回了白色。</value>
+  </data>
+  <data name="Narr_Rain_Sky_05" xml:space="preserve">
+    <value>外面是更淡的副虹，颜色顺序反过来。而两道虹之间的天空更暗，这条带叫做亚历山大暗带。</value>
+  </data>
+  <data name="Narr_Rain_Sky_06" xml:space="preserve">
+    <value>你觉得，太阳在天上升得越高，彩虹会怎样？</value>
+  </data>
+  <data name="Narr_Rain_Sky_07" xml:space="preserve">
+    <value>彩虹会变低。圆心在地平线以下的深度，正好等于太阳在地平线以上的高度。太阳一旦高过大约 42 度，整道虹就落到地平线下面去了。所以彩虹通常出现在早上或者傍晚。</value>
+  </data>
+  <data name="Narr_Rain_Sky_08" xml:space="preserve">
+    <value>轮到你了。上下拖动天空来改变太阳的高度，看彩虹怎样升起和落下。</value>
   </data>
   <data name="Narr_Retro_Above_01" xml:space="preserve">
     <value>现在我们飞到太阳的正上方往下看。这是地球和火星的轨道，按真实比例画的。它们都朝同一个方向转。</value>
@@ -9017,6 +10250,720 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>讲解 {0}/{1}</value>
+  </data>
+  <data name="Rain_Angle" xml:space="preserve">
+    <value>入射角（与法线的夹角）</value>
+  </data>
+  <data name="Rain_Angle_Critical" xml:space="preserve">
+    <value>临界角</value>
+  </data>
+  <data name="Rain_Angle_Least" xml:space="preserve">
+    <value>最小偏向</value>
+  </data>
+  <data name="Rain_Chart_AllReflected" xml:space="preserve">
+    <value>全反射</value>
+  </data>
+  <data name="Rain_Chart_Bent" xml:space="preserve">
+    <value>折射角 θ₂</value>
+  </data>
+  <data name="Rain_Chart_DarkBand" xml:space="preserve">
+    <value>暗带：没有光出来</value>
+  </data>
+  <data name="Rain_Chart_DarkBandShort" xml:space="preserve">
+    <value>暗带</value>
+  </data>
+  <data name="Rain_Chart_Deviation_Caption" xml:space="preserve">
+    <value>出射角随射入位置的变化</value>
+  </data>
+  <data name="Rain_Chart_Deviation_Note" xml:space="preserve">
+    <value>横轴是光线射入的位置，从正中（0）到边缘（1）；纵轴是它出来时与对日点的夹角。主虹的曲线在 42° 到顶后折回，所以大量光线堆在那里；副虹的曲线在 51° 到底。两者之间没有光出来。</value>
+  </data>
+  <data name="Rain_Chart_Least" xml:space="preserve">
+    <value>○ 最小偏向</value>
+  </data>
+  <data name="Rain_Chart_Primary" xml:space="preserve">
+    <value>主虹 {0}°</value>
+  </data>
+  <data name="Rain_Chart_Prism_Caption" xml:space="preserve">
+    <value>三棱镜让各色光偏转多少</value>
+  </data>
+  <data name="Rain_Chart_Prism_Note" xml:space="preserve">
+    <value>横轴是光射到第一个面上的入射角。每种颜色都有一个最小偏向角（圆圈），这时光对称地穿过棱镜。紫光总比红光偏得多；入射太平的光出不了第二个面。</value>
+  </data>
+  <data name="Rain_Chart_Profile_Caption" xml:space="preserve">
+    <value>亮度随与对日点夹角的变化</value>
+  </data>
+  <data name="Rain_Chart_Profile_Note" xml:space="preserve">
+    <value>由光线穿过这种大小的雨滴算出来，颜色就是它们合成的颜色：主虹内侧的天空发亮，42° 处最亮，然后是暗带，51° 处是较暗的副虹（纵轴取平方根，让暗的部分也看得见）。</value>
+  </data>
+  <data name="Rain_Chart_ReflectedShare" xml:space="preserve">
+    <value>反射比例</value>
+  </data>
+  <data name="Rain_Chart_Secondary" xml:space="preserve">
+    <value>副虹 {0}°</value>
+  </data>
+  <data name="Rain_Chart_Side_Caption" xml:space="preserve">
+    <value>侧面看：哪些雨滴把哪种颜色送进你眼里</value>
+  </data>
+  <data name="Rain_Chart_Side_Note" xml:space="preserve">
+    <value>每滴雨都把红光以约 42°、紫光以约 40.6° 送出来。所以你看到的红光来自稍高的雨滴，紫光来自稍低的雨滴：主虹外红内紫。副虹正好反过来。</value>
+  </data>
+  <data name="Rain_Chart_Surface_Caption" xml:space="preserve">
+    <value>折射角与反射比例随入射角的变化</value>
+  </data>
+  <data name="Rain_Chart_Surface_Note" xml:space="preserve">
+    <value>虚线表示完全不偏折。射进去时，折射光总比入射光更靠近法线；射出来时则更远离法线，超过临界角就一点也出不去。正对着射时只反射百分之几，越斜反射越多。</value>
+  </data>
+  <data name="Rain_Chart_ToAntisolar" xml:space="preserve">
+    <value>指向对日点</value>
+  </data>
+  <data name="Rain_Chart_Turn" xml:space="preserve">
+    <value>偏向角</value>
+  </data>
+  <data name="Rain_Colour_Caption" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Rain_Colour_Green" xml:space="preserve">
+    <value>绿光</value>
+  </data>
+  <data name="Rain_Colour_Red" xml:space="preserve">
+    <value>红光</value>
+  </data>
+  <data name="Rain_Colour_Violet" xml:space="preserve">
+    <value>紫光</value>
+  </data>
+  <data name="Rain_Colour_White" xml:space="preserve">
+    <value>白光</value>
+  </data>
+  <data name="Rain_Diagram_AllReflected" xml:space="preserve">
+    <value>全部反射：一点也出不去</value>
+  </data>
+  <data name="Rain_Diagram_Antisolar" xml:space="preserve">
+    <value>对日点：你头影的位置</value>
+  </data>
+  <data name="Rain_Diagram_BrightInside" xml:space="preserve">
+    <value>虹的内侧更亮</value>
+  </data>
+  <data name="Rain_Diagram_Critical" xml:space="preserve">
+    <value>临界角 {0}°</value>
+  </data>
+  <data name="Rain_Diagram_Crowd" xml:space="preserve">
+    <value>光线在这里扎堆：{0}°</value>
+  </data>
+  <data name="Rain_Diagram_CrowdSecondary" xml:space="preserve">
+    <value>副虹的光线扎堆：{0}°</value>
+  </data>
+  <data name="Rain_Diagram_DarkBand" xml:space="preserve">
+    <value>亚历山大暗带</value>
+  </data>
+  <data name="Rain_Diagram_DropSize" xml:space="preserve">
+    <value>一滴雨，直径 1–2 毫米（放大画）</value>
+  </data>
+  <data name="Rain_Diagram_ExitWhite" xml:space="preserve">
+    <value>红 {0}° · 紫 {1}°</value>
+  </data>
+  <data name="Rain_Diagram_Medium" xml:space="preserve">
+    <value>{0} · n = {1} · 光速 {2}</value>
+  </data>
+  <data name="Rain_Diagram_Normal" xml:space="preserve">
+    <value>法线</value>
+  </data>
+  <data name="Rain_Diagram_Out" xml:space="preserve">
+    <value>{0} 的光从这里出来</value>
+  </data>
+  <data name="Rain_Diagram_PrimaryBow" xml:space="preserve">
+    <value>主虹：外红内紫</value>
+  </data>
+  <data name="Rain_Diagram_Prism" xml:space="preserve">
+    <value>{0}三棱镜 · 顶角 {1}°</value>
+  </data>
+  <data name="Rain_Diagram_Reflected" xml:space="preserve">
+    <value>反射 {0}</value>
+  </data>
+  <data name="Rain_Diagram_SecondaryBow" xml:space="preserve">
+    <value>副虹：颜色反过来</value>
+  </data>
+  <data name="Rain_Diagram_Spectrum" xml:space="preserve">
+    <value>光谱</value>
+  </data>
+  <data name="Rain_Diagram_Spot" xml:space="preserve">
+    <value>单色光：只有一个光点</value>
+  </data>
+  <data name="Rain_Diagram_SunBehind" xml:space="preserve">
+    <value>太阳在你身后，高 {0}°</value>
+  </data>
+  <data name="Rain_Diagram_Sunlight" xml:space="preserve">
+    <value>阳光</value>
+  </data>
+  <data name="Rain_Diagram_Through" xml:space="preserve">
+    <value>透过 {0}</value>
+  </data>
+  <data name="Rain_Diagram_Turn" xml:space="preserve">
+    <value>偏转 {0}°</value>
+  </data>
+  <data name="Rain_Diagram_TurnWhite" xml:space="preserve">
+    <value>黄光偏转 {0}°</value>
+  </data>
+  <data name="Rain_DragHint_Drop" xml:space="preserve">
+    <value>上下拖动来选择光线射入的位置。</value>
+  </data>
+  <data name="Rain_DragHint_Refraction_Prism" xml:space="preserve">
+    <value>拖动来调整射向棱镜的角度。</value>
+  </data>
+  <data name="Rain_DragHint_Refraction_Surface" xml:space="preserve">
+    <value>在图上任意处拖动来瞄准灯，或让它自动扫动。</value>
+  </data>
+  <data name="Rain_DragHint_Sky" xml:space="preserve">
+    <value>上下拖动彩虹：彩虹越低，太阳越高。</value>
+  </data>
+  <data name="Rain_Drop_Edge_Primary" xml:space="preserve">
+    <value>过了彩虹光线，角度又折回来变小。所以反射一次的光都不会超过 42° 出来：彩虹外侧的天空更暗。</value>
+  </data>
+  <data name="Rain_Drop_Edge_Secondary" xml:space="preserve">
+    <value>过了它的彩虹光线，角度又变大。反射两次的光都不会小于 51° 出来，于是两条虹之间留下一条暗带。</value>
+  </data>
+  <data name="Rain_Drop_Edge_Title" xml:space="preserve">
+    <value>靠近边缘</value>
+  </data>
+  <data name="Rain_Drop_Fact1" xml:space="preserve">
+    <value>1637 年笛卡尔一条一条地追踪光线穿过雨滴，算出了 42°，和这一章的做法差不多。</value>
+  </data>
+  <data name="Rain_Drop_Fact2" xml:space="preserve">
+    <value>每滴雨只把一种颜色送进你眼里。你看到的彩虹由千百万滴雨组成，每种颜色来自不同的雨滴；站在你旁边的人看到的是另一条彩虹。</value>
+  </data>
+  <data name="Rain_Drop_Fact3" xml:space="preserve">
+    <value>在雨滴里反射三四次的光会在太阳那一侧形成彩虹，非常暗，又淹没在阳光里，直到 2011 年才被拍到。</value>
+  </data>
+  <data name="Rain_Drop_Fact4" xml:space="preserve">
+    <value>虹光沿着虹的方向强烈偏振：戴偏光太阳镜歪头看，彩虹的某些部分会消失。</value>
+  </data>
+  <data name="Rain_Drop_Fact5" xml:space="preserve">
+    <value>明亮的彩虹内侧有时有几道淡淡的粉绿色条纹（附属虹），用光线根本解释不了：它们来自光波的干涉，这曾帮助证明光是波。</value>
+  </data>
+  <data name="Rain_Drop_Middle_Primary" xml:space="preserve">
+    <value>从中间射入的光几乎原路返回。越往外射入，出来的角度越大，但不会超过约 42°。</value>
+  </data>
+  <data name="Rain_Drop_Middle_Secondary" xml:space="preserve">
+    <value>反射两次时，靠近中间的光几乎继续向前。越往外射入，出来的方向越靠向太阳一侧，最小到约 51°。</value>
+  </data>
+  <data name="Rain_Drop_Middle_Title" xml:space="preserve">
+    <value>靠近中间</value>
+  </data>
+  <data name="Rain_Drop_Note" xml:space="preserve">
+    <value>阳光从左边照进一滴雨。光射进去时折射，在背面反射，出来时再折射一次，朝背对太阳的人返回。</value>
+  </data>
+  <data name="Rain_Drop_Rainbow_Primary" xml:space="preserve">
+    <value>在约 0.86 半径处射入的光，出来的角度最大，为 42°。在这里把光线往里或往外挪一点，出射方向几乎不变，所以一大片光都堆在这个角度上：这堆亮光就是彩虹。</value>
+  </data>
+  <data name="Rain_Drop_Rainbow_Secondary" xml:space="preserve">
+    <value>在约 0.95 半径处射入、反射两次的光，出来的角度最小，为 51°。光也堆在这里，就是副虹。两次反射损失更多光，所以副虹更暗。</value>
+  </data>
+  <data name="Rain_Drop_Rainbow_Title" xml:space="preserve">
+    <value>彩虹光线</value>
+  </data>
+  <data name="Rain_Drop_Secondary_Note" xml:space="preserve">
+    <value>阳光从左边照进一滴雨。从下半部射入的光进去时折射，在里面反射两次，从顶部出来时再折射一次，朝背对太阳的人返回。</value>
+  </data>
+  <data name="Rain_Drop_Secondary_Subtitle" xml:space="preserve">
+    <value>射进去、反射两次、在 51° 出来</value>
+  </data>
+  <data name="Rain_Drop_Subtitle" xml:space="preserve">
+    <value>射进去、反射一次、在 42° 出来</value>
+  </data>
+  <data name="Rain_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Rain_Home_AllDay" xml:space="preserve">
+    <value>{0}今天：太阳全天都低于 {1}°，只要太阳对面在下雨，任何时候都可能看到彩虹。</value>
+  </data>
+  <data name="Rain_Home_Never" xml:space="preserve">
+    <value>{0}今天：太阳升起后一直高于 {1}°。</value>
+  </data>
+  <data name="Rain_Home_Now" xml:space="preserve">
+    <value>此刻的{0}</value>
+  </data>
+  <data name="Rain_Home_Window" xml:space="preserve">
+    <value>{0}今天：{2} 到 {3} 太阳高于 {1}°，彩虹会落到地平线以下；更早或更晚时才看得到。</value>
+  </data>
+  <data name="Rain_Impact" xml:space="preserve">
+    <value>光线射入的位置</value>
+  </data>
+  <data name="Rain_Impact_Rainbow" xml:space="preserve">
+    <value>跟踪彩虹光线</value>
+  </data>
+  <data name="Rain_Impact_Value" xml:space="preserve">
+    <value>{0} × 半径</value>
+  </data>
+  <data name="Rain_Lesson_Drop_Choice1" xml:space="preserve">
+    <value>背对太阳</value>
+  </data>
+  <data name="Rain_Lesson_Drop_Choice2" xml:space="preserve">
+    <value>朝着太阳</value>
+  </data>
+  <data name="Rain_Lesson_Drop_Choice3" xml:space="preserve">
+    <value>正头顶</value>
+  </data>
+  <data name="Rain_Lesson_Refraction_Choice1" xml:space="preserve">
+    <value>全部反射回水里</value>
+  </data>
+  <data name="Rain_Lesson_Refraction_Choice2" xml:space="preserve">
+    <value>笔直地射出去，不拐弯</value>
+  </data>
+  <data name="Rain_Lesson_Refraction_Choice3" xml:space="preserve">
+    <value>朝法线偏折</value>
+  </data>
+  <data name="Rain_Lesson_Sky_Choice1" xml:space="preserve">
+    <value>彩虹变低</value>
+  </data>
+  <data name="Rain_Lesson_Sky_Choice2" xml:space="preserve">
+    <value>彩虹变高</value>
+  </data>
+  <data name="Rain_Lesson_Sky_Choice3" xml:space="preserve">
+    <value>保持不变</value>
+  </data>
+  <data name="Rain_Medium_Air" xml:space="preserve">
+    <value>空气</value>
+  </data>
+  <data name="Rain_Medium_Caption" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="Rain_Medium_Diamond" xml:space="preserve">
+    <value>钻石</value>
+  </data>
+  <data name="Rain_Medium_Glass" xml:space="preserve">
+    <value>玻璃</value>
+  </data>
+  <data name="Rain_Medium_Water" xml:space="preserve">
+    <value>水</value>
+  </data>
+  <data name="Rain_Mode_Drop" xml:space="preserve">
+    <value>一滴雨</value>
+  </data>
+  <data name="Rain_Mode_Refraction" xml:space="preserve">
+    <value>折射</value>
+  </data>
+  <data name="Rain_Mode_Sky" xml:space="preserve">
+    <value>天上的虹</value>
+  </data>
+  <data name="Rain_Obj_Antisolar" xml:space="preserve">
+    <value>对日点</value>
+  </data>
+  <data name="Rain_Obj_BowAngle" xml:space="preserve">
+    <value>彩虹半径</value>
+  </data>
+  <data name="Rain_Obj_BrightInside" xml:space="preserve">
+    <value>内侧更亮</value>
+  </data>
+  <data name="Rain_Obj_Crests" xml:space="preserve">
+    <value>波峰</value>
+  </data>
+  <data name="Rain_Obj_Critical" xml:space="preserve">
+    <value>临界角</value>
+  </data>
+  <data name="Rain_Obj_Crowd" xml:space="preserve">
+    <value>光线扎堆处</value>
+  </data>
+  <data name="Rain_Obj_DarkBand" xml:space="preserve">
+    <value>亚历山大暗带</value>
+  </data>
+  <data name="Rain_Obj_Drop" xml:space="preserve">
+    <value>雨滴</value>
+  </data>
+  <data name="Rain_Obj_Entry" xml:space="preserve">
+    <value>射入时的折射</value>
+  </data>
+  <data name="Rain_Obj_ExitAngle" xml:space="preserve">
+    <value>射出的角度</value>
+  </data>
+  <data name="Rain_Obj_Incidence" xml:space="preserve">
+    <value>入射角</value>
+  </data>
+  <data name="Rain_Obj_Index" xml:space="preserve">
+    <value>折射率</value>
+  </data>
+  <data name="Rain_Obj_Lamp" xml:space="preserve">
+    <value>灯</value>
+  </data>
+  <data name="Rain_Obj_Losses" xml:space="preserve">
+    <value>沿途漏掉的光</value>
+  </data>
+  <data name="Rain_Obj_Normal" xml:space="preserve">
+    <value>法线</value>
+  </data>
+  <data name="Rain_Obj_Out" xml:space="preserve">
+    <value>射出的光</value>
+  </data>
+  <data name="Rain_Obj_Primary" xml:space="preserve">
+    <value>主虹</value>
+  </data>
+  <data name="Rain_Obj_Prism" xml:space="preserve">
+    <value>三棱镜</value>
+  </data>
+  <data name="Rain_Obj_Reflected" xml:space="preserve">
+    <value>反射光</value>
+  </data>
+  <data name="Rain_Obj_Refracted" xml:space="preserve">
+    <value>折射角</value>
+  </data>
+  <data name="Rain_Obj_Secondary" xml:space="preserve">
+    <value>副虹</value>
+  </data>
+  <data name="Rain_Obj_Spectrum" xml:space="preserve">
+    <value>光谱</value>
+  </data>
+  <data name="Rain_Obj_Through" xml:space="preserve">
+    <value>透射光</value>
+  </data>
+  <data name="Rain_Obj_Total" xml:space="preserve">
+    <value>全反射</value>
+  </data>
+  <data name="Rain_Obj_Turn" xml:space="preserve">
+    <value>偏转角</value>
+  </data>
+  <data name="Rain_Option_Exaggerate" xml:space="preserve">
+    <value>色散放大 5 倍</value>
+  </data>
+  <data name="Rain_Option_FromInside" xml:space="preserve">
+    <value>从里往外射</value>
+  </data>
+  <data name="Rain_Option_Guides" xml:space="preserve">
+    <value>角度与标注</value>
+  </data>
+  <data name="Rain_Option_Losses" xml:space="preserve">
+    <value>沿途漏掉的光</value>
+  </data>
+  <data name="Rain_Option_Secondary" xml:space="preserve">
+    <value>副虹</value>
+  </data>
+  <data name="Rain_Option_Sheet" xml:space="preserve">
+    <value>一排光线</value>
+  </data>
+  <data name="Rain_Option_Waves" xml:space="preserve">
+    <value>波峰</value>
+  </data>
+  <data name="Rain_Order_Both" xml:space="preserve">
+    <value>两条都看</value>
+  </data>
+  <data name="Rain_Order_Caption" xml:space="preserve">
+    <value>哪条虹</value>
+  </data>
+  <data name="Rain_Order_Primary" xml:space="preserve">
+    <value>主虹</value>
+  </data>
+  <data name="Rain_Order_Secondary" xml:space="preserve">
+    <value>副虹</value>
+  </data>
+  <data name="Rain_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Rain_Prism_Bent_Description" xml:space="preserve">
+    <value>单色光在屏上只有一个光点。进去时偏向第一个面的法线，出来时偏离第二个面的法线：两次都把它往棱镜底边方向拐。</value>
+  </data>
+  <data name="Rain_Prism_Bent_Title" xml:space="preserve">
+    <value>朝同一方向偏折两次</value>
+  </data>
+  <data name="Rain_Prism_Least_Description" xml:space="preserve">
+    <value>光线平行于底边、对称地穿过棱镜。无论把棱镜往哪边转，光都会偏得更多。测量这个角度就能求出玻璃的折射率。</value>
+  </data>
+  <data name="Rain_Prism_Least_Title" xml:space="preserve">
+    <value>最小偏向</value>
+  </data>
+  <data name="Rain_Prism_Split_Description" xml:space="preserve">
+    <value>每种颜色的折射率不同：紫光减速最多、偏折最多，红光最少。第二个面又朝同一方向偏折一次，各色光就散开成光谱。</value>
+  </data>
+  <data name="Rain_Prism_Split_Title" xml:space="preserve">
+    <value>偏折两次，分出颜色</value>
+  </data>
+  <data name="Rain_Prism_Trapped_Description" xml:space="preserve">
+    <value>光射到第二个面时超过了临界角，全部被反射，改从底面出去。双筒望远镜里的棱镜就是这样当镜子用的。</value>
+  </data>
+  <data name="Rain_Prism_Trapped_Title" xml:space="preserve">
+    <value>被困住：在里面反射</value>
+  </data>
+  <data name="Rain_Purity_Pastel" xml:space="preserve">
+    <value>偏淡</value>
+  </data>
+  <data name="Rain_Purity_Vivid" xml:space="preserve">
+    <value>鲜艳</value>
+  </data>
+  <data name="Rain_Purity_White" xml:space="preserve">
+    <value>发白（雾虹）</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact1" xml:space="preserve">
+    <value>1666 年牛顿用三棱镜把阳光分开，又用第二块棱镜把颜色合回白光，证明白光是各种颜色混合而成的。</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact2" xml:space="preserve">
+    <value>色散（各色光偏折不同）让便宜的镜头出现彩色镶边；相机镜头用两种玻璃搭配来抵消它。</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact3" xml:space="preserve">
+    <value>钻石的色散约为普通玻璃的三倍，它闪出的彩色光芒被称为“火彩”。</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact4" xml:space="preserve">
+    <value>紫光在玻璃中比红光减速更多，所以偏折更多。在真空中，所有颜色的光速都一样。</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Fact5" xml:space="preserve">
+    <value>双筒望远镜和潜望镜把棱镜当镜子用：超过临界角时玻璃面会反射全部的光，比镀银镜子还好。</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Note" xml:space="preserve">
+    <value>进去时偏一次，出来时再偏一次，两次朝同一方向。紫光比红光慢一点点，所以偏得多一点点。</value>
+  </data>
+  <data name="Rain_Refraction_Prism_Subtitle" xml:space="preserve">
+    <value>三棱镜把白光分成各种颜色</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact1" xml:space="preserve">
+    <value>斯涅尔定律：n₁ sin θ₁ = n₂ sin θ₂。公元 984 年巴格达的伊本·萨尔就已发现，1621 年斯涅尔又重新发现。</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact2" xml:space="preserve">
+    <value>插在水杯里的吸管看起来折断了，泳池看起来比实际浅（约为实际深度的四分之三），都是因为光离开水面时拐了弯。</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact3" xml:space="preserve">
+    <value>钻石的折射率高达 2.42，临界角只有 24°，射进去的光要在里面反射很多次才能出来：这就是它闪闪发光的原因。</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact4" xml:space="preserve">
+    <value>互联网的光纤靠全反射把光锁在细玻璃丝里，绕过弯道、穿过海底。</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Fact5" xml:space="preserve">
+    <value>光的颜色由频率决定，频率不会变：在水里只是波长变短了。鱼看到的颜色和你一样。</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Note" xml:space="preserve">
+    <value>光在水里慢 1.33 倍，在玻璃里慢 1.5 倍，在钻石里慢 2.4 倍。波峰间距画得比真实光波大 1 万多倍。</value>
+  </data>
+  <data name="Rain_Refraction_Surface_Subtitle" xml:space="preserve">
+    <value>光一换速度，就拐弯</value>
+  </data>
+  <data name="Rain_Scene_Caption" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="Rain_Scene_Prism" xml:space="preserve">
+    <value>三棱镜</value>
+  </data>
+  <data name="Rain_Scene_Surface" xml:space="preserve">
+    <value>平面</value>
+  </data>
+  <data name="Rain_Size_Caption" xml:space="preserve">
+    <value>雨滴大小</value>
+  </data>
+  <data name="Rain_Size_Drizzle" xml:space="preserve">
+    <value>毛毛雨 0.2 毫米</value>
+  </data>
+  <data name="Rain_Size_Fog" xml:space="preserve">
+    <value>雾 0.02 毫米</value>
+  </data>
+  <data name="Rain_Size_Large" xml:space="preserve">
+    <value>大雨滴 2 毫米</value>
+  </data>
+  <data name="Rain_Size_Rain" xml:space="preserve">
+    <value>雨 1 毫米</value>
+  </data>
+  <data name="Rain_Sky_Fact1" xml:space="preserve">
+    <value>彩虹不在某个地方，它只是一个方向：离对日点 42°。你朝它走，它也跟着你走。</value>
+  </data>
+  <data name="Rain_Sky_Fact2" xml:space="preserve">
+    <value>在飞机上或山顶上，脚下也有雨滴时，可以看到完整的一圈彩虹。</value>
+  </data>
+  <data name="Rain_Sky_Fact3" xml:space="preserve">
+    <value>彩虹内侧的天空比外侧亮，两条虹之间有一条较暗的带子，以约公元 200 年描述过它的阿弗罗狄西亚的亚历山大命名。</value>
+  </data>
+  <data name="Rain_Sky_Fact4" xml:space="preserve">
+    <value>雾滴和云滴太小，颜色互相模糊成白色的雾虹；月光也能形成很暗的月虹，人眼看起来是白色的。</value>
+  </data>
+  <data name="Rain_Sky_Fact5" xml:space="preserve">
+    <value>因为彩虹的圆心在地平线下的深度等于太阳的高度，所以在地面上只有太阳低于约 42°（副虹约 51°）时才能看到彩虹。</value>
+  </data>
+  <data name="Rain_Sky_Low_Description" xml:space="preserve">
+    <value>对日点也在地平线上，每个圆都有一半在天上：清晨和傍晚的彩虹最高。低处的阳光偏红，彩虹也偏红。</value>
+  </data>
+  <data name="Rain_Sky_Low_Title" xml:space="preserve">
+    <value>太阳贴着地平线：半个圆</value>
+  </data>
+  <data name="Rain_Sky_Note" xml:space="preserve">
+    <value>背对太阳看着下雨的天空。颜色和亮度由光线穿过雨滴算出，并按照到达雨滴的阳光着色。</value>
+  </data>
+  <data name="Rain_Sky_SecondaryOnly_Description" xml:space="preserve">
+    <value>太阳高过 42° 时，主虹沉到地平线以下。半径 51° 的副虹还能再露出头来一会儿。</value>
+  </data>
+  <data name="Rain_Sky_SecondaryOnly_Title" xml:space="preserve">
+    <value>只剩副虹</value>
+  </data>
+  <data name="Rain_Sky_Sinking_Description" xml:space="preserve">
+    <value>彩虹的圆心永远在对日点，它在地平线下的深度正好等于太阳的高度。太阳越高，留在地面以上的圆弧越少。</value>
+  </data>
+  <data name="Rain_Sky_Sinking_Title" xml:space="preserve">
+    <value>太阳升高，彩虹下沉</value>
+  </data>
+  <data name="Rain_Sky_Subtitle" xml:space="preserve">
+    <value>以你头影为中心、半径 42° 的光环</value>
+  </data>
+  <data name="Rain_Sky_TooHigh_Description" xml:space="preserve">
+    <value>两个圆都在地平线以下。夏天中午前后在地面上看不到彩虹，但在飞机上，或者低头看水管喷出的水雾，仍然看得到。</value>
+  </data>
+  <data name="Rain_Sky_TooHigh_Title" xml:space="preserve">
+    <value>太阳太高：没有彩虹</value>
+  </data>
+  <data name="Rain_Spread_Note" xml:space="preserve">
+    <value>各色光分开的程度画成真实的 5 倍，方便看清；数字都是真实的。</value>
+  </data>
+  <data name="Rain_Stat_Antisolar" xml:space="preserve">
+    <value>对日点</value>
+  </data>
+  <data name="Rain_Stat_Antisolar_Value" xml:space="preserve">
+    <value>{0}°（和太阳一样高，只是在地平线下）</value>
+  </data>
+  <data name="Rain_Stat_Bow" xml:space="preserve">
+    <value>{0}虹角</value>
+  </data>
+  <data name="Rain_Stat_Bow_Value" xml:space="preserve">
+    <value>{0}°（红 {1}°，紫 {2}°），在 {3} × 半径处射入</value>
+  </data>
+  <data name="Rain_Stat_Colour" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="Rain_Stat_Colour_Value" xml:space="preserve">
+    <value>{0}：模糊约 {1}°，红紫相隔 {2}°</value>
+  </data>
+  <data name="Rain_Stat_Colours" xml:space="preserve">
+    <value>各色光</value>
+  </data>
+  <data name="Rain_Stat_Colours_Value" xml:space="preserve">
+    <value>红 {0} · 紫 {1}</value>
+  </data>
+  <data name="Rain_Stat_Critical" xml:space="preserve">
+    <value>临界角</value>
+  </data>
+  <data name="Rain_Stat_Critical_Value" xml:space="preserve">
+    <value>{0}°（从{1}射向空气）</value>
+  </data>
+  <data name="Rain_Stat_Dispersion_Value" xml:space="preserve">
+    <value>红 {0} · 紫 {1}</value>
+  </data>
+  <data name="Rain_Stat_Drops" xml:space="preserve">
+    <value>雨滴</value>
+  </data>
+  <data name="Rain_Stat_Exit" xml:space="preserve">
+    <value>{0}出射角</value>
+  </data>
+  <data name="Rain_Stat_Exit_Value" xml:space="preserve">
+    <value>{0}° · 占 {1} 的光</value>
+  </data>
+  <data name="Rain_Stat_Impact" xml:space="preserve">
+    <value>射入位置</value>
+  </data>
+  <data name="Rain_Stat_InAngles" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="Rain_Stat_InAngles_Value" xml:space="preserve">
+    <value>入射 {0}°，折射为 {1}°</value>
+  </data>
+  <data name="Rain_Stat_Incidence" xml:space="preserve">
+    <value>入射角 θ₁</value>
+  </data>
+  <data name="Rain_Stat_Indices" xml:space="preserve">
+    <value>折射率</value>
+  </data>
+  <data name="Rain_Stat_Least" xml:space="preserve">
+    <value>最小偏向角</value>
+  </data>
+  <data name="Rain_Stat_Least_Value" xml:space="preserve">
+    <value>{0}°（入射角 {1}° 时）</value>
+  </data>
+  <data name="Rain_Stat_None" xml:space="preserve">
+    <value>无：全部反射</value>
+  </data>
+  <data name="Rain_Stat_Path" xml:space="preserve">
+    <value>从 → 到</value>
+  </data>
+  <data name="Rain_Stat_Path_Value" xml:space="preserve">
+    <value>{0} → {1}</value>
+  </data>
+  <data name="Rain_Stat_Polarised" xml:space="preserve">
+    <value>偏振</value>
+  </data>
+  <data name="Rain_Stat_Polarised_Value" xml:space="preserve">
+    <value>虹光的 {0}%，沿虹的方向振动</value>
+  </data>
+  <data name="Rain_Stat_Prism" xml:space="preserve">
+    <value>棱镜</value>
+  </data>
+  <data name="Rain_Stat_Prism_Value" xml:space="preserve">
+    <value>{0}，顶角 {1}°</value>
+  </data>
+  <data name="Rain_Stat_Refraction" xml:space="preserve">
+    <value>折射角 θ₂</value>
+  </data>
+  <data name="Rain_Stat_Shares" xml:space="preserve">
+    <value>光的去向</value>
+  </data>
+  <data name="Rain_Stat_Shares_Value" xml:space="preserve">
+    <value>反射 {0} · 透过 {1}</value>
+  </data>
+  <data name="Rain_Stat_Speed" xml:space="preserve">
+    <value>光速</value>
+  </data>
+  <data name="Rain_Stat_Speed_Value" xml:space="preserve">
+    <value>在{0}中：{1}（空气中的 {2}%）</value>
+  </data>
+  <data name="Rain_Stat_Spread" xml:space="preserve">
+    <value>紫光比红光多偏</value>
+  </data>
+  <data name="Rain_Stat_Sun" xml:space="preserve">
+    <value>太阳高度</value>
+  </data>
+  <data name="Rain_Stat_Top" xml:space="preserve">
+    <value>{0}顶部</value>
+  </data>
+  <data name="Rain_Stat_Top_Below" xml:space="preserve">
+    <value>在地平线以下</value>
+  </data>
+  <data name="Rain_Stat_Top_Value" xml:space="preserve">
+    <value>高 {0}° · 整圈的 {1}% 在天上</value>
+  </data>
+  <data name="Rain_Stat_Turn" xml:space="preserve">
+    <value>偏向角</value>
+  </data>
+  <data name="Rain_Stat_Wavelength" xml:space="preserve">
+    <value>波长</value>
+  </data>
+  <data name="Rain_Stat_Wavelength_Value" xml:space="preserve">
+    <value>空气中 {0} nm → {2}中 {1} nm</value>
+  </data>
+  <data name="Rain_SunAltitude" xml:space="preserve">
+    <value>太阳高度</value>
+  </data>
+  <data name="Rain_Surface_Away_Description" xml:space="preserve">
+    <value>射进空气时光变快，先出去的一侧跑在前面，光束偏离法线。射得越斜，偏得越厉害。</value>
+  </data>
+  <data name="Rain_Surface_Away_Title" xml:space="preserve">
+    <value>偏离法线</value>
+  </data>
+  <data name="Rain_Surface_Grazing_Description" xml:space="preserve">
+    <value>接近临界角时，射出去的光几乎贴着界面走，越来越多的光被反射回里面。</value>
+  </data>
+  <data name="Rain_Surface_Grazing_Title" xml:space="preserve">
+    <value>几乎贴着界面</value>
+  </data>
+  <data name="Rain_Surface_Straight_Description" xml:space="preserve">
+    <value>沿法线射入时，整条波前同时减速，没有什么让它转向。光只是变慢，波峰挤得更密。</value>
+  </data>
+  <data name="Rain_Surface_Straight_Title" xml:space="preserve">
+    <value>正对着射：不拐弯</value>
+  </data>
+  <data name="Rain_Surface_Total_Description" xml:space="preserve">
+    <value>超过临界角，光要出去就得偏过 90°，所以一点也出不去：界面成了完美的镜子。光纤和钻石的闪光都靠这个。</value>
+  </data>
+  <data name="Rain_Surface_Total_Title" xml:space="preserve">
+    <value>全反射</value>
+  </data>
+  <data name="Rain_Surface_Toward_Description" xml:space="preserve">
+    <value>每条波前的一侧先碰到界面、先减速，另一侧还在快速前进，于是波前转了过来，就像一排人从马路走进泥地：光束转向法线。</value>
+  </data>
+  <data name="Rain_Surface_Toward_Title" xml:space="preserve">
+    <value>向法线偏折</value>
+  </data>
+  <data name="Rain_Sweep" xml:space="preserve">
+    <value>自动扫动</value>
+  </data>
+  <data name="Rain_Title" xml:space="preserve">
+    <value>折射与彩虹</value>
   </data>
   <data name="Retro_Above_Fact1" xml:space="preserve">
     <value>平均公转速度：水星 47 公里/秒，金星 35，地球 30，火星 24，木星 13，土星 10。总是内圈的去超外圈的。</value>
