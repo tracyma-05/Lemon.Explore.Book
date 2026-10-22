@@ -1,0 +1,100 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:osc="using:Lemon.Explore.Book.Chapters.Oscillations"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Oscillations.OscillationsDiagramPageView"
+                         x:DataType="osc:OscillationsDiagramPageViewModel">
+    <!-- Right page of the Oscillations spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <osc:OscillatorDiagram Mode="{Binding Osc.Mode}"
+                                       Place="{Binding Osc.Place}"
+                                       EarthGravity="{Binding Osc.EarthGravity}"
+                                       Length="{Binding Osc.Length}"
+                                       Amplitude="{Binding Osc.Amplitude, Mode=TwoWay}"
+                                       Mass="{Binding Osc.Mass}"
+                                       Stiffness="{Binding Osc.Stiffness}"
+                                       Pull="{Binding Osc.Pull, Mode=TwoWay}"
+                                       AirDrag="{Binding Osc.AirDrag}"
+                                       ShowForces="{Binding Osc.ShowForces}"
+                                       ShowFormula="{Binding Osc.ShowFormula}"
+                                       Shake="{Binding Osc.Shake}"
+                                       DriveFrequency="{Binding Osc.DriveFrequency}"
+                                       Speed="{Binding Osc.Speed}"
+                                       IsPlaying="{Binding Osc.IsPlaying, Mode=TwoWay}"
+                                       WaveTime="{Binding Osc.WaveTime, Mode=TwoWay}"
+                                       ReleaseCount="{Binding Osc.ReleaseCount}"
+                                       Stage="{Binding Osc.Stage, Mode=OneWayToSource}"
+                                       Energy="{Binding Osc.Energy, Mode=OneWayToSource}"
+                                       MeasuredPeriod="{Binding Osc.MeasuredPeriod, Mode=OneWayToSource}"
+                                       Highlight="{Binding Osc.Lesson.Highlight}"
+                                       IsLessonActive="{Binding Osc.Lesson.IsActive}"
+                                       SelectedObject="{Binding Osc.Card.Id, Mode=TwoWay}"
+                                       InteractionCommand="{Binding Osc.UserInteractedCommand}"
+                                       ToolTip.Tip="{Binding Osc.DragHint}"
+                                       AutomationProperties.Name="{Binding Osc.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Osc.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Osc.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Osc.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Osc.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Osc_PlayPause}" AutomationProperties.Name="{loc:Localize Osc_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Osc.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Osc.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <Button Classes="space" Command="{Binding Osc.ReleaseCommand}"
+                                    ToolTip.Tip="{loc:Localize Osc_Release}" AutomationProperties.Name="{loc:Localize Osc_Release}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Restart}" />
+                                    <TextBlock Text="{loc:Localize Osc_Release}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Osc_Speed}">
+                                <RadioButton Classes="space speed" GroupName="OscSpeed" Content="{loc:Localize Osc_Speed_Quarter}" IsChecked="{Binding Osc.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="OscSpeed" Content="{loc:Localize Osc_Speed_Half}" IsChecked="{Binding Osc.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="OscSpeed" Content="{loc:Localize Osc_Speed_One}" IsChecked="{Binding Osc.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="OscSpeed" Content="{loc:Localize Osc_Speed_Two}" IsChecked="{Binding Osc.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Osc.WaveCycle}" Value="{Binding Osc.WaveTime}" SmallChange="0.1" LargeChange="5"
+                                        IsVisible="{Binding Osc.IsWave}"
+                                        ToolTip.Tip="{loc:Localize Osc_Timeline}" AutomationProperties.Name="{loc:Localize Osc_Timeline}" />
+                                <TextBlock MinWidth="110" Margin="6,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Osc.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

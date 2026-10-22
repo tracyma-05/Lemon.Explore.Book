@@ -270,6 +270,24 @@ class LateTests(unittest.TestCase):
         self.assertIn("box = box.Union(new Rect(x, y, 2, 2));", out)
         self.assertIn("box = box.Inflate(new Thickness(4, 2));", out)
 
+    def test_bitmap_scaling_mode(self):
+        out = tool.convert_types("        RenderOptions.SetBitmapScalingMode(this, BitmapScalingMode.Linear);\n", "N")
+        self.assertIn("RenderOptions.SetBitmapInterpolationMode(this, BitmapInterpolationMode.MediumQuality);", out)
+
+    def test_point_gap_lengths(self):
+        out = tool.point_gap_lengths(
+            "        var d = ((probe - new Point(0, -s / 2)).Length - (point - SourceA(sep)).Length) / lambda;\n"
+            "        var e = Distance(a, b).Length + ((Vector)(c - d)).Length + (x + y).Length;\n")
+        self.assertIn("(((Vector)(probe - new Point(0, -s / 2))).Length - ((Vector)(point - SourceA(sep))).Length)", out)
+        self.assertIn("Distance(a, b).Length + ((Vector)(c - d)).Length + (x + y).Length", out)
+        self.assertEqual("var g = (p - q).Length; Vec3 v;", tool.point_gap_lengths("var g = (p - q).Length; Vec3 v;"))
+
+    def test_media3d_is_the_books_own(self):
+        out = tool.convert_types("using System;\nusing System.Windows.Media.Media3D;\n\nnamespace N;\n", "N")
+        self.assertIn("using Lemon.Explore.Book.Controls.Space;\n", out)
+        self.assertIn("using Vector3D = Lemon.Explore.Book.Controls.Space.Vector3D;\n", out)
+        self.assertNotIn("Media3D", out)
+
     def test_explore_helpers_by_name(self):
         out = tool.convert_late("        dc.DrawLine(Explore.ExploreTargets.GlowPen(now, 7), a, b);\n")
         self.assertIn("dc.DrawLine(ExploreTargets.GlowPen(now, 7), a, b);", out)

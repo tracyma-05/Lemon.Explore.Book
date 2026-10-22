@@ -1,0 +1,211 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:osc="using:Lemon.Explore.Book.Chapters.Oscillations"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Oscillations.OscillationsTextPageView"
+                         x:DataType="osc:OscillationsTextPageViewModel">
+    <!-- Left page of the Oscillations spread: the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Osc.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Osc.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Osc.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="OscillationsMode" IsChecked="{Binding Osc.IsPendulum}" Content="{loc:Localize Osc_Mode_Pendulum}" />
+                    <RadioButton Classes="chip" GroupName="OscillationsMode" IsChecked="{Binding Osc.IsSpring}" Content="{loc:Localize Osc_Mode_Spring}" />
+                    <RadioButton Classes="chip" GroupName="OscillationsMode" IsChecked="{Binding Osc.IsWave}" Content="{loc:Localize Osc_Mode_Wave}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Osc.Card}" />
+
+                <!-- Where the pendulum swings: the place sets the pull of gravity -->
+                <explore:LocationChip Margin="0,14,0,0" Service="{Binding Osc.Location}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_Place_Caption}" />
+                <WrapPanel>
+                    <RadioButton Classes="chip" GroupName="OscPlace" IsChecked="{Binding Osc.PlaceChoice[Earth]}" Content="{loc:Localize Osc_Place_Earth}" />
+                    <RadioButton Classes="chip" GroupName="OscPlace" IsChecked="{Binding Osc.PlaceChoice[Moon]}" Content="{loc:Localize Osc_Place_Moon}" />
+                    <RadioButton Classes="chip" GroupName="OscPlace" IsChecked="{Binding Osc.PlaceChoice[Mars]}" Content="{loc:Localize Osc_Place_Mars}" />
+                    <RadioButton Classes="chip" GroupName="OscPlace" IsChecked="{Binding Osc.PlaceChoice[Jupiter]}" Content="{loc:Localize Osc_Place_Jupiter}" />
+                </WrapPanel>
+                <SelectableTextBlock Classes="note" Margin="0,4,0,0" Text="{Binding Osc.EarthGravityNote}" />
+
+                <!-- The pendulum: its length and swing, and its charts -->
+                <StackPanel IsVisible="{Binding Osc.IsPendulum}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Osc.LengthText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Osc_Length}" />
+                    </DockPanel>
+                    <Slider Minimum="{Binding Osc.MinLength}" Maximum="{Binding Osc.MaxLength}" Value="{Binding Osc.Length}" SmallChange="0.01" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Osc_Length}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Osc.SetLengthCommand}" CommandParameter="0.25" Content="{loc:Localize Osc_Length_Short}" />
+                        <Button Classes="chip" Command="{Binding Osc.SetLengthCommand}" CommandParameter="0.994" Content="{loc:Localize Osc_Length_Seconds}" />
+                        <Button Classes="chip" Command="{Binding Osc.SetLengthCommand}" CommandParameter="2" Content="{loc:Localize Osc_Length_Long}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Osc.AmplitudeText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Osc_Amplitude}" />
+                    </DockPanel>
+                    <Slider Minimum="2" Maximum="90" Value="{Binding Osc.Amplitude}" SmallChange="1" LargeChange="5"
+                            AutomationProperties.Name="{loc:Localize Osc_Amplitude}" />
+                    <WrapPanel Margin="0,12,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Osc.AirDrag}" Content="{loc:Localize Osc_Option_AirDrag}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Osc.ShowForces}" Content="{loc:Localize Osc_Option_Forces}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Osc.ShowFormula}" Content="{loc:Localize Osc_Option_Formula}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_ByLength_Caption}" />
+                    <Border Classes="plate" Height="180">
+                        <osc:PendulumChart Kind="ByLength" Place="{Binding Osc.Place}" EarthGravity="{Binding Osc.EarthGravity}" Length="{Binding Osc.Length}"
+                                       Amplitude="{Binding Osc.Amplitude}" AutomationProperties.Name="{loc:Localize Osc_ByLength_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Osc_ByLength_Note}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_ByAmplitude_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <osc:PendulumChart Kind="ByAmplitude" Place="{Binding Osc.Place}" EarthGravity="{Binding Osc.EarthGravity}" Length="{Binding Osc.Length}"
+                                       Amplitude="{Binding Osc.Amplitude}" AutomationProperties.Name="{loc:Localize Osc_ByAmplitude_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Osc_ByAmplitude_Note}" />
+                </StackPanel>
+
+                <!-- The spring: the mass, how stiff, how far pulled; shaking it -->
+                <StackPanel IsVisible="{Binding Osc.IsSpring}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Osc.MassText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Osc_Mass}" />
+                    </DockPanel>
+                    <Slider Minimum="0.1" Maximum="1" Value="{Binding Osc.Mass}" SmallChange="0.01" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Osc_Mass}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Osc.StiffnessText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Osc_Stiffness}" />
+                    </DockPanel>
+                    <Slider Minimum="10" Maximum="100" Value="{Binding Osc.Stiffness}" SmallChange="1" LargeChange="10"
+                            AutomationProperties.Name="{loc:Localize Osc_Stiffness}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Osc.PullText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Osc_Pull}" />
+                    </DockPanel>
+                    <Slider Minimum="1" Maximum="25" Value="{Binding Osc.PullCentimetres}" SmallChange="1" LargeChange="5"
+                            AutomationProperties.Name="{loc:Localize Osc_Pull}" />
+                    <WrapPanel Margin="0,12,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Osc.AirDrag}" Content="{loc:Localize Osc_Option_Damping}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Osc.ShowForces}" Content="{loc:Localize Osc_Option_Forces}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Osc.Shake}" Content="{loc:Localize Osc_Option_Shake}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Osc.Shake}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Osc.DriveText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Osc_Drive}" />
+                        </DockPanel>
+                        <Slider Minimum="0.2" Maximum="{Binding Osc.MaxDriveFrequency}" Value="{Binding Osc.DriveFrequency}" SmallChange="0.01" LargeChange="0.1"
+                                AutomationProperties.Name="{loc:Localize Osc_Drive}" />
+                        <WrapPanel Margin="0,6,0,0">
+                            <Button Classes="chip" Command="{Binding Osc.ShakeAtOwnFrequencyCommand}" Content="{loc:Localize Osc_Drive_Own}" />
+                        </WrapPanel>
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_Resonance_Caption}" />
+                        <Border Classes="plate" Height="180">
+                            <osc:ResonanceChart NaturalFrequency="{Binding Osc.NaturalFrequency}" DriveFrequency="{Binding Osc.DriveFrequency}"
+                                            Damping="{Binding Osc.EffectiveDamping}" AutomationProperties.Name="{loc:Localize Osc_Resonance_Caption}" />
+                        </Border>
+                        <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Osc_Resonance_Note}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Where the energy is, moment by moment -->
+                <StackPanel IsVisible="{Binding Osc.ShowsEnergy}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_Energy_Caption}" />
+                    <Border Classes="plate" Height="116">
+                        <osc:EnergyChart Energy="{Binding Osc.Energy}" IsSpring="{Binding Osc.IsSpring}" AutomationProperties.Name="{loc:Localize Osc_Energy_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Osc_Energy_Note}" />
+                </StackPanel>
+
+                <!-- The pendulum wave: moments to jump to -->
+                <StackPanel IsVisible="{Binding Osc.IsWave}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_JumpTo}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Osc.JumpToCommand}" CommandParameter="0" Content="{loc:Localize Osc_Jump_InLine}" />
+                        <Button Classes="chip" Command="{Binding Osc.JumpToCommand}" CommandParameter="0.05" Content="{loc:Localize Osc_Jump_Snake}" />
+                        <Button Classes="chip" Command="{Binding Osc.JumpToCommand}" CommandParameter="0.2" Content="{loc:Localize Osc_Jump_Rows5}" />
+                        <Button Classes="chip" Command="{Binding Osc.JumpToCommand}" CommandParameter="0.25" Content="{loc:Localize Osc_Jump_Rows4}" />
+                        <Button Classes="chip" Command="{Binding Osc.JumpToCommand}" CommandParameter="0.3333333" Content="{loc:Localize Osc_Jump_Rows3}" />
+                        <Button Classes="chip" Command="{Binding Osc.JumpToCommand}" CommandParameter="0.5" Content="{loc:Localize Osc_Jump_Rows2}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_WaveChart_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <osc:WaveChart Place="{Binding Osc.Place}" EarthGravity="{Binding Osc.EarthGravity}" AutomationProperties.Name="{loc:Localize Osc_WaveChart_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Osc_WaveChart_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Osc.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Osc.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Osc.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Osc.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Osc_Facts}" />
+                <ItemsControl ItemsSource="{Binding Osc.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

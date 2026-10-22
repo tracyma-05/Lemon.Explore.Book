@@ -9498,6 +9498,126 @@
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>所以，看月亮的形状，就能大致知道它什么时候升起、什么时候落下。你可以左右拖动画面换个时间，找一找月亮在哪儿。</value>
   </data>
+  <data name="Narr_Osc_Obj_Angle" xml:space="preserve">
+    <value>摆角，摆被拉开的角度。只要摆幅不大，它几乎不影响周期。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Bob" xml:space="preserve">
+    <value>摆球，挂在摆下端的重物。把它拖到一边再松手，就能重新摆起来。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Circle" xml:space="preserve">
+    <value>一个每振动一次就绕圆转一圈的点。从侧面看，它的运动和物块一模一样。这种运动，就叫做简谐运动。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Formula" xml:space="preserve">
+    <value>一个按公式摆动的影子摆：周期等于二派乘以摆长除以 g 的平方根。摆幅很大时，真实的摆会比它慢一点。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Length" xml:space="preserve">
+    <value>摆长，从悬挂点到摆球中心的距离。摆越长，摆得越慢。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Longest" xml:space="preserve">
+    <value>最长的摆。它一分钟摆五十一次，是所有摆里最慢的。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Mass" xml:space="preserve">
+    <value>挂在弹簧上的物块。把它向上或向下拖，再松手。物块越重，振动越慢。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Motor" xml:space="preserve">
+    <value>电机带着弹簧的顶端上下晃动。如果晃动的节奏和弹簧自己的振动一致，振动就会越来越大，这就是共振。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Paper" xml:space="preserve">
+    <value>纸带记录。纸带移动时，笔把运动画下来，成了一条光滑的波浪线。绿色的括号量出的就是周期。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Place" xml:space="preserve">
+    <value>做实验的地方，以及那里的重力有多强。可以试试月球、火星或者木星。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Rest" xml:space="preserve">
+    <value>平衡位置：在这里，弹簧向上的拉力和向下的重力正好平衡。物块在这条线的上下对称地振动。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Shortest" xml:space="preserve">
+    <value>最短的摆。它一分钟摆六十五次，是所有摆里最快的。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Spring" xml:space="preserve">
+    <value>弹簧。拉得越长，它往回拉得越用力。弹簧越硬，物块振动得越快。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Stretch" xml:space="preserve">
+    <value>伸长量，物块的重力把弹簧拉长了多少：等于质量乘以 g，再除以弹簧的劲度系数。</value>
+  </data>
+  <data name="Narr_Osc_Obj_TopView" xml:space="preserve">
+    <value>从正上方看这些摆。在这里，蛇形和一排一排的图案最容易看清。</value>
+  </data>
+  <data name="Narr_Osc_Obj_Unstretched" xml:space="preserve">
+    <value>弹簧原长，就是什么都不挂的时候，弹簧本来的长度。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_01" xml:space="preserve">
+    <value>这是一个单摆：一根很轻的杆，下面挂着一个重重的摆球，来回摆动。下面有一支笔跟着摆球走，在一条不停往下移动的纸带上画线。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_02" xml:space="preserve">
+    <value>笔画出了一条波浪线。摆过去再摆回来，完整摆一次所用的时间，叫做周期。纸带上绿色的数字，就是量出来的周期。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_03" xml:space="preserve">
+    <value>这个摆长四分之一米，它的周期大约是一秒。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_04" xml:space="preserve">
+    <value>想一想：如果把摆长变成原来的四倍，周期会怎样？</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_05" xml:space="preserve">
+    <value>变成两倍，大约两秒。周期和摆长的平方根成正比。所以老式落地钟的摆长大约一米：摆过去一次，正好一秒。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_06" xml:space="preserve">
+    <value>有个让人意外的发现：摆幅小一点，摆一次的时间几乎完全一样。传说伽利略就是看着教堂里摇晃的吊灯，发现了这一点。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_07" xml:space="preserve">
+    <value>现在把这个摆带到月球上去。那里的重力只有地球的六分之一左右，所以摆得慢多了：完整摆一次大约要五秒。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_08" xml:space="preserve">
+    <value>现在你来试试：把摆球拖到一边，然后松手。</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_09" xml:space="preserve">
+    <value>正因为摆动得这么稳定，摆钟为全世界计时，用了将近三百年。</value>
+  </data>
+  <data name="Narr_Osc_Spring_01" xml:space="preserve">
+    <value>这是挂在弹簧上的一个物块。把它往下拉，再松手，它就会上下振动起来。</value>
+  </data>
+  <data name="Narr_Osc_Spring_02" xml:space="preserve">
+    <value>这条虚线是物块静止时的位置。在这里，弹簧被拉长的程度，正好让它的拉力和物块的重力平衡。</value>
+  </data>
+  <data name="Narr_Osc_Spring_03" xml:space="preserve">
+    <value>看这个绕着圆圈转的点，它的高度始终和物块一样。弹簧振动，就像从侧面看一个点在绕圆圈转。</value>
+  </data>
+  <data name="Narr_Osc_Spring_04" xml:space="preserve">
+    <value>想一想：同一根弹簧，换上更重的物块，振动会怎样？</value>
+  </data>
+  <data name="Narr_Osc_Spring_05" xml:space="preserve">
+    <value>振动变慢了。质量变成四倍，每次振动的时间就变成两倍，你看纸带上的波变宽了。换一根更硬的弹簧，效果正好相反，振动会变快。</value>
+  </data>
+  <data name="Narr_Osc_Spring_06" xml:space="preserve">
+    <value>有件让人意外的事：在月球上，弹簧振动得和在地球上一样快。只是物块变轻了，静止的位置高了一点。重力只改变它停在哪里，不改变它振动的快慢。</value>
+  </data>
+  <data name="Narr_Osc_Spring_07" xml:space="preserve">
+    <value>现在，电机轻轻地晃动弹簧的顶端，节奏正好和弹簧自己的振动一样。看，振动越来越大。这叫做共振。荡秋千时，推得不用力但时机对，就能越荡越高，也是这个道理。</value>
+  </data>
+  <data name="Narr_Osc_Spring_08" xml:space="preserve">
+    <value>现在你来试试：把物块向上或向下拖，然后松手。</value>
+  </data>
+  <data name="Narr_Osc_Wave_01" xml:space="preserve">
+    <value>这里有十五个摆，挂在同一根横杆上，一个比一个短一点。它们是一起放开的，所以一开始摆得整整齐齐。</value>
+  </data>
+  <data name="Narr_Osc_Wave_02" xml:space="preserve">
+    <value>短的摆得快一点。一分钟里，最长的摆五十一次，最短的摆六十五次。</value>
+  </data>
+  <data name="Narr_Osc_Wave_03" xml:space="preserve">
+    <value>于是它们慢慢地不再同步。从上往下看，这些摆球连成了一条扭来扭去的蛇。</value>
+  </data>
+  <data name="Narr_Osc_Wave_04" xml:space="preserve">
+    <value>想一想：等一整分钟过去，会发生什么？</value>
+  </data>
+  <data name="Narr_Osc_Wave_05" xml:space="preserve">
+    <value>它们又排成了一排。在这一分钟里，每个摆都摆了整数次，所以它们一起回到了出发的地方。</value>
+  </data>
+  <data name="Narr_Osc_Wave_06" xml:space="preserve">
+    <value>到了半分钟的时候，这些摆分成了两排，你来我往地对着摆。</value>
+  </data>
+  <data name="Narr_Osc_Wave_07" xml:space="preserve">
+    <value>现在你来试试：拖动时间轴，找找别的图案，比如三排或者四排。</value>
+  </data>
   <data name="Narr_Quake_Boundaries_01" xml:space="preserve">
     <value>我们潜到海底，来到一条海岭。这里两块板块正在分开，每边每年一两厘米。下面炽热的地幔岩石往上升，一部分熔化成岩浆，填进裂缝，冷却以后就变成了新的洋底。</value>
   </data>
@@ -11658,6 +11778,147 @@
   <data name="Narr_Water_Stores_10" xml:space="preserve">
     <value>轮到你了。点一下图中的一个水球、一股水流或一个储库，听听关于它的更多知识。</value>
   </data>
+  <data name="Narr_Waves_Doppler_01" xml:space="preserve">
+    <value>这是从上往下看的一条公路。黄色的点是一个声源，一个喇叭，正在发出 A 音，也就是 440 赫兹。它停着不动时，一圈圈声波向四面八方均匀地散开。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_02" xml:space="preserve">
+    <value>现在它以一半的音速开动起来。每一圈声波，都从它发出那一刻声源所在的位置散开。所以在声源前面，波纹被挤得很密；在后面，波纹被拉得很稀。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_03" xml:space="preserve">
+    <value>挤密的波纹更频繁地到达耳朵，听起来音调就高；拉稀的波纹，听起来音调就低。注意看声源经过时，这位听者听到的声音。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_04" xml:space="preserve">
+    <value>那么，声源从你身边开过时，你听到的是什么？</value>
+  </data>
+  <data name="Narr_Waves_Doppler_05" xml:space="preserve">
+    <value>对。迎面来时音调高，开远了音调低，这就是汽车开过时熟悉的那一声“嗯——呜”。喇叭本身的音一直没变，变的只是波纹之间的间距。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_06" xml:space="preserve">
+    <value>现在声源的速度达到了音速。它和自己发出的声波跑得一样快，所有的波纹都堆在它的正前方，挤成了一堵墙。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_07" xml:space="preserve">
+    <value>两倍音速。这时声源跑在了自己声音的前面，波纹在它身后堆成一个锥形，叫做马赫锥。跑得越快，锥就越尖。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_08" xml:space="preserve">
+    <value>在马赫锥的边缘扫过来之前，听者什么也听不到。边缘一到，就是突然的一声巨响，这就是音爆。之后，听者会同时听到两个声音：一个是声源来的时候发出的，一个是它走的时候发出的。</value>
+  </data>
+  <data name="Narr_Waves_Doppler_09" xml:space="preserve">
+    <value>轮到你了。把听者拖到别的地方，离公路近一点或远一点，在那里再听一次声源开过。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Bunched" xml:space="preserve">
+    <value>在运动声源的前方，波纹被挤得很密。每秒钟到达你耳朵的波更多，所以你听到的音调更高。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Cone" xml:space="preserve">
+    <value>马赫锥。声源比声音还快时，波纹就沿着它的边缘堆积起来。声源越快，锥就越尖。锥的边缘扫过你时，你会听到一声音爆。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Difference" xml:space="preserve">
+    <value>路程差：探针到一个波源比到另一个波源远多少，用波长来计数。如果是整数，就是波峰遇波峰，两列波相互加强；如果多出半个，就是波峰遇波谷，两列波相互抵消。</value>
+  </data>
+  <data name="Narr_Waves_Obj_DipperA" xml:space="preserve">
+    <value>振子 A：一个小球，一次又一次地点进水里再提起来。每点一下，就荡出一圈波纹。把它左右拖动，可以让两个振子靠近或者分开。</value>
+  </data>
+  <data name="Narr_Waves_Obj_DipperB" xml:space="preserve">
+    <value>振子 B，是 A 的双胞胎。它和 A 节奏相同，也可以设成正好反着振动。把它关掉，水面上就只剩一组普通的圆形波纹，一条静止线也没有了。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Heard" xml:space="preserve">
+    <value>听者此刻听到的声音：频率是多少赫兹，最接近哪个音符。声源开过时，注意看它往下掉。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Laser" xml:space="preserve">
+    <value>激光器。它发出的光只有一种纯粹的颜色，也就是单一的波长，而且节奏非常稳定，所以能产生清晰的条纹。两盏普通的灯就做不到，因为它们的光节奏一直在乱变。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Listener" xml:space="preserve">
+    <value>听者。每当一圈声波到达，听者就闪一下，标签上写着此刻听到的音调。把听者拖到任何地方，换个位置听声源开过。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Loud" xml:space="preserve">
+    <value>加强线。在这条线上，波峰总是和波峰一起到，波谷和波谷一起到，两列波叠加，水面起伏差不多是两倍。静止线上的能量并没有消失，而是跑到了这里。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Order" xml:space="preserve">
+    <value>亮纹的序号。第 1 条亮纹，是到一条缝比到另一条缝远一个波长的地方；第 2 条就远两个波长，以此类推。中央亮纹是第 0 条，因为它到两条缝一样远。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Probe" xml:space="preserve">
+    <value>探针。它会量出自己到两个波源各有多远，并告诉你两列波在这里是怎样相遇的。把它拖到任何地方去探索吧。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Quiet" xml:space="preserve">
+    <value>静止线。在这条线上的每一处，两列波到达时都正好相反，波峰对着波谷，所以互相抵消，水面几乎不动。标签上写的是到一个振子比到另一个振子远多少。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Screen" xml:space="preserve">
+    <value>光屏，光最后落在这里。两列光波步调一致的地方是亮的，相互抵消的地方是暗的。左页的图表画的是真实的条纹。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Slits" xml:space="preserve">
+    <value>狭缝：挡板上开的窄缝，两条缝之间只隔零点几毫米。每条缝透过一点点光，这些光会像振子荡出的水波一样散开。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Source" xml:space="preserve">
+    <value>声源，发出 440 赫兹的 A 音。它发出的音一直不变，变的是声波到达你耳朵的方式。沿着公路拖动它，可以一步一步地看它开过的过程。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Spacing" xml:space="preserve">
+    <value>d 是两条缝之间的距离。把两条缝靠得越近，光屏上的条纹就张得越开。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Stretched" xml:space="preserve">
+    <value>在运动声源的后方，波纹被拉得很稀。每秒钟到达你耳朵的波更少，所以你听到的音调更低。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Tank" xml:space="preserve">
+    <value>水波槽：一浅盘水，从上往下看，比真实慢了十倍。亮的是波峰，暗的是波谷。打开“看振幅”，就能看到每个地方的水面起伏有多大。</value>
+  </data>
+  <data name="Narr_Waves_Obj_Tape" xml:space="preserve">
+    <value>第二条缝被胶带遮住了。只剩一条缝，光没有别的光可以叠加，条纹就消失了，只留下一片宽宽的光斑。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_01" xml:space="preserve">
+    <value>这是一个水波槽，就是一浅盘水，我们从上往下看，还放慢了十倍。振子 A 一上一下地点着水，每点一下，就荡出一圈波纹。亮的是波峰，暗的是波谷。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_02" xml:space="preserve">
+    <value>现在打开振子 B，它和 A 的节奏一模一样。看看它的波纹和 A 的波纹撞到一起的地方，会发生什么。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_03" xml:space="preserve">
+    <value>每一道波纹都盯着看有点难，我们换个看法：只看每个地方的水面起伏有多大。越亮起伏越大，黑的地方几乎不动。看到从两个振子中间散开的那几条黑色辐条了吗？</value>
+  </data>
+  <data name="Narr_Waves_Ripple_04" xml:space="preserve">
+    <value>这些黑色辐条叫静止线，图上用虚线画了出来。探针现在就停在一条静止线上。它到两个振子的距离，正好差半个波长。所以一边送来波峰的时候，另一边送来的总是波谷，两者正好抵消。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_05" xml:space="preserve">
+    <value>现在探针移到了一条金色的线上。这里的路程差正好是一个波长，所以波峰遇上波峰，波谷遇上波谷。两列波叠加起来，水面起伏差不多是原来的两倍。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_06" xml:space="preserve">
+    <value>考考你：如果两个振子反着来，A 往下的时候 B 正好往上。那么正中间那条线上，到两个振子一样远的地方，会怎样？</value>
+  </data>
+  <data name="Narr_Waves_Ripple_07" xml:space="preserve">
+    <value>没错。两个振子反着振动时，正中间那条线变得静止了，每一条静止线都和金色的线换了位置。刚才探针还在金色的线上，现在它落在了静止线上。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_08" xml:space="preserve">
+    <value>两个振子又恢复同步了，现在我们把波长变短。看，静止线是不是变多了，也挨得更紧了？把两个振子拉得更开，效果也一样。</value>
+  </data>
+  <data name="Narr_Waves_Ripple_09" xml:space="preserve">
+    <value>轮到你了。把探针拖到一条静止线上，也就是虚线上，看看那里的水是不是安静了下来。</value>
+  </data>
+  <data name="Narr_Waves_Slits_01" xml:space="preserve">
+    <value>现在用光来做同样的事。一束绿色激光照向一块挡板，挡板上开了两条很窄的缝。光波非常小，所以这里把它画大了好几千倍。</value>
+  </data>
+  <data name="Narr_Waves_Slits_02" xml:space="preserve">
+    <value>每一条缝，就像水波槽里的一个振子。光从缝里出来，一圈一圈向外散开，两条缝发出的光在去光屏的路上重叠在一起。</value>
+  </data>
+  <data name="Narr_Waves_Slits_03" xml:space="preserve">
+    <value>光落到光屏上，就出现了一条条明暗相间的条纹。这和水里的金色线、静止线，其实是同一种图案。</value>
+  </data>
+  <data name="Narr_Waves_Slits_04" xml:space="preserve">
+    <value>探针现在在第一条亮纹上。它到一条缝的路程，正好比到另一条缝多一个波长，所以两列光波步调一致地到达，彼此加强。</value>
+  </data>
+  <data name="Narr_Waves_Slits_05" xml:space="preserve">
+    <value>现在探针在它们中间的暗纹上。这里的路程差只有半个波长。波峰遇上波谷，光就互相抵消了。</value>
+  </data>
+  <data name="Narr_Waves_Slits_06" xml:space="preserve">
+    <value>想一想：如果把两条缝中的一条遮住，会发生什么？</value>
+  </data>
+  <data name="Narr_Waves_Slits_07" xml:space="preserve">
+    <value>对。一条缝贴上胶带以后，光没有别的光可以叠加，条纹就消失了，只剩下一片宽宽的、柔和的光斑。原来那些暗纹，竟然是光加上光造成的。</value>
+  </data>
+  <data name="Narr_Waves_Slits_08" xml:space="preserve">
+    <value>两条缝都打开，换成红光。红光的波长更长，要往旁边走得更远，两条路程才会差出一个完整的波长。所以条纹张得更开了。</value>
+  </data>
+  <data name="Narr_Waves_Slits_09" xml:space="preserve">
+    <value>再换成白光，它是所有颜色混在一起的光。正中间每种颜色都步调一致，所以那条亮纹是白色的。越往外，每种颜色的条纹落在不同的位置，边缘就变成了一道道小彩虹。</value>
+  </data>
+  <data name="Narr_Waves_Slits_10" xml:space="preserve">
+    <value>轮到你了。探针现在在中央亮纹上。把它拖到另一条亮纹上，在那里，两条路程正好差整数个波长。</value>
+  </data>
   <data name="Notes_Add" xml:space="preserve">
     <value>保存笔记</value>
   </data>
@@ -11729,6 +11990,555 @@
   </data>
   <data name="Notes_Title" xml:space="preserve">
     <value>笔记</value>
+  </data>
+  <data name="Osc_Amplitude" xml:space="preserve">
+    <value>释放角度</value>
+  </data>
+  <data name="Osc_ByAmplitude_Caption" xml:space="preserve">
+    <value>摆角越大，周期越长</value>
+  </data>
+  <data name="Osc_ByAmplitude_Note" xml:space="preserve">
+    <value>实际周期比公式长多少。15° 以内误差不到 0.5%：这就是摆钟只摆一个小角度的原因。</value>
+  </data>
+  <data name="Osc_ByLength_Caption" xml:space="preserve">
+    <value>周期与摆长</value>
+  </data>
+  <data name="Osc_ByLength_Note" xml:space="preserve">
+    <value>各地点按小角度公式 2π√(L/g) 画出：摆长变成 4 倍，周期变成 2 倍。圆点是现在这个摆（按实际摆角计算）。</value>
+  </data>
+  <data name="Osc_Chart_OwnFrequency" xml:space="preserve">
+    <value>固有频率</value>
+  </data>
+  <data name="Osc_Chart_SmallSwings" xml:space="preserve">
+    <value>小角度</value>
+  </data>
+  <data name="Osc_Chart_SwingsPerCycle" xml:space="preserve">
+    <value>一个周期内的摆动次数</value>
+  </data>
+  <data name="Osc_Clock_Period" xml:space="preserve">
+    <value>周期 {0}</value>
+  </data>
+  <data name="Osc_Clock_Wave" xml:space="preserve">
+    <value>{0} 秒 / {1} 秒</value>
+  </data>
+  <data name="Osc_Diagram_Circle" xml:space="preserve">
+    <value>每个周期转一圈</value>
+  </data>
+  <data name="Osc_Diagram_Equilibrium" xml:space="preserve">
+    <value>平衡位置</value>
+  </data>
+  <data name="Osc_Diagram_Formula" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="Osc_Diagram_Motor" xml:space="preserve">
+    <value>电机</value>
+  </data>
+  <data name="Osc_Diagram_Net" xml:space="preserve">
+    <value>合力</value>
+  </data>
+  <data name="Osc_Diagram_Paper" xml:space="preserve">
+    <value>笔跟着摆球走，纸带向下移动</value>
+  </data>
+  <data name="Osc_Diagram_PaperSpring" xml:space="preserve">
+    <value>笔连在物块上，纸带向左移动</value>
+  </data>
+  <data name="Osc_Diagram_PlaceBadge" xml:space="preserve">
+    <value>{0} · g = {1} m/s²</value>
+  </data>
+  <data name="Osc_Diagram_PullBack" xml:space="preserve">
+    <value>回复力</value>
+  </data>
+  <data name="Osc_Diagram_SpringForce" xml:space="preserve">
+    <value>弹力</value>
+  </data>
+  <data name="Osc_Diagram_TimeDown" xml:space="preserve">
+    <value>更早 ↓</value>
+  </data>
+  <data name="Osc_Diagram_TopView" xml:space="preserve">
+    <value>从上往下看</value>
+  </data>
+  <data name="Osc_Diagram_TowardYou" xml:space="preserve">
+    <value>↓ 朝向你</value>
+  </data>
+  <data name="Osc_Diagram_Unstretched" xml:space="preserve">
+    <value>弹簧原长</value>
+  </data>
+  <data name="Osc_Diagram_Velocity" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Osc_Diagram_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Osc_DragHint_Pendulum" xml:space="preserve">
+    <value>把摆球拖到一边再松手</value>
+  </data>
+  <data name="Osc_DragHint_Spring" xml:space="preserve">
+    <value>把物块向上或向下拖动再松手</value>
+  </data>
+  <data name="Osc_DragHint_Wave" xml:space="preserve">
+    <value>拖动时间轴，或跳到某个图案</value>
+  </data>
+  <data name="Osc_Drive" xml:space="preserve">
+    <value>电机频率</value>
+  </data>
+  <data name="Osc_Drive_Own" xml:space="preserve">
+    <value>调到固有频率</value>
+  </data>
+  <data name="Osc_Energy_Caption" xml:space="preserve">
+    <value>能量在哪里</value>
+  </data>
+  <data name="Osc_Energy_Height" xml:space="preserve">
+    <value>重力势能</value>
+  </data>
+  <data name="Osc_Energy_Kinetic" xml:space="preserve">
+    <value>动能</value>
+  </data>
+  <data name="Osc_Energy_Lost" xml:space="preserve">
+    <value>被阻力消耗</value>
+  </data>
+  <data name="Osc_Energy_Note" xml:space="preserve">
+    <value>以释放时的能量为 100%。动能和势能每个周期互相转换两次；打开空气阻力或阻尼后，损失的部分越来越多。</value>
+  </data>
+  <data name="Osc_Energy_Spring" xml:space="preserve">
+    <value>弹性势能与重力势能</value>
+  </data>
+  <data name="Osc_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Osc_JumpTo" xml:space="preserve">
+    <value>跳到</value>
+  </data>
+  <data name="Osc_Jump_InLine" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="Osc_Jump_Rows2" xml:space="preserve">
+    <value>2 排</value>
+  </data>
+  <data name="Osc_Jump_Rows3" xml:space="preserve">
+    <value>3 排</value>
+  </data>
+  <data name="Osc_Jump_Rows4" xml:space="preserve">
+    <value>4 排</value>
+  </data>
+  <data name="Osc_Jump_Rows5" xml:space="preserve">
+    <value>5 排</value>
+  </data>
+  <data name="Osc_Jump_Snake" xml:space="preserve">
+    <value>蛇形</value>
+  </data>
+  <data name="Osc_Length" xml:space="preserve">
+    <value>摆长</value>
+  </data>
+  <data name="Osc_Length_Long" xml:space="preserve">
+    <value>2 m</value>
+  </data>
+  <data name="Osc_Length_Seconds" xml:space="preserve">
+    <value>秒摆 99.4 cm</value>
+  </data>
+  <data name="Osc_Length_Short" xml:space="preserve">
+    <value>25 cm</value>
+  </data>
+  <data name="Osc_Lesson_Pendulum_Choice1" xml:space="preserve">
+    <value>变成两倍</value>
+  </data>
+  <data name="Osc_Lesson_Pendulum_Choice2" xml:space="preserve">
+    <value>变成四倍</value>
+  </data>
+  <data name="Osc_Lesson_Pendulum_Choice3" xml:space="preserve">
+    <value>不变</value>
+  </data>
+  <data name="Osc_Lesson_Spring_Choice1" xml:space="preserve">
+    <value>振动变慢</value>
+  </data>
+  <data name="Osc_Lesson_Spring_Choice2" xml:space="preserve">
+    <value>振动变快</value>
+  </data>
+  <data name="Osc_Lesson_Spring_Choice3" xml:space="preserve">
+    <value>没有变化</value>
+  </data>
+  <data name="Osc_Lesson_Wave_Choice1" xml:space="preserve">
+    <value>它们又排成一排</value>
+  </data>
+  <data name="Osc_Lesson_Wave_Choice2" xml:space="preserve">
+    <value>一直乱糟糟的</value>
+  </data>
+  <data name="Osc_Lesson_Wave_Choice3" xml:space="preserve">
+    <value>它们停下来不摆了</value>
+  </data>
+  <data name="Osc_Mass" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="Osc_Mode_Pendulum" xml:space="preserve">
+    <value>单摆</value>
+  </data>
+  <data name="Osc_Mode_Spring" xml:space="preserve">
+    <value>弹簧振子</value>
+  </data>
+  <data name="Osc_Mode_Wave" xml:space="preserve">
+    <value>摆波</value>
+  </data>
+  <data name="Osc_Obj_Angle" xml:space="preserve">
+    <value>摆角</value>
+  </data>
+  <data name="Osc_Obj_Bob" xml:space="preserve">
+    <value>摆球</value>
+  </data>
+  <data name="Osc_Obj_Circle" xml:space="preserve">
+    <value>参考圆</value>
+  </data>
+  <data name="Osc_Obj_Formula" xml:space="preserve">
+    <value>公式摆</value>
+  </data>
+  <data name="Osc_Obj_Length" xml:space="preserve">
+    <value>摆长</value>
+  </data>
+  <data name="Osc_Obj_Longest" xml:space="preserve">
+    <value>最长的摆</value>
+  </data>
+  <data name="Osc_Obj_Mass" xml:space="preserve">
+    <value>物块</value>
+  </data>
+  <data name="Osc_Obj_Motor" xml:space="preserve">
+    <value>电机</value>
+  </data>
+  <data name="Osc_Obj_Paper" xml:space="preserve">
+    <value>纸带记录</value>
+  </data>
+  <data name="Osc_Obj_Place" xml:space="preserve">
+    <value>地点和重力</value>
+  </data>
+  <data name="Osc_Obj_Rest" xml:space="preserve">
+    <value>平衡位置</value>
+  </data>
+  <data name="Osc_Obj_Shortest" xml:space="preserve">
+    <value>最短的摆</value>
+  </data>
+  <data name="Osc_Obj_Spring" xml:space="preserve">
+    <value>弹簧</value>
+  </data>
+  <data name="Osc_Obj_Stretch" xml:space="preserve">
+    <value>伸长量</value>
+  </data>
+  <data name="Osc_Obj_TopView" xml:space="preserve">
+    <value>从上往下看</value>
+  </data>
+  <data name="Osc_Obj_Unstretched" xml:space="preserve">
+    <value>弹簧原长</value>
+  </data>
+  <data name="Osc_Option_AirDrag" xml:space="preserve">
+    <value>空气阻力</value>
+  </data>
+  <data name="Osc_Option_Damping" xml:space="preserve">
+    <value>阻尼</value>
+  </data>
+  <data name="Osc_Option_Forces" xml:space="preserve">
+    <value>受力</value>
+  </data>
+  <data name="Osc_Option_Formula" xml:space="preserve">
+    <value>公式对照</value>
+  </data>
+  <data name="Osc_Option_Shake" xml:space="preserve">
+    <value>晃动顶端</value>
+  </data>
+  <data name="Osc_Pendulum_Fact1" xml:space="preserve">
+    <value>据说伽利略在比萨大教堂里用自己的脉搏给摆动的吊灯计时，发现大摆和小摆用的时间一样。对小角度来说，他几乎是对的。</value>
+  </data>
+  <data name="Osc_Pendulum_Fact2" xml:space="preserve">
+    <value>惠更斯在 1656 年造出了第一台摆钟。最好的钟每天的误差从约一刻钟缩小到约 15 秒。</value>
+  </data>
+  <data name="Osc_Pendulum_Fact3" xml:space="preserve">
+    <value>摆球的质量无关紧要：同样长的摆，重球和轻球摆得一样快。重力拉重球更用力，但重球也同样更难推动。</value>
+  </data>
+  <data name="Osc_Pendulum_Fact4" xml:space="preserve">
+    <value>1672 年，里歇把一台摆钟带到靠近赤道的卡宴，结果它每天慢了约 2.5 分钟：那里的重力比巴黎稍弱。</value>
+  </data>
+  <data name="Osc_Pendulum_Fact5" xml:space="preserve">
+    <value>1851 年巴黎先贤祠里 67 米长的傅科摆，摆动的方向会慢慢转动：其实是地球在它下面转，在巴黎大约 32 小时转一圈。</value>
+  </data>
+  <data name="Osc_Pendulum_Note" xml:space="preserve">
+    <value>轻杆下挂一个小摆球，除非放慢，都按真实时间摆动。下面的笔记录它的左右位置，纸带向下移动；绿色标记是每摆一个来回所用的时间。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Falling_Description" xml:space="preserve">
+    <value>重力把它拉回中间，它边下降边加速：高度变成了速度。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Falling_Title" xml:space="preserve">
+    <value>向下摆</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Held_Description" xml:space="preserve">
+    <value>松手后它就从这里摆起：角度决定摆多远，却几乎不影响摆一次要多久。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Held_Title" xml:space="preserve">
+    <value>被拉到一边</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Middle_Description" xml:space="preserve">
+    <value>这里最快。重力不再沿运动方向拉它，它凭惯性冲过中点，摆向另一边。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Middle_Title" xml:space="preserve">
+    <value>经过最低点</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Resting_Description" xml:space="preserve">
+    <value>空气几乎带走了它的全部能量，变成了热。要是没有空气，它会一直摆下去。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Resting_Title" xml:space="preserve">
+    <value>渐渐停下</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Rising_Description" xml:space="preserve">
+    <value>离开中点后它边上升边减速：速度又变回高度。重力在反方向拉它，摆得越远拉得越紧。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Rising_Title" xml:space="preserve">
+    <value>向上摆</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Turning_Description" xml:space="preserve">
+    <value>摆球在这一瞬间停住了。它的能量全部存在高度里；重力沿运动方向的分力在这里最大，把它往回拉。</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Turning_Title" xml:space="preserve">
+    <value>摆到最高点</value>
+  </data>
+  <data name="Osc_Pendulum_Subtitle" xml:space="preserve">
+    <value>摆越长，摆得越慢；重力越弱，摆得更慢</value>
+  </data>
+  <data name="Osc_Place_Caption" xml:space="preserve">
+    <value>在哪里做实验</value>
+  </data>
+  <data name="Osc_Place_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Osc_Place_Jupiter" xml:space="preserve">
+    <value>木星</value>
+  </data>
+  <data name="Osc_Place_Mars" xml:space="preserve">
+    <value>火星</value>
+  </data>
+  <data name="Osc_Place_Moon" xml:space="preserve">
+    <value>月球</value>
+  </data>
+  <data name="Osc_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停</value>
+  </data>
+  <data name="Osc_Pull" xml:space="preserve">
+    <value>拉开距离</value>
+  </data>
+  <data name="Osc_Release" xml:space="preserve">
+    <value>重新释放</value>
+  </data>
+  <data name="Osc_Resonance_Caption" xml:space="preserve">
+    <value>受迫振动的振幅</value>
+  </data>
+  <data name="Osc_Resonance_Note" xml:space="preserve">
+    <value>稳定后的振幅是晃动幅度的几倍，随电机频率变化（对数坐标）。在弹簧的固有频率附近，每一次晃动都在给振动加力：这就是共振。阻尼限制了峰值。</value>
+  </data>
+  <data name="Osc_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Osc_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Osc_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Osc_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Osc_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
+  <data name="Osc_Spring_Fact1" xml:space="preserve">
+    <value>胡克在 1676 年用一个字谜发表了他的定律：ceiiinosssttuv，即 ut tensio, sic vis，“伸长多少，力就多大”。</value>
+  </data>
+  <data name="Osc_Spring_Fact2" xml:space="preserve">
+    <value>拉开两倍远，弹簧的拉力也大两倍，物块的速度也快两倍：所以不论振幅大小，振动一次的时间都一样。</value>
+  </data>
+  <data name="Osc_Spring_Fact3" xml:space="preserve">
+    <value>重力只改变平衡位置，不改变周期。空间站上的宇航员坐在装有弹簧的椅子上“称体重”：根据振动的快慢算出质量。</value>
+  </data>
+  <data name="Osc_Spring_Fact4" xml:space="preserve">
+    <value>伦敦千禧桥在 2000 年开放时晃了起来：行人的脚步不知不觉跟上了桥的摆动，正好以它的固有频率推它。桥两天后关闭，加装了阻尼器。</value>
+  </data>
+  <data name="Osc_Spring_Fact5" xml:space="preserve">
+    <value>石英表靠一个每秒振动 32768 次的微小石英音叉计时；汽车的减震器则正好相反，用来消除弹簧的振动。</value>
+  </data>
+  <data name="Osc_Spring_Note" xml:space="preserve">
+    <value>理想弹簧，自身没有质量。按比例画出（见 10 cm 标尺）；比例会随质量、劲度系数和地点改变，让弹簧放得下。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Falling_Description" xml:space="preserve">
+    <value>指向平衡位置的合力让它加速，但越靠近中间，这个力越小。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Falling_Title" xml:space="preserve">
+    <value>向平衡位置运动</value>
+  </data>
+  <data name="Osc_Spring_Stage_Held_Description" xml:space="preserve">
+    <value>松手后它会围绕平衡位置上下振动，两边的距离和你拉开的一样。不管拉多远，振动一次的时间都一样。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Held_Title" xml:space="preserve">
+    <value>被拉开</value>
+  </data>
+  <data name="Osc_Spring_Stage_Middle_Description" xml:space="preserve">
+    <value>弹簧的拉力和重力在这里正好平衡：合力为零，物块最快。它冲过中点，弹簧又开始把它往回拉。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Middle_Title" xml:space="preserve">
+    <value>经过平衡位置</value>
+  </data>
+  <data name="Osc_Spring_Stage_Resting_Description" xml:space="preserve">
+    <value>振动已经消失了。它停在弹簧拉力等于重力的位置，比弹簧原长低 mg/k。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Resting_Title" xml:space="preserve">
+    <value>静止下来</value>
+  </data>
+  <data name="Osc_Spring_Stage_Rising_Description" xml:space="preserve">
+    <value>离得越远，被拉回的力越大，所以它在减速：速度变成了弹簧（和高度）中储存的能量。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Rising_Title" xml:space="preserve">
+    <value>离开平衡位置</value>
+  </data>
+  <data name="Osc_Spring_Stage_Turning_Description" xml:space="preserve">
+    <value>物块在这一瞬间停住。弹簧和重力合起来，在这里把它往回拉得最用力；能量全部储存了起来。</value>
+  </data>
+  <data name="Osc_Spring_Stage_Turning_Title" xml:space="preserve">
+    <value>到达最高点或最低点</value>
+  </data>
+  <data name="Osc_Spring_Subtitle" xml:space="preserve">
+    <value>质量越大振动越慢，弹簧越硬振动越快，重力却毫无影响</value>
+  </data>
+  <data name="Osc_Stat_Amplitude" xml:space="preserve">
+    <value>释放角度</value>
+  </data>
+  <data name="Osc_Stat_Cycle" xml:space="preserve">
+    <value>重新对齐的周期</value>
+  </data>
+  <data name="Osc_Stat_Cycle_Value" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Osc_Stat_Drive" xml:space="preserve">
+    <value>电机频率</value>
+  </data>
+  <data name="Osc_Stat_Formula" xml:space="preserve">
+    <value>公式 2π√(L/g)</value>
+  </data>
+  <data name="Osc_Stat_Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Osc_Stat_Length" xml:space="preserve">
+    <value>摆长</value>
+  </data>
+  <data name="Osc_Stat_Longer" xml:space="preserve">
+    <value>比公式长</value>
+  </data>
+  <data name="Osc_Stat_Longer_Value" xml:space="preserve">
+    <value>+{0}%</value>
+  </data>
+  <data name="Osc_Stat_Longest" xml:space="preserve">
+    <value>最长的摆</value>
+  </data>
+  <data name="Osc_Stat_Mass" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="Osc_Stat_Measured" xml:space="preserve">
+    <value>纸带上测得</value>
+  </data>
+  <data name="Osc_Stat_Measured_Waiting" xml:space="preserve">
+    <value>摆完一个来回后显示…</value>
+  </data>
+  <data name="Osc_Stat_Neighbours" xml:space="preserve">
+    <value>相邻两摆相差</value>
+  </data>
+  <data name="Osc_Stat_Neighbours_Value" xml:space="preserve">
+    <value>{0}°（一个来回为 360°）</value>
+  </data>
+  <data name="Osc_Stat_Period" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="Osc_Stat_PeriodExact" xml:space="preserve">
+    <value>周期（精确）</value>
+  </data>
+  <data name="Osc_Stat_Place" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="Osc_Stat_Place_Value" xml:space="preserve">
+    <value>{0} · g = {1} m/s²</value>
+  </data>
+  <data name="Osc_Stat_Response" xml:space="preserve">
+    <value>稳定振幅</value>
+  </data>
+  <data name="Osc_Stat_Response_Value" xml:space="preserve">
+    <value>晃动幅度的 {0} 倍</value>
+  </data>
+  <data name="Osc_Stat_Shortest" xml:space="preserve">
+    <value>最短的摆</value>
+  </data>
+  <data name="Osc_Stat_Stiffness" xml:space="preserve">
+    <value>劲度系数 k</value>
+  </data>
+  <data name="Osc_Stat_Stretch" xml:space="preserve">
+    <value>静止时伸长 (mg/k)</value>
+  </data>
+  <data name="Osc_Stat_Swings" xml:space="preserve">
+    <value>一个周期内摆动</value>
+  </data>
+  <data name="Osc_Stat_Swings_Value" xml:space="preserve">
+    <value>{0} 到 {1} 次</value>
+  </data>
+  <data name="Osc_Stat_TopSpeed" xml:space="preserve">
+    <value>最低点速度</value>
+  </data>
+  <data name="Osc_Stiffness" xml:space="preserve">
+    <value>劲度系数 k</value>
+  </data>
+  <data name="Osc_Timeline" xml:space="preserve">
+    <value>周期内的时间</value>
+  </data>
+  <data name="Osc_Title" xml:space="preserve">
+    <value>单摆与弹簧振子</value>
+  </data>
+  <data name="Osc_WaveChart_Caption" xml:space="preserve">
+    <value>十五个摆</value>
+  </data>
+  <data name="Osc_WaveChart_Note" xml:space="preserve">
+    <value>按比例画出，标出每个摆在一个周期内的摆动次数；上方是最长和最短的摆，以及它们在此地的周期。</value>
+  </data>
+  <data name="Osc_Wave_Fact1" xml:space="preserve">
+    <value>这些摆之间没有任何连接。所有图案都只来自一点：每个摆在一个周期内都比旁边更长的那个多摆一次。</value>
+  </data>
+  <data name="Osc_Wave_Fact2" xml:space="preserve">
+    <value>过了 t 秒，相邻两摆相差 t/60 次摆动。半个周期时相差半次，所以一前一后交替：分成两排。</value>
+  </data>
+  <data name="Osc_Wave_Fact3" xml:space="preserve">
+    <value>摆长必须精确到远小于一毫米：长一毫米，到周期结束时这个摆就会落后约十分之一次摆动。</value>
+  </data>
+  <data name="Osc_Wave_Fact4" xml:space="preserve">
+    <value>在月球上，同一套装置要约 2.5 分钟才能重新对齐，而不是 1 分钟：每个摆都慢了 2.46 倍。</value>
+  </data>
+  <data name="Osc_Wave_Fact5" xml:space="preserve">
+    <value>真实的摆波会因空气阻力慢慢摆不动，长短不同的摆损失得快慢也不同，所以几个周期后图案就模糊了。</value>
+  </data>
+  <data name="Osc_Wave_Note" xml:space="preserve">
+    <value>十五个摆，从 34 cm 到 21 cm，设计成在地球上 60 秒内分别摆动 51、52 … 65 次。摆角 18°，不计空气阻力。</value>
+  </data>
+  <data name="Osc_Wave_Pattern_InLine_Description" xml:space="preserve">
+    <value>十五个摆一起摆动，和刚松手时一样。但每个摆都比旁边更长的那个摆得快一点，所以它们很快就会错开。</value>
+  </data>
+  <data name="Osc_Wave_Pattern_InLine_Title" xml:space="preserve">
+    <value>排成一条线</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Mixed_Description" xml:space="preserve">
+    <value>看不出规律，但其实毫不杂乱：每个摆都在按自己的节拍摆动。继续看，整齐的排列还会回来。</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Mixed_Title" xml:space="preserve">
+    <value>看似杂乱</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Rows_Description" xml:space="preserve">
+    <value>现在每个摆都比旁边更长的那个超前 {0} 次摆动，所以相隔 {1} 个的摆又同步了：它们分成 {1} 组，一组接一组地摆。</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Rows_Title" xml:space="preserve">
+    <value>分成 {0} 排</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Snake_Description" xml:space="preserve">
+    <value>每个摆都比旁边更长的摆稍稍超前，所以整排摆像一条蛇在扭动。时间越久，相差越多，波也越来越短。</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Snake_Title" xml:space="preserve">
+    <value>一条蛇</value>
+  </data>
+  <data name="Osc_Wave_Subtitle" xml:space="preserve">
+    <value>十五个摆，一个比一个短一点，时而整齐、时而错落</value>
   </data>
   <data name="Page_Caption" xml:space="preserve">
     <value>第 {0} 页</value>
@@ -20405,6 +21215,633 @@
   </data>
   <data name="Water_Warming_Today" xml:space="preserve">
     <value>现在</value>
+  </data>
+  <data name="Waves_Chart_Ahead" xml:space="preserve">
+    <value>正前方</value>
+  </data>
+  <data name="Waves_Chart_Bang" xml:space="preserve">
+    <value>音爆</value>
+  </data>
+  <data name="Waves_Chart_Behind" xml:space="preserve">
+    <value>正后方</value>
+  </data>
+  <data name="Waves_Chart_Hz" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="Waves_Chart_Mach" xml:space="preserve">
+    <value>马赫数</value>
+  </data>
+  <data name="Waves_Chart_Millimetres" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="Waves_Chart_Now" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="Waves_Chart_Seconds" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Waves_Chart_Silence" xml:space="preserve">
+    <value>听不到</value>
+  </data>
+  <data name="Waves_Chart_Spacing" xml:space="preserve">
+    <value>Δy = {0} 毫米</value>
+  </data>
+  <data name="Waves_Chart_Supersonic" xml:space="preserve">
+    <value>超音速</value>
+  </data>
+  <data name="Waves_Clock_Doppler" xml:space="preserve">
+    <value>{0} / {1} 秒</value>
+  </data>
+  <data name="Waves_Clock_Ripple" xml:space="preserve">
+    <value>{0} Hz · 慢放 {1} 倍</value>
+  </data>
+  <data name="Waves_Clock_Slits" xml:space="preserve">
+    <value>{0} THz · 慢放约 {1} 万亿倍</value>
+  </data>
+  <data name="Waves_Colour_Blue" xml:space="preserve">
+    <value>蓝</value>
+  </data>
+  <data name="Waves_Colour_Cyan" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="Waves_Colour_Green" xml:space="preserve">
+    <value>绿</value>
+  </data>
+  <data name="Waves_Colour_Orange" xml:space="preserve">
+    <value>橙</value>
+  </data>
+  <data name="Waves_Colour_Red" xml:space="preserve">
+    <value>红</value>
+  </data>
+  <data name="Waves_Colour_Violet" xml:space="preserve">
+    <value>紫</value>
+  </data>
+  <data name="Waves_Colour_White" xml:space="preserve">
+    <value>白光（各种颜色）</value>
+  </data>
+  <data name="Waves_Colour_Yellow" xml:space="preserve">
+    <value>黄</value>
+  </data>
+  <data name="Waves_Diagram_Boom" xml:space="preserve">
+    <value>轰！音爆</value>
+  </data>
+  <data name="Waves_Diagram_Bunched" xml:space="preserve">
+    <value>波被挤密 → 音调高</value>
+  </data>
+  <data name="Waves_Diagram_Centimetres" xml:space="preserve">
+    <value>{0} 厘米</value>
+  </data>
+  <data name="Waves_Diagram_Cone" xml:space="preserve">
+    <value>马赫锥 · 半角 {0}°</value>
+  </data>
+  <data name="Waves_Diagram_Difference" xml:space="preserve">
+    <value>路程差 {0} λ</value>
+  </data>
+  <data name="Waves_Diagram_Hears" xml:space="preserve">
+    <value>听到 {0} Hz · {1}</value>
+  </data>
+  <data name="Waves_Diagram_HearsTwo" xml:space="preserve">
+    <value>同时听到 {0} Hz 和 {1} Hz</value>
+  </data>
+  <data name="Waves_Diagram_Lamp" xml:space="preserve">
+    <value>白光</value>
+  </data>
+  <data name="Waves_Diagram_Laser" xml:space="preserve">
+    <value>激光</value>
+  </data>
+  <data name="Waves_Diagram_Metres" xml:space="preserve">
+    <value>{0} 米</value>
+  </data>
+  <data name="Waves_Diagram_Off" xml:space="preserve">
+    <value>{0}（关）</value>
+  </data>
+  <data name="Waves_Diagram_OneSlit" xml:space="preserve">
+    <value>单缝（另一条遮住）</value>
+  </data>
+  <data name="Waves_Diagram_Screen" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Waves_Diagram_Silent" xml:space="preserve">
+    <value>还什么都听不到</value>
+  </data>
+  <data name="Waves_Diagram_Source" xml:space="preserve">
+    <value>声源 · {0} Hz</value>
+  </data>
+  <data name="Waves_Diagram_Stretched" xml:space="preserve">
+    <value>音调低 ← 波被拉稀</value>
+  </data>
+  <data name="Waves_Diagram_Tank" xml:space="preserve">
+    <value>水波槽 · 俯视</value>
+  </data>
+  <data name="Waves_Diagram_TankSwing" xml:space="preserve">
+    <value>水面起伏的幅度：越亮越大，黑的几乎不动</value>
+  </data>
+  <data name="Waves_Diagram_TwoSlits" xml:space="preserve">
+    <value>双缝</value>
+  </data>
+  <data name="Waves_Doppler_Approaching_Description" xml:space="preserve">
+    <value>声源一边发声一边追着前面的波跑，把波挤密了，每秒到达耳朵的波更多：你听到 {0} Hz，比本来的 440 Hz 高。</value>
+  </data>
+  <data name="Waves_Doppler_Approaching_Title" xml:space="preserve">
+    <value>迎面而来：音调变高</value>
+  </data>
+  <data name="Waves_Doppler_Boom_Description" xml:space="preserve">
+    <value>锥面扫过你：声源在很长一段路上发出的波都叠在锥面上，同时到达，变成一声巨响。</value>
+  </data>
+  <data name="Waves_Doppler_Boom_Title" xml:space="preserve">
+    <value>音爆！</value>
+  </data>
+  <data name="Waves_Doppler_Fact1" xml:space="preserve">
+    <value>多普勒在 1842 年提出了这个效应。1845 年，拜斯·巴洛特让小号手站在行驶的火车上吹奏，由站台上的音乐家辨别音高来验证它。</value>
+  </data>
+  <data name="Waves_Doppler_Fact2" xml:space="preserve">
+    <value>以约 120 km/h 驶过的汽车，440 Hz 的喇叭声会从约 489 Hz 降到 400 Hz，约三个半音：就是熟悉的“呜——”声。</value>
+  </data>
+  <data name="Waves_Doppler_Fact3" xml:space="preserve">
+    <value>测速雷达、气象雷达和测量血流的多普勒超声，都是靠反射回来的波的频率变化来测速度的。</value>
+  </data>
+  <data name="Waves_Doppler_Fact4" xml:space="preserve">
+    <value>光也有多普勒效应：遥远星系的光向红端偏移，因为它们正在远离我们。我们就是这样知道宇宙在膨胀的。</value>
+  </data>
+  <data name="Waves_Doppler_Fact5" xml:space="preserve">
+    <value>超音速飞机的音爆不是只响一次，而是一路拖着锥面飞：它飞过的地方，每个人都会听到一声巨响。鞭子的“啪”声就是鞭梢超音速产生的小音爆。</value>
+  </data>
+  <data name="Waves_Doppler_Note" xml:space="preserve">
+    <value>俯视一条公路，比真实慢 5 倍。每一圈代表声源每发出 22 个波中的一个，即每 1/20 秒一圈。</value>
+  </data>
+  <data name="Waves_Doppler_Passing_Description" xml:space="preserve">
+    <value>此刻传到你耳中的声音，是声源经过你身旁时发出的，那时它既不靠近也不远离：你听到 {0} Hz，接近本来的音调，而且正在快速下降。</value>
+  </data>
+  <data name="Waves_Doppler_Passing_Title" xml:space="preserve">
+    <value>正从旁边经过</value>
+  </data>
+  <data name="Waves_Doppler_Receding_Description" xml:space="preserve">
+    <value>声源背着后面的波远去，把波拉稀了，每秒到达耳朵的波变少：你听到 {0} Hz，比 440 Hz 低。</value>
+  </data>
+  <data name="Waves_Doppler_Receding_Title" xml:space="preserve">
+    <value>远去：音调变低</value>
+  </data>
+  <data name="Waves_Doppler_Silent_Description" xml:space="preserve">
+    <value>声源比自己的声音还快，声音追不上它。它也许已经到了你附近，你却什么也听不到，直到它身后的锥面扫过你。</value>
+  </data>
+  <data name="Waves_Doppler_Silent_Title" xml:space="preserve">
+    <value>还听不到</value>
+  </data>
+  <data name="Waves_Doppler_Still_Description" xml:space="preserve">
+    <value>波纹是以它为圆心的同心圆，各个方向一样密：无论站在哪里，听到的都是它本来的 440 Hz。</value>
+  </data>
+  <data name="Waves_Doppler_Still_Title" xml:space="preserve">
+    <value>声源不动</value>
+  </data>
+  <data name="Waves_Doppler_Subtitle" xml:space="preserve">
+    <value>迎面而来音调高，远去音调低</value>
+  </data>
+  <data name="Waves_Doppler_Two_Description" xml:space="preserve">
+    <value>音爆之后，你同时听到它飞离时发出的声音和它飞来时发出的声音，而后者是倒着到达的：后发出的先听到。</value>
+  </data>
+  <data name="Waves_Doppler_Two_Title" xml:space="preserve">
+    <value>同时听到两个声音</value>
+  </data>
+  <data name="Waves_DragHint_Doppler" xml:space="preserve">
+    <value>拖动听者，换个位置听它经过。</value>
+  </data>
+  <data name="Waves_DragHint_Ripple" xml:space="preserve">
+    <value>在水面上拖动探针，看两列波在那里怎样相遇。</value>
+  </data>
+  <data name="Waves_DragHint_Slits" xml:space="preserve">
+    <value>拖动探针（缝的右边），看它到两条缝的路程差。</value>
+  </data>
+  <data name="Waves_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Waves_Lesson_Doppler_Choice1" xml:space="preserve">
+    <value>先高，后低</value>
+  </data>
+  <data name="Waves_Lesson_Doppler_Choice2" xml:space="preserve">
+    <value>先低，后高</value>
+  </data>
+  <data name="Waves_Lesson_Doppler_Choice3" xml:space="preserve">
+    <value>始终是同一个音</value>
+  </data>
+  <data name="Waves_Lesson_Ripple_Choice1" xml:space="preserve">
+    <value>那里的水静止不动</value>
+  </data>
+  <data name="Waves_Lesson_Ripple_Choice2" xml:space="preserve">
+    <value>起伏变成两倍</value>
+  </data>
+  <data name="Waves_Lesson_Ripple_Choice3" xml:space="preserve">
+    <value>没有变化</value>
+  </data>
+  <data name="Waves_Lesson_Slits_Choice1" xml:space="preserve">
+    <value>条纹消失了</value>
+  </data>
+  <data name="Waves_Lesson_Slits_Choice2" xml:space="preserve">
+    <value>条纹变得更亮</value>
+  </data>
+  <data name="Waves_Lesson_Slits_Choice3" xml:space="preserve">
+    <value>只剩下一半条纹</value>
+  </data>
+  <data name="Waves_LightWavelength" xml:space="preserve">
+    <value>光的波长</value>
+  </data>
+  <data name="Waves_Light_Caption" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Waves_Light_Green" xml:space="preserve">
+    <value>绿色激光 532 nm</value>
+  </data>
+  <data name="Waves_Light_Red" xml:space="preserve">
+    <value>红色激光 650 nm</value>
+  </data>
+  <data name="Waves_Light_Violet" xml:space="preserve">
+    <value>紫色激光 405 nm</value>
+  </data>
+  <data name="Waves_Mach" xml:space="preserve">
+    <value>声源速度</value>
+  </data>
+  <data name="Waves_MachChart_Caption" xml:space="preserve">
+    <value>正前方和正后方听到的音调</value>
+  </data>
+  <data name="Waves_MachChart_Note" xml:space="preserve">
+    <value>声源越接近音速，正前方的音调就越高，没有上限；而正后方即使在 2 倍音速时，也只降到三分之一。</value>
+  </data>
+  <data name="Waves_Mach_Airliner" xml:space="preserve">
+    <value>客机 0.8</value>
+  </data>
+  <data name="Waves_Mach_Car" xml:space="preserve">
+    <value>汽车 0.1</value>
+  </data>
+  <data name="Waves_Mach_Concorde" xml:space="preserve">
+    <value>协和式客机 2</value>
+  </data>
+  <data name="Waves_Mach_Racing" xml:space="preserve">
+    <value>赛车 0.26</value>
+  </data>
+  <data name="Waves_Mach_Sound" xml:space="preserve">
+    <value>音速</value>
+  </data>
+  <data name="Waves_Mach_Still" xml:space="preserve">
+    <value>静止</value>
+  </data>
+  <data name="Waves_Mach_Value" xml:space="preserve">
+    <value>{0} 马赫 · {1} m/s · {2} km/h</value>
+  </data>
+  <data name="Waves_Mode_Doppler" xml:space="preserve">
+    <value>多普勒效应</value>
+  </data>
+  <data name="Waves_Mode_Ripple" xml:space="preserve">
+    <value>水波干涉</value>
+  </data>
+  <data name="Waves_Mode_Slits" xml:space="preserve">
+    <value>双缝干涉</value>
+  </data>
+  <data name="Waves_Obj_Bunched" xml:space="preserve">
+    <value>前方挤密的波</value>
+  </data>
+  <data name="Waves_Obj_Cone" xml:space="preserve">
+    <value>马赫锥</value>
+  </data>
+  <data name="Waves_Obj_Difference" xml:space="preserve">
+    <value>路程差</value>
+  </data>
+  <data name="Waves_Obj_DipperA" xml:space="preserve">
+    <value>振子 A</value>
+  </data>
+  <data name="Waves_Obj_DipperB" xml:space="preserve">
+    <value>振子 B</value>
+  </data>
+  <data name="Waves_Obj_Heard" xml:space="preserve">
+    <value>听到的声音</value>
+  </data>
+  <data name="Waves_Obj_Laser" xml:space="preserve">
+    <value>激光器</value>
+  </data>
+  <data name="Waves_Obj_Listener" xml:space="preserve">
+    <value>听者</value>
+  </data>
+  <data name="Waves_Obj_Loud" xml:space="preserve">
+    <value>加强线</value>
+  </data>
+  <data name="Waves_Obj_Order" xml:space="preserve">
+    <value>亮纹序号</value>
+  </data>
+  <data name="Waves_Obj_Probe" xml:space="preserve">
+    <value>探针</value>
+  </data>
+  <data name="Waves_Obj_Quiet" xml:space="preserve">
+    <value>静止线</value>
+  </data>
+  <data name="Waves_Obj_Screen" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Waves_Obj_Slits" xml:space="preserve">
+    <value>狭缝</value>
+  </data>
+  <data name="Waves_Obj_Source" xml:space="preserve">
+    <value>声源</value>
+  </data>
+  <data name="Waves_Obj_Spacing" xml:space="preserve">
+    <value>缝距 d</value>
+  </data>
+  <data name="Waves_Obj_Stretched" xml:space="preserve">
+    <value>后方拉稀的波</value>
+  </data>
+  <data name="Waves_Obj_Tank" xml:space="preserve">
+    <value>水波槽</value>
+  </data>
+  <data name="Waves_Obj_Tape" xml:space="preserve">
+    <value>遮住的缝</value>
+  </data>
+  <data name="Waves_Option_Average" xml:space="preserve">
+    <value>看振幅</value>
+  </data>
+  <data name="Waves_Option_Lines" xml:space="preserve">
+    <value>静止线</value>
+  </data>
+  <data name="Waves_Option_OneSlit" xml:space="preserve">
+    <value>遮住一条缝</value>
+  </data>
+  <data name="Waves_Option_Opposite" xml:space="preserve">
+    <value>反相振动</value>
+  </data>
+  <data name="Waves_Option_SecondSource" xml:space="preserve">
+    <value>振子 B</value>
+  </data>
+  <data name="Waves_Option_White" xml:space="preserve">
+    <value>白光</value>
+  </data>
+  <data name="Waves_PitchChart_Caption" xml:space="preserve">
+    <value>听者在这一趟里听到的音调</value>
+  </data>
+  <data name="Waves_PitchChart_Note" xml:space="preserve">
+    <value>声源经过时音调下降，离得最近时降得最快。超音速时先是一片寂静，然后一声音爆，之后同时听到两个声音。</value>
+  </data>
+  <data name="Waves_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停</value>
+  </data>
+  <data name="Waves_ProbeChart_Caption" xml:space="preserve">
+    <value>探针处的水面</value>
+  </data>
+  <data name="Waves_ProbeChart_Note" xml:space="preserve">
+    <value>蓝线是 A 的波让水面升高多少，粉线是 B 的，金线是两者之和，也就是水面真正的起伏。步调一致就相加，正好相反就抵消。</value>
+  </data>
+  <data name="Waves_ProbeTo" xml:space="preserve">
+    <value>把探针移到</value>
+  </data>
+  <data name="Waves_ProbeTo_Central" xml:space="preserve">
+    <value>中央亮纹</value>
+  </data>
+  <data name="Waves_ProbeTo_Dark" xml:space="preserve">
+    <value>中间的暗纹</value>
+  </data>
+  <data name="Waves_ProbeTo_First" xml:space="preserve">
+    <value>第 1 条亮纹</value>
+  </data>
+  <data name="Waves_ProbeTo_Loud" xml:space="preserve">
+    <value>起伏最大处</value>
+  </data>
+  <data name="Waves_ProbeTo_Quiet" xml:space="preserve">
+    <value>静止的水</value>
+  </data>
+  <data name="Waves_Restart" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Waves_Ripple_Between_Description" xml:space="preserve">
+    <value>这里的路程差是 {0} 个波长，既不接近整数也不接近整数加半个：两列波部分加强，水面有起伏，但不是最大。</value>
+  </data>
+  <data name="Waves_Ripple_Between_DescriptionOpposite" xml:space="preserve">
+    <value>这里的路程差是 {0} 个波长，既不接近整数也不接近整数加半个：两列波部分加强，水面有起伏，但不是最大。</value>
+  </data>
+  <data name="Waves_Ripple_Between_Title" xml:space="preserve">
+    <value>部分加强</value>
+  </data>
+  <data name="Waves_Ripple_Fact1" xml:space="preserve">
+    <value>降噪耳机先“听”外界的噪声，再播放一个正好相反的声音：波峰遇波谷，噪声大部分就抵消了。</value>
+  </data>
+  <data name="Waves_Ripple_Fact2" xml:space="preserve">
+    <value>两个音箱播放同一个音调时，声音也会这样干涉：在房间里走动，会听到声音忽大忽小。</value>
+  </data>
+  <data name="Waves_Ripple_Fact3" xml:space="preserve">
+    <value>静止线上的能量并没有消失，而是转移到了两侧起伏最大的地方。</value>
+  </data>
+  <data name="Waves_Ripple_Fact4" xml:space="preserve">
+    <value>两个振子离得越远、波长越短，静止线就越多越密：大约有 2d/λ 条。</value>
+  </data>
+  <data name="Waves_Ripple_Fact5" xml:space="preserve">
+    <value>肥皂泡和湿路面上油膜的彩色也是干涉：光从极薄的膜的上下两个表面反射后相互叠加。</value>
+  </data>
+  <data name="Waves_Ripple_InStep_Description" xml:space="preserve">
+    <value>这里到两个振子的路程差是 {0} 个波长，接近整数：两列波步调一致，波峰遇波峰、波谷遇波谷，水面起伏最大。</value>
+  </data>
+  <data name="Waves_Ripple_InStep_DescriptionOpposite" xml:space="preserve">
+    <value>这里的路程差是 {0} 个波长，接近整数加半个。两个振子本来一上一下，再错开半个波长正好又对齐：水面起伏最大。</value>
+  </data>
+  <data name="Waves_Ripple_InStep_Title" xml:space="preserve">
+    <value>波峰遇波峰</value>
+  </data>
+  <data name="Waves_Ripple_Note" xml:space="preserve">
+    <value>俯视水波槽，比真实慢 10 倍。亮的是波峰，暗的是波谷。</value>
+  </data>
+  <data name="Waves_Ripple_OutOfStep_Description" xml:space="preserve">
+    <value>这里的路程差是 {0} 个波长，接近整数加半个：一列波的波峰正好遇上另一列的波谷，相互抵消，水面几乎不动。</value>
+  </data>
+  <data name="Waves_Ripple_OutOfStep_DescriptionOpposite" xml:space="preserve">
+    <value>这里的路程差是 {0} 个波长，接近整数。可两个振子一上一下，波到这里时仍是峰遇谷，相互抵消，水面几乎不动。</value>
+  </data>
+  <data name="Waves_Ripple_OutOfStep_Title" xml:space="preserve">
+    <value>波峰遇波谷</value>
+  </data>
+  <data name="Waves_Ripple_Single_Description" xml:space="preserve">
+    <value>只有 A 在振动：一圈圈波纹均匀地散开，越远越弱，哪里都没有静止的地方。打开 B，看两列波怎样相遇。</value>
+  </data>
+  <data name="Waves_Ripple_Single_Title" xml:space="preserve">
+    <value>只有一个振子</value>
+  </data>
+  <data name="Waves_Ripple_Subtitle" xml:space="preserve">
+    <value>波峰遇波峰就加强，遇波谷就抵消</value>
+  </data>
+  <data name="Waves_ScreenChart_Caption" xml:space="preserve">
+    <value>真实光屏上的条纹</value>
+  </data>
+  <data name="Waves_ScreenChart_Note" xml:space="preserve">
+    <value>相邻亮纹相距 λL/d：波长越长、光屏越远、缝越近，条纹就越宽。每条缝单独产生的宽光斑，就是条纹外面那层包络。</value>
+  </data>
+  <data name="Waves_ScreenDistance" xml:space="preserve">
+    <value>到光屏的距离</value>
+  </data>
+  <data name="Waves_Separation" xml:space="preserve">
+    <value>两个振子的距离</value>
+  </data>
+  <data name="Waves_SlitSpacing" xml:space="preserve">
+    <value>双缝间距</value>
+  </data>
+  <data name="Waves_Slits_Between_Description" xml:space="preserve">
+    <value>这一点到两条缝的路程差是 {0} 个波长：两束光部分加强，不太亮也不太暗。</value>
+  </data>
+  <data name="Waves_Slits_Between_Title" xml:space="preserve">
+    <value>亮暗之间</value>
+  </data>
+  <data name="Waves_Slits_Bright_Description" xml:space="preserve">
+    <value>这一点到两条缝的路程差是 {0} 个波长，接近整数：两束光步调一致，相互加强，成了亮纹。</value>
+  </data>
+  <data name="Waves_Slits_Bright_Title" xml:space="preserve">
+    <value>第 {0} 条亮纹</value>
+  </data>
+  <data name="Waves_Slits_Central_Title" xml:space="preserve">
+    <value>中央亮纹</value>
+  </data>
+  <data name="Waves_Slits_Dark_Description" xml:space="preserve">
+    <value>这一点到两条缝的路程差是 {0} 个波长，接近整数加半个：波峰遇波谷，两束光相互抵消，光加光反而成了黑暗。</value>
+  </data>
+  <data name="Waves_Slits_Dark_Title" xml:space="preserve">
+    <value>暗纹</value>
+  </data>
+  <data name="Waves_Slits_Fact1" xml:space="preserve">
+    <value>托马斯·杨在 19 世纪初首次做了这个实验。明暗条纹只可能来自波，这推翻了牛顿“光是粒子”的看法。</value>
+  </data>
+  <data name="Waves_Slits_Fact2" xml:space="preserve">
+    <value>绿光的波长约为万分之五毫米，大约是头发丝粗细的百分之一。所以双缝必须靠得很近，光屏要放得很远。</value>
+  </data>
+  <data name="Waves_Slits_Fact3" xml:space="preserve">
+    <value>即使让光子或电子一个一个地通过，屏上的点仍会一点点积累成同样的条纹：每一个都像波一样同时穿过了两条缝。</value>
+  </data>
+  <data name="Waves_Slits_Fact4" xml:space="preserve">
+    <value>光盘上的彩虹也是这个原理：它的音轨间距只有 1.6 微米，就像成千上万条缝。</value>
+  </data>
+  <data name="Waves_Slits_Fact5" xml:space="preserve">
+    <value>两盏普通的灯一起照不出条纹：它们的光节奏一直在杂乱地变，比眼睛能分辨的快得多，条纹跟着乱跳，糊成一片。激光则能保持稳定的节奏。</value>
+  </data>
+  <data name="Waves_Slits_Note" xml:space="preserve">
+    <value>示意图不按比例：光波被画大了上万倍，条纹也张得开得多。左页的图表是真实光屏上的条纹。</value>
+  </data>
+  <data name="Waves_Slits_One_Description" xml:space="preserve">
+    <value>遮住一条缝，光屏上只剩一片中间亮、两边暗的光斑。条纹来自两条缝的光相互加强和抵消，只有波才会这样。</value>
+  </data>
+  <data name="Waves_Slits_One_Title" xml:space="preserve">
+    <value>只有一条缝：没有条纹</value>
+  </data>
+  <data name="Waves_Slits_Subtitle" xml:space="preserve">
+    <value>光也是波：两条缝的光叠出明暗条纹</value>
+  </data>
+  <data name="Waves_Slits_White_Description" xml:space="preserve">
+    <value>每种颜色都有自己的条纹，紫光最密，红光最疏。正中间各种颜色都是亮纹，叠成白色；越往外颜色越错开，成了彩色条纹，很快又糊成一片。</value>
+  </data>
+  <data name="Waves_Slits_White_Title" xml:space="preserve">
+    <value>白光：中间白，两边彩色</value>
+  </data>
+  <data name="Waves_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Waves_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Waves_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Waves_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Waves_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
+  <data name="Waves_Stat_Ahead" xml:space="preserve">
+    <value>正前方</value>
+  </data>
+  <data name="Waves_Stat_Ahead_None" xml:space="preserve">
+    <value>听不到：声音跑不到它前面</value>
+  </data>
+  <data name="Waves_Stat_Behind" xml:space="preserve">
+    <value>正后方</value>
+  </data>
+  <data name="Waves_Stat_Cone" xml:space="preserve">
+    <value>马赫锥半角</value>
+  </data>
+  <data name="Waves_Stat_Difference" xml:space="preserve">
+    <value>路程差</value>
+  </data>
+  <data name="Waves_Stat_Difference_Value" xml:space="preserve">
+    <value>{0} 厘米 = {1} λ</value>
+  </data>
+  <data name="Waves_Stat_Distance" xml:space="preserve">
+    <value>听者离公路</value>
+  </data>
+  <data name="Waves_Stat_Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Waves_Stat_FringeSpacing" xml:space="preserve">
+    <value>条纹间距</value>
+  </data>
+  <data name="Waves_Stat_FringeSpacing_White" xml:space="preserve">
+    <value>每种颜色都不同</value>
+  </data>
+  <data name="Waves_Stat_FromA" xml:space="preserve">
+    <value>探针到 A</value>
+  </data>
+  <data name="Waves_Stat_FromB" xml:space="preserve">
+    <value>探针到 B</value>
+  </data>
+  <data name="Waves_Stat_Heard" xml:space="preserve">
+    <value>此刻听到</value>
+  </data>
+  <data name="Waves_Stat_Heard_None" xml:space="preserve">
+    <value>听不到</value>
+  </data>
+  <data name="Waves_Stat_InGlow" xml:space="preserve">
+    <value>中央包络里的亮纹</value>
+  </data>
+  <data name="Waves_Stat_Light" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Waves_Stat_LightFrequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Waves_Stat_ProbeDifference" xml:space="preserve">
+    <value>探针处路程差</value>
+  </data>
+  <data name="Waves_Stat_QuietLines" xml:space="preserve">
+    <value>静止线条数</value>
+  </data>
+  <data name="Waves_Stat_RippleSpeed" xml:space="preserve">
+    <value>波速</value>
+  </data>
+  <data name="Waves_Stat_ScreenDistance" xml:space="preserve">
+    <value>到光屏</value>
+  </data>
+  <data name="Waves_Stat_Separation" xml:space="preserve">
+    <value>振子间距</value>
+  </data>
+  <data name="Waves_Stat_SlitSpacing" xml:space="preserve">
+    <value>双缝间距</value>
+  </data>
+  <data name="Waves_Stat_SlitWidth" xml:space="preserve">
+    <value>缝宽</value>
+  </data>
+  <data name="Waves_Stat_SourcePitch" xml:space="preserve">
+    <value>本来的音调</value>
+  </data>
+  <data name="Waves_Stat_SourceSpeed" xml:space="preserve">
+    <value>声源速度</value>
+  </data>
+  <data name="Waves_Stat_Swing" xml:space="preserve">
+    <value>探针处振幅</value>
+  </data>
+  <data name="Waves_Stat_Swing_Value" xml:space="preserve">
+    <value>两列波直接相加的 {0}%</value>
+  </data>
+  <data name="Waves_Stat_Wavelength" xml:space="preserve">
+    <value>波长</value>
+  </data>
+  <data name="Waves_Stat_Wavelengths_Value" xml:space="preserve">
+    <value>{0} λ</value>
+  </data>
+  <data name="Waves_Timeline" xml:space="preserve">
+    <value>经过的时间</value>
+  </data>
+  <data name="Waves_Title" xml:space="preserve">
+    <value>波的干涉与多普勒效应</value>
+  </data>
+  <data name="Waves_Wavelength" xml:space="preserve">
+    <value>波长</value>
   </data>
   <data name="Window_Close" xml:space="preserve">
     <value>关闭</value>

@@ -63,6 +63,39 @@ def match_bracket(text: str, open_index: int) -> int:
     raise ValueError("unbalanced brackets")
 
 
+def point_gap_lengths(s: str) -> str:
+    """
+    `(a - b).Length`: a Point difference is a Point in Avalonia, which has no Length, so the difference is read as a
+    Vector. Not in a file of 3-D points (Point3D, Vec3), whose differences are vectors already.
+    """
+    if re.search(r"\b(?:Point3D|Vec3)\b", s):
+        return s
+    out, i = [], 0
+    while (j := s.find(").Length", i)) != -1:
+        # The bracket this one closes.
+        depth, k = 0, j
+        while k >= 0:
+            if s[k] in ")]}":
+                depth += 1
+            elif s[k] in "([{":
+                depth -= 1
+                if depth == 0:
+                    break
+            k -= 1
+        inner = s[k + 1:j]
+        before = s[max(0, k - 8):k]
+        is_call = k > 0 and (s[k - 1].isalnum() or s[k - 1] in "_>")
+        top_minus = re.sub(r"\([^()]*\)|\[[^\[\]]*\]", "", re.sub(r"\([^()]*\)", "", inner))
+        if k >= 0 and not is_call and " - " in top_minus and not before.endswith("(Vector)") and "," not in top_minus:
+            out.append(s[i:k] + f"((Vector)({inner}))")
+            i = j + 1
+        else:
+            out.append(s[i:j + 1])
+            i = j + 1
+    out.append(s[i:])
+    return "".join(out)
+
+
 def split_top(text: str) -> list[str]:
     """Splits an argument list at its top-level commas."""
     parts, depth, start = [], 0, 0
@@ -246,6 +279,13 @@ def convert_types(s: str, namespace: str) -> str:
     s = s.replace("new RotateTransform(", "SpaceDrawing.Rotation(")
     s = s.replace("new EllipseGeometry(", "SpaceDrawing.Ellipse(")
     s = re.sub(r"^\s*\w+\.Freeze\(\);\s*\n", "", s, flags=re.M)
+    # How the control scales its bitmaps: Avalonia's setting has other names (and smooths nothing unless told to).
+    s = re.sub(r"RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.(?:Linear|HighQuality|Fant)\);",
+               "RenderOptions.SetBitmapInterpolationMode(this, BitmapInterpolationMode.MediumQuality);", s)
+    s = re.sub(r"RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.NearestNeighbor\);",
+               "RenderOptions.SetBitmapInterpolationMode(this, BitmapInterpolationMode.None);", s)
+    if "BitmapInterpolationMode." in s and "using Avalonia.Media.Imaging;" not in s:
+        s = s.replace("using Avalonia;\n", "using Avalonia;\nusing Avalonia.Media.Imaging;\n", 1)
     s = re.sub(r"^\s*RenderOptions\.SetBitmapScalingMode\(this, BitmapScalingMode\.\w+\);\s*\n", "", s, flags=re.M)
     s = re.sub(r"\b(\w+)\.LineTo\((.*), (?:true|false), (?:true|false)\);", r"\1.LineTo(\2);", s)
     s = re.sub(r"\b(\w+)\.ArcTo\(([^;]*?),\s+(?:true|false), (?:true|false)\);", r"\1.ArcTo(\2);", s)  # (the flags may wrap)
@@ -261,11 +301,16 @@ def convert_types(s: str, namespace: str) -> str:
     s = re.sub(r"\bBitmapSource\b", "Bitmap", s)
     # A bitmap's size in pixels.
     s = re.sub(r"\b(_?\w+[!?]?)\.Pixel(Width|Height)\b", lambda m: f"{m[1]}.PixelSize.{m[2][5:] if False else ('Width' if m[2] == 'Width' else 'Height')}", s)
-    # The length of the gap between two points (indexed or not).
-    s = re.sub(r"\(([\w.]+(?:\[[^\]]*\])?) - ([\w.]+(?:\[[^\]]*\])?)\)\.Length\b", r"((Vector)(\1 - \2)).Length", s)
+    s = point_gap_lengths(s)
     s = s.replace("System.Windows.Threading.DispatcherTimer", "Avalonia.Threading.DispatcherTimer")
     # A pen named in full (beside a property or class of the same name): Avalonia's pens are IPen.
     s = re.sub(r"\bSystem\.Windows\.Media\.Pen\b", "IPen", s)
+    # WPF's 3-D points and vectors are the book's own small versions (Controls/Space/Space3D.cs).
+    space = f"using {TARGET_ROOT}.Controls.Space;\n"
+    # (Avalonia has a Vector3D of its own, without a cross product: the alias picks the book's.)
+    if "using System.Windows.Media.Media3D;\n" in s:
+        alias = f"using Vector3D = {TARGET_ROOT}.Controls.Space.Vector3D;\n"
+        s = s.replace("using System.Windows.Media.Media3D;\n", ("" if space in s else space) + alias)
     s = re.sub(r"\bSystem\.Windows\.Media\.(?=\w)", "", s)
     # A property passed to a helper (Push(DependencyProperty property, object value)).
     s = re.sub(r"\bDependencyProperty (?=\w+\s*[,)])", "AvaloniaProperty ", s)
@@ -983,6 +1028,9 @@ def viewmodel(args: argparse.Namespace) -> None:
     s = Path(args.source).read_text(encoding="utf-8")
     s = apply_namespaces(s, args.namespace, args.source_prefix, args.map)
     s = s.replace("using Volo.Abp.DependencyInjection;\n", "").replace(", ITransientDependency", "")
+    # WPF's Point and Size are in System.Windows, Avalonia's in Avalonia.
+    s = s.replace("using System.Windows;\n", "using Avalonia;\n")
+    s = point_gap_lengths(s)
     # Usings of the original's own plumbing (DI, navigation, constants, controls folders already mapped away).
     s = re.sub(rf"^using {re.escape(args.source_prefix)}\.[\w.]+;\n", "", s, flags=re.M)
 

@@ -9498,6 +9498,126 @@
   <data name="Narr_MoonPhases_Sky_07" xml:space="preserve">
     <value>So the Moon's shape tells you roughly when it rises and sets. Drag across the picture to change the time and go looking for the Moon.</value>
   </data>
+  <data name="Narr_Osc_Obj_Angle" xml:space="preserve">
+    <value>How far the pendulum is pulled aside. For small swings, it hardly changes the period at all.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Bob" xml:space="preserve">
+    <value>The bob, the heavy weight at the end of the pendulum. Drag it aside and let go to start a new swing.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Circle" xml:space="preserve">
+    <value>A dot going round a circle once for every bounce. Seen from the side, it moves exactly like the mass. That's why this kind of motion is called simple harmonic motion.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Formula" xml:space="preserve">
+    <value>A ghost pendulum, swinging exactly as the formula says: the period is two pi times the square root of the length over g. For big swings, the real pendulum falls a little behind it.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Length" xml:space="preserve">
+    <value>The length of the pendulum, from the pivot to the middle of the bob. Longer pendulums swing more slowly.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Longest" xml:space="preserve">
+    <value>The longest pendulum. It swings fifty-one times a minute, the slowest of them all.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Mass" xml:space="preserve">
+    <value>The mass on the spring. Drag it up or down and let it go. A heavier mass bounces more slowly.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Motor" xml:space="preserve">
+    <value>The motor shakes the top of the spring up and down. If it shakes at the spring's own rhythm, the bounces grow. That's resonance.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Paper" xml:space="preserve">
+    <value>The paper record. A pen draws the motion while the paper moves, making a smooth wave. The green brackets measure the period.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Place" xml:space="preserve">
+    <value>Where the experiment is done, and how strong gravity is there. Try the Moon, Mars or Jupiter.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Rest" xml:space="preserve">
+    <value>Where the mass rests: here the spring's pull up balances the weight down. The mass bounces evenly above and below this line.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Shortest" xml:space="preserve">
+    <value>The shortest pendulum. It swings sixty-five times a minute, the fastest of them all.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Spring" xml:space="preserve">
+    <value>The spring. The more it's stretched, the harder it pulls back. A stiffer spring makes the mass bounce faster.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Stretch" xml:space="preserve">
+    <value>How far the weight of the mass stretches the spring: the mass times g, divided by the stiffness.</value>
+  </data>
+  <data name="Narr_Osc_Obj_TopView" xml:space="preserve">
+    <value>The pendulums seen from straight above. This is where the patterns, the snake and the rows, are easiest to see.</value>
+  </data>
+  <data name="Narr_Osc_Obj_Unstretched" xml:space="preserve">
+    <value>How long the spring is on its own, with nothing hanging from it.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_01" xml:space="preserve">
+    <value>Here's a pendulum: a heavy bob on a light rod, swinging to and fro. Underneath, a pen follows the bob and draws on a strip of paper that keeps sliding down.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_02" xml:space="preserve">
+    <value>The pen draws a wavy line. The time for one complete swing, over and back again, is called the period. The green numbers measure it on the paper.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_03" xml:space="preserve">
+    <value>This pendulum is a quarter of a metre long. Its period is about one second.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_04" xml:space="preserve">
+    <value>Think about it. If you made the pendulum four times as long, what would happen to its period?</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_05" xml:space="preserve">
+    <value>It doubles, to about two seconds. The period goes with the square root of the length. That's why a grandfather clock has a pendulum about a metre long: each swing one way takes one second.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_06" xml:space="preserve">
+    <value>Here's a surprise. A smaller swing takes almost exactly the same time as a bigger one. Legend has it that Galileo noticed this watching a lamp swing in a cathedral.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_07" xml:space="preserve">
+    <value>Now let's take the pendulum to the Moon. Gravity there is only about a sixth as strong, so it swings much more slowly: each full swing takes about five seconds.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_08" xml:space="preserve">
+    <value>Now you try. Drag the bob to one side, and let it go.</value>
+  </data>
+  <data name="Narr_Osc_Pendulum_09" xml:space="preserve">
+    <value>Because their swing is so steady, pendulums kept the world's clocks on time for nearly three hundred years.</value>
+  </data>
+  <data name="Narr_Osc_Spring_01" xml:space="preserve">
+    <value>Here's a mass hanging on a spring. Pull it down and let go, and it bounces up and down.</value>
+  </data>
+  <data name="Narr_Osc_Spring_02" xml:space="preserve">
+    <value>This dashed line is where the mass would rest. There, the spring is stretched just enough for its pull to balance the mass's weight.</value>
+  </data>
+  <data name="Narr_Osc_Spring_03" xml:space="preserve">
+    <value>Watch the dot going round this circle. Its height always matches the mass. Bouncing on a spring is just like going round a circle, seen from the side.</value>
+  </data>
+  <data name="Narr_Osc_Spring_04" xml:space="preserve">
+    <value>Think about it. What happens to the bouncing if we hang a heavier mass on the same spring?</value>
+  </data>
+  <data name="Narr_Osc_Spring_05" xml:space="preserve">
+    <value>It bounces more slowly. With four times the mass, each bounce takes twice as long: look at the wider waves on the paper. A stiffer spring does the opposite, and makes it bounce faster.</value>
+  </data>
+  <data name="Narr_Osc_Spring_06" xml:space="preserve">
+    <value>Here's something surprising. On the Moon, the spring bounces exactly as fast as on Earth. The mass just rests a little higher, because it weighs less. Gravity changes where it rests, but not how fast it bounces.</value>
+  </data>
+  <data name="Narr_Osc_Spring_07" xml:space="preserve">
+    <value>Now a motor shakes the top of the spring, ever so slightly, at exactly the spring's own rhythm. Watch the bounces grow bigger and bigger. This is called resonance. It's how a child on a swing goes higher with small, well-timed pushes.</value>
+  </data>
+  <data name="Narr_Osc_Spring_08" xml:space="preserve">
+    <value>Now you try. Drag the mass up or down, and let it go.</value>
+  </data>
+  <data name="Narr_Osc_Wave_01" xml:space="preserve">
+    <value>Here are fifteen pendulums on one bar, each a little shorter than the one before. They were all let go together, so at first they swing in step.</value>
+  </data>
+  <data name="Narr_Osc_Wave_02" xml:space="preserve">
+    <value>The shorter ones swing a little faster. In one minute, the longest swings fifty-one times, and the shortest sixty-five times.</value>
+  </data>
+  <data name="Narr_Osc_Wave_03" xml:space="preserve">
+    <value>So they slowly drift out of step. Seen from above, the bobs make a snake that twists and turns.</value>
+  </data>
+  <data name="Narr_Osc_Wave_04" xml:space="preserve">
+    <value>Think about it. What happens when the whole minute is up?</value>
+  </data>
+  <data name="Narr_Osc_Wave_05" xml:space="preserve">
+    <value>They all line up again. In that minute, every pendulum makes a whole number of swings, so they all arrive back where they started, together.</value>
+  </data>
+  <data name="Narr_Osc_Wave_06" xml:space="preserve">
+    <value>Halfway through the minute, the pendulums split into two rows, swinging against each other.</value>
+  </data>
+  <data name="Narr_Osc_Wave_07" xml:space="preserve">
+    <value>Now you try. Drag the timeline to find other patterns, like three or four rows.</value>
+  </data>
   <data name="Narr_Quake_Boundaries_01" xml:space="preserve">
     <value>Let's dive under the sea, to a mid-ocean ridge. Two plates are moving apart here, a centimetre or two a year on each side. Hot mantle rock rises beneath, partly melts, and the magma fills the crack, cooling into new ocean floor.</value>
   </data>
@@ -11658,6 +11778,147 @@
   <data name="Narr_Water_Stores_10" xml:space="preserve">
     <value>Your turn. Click a ball, a flow or a store in the picture to hear more about it.</value>
   </data>
+  <data name="Narr_Waves_Doppler_01" xml:space="preserve">
+    <value>This is a road seen from above. The yellow dot is a source of sound, a horn playing the note A, four hundred and forty hertz. Standing still, its rings spread out evenly in every direction.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_02" xml:space="preserve">
+    <value>Now it drives at half the speed of sound. Each ring starts from where the source was when it went out. So in front of it the rings are squeezed together, and behind it they're stretched apart.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_03" xml:space="preserve">
+    <value>Squeezed rings reach your ear more often, and that sounds higher. Stretched rings sound lower. Keep an eye on what the listener hears as the source goes past.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_04" xml:space="preserve">
+    <value>So, what do you hear as the source goes past you?</value>
+  </data>
+  <data name="Narr_Waves_Doppler_05" xml:space="preserve">
+    <value>Yes. High as it comes, low as it goes. That's the familiar 'neee-owww' of a passing car. The horn itself never changed its note. Only the spacing of the rings did.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_06" xml:space="preserve">
+    <value>Now the source is going at the speed of sound. It keeps up with its own rings, and they all pile up into a wall right in front of it.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_07" xml:space="preserve">
+    <value>Twice the speed of sound. Now the source outruns its own sound, and the rings pile up into a cone behind it, called the Mach cone. The faster it goes, the narrower the cone.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_08" xml:space="preserve">
+    <value>The listener hears nothing at all until the edge of the cone sweeps over them. Then comes a sudden bang, a sonic boom. After that they hear two sounds at once: the one it made coming, and the one it made going.</value>
+  </data>
+  <data name="Narr_Waves_Doppler_09" xml:space="preserve">
+    <value>Your turn. Drag the listener somewhere else, closer to the road or farther away, and listen to the pass from there.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Bunched" xml:space="preserve">
+    <value>In front of the moving source, the rings are squeezed together. More of them reach you every second, so you hear a higher pitch.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Cone" xml:space="preserve">
+    <value>The Mach cone. Faster than sound, the rings pile up along its edge. The faster the source, the narrower the cone. When the edge passes over you, you hear a sonic boom.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Difference" xml:space="preserve">
+    <value>The path difference: how much farther the probe is from one source than the other, counted in wavelengths. A whole number means crest meets crest, and the waves add up. A half means crest meets trough, and they cancel.</value>
+  </data>
+  <data name="Narr_Waves_Obj_DipperA" xml:space="preserve">
+    <value>Dipper A: a little ball that dips into the water and lifts out again, over and over. Every dip sends out a ring of ripples. Drag it sideways to move the two dippers closer together or farther apart.</value>
+  </data>
+  <data name="Narr_Waves_Obj_DipperB" xml:space="preserve">
+    <value>Dipper B, the twin of A. It dips in the same rhythm, or exactly the opposite way if you choose. Switch it off and there's just one set of plain rings, with no still lines at all.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Heard" xml:space="preserve">
+    <value>What the listener hears right now: the pitch in hertz, and the nearest musical note. Watch it drop as the source goes past.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Laser" xml:space="preserve">
+    <value>The laser. Its light is one pure colour, a single wavelength, and it keeps a steady rhythm. That's why it can make clear stripes. Two ordinary lamps can't, because their light keeps changing its rhythm.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Listener" xml:space="preserve">
+    <value>The listener. They flash each time a ring reaches them, and the label says what pitch they hear right now. Drag them anywhere to hear the pass from somewhere else.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Loud" xml:space="preserve">
+    <value>A line of the biggest waves. All along it, crest arrives with crest and trough with trough, so the two waves add up and the water heaves about twice as high. Nothing is lost on the still lines; it ends up here.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Order" xml:space="preserve">
+    <value>The stripe numbers. Stripe one is where one slit is one wavelength farther away than the other; stripe two, two wavelengths; and so on. The middle stripe is zero, because both slits are equally far.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Probe" xml:space="preserve">
+    <value>The probe. It measures how far it is from each of the two sources, and shows how their waves meet right there. Drag it anywhere to explore.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Quiet" xml:space="preserve">
+    <value>A still line. All along it, the two waves arrive opposite each other, crest with trough, so they cancel and the water hardly moves. The label says how much farther one dipper is than the other.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Screen" xml:space="preserve">
+    <value>The screen, where the light lands. It's bright where the two waves arrive in step and dark where they cancel. The chart on the left-hand page shows the real stripes.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Slits" xml:space="preserve">
+    <value>The slits: narrow cuts in the barrier, only a fraction of a millimetre apart. Each one lets through a little light, which spreads out like the ripples from a dipper.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Source" xml:space="preserve">
+    <value>The source of sound, playing the note A at four hundred and forty hertz. It always plays the same note; what changes is how its waves reach you. Drag it along the road to step through its pass.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Spacing" xml:space="preserve">
+    <value>d is the distance between the two slits. Bring the slits closer together and the stripes on the screen spread farther apart.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Stretched" xml:space="preserve">
+    <value>Behind the moving source, the rings are stretched apart. Fewer of them reach you every second, so you hear a lower pitch.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Tank" xml:space="preserve">
+    <value>A ripple tank: a shallow tray of water seen from above, ten times slower than real. Bright is a crest, dark a trough. Switch on 'How far it swings' to see how much each spot moves instead.</value>
+  </data>
+  <data name="Narr_Waves_Obj_Tape" xml:space="preserve">
+    <value>Tape over the second slit. With just one slit, the light has nothing to overlap with, so the stripes vanish and only a broad glow is left.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_01" xml:space="preserve">
+    <value>This is a ripple tank, a shallow tray of water seen from above and slowed down ten times. Dipper A bobs up and down, and every dip sends out a ring. The bright rings are crests, the dark ones troughs.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_02" xml:space="preserve">
+    <value>Now dipper B switches on. It keeps exactly the same rhythm as A. Watch what happens where its rings run into A's.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_03" xml:space="preserve">
+    <value>It's hard to follow every ripple, so let's look at it another way: how much the water moves at each spot. Bright means it heaves a lot, dark means it hardly moves. Can you see the dark spokes fanning out from between the dippers?</value>
+  </data>
+  <data name="Narr_Waves_Ripple_04" xml:space="preserve">
+    <value>Those dark spokes are the still lines, drawn here as dashed lines. The probe sits on one now. It's half a wavelength farther from one dipper than from the other, so a crest from one always arrives with a trough from the other, and they cancel out.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_05" xml:space="preserve">
+    <value>Now the probe has moved onto a gold line. Here the difference is a whole wavelength, so crest meets crest and trough meets trough. The two waves add up, and the water heaves about twice as high.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_06" xml:space="preserve">
+    <value>Here's a question. Suppose the dippers moved in opposite ways: A goes down just as B comes up. What happens on the middle line, where the two dippers are equally far away?</value>
+  </data>
+  <data name="Narr_Waves_Ripple_07" xml:space="preserve">
+    <value>That's it. With the dippers moving opposite ways, the middle line has gone still, and every still line has swapped places with a gold line. The probe was on a gold line a moment ago. Now it's on a still one.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_08" xml:space="preserve">
+    <value>Back in step, and now the waves are shorter. See how there are more still lines, packed closer together? Moving the dippers farther apart does the same.</value>
+  </data>
+  <data name="Narr_Waves_Ripple_09" xml:space="preserve">
+    <value>Your turn. Drag the probe onto a still line, one of the dashed lines, and see the water go quiet there.</value>
+  </data>
+  <data name="Narr_Waves_Slits_01" xml:space="preserve">
+    <value>Now the same idea with light. A green laser shines on a barrier with two very narrow slits in it. Light waves are tiny, so here they're drawn thousands of times bigger than real.</value>
+  </data>
+  <data name="Narr_Waves_Slits_02" xml:space="preserve">
+    <value>Each slit works just like a dipper in the ripple tank. Light spreads out from it in rings, and the rings from the two slits overlap on their way to the screen.</value>
+  </data>
+  <data name="Narr_Waves_Slits_03" xml:space="preserve">
+    <value>Where the light lands on the screen, you get bright and dark stripes. It's the same pattern as the gold lines and still lines in the water.</value>
+  </data>
+  <data name="Narr_Waves_Slits_04" xml:space="preserve">
+    <value>The probe now sits on the first bright stripe. Its path from one slit is exactly one wavelength longer than from the other, so the two waves arrive in step and add up.</value>
+  </data>
+  <data name="Narr_Waves_Slits_05" xml:space="preserve">
+    <value>Now it's on the dark stripe in between. Here the difference is just half a wavelength. Crest meets trough, and the light cancels out.</value>
+  </data>
+  <data name="Narr_Waves_Slits_06" xml:space="preserve">
+    <value>Think about this. What do you think happens if we cover one of the two slits?</value>
+  </data>
+  <data name="Narr_Waves_Slits_07" xml:space="preserve">
+    <value>Right. With one slit taped over, there's nothing for the light to overlap with, so the stripes vanish and only a broad, soft glow is left. Those dark stripes were made by adding light to light.</value>
+  </data>
+  <data name="Narr_Waves_Slits_08" xml:space="preserve">
+    <value>Both slits open again, now with red light. Red light has longer waves, so you have to go farther to the side before one path is a whole wavelength longer. The stripes spread out.</value>
+  </data>
+  <data name="Narr_Waves_Slits_09" xml:space="preserve">
+    <value>And now white light, which is every colour at once. In the middle, every colour is in step, so the stripe is white. Farther out, each colour's stripes fall in different places, and the edges turn into little rainbows.</value>
+  </data>
+  <data name="Narr_Waves_Slits_10" xml:space="preserve">
+    <value>Your turn. The probe is on the middle stripe. Drag it to another bright stripe, where one path is a whole number of wavelengths longer.</value>
+  </data>
   <data name="Notes_Add" xml:space="preserve">
     <value>Save note</value>
   </data>
@@ -11729,6 +11990,555 @@
   </data>
   <data name="Notes_Title" xml:space="preserve">
     <value>Notes</value>
+  </data>
+  <data name="Osc_Amplitude" xml:space="preserve">
+    <value>Let go at</value>
+  </data>
+  <data name="Osc_ByAmplitude_Caption" xml:space="preserve">
+    <value>Bigger swings take longer</value>
+  </data>
+  <data name="Osc_ByAmplitude_Note" xml:space="preserve">
+    <value>How much longer than the formula a swing really takes. Under about 15° the formula is right to half a percent: that is why pendulum clocks swing only a little.</value>
+  </data>
+  <data name="Osc_ByLength_Caption" xml:space="preserve">
+    <value>Period by length</value>
+  </data>
+  <data name="Osc_ByLength_Note" xml:space="preserve">
+    <value>The small-swing formula 2π√(L/g) for each place: four times the length, twice the period. The dot is this pendulum, at its real swing.</value>
+  </data>
+  <data name="Osc_Chart_OwnFrequency" xml:space="preserve">
+    <value>own frequency</value>
+  </data>
+  <data name="Osc_Chart_SmallSwings" xml:space="preserve">
+    <value>small swings</value>
+  </data>
+  <data name="Osc_Chart_SwingsPerCycle" xml:space="preserve">
+    <value>swings in one cycle</value>
+  </data>
+  <data name="Osc_Clock_Period" xml:space="preserve">
+    <value>Period {0}</value>
+  </data>
+  <data name="Osc_Clock_Wave" xml:space="preserve">
+    <value>{0} s of {1} s</value>
+  </data>
+  <data name="Osc_Diagram_Circle" xml:space="preserve">
+    <value>goes round once a period</value>
+  </data>
+  <data name="Osc_Diagram_Equilibrium" xml:space="preserve">
+    <value>rest</value>
+  </data>
+  <data name="Osc_Diagram_Formula" xml:space="preserve">
+    <value>formula</value>
+  </data>
+  <data name="Osc_Diagram_Motor" xml:space="preserve">
+    <value>motor</value>
+  </data>
+  <data name="Osc_Diagram_Net" xml:space="preserve">
+    <value>net force</value>
+  </data>
+  <data name="Osc_Diagram_Paper" xml:space="preserve">
+    <value>The pen follows the bob; the paper runs down</value>
+  </data>
+  <data name="Osc_Diagram_PaperSpring" xml:space="preserve">
+    <value>Pen on the mass; the paper runs left</value>
+  </data>
+  <data name="Osc_Diagram_PlaceBadge" xml:space="preserve">
+    <value>{0} · g = {1} m/s²</value>
+  </data>
+  <data name="Osc_Diagram_PullBack" xml:space="preserve">
+    <value>pull back</value>
+  </data>
+  <data name="Osc_Diagram_SpringForce" xml:space="preserve">
+    <value>spring</value>
+  </data>
+  <data name="Osc_Diagram_TimeDown" xml:space="preserve">
+    <value>earlier ↓</value>
+  </data>
+  <data name="Osc_Diagram_TopView" xml:space="preserve">
+    <value>Seen from above</value>
+  </data>
+  <data name="Osc_Diagram_TowardYou" xml:space="preserve">
+    <value>↓ toward you</value>
+  </data>
+  <data name="Osc_Diagram_Unstretched" xml:space="preserve">
+    <value>spring's own length</value>
+  </data>
+  <data name="Osc_Diagram_Velocity" xml:space="preserve">
+    <value>velocity</value>
+  </data>
+  <data name="Osc_Diagram_Weight" xml:space="preserve">
+    <value>weight</value>
+  </data>
+  <data name="Osc_DragHint_Pendulum" xml:space="preserve">
+    <value>Drag the bob aside and let go</value>
+  </data>
+  <data name="Osc_DragHint_Spring" xml:space="preserve">
+    <value>Drag the mass up or down and let go</value>
+  </data>
+  <data name="Osc_DragHint_Wave" xml:space="preserve">
+    <value>Drag the timeline, or jump to a pattern</value>
+  </data>
+  <data name="Osc_Drive" xml:space="preserve">
+    <value>Motor frequency</value>
+  </data>
+  <data name="Osc_Drive_Own" xml:space="preserve">
+    <value>Its own frequency</value>
+  </data>
+  <data name="Osc_Energy_Caption" xml:space="preserve">
+    <value>Where the energy is</value>
+  </data>
+  <data name="Osc_Energy_Height" xml:space="preserve">
+    <value>Stored in height</value>
+  </data>
+  <data name="Osc_Energy_Kinetic" xml:space="preserve">
+    <value>Moving (kinetic)</value>
+  </data>
+  <data name="Osc_Energy_Lost" xml:space="preserve">
+    <value>Lost to friction and air</value>
+  </data>
+  <data name="Osc_Energy_Note" xml:space="preserve">
+    <value>As shares of the energy it was let go with. Moving and stored trade places twice every period; with air resistance or damping on, the lost share grows.</value>
+  </data>
+  <data name="Osc_Energy_Spring" xml:space="preserve">
+    <value>Stored in spring and height</value>
+  </data>
+  <data name="Osc_Facts" xml:space="preserve">
+    <value>Did you know?</value>
+  </data>
+  <data name="Osc_JumpTo" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Osc_Jump_InLine" xml:space="preserve">
+    <value>In line</value>
+  </data>
+  <data name="Osc_Jump_Rows2" xml:space="preserve">
+    <value>2 rows</value>
+  </data>
+  <data name="Osc_Jump_Rows3" xml:space="preserve">
+    <value>3 rows</value>
+  </data>
+  <data name="Osc_Jump_Rows4" xml:space="preserve">
+    <value>4 rows</value>
+  </data>
+  <data name="Osc_Jump_Rows5" xml:space="preserve">
+    <value>5 rows</value>
+  </data>
+  <data name="Osc_Jump_Snake" xml:space="preserve">
+    <value>Snake</value>
+  </data>
+  <data name="Osc_Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Osc_Length_Long" xml:space="preserve">
+    <value>2 m</value>
+  </data>
+  <data name="Osc_Length_Seconds" xml:space="preserve">
+    <value>Seconds pendulum 99.4 cm</value>
+  </data>
+  <data name="Osc_Length_Short" xml:space="preserve">
+    <value>25 cm</value>
+  </data>
+  <data name="Osc_Lesson_Pendulum_Choice1" xml:space="preserve">
+    <value>It would double</value>
+  </data>
+  <data name="Osc_Lesson_Pendulum_Choice2" xml:space="preserve">
+    <value>It would be four times as long</value>
+  </data>
+  <data name="Osc_Lesson_Pendulum_Choice3" xml:space="preserve">
+    <value>It would stay the same</value>
+  </data>
+  <data name="Osc_Lesson_Spring_Choice1" xml:space="preserve">
+    <value>It bounces more slowly</value>
+  </data>
+  <data name="Osc_Lesson_Spring_Choice2" xml:space="preserve">
+    <value>It bounces faster</value>
+  </data>
+  <data name="Osc_Lesson_Spring_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Osc_Lesson_Wave_Choice1" xml:space="preserve">
+    <value>They all line up again</value>
+  </data>
+  <data name="Osc_Lesson_Wave_Choice2" xml:space="preserve">
+    <value>They stay jumbled</value>
+  </data>
+  <data name="Osc_Lesson_Wave_Choice3" xml:space="preserve">
+    <value>They stop swinging</value>
+  </data>
+  <data name="Osc_Mass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="Osc_Mode_Pendulum" xml:space="preserve">
+    <value>Pendulum</value>
+  </data>
+  <data name="Osc_Mode_Spring" xml:space="preserve">
+    <value>Spring</value>
+  </data>
+  <data name="Osc_Mode_Wave" xml:space="preserve">
+    <value>Pendulum wave</value>
+  </data>
+  <data name="Osc_Obj_Angle" xml:space="preserve">
+    <value>How far it swings</value>
+  </data>
+  <data name="Osc_Obj_Bob" xml:space="preserve">
+    <value>The bob</value>
+  </data>
+  <data name="Osc_Obj_Circle" xml:space="preserve">
+    <value>The circle</value>
+  </data>
+  <data name="Osc_Obj_Formula" xml:space="preserve">
+    <value>The formula pendulum</value>
+  </data>
+  <data name="Osc_Obj_Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Osc_Obj_Longest" xml:space="preserve">
+    <value>The longest pendulum</value>
+  </data>
+  <data name="Osc_Obj_Mass" xml:space="preserve">
+    <value>The mass</value>
+  </data>
+  <data name="Osc_Obj_Motor" xml:space="preserve">
+    <value>The motor</value>
+  </data>
+  <data name="Osc_Obj_Paper" xml:space="preserve">
+    <value>The paper record</value>
+  </data>
+  <data name="Osc_Obj_Place" xml:space="preserve">
+    <value>Where and how strong gravity is</value>
+  </data>
+  <data name="Osc_Obj_Rest" xml:space="preserve">
+    <value>Where it rests</value>
+  </data>
+  <data name="Osc_Obj_Shortest" xml:space="preserve">
+    <value>The shortest pendulum</value>
+  </data>
+  <data name="Osc_Obj_Spring" xml:space="preserve">
+    <value>The spring</value>
+  </data>
+  <data name="Osc_Obj_Stretch" xml:space="preserve">
+    <value>How far it stretches</value>
+  </data>
+  <data name="Osc_Obj_TopView" xml:space="preserve">
+    <value>Seen from above</value>
+  </data>
+  <data name="Osc_Obj_Unstretched" xml:space="preserve">
+    <value>The spring's own length</value>
+  </data>
+  <data name="Osc_Option_AirDrag" xml:space="preserve">
+    <value>Air resistance</value>
+  </data>
+  <data name="Osc_Option_Damping" xml:space="preserve">
+    <value>Damping</value>
+  </data>
+  <data name="Osc_Option_Forces" xml:space="preserve">
+    <value>Forces</value>
+  </data>
+  <data name="Osc_Option_Formula" xml:space="preserve">
+    <value>Formula twin</value>
+  </data>
+  <data name="Osc_Option_Shake" xml:space="preserve">
+    <value>Shake the top</value>
+  </data>
+  <data name="Osc_Pendulum_Fact1" xml:space="preserve">
+    <value>Galileo is said to have timed a swinging lamp in Pisa cathedral against his pulse, and found big and small swings took the same time. For small swings he was nearly right.</value>
+  </data>
+  <data name="Osc_Pendulum_Fact2" xml:space="preserve">
+    <value>Christiaan Huygens built the first pendulum clock in 1656. The best clocks went from losing about a quarter of an hour a day to about 15 seconds.</value>
+  </data>
+  <data name="Osc_Pendulum_Fact3" xml:space="preserve">
+    <value>The bob's mass does not matter: a heavy and a light bob on the same length swing in step. Gravity pulls the heavy one harder, but it is just as much harder to move.</value>
+  </data>
+  <data name="Osc_Pendulum_Fact4" xml:space="preserve">
+    <value>In 1672 Jean Richer took a pendulum clock to Cayenne, near the equator, and it lost about 2½ minutes a day: gravity there is a little weaker than in Paris.</value>
+  </data>
+  <data name="Osc_Pendulum_Fact5" xml:space="preserve">
+    <value>Foucault's pendulum, 67 m long in the Panthéon in Paris (1851), slowly turns its swing round: really the Earth is turning beneath it, once in about 32 hours at Paris.</value>
+  </data>
+  <data name="Osc_Pendulum_Note" xml:space="preserve">
+    <value>A small bob on a light rod, in real time unless slowed. The pen under it draws its sideways position on paper running down; the green marks time each whole swing.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Falling_Description" xml:space="preserve">
+    <value>Gravity pulls it back toward the middle, and it speeds up as it drops: height turning into speed.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Falling_Title" xml:space="preserve">
+    <value>Swinging down</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Held_Description" xml:space="preserve">
+    <value>Let go and it swings from here: the angle sets how far it swings, but hardly how long a swing takes.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Held_Title" xml:space="preserve">
+    <value>Held aside</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Middle_Description" xml:space="preserve">
+    <value>Fastest here. Gravity no longer pulls it along its path, so it carries on by itself, past the middle and up the other side.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Middle_Title" xml:space="preserve">
+    <value>Through the bottom</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Resting_Description" xml:space="preserve">
+    <value>The air has taken nearly all its energy, as heat. Without the air it would swing on for ever.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Resting_Title" xml:space="preserve">
+    <value>Coming to rest</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Rising_Description" xml:space="preserve">
+    <value>Moving away from the middle it climbs and slows: speed turning back into height. Gravity pulls against it, harder the farther out it goes.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Rising_Title" xml:space="preserve">
+    <value>Swinging up</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Turning_Description" xml:space="preserve">
+    <value>For a moment the bob stops. All its energy is stored in its height, and the part of its weight along its path pulls it back hardest here.</value>
+  </data>
+  <data name="Osc_Pendulum_Stage_Turning_Title" xml:space="preserve">
+    <value>At the end of the swing</value>
+  </data>
+  <data name="Osc_Pendulum_Subtitle" xml:space="preserve">
+    <value>A longer pendulum swings more slowly; weaker gravity, slower still</value>
+  </data>
+  <data name="Osc_Place_Caption" xml:space="preserve">
+    <value>Where</value>
+  </data>
+  <data name="Osc_Place_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Osc_Place_Jupiter" xml:space="preserve">
+    <value>Jupiter</value>
+  </data>
+  <data name="Osc_Place_Mars" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="Osc_Place_Moon" xml:space="preserve">
+    <value>Moon</value>
+  </data>
+  <data name="Osc_PlayPause" xml:space="preserve">
+    <value>Play / pause</value>
+  </data>
+  <data name="Osc_Pull" xml:space="preserve">
+    <value>Pull</value>
+  </data>
+  <data name="Osc_Release" xml:space="preserve">
+    <value>Let go again</value>
+  </data>
+  <data name="Osc_Resonance_Caption" xml:space="preserve">
+    <value>How far it swings when shaken</value>
+  </data>
+  <data name="Osc_Resonance_Note" xml:space="preserve">
+    <value>The steady swing as a multiple of the shake, by the motor's frequency (log scale). Near the spring's own frequency every shake adds to the swing: resonance. Damping keeps the peak in check.</value>
+  </data>
+  <data name="Osc_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Osc_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Osc_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Osc_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Osc_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
+  <data name="Osc_Spring_Fact1" xml:space="preserve">
+    <value>Robert Hooke published his law in 1676 as an anagram, ceiiinosssttuv: ut tensio, sic vis, "as the stretch, so the force".</value>
+  </data>
+  <data name="Osc_Spring_Fact2" xml:space="preserve">
+    <value>Pull it twice as far and the spring pulls back twice as hard, so the mass also goes twice as fast: every bounce takes the same time, big or small.</value>
+  </data>
+  <data name="Osc_Spring_Fact3" xml:space="preserve">
+    <value>Gravity only moves the rest point, not the period. Astronauts on the space station weigh themselves on a chair on springs: their mass comes from how fast it bounces.</value>
+  </data>
+  <data name="Osc_Spring_Fact4" xml:space="preserve">
+    <value>London's Millennium Bridge swayed when it opened in 2000: walkers fell into step with its sway and pushed it at its own frequency. It closed after two days and got dampers.</value>
+  </data>
+  <data name="Osc_Spring_Fact5" xml:space="preserve">
+    <value>A quartz watch keeps time with a tiny tuning fork of quartz vibrating 32,768 times a second; a car's shock absorbers do the opposite, damping the bounce of its springs.</value>
+  </data>
+  <data name="Osc_Spring_Note" xml:space="preserve">
+    <value>An ideal spring with no mass of its own. Drawn to scale (see the 10 cm bar); the scale changes with the mass, the stiffness and the place so that the spring fits.</value>
+  </data>
+  <data name="Osc_Spring_Stage_Falling_Description" xml:space="preserve">
+    <value>The pull back toward the middle speeds it up, but grows weaker as it gets closer.</value>
+  </data>
+  <data name="Osc_Spring_Stage_Falling_Title" xml:space="preserve">
+    <value>Heading back to the middle</value>
+  </data>
+  <data name="Osc_Spring_Stage_Held_Description" xml:space="preserve">
+    <value>Let go and it bounces about the rest line, as far either side as you pulled it. However far, each bounce takes the same time.</value>
+  </data>
+  <data name="Osc_Spring_Stage_Held_Title" xml:space="preserve">
+    <value>Pulled aside</value>
+  </data>
+  <data name="Osc_Spring_Stage_Middle_Description" xml:space="preserve">
+    <value>Spring and weight balance here: no net force, and the mass at its fastest. It shoots past, and the spring starts to pull it back.</value>
+  </data>
+  <data name="Osc_Spring_Stage_Middle_Title" xml:space="preserve">
+    <value>Through the middle</value>
+  </data>
+  <data name="Osc_Spring_Stage_Resting_Description" xml:space="preserve">
+    <value>The bouncing has died away. It hangs where the spring's pull matches its weight, mg/k below the spring's own length.</value>
+  </data>
+  <data name="Osc_Spring_Stage_Resting_Title" xml:space="preserve">
+    <value>At rest</value>
+  </data>
+  <data name="Osc_Spring_Stage_Rising_Description" xml:space="preserve">
+    <value>The farther it goes, the harder it is pulled back, so it slows down: its speed going into the spring (and its height).</value>
+  </data>
+  <data name="Osc_Spring_Stage_Rising_Title" xml:space="preserve">
+    <value>Moving out</value>
+  </data>
+  <data name="Osc_Spring_Stage_Turning_Description" xml:space="preserve">
+    <value>The mass stops for a moment. The spring and gravity together pull it back hardest here, and all the energy is stored.</value>
+  </data>
+  <data name="Osc_Spring_Stage_Turning_Title" xml:space="preserve">
+    <value>At the top or bottom</value>
+  </data>
+  <data name="Osc_Spring_Subtitle" xml:space="preserve">
+    <value>A heavier mass bounces more slowly, a stiffer spring faster, and gravity makes no difference</value>
+  </data>
+  <data name="Osc_Stat_Amplitude" xml:space="preserve">
+    <value>Let go at</value>
+  </data>
+  <data name="Osc_Stat_Cycle" xml:space="preserve">
+    <value>Back in line every</value>
+  </data>
+  <data name="Osc_Stat_Cycle_Value" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Osc_Stat_Drive" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="Osc_Stat_Formula" xml:space="preserve">
+    <value>Formula 2π√(L/g)</value>
+  </data>
+  <data name="Osc_Stat_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Osc_Stat_Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Osc_Stat_Longer" xml:space="preserve">
+    <value>Longer than the formula</value>
+  </data>
+  <data name="Osc_Stat_Longer_Value" xml:space="preserve">
+    <value>+{0}%</value>
+  </data>
+  <data name="Osc_Stat_Longest" xml:space="preserve">
+    <value>Longest</value>
+  </data>
+  <data name="Osc_Stat_Mass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="Osc_Stat_Measured" xml:space="preserve">
+    <value>Timed on the paper</value>
+  </data>
+  <data name="Osc_Stat_Measured_Waiting" xml:space="preserve">
+    <value>after one whole swing…</value>
+  </data>
+  <data name="Osc_Stat_Neighbours" xml:space="preserve">
+    <value>Neighbours apart</value>
+  </data>
+  <data name="Osc_Stat_Neighbours_Value" xml:space="preserve">
+    <value>{0}° (a whole swing is 360°)</value>
+  </data>
+  <data name="Osc_Stat_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Osc_Stat_PeriodExact" xml:space="preserve">
+    <value>Period (exact)</value>
+  </data>
+  <data name="Osc_Stat_Place" xml:space="preserve">
+    <value>Where</value>
+  </data>
+  <data name="Osc_Stat_Place_Value" xml:space="preserve">
+    <value>{0} · g = {1} m/s²</value>
+  </data>
+  <data name="Osc_Stat_Response" xml:space="preserve">
+    <value>Steady swing</value>
+  </data>
+  <data name="Osc_Stat_Response_Value" xml:space="preserve">
+    <value>{0} × the shake</value>
+  </data>
+  <data name="Osc_Stat_Shortest" xml:space="preserve">
+    <value>Shortest</value>
+  </data>
+  <data name="Osc_Stat_Stiffness" xml:space="preserve">
+    <value>Stiffness k</value>
+  </data>
+  <data name="Osc_Stat_Stretch" xml:space="preserve">
+    <value>Stretch at rest (mg/k)</value>
+  </data>
+  <data name="Osc_Stat_Swings" xml:space="preserve">
+    <value>Swings in one cycle</value>
+  </data>
+  <data name="Osc_Stat_Swings_Value" xml:space="preserve">
+    <value>{0} to {1}</value>
+  </data>
+  <data name="Osc_Stat_TopSpeed" xml:space="preserve">
+    <value>Speed at the bottom</value>
+  </data>
+  <data name="Osc_Stiffness" xml:space="preserve">
+    <value>Stiffness k</value>
+  </data>
+  <data name="Osc_Timeline" xml:space="preserve">
+    <value>Time through the cycle</value>
+  </data>
+  <data name="Osc_Title" xml:space="preserve">
+    <value>Pendulum and spring</value>
+  </data>
+  <data name="Osc_WaveChart_Caption" xml:space="preserve">
+    <value>The fifteen pendulums</value>
+  </data>
+  <data name="Osc_WaveChart_Note" xml:space="preserve">
+    <value>To scale, hanging from the bar, with how many swings each makes in one cycle; above, the longest and the shortest with their periods here.</value>
+  </data>
+  <data name="Osc_Wave_Fact1" xml:space="preserve">
+    <value>Nothing connects the pendulums. Every pattern comes only from each making one swing more per cycle than its longer neighbour.</value>
+  </data>
+  <data name="Osc_Wave_Fact2" xml:space="preserve">
+    <value>After t seconds neighbours are t/60 of a swing apart. At half the cycle that is half a swing, so they alternate: two rows.</value>
+  </data>
+  <data name="Osc_Wave_Fact3" xml:space="preserve">
+    <value>The lengths must be right to well under a millimetre: a millimetre too long and a pendulum ends the cycle about a tenth of a swing behind.</value>
+  </data>
+  <data name="Osc_Wave_Fact4" xml:space="preserve">
+    <value>On the Moon the same frame takes about 2½ minutes to come back into line instead of one: every pendulum swings 2.46 times slower.</value>
+  </data>
+  <data name="Osc_Wave_Fact5" xml:space="preserve">
+    <value>Real ones slowly lose their swing to the air, and the longer and shorter ones lose it at different rates, so the patterns blur after a few cycles.</value>
+  </data>
+  <data name="Osc_Wave_Note" xml:space="preserve">
+    <value>Fifteen pendulums from 34 cm down to 21 cm, made so that in 60 seconds on Earth they make 51, 52 … 65 swings. Swings of 18°, with no air.</value>
+  </data>
+  <data name="Osc_Wave_Pattern_InLine_Description" xml:space="preserve">
+    <value>All fifteen swing together, as when they were let go. But each swings a little faster than its longer neighbour, so they soon drift apart.</value>
+  </data>
+  <data name="Osc_Wave_Pattern_InLine_Title" xml:space="preserve">
+    <value>All in line</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Mixed_Description" xml:space="preserve">
+    <value>No pattern to see, yet nothing is random: every pendulum keeps its own steady beat. Keep watching and the rows come back.</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Mixed_Title" xml:space="preserve">
+    <value>Looks random</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Rows_Description" xml:space="preserve">
+    <value>Each pendulum is now {0} of a swing ahead of its longer neighbour, so pendulums {1} apart are back in step: they fall into {1} groups that swing one after another.</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Rows_Title" xml:space="preserve">
+    <value>{0} rows</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Snake_Description" xml:space="preserve">
+    <value>Each pendulum is a little ahead of its longer neighbour, so the row winds like a snake. As time goes on they drift further apart and the waves get shorter.</value>
+  </data>
+  <data name="Osc_Wave_Pattern_Snake_Title" xml:space="preserve">
+    <value>A snake</value>
+  </data>
+  <data name="Osc_Wave_Subtitle" xml:space="preserve">
+    <value>Fifteen pendulums, each a little shorter, fall in and out of step</value>
   </data>
   <data name="Page_Caption" xml:space="preserve">
     <value>Page {0}</value>
@@ -20405,6 +21215,633 @@
   </data>
   <data name="Water_Warming_Today" xml:space="preserve">
     <value>Today</value>
+  </data>
+  <data name="Waves_Chart_Ahead" xml:space="preserve">
+    <value>straight ahead</value>
+  </data>
+  <data name="Waves_Chart_Bang" xml:space="preserve">
+    <value>bang</value>
+  </data>
+  <data name="Waves_Chart_Behind" xml:space="preserve">
+    <value>straight behind</value>
+  </data>
+  <data name="Waves_Chart_Hz" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="Waves_Chart_Mach" xml:space="preserve">
+    <value>Mach</value>
+  </data>
+  <data name="Waves_Chart_Millimetres" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Waves_Chart_Now" xml:space="preserve">
+    <value>now</value>
+  </data>
+  <data name="Waves_Chart_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Waves_Chart_Silence" xml:space="preserve">
+    <value>silence</value>
+  </data>
+  <data name="Waves_Chart_Spacing" xml:space="preserve">
+    <value>Δy = {0} mm</value>
+  </data>
+  <data name="Waves_Chart_Supersonic" xml:space="preserve">
+    <value>faster than sound</value>
+  </data>
+  <data name="Waves_Clock_Doppler" xml:space="preserve">
+    <value>{0} / {1} s</value>
+  </data>
+  <data name="Waves_Clock_Ripple" xml:space="preserve">
+    <value>{0} Hz · {1}× slower</value>
+  </data>
+  <data name="Waves_Clock_Slits" xml:space="preserve">
+    <value>{0} THz · ~{1} trillion× slower</value>
+  </data>
+  <data name="Waves_Colour_Blue" xml:space="preserve">
+    <value>blue</value>
+  </data>
+  <data name="Waves_Colour_Cyan" xml:space="preserve">
+    <value>cyan</value>
+  </data>
+  <data name="Waves_Colour_Green" xml:space="preserve">
+    <value>green</value>
+  </data>
+  <data name="Waves_Colour_Orange" xml:space="preserve">
+    <value>orange</value>
+  </data>
+  <data name="Waves_Colour_Red" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="Waves_Colour_Violet" xml:space="preserve">
+    <value>violet</value>
+  </data>
+  <data name="Waves_Colour_White" xml:space="preserve">
+    <value>white (all colours)</value>
+  </data>
+  <data name="Waves_Colour_Yellow" xml:space="preserve">
+    <value>yellow</value>
+  </data>
+  <data name="Waves_Diagram_Boom" xml:space="preserve">
+    <value>BOOM! Sonic boom</value>
+  </data>
+  <data name="Waves_Diagram_Bunched" xml:space="preserve">
+    <value>bunched up → higher</value>
+  </data>
+  <data name="Waves_Diagram_Centimetres" xml:space="preserve">
+    <value>{0} cm</value>
+  </data>
+  <data name="Waves_Diagram_Cone" xml:space="preserve">
+    <value>Mach cone · half-angle {0}°</value>
+  </data>
+  <data name="Waves_Diagram_Difference" xml:space="preserve">
+    <value>Δ = {0} λ</value>
+  </data>
+  <data name="Waves_Diagram_Hears" xml:space="preserve">
+    <value>Hears {0} Hz · {1}</value>
+  </data>
+  <data name="Waves_Diagram_HearsTwo" xml:space="preserve">
+    <value>Hears {0} Hz and {1} Hz at once</value>
+  </data>
+  <data name="Waves_Diagram_Lamp" xml:space="preserve">
+    <value>White light</value>
+  </data>
+  <data name="Waves_Diagram_Laser" xml:space="preserve">
+    <value>Laser</value>
+  </data>
+  <data name="Waves_Diagram_Metres" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Waves_Diagram_Off" xml:space="preserve">
+    <value>{0} (off)</value>
+  </data>
+  <data name="Waves_Diagram_OneSlit" xml:space="preserve">
+    <value>One slit (the other covered)</value>
+  </data>
+  <data name="Waves_Diagram_Screen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Waves_Diagram_Silent" xml:space="preserve">
+    <value>Hears nothing yet</value>
+  </data>
+  <data name="Waves_Diagram_Source" xml:space="preserve">
+    <value>Source · {0} Hz</value>
+  </data>
+  <data name="Waves_Diagram_Stretched" xml:space="preserve">
+    <value>lower ← stretched out</value>
+  </data>
+  <data name="Waves_Diagram_Tank" xml:space="preserve">
+    <value>Ripple tank, from above</value>
+  </data>
+  <data name="Waves_Diagram_TankSwing" xml:space="preserve">
+    <value>How far the water rises and falls: bright a lot, dark not at all</value>
+  </data>
+  <data name="Waves_Diagram_TwoSlits" xml:space="preserve">
+    <value>Two slits</value>
+  </data>
+  <data name="Waves_Doppler_Approaching_Description" xml:space="preserve">
+    <value>The source chases the waves it sent ahead and bunches them up, so more of them reach you each second: you hear {0} Hz, higher than its own 440 Hz.</value>
+  </data>
+  <data name="Waves_Doppler_Approaching_Title" xml:space="preserve">
+    <value>Coming closer: higher</value>
+  </data>
+  <data name="Waves_Doppler_Boom_Description" xml:space="preserve">
+    <value>The cone sweeps over you: waves sent out over a long stretch of the way pile up on its edge and arrive all at once, as one loud bang.</value>
+  </data>
+  <data name="Waves_Doppler_Boom_Title" xml:space="preserve">
+    <value>Sonic boom!</value>
+  </data>
+  <data name="Waves_Doppler_Fact1" xml:space="preserve">
+    <value>Christian Doppler predicted it in 1842. In 1845 Buys Ballot tested it with trumpeters on a moving train and musicians on the platform naming the notes.</value>
+  </data>
+  <data name="Waves_Doppler_Fact2" xml:space="preserve">
+    <value>A car passing at about 120 km/h drops by about three and a half semitones, from about 489 Hz to 400 Hz for a 440 Hz horn: the familiar 'neee-owww'.</value>
+  </data>
+  <data name="Waves_Doppler_Fact3" xml:space="preserve">
+    <value>Police radar, weather radar and ultrasound scans of blood flow all measure speed from the Doppler shift of the waves bounced back.</value>
+  </data>
+  <data name="Waves_Doppler_Fact4" xml:space="preserve">
+    <value>Light does it too: the light of distant galaxies is shifted to red because they are moving away from us. This is how we know the universe is expanding.</value>
+  </data>
+  <data name="Waves_Doppler_Fact5" xml:space="preserve">
+    <value>A supersonic plane drags its boom along the whole way, not just once: everyone it flies over hears the bang. A whip's crack is a tiny sonic boom from its tip.</value>
+  </data>
+  <data name="Waves_Doppler_Note" xml:space="preserve">
+    <value>A road seen from above, 5× slower than real. Each ring stands for every 22nd wave the source sends out, one each 1/20 s.</value>
+  </data>
+  <data name="Waves_Doppler_Passing_Description" xml:space="preserve">
+    <value>What reaches you now was sent out as the source went past you, neither coming nor going: you hear {0} Hz, near its own pitch, and falling fast.</value>
+  </data>
+  <data name="Waves_Doppler_Passing_Title" xml:space="preserve">
+    <value>Going past</value>
+  </data>
+  <data name="Waves_Doppler_Receding_Description" xml:space="preserve">
+    <value>The source runs away from the waves it sends back and stretches them out, so fewer reach you each second: you hear {0} Hz, lower than 440 Hz.</value>
+  </data>
+  <data name="Waves_Doppler_Receding_Title" xml:space="preserve">
+    <value>Going away: lower</value>
+  </data>
+  <data name="Waves_Doppler_Silent_Description" xml:space="preserve">
+    <value>The source outruns its own sound. It may already be close, but you hear nothing until the cone behind it sweeps over you.</value>
+  </data>
+  <data name="Waves_Doppler_Silent_Title" xml:space="preserve">
+    <value>Nothing yet</value>
+  </data>
+  <data name="Waves_Doppler_Still_Description" xml:space="preserve">
+    <value>The rings are circles round it, as close together on every side: everyone hears its own 440 Hz.</value>
+  </data>
+  <data name="Waves_Doppler_Still_Title" xml:space="preserve">
+    <value>The source stands still</value>
+  </data>
+  <data name="Waves_Doppler_Subtitle" xml:space="preserve">
+    <value>Coming closer it sounds higher, going away lower</value>
+  </data>
+  <data name="Waves_Doppler_Two_Description" xml:space="preserve">
+    <value>After the bang you hear both the sound it made going away and the sound it made coming, and that one arrives backwards: its last part first.</value>
+  </data>
+  <data name="Waves_Doppler_Two_Title" xml:space="preserve">
+    <value>Two sounds at once</value>
+  </data>
+  <data name="Waves_DragHint_Doppler" xml:space="preserve">
+    <value>Drag the listener to hear the pass from somewhere else.</value>
+  </data>
+  <data name="Waves_DragHint_Ripple" xml:space="preserve">
+    <value>Drag the probe across the water to see how the two waves meet there.</value>
+  </data>
+  <data name="Waves_DragHint_Slits" xml:space="preserve">
+    <value>Drag the probe (right of the slits) to see how much farther it is from one slit than the other.</value>
+  </data>
+  <data name="Waves_Facts" xml:space="preserve">
+    <value>Did you know?</value>
+  </data>
+  <data name="Waves_Lesson_Doppler_Choice1" xml:space="preserve">
+    <value>High, then lower</value>
+  </data>
+  <data name="Waves_Lesson_Doppler_Choice2" xml:space="preserve">
+    <value>Low, then higher</value>
+  </data>
+  <data name="Waves_Lesson_Doppler_Choice3" xml:space="preserve">
+    <value>The same note all the way</value>
+  </data>
+  <data name="Waves_Lesson_Ripple_Choice1" xml:space="preserve">
+    <value>The water there goes still</value>
+  </data>
+  <data name="Waves_Lesson_Ripple_Choice2" xml:space="preserve">
+    <value>It heaves twice as high</value>
+  </data>
+  <data name="Waves_Lesson_Ripple_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Waves_Lesson_Slits_Choice1" xml:space="preserve">
+    <value>The stripes disappear</value>
+  </data>
+  <data name="Waves_Lesson_Slits_Choice2" xml:space="preserve">
+    <value>The stripes get brighter</value>
+  </data>
+  <data name="Waves_Lesson_Slits_Choice3" xml:space="preserve">
+    <value>Half of the stripes are left</value>
+  </data>
+  <data name="Waves_LightWavelength" xml:space="preserve">
+    <value>Wavelength of the light</value>
+  </data>
+  <data name="Waves_Light_Caption" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Waves_Light_Green" xml:space="preserve">
+    <value>Green laser 532 nm</value>
+  </data>
+  <data name="Waves_Light_Red" xml:space="preserve">
+    <value>Red laser 650 nm</value>
+  </data>
+  <data name="Waves_Light_Violet" xml:space="preserve">
+    <value>Violet laser 405 nm</value>
+  </data>
+  <data name="Waves_Mach" xml:space="preserve">
+    <value>Speed of the source</value>
+  </data>
+  <data name="Waves_MachChart_Caption" xml:space="preserve">
+    <value>Pitch straight ahead and straight behind</value>
+  </data>
+  <data name="Waves_MachChart_Note" xml:space="preserve">
+    <value>Ahead the pitch climbs without limit as the source nears the speed of sound; behind it only falls to a third even at twice the speed of sound.</value>
+  </data>
+  <data name="Waves_Mach_Airliner" xml:space="preserve">
+    <value>Airliner 0.8</value>
+  </data>
+  <data name="Waves_Mach_Car" xml:space="preserve">
+    <value>Car 0.1</value>
+  </data>
+  <data name="Waves_Mach_Concorde" xml:space="preserve">
+    <value>Concorde 2</value>
+  </data>
+  <data name="Waves_Mach_Racing" xml:space="preserve">
+    <value>Racing car 0.26</value>
+  </data>
+  <data name="Waves_Mach_Sound" xml:space="preserve">
+    <value>Speed of sound</value>
+  </data>
+  <data name="Waves_Mach_Still" xml:space="preserve">
+    <value>Standing still</value>
+  </data>
+  <data name="Waves_Mach_Value" xml:space="preserve">
+    <value>Mach {0} · {1} m/s · {2} km/h</value>
+  </data>
+  <data name="Waves_Mode_Doppler" xml:space="preserve">
+    <value>Doppler effect</value>
+  </data>
+  <data name="Waves_Mode_Ripple" xml:space="preserve">
+    <value>Ripple tank</value>
+  </data>
+  <data name="Waves_Mode_Slits" xml:space="preserve">
+    <value>Two slits</value>
+  </data>
+  <data name="Waves_Obj_Bunched" xml:space="preserve">
+    <value>Waves bunched up ahead</value>
+  </data>
+  <data name="Waves_Obj_Cone" xml:space="preserve">
+    <value>Mach cone</value>
+  </data>
+  <data name="Waves_Obj_Difference" xml:space="preserve">
+    <value>Path difference</value>
+  </data>
+  <data name="Waves_Obj_DipperA" xml:space="preserve">
+    <value>Dipper A</value>
+  </data>
+  <data name="Waves_Obj_DipperB" xml:space="preserve">
+    <value>Dipper B</value>
+  </data>
+  <data name="Waves_Obj_Heard" xml:space="preserve">
+    <value>What the listener hears</value>
+  </data>
+  <data name="Waves_Obj_Laser" xml:space="preserve">
+    <value>Laser</value>
+  </data>
+  <data name="Waves_Obj_Listener" xml:space="preserve">
+    <value>Listener</value>
+  </data>
+  <data name="Waves_Obj_Loud" xml:space="preserve">
+    <value>Line of the biggest waves</value>
+  </data>
+  <data name="Waves_Obj_Order" xml:space="preserve">
+    <value>Stripe number</value>
+  </data>
+  <data name="Waves_Obj_Probe" xml:space="preserve">
+    <value>Probe</value>
+  </data>
+  <data name="Waves_Obj_Quiet" xml:space="preserve">
+    <value>Still line</value>
+  </data>
+  <data name="Waves_Obj_Screen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Waves_Obj_Slits" xml:space="preserve">
+    <value>Slits</value>
+  </data>
+  <data name="Waves_Obj_Source" xml:space="preserve">
+    <value>Source of sound</value>
+  </data>
+  <data name="Waves_Obj_Spacing" xml:space="preserve">
+    <value>Slit spacing d</value>
+  </data>
+  <data name="Waves_Obj_Stretched" xml:space="preserve">
+    <value>Waves stretched out behind</value>
+  </data>
+  <data name="Waves_Obj_Tank" xml:space="preserve">
+    <value>Ripple tank</value>
+  </data>
+  <data name="Waves_Obj_Tape" xml:space="preserve">
+    <value>Tape over a slit</value>
+  </data>
+  <data name="Waves_Option_Average" xml:space="preserve">
+    <value>How far it swings</value>
+  </data>
+  <data name="Waves_Option_Lines" xml:space="preserve">
+    <value>Still lines</value>
+  </data>
+  <data name="Waves_Option_OneSlit" xml:space="preserve">
+    <value>Cover one slit</value>
+  </data>
+  <data name="Waves_Option_Opposite" xml:space="preserve">
+    <value>Opposite ways</value>
+  </data>
+  <data name="Waves_Option_SecondSource" xml:space="preserve">
+    <value>Dipper B</value>
+  </data>
+  <data name="Waves_Option_White" xml:space="preserve">
+    <value>White light</value>
+  </data>
+  <data name="Waves_PitchChart_Caption" xml:space="preserve">
+    <value>What the listener hears through the pass</value>
+  </data>
+  <data name="Waves_PitchChart_Note" xml:space="preserve">
+    <value>The pitch falls as the source goes past, fastest when it is closest. Faster than sound there is silence, then the bang, then two sounds at once.</value>
+  </data>
+  <data name="Waves_PlayPause" xml:space="preserve">
+    <value>Play / pause</value>
+  </data>
+  <data name="Waves_ProbeChart_Caption" xml:space="preserve">
+    <value>The water at the probe</value>
+  </data>
+  <data name="Waves_ProbeChart_Note" xml:space="preserve">
+    <value>Blue is how high A's wave lifts the water, pink B's, gold the two together, which is what the water really does. In step they add up; opposite they cancel.</value>
+  </data>
+  <data name="Waves_ProbeTo" xml:space="preserve">
+    <value>Move the probe to</value>
+  </data>
+  <data name="Waves_ProbeTo_Central" xml:space="preserve">
+    <value>Middle stripe</value>
+  </data>
+  <data name="Waves_ProbeTo_Dark" xml:space="preserve">
+    <value>Dark stripe between</value>
+  </data>
+  <data name="Waves_ProbeTo_First" xml:space="preserve">
+    <value>Next bright stripe</value>
+  </data>
+  <data name="Waves_ProbeTo_Loud" xml:space="preserve">
+    <value>The biggest waves</value>
+  </data>
+  <data name="Waves_ProbeTo_Quiet" xml:space="preserve">
+    <value>Still water</value>
+  </data>
+  <data name="Waves_Restart" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="Waves_Ripple_Between_Description" xml:space="preserve">
+    <value>Here one dipper is {0} wavelengths farther, neither a whole number nor a half: the waves partly add up, and the water rises and falls, but not the most.</value>
+  </data>
+  <data name="Waves_Ripple_Between_DescriptionOpposite" xml:space="preserve">
+    <value>Here one dipper is {0} wavelengths farther, neither a whole number nor a half: the waves partly add up, and the water rises and falls, but not the most.</value>
+  </data>
+  <data name="Waves_Ripple_Between_Title" xml:space="preserve">
+    <value>Partly in step</value>
+  </data>
+  <data name="Waves_Ripple_Fact1" xml:space="preserve">
+    <value>Noise-cancelling headphones listen to the noise and play the same sound turned upside down: crest meets trough and the noise mostly cancels.</value>
+  </data>
+  <data name="Waves_Ripple_Fact2" xml:space="preserve">
+    <value>Two loudspeakers playing the same tone do this with sound: walk across the room and the tone grows loud and quiet again and again.</value>
+  </data>
+  <data name="Waves_Ripple_Fact3" xml:space="preserve">
+    <value>No energy is lost on the still lines: what is missing there goes into the lines of big waves on either side.</value>
+  </data>
+  <data name="Waves_Ripple_Fact4" xml:space="preserve">
+    <value>Move the dippers apart or make the waves shorter and there are more still lines, closer together: about 2d/λ of them.</value>
+  </data>
+  <data name="Waves_Ripple_Fact5" xml:space="preserve">
+    <value>The colours of soap bubbles and oil on a wet road are interference too: light reflected from the top and bottom of a very thin film.</value>
+  </data>
+  <data name="Waves_Ripple_InStep_Description" xml:space="preserve">
+    <value>Here one dipper is {0} wavelengths farther than the other, close to a whole number: the waves arrive in step, crest on crest and trough on trough, and the water heaves the most.</value>
+  </data>
+  <data name="Waves_Ripple_InStep_DescriptionOpposite" xml:space="preserve">
+    <value>Here one dipper is {0} wavelengths farther, close to a whole number and a half. The dippers move opposite ways, and that half wavelength puts them back in step: the water heaves the most.</value>
+  </data>
+  <data name="Waves_Ripple_InStep_Title" xml:space="preserve">
+    <value>Crest meets crest</value>
+  </data>
+  <data name="Waves_Ripple_Note" xml:space="preserve">
+    <value>A ripple tank seen from above, 10× slower than real. Bright is a crest, dark a trough.</value>
+  </data>
+  <data name="Waves_Ripple_OutOfStep_Description" xml:space="preserve">
+    <value>Here one dipper is {0} wavelengths farther, close to a whole number and a half: one wave's crest arrives with the other's trough, they cancel, and the water hardly moves.</value>
+  </data>
+  <data name="Waves_Ripple_OutOfStep_DescriptionOpposite" xml:space="preserve">
+    <value>Here one dipper is {0} wavelengths farther, close to a whole number. But the dippers move opposite ways, so crest still meets trough: they cancel and the water hardly moves.</value>
+  </data>
+  <data name="Waves_Ripple_OutOfStep_Title" xml:space="preserve">
+    <value>Crest meets trough</value>
+  </data>
+  <data name="Waves_Ripple_Single_Description" xml:space="preserve">
+    <value>Only A is moving: its rings spread out evenly and weaken as they go, and nowhere is the water still. Switch B on and watch the two waves meet.</value>
+  </data>
+  <data name="Waves_Ripple_Single_Title" xml:space="preserve">
+    <value>Only one dipper</value>
+  </data>
+  <data name="Waves_Ripple_Subtitle" xml:space="preserve">
+    <value>Crest on crest adds up, crest on trough cancels out</value>
+  </data>
+  <data name="Waves_ScreenChart_Caption" xml:space="preserve">
+    <value>On a real screen</value>
+  </data>
+  <data name="Waves_ScreenChart_Note" xml:space="preserve">
+    <value>The stripes are λL/d apart: longer light, a farther screen or closer slits spread them out. Each slit on its own makes the broad glow they sit under.</value>
+  </data>
+  <data name="Waves_ScreenDistance" xml:space="preserve">
+    <value>Distance to the screen</value>
+  </data>
+  <data name="Waves_Separation" xml:space="preserve">
+    <value>Distance between the dippers</value>
+  </data>
+  <data name="Waves_SlitSpacing" xml:space="preserve">
+    <value>Distance between the slits</value>
+  </data>
+  <data name="Waves_Slits_Between_Description" xml:space="preserve">
+    <value>This point is {0} wavelengths farther from one slit than the other: the beams partly add up, neither bright nor dark.</value>
+  </data>
+  <data name="Waves_Slits_Between_Title" xml:space="preserve">
+    <value>Between bright and dark</value>
+  </data>
+  <data name="Waves_Slits_Bright_Description" xml:space="preserve">
+    <value>This point is {0} wavelengths farther from one slit than the other, close to a whole number: the two beams arrive in step and add up to a bright stripe.</value>
+  </data>
+  <data name="Waves_Slits_Bright_Title" xml:space="preserve">
+    <value>Bright stripe {0}</value>
+  </data>
+  <data name="Waves_Slits_Central_Title" xml:space="preserve">
+    <value>The middle stripe</value>
+  </data>
+  <data name="Waves_Slits_Dark_Description" xml:space="preserve">
+    <value>This point is {0} wavelengths farther from one slit than the other, close to a whole number and a half: crest meets trough, the beams cancel, and light added to light gives darkness.</value>
+  </data>
+  <data name="Waves_Slits_Dark_Title" xml:space="preserve">
+    <value>A dark stripe</value>
+  </data>
+  <data name="Waves_Slits_Fact1" xml:space="preserve">
+    <value>Thomas Young first showed it in the early 1800s. Stripes of light and dark could only come from waves, against Newton's view that light was made of particles.</value>
+  </data>
+  <data name="Waves_Slits_Fact2" xml:space="preserve">
+    <value>Green light's wavelength is about half a thousandth of a millimetre, around a hundredth of the width of a hair. That is why the slits must be so close and the screen far.</value>
+  </data>
+  <data name="Waves_Slits_Fact3" xml:space="preserve">
+    <value>Sent through one at a time, single photons or electrons still build up the same stripes dot by dot: each one goes through both slits as a wave.</value>
+  </data>
+  <data name="Waves_Slits_Fact4" xml:space="preserve">
+    <value>The rainbow on a CD comes from the same effect: its tracks, 1.6 thousandths of a millimetre apart, act like thousands of slits.</value>
+  </data>
+  <data name="Waves_Slits_Fact5" xml:space="preserve">
+    <value>Two ordinary lamps never make stripes together: their light keeps changing its rhythm at random, far faster than the eye can follow, so any stripes jump about and blur. A laser keeps its rhythm.</value>
+  </data>
+  <data name="Waves_Slits_Note" xml:space="preserve">
+    <value>Not to scale: the light's waves are drawn about ten thousand times bigger, so the stripes fan out far wider. The chart on the left-hand page shows the real stripes on the screen.</value>
+  </data>
+  <data name="Waves_Slits_One_Description" xml:space="preserve">
+    <value>With one slit covered, the screen shows only a glow, brightest in the middle. The stripes came from the two slits' light adding up and cancelling, which only waves do.</value>
+  </data>
+  <data name="Waves_Slits_One_Title" xml:space="preserve">
+    <value>One slit: no stripes</value>
+  </data>
+  <data name="Waves_Slits_Subtitle" xml:space="preserve">
+    <value>Light is a wave too: two slits make bright and dark stripes</value>
+  </data>
+  <data name="Waves_Slits_White_Description" xml:space="preserve">
+    <value>Each colour makes its own stripes, violet closest together and red farthest apart. In the middle every colour is bright, so it is white; farther out they slip apart into coloured stripes that soon blur together.</value>
+  </data>
+  <data name="Waves_Slits_White_Title" xml:space="preserve">
+    <value>White light: a white middle, rainbow edges</value>
+  </data>
+  <data name="Waves_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Waves_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Waves_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Waves_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Waves_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
+  <data name="Waves_Stat_Ahead" xml:space="preserve">
+    <value>Straight ahead</value>
+  </data>
+  <data name="Waves_Stat_Ahead_None" xml:space="preserve">
+    <value>nothing: the sound can't get ahead</value>
+  </data>
+  <data name="Waves_Stat_Behind" xml:space="preserve">
+    <value>Straight behind</value>
+  </data>
+  <data name="Waves_Stat_Cone" xml:space="preserve">
+    <value>Half-angle of the cone</value>
+  </data>
+  <data name="Waves_Stat_Difference" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="Waves_Stat_Difference_Value" xml:space="preserve">
+    <value>{0} cm = {1} λ</value>
+  </data>
+  <data name="Waves_Stat_Distance" xml:space="preserve">
+    <value>Listener from the road</value>
+  </data>
+  <data name="Waves_Stat_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Waves_Stat_FringeSpacing" xml:space="preserve">
+    <value>Stripes apart</value>
+  </data>
+  <data name="Waves_Stat_FringeSpacing_White" xml:space="preserve">
+    <value>different for each colour</value>
+  </data>
+  <data name="Waves_Stat_FromA" xml:space="preserve">
+    <value>Probe to A</value>
+  </data>
+  <data name="Waves_Stat_FromB" xml:space="preserve">
+    <value>Probe to B</value>
+  </data>
+  <data name="Waves_Stat_Heard" xml:space="preserve">
+    <value>Heard now</value>
+  </data>
+  <data name="Waves_Stat_Heard_None" xml:space="preserve">
+    <value>nothing</value>
+  </data>
+  <data name="Waves_Stat_InGlow" xml:space="preserve">
+    <value>Bright stripes in the middle glow</value>
+  </data>
+  <data name="Waves_Stat_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Waves_Stat_LightFrequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Waves_Stat_ProbeDifference" xml:space="preserve">
+    <value>Probe: difference</value>
+  </data>
+  <data name="Waves_Stat_QuietLines" xml:space="preserve">
+    <value>Lines of still water</value>
+  </data>
+  <data name="Waves_Stat_RippleSpeed" xml:space="preserve">
+    <value>Speed of the ripples</value>
+  </data>
+  <data name="Waves_Stat_ScreenDistance" xml:space="preserve">
+    <value>To the screen</value>
+  </data>
+  <data name="Waves_Stat_Separation" xml:space="preserve">
+    <value>Dippers apart</value>
+  </data>
+  <data name="Waves_Stat_SlitSpacing" xml:space="preserve">
+    <value>Slits apart</value>
+  </data>
+  <data name="Waves_Stat_SlitWidth" xml:space="preserve">
+    <value>Each slit</value>
+  </data>
+  <data name="Waves_Stat_SourcePitch" xml:space="preserve">
+    <value>Its own pitch</value>
+  </data>
+  <data name="Waves_Stat_SourceSpeed" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Waves_Stat_Swing" xml:space="preserve">
+    <value>Swing at the probe</value>
+  </data>
+  <data name="Waves_Stat_Swing_Value" xml:space="preserve">
+    <value>{0}% of both added</value>
+  </data>
+  <data name="Waves_Stat_Wavelength" xml:space="preserve">
+    <value>Wavelength</value>
+  </data>
+  <data name="Waves_Stat_Wavelengths_Value" xml:space="preserve">
+    <value>{0} λ</value>
+  </data>
+  <data name="Waves_Timeline" xml:space="preserve">
+    <value>Time through the pass</value>
+  </data>
+  <data name="Waves_Title" xml:space="preserve">
+    <value>Interference and the Doppler effect</value>
+  </data>
+  <data name="Waves_Wavelength" xml:space="preserve">
+    <value>Wavelength</value>
   </data>
   <data name="Window_Close" xml:space="preserve">
     <value>Close</value>

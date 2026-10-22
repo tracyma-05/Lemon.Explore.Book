@@ -1,0 +1,100 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:waves="using:Lemon.Explore.Book.Chapters.Waves"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Waves.WavesDiagramPageView"
+                         x:DataType="waves:WavesDiagramPageViewModel">
+    <!-- Right page of the Waves spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <waves:WavesDiagram Mode="{Binding Waves.Mode}"
+                                    Wavelength="{Binding Waves.Wavelength}"
+                                    Separation="{Binding Waves.Separation}"
+                                    Opposite="{Binding Waves.Opposite}"
+                                    SecondSource="{Binding Waves.SecondSource}"
+                                    ShowLines="{Binding Waves.ShowLines}"
+                                    ShowAverage="{Binding Waves.ShowAverage}"
+                                    Probe="{Binding Waves.Probe, Mode=TwoWay}"
+                                    LightWavelength="{Binding Waves.LightWavelength}"
+                                    SlitSpacing="{Binding Waves.SlitSpacing}"
+                                    OneSlit="{Binding Waves.OneSlit}"
+                                    WhiteLight="{Binding Waves.WhiteLight}"
+                                    SlitProbe="{Binding Waves.SlitProbe, Mode=TwoWay}"
+                                    Mach="{Binding Waves.Mach}"
+                                    Listener="{Binding Waves.Listener, Mode=TwoWay}"
+                                    Speed="{Binding Waves.Speed}"
+                                    IsPlaying="{Binding Waves.IsPlaying, Mode=TwoWay}"
+                                    Time="{Binding Waves.Time, Mode=TwoWay}"
+                                    RestartCount="{Binding Waves.RestartCount}"
+                                    ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                    Highlight="{Binding Waves.Lesson.Highlight}"
+                                    IsLessonActive="{Binding Waves.Lesson.IsActive}"
+                                    SelectedObject="{Binding Waves.Card.Id, Mode=TwoWay}"
+                                    InteractionCommand="{Binding Waves.UserInteractedCommand}"
+                                    ToolTip.Tip="{Binding Waves.DragHint}"
+                                    AutomationProperties.Name="{Binding Waves.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Waves.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Waves.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Waves.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Waves.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Waves_PlayPause}" AutomationProperties.Name="{loc:Localize Waves_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Waves.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Waves.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <Button Classes="space" Command="{Binding Waves.RestartCommand}"
+                                    ToolTip.Tip="{loc:Localize Waves_Restart}" AutomationProperties.Name="{loc:Localize Waves_Restart}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Restart}" />
+                                    <TextBlock Text="{loc:Localize Waves_Restart}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Waves_Speed}">
+                                <RadioButton Classes="space speed" GroupName="WavesSpeed" Content="{loc:Localize Waves_Speed_Quarter}" IsChecked="{Binding Waves.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="WavesSpeed" Content="{loc:Localize Waves_Speed_Half}" IsChecked="{Binding Waves.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="WavesSpeed" Content="{loc:Localize Waves_Speed_One}" IsChecked="{Binding Waves.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="WavesSpeed" Content="{loc:Localize Waves_Speed_Two}" IsChecked="{Binding Waves.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Waves.LoopDuration}" Value="{Binding Waves.Time}" SmallChange="0.01" LargeChange="0.1"
+                                        IsVisible="{Binding Waves.IsDoppler}"
+                                        ToolTip.Tip="{loc:Localize Waves_Timeline}" AutomationProperties.Name="{loc:Localize Waves_Timeline}" />
+                                <TextBlock MinWidth="120" Margin="6,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Waves.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -10,6 +10,7 @@ using Lemon.Explore.Book.Chapters.IceAges;
 using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Chapters.Lightning;
 using Lemon.Explore.Book.Chapters.MoonPhases;
+using Lemon.Explore.Book.Chapters.Oscillations;
 using Lemon.Explore.Book.Chapters.Rainbow;
 using Lemon.Explore.Book.Chapters.Retrograde;
 using Lemon.Explore.Book.Chapters.SeaBreeze;
@@ -21,6 +22,7 @@ using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.Chapters.Typhoon;
 using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Chapters.WaterCycle;
+using Lemon.Explore.Book.Chapters.Waves;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.Contents;
@@ -32,7 +34,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -221,6 +223,22 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, ice.Lesson, () => ice.Mode.ToString(), Enum.GetNames<IceAgeMode>());
                 return (new IceAgeTextPageViewModel(textPage, navigator, chapter, number, ice),
                     new IceAgeDiagramPageViewModel(textPage + 1, navigator, chapter, ice));
+            }
+
+            case "Oscillations":
+            {
+                var osc = new OscillationsViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, osc.Lesson, () => osc.Mode.ToString(), Enum.GetNames<OscillationMode>());
+                return (new OscillationsTextPageViewModel(textPage, navigator, chapter, number, osc),
+                    new OscillationsDiagramPageViewModel(textPage + 1, navigator, chapter, osc));
+            }
+
+            case "Waves":
+            {
+                var waves = new WavesViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, waves.Lesson, () => waves.Mode.ToString(), Enum.GetNames<WaveMode>());
+                return (new WavesTextPageViewModel(textPage, navigator, chapter, number, waves),
+                    new WavesDiagramPageViewModel(textPage + 1, navigator, chapter, waves));
             }
 
             default:

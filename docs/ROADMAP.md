@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | can run alongside P2 |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 23 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages) |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 25 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -46,6 +46,8 @@ cross-platform book.
 | `DrawImage(bitmap, rect)` of a bitmap at the screen's DPI | `SpaceDrawing.DrawWhole`: the source rectangle is in pixels, a bitmap's `Size` in DIPs |
 | A coarse bitmap (a pixel for a few DIPs) stretched over the view | `SpaceDrawing.DrawSmooth`: Avalonia draws it nearest-neighbour, WPF smooths it |
 | `Rect.Empty`, `r.IsEmpty`, `r.Union(point)` | `default(Rect)` (Union ignores it, like Empty); a box round points from their min and max: Union also ignores a rect of no size |
+| `Point3D`, `Vector3D` (Media3D) | the book's own in `Controls/Space/Space3D.cs` (Avalonia's `Vector3D` has no cross product), with a `using Vector3D = …` alias |
+| `RenderOptions.SetBitmapScalingMode(this, …)` | `RenderOptions.SetBitmapInterpolationMode(this, …)`: Linear is MediumQuality, NearestNeighbor is None |
 | `ImageBrush` with `BitmapScalingMode.NearestNeighbor` | make the tile at its drawn size, each pixel repeated: Avalonia brushes have no scaling mode |
 
 ### Porting a chapter (the Seasons pattern)

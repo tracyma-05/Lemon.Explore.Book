@@ -1,0 +1,199 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:waves="using:Lemon.Explore.Book.Chapters.Waves"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Waves.WavesTextPageView"
+                         x:DataType="waves:WavesTextPageViewModel">
+    <!-- Left page of the Waves spread: the view's settings, its charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Waves.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Waves.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Waves.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="WavesMode" IsChecked="{Binding Waves.IsRipple}" Content="{loc:Localize Waves_Mode_Ripple}" />
+                    <RadioButton Classes="chip" GroupName="WavesMode" IsChecked="{Binding Waves.IsSlits}" Content="{loc:Localize Waves_Mode_Slits}" />
+                    <RadioButton Classes="chip" GroupName="WavesMode" IsChecked="{Binding Waves.IsDoppler}" Content="{loc:Localize Waves_Mode_Doppler}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Waves.Card}" />
+
+                <!-- Ripples: the wavelength, the sources, the probe -->
+                <StackPanel IsVisible="{Binding Waves.IsRipple}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Waves.WavelengthText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Waves_Wavelength}" />
+                    </DockPanel>
+                    <Slider Minimum="1.5" Maximum="5" Value="{Binding Waves.Wavelength}" SmallChange="0.1" LargeChange="0.5"
+                            AutomationProperties.Name="{loc:Localize Waves_Wavelength}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Waves.SeparationText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Waves_Separation}" />
+                    </DockPanel>
+                    <Slider Minimum="2" Maximum="12" Value="{Binding Waves.Separation}" SmallChange="0.1" LargeChange="1"
+                            AutomationProperties.Name="{loc:Localize Waves_Separation}" />
+                    <WrapPanel Margin="0,12,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Waves.SecondSource}" Content="{loc:Localize Waves_Option_SecondSource}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Waves.Opposite}" Content="{loc:Localize Waves_Option_Opposite}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Waves.ShowLines}" Content="{loc:Localize Waves_Option_Lines}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Waves.ShowAverage}" Content="{loc:Localize Waves_Option_Average}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_ProbeTo}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Waves.ProbeOnCommand}" CommandParameter="Quiet" Content="{loc:Localize Waves_ProbeTo_Quiet}" />
+                        <Button Classes="chip" Command="{Binding Waves.ProbeOnCommand}" CommandParameter="Loud" Content="{loc:Localize Waves_ProbeTo_Loud}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_ProbeChart_Caption}" />
+                    <Border Classes="plate" Height="150">
+                        <waves:RippleProbeChart Time="{Binding Waves.Time}" Wavelength="{Binding Waves.Wavelength}" Separation="{Binding Waves.Separation}"
+                                             Opposite="{Binding Waves.Opposite}" SecondSource="{Binding Waves.SecondSource}" Probe="{Binding Waves.Probe}"
+                                             AutomationProperties.Name="{loc:Localize Waves_ProbeChart_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Waves_ProbeChart_Note}" />
+                </StackPanel>
+
+                <!-- Light through two slits: its colour, the slits, the screen -->
+                <StackPanel IsVisible="{Binding Waves.IsSlits}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_Light_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Waves.SetLightCommand}" CommandParameter="650" Content="{loc:Localize Waves_Light_Red}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetLightCommand}" CommandParameter="532" Content="{loc:Localize Waves_Light_Green}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetLightCommand}" CommandParameter="405" Content="{loc:Localize Waves_Light_Violet}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Waves.WhiteLight}" Content="{loc:Localize Waves_Option_White}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Waves.LightText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Waves_LightWavelength}" />
+                    </DockPanel>
+                    <Slider Minimum="400" Maximum="700" Value="{Binding Waves.LightWavelength}" SmallChange="1" LargeChange="10" IsEnabled="{Binding !Waves.WhiteLight}"
+                            AutomationProperties.Name="{loc:Localize Waves_LightWavelength}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Waves.SlitSpacingText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Waves_SlitSpacing}" />
+                    </DockPanel>
+                    <Slider Minimum="0.1" Maximum="0.4" Value="{Binding Waves.SlitSpacing}" SmallChange="0.01" LargeChange="0.05"
+                            AutomationProperties.Name="{loc:Localize Waves_SlitSpacing}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Waves.ScreenDistanceText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Waves_ScreenDistance}" />
+                    </DockPanel>
+                    <Slider Minimum="1" Maximum="4" Value="{Binding Waves.ScreenDistance}" SmallChange="0.1" LargeChange="0.5"
+                            AutomationProperties.Name="{loc:Localize Waves_ScreenDistance}" />
+                    <WrapPanel Margin="0,12,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Waves.OneSlit}" Content="{loc:Localize Waves_Option_OneSlit}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_ProbeTo}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Waves.ProbeOnStripeCommand}" CommandParameter="0" Content="{loc:Localize Waves_ProbeTo_Central}" />
+                        <Button Classes="chip" Command="{Binding Waves.ProbeOnStripeCommand}" CommandParameter="1" Content="{loc:Localize Waves_ProbeTo_First}" />
+                        <Button Classes="chip" Command="{Binding Waves.ProbeOnStripeCommand}" CommandParameter="0.5" Content="{loc:Localize Waves_ProbeTo_Dark}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_ScreenChart_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <waves:ScreenChart LightWavelength="{Binding Waves.LightWavelength}" SlitSpacing="{Binding Waves.SlitSpacing}"
+                                        ScreenDistance="{Binding Waves.ScreenDistance}" OneSlit="{Binding Waves.OneSlit}" WhiteLight="{Binding Waves.WhiteLight}"
+                                        AutomationProperties.Name="{loc:Localize Waves_ScreenChart_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Waves_ScreenChart_Note}" />
+                </StackPanel>
+
+                <!-- A moving source: how fast, and the pitch you hear -->
+                <StackPanel IsVisible="{Binding Waves.IsDoppler}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Waves.MachText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Waves_Mach}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="2" Value="{Binding Waves.Mach}" SmallChange="0.01" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Waves_Mach}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Waves.SetMachCommand}" CommandParameter="0" Content="{loc:Localize Waves_Mach_Still}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetMachCommand}" CommandParameter="0.1" Content="{loc:Localize Waves_Mach_Car}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetMachCommand}" CommandParameter="0.26" Content="{loc:Localize Waves_Mach_Racing}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetMachCommand}" CommandParameter="0.8" Content="{loc:Localize Waves_Mach_Airliner}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetMachCommand}" CommandParameter="1" Content="{loc:Localize Waves_Mach_Sound}" />
+                        <Button Classes="chip" Command="{Binding Waves.SetMachCommand}" CommandParameter="2" Content="{loc:Localize Waves_Mach_Concorde}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_PitchChart_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <waves:PitchChart Mach="{Binding Waves.Mach}" Listener="{Binding Waves.Listener}" Time="{Binding Waves.Time}"
+                                       AutomationProperties.Name="{loc:Localize Waves_PitchChart_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Waves_PitchChart_Note}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_MachChart_Caption}" />
+                    <Border Classes="plate" Height="160">
+                        <waves:MachChart Mach="{Binding Waves.Mach}" AutomationProperties.Name="{loc:Localize Waves_MachChart_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Waves_MachChart_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Waves.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Waves.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Waves.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Waves.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Waves_Facts}" />
+                <ItemsControl ItemsSource="{Binding Waves.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>
