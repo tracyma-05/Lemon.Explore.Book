@@ -1,0 +1,116 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Lemon.Explore.Book.App"
+             RequestedThemeVariant="Light">
+
+    <Application.Resources>
+        <SolidColorBrush x:Key="InkBrush" Color="#2B2622" />
+        <SolidColorBrush x:Key="BodyInkBrush" Color="#3A332D" />
+        <SolidColorBrush x:Key="FaintInkBrush" Color="#8C8073" />
+        <SolidColorBrush x:Key="AccentBrush" Color="#B5532E" />
+        <SolidColorBrush x:Key="CoverGoldBrush" Color="#E9C46A" />
+        <LinearGradientBrush x:Key="CoverBrush" StartPoint="0%,0%" EndPoint="100%,100%">
+            <GradientStop Color="#22345C" Offset="0" />
+            <GradientStop Color="#0E1630" Offset="1" />
+        </LinearGradientBrush>
+    </Application.Resources>
+
+    <Application.Styles>
+        <FluentTheme />
+
+        <!-- Page typography -->
+        <Style Selector="TextBlock.kicker">
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="LetterSpacing" Value="1.2" />
+            <Setter Property="Foreground" Value="{StaticResource AccentBrush}" />
+        </Style>
+        <Style Selector="TextBlock.pageTitle">
+            <Setter Property="FontSize" Value="32" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="Margin" Value="0,6,0,18" />
+        </Style>
+        <Style Selector="TextBlock.chapterNumber">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+            <Setter Property="Margin" Value="0,18,0,0" />
+        </Style>
+        <Style Selector="TextBlock.body">
+            <Setter Property="FontSize" Value="17" />
+            <Setter Property="LineHeight" Value="28" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{StaticResource BodyInkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.folio">
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{StaticResource FaintInkBrush}" />
+            <Setter Property="Margin" Value="0,8,0,0" />
+        </Style>
+
+        <!-- Table of contents -->
+        <Style Selector="Button.contentsEntry">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Padding" Value="10,7" />
+            <Setter Property="CornerRadius" Value="6" />
+            <Setter Property="Foreground" Value="{StaticResource InkBrush}" />
+            <Setter Property="FontSize" Value="17" />
+        </Style>
+        <Style Selector="Button.contentsEntry:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="#1AB5532E" />
+        </Style>
+
+        <!-- Toolbar above the book -->
+        <Style Selector="Border.toolbar">
+            <Setter Property="Background" Value="#1F1510" />
+            <Setter Property="Padding" Value="12,6" />
+        </Style>
+        <Style Selector="Border.toolbar TextBlock.toolbarTitle">
+            <Setter Property="Foreground" Value="#F3E9DA" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="Border.toolbar Button">
+            <Setter Property="Foreground" Value="#F3E9DA" />
+            <Setter Property="Background" Value="#26FFFFFF" />
+            <Setter Property="MinWidth" Value="40" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+        <Style Selector="Border.toolbar Button:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="#40FFFFFF" />
+            <Setter Property="Foreground" Value="#FFFFFF" />
+        </Style>
+
+        <!-- Covers -->
+        <Style Selector="TextBlock.coverTitle">
+            <Setter Property="FontSize" Value="44" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="{StaticResource CoverGoldBrush}" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style Selector="TextBlock.coverText">
+            <Setter Property="FontSize" Value="17" />
+            <Setter Property="Foreground" Value="#E6EAF2" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style Selector="Button.coverOpen">
+            <Setter Property="Background" Value="{StaticResource CoverGoldBrush}" />
+            <Setter Property="Foreground" Value="#1A2340" />
+            <Setter Property="FontSize" Value="17" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Padding" Value="22,10" />
+            <Setter Property="CornerRadius" Value="22" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+        <Style Selector="Button.coverOpen:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="#F2D58C" />
+            <Setter Property="Foreground" Value="#1A2340" />
+        </Style>
+    </Application.Styles>
+</Application>

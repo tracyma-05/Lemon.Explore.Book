@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Lemon.Explore.Book.ViewModels"
+        xmlns:views="using:Lemon.Explore.Book.Views"
+        xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+        x:Class="Lemon.Explore.Book.Views.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Title="{loc:Localize App_Title}"
+        Icon="/Assets/book.ico"
+        Width="1280" Height="820"
+        MinWidth="360" MinHeight="480"
+        WindowStartupLocation="CenterScreen"
+        Background="#2A1D15">
+    <views:MainView />
+</Window>

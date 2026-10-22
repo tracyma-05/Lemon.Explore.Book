@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Title" xml:space="preserve">
+    <value>探索之书</value>
+  </data>
+  <data name="BackCover_Text" xml:space="preserve">
+    <value>抬头看，四处看，问一句为什么。</value>
+  </data>
+  <data name="Book_Subtitle" xml:space="preserve">
+    <value>看得见、摸得着的科学：天空、地球、物理与化学</value>
+  </data>
+  <data name="Book_Title" xml:space="preserve">
+    <value>探索之书</value>
+  </data>
+  <data name="Chapter_Acids_Bases" xml:space="preserve">
+    <value>酸碱与 pH</value>
+  </data>
+  <data name="Chapter_Aurora" xml:space="preserve">
+    <value>极光与磁层</value>
+  </data>
+  <data name="Chapter_Black_Hole" xml:space="preserve">
+    <value>黑洞与引力透镜</value>
+  </data>
+  <data name="Chapter_Blue_Sky" xml:space="preserve">
+    <value>蓝天与晚霞</value>
+  </data>
+  <data name="Chapter_Day_Night" xml:space="preserve">
+    <value>昼夜与时区</value>
+  </data>
+  <data name="Chapter_Earthquakes" xml:space="preserve">
+    <value>地震与板块</value>
+  </data>
+  <data name="Chapter_Eclipses" xml:space="preserve">
+    <value>日食与月食</value>
+  </data>
+  <data name="Chapter_Expansion" xml:space="preserve">
+    <value>宇宙膨胀</value>
+  </data>
+  <data name="Chapter_Flight" xml:space="preserve">
+    <value>飞行与升力</value>
+  </data>
+  <data name="Chapter_Greenhouse" xml:space="preserve">
+    <value>温室效应</value>
+  </data>
+  <data name="Chapter_Heat_Engines" xml:space="preserve">
+    <value>发动机与冰箱</value>
+  </data>
+  <data name="Chapter_Ice_Ages" xml:space="preserve">
+    <value>冰期与米兰科维奇周期</value>
+  </data>
+  <data name="Chapter_Kepler" xml:space="preserve">
+    <value>开普勒定律</value>
+  </data>
+  <data name="Chapter_Lenses" xml:space="preserve">
+    <value>透镜、眼睛与相机</value>
+  </data>
+  <data name="Chapter_Lightning" xml:space="preserve">
+    <value>雷电与静电</value>
+  </data>
+  <data name="Chapter_Moon_Phases" xml:space="preserve">
+    <value>月相</value>
+  </data>
+  <data name="Chapter_Number" xml:space="preserve">
+    <value>第 {0} 章</value>
+  </data>
+  <data name="Chapter_Oscillations" xml:space="preserve">
+    <value>单摆与弹簧</value>
+  </data>
+  <data name="Chapter_Placeholder" xml:space="preserve">
+    <value>这一章正在搬进书里，图、课程和朗读很快就会出现在这里。</value>
+  </data>
+  <data name="Chapter_Power_Grid" xml:space="preserve">
+    <value>发电机与电网</value>
+  </data>
+  <data name="Chapter_Projectile" xml:space="preserve">
+    <value>抛体运动</value>
+  </data>
+  <data name="Chapter_Rainbow" xml:space="preserve">
+    <value>折射与彩虹</value>
+  </data>
+  <data name="Chapter_Relativity" xml:space="preserve">
+    <value>狭义相对论</value>
+  </data>
+  <data name="Chapter_Retrograde" xml:space="preserve">
+    <value>行星逆行</value>
+  </data>
+  <data name="Chapter_Sea_Breeze" xml:space="preserve">
+    <value>海陆风</value>
+  </data>
+  <data name="Chapter_Seasons" xml:space="preserve">
+    <value>四季</value>
+  </data>
+  <data name="Chapter_Solar_System" xml:space="preserve">
+    <value>太阳系</value>
+  </data>
+  <data name="Chapter_Sound" xml:space="preserve">
+    <value>声音与乐器</value>
+  </data>
+  <data name="Chapter_Spectra" xml:space="preserve">
+    <value>原子与光谱</value>
+  </data>
+  <data name="Chapter_Star_Life" xml:space="preserve">
+    <value>恒星的一生</value>
+  </data>
+  <data name="Chapter_Star_Trails" xml:space="preserve">
+    <value>星轨</value>
+  </data>
+  <data name="Chapter_Tides" xml:space="preserve">
+    <value>潮汐</value>
+  </data>
+  <data name="Chapter_Typhoon" xml:space="preserve">
+    <value>台风</value>
+  </data>
+  <data name="Chapter_Volcanoes" xml:space="preserve">
+    <value>火山与岩石循环</value>
+  </data>
+  <data name="Chapter_Water_Cycle" xml:space="preserve">
+    <value>水循环</value>
+  </data>
+  <data name="Chapter_Waves" xml:space="preserve">
+    <value>干涉与多普勒</value>
+  </data>
+  <data name="Contents_Title" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="Cover_Open" xml:space="preserve">
+    <value>翻开这本书</value>
+  </data>
+  <data name="Cover_Tagline" xml:space="preserve">
+    <value>34 个互动章节，中英文朗读</value>
+  </data>
+  <data name="Credits_Code" xml:space="preserve">
+    <value>代码：MIT 许可证。</value>
+  </data>
+  <data name="Credits_Fonts" xml:space="preserve">
+    <value>字体：Noto Sans SC，SIL 开放字体许可证 1.1。</value>
+  </data>
+  <data name="Credits_Maps" xml:space="preserve">
+    <value>地图：Natural Earth，公有领域。</value>
+  </data>
+  <data name="Credits_Narration" xml:space="preserve">
+    <value>朗读：使用开源许可的语音合成模型生成，详见 THIRD-PARTY-NOTICES.md。</value>
+  </data>
+  <data name="Credits_Title" xml:space="preserve">
+    <value>致谢</value>
+  </data>
+  <data name="Diagram_Placeholder" xml:space="preserve">
+    <value>互动图即将到来</value>
+  </data>
+  <data name="HowTo_Contents" xml:space="preserve">
+    <value>找不到看到哪儿了？点上方的“目录”就能回到目录页。</value>
+  </data>
+  <data name="HowTo_Explore" xml:space="preserve">
+    <value>每一章占两页：左边读，右边玩。点一点图里的东西，就能知道它是什么。</value>
+  </data>
+  <data name="HowTo_Listen" xml:space="preserve">
+    <value>每一课都可以朗读。随时可以在上方切换中文和英文。</value>
+  </data>
+  <data name="HowTo_Title" xml:space="preserve">
+    <value>怎样读这本书</value>
+  </data>
+  <data name="HowTo_Turn" xml:space="preserve">
+    <value>翻页：拖动书页外侧的边缘，或者点一下它，也可以按键盘上的左右方向键。</value>
+  </data>
+  <data name="Title_Edition" xml:space="preserve">
+    <value>第一版（编写中）</value>
+  </data>
+  <data name="Title_License" xml:space="preserve">
+    <value>基于 MIT 许可证免费开源。</value>
+  </data>
+  <data name="Toolbar_Contents" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="Toolbar_Next" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="Toolbar_Previous" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="Toolbar_SwitchLanguage" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Toolbar_SwitchLanguage_Tip" xml:space="preserve">
+    <value>切换到英文</value>
+  </data>
+  <data name="Volume_Chemistry" xml:space="preserve">
+    <value>化学</value>
+  </data>
+  <data name="Volume_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Volume_Part" xml:space="preserve">
+    <value>第 {0} 部分</value>
+  </data>
+  <data name="Volume_Physics" xml:space="preserve">
+    <value>物理</value>
+  </data>
+  <data name="Volume_Sky" xml:space="preserve">
+    <value>天空</value>
+  </data>
+</root>

@@ -1,0 +1,32 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Views.Pages.ContentsPageView"
+             x:DataType="pages:ContentsPageViewModel">
+    <Grid RowDefinitions="Auto,Auto,*,Auto" Margin="56,44,56,20">
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <TextBlock Classes="kicker" Text="{loc:Localize Contents_Title}" />
+            <TextBlock Classes="kicker" Foreground="{StaticResource FaintInkBrush}" Text="{Binding PartLabel}" />
+        </StackPanel>
+        <TextBlock Grid.Row="1" Classes="pageTitle" Text="{Binding VolumeTitle}" />
+
+        <ScrollViewer Grid.Row="2" Margin="-10,0">
+            <ItemsControl ItemsSource="{Binding Entries}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="pages:ContentsEntry">
+                        <Button Classes="contentsEntry" Command="{Binding OpenCommand}">
+                            <Grid ColumnDefinitions="40,*,Auto">
+                                <TextBlock Foreground="{StaticResource FaintInkBrush}" Text="{Binding Number}" />
+                                <TextBlock Grid.Column="1" Text="{Binding Title}" TextTrimming="CharacterEllipsis" />
+                                <TextBlock Grid.Column="2" Foreground="{StaticResource FaintInkBrush}" Margin="16,0,0,0" Text="{Binding PageText}" />
+                            </Grid>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="3" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</UserControl>

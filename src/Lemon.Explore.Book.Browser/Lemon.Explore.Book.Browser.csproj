@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+
+  <!-- Web head: Avalonia on WebAssembly, served as an installable, offline-capable PWA (see wwwroot). -->
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-browser</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Lemon.Explore.Book.Browser</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      The browser has no system fonts to fall back on, so the book carries its own CJK font. These are the full
+      Noto Sans SC files; subsetting them to the characters the book uses is on the roadmap.
+    -->
+    <AvaloniaResource Include="Assets\Fonts\*.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lemon.Explore.Book\Lemon.Explore.Book.csproj" />
+  </ItemGroup>
+
+</Project>

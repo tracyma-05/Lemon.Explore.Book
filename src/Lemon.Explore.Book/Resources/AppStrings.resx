@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Title" xml:space="preserve">
+    <value>Explore Book</value>
+  </data>
+  <data name="BackCover_Text" xml:space="preserve">
+    <value>Look up, look around, and ask why.</value>
+  </data>
+  <data name="Book_Subtitle" xml:space="preserve">
+    <value>Science you can touch: the sky, our Earth, physics and chemistry</value>
+  </data>
+  <data name="Book_Title" xml:space="preserve">
+    <value>The Explore Book</value>
+  </data>
+  <data name="Chapter_Acids_Bases" xml:space="preserve">
+    <value>Acids and bases</value>
+  </data>
+  <data name="Chapter_Aurora" xml:space="preserve">
+    <value>Aurora and magnetosphere</value>
+  </data>
+  <data name="Chapter_Black_Hole" xml:space="preserve">
+    <value>Black holes and lensing</value>
+  </data>
+  <data name="Chapter_Blue_Sky" xml:space="preserve">
+    <value>Blue sky, red sunset</value>
+  </data>
+  <data name="Chapter_Day_Night" xml:space="preserve">
+    <value>Day and night</value>
+  </data>
+  <data name="Chapter_Earthquakes" xml:space="preserve">
+    <value>Earthquakes and plates</value>
+  </data>
+  <data name="Chapter_Eclipses" xml:space="preserve">
+    <value>Eclipses</value>
+  </data>
+  <data name="Chapter_Expansion" xml:space="preserve">
+    <value>The expanding universe</value>
+  </data>
+  <data name="Chapter_Flight" xml:space="preserve">
+    <value>Flight and lift</value>
+  </data>
+  <data name="Chapter_Greenhouse" xml:space="preserve">
+    <value>Greenhouse effect</value>
+  </data>
+  <data name="Chapter_Heat_Engines" xml:space="preserve">
+    <value>Engine and fridge</value>
+  </data>
+  <data name="Chapter_Ice_Ages" xml:space="preserve">
+    <value>Ice ages</value>
+  </data>
+  <data name="Chapter_Kepler" xml:space="preserve">
+    <value>Kepler's laws</value>
+  </data>
+  <data name="Chapter_Lenses" xml:space="preserve">
+    <value>Lenses, eye and camera</value>
+  </data>
+  <data name="Chapter_Lightning" xml:space="preserve">
+    <value>Lightning and static</value>
+  </data>
+  <data name="Chapter_Moon_Phases" xml:space="preserve">
+    <value>Moon phases</value>
+  </data>
+  <data name="Chapter_Number" xml:space="preserve">
+    <value>Chapter {0}</value>
+  </data>
+  <data name="Chapter_Oscillations" xml:space="preserve">
+    <value>Pendulum and spring</value>
+  </data>
+  <data name="Chapter_Placeholder" xml:space="preserve">
+    <value>This chapter is on its way into the book. Its pictures, lessons and narration will appear here soon.</value>
+  </data>
+  <data name="Chapter_Power_Grid" xml:space="preserve">
+    <value>Generator and grid</value>
+  </data>
+  <data name="Chapter_Projectile" xml:space="preserve">
+    <value>Projectile motion</value>
+  </data>
+  <data name="Chapter_Rainbow" xml:space="preserve">
+    <value>Refraction and rainbows</value>
+  </data>
+  <data name="Chapter_Relativity" xml:space="preserve">
+    <value>Special relativity</value>
+  </data>
+  <data name="Chapter_Retrograde" xml:space="preserve">
+    <value>Retrograde motion</value>
+  </data>
+  <data name="Chapter_Sea_Breeze" xml:space="preserve">
+    <value>Sea and land breezes</value>
+  </data>
+  <data name="Chapter_Seasons" xml:space="preserve">
+    <value>Seasons</value>
+  </data>
+  <data name="Chapter_Solar_System" xml:space="preserve">
+    <value>Solar System</value>
+  </data>
+  <data name="Chapter_Sound" xml:space="preserve">
+    <value>Sound and instruments</value>
+  </data>
+  <data name="Chapter_Spectra" xml:space="preserve">
+    <value>Atoms and spectra</value>
+  </data>
+  <data name="Chapter_Star_Life" xml:space="preserve">
+    <value>Life of a star</value>
+  </data>
+  <data name="Chapter_Star_Trails" xml:space="preserve">
+    <value>Star trails</value>
+  </data>
+  <data name="Chapter_Tides" xml:space="preserve">
+    <value>Tides</value>
+  </data>
+  <data name="Chapter_Typhoon" xml:space="preserve">
+    <value>Typhoons</value>
+  </data>
+  <data name="Chapter_Volcanoes" xml:space="preserve">
+    <value>Volcanoes and rocks</value>
+  </data>
+  <data name="Chapter_Water_Cycle" xml:space="preserve">
+    <value>Water cycle</value>
+  </data>
+  <data name="Chapter_Waves" xml:space="preserve">
+    <value>Interference and Doppler</value>
+  </data>
+  <data name="Contents_Title" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="Cover_Open" xml:space="preserve">
+    <value>Open the book</value>
+  </data>
+  <data name="Cover_Tagline" xml:space="preserve">
+    <value>34 interactive chapters, read aloud in English and Chinese</value>
+  </data>
+  <data name="Credits_Code" xml:space="preserve">
+    <value>Code: MIT licence.</value>
+  </data>
+  <data name="Credits_Fonts" xml:space="preserve">
+    <value>Fonts: Noto Sans SC, SIL Open Font License 1.1.</value>
+  </data>
+  <data name="Credits_Maps" xml:space="preserve">
+    <value>Maps: Natural Earth, public domain.</value>
+  </data>
+  <data name="Credits_Narration" xml:space="preserve">
+    <value>Narration: generated with an openly licensed text-to-speech model; see THIRD-PARTY-NOTICES.md.</value>
+  </data>
+  <data name="Credits_Title" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="Diagram_Placeholder" xml:space="preserve">
+    <value>Interactive picture coming soon</value>
+  </data>
+  <data name="HowTo_Contents" xml:space="preserve">
+    <value>Lost your place? The Contents button takes you back to the table of contents.</value>
+  </data>
+  <data name="HowTo_Explore" xml:space="preserve">
+    <value>Each chapter is one spread: read on the left, explore on the right. Click anything in a picture to find out what it is.</value>
+  </data>
+  <data name="HowTo_Listen" xml:space="preserve">
+    <value>Every lesson can be read aloud. Switch between English and Chinese at the top at any time.</value>
+  </data>
+  <data name="HowTo_Title" xml:space="preserve">
+    <value>How to read this book</value>
+  </data>
+  <data name="HowTo_Turn" xml:space="preserve">
+    <value>Turn a page: drag the outer edge of a page, click it, or press the left and right arrow keys.</value>
+  </data>
+  <data name="Title_Edition" xml:space="preserve">
+    <value>First edition, still being written</value>
+  </data>
+  <data name="Title_License" xml:space="preserve">
+    <value>Free and open source under the MIT licence.</value>
+  </data>
+  <data name="Toolbar_Contents" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="Toolbar_Next" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="Toolbar_Previous" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="Toolbar_SwitchLanguage" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Toolbar_SwitchLanguage_Tip" xml:space="preserve">
+    <value>Read in Chinese</value>
+  </data>
+  <data name="Volume_Chemistry" xml:space="preserve">
+    <value>Chemistry</value>
+  </data>
+  <data name="Volume_Earth" xml:space="preserve">
+    <value>Our Earth</value>
+  </data>
+  <data name="Volume_Part" xml:space="preserve">
+    <value>Part {0}</value>
+  </data>
+  <data name="Volume_Physics" xml:space="preserve">
+    <value>Physics</value>
+  </data>
+  <data name="Volume_Sky" xml:space="preserve">
+    <value>The Sky</value>
+  </data>
+</root>

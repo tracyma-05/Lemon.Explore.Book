@@ -1,0 +1,43 @@
+/* The page behind the canvas, and the splash shown while the .NET runtime downloads. */
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #2A1D15;
+}
+
+#out {
+    height: 100%;
+}
+
+.splash {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: linear-gradient(135deg, #22345C, #0E1630);
+    color: #E9C46A;
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    pointer-events: none;
+}
+
+.splash h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.splash p {
+    margin: 0;
+    color: #E6EAF2;
+    opacity: 0.8;
+}
+
+.splash.splash-close {
+    transition: opacity 200ms, display 200ms;
+    display: none;
+    opacity: 0;
+}

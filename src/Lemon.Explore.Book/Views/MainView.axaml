@@ -1,0 +1,50 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:Lemon.Explore.Book.ViewModels"
+             xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
+             xmlns:pageViews="using:Lemon.Explore.Book.Views.Pages"
+             xmlns:controls="using:Lemon.Explore.Book.Controls"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
+             x:Class="Lemon.Explore.Book.Views.MainView"
+             x:DataType="vm:MainViewModel"
+             Background="#2A1D15">
+
+    <!-- One view per page type; BookView's presenters pick them up from here. -->
+    <UserControl.DataTemplates>
+        <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
+        <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
+        <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>
+        <DataTemplate DataType="pages:ContentsPageViewModel"><pageViews:ContentsPageView /></DataTemplate>
+        <DataTemplate DataType="pages:ChapterTextPageViewModel"><pageViews:ChapterTextPageView /></DataTemplate>
+        <DataTemplate DataType="pages:ChapterDiagramPageViewModel"><pageViews:ChapterDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="pages:CreditsPageViewModel"><pageViews:CreditsPageView /></DataTemplate>
+        <DataTemplate DataType="pages:BackCoverPageViewModel"><pageViews:BackCoverPageView /></DataTemplate>
+    </UserControl.DataTemplates>
+
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Classes="toolbar">
+            <Grid ColumnDefinitions="*,Auto">
+                <TextBlock Classes="toolbarTitle" Text="{loc:Localize App_Title}" />
+                <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6">
+                    <Button Content="&#x2039;" Click="OnPreviousClick"
+                            ToolTip.Tip="{loc:Localize Toolbar_Previous}"
+                            AutomationProperties.Name="{loc:Localize Toolbar_Previous}" />
+                    <Button Content="&#x203A;" Click="OnNextClick"
+                            ToolTip.Tip="{loc:Localize Toolbar_Next}"
+                            AutomationProperties.Name="{loc:Localize Toolbar_Next}" />
+                    <Button Content="{loc:Localize Toolbar_Contents}" Command="{Binding GoToContentsCommand}" />
+                    <Button Content="{loc:Localize Toolbar_SwitchLanguage}" Command="{Binding SwitchLanguageCommand}"
+                            ToolTip.Tip="{loc:Localize Toolbar_SwitchLanguage_Tip}" />
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <controls:BookView x:Name="Book"
+                           Pages="{Binding Pages}"
+                           PageIndex="{Binding PageIndex}"
+                           AnimatesTurns="{Binding AnimatesTurns}" />
+    </DockPanel>
+</UserControl>

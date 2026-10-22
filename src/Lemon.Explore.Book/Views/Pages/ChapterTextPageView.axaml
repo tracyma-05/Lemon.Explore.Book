@@ -1,0 +1,19 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Views.Pages.ChapterTextPageView"
+             x:DataType="pages:ChapterTextPageViewModel">
+    <Grid RowDefinitions="Auto,Auto,Auto,*,Auto" Margin="56,44,56,20">
+        <TextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+        <TextBlock Grid.Row="1" Classes="chapterNumber" Text="{Binding NumberLabel}" />
+        <TextBlock Grid.Row="2" Classes="pageTitle" Text="{Binding Title}" />
+
+        <Border Grid.Row="3" VerticalAlignment="Top" Padding="18,14" CornerRadius="8" Background="#0FB5532E"
+                BorderBrush="#33B5532E" BorderThickness="1">
+            <TextBlock Classes="body" Text="{loc:Localize Chapter_Placeholder}" />
+        </Border>
+
+        <TextBlock Grid.Row="4" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</UserControl>

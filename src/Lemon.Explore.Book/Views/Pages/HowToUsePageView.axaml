@@ -1,0 +1,28 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Views.Pages.HowToUsePageView"
+             x:DataType="pages:HowToUsePageViewModel">
+    <ScrollViewer Padding="56,48,56,32">
+        <StackPanel Spacing="18" MaxWidth="560">
+            <TextBlock Classes="pageTitle" Text="{loc:Localize HowTo_Title}" />
+            <Grid ColumnDefinitions="28,*">
+                <Ellipse Width="10" Height="10" Fill="{StaticResource AccentBrush}" VerticalAlignment="Top" Margin="0,9,0,0" />
+                <TextBlock Grid.Column="1" Classes="body" Text="{loc:Localize HowTo_Turn}" />
+            </Grid>
+            <Grid ColumnDefinitions="28,*">
+                <Ellipse Width="10" Height="10" Fill="{StaticResource AccentBrush}" VerticalAlignment="Top" Margin="0,9,0,0" />
+                <TextBlock Grid.Column="1" Classes="body" Text="{loc:Localize HowTo_Explore}" />
+            </Grid>
+            <Grid ColumnDefinitions="28,*">
+                <Ellipse Width="10" Height="10" Fill="{StaticResource AccentBrush}" VerticalAlignment="Top" Margin="0,9,0,0" />
+                <TextBlock Grid.Column="1" Classes="body" Text="{loc:Localize HowTo_Listen}" />
+            </Grid>
+            <Grid ColumnDefinitions="28,*">
+                <Ellipse Width="10" Height="10" Fill="{StaticResource AccentBrush}" VerticalAlignment="Top" Margin="0,9,0,0" />
+                <TextBlock Grid.Column="1" Classes="body" Text="{loc:Localize HowTo_Contents}" />
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

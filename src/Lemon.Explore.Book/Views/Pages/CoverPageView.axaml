@@ -1,0 +1,31 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
+             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             x:Class="Lemon.Explore.Book.Views.Pages.CoverPageView"
+             x:DataType="pages:CoverPageViewModel"
+             Background="{StaticResource CoverBrush}">
+    <Grid>
+        <!-- Decoration only: a sun with three orbits behind the title. -->
+        <Viewbox Stretch="Uniform" Margin="36" Opacity="0.5" IsHitTestVisible="False">
+            <Canvas Width="400" Height="400">
+                <Ellipse Canvas.Left="40" Canvas.Top="40" Width="320" Height="320" Stroke="#E9C46A" StrokeThickness="1" StrokeDashArray="4,6" />
+                <Ellipse Canvas.Left="95" Canvas.Top="95" Width="210" Height="210" Stroke="#E9C46A" StrokeThickness="1" />
+                <Ellipse Canvas.Left="145" Canvas.Top="145" Width="110" Height="110" Stroke="#E9C46A" StrokeThickness="1" StrokeDashArray="2,4" />
+                <Ellipse Canvas.Left="182" Canvas.Top="182" Width="36" Height="36" Fill="#E9C46A" />
+                <Ellipse Canvas.Left="290" Canvas.Top="118" Width="14" Height="14" Fill="#7FB3D5" />
+                <Ellipse Canvas.Left="66" Canvas.Top="250" Width="20" Height="20" Fill="#E07A5F" />
+                <Ellipse Canvas.Left="236" Canvas.Top="243" Width="9" Height="9" Fill="#F4F1DE" />
+            </Canvas>
+        </Viewbox>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="16" Margin="40" MaxWidth="460">
+            <TextBlock Classes="coverTitle" Text="{loc:Localize Book_Title}" />
+            <TextBlock Classes="coverText" Text="{loc:Localize Book_Subtitle}" />
+            <TextBlock Classes="coverText" Opacity="0.75" FontSize="14" Text="{loc:Localize Cover_Tagline}" />
+            <Button Classes="coverOpen" Margin="0,18,0,0"
+                    Content="{loc:Localize Cover_Open}"
+                    Command="{Binding OpenCommand}" />
+        </StackPanel>
+    </Grid>
+</UserControl>
