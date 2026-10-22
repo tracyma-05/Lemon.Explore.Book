@@ -94,6 +94,10 @@ def apply_namespaces(s: str, namespace: str, source_prefix: str, maps: list[str]
     s = re.sub(r"using static [\w.]+\.EclipseDrawing;", f"using static {TARGET_ROOT}.Controls.Space.SpaceDrawing;", s)
     s = s.replace("EclipseDrawing", "SpaceDrawing")
     s = re.sub(r"\bControls\.\w+\.SpaceDrawing\.", "SpaceDrawing.", s)
+    # Names qualified relative to the original's root (nameof(Controls.SeaBreeze.CellTime.Day)): the mapped namespace.
+    for mapping in maps:
+        old, _, new = mapping.partition("=")
+        s = re.sub(rf"(?<![\w.]){re.escape(old)}\.", f"{new}.", s)
     s = s.replace(f"using {namespace};\n", "")
     # Two source namespaces can map to one (e.g. the solar-system and eclipse helpers): keep each using once.
     seen: set[str] = set()
@@ -360,7 +364,182 @@ def convert_late(s: str) -> str:
 
     # SpaceDrawing.Freeze(new LinearGradientBrush(...)) becomes SpaceDrawing.SpaceDrawing.LinearGradient(...).
     s = s.replace("SpaceDrawing.SpaceDrawing.", "SpaceDrawing.")
+    s = rewrite_visual_bitmaps(s)
+    s = rewrite_initialized_gradients(s)
+    s = rewrite_frozen_pens(s)
+    s = rewrite_static_calls(s, "Rect.Union", lambda a: f"{a[0]}.Union({a[1]})" if len(a) == 2 else None)
     return s
+
+
+def _relative_point(expr: str, unit: str) -> str:
+    point = re.fullmatch(r"new Point\((.*)\)", expr.strip(), re.S)
+    if point and len(split_top(point.group(1))) == 2:
+        return f"new RelativePoint({point.group(1)}, RelativeUnit.{unit})"
+    return f"new RelativePoint({expr}, RelativeUnit.{unit})"
+
+
+def _initializer(text: str, start: int) -> tuple[dict[str, str], int] | None:
+    """The `{ Name = value, ... }` right after start (whitespace allowed), and the index after it."""
+    j = start
+    while j < len(text) and text[j] in " \t\r\n":
+        j += 1
+    if j >= len(text) or text[j] != "{":
+        return None
+    close = match_bracket(text, j)
+    entries = {}
+    for entry in split_top(text[j + 1:close]):
+        name, eq, value = entry.partition("=")
+        if not eq or not re.fullmatch(r"\s*\w+\s*", name):
+            return None
+        entries[name.strip()] = value.strip()
+    return entries, close + 1
+
+
+def rewrite_initialized_gradients(text: str) -> str:
+    """
+    Gradient brushes set up with an object initializer (MappingMode, StartPoint/EndPoint, Center, GradientOrigin,
+    RadiusX/RadiusY), frozen or not, become immutable gradient brushes with those as relative or absolute points.
+    """
+    out, i = [], 0
+    pattern = re.compile(r"(Freeze\()?new (Linear|Radial)GradientBrush\(")
+    while (m := pattern.search(text, i)) is not None:
+        close = match_bracket(text, m.end() - 1)
+        found = _initializer(text, close + 1)
+        if found is None:
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        entries, end = found
+        if m.group(1):
+            rest = text[end:].lstrip()
+            if not rest.startswith(")"):
+                out.append(text[i:m.end()])
+                i = m.end()
+                continue
+            end = len(text) - len(rest) + 1
+        args = split_top(text[m.end():close])
+        try:
+            if args and args[0].startswith("["):
+                stops = [split_top(st[1:-1]) for st in _stops(args[0][1:-1])]
+            elif m.group(2) == "Linear" and len(args) == 3:
+                stops = [[args[0], "0"], [args[1], "1"]]
+            elif m.group(2) == "Radial" and len(args) == 2:
+                stops = [[args[0], "0"], [args[1], "1"]]
+            else:
+                raise ValueError(args)
+        except ValueError:
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        unit = "Absolute" if entries.pop("MappingMode", "").endswith("Absolute") else "Relative"
+        line_start = text.rfind("\n", 0, m.start()) + 1
+        indent = re.match(r"[ \t]*", text[line_start:]).group(0)
+        named = []
+        if m.group(2) == "Linear":
+            known = {"StartPoint": "startPoint", "EndPoint": "endPoint"}
+            for key, name in known.items():
+                if key in entries:
+                    named.append(f"{name}: {_relative_point(entries.pop(key), unit)}")
+            brush = "ImmutableLinearGradientBrush"
+        else:
+            for key, name in {"Center": "center", "GradientOrigin": "gradientOrigin"}.items():
+                if key in entries:
+                    named.append(f"{name}: {_relative_point(entries.pop(key), unit)}")
+            for key, name in {"RadiusX": "radiusX", "RadiusY": "radiusY"}.items():
+                named.append(f"{name}: new RelativeScalar({entries.pop(key, '0.5')}, RelativeUnit.{unit})")
+            brush = "ImmutableRadialGradientBrush"
+        if entries:  # something else set up: by hand
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        stop_lines = "".join(f"{indent}    new ImmutableGradientStop({o}, {c}),\n" for c, o in stops)
+        out.append(text[i:m.start()])
+        out.append(f"new {brush}(\n{indent}[\n{stop_lines}{indent}],\n{indent}    " + f",\n{indent}    ".join(named) + ")")
+        i = end
+    out.append(text[i:])
+    return "".join(out)
+
+
+VISUAL = re.compile(
+    r"(?P<i>[ \t]*)var (?P<v>\w+) = new DrawingVisual\(\);\n[ \t]*using \(var (?P<c>\w+) = (?P=v)\.RenderOpen\(\)\)\s*")
+TARGET = re.compile(r"\s*(?P<lhs>(?:var )?(?P<name>[\w.]+)) = new RenderTargetBitmap\(")
+
+
+def rewrite_visual_bitmaps(text: str) -> str:
+    """
+    A DrawingVisual drawn into and rendered to a RenderTargetBitmap:
+        var visual = new DrawingVisual(); using (var dc = visual.RenderOpen()) {…}
+        bitmap = new RenderTargetBitmap(w, h, dpiX, dpiY, PixelFormats.Pbgra32); bitmap.Render(visual);
+    becomes bitmap = SpaceDrawing.RenderPixels(w, h, dpiX, dc => {…});
+    """
+    out, i = [], 0
+    while (m := VISUAL.search(text, i)) is not None:
+        start = m.end()
+        if text[start] == "{":
+            body_end = match_bracket(text, start) + 1
+            body = text[start:body_end]
+        else:
+            body_end = text.index(";\n", start) + 1
+            body = text[start:body_end - 1]
+        t = TARGET.match(text, body_end)
+        if t is None:
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        close = match_bracket(text, t.end() - 1)
+        args = split_top(text[t.end():close])
+        render = re.compile(rf";\s*\n[ \t]*{re.escape(t['name'])}\.Render\({m['v']}\);\n").match(text, close + 1)
+        if len(args) != 5 or render is None:
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        out.append(text[i:m.start()])
+        out.append(f"{m['i']}{t['lhs'].strip()} = SpaceDrawing.RenderPixels({args[0]}, {args[1]}, {args[2]}, {m['c']} =>"
+                   + (f"\n{m['i']}{body});\n" if body.startswith("{") else f" {body});\n"))
+        i = render.end()
+    out.append(text[i:])
+    return "".join(out)
+
+
+def rewrite_frozen_pens(text: str) -> str:
+    """Freeze(new Pen(brush, width)) and Freeze(new Pen(brush, width) { DashStyle = … }): immutable pens."""
+    out, i = [], 0
+    pattern = re.compile(r"Freeze\(new Pen\(")
+    while (m := pattern.search(text, i)) is not None:
+        close = match_bracket(text, m.end() - 1)
+        args = split_top(text[m.end():close])
+        found = _initializer(text, close + 1)
+        entries, end = found if found else ({}, close + 1)
+        rest = text[end:].lstrip()
+        dash = entries.pop("DashStyle", None)
+        if len(args) != 2 or entries or not rest.startswith(")"):
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        end = len(text) - len(rest) + 1
+        dash_style = dash.replace("new DashStyle(", "new ImmutableDashStyle(") if dash else None
+        out.append(text[i:m.start()])
+        out.append(f"new ImmutablePen(((IBrush){args[0]}).ToImmutable(), {args[1]}" + (f", {dash_style}" if dash_style else "") + ")")
+        i = end
+    out.append(text[i:])
+    return "".join(out)
+
+
+def rewrite_static_calls(text: str, name: str, build) -> str:
+    """Rewrites each call of name(...) whose arguments build accepts (it returns None to leave one)."""
+    out, i = [], 0
+    pattern = re.compile(rf"\b{re.escape(name)}\(")
+    while (m := pattern.search(text, i)) is not None:
+        close = match_bracket(text, m.end() - 1)
+        replacement = build(split_top(text[m.end():close]))
+        if replacement is None:
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        out.append(text[i:m.start()] + replacement)
+        i = close + 1
+    out.append(text[i:])
+    return "".join(out)
 
 
 def convert_recurring(s: str) -> str:
@@ -626,7 +805,9 @@ def convert_points(s: str) -> str:
             s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
-    s = re.sub(r"^(\s*)(\w+)\.([XY]) = (.+);$", lambda m: f"{m.group(1)}{m.group(2)} = {m.group(2)}.With{m.group(3)}({m.group(4)});", s, flags=re.M)
+    # (also after an `if (...)` on the same line)
+    s = re.sub(r"^(\s*(?:if \((?:[^()\n]|\([^()\n]*\))*\) )?)(\w+)\.([XY]) = (.+);$",
+               lambda m: f"{m.group(1)}{m.group(2)} = {m.group(2)}.With{m.group(3)}({m.group(4)});", s, flags=re.M)
     s = s.replace("return Geometry.Empty;", "return null;")
     s = re.sub(r"!(\w+)\.IsEmpty\(\)", r"\1 is not null", s)
     s = re.sub(r"(\w+)\.IsEmpty\(\)", r"\1 is null", s)

@@ -1,0 +1,93 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:water="using:Lemon.Explore.Book.Chapters.WaterCycle"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.WaterCycle.WaterCycleDiagramPageView"
+                         x:DataType="water:WaterCycleDiagramPageViewModel">
+    <!-- Right page of the Water cycle spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <water:WaterCycleDiagram Mode="{Binding Water.Mode}"
+                                         Warming="{Binding Water.Warming}"
+                                         SelectedProcess="{Binding Water.SelectedProcess, Mode=TwoWay}"
+                                         ShowLabels="{Binding Water.ShowLabels}"
+                                         FollowDrop="{Binding Water.FollowDrop}"
+                                         Route="{Binding Water.Route}"
+                                         LegIndex="{Binding Water.LegIndex, Mode=TwoWay}"
+                                         Lift="{Binding Water.Lift}"
+                                         GroundTemperature="{Binding Water.GroundTemperature}"
+                                         Humidity="{Binding Water.HumidityShare}"
+                                         StoresView="{Binding Water.StoresView}"
+                                         Speed="{Binding Water.Speed}"
+                                         IsPlaying="{Binding Water.IsPlaying, Mode=TwoWay}"
+                                         Time="{Binding Water.Time, Mode=TwoWay}"
+                                         RestartCount="{Binding Water.RestartCount}"
+                                         ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                         Highlight="{Binding Water.Lesson.Highlight}"
+                                         IsLessonActive="{Binding Water.Lesson.IsActive}"
+                                         SelectedObject="{Binding Water.Card.Id, Mode=TwoWay}"
+                                         InteractionCommand="{Binding Water.UserInteractedCommand}"
+                                         ToolTip.Tip="{Binding Water.Hint}"
+                                         AutomationProperties.Name="{Binding Water.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Water.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Water.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Water.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Water.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Water_PlayPause}" AutomationProperties.Name="{loc:Localize Water_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Water.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Water.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <Button Classes="space" Command="{Binding Water.RestartCommand}"
+                                    ToolTip.Tip="{loc:Localize Water_Restart}" AutomationProperties.Name="{loc:Localize Water_Restart}">
+                                <PathIcon Data="{StaticResource Icon.Restart}" />
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Water_Speed}">
+                                <RadioButton Classes="space speed" GroupName="WaterSpeed" Content="½×" IsChecked="{Binding Water.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="WaterSpeed" Content="1×" IsChecked="{Binding Water.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="WaterSpeed" Content="2×" IsChecked="{Binding Water.SpeedChoice[2]}" />
+                                <RadioButton Classes="space speed" GroupName="WaterSpeed" Content="4×" IsChecked="{Binding Water.SpeedChoice[4]}" />
+                            </StackPanel>
+                            <!-- The cloud view: the timeline of the parcel's way -->
+                            <StackPanel Orientation="Horizontal" IsVisible="{Binding Water.IsCloud}">
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Water.Duration}" Value="{Binding Water.Time}" SmallChange="0.1" LargeChange="1"
+                                        ToolTip.Tip="{loc:Localize Water_Timeline}" AutomationProperties.Name="{loc:Localize Water_Timeline}" />
+                                <TextBlock MinWidth="130" Margin="6,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Water.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -175,6 +175,24 @@ internal static class SpaceDrawing
         return bitmap;
     }
 
+    /// <summary>
+    /// Draws once, in DIPs, into a bitmap of <paramref name="pixelWidth"/> × <paramref name="pixelHeight"/> pixels at
+    /// <paramref name="dpi"/> (96 for one pixel per DIP): WPF's RenderTargetBitmap of a DrawingVisual.
+    /// </summary>
+    public static RenderTargetBitmap RenderPixels(int pixelWidth, int pixelHeight, double dpi, Action<PaintContext> draw)
+    {
+        var scale = dpi / 96;
+        var bitmap = new RenderTargetBitmap(new PixelSize(Math.Max(1, pixelWidth), Math.Max(1, pixelHeight)), new Vector(96, 96));
+        using (var context = bitmap.CreateDrawingContext(true))
+        using (var dc = new PaintContext(context))
+        {
+            dc.PushTransform(Matrix.CreateScale(scale, scale));
+            draw(dc);
+        }
+
+        return bitmap;
+    }
+
     private static unsafe void WritePixels(WriteableBitmap bitmap, ReadOnlySpan<uint> pixels, int width, int height)
     {
         using var buffer = bitmap.Lock();

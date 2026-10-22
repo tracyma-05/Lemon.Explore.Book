@@ -10,6 +10,7 @@ using Lemon.Explore.Book.Chapters.SolarSystem;
 using Lemon.Explore.Book.Chapters.StarLife;
 using Lemon.Explore.Book.Chapters.StarTrails;
 using Lemon.Explore.Book.Chapters.Tides;
+using Lemon.Explore.Book.Chapters.WaterCycle;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.Contents;
@@ -21,7 +22,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -122,6 +123,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, expansion.Lesson, () => expansion.Mode.ToString(), Enum.GetNames<ExpansionMode>());
                 return (new ExpansionTextPageViewModel(textPage, navigator, chapter, number, expansion),
                     new ExpansionDiagramPageViewModel(textPage + 1, navigator, chapter, expansion));
+            }
+
+            case "Water-Cycle":
+            {
+                var water = new WaterCycleViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, water.Lesson, () => water.Mode.ToString(), Enum.GetNames<WaterMode>());
+                return (new WaterCycleTextPageViewModel(textPage, navigator, chapter, number, water),
+                    new WaterCycleDiagramPageViewModel(textPage + 1, navigator, chapter, water));
             }
 
             default:

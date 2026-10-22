@@ -1,0 +1,190 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:water="using:Lemon.Explore.Book.Chapters.WaterCycle"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.WaterCycle.WaterCycleTextPageView"
+                         x:DataType="water:WaterCycleTextPageViewModel">
+    <!-- Left page of the Water cycle spread: the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Water.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Water.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Water.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="WaterMode" IsChecked="{Binding Water.IsCycle}" Content="{loc:Localize Water_Mode_Cycle}" />
+                    <RadioButton Classes="chip" GroupName="WaterMode" IsChecked="{Binding Water.IsCloud}" Content="{loc:Localize Water_Mode_Cloud}" />
+                    <RadioButton Classes="chip" GroupName="WaterMode" IsChecked="{Binding Water.IsStores}" Content="{loc:Localize Water_Mode_Stores}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Water.Card}" />
+
+                <!-- The cycle: the way of moving to light up, the followed drop, a warmer world -->
+                <StackPanel IsVisible="{Binding Water.IsCycle}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Process_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[None]}" Content="{loc:Localize Water_Process_None}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Evaporation]}" Content="{loc:Localize Water_Process_Evaporation}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Transpiration]}" Content="{loc:Localize Water_Process_Transpiration}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Sublimation]}" Content="{loc:Localize Water_Process_Sublimation}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Transport]}" Content="{loc:Localize Water_Process_Transport}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Condensation]}" Content="{loc:Localize Water_Process_Condensation}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Precipitation]}" Content="{loc:Localize Water_Process_Precipitation}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Snowmelt]}" Content="{loc:Localize Water_Process_Snowmelt}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Runoff]}" Content="{loc:Localize Water_Process_Runoff}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Infiltration]}" Content="{loc:Localize Water_Process_Infiltration}" />
+                        <RadioButton Classes="chip" GroupName="WaterProcess" IsChecked="{Binding Water.ProcessChoice[Groundwater]}" Content="{loc:Localize Water_Process_Groundwater}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Water.ShowLabels}" Content="{loc:Localize Water_Option_Labels}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Water.FollowDrop}" Content="{loc:Localize Water_Option_FollowDrop}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Water.FollowDrop}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Route_Caption}" />
+                        <WrapPanel>
+                            <RadioButton Classes="chip" GroupName="WaterRoute" IsChecked="{Binding Water.RouteChoice[River]}" Content="{loc:Localize Water_Route_River}" />
+                            <RadioButton Classes="chip" GroupName="WaterRoute" IsChecked="{Binding Water.RouteChoice[Snow]}" Content="{loc:Localize Water_Route_Snow}" />
+                            <RadioButton Classes="chip" GroupName="WaterRoute" IsChecked="{Binding Water.RouteChoice[Ground]}" Content="{loc:Localize Water_Route_Ground}" />
+                            <RadioButton Classes="chip" GroupName="WaterRoute" IsChecked="{Binding Water.RouteChoice[Tree]}" Content="{loc:Localize Water_Route_Tree}" />
+                            <RadioButton Classes="chip" GroupName="WaterRoute" IsChecked="{Binding Water.RouteChoice[Sea]}" Content="{loc:Localize Water_Route_Sea}" />
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Water.WarmingText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Water_Warming}" />
+                    </DockPanel>
+                    <Slider Minimum="-4" Maximum="4" Value="{Binding Water.Warming}" SmallChange="0.5" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="0.5" AutomationProperties.Name="{loc:Localize Water_Warming}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Water.SetWarmingCommand}" CommandParameter="-3" Content="−3 °C" />
+                        <Button Classes="chip" Command="{Binding Water.SetWarmingCommand}" CommandParameter="0" Content="{loc:Localize Water_Warming_Today}" />
+                        <Button Classes="chip" Command="{Binding Water.SetWarmingCommand}" CommandParameter="1.5" Content="+1.5 °C" />
+                        <Button Classes="chip" Command="{Binding Water.SetWarmingCommand}" CommandParameter="4" Content="+4 °C" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Chart_Vapour_Caption}" />
+                    <Border Classes="plate" Height="180">
+                        <water:VapourChart Warming="{Binding Water.Warming}" AutomationProperties.Name="{loc:Localize Water_Chart_Vapour_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Water_Chart_Vapour_Note}" />
+                </StackPanel>
+
+                <!-- The cloud: what lifts the air, and the air itself -->
+                <StackPanel IsVisible="{Binding Water.IsCloud}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Lift_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="WaterLift" IsChecked="{Binding Water.LiftChoice[Thermal]}" Content="{loc:Localize Water_Lift_Thermal}" />
+                        <RadioButton Classes="chip" GroupName="WaterLift" IsChecked="{Binding Water.LiftChoice[Mountain]}" Content="{loc:Localize Water_Lift_Mountain}" />
+                        <RadioButton Classes="chip" GroupName="WaterLift" IsChecked="{Binding Water.LiftChoice[Front]}" Content="{loc:Localize Water_Lift_Front}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Water.GroundTemperatureText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Water_GroundTemperature}" />
+                    </DockPanel>
+                    <Slider Minimum="-10" Maximum="35" Value="{Binding Water.GroundTemperature}" SmallChange="1" LargeChange="5"
+                            IsSnapToTickEnabled="True" TickFrequency="1" AutomationProperties.Name="{loc:Localize Water_GroundTemperature}" />
+                    <DockPanel Margin="0,10,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Water.HumidityText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Water_Humidity}" />
+                    </DockPanel>
+                    <Slider Minimum="10" Maximum="100" Value="{Binding Water.HumidityPercent}" SmallChange="1" LargeChange="10"
+                            IsSnapToTickEnabled="True" TickFrequency="1" AutomationProperties.Name="{loc:Localize Water_Humidity}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Chart_Parcel_Caption}" />
+                    <Border Classes="plate" Height="220">
+                        <water:ParcelChart Lift="{Binding Water.Lift}"
+                                           GroundTemperature="{Binding Water.GroundTemperature}"
+                                           Humidity="{Binding Water.HumidityShare}"
+                                           Time="{Binding Water.Time}"
+                                           AutomationProperties.Name="{loc:Localize Water_Chart_Parcel_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Water_Chart_Parcel_Note}" />
+                </StackPanel>
+
+                <!-- The stores: the picture, and the litre -->
+                <StackPanel IsVisible="{Binding Water.IsStores}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_StoresView_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="WaterStores" IsChecked="{Binding Water.StoresViewChoice[Spheres]}" Content="{loc:Localize Water_StoresView_Spheres}" />
+                        <RadioButton Classes="chip" GroupName="WaterStores" IsChecked="{Binding Water.StoresViewChoice[Flows]}" Content="{loc:Localize Water_StoresView_Flows}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Chart_Litre_Caption}" />
+                    <Border Classes="plate" Height="250" Padding="6,6,6,2">
+                        <water:LitreChart AutomationProperties.Name="{loc:Localize Water_Chart_Litre_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Water_Chart_Litre_Note}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Water.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Water.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Water.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Water.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Water_Facts}" />
+                <ItemsControl ItemsSource="{Binding Water.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -18,6 +18,7 @@
         <StreamGeometry x:Key="Icon.Pause">M6,5 H10 V19 H6 Z M14,5 H18 V19 H14 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Previous">M6,5 H8 V19 H6 Z M19,5 V19 L9,12 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Next">M16,5 H18 V19 H16 Z M5,5 V19 L15,12 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Restart">M12,5 A7,7 0 1 0 19,12 H17 A5,5 0 1 1 12,7 V10 L16,6 L12,2 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Close">M5.6,4.2 L12,10.6 L18.4,4.2 L19.8,5.6 L13.4,12 L19.8,18.4 L18.4,19.8 L12,13.4 L5.6,19.8 L4.2,18.4 L10.6,12 L4.2,5.6 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Check">M9,16.2 L4.8,12 L3.4,13.4 L9,19 L21,7 L19.6,5.6 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Voice">M3,9 H7 L12,4 V20 L7,15 H3 Z M15,7 A6,6 0 0 1 15,17 L15,15 A4,4 0 0 0 15,9 Z</StreamGeometry>

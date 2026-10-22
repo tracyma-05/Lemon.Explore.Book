@@ -5514,6 +5514,192 @@
   <data name="Narr_Trails_Year_08" xml:space="preserve">
     <value>该你来试试了。拖着地球绕太阳转，或者选一个日期，看看傍晚的天空里有哪些星座。</value>
   </data>
+  <data name="Narr_Water_Cloud_01" xml:space="preserve">
+    <value>云是怎么形成的？在一块被晒热的田野上方，一团空气被地面加热，像热气球一样自己往上升。</value>
+  </data>
+  <data name="Narr_Water_Cloud_02" xml:space="preserve">
+    <value>跟着这团空气走。它上升时，周围的气压降低，它就膨胀、变冷，每升高一千米大约冷 10 度。标签上写着它的温度和露点。</value>
+  </data>
+  <data name="Narr_Water_Cloud_03" xml:space="preserve">
+    <value>空气降温比露点下降快得多，所以两者越来越接近。当它们相等时，会发生什么？</value>
+  </data>
+  <data name="Narr_Water_Cloud_04" xml:space="preserve">
+    <value>形成了云：空气再也装不下所有的水汽，多出来的就凝结成小水滴。发生这件事的高度叫云底，就是夏天常见的云那平平的底部。</value>
+  </data>
+  <data name="Narr_Water_Cloud_05" xml:space="preserve">
+    <value>现在让空气更潮湿。它的露点一开始就离气温更近，更快就能冷到露点，所以云底低了很多。这就是闷热潮湿的日子里云压得很低的原因。</value>
+  </data>
+  <data name="Narr_Water_Cloud_06" xml:space="preserve">
+    <value>风也能把空气抬起来。空气被推上山，变冷，在迎风坡形成云并下雨。从另一侧下山时它又变暖，到达时比出发时更暖、更干。</value>
+  </data>
+  <data name="Narr_Water_Cloud_07" xml:space="preserve">
+    <value>还有一种情况：暖湿空气顺着一块又冷又重的冷空气爬上去。这就是锋面，它会带来大片的云和持续的雨。</value>
+  </data>
+  <data name="Narr_Water_Cloud_08" xml:space="preserve">
+    <value>轮到你了。在左页改一改地面温度或湿度，看看云底会落在多高。</value>
+  </data>
+  <data name="Narr_Water_Cycle_01" xml:space="preserve">
+    <value>这是水循环：左边是大海，右边是一座山。推动这一切的是太阳，是它的热量把水送上天空。</value>
+  </data>
+  <data name="Narr_Water_Cycle_02" xml:space="preserve">
+    <value>大部分水从海里出发。阳光晒暖海面，水蒸发成看不见的水汽。盐留在了海里，所以水汽是淡水。</value>
+  </data>
+  <data name="Narr_Water_Cycle_03" xml:space="preserve">
+    <value>植物也在送水上天。它们用根从土里吸水，再从叶子上的小气孔把它化作水汽散出去。</value>
+  </data>
+  <data name="Narr_Water_Cycle_04" xml:space="preserve">
+    <value>潮湿的空气上升时会变冷。冷空气装不下那么多水汽，一部分就凝结在尘埃和盐粒上，变成小水滴。这就是云。</value>
+  </data>
+  <data name="Narr_Water_Cycle_05" xml:space="preserve">
+    <value>风把潮湿的空气吹向大山。你觉得，空气被推上山坡时会发生什么？</value>
+  </data>
+  <data name="Narr_Water_Cycle_06" xml:space="preserve">
+    <value>空气被迫抬得更高，变得更冷，水滴越长越大，直到重得落下来：低处下的是雨，零度线以上下的是雪。</value>
+  </data>
+  <data name="Narr_Water_Cycle_07" xml:space="preserve">
+    <value>落在陆地上的雨，顺着山坡流进小溪和江河，回到大海。也有一些渗进地下，变成地下水，在岩石里慢慢地流。</value>
+  </data>
+  <data name="Narr_Water_Cycle_08" xml:space="preserve">
+    <value>到了山的背后，空气里的水大多已经落掉了，所以那一侧很少下雨。这叫雨影区，许多沙漠就在雨影区里。</value>
+  </data>
+  <data name="Narr_Water_Cycle_09" xml:space="preserve">
+    <value>现在跟着一滴水走：它从海里蒸发，随风飘移，落在山上，再顺着河流回家。标签会告诉你它正在做什么。</value>
+  </data>
+  <data name="Narr_Water_Cycle_10" xml:space="preserve">
+    <value>轮到你了。点一下图中任意一个标签，突出显示循环里的那一环，听听那里发生了什么。</value>
+  </data>
+  <data name="Narr_Water_Obj_Atmosphere" xml:space="preserve">
+    <value>大气里任何时候都只有很少一点水，大约是总量的十万分之一。它大约每 9 天就更新一遍。</value>
+  </data>
+  <data name="Narr_Water_Obj_BallAll" xml:space="preserve">
+    <value>地球上所有的水聚成的一个球，直径大约一千四百千米。其中几乎全部，大约百分之九十七，是咸的海水。</value>
+  </data>
+  <data name="Narr_Water_Obj_BallFreshLiquid" xml:space="preserve">
+    <value>所有的液态淡水，直径大约二百七十千米。其中大部分是地下水，湖泊和河流只占一小部分。</value>
+  </data>
+  <data name="Narr_Water_Obj_BallLakesRivers" xml:space="preserve">
+    <value>湖泊和河流里的水，聚成的球直径只有大约五十六千米。这是人们最容易使用的淡水。</value>
+  </data>
+  <data name="Narr_Water_Obj_CloudBase" xml:space="preserve">
+    <value>云底：上升的空气冷到露点的高度。粗略地说，地面上气温和露点每差 1 度，云底就高大约 125 米。</value>
+  </data>
+  <data name="Narr_Water_Obj_Condensation" xml:space="preserve">
+    <value>凝结。上升的空气冷到露点，水汽就凝结在尘埃、盐粒或烟粒上，变成小水滴，同时放出当初蒸发时从太阳那里得到的热量。</value>
+  </data>
+  <data name="Narr_Water_Obj_Drop" xml:space="preserve">
+    <value>你跟随的这滴水。它会按左页选好的路线，从海里出发再回到海里：经过河流、积雪、地下水、一棵树，或者直接落回海里。</value>
+  </data>
+  <data name="Narr_Water_Obj_Earth" xml:space="preserve">
+    <value>地球，直径大约一万两千七百千米。它的水薄薄地铺在表面上，所以看起来比实际多得多。</value>
+  </data>
+  <data name="Narr_Water_Obj_Evaporation" xml:space="preserve">
+    <value>蒸发。阳光让水面的水分子获得足够的能量，变成看不见的水汽逃到空中。全球大约六分之五的蒸发来自海洋。</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowLandEvaporation" xml:space="preserve">
+    <value>陆地的蒸发和蒸腾：来自土壤、湖泊，而最多的来自植物。</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowLandPrecipitation" xml:space="preserve">
+    <value>落在陆地上的雨雪。一部分来自海洋，一部分来自陆地本身蒸发和蒸腾出去的水。</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowOceanEvaporation" xml:space="preserve">
+    <value>海洋蒸发，所有水流中最大的一股：每年大约四十万立方千米的水。</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowOceanPrecipitation" xml:space="preserve">
+    <value>落在海洋上的雨雪。从海里蒸发的水，大部分又直接落回了海里。</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowRunoff" xml:space="preserve">
+    <value>经由河流和地下流回大海的水。它每年都和吹到陆地上空的水汽一样多，所以循环保持着平衡。</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowVapourToLand" xml:space="preserve">
+    <value>从海洋上空输送到陆地上空的水汽。正是它，让陆地有雨可下。</value>
+  </data>
+  <data name="Narr_Water_Obj_Freezing" xml:space="preserve">
+    <value>零度线：空气温度正好是零度的高度。在它上面，云里的水会冻成冰，落下来的就是雪。</value>
+  </data>
+  <data name="Narr_Water_Obj_Front" xml:space="preserve">
+    <value>锋面，暖湿空气和一块又冷又重的冷空气相遇的地方。暖空气顺着冷空气爬上去，变冷，形成大片的云。</value>
+  </data>
+  <data name="Narr_Water_Obj_Groundwater" xml:space="preserve">
+    <value>地下径流。在地下水面以下，水在岩石里慢慢流动，往往一年只走几米，流向河流、湖泊和大海。水井和泉水取的就是它。</value>
+  </data>
+  <data name="Narr_Water_Obj_Infiltration" xml:space="preserve">
+    <value>下渗。雨水渗进土壤，一部分留在土里供植物使用，其余的沿着岩石的缝隙继续往下渗，直到地下水面。</value>
+  </data>
+  <data name="Narr_Water_Obj_Land" xml:space="preserve">
+    <value>陆地上的水：冰盖和冰川、地下水、湖泊、土壤、河流，还有生物体内的水。其中冰最多，地下水紧随其后。</value>
+  </data>
+  <data name="Narr_Water_Obj_Leeward" xml:space="preserve">
+    <value>背风坡。上山时已经下过雨的空气，下山时比出发时更暖、更干，这就是焚风。</value>
+  </data>
+  <data name="Narr_Water_Obj_Oceans" xml:space="preserve">
+    <value>海洋装着地球上几乎所有的水。一个水分子平均要在海里待三千多年，才会被蒸发出去。</value>
+  </data>
+  <data name="Narr_Water_Obj_Parcel" xml:space="preserve">
+    <value>气块：我们跟着它上升的一团空气。里面淡淡的小点是水汽，一冷到露点，它们就变成白色的小水滴。</value>
+  </data>
+  <data name="Narr_Water_Obj_Precipitation" xml:space="preserve">
+    <value>降水。云滴相互合并，或者冰晶夺取云滴的水分长大，直到重得落下来：零度线以下是雨，以上是雪。</value>
+  </data>
+  <data name="Narr_Water_Obj_RainShadow" xml:space="preserve">
+    <value>雨影区：山的背风一侧。到这里的空气已经在另一侧下过雨了，所以这里很干燥。</value>
+  </data>
+  <data name="Narr_Water_Obj_Runoff" xml:space="preserve">
+    <value>地表径流。没有渗进地下、也没有蒸发掉的水顺坡流下，汇入小溪和江河，流进大海。一滴水在河里平均只待两三个星期。</value>
+  </data>
+  <data name="Narr_Water_Obj_SnowLine" xml:space="preserve">
+    <value>雪线：在它上面，山上的雪终年不化。世界变暖时，雪线会升高，能给河流补水的雪就少了。</value>
+  </data>
+  <data name="Narr_Water_Obj_Snowmelt" xml:space="preserve">
+    <value>融雪。积雪和冰川在冬天把水存起来，到春夏再放出来。很多大河夏天的水，大部分来自这里。</value>
+  </data>
+  <data name="Narr_Water_Obj_Sublimation" xml:space="preserve">
+    <value>升华。在干燥、晴朗、有风的天气里，冰雪可以不经融化直接变成水汽。在干燥的高山上，它能带走相当一部分积雪。</value>
+  </data>
+  <data name="Narr_Water_Obj_Sun" xml:space="preserve">
+    <value>太阳，水循环的发动机。它的热量让水蒸发，也搅动起把水汽带走的风。</value>
+  </data>
+  <data name="Narr_Water_Obj_Thermal" xml:space="preserve">
+    <value>被太阳晒热的田野。它把上面的空气加热，一团暖空气脱离地面往上升，这叫热泡。鸟和滑翔机就靠它往上飞。</value>
+  </data>
+  <data name="Narr_Water_Obj_Transpiration" xml:space="preserve">
+    <value>蒸腾。植物从土壤里把水吸上来，再从叶子上的小气孔散出去。在陆地上，植物送回空中的水，比土壤和湖泊蒸发的还多。</value>
+  </data>
+  <data name="Narr_Water_Obj_Transport" xml:space="preserve">
+    <value>水汽输送。风把看不见的水汽带到远离蒸发地的地方，常常一走就是几百上千千米，其中很多是从海洋上空吹到陆地上空。</value>
+  </data>
+  <data name="Narr_Water_Obj_Wind" xml:space="preserve">
+    <value>风把空气推上山的迎风坡。空气一边爬一边变冷，所以这一侧有云、有雨。</value>
+  </data>
+  <data name="Narr_Water_Stores_01" xml:space="preserve">
+    <value>地球上的水都在哪里？这里把它们聚成一个个水球，放在地球上，按同样的比例画出来。</value>
+  </data>
+  <data name="Narr_Water_Stores_02" xml:space="preserve">
+    <value>这个球装着地球上所有的水：海洋、冰雪、地下水、湖泊、河流和空气里的水。它的直径只有大约一千四百千米。</value>
+  </data>
+  <data name="Narr_Water_Stores_03" xml:space="preserve">
+    <value>这个小得多的球，是所有的液态淡水：地下水、湖泊、沼泽和河流。其中几乎全是藏在岩石里的地下水。</value>
+  </data>
+  <data name="Narr_Water_Stores_04" xml:space="preserve">
+    <value>而这个小小的球，是湖泊和河流里的水，也就是最容易取用的淡水。看看它有多少。</value>
+  </data>
+  <data name="Narr_Water_Stores_05" xml:space="preserve">
+    <value>每年都有大量的水蒸发。你觉得其中大部分来自哪里？</value>
+  </data>
+  <data name="Narr_Water_Stores_06" xml:space="preserve">
+    <value>答案是海洋。这里画的是每年流动的水，最宽的那条带就是海洋蒸发。不过其中大约十分之九又直接落回了海里。</value>
+  </data>
+  <data name="Narr_Water_Stores_07" xml:space="preserve">
+    <value>剩下的以水汽的形式被吹到陆地上空。要是没有它，雨只会下在海上，陆地就会是一片荒漠。</value>
+  </data>
+  <data name="Narr_Water_Stores_08" xml:space="preserve">
+    <value>每年，又有同样多的水经由河流和地下流回大海。所以什么也不会用光：海洋、空气和陆地保持着平衡。</value>
+  </data>
+  <data name="Narr_Water_Stores_09" xml:space="preserve">
+    <value>空气里任何时候都只有很少一点水。一个水分子在空中平均只待大约 9 天，而在海洋里，它平均要待三千多年。</value>
+  </data>
+  <data name="Narr_Water_Stores_10" xml:space="preserve">
+    <value>轮到你了。点一下图中的一个水球、一股水流或一个储库，听听关于它的更多知识。</value>
+  </data>
   <data name="Notes_Add" xml:space="preserve">
     <value>保存笔记</value>
   </data>
@@ -8975,6 +9161,834 @@
   </data>
   <data name="Volume_Sky" xml:space="preserve">
     <value>天空</value>
+  </data>
+  <data name="Water_Ball_All" xml:space="preserve">
+    <value>所有的水</value>
+  </data>
+  <data name="Water_Ball_FreshLiquid" xml:space="preserve">
+    <value>液态淡水</value>
+  </data>
+  <data name="Water_Ball_LakesRivers" xml:space="preserve">
+    <value>湖泊和河流</value>
+  </data>
+  <data name="Water_Ball_Size" xml:space="preserve">
+    <value>直径 {0} 千米 · {1}</value>
+  </data>
+  <data name="Water_Chart_Litre_Caption" xml:space="preserve">
+    <value>假如地球上所有的水只有 1 升</value>
+  </data>
+  <data name="Water_Chart_Litre_Drops" xml:space="preserve">
+    <value>{0} 毫升 · {1} 滴</value>
+  </data>
+  <data name="Water_Chart_Litre_Ml" xml:space="preserve">
+    <value>{0} 毫升</value>
+  </data>
+  <data name="Water_Chart_Litre_Note" xml:space="preserve">
+    <value>刻度每一格大 10 倍。滴管的一滴约 0.05 毫升：按 1 升算，全世界的河水只有约三十分之一滴。</value>
+  </data>
+  <data name="Water_Chart_Parcel_Base" xml:space="preserve">
+    <value>云底</value>
+  </data>
+  <data name="Water_Chart_Parcel_Caption" xml:space="preserve">
+    <value>气块的温度与露点</value>
+  </data>
+  <data name="Water_Chart_Parcel_DewPoint" xml:space="preserve">
+    <value>露点</value>
+  </data>
+  <data name="Water_Chart_Parcel_Note" xml:space="preserve">
+    <value>云下两条线越靠越近，在云底相交，之后一起上升。虚线：沿山的背风坡下沉的一段。</value>
+  </data>
+  <data name="Water_Chart_Parcel_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Water_Chart_Vapour_Caption" xml:space="preserve">
+    <value>空气最多能含多少水汽</value>
+  </data>
+  <data name="Water_Chart_Vapour_Change" xml:space="preserve">
+    <value>水汽 {0}%</value>
+  </data>
+  <data name="Water_Chart_Vapour_Note" xml:space="preserve">
+    <value>这条曲线大约每升高 10 °C 翻一倍。白点是图中海平面空气现在的状态；拖动滑块让这个世界变暖或变冷。</value>
+  </data>
+  <data name="Water_Chart_Vapour_Today" xml:space="preserve">
+    <value>15 °C 时 {0} 克/立方米</value>
+  </data>
+  <data name="Water_Chart_Vapour_Unit" xml:space="preserve">
+    <value>克/立方米</value>
+  </data>
+  <data name="Water_Clock" xml:space="preserve">
+    <value>t = {0} 秒 · {1}</value>
+  </data>
+  <data name="Water_CloudBase_Label" xml:space="preserve">
+    <value>云底 {0} 米</value>
+  </data>
+  <data name="Water_Cloud_Back_Description" xml:space="preserve">
+    <value>上山时没有降水，空气到达时和出发时一样暖、一样湿。只有降过水的空气才会变暖到达，那就是焚风。</value>
+  </data>
+  <data name="Water_Cloud_Back_Title" xml:space="preserve">
+    <value>原样回来</value>
+  </data>
+  <data name="Water_Cloud_ColdAir" xml:space="preserve">
+    <value>冷空气</value>
+  </data>
+  <data name="Water_Cloud_DescendingBack_Description" xml:space="preserve">
+    <value>没有下雨，所以空气下沉变暖时云滴又蒸发掉了：它怎么上去的，就怎么下来。</value>
+  </data>
+  <data name="Water_Cloud_DescendingBack_Title" xml:space="preserve">
+    <value>沿背风坡下沉</value>
+  </data>
+  <data name="Water_Cloud_Descending_Description" xml:space="preserve">
+    <value>空气的水分已经降落，它沿背风坡下沉，一路以每千米约 10 °C 的速度变暖。</value>
+  </data>
+  <data name="Water_Cloud_Descending_Title" xml:space="preserve">
+    <value>沿背风坡下沉</value>
+  </data>
+  <data name="Water_Cloud_Fact1" xml:space="preserve">
+    <value>上升的空气在到达露点前每千米降温约 10 °C；进入云中后降温变慢，每千米约 4~7 °C，因为水汽凝结会放出热量。</value>
+  </data>
+  <data name="Water_Cloud_Fact2" xml:space="preserve">
+    <value>云底高度可以估算：气温和露点每差 1 °C，云底约高 125 米。所以潮湿的日子云比较低。</value>
+  </data>
+  <data name="Water_Cloud_Fact3" xml:space="preserve">
+    <value>云滴非常小，直径约 0.02 毫米；一个雨滴里大约有一百万个云滴。</value>
+  </data>
+  <data name="Water_Cloud_Fact4" xml:space="preserve">
+    <value>在热带以外，大多数雨在云的高处原本是雪，在下落途中才融化成雨。</value>
+  </data>
+  <data name="Water_Cloud_Fact5" xml:space="preserve">
+    <value>在山的一侧降过水的空气，从另一侧下来时变得更暖更干：阿尔卑斯山的焚风、落基山的钦诺克风都是这样。很多山脉的背后都是荒漠。</value>
+  </data>
+  <data name="Water_Cloud_Foehn_Description" xml:space="preserve">
+    <value>空气到达时比出发时更暖更干：它留下了水汽凝结放出的热量，水却作为雨落在了另一边。这就是焚风，这里处在雨影区。</value>
+  </data>
+  <data name="Water_Cloud_Foehn_Title" xml:space="preserve">
+    <value>又干又暖的焚风</value>
+  </data>
+  <data name="Water_Cloud_Freezing_Description" xml:space="preserve">
+    <value>在零度线以上，云滴起初仍是液态（过冷水），但冰晶开始出现，并夺取云滴的水分长大。</value>
+  </data>
+  <data name="Water_Cloud_Freezing_Title" xml:space="preserve">
+    <value>越过零度线</value>
+  </data>
+  <data name="Water_Cloud_InCloud_Description" xml:space="preserve">
+    <value>空气已冷到露点，容纳不下所有水汽，多余的就凝结成小水滴。从这里开始它降温变慢，因为凝结的水放出了热量。</value>
+  </data>
+  <data name="Water_Cloud_InCloud_Title" xml:space="preserve">
+    <value>形成云</value>
+  </data>
+  <data name="Water_Cloud_Leeward" xml:space="preserve">
+    <value>背风坡：干燥</value>
+  </data>
+  <data name="Water_Cloud_NoCloud_Description" xml:space="preserve">
+    <value>空气始终没有冷到露点：对于它被抬升的高度来说太干了。提高湿度，云底就会降低。</value>
+  </data>
+  <data name="Water_Cloud_NoCloud_Title" xml:space="preserve">
+    <value>没有云</value>
+  </data>
+  <data name="Water_Cloud_Note" xml:space="preserve">
+    <value>高度按比例，横向被压缩。气块是我们跟踪的一团空气，假设它上升时不与周围空气混合。</value>
+  </data>
+  <data name="Water_Cloud_Raining_Description" xml:space="preserve">
+    <value>云已经足够厚，云滴能长成雨滴，或长成在下落途中融化的雪花。在远处蒸发的水又落了回来。</value>
+  </data>
+  <data name="Water_Cloud_Raining_Title" xml:space="preserve">
+    <value>下雨</value>
+  </data>
+  <data name="Water_Cloud_Rising_Description" xml:space="preserve">
+    <value>空气上升到气压更低的地方，膨胀并以每千米约 10 °C 的速度变冷。它的露点每千米只下降约 2 °C，所以两者越来越接近。</value>
+  </data>
+  <data name="Water_Cloud_Rising_Title" xml:space="preserve">
+    <value>上升并冷却</value>
+  </data>
+  <data name="Water_Cloud_Snowing_Description" xml:space="preserve">
+    <value>近地面的空气足够冷，雪花落地前不会融化。</value>
+  </data>
+  <data name="Water_Cloud_Snowing_Title" xml:space="preserve">
+    <value>下雪</value>
+  </data>
+  <data name="Water_Cloud_Subtitle" xml:space="preserve">
+    <value>上升的空气会变冷，冷到露点，水汽就凝结成云</value>
+  </data>
+  <data name="Water_Cloud_SunnyField" xml:space="preserve">
+    <value>被晒热的田野</value>
+  </data>
+  <data name="Water_Cloud_ThinCloud_Description" xml:space="preserve">
+    <value>云太薄，云滴长不到能落下来的大小。把空气抬得更高，或让它更潮湿试试。</value>
+  </data>
+  <data name="Water_Cloud_ThinCloud_Title" xml:space="preserve">
+    <value>有云无雨</value>
+  </data>
+  <data name="Water_Cloud_WarmAir" xml:space="preserve">
+    <value>暖湿空气</value>
+  </data>
+  <data name="Water_Cloud_Wind" xml:space="preserve">
+    <value>风</value>
+  </data>
+  <data name="Water_Cloud_Windward" xml:space="preserve">
+    <value>迎风坡：降水</value>
+  </data>
+  <data name="Water_Cycle_Fact1" xml:space="preserve">
+    <value>每年约有 50 万立方千米的水蒸发，相当于全球铺上 1 米深的水，又有同样多的水以雨雪的形式落回来。</value>
+  </data>
+  <data name="Water_Cycle_Fact2" xml:space="preserve">
+    <value>从海洋蒸发的水约 90% 直接落回海里；其余的被吹到陆地上空，再经河流和地下水回到海洋。</value>
+  </data>
+  <data name="Water_Cycle_Fact3" xml:space="preserve">
+    <value>一个水分子在大气中平均停留约 9 天，在河里两三个星期，在海洋里约 3000 年，在深层地下水或南极冰盖里可长达几十万年。</value>
+  </data>
+  <data name="Water_Cycle_Fact4" xml:space="preserve">
+    <value>植物搬运的水非常多：一棵大树在夏天一天能散发一百多升水，蒸腾占陆地上升到空中的水的一半以上。</value>
+  </data>
+  <data name="Water_Cycle_Fact5" xml:space="preserve">
+    <value>气温每升高 1 °C，空气能容纳的水汽约多 7%，所以变暖的世界暴雨更猛，更多的雪变成雨，雪线也向山上退缩。</value>
+  </data>
+  <data name="Water_Cycle_Note" xml:space="preserve">
+    <value>高度按真实比例，横向被压缩：整张图约几百千米宽。树和河流画得比实际大得多。</value>
+  </data>
+  <data name="Water_Cycle_Subtitle" xml:space="preserve">
+    <value>水从海里升到空中，落到陆地，又流回海里</value>
+  </data>
+  <data name="Water_Drop_Title" xml:space="preserve">
+    <value>这滴水：{0}</value>
+  </data>
+  <data name="Water_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Water_Flow_LandEvaporation" xml:space="preserve">
+    <value>陆地蒸发和蒸腾</value>
+  </data>
+  <data name="Water_Flow_LandPrecipitation" xml:space="preserve">
+    <value>陆地降水</value>
+  </data>
+  <data name="Water_Flow_OceanEvaporation" xml:space="preserve">
+    <value>海洋蒸发</value>
+  </data>
+  <data name="Water_Flow_OceanPrecipitation" xml:space="preserve">
+    <value>海洋降水</value>
+  </data>
+  <data name="Water_Flow_Runoff" xml:space="preserve">
+    <value>河流和地下水回海</value>
+  </data>
+  <data name="Water_Flow_VapourToLand" xml:space="preserve">
+    <value>水汽输送到陆地</value>
+  </data>
+  <data name="Water_Flux" xml:space="preserve">
+    <value>每年 {0}</value>
+  </data>
+  <data name="Water_Freezing_Label" xml:space="preserve">
+    <value>0 °C · {0} 米</value>
+  </data>
+  <data name="Water_GroundTemperature" xml:space="preserve">
+    <value>地面气温</value>
+  </data>
+  <data name="Water_Hint_Cloud" xml:space="preserve">
+    <value>在左页调节地面气温和湿度，看云底高度怎样变化。</value>
+  </data>
+  <data name="Water_Hint_Cycle" xml:space="preserve">
+    <value>点击标签突出显示这一环节，或打开“跟随一滴水”走完整圈。</value>
+  </data>
+  <data name="Water_Hint_Stores_Flows" xml:space="preserve">
+    <value>小点沿着每股水流移动；带子越宽，每年流过的水越多。</value>
+  </data>
+  <data name="Water_Hint_Stores_Spheres" xml:space="preserve">
+    <value>把画面切换到“每年的流动”，看水怎样在海洋、大气和陆地之间流动。</value>
+  </data>
+  <data name="Water_Humidity" xml:space="preserve">
+    <value>相对湿度</value>
+  </data>
+  <data name="Water_Humidity_Value" xml:space="preserve">
+    <value>{0}% · 露点 {1} °C</value>
+  </data>
+  <data name="Water_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Water_Km_Value" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Water_Leg_Condensation" xml:space="preserve">
+    <value>成为云滴</value>
+  </data>
+  <data name="Water_Leg_Condensation_Description" xml:space="preserve">
+    <value>带着它的空气上升，冷到露点，这滴水凝结在一粒尘埃上，成了一个小云滴。</value>
+  </data>
+  <data name="Water_Leg_Evaporation" xml:space="preserve">
+    <value>蒸发</value>
+  </data>
+  <data name="Water_Leg_Evaporation_Description" xml:space="preserve">
+    <value>在海面被太阳晒暖，这滴水变成水汽逃到空中：看不见，并把盐留在了海里。</value>
+  </data>
+  <data name="Water_Leg_Groundwater" xml:space="preserve">
+    <value>成为地下水</value>
+  </data>
+  <data name="Water_Leg_Groundwater_Description" xml:space="preserve">
+    <value>成为地下水的这滴水在岩石中缓慢流向大海，每年也许只走几米。浅层地下水要几年到几百年，深层地下水要几千年。</value>
+  </data>
+  <data name="Water_Leg_Infiltration" xml:space="preserve">
+    <value>渗入地下</value>
+  </data>
+  <data name="Water_Leg_Infiltration_Description" xml:space="preserve">
+    <value>这滴水渗入土壤，沿着裂缝和孔隙向下渗，直到地下水面。</value>
+  </data>
+  <data name="Water_Leg_Ocean" xml:space="preserve">
+    <value>在海里</value>
+  </data>
+  <data name="Water_Leg_Ocean_Description" xml:space="preserve">
+    <value>这滴水是约 13 亿立方千米海水中的一滴。水在海洋里平均要待 3000 多年才会被蒸发。</value>
+  </data>
+  <data name="Water_Leg_Rain" xml:space="preserve">
+    <value>化作雨落下</value>
+  </data>
+  <data name="Water_Leg_Rain_Description" xml:space="preserve">
+    <value>大约一百万个云滴合并成一个雨滴，重得落了下来。从两三千米高的云里，几分钟就落到地面。</value>
+  </data>
+  <data name="Water_Leg_River" xml:space="preserve">
+    <value>顺河而下</value>
+  </data>
+  <data name="Water_Leg_River_Description" xml:space="preserve">
+    <value>小溪汇成江河，把这滴水带回大海。河水在河里平均只停留两三个星期。</value>
+  </data>
+  <data name="Water_Leg_Snowfall" xml:space="preserve">
+    <value>化作雪落下</value>
+  </data>
+  <data name="Water_Leg_Snowfall_Description" xml:space="preserve">
+    <value>在零度线以上，水冻结在冰晶上，化作雪花慢慢飘落到山上。</value>
+  </data>
+  <data name="Water_Leg_Snowmelt" xml:space="preserve">
+    <value>融化</value>
+  </data>
+  <data name="Water_Leg_Snowmelt_Description" xml:space="preserve">
+    <value>春天太阳融化了积雪，这滴水顺着山坡流向小溪。</value>
+  </data>
+  <data name="Water_Leg_Snowpack" xml:space="preserve">
+    <value>封存在积雪里</value>
+  </data>
+  <data name="Water_Leg_Snowpack_Description" xml:space="preserve">
+    <value>这滴水在积雪里度过整个冬天。如果进了冰川，它可能要等上几百年；在南极冰盖深处，甚至几十万年。</value>
+  </data>
+  <data name="Water_Leg_Transpiration" xml:space="preserve">
+    <value>从叶子蒸腾</value>
+  </data>
+  <data name="Water_Leg_Transpiration_Description" xml:space="preserve">
+    <value>这滴水从叶片上的小气孔化作水汽散出。在陆地上，植物送回空中的水比土壤和湖泊蒸发的还多。</value>
+  </data>
+  <data name="Water_Leg_Transport" xml:space="preserve">
+    <value>随风飘移</value>
+  </data>
+  <data name="Water_Leg_Transport_Description" xml:space="preserve">
+    <value>化作水汽的这滴水随风飘移，常常一走就是几百上千千米。水在空中平均停留约 9 天。</value>
+  </data>
+  <data name="Water_Leg_Uptake" xml:space="preserve">
+    <value>被树吸收</value>
+  </data>
+  <data name="Water_Leg_Uptake_Description" xml:space="preserve">
+    <value>树根把这滴水从土壤中吸上来，几天之内它就沿着树干升到一片叶子里。</value>
+  </data>
+  <data name="Water_Lesson_Cloud_Choice1" xml:space="preserve">
+    <value>水汽凝结成云</value>
+  </data>
+  <data name="Water_Lesson_Cloud_Choice2" xml:space="preserve">
+    <value>空气停止上升</value>
+  </data>
+  <data name="Water_Lesson_Cloud_Choice3" xml:space="preserve">
+    <value>立刻开始下雨</value>
+  </data>
+  <data name="Water_Lesson_Cycle_Choice1" xml:space="preserve">
+    <value>变冷，下雨或下雪</value>
+  </data>
+  <data name="Water_Lesson_Cycle_Choice2" xml:space="preserve">
+    <value>变暖，云消失了</value>
+  </data>
+  <data name="Water_Lesson_Cycle_Choice3" xml:space="preserve">
+    <value>什么也不变</value>
+  </data>
+  <data name="Water_Lesson_Stores_Choice1" xml:space="preserve">
+    <value>海洋</value>
+  </data>
+  <data name="Water_Lesson_Stores_Choice2" xml:space="preserve">
+    <value>湖泊和河流</value>
+  </data>
+  <data name="Water_Lesson_Stores_Choice3" xml:space="preserve">
+    <value>植物</value>
+  </data>
+  <data name="Water_Lift_Caption" xml:space="preserve">
+    <value>是什么让空气上升</value>
+  </data>
+  <data name="Water_Lift_Front" xml:space="preserve">
+    <value>锋面抬升</value>
+  </data>
+  <data name="Water_Lift_Mountain" xml:space="preserve">
+    <value>山脉阻挡</value>
+  </data>
+  <data name="Water_Lift_Thermal" xml:space="preserve">
+    <value>地面受热</value>
+  </data>
+  <data name="Water_Mode_Cloud" xml:space="preserve">
+    <value>云的形成</value>
+  </data>
+  <data name="Water_Mode_Cycle" xml:space="preserve">
+    <value>水循环</value>
+  </data>
+  <data name="Water_Mode_Stores" xml:space="preserve">
+    <value>水在哪里</value>
+  </data>
+  <data name="Water_Obj_CloudBase" xml:space="preserve">
+    <value>云底</value>
+  </data>
+  <data name="Water_Obj_Drop" xml:space="preserve">
+    <value>跟随的水滴</value>
+  </data>
+  <data name="Water_Obj_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Water_Obj_Freezing" xml:space="preserve">
+    <value>零度线</value>
+  </data>
+  <data name="Water_Obj_Front" xml:space="preserve">
+    <value>锋面</value>
+  </data>
+  <data name="Water_Obj_Leeward" xml:space="preserve">
+    <value>背风坡</value>
+  </data>
+  <data name="Water_Obj_Parcel" xml:space="preserve">
+    <value>气块</value>
+  </data>
+  <data name="Water_Obj_RainShadow" xml:space="preserve">
+    <value>雨影区</value>
+  </data>
+  <data name="Water_Obj_SnowLine" xml:space="preserve">
+    <value>雪线</value>
+  </data>
+  <data name="Water_Obj_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Water_Obj_Thermal" xml:space="preserve">
+    <value>晒热的田野</value>
+  </data>
+  <data name="Water_Obj_Wind" xml:space="preserve">
+    <value>吹上山的风</value>
+  </data>
+  <data name="Water_Option_FollowDrop" xml:space="preserve">
+    <value>跟随一滴水</value>
+  </data>
+  <data name="Water_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Water_Parcel_Label" xml:space="preserve">
+    <value>{0} °C · 露点 {1} °C</value>
+  </data>
+  <data name="Water_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Water_Process_Caption" xml:space="preserve">
+    <value>突出显示</value>
+  </data>
+  <data name="Water_Process_Condensation" xml:space="preserve">
+    <value>凝结</value>
+  </data>
+  <data name="Water_Process_Condensation_Amount" xml:space="preserve">
+    <value>与蒸发量相同：约 48.6 万立方千米</value>
+  </data>
+  <data name="Water_Process_Condensation_Description" xml:space="preserve">
+    <value>上升的空气膨胀变冷，一旦冷到露点，水汽就凝结在尘埃、盐粒或烟粒等微粒上，形成直径约 0.02 毫米的云滴，同时释放出当初蒸发时从太阳吸收的热量。</value>
+  </data>
+  <data name="Water_Process_Evaporation" xml:space="preserve">
+    <value>蒸发</value>
+  </data>
+  <data name="Water_Process_Evaporation_Amount" xml:space="preserve">
+    <value>海洋约 41.3 万立方千米，陆地和植物约 7.3 万立方千米</value>
+  </data>
+  <data name="Water_Process_Evaporation_Description" xml:space="preserve">
+    <value>阳光让水面的水分子获得足够的能量，变成看不见的水汽逃到空中。盐分留在海里，所以雨水是淡水。全球约 85% 的蒸发来自海洋。</value>
+  </data>
+  <data name="Water_Process_Groundwater" xml:space="preserve">
+    <value>地下径流</value>
+  </data>
+  <data name="Water_Process_Groundwater_Amount" xml:space="preserve">
+    <value>大部分补给河流和湖泊，少量直接渗入海中</value>
+  </data>
+  <data name="Water_Process_Groundwater_Description" xml:space="preserve">
+    <value>在地下水面以下，水在岩石中缓慢流动，每年往往只走几米，流向河流、湖泊和海洋。井和泉水取的就是它。它是迄今最大的液态淡水储库。</value>
+  </data>
+  <data name="Water_Process_Infiltration" xml:space="preserve">
+    <value>下渗</value>
+  </data>
+  <data name="Water_Process_Infiltration_Amount" xml:space="preserve">
+    <value>约 1.3 万立方千米补给地下水，约占陆地降水的十分之一</value>
+  </data>
+  <data name="Water_Process_Infiltration_Description" xml:space="preserve">
+    <value>雨水渗入土壤，一部分留在土壤中供植物利用，另一部分继续沿着土壤和岩石的缝隙向下渗，直到地下水面；地下水面以下的缝隙全都充满了水。</value>
+  </data>
+  <data name="Water_Process_None" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Water_Process_Overview_Description" xml:space="preserve">
+    <value>太阳晒暖海面，水蒸发成看不见的水汽。风把它带走，上升的空气变冷，水汽凝结成云，再化作雨雪落下，最后经河流或地下缓慢流回大海。水一点也没有少：同样的水已经这样循环了几十亿年。</value>
+  </data>
+  <data name="Water_Process_Overview_Title" xml:space="preserve">
+    <value>循环往复</value>
+  </data>
+  <data name="Water_Process_Precipitation" xml:space="preserve">
+    <value>降水</value>
+  </data>
+  <data name="Water_Process_Precipitation_Amount" xml:space="preserve">
+    <value>海洋约 37.3 万立方千米，陆地约 11.3 万立方千米</value>
+  </data>
+  <data name="Water_Process_Precipitation_Description" xml:space="preserve">
+    <value>云滴相互合并，或冰晶夺取云滴的水分长大，直到重得落下来。在零度线以下落地的是雨，以上是雪。被山推升的空气在迎风坡降水，背风坡就干燥了。</value>
+  </data>
+  <data name="Water_Process_Runoff" xml:space="preserve">
+    <value>地表径流</value>
+  </data>
+  <data name="Water_Process_Runoff_Amount" xml:space="preserve">
+    <value>连同地下水，约 4 万立方千米回到海洋</value>
+  </data>
+  <data name="Water_Process_Runoff_Description" xml:space="preserve">
+    <value>没有渗入地下或蒸发掉的水顺坡流下，汇成溪流，再汇成江河流入大海。一滴水在河里平均只待两三个星期。</value>
+  </data>
+  <data name="Water_Process_Snowmelt" xml:space="preserve">
+    <value>融雪</value>
+  </data>
+  <data name="Water_Process_Snowmelt_Amount" xml:space="preserve">
+    <value>全世界约六分之一人口的主要水源</value>
+  </data>
+  <data name="Water_Process_Snowmelt_Description" xml:space="preserve">
+    <value>积雪和冰川在冬天把水储存起来，到春夏再释放。长江、恒河、印度河等河流夏季的很多水来自上游远处的冰雪融水。</value>
+  </data>
+  <data name="Water_Process_Sublimation" xml:space="preserve">
+    <value>升华</value>
+  </data>
+  <data name="Water_Process_Sublimation_Amount" xml:space="preserve">
+    <value>全球占比很小；在干燥的高山上可达积雪的五分之一以上</value>
+  </data>
+  <data name="Water_Process_Sublimation_Description" xml:space="preserve">
+    <value>在干燥、晴朗、有风的天气里，冰雪可以不经融化直接变成水汽。这比融化需要多得多的能量，但在干燥的高山上，它能带走相当一部分积雪。</value>
+  </data>
+  <data name="Water_Process_Transpiration" xml:space="preserve">
+    <value>蒸腾</value>
+  </data>
+  <data name="Water_Process_Transpiration_Amount" xml:space="preserve">
+    <value>约 4.5 万立方千米，约占陆地蒸发总量的 60%</value>
+  </data>
+  <data name="Water_Process_Transpiration_Description" xml:space="preserve">
+    <value>植物用根从土壤中吸水，经茎输送到叶片，再从叶片上的小气孔以水汽的形式散出。这能给植物降温，就像出汗，同时把更多的水从下面拉上来。</value>
+  </data>
+  <data name="Water_Process_Transport" xml:space="preserve">
+    <value>水汽输送</value>
+  </data>
+  <data name="Water_Process_Transport_Amount" xml:space="preserve">
+    <value>约 4 万立方千米从海洋上空输送到陆地上空</value>
+  </data>
+  <data name="Water_Process_Transport_Description" xml:space="preserve">
+    <value>水汽是看不见的。风把它从蒸发的地方带到远处，其中很多从海洋上空吹向陆地。没有它，雨只会下在海上，陆地将是一片荒漠。</value>
+  </data>
+  <data name="Water_RainShadow" xml:space="preserve">
+    <value>雨影区</value>
+  </data>
+  <data name="Water_Restart" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Water_Route_Caption" xml:space="preserve">
+    <value>这滴水的路线</value>
+  </data>
+  <data name="Water_Route_Ground" xml:space="preserve">
+    <value>渗入地下</value>
+  </data>
+  <data name="Water_Route_River" xml:space="preserve">
+    <value>雨水和河流</value>
+  </data>
+  <data name="Water_Route_Sea" xml:space="preserve">
+    <value>直接落回海里</value>
+  </data>
+  <data name="Water_Route_Snow" xml:space="preserve">
+    <value>山顶的雪</value>
+  </data>
+  <data name="Water_Route_Tree" xml:space="preserve">
+    <value>经过一棵树</value>
+  </data>
+  <data name="Water_Sea_Label" xml:space="preserve">
+    <value>海洋</value>
+  </data>
+  <data name="Water_SnowLine_Label" xml:space="preserve">
+    <value>雪线 {0} 米</value>
+  </data>
+  <data name="Water_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Water_Spheres_Enlarged" xml:space="preserve">
+    <value>同样的水球，放大 {0} 倍</value>
+  </data>
+  <data name="Water_Stat_AirStay" xml:space="preserve">
+    <value>水在大气中停留</value>
+  </data>
+  <data name="Water_Stat_AllWater" xml:space="preserve">
+    <value>所有的水</value>
+  </data>
+  <data name="Water_Stat_BackOnSea" xml:space="preserve">
+    <value>落回海里</value>
+  </data>
+  <data name="Water_Stat_Ball_Value" xml:space="preserve">
+    <value>{0} · 直径 {1} 千米的球</value>
+  </data>
+  <data name="Water_Stat_CloudBase" xml:space="preserve">
+    <value>云底高度</value>
+  </data>
+  <data name="Water_Stat_CloudBase_None" xml:space="preserve">
+    <value>{0} 以下没有云</value>
+  </data>
+  <data name="Water_Stat_CloudBase_Value" xml:space="preserve">
+    <value>{0}（经验公式 {1}）</value>
+  </data>
+  <data name="Water_Stat_Condensed" xml:space="preserve">
+    <value>已凝结的水</value>
+  </data>
+  <data name="Water_Stat_Condensed_Value" xml:space="preserve">
+    <value>每千克空气 {0} 克</value>
+  </data>
+  <data name="Water_Stat_DewPoint" xml:space="preserve">
+    <value>露点 · 湿度</value>
+  </data>
+  <data name="Water_Stat_EachYear" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="Water_Stat_Earth" xml:space="preserve">
+    <value>地球直径</value>
+  </data>
+  <data name="Water_Stat_Freezing" xml:space="preserve">
+    <value>零度线高度</value>
+  </data>
+  <data name="Water_Stat_Fresh" xml:space="preserve">
+    <value>淡水</value>
+  </data>
+  <data name="Water_Stat_FreshLiquid" xml:space="preserve">
+    <value>液态淡水</value>
+  </data>
+  <data name="Water_Stat_Fresh_Value" xml:space="preserve">
+    <value>{0}%，其中 {1}% 是冰</value>
+  </data>
+  <data name="Water_Stat_Height" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="Water_Stat_LakesRivers" xml:space="preserve">
+    <value>湖泊和河流</value>
+  </data>
+  <data name="Water_Stat_Lee" xml:space="preserve">
+    <value>背风坡海平面处</value>
+  </data>
+  <data name="Water_Stat_Lee_Value" xml:space="preserve">
+    <value>{0} °C，湿度 {1}%（{2} °C）</value>
+  </data>
+  <data name="Water_Stat_OceanStay" xml:space="preserve">
+    <value>在海洋中停留</value>
+  </data>
+  <data name="Water_Stat_ParcelFreezing" xml:space="preserve">
+    <value>气块降到 0 °C 的高度</value>
+  </data>
+  <data name="Water_Stat_RainDepth" xml:space="preserve">
+    <value>平均到全球</value>
+  </data>
+  <data name="Water_Stat_RainDepth_Value" xml:space="preserve">
+    <value>每年约 1 米深的雨雪</value>
+  </data>
+  <data name="Water_Stat_RiverStay" xml:space="preserve">
+    <value>在河流中停留</value>
+  </data>
+  <data name="Water_Stat_Route" xml:space="preserve">
+    <value>路线</value>
+  </data>
+  <data name="Water_Stat_Salty" xml:space="preserve">
+    <value>咸水（海洋）</value>
+  </data>
+  <data name="Water_Stat_SeaAir" xml:space="preserve">
+    <value>海平面气温</value>
+  </data>
+  <data name="Water_Stat_SnowLine" xml:space="preserve">
+    <value>雪线</value>
+  </data>
+  <data name="Water_Stat_SoFar" xml:space="preserve">
+    <value>一路至今</value>
+  </data>
+  <data name="Water_Stat_SoFar_Home" xml:space="preserve">
+    <value>约 {0}，回到海里</value>
+  </data>
+  <data name="Water_Stat_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="Water_Stat_Step_Value" xml:space="preserve">
+    <value>第 {0} 步，共 {1} 步</value>
+  </data>
+  <data name="Water_Stat_Swelling" xml:space="preserve">
+    <value>体积膨胀到</value>
+  </data>
+  <data name="Water_Stat_Swelling_Value" xml:space="preserve">
+    <value>地面时的 {0} 倍</value>
+  </data>
+  <data name="Water_Stat_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Water_Stat_TypicalStay" xml:space="preserve">
+    <value>在这里通常停留</value>
+  </data>
+  <data name="Water_Stat_TypicalStay_Value" xml:space="preserve">
+    <value>约 {0}</value>
+  </data>
+  <data name="Water_Stat_Vapour" xml:space="preserve">
+    <value>空气最多含水汽</value>
+  </data>
+  <data name="Water_Stat_Vapour_Change" xml:space="preserve">
+    <value>{0}% · {1} 克/立方米</value>
+  </data>
+  <data name="Water_Stat_Vapour_Today" xml:space="preserve">
+    <value>{0} 克/立方米</value>
+  </data>
+  <data name="Water_Stat_YearlyCycle" xml:space="preserve">
+    <value>蒸发量</value>
+  </data>
+  <data name="Water_StoreName_Atmosphere" xml:space="preserve">
+    <value>大气</value>
+  </data>
+  <data name="Water_StoreName_GroundIce" xml:space="preserve">
+    <value>冻土中的冰</value>
+  </data>
+  <data name="Water_StoreName_Groundwater" xml:space="preserve">
+    <value>地下水</value>
+  </data>
+  <data name="Water_StoreName_IceAndSnow" xml:space="preserve">
+    <value>冰川积雪</value>
+  </data>
+  <data name="Water_StoreName_Lakes" xml:space="preserve">
+    <value>湖泊</value>
+  </data>
+  <data name="Water_StoreName_Living" xml:space="preserve">
+    <value>生物体</value>
+  </data>
+  <data name="Water_StoreName_Oceans" xml:space="preserve">
+    <value>海洋</value>
+  </data>
+  <data name="Water_StoreName_Rivers" xml:space="preserve">
+    <value>河流</value>
+  </data>
+  <data name="Water_StoreName_SoilMoisture" xml:space="preserve">
+    <value>土壤水</value>
+  </data>
+  <data name="Water_StoreName_Swamps" xml:space="preserve">
+    <value>沼泽</value>
+  </data>
+  <data name="Water_Store_Atmosphere" xml:space="preserve">
+    <value>大气</value>
+  </data>
+  <data name="Water_Store_Land" xml:space="preserve">
+    <value>陆地：冰川、地下水、湖泊、土壤、河流</value>
+  </data>
+  <data name="Water_Store_Oceans" xml:space="preserve">
+    <value>海洋</value>
+  </data>
+  <data name="Water_Store_Stay" xml:space="preserve">
+    <value>{0} · 平均停留约 {1}</value>
+  </data>
+  <data name="Water_StoresView_Caption" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="Water_StoresView_Flows" xml:space="preserve">
+    <value>每年的流动</value>
+  </data>
+  <data name="Water_StoresView_Spheres" xml:space="preserve">
+    <value>水球</value>
+  </data>
+  <data name="Water_Stores_Flows_Description" xml:space="preserve">
+    <value>带子表示每年流动的水量。大气得到多少就失去多少，海洋和陆地也一样：每年被吹到陆地上空的水汽，又通过河流和地下水回到海洋。</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact1" xml:space="preserve">
+    <value>每年约 41.3 万立方千米的水从海洋蒸发，7.3 万立方千米从陆地和植物蒸发；37.3 万立方千米落回海洋，11.3 万立方千米落到陆地。</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact2" xml:space="preserve">
+    <value>每年从海洋吹到陆地的 4 万立方千米水汽，又通过河流和地下回到海洋；仅亚马孙河就承担了约六分之一。</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact3" xml:space="preserve">
+    <value>陆地上的雨雪约有三分之二从土壤、湖泊和植物重新回到空中，只有约三分之一流回大海。</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact4" xml:space="preserve">
+    <value>大气中的水大约每 9 天就更新一遍：空中只有 1.29 万立方千米，而每年落下的约有 50 万立方千米。</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact5" xml:space="preserve">
+    <value>这一切都由太阳驱动：地面和海洋吸收的阳光约有一半用来蒸发水，这些热量在水汽凝结成云时又释放出来。</value>
+  </data>
+  <data name="Water_Stores_Flows_Note" xml:space="preserve">
+    <value>带子的宽度与每年的流量成比例（Trenberth 等，2007）；储量数据来自美国地质调查局。</value>
+  </data>
+  <data name="Water_Stores_Flows_Subtitle" xml:space="preserve">
+    <value>每年全球蒸发约 1 米深的水，又全部落回来</value>
+  </data>
+  <data name="Water_Stores_Flows_Title" xml:space="preserve">
+    <value>水每年的去向</value>
+  </data>
+  <data name="Water_Stores_Spheres_Description" xml:space="preserve">
+    <value>大球是地球上所有的水：海洋、冰川、地下水、湖泊、大气，全都算上。中球是液态淡水：地下水、湖泊、沼泽和河流。小球是湖泊和河流里的淡水，也就是我们最容易用到的水。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact1" xml:space="preserve">
+    <value>如果把地球上所有的水聚成一个球，它的直径只有约 1380 千米，约为地球直径的九分之一。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact2" xml:space="preserve">
+    <value>其中 96% 以上是咸的海水。在约 2.5% 的淡水中，约 69% 冻结在冰盖和冰川里，约 30% 在地下。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact3" xml:space="preserve">
+    <value>全世界湖泊和河流里的淡水，聚成一个球直径只有约 56 千米。仅贝加尔湖就占地表未冻结淡水的约五分之一。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact4" xml:space="preserve">
+    <value>大气中只有约 1.3 万立方千米的水：如果一次全部落下，只能在地球表面铺上约 2.5 厘米。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact5" xml:space="preserve">
+    <value>南极冰盖拥有全世界约 90% 的冰；如果全部融化，海平面将上升约 58 米。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Note" xml:space="preserve">
+    <value>地球和上面的水球按同一比例画；右边是放大后的同样三个水球。</value>
+  </data>
+  <data name="Water_Stores_Spheres_Subtitle" xml:space="preserve">
+    <value>地球上所有的水，聚成一个球竟然这么小</value>
+  </data>
+  <data name="Water_Stores_Spheres_Title" xml:space="preserve">
+    <value>三个水球</value>
+  </data>
+  <data name="Water_Time_Days" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="Water_Time_Hours" xml:space="preserve">
+    <value>{0} 小时</value>
+  </data>
+  <data name="Water_Time_Minutes" xml:space="preserve">
+    <value>{0} 分钟</value>
+  </data>
+  <data name="Water_Time_Months" xml:space="preserve">
+    <value>{0} 个月</value>
+  </data>
+  <data name="Water_Time_Years" xml:space="preserve">
+    <value>{0} 年</value>
+  </data>
+  <data name="Water_Timeline" xml:space="preserve">
+    <value>时间轴</value>
+  </data>
+  <data name="Water_Title" xml:space="preserve">
+    <value>水循环</value>
+  </data>
+  <data name="Water_Unit_Big" xml:space="preserve">
+    <value>100000000</value>
+  </data>
+  <data name="Water_Unit_Mid" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Water_Volume_Big" xml:space="preserve">
+    <value>{0} 亿立方千米</value>
+  </data>
+  <data name="Water_Volume_Mid" xml:space="preserve">
+    <value>{0} 万立方千米</value>
+  </data>
+  <data name="Water_Volume_Small" xml:space="preserve">
+    <value>{0} 立方千米</value>
+  </data>
+  <data name="Water_Warming" xml:space="preserve">
+    <value>更暖或更冷的世界</value>
+  </data>
+  <data name="Water_Warming_Today" xml:space="preserve">
+    <value>现在</value>
   </data>
   <data name="Window_Close" xml:space="preserve">
     <value>关闭</value>

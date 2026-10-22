@@ -5514,6 +5514,192 @@
   <data name="Narr_Trails_Year_08" xml:space="preserve">
     <value>Your turn. Drag Earth round its orbit, or pick a date, and see which constellations fill the evening sky.</value>
   </data>
+  <data name="Narr_Water_Cloud_01" xml:space="preserve">
+    <value>How does a cloud form? Over a sunny field, a bubble of air is warmed by the ground and starts to rise on its own, like a hot-air balloon.</value>
+  </data>
+  <data name="Narr_Water_Cloud_02" xml:space="preserve">
+    <value>Follow this parcel of air. As it rises the pressure around it drops, so it expands and cools, by about ten degrees for every kilometre. Its label shows its temperature and its dew point.</value>
+  </data>
+  <data name="Narr_Water_Cloud_03" xml:space="preserve">
+    <value>The air cools much faster than its dew point drops, so the two keep getting closer. What happens when they meet?</value>
+  </data>
+  <data name="Narr_Water_Cloud_04" xml:space="preserve">
+    <value>A cloud forms: the air can't hold all its vapour any more, and the rest condenses into droplets. The height where this happens is the cloud base, the flat bottom you often see under summer clouds.</value>
+  </data>
+  <data name="Narr_Water_Cloud_05" xml:space="preserve">
+    <value>Now make the air more humid. Its dew point is closer to its temperature from the start, so it reaches it sooner, and the cloud base is much lower. That's why clouds hang low on muggy days.</value>
+  </data>
+  <data name="Narr_Water_Cloud_06" xml:space="preserve">
+    <value>Wind can lift air too. Pushed up a mountain, the air cools, builds cloud and drops rain on the windward side. Coming down the far side it warms up again, and arrives warmer and drier than it started.</value>
+  </data>
+  <data name="Narr_Water_Cloud_07" xml:space="preserve">
+    <value>Or warm, moist air slides up over a wedge of colder, heavier air. This is a front, and it spreads wide sheets of cloud and long, steady rain.</value>
+  </data>
+  <data name="Narr_Water_Cloud_08" xml:space="preserve">
+    <value>Your turn. Change the ground temperature or the humidity on the left page, and see where the cloud base ends up.</value>
+  </data>
+  <data name="Narr_Water_Cycle_01" xml:space="preserve">
+    <value>This is the water cycle, from the sea on the left, over a mountain. The Sun drives all of it: its heat is what lifts water up into the sky.</value>
+  </data>
+  <data name="Narr_Water_Cycle_02" xml:space="preserve">
+    <value>Most of it starts at the sea. Sunshine warms the surface, and water evaporates into invisible vapour. The salt stays behind, so the vapour is fresh water.</value>
+  </data>
+  <data name="Narr_Water_Cycle_03" xml:space="preserve">
+    <value>Plants add more. They pull water up from the soil through their roots and breathe it out as vapour through tiny holes in their leaves.</value>
+  </data>
+  <data name="Narr_Water_Cycle_04" xml:space="preserve">
+    <value>As moist air rises, it cools. Cool air can't hold as much vapour, so some of it condenses into tiny droplets around specks of dust and salt. That's a cloud.</value>
+  </data>
+  <data name="Narr_Water_Cycle_05" xml:space="preserve">
+    <value>The wind carries the moist air toward the mountain. What do you think happens when the air is pushed up its slope?</value>
+  </data>
+  <data name="Narr_Water_Cycle_06" xml:space="preserve">
+    <value>It's forced higher, cools even more, and the droplets grow until they're heavy enough to fall: as rain lower down, and as snow above the freezing level.</value>
+  </data>
+  <data name="Narr_Water_Cycle_07" xml:space="preserve">
+    <value>Rain on the land runs downhill in streams and rivers, back to the sea. Some soaks into the ground instead, and creeps slowly through the rock as groundwater.</value>
+  </data>
+  <data name="Narr_Water_Cycle_08" xml:space="preserve">
+    <value>Behind the mountain, the air has already dropped most of its water, so that side gets very little rain. It's called a rain shadow, and many deserts lie in one.</value>
+  </data>
+  <data name="Narr_Water_Cycle_09" xml:space="preserve">
+    <value>Now follow a single drop. It evaporates from the sea, drifts on the wind, falls on the mountain, and rides a river home. The label tells you what it's doing.</value>
+  </data>
+  <data name="Narr_Water_Cycle_10" xml:space="preserve">
+    <value>Your turn. Click any label in the picture to light up that part of the cycle and hear what happens there.</value>
+  </data>
+  <data name="Narr_Water_Obj_Atmosphere" xml:space="preserve">
+    <value>The atmosphere holds only a little water at any moment, about a thousandth of a percent of the total. It's replaced roughly every nine days.</value>
+  </data>
+  <data name="Narr_Water_Obj_BallAll" xml:space="preserve">
+    <value>All of Earth's water in one ball, about one thousand four hundred kilometres across. Almost all of it, about ninety-seven percent, is salty sea water.</value>
+  </data>
+  <data name="Narr_Water_Obj_BallFreshLiquid" xml:space="preserve">
+    <value>All the fresh liquid water, about two hundred and seventy kilometres across. Most of it is groundwater; lakes and rivers are only a small part.</value>
+  </data>
+  <data name="Narr_Water_Obj_BallLakesRivers" xml:space="preserve">
+    <value>The water in lakes and rivers, a ball only about fifty-six kilometres across. This is the fresh water that's easiest for people to use.</value>
+  </data>
+  <data name="Narr_Water_Obj_CloudBase" xml:space="preserve">
+    <value>The cloud base: the height where rising air has cooled to its dew point. Roughly, it's one hundred and twenty-five metres up for every degree between the air's temperature and its dew point at the ground.</value>
+  </data>
+  <data name="Narr_Water_Obj_Condensation" xml:space="preserve">
+    <value>Condensation. Rising air cools to its dew point, and vapour turns into tiny droplets on specks of dust, salt or smoke. That releases the heat the Sun gave it when it evaporated.</value>
+  </data>
+  <data name="Narr_Water_Obj_Drop" xml:space="preserve">
+    <value>The drop you're following. It goes from the sea back to the sea by the route chosen on the left page: a river, snow, groundwater, a tree, or straight back into the sea.</value>
+  </data>
+  <data name="Narr_Water_Obj_Earth" xml:space="preserve">
+    <value>Earth, about twelve thousand seven hundred kilometres across. Its water is spread in a thin layer over the surface, which makes it look like a lot more than it is.</value>
+  </data>
+  <data name="Narr_Water_Obj_Evaporation" xml:space="preserve">
+    <value>Evaporation. Sunshine gives water molecules at the surface enough energy to escape as invisible vapour. About five sixths of all evaporation is from the oceans.</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowLandEvaporation" xml:space="preserve">
+    <value>Evaporation and transpiration from the land: from soil, lakes and, above all, plants.</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowLandPrecipitation" xml:space="preserve">
+    <value>Rain and snow onto the land. Part of it comes from the sea, and part from water evaporated and transpired on land itself.</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowOceanEvaporation" xml:space="preserve">
+    <value>Evaporation from the ocean, the biggest flow of all: about four hundred thousand cubic kilometres of water every year.</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowOceanPrecipitation" xml:space="preserve">
+    <value>Rain and snow onto the ocean. Most of the water that evaporates from the sea falls straight back into it.</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowRunoff" xml:space="preserve">
+    <value>Rivers and groundwater flowing back to the sea. Each year it matches the vapour blown over the land, so the cycle stays balanced.</value>
+  </data>
+  <data name="Narr_Water_Obj_FlowVapourToLand" xml:space="preserve">
+    <value>Vapour carried from over the sea to over the land. It's what keeps the land supplied with rain.</value>
+  </data>
+  <data name="Narr_Water_Obj_Freezing" xml:space="preserve">
+    <value>The freezing level: the height where the air is at zero degrees. Above it, cloud water freezes into ice and falls as snow.</value>
+  </data>
+  <data name="Narr_Water_Obj_Front" xml:space="preserve">
+    <value>A front, where warm, moist air meets a wedge of colder, heavier air. The warm air slides up over it, cools, and makes wide sheets of cloud.</value>
+  </data>
+  <data name="Narr_Water_Obj_Groundwater" xml:space="preserve">
+    <value>Groundwater. Below the water table, water creeps through the rock, often only a few metres a year, toward rivers, lakes and the sea. Wells and springs draw on it.</value>
+  </data>
+  <data name="Narr_Water_Obj_Infiltration" xml:space="preserve">
+    <value>Infiltration. Rain soaks into the soil. Some stays there for plants to use; the rest seeps on down through cracks in the rock until it reaches the water table.</value>
+  </data>
+  <data name="Narr_Water_Obj_Land" xml:space="preserve">
+    <value>The water on land: ice caps and glaciers, groundwater, lakes, soil, rivers and living things. The biggest share is ice, with groundwater close behind.</value>
+  </data>
+  <data name="Narr_Water_Obj_Leeward" xml:space="preserve">
+    <value>The leeward side. Air that rained out on the way up comes down warmer and drier than it set off: a foehn wind.</value>
+  </data>
+  <data name="Narr_Water_Obj_Oceans" xml:space="preserve">
+    <value>The oceans hold almost all of Earth's water. A water molecule stays in the sea for more than three thousand years, on average, before it evaporates.</value>
+  </data>
+  <data name="Narr_Water_Obj_Parcel" xml:space="preserve">
+    <value>The parcel: a lump of air we follow as it rises. The faint dots inside are vapour; once it reaches its dew point they turn into white droplets.</value>
+  </data>
+  <data name="Narr_Water_Obj_Precipitation" xml:space="preserve">
+    <value>Precipitation. Cloud droplets merge, or ice crystals grow at their expense, until they're heavy enough to fall: rain below the freezing level, snow above it.</value>
+  </data>
+  <data name="Narr_Water_Obj_RainShadow" xml:space="preserve">
+    <value>The rain shadow: the side of the mountain away from the wind. The air arriving here has already rained out on the other side, so it's dry.</value>
+  </data>
+  <data name="Narr_Water_Obj_Runoff" xml:space="preserve">
+    <value>Runoff. Water that doesn't soak in or evaporate runs downhill into streams and rivers, and on to the sea. A drop spends only a couple of weeks in a river.</value>
+  </data>
+  <data name="Narr_Water_Obj_SnowLine" xml:space="preserve">
+    <value>The snow line: above it, the snow on the mountain lasts all year. In a warmer world it climbs higher, and there's less snow to feed the rivers.</value>
+  </data>
+  <data name="Narr_Water_Obj_Snowmelt" xml:space="preserve">
+    <value>Snowmelt. Snow and glaciers store water through the winter and let it go in spring and summer. Many great rivers get much of their summer water this way.</value>
+  </data>
+  <data name="Narr_Water_Obj_Sublimation" xml:space="preserve">
+    <value>Sublimation. In dry, sunny, windy weather, snow and ice can turn straight into vapour without melting first. On high, dry mountains it takes away a good share of the snow.</value>
+  </data>
+  <data name="Narr_Water_Obj_Sun" xml:space="preserve">
+    <value>The Sun, the engine of the water cycle. Its heat evaporates the water and stirs up the winds that carry it.</value>
+  </data>
+  <data name="Narr_Water_Obj_Thermal" xml:space="preserve">
+    <value>A field warmed by the Sun. It heats the air above it, and a bubble of warm air breaks away and rises, a thermal. Birds and gliders ride them.</value>
+  </data>
+  <data name="Narr_Water_Obj_Transpiration" xml:space="preserve">
+    <value>Transpiration. Plants draw water up from the soil and let it out through tiny pores in their leaves. On land, plants send more water into the air than the soil and lakes do.</value>
+  </data>
+  <data name="Narr_Water_Obj_Transport" xml:space="preserve">
+    <value>Transport. The wind carries invisible vapour far from where it evaporated, often hundreds or thousands of kilometres, much of it from over the sea to over the land.</value>
+  </data>
+  <data name="Narr_Water_Obj_Wind" xml:space="preserve">
+    <value>The wind pushes the air up the windward slope of the mountain. It cools as it climbs, so this side gets the clouds and the rain.</value>
+  </data>
+  <data name="Narr_Water_Stores_01" xml:space="preserve">
+    <value>Where is all of Earth's water? Here it's gathered into balls, standing on Earth and drawn to the same scale.</value>
+  </data>
+  <data name="Narr_Water_Stores_02" xml:space="preserve">
+    <value>This ball holds all the water on Earth: the oceans, the ice, the groundwater, lakes, rivers and the air. It's only about one thousand four hundred kilometres across.</value>
+  </data>
+  <data name="Narr_Water_Stores_03" xml:space="preserve">
+    <value>This much smaller ball is all the fresh liquid water: groundwater, lakes, swamps and rivers. Almost all of it is groundwater, hidden in the rock.</value>
+  </data>
+  <data name="Narr_Water_Stores_04" xml:space="preserve">
+    <value>And this tiny one is the water in lakes and rivers, the fresh water that's easiest to reach. Look how little of it there is.</value>
+  </data>
+  <data name="Narr_Water_Stores_05" xml:space="preserve">
+    <value>Every year a huge amount of water evaporates. Where do you think most of it comes from?</value>
+  </data>
+  <data name="Narr_Water_Stores_06" xml:space="preserve">
+    <value>The oceans. This shows the water moving each year, and the widest band is evaporation from the sea. But about nine tenths of it rains straight back onto the sea.</value>
+  </data>
+  <data name="Narr_Water_Stores_07" xml:space="preserve">
+    <value>The rest is blown over the land as vapour. Without this, rain would only fall on the sea, and the land would be desert.</value>
+  </data>
+  <data name="Narr_Water_Stores_08" xml:space="preserve">
+    <value>Every year, just as much water flows back to the sea in rivers and underground. So nothing runs out: the sea, the air and the land stay in balance.</value>
+  </data>
+  <data name="Narr_Water_Stores_09" xml:space="preserve">
+    <value>The air holds only a tiny amount at any moment. A water molecule stays up there for only about nine days, while in the ocean it stays, on average, for more than three thousand years.</value>
+  </data>
+  <data name="Narr_Water_Stores_10" xml:space="preserve">
+    <value>Your turn. Click a ball, a flow or a store in the picture to hear more about it.</value>
+  </data>
   <data name="Notes_Add" xml:space="preserve">
     <value>Save note</value>
   </data>
@@ -8975,6 +9161,834 @@
   </data>
   <data name="Volume_Sky" xml:space="preserve">
     <value>The Sky</value>
+  </data>
+  <data name="Water_Ball_All" xml:space="preserve">
+    <value>All the water</value>
+  </data>
+  <data name="Water_Ball_FreshLiquid" xml:space="preserve">
+    <value>Liquid fresh water</value>
+  </data>
+  <data name="Water_Ball_LakesRivers" xml:space="preserve">
+    <value>Lakes and rivers</value>
+  </data>
+  <data name="Water_Ball_Size" xml:space="preserve">
+    <value>{0} km across · {1}</value>
+  </data>
+  <data name="Water_Chart_Litre_Caption" xml:space="preserve">
+    <value>If all the water were one litre</value>
+  </data>
+  <data name="Water_Chart_Litre_Drops" xml:space="preserve">
+    <value>{0} mL · {1} drops</value>
+  </data>
+  <data name="Water_Chart_Litre_Ml" xml:space="preserve">
+    <value>{0} mL</value>
+  </data>
+  <data name="Water_Chart_Litre_Note" xml:space="preserve">
+    <value>The scale goes up ten times at each line. A drop from a dropper is about 0.05 mL: of the litre, all the world's rivers would be about a thirtieth of a drop.</value>
+  </data>
+  <data name="Water_Chart_Parcel_Base" xml:space="preserve">
+    <value>cloud base</value>
+  </data>
+  <data name="Water_Chart_Parcel_Caption" xml:space="preserve">
+    <value>The parcel's temperature and dew point</value>
+  </data>
+  <data name="Water_Chart_Parcel_DewPoint" xml:space="preserve">
+    <value>Dew point</value>
+  </data>
+  <data name="Water_Chart_Parcel_Note" xml:space="preserve">
+    <value>Below the cloud the two lines close in; they meet at the cloud base and go up together. Dashed: the way down the far side of the mountain.</value>
+  </data>
+  <data name="Water_Chart_Parcel_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Water_Chart_Vapour_Caption" xml:space="preserve">
+    <value>How much vapour air can hold</value>
+  </data>
+  <data name="Water_Chart_Vapour_Change" xml:space="preserve">
+    <value>{0}% vapour</value>
+  </data>
+  <data name="Water_Chart_Vapour_Note" xml:space="preserve">
+    <value>The curve doubles about every 10 °C. The white dot is the landscape's sea-level air today; the slider warms or cools its world.</value>
+  </data>
+  <data name="Water_Chart_Vapour_Today" xml:space="preserve">
+    <value>{0} g/m³ at 15 °C</value>
+  </data>
+  <data name="Water_Chart_Vapour_Unit" xml:space="preserve">
+    <value>g/m³</value>
+  </data>
+  <data name="Water_Clock" xml:space="preserve">
+    <value>t = {0} s · {1}</value>
+  </data>
+  <data name="Water_CloudBase_Label" xml:space="preserve">
+    <value>Cloud base {0} m</value>
+  </data>
+  <data name="Water_Cloud_Back_Description" xml:space="preserve">
+    <value>Without rain on the way up, the air arrives as warm and as humid as it set off. Only air that has rained out its water arrives warmer: that is the foehn.</value>
+  </data>
+  <data name="Water_Cloud_Back_Title" xml:space="preserve">
+    <value>Back as it was</value>
+  </data>
+  <data name="Water_Cloud_ColdAir" xml:space="preserve">
+    <value>Cold air</value>
+  </data>
+  <data name="Water_Cloud_DescendingBack_Description" xml:space="preserve">
+    <value>No rain fell, so any cloud droplets evaporate again as the air sinks and warms: it comes down just as it went up.</value>
+  </data>
+  <data name="Water_Cloud_DescendingBack_Title" xml:space="preserve">
+    <value>Down the far side</value>
+  </data>
+  <data name="Water_Cloud_Descending_Description" xml:space="preserve">
+    <value>Having rained out its water, the air sinks down the far side and warms by about 10 °C per kilometre all the way.</value>
+  </data>
+  <data name="Water_Cloud_Descending_Title" xml:space="preserve">
+    <value>Down the far side</value>
+  </data>
+  <data name="Water_Cloud_Fact1" xml:space="preserve">
+    <value>Rising air cools by about 10 °C per kilometre until it reaches its dew point; inside the cloud it cools more slowly, about 4 to 7 °C per km, because condensing vapour gives back heat.</value>
+  </data>
+  <data name="Water_Cloud_Fact2" xml:space="preserve">
+    <value>You can estimate the cloud base: about 125 m for every degree between the air's temperature and its dew point. On humid days the clouds are low.</value>
+  </data>
+  <data name="Water_Cloud_Fact3" xml:space="preserve">
+    <value>Cloud droplets are tiny, about 0.02 mm across; one raindrop holds about a million of them.</value>
+  </data>
+  <data name="Water_Cloud_Fact4" xml:space="preserve">
+    <value>Outside the tropics most rain starts as snow high in the cloud and melts on the way down.</value>
+  </data>
+  <data name="Water_Cloud_Fact5" xml:space="preserve">
+    <value>Air that rains out on one side of a mountain comes down the other side warmer and drier: the foehn in the Alps, the chinook in the Rockies. Deserts lie behind many mountain ranges.</value>
+  </data>
+  <data name="Water_Cloud_Foehn_Description" xml:space="preserve">
+    <value>The air arrives warmer and drier than it set off: it kept the heat its condensing vapour gave back, but lost the water as rain. This is a foehn wind, and the land here lies in a rain shadow.</value>
+  </data>
+  <data name="Water_Cloud_Foehn_Title" xml:space="preserve">
+    <value>A warm, dry wind</value>
+  </data>
+  <data name="Water_Cloud_Freezing_Description" xml:space="preserve">
+    <value>Above the 0 °C line the droplets stay liquid at first (supercooled), but ice crystals start to form and grow at their expense.</value>
+  </data>
+  <data name="Water_Cloud_Freezing_Title" xml:space="preserve">
+    <value>Above the 0 °C line</value>
+  </data>
+  <data name="Water_Cloud_InCloud_Description" xml:space="preserve">
+    <value>The air has cooled to its dew point and cannot hold all its vapour: it condenses into droplets. From here it cools more slowly, as the condensing water gives back heat.</value>
+  </data>
+  <data name="Water_Cloud_InCloud_Title" xml:space="preserve">
+    <value>A cloud forms</value>
+  </data>
+  <data name="Water_Cloud_Leeward" xml:space="preserve">
+    <value>Far side: dry</value>
+  </data>
+  <data name="Water_Cloud_NoCloud_Description" xml:space="preserve">
+    <value>The air never cooled to its dew point: it was too dry for the height it was lifted to. Raise the humidity to bring the cloud base down.</value>
+  </data>
+  <data name="Water_Cloud_NoCloud_Title" xml:space="preserve">
+    <value>No cloud</value>
+  </data>
+  <data name="Water_Cloud_Note" xml:space="preserve">
+    <value>Heights are to scale; the land is squeezed sideways. The parcel is one lump of air followed as it rises, not mixing with the air around it.</value>
+  </data>
+  <data name="Water_Cloud_Raining_Description" xml:space="preserve">
+    <value>The cloud is deep enough for droplets to grow into raindrops, or into snowflakes that melt on the way down. Water that evaporated far away falls back.</value>
+  </data>
+  <data name="Water_Cloud_Raining_Title" xml:space="preserve">
+    <value>Rain</value>
+  </data>
+  <data name="Water_Cloud_Rising_Description" xml:space="preserve">
+    <value>The air rises into lower pressure, expands and cools by about 10 °C every kilometre. Its dew point falls only about 2 °C per km, so the two close in.</value>
+  </data>
+  <data name="Water_Cloud_Rising_Title" xml:space="preserve">
+    <value>Rising and cooling</value>
+  </data>
+  <data name="Water_Cloud_Snowing_Description" xml:space="preserve">
+    <value>The air near the ground is cold enough that the snowflakes do not melt before they land.</value>
+  </data>
+  <data name="Water_Cloud_Snowing_Title" xml:space="preserve">
+    <value>Snow</value>
+  </data>
+  <data name="Water_Cloud_Subtitle" xml:space="preserve">
+    <value>Air that rises cools, until its vapour condenses into a cloud</value>
+  </data>
+  <data name="Water_Cloud_SunnyField" xml:space="preserve">
+    <value>Sun-warmed field</value>
+  </data>
+  <data name="Water_Cloud_ThinCloud_Description" xml:space="preserve">
+    <value>The cloud is too thin for its droplets to grow big enough to fall. Lift the air higher, or make it more humid.</value>
+  </data>
+  <data name="Water_Cloud_ThinCloud_Title" xml:space="preserve">
+    <value>A cloud, but no rain</value>
+  </data>
+  <data name="Water_Cloud_WarmAir" xml:space="preserve">
+    <value>Warm, moist air</value>
+  </data>
+  <data name="Water_Cloud_Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="Water_Cloud_Windward" xml:space="preserve">
+    <value>Windward side: rain</value>
+  </data>
+  <data name="Water_Cycle_Fact1" xml:space="preserve">
+    <value>Every year about 500,000 km³ of water evaporates, as much as a metre of water over the whole Earth, and the same amount falls back as rain and snow.</value>
+  </data>
+  <data name="Water_Cycle_Fact2" xml:space="preserve">
+    <value>About 90 % of the water that evaporates from the sea falls straight back onto the sea; the rest is blown over land and comes back by rivers and groundwater.</value>
+  </data>
+  <data name="Water_Cycle_Fact3" xml:space="preserve">
+    <value>A water molecule stays in the air for about 9 days on average, in a river a couple of weeks, in the ocean about 3,000 years, and in deep groundwater or Antarctic ice for up to hundreds of thousands of years.</value>
+  </data>
+  <data name="Water_Cycle_Fact4" xml:space="preserve">
+    <value>Plants move a great deal of water: a big tree can give off over a hundred litres on a summer day, and transpiration is more than half of all the water rising from land.</value>
+  </data>
+  <data name="Water_Cycle_Fact5" xml:space="preserve">
+    <value>Warmer air holds about 7 % more water vapour for every degree, so a warmer world has heavier downpours, more of its snow falls as rain, and the snow line moves up the mountains.</value>
+  </data>
+  <data name="Water_Cycle_Note" xml:space="preserve">
+    <value>Heights are real but the land is squeezed sideways: the picture is a few hundred kilometres across. Trees and the river are drawn much bigger than real.</value>
+  </data>
+  <data name="Water_Cycle_Subtitle" xml:space="preserve">
+    <value>Water goes round: from the sea into the air, onto the land, and back</value>
+  </data>
+  <data name="Water_Drop_Title" xml:space="preserve">
+    <value>The drop: {0}</value>
+  </data>
+  <data name="Water_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Water_Flow_LandEvaporation" xml:space="preserve">
+    <value>Evaporation and transpiration</value>
+  </data>
+  <data name="Water_Flow_LandPrecipitation" xml:space="preserve">
+    <value>Rain and snow on land</value>
+  </data>
+  <data name="Water_Flow_OceanEvaporation" xml:space="preserve">
+    <value>Evaporation from the sea</value>
+  </data>
+  <data name="Water_Flow_OceanPrecipitation" xml:space="preserve">
+    <value>Rain and snow on the sea</value>
+  </data>
+  <data name="Water_Flow_Runoff" xml:space="preserve">
+    <value>Rivers and groundwater</value>
+  </data>
+  <data name="Water_Flow_VapourToLand" xml:space="preserve">
+    <value>Vapour blown inland</value>
+  </data>
+  <data name="Water_Flux" xml:space="preserve">
+    <value>{0} a year</value>
+  </data>
+  <data name="Water_Freezing_Label" xml:space="preserve">
+    <value>0 °C · {0} m</value>
+  </data>
+  <data name="Water_GroundTemperature" xml:space="preserve">
+    <value>Air temperature at the ground</value>
+  </data>
+  <data name="Water_Hint_Cloud" xml:space="preserve">
+    <value>Change the air's temperature and humidity on the left page and watch the cloud base move.</value>
+  </data>
+  <data name="Water_Hint_Cycle" xml:space="preserve">
+    <value>Click a label to light up that part of the cycle, or follow one drop all the way round.</value>
+  </data>
+  <data name="Water_Hint_Stores_Flows" xml:space="preserve">
+    <value>The dots run along each flow; the wider the band, the more water each year.</value>
+  </data>
+  <data name="Water_Hint_Stores_Spheres" xml:space="preserve">
+    <value>Switch the picture to the yearly flows to see how water moves between sea, air and land.</value>
+  </data>
+  <data name="Water_Humidity" xml:space="preserve">
+    <value>Relative humidity</value>
+  </data>
+  <data name="Water_Humidity_Value" xml:space="preserve">
+    <value>{0}% · dew point {1} °C</value>
+  </data>
+  <data name="Water_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Water_Km_Value" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Water_Leg_Condensation" xml:space="preserve">
+    <value>In a cloud</value>
+  </data>
+  <data name="Water_Leg_Condensation_Description" xml:space="preserve">
+    <value>The air carrying it rises and cools to its dew point; the drop condenses onto a speck of dust and becomes a cloud droplet.</value>
+  </data>
+  <data name="Water_Leg_Evaporation" xml:space="preserve">
+    <value>Evaporating</value>
+  </data>
+  <data name="Water_Leg_Evaporation_Description" xml:space="preserve">
+    <value>Warmed by the Sun at the surface, the drop escapes into the air as vapour: invisible, and leaving its salt behind.</value>
+  </data>
+  <data name="Water_Leg_Groundwater" xml:space="preserve">
+    <value>Underground</value>
+  </data>
+  <data name="Water_Leg_Groundwater_Description" xml:space="preserve">
+    <value>Now groundwater, the drop creeps through the rock toward the sea, perhaps only metres a year. Shallow groundwater takes years to centuries; deep groundwater thousands of years.</value>
+  </data>
+  <data name="Water_Leg_Infiltration" xml:space="preserve">
+    <value>Soaking in</value>
+  </data>
+  <data name="Water_Leg_Infiltration_Description" xml:space="preserve">
+    <value>The drop soaks into the soil and trickles down through cracks and gaps until it reaches the water table.</value>
+  </data>
+  <data name="Water_Leg_Ocean" xml:space="preserve">
+    <value>In the sea</value>
+  </data>
+  <data name="Water_Leg_Ocean_Description" xml:space="preserve">
+    <value>The drop is one of some 1.3 billion km³ of sea water. On average water stays in the ocean for over 3,000 years before it evaporates.</value>
+  </data>
+  <data name="Water_Leg_Rain" xml:space="preserve">
+    <value>Falling as rain</value>
+  </data>
+  <data name="Water_Leg_Rain_Description" xml:space="preserve">
+    <value>About a million cloud droplets have merged into one raindrop, heavy enough to fall. From a cloud a couple of kilometres up it lands in a few minutes.</value>
+  </data>
+  <data name="Water_Leg_River" xml:space="preserve">
+    <value>Down the river</value>
+  </data>
+  <data name="Water_Leg_River_Description" xml:space="preserve">
+    <value>Streams join into a river that carries the drop back to the sea. A river holds its water only a couple of weeks on average.</value>
+  </data>
+  <data name="Water_Leg_Snowfall" xml:space="preserve">
+    <value>Falling as snow</value>
+  </data>
+  <data name="Water_Leg_Snowfall_Description" xml:space="preserve">
+    <value>Above the 0 °C line the water freezes onto an ice crystal and falls slowly as a snowflake onto the mountain.</value>
+  </data>
+  <data name="Water_Leg_Snowmelt" xml:space="preserve">
+    <value>Melting</value>
+  </data>
+  <data name="Water_Leg_Snowmelt_Description" xml:space="preserve">
+    <value>In spring the Sun melts the snow, and the drop trickles down the slope toward a stream.</value>
+  </data>
+  <data name="Water_Leg_Snowpack" xml:space="preserve">
+    <value>In the snow</value>
+  </data>
+  <data name="Water_Leg_Snowpack_Description" xml:space="preserve">
+    <value>The drop waits in the snow through the winter. In a glacier it could wait for centuries; deep in Antarctic ice, for hundreds of thousands of years.</value>
+  </data>
+  <data name="Water_Leg_Transpiration" xml:space="preserve">
+    <value>Out of a leaf</value>
+  </data>
+  <data name="Water_Leg_Transpiration_Description" xml:space="preserve">
+    <value>Through a tiny pore in the leaf the drop escapes as vapour. Over land, plants send more water into the air than the soil and lakes do.</value>
+  </data>
+  <data name="Water_Leg_Transport" xml:space="preserve">
+    <value>Carried by the wind</value>
+  </data>
+  <data name="Water_Leg_Transport_Description" xml:space="preserve">
+    <value>As vapour, the drop travels with the wind, often hundreds or thousands of kilometres. Water stays in the air about 9 days on average.</value>
+  </data>
+  <data name="Water_Leg_Uptake" xml:space="preserve">
+    <value>Through a tree</value>
+  </data>
+  <data name="Water_Leg_Uptake_Description" xml:space="preserve">
+    <value>Roots take the drop up from the soil; it rises through the trunk to a leaf within days.</value>
+  </data>
+  <data name="Water_Lesson_Cloud_Choice1" xml:space="preserve">
+    <value>The vapour condenses into a cloud</value>
+  </data>
+  <data name="Water_Lesson_Cloud_Choice2" xml:space="preserve">
+    <value>The air stops rising</value>
+  </data>
+  <data name="Water_Lesson_Cloud_Choice3" xml:space="preserve">
+    <value>It starts raining straight away</value>
+  </data>
+  <data name="Water_Lesson_Cycle_Choice1" xml:space="preserve">
+    <value>It cools, and rain or snow falls</value>
+  </data>
+  <data name="Water_Lesson_Cycle_Choice2" xml:space="preserve">
+    <value>It warms up, and the clouds vanish</value>
+  </data>
+  <data name="Water_Lesson_Cycle_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Water_Lesson_Stores_Choice1" xml:space="preserve">
+    <value>The oceans</value>
+  </data>
+  <data name="Water_Lesson_Stores_Choice2" xml:space="preserve">
+    <value>Lakes and rivers</value>
+  </data>
+  <data name="Water_Lesson_Stores_Choice3" xml:space="preserve">
+    <value>Plants</value>
+  </data>
+  <data name="Water_Lift_Caption" xml:space="preserve">
+    <value>What lifts the air</value>
+  </data>
+  <data name="Water_Lift_Front" xml:space="preserve">
+    <value>A front</value>
+  </data>
+  <data name="Water_Lift_Mountain" xml:space="preserve">
+    <value>A mountain</value>
+  </data>
+  <data name="Water_Lift_Thermal" xml:space="preserve">
+    <value>Warm ground</value>
+  </data>
+  <data name="Water_Mode_Cloud" xml:space="preserve">
+    <value>A cloud forms</value>
+  </data>
+  <data name="Water_Mode_Cycle" xml:space="preserve">
+    <value>The cycle</value>
+  </data>
+  <data name="Water_Mode_Stores" xml:space="preserve">
+    <value>Where the water is</value>
+  </data>
+  <data name="Water_Obj_CloudBase" xml:space="preserve">
+    <value>Cloud base</value>
+  </data>
+  <data name="Water_Obj_Drop" xml:space="preserve">
+    <value>The drop you follow</value>
+  </data>
+  <data name="Water_Obj_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Water_Obj_Freezing" xml:space="preserve">
+    <value>Freezing level</value>
+  </data>
+  <data name="Water_Obj_Front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="Water_Obj_Leeward" xml:space="preserve">
+    <value>Leeward side</value>
+  </data>
+  <data name="Water_Obj_Parcel" xml:space="preserve">
+    <value>Parcel of air</value>
+  </data>
+  <data name="Water_Obj_RainShadow" xml:space="preserve">
+    <value>Rain shadow</value>
+  </data>
+  <data name="Water_Obj_SnowLine" xml:space="preserve">
+    <value>Snow line</value>
+  </data>
+  <data name="Water_Obj_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Water_Obj_Thermal" xml:space="preserve">
+    <value>Sunny field</value>
+  </data>
+  <data name="Water_Obj_Wind" xml:space="preserve">
+    <value>Wind up the mountain</value>
+  </data>
+  <data name="Water_Option_FollowDrop" xml:space="preserve">
+    <value>Follow a drop</value>
+  </data>
+  <data name="Water_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Water_Parcel_Label" xml:space="preserve">
+    <value>{0} °C · dew point {1} °C</value>
+  </data>
+  <data name="Water_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Water_Process_Caption" xml:space="preserve">
+    <value>Light up</value>
+  </data>
+  <data name="Water_Process_Condensation" xml:space="preserve">
+    <value>Condensation</value>
+  </data>
+  <data name="Water_Process_Condensation_Amount" xml:space="preserve">
+    <value>all that evaporates: about 486,000 km³</value>
+  </data>
+  <data name="Water_Process_Condensation_Description" xml:space="preserve">
+    <value>Rising air expands and cools. Once it cools to its dew point, vapour condenses onto tiny specks of dust, salt or smoke as cloud droplets about 0.02 mm across, giving back the heat the Sun put in when the water evaporated.</value>
+  </data>
+  <data name="Water_Process_Evaporation" xml:space="preserve">
+    <value>Evaporation</value>
+  </data>
+  <data name="Water_Process_Evaporation_Amount" xml:space="preserve">
+    <value>about 413,000 km³ from the sea, 73,000 km³ from land and plants</value>
+  </data>
+  <data name="Water_Process_Evaporation_Description" xml:space="preserve">
+    <value>Sunlight gives water molecules at the surface enough energy to escape into the air as invisible vapour. The salt stays behind, so rain is fresh water. Most evaporation, about 85 %, is from the oceans.</value>
+  </data>
+  <data name="Water_Process_Groundwater" xml:space="preserve">
+    <value>Groundwater flow</value>
+  </data>
+  <data name="Water_Process_Groundwater_Amount" xml:space="preserve">
+    <value>most of it feeds rivers and lakes; a few percent seeps straight into the sea</value>
+  </data>
+  <data name="Water_Process_Groundwater_Description" xml:space="preserve">
+    <value>Below the water table, water creeps through the rock, often only metres a year, toward rivers, lakes and the sea. Wells and springs tap it. It is the largest store of liquid fresh water by far.</value>
+  </data>
+  <data name="Water_Process_Infiltration" xml:space="preserve">
+    <value>Infiltration</value>
+  </data>
+  <data name="Water_Process_Infiltration_Amount" xml:space="preserve">
+    <value>about 13,000 km³ refills groundwater, a tenth of the rain on land</value>
+  </data>
+  <data name="Water_Process_Infiltration_Description" xml:space="preserve">
+    <value>Rain soaks into the soil. Some stays there for plants; some trickles on down through gaps in the soil and rock to the water table, below which every gap is full of water.</value>
+  </data>
+  <data name="Water_Process_None" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Water_Process_Overview_Description" xml:space="preserve">
+    <value>The Sun warms the sea and water evaporates as invisible vapour. The wind carries it; rising air cools and the vapour condenses into clouds; rain and snow fall; water runs back to the sea in rivers or slowly through the ground. Nothing is lost: the same water has gone round for billions of years.</value>
+  </data>
+  <data name="Water_Process_Overview_Title" xml:space="preserve">
+    <value>Round and round</value>
+  </data>
+  <data name="Water_Process_Precipitation" xml:space="preserve">
+    <value>Precipitation</value>
+  </data>
+  <data name="Water_Process_Precipitation_Amount" xml:space="preserve">
+    <value>about 373,000 km³ on the sea, 113,000 km³ on land</value>
+  </data>
+  <data name="Water_Process_Precipitation_Description" xml:space="preserve">
+    <value>Cloud droplets merge, or ice crystals grow at their expense, until they are heavy enough to fall. Below the 0 °C line it reaches the ground as rain, above it as snow. Air pushed up a mountain rains on the near side and leaves the far side dry.</value>
+  </data>
+  <data name="Water_Process_Runoff" xml:space="preserve">
+    <value>Runoff</value>
+  </data>
+  <data name="Water_Process_Runoff_Amount" xml:space="preserve">
+    <value>about 40,000 km³ back to the sea, with groundwater</value>
+  </data>
+  <data name="Water_Process_Runoff_Description" xml:space="preserve">
+    <value>Water that does not soak in or evaporate runs downhill in streams that join into rivers and flow to the sea. A drop spends on average only a couple of weeks in a river.</value>
+  </data>
+  <data name="Water_Process_Snowmelt" xml:space="preserve">
+    <value>Snowmelt</value>
+  </data>
+  <data name="Water_Process_Snowmelt_Amount" xml:space="preserve">
+    <value>the main water supply of about a sixth of the world's people</value>
+  </data>
+  <data name="Water_Process_Snowmelt_Description" xml:space="preserve">
+    <value>Snow and glaciers store water through the winter and let it go in spring and summer. Rivers such as the Yangtze, the Ganges and the Indus get much of their summer water from snow and ice far upstream.</value>
+  </data>
+  <data name="Water_Process_Sublimation" xml:space="preserve">
+    <value>Sublimation</value>
+  </data>
+  <data name="Water_Process_Sublimation_Amount" xml:space="preserve">
+    <value>a small share worldwide; on dry high mountains a fifth of the snow or more</value>
+  </data>
+  <data name="Water_Process_Sublimation_Description" xml:space="preserve">
+    <value>In dry, sunny, windy air, snow and ice can turn straight into vapour without melting first. It takes much more energy than melting, but high on dry mountains it removes a good part of the snow.</value>
+  </data>
+  <data name="Water_Process_Transpiration" xml:space="preserve">
+    <value>Transpiration</value>
+  </data>
+  <data name="Water_Process_Transpiration_Amount" xml:space="preserve">
+    <value>about 45,000 km³, some 60 % of what evaporates from land</value>
+  </data>
+  <data name="Water_Process_Transpiration_Description" xml:space="preserve">
+    <value>Plants draw water up from the soil through their roots and stems and give it off as vapour through tiny pores in their leaves. It cools them, like sweating, and pulls more water up behind it.</value>
+  </data>
+  <data name="Water_Process_Transport" xml:space="preserve">
+    <value>Vapour transport</value>
+  </data>
+  <data name="Water_Process_Transport_Amount" xml:space="preserve">
+    <value>about 40,000 km³ from over the sea to over land</value>
+  </data>
+  <data name="Water_Process_Transport_Description" xml:space="preserve">
+    <value>Water vapour is invisible. Winds carry it far from where it evaporated, much of it inland from the sea. Without this, rain would fall only over the sea and the land would be desert.</value>
+  </data>
+  <data name="Water_RainShadow" xml:space="preserve">
+    <value>Rain shadow</value>
+  </data>
+  <data name="Water_Restart" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="Water_Route_Caption" xml:space="preserve">
+    <value>The drop's way</value>
+  </data>
+  <data name="Water_Route_Ground" xml:space="preserve">
+    <value>Into the ground</value>
+  </data>
+  <data name="Water_Route_River" xml:space="preserve">
+    <value>Rain and a river</value>
+  </data>
+  <data name="Water_Route_Sea" xml:space="preserve">
+    <value>Straight back to sea</value>
+  </data>
+  <data name="Water_Route_Snow" xml:space="preserve">
+    <value>Snow on the peak</value>
+  </data>
+  <data name="Water_Route_Tree" xml:space="preserve">
+    <value>Through a tree</value>
+  </data>
+  <data name="Water_Sea_Label" xml:space="preserve">
+    <value>Ocean</value>
+  </data>
+  <data name="Water_SnowLine_Label" xml:space="preserve">
+    <value>Snow line {0} m</value>
+  </data>
+  <data name="Water_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Water_Spheres_Enlarged" xml:space="preserve">
+    <value>The same balls, enlarged {0} times</value>
+  </data>
+  <data name="Water_Stat_AirStay" xml:space="preserve">
+    <value>Water stays in the air</value>
+  </data>
+  <data name="Water_Stat_AllWater" xml:space="preserve">
+    <value>All the water</value>
+  </data>
+  <data name="Water_Stat_BackOnSea" xml:space="preserve">
+    <value>Back on the sea</value>
+  </data>
+  <data name="Water_Stat_Ball_Value" xml:space="preserve">
+    <value>{0} · a ball {1} km across</value>
+  </data>
+  <data name="Water_Stat_CloudBase" xml:space="preserve">
+    <value>Cloud base</value>
+  </data>
+  <data name="Water_Stat_CloudBase_None" xml:space="preserve">
+    <value>none below {0}</value>
+  </data>
+  <data name="Water_Stat_CloudBase_Value" xml:space="preserve">
+    <value>{0} (rule of thumb {1})</value>
+  </data>
+  <data name="Water_Stat_Condensed" xml:space="preserve">
+    <value>Condensed so far</value>
+  </data>
+  <data name="Water_Stat_Condensed_Value" xml:space="preserve">
+    <value>{0} g per kg of air</value>
+  </data>
+  <data name="Water_Stat_DewPoint" xml:space="preserve">
+    <value>Dew point · humidity</value>
+  </data>
+  <data name="Water_Stat_EachYear" xml:space="preserve">
+    <value>Each year</value>
+  </data>
+  <data name="Water_Stat_Earth" xml:space="preserve">
+    <value>Earth across</value>
+  </data>
+  <data name="Water_Stat_Freezing" xml:space="preserve">
+    <value>0 °C line</value>
+  </data>
+  <data name="Water_Stat_Fresh" xml:space="preserve">
+    <value>Fresh water</value>
+  </data>
+  <data name="Water_Stat_FreshLiquid" xml:space="preserve">
+    <value>Liquid fresh water</value>
+  </data>
+  <data name="Water_Stat_Fresh_Value" xml:space="preserve">
+    <value>{0}%, {1}% of it frozen</value>
+  </data>
+  <data name="Water_Stat_Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Water_Stat_LakesRivers" xml:space="preserve">
+    <value>Lakes and rivers</value>
+  </data>
+  <data name="Water_Stat_Lee" xml:space="preserve">
+    <value>Far side, at sea level</value>
+  </data>
+  <data name="Water_Stat_Lee_Value" xml:space="preserve">
+    <value>{0} °C, humidity {1}% ({2} °C)</value>
+  </data>
+  <data name="Water_Stat_OceanStay" xml:space="preserve">
+    <value>In the ocean</value>
+  </data>
+  <data name="Water_Stat_ParcelFreezing" xml:space="preserve">
+    <value>Parcel reaches 0 °C at</value>
+  </data>
+  <data name="Water_Stat_RainDepth" xml:space="preserve">
+    <value>Over the whole Earth</value>
+  </data>
+  <data name="Water_Stat_RainDepth_Value" xml:space="preserve">
+    <value>about a metre of rain and snow a year</value>
+  </data>
+  <data name="Water_Stat_RiverStay" xml:space="preserve">
+    <value>In a river</value>
+  </data>
+  <data name="Water_Stat_Route" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="Water_Stat_Salty" xml:space="preserve">
+    <value>Salty (the oceans)</value>
+  </data>
+  <data name="Water_Stat_SeaAir" xml:space="preserve">
+    <value>Sea-level air</value>
+  </data>
+  <data name="Water_Stat_SnowLine" xml:space="preserve">
+    <value>Snow line</value>
+  </data>
+  <data name="Water_Stat_SoFar" xml:space="preserve">
+    <value>Journey so far</value>
+  </data>
+  <data name="Water_Stat_SoFar_Home" xml:space="preserve">
+    <value>about {0}, back in the sea</value>
+  </data>
+  <data name="Water_Stat_Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="Water_Stat_Step_Value" xml:space="preserve">
+    <value>{0} of {1}</value>
+  </data>
+  <data name="Water_Stat_Swelling" xml:space="preserve">
+    <value>Swollen to</value>
+  </data>
+  <data name="Water_Stat_Swelling_Value" xml:space="preserve">
+    <value>{0} × its size at the ground</value>
+  </data>
+  <data name="Water_Stat_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Water_Stat_TypicalStay" xml:space="preserve">
+    <value>Typical stay here</value>
+  </data>
+  <data name="Water_Stat_TypicalStay_Value" xml:space="preserve">
+    <value>about {0}</value>
+  </data>
+  <data name="Water_Stat_Vapour" xml:space="preserve">
+    <value>Vapour air can hold</value>
+  </data>
+  <data name="Water_Stat_Vapour_Change" xml:space="preserve">
+    <value>{0}% · {1} g/m³</value>
+  </data>
+  <data name="Water_Stat_Vapour_Today" xml:space="preserve">
+    <value>{0} g/m³</value>
+  </data>
+  <data name="Water_Stat_YearlyCycle" xml:space="preserve">
+    <value>Evaporates</value>
+  </data>
+  <data name="Water_StoreName_Atmosphere" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="Water_StoreName_GroundIce" xml:space="preserve">
+    <value>Frozen ground</value>
+  </data>
+  <data name="Water_StoreName_Groundwater" xml:space="preserve">
+    <value>Groundwater</value>
+  </data>
+  <data name="Water_StoreName_IceAndSnow" xml:space="preserve">
+    <value>Ice and snow</value>
+  </data>
+  <data name="Water_StoreName_Lakes" xml:space="preserve">
+    <value>Lakes</value>
+  </data>
+  <data name="Water_StoreName_Living" xml:space="preserve">
+    <value>Living things</value>
+  </data>
+  <data name="Water_StoreName_Oceans" xml:space="preserve">
+    <value>Oceans</value>
+  </data>
+  <data name="Water_StoreName_Rivers" xml:space="preserve">
+    <value>Rivers</value>
+  </data>
+  <data name="Water_StoreName_SoilMoisture" xml:space="preserve">
+    <value>Soil</value>
+  </data>
+  <data name="Water_StoreName_Swamps" xml:space="preserve">
+    <value>Swamps</value>
+  </data>
+  <data name="Water_Store_Atmosphere" xml:space="preserve">
+    <value>Atmosphere</value>
+  </data>
+  <data name="Water_Store_Land" xml:space="preserve">
+    <value>Land: ice, groundwater, lakes, soil, rivers</value>
+  </data>
+  <data name="Water_Store_Oceans" xml:space="preserve">
+    <value>Oceans</value>
+  </data>
+  <data name="Water_Store_Stay" xml:space="preserve">
+    <value>{0} · stays about {1}</value>
+  </data>
+  <data name="Water_StoresView_Caption" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="Water_StoresView_Flows" xml:space="preserve">
+    <value>Yearly flows</value>
+  </data>
+  <data name="Water_StoresView_Spheres" xml:space="preserve">
+    <value>Balls of water</value>
+  </data>
+  <data name="Water_Stores_Flows_Description" xml:space="preserve">
+    <value>The bands show how much water moves each year. The air gains as much as it loses, and so do the sea and the land: the vapour carried over land each year comes back by rivers and groundwater.</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact1" xml:space="preserve">
+    <value>Each year about 413,000 km³ evaporates from the sea and 73,000 km³ from land and plants; 373,000 km³ falls back on the sea and 113,000 km³ on land.</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact2" xml:space="preserve">
+    <value>The 40,000 km³ of vapour blown from sea to land each year comes back down rivers and through the ground; the Amazon alone carries about a sixth of it.</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact3" xml:space="preserve">
+    <value>On land almost two thirds of the rain and snow goes back into the air from soil, lakes and plants; only about a third runs off to the sea.</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact4" xml:space="preserve">
+    <value>The air's water is replaced about every 9 days: 12,900 km³ in the air, against about 500,000 km³ falling out of it each year.</value>
+  </data>
+  <data name="Water_Stores_Flows_Fact5" xml:space="preserve">
+    <value>The Sun drives it all: evaporating water uses about half the sunlight the ground and sea absorb, and the heat comes back out where the vapour condenses into clouds.</value>
+  </data>
+  <data name="Water_Stores_Flows_Note" xml:space="preserve">
+    <value>Band widths are to scale with the yearly amounts (Trenberth and others, 2007); the stores are from the USGS.</value>
+  </data>
+  <data name="Water_Stores_Flows_Subtitle" xml:space="preserve">
+    <value>Each year about a metre of water rises from the whole Earth, and falls again</value>
+  </data>
+  <data name="Water_Stores_Flows_Title" xml:space="preserve">
+    <value>Where the water goes each year</value>
+  </data>
+  <data name="Water_Stores_Spheres_Description" xml:space="preserve">
+    <value>The big ball is all of Earth's water: oceans, ice, groundwater, lakes, air, everything. The middle one is the liquid fresh water: groundwater, lakes, swamps and rivers. The tiny one is the fresh water in lakes and rivers, the water we can use most easily.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact1" xml:space="preserve">
+    <value>Gathered into one ball, all of Earth's water would be only about 1,380 km across, about a ninth of Earth's diameter.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact2" xml:space="preserve">
+    <value>Over 96 % of it is salty sea water. Of the 2.5 % that is fresh, about 69 % is frozen in ice caps and glaciers and about 30 % is underground.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact3" xml:space="preserve">
+    <value>All the fresh water in the world's lakes and rivers would fit in a ball 56 km across. Lake Baikal alone holds about a fifth of the unfrozen fresh water on the surface.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact4" xml:space="preserve">
+    <value>The air holds only about 13,000 km³ of water: if it all fell at once, it would cover Earth about 2.5 cm deep.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Fact5" xml:space="preserve">
+    <value>The Antarctic ice sheet holds about 90 % of the world's ice; if it all melted the sea would rise by about 58 m.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Note" xml:space="preserve">
+    <value>Earth and the balls on it are to the same scale; on the right the same balls are enlarged.</value>
+  </data>
+  <data name="Water_Stores_Spheres_Subtitle" xml:space="preserve">
+    <value>All of Earth's water would make a surprisingly small ball</value>
+  </data>
+  <data name="Water_Stores_Spheres_Title" xml:space="preserve">
+    <value>All the water in three balls</value>
+  </data>
+  <data name="Water_Time_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Water_Time_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="Water_Time_Minutes" xml:space="preserve">
+    <value>{0} minutes</value>
+  </data>
+  <data name="Water_Time_Months" xml:space="preserve">
+    <value>{0} months</value>
+  </data>
+  <data name="Water_Time_Years" xml:space="preserve">
+    <value>{0} years</value>
+  </data>
+  <data name="Water_Timeline" xml:space="preserve">
+    <value>Timeline</value>
+  </data>
+  <data name="Water_Title" xml:space="preserve">
+    <value>The water cycle</value>
+  </data>
+  <data name="Water_Unit_Big" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Water_Unit_Mid" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="Water_Volume_Big" xml:space="preserve">
+    <value>{0} million km³</value>
+  </data>
+  <data name="Water_Volume_Mid" xml:space="preserve">
+    <value>{0} thousand km³</value>
+  </data>
+  <data name="Water_Volume_Small" xml:space="preserve">
+    <value>{0} km³</value>
+  </data>
+  <data name="Water_Warming" xml:space="preserve">
+    <value>A warmer or colder world</value>
+  </data>
+  <data name="Water_Warming_Today" xml:space="preserve">
+    <value>Today</value>
   </data>
   <data name="Window_Close" xml:space="preserve">
     <value>Close</value>

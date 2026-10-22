@@ -19,6 +19,7 @@
              xmlns:starlife="using:Lemon.Explore.Book.Chapters.StarLife"
              xmlns:blackhole="using:Lemon.Explore.Book.Chapters.BlackHole"
              xmlns:expansion="using:Lemon.Explore.Book.Chapters.Expansion"
+             xmlns:watercycle="using:Lemon.Explore.Book.Chapters.WaterCycle"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -55,6 +56,8 @@
         <DataTemplate DataType="blackhole:BlackHoleDiagramPageViewModel"><blackhole:BlackHoleDiagramPageView /></DataTemplate>
         <DataTemplate DataType="expansion:ExpansionTextPageViewModel"><expansion:ExpansionTextPageView /></DataTemplate>
         <DataTemplate DataType="expansion:ExpansionDiagramPageViewModel"><expansion:ExpansionDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="watercycle:WaterCycleTextPageViewModel"><watercycle:WaterCycleTextPageView /></DataTemplate>
+        <DataTemplate DataType="watercycle:WaterCycleDiagramPageViewModel"><watercycle:WaterCycleDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>
