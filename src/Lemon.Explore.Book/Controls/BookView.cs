@@ -53,6 +53,14 @@ public sealed class BookView : Control
     internal const double GrabStripWidth = 56;
 
     private const double DragThreshold = 6;
+
+    /// <summary>A drag this far (a share of the page's width) towards the turn finishes it when let go.</summary>
+    private const double TurnDistance = 0.25;
+
+    /// <summary>A flick this fast (pixels per millisecond) and at least <see cref="FlickDistance"/> long finishes the turn.</summary>
+    private const double FlickSpeed = 0.35;
+
+    private const double FlickDistance = 24;
     private static readonly TimeSpan TurnDuration = TimeSpan.FromMilliseconds(650);
 
     private static readonly IBrush TableBrush = new LinearGradientBrush
@@ -456,8 +464,9 @@ public sealed class BookView : Control
         }
         else if (_shown > 0 && !_isSpread && right.Contains(point) && point.X <= right.Left + GrabStripWidth)
         {
-            // One page: the page to the left is off screen, so going back is a tap, not a drag.
+            // One page: the earlier page lies off screen to the left; dragging rightwards brings it back over.
             target = _shown - 1;
+            canDrag = true;
         }
 
         if (target is null)
@@ -466,6 +475,7 @@ public sealed class BookView : Control
         }
 
         _press = new Press(target.Value, point, canDrag);
+        _press.Track(point, e.Timestamp);
         e.Pointer.Capture(this);
         e.Handled = true;
         Focus();
@@ -480,6 +490,7 @@ public sealed class BookView : Control
         }
 
         var point = e.GetPosition(this);
+        press.Track(point, e.Timestamp);
         if (!press.Dragging)
         {
             if (!press.CanDrag || ((Vector)(point - press.Start)).Length < DragThreshold)
@@ -489,12 +500,16 @@ public sealed class BookView : Control
 
             var layout = BookLayout.For(Bounds.Size, _isSpread);
             press.Dragging = true;
-            BeginTurn(press.Target, bottomCorner: press.Start.Y > layout.RightPage.Center.Y);
+            press.StartCorner = BeginTurn(press.Target, bottomCorner: press.Start.Y > layout.RightPage.Center.Y).Corner;
         }
 
         if (_turn is { } turn)
         {
-            turn.Corner = point;
+            // The corner moves as the finger does, from where it rests. On one page it has two page widths to cross
+            // (onto the off-screen page) and the finger only one, so it goes twice as far.
+            var moved = point - press.Start;
+            var across = _isSpread ? 1 : 2;
+            turn.Corner = press.StartCorner + new Vector(moved.X * across, moved.Y);
             _overlay.InvalidateVisual();
         }
 
@@ -521,10 +536,25 @@ public sealed class BookView : Control
 
         if (_turn is { } turn)
         {
-            // Let go past the spine and the sheet falls to the left; short of it, it falls back.
-            var towardsLater = turn.Geometry().Corner.X < turn.Layout.Spine;
+            var finishes = FinishesTurn(turn, press, e.GetPosition(this), e.Timestamp);
+            var towardsLater = finishes == turn.Forward;
             Animate(turn, turn.EndCorner(towardsLater), towardsLater);
         }
+    }
+
+    /// <summary>
+    /// Whether a drag let go here turns the page or lets it fall back: dragged a quarter of the page's width towards the
+    /// turn, flicked that way, or (on a spread) its corner carried past the spine. On a phone a full-width drag is
+    /// awkward, so the distance and the flick count as much as the spine.
+    /// </summary>
+    private static bool FinishesTurn(Turn turn, Press press, Point point, ulong timestamp)
+    {
+        // Positive towards the turn: leftwards for a forward one, rightwards for a backward one.
+        var sign = turn.Forward ? -1 : 1;
+        var along = (point.X - press.Start.X) * sign;
+        var speed = press.SpeedX(timestamp) * sign;
+        var pastSpine = (turn.Geometry().Corner.X < turn.Layout.Spine) == turn.Forward;
+        return along >= turn.Layout.RightPage.Width * TurnDistance || (speed >= FlickSpeed && along >= FlickDistance) || pastSpine;
     }
 
     protected override void OnPointerCaptureLost(PointerCaptureLostEventArgs e)
@@ -910,6 +940,11 @@ public sealed class BookView : Control
 
     private sealed class Press(int target, Point start, bool canDrag)
     {
+        /// <summary>How far back the speed of a flick is measured.</summary>
+        private const ulong SpeedWindow = 100;
+
+        private readonly Queue<(Point Point, ulong Time)> _recent = new();
+
         public int Target { get; } = target;
 
         public Point Start { get; } = start;
@@ -917,6 +952,33 @@ public sealed class BookView : Control
         public bool CanDrag { get; } = canDrag;
 
         public bool Dragging { get; set; }
+
+        /// <summary>Where the turn's corner rested when the drag began.</summary>
+        public Point StartCorner { get; set; }
+
+        public void Track(Point point, ulong time)
+        {
+            _recent.Enqueue((point, time));
+            while (_recent.Count > 2 && time - _recent.Peek().Time > SpeedWindow)
+            {
+                _recent.Dequeue();
+            }
+        }
+
+        /// <summary>Horizontal speed over the last moments of the drag, pixels per millisecond (rightwards positive).</summary>
+        public double SpeedX(ulong now)
+        {
+            if (_recent.Count < 2)
+            {
+                return 0;
+            }
+
+            // No time between the samples (events without timestamps) is no speed at all, not an infinite one.
+            var first = _recent.Peek();
+            var last = _recent.Last();
+            var elapsed = (double)(Math.Max(now, last.Time) - first.Time);
+            return elapsed <= 0 ? 0 : (last.Point.X - first.Point.X) / elapsed;
+        }
     }
 
     private sealed class TurnOverlay(BookView owner) : Control

@@ -62,6 +62,20 @@ public sealed partial class LensDiagram
         // The screen's picture in the top right corner, above the screen's top if it fits.
         var room = y0 - (ScreenHalf * sy) - stage.Top - 34;
         var scale = Math.Clamp(room / ScreenPicture.Height, 0.6, 1);
+
+        // Where it does not fit (a phone's page, the walkthrough's subtitles taking the bottom), the bench moves down
+        // to clear the picture, as far as leaves room under the axis for the screen's stand and the u and v labels;
+        // past that the picture gets smaller instead of covering the lens.
+        var lowest = stage.Bottom - (ScreenHalf * sy) - 60;
+        var clear = stage.Top + 24 + (ScreenPicture.Height * scale) + 34 + (ScreenHalf * sy);
+        if (clear > lowest)
+        {
+            var fits = (lowest - (ScreenHalf * sy) - 34 - stage.Top - 24) / ScreenPicture.Height;
+            scale = Math.Clamp(fits, 0.3, scale);
+            clear = stage.Top + 24 + (ScreenPicture.Height * scale) + 34 + (ScreenHalf * sy);
+        }
+
+        y0 = Math.Max(y0, Math.Min(clear, lowest));
         var inset = new Rect(stage.Right - (ScreenPicture.Width * scale) - 16, stage.Top + 24, ScreenPicture.Width * scale, ScreenPicture.Height * scale);
         return new BenchView(stage.Left - (BenchLeft * sx), y0, sx, sy, stage, inset);
     }

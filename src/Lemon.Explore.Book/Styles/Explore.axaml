@@ -25,6 +25,7 @@
         <StreamGeometry x:Key="Icon.Mute">M3,9 H7 L12,4 V20 L7,15 H3 Z M15.3,8.5 L17.5,10.7 L19.7,8.5 L21.1,9.9 L18.9,12.1 L21.1,14.3 L19.7,15.7 L17.5,13.5 L15.3,15.7 L13.9,14.3 L16.1,12.1 L13.9,9.9 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Pin">M12,2 A7,7 0 0 1 19,9 C19,14 12,22 12,22 C12,22 5,14 5,9 A7,7 0 0 1 12,2 Z M12,6 A3,3 0 1 0 12,12 A3,3 0 1 0 12,6 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.ChevronDown">M7,9 L12,14 L17,9 L18.4,10.4 L12,16.8 L5.6,10.4 Z</StreamGeometry>
+        <StreamGeometry x:Key="Icon.Contents">M4,5 H6.4 V7.4 H4 Z M8.5,5.5 H20 V6.9 H8.5 Z M4,10.8 H6.4 V13.2 H4 Z M8.5,11.3 H20 V12.7 H8.5 Z M4,16.6 H6.4 V19 H4 Z M8.5,17.1 H20 V18.5 H8.5 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.Note">M5,3 H15 L19,7 V21 H5 Z M14,4.6 V8 H17.4 Z M8,11 H16 V12.4 H8 Z M8,14.5 H16 V15.9 H8 Z M8,18 H13 V19.4 H8 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.WindowMinimize">M6,11.4 H18 V12.6 H6 Z</StreamGeometry>
         <StreamGeometry x:Key="Icon.WindowMaximize">M6,6 H18 V18 H6 Z M7.2,7.2 V16.8 H16.8 V7.2 Z</StreamGeometry>

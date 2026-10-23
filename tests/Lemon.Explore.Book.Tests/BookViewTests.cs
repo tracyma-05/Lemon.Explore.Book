@@ -117,6 +117,66 @@ public class BookViewTests
         window.Close();
     }
 
+    [AvaloniaTheory]
+    [InlineData(-120, true)]
+    [InlineData(-60, false)]
+    [InlineData(-18, false)]
+    [InlineData(40, false)]
+    public void OnAPhone_AQuarterPageSwipe_TurnsThePage_ASlowShortOneFallsBack(double dx, bool turns)
+    {
+        var (window, book, model) = Open(390, 800);
+        model.GoToPage(BookContents.FirstContentsPage);
+        Pump();
+        WaitForTurn(book);
+        Assert.False(book.IsSpread);
+
+        // A slow swipe from the page's right edge: a third of a 370-pixel page, a sixth, a few pixels, or the wrong way.
+        var layout = BookView.BookLayout.For(book.Bounds.Size, spread: false);
+        var start = book.TranslatePoint(default, window)!.Value + new Point(layout.RightPage.Right - 20, layout.RightPage.Center.Y + 100);
+        Swipe(window, start, dx, slow: true);
+        WaitForTurn(book);
+
+        Assert.Equal(BookContents.FirstContentsPage + (turns ? 1 : 0), model.PageIndex);
+        window.Close();
+    }
+
+    [AvaloniaFact]
+    public void OnAPhone_SwipingRightFromTheLeftEdge_TurnsBack()
+    {
+        var (window, book, model) = Open(390, 800);
+        model.GoToPage(BookContents.FirstContentsPage + 1);
+        Pump();
+        WaitForTurn(book);
+
+        var layout = BookView.BookLayout.For(book.Bounds.Size, spread: false);
+        var start = book.TranslatePoint(default, window)!.Value + new Point(layout.RightPage.Left + 20, layout.RightPage.Center.Y + 100);
+        Swipe(window, start, 120);
+        WaitForTurn(book);
+
+        Assert.Equal(BookContents.FirstContentsPage, model.PageIndex);
+        window.Close();
+    }
+
+    /// <summary>
+    /// Presses, drags sideways by <paramref name="dx"/> in a few steps, and lets go. Slow, the steps are far enough
+    /// apart in time that it is a drag, not a flick.
+    /// </summary>
+    private static void Swipe(Window window, Point start, double dx, bool slow = false)
+    {
+        window.MouseDown(start, MouseButton.Left);
+        for (var i = 1; i <= 4; i++)
+        {
+            window.MouseMove(start + new Point(dx * i / 4, -4 * i));
+            Pump();
+            if (slow)
+            {
+                Thread.Sleep(150);
+            }
+        }
+
+        window.MouseUp(start + new Point(dx, -16), MouseButton.Left);
+    }
+
     [AvaloniaFact]
     public void Cover_AndChineseText_Render()
     {

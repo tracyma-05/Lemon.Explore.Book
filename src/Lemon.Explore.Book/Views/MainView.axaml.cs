@@ -26,7 +26,13 @@ public partial class MainView : UserControl
         // The book handles the keys itself while it has focus; this keeps them turning pages after a toolbar button
         // has taken focus. Flyouts (settings, notes) are popups, so their keys never bubble up here.
         AddHandler(KeyDownEvent, OnTurnKey);
+
+        // On a phone the toolbar's words do not fit: below this width it shows only the icons (App.axaml, .narrow).
+        SizeChanged += (_, e) => Classes.Set("narrow", e.NewSize.Width < NarrowWidth);
     }
+
+    /// <summary>Narrower than this, the toolbar shows its buttons' icons only.</summary>
+    internal const double NarrowWidth = 640;
 
     private void OnTurnKey(object? sender, KeyEventArgs e)
     {

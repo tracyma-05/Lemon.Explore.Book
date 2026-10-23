@@ -62,7 +62,8 @@ public sealed partial class AcidBaseDiagram
         var stripHeight = 16.0;
         var below = left.Top + shelfHeight + 34;
         var beakerHeight = Math.Clamp(left.Bottom - below - stripHeight - 78, 90, 300);
-        var beakerWidth = Math.Clamp(beakerHeight * 0.85, 90, left.Width * 0.46);
+        // (on a phone 46% of the shelf can be under the 90 the beaker would like: the shelf wins)
+        var beakerWidth = Math.Clamp(beakerHeight * 0.85, Math.Min(90, left.Width * 0.46), left.Width * 0.46);
         var beaker = new Rect(left.Left + (left.Width * 0.36) - (beakerWidth / 2), below, beakerWidth, beakerHeight);
         var fill = Math.Clamp(Beaker.VolumeMl / BeakerCapacity, 0.05, 0.97) * (beaker.Height - 10);
         var liquid = new Rect(beaker.Left + 4, beaker.Bottom - 4 - fill, beaker.Width - 8, fill);

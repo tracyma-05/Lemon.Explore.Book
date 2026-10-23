@@ -144,7 +144,8 @@ public sealed partial class IceAgeDiagram
             var below = !nearEnd && at.Y > center.Y;
             var text = Loc(key);
             var half = _labels.Text(text, 10.5, color).Width / 2;
-            var x = Math.Clamp(at.X, area.Left + half, area.Right - half);
+            // (on a phone the area can be narrower than the label: then it is centred, not clamped)
+            var x = area.Width > half * 2 ? Math.Clamp(at.X, area.Left + half, area.Right - half) : area.Center.X;
             DrawText(dc, text, new Point(x, at.Y + (below ? 24 : -26)), color, 10.5, TextAnchor.Center);
         }
 

@@ -194,7 +194,7 @@ public sealed partial class SkyDiagram
 
     private void StepSparkles(double dt)
     {
-        if (dt <= 0 || ActualWidth < 400) return;
+        if (dt <= 0 || ActualWidth < 200) return;
         for (var i = _sparkles.Count - 1; i >= 0; i--)
         {
             var s = _sparkles[i];
@@ -241,7 +241,7 @@ public sealed partial class SkyDiagram
         var height = ActualHeight;
         dc.DrawRectangle(Brushes.Black, null, new Rect(0, 0, width, height));
         _stars.Draw(dc, width, height, RenderScale(), now, 0.6);
-        if (width < 400) return;
+        if (width < 200) return;
 
         var observer = PathObserver();
         var centre = PathCentre();

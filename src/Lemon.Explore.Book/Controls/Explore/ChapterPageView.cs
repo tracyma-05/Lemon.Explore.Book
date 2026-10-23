@@ -25,7 +25,45 @@ public interface IChapterPage
 /// <summary>Base of a ported chapter's page views: reports them coming on and off screen to the chapter.</summary>
 public abstract class ChapterPageView : UserControl
 {
+    /// <summary>A page narrower than this (a phone's) gets slimmer margins than the book's.</summary>
+    internal const double NarrowPageWidth = 520;
+
+    /// <summary>The slimmest margins a narrow page keeps on each side: left, top, right, bottom.</summary>
+    private static readonly Thickness NarrowMargin = new(12, 14, 12, 10);
+
     private IChapterContent? _shown;
+    private Thickness? _bookMargin;
+
+    protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)
+    {
+        base.OnPropertyChanged(change);
+        if (change.Property == BoundsProperty || change.Property == ContentProperty)
+        {
+            FitMargin();
+        }
+    }
+
+    /// <summary>
+    /// The page views set the book's generous margins on their root panel. On a phone they would take a sixth of the
+    /// width from the diagram, so a narrow page trims each to <see cref="NarrowMargin"/>, and a wide one puts them back.
+    /// </summary>
+    private void FitMargin()
+    {
+        if (Content is not Control root || Bounds.Width <= 0)
+        {
+            return;
+        }
+
+        _bookMargin ??= root.Margin;
+        var book = _bookMargin.Value;
+        root.Margin = Bounds.Width >= NarrowPageWidth
+            ? book
+            : new Thickness(
+                Math.Min(book.Left, NarrowMargin.Left),
+                Math.Min(book.Top, NarrowMargin.Top),
+                Math.Min(book.Right, NarrowMargin.Right),
+                Math.Min(book.Bottom, NarrowMargin.Bottom));
+    }
 
     protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)
     {

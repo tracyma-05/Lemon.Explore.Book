@@ -142,7 +142,7 @@
             ElementRole tells the system which part is which; the book's own buttons are "User" so they stay clickable.
         -->
         <Border x:Name="TitleBar" DockPanel.Dock="Top" Classes="toolbar" WindowDecorationProperties.ElementRole="TitleBar">
-            <Grid ColumnDefinitions="*,Auto,Auto">
+            <Grid ColumnDefinitions="Auto,*,Auto">
                 <TextBlock x:Name="TitleText" Classes="toolbarTitle" Text="{loc:Localize App_Title}" />
                 <!-- Minimize, maximize / restore and close: shown by MainWindow on Windows and Linux. -->
                 <StackPanel x:Name="CaptionButtons" Grid.Column="2" Orientation="Horizontal" Margin="10,-6,-12,-6"
@@ -163,58 +163,72 @@
                         <PathIcon Data="{StaticResource Icon.WindowClose}" />
                     </Button>
                 </StackPanel>
-                <StackPanel Grid.Column="1" Classes="toolbarButtons" Orientation="Horizontal" Spacing="6"
-                            WindowDecorationProperties.ElementRole="User">
-                    <Button Content="&#x2039;" Click="OnPreviousClick"
-                            ToolTip.Tip="{loc:Localize Toolbar_Previous}"
-                            AutomationProperties.Name="{loc:Localize Toolbar_Previous}" />
-                    <Button Content="&#x203A;" Click="OnNextClick"
-                            ToolTip.Tip="{loc:Localize Toolbar_Next}"
-                            AutomationProperties.Name="{loc:Localize Toolbar_Next}" />
-                    <Button Content="{loc:Localize Toolbar_Contents}" Command="{Binding GoToContentsCommand}" />
-                    <!-- Bookmarks: mark this page, or turn to a marked one -->
-                    <Button x:Name="BookmarksButton"
-                            ToolTip.Tip="{loc:Localize Bookmarks_Tip}"
-                            AutomationProperties.Name="{loc:Localize Bookmarks_Title}">
-                        <StackPanel Orientation="Horizontal" Spacing="6">
-                            <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Bookmark}" />
-                            <TextBlock VerticalAlignment="Center" Text="{loc:Localize Bookmarks_Title}" />
-                        </StackPanel>
-                        <Button.Flyout>
-                            <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
-                                <views:BookmarksView DataContext="{Binding Bookmarks}" />
-                            </Flyout>
-                        </Button.Flyout>
-                    </Button>
-                    <!-- Notes: write on the reading page, quote its text, export them all -->
-                    <Button x:Name="NotesButton"
-                            ToolTip.Tip="{loc:Localize Notes_Tip}"
-                            AutomationProperties.Name="{loc:Localize Notes_Title}">
-                        <StackPanel Orientation="Horizontal" Spacing="6">
-                            <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Note}" />
-                            <TextBlock VerticalAlignment="Center" Text="{loc:Localize Notes_Title}" />
-                        </StackPanel>
-                        <Button.Flyout>
-                            <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
-                                <views:NotesView x:Name="NotesPanel" DataContext="{Binding Notes}" />
-                            </Flyout>
-                        </Button.Flyout>
-                    </Button>
-                    <!-- Everything the reader can set, in one place -->
-                    <Button x:Name="SettingsButton"
-                            ToolTip.Tip="{loc:Localize Settings_Tip}"
-                            AutomationProperties.Name="{loc:Localize Settings_Title}">
-                        <StackPanel Orientation="Horizontal" Spacing="6">
-                            <PathIcon Width="15" Height="15" Data="{StaticResource Icon.Settings}" />
-                            <TextBlock VerticalAlignment="Center" Text="{loc:Localize Settings_Title}" />
-                        </StackPanel>
-                        <Button.Flyout>
-                            <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper settings">
-                                <views:SettingsView DataContext="{Binding Settings}" />
-                            </Flyout>
-                        </Button.Flyout>
-                    </Button>
-                </StackPanel>
+                <!--
+                    The buttons scroll sideways if they ever outgrow the window (very narrow screens, large text), so
+                    Settings is always within reach. On a phone they are icons only and fit (App.axaml, .narrow).
+                -->
+                <ScrollViewer Grid.Column="1" HorizontalAlignment="Right" HorizontalScrollBarVisibility="Auto"
+                              VerticalScrollBarVisibility="Disabled">
+                    <StackPanel Classes="toolbarButtons" Orientation="Horizontal" Spacing="6"
+                                WindowDecorationProperties.ElementRole="User">
+                        <Button Content="&#x2039;" Click="OnPreviousClick"
+                                ToolTip.Tip="{loc:Localize Toolbar_Previous}"
+                                AutomationProperties.Name="{loc:Localize Toolbar_Previous}" />
+                        <Button Content="&#x203A;" Click="OnNextClick"
+                                ToolTip.Tip="{loc:Localize Toolbar_Next}"
+                                AutomationProperties.Name="{loc:Localize Toolbar_Next}" />
+                        <Button Command="{Binding GoToContentsCommand}"
+                                ToolTip.Tip="{loc:Localize Toolbar_Contents}"
+                                AutomationProperties.Name="{loc:Localize Toolbar_Contents}">
+                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Contents}" />
+                                <TextBlock Classes="toolbarLabel" VerticalAlignment="Center" Text="{loc:Localize Toolbar_Contents}" />
+                            </StackPanel>
+                        </Button>
+                        <!-- Bookmarks: mark this page, or turn to a marked one -->
+                        <Button x:Name="BookmarksButton"
+                                ToolTip.Tip="{loc:Localize Bookmarks_Tip}"
+                                AutomationProperties.Name="{loc:Localize Bookmarks_Title}">
+                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Bookmark}" />
+                                <TextBlock Classes="toolbarLabel" VerticalAlignment="Center" Text="{loc:Localize Bookmarks_Title}" />
+                            </StackPanel>
+                            <Button.Flyout>
+                                <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
+                                    <views:BookmarksView DataContext="{Binding Bookmarks}" />
+                                </Flyout>
+                            </Button.Flyout>
+                        </Button>
+                        <!-- Notes: write on the reading page, quote its text, export them all -->
+                        <Button x:Name="NotesButton"
+                                ToolTip.Tip="{loc:Localize Notes_Tip}"
+                                AutomationProperties.Name="{loc:Localize Notes_Title}">
+                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                <PathIcon Width="14" Height="14" Data="{StaticResource Icon.Note}" />
+                                <TextBlock Classes="toolbarLabel" VerticalAlignment="Center" Text="{loc:Localize Notes_Title}" />
+                            </StackPanel>
+                            <Button.Flyout>
+                                <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
+                                    <views:NotesView x:Name="NotesPanel" DataContext="{Binding Notes}" />
+                                </Flyout>
+                            </Button.Flyout>
+                        </Button>
+                        <!-- Everything the reader can set, in one place -->
+                        <Button x:Name="SettingsButton"
+                                ToolTip.Tip="{loc:Localize Settings_Tip}"
+                                AutomationProperties.Name="{loc:Localize Settings_Title}">
+                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                <PathIcon Width="15" Height="15" Data="{StaticResource Icon.Settings}" />
+                                <TextBlock Classes="toolbarLabel" VerticalAlignment="Center" Text="{loc:Localize Settings_Title}" />
+                            </StackPanel>
+                            <Button.Flyout>
+                                <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper settings">
+                                    <views:SettingsView DataContext="{Binding Settings}" />
+                                </Flyout>
+                            </Button.Flyout>
+                        </Button>
+                    </StackPanel>
+                </ScrollViewer>
             </Grid>
         </Border>
 

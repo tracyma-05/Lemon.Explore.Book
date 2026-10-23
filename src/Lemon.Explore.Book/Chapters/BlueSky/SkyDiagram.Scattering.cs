@@ -62,7 +62,7 @@ public sealed partial class SkyDiagram
 
     private void StepPhotons(double dt)
     {
-        if (dt <= 0 || ActualWidth < 400) return;
+        if (dt <= 0 || ActualWidth < 200) return;
         var (box, sun, midY) = ScatterLayout();
         var speed = Math.Max(240, ActualWidth * 0.3);
 
@@ -163,7 +163,7 @@ public sealed partial class SkyDiagram
         var width = ActualWidth;
         dc.DrawRectangle(Scatter.Background, null, new Rect(0, 0, width, ActualHeight));
         _stars.Draw(dc, width, ActualHeight, RenderScale(), now, 0.25);
-        if (width < 400) return;
+        if (width < 200) return;
         var height = ActualHeight - _reserve.Current;
 
         var (box, sun, midY) = ScatterLayout();

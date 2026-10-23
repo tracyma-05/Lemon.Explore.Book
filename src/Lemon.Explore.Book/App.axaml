@@ -183,6 +183,10 @@
             <Setter Property="Background" Value="#E81123" />
         </Style>
 
+        <!-- A phone's width (MainView adds .narrow): the toolbar keeps its buttons' icons and drops their words. -->
+        <Style Selector=".narrow Border.toolbar :is(TextBlock).toolbarLabel, .narrow Border.toolbar :is(TextBlock).toolbarTitle">
+            <Setter Property="IsVisible" Value="False" />
+        </Style>
         <Style Selector="Border.toolbar StackPanel.toolbarButtons > Button">
             <Setter Property="Foreground" Value="#F3E9DA" />
             <Setter Property="Background" Value="#26FFFFFF" />

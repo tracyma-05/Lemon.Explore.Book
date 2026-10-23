@@ -4,6 +4,8 @@ html, body {
     height: 100%;
     overflow: hidden;
     background: #2A1D15;
+    /* No pull-to-refresh or rubber-band scrolling: a swipe on a page's edge turns the page, it does not move the view. */
+    overscroll-behavior: none;
 }
 
 #out {
