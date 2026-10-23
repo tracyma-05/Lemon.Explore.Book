@@ -26,6 +26,7 @@ using Lemon.Explore.Book.Chapters.Flight;
 using Lemon.Explore.Book.Chapters.Lenses;
 using Lemon.Explore.Book.Chapters.Projectile;
 using Lemon.Explore.Book.Chapters.Sound;
+using Lemon.Explore.Book.Chapters.Spectra;
 using Lemon.Explore.Book.Chapters.Waves;
 using Lemon.Explore.Book.ViewModels.Pages;
 
@@ -38,7 +39,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -275,6 +276,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, lenses.Lesson, () => lenses.Mode.ToString(), Enum.GetNames<LensMode>());
                 return (new LensesTextPageViewModel(textPage, navigator, chapter, number, lenses),
                     new LensesDiagramPageViewModel(textPage + 1, navigator, chapter, lenses));
+            }
+
+            case "Spectra":
+            {
+                var spectra = new SpectraViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, spectra.Lesson, () => spectra.Mode.ToString(), Enum.GetNames<SpectraMode>());
+                return (new SpectraTextPageViewModel(textPage, navigator, chapter, number, spectra),
+                    new SpectraDiagramPageViewModel(textPage + 1, navigator, chapter, spectra));
             }
 
             default:

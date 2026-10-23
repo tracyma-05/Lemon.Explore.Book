@@ -13122,6 +13122,213 @@
   <data name="Narr_Sound_Wave_10" xml:space="preserve">
     <value>Your turn. Drag the speaker's cone to push the air yourself, or switch on the tone and change its frequency or level. Notice what changes, and what doesn't.</value>
   </data>
+  <data name="Narr_Spec_Atom_01" xml:space="preserve">
+    <value>This is hydrogen, the simplest atom of all: one proton in the middle, and one electron around it.</value>
+  </data>
+  <data name="Narr_Spec_Atom_02" xml:space="preserve">
+    <value>The electron can't sit just anywhere. It lives on certain energy levels, like the rungs of a ladder. Right now it's on the lowest rung, the ground level.</value>
+  </data>
+  <data name="Narr_Spec_Atom_03" xml:space="preserve">
+    <value>To climb, it has to take in exactly the right amount of energy: a photon that matches the gap between two rungs. Here one arrives and lifts it up to level three.</value>
+  </data>
+  <data name="Narr_Spec_Atom_04" xml:space="preserve">
+    <value>It doesn't stay up there. It drops back, and the energy leaves as a new photon. From level three to two, that photon is red.</value>
+  </data>
+  <data name="Narr_Spec_Atom_05" xml:space="preserve">
+    <value>Then from two down to one. That gap is much bigger, so the photon carries more energy. It's ultraviolet, invisible to our eyes.</value>
+  </data>
+  <data name="Narr_Spec_Atom_06" xml:space="preserve">
+    <value>Each jump always gives the same colour. So hydrogen's light isn't a rainbow, but a few sharp lines, its fingerprint. The visible ones, the Balmer series, all end on level two.</value>
+  </data>
+  <data name="Narr_Spec_Atom_07" xml:space="preserve">
+    <value>A question. If we fire red light of six hundred and forty nanometres at the electron on the ground level, what happens?</value>
+  </data>
+  <data name="Narr_Spec_Atom_08" xml:space="preserve">
+    <value>It passes straight through. From the ground, even the smallest step needs ultraviolet. A red photon simply doesn't carry the right amount, and only exact matches are taken in.</value>
+  </data>
+  <data name="Narr_Spec_Atom_09" xml:space="preserve">
+    <value>Give it more than thirteen point six electron-volts, though, and the electron escapes altogether. The atom is ionised. Soon it's caught again, and tumbles down, giving out lines on the way.</value>
+  </data>
+  <data name="Narr_Spec_Atom_10" xml:space="preserve">
+    <value>In fact the electron isn't a tiny planet on an orbit. Quantum physics says it's a cloud of where it might be found. Each level has clouds of its own shapes, like this dumbbell.</value>
+  </data>
+  <data name="Narr_Spec_Atom_11" xml:space="preserve">
+    <value>Your turn. Click a level on the ladder to lift the electron, or choose a colour and fire photons at it.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_01" xml:space="preserve">
+    <value>Here's a glowing tube of hydrogen. Electricity keeps knocking its electrons up, and as they fall back, the gas glows.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_02" xml:space="preserve">
+    <value>Its light passes through a narrow slit, then a prism. The prism bends each colour by a different amount and spreads them across the screen.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_03" xml:space="preserve">
+    <value>Instead of a rainbow, we get a few bright lines: red, blue-green and violet. They're exactly the Balmer lines from the atom view.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_04" xml:space="preserve">
+    <value>Every gas has its own set of lines. Neon's are crowded in the red and orange, which is why neon signs glow red.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_05" xml:space="preserve">
+    <value>Sodium shines almost all in one yellow line. But magnify it, and it turns out to be two lines, very close together.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_06" xml:space="preserve">
+    <value>A hot solid, like a bulb's filament, is different. It gives every colour at once: a continuous rainbow.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_07" xml:space="preserve">
+    <value>Now suppose we shine the bulb through a cloud of cool sodium vapour. What do you think we'll see in the rainbow?</value>
+  </data>
+  <data name="Narr_Spec_Lamps_08" xml:space="preserve">
+    <value>Dark lines, right where sodium shines when it's hot. A cool gas absorbs exactly the colours it would give out.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_09" xml:space="preserve">
+    <value>Sunlight is crossed by hundreds of these dark lines. By matching them with lamps in the lab, we found out what the Sun is made of, without ever going there.</value>
+  </data>
+  <data name="Narr_Spec_Lamps_10" xml:space="preserve">
+    <value>Your turn. Here's a mystery lamp. Compare its lines with the fingerprints in the chart, then make your guess.</value>
+  </data>
+  <data name="Narr_Spec_Obj_BalmerDark" xml:space="preserve">
+    <value>The Balmer lines in absorption. They need hydrogen with its electron already on level two, which happens most near ten thousand degrees.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Bulb" xml:space="preserve">
+    <value>A filament heated white-hot. In a solid the atoms crowd so close that every colour comes out together, a smooth rainbow.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Calcium" xml:space="preserve">
+    <value>Two strong dark lines of ionised calcium at the violet end, Fraunhofer's H and K. They're the strongest lines in Sun-like and cooler stars.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Cloud" xml:space="preserve">
+    <value>Where the electron is likely to be found, brighter where more likely. The shapes come from quantum mechanics: s clouds are round, p clouds are dumbbells, d clouds have four lobes.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Compare" xml:space="preserve">
+    <value>A gas's lines placed under the spectrum. If every line lines up, it's the same gas.</value>
+  </data>
+  <data name="Narr_Spec_Obj_CoolGas" xml:space="preserve">
+    <value>A cloud of cool gas between the bulb and the slit. Its atoms absorb exactly the colours they'd give out when hot, so those colours go missing.</value>
+  </data>
+  <data name="Narr_Spec_Obj_DarkLine" xml:space="preserve">
+    <value>A colour missing from the rainbow: atoms in a cooler gas in the way absorbed it. It sits exactly where that gas's bright line would be.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Electron" xml:space="preserve">
+    <value>The electron carries a negative charge. It can only have certain amounts of energy, so it's found only on certain levels, never in between.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Energy" xml:space="preserve">
+    <value>Each level's energy, in electron-volts. Negative means bound to the atom; zero is just free. The gaps between levels set the colours of the light.</value>
+  </data>
+  <data name="Narr_Spec_Obj_GasLamp" xml:space="preserve">
+    <value>A glass tube of thin gas with a high voltage across it. Electrons racing through knock the gas atoms' electrons up, and as they fall back the gas glows in its own colours.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Ground" xml:space="preserve">
+    <value>The lowest level. An electron here has the least energy, minus thirteen point six electron-volts, and it stays here unless something lifts it.</value>
+  </data>
+  <data name="Narr_Spec_Obj_HSpectrum" xml:space="preserve">
+    <value>Every photon given out so far, sorted by wavelength. The lines are always in the same places: hydrogen's fingerprint, from the ultraviolet through the visible into the infrared.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Helium" xml:space="preserve">
+    <value>Helium holds its electrons tightly, so only very hot stars can lift them enough to absorb visible light. These lines mark blue stars.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Infrared" xml:space="preserve">
+    <value>Light with longer waves than red, which we feel as warmth rather than see. Small falls between high levels give it.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Ionise" xml:space="preserve">
+    <value>Above zero the electron is no longer bound: it's free, and the atom has become an ion. From the ground level that takes thirteen point six electron-volts.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Level" xml:space="preserve">
+    <value>One rung of the ladder. Click it to lift the electron here: a photon of exactly the energy of that jump will be sent in.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Line" xml:space="preserve">
+    <value>Light of one exact wavelength, given out when the gas's electrons make one particular jump. Its place on the ruler tells you which.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Molecules" xml:space="preserve">
+    <value>In the coolest stars, atoms join into molecules such as titanium oxide. Molecules absorb in broad bands, not thin lines.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Mystery" xml:space="preserve">
+    <value>A lamp whose gas is hidden. Its lines are its fingerprint: compare them with the chart and guess.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Nanometre" xml:space="preserve">
+    <value>The ruler is in nanometres, millionths of a millimetre. Our eyes see from about four hundred, violet, to seven hundred, red.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Nucleus" xml:space="preserve">
+    <value>Hydrogen's nucleus is a single proton, with a positive charge. It holds the electron by electric attraction, and it's nearly two thousand times heavier.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Orbit" xml:space="preserve">
+    <value>In Bohr's picture the electron circles on fixed orbits, each a level. The higher the level, the wider the orbit, and the less firmly the electron is held.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Peak" xml:space="preserve">
+    <value>Where the star shines brightest. Wien's law: the hotter the star, the shorter the wavelength of its peak. Drag it to change the temperature.</value>
+  </data>
+  <data name="Narr_Spec_Obj_PhotonIn" xml:space="preserve">
+    <value>A packet of light, its colour set by its energy. It's taken in only if its energy exactly fits a jump the electron can make.</value>
+  </data>
+  <data name="Narr_Spec_Obj_PhotonLamp" xml:space="preserve">
+    <value>It fires photons of the wavelength you choose. Try one that matches a jump, and one that doesn't.</value>
+  </data>
+  <data name="Narr_Spec_Obj_PhotonOut" xml:space="preserve">
+    <value>When the electron falls, the energy it loses leaves as this photon. A bigger fall gives a bluer photon, with a shorter wave.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Planck" xml:space="preserve">
+    <value>How much light a hot body gives at each wavelength, from Planck's law. Hotter bodies give more at every wavelength, and most at shorter ones.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Prism" xml:space="preserve">
+    <value>Glass slows violet light a little more than red, so it bends violet more. The colours fan out in order of wavelength.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Reference" xml:space="preserve">
+    <value>A hydrogen lamp at rest in the lab, for comparison. Its lines show where the star's lines would be if the star weren't moving.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Shift" xml:space="preserve">
+    <value>When a source moves away, its waves are stretched and every line moves towards the red; coming closer, towards the blue. The shift gives the speed.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Slit" xml:space="preserve">
+    <value>A narrow gap lets through a thin line of light. Each colour then lands as a thin line on the screen, so lines close together stay apart.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Star" xml:space="preserve">
+    <value>A ball of hot gas. Its colour comes from its surface temperature: red for cool stars, white for medium ones, blue for the hottest.</value>
+  </data>
+  <data name="Narr_Spec_Obj_StarSpectrum" xml:space="preserve">
+    <value>The star's light spread out, with the dark lines of the gases in its atmosphere. Drag it sideways to make the star move.</value>
+  </data>
+  <data name="Narr_Spec_Obj_SunLight" xml:space="preserve">
+    <value>The Sun's surface glows like a hot body at nearly six thousand degrees. The gas above it is cooler and takes out its own colours, leaving dark lines.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Trace" xml:space="preserve">
+    <value>How bright the light is at each wavelength. Bright lines are peaks, dark lines are dips.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Ultraviolet" xml:space="preserve">
+    <value>Light with shorter waves than violet, too energetic for our eyes. Falls to the ground level, the Lyman series, all land here.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Visible" xml:space="preserve">
+    <value>The narrow band our eyes can see. A star's colour depends on how its curve slopes across this band.</value>
+  </data>
+  <data name="Narr_Spec_Obj_Zoom" xml:space="preserve">
+    <value>A few nanometres around the picked line, enlarged forty times. Sodium's yellow line turns out to be two lines, six tenths of a nanometre apart.</value>
+  </data>
+  <data name="Narr_Spec_Stars_01" xml:space="preserve">
+    <value>Stars are huge balls of hot gas. Their light carries two secrets: how hot they are, and what they're made of.</value>
+  </data>
+  <data name="Narr_Spec_Stars_02" xml:space="preserve">
+    <value>Any hot body glows with this curve of colours. The Sun's peak is in the visible, near green, but it gives out all colours together, so it looks white.</value>
+  </data>
+  <data name="Narr_Spec_Stars_03" xml:space="preserve">
+    <value>A cooler star peaks in the infrared. Most of its visible light is red and orange, like Betelgeuse in Orion.</value>
+  </data>
+  <data name="Narr_Spec_Stars_04" xml:space="preserve">
+    <value>A hot star peaks in the ultraviolet and shines blue-white, like Spica.</value>
+  </data>
+  <data name="Narr_Spec_Stars_05" xml:space="preserve">
+    <value>Here's a puzzle. Nearly all stars are mostly hydrogen. Which kind do you think shows the strongest hydrogen lines?</value>
+  </data>
+  <data name="Narr_Spec_Stars_06" xml:space="preserve">
+    <value>A white star of about ten thousand degrees, like Sirius. There, many hydrogen atoms have their electron on level two, ready to absorb Balmer colours. Hotter, the hydrogen is ionised; cooler, it stays on the ground level.</value>
+  </data>
+  <data name="Narr_Spec_Stars_07" xml:space="preserve">
+    <value>In the cooler Sun, hydrogen's lines are weaker, and calcium and iron take over.</value>
+  </data>
+  <data name="Narr_Spec_Stars_08" xml:space="preserve">
+    <value>In the coolest stars, molecules survive, and carve broad dark bands into the light.</value>
+  </data>
+  <data name="Narr_Spec_Stars_09" xml:space="preserve">
+    <value>If a star or galaxy moves away from us, every line slides towards the red: a red shift. Compare it with the lab lamp below. Coming closer gives a blue shift.</value>
+  </data>
+  <data name="Narr_Spec_Stars_10" xml:space="preserve">
+    <value>Your turn. Drag the curve to change the star's temperature, or drag its spectrum sideways to make it move.</value>
+  </data>
   <data name="Narr_Star_Diagram_01" xml:space="preserve">
     <value>This is the Hertzsprung-Russell diagram, one of the most important maps in astronomy. Across is a star's surface temperature, hottest on the left. Up is how bright it really is.</value>
   </data>
@@ -20642,6 +20849,753 @@
   </data>
   <data name="Sound_Wave_Subtitle" xml:space="preserve">
     <value>A loudspeaker pushes the air</value>
+  </data>
+  <data name="Spec_Atom_Excited_Text" xml:space="preserve">
+    <value>Up here the electron soon falls back down, level by level or in one go, and each fall gives out a photon whose energy is the gap it fell.</value>
+  </data>
+  <data name="Spec_Atom_Excited_Title" xml:space="preserve">
+    <value>Excited: on level {0}</value>
+  </data>
+  <data name="Spec_Atom_Fact1" xml:space="preserve">
+    <value>Niels Bohr explained hydrogen's lines in 1913 with fixed orbits; quantum mechanics later replaced the orbits with clouds but kept his energy levels.</value>
+  </data>
+  <data name="Spec_Atom_Fact2" xml:space="preserve">
+    <value>Hα, the red 656 nm line, gives glowing gas clouds in space such as the Orion Nebula their pink-red colour.</value>
+  </data>
+  <data name="Spec_Atom_Fact3" xml:space="preserve">
+    <value>It takes 13.6 electron-volts to pull hydrogen's electron off from the ground level.</value>
+  </data>
+  <data name="Spec_Atom_Fact4" xml:space="preserve">
+    <value>In Bohr's model the second orbit is four times as wide as the first, the third nine times: radius grows as n².</value>
+  </data>
+  <data name="Spec_Atom_Fact5" xml:space="preserve">
+    <value>Johann Balmer found the formula for hydrogen's visible lines in 1885 from just four wavelengths, long before anyone knew why it worked.</value>
+  </data>
+  <data name="Spec_Atom_Free_Text" xml:space="preserve">
+    <value>The photon brought more than 13.6 eV, so the electron left the atom altogether. Soon a proton catches an electron again, high up, and it tumbles down giving out lines.</value>
+  </data>
+  <data name="Spec_Atom_Free_Title" xml:space="preserve">
+    <value>Set free: the atom is ionised</value>
+  </data>
+  <data name="Spec_Atom_Ground_Text" xml:space="preserve">
+    <value>The electron is as low as it can go and stays there. Only a photon with exactly the energy of a jump up (or enough to set it free) can move it.</value>
+  </data>
+  <data name="Spec_Atom_Ground_Title" xml:space="preserve">
+    <value>On the ground level</value>
+  </data>
+  <data name="Spec_Atom_Note" xml:space="preserve">
+    <value>Bohr's picture: orbit sizes drawn in proportion to n (really n²), the energy ladder on a square-root scale. The wavelengths are real.</value>
+  </data>
+  <data name="Spec_Atom_Panel_Note" xml:space="preserve">
+    <value>The cloud is a slice through the atom: brighter where the electron is more likely to be. Each level has its own shapes (s, p, d …), up to one less than its number.</value>
+  </data>
+  <data name="Spec_Atom_Subtitle" xml:space="preserve">
+    <value>Hydrogen's energy levels and its light</value>
+  </data>
+  <data name="Spec_Chart_Atom_Caption" xml:space="preserve">
+    <value>Hydrogen's lines, by series</value>
+  </data>
+  <data name="Spec_Chart_Atom_Note" xml:space="preserve">
+    <value>Each row is the lines that end on one level: Lyman on 1 (ultraviolet), Balmer on 2 (visible), Paschen on 3 and Brackett on 4 (infrared). The shaded band is visible light. Click a line to load it into the lamp.</value>
+  </data>
+  <data name="Spec_Chart_Lamps_Caption" xml:space="preserve">
+    <value>The gases' fingerprints</value>
+  </data>
+  <data name="Spec_Chart_Lamps_Note" xml:space="preserve">
+    <value>Each gas's bright lines, 380 to 750 nm. No two are alike. Click a row to compare it with the spectrum.</value>
+  </data>
+  <data name="Spec_Chart_Stars_Caption" xml:space="preserve">
+    <value>Which dark lines, at which temperature</value>
+  </data>
+  <data name="Spec_Chart_Stars_Note" xml:space="preserve">
+    <value>How strong each family of dark lines is, hottest stars on the left (O B A F G K M). Drag to change the temperature.</value>
+  </data>
+  <data name="Spec_Class_A_Text" xml:space="preserve">
+    <value>White stars near 10,000 K, where hydrogen's lines are at their deepest.</value>
+  </data>
+  <data name="Spec_Class_B_Text" xml:space="preserve">
+    <value>Blue-white and very hot: neutral helium's lines are strongest, hydrogen's growing.</value>
+  </data>
+  <data name="Spec_Class_F_Text" xml:space="preserve">
+    <value>Yellow-white: hydrogen's lines are weakening and calcium's growing.</value>
+  </data>
+  <data name="Spec_Class_G_Text" xml:space="preserve">
+    <value>Yellow, like the Sun: calcium's H and K lines are the strongest, with many lines of iron and other metals.</value>
+  </data>
+  <data name="Spec_Class_K_Text" xml:space="preserve">
+    <value>Orange and cooler: metal lines everywhere, sodium strong, the first molecules appearing.</value>
+  </data>
+  <data name="Spec_Class_M_Text" xml:space="preserve">
+    <value>Red and the coolest: molecules such as titanium oxide survive and cut broad dark bands.</value>
+  </data>
+  <data name="Spec_Class_O_Text" xml:space="preserve">
+    <value>The hottest and bluest stars. Their light ionises even helium, so lines of ionised helium show.</value>
+  </data>
+  <data name="Spec_Clear" xml:space="preserve">
+    <value>Clear the lines</value>
+  </data>
+  <data name="Spec_Cloud_Caption" xml:space="preserve">
+    <value>Electron cloud</value>
+  </data>
+  <data name="Spec_Electron_Caption" xml:space="preserve">
+    <value>How the electron falls</value>
+  </data>
+  <data name="Spec_Event_Absorb" xml:space="preserve">
+    <value>took in {2}: climbed {0} → {1}</value>
+  </data>
+  <data name="Spec_Event_Capture" xml:space="preserve">
+    <value>caught again on level {0}</value>
+  </data>
+  <data name="Spec_Event_Emit" xml:space="preserve">
+    <value>fell {0} → {1}: gave out {2} ({3}, {4})</value>
+  </data>
+  <data name="Spec_Event_Free" xml:space="preserve">
+    <value>set free from level {0}</value>
+  </data>
+  <data name="Spec_Event_Pass" xml:space="preserve">
+    <value>a {0} nm photon passed straight through</value>
+  </data>
+  <data name="Spec_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Spec_Fall_Chance" xml:space="preserve">
+    <value>By chance</value>
+  </data>
+  <data name="Spec_Fall_OneStep" xml:space="preserve">
+    <value>One level at a time</value>
+  </data>
+  <data name="Spec_Fall_ToGround" xml:space="preserve">
+    <value>Straight down</value>
+  </data>
+  <data name="Spec_Fire" xml:space="preserve">
+    <value>Fire a photon</value>
+  </data>
+  <data name="Spec_Fire_Tooltip" xml:space="preserve">
+    <value>Send one photon of the lamp's colour at the atom</value>
+  </data>
+  <data name="Spec_Gas_Caption" xml:space="preserve">
+    <value>The gas</value>
+  </data>
+  <data name="Spec_Gas_Helium" xml:space="preserve">
+    <value>Helium</value>
+  </data>
+  <data name="Spec_Gas_Hydrogen" xml:space="preserve">
+    <value>Hydrogen</value>
+  </data>
+  <data name="Spec_Gas_Mercury" xml:space="preserve">
+    <value>Mercury</value>
+  </data>
+  <data name="Spec_Gas_Neon" xml:space="preserve">
+    <value>Neon</value>
+  </data>
+  <data name="Spec_Gas_Sodium" xml:space="preserve">
+    <value>Sodium</value>
+  </data>
+  <data name="Spec_Ground" xml:space="preserve">
+    <value>Back to the ground level</value>
+  </data>
+  <data name="Spec_Guess_Caption" xml:space="preserve">
+    <value>Guess the gas</value>
+  </data>
+  <data name="Spec_Guess_Right" xml:space="preserve">
+    <value>Right! It is {0}.</value>
+  </data>
+  <data name="Spec_Guess_Wrong" xml:space="preserve">
+    <value>Not {0}: compare the lines again.</value>
+  </data>
+  <data name="Spec_Hint_Atom" xml:space="preserve">
+    <value>Click a level on the ladder to lift the electron there, or fire photons from the lamp.</value>
+  </data>
+  <data name="Spec_Hint_Lamps" xml:space="preserve">
+    <value>Click the spectrum to pick a line.</value>
+  </data>
+  <data name="Spec_Hint_Stars" xml:space="preserve">
+    <value>Drag the curve to change the temperature, or the star's spectrum to make it move.</value>
+  </data>
+  <data name="Spec_Hold" xml:space="preserve">
+    <value>Hold it up</value>
+  </data>
+  <data name="Spec_Label_BlueShift" xml:space="preserve">
+    <value>blue shift: coming closer at {0} km/s</value>
+  </data>
+  <data name="Spec_Label_Brightness" xml:space="preserve">
+    <value>brightness</value>
+  </data>
+  <data name="Spec_Label_Bulb" xml:space="preserve">
+    <value>bulb</value>
+  </data>
+  <data name="Spec_Label_Calcium" xml:space="preserve">
+    <value>calcium</value>
+  </data>
+  <data name="Spec_Label_CoolGas" xml:space="preserve">
+    <value>cooler {0}</value>
+  </data>
+  <data name="Spec_Label_Energy" xml:space="preserve">
+    <value>energy</value>
+  </data>
+  <data name="Spec_Label_Free" xml:space="preserve">
+    <value>free electron (ionised)</value>
+  </data>
+  <data name="Spec_Label_Helium" xml:space="preserve">
+    <value>helium</value>
+  </data>
+  <data name="Spec_Label_Hydrogen" xml:space="preserve">
+    <value>hydrogen</value>
+  </data>
+  <data name="Spec_Label_Infrared" xml:space="preserve">
+    <value>infrared</value>
+  </data>
+  <data name="Spec_Label_Jump" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Spec_Label_LabHydrogen" xml:space="preserve">
+    <value>lab hydrogen</value>
+  </data>
+  <data name="Spec_Label_Lamp" xml:space="preserve">
+    <value>lamp: {0}</value>
+  </data>
+  <data name="Spec_Label_Molecules" xml:space="preserve">
+    <value>molecules</value>
+  </data>
+  <data name="Spec_Label_Mystery" xml:space="preserve">
+    <value>? mystery</value>
+  </data>
+  <data name="Spec_Label_N" xml:space="preserve">
+    <value>n = {0}</value>
+  </data>
+  <data name="Spec_Label_Nm" xml:space="preserve">
+    <value>nm</value>
+  </data>
+  <data name="Spec_Label_Orbital" xml:space="preserve">
+    <value>{0}{1} orbital</value>
+  </data>
+  <data name="Spec_Label_Peak" xml:space="preserve">
+    <value>peak {0}</value>
+  </data>
+  <data name="Spec_Label_PeakLeft" xml:space="preserve">
+    <value>← peak {0}, in the ultraviolet</value>
+  </data>
+  <data name="Spec_Label_Prism" xml:space="preserve">
+    <value>prism</value>
+  </data>
+  <data name="Spec_Label_Proton" xml:space="preserve">
+    <value>proton</value>
+  </data>
+  <data name="Spec_Label_RedShift" xml:space="preserve">
+    <value>red shift: moving away at {0} km/s</value>
+  </data>
+  <data name="Spec_Label_Screen" xml:space="preserve">
+    <value>the screen ↓</value>
+  </data>
+  <data name="Spec_Label_Slit" xml:space="preserve">
+    <value>slit</value>
+  </data>
+  <data name="Spec_Label_Star" xml:space="preserve">
+    <value>{0} K · {1} type</value>
+  </data>
+  <data name="Spec_Label_StarLight" xml:space="preserve">
+    <value>starlight</value>
+  </data>
+  <data name="Spec_Label_Sun" xml:space="preserve">
+    <value>the Sun</value>
+  </data>
+  <data name="Spec_Label_Ultraviolet" xml:space="preserve">
+    <value>ultraviolet</value>
+  </data>
+  <data name="Spec_Label_Visible" xml:space="preserve">
+    <value>visible</value>
+  </data>
+  <data name="Spec_Label_Zoom" xml:space="preserve">
+    <value>magnified ×{0}</value>
+  </data>
+  <data name="Spec_Lamp_Caption" xml:space="preserve">
+    <value>The lamp</value>
+  </data>
+  <data name="Spec_Lamps_Bulb_Text" xml:space="preserve">
+    <value>A hot solid's atoms are packed so close that their levels blur together: it gives every colour, a continuous spectrum, brightest in the red for a bulb.</value>
+  </data>
+  <data name="Spec_Lamps_Bulb_Title" xml:space="preserve">
+    <value>A hot filament</value>
+  </data>
+  <data name="Spec_Lamps_Fact1" xml:space="preserve">
+    <value>Helium was found in the Sun's spectrum in 1868, decades before it was found on Earth; its name comes from Helios, the Sun.</value>
+  </data>
+  <data name="Spec_Lamps_Fact2" xml:space="preserve">
+    <value>Firework colours are spectra: strontium gives red, sodium yellow, barium green and copper blue.</value>
+  </data>
+  <data name="Spec_Lamps_Fact3" xml:space="preserve">
+    <value>Old low-pressure sodium street lamps shine almost all in sodium's yellow pair, which is why colours look grey under them.</value>
+  </data>
+  <data name="Spec_Lamps_Fact4" xml:space="preserve">
+    <value>Joseph von Fraunhofer mapped 574 dark lines in sunlight in 1814; we still use his letters for the strongest.</value>
+  </data>
+  <data name="Spec_Lamps_Fact5" xml:space="preserve">
+    <value>Kirchhoff and Bunsen showed in 1859 that every element has its own lines, and soon discovered caesium and rubidium by theirs.</value>
+  </data>
+  <data name="Spec_Lamps_Lamp_Text" xml:space="preserve">
+    <value>A hot, thin gas gives out bright lines at the colours of its atoms' jumps, and nothing in between: an emission spectrum.</value>
+  </data>
+  <data name="Spec_Lamps_Lamp_Title" xml:space="preserve">
+    <value>{0} lamp</value>
+  </data>
+  <data name="Spec_Lamps_Mystery_Text" xml:space="preserve">
+    <value>Which gas glows here? Compare its lines with the fingerprints in the chart below, then make your guess.</value>
+  </data>
+  <data name="Spec_Lamps_Mystery_Title" xml:space="preserve">
+    <value>A mystery lamp</value>
+  </data>
+  <data name="Spec_Lamps_Note" xml:space="preserve">
+    <value>A classroom spectroscope: line wavelengths from the NIST tables, their brightness roughly as the eye sees it.</value>
+  </data>
+  <data name="Spec_Lamps_Panel_Note" xml:space="preserve">
+    <value>Click a row of the chart below to put that gas under the spectrum and compare.</value>
+  </data>
+  <data name="Spec_Lamps_Subtitle" xml:space="preserve">
+    <value>Every gas has its own lines</value>
+  </data>
+  <data name="Spec_Lamps_Sun_Text" xml:space="preserve">
+    <value>The Sun's hot surface gives a rainbow, and the cooler gases above it take out their own colours: dark lines that show what the Sun is made of.</value>
+  </data>
+  <data name="Spec_Lamps_Sun_Title" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="Spec_Lamps_ThroughGas_Text" xml:space="preserve">
+    <value>The cooler gas absorbs the colours it would give out if it were hot, so its strong lines appear dark: an absorption spectrum. A really cold gas takes only the lines that start from its lowest level, such as sodium's yellow pair.</value>
+  </data>
+  <data name="Spec_Lamps_ThroughGas_Title" xml:space="preserve">
+    <value>A rainbow through cooler {0}</value>
+  </data>
+  <data name="Spec_Lesson_Atom_Choice1" xml:space="preserve">
+    <value>It passes straight through</value>
+  </data>
+  <data name="Spec_Lesson_Atom_Choice2" xml:space="preserve">
+    <value>The electron climbs one level</value>
+  </data>
+  <data name="Spec_Lesson_Atom_Choice3" xml:space="preserve">
+    <value>The electron is set free</value>
+  </data>
+  <data name="Spec_Lesson_Lamps_Choice1" xml:space="preserve">
+    <value>Dark lines where sodium's bright lines were</value>
+  </data>
+  <data name="Spec_Lesson_Lamps_Choice2" xml:space="preserve">
+    <value>Sodium's bright yellow lines on top of the rainbow</value>
+  </data>
+  <data name="Spec_Lesson_Lamps_Choice3" xml:space="preserve">
+    <value>No change at all</value>
+  </data>
+  <data name="Spec_Lesson_Stars_Choice1" xml:space="preserve">
+    <value>A white star of about 10,000 degrees</value>
+  </data>
+  <data name="Spec_Lesson_Stars_Choice2" xml:space="preserve">
+    <value>The hottest blue star</value>
+  </data>
+  <data name="Spec_Lesson_Stars_Choice3" xml:space="preserve">
+    <value>The coolest red star</value>
+  </data>
+  <data name="Spec_Mode_Atom" xml:space="preserve">
+    <value>The atom</value>
+  </data>
+  <data name="Spec_Mode_Lamps" xml:space="preserve">
+    <value>Lamps</value>
+  </data>
+  <data name="Spec_Mode_Stars" xml:space="preserve">
+    <value>Starlight</value>
+  </data>
+  <data name="Spec_Motion_Caption" xml:space="preserve">
+    <value>Motion</value>
+  </data>
+  <data name="Spec_Mystery" xml:space="preserve">
+    <value>Mystery lamp</value>
+  </data>
+  <data name="Spec_Mystery_Tooltip" xml:space="preserve">
+    <value>A lamp of a hidden gas: work out which it is</value>
+  </data>
+  <data name="Spec_Obj_BalmerDark" xml:space="preserve">
+    <value>Hydrogen's dark lines</value>
+  </data>
+  <data name="Spec_Obj_Bulb" xml:space="preserve">
+    <value>Bulb</value>
+  </data>
+  <data name="Spec_Obj_Calcium" xml:space="preserve">
+    <value>Calcium's lines</value>
+  </data>
+  <data name="Spec_Obj_Cloud" xml:space="preserve">
+    <value>Electron cloud</value>
+  </data>
+  <data name="Spec_Obj_Compare" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="Spec_Obj_CoolGas" xml:space="preserve">
+    <value>Cool gas</value>
+  </data>
+  <data name="Spec_Obj_DarkLine" xml:space="preserve">
+    <value>A dark line</value>
+  </data>
+  <data name="Spec_Obj_Electron" xml:space="preserve">
+    <value>Electron</value>
+  </data>
+  <data name="Spec_Obj_Energy" xml:space="preserve">
+    <value>Energy levels</value>
+  </data>
+  <data name="Spec_Obj_GasLamp" xml:space="preserve">
+    <value>Gas lamp</value>
+  </data>
+  <data name="Spec_Obj_Ground" xml:space="preserve">
+    <value>Ground level</value>
+  </data>
+  <data name="Spec_Obj_HSpectrum" xml:space="preserve">
+    <value>Hydrogen's spectrum</value>
+  </data>
+  <data name="Spec_Obj_Helium" xml:space="preserve">
+    <value>Helium's lines</value>
+  </data>
+  <data name="Spec_Obj_Infrared" xml:space="preserve">
+    <value>Infrared</value>
+  </data>
+  <data name="Spec_Obj_Ionise" xml:space="preserve">
+    <value>Ionisation</value>
+  </data>
+  <data name="Spec_Obj_Level" xml:space="preserve">
+    <value>An energy level</value>
+  </data>
+  <data name="Spec_Obj_Line" xml:space="preserve">
+    <value>A bright line</value>
+  </data>
+  <data name="Spec_Obj_Molecules" xml:space="preserve">
+    <value>Molecular bands</value>
+  </data>
+  <data name="Spec_Obj_Mystery" xml:space="preserve">
+    <value>Mystery lamp</value>
+  </data>
+  <data name="Spec_Obj_Nanometre" xml:space="preserve">
+    <value>Wavelength</value>
+  </data>
+  <data name="Spec_Obj_Nucleus" xml:space="preserve">
+    <value>Nucleus</value>
+  </data>
+  <data name="Spec_Obj_Orbit" xml:space="preserve">
+    <value>Orbit</value>
+  </data>
+  <data name="Spec_Obj_Peak" xml:space="preserve">
+    <value>The peak</value>
+  </data>
+  <data name="Spec_Obj_PhotonIn" xml:space="preserve">
+    <value>A photon arriving</value>
+  </data>
+  <data name="Spec_Obj_PhotonLamp" xml:space="preserve">
+    <value>The lamp</value>
+  </data>
+  <data name="Spec_Obj_PhotonOut" xml:space="preserve">
+    <value>A photon given out</value>
+  </data>
+  <data name="Spec_Obj_Planck" xml:space="preserve">
+    <value>Black-body curve</value>
+  </data>
+  <data name="Spec_Obj_Prism" xml:space="preserve">
+    <value>Prism</value>
+  </data>
+  <data name="Spec_Obj_Reference" xml:space="preserve">
+    <value>Lab lamp</value>
+  </data>
+  <data name="Spec_Obj_Shift" xml:space="preserve">
+    <value>Doppler shift</value>
+  </data>
+  <data name="Spec_Obj_Slit" xml:space="preserve">
+    <value>Slit</value>
+  </data>
+  <data name="Spec_Obj_Star" xml:space="preserve">
+    <value>The star</value>
+  </data>
+  <data name="Spec_Obj_StarSpectrum" xml:space="preserve">
+    <value>The star's spectrum</value>
+  </data>
+  <data name="Spec_Obj_SunLight" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Spec_Obj_Trace" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="Spec_Obj_Ultraviolet" xml:space="preserve">
+    <value>Ultraviolet</value>
+  </data>
+  <data name="Spec_Obj_Visible" xml:space="preserve">
+    <value>Visible light</value>
+  </data>
+  <data name="Spec_Obj_Zoom" xml:space="preserve">
+    <value>Magnified</value>
+  </data>
+  <data name="Spec_Option_Cloud" xml:space="preserve">
+    <value>Show the cloud</value>
+  </data>
+  <data name="Spec_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Spec_Option_Zoom" xml:space="preserve">
+    <value>Magnify the picked line</value>
+  </data>
+  <data name="Spec_Photon_FarUv" xml:space="preserve">
+    <value>Far ultraviolet 80 nm</value>
+  </data>
+  <data name="Spec_Photon_HAlpha" xml:space="preserve">
+    <value>Hα 656.3 nm</value>
+  </data>
+  <data name="Spec_Photon_HBeta" xml:space="preserve">
+    <value>Hβ 486.1 nm</value>
+  </data>
+  <data name="Spec_Photon_LymanAlpha" xml:space="preserve">
+    <value>Lyman α 121.6 nm</value>
+  </data>
+  <data name="Spec_Photon_Red" xml:space="preserve">
+    <value>Red 640 nm</value>
+  </data>
+  <data name="Spec_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Spec_Series_Balmer" xml:space="preserve">
+    <value>Balmer</value>
+  </data>
+  <data name="Spec_Series_Brackett" xml:space="preserve">
+    <value>Brackett</value>
+  </data>
+  <data name="Spec_Series_Lyman" xml:space="preserve">
+    <value>Lyman</value>
+  </data>
+  <data name="Spec_Series_Paschen" xml:space="preserve">
+    <value>Paschen</value>
+  </data>
+  <data name="Spec_Series_Pfund" xml:space="preserve">
+    <value>Pfund</value>
+  </data>
+  <data name="Spec_Shape_D" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Spec_Shape_P" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="Spec_Shape_S" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="Spec_Source_Bulb" xml:space="preserve">
+    <value>Bulb</value>
+  </data>
+  <data name="Spec_Source_Caption" xml:space="preserve">
+    <value>The light</value>
+  </data>
+  <data name="Spec_Source_Lamp" xml:space="preserve">
+    <value>Gas lamp</value>
+  </data>
+  <data name="Spec_Source_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Spec_Source_ThroughGas" xml:space="preserve">
+    <value>Bulb through a cooler gas</value>
+  </data>
+  <data name="Spec_Star_Arcturus" xml:space="preserve">
+    <value>Arcturus</value>
+  </data>
+  <data name="Spec_Star_Betelgeuse" xml:space="preserve">
+    <value>Betelgeuse</value>
+  </data>
+  <data name="Spec_Star_Caption" xml:space="preserve">
+    <value>The star</value>
+  </data>
+  <data name="Spec_Star_Procyon" xml:space="preserve">
+    <value>Procyon</value>
+  </data>
+  <data name="Spec_Star_Sirius" xml:space="preserve">
+    <value>Sirius</value>
+  </data>
+  <data name="Spec_Star_Spica" xml:space="preserve">
+    <value>Spica</value>
+  </data>
+  <data name="Spec_Star_Sun" xml:space="preserve">
+    <value>The Sun</value>
+  </data>
+  <data name="Spec_Stars_Fact1" xml:space="preserve">
+    <value>Cecilia Payne showed in 1925 that stars are mostly hydrogen and helium: their different spectra come from temperature, not from what they are made of.</value>
+  </data>
+  <data name="Spec_Stars_Fact2" xml:space="preserve">
+    <value>Spectral types run O B A F G K M from hottest to coolest; the Sun is a G2 star.</value>
+  </data>
+  <data name="Spec_Stars_Fact3" xml:space="preserve">
+    <value>Edwin Hubble found in 1929 that the farther a galaxy is, the more its light is red-shifted: the universe is expanding.</value>
+  </data>
+  <data name="Spec_Stars_Fact4" xml:space="preserve">
+    <value>The Andromeda galaxy is blue-shifted: it is coming towards us at about 300 km/s.</value>
+  </data>
+  <data name="Spec_Stars_Fact5" xml:space="preserve">
+    <value>Planets round other stars were first found by tiny Doppler wobbles in their star's lines, a few metres per second.</value>
+  </data>
+  <data name="Spec_Stars_Named_Title" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Spec_Stars_Note" xml:space="preserve">
+    <value>The curve is a black body's; the dark lines' strength by temperature is from Saha–Boltzmann for hydrogen and simplified for the rest.</value>
+  </data>
+  <data name="Spec_Stars_Panel_Note" xml:space="preserve">
+    <value>Speeds in km/s, positive moving away. A star's own colour comes from its temperature, not its speed: the shift is tiny for stars and only large for far galaxies.</value>
+  </data>
+  <data name="Spec_Stars_Subtitle" xml:space="preserve">
+    <value>What starlight tells us</value>
+  </data>
+  <data name="Spec_Stars_Title" xml:space="preserve">
+    <value>A {0}-type star</value>
+  </data>
+  <data name="Spec_Stat_AlphaShift" xml:space="preserve">
+    <value>Hα moved by</value>
+  </data>
+  <data name="Spec_Stat_Class" xml:space="preserve">
+    <value>Spectral type</value>
+  </data>
+  <data name="Spec_Stat_Compare" xml:space="preserve">
+    <value>Compared with</value>
+  </data>
+  <data name="Spec_Stat_Energy" xml:space="preserve">
+    <value>Its energy</value>
+  </data>
+  <data name="Spec_Stat_Glow" xml:space="preserve">
+    <value>Light per square metre</value>
+  </data>
+  <data name="Spec_Stat_HydrogenLines" xml:space="preserve">
+    <value>Hydrogen lines' strength</value>
+  </data>
+  <data name="Spec_Stat_Jump" xml:space="preserve">
+    <value>From the jump</value>
+  </data>
+  <data name="Spec_Stat_Kind" xml:space="preserve">
+    <value>Spectrum</value>
+  </data>
+  <data name="Spec_Stat_Lamp" xml:space="preserve">
+    <value>Lamp's photon</value>
+  </data>
+  <data name="Spec_Stat_Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="Spec_Stat_Level" xml:space="preserve">
+    <value>Electron on level</value>
+  </data>
+  <data name="Spec_Stat_Lines" xml:space="preserve">
+    <value>Lines shown</value>
+  </data>
+  <data name="Spec_Stat_Peak" xml:space="preserve">
+    <value>Brightest at</value>
+  </data>
+  <data name="Spec_Stat_PhotonEnergy" xml:space="preserve">
+    <value>Photon energy</value>
+  </data>
+  <data name="Spec_Stat_Picked" xml:space="preserve">
+    <value>Picked line</value>
+  </data>
+  <data name="Spec_Stat_Speed" xml:space="preserve">
+    <value>Motion</value>
+  </data>
+  <data name="Spec_Stat_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Spec_Stat_ToFree" xml:space="preserve">
+    <value>Energy to set it free</value>
+  </data>
+  <data name="Spec_Stat_WouldDo" xml:space="preserve">
+    <value>Would it be taken?</value>
+  </data>
+  <data name="Spec_Temperature" xml:space="preserve">
+    <value>Surface temperature</value>
+  </data>
+  <data name="Spec_Title" xml:space="preserve">
+    <value>Atoms and spectra</value>
+  </data>
+  <data name="Spec_Value_AboveZero" xml:space="preserve">
+    <value>above 0</value>
+  </data>
+  <data name="Spec_Value_AtRest" xml:space="preserve">
+    <value>at rest</value>
+  </data>
+  <data name="Spec_Value_Away" xml:space="preserve">
+    <value>moving away at {0} km/s</value>
+  </data>
+  <data name="Spec_Value_Bright" xml:space="preserve">
+    <value>bright lines</value>
+  </data>
+  <data name="Spec_Value_Continuous" xml:space="preserve">
+    <value>continuous</value>
+  </data>
+  <data name="Spec_Value_Dark" xml:space="preserve">
+    <value>rainbow with dark lines</value>
+  </data>
+  <data name="Spec_Value_Ev" xml:space="preserve">
+    <value>{0} eV</value>
+  </data>
+  <data name="Spec_Value_Free" xml:space="preserve">
+    <value>free (ionised)</value>
+  </data>
+  <data name="Spec_Value_Infrared" xml:space="preserve">
+    <value>infrared</value>
+  </data>
+  <data name="Spec_Value_Jump" xml:space="preserve">
+    <value>level {0} → {1}</value>
+  </data>
+  <data name="Spec_Value_Kelvin" xml:space="preserve">
+    <value>{0} K</value>
+  </data>
+  <data name="Spec_Value_Nm" xml:space="preserve">
+    <value>{0} nm</value>
+  </data>
+  <data name="Spec_Value_NoElectron" xml:space="preserve">
+    <value>no electron to take it</value>
+  </data>
+  <data name="Spec_Value_Nothing" xml:space="preserve">
+    <value>nothing yet</value>
+  </data>
+  <data name="Spec_Value_PeakAt" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="Spec_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Spec_Value_Photon" xml:space="preserve">
+    <value>{0} ({1} eV)</value>
+  </data>
+  <data name="Spec_Value_Shift" xml:space="preserve">
+    <value>{0} nm</value>
+  </data>
+  <data name="Spec_Value_TimesSun" xml:space="preserve">
+    <value>×{0} the Sun's</value>
+  </data>
+  <data name="Spec_Value_Towards" xml:space="preserve">
+    <value>coming closer at {0} km/s</value>
+  </data>
+  <data name="Spec_Value_Ultraviolet" xml:space="preserve">
+    <value>ultraviolet</value>
+  </data>
+  <data name="Spec_Value_Visible" xml:space="preserve">
+    <value>visible</value>
+  </data>
+  <data name="Spec_Value_WouldFree" xml:space="preserve">
+    <value>sets it free</value>
+  </data>
+  <data name="Spec_Value_WouldLift" xml:space="preserve">
+    <value>lifts it to level {0}</value>
+  </data>
+  <data name="Spec_Value_WouldPass" xml:space="preserve">
+    <value>passes straight through</value>
+  </data>
+  <data name="Spec_Velocity" xml:space="preserve">
+    <value>Speed along our line of sight</value>
+  </data>
+  <data name="Spec_Velocity_Andromeda" xml:space="preserve">
+    <value>Andromeda −300</value>
+  </data>
+  <data name="Spec_Velocity_Far" xml:space="preserve">
+    <value>A far galaxy +15,000</value>
+  </data>
+  <data name="Spec_Velocity_Rest" xml:space="preserve">
+    <value>At rest</value>
+  </data>
+  <data name="Spec_Velocity_Virgo" xml:space="preserve">
+    <value>Virgo cluster +1,200</value>
+  </data>
+  <data name="Spec_Wavelength" xml:space="preserve">
+    <value>Wavelength</value>
   </data>
   <data name="Star_Class_Massive" xml:space="preserve">
     <value>Massive star</value>

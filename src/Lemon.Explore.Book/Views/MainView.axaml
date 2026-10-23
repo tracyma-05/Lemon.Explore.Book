@@ -36,6 +36,7 @@
              xmlns:projectile="using:Lemon.Explore.Book.Chapters.Projectile"
              xmlns:flight="using:Lemon.Explore.Book.Chapters.Flight"
              xmlns:lenses="using:Lemon.Explore.Book.Chapters.Lenses"
+             xmlns:spectra="using:Lemon.Explore.Book.Chapters.Spectra"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -106,6 +107,8 @@
         <DataTemplate DataType="flight:FlightDiagramPageViewModel"><flight:FlightDiagramPageView /></DataTemplate>
         <DataTemplate DataType="lenses:LensesTextPageViewModel"><lenses:LensesTextPageView /></DataTemplate>
         <DataTemplate DataType="lenses:LensesDiagramPageViewModel"><lenses:LensesDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="spectra:SpectraTextPageViewModel"><spectra:SpectraTextPageView /></DataTemplate>
+        <DataTemplate DataType="spectra:SpectraDiagramPageViewModel"><spectra:SpectraDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

@@ -22480,6 +22480,1155 @@
      ]
     ]
    },
+   "Narr_Spec_Atom_01": {
+    "duration": 6.648,
+    "hash": "38f10dbefa70db70",
+    "sentences": [
+     [
+      0.05,
+      6.597,
+      "This is hydrogen, the simplest atom of all: one proton in the middle, and one electron around it."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_02": {
+    "duration": 10.56,
+    "hash": "60bc41acb3b2f67a",
+    "sentences": [
+     [
+      0.05,
+      2.694,
+      "The electron can't sit just anywhere."
+     ],
+     [
+      2.694,
+      7.042,
+      "It lives on certain energy levels, like the rungs of a ladder."
+     ],
+     [
+      7.042,
+      10.486,
+      "Right now it's on the lowest rung, the ground level."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_03": {
+    "duration": 11.592,
+    "hash": "3ca9bf3d1ef4f330",
+    "sentences": [
+     [
+      0.05,
+      8.208,
+      "To climb, it has to take in exactly the right amount of energy: a photon that matches the gap between two rungs."
+     ],
+     [
+      8.208,
+      11.528,
+      "Here one arrives and lifts it up to level three."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_04": {
+    "duration": 9.744,
+    "hash": "18eab0ed95e2ffec",
+    "sentences": [
+     [
+      0.05,
+      1.708,
+      "It doesn't stay up there."
+     ],
+     [
+      1.708,
+      6.069,
+      "It drops back, and the energy leaves as a new photon."
+     ],
+     [
+      6.069,
+      9.681,
+      "From level three to two, that photon is red."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_05": {
+    "duration": 10.296,
+    "hash": "947eef89ed73b0c0",
+    "sentences": [
+     [
+      0.05,
+      2.014,
+      "Then from two down to one."
+     ],
+     [
+      2.014,
+      6.514,
+      "That gap is much bigger, so the photon carries more energy."
+     ],
+     [
+      6.514,
+      10.236,
+      "It's ultraviolet, invisible to our eyes."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_06": {
+    "duration": 14.208,
+    "hash": "f95a46694618fa9c",
+    "sentences": [
+     [
+      0.05,
+      2.903,
+      "Each jump always gives the same colour."
+     ],
+     [
+      2.903,
+      9.333,
+      "So hydrogen's light isn't a rainbow, but a few sharp lines, its fingerprint."
+     ],
+     [
+      9.333,
+      14.139,
+      "The visible ones, the Balmer series, all end on level two."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_07": {
+    "duration": 8.832,
+    "hash": "adce100389ee5ee6",
+    "sentences": [
+     [
+      0.05,
+      1.194,
+      "A question."
+     ],
+     [
+      1.194,
+      8.778,
+      "If we fire red light of six hundred and forty nanometres at the electron on the ground level, what happens?"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_08": {
+    "duration": 12.384,
+    "hash": "d03b6f1384c7e707",
+    "sentences": [
+     [
+      0.05,
+      1.806,
+      "It passes straight through."
+     ],
+     [
+      1.806,
+      6.153,
+      "From the ground, even the smallest step needs ultraviolet."
+     ],
+     [
+      6.153,
+      12.333,
+      "A red photon simply doesn't carry the right amount, and only exact matches are taken in."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_09": {
+    "duration": 13.584,
+    "hash": "bccf05aa372810c2",
+    "sentences": [
+     [
+      0.05,
+      6.667,
+      "Give it more than thirteen point six electron-volts, though, and the electron escapes altogether."
+     ],
+     [
+      6.667,
+      8.708,
+      "The atom is ionised."
+     ],
+     [
+      8.708,
+      13.514,
+      "Soon it's caught again, and tumbles down, giving out lines on the way."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_10": {
+    "duration": 12.888,
+    "hash": "fde96f5a2a30b92f",
+    "sentences": [
+     [
+      0.05,
+      4.111,
+      "In fact the electron isn't a tiny planet on an orbit."
+     ],
+     [
+      4.111,
+      8.569,
+      "Quantum physics says it's a cloud of where it might be found."
+     ],
+     [
+      8.569,
+      12.819,
+      "Each level has clouds of its own shapes, like this dumbbell."
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_11": {
+    "duration": 7.512,
+    "hash": "a1d0e8fa765a577d",
+    "sentences": [
+     [
+      0.05,
+      1.056,
+      "Your turn."
+     ],
+     [
+      1.056,
+      7.444,
+      "Click a level on the ladder to lift the electron, or choose a colour and fire photons at it."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_01": {
+    "duration": 9.384,
+    "hash": "c7092e42037367e6",
+    "sentences": [
+     [
+      0.05,
+      2.778,
+      "Here's a glowing tube of hydrogen."
+     ],
+     [
+      2.778,
+      9.319,
+      "Electricity keeps knocking its electrons up, and as they fall back, the gas glows."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_02": {
+    "duration": 9.648,
+    "hash": "ecbd8837e958a06b",
+    "sentences": [
+     [
+      0.05,
+      4.236,
+      "Its light passes through a narrow slit, then a prism."
+     ],
+     [
+      4.236,
+      9.597,
+      "The prism bends each colour by a different amount and spreads them across the screen."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_03": {
+    "duration": 9.888,
+    "hash": "66af40073355a0d0",
+    "sentences": [
+     [
+      0.05,
+      6.611,
+      "Instead of a rainbow, we get a few bright lines: red, blue-green and violet."
+     ],
+     [
+      6.611,
+      9.833,
+      "They're exactly the Balmer lines from the atom view."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_04": {
+    "duration": 8.64,
+    "hash": "5b47dfc8499c638b",
+    "sentences": [
+     [
+      0.05,
+      2.792,
+      "Every gas has its own set of lines."
+     ],
+     [
+      2.792,
+      8.569,
+      "Neon's are crowded in the red and orange, which is why neon signs glow red."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_05": {
+    "duration": 9.12,
+    "hash": "4e3ba1434d706afc",
+    "sentences": [
+     [
+      0.05,
+      3.903,
+      "Sodium shines almost all in one yellow line."
+     ],
+     [
+      3.903,
+      9.069,
+      "But magnify it, and it turns out to be two lines, very close together."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_06": {
+    "duration": 8.376,
+    "hash": "cc109792a606376a",
+    "sentences": [
+     [
+      0.05,
+      3.819,
+      "A hot solid, like a bulb's filament, is different."
+     ],
+     [
+      3.819,
+      8.319,
+      "It gives every colour at once: a continuous rainbow."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_07": {
+    "duration": 7.152,
+    "hash": "0dd375a984a41367",
+    "sentences": [
+     [
+      0.05,
+      5.0,
+      "Now suppose we shine the bulb through a cloud of cool sodium vapour."
+     ],
+     [
+      5.0,
+      7.097,
+      "What do you think we'll see in the rainbow?"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_08": {
+    "duration": 7.896,
+    "hash": "00553ac8ba947b55",
+    "sentences": [
+     [
+      0.05,
+      3.861,
+      "Dark lines, right where sodium shines when it's hot."
+     ],
+     [
+      3.861,
+      7.847,
+      "A cool gas absorbs exactly the colours it would give out."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_09": {
+    "duration": 11.328,
+    "hash": "189476b188953ed4",
+    "sentences": [
+     [
+      0.05,
+      4.222,
+      "Sunlight is crossed by hundreds of these dark lines."
+     ],
+     [
+      4.222,
+      11.264,
+      "By matching them with lamps in the lab, we found out what the Sun is made of, without ever going there."
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_10": {
+    "duration": 7.8,
+    "hash": "752e2053276819d6",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "Your turn."
+     ],
+     [
+      1.153,
+      2.958,
+      "Here's a mystery lamp."
+     ],
+     [
+      2.958,
+      7.736,
+      "Compare its lines with the fingerprints in the chart, then make your guess."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_BalmerDark": {
+    "duration": 9.48,
+    "hash": "9e669867002ed04d",
+    "sentences": [
+     [
+      0.05,
+      2.347,
+      "The Balmer lines in absorption."
+     ],
+     [
+      2.347,
+      9.417,
+      "They need hydrogen with its electron already on level two, which happens most near ten thousand degrees."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Bulb": {
+    "duration": 9.024,
+    "hash": "188459dde9a4e6e3",
+    "sentences": [
+     [
+      0.05,
+      2.444,
+      "A filament heated white-hot."
+     ],
+     [
+      2.444,
+      8.972,
+      "In a solid the atoms crowd so close that every colour comes out together, a smooth rainbow."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Calcium": {
+    "duration": 11.04,
+    "hash": "d50734ef14836e10",
+    "sentences": [
+     [
+      0.05,
+      6.875,
+      "Two strong dark lines of ionised calcium at the violet end, Fraunhofer's H and K."
+     ],
+     [
+      6.875,
+      10.986,
+      "They're the strongest lines in Sun-like and cooler stars."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Cloud": {
+    "duration": 13.272,
+    "hash": "ef4c7bdd8e72bb71",
+    "sentences": [
+     [
+      0.05,
+      4.958,
+      "Where the electron is likely to be found, brighter where more likely."
+     ],
+     [
+      4.958,
+      13.222,
+      "The shapes come from quantum mechanics: s clouds are round, p clouds are dumbbells, d clouds have four lobes."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Compare": {
+    "duration": 6.96,
+    "hash": "72c21eeb6e924f17",
+    "sentences": [
+     [
+      0.05,
+      3.042,
+      "A gas's lines placed under the spectrum."
+     ],
+     [
+      3.042,
+      6.903,
+      "If every line lines up, it's the same gas."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_CoolGas": {
+    "duration": 9.408,
+    "hash": "07be888199c53c1d",
+    "sentences": [
+     [
+      0.05,
+      3.625,
+      "A cloud of cool gas between the bulb and the slit."
+     ],
+     [
+      3.625,
+      9.347,
+      "Its atoms absorb exactly the colours they'd give out when hot, so those colours go missing."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_DarkLine": {
+    "duration": 9.456,
+    "hash": "392adf898e856b77",
+    "sentences": [
+     [
+      0.05,
+      5.736,
+      "A colour missing from the rainbow: atoms in a cooler gas in the way absorbed it."
+     ],
+     [
+      5.736,
+      9.403,
+      "It sits exactly where that gas's bright line would be."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Electron": {
+    "duration": 9.624,
+    "hash": "115fb300eee40dbc",
+    "sentences": [
+     [
+      0.05,
+      2.861,
+      "The electron carries a negative charge."
+     ],
+     [
+      2.861,
+      9.556,
+      "It can only have certain amounts of energy, so it's found only on certain levels, never in between."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Energy": {
+    "duration": 11.112,
+    "hash": "a3b15b4b76c230dc",
+    "sentences": [
+     [
+      0.05,
+      3.181,
+      "Each level's energy, in electron-volts."
+     ],
+     [
+      3.181,
+      7.792,
+      "Negative means bound to the atom; zero is just free."
+     ],
+     [
+      7.792,
+      11.042,
+      "The gaps between levels set the colours of the light."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_GasLamp": {
+    "duration": 12.12,
+    "hash": "8af32297ea82c027",
+    "sentences": [
+     [
+      0.05,
+      4.125,
+      "A glass tube of thin gas with a high voltage across it."
+     ],
+     [
+      4.125,
+      12.069,
+      "Electrons racing through knock the gas atoms' electrons up, and as they fall back the gas glows in its own colours."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Ground": {
+    "duration": 10.392,
+    "hash": "f469993d4f84f692",
+    "sentences": [
+     [
+      0.05,
+      1.569,
+      "The lowest level."
+     ],
+     [
+      1.569,
+      10.344,
+      "An electron here has the least energy, minus thirteen point six electron-volts, and it stays here unless something lifts it."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_HSpectrum": {
+    "duration": 13.128,
+    "hash": "6057b5abde20d1d6",
+    "sentences": [
+     [
+      0.05,
+      4.667,
+      "Every photon given out so far, sorted by wavelength."
+     ],
+     [
+      4.667,
+      13.069,
+      "The lines are always in the same places: hydrogen's fingerprint, from the ultraviolet through the visible into the infrared."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Helium": {
+    "duration": 10.32,
+    "hash": "a4474a6006433a04",
+    "sentences": [
+     [
+      0.05,
+      7.611,
+      "Helium holds its electrons tightly, so only very hot stars can lift them enough to absorb visible light."
+     ],
+     [
+      7.611,
+      10.264,
+      "These lines mark blue stars."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Infrared": {
+    "duration": 8.88,
+    "hash": "637a558979537d18",
+    "sentences": [
+     [
+      0.05,
+      5.847,
+      "Light with longer waves than red, which we feel as warmth rather than see."
+     ],
+     [
+      5.847,
+      8.819,
+      "Small falls between high levels give it."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Ionise": {
+    "duration": 12.336,
+    "hash": "a7e0d6da28598c24",
+    "sentences": [
+     [
+      0.05,
+      7.486,
+      "Above zero the electron is no longer bound: it's free, and the atom has become an ion."
+     ],
+     [
+      7.486,
+      12.278,
+      "From the ground level that takes thirteen point six electron-volts."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Level": {
+    "duration": 8.952,
+    "hash": "4695c0efdd5a3742",
+    "sentences": [
+     [
+      0.05,
+      1.819,
+      "One rung of the ladder."
+     ],
+     [
+      1.819,
+      8.903,
+      "Click it to lift the electron here: a photon of exactly the energy of that jump will be sent in."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Line": {
+    "duration": 8.976,
+    "hash": "56d713e5b8ba9575",
+    "sentences": [
+     [
+      0.05,
+      6.25,
+      "Light of one exact wavelength, given out when the gas's electrons make one particular jump."
+     ],
+     [
+      6.25,
+      8.917,
+      "Its place on the ruler tells you which."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Molecules": {
+    "duration": 9.984,
+    "hash": "a7379bcf780850dc",
+    "sentences": [
+     [
+      0.05,
+      5.75,
+      "In the coolest stars, atoms join into molecules such as titanium oxide."
+     ],
+     [
+      5.75,
+      9.931,
+      "Molecules absorb in broad bands, not thin lines."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Mystery": {
+    "duration": 7.056,
+    "hash": "478b14ce93b0fd74",
+    "sentences": [
+     [
+      0.05,
+      2.014,
+      "A lamp whose gas is hidden."
+     ],
+     [
+      2.014,
+      7.0,
+      "Its lines are its fingerprint: compare them with the chart and guess."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Nanometre": {
+    "duration": 9.384,
+    "hash": "4c37223b8943a920",
+    "sentences": [
+     [
+      0.05,
+      4.194,
+      "The ruler is in nanometres, millionths of a millimetre."
+     ],
+     [
+      4.194,
+      9.319,
+      "Our eyes see from about four hundred, violet, to seven hundred, red."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Nucleus": {
+    "duration": 11.064,
+    "hash": "e618ebcde4ade549",
+    "sentences": [
+     [
+      0.05,
+      4.542,
+      "Hydrogen's nucleus is a single proton, with a positive charge."
+     ],
+     [
+      4.542,
+      11.014,
+      "It holds the electron by electric attraction, and it's nearly two thousand times heavier."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Orbit": {
+    "duration": 11.04,
+    "hash": "f6976626c576c91c",
+    "sentences": [
+     [
+      0.05,
+      5.111,
+      "In Bohr's picture the electron circles on fixed orbits, each a level."
+     ],
+     [
+      5.111,
+      10.986,
+      "The higher the level, the wider the orbit, and the less firmly the electron is held."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Peak": {
+    "duration": 10.536,
+    "hash": "90266d2d901426c5",
+    "sentences": [
+     [
+      0.05,
+      2.306,
+      "Where the star shines brightest."
+     ],
+     [
+      2.306,
+      7.972,
+      "Wien's law: the hotter the star, the shorter the wavelength of its peak."
+     ],
+     [
+      7.972,
+      10.472,
+      "Drag it to change the temperature."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_PhotonIn": {
+    "duration": 9.552,
+    "hash": "ae6ef6d2c0c65880",
+    "sentences": [
+     [
+      0.05,
+      4.278,
+      "A packet of light, its colour set by its energy."
+     ],
+     [
+      4.278,
+      9.486,
+      "It's taken in only if its energy exactly fits a jump the electron can make."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_PhotonLamp": {
+    "duration": 6.912,
+    "hash": "97b187058facc5a6",
+    "sentences": [
+     [
+      0.05,
+      3.417,
+      "It fires photons of the wavelength you choose."
+     ],
+     [
+      3.417,
+      6.861,
+      "Try one that matches a jump, and one that doesn't."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_PhotonOut": {
+    "duration": 9.84,
+    "hash": "8e67a71973bfbbd6",
+    "sentences": [
+     [
+      0.05,
+      5.443,
+      "When the electron falls, the energy it loses leaves as this photon."
+     ],
+     [
+      5.443,
+      9.778,
+      "A bigger fall gives a bluer photon, with a shorter wave."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Planck": {
+    "duration": 10.44,
+    "hash": "a632e72e78479f43",
+    "sentences": [
+     [
+      0.05,
+      4.944,
+      "How much light a hot body gives at each wavelength, from Planck's law."
+     ],
+     [
+      4.944,
+      10.375,
+      "Hotter bodies give more at every wavelength, and most at shorter ones."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Prism": {
+    "duration": 8.544,
+    "hash": "67ea043df720b662",
+    "sentences": [
+     [
+      0.05,
+      5.25,
+      "Glass slows violet light a little more than red, so it bends violet more."
+     ],
+     [
+      5.25,
+      8.486,
+      "The colours fan out in order of wavelength."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Reference": {
+    "duration": 9.264,
+    "hash": "c24c879e96c069a4",
+    "sentences": [
+     [
+      0.05,
+      3.958,
+      "A hydrogen lamp at rest in the lab, for comparison."
+     ],
+     [
+      3.958,
+      9.194,
+      "Its lines show where the star's lines would be if the star weren't moving."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Shift": {
+    "duration": 11.088,
+    "hash": "8e7f93454cc85448",
+    "sentences": [
+     [
+      0.05,
+      8.917,
+      "When a source moves away, its waves are stretched and every line moves towards the red; coming closer, towards the blue."
+     ],
+     [
+      8.917,
+      11.028,
+      "The shift gives the speed."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Slit": {
+    "duration": 10.032,
+    "hash": "24bc7cfd8691cf13",
+    "sentences": [
+     [
+      0.05,
+      3.431,
+      "A narrow gap lets through a thin line of light."
+     ],
+     [
+      3.431,
+      9.972,
+      "Each colour then lands as a thin line on the screen, so lines close together stay apart."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Star": {
+    "duration": 10.416,
+    "hash": "04925146a7133026",
+    "sentences": [
+     [
+      0.05,
+      2.097,
+      "A ball of hot gas."
+     ],
+     [
+      2.097,
+      10.347,
+      "Its colour comes from its surface temperature: red for cool stars, white for medium ones, blue for the hottest."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_StarSpectrum": {
+    "duration": 9.024,
+    "hash": "3d411aa64415e6e2",
+    "sentences": [
+     [
+      0.05,
+      5.806,
+      "The star's light spread out, with the dark lines of the gases in its atmosphere."
+     ],
+     [
+      5.806,
+      8.958,
+      "Drag it sideways to make the star move."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_SunLight": {
+    "duration": 10.872,
+    "hash": "a058f323df52c0ee",
+    "sentences": [
+     [
+      0.05,
+      5.431,
+      "The Sun's surface glows like a hot body at nearly six thousand degrees."
+     ],
+     [
+      5.431,
+      10.819,
+      "The gas above it is cooler and takes out its own colours, leaving dark lines."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Trace": {
+    "duration": 7.128,
+    "hash": "193635de0f691ee8",
+    "sentences": [
+     [
+      0.05,
+      3.403,
+      "How bright the light is at each wavelength."
+     ],
+     [
+      3.403,
+      7.069,
+      "Bright lines are peaks, dark lines are dips."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Ultraviolet": {
+    "duration": 9.36,
+    "hash": "2a30dd5d80e9773f",
+    "sentences": [
+     [
+      0.05,
+      4.528,
+      "Light with shorter waves than violet, too energetic for our eyes."
+     ],
+     [
+      4.528,
+      9.292,
+      "Falls to the ground level, the Lyman series, all land here."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Visible": {
+    "duration": 7.224,
+    "hash": "69222a9b9c11a66d",
+    "sentences": [
+     [
+      0.05,
+      2.597,
+      "The narrow band our eyes can see."
+     ],
+     [
+      2.597,
+      7.153,
+      "A star's colour depends on how its curve slopes across this band."
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Zoom": {
+    "duration": 11.28,
+    "hash": "31e2f0f941a21d73",
+    "sentences": [
+     [
+      0.05,
+      4.806,
+      "A few nanometres around the picked line, enlarged forty times."
+     ],
+     [
+      4.806,
+      11.222,
+      "Sodium's yellow line turns out to be two lines, six tenths of a nanometre apart."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_01": {
+    "duration": 8.232,
+    "hash": "9d85711bcf7c83b1",
+    "sentences": [
+     [
+      0.05,
+      2.972,
+      "Stars are huge balls of hot gas."
+     ],
+     [
+      2.972,
+      8.167,
+      "Their light carries two secrets: how hot they are, and what they're made of."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_02": {
+    "duration": 10.08,
+    "hash": "efba316da543add6",
+    "sentences": [
+     [
+      0.05,
+      3.667,
+      "Any hot body glows with this curve of colours."
+     ],
+     [
+      3.667,
+      10.014,
+      "The Sun's peak is in the visible, near green, but it gives out all colours together, so it looks white."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_03": {
+    "duration": 8.472,
+    "hash": "8ec58bba1aca91ef",
+    "sentences": [
+     [
+      0.05,
+      2.639,
+      "A cooler star peaks in the infrared."
+     ],
+     [
+      2.639,
+      8.417,
+      "Most of its visible light is red and orange, like Betelgeuse in Orion."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_04": {
+    "duration": 5.52,
+    "hash": "31b149159a836633",
+    "sentences": [
+     [
+      0.05,
+      5.458,
+      "A hot star peaks in the ultraviolet and shines blue-white, like Spica."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_05": {
+    "duration": 8.568,
+    "hash": "57c2b4389ee52323",
+    "sentences": [
+     [
+      0.05,
+      1.264,
+      "Here's a puzzle."
+     ],
+     [
+      1.264,
+      4.514,
+      "Nearly all stars are mostly hydrogen."
+     ],
+     [
+      4.514,
+      8.526,
+      "Which kind do you think shows the strongest hydrogen lines?"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_06": {
+    "duration": 17.4,
+    "hash": "be78221b87baec03",
+    "sentences": [
+     [
+      0.05,
+      4.694,
+      "A white star of about ten thousand degrees, like Sirius."
+     ],
+     [
+      4.694,
+      11.319,
+      "There, many hydrogen atoms have their electron on level two, ready to absorb Balmer colours."
+     ],
+     [
+      11.319,
+      17.347,
+      "Hotter, the hydrogen is ionised; cooler, it stays on the ground level."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_07": {
+    "duration": 5.952,
+    "hash": "93ac43600c445e3e",
+    "sentences": [
+     [
+      0.05,
+      5.889,
+      "In the cooler Sun, hydrogen's lines are weaker, and calcium and iron take over."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_08": {
+    "duration": 6.456,
+    "hash": "9e8247c280d420db",
+    "sentences": [
+     [
+      0.05,
+      6.389,
+      "In the coolest stars, molecules survive, and carve broad dark bands into the light."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_09": {
+    "duration": 12.984,
+    "hash": "04731eefcbcc6abd",
+    "sentences": [
+     [
+      0.05,
+      7.569,
+      "If a star or galaxy moves away from us, every line slides towards the red: a red shift."
+     ],
+     [
+      7.569,
+      10.153,
+      "Compare it with the lab lamp below."
+     ],
+     [
+      10.153,
+      12.917,
+      "Coming closer gives a blue shift."
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_10": {
+    "duration": 7.872,
+    "hash": "fe49bef1df8a1dbb",
+    "sentences": [
+     [
+      0.05,
+      1.167,
+      "Your turn."
+     ],
+     [
+      1.167,
+      7.819,
+      "Drag the curve to change the star's temperature, or drag its spectrum sideways to make it move."
+     ]
+    ]
+   },
    "Narr_Star_Diagram_01": {
     "duration": 12.984,
     "hash": "e524f2efc19715c5",
@@ -51480,6 +52629,1135 @@
       9.806,
       13.0,
       "留意哪些变了，哪些没变。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_01": {
+    "duration": 6.168,
+    "hash": "9539a2cc04c61968",
+    "sentences": [
+     [
+      0.1,
+      6.161,
+      "这是氢，最简单的原子：中间一个质子，外面一个电子。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_02": {
+    "duration": 11.112,
+    "hash": "289dac69491ac263",
+    "sentences": [
+     [
+      0.1,
+      7.55,
+      "电子不能随便待在哪里，它只能处在一些特定的能级上，就像梯子的横档。"
+     ],
+     [
+      7.5,
+      11.056,
+      "现在它在最低的一级，叫基态。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_03": {
+    "duration": 12.6,
+    "hash": "999c02c64f9bad4a",
+    "sentences": [
+     [
+      0.1,
+      8.078,
+      "要往上爬，它必须吸收正好合适的能量：一个能量刚好等于两级之差的光子。"
+     ],
+     [
+      8.028,
+      12.528,
+      "看，一个光子飞来，把它送到了第三能级。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_04": {
+    "duration": 12.6,
+    "hash": "2d5475b1e656cf33",
+    "sentences": [
+     [
+      0.1,
+      2.647,
+      "它不会一直待在上面。"
+     ],
+     [
+      2.597,
+      7.097,
+      "它落回来，能量变成一个新的光子飞走。"
+     ],
+     [
+      7.097,
+      12.528,
+      "从第三能级落到第二能级，放出的光子是红色的。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_05": {
+    "duration": 12.072,
+    "hash": "76a751fba438fc74",
+    "sentences": [
+     [
+      0.1,
+      3.619,
+      "接着从第二能级落到第一能级。"
+     ],
+     [
+      3.569,
+      8.514,
+      "这个能级差大得多，所以光子带的能量更多。"
+     ],
+     [
+      8.514,
+      12.014,
+      "它是紫外光，我们的眼睛看不见。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_06": {
+    "duration": 15.72,
+    "hash": "c4e8aff734c32733",
+    "sentences": [
+     [
+      0.1,
+      3.869,
+      "每种跃迁放出的颜色总是一样的。"
+     ],
+     [
+      3.819,
+      10.764,
+      "所以氢的光不是一道彩虹，而是几条清晰的谱线，就像它的指纹。"
+     ],
+     [
+      10.764,
+      15.653,
+      "其中可见的那些叫巴耳末系，都落到第二能级。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_07": {
+    "duration": 7.512,
+    "hash": "eb519c2389d8e0a4",
+    "sentences": [
+     [
+      0.1,
+      7.494,
+      "问你一个问题：如果用六百四十纳米的红光照射基态的电子，会发生什么？"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_08": {
+    "duration": 14.448,
+    "hash": "0977425ab9143c1f",
+    "sentences": [
+     [
+      0.1,
+      2.161,
+      "它直接穿过去了。"
+     ],
+     [
+      2.111,
+      7.694,
+      "电子在基态时，就算最小的一级台阶也需要紫外光。"
+     ],
+     [
+      7.694,
+      14.389,
+      "红光光子的能量根本对不上，只有正好匹配的光子才会被吸收。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_09": {
+    "duration": 14.4,
+    "hash": "51b8907b2d5e3c11",
+    "sentences": [
+     [
+      0.1,
+      8.897,
+      "可是如果给它超过十三点六电子伏特的能量，电子就会完全逃走，原子被电离了。"
+     ],
+     [
+      8.847,
+      14.333,
+      "不久它又会被俘获，一路跌落下来，沿途放出谱线。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_10": {
+    "duration": 15.312,
+    "hash": "1110c1de7f2ee6ee",
+    "sentences": [
+     [
+      0.1,
+      4.481,
+      "其实电子并不是沿轨道运行的小行星。"
+     ],
+     [
+      4.431,
+      9.833,
+      "量子物理告诉我们，它是一团表示可能出现位置的云。"
+     ],
+     [
+      9.833,
+      15.25,
+      "每个能级都有自己形状的电子云，比如这个哑铃形。"
+     ]
+    ]
+   },
+   "Narr_Spec_Atom_11": {
+    "duration": 9.336,
+    "hash": "6d1f959ee19273db",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.264,
+      "点击能级图上的某一级把电子送上去，或者选一种颜色向它发射光子。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_01": {
+    "duration": 9.168,
+    "hash": "2355e1d7e507e0b5",
+    "sentences": [
+     [
+      0.1,
+      2.8,
+      "这是一根发光的氢气管。"
+     ],
+     [
+      2.75,
+      9.111,
+      "电流不断把电子撞到高能级，电子落回来时，气体就发光了。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_02": {
+    "duration": 9.576,
+    "hash": "77ebaa7bcde1d5b9",
+    "sentences": [
+     [
+      0.1,
+      3.967,
+      "它的光穿过一条窄缝，再经过棱镜。"
+     ],
+     [
+      3.917,
+      9.514,
+      "棱镜对每种颜色的偏折不同，把它们在光屏上展开。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_03": {
+    "duration": 10.008,
+    "hash": "e9ff3dd9731dc0d3",
+    "sentences": [
+     [
+      0.1,
+      6.606,
+      "我们看到的不是彩虹，而是几条亮线：红色、蓝绿色和紫色。"
+     ],
+     [
+      6.556,
+      9.944,
+      "它们正是原子视图里的巴耳末线。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_04": {
+    "duration": 9.504,
+    "hash": "6d208aa9202ae092",
+    "sentences": [
+     [
+      0.1,
+      3.592,
+      "每种气体都有自己的一组谱线。"
+     ],
+     [
+      3.542,
+      9.444,
+      "氖的谱线挤在红色和橙色里，所以霓虹灯是红色的。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_05": {
+    "duration": 7.8,
+    "hash": "5251e4ece2215ea5",
+    "sentences": [
+     [
+      0.1,
+      3.217,
+      "钠几乎只发出一条黄线。"
+     ],
+     [
+      3.167,
+      7.736,
+      "可是把它放大，原来是两条靠得很近的谱线。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_06": {
+    "duration": 9.096,
+    "hash": "fd4127a46adc9668",
+    "sentences": [
+     [
+      0.1,
+      4.925,
+      "炽热的固体，比如白炽灯的灯丝，就不一样了。"
+     ],
+     [
+      4.875,
+      9.028,
+      "它同时发出所有颜色，是连续的彩虹。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_07": {
+    "duration": 7.56,
+    "hash": "b48061fde3863c09",
+    "sentences": [
+     [
+      0.1,
+      4.411,
+      "现在让白炽灯的光穿过一团冷的钠蒸气。"
+     ],
+     [
+      4.361,
+      7.5,
+      "你觉得彩虹会变成什么样？"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_08": {
+    "duration": 9.624,
+    "hash": "c31f803461da5117",
+    "sentences": [
+     [
+      0.1,
+      4.689,
+      "出现了暗线，正好在钠炽热时发光的位置。"
+     ],
+     [
+      4.639,
+      9.569,
+      "冷气体吸收的，正是它自己会发出的那些颜色。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_09": {
+    "duration": 12.12,
+    "hash": "a1e2bda6f3daf932",
+    "sentences": [
+     [
+      0.1,
+      4.619,
+      "太阳光谱上布满了成百上千条这样的暗线。"
+     ],
+     [
+      4.569,
+      12.056,
+      "把它们和实验室里的灯对比，我们不用去太阳，就知道了太阳是由什么组成的。"
+     ]
+    ]
+   },
+   "Narr_Spec_Lamps_10": {
+    "duration": 9.696,
+    "hash": "ed2e4bcb82f24df6",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      3.736,
+      "这是一盏神秘灯。"
+     ],
+     [
+      3.736,
+      9.625,
+      "把它的谱线和图表里的指纹对比一下，然后说出你的答案。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_BalmerDark": {
+    "duration": 10.056,
+    "hash": "04485813f5e2fcb7",
+    "sentences": [
+     [
+      0.1,
+      2.744,
+      "吸收形式的巴耳末线。"
+     ],
+     [
+      2.694,
+      9.986,
+      "它们需要电子已经处在第二能级的氢原子，这种情况在一万度左右最多。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Bulb": {
+    "duration": 9.144,
+    "hash": "0808c9cb34c8470f",
+    "sentences": [
+     [
+      0.1,
+      2.661,
+      "灯丝被加热到白炽。"
+     ],
+     [
+      2.611,
+      9.083,
+      "固体里的原子挤得很近，所有颜色一起发出，形成平滑的彩虹。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Calcium": {
+    "duration": 11.592,
+    "hash": "01192a974deaff03",
+    "sentences": [
+     [
+      0.1,
+      6.758,
+      "紫端两条电离钙的强暗线，就是夫琅禾费命名的 H 线和 K 线。"
+     ],
+     [
+      6.708,
+      11.542,
+      "在类太阳和更冷的恒星里，它们是最强的谱线。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Cloud": {
+    "duration": 14.016,
+    "hash": "8c0eebfe69b0cbc3",
+    "sentences": [
+     [
+      0.1,
+      4.911,
+      "表示电子可能出现的地方，越亮的地方越可能。"
+     ],
+     [
+      4.861,
+      13.958,
+      "这些形状来自量子力学：s 电子云是球形的，p 电子云像哑铃，d 电子云有四个瓣。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Compare": {
+    "duration": 8.16,
+    "hash": "491f00b6b3cbb296",
+    "sentences": [
+     [
+      0.1,
+      3.953,
+      "把某种气体的谱线放在光谱下面。"
+     ],
+     [
+      3.903,
+      8.097,
+      "如果每一条都对得上，那就是同一种气体。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_CoolGas": {
+    "duration": 11.976,
+    "hash": "5216baac88d97997",
+    "sentences": [
+     [
+      0.1,
+      4.272,
+      "放在白炽灯和狭缝之间的一团冷气体。"
+     ],
+     [
+      4.222,
+      11.917,
+      "它的原子正好吸收自己炽热时会发出的颜色，所以这些颜色就缺失了。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_DarkLine": {
+    "duration": 10.128,
+    "hash": "ff5dea5370b3f31c",
+    "sentences": [
+     [
+      0.1,
+      6.661,
+      "彩虹中缺失的一种颜色：路上较冷气体里的原子把它吸收了。"
+     ],
+     [
+      6.611,
+      10.069,
+      "它正好在那种气体亮线的位置上。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Electron": {
+    "duration": 9.768,
+    "hash": "b25b48718f9b7375",
+    "sentences": [
+     [
+      0.1,
+      1.967,
+      "电子带负电。"
+     ],
+     [
+      1.917,
+      9.708,
+      "它只能具有某些特定的能量，所以只能出现在特定的能级上，不会在两级之间。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Energy": {
+    "duration": 12.024,
+    "hash": "c8832b971fe820e6",
+    "sentences": [
+     [
+      0.1,
+      3.939,
+      "每个能级的能量，单位是电子伏特。"
+     ],
+     [
+      3.889,
+      8.389,
+      "负值表示被原子束缚，零表示刚好自由。"
+     ],
+     [
+      8.389,
+      11.958,
+      "能级之间的差决定了光的颜色。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_GasLamp": {
+    "duration": 14.496,
+    "hash": "3b57934bf067e34e",
+    "sentences": [
+     [
+      0.1,
+      4.758,
+      "装着稀薄气体的玻璃管，两端加上高电压。"
+     ],
+     [
+      4.708,
+      14.444,
+      "高速的电子撞击气体原子，把它们的电子撞上去，电子落回时，气体就发出自己特有的颜色。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Ground": {
+    "duration": 11.784,
+    "hash": "1ab439c360926d28",
+    "sentences": [
+     [
+      0.1,
+      1.953,
+      "最低的能级。"
+     ],
+     [
+      1.903,
+      11.722,
+      "这里的电子能量最低，为负十三点六电子伏特，除非有能量把它送上去，否则它会一直待在这里。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_HSpectrum": {
+    "duration": 12.288,
+    "hash": "629f590992047c32",
+    "sentences": [
+     [
+      0.1,
+      4.078,
+      "目前放出的所有光子，按波长排开。"
+     ],
+     [
+      4.028,
+      12.236,
+      "谱线的位置永远不变，这就是氢的指纹，从紫外经过可见光一直延伸到红外。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Helium": {
+    "duration": 11.856,
+    "hash": "1af85d3ca07f743e",
+    "sentences": [
+     [
+      0.1,
+      8.286,
+      "氦把电子抓得很紧，只有非常热的恒星才能把电子激发到能吸收可见光的程度。"
+     ],
+     [
+      8.236,
+      11.792,
+      "这些谱线是蓝色恒星的标志。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Infrared": {
+    "duration": 9.744,
+    "hash": "fd65620ea1503315",
+    "sentences": [
+     [
+      0.1,
+      5.717,
+      "波长比红光还长的光，我们能感到它的热却看不见它。"
+     ],
+     [
+      5.667,
+      9.681,
+      "高能级之间的小跃迁会放出红外光。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Ionise": {
+    "duration": 11.76,
+    "hash": "aaa44f5dd4f8621f",
+    "sentences": [
+     [
+      0.1,
+      7.619,
+      "能量高于零时，电子就不再被束缚，成为自由电子，原子变成了离子。"
+     ],
+     [
+      7.569,
+      11.694,
+      "从基态电离需要十三点六电子伏特。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Level": {
+    "duration": 10.32,
+    "hash": "64cf753215fdf806",
+    "sentences": [
+     [
+      0.1,
+      2.606,
+      "能级梯子上的一级。"
+     ],
+     [
+      2.556,
+      10.264,
+      "点击它就能把电子送到这里：会有一个能量正好等于这次跃迁的光子射进来。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Line": {
+    "duration": 10.992,
+    "hash": "2371ebe4923c2ee0",
+    "sentences": [
+     [
+      0.1,
+      7.175,
+      "某个确定波长的光，是气体原子中的电子做某一种特定跃迁时放出的。"
+     ],
+     [
+      7.125,
+      10.931,
+      "它在标尺上的位置告诉你是哪一种。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Molecules": {
+    "duration": 8.928,
+    "hash": "0f2489dfb3372113",
+    "sentences": [
+     [
+      0.1,
+      5.106,
+      "在最冷的恒星上，原子结合成氧化钛等分子。"
+     ],
+     [
+      5.056,
+      8.875,
+      "分子吸收的是宽带，而不是细线。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Mystery": {
+    "duration": 9.072,
+    "hash": "b328b9641d35b215",
+    "sentences": [
+     [
+      0.1,
+      3.481,
+      "一盏不告诉你装了什么气体的灯。"
+     ],
+     [
+      3.431,
+      9.0,
+      "它的谱线就是它的指纹：和图表对比一下，猜猜看。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Nanometre": {
+    "duration": 10.752,
+    "hash": "df0ccde45a6d82b5",
+    "sentences": [
+     [
+      0.1,
+      4.647,
+      "标尺的单位是纳米，也就是百万分之一毫米。"
+     ],
+     [
+      4.597,
+      10.681,
+      "我们的眼睛能看到大约从四百纳米的紫光到七百纳米的红光。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Nucleus": {
+    "duration": 9.432,
+    "hash": "c6eee0eb105cb568",
+    "sentences": [
+     [
+      0.1,
+      3.731,
+      "氢原子核就是一个带正电的质子。"
+     ],
+     [
+      3.681,
+      9.375,
+      "它靠电的吸引力拉住电子，质量差不多是电子的两千倍。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Orbit": {
+    "duration": 12.216,
+    "hash": "0ec8c9a0317ca2d4",
+    "sentences": [
+     [
+      0.1,
+      7.342,
+      "在玻尔的模型里，电子在固定的轨道上转动，每条轨道对应一个能级。"
+     ],
+     [
+      7.292,
+      12.153,
+      "能级越高，轨道越大，电子被束缚得越松。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Peak": {
+    "duration": 10.752,
+    "hash": "943a8c67d30fa556",
+    "sentences": [
+     [
+      0.1,
+      2.744,
+      "恒星发光最强的地方。"
+     ],
+     [
+      2.694,
+      7.917,
+      "维恩定律告诉我们：恒星越热，峰值波长越短。"
+     ],
+     [
+      7.917,
+      10.681,
+      "拖动它可以改变温度。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_PhotonIn": {
+    "duration": 10.416,
+    "hash": "1fc911a1751c208e",
+    "sentences": [
+     [
+      0.1,
+      3.994,
+      "这是一份光，它的颜色由能量决定。"
+     ],
+     [
+      3.944,
+      10.361,
+      "只有当它的能量正好等于电子能做的某次跃迁时，才会被吸收。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_PhotonLamp": {
+    "duration": 7.824,
+    "hash": "591bac4b46c4a376",
+    "sentences": [
+     [
+      0.1,
+      3.064,
+      "它发射你选定波长的光子。"
+     ],
+     [
+      3.014,
+      7.764,
+      "试试一个能匹配跃迁的，再试一个不能匹配的。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_PhotonOut": {
+    "duration": 9.456,
+    "hash": "08cdd0a9a9fca939",
+    "sentences": [
+     [
+      0.1,
+      5.203,
+      "电子下落时失去的能量，以这个光子的形式离开。"
+     ],
+     [
+      5.153,
+      9.389,
+      "落得越多，光子越偏蓝，波长越短。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Planck": {
+    "duration": 12.6,
+    "hash": "0d252f869f6be18b",
+    "sentences": [
+     [
+      0.1,
+      6.314,
+      "炽热物体在各个波长上发出多少光，由普朗克定律给出。"
+     ],
+     [
+      6.264,
+      12.528,
+      "越热的物体在每个波长上都发光更多，并且以短波为主。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Prism": {
+    "duration": 9.96,
+    "hash": "b69a4af2764ffdbe",
+    "sentences": [
+     [
+      0.1,
+      6.536,
+      "玻璃让紫光比红光减速得稍多一些，所以紫光偏折得更多。"
+     ],
+     [
+      6.486,
+      9.903,
+      "各种颜色按波长顺序展开。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Reference": {
+    "duration": 9.624,
+    "hash": "1671c0e945ec1fd4",
+    "sentences": [
+     [
+      0.1,
+      3.869,
+      "实验室里静止的氢灯，作为参照。"
+     ],
+     [
+      3.819,
+      9.556,
+      "它的谱线表示如果恒星不动，恒星的谱线应该在哪里。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Shift": {
+    "duration": 11.544,
+    "hash": "baec725cb96902e5",
+    "sentences": [
+     [
+      0.1,
+      8.467,
+      "光源远离时，光波被拉长，每条谱线都向红端移动；靠近时，向蓝端移动。"
+     ],
+     [
+      8.417,
+      11.472,
+      "位移的大小就告诉我们速度。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Slit": {
+    "duration": 10.44,
+    "hash": "9d6636038917bdfa",
+    "sentences": [
+     [
+      0.1,
+      3.328,
+      "窄缝只让一条细细的光通过。"
+     ],
+     [
+      3.278,
+      10.389,
+      "这样每种颜色在光屏上都落成一条细线，靠得很近的谱线也能分开。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Star": {
+    "duration": 9.552,
+    "hash": "dd725475d6de3fa1",
+    "sentences": [
+     [
+      0.1,
+      2.453,
+      "一个炽热的气体球。"
+     ],
+     [
+      2.403,
+      9.5,
+      "它的颜色取决于表面温度：冷的偏红，中等的偏白，最热的偏蓝。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_StarSpectrum": {
+    "duration": 10.632,
+    "hash": "a961a3f291d04cde",
+    "sentences": [
+     [
+      0.1,
+      6.911,
+      "恒星的光展开后的样子，上面有它大气中各种气体留下的暗线。"
+     ],
+     [
+      6.861,
+      10.569,
+      "左右拖动它，可以让恒星运动起来。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_SunLight": {
+    "duration": 10.872,
+    "hash": "705325b16963490c",
+    "sentences": [
+     [
+      0.1,
+      5.175,
+      "太阳表面像一个将近六千度的炽热物体一样发光。"
+     ],
+     [
+      5.125,
+      10.806,
+      "外面的气体较冷，吸收掉自己的那些颜色，留下暗线。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Trace": {
+    "duration": 6.624,
+    "hash": "26712726b45c93de",
+    "sentences": [
+     [
+      0.1,
+      3.3,
+      "表示每个波长上光有多亮。"
+     ],
+     [
+      3.25,
+      6.556,
+      "亮线是尖峰，暗线是凹陷。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Ultraviolet": {
+    "duration": 10.44,
+    "hash": "b63d6cfcadbb7aba",
+    "sentences": [
+     [
+      0.1,
+      5.689,
+      "波长比紫光还短的光，能量太高，我们的眼睛看不见。"
+     ],
+     [
+      5.639,
+      10.389,
+      "落到基态的跃迁，也就是莱曼系，都在这里。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Visible": {
+    "duration": 9.048,
+    "hash": "418021e4c4576c83",
+    "sentences": [
+     [
+      0.1,
+      3.369,
+      "我们眼睛能看到的窄窄一段。"
+     ],
+     [
+      3.319,
+      8.986,
+      "恒星的颜色取决于它的曲线在这一段里怎样倾斜。"
+     ]
+    ]
+   },
+   "Narr_Spec_Obj_Zoom": {
+    "duration": 8.928,
+    "hash": "056d3d508c9de002",
+    "sentences": [
+     [
+      0.1,
+      4.467,
+      "选中谱线附近的几纳米，放大了四十倍。"
+     ],
+     [
+      4.417,
+      8.861,
+      "钠的黄线原来是两条，相隔零点六纳米。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_01": {
+    "duration": 8.808,
+    "hash": "5944276ca27df65f",
+    "sentences": [
+     [
+      0.1,
+      3.453,
+      "恒星是巨大的炽热气体球。"
+     ],
+     [
+      3.403,
+      8.75,
+      "它们的光带着两个秘密：有多热，以及由什么组成。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_02": {
+    "duration": 12.864,
+    "hash": "c62321c934f3786f",
+    "sentences": [
+     [
+      0.1,
+      4.369,
+      "任何炽热的物体都按这样一条曲线发光。"
+     ],
+     [
+      4.319,
+      12.792,
+      "太阳的峰值在可见光里，靠近绿色，但它同时发出所有颜色，所以看起来是白色的。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_03": {
+    "duration": 8.976,
+    "hash": "92c345b69ea24431",
+    "sentences": [
+     [
+      0.1,
+      3.203,
+      "较冷的恒星峰值在红外。"
+     ],
+     [
+      3.153,
+      8.917,
+      "它的可见光大多是红色和橙色，比如猎户座的参宿四。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_04": {
+    "duration": 6.288,
+    "hash": "f3c5ff93bed669a3",
+    "sentences": [
+     [
+      0.1,
+      6.286,
+      "很热的恒星峰值在紫外，发出蓝白色的光，比如角宿一。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_05": {
+    "duration": 8.28,
+    "hash": "00f1faf68579e2ca",
+    "sentences": [
+     [
+      0.1,
+      4.786,
+      "考考你：几乎所有恒星的主要成分都是氢。"
+     ],
+     [
+      4.736,
+      8.208,
+      "你觉得哪种恒星的氢线最强？"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_06": {
+    "duration": 17.64,
+    "hash": "583dabbc749c1128",
+    "sentences": [
+     [
+      0.1,
+      4.383,
+      "是约一万度的白色恒星，比如天狼星。"
+     ],
+     [
+      4.333,
+      12.014,
+      "在那里，许多氢原子的电子处在第二能级，正好能吸收巴耳末线的颜色。"
+     ],
+     [
+      12.014,
+      17.569,
+      "更热，氢就被电离了；更冷，电子就都待在基态。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_07": {
+    "duration": 6.216,
+    "hash": "4e2e4e6257bbc3f5",
+    "sentences": [
+     [
+      0.1,
+      6.203,
+      "在较冷的太阳上，氢线变弱了，钙和铁的谱线占了上风。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_08": {
+    "duration": 6.816,
+    "hash": "a3d713d1eb29c395",
+    "sentences": [
+     [
+      0.1,
+      6.8,
+      "在最冷的恒星上，分子能够存在，在光谱上刻出宽宽的暗带。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_09": {
+    "duration": 13.344,
+    "hash": "2824e18db5332819",
+    "sentences": [
+     [
+      0.1,
+      7.286,
+      "如果恒星或星系在远离我们，每条谱线都会向红端移动，这叫红移。"
+     ],
+     [
+      7.236,
+      10.375,
+      "和下面实验室的灯对比一下。"
+     ],
+     [
+      10.375,
+      13.292,
+      "如果在靠近，就会蓝移。"
+     ]
+    ]
+   },
+   "Narr_Spec_Stars_10": {
+    "duration": 9.072,
+    "hash": "699bc18d584f5169",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.0,
+      "拖动曲线改变恒星的温度，或者左右拖动它的光谱，让它运动起来。"
      ]
     ]
    },

@@ -474,9 +474,10 @@ def rewrite_initialized_gradients(text: str) -> str:
     RadiusX/RadiusY), frozen or not, become immutable gradient brushes with those as relative or absolute points.
     """
     out, i = [], 0
-    pattern = re.compile(r"(Freeze\()?new (Linear|Radial)GradientBrush\(")
+    pattern = re.compile(r"(Freeze\()?new (Linear|Radial)GradientBrush(?:\(|(?= *\{))")
     while (m := pattern.search(text, i)) is not None:
-        close = match_bracket(text, m.end() - 1)
+        # (no argument list at all: new LinearGradientBrush { … })
+        close = match_bracket(text, m.end() - 1) if text[m.end() - 1] == "(" else m.end() - 1
         found = _initializer(text, close + 1)
         if found is None:
             out.append(text[i:m.end()])
@@ -490,9 +491,11 @@ def rewrite_initialized_gradients(text: str) -> str:
                 i = m.end()
                 continue
             end = len(text) - len(rest) + 1
-        args = split_top(text[m.end():close])
+        args = split_top(text[m.end():close]) if close >= m.end() else []
         try:
-            if args and args[0].startswith("["):
+            if not args:
+                stops = None
+            elif args[0].startswith("["):
                 stops = [split_top(st[1:-1]) for st in _stops(args[0][1:-1])]
             elif m.group(2) == "Linear" and len(args) == 3:
                 stops = [[args[0], "0"], [args[1], "1"]]
@@ -504,7 +507,23 @@ def rewrite_initialized_gradients(text: str) -> str:
             out.append(text[i:m.end()])
             i = m.end()
             continue
-        unit = "Absolute" if entries.pop("MappingMode", "").endswith("Absolute") else "Relative"
+        unit = "Absolute" if entries.get("MappingMode", "").endswith("Absolute") else "Relative"
+        if stops is None:
+            # new LinearGradientBrush { StartPoint = …, EndPoint = … } with its stops added later: it stays mutable,
+            # and only its points become relative or absolute ones.
+            if m.group(1) or set(entries) - {"MappingMode", "StartPoint", "EndPoint", "Center", "GradientOrigin"}:
+                out.append(text[i:m.end()])
+                i = m.end()
+                continue
+            body = text[close + 1:end]
+            for key in ("StartPoint", "EndPoint", "Center", "GradientOrigin"):
+                if key in entries:
+                    body = body.replace(f"{key} = {entries[key]}", f"{key} = {_relative_point(entries[key], unit)}", 1)
+            body = re.sub(r"\s*MappingMode = [\w.]+,?", "", body)
+            out.append(text[i:close + 1] + body)
+            i = end
+            continue
+        entries.pop("MappingMode", None)
         line_start = text.rfind("\n", 0, m.start()) + 1
         indent = re.match(r"[ \t]*", text[line_start:]).group(0)
         named = []
@@ -949,7 +968,7 @@ def convert_points(s: str) -> str:
     s = re.sub(r"^(\s*)(\w+)\.(Union|Intersect)\((.+)\);$", r"\1\2 = \2.\3(\4);", s, flags=re.M)
     s = re.sub(r"^(\s*)(\w+)\.Inflate\(([^;]+)\);$", r"\1\2 = \2.Inflate(new Thickness(\3));", s, flags=re.M)
     # WPF's static Rect.Inflate(rect, x, y) returns an inflated copy, as Avalonia's instance method does.
-    s = re.sub(r"\bRect\.Inflate\((\w+), ([^,()]+), ([^,()]+)\)", r"\1.Inflate(new Thickness(\2, \3))", s)
+    s = re.sub(r"\bRect\.Inflate\(([\w.]+), ([^,()]+), ([^,()]+)\)", r"\1.Inflate(new Thickness(\2, \3))", s)
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
     # (also after an `if (...)` on the same line). Not a variable also changed with `v.X +=`: that is one of the file's

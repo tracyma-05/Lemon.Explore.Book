@@ -1,0 +1,220 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:spectra="using:Lemon.Explore.Book.Chapters.Spectra"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Spectra.SpectraTextPageView"
+                         x:DataType="spectra:SpectraTextPageViewModel">
+    <!-- Left page of the Spectra spread: the atom, the lamps or the star's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Spectra.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Spectra.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Spectra.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="SpecMode" IsChecked="{Binding Spectra.IsAtom}" Content="{loc:Localize Spec_Mode_Atom}" />
+                    <RadioButton Classes="chip" GroupName="SpecMode" IsChecked="{Binding Spectra.IsLamps}" Content="{loc:Localize Spec_Mode_Lamps}" />
+                    <RadioButton Classes="chip" GroupName="SpecMode" IsChecked="{Binding Spectra.IsStars}" Content="{loc:Localize Spec_Mode_Stars}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Spectra.Card}" />
+
+                <!-- Atom: the electron, the lamp and the cloud -->
+                <StackPanel IsVisible="{Binding Spectra.IsAtom}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Electron_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SpecFall" IsChecked="{Binding Spectra.FallChoice[Chance]}" Content="{loc:Localize Spec_Fall_Chance}" />
+                        <RadioButton Classes="chip" GroupName="SpecFall" IsChecked="{Binding Spectra.FallChoice[OneStep]}" Content="{loc:Localize Spec_Fall_OneStep}" />
+                        <RadioButton Classes="chip" GroupName="SpecFall" IsChecked="{Binding Spectra.FallChoice[ToGround]}" Content="{loc:Localize Spec_Fall_ToGround}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Spectra.Hold}" Content="{loc:Localize Spec_Hold}" />
+                        <Button Classes="chip" Command="{Binding Spectra.GroundCommand}" Content="{loc:Localize Spec_Ground}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Lamp_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Spectra.PhotonText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Spec_Wavelength}" />
+                    </DockPanel>
+                    <Slider Minimum="1.778" Maximum="3.301" Value="{Binding Spectra.PhotonLog}" SmallChange="0.002" LargeChange="0.05"
+                            AutomationProperties.Name="{loc:Localize Spec_Wavelength}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Spectra.SetPhotonCommand}" CommandParameter="121.57" Content="{loc:Localize Spec_Photon_LymanAlpha}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetPhotonCommand}" CommandParameter="656.28" Content="{loc:Localize Spec_Photon_HAlpha}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetPhotonCommand}" CommandParameter="486.13" Content="{loc:Localize Spec_Photon_HBeta}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetPhotonCommand}" CommandParameter="640" Content="{loc:Localize Spec_Photon_Red}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetPhotonCommand}" CommandParameter="80" Content="{loc:Localize Spec_Photon_FarUv}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Spectra.FireCommand}" Content="{loc:Localize Spec_Fire}" />
+                        <Button Classes="chip" Command="{Binding Spectra.ClearCommand}" Content="{loc:Localize Spec_Clear}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Cloud_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Spectra.ShowCloud}" Content="{loc:Localize Spec_Option_Cloud}" />
+                        <RadioButton Classes="chip" GroupName="SpecShape" IsChecked="{Binding Spectra.ShapeChoice[0]}" Content="{loc:Localize Spec_Shape_S}" />
+                        <RadioButton Classes="chip" GroupName="SpecShape" IsChecked="{Binding Spectra.ShapeChoice[1]}" Content="{loc:Localize Spec_Shape_P}" />
+                        <RadioButton Classes="chip" GroupName="SpecShape" IsChecked="{Binding Spectra.ShapeChoice[2]}" Content="{loc:Localize Spec_Shape_D}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Spec_Atom_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Lamps: the source, the gas and the guessing game -->
+                <StackPanel IsVisible="{Binding Spectra.IsLamps}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Source_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SpecSource" IsChecked="{Binding Spectra.SourceChoice[Lamp]}" Content="{loc:Localize Spec_Source_Lamp}" />
+                        <RadioButton Classes="chip" GroupName="SpecSource" IsChecked="{Binding Spectra.SourceChoice[Bulb]}" Content="{loc:Localize Spec_Source_Bulb}" />
+                        <RadioButton Classes="chip" GroupName="SpecSource" IsChecked="{Binding Spectra.SourceChoice[Sun]}" Content="{loc:Localize Spec_Source_Sun}" />
+                        <RadioButton Classes="chip" GroupName="SpecSource" IsChecked="{Binding Spectra.SourceChoice[ThroughGas]}" Content="{loc:Localize Spec_Source_ThroughGas}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Spectra.ShowGasChoice}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Gas_Caption}" />
+                        <WrapPanel>
+                            <RadioButton Classes="chip" GroupName="SpecGas" IsChecked="{Binding Spectra.GasChoice[Hydrogen]}" Content="{loc:Localize Spec_Gas_Hydrogen}" />
+                            <RadioButton Classes="chip" GroupName="SpecGas" IsChecked="{Binding Spectra.GasChoice[Helium]}" Content="{loc:Localize Spec_Gas_Helium}" />
+                            <RadioButton Classes="chip" GroupName="SpecGas" IsChecked="{Binding Spectra.GasChoice[Neon]}" Content="{loc:Localize Spec_Gas_Neon}" />
+                            <RadioButton Classes="chip" GroupName="SpecGas" IsChecked="{Binding Spectra.GasChoice[Sodium]}" Content="{loc:Localize Spec_Gas_Sodium}" />
+                            <RadioButton Classes="chip" GroupName="SpecGas" IsChecked="{Binding Spectra.GasChoice[Mercury]}" Content="{loc:Localize Spec_Gas_Mercury}" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Guess_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Spectra.NewMysteryCommand}" Content="{loc:Localize Spec_Mystery}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0" IsVisible="{Binding Spectra.Mystery}">
+                        <Button Classes="chip" Command="{Binding Spectra.GuessCommand}" CommandParameter="Hydrogen" Content="{loc:Localize Spec_Gas_Hydrogen}" />
+                        <Button Classes="chip" Command="{Binding Spectra.GuessCommand}" CommandParameter="Helium" Content="{loc:Localize Spec_Gas_Helium}" />
+                        <Button Classes="chip" Command="{Binding Spectra.GuessCommand}" CommandParameter="Neon" Content="{loc:Localize Spec_Gas_Neon}" />
+                        <Button Classes="chip" Command="{Binding Spectra.GuessCommand}" CommandParameter="Sodium" Content="{loc:Localize Spec_Gas_Sodium}" />
+                        <Button Classes="chip" Command="{Binding Spectra.GuessCommand}" CommandParameter="Mercury" Content="{loc:Localize Spec_Gas_Mercury}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="text" Margin="0,4,0,0" Text="{Binding Spectra.GuessText}"
+                                         IsVisible="{Binding Spectra.GuessText, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+                    <WrapPanel Margin="0,10,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Spectra.Zoom}" Content="{loc:Localize Spec_Option_Zoom}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Spectra.ShowLabels}" Content="{loc:Localize Spec_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Spec_Lamps_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Stars: the star and its motion -->
+                <StackPanel IsVisible="{Binding Spectra.IsStars}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Star_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SpecStar" IsChecked="{Binding Spectra.StarChoice[Spica]}" Content="{loc:Localize Spec_Star_Spica}" />
+                        <RadioButton Classes="chip" GroupName="SpecStar" IsChecked="{Binding Spectra.StarChoice[Sirius]}" Content="{loc:Localize Spec_Star_Sirius}" />
+                        <RadioButton Classes="chip" GroupName="SpecStar" IsChecked="{Binding Spectra.StarChoice[Procyon]}" Content="{loc:Localize Spec_Star_Procyon}" />
+                        <RadioButton Classes="chip" GroupName="SpecStar" IsChecked="{Binding Spectra.StarChoice[Sun]}" Content="{loc:Localize Spec_Star_Sun}" />
+                        <RadioButton Classes="chip" GroupName="SpecStar" IsChecked="{Binding Spectra.StarChoice[Arcturus]}" Content="{loc:Localize Spec_Star_Arcturus}" />
+                        <RadioButton Classes="chip" GroupName="SpecStar" IsChecked="{Binding Spectra.StarChoice[Betelgeuse]}" Content="{loc:Localize Spec_Star_Betelgeuse}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Spectra.KelvinText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Spec_Temperature}" />
+                    </DockPanel>
+                    <Slider Minimum="3.398" Maximum="4.602" Value="{Binding Spectra.KelvinLog}" SmallChange="0.002" LargeChange="0.05"
+                            AutomationProperties.Name="{loc:Localize Spec_Temperature}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Motion_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Spectra.VelocityText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Spec_Velocity}" />
+                    </DockPanel>
+                    <Slider Minimum="-30000" Maximum="30000" Value="{Binding Spectra.Velocity}" SmallChange="100" LargeChange="1000"
+                            IsSnapToTickEnabled="True" TickFrequency="100"
+                            AutomationProperties.Name="{loc:Localize Spec_Velocity}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Spectra.SetVelocityCommand}" CommandParameter="0" Content="{loc:Localize Spec_Velocity_Rest}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetVelocityCommand}" CommandParameter="-300" Content="{loc:Localize Spec_Velocity_Andromeda}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetVelocityCommand}" CommandParameter="1200" Content="{loc:Localize Spec_Velocity_Virgo}" />
+                        <Button Classes="chip" Command="{Binding Spectra.SetVelocityCommand}" CommandParameter="15000" Content="{loc:Localize Spec_Velocity_Far}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Spectra.ShowLabels}" Content="{loc:Localize Spec_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Spec_Stars_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Spectra.ChartCaption}" />
+                <Border Classes="plate" Height="190">
+                    <spectra:SpectraChart Mode="{Binding Spectra.Mode}"
+                                          PhotonNm="{Binding Spectra.PhotonNm, Mode=TwoWay}"
+                                          Kelvin="{Binding Spectra.Kelvin, Mode=TwoWay}"
+                                          Gas="{Binding Spectra.Gas}"
+                                          Mystery="{Binding Spectra.Mystery}"
+                                          Source="{Binding Spectra.Source}"
+                                          CompareGas="{Binding Spectra.CompareGas, Mode=TwoWay}"
+                                          InteractionCommand="{Binding Spectra.UserInteractedCommand}"
+                                          AutomationProperties.Name="{Binding Spectra.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Spectra.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Spectra.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Spectra.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Spectra.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Spectra.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Spec_Facts}" />
+                <ItemsControl ItemsSource="{Binding Spectra.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

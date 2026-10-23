@@ -13122,6 +13122,213 @@
   <data name="Narr_Sound_Wave_10" xml:space="preserve">
     <value>轮到你了。拖动扬声器的纸盆，亲手推一推空气；或者打开音调，改改它的频率和声级。留意哪些变了，哪些没变。</value>
   </data>
+  <data name="Narr_Spec_Atom_01" xml:space="preserve">
+    <value>这是氢，最简单的原子：中间一个质子，外面一个电子。</value>
+  </data>
+  <data name="Narr_Spec_Atom_02" xml:space="preserve">
+    <value>电子不能随便待在哪里，它只能处在一些特定的能级上，就像梯子的横档。现在它在最低的一级，叫基态。</value>
+  </data>
+  <data name="Narr_Spec_Atom_03" xml:space="preserve">
+    <value>要往上爬，它必须吸收正好合适的能量：一个能量刚好等于两级之差的光子。看，一个光子飞来，把它送到了第三能级。</value>
+  </data>
+  <data name="Narr_Spec_Atom_04" xml:space="preserve">
+    <value>它不会一直待在上面。它落回来，能量变成一个新的光子飞走。从第三能级落到第二能级，放出的光子是红色的。</value>
+  </data>
+  <data name="Narr_Spec_Atom_05" xml:space="preserve">
+    <value>接着从第二能级落到第一能级。这个能级差大得多，所以光子带的能量更多。它是紫外光，我们的眼睛看不见。</value>
+  </data>
+  <data name="Narr_Spec_Atom_06" xml:space="preserve">
+    <value>每种跃迁放出的颜色总是一样的。所以氢的光不是一道彩虹，而是几条清晰的谱线，就像它的指纹。其中可见的那些叫巴耳末系，都落到第二能级。</value>
+  </data>
+  <data name="Narr_Spec_Atom_07" xml:space="preserve">
+    <value>问你一个问题：如果用六百四十纳米的红光照射基态的电子，会发生什么？</value>
+  </data>
+  <data name="Narr_Spec_Atom_08" xml:space="preserve">
+    <value>它直接穿过去了。电子在基态时，就算最小的一级台阶也需要紫外光。红光光子的能量根本对不上，只有正好匹配的光子才会被吸收。</value>
+  </data>
+  <data name="Narr_Spec_Atom_09" xml:space="preserve">
+    <value>可是如果给它超过十三点六电子伏特的能量，电子就会完全逃走，原子被电离了。不久它又会被俘获，一路跌落下来，沿途放出谱线。</value>
+  </data>
+  <data name="Narr_Spec_Atom_10" xml:space="preserve">
+    <value>其实电子并不是沿轨道运行的小行星。量子物理告诉我们，它是一团表示可能出现位置的云。每个能级都有自己形状的电子云，比如这个哑铃形。</value>
+  </data>
+  <data name="Narr_Spec_Atom_11" xml:space="preserve">
+    <value>轮到你了。点击能级图上的某一级把电子送上去，或者选一种颜色向它发射光子。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_01" xml:space="preserve">
+    <value>这是一根发光的氢气管。电流不断把电子撞到高能级，电子落回来时，气体就发光了。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_02" xml:space="preserve">
+    <value>它的光穿过一条窄缝，再经过棱镜。棱镜对每种颜色的偏折不同，把它们在光屏上展开。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_03" xml:space="preserve">
+    <value>我们看到的不是彩虹，而是几条亮线：红色、蓝绿色和紫色。它们正是原子视图里的巴耳末线。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_04" xml:space="preserve">
+    <value>每种气体都有自己的一组谱线。氖的谱线挤在红色和橙色里，所以霓虹灯是红色的。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_05" xml:space="preserve">
+    <value>钠几乎只发出一条黄线。可是把它放大，原来是两条靠得很近的谱线。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_06" xml:space="preserve">
+    <value>炽热的固体，比如白炽灯的灯丝，就不一样了。它同时发出所有颜色，是连续的彩虹。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_07" xml:space="preserve">
+    <value>现在让白炽灯的光穿过一团冷的钠蒸气。你觉得彩虹会变成什么样？</value>
+  </data>
+  <data name="Narr_Spec_Lamps_08" xml:space="preserve">
+    <value>出现了暗线，正好在钠炽热时发光的位置。冷气体吸收的，正是它自己会发出的那些颜色。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_09" xml:space="preserve">
+    <value>太阳光谱上布满了成百上千条这样的暗线。把它们和实验室里的灯对比，我们不用去太阳，就知道了太阳是由什么组成的。</value>
+  </data>
+  <data name="Narr_Spec_Lamps_10" xml:space="preserve">
+    <value>轮到你了。这是一盏神秘灯。把它的谱线和图表里的指纹对比一下，然后说出你的答案。</value>
+  </data>
+  <data name="Narr_Spec_Obj_BalmerDark" xml:space="preserve">
+    <value>吸收形式的巴耳末线。它们需要电子已经处在第二能级的氢原子，这种情况在一万度左右最多。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Bulb" xml:space="preserve">
+    <value>灯丝被加热到白炽。固体里的原子挤得很近，所有颜色一起发出，形成平滑的彩虹。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Calcium" xml:space="preserve">
+    <value>紫端两条电离钙的强暗线，就是夫琅禾费命名的 H 线和 K 线。在类太阳和更冷的恒星里，它们是最强的谱线。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Cloud" xml:space="preserve">
+    <value>表示电子可能出现的地方，越亮的地方越可能。这些形状来自量子力学：s 电子云是球形的，p 电子云像哑铃，d 电子云有四个瓣。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Compare" xml:space="preserve">
+    <value>把某种气体的谱线放在光谱下面。如果每一条都对得上，那就是同一种气体。</value>
+  </data>
+  <data name="Narr_Spec_Obj_CoolGas" xml:space="preserve">
+    <value>放在白炽灯和狭缝之间的一团冷气体。它的原子正好吸收自己炽热时会发出的颜色，所以这些颜色就缺失了。</value>
+  </data>
+  <data name="Narr_Spec_Obj_DarkLine" xml:space="preserve">
+    <value>彩虹中缺失的一种颜色：路上较冷气体里的原子把它吸收了。它正好在那种气体亮线的位置上。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Electron" xml:space="preserve">
+    <value>电子带负电。它只能具有某些特定的能量，所以只能出现在特定的能级上，不会在两级之间。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Energy" xml:space="preserve">
+    <value>每个能级的能量，单位是电子伏特。负值表示被原子束缚，零表示刚好自由。能级之间的差决定了光的颜色。</value>
+  </data>
+  <data name="Narr_Spec_Obj_GasLamp" xml:space="preserve">
+    <value>装着稀薄气体的玻璃管，两端加上高电压。高速的电子撞击气体原子，把它们的电子撞上去，电子落回时，气体就发出自己特有的颜色。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Ground" xml:space="preserve">
+    <value>最低的能级。这里的电子能量最低，为负十三点六电子伏特，除非有能量把它送上去，否则它会一直待在这里。</value>
+  </data>
+  <data name="Narr_Spec_Obj_HSpectrum" xml:space="preserve">
+    <value>目前放出的所有光子，按波长排开。谱线的位置永远不变，这就是氢的指纹，从紫外经过可见光一直延伸到红外。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Helium" xml:space="preserve">
+    <value>氦把电子抓得很紧，只有非常热的恒星才能把电子激发到能吸收可见光的程度。这些谱线是蓝色恒星的标志。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Infrared" xml:space="preserve">
+    <value>波长比红光还长的光，我们能感到它的热却看不见它。高能级之间的小跃迁会放出红外光。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Ionise" xml:space="preserve">
+    <value>能量高于零时，电子就不再被束缚，成为自由电子，原子变成了离子。从基态电离需要十三点六电子伏特。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Level" xml:space="preserve">
+    <value>能级梯子上的一级。点击它就能把电子送到这里：会有一个能量正好等于这次跃迁的光子射进来。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Line" xml:space="preserve">
+    <value>某个确定波长的光，是气体原子中的电子做某一种特定跃迁时放出的。它在标尺上的位置告诉你是哪一种。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Molecules" xml:space="preserve">
+    <value>在最冷的恒星上，原子结合成氧化钛等分子。分子吸收的是宽带，而不是细线。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Mystery" xml:space="preserve">
+    <value>一盏不告诉你装了什么气体的灯。它的谱线就是它的指纹：和图表对比一下，猜猜看。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Nanometre" xml:space="preserve">
+    <value>标尺的单位是纳米，也就是百万分之一毫米。我们的眼睛能看到大约从四百纳米的紫光到七百纳米的红光。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Nucleus" xml:space="preserve">
+    <value>氢原子核就是一个带正电的质子。它靠电的吸引力拉住电子，质量差不多是电子的两千倍。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Orbit" xml:space="preserve">
+    <value>在玻尔的模型里，电子在固定的轨道上转动，每条轨道对应一个能级。能级越高，轨道越大，电子被束缚得越松。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Peak" xml:space="preserve">
+    <value>恒星发光最强的地方。维恩定律告诉我们：恒星越热，峰值波长越短。拖动它可以改变温度。</value>
+  </data>
+  <data name="Narr_Spec_Obj_PhotonIn" xml:space="preserve">
+    <value>这是一份光，它的颜色由能量决定。只有当它的能量正好等于电子能做的某次跃迁时，才会被吸收。</value>
+  </data>
+  <data name="Narr_Spec_Obj_PhotonLamp" xml:space="preserve">
+    <value>它发射你选定波长的光子。试试一个能匹配跃迁的，再试一个不能匹配的。</value>
+  </data>
+  <data name="Narr_Spec_Obj_PhotonOut" xml:space="preserve">
+    <value>电子下落时失去的能量，以这个光子的形式离开。落得越多，光子越偏蓝，波长越短。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Planck" xml:space="preserve">
+    <value>炽热物体在各个波长上发出多少光，由普朗克定律给出。越热的物体在每个波长上都发光更多，并且以短波为主。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Prism" xml:space="preserve">
+    <value>玻璃让紫光比红光减速得稍多一些，所以紫光偏折得更多。各种颜色按波长顺序展开。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Reference" xml:space="preserve">
+    <value>实验室里静止的氢灯，作为参照。它的谱线表示如果恒星不动，恒星的谱线应该在哪里。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Shift" xml:space="preserve">
+    <value>光源远离时，光波被拉长，每条谱线都向红端移动；靠近时，向蓝端移动。位移的大小就告诉我们速度。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Slit" xml:space="preserve">
+    <value>窄缝只让一条细细的光通过。这样每种颜色在光屏上都落成一条细线，靠得很近的谱线也能分开。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Star" xml:space="preserve">
+    <value>一个炽热的气体球。它的颜色取决于表面温度：冷的偏红，中等的偏白，最热的偏蓝。</value>
+  </data>
+  <data name="Narr_Spec_Obj_StarSpectrum" xml:space="preserve">
+    <value>恒星的光展开后的样子，上面有它大气中各种气体留下的暗线。左右拖动它，可以让恒星运动起来。</value>
+  </data>
+  <data name="Narr_Spec_Obj_SunLight" xml:space="preserve">
+    <value>太阳表面像一个将近六千度的炽热物体一样发光。外面的气体较冷，吸收掉自己的那些颜色，留下暗线。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Trace" xml:space="preserve">
+    <value>表示每个波长上光有多亮。亮线是尖峰，暗线是凹陷。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Ultraviolet" xml:space="preserve">
+    <value>波长比紫光还短的光，能量太高，我们的眼睛看不见。落到基态的跃迁，也就是莱曼系，都在这里。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Visible" xml:space="preserve">
+    <value>我们眼睛能看到的窄窄一段。恒星的颜色取决于它的曲线在这一段里怎样倾斜。</value>
+  </data>
+  <data name="Narr_Spec_Obj_Zoom" xml:space="preserve">
+    <value>选中谱线附近的几纳米，放大了四十倍。钠的黄线原来是两条，相隔零点六纳米。</value>
+  </data>
+  <data name="Narr_Spec_Stars_01" xml:space="preserve">
+    <value>恒星是巨大的炽热气体球。它们的光带着两个秘密：有多热，以及由什么组成。</value>
+  </data>
+  <data name="Narr_Spec_Stars_02" xml:space="preserve">
+    <value>任何炽热的物体都按这样一条曲线发光。太阳的峰值在可见光里，靠近绿色，但它同时发出所有颜色，所以看起来是白色的。</value>
+  </data>
+  <data name="Narr_Spec_Stars_03" xml:space="preserve">
+    <value>较冷的恒星峰值在红外。它的可见光大多是红色和橙色，比如猎户座的参宿四。</value>
+  </data>
+  <data name="Narr_Spec_Stars_04" xml:space="preserve">
+    <value>很热的恒星峰值在紫外，发出蓝白色的光，比如角宿一。</value>
+  </data>
+  <data name="Narr_Spec_Stars_05" xml:space="preserve">
+    <value>考考你：几乎所有恒星的主要成分都是氢。你觉得哪种恒星的氢线最强？</value>
+  </data>
+  <data name="Narr_Spec_Stars_06" xml:space="preserve">
+    <value>是约一万度的白色恒星，比如天狼星。在那里，许多氢原子的电子处在第二能级，正好能吸收巴耳末线的颜色。更热，氢就被电离了；更冷，电子就都待在基态。</value>
+  </data>
+  <data name="Narr_Spec_Stars_07" xml:space="preserve">
+    <value>在较冷的太阳上，氢线变弱了，钙和铁的谱线占了上风。</value>
+  </data>
+  <data name="Narr_Spec_Stars_08" xml:space="preserve">
+    <value>在最冷的恒星上，分子能够存在，在光谱上刻出宽宽的暗带。</value>
+  </data>
+  <data name="Narr_Spec_Stars_09" xml:space="preserve">
+    <value>如果恒星或星系在远离我们，每条谱线都会向红端移动，这叫红移。和下面实验室的灯对比一下。如果在靠近，就会蓝移。</value>
+  </data>
+  <data name="Narr_Spec_Stars_10" xml:space="preserve">
+    <value>轮到你了。拖动曲线改变恒星的温度，或者左右拖动它的光谱，让它运动起来。</value>
+  </data>
   <data name="Narr_Star_Diagram_01" xml:space="preserve">
     <value>这是赫罗图，天文学里最重要的图之一。横着看是恒星的表面温度，越往左越热；竖着看是它真正有多亮。</value>
   </data>
@@ -20642,6 +20849,753 @@
   </data>
   <data name="Sound_Wave_Subtitle" xml:space="preserve">
     <value>扬声器推动空气</value>
+  </data>
+  <data name="Spec_Atom_Excited_Text" xml:space="preserve">
+    <value>电子在高能级上待不久，很快就会一级一级或者一下子落回来，每次下落都放出一个光子，光子的能量就等于落下的能级差。</value>
+  </data>
+  <data name="Spec_Atom_Excited_Title" xml:space="preserve">
+    <value>激发态：在第 {0} 能级</value>
+  </data>
+  <data name="Spec_Atom_Fact1" xml:space="preserve">
+    <value>1913 年玻尔用固定轨道解释了氢的谱线；后来量子力学用电子云取代了轨道，但保留了他的能级。</value>
+  </data>
+  <data name="Spec_Atom_Fact2" xml:space="preserve">
+    <value>656 nm 的红色 Hα 线，让猎户座大星云等太空中的发光气体云呈现粉红色。</value>
+  </data>
+  <data name="Spec_Atom_Fact3" xml:space="preserve">
+    <value>把氢原子基态的电子拉走需要 13.6 电子伏特。</value>
+  </data>
+  <data name="Spec_Atom_Fact4" xml:space="preserve">
+    <value>在玻尔模型中，第二条轨道的半径是第一条的 4 倍，第三条是 9 倍：半径与 n² 成正比。</value>
+  </data>
+  <data name="Spec_Atom_Fact5" xml:space="preserve">
+    <value>1885 年巴耳末仅凭四条谱线的波长就找到了氢可见光谱线的公式，那时还没有人知道其中的道理。</value>
+  </data>
+  <data name="Spec_Atom_Free_Text" xml:space="preserve">
+    <value>光子带来的能量超过了 13.6 eV，电子完全离开了原子。不久质子又会俘获一个电子，电子从高能级一路落下，放出谱线。</value>
+  </data>
+  <data name="Spec_Atom_Free_Title" xml:space="preserve">
+    <value>电子脱离：原子被电离</value>
+  </data>
+  <data name="Spec_Atom_Ground_Text" xml:space="preserve">
+    <value>电子处在最低的能级上，会一直待在那里。只有能量正好等于某个跃迁能量（或者足以让它电离）的光子才能使它改变。</value>
+  </data>
+  <data name="Spec_Atom_Ground_Title" xml:space="preserve">
+    <value>电子在基态</value>
+  </data>
+  <data name="Spec_Atom_Note" xml:space="preserve">
+    <value>玻尔模型：轨道大小按 n 的比例绘制（实际与 n² 成正比），能级图采用平方根刻度。波长都是真实值。</value>
+  </data>
+  <data name="Spec_Atom_Panel_Note" xml:space="preserve">
+    <value>电子云是穿过原子的切面：越亮的地方电子越可能出现。每个能级有各自的形状（s、p、d……），种类数等于能级序号。</value>
+  </data>
+  <data name="Spec_Atom_Subtitle" xml:space="preserve">
+    <value>氢原子的能级与发光</value>
+  </data>
+  <data name="Spec_Chart_Atom_Caption" xml:space="preserve">
+    <value>氢的谱线系</value>
+  </data>
+  <data name="Spec_Chart_Atom_Note" xml:space="preserve">
+    <value>每一行是落到同一能级的谱线：莱曼系落到 1（紫外），巴耳末系落到 2（可见光），帕邢系落到 3、布拉开系落到 4（红外）。阴影带是可见光。点击谱线可把它装进光源。</value>
+  </data>
+  <data name="Spec_Chart_Lamps_Caption" xml:space="preserve">
+    <value>各种气体的“指纹”</value>
+  </data>
+  <data name="Spec_Chart_Lamps_Note" xml:space="preserve">
+    <value>各种气体在 380 到 750 nm 之间的亮线，没有两种是相同的。点击某一行，与光谱对比。</value>
+  </data>
+  <data name="Spec_Chart_Stars_Caption" xml:space="preserve">
+    <value>不同温度下的吸收线</value>
+  </data>
+  <data name="Spec_Chart_Stars_Note" xml:space="preserve">
+    <value>各类吸收线的强弱，最热的恒星在左边（O B A F G K M）。拖动可以改变温度。</value>
+  </data>
+  <data name="Spec_Class_A_Text" xml:space="preserve">
+    <value>约一万开的白色恒星，氢线在这里最深。</value>
+  </data>
+  <data name="Spec_Class_B_Text" xml:space="preserve">
+    <value>蓝白色、非常热：中性氦的谱线最强，氢线在增强。</value>
+  </data>
+  <data name="Spec_Class_F_Text" xml:space="preserve">
+    <value>黄白色：氢线在减弱，钙线在增强。</value>
+  </data>
+  <data name="Spec_Class_G_Text" xml:space="preserve">
+    <value>黄色，像太阳：钙的 H、K 线最强，还有许多铁和其他金属的谱线。</value>
+  </data>
+  <data name="Spec_Class_K_Text" xml:space="preserve">
+    <value>橙色、较冷：到处是金属谱线，钠线很强，开始出现分子。</value>
+  </data>
+  <data name="Spec_Class_M_Text" xml:space="preserve">
+    <value>红色、最冷：氧化钛等分子能够存在，切出宽宽的暗带。</value>
+  </data>
+  <data name="Spec_Class_O_Text" xml:space="preserve">
+    <value>最热、最蓝的恒星。它们的光甚至能电离氦，所以能看到电离氦的谱线。</value>
+  </data>
+  <data name="Spec_Clear" xml:space="preserve">
+    <value>清除谱线</value>
+  </data>
+  <data name="Spec_Cloud_Caption" xml:space="preserve">
+    <value>电子云</value>
+  </data>
+  <data name="Spec_Electron_Caption" xml:space="preserve">
+    <value>电子怎样跃迁回落</value>
+  </data>
+  <data name="Spec_Event_Absorb" xml:space="preserve">
+    <value>吸收 {2}：从 {0} 升到 {1}</value>
+  </data>
+  <data name="Spec_Event_Capture" xml:space="preserve">
+    <value>被重新俘获到第 {0} 能级</value>
+  </data>
+  <data name="Spec_Event_Emit" xml:space="preserve">
+    <value>从 {0} 落到 {1}：放出 {2}（{3}，{4}）</value>
+  </data>
+  <data name="Spec_Event_Free" xml:space="preserve">
+    <value>从第 {0} 能级电离</value>
+  </data>
+  <data name="Spec_Event_Pass" xml:space="preserve">
+    <value>一个 {0} nm 的光子直接穿过</value>
+  </data>
+  <data name="Spec_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Spec_Fall_Chance" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="Spec_Fall_OneStep" xml:space="preserve">
+    <value>一级一级</value>
+  </data>
+  <data name="Spec_Fall_ToGround" xml:space="preserve">
+    <value>直接回到基态</value>
+  </data>
+  <data name="Spec_Fire" xml:space="preserve">
+    <value>发射光子</value>
+  </data>
+  <data name="Spec_Fire_Tooltip" xml:space="preserve">
+    <value>向原子发射一个光源颜色的光子</value>
+  </data>
+  <data name="Spec_Gas_Caption" xml:space="preserve">
+    <value>气体</value>
+  </data>
+  <data name="Spec_Gas_Helium" xml:space="preserve">
+    <value>氦</value>
+  </data>
+  <data name="Spec_Gas_Hydrogen" xml:space="preserve">
+    <value>氢</value>
+  </data>
+  <data name="Spec_Gas_Mercury" xml:space="preserve">
+    <value>汞</value>
+  </data>
+  <data name="Spec_Gas_Neon" xml:space="preserve">
+    <value>氖</value>
+  </data>
+  <data name="Spec_Gas_Sodium" xml:space="preserve">
+    <value>钠</value>
+  </data>
+  <data name="Spec_Ground" xml:space="preserve">
+    <value>回到基态</value>
+  </data>
+  <data name="Spec_Guess_Caption" xml:space="preserve">
+    <value>猜猜是什么气体</value>
+  </data>
+  <data name="Spec_Guess_Right" xml:space="preserve">
+    <value>答对了！是{0}。</value>
+  </data>
+  <data name="Spec_Guess_Wrong" xml:space="preserve">
+    <value>不是{0}，再对比一下谱线。</value>
+  </data>
+  <data name="Spec_Hint_Atom" xml:space="preserve">
+    <value>点击能级图上的某一级把电子送上去，或者用光源发射光子。</value>
+  </data>
+  <data name="Spec_Hint_Lamps" xml:space="preserve">
+    <value>点击光谱选取一条谱线。</value>
+  </data>
+  <data name="Spec_Hint_Stars" xml:space="preserve">
+    <value>拖动曲线改变温度，拖动恒星光谱让它运动。</value>
+  </data>
+  <data name="Spec_Hold" xml:space="preserve">
+    <value>停在高能级</value>
+  </data>
+  <data name="Spec_Label_BlueShift" xml:space="preserve">
+    <value>蓝移：以 {0} km/s 靠近</value>
+  </data>
+  <data name="Spec_Label_Brightness" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="Spec_Label_Bulb" xml:space="preserve">
+    <value>白炽灯</value>
+  </data>
+  <data name="Spec_Label_Calcium" xml:space="preserve">
+    <value>钙</value>
+  </data>
+  <data name="Spec_Label_CoolGas" xml:space="preserve">
+    <value>较冷的{0}</value>
+  </data>
+  <data name="Spec_Label_Energy" xml:space="preserve">
+    <value>能量</value>
+  </data>
+  <data name="Spec_Label_Free" xml:space="preserve">
+    <value>自由电子（电离）</value>
+  </data>
+  <data name="Spec_Label_Helium" xml:space="preserve">
+    <value>氦</value>
+  </data>
+  <data name="Spec_Label_Hydrogen" xml:space="preserve">
+    <value>氢</value>
+  </data>
+  <data name="Spec_Label_Infrared" xml:space="preserve">
+    <value>红外</value>
+  </data>
+  <data name="Spec_Label_Jump" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Spec_Label_LabHydrogen" xml:space="preserve">
+    <value>实验室氢灯</value>
+  </data>
+  <data name="Spec_Label_Lamp" xml:space="preserve">
+    <value>光源：{0}</value>
+  </data>
+  <data name="Spec_Label_Molecules" xml:space="preserve">
+    <value>分子带</value>
+  </data>
+  <data name="Spec_Label_Mystery" xml:space="preserve">
+    <value>？神秘气体</value>
+  </data>
+  <data name="Spec_Label_N" xml:space="preserve">
+    <value>n = {0}</value>
+  </data>
+  <data name="Spec_Label_Nm" xml:space="preserve">
+    <value>nm</value>
+  </data>
+  <data name="Spec_Label_Orbital" xml:space="preserve">
+    <value>{0}{1} 轨道</value>
+  </data>
+  <data name="Spec_Label_Peak" xml:space="preserve">
+    <value>峰值 {0}</value>
+  </data>
+  <data name="Spec_Label_PeakLeft" xml:space="preserve">
+    <value>← 峰值 {0}，在紫外</value>
+  </data>
+  <data name="Spec_Label_Prism" xml:space="preserve">
+    <value>棱镜</value>
+  </data>
+  <data name="Spec_Label_Proton" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Spec_Label_RedShift" xml:space="preserve">
+    <value>红移：以 {0} km/s 远离</value>
+  </data>
+  <data name="Spec_Label_Screen" xml:space="preserve">
+    <value>光屏 ↓</value>
+  </data>
+  <data name="Spec_Label_Slit" xml:space="preserve">
+    <value>狭缝</value>
+  </data>
+  <data name="Spec_Label_Star" xml:space="preserve">
+    <value>{0} K · {1} 型</value>
+  </data>
+  <data name="Spec_Label_StarLight" xml:space="preserve">
+    <value>星光</value>
+  </data>
+  <data name="Spec_Label_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Spec_Label_Ultraviolet" xml:space="preserve">
+    <value>紫外</value>
+  </data>
+  <data name="Spec_Label_Visible" xml:space="preserve">
+    <value>可见光</value>
+  </data>
+  <data name="Spec_Label_Zoom" xml:space="preserve">
+    <value>放大 ×{0}</value>
+  </data>
+  <data name="Spec_Lamp_Caption" xml:space="preserve">
+    <value>光源</value>
+  </data>
+  <data name="Spec_Lamps_Bulb_Text" xml:space="preserve">
+    <value>炽热固体中的原子挤得很紧，能级混在一起，所以发出所有颜色，形成连续光谱，白炽灯以红光最强。</value>
+  </data>
+  <data name="Spec_Lamps_Bulb_Title" xml:space="preserve">
+    <value>炽热的灯丝</value>
+  </data>
+  <data name="Spec_Lamps_Fact1" xml:space="preserve">
+    <value>1868 年人们在太阳光谱中发现了氦，比在地球上找到它早了几十年；它的名字来自希腊语的太阳 Helios。</value>
+  </data>
+  <data name="Spec_Lamps_Fact2" xml:space="preserve">
+    <value>烟花的颜色就是光谱：锶发红光，钠发黄光，钡发绿光，铜发蓝光。</value>
+  </data>
+  <data name="Spec_Lamps_Fact3" xml:space="preserve">
+    <value>老式低压钠灯几乎只发出钠的那对黄线，所以在它们下面看东西几乎分不出颜色。</value>
+  </data>
+  <data name="Spec_Lamps_Fact4" xml:space="preserve">
+    <value>1814 年夫琅禾费在太阳光谱中标出了 574 条暗线，最强的那些至今仍用他的字母命名。</value>
+  </data>
+  <data name="Spec_Lamps_Fact5" xml:space="preserve">
+    <value>1859 年基尔霍夫和本生证明了每种元素都有自己的谱线，并很快凭谱线发现了铯和铷。</value>
+  </data>
+  <data name="Spec_Lamps_Lamp_Text" xml:space="preserve">
+    <value>炽热稀薄的气体只在其原子跃迁对应的颜色上发出明亮的谱线，中间什么也没有：这就是发射光谱。</value>
+  </data>
+  <data name="Spec_Lamps_Lamp_Title" xml:space="preserve">
+    <value>{0}灯</value>
+  </data>
+  <data name="Spec_Lamps_Mystery_Text" xml:space="preserve">
+    <value>这里发光的是什么气体？把它的谱线和下面图表中的“指纹”对比，再做出你的猜测。</value>
+  </data>
+  <data name="Spec_Lamps_Mystery_Title" xml:space="preserve">
+    <value>神秘灯</value>
+  </data>
+  <data name="Spec_Lamps_Note" xml:space="preserve">
+    <value>课堂上的分光镜：谱线波长取自 NIST 数据表，亮度大致按人眼看到的样子。</value>
+  </data>
+  <data name="Spec_Lamps_Panel_Note" xml:space="preserve">
+    <value>点击下方图表中的某一行，把那种气体的谱线放到光谱下面对比。</value>
+  </data>
+  <data name="Spec_Lamps_Subtitle" xml:space="preserve">
+    <value>每种气体都有自己的谱线</value>
+  </data>
+  <data name="Spec_Lamps_Sun_Text" xml:space="preserve">
+    <value>太阳炽热的表面发出连续光谱，外面较冷的气体吸收掉各自的颜色，留下暗线，这些暗线揭示了太阳的成分。</value>
+  </data>
+  <data name="Spec_Lamps_Sun_Title" xml:space="preserve">
+    <value>太阳光</value>
+  </data>
+  <data name="Spec_Lamps_ThroughGas_Text" xml:space="preserve">
+    <value>较冷的气体会吸收它炽热时发出的那些颜色，所以它的强谱线变成了暗线：这就是吸收光谱。真正很冷的气体只吸收从最低能级出发的谱线，比如钠的那对黄线。</value>
+  </data>
+  <data name="Spec_Lamps_ThroughGas_Title" xml:space="preserve">
+    <value>穿过较冷{0}的光</value>
+  </data>
+  <data name="Spec_Lesson_Atom_Choice1" xml:space="preserve">
+    <value>直接穿过去</value>
+  </data>
+  <data name="Spec_Lesson_Atom_Choice2" xml:space="preserve">
+    <value>电子升高一级</value>
+  </data>
+  <data name="Spec_Lesson_Atom_Choice3" xml:space="preserve">
+    <value>电子被电离</value>
+  </data>
+  <data name="Spec_Lesson_Lamps_Choice1" xml:space="preserve">
+    <value>在钠亮线的位置出现暗线</value>
+  </data>
+  <data name="Spec_Lesson_Lamps_Choice2" xml:space="preserve">
+    <value>彩虹上叠加钠的黄色亮线</value>
+  </data>
+  <data name="Spec_Lesson_Lamps_Choice3" xml:space="preserve">
+    <value>没有任何变化</value>
+  </data>
+  <data name="Spec_Lesson_Stars_Choice1" xml:space="preserve">
+    <value>约一万度的白色恒星</value>
+  </data>
+  <data name="Spec_Lesson_Stars_Choice2" xml:space="preserve">
+    <value>最热的蓝色恒星</value>
+  </data>
+  <data name="Spec_Lesson_Stars_Choice3" xml:space="preserve">
+    <value>最冷的红色恒星</value>
+  </data>
+  <data name="Spec_Mode_Atom" xml:space="preserve">
+    <value>原子</value>
+  </data>
+  <data name="Spec_Mode_Lamps" xml:space="preserve">
+    <value>光谱灯</value>
+  </data>
+  <data name="Spec_Mode_Stars" xml:space="preserve">
+    <value>星光</value>
+  </data>
+  <data name="Spec_Motion_Caption" xml:space="preserve">
+    <value>运动</value>
+  </data>
+  <data name="Spec_Mystery" xml:space="preserve">
+    <value>神秘灯</value>
+  </data>
+  <data name="Spec_Mystery_Tooltip" xml:space="preserve">
+    <value>一盏装着未知气体的灯：猜猜是什么</value>
+  </data>
+  <data name="Spec_Obj_BalmerDark" xml:space="preserve">
+    <value>氢的吸收线</value>
+  </data>
+  <data name="Spec_Obj_Bulb" xml:space="preserve">
+    <value>白炽灯</value>
+  </data>
+  <data name="Spec_Obj_Calcium" xml:space="preserve">
+    <value>钙的谱线</value>
+  </data>
+  <data name="Spec_Obj_Cloud" xml:space="preserve">
+    <value>电子云</value>
+  </data>
+  <data name="Spec_Obj_Compare" xml:space="preserve">
+    <value>对比光谱</value>
+  </data>
+  <data name="Spec_Obj_CoolGas" xml:space="preserve">
+    <value>冷气体</value>
+  </data>
+  <data name="Spec_Obj_DarkLine" xml:space="preserve">
+    <value>暗线</value>
+  </data>
+  <data name="Spec_Obj_Electron" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Spec_Obj_Energy" xml:space="preserve">
+    <value>能级图</value>
+  </data>
+  <data name="Spec_Obj_GasLamp" xml:space="preserve">
+    <value>气体放电灯</value>
+  </data>
+  <data name="Spec_Obj_Ground" xml:space="preserve">
+    <value>基态</value>
+  </data>
+  <data name="Spec_Obj_HSpectrum" xml:space="preserve">
+    <value>氢的光谱</value>
+  </data>
+  <data name="Spec_Obj_Helium" xml:space="preserve">
+    <value>氦的谱线</value>
+  </data>
+  <data name="Spec_Obj_Infrared" xml:space="preserve">
+    <value>红外光</value>
+  </data>
+  <data name="Spec_Obj_Ionise" xml:space="preserve">
+    <value>电离</value>
+  </data>
+  <data name="Spec_Obj_Level" xml:space="preserve">
+    <value>能级</value>
+  </data>
+  <data name="Spec_Obj_Line" xml:space="preserve">
+    <value>明线</value>
+  </data>
+  <data name="Spec_Obj_Molecules" xml:space="preserve">
+    <value>分子吸收带</value>
+  </data>
+  <data name="Spec_Obj_Mystery" xml:space="preserve">
+    <value>神秘灯</value>
+  </data>
+  <data name="Spec_Obj_Nanometre" xml:space="preserve">
+    <value>波长标尺</value>
+  </data>
+  <data name="Spec_Obj_Nucleus" xml:space="preserve">
+    <value>原子核</value>
+  </data>
+  <data name="Spec_Obj_Orbit" xml:space="preserve">
+    <value>轨道</value>
+  </data>
+  <data name="Spec_Obj_Peak" xml:space="preserve">
+    <value>辐射峰值</value>
+  </data>
+  <data name="Spec_Obj_PhotonIn" xml:space="preserve">
+    <value>射来的光子</value>
+  </data>
+  <data name="Spec_Obj_PhotonLamp" xml:space="preserve">
+    <value>光源</value>
+  </data>
+  <data name="Spec_Obj_PhotonOut" xml:space="preserve">
+    <value>放出的光子</value>
+  </data>
+  <data name="Spec_Obj_Planck" xml:space="preserve">
+    <value>黑体辐射曲线</value>
+  </data>
+  <data name="Spec_Obj_Prism" xml:space="preserve">
+    <value>棱镜</value>
+  </data>
+  <data name="Spec_Obj_Reference" xml:space="preserve">
+    <value>实验室参照灯</value>
+  </data>
+  <data name="Spec_Obj_Shift" xml:space="preserve">
+    <value>多普勒位移</value>
+  </data>
+  <data name="Spec_Obj_Slit" xml:space="preserve">
+    <value>狭缝</value>
+  </data>
+  <data name="Spec_Obj_Star" xml:space="preserve">
+    <value>恒星</value>
+  </data>
+  <data name="Spec_Obj_StarSpectrum" xml:space="preserve">
+    <value>恒星光谱</value>
+  </data>
+  <data name="Spec_Obj_SunLight" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Spec_Obj_Trace" xml:space="preserve">
+    <value>亮度曲线</value>
+  </data>
+  <data name="Spec_Obj_Ultraviolet" xml:space="preserve">
+    <value>紫外光</value>
+  </data>
+  <data name="Spec_Obj_Visible" xml:space="preserve">
+    <value>可见光</value>
+  </data>
+  <data name="Spec_Obj_Zoom" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="Spec_Option_Cloud" xml:space="preserve">
+    <value>显示电子云</value>
+  </data>
+  <data name="Spec_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Spec_Option_Zoom" xml:space="preserve">
+    <value>放大选中的谱线</value>
+  </data>
+  <data name="Spec_Photon_FarUv" xml:space="preserve">
+    <value>远紫外 80 nm</value>
+  </data>
+  <data name="Spec_Photon_HAlpha" xml:space="preserve">
+    <value>Hα 656.3 nm</value>
+  </data>
+  <data name="Spec_Photon_HBeta" xml:space="preserve">
+    <value>Hβ 486.1 nm</value>
+  </data>
+  <data name="Spec_Photon_LymanAlpha" xml:space="preserve">
+    <value>莱曼α 121.6 nm</value>
+  </data>
+  <data name="Spec_Photon_Red" xml:space="preserve">
+    <value>红光 640 nm</value>
+  </data>
+  <data name="Spec_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格）</value>
+  </data>
+  <data name="Spec_Series_Balmer" xml:space="preserve">
+    <value>巴耳末系</value>
+  </data>
+  <data name="Spec_Series_Brackett" xml:space="preserve">
+    <value>布拉开系</value>
+  </data>
+  <data name="Spec_Series_Lyman" xml:space="preserve">
+    <value>莱曼系</value>
+  </data>
+  <data name="Spec_Series_Paschen" xml:space="preserve">
+    <value>帕邢系</value>
+  </data>
+  <data name="Spec_Series_Pfund" xml:space="preserve">
+    <value>普丰德系</value>
+  </data>
+  <data name="Spec_Shape_D" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Spec_Shape_P" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="Spec_Shape_S" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="Spec_Source_Bulb" xml:space="preserve">
+    <value>白炽灯</value>
+  </data>
+  <data name="Spec_Source_Caption" xml:space="preserve">
+    <value>光源</value>
+  </data>
+  <data name="Spec_Source_Lamp" xml:space="preserve">
+    <value>气体灯</value>
+  </data>
+  <data name="Spec_Source_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Spec_Source_ThroughGas" xml:space="preserve">
+    <value>白炽灯穿过较冷气体</value>
+  </data>
+  <data name="Spec_Star_Arcturus" xml:space="preserve">
+    <value>大角星</value>
+  </data>
+  <data name="Spec_Star_Betelgeuse" xml:space="preserve">
+    <value>参宿四</value>
+  </data>
+  <data name="Spec_Star_Caption" xml:space="preserve">
+    <value>恒星</value>
+  </data>
+  <data name="Spec_Star_Procyon" xml:space="preserve">
+    <value>南河三</value>
+  </data>
+  <data name="Spec_Star_Sirius" xml:space="preserve">
+    <value>天狼星</value>
+  </data>
+  <data name="Spec_Star_Spica" xml:space="preserve">
+    <value>角宿一</value>
+  </data>
+  <data name="Spec_Star_Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Spec_Stars_Fact1" xml:space="preserve">
+    <value>1925 年塞西莉亚·佩恩证明恒星主要由氢和氦组成：恒星光谱的不同来自温度，而不是成分。</value>
+  </data>
+  <data name="Spec_Stars_Fact2" xml:space="preserve">
+    <value>光谱型从热到冷依次为 O B A F G K M，太阳是一颗 G2 型恒星。</value>
+  </data>
+  <data name="Spec_Stars_Fact3" xml:space="preserve">
+    <value>1929 年哈勃发现，星系越远，它的光红移越大：宇宙正在膨胀。</value>
+  </data>
+  <data name="Spec_Stars_Fact4" xml:space="preserve">
+    <value>仙女座星系的光是蓝移的：它正以约每秒 300 千米的速度向我们靠近。</value>
+  </data>
+  <data name="Spec_Stars_Fact5" xml:space="preserve">
+    <value>人们最早是靠恒星谱线中极其微小的多普勒摆动（每秒几米）发现系外行星的。</value>
+  </data>
+  <data name="Spec_Stars_Named_Title" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="Spec_Stars_Note" xml:space="preserve">
+    <value>曲线是黑体辐射；氢线强弱随温度的变化按萨哈—玻尔兹曼公式计算，其余谱线做了简化。</value>
+  </data>
+  <data name="Spec_Stars_Panel_Note" xml:space="preserve">
+    <value>速度单位为千米每秒，正值表示远离。恒星本身的颜色由温度决定，与速度无关：恒星的位移很小，只有遥远星系的位移才大。</value>
+  </data>
+  <data name="Spec_Stars_Subtitle" xml:space="preserve">
+    <value>星光告诉我们什么</value>
+  </data>
+  <data name="Spec_Stars_Title" xml:space="preserve">
+    <value>一颗 {0} 型恒星</value>
+  </data>
+  <data name="Spec_Stat_AlphaShift" xml:space="preserve">
+    <value>Hα 位移</value>
+  </data>
+  <data name="Spec_Stat_Class" xml:space="preserve">
+    <value>光谱型</value>
+  </data>
+  <data name="Spec_Stat_Compare" xml:space="preserve">
+    <value>对比气体</value>
+  </data>
+  <data name="Spec_Stat_Energy" xml:space="preserve">
+    <value>能量</value>
+  </data>
+  <data name="Spec_Stat_Glow" xml:space="preserve">
+    <value>每平方米发光</value>
+  </data>
+  <data name="Spec_Stat_HydrogenLines" xml:space="preserve">
+    <value>氢线强度</value>
+  </data>
+  <data name="Spec_Stat_Jump" xml:space="preserve">
+    <value>对应跃迁</value>
+  </data>
+  <data name="Spec_Stat_Kind" xml:space="preserve">
+    <value>光谱类型</value>
+  </data>
+  <data name="Spec_Stat_Lamp" xml:space="preserve">
+    <value>光源的光子</value>
+  </data>
+  <data name="Spec_Stat_Last" xml:space="preserve">
+    <value>刚才</value>
+  </data>
+  <data name="Spec_Stat_Level" xml:space="preserve">
+    <value>电子所在能级</value>
+  </data>
+  <data name="Spec_Stat_Lines" xml:space="preserve">
+    <value>谱线条数</value>
+  </data>
+  <data name="Spec_Stat_Peak" xml:space="preserve">
+    <value>辐射峰值</value>
+  </data>
+  <data name="Spec_Stat_PhotonEnergy" xml:space="preserve">
+    <value>光子能量</value>
+  </data>
+  <data name="Spec_Stat_Picked" xml:space="preserve">
+    <value>选中的谱线</value>
+  </data>
+  <data name="Spec_Stat_Speed" xml:space="preserve">
+    <value>运动</value>
+  </data>
+  <data name="Spec_Stat_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Spec_Stat_ToFree" xml:space="preserve">
+    <value>电离所需能量</value>
+  </data>
+  <data name="Spec_Stat_WouldDo" xml:space="preserve">
+    <value>会被吸收吗</value>
+  </data>
+  <data name="Spec_Temperature" xml:space="preserve">
+    <value>表面温度</value>
+  </data>
+  <data name="Spec_Title" xml:space="preserve">
+    <value>原子与光谱</value>
+  </data>
+  <data name="Spec_Value_AboveZero" xml:space="preserve">
+    <value>高于 0</value>
+  </data>
+  <data name="Spec_Value_AtRest" xml:space="preserve">
+    <value>静止</value>
+  </data>
+  <data name="Spec_Value_Away" xml:space="preserve">
+    <value>以 {0} km/s 远离</value>
+  </data>
+  <data name="Spec_Value_Bright" xml:space="preserve">
+    <value>明线光谱</value>
+  </data>
+  <data name="Spec_Value_Continuous" xml:space="preserve">
+    <value>连续光谱</value>
+  </data>
+  <data name="Spec_Value_Dark" xml:space="preserve">
+    <value>带暗线的连续光谱</value>
+  </data>
+  <data name="Spec_Value_Ev" xml:space="preserve">
+    <value>{0} eV</value>
+  </data>
+  <data name="Spec_Value_Free" xml:space="preserve">
+    <value>自由（已电离）</value>
+  </data>
+  <data name="Spec_Value_Infrared" xml:space="preserve">
+    <value>红外</value>
+  </data>
+  <data name="Spec_Value_Jump" xml:space="preserve">
+    <value>第 {0} 能级 → 第 {1} 能级</value>
+  </data>
+  <data name="Spec_Value_Kelvin" xml:space="preserve">
+    <value>{0} K</value>
+  </data>
+  <data name="Spec_Value_Nm" xml:space="preserve">
+    <value>{0} nm</value>
+  </data>
+  <data name="Spec_Value_NoElectron" xml:space="preserve">
+    <value>没有电子可以吸收</value>
+  </data>
+  <data name="Spec_Value_Nothing" xml:space="preserve">
+    <value>暂无</value>
+  </data>
+  <data name="Spec_Value_PeakAt" xml:space="preserve">
+    <value>{0}，{1}</value>
+  </data>
+  <data name="Spec_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Spec_Value_Photon" xml:space="preserve">
+    <value>{0}（{1} eV）</value>
+  </data>
+  <data name="Spec_Value_Shift" xml:space="preserve">
+    <value>{0} nm</value>
+  </data>
+  <data name="Spec_Value_TimesSun" xml:space="preserve">
+    <value>太阳的 {0} 倍</value>
+  </data>
+  <data name="Spec_Value_Towards" xml:space="preserve">
+    <value>以 {0} km/s 靠近</value>
+  </data>
+  <data name="Spec_Value_Ultraviolet" xml:space="preserve">
+    <value>紫外</value>
+  </data>
+  <data name="Spec_Value_Visible" xml:space="preserve">
+    <value>可见光</value>
+  </data>
+  <data name="Spec_Value_WouldFree" xml:space="preserve">
+    <value>使它电离</value>
+  </data>
+  <data name="Spec_Value_WouldLift" xml:space="preserve">
+    <value>把它送到第 {0} 能级</value>
+  </data>
+  <data name="Spec_Value_WouldPass" xml:space="preserve">
+    <value>直接穿过</value>
+  </data>
+  <data name="Spec_Velocity" xml:space="preserve">
+    <value>视向速度</value>
+  </data>
+  <data name="Spec_Velocity_Andromeda" xml:space="preserve">
+    <value>仙女座星系 −300</value>
+  </data>
+  <data name="Spec_Velocity_Far" xml:space="preserve">
+    <value>遥远星系 +15000</value>
+  </data>
+  <data name="Spec_Velocity_Rest" xml:space="preserve">
+    <value>静止</value>
+  </data>
+  <data name="Spec_Velocity_Virgo" xml:space="preserve">
+    <value>室女座星系团 +1200</value>
+  </data>
+  <data name="Spec_Wavelength" xml:space="preserve">
+    <value>波长</value>
   </data>
   <data name="Star_Class_Massive" xml:space="preserve">
     <value>大质量恒星</value>

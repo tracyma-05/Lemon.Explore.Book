@@ -138,6 +138,8 @@ public static readonly Brush Dot = Freeze(new SolidColorBrush(Gold));
     def test_static_rect_inflate_becomes_the_instance_method(self):
         out = tool.convert_points("        AddBoxTarget(\"sensor\", Rect.Inflate(sensor, 3, 2));\n")
         self.assertIn("AddBoxTarget(\"sensor\", sensor.Inflate(new Thickness(3, 2)));", out)
+        out = tool.convert_points("        if (Rect.Inflate(v.Chart, 4, 4).Contains(point)) return;\n")
+        self.assertIn("if (v.Chart.Inflate(new Thickness(4, 4)).Contains(point)) return;", out)
 
     def test_a_difference_of_3d_points_stays_var(self):
         source = """    private static Point3D Turn(Point3D p, Point3D a, Point3D b, double degrees)
@@ -179,6 +181,11 @@ class LateTests(unittest.TestCase):
         self.assertIn("gradientOrigin: new RelativePoint(0.35, 0.3, RelativeUnit.Relative)", out)
         self.assertIn("radiusY: new RelativeScalar(0.68, RelativeUnit.Relative));", out)
         self.assertNotIn("Freeze", out)
+
+    def test_a_gradient_given_its_stops_later_keeps_them_and_gets_relative_points(self):
+        out = tool.convert_late("        var rainbow = new LinearGradientBrush { StartPoint = new Point(0, 0), EndPoint = new Point(1, 0) };\n")
+        self.assertIn("var rainbow = new LinearGradientBrush { StartPoint = new RelativePoint(0, 0, RelativeUnit.Relative), "
+                      "EndPoint = new RelativePoint(1, 0, RelativeUnit.Relative) };", out)
 
     def test_a_gradient_with_its_points_as_arguments(self):
         source = """        var shade = new LinearGradientBrush(
