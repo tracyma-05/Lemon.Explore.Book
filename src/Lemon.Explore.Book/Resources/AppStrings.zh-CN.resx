@@ -5148,6 +5148,771 @@
   <data name="Green_World_Venus" xml:space="preserve">
     <value>金星</value>
   </data>
+  <data name="Heat_Chart_Eff_Caption" xml:space="preserve">
+    <value>燃料的热有多少变成了功</value>
+  </data>
+  <data name="Heat_Chart_Eff_Model" xml:space="preserve">
+    <value>本页的发动机</value>
+  </data>
+  <data name="Heat_Chart_Eff_Note" xml:space="preserve">
+    <value>理想值只取决于压缩比：η = 1 − r^(−0.4)。真实的发动机还要扣掉燃烧需要的时间、提前排气、缸壁散热和摩擦，到车轮上一般只剩 30% 左右。</value>
+  </data>
+  <data name="Heat_Chart_Eff_Otto" xml:space="preserve">
+    <value>理想奥托循环</value>
+  </data>
+  <data name="Heat_Chart_Eff_Walls" xml:space="preserve">
+    <value>扣去缸壁散热（典型）</value>
+  </data>
+  <data name="Heat_Chart_Eff_Wheels" xml:space="preserve">
+    <value>再扣摩擦（典型）</value>
+  </data>
+  <data name="Heat_Chart_Energy_Caption" xml:space="preserve">
+    <value>每天耗电与室温</value>
+  </data>
+  <data name="Heat_Chart_Energy_Closed" xml:space="preserve">
+    <value>门关着</value>
+  </data>
+  <data name="Heat_Chart_Energy_Note" xml:space="preserve">
+    <value>房间越热，钻进箱体的热越多，压缩机要转得越久；冷凝器也得更热才能把热散掉，每度电搬走的热就更少。</value>
+  </data>
+  <data name="Heat_Chart_Energy_Now" xml:space="preserve">
+    <value>每天 {0} kWh</value>
+  </data>
+  <data name="Heat_Chart_Energy_Open" xml:space="preserve">
+    <value>门开着：每天 {0} kWh</value>
+  </data>
+  <data name="Heat_Chart_Limit_Caption" xml:space="preserve">
+    <value>这两个温度之间的极限</value>
+  </data>
+  <data name="Heat_Chart_Limit_Engine" xml:space="preserve">
+    <value>热机最高效率</value>
+  </data>
+  <data name="Heat_Chart_Limit_Fridge" xml:space="preserve">
+    <value>冰箱最高制冷系数</value>
+  </data>
+  <data name="Heat_Chart_Limit_HeatPump" xml:space="preserve">
+    <value>热泵最高制热系数</value>
+  </data>
+  <data name="Heat_Chart_Limit_Note" xml:space="preserve">
+    <value>卡诺在 1824 年证明：在两个温度之间工作的任何机器都不可能比这更好。真实的：汽车发动机约 30–40%，最好的燃气-蒸汽联合循环电厂约 60%，冰箱的系数约 1.5–2，空气源热泵冬天约 2.5–4。</value>
+  </data>
+  <data name="Heat_Chart_Loop_Caption" xml:space="preserve">
+    <value>制冷剂绕一圈的温度</value>
+  </data>
+  <data name="Heat_Chart_Loop_Freezer" xml:space="preserve">
+    <value>冷冻室 {0} °C</value>
+  </data>
+  <data name="Heat_Chart_Loop_High" xml:space="preserve">
+    <value>高压侧 {0} bar</value>
+  </data>
+  <data name="Heat_Chart_Loop_Low" xml:space="preserve">
+    <value>低压侧 {0} bar</value>
+  </data>
+  <data name="Heat_Chart_Loop_Note" xml:space="preserve">
+    <value>热量只会从热处流向冷处。所以制冷剂在冷凝器里必须比房间还热（红色），在蒸发器里必须比冷冻室还冷（蓝色）——压缩机和毛细管就是用来让它变热、变冷的。</value>
+  </data>
+  <data name="Heat_Chart_Loop_Room" xml:space="preserve">
+    <value>室温 {0} °C</value>
+  </data>
+  <data name="Heat_Chart_Pv_Caption" xml:space="preserve">
+    <value>压强与容积（示功图）</value>
+  </data>
+  <data name="Heat_Chart_Pv_Note" xml:space="preserve">
+    <value>从点火到排气门打开，燃气推着活塞做功：环包围的面积就是每个循环做的功。贴着横轴的那个细环是进气和排气，要耗掉一点功。</value>
+  </data>
+  <data name="Heat_Chart_Pv_Spark" xml:space="preserve">
+    <value>点火</value>
+  </data>
+  <data name="Heat_Chart_Pv_Work" xml:space="preserve">
+    <value>面积 = 功</value>
+  </data>
+  <data name="Heat_Cold" xml:space="preserve">
+    <value>冷的一边</value>
+  </data>
+  <data name="Heat_Compression" xml:space="preserve">
+    <value>压缩比</value>
+  </data>
+  <data name="Heat_Compression_Hint" xml:space="preserve">
+    <value>压得越紧，同样的油做功越多；太紧会爆震，汽油机一般用 9–13。</value>
+  </data>
+  <data name="Heat_Compression_Reset" xml:space="preserve">
+    <value>恢复 10.5</value>
+  </data>
+  <data name="Heat_Cycle_Area_Work" xml:space="preserve">
+    <value>围住的面积 = 每圈做的功</value>
+  </data>
+  <data name="Heat_Cycle_Area_WorkIn" xml:space="preserve">
+    <value>围住的面积 = 每圈消耗的功</value>
+  </data>
+  <data name="Heat_Cycle_Axis_Pressure" xml:space="preserve">
+    <value>压强 p</value>
+  </data>
+  <data name="Heat_Cycle_Axis_Volume" xml:space="preserve">
+    <value>体积 V</value>
+  </data>
+  <data name="Heat_Cycle_Clock" xml:space="preserve">
+    <value>{0}. {1}</value>
+  </data>
+  <data name="Heat_Cycle_Cold_Engine" xml:space="preserve">
+    <value>冷源（周围的空气、河水）</value>
+  </data>
+  <data name="Heat_Cycle_Cold_Fridge" xml:space="preserve">
+    <value>冰箱里面（要冷却的一边）</value>
+  </data>
+  <data name="Heat_Cycle_Cold_HeatPump" xml:space="preserve">
+    <value>室外（冬天的冷空气）</value>
+  </data>
+  <data name="Heat_Cycle_Contact_Cold" xml:space="preserve">
+    <value>贴着冷的一边</value>
+  </data>
+  <data name="Heat_Cycle_Contact_Hot" xml:space="preserve">
+    <value>贴着热的一边</value>
+  </data>
+  <data name="Heat_Cycle_Contact_None" xml:space="preserve">
+    <value>隔热</value>
+  </data>
+  <data name="Heat_Cycle_Fact1" xml:space="preserve">
+    <value>1824 年，28 岁的法国工程师萨迪·卡诺证明：热机最多能做到多好，只取决于冷热两边的温度：1 − T冷/T热（用开尔文）。</value>
+  </data>
+  <data name="Heat_Cycle_Fact2" xml:space="preserve">
+    <value>所以热电厂拼命提高蒸汽温度：567 °C（840 K）的蒸汽、27 °C 的冷却水，理想效率 64%；最好的燃煤机组实际约 45%。</value>
+  </data>
+  <data name="Heat_Cycle_Fact3" xml:space="preserve">
+    <value>冰箱和热泵是同一种机器，只看要哪一边：冰箱要的是从冷处抽走的热，热泵要的是送进屋里的热。空调夏天制冷、冬天制热，就是换一个阀门，让制冷剂反着走。</value>
+  </data>
+  <data name="Heat_Cycle_Fact4" xml:space="preserve">
+    <value>热泵送进屋的热是它耗电的好几倍——多出来的热是从室外的冷空气里抽来的。这并不违反能量守恒：电只是用来“搬”热，而不是变成热。</value>
+  </data>
+  <data name="Heat_Cycle_Fact5" xml:space="preserve">
+    <value>两边温度越接近，热机越没用，冰箱和热泵却越省力：温差趋于零时，理想热泵的系数趋于无穷大。所以热泵在不太冷的冬天最划算。</value>
+  </data>
+  <data name="Heat_Cycle_Flow_ColdIn" xml:space="preserve">
+    <value>吸热 {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_ColdIn_Useful" xml:space="preserve">
+    <value>抽走的热 {0}（要的就是它）</value>
+  </data>
+  <data name="Heat_Cycle_Flow_ColdOut" xml:space="preserve">
+    <value>放热 {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_HotIn" xml:space="preserve">
+    <value>吸热 {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_HotOut" xml:space="preserve">
+    <value>放热 {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_HotOut_Useful" xml:space="preserve">
+    <value>送进屋的热 {0}（要的就是它）</value>
+  </data>
+  <data name="Heat_Cycle_Flow_WorkIn" xml:space="preserve">
+    <value>耗电 {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_WorkOut" xml:space="preserve">
+    <value>做功 {0}</value>
+  </data>
+  <data name="Heat_Cycle_Hot_Engine" xml:space="preserve">
+    <value>热源（燃烧的燃料、锅炉）</value>
+  </data>
+  <data name="Heat_Cycle_Hot_Fridge" xml:space="preserve">
+    <value>房间（热的一边）</value>
+  </data>
+  <data name="Heat_Cycle_Hot_HeatPump" xml:space="preserve">
+    <value>屋里（要加热的一边）</value>
+  </data>
+  <data name="Heat_Cycle_Isotherm_Cold" xml:space="preserve">
+    <value>{0} K 等温线</value>
+  </data>
+  <data name="Heat_Cycle_Isotherm_Hot" xml:space="preserve">
+    <value>{0} K 等温线</value>
+  </data>
+  <data name="Heat_Cycle_Note" xml:space="preserve">
+    <value>理想气体的卡诺循环：两段等温、两段绝热，没有摩擦，也没有隔着温差的传热。任何真实的机器都不可能比它更好。</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Backward" xml:space="preserve">
+    <value>等温压缩：向热的一边放热</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Backward_Description" xml:space="preserve">
+    <value>贴着热的一边继续压缩，热量流进热的一边。放出的热 = 吸进的热 + 消耗的功，所以冰箱背后放出的热比从里面吸走的还多。</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Forward" xml:space="preserve">
+    <value>等温膨胀：从热的一边吸热</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Forward_Description" xml:space="preserve">
+    <value>气体贴着热的一边。它膨胀推动活塞做功，同时从热的一边吸进同样多的热，所以温度保持不变。</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Backward" xml:space="preserve">
+    <value>绝热压缩：压到比热的一边还热</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Backward_Description" xml:space="preserve">
+    <value>隔热压缩气体：电动机对它做功，让它升温到比热的一边还热，这样热量才能流出去。这就是压缩机的工作。</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Forward" xml:space="preserve">
+    <value>绝热膨胀：自己降温</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Forward_Description" xml:space="preserve">
+    <value>隔热之后，气体继续膨胀。做功的能量来自它自身，所以温度一路降到冷的一边的温度。</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Backward" xml:space="preserve">
+    <value>等温膨胀：从冷的一边吸热</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Backward_Description" xml:space="preserve">
+    <value>气体贴着冷的一边膨胀，从那里吸走热量。冰箱就是这样让里面变冷的，热泵也是这样从冬天的冷空气里取热的。</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Forward" xml:space="preserve">
+    <value>等温压缩：向冷的一边放热</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Forward_Description" xml:space="preserve">
+    <value>贴着冷的一边压缩气体。压缩本来会让它变热，但热量马上流进冷的一边，温度不变。这一步放掉的热，是任何热机都避免不了的损失。</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Backward" xml:space="preserve">
+    <value>绝热膨胀：降到比冷的一边还冷</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Backward_Description" xml:space="preserve">
+    <value>反着转，先让气体绝热膨胀。它变得比冷的一边还冷，热量才会自己从冷的一边流进来。冰箱里的毛细管做的就是这件事。</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Forward" xml:space="preserve">
+    <value>绝热压缩：升温回到起点</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Forward_Description" xml:space="preserve">
+    <value>再次隔热压缩，外界做的功变成气体的内能，温度升回热的一边，循环闭合。热的时候膨胀、冷的时候压缩，膨胀做的功比压缩用的功多，多出来的就是净功。</value>
+  </data>
+  <data name="Heat_Cycle_StepLabel" xml:space="preserve">
+    <value>{0}. {1}</value>
+  </data>
+  <data name="Heat_Cycle_Subtitle" xml:space="preserve">
+    <value>同一个循环：正着转是发动机，反着转是冰箱</value>
+  </data>
+  <data name="Heat_Dial_Angle" xml:space="preserve">
+    <value>曲轴 {0}°</value>
+  </data>
+  <data name="Heat_Dial_Spark" xml:space="preserve">
+    <value>点火</value>
+  </data>
+  <data name="Heat_Dial_Stroke" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Heat_Dial_Turn" xml:space="preserve">
+    <value>第 {0} 圈（共 2 圈）</value>
+  </data>
+  <data name="Heat_Dial_Valve" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="Heat_Direction_Caption" xml:space="preserve">
+    <value>让它做什么</value>
+  </data>
+  <data name="Heat_Direction_Engine" xml:space="preserve">
+    <value>热机：热 → 功</value>
+  </data>
+  <data name="Heat_Direction_Fridge" xml:space="preserve">
+    <value>冰箱：从冷处抽热</value>
+  </data>
+  <data name="Heat_Direction_HeatPump" xml:space="preserve">
+    <value>热泵：往热处送热</value>
+  </data>
+  <data name="Heat_Engine_AltitudeNote" xml:space="preserve">
+    <value>{0}海拔约 {1} 米，气压 {2} hPa，是海平面的 {3}%：每次进气吸进的空气就少这么多，发动机功率也按这个比例降低。</value>
+  </data>
+  <data name="Heat_Engine_Burning_Description" xml:space="preserve">
+    <value>活塞到顶前约 20° 时火花塞打火。火焰以每秒几十米的速度向四周推进，在大约 50° 曲轴转角内烧完。燃气被加热到两千多摄氏度，压强猛增到 50 bar 以上。</value>
+  </data>
+  <data name="Heat_Engine_Burning_Title" xml:space="preserve">
+    <value>火花塞点火：火焰从中间向四周扩散</value>
+  </data>
+  <data name="Heat_Engine_Clock" xml:space="preserve">
+    <value>{0} {1} · {2}°</value>
+  </data>
+  <data name="Heat_Engine_Compression_Description" xml:space="preserve">
+    <value>活塞把混合气压缩到原来体积的十分之一左右。气体被压缩会变热：点火时已经约 350 °C、14 bar。压得越紧，后面燃烧做的功越多。</value>
+  </data>
+  <data name="Heat_Engine_Compression_Title" xml:space="preserve">
+    <value>② 压缩：两个气门都关上，活塞上行</value>
+  </data>
+  <data name="Heat_Engine_Exhaust_Description" xml:space="preserve">
+    <value>做功快结束时排气门就提前打开，大部分废气趁着余压自己冲出去，活塞再往上把剩下的推出去。废气仍有七八百摄氏度——燃料约三分之一的能量就这样从排气管跑掉了。</value>
+  </data>
+  <data name="Heat_Engine_Exhaust_Title" xml:space="preserve">
+    <value>④ 排气：排气门打开，活塞上行推出废气</value>
+  </data>
+  <data name="Heat_Engine_Fact1" xml:space="preserve">
+    <value>汽车里通常有 4 个这样的气缸，轮流点火，曲轴每转半圈就有一个在做功，所以转起来平稳。</value>
+  </data>
+  <data name="Heat_Engine_Fact2" xml:space="preserve">
+    <value>3000 转/分时，每个气缸每秒做 25 次功；活塞平均速度约 9 米/秒，每秒要停下来再反向 100 次。</value>
+  </data>
+  <data name="Heat_Engine_Fact3" xml:space="preserve">
+    <value>第一台实用的四冲程发动机是奥托在 1876 年造出的，所以它的理想循环叫奥托循环。柴油机没有火花塞：它把空气压到 1/16–1/20，热到能让喷进去的柴油自燃。</value>
+  </data>
+  <data name="Heat_Engine_Fact4" xml:space="preserve">
+    <value>燃料的能量大约三分之一用来推车，三分之一被冷却液带到散热器，三分之一随废气排走。</value>
+  </data>
+  <data name="Heat_Engine_Fact5" xml:space="preserve">
+    <value>海拔越高空气越稀薄：在海拔 3650 米的拉萨，气压只有海平面的约 64%，不带涡轮增压的发动机功率也只剩约三分之二。涡轮增压器就是用废气吹动涡轮，把更多空气压进气缸。</value>
+  </data>
+  <data name="Heat_Engine_Intake_Description" xml:space="preserve">
+    <value>进气门打开。活塞往下走，在气缸里让出空间，外面的空气（混着雾状的汽油）被大气压推进来。气缸里的压强比外面略低一点。</value>
+  </data>
+  <data name="Heat_Engine_Intake_Title" xml:space="preserve">
+    <value>① 进气：活塞下行，吸进空气和汽油</value>
+  </data>
+  <data name="Heat_Engine_Note" xml:space="preserve">
+    <value>一台 2.0 升四缸汽油机的一个气缸，从中间剖开，按比例画出（缸径和行程都是 86 毫米）。气体的颜色表示温度，压强和温度按简化的燃烧模型算出。动画比实际慢得多。</value>
+  </data>
+  <data name="Heat_Engine_Power_Description" xml:space="preserve">
+    <value>这是四个冲程里唯一对外做功的一个。燃气膨胀推动活塞，通过连杆转动曲轴；膨胀时燃气变冷、压强下降。飞轮把这股劲儿存起来，带着发动机走完另外三个冲程。</value>
+  </data>
+  <data name="Heat_Engine_Power_Title" xml:space="preserve">
+    <value>③ 做功：高压燃气推着活塞向下</value>
+  </data>
+  <data name="Heat_Engine_Reading" xml:space="preserve">
+    <value>{0} bar · {1} °C</value>
+  </data>
+  <data name="Heat_Engine_Subtitle" xml:space="preserve">
+    <value>四冲程发动机：进气、压缩、做功、排气</value>
+  </data>
+  <data name="Heat_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Heat_Fridge_Clock" xml:space="preserve">
+    <value>室温 {0} °C</value>
+  </data>
+  <data name="Heat_Fridge_DoorOpen_Description" xml:space="preserve">
+    <value>冷空气比较重，从门的下部流出来，房间的暖空气从上部钻进去。压缩机一直转也赶不上。开着冰箱门也不能给房间降温——背后放出的热比里面吸走的还多。</value>
+  </data>
+  <data name="Heat_Fridge_DoorOpen_Title" xml:space="preserve">
+    <value>门开着：冷空气往外流</value>
+  </data>
+  <data name="Heat_Fridge_Fact1" xml:space="preserve">
+    <value>冰箱“制造”不了冷，它是一台热泵：把里面的热搬到外面。冷，只是热少了。</value>
+  </data>
+  <data name="Heat_Fridge_Fact2" xml:space="preserve">
+    <value>用 1 kWh 电，这台冰箱能从里面搬走约 6 MJ 的热——足够把约 14 千克 25 °C 的水变成 0 °C 的冰。</value>
+  </data>
+  <data name="Heat_Fridge_Fact3" xml:space="preserve">
+    <value>制冷剂在低压下沸点很低：异丁烷在 1 个大气压下 −12 °C 就沸腾，在冰箱的低压侧（约 0.6 bar）更是 −25 °C 就开锅。就像高原上水不到 100 °C 就开，这里把它用上了。</value>
+  </data>
+  <data name="Heat_Fridge_Fact4" xml:space="preserve">
+    <value>早年的冰箱用氟利昂（CFC），它会破坏臭氧层，1987 年的《蒙特利尔议定书》逐步禁用了它。现在的家用冰箱大多用异丁烷，它不破坏臭氧层，温室效应也很小。</value>
+  </data>
+  <data name="Heat_Fridge_Fact5" xml:space="preserve">
+    <value>冰箱四周要留缝：背后的冷凝器要把热散给空气。贴着墙或放在灶台旁边，耗电会明显增加。</value>
+  </data>
+  <data name="Heat_Fridge_Hot_Description" xml:space="preserve">
+    <value>冷凝器必须比房间更热才能散热，压缩机就得压得更狠，每度电搬走的热更少；同时从箱壁钻进来的热也更多，压缩机要转更久。别把冰箱塞进不透风的角落。</value>
+  </data>
+  <data name="Heat_Fridge_Hot_Title" xml:space="preserve">
+    <value>房间太热：冰箱更费劲</value>
+  </data>
+  <data name="Heat_Fridge_Label_Capillary" xml:space="preserve">
+    <value>毛细管：压强从 {0} 降到 {1} bar</value>
+  </data>
+  <data name="Heat_Fridge_Label_Compressor" xml:space="preserve">
+    <value>压缩机：蒸气被压到 {0} °C、{1} bar</value>
+  </data>
+  <data name="Heat_Fridge_Label_Condenser" xml:space="preserve">
+    <value>冷凝器：在 {0} °C 凝结成液体</value>
+  </data>
+  <data name="Heat_Fridge_Label_Door" xml:space="preserve">
+    <value>门（点击打开）</value>
+  </data>
+  <data name="Heat_Fridge_Label_DoorOpen" xml:space="preserve">
+    <value>门开着（点击关上）</value>
+  </data>
+  <data name="Heat_Fridge_Label_Evaporator" xml:space="preserve">
+    <value>蒸发器：在 {0} °C、{1} bar 沸腾吸热</value>
+  </data>
+  <data name="Heat_Fridge_Label_Hot" xml:space="preserve">
+    <value>热量散到 {0} °C 的房间里</value>
+  </data>
+  <data name="Heat_Fridge_Label_Insulation" xml:space="preserve">
+    <value>泡沫保温层</value>
+  </data>
+  <data name="Heat_Fridge_Note" xml:space="preserve">
+    <value>冰箱的侧面剖视图，大致按比例（高 1.8 米）。制冷剂是异丁烷（R600a）：空心圆是蒸气，实心点是液体，颜色表示温度。管路的布置是示意。</value>
+  </data>
+  <data name="Heat_Fridge_Part_Capillary" xml:space="preserve">
+    <value>毛细管</value>
+  </data>
+  <data name="Heat_Fridge_Part_Compressor" xml:space="preserve">
+    <value>压缩机</value>
+  </data>
+  <data name="Heat_Fridge_Part_Condenser" xml:space="preserve">
+    <value>冷凝器</value>
+  </data>
+  <data name="Heat_Fridge_Part_Discharge" xml:space="preserve">
+    <value>排气管</value>
+  </data>
+  <data name="Heat_Fridge_Part_Evaporator" xml:space="preserve">
+    <value>蒸发器</value>
+  </data>
+  <data name="Heat_Fridge_Part_Suction" xml:space="preserve">
+    <value>回气管</value>
+  </data>
+  <data name="Heat_Fridge_Running_Description" xml:space="preserve">
+    <value>制冷剂在冷冻室内壁里的蒸发器中沸腾，从食物和空气里吸走热量；压缩机把这些蒸气压缩变热，送到背后的冷凝器，在那里把热放给房间、凝结成液体；液体经过细长的毛细管降压变冷，再回到蒸发器。摸摸冰箱的侧面或背后，是热的。</value>
+  </data>
+  <data name="Heat_Fridge_Running_Title" xml:space="preserve">
+    <value>压缩机在工作：把热量从里面搬到后面</value>
+  </data>
+  <data name="Heat_Fridge_Subtitle" xml:space="preserve">
+    <value>冰箱不是制造冷，而是把热搬到后面去</value>
+  </data>
+  <data name="Heat_Hint_Cycle" xml:space="preserve">
+    <value>左右拖动可以沿着循环移动</value>
+  </data>
+  <data name="Heat_Hint_Engine" xml:space="preserve">
+    <value>左右拖动可以用手转动曲轴</value>
+  </data>
+  <data name="Heat_Hint_Fridge" xml:space="preserve">
+    <value>点击冰箱门可以打开或关上</value>
+  </data>
+  <data name="Heat_Hot" xml:space="preserve">
+    <value>热的一边</value>
+  </data>
+  <data name="Heat_Jump_Caption" xml:space="preserve">
+    <value>跳到</value>
+  </data>
+  <data name="Heat_Jump_Spark" xml:space="preserve">
+    <value>点火</value>
+  </data>
+  <data name="Heat_Lesson_Cycle_Choice1" xml:space="preserve">
+    <value>让热的一边更热，或者冷的一边更冷</value>
+  </data>
+  <data name="Heat_Lesson_Cycle_Choice2" xml:space="preserve">
+    <value>用更大的气缸</value>
+  </data>
+  <data name="Heat_Lesson_Cycle_Choice3" xml:space="preserve">
+    <value>让它转得更快</value>
+  </data>
+  <data name="Heat_Lesson_Engine_Choice1" xml:space="preserve">
+    <value>它瞬间燃烧，压强猛增</value>
+  </data>
+  <data name="Heat_Lesson_Engine_Choice2" xml:space="preserve">
+    <value>它冷却收缩</value>
+  </data>
+  <data name="Heat_Lesson_Engine_Choice3" xml:space="preserve">
+    <value>什么也不发生，要等气门打开</value>
+  </data>
+  <data name="Heat_Lesson_Fridge_Choice1" xml:space="preserve">
+    <value>把热散给房间，变成液体</value>
+  </data>
+  <data name="Heat_Lesson_Fridge_Choice2" xml:space="preserve">
+    <value>从房间里吸收热量</value>
+  </data>
+  <data name="Heat_Lesson_Fridge_Choice3" xml:space="preserve">
+    <value>冻成固体</value>
+  </data>
+  <data name="Heat_Mode_Cycle" xml:space="preserve">
+    <value>正转与反转</value>
+  </data>
+  <data name="Heat_Mode_Engine" xml:space="preserve">
+    <value>发动机</value>
+  </data>
+  <data name="Heat_Mode_Fridge" xml:space="preserve">
+    <value>冰箱</value>
+  </data>
+  <data name="Heat_Obj_Capillary" xml:space="preserve">
+    <value>毛细管</value>
+  </data>
+  <data name="Heat_Obj_ColdFlow" xml:space="preserve">
+    <value>与冷端交换的热</value>
+  </data>
+  <data name="Heat_Obj_ColdSide" xml:space="preserve">
+    <value>冷的一边</value>
+  </data>
+  <data name="Heat_Obj_Compressor" xml:space="preserve">
+    <value>压缩机</value>
+  </data>
+  <data name="Heat_Obj_Condenser" xml:space="preserve">
+    <value>冷凝器</value>
+  </data>
+  <data name="Heat_Obj_Dial" xml:space="preserve">
+    <value>四冲程表盘</value>
+  </data>
+  <data name="Heat_Obj_Door" xml:space="preserve">
+    <value>冰箱门</value>
+  </data>
+  <data name="Heat_Obj_Evaporator" xml:space="preserve">
+    <value>蒸发器</value>
+  </data>
+  <data name="Heat_Obj_ExhaustPort" xml:space="preserve">
+    <value>排气道</value>
+  </data>
+  <data name="Heat_Obj_Freezer" xml:space="preserve">
+    <value>冷冻室</value>
+  </data>
+  <data name="Heat_Obj_FridgeInside" xml:space="preserve">
+    <value>冷藏室</value>
+  </data>
+  <data name="Heat_Obj_Gas" xml:space="preserve">
+    <value>气缸里的气体</value>
+  </data>
+  <data name="Heat_Obj_HeatOut" xml:space="preserve">
+    <value>散到房间里的热</value>
+  </data>
+  <data name="Heat_Obj_HotFlow" xml:space="preserve">
+    <value>与热端交换的热</value>
+  </data>
+  <data name="Heat_Obj_HotSide" xml:space="preserve">
+    <value>热的一边</value>
+  </data>
+  <data name="Heat_Obj_IntakePort" xml:space="preserve">
+    <value>进气道</value>
+  </data>
+  <data name="Heat_Obj_Isotherm" xml:space="preserve">
+    <value>等温线</value>
+  </data>
+  <data name="Heat_Obj_Loop" xml:space="preserve">
+    <value>p-V 图上的循环</value>
+  </data>
+  <data name="Heat_Obj_Machine" xml:space="preserve">
+    <value>工作的气体</value>
+  </data>
+  <data name="Heat_Obj_Room" xml:space="preserve">
+    <value>室温</value>
+  </data>
+  <data name="Heat_Obj_Spark" xml:space="preserve">
+    <value>点火时刻</value>
+  </data>
+  <data name="Heat_Obj_Step0" xml:space="preserve">
+    <value>热端的等温过程</value>
+  </data>
+  <data name="Heat_Obj_Step1" xml:space="preserve">
+    <value>绝热过程（体积大的一侧）</value>
+  </data>
+  <data name="Heat_Obj_Step2" xml:space="preserve">
+    <value>冷端的等温过程</value>
+  </data>
+  <data name="Heat_Obj_Step3" xml:space="preserve">
+    <value>绝热过程（体积小的一侧）</value>
+  </data>
+  <data name="Heat_Obj_Work" xml:space="preserve">
+    <value>功</value>
+  </data>
+  <data name="Heat_Open" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="Heat_Option_Door" xml:space="preserve">
+    <value>打开门</value>
+  </data>
+  <data name="Heat_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Heat_Part_Camshaft" xml:space="preserve">
+    <value>凸轮轴</value>
+  </data>
+  <data name="Heat_Part_Coolant" xml:space="preserve">
+    <value>冷却液</value>
+  </data>
+  <data name="Heat_Part_Crank" xml:space="preserve">
+    <value>曲轴</value>
+  </data>
+  <data name="Heat_Part_ExhaustValve" xml:space="preserve">
+    <value>排气门</value>
+  </data>
+  <data name="Heat_Part_IntakeValve" xml:space="preserve">
+    <value>进气门</value>
+  </data>
+  <data name="Heat_Part_Oil" xml:space="preserve">
+    <value>机油</value>
+  </data>
+  <data name="Heat_Part_Piston" xml:space="preserve">
+    <value>活塞</value>
+  </data>
+  <data name="Heat_Part_Rod" xml:space="preserve">
+    <value>连杆</value>
+  </data>
+  <data name="Heat_Part_SparkPlug" xml:space="preserve">
+    <value>火花塞</value>
+  </data>
+  <data name="Heat_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Heat_Port_Exhaust" xml:space="preserve">
+    <value>→ 废气</value>
+  </data>
+  <data name="Heat_Port_Intake" xml:space="preserve">
+    <value>空气 + 汽油 →</value>
+  </data>
+  <data name="Heat_Preset_Caption" xml:space="preserve">
+    <value>真实的例子</value>
+  </data>
+  <data name="Heat_Preset_CarEngine" xml:space="preserve">
+    <value>汽车发动机</value>
+  </data>
+  <data name="Heat_Preset_Fridge" xml:space="preserve">
+    <value>冰箱</value>
+  </data>
+  <data name="Heat_Preset_HeatPump" xml:space="preserve">
+    <value>冬天的热泵</value>
+  </data>
+  <data name="Heat_Preset_PowerStation" xml:space="preserve">
+    <value>火电厂，567 °C 蒸汽</value>
+  </data>
+  <data name="Heat_Room" xml:space="preserve">
+    <value>室温</value>
+  </data>
+  <data name="Heat_Room_Normal" xml:space="preserve">
+    <value>平常 25 °C</value>
+  </data>
+  <data name="Heat_Room_Summer" xml:space="preserve">
+    <value>夏天 35 °C</value>
+  </data>
+  <data name="Heat_Room_Winter" xml:space="preserve">
+    <value>冬天 15 °C</value>
+  </data>
+  <data name="Heat_Rpm_Caption" xml:space="preserve">
+    <value>转速</value>
+  </data>
+  <data name="Heat_Rpm_Full" xml:space="preserve">
+    <value>满转 6000</value>
+  </data>
+  <data name="Heat_Rpm_Idle" xml:space="preserve">
+    <value>怠速 800</value>
+  </data>
+  <data name="Heat_Rpm_Road" xml:space="preserve">
+    <value>高速 3000</value>
+  </data>
+  <data name="Heat_Rpm_Town" xml:space="preserve">
+    <value>市区 2000</value>
+  </data>
+  <data name="Heat_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Heat_Shut" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Heat_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Heat_Stat_Boiling" xml:space="preserve">
+    <value>制冷剂沸腾</value>
+  </data>
+  <data name="Heat_Stat_Boiling_Value" xml:space="preserve">
+    <value>{0} °C，{1} bar</value>
+  </data>
+  <data name="Heat_Stat_CarnotCop" xml:space="preserve">
+    <value>最高系数</value>
+  </data>
+  <data name="Heat_Stat_CarnotEfficiency" xml:space="preserve">
+    <value>最高效率 1 − T冷/T热</value>
+  </data>
+  <data name="Heat_Stat_Condensing" xml:space="preserve">
+    <value>制冷剂凝结</value>
+  </data>
+  <data name="Heat_Stat_Condensing_Value" xml:space="preserve">
+    <value>{0} °C，{1} bar</value>
+  </data>
+  <data name="Heat_Stat_Cop" xml:space="preserve">
+    <value>制冷系数</value>
+  </data>
+  <data name="Heat_Stat_Cop_Value" xml:space="preserve">
+    <value>{0}（理想 {1}）</value>
+  </data>
+  <data name="Heat_Stat_Crank" xml:space="preserve">
+    <value>曲轴转角</value>
+  </data>
+  <data name="Heat_Stat_Daily" xml:space="preserve">
+    <value>耗电</value>
+  </data>
+  <data name="Heat_Stat_Daily_Value" xml:space="preserve">
+    <value>每天 {0} kWh，一年约 {1} kWh</value>
+  </data>
+  <data name="Heat_Stat_Duty" xml:space="preserve">
+    <value>压缩机运行</value>
+  </data>
+  <data name="Heat_Stat_Duty_Always" xml:space="preserve">
+    <value>一直在转，也跟不上</value>
+  </data>
+  <data name="Heat_Stat_Duty_Value" xml:space="preserve">
+    <value>{0}% 的时间，每小时约 {1} 分钟</value>
+  </data>
+  <data name="Heat_Stat_GasTemperature" xml:space="preserve">
+    <value>气体温度</value>
+  </data>
+  <data name="Heat_Stat_HeatOut" xml:space="preserve">
+    <value>热量账</value>
+  </data>
+  <data name="Heat_Stat_HeatOut_Value" xml:space="preserve">
+    <value>吸走 {0} W + 用电 {1} W = 放出 {2} W</value>
+  </data>
+  <data name="Heat_Stat_Inside" xml:space="preserve">
+    <value>里面</value>
+  </data>
+  <data name="Heat_Stat_Inside_Value" xml:space="preserve">
+    <value>冷藏 {0} °C，冷冻 {1} °C</value>
+  </data>
+  <data name="Heat_Stat_PerHundred" xml:space="preserve">
+    <value>每 100 份</value>
+  </data>
+  <data name="Heat_Stat_PerHundred_Engine" xml:space="preserve">
+    <value>吸进 100 份热，最多做 {0} 份功，至少放掉 {1} 份</value>
+  </data>
+  <data name="Heat_Stat_PerHundred_Fridge" xml:space="preserve">
+    <value>每耗 100 份功，最多从冷处抽走 {0} 份热，放到热处 {1} 份</value>
+  </data>
+  <data name="Heat_Stat_PerHundred_HeatPump" xml:space="preserve">
+    <value>每耗 100 份功，最多往屋里送 {0} 份热，其中 {1} 份取自室外</value>
+  </data>
+  <data name="Heat_Stat_Power" xml:space="preserve">
+    <value>功率</value>
+  </data>
+  <data name="Heat_Stat_Power_Value" xml:space="preserve">
+    <value>{0} 转/分时 {1} kW（四缸）</value>
+  </data>
+  <data name="Heat_Stat_Pressure" xml:space="preserve">
+    <value>气体压强</value>
+  </data>
+  <data name="Heat_Stat_Ratio" xml:space="preserve">
+    <value>冷热之比</value>
+  </data>
+  <data name="Heat_Stat_Ratio_Value" xml:space="preserve">
+    <value>T冷 ÷ T热 = {0}</value>
+  </data>
+  <data name="Heat_Stat_Slowdown" xml:space="preserve">
+    <value>慢放</value>
+  </data>
+  <data name="Heat_Stat_Slowdown_Value" xml:space="preserve">
+    <value>实际每秒 {0} 个循环，这里慢了约 {1} 倍</value>
+  </data>
+  <data name="Heat_Stat_Stroke" xml:space="preserve">
+    <value>冲程</value>
+  </data>
+  <data name="Heat_Stat_Stroke_Value" xml:space="preserve">
+    <value>第 {0} 冲程：{1}</value>
+  </data>
+  <data name="Heat_Stat_Temperature" xml:space="preserve">
+    <value>气体温度</value>
+  </data>
+  <data name="Heat_Stat_Volume" xml:space="preserve">
+    <value>活塞上方的容积</value>
+  </data>
+  <data name="Heat_Stat_Work" xml:space="preserve">
+    <value>每循环做功</value>
+  </data>
+  <data name="Heat_Stat_Work_Value" xml:space="preserve">
+    <value>{0} J（平均有效压强 {1} bar）</value>
+  </data>
+  <data name="Heat_Stroke_Compression" xml:space="preserve">
+    <value>压缩</value>
+  </data>
+  <data name="Heat_Stroke_Exhaust" xml:space="preserve">
+    <value>排气</value>
+  </data>
+  <data name="Heat_Stroke_Intake" xml:space="preserve">
+    <value>进气</value>
+  </data>
+  <data name="Heat_Stroke_Power" xml:space="preserve">
+    <value>做功</value>
+  </data>
+  <data name="Heat_Timeline_Cycle" xml:space="preserve">
+    <value>循环的四步</value>
+  </data>
+  <data name="Heat_Timeline_Engine" xml:space="preserve">
+    <value>曲轴转角（两圈一个循环）</value>
+  </data>
+  <data name="Heat_Title" xml:space="preserve">
+    <value>发动机与冰箱</value>
+  </data>
   <data name="Hole_Chart_Barrier" xml:space="preserve">
     <value>山顶</value>
   </data>
@@ -10664,6 +11429,213 @@
   </data>
   <data name="Narr_Green_Planet_10" xml:space="preserve">
     <value>轮到你了。拖动二氧化碳的滑块，或者把温室气体拿掉，看看地面温度怎样慢慢变到新的平衡。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_01" xml:space="preserve">
+    <value>所有热机的原理都一样：热量从热的地方流向冷的地方，中间的机器把其中一部分变成功。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_02" xml:space="preserve">
+    <value>这里的机器是气缸里的一团气体。它贴着热的一边时，吸收热量、膨胀，把活塞往上推，这一推就是功。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_03" xml:space="preserve">
+    <value>可是要回到起点，气体还得再被压回去，这时它必须把一部分热交给冷的一边。在五百开和三百开之间，每吸进一百份热，至少有六十份要放掉。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_04" xml:space="preserve">
+    <value>那怎样才能让更多的热变成功呢？</value>
+  </data>
+  <data name="Narr_Heat_Cycle_05" xml:space="preserve">
+    <value>关键是拉大两边的温差。热电厂五百六十多度的蒸汽，理论上最多能把百分之六十四的热变成功；实际的电厂大约做到百分之四十到六十。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_06" xml:space="preserve">
+    <value>右边画的是气体的压强和体积。作为热机，它沿顺时针方向转一圈，圈里面的面积，就是每个循环做的功。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_07" xml:space="preserve">
+    <value>把同一个循环倒过来转，它就成了冰箱。现在是你输入功，把热从冷的里面抽出来，送到暖和的房间里。这里用 21 份功，就能从冷的一边搬走 79 份热。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_08" xml:space="preserve">
+    <value>热泵也是同一种机器，只不过用来给房子供暖。送进屋里的热，是你输入的功，加上从室外冷空气里抽来的热。理想情况下，这里只用 16 份功，就能往屋里送 100 份热。</value>
+  </data>
+  <data name="Narr_Heat_Cycle_09" xml:space="preserve">
+    <value>轮到你了。拖动热端和冷端的温度滑块，看看箭头和那个圈怎么变。两边温度靠近时，会发生什么？</value>
+  </data>
+  <data name="Narr_Heat_Engine_01" xml:space="preserve">
+    <value>这是汽车发动机的一个气缸，从中间剖开。它靠四个冲程工作。第一个是进气：活塞往下走，进气门打开，空气和汽油的混合气被吸进来。</value>
+  </data>
+  <data name="Narr_Heat_Engine_02" xml:space="preserve">
+    <value>是谁在恰好的时候把气门打开？是上面的凸轮轴。它的转速是曲轴的一半，凸起的那一块把气门往下顶，转过去以后，弹簧再把气门关上。</value>
+  </data>
+  <data name="Narr_Heat_Engine_03" xml:space="preserve">
+    <value>第二个是压缩。两个气门都关着，活塞往上走，把混合气压到原来的十分之一左右。气体被压缩就会变热：活塞快到顶的时候，它已经超过五百度了。</value>
+  </data>
+  <data name="Narr_Heat_Engine_04" xml:space="preserve">
+    <value>混合气被压得紧紧的，这时火花塞点火了。你觉得会发生什么？</value>
+  </data>
+  <data name="Narr_Heat_Engine_05" xml:space="preserve">
+    <value>它会瞬间燃烧。活塞快到顶时，火花塞的间隙里跳出一个电火花，火焰从这里向四周扩散。几毫秒之内，气体就超过两千度，压强猛地升高。</value>
+  </data>
+  <data name="Narr_Heat_Engine_06" xml:space="preserve">
+    <value>第三个是做功冲程。高温高压的燃气用力把活塞往下推。四个冲程里，只有这一个在对外做功。</value>
+  </data>
+  <data name="Narr_Heat_Engine_07" xml:space="preserve">
+    <value>连杆把这股推力传给曲轴，让它转起来，就像骑自行车时腿蹬着脚踏板转。曲轴转起来的惯性，再带着发动机走完另外三个冲程。</value>
+  </data>
+  <data name="Narr_Heat_Engine_08" xml:space="preserve">
+    <value>第四个是排气。排气门打开，往上走的活塞把废气推出去。废气还有七百度左右，这些热量就这样随着排气跑掉了。</value>
+  </data>
+  <data name="Narr_Heat_Engine_09" xml:space="preserve">
+    <value>还有一部分热传进气缸壁，被冷却液带到散热器散掉。算下来，燃料的能量只有大约三分之一真正用来推动汽车。</value>
+  </data>
+  <data name="Narr_Heat_Engine_10" xml:space="preserve">
+    <value>让它转起来。表盘显示整个循环：曲轴转两圈，完成四个冲程。在高速上，每分钟三千转时，每个气缸每秒要完成二十五个这样的循环。</value>
+  </data>
+  <data name="Narr_Heat_Engine_11" xml:space="preserve">
+    <value>轮到你了。在画面上左右拖动，用手转动曲轴；或者点表盘上的某个冲程，直接跳过去。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_01" xml:space="preserve">
+    <value>冰箱并不制造冷，它是把热从里面搬到外面。先看冷冻室后壁里的蒸发器：制冷剂在这里大约零下二十五度就沸腾了，同时吸走食物里的热。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_02" xml:space="preserve">
+    <value>蒸气流到下面那个黑色圆顶的压缩机。压缩机用电把蒸气压紧，蒸气就变热了，比厨房还热。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_03" xml:space="preserve">
+    <value>从压缩机出来的蒸气比房间还热。你觉得，它在冰箱背后的管子里会怎么样？</value>
+  </data>
+  <data name="Narr_Heat_Fridge_04" xml:space="preserve">
+    <value>它把热散给房间。在背后的冷凝器里，热蒸气冷却到四十度左右，重新凝结成液体。所以摸冰箱背后会觉得热乎乎的。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_05" xml:space="preserve">
+    <value>接着液体挤过毛细管，一根又长又细、比吸管还细的管子。压强一下子降低，它就开始沸腾，温度降到零下很多度，又可以回冷冻室吸热了。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_06" xml:space="preserve">
+    <value>所以从背后散出去的，是从里面搬出来的全部热量，再加上压缩机用的电。这里是从里面吸走 110 瓦，再加上用电 64 瓦。所以冰箱总会让厨房稍微变暖一点。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_07" xml:space="preserve">
+    <value>如果门一直开着呢？冷空气从下面流出去，热空气从上面灌进来，压缩机只好一直转个不停，耗电量翻了一倍还多。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_08" xml:space="preserve">
+    <value>夏天房间到了三十五度，冷凝器得更热才能把热散出去。压缩机更费劲，转的时间也更长，耗电量比平时多出一半左右。</value>
+  </data>
+  <data name="Narr_Heat_Fridge_09" xml:space="preserve">
+    <value>轮到你了。点一下冰箱门把它打开或关上，或者改一改室温，看看热量箭头和数字怎么变。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Camshaft" xml:space="preserve">
+    <value>凸轮轴由皮带或链条带动，转速正好是曲轴的一半。每个凸起在曲轴转两圈时把一个气门顶开一次，时间分毫不差。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Capillary" xml:space="preserve">
+    <value>毛细管是几米长、比吸管还细的管子。液体挤过它以后压强降低，这样到了蒸发器里，就能在很低的温度下沸腾。</value>
+  </data>
+  <data name="Narr_Heat_Obj_ColdFlow" xml:space="preserve">
+    <value>机器和冷的一边之间流动的热。作为热机，这是不得不扔掉的热；作为冰箱，这是从冷的里面抽出来的热。</value>
+  </data>
+  <data name="Narr_Heat_Obj_ColdSide" xml:space="preserve">
+    <value>冷的一边。对热机来说是周围的空气或河水；对冰箱来说是冰箱里面；对热泵来说是室外的冷空气。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Compressor" xml:space="preserve">
+    <value>压缩机是冰箱里唯一会动的部件。它的电机把制冷剂蒸气压缩，压强和温度都升高，这样才能把热散给房间。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Condenser" xml:space="preserve">
+    <value>冷凝器就是背后那片管子。热的制冷剂在这里把热散给房间的空气，凝结成液体。所以冰箱背后要留点空，让它散热。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Coolant" xml:space="preserve">
+    <value>冷却液在气缸周围的水道里流动，把热带到散热器。没有它，气缸壁很快就会热到把发动机烧坏。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Crank" xml:space="preserve">
+    <value>曲轴把活塞的推力变成转动，再传给变速箱和车轮。曲柄对面那块沉重的配重，让它转得平稳。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Dial" xml:space="preserve">
+    <value>这个表盘就是整个四冲程循环，绕表盘一圈，曲轴转两圈。小刻度标出气门开关的时刻，圆点标出点火的时刻。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Door" xml:space="preserve">
+    <value>门上的橡胶密封条把热空气挡在外面。每开一次门，冷空气就从下面流出去，温暖潮湿的空气补进来，冰箱又得重新把它冷却。点一下可以开门或关门。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Evaporator" xml:space="preserve">
+    <value>蒸发器藏在冷冻室的后壁里。制冷剂在里面大约零下二十五度沸腾，沸腾要吸收大量的热，里面就是这样被冷却的。</value>
+  </data>
+  <data name="Narr_Heat_Obj_ExhaustPort" xml:space="preserve">
+    <value>燃烧过的废气从这条排气道出去，流向排气管。很多车上它会先吹动涡轮增压器，把废气里的一部分能量再利用起来。</value>
+  </data>
+  <data name="Narr_Heat_Obj_ExhaustValve" xml:space="preserve">
+    <value>排气门在做功冲程快结束时打开，活塞往上推废气时一直开着。它被烧得很热，所以常用耐高温的特殊钢材制成。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Freezer" xml:space="preserve">
+    <value>冷冻室保持在零下十八度左右，冷到几乎所有细菌都停止生长，食物能放好几个月。</value>
+  </data>
+  <data name="Narr_Heat_Obj_FridgeInside" xml:space="preserve">
+    <value>冷藏室保持在四度左右：冷到能让细菌长得很慢，又不至于把食物冻住。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Gas" xml:space="preserve">
+    <value>气缸里的气体，颜色代表温度：新鲜混合气是凉的蓝色，燃烧后变成发亮的橙黄色。旁边的读数是它此刻的压强和温度。</value>
+  </data>
+  <data name="Narr_Heat_Obj_HeatOut" xml:space="preserve">
+    <value>散到房间里的热：从里面搬出来的全部热量，再加上压缩机用的电。冰箱放出的热，总比它吸进的多。</value>
+  </data>
+  <data name="Narr_Heat_Obj_HotFlow" xml:space="preserve">
+    <value>热的一边和机器之间流动的热，这里定为 100 份。作为热机时它流进机器；作为冰箱或热泵时，它从机器流出去。</value>
+  </data>
+  <data name="Narr_Heat_Obj_HotSide" xml:space="preserve">
+    <value>热的一边。对热机来说是燃烧的燃料或锅炉；对冰箱来说是房间；对热泵来说是屋里。这里的温度用开尔文，从绝对零度算起。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Insulation" xml:space="preserve">
+    <value>冰箱壁里填满了厚厚的泡沫，它让房间里的热漏进来得慢一些，压缩机就不用一直转。</value>
+  </data>
+  <data name="Narr_Heat_Obj_IntakePort" xml:space="preserve">
+    <value>空气和雾状的汽油从这条进气道进来。它弯得很顺滑，让混合气旋转着进入气缸，烧得更均匀。</value>
+  </data>
+  <data name="Narr_Heat_Obj_IntakeValve" xml:space="preserve">
+    <value>进气门在进气冲程打开，让空气和汽油进来，其余三个冲程都紧紧关着。它由凸轮轴顶开，靠弹簧关上。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Isotherm" xml:space="preserve">
+    <value>等温线是温度不变的曲线：沿着它，压强乘体积保持不变。这个循环一段沿着热端的等温线走，一段沿着冷端的等温线走。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Loop" xml:space="preserve">
+    <value>压强-体积图上的这个圈。转一圈就是一个循环，圈住的面积就是功：顺时针转是热机，对外做功；逆时针转，就要输入功。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Machine" xml:space="preserve">
+    <value>这台机器就是一个带活塞的气缸，里面装着气体。它时而贴着热的一边，时而贴着冷的一边，时而两边都隔开，一遍又一遍地重复同样的四步。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Oil" xml:space="preserve">
+    <value>油底壳里的机油被溅起、被泵送到每个运动部件上，让金属在一层薄薄的油膜上滑动，而不是硬磨。它也帮着带走热量。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Piston" xml:space="preserve">
+    <value>活塞在气缸里上下滑动。它周围的活塞环把上面的气体封住，也把下面的机油挡住。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Rod" xml:space="preserve">
+    <value>连杆把活塞和曲轴连起来，把活塞的上下运动变成曲轴的转动，就像腿蹬自行车的脚踏板。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Room" xml:space="preserve">
+    <value>这是房间的温度。房间越热，漏进冰箱的热越多，冷凝器也得更热才能散热，所以冰箱更费电。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Spark" xml:space="preserve">
+    <value>点火在活塞到顶前大约二十度曲轴转角。火焰扩散需要一点时间，提前点火，压强才会正好在活塞开始下行时达到最高。</value>
+  </data>
+  <data name="Narr_Heat_Obj_SparkPlug" xml:space="preserve">
+    <value>火花塞在不到一毫米的间隙上打出几万伏的电火花。它在活塞到顶之前一点点火，好让火焰有时间扩散开。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step0" xml:space="preserve">
+    <value>这一步里，气体保持热端的温度。作为热机，气体在这里膨胀、吸热；倒过来转时，它在这里被压缩、放热。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step1" xml:space="preserve">
+    <value>这一步气体是隔热的，热量不进也不出。作为热机，它继续膨胀，把自己冷却到冷端的温度；倒过来时，它被压缩，升温到比热端还热。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step2" xml:space="preserve">
+    <value>这一步里，气体保持冷端的温度。作为热机，它在这里被压缩，向冷的一边放热；作为冰箱，它在这里膨胀，从冷的一边吸热。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step3" xml:space="preserve">
+    <value>又是隔热的一步。作为热机，压缩让气体升温回到热端的温度，准备重新开始；倒过来时，它膨胀降温，变得比冷端还冷。</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokeCompression" xml:space="preserve">
+    <value>压缩冲程：两个气门都关着，活塞往上走，把混合气压到原来体积的十分之一左右，同时让它升温。</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokeExhaust" xml:space="preserve">
+    <value>排气冲程：排气门打开，往上走的活塞把废气推出去，给下一次的新鲜混合气腾出地方。</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokeIntake" xml:space="preserve">
+    <value>进气冲程：进气门打开，活塞往下走，吸进新鲜的空气和汽油。</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokePower" xml:space="preserve">
+    <value>做功冲程：燃烧的气体把活塞往下推。只有这个冲程对外做功，其他三个冲程都要消耗一点功。</value>
+  </data>
+  <data name="Narr_Heat_Obj_Work" xml:space="preserve">
+    <value>功：作为热机，是机器输出、用来转动轮子的功；作为冰箱或热泵，是你输入的电。能量总是守恒的：一边的热，等于功加上另一边的热。</value>
   </data>
   <data name="Narr_Hole_Lensing_01" xml:space="preserve">
     <value>现在我们离得非常远。一个黑洞正从一个遥远的星系前面漂过。黑洞本身小得根本看不见，但请注意它对身后射来的光做了什么。</value>
@@ -26921,5 +27893,17 @@
   </data>
   <data name="Window_Minimize" xml:space="preserve">
     <value>最小化</value>
+  </data>
+  <data name="Heat_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Heat_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Heat_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Heat_Speed_Two" xml:space="preserve">
+    <value>2×</value>
   </data>
 </root>

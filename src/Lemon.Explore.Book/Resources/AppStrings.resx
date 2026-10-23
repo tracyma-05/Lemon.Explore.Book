@@ -5148,6 +5148,771 @@
   <data name="Green_World_Venus" xml:space="preserve">
     <value>Venus</value>
   </data>
+  <data name="Heat_Chart_Eff_Caption" xml:space="preserve">
+    <value>How much of the fuel's heat becomes work</value>
+  </data>
+  <data name="Heat_Chart_Eff_Model" xml:space="preserve">
+    <value>This page's engine</value>
+  </data>
+  <data name="Heat_Chart_Eff_Note" xml:space="preserve">
+    <value>The ideal value depends only on the compression ratio: η = 1 − r^(−0.4). A real engine also loses to the time the burning takes, the early exhaust, the cooled walls and friction; about 30% reaches the wheels.</value>
+  </data>
+  <data name="Heat_Chart_Eff_Otto" xml:space="preserve">
+    <value>Ideal Otto cycle</value>
+  </data>
+  <data name="Heat_Chart_Eff_Walls" xml:space="preserve">
+    <value>Less wall cooling (typical)</value>
+  </data>
+  <data name="Heat_Chart_Eff_Wheels" xml:space="preserve">
+    <value>Less friction (typical)</value>
+  </data>
+  <data name="Heat_Chart_Energy_Caption" xml:space="preserve">
+    <value>Electricity a day against the room's temperature</value>
+  </data>
+  <data name="Heat_Chart_Energy_Closed" xml:space="preserve">
+    <value>door shut</value>
+  </data>
+  <data name="Heat_Chart_Energy_Note" xml:space="preserve">
+    <value>In a warmer room more heat seeps into the cabinet, so the compressor runs longer; and the condenser has to be hotter to get rid of it, so each unit of electricity moves less heat.</value>
+  </data>
+  <data name="Heat_Chart_Energy_Now" xml:space="preserve">
+    <value>{0} kWh a day</value>
+  </data>
+  <data name="Heat_Chart_Energy_Open" xml:space="preserve">
+    <value>door open: {0} kWh a day</value>
+  </data>
+  <data name="Heat_Chart_Limit_Caption" xml:space="preserve">
+    <value>The limits between these two temperatures</value>
+  </data>
+  <data name="Heat_Chart_Limit_Engine" xml:space="preserve">
+    <value>Best engine efficiency</value>
+  </data>
+  <data name="Heat_Chart_Limit_Fridge" xml:space="preserve">
+    <value>Best fridge coefficient</value>
+  </data>
+  <data name="Heat_Chart_Limit_HeatPump" xml:space="preserve">
+    <value>Best heat pump coefficient</value>
+  </data>
+  <data name="Heat_Chart_Limit_Note" xml:space="preserve">
+    <value>Carnot showed in 1824 that no machine working between two temperatures can beat these. Real ones: car engines 30–40%, the best gas-and-steam power stations about 60%, fridges a coefficient of 1.5–2, air-source heat pumps 2.5–4 in winter.</value>
+  </data>
+  <data name="Heat_Chart_Loop_Caption" xml:space="preserve">
+    <value>The refrigerant's temperature round the loop</value>
+  </data>
+  <data name="Heat_Chart_Loop_Freezer" xml:space="preserve">
+    <value>freezer {0} °C</value>
+  </data>
+  <data name="Heat_Chart_Loop_High" xml:space="preserve">
+    <value>high side {0} bar</value>
+  </data>
+  <data name="Heat_Chart_Loop_Low" xml:space="preserve">
+    <value>low side {0} bar</value>
+  </data>
+  <data name="Heat_Chart_Loop_Note" xml:space="preserve">
+    <value>Heat only flows from hot to cold. So in the condenser the refrigerant has to be hotter than the room (red), and in the evaporator colder than the freezer (blue). The compressor and the capillary tube make it so.</value>
+  </data>
+  <data name="Heat_Chart_Loop_Room" xml:space="preserve">
+    <value>room {0} °C</value>
+  </data>
+  <data name="Heat_Chart_Pv_Caption" xml:space="preserve">
+    <value>Pressure against volume (indicator diagram)</value>
+  </data>
+  <data name="Heat_Chart_Pv_Note" xml:space="preserve">
+    <value>From the spark until the exhaust valve opens, the gas pushes the piston and does work: the area inside the loop is the work of one cycle. The thin loop along the bottom is breathing in and out, which costs a little.</value>
+  </data>
+  <data name="Heat_Chart_Pv_Spark" xml:space="preserve">
+    <value>spark</value>
+  </data>
+  <data name="Heat_Chart_Pv_Work" xml:space="preserve">
+    <value>area = work</value>
+  </data>
+  <data name="Heat_Cold" xml:space="preserve">
+    <value>Cold side</value>
+  </data>
+  <data name="Heat_Compression" xml:space="preserve">
+    <value>Compression ratio</value>
+  </data>
+  <data name="Heat_Compression_Hint" xml:space="preserve">
+    <value>Squeeze harder and the same fuel does more work; too hard and it knocks. Petrol engines use 9–13.</value>
+  </data>
+  <data name="Heat_Compression_Reset" xml:space="preserve">
+    <value>Back to 10.5</value>
+  </data>
+  <data name="Heat_Cycle_Area_Work" xml:space="preserve">
+    <value>area inside = work out each cycle</value>
+  </data>
+  <data name="Heat_Cycle_Area_WorkIn" xml:space="preserve">
+    <value>area inside = work put in each cycle</value>
+  </data>
+  <data name="Heat_Cycle_Axis_Pressure" xml:space="preserve">
+    <value>pressure p</value>
+  </data>
+  <data name="Heat_Cycle_Axis_Volume" xml:space="preserve">
+    <value>volume V</value>
+  </data>
+  <data name="Heat_Cycle_Clock" xml:space="preserve">
+    <value>{0}. {1}</value>
+  </data>
+  <data name="Heat_Cycle_Cold_Engine" xml:space="preserve">
+    <value>Cold sink (the air, a river)</value>
+  </data>
+  <data name="Heat_Cycle_Cold_Fridge" xml:space="preserve">
+    <value>Inside the fridge (to be cooled)</value>
+  </data>
+  <data name="Heat_Cycle_Cold_HeatPump" xml:space="preserve">
+    <value>Outdoors (cold winter air)</value>
+  </data>
+  <data name="Heat_Cycle_Contact_Cold" xml:space="preserve">
+    <value>touching the cold side</value>
+  </data>
+  <data name="Heat_Cycle_Contact_Hot" xml:space="preserve">
+    <value>touching the hot side</value>
+  </data>
+  <data name="Heat_Cycle_Contact_None" xml:space="preserve">
+    <value>insulated</value>
+  </data>
+  <data name="Heat_Cycle_Fact1" xml:space="preserve">
+    <value>In 1824 the 28-year-old French engineer Sadi Carnot showed that the best an engine can do depends only on the two temperatures: 1 − T cold / T hot, in kelvin.</value>
+  </data>
+  <data name="Heat_Cycle_Fact2" xml:space="preserve">
+    <value>That is why power stations push their steam hotter and hotter: steam at 567 °C (840 K) and cooling water at 27 °C give an ideal 64%; the best real coal plants reach about 45%.</value>
+  </data>
+  <data name="Heat_Cycle_Fact3" xml:space="preserve">
+    <value>A fridge and a heat pump are the same machine; what differs is which side is wanted. An air conditioner cools in summer and heats in winter by switching one valve so that the refrigerant goes round the other way.</value>
+  </data>
+  <data name="Heat_Cycle_Fact4" xml:space="preserve">
+    <value>A heat pump puts several times more heat into a house than the electricity it uses: the rest is drawn from the cold outdoor air. Energy is still conserved; the electricity only moves the heat.</value>
+  </data>
+  <data name="Heat_Cycle_Fact5" xml:space="preserve">
+    <value>The closer the two temperatures, the less an engine can do, but the easier a fridge or heat pump has it: with no difference at all an ideal heat pump's coefficient grows without limit. That is why heat pumps pay best in mild winters.</value>
+  </data>
+  <data name="Heat_Cycle_Flow_ColdIn" xml:space="preserve">
+    <value>heat taken in {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_ColdIn_Useful" xml:space="preserve">
+    <value>heat taken out {0} (the point)</value>
+  </data>
+  <data name="Heat_Cycle_Flow_ColdOut" xml:space="preserve">
+    <value>heat out {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_HotIn" xml:space="preserve">
+    <value>heat in {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_HotOut" xml:space="preserve">
+    <value>heat out {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_HotOut_Useful" xml:space="preserve">
+    <value>heat delivered {0} (the point)</value>
+  </data>
+  <data name="Heat_Cycle_Flow_WorkIn" xml:space="preserve">
+    <value>work in {0}</value>
+  </data>
+  <data name="Heat_Cycle_Flow_WorkOut" xml:space="preserve">
+    <value>work out {0}</value>
+  </data>
+  <data name="Heat_Cycle_Hot_Engine" xml:space="preserve">
+    <value>Hot source (burning fuel, a boiler)</value>
+  </data>
+  <data name="Heat_Cycle_Hot_Fridge" xml:space="preserve">
+    <value>The room (the warm side)</value>
+  </data>
+  <data name="Heat_Cycle_Hot_HeatPump" xml:space="preserve">
+    <value>Indoors (to be warmed)</value>
+  </data>
+  <data name="Heat_Cycle_Isotherm_Cold" xml:space="preserve">
+    <value>{0} K isotherm</value>
+  </data>
+  <data name="Heat_Cycle_Isotherm_Hot" xml:space="preserve">
+    <value>{0} K isotherm</value>
+  </data>
+  <data name="Heat_Cycle_Note" xml:space="preserve">
+    <value>The Carnot cycle of an ideal gas: two isothermal and two adiabatic steps, with no friction and no heat crossing a temperature gap. No real machine can do better.</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Backward" xml:space="preserve">
+    <value>Isothermal compression: gives heat to the hot side</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Backward_Description" xml:space="preserve">
+    <value>Touching the hot side, the squeezing goes on and the heat flows out into it. Heat out = heat taken in + work put in, which is why a fridge's back gives out more heat than it takes from the inside.</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Forward" xml:space="preserve">
+    <value>Isothermal expansion: takes heat in from the hot side</value>
+  </data>
+  <data name="Heat_Cycle_Step0_Forward_Description" xml:space="preserve">
+    <value>The gas touches the hot side. It expands, pushing the piston out and doing work, and takes in just as much heat from the hot side, so its temperature stays the same.</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Backward" xml:space="preserve">
+    <value>Adiabatic compression: hotter than the hot side</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Backward_Description" xml:space="preserve">
+    <value>Insulated, the gas is squeezed: the motor does work on it and it warms above the hot side, so that its heat can flow out. This is the compressor's job.</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Forward" xml:space="preserve">
+    <value>Adiabatic expansion: cools itself</value>
+  </data>
+  <data name="Heat_Cycle_Step1_Forward_Description" xml:space="preserve">
+    <value>Insulated now, the gas keeps expanding. It does the work out of its own energy, so it cools all the way down to the cold side's temperature.</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Backward" xml:space="preserve">
+    <value>Isothermal expansion: takes heat out of the cold side</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Backward_Description" xml:space="preserve">
+    <value>Touching the cold side, the gas expands and takes heat out of it. This is how a fridge makes its inside cold, and how a heat pump takes heat from the winter air.</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Forward" xml:space="preserve">
+    <value>Isothermal compression: gives heat to the cold side</value>
+  </data>
+  <data name="Heat_Cycle_Step2_Forward_Description" xml:space="preserve">
+    <value>Touching the cold side, the gas is squeezed. Squeezing would warm it, but the heat flows straight into the cold side. This heat given away is the loss no engine can avoid.</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Backward" xml:space="preserve">
+    <value>Adiabatic expansion: colder than the cold side</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Backward_Description" xml:space="preserve">
+    <value>Run backwards, the gas first expands with no heat going in or out. It gets colder than the cold side, so that heat will flow in from it by itself. A fridge's capillary tube does this job.</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Forward" xml:space="preserve">
+    <value>Adiabatic compression: warms back to the start</value>
+  </data>
+  <data name="Heat_Cycle_Step3_Forward_Description" xml:space="preserve">
+    <value>Insulated again, the squeezing warms the gas back to the hot side's temperature and the cycle is closed. Expanding while hot and squeezing while cold, it gets more work out than it puts in: the difference is the net work.</value>
+  </data>
+  <data name="Heat_Cycle_StepLabel" xml:space="preserve">
+    <value>{0}. {1}</value>
+  </data>
+  <data name="Heat_Cycle_Subtitle" xml:space="preserve">
+    <value>One cycle: forwards it is an engine, backwards a fridge</value>
+  </data>
+  <data name="Heat_Dial_Angle" xml:space="preserve">
+    <value>Crank {0}°</value>
+  </data>
+  <data name="Heat_Dial_Spark" xml:space="preserve">
+    <value>spark</value>
+  </data>
+  <data name="Heat_Dial_Stroke" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Heat_Dial_Turn" xml:space="preserve">
+    <value>turn {0} of 2</value>
+  </data>
+  <data name="Heat_Dial_Valve" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Heat_Direction_Caption" xml:space="preserve">
+    <value>What it does</value>
+  </data>
+  <data name="Heat_Direction_Engine" xml:space="preserve">
+    <value>Engine: heat → work</value>
+  </data>
+  <data name="Heat_Direction_Fridge" xml:space="preserve">
+    <value>Fridge: pumps heat out of the cold</value>
+  </data>
+  <data name="Heat_Direction_HeatPump" xml:space="preserve">
+    <value>Heat pump: pumps heat into the warm</value>
+  </data>
+  <data name="Heat_Engine_AltitudeNote" xml:space="preserve">
+    <value>{0} is about {1} m up: the air pressure is {2} hPa, {3}% of sea level's, so each intake stroke draws in that much less air and the engine gives that much less power.</value>
+  </data>
+  <data name="Heat_Engine_Burning_Description" xml:space="preserve">
+    <value>About 20° before the top the plug sparks. The flame front races outwards at tens of metres a second and has burned the charge within about 50° of the crank. The gas heats to over 2000 °C and the pressure leaps past 50 bar.</value>
+  </data>
+  <data name="Heat_Engine_Burning_Title" xml:space="preserve">
+    <value>The spark: a flame spreads out from the middle</value>
+  </data>
+  <data name="Heat_Engine_Clock" xml:space="preserve">
+    <value>{0} {1} · {2}°</value>
+  </data>
+  <data name="Heat_Engine_Compression_Description" xml:space="preserve">
+    <value>The piston squeezes the mixture into about a tenth of its space. Squeezed gas gets hot: by the spark it is already near 350 °C at about 14 bar. The harder it is squeezed, the more work the burning will give.</value>
+  </data>
+  <data name="Heat_Engine_Compression_Title" xml:space="preserve">
+    <value>2 Compression: both valves shut, the piston goes up</value>
+  </data>
+  <data name="Heat_Engine_Exhaust_Description" xml:space="preserve">
+    <value>The exhaust valve opens before the power stroke ends, and most of the gas rushes out under its own pressure; the piston pushes out the rest. It is still at 700–800 °C: about a third of the fuel's energy leaves by the exhaust pipe.</value>
+  </data>
+  <data name="Heat_Engine_Exhaust_Title" xml:space="preserve">
+    <value>4 Exhaust: the exhaust valve opens, the piston pushes the gas out</value>
+  </data>
+  <data name="Heat_Engine_Fact1" xml:space="preserve">
+    <value>A car usually has four of these cylinders, firing in turn, so that one of them is on its power stroke every half turn of the crank. That is what makes it run smoothly.</value>
+  </data>
+  <data name="Heat_Engine_Fact2" xml:space="preserve">
+    <value>At 3000 rpm each cylinder fires 25 times a second; the piston averages about 9 m/s and stops and turns round 100 times a second.</value>
+  </data>
+  <data name="Heat_Engine_Fact3" xml:space="preserve">
+    <value>Nicolaus Otto built the first working four-stroke engine in 1876, so its ideal cycle is the Otto cycle. A diesel has no spark plug: it squeezes air to a sixteenth or twentieth, hot enough to light the diesel sprayed in.</value>
+  </data>
+  <data name="Heat_Engine_Fact4" xml:space="preserve">
+    <value>Roughly a third of the fuel's energy moves the car, a third is carried by the coolant to the radiator, and a third leaves with the exhaust.</value>
+  </data>
+  <data name="Heat_Engine_Fact5" xml:space="preserve">
+    <value>The higher up, the thinner the air: in Lhasa, 3650 m up, the pressure is about 64% of sea level's and an engine without a turbo gives about two thirds of its power. A turbocharger uses the exhaust to spin a turbine that blows more air into the cylinders.</value>
+  </data>
+  <data name="Heat_Engine_Intake_Description" xml:space="preserve">
+    <value>The intake valve is open. As the piston goes down it makes room in the cylinder, and the air outside, carrying a fine mist of petrol, is pushed in by the atmosphere. The pressure inside is a little below the outside's.</value>
+  </data>
+  <data name="Heat_Engine_Intake_Title" xml:space="preserve">
+    <value>1 Intake: the piston goes down, drawing in air and petrol</value>
+  </data>
+  <data name="Heat_Engine_Note" xml:space="preserve">
+    <value>One cylinder of a 2.0-litre four-cylinder petrol engine cut down the middle, to scale (86 mm bore and stroke). The gas's colour shows its temperature; pressures and temperatures come from a simplified model of the burning. Much slower than real.</value>
+  </data>
+  <data name="Heat_Engine_Power_Description" xml:space="preserve">
+    <value>The only stroke of the four that gives work out. The expanding gas pushes the piston, and the rod turns the crank; expanding, the gas cools and its pressure falls. The flywheel stores the push and carries the engine through the other three strokes.</value>
+  </data>
+  <data name="Heat_Engine_Power_Title" xml:space="preserve">
+    <value>3 Power: the hot gas drives the piston down</value>
+  </data>
+  <data name="Heat_Engine_Reading" xml:space="preserve">
+    <value>{0} bar · {1} °C</value>
+  </data>
+  <data name="Heat_Engine_Subtitle" xml:space="preserve">
+    <value>A four-stroke engine: in, squeeze, bang, out</value>
+  </data>
+  <data name="Heat_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Heat_Fridge_Clock" xml:space="preserve">
+    <value>room {0} °C</value>
+  </data>
+  <data name="Heat_Fridge_DoorOpen_Description" xml:space="preserve">
+    <value>Cold air is heavier: it spills out at the bottom of the doorway while warm room air comes in at the top. The compressor runs all the time and still cannot keep up. Nor does an open fridge cool the room: the back gives out more heat than the inside takes in.</value>
+  </data>
+  <data name="Heat_Fridge_DoorOpen_Title" xml:space="preserve">
+    <value>The door is open: cold air pours out</value>
+  </data>
+  <data name="Heat_Fridge_Fact1" xml:space="preserve">
+    <value>A fridge cannot make cold. It is a heat pump that carries the heat from inside to outside; cold is only less heat.</value>
+  </data>
+  <data name="Heat_Fridge_Fact2" xml:space="preserve">
+    <value>With 1 kWh of electricity this fridge carries about 6 MJ of heat out of the inside: enough to turn about 14 kg of water at 25 °C into ice at 0 °C.</value>
+  </data>
+  <data name="Heat_Fridge_Fact3" xml:space="preserve">
+    <value>At low pressure a refrigerant boils very cold: isobutane boils at −12 °C at normal air pressure, and at about −25 °C on the fridge's low side (0.6 bar). It is the same as water boiling below 100 °C on a high plateau, put to use.</value>
+  </data>
+  <data name="Heat_Fridge_Fact4" xml:space="preserve">
+    <value>Early fridges used CFCs ("freon"), which destroy the ozone layer; the Montreal Protocol of 1987 phased them out. Most household fridges now use isobutane, which harms no ozone and adds very little to global warming.</value>
+  </data>
+  <data name="Heat_Fridge_Fact5" xml:space="preserve">
+    <value>Leave a gap round a fridge: the condenser has to give its heat to the air. Pushed against a wall or beside a cooker, it uses noticeably more electricity.</value>
+  </data>
+  <data name="Heat_Fridge_Hot_Description" xml:space="preserve">
+    <value>The condenser has to be hotter than the room to lose its heat, so the compressor squeezes harder and each unit of electricity moves less heat; meanwhile more heat seeps in through the walls, so it runs longer. Do not box a fridge into an airless corner.</value>
+  </data>
+  <data name="Heat_Fridge_Hot_Title" xml:space="preserve">
+    <value>A hot room: the fridge works harder</value>
+  </data>
+  <data name="Heat_Fridge_Label_Capillary" xml:space="preserve">
+    <value>Capillary tube: pressure falls from {0} to {1} bar</value>
+  </data>
+  <data name="Heat_Fridge_Label_Compressor" xml:space="preserve">
+    <value>Compressor: vapour squeezed to {0} °C, {1} bar</value>
+  </data>
+  <data name="Heat_Fridge_Label_Condenser" xml:space="preserve">
+    <value>Condenser: turns to liquid at {0} °C</value>
+  </data>
+  <data name="Heat_Fridge_Label_Door" xml:space="preserve">
+    <value>Door (click to open)</value>
+  </data>
+  <data name="Heat_Fridge_Label_DoorOpen" xml:space="preserve">
+    <value>Door open (click to shut)</value>
+  </data>
+  <data name="Heat_Fridge_Label_Evaporator" xml:space="preserve">
+    <value>Evaporator: boils at {0} °C, {1} bar</value>
+  </data>
+  <data name="Heat_Fridge_Label_Hot" xml:space="preserve">
+    <value>Heat given out to the {0} °C room</value>
+  </data>
+  <data name="Heat_Fridge_Label_Insulation" xml:space="preserve">
+    <value>Foam insulation</value>
+  </data>
+  <data name="Heat_Fridge_Note" xml:space="preserve">
+    <value>A fridge-freezer cut open from the side, roughly to scale (1.8 m tall). The refrigerant is isobutane (R600a): hollow bubbles are vapour, solid drops are liquid, the colour is its temperature. The tubes' layout is a sketch.</value>
+  </data>
+  <data name="Heat_Fridge_Part_Capillary" xml:space="preserve">
+    <value>capillary</value>
+  </data>
+  <data name="Heat_Fridge_Part_Compressor" xml:space="preserve">
+    <value>compressor</value>
+  </data>
+  <data name="Heat_Fridge_Part_Condenser" xml:space="preserve">
+    <value>condenser</value>
+  </data>
+  <data name="Heat_Fridge_Part_Discharge" xml:space="preserve">
+    <value>discharge line</value>
+  </data>
+  <data name="Heat_Fridge_Part_Evaporator" xml:space="preserve">
+    <value>evaporator</value>
+  </data>
+  <data name="Heat_Fridge_Part_Suction" xml:space="preserve">
+    <value>suction line</value>
+  </data>
+  <data name="Heat_Fridge_Running_Description" xml:space="preserve">
+    <value>In the evaporator in the freezer's wall the refrigerant boils, taking heat from the food and the air. The compressor squeezes the vapour hot and sends it to the condenser on the back, where it gives the heat to the room and turns liquid. Through the thin capillary its pressure falls, it turns cold, and goes back to the evaporator. Feel the sides or back of a fridge: they are warm.</value>
+  </data>
+  <data name="Heat_Fridge_Running_Title" xml:space="preserve">
+    <value>The compressor is carrying heat out to the back</value>
+  </data>
+  <data name="Heat_Fridge_Subtitle" xml:space="preserve">
+    <value>A fridge does not make cold: it carries heat out round the back</value>
+  </data>
+  <data name="Heat_Hint_Cycle" xml:space="preserve">
+    <value>Drag left or right to move round the cycle</value>
+  </data>
+  <data name="Heat_Hint_Engine" xml:space="preserve">
+    <value>Drag left or right to turn the crank by hand</value>
+  </data>
+  <data name="Heat_Hint_Fridge" xml:space="preserve">
+    <value>Click the door to open or shut it</value>
+  </data>
+  <data name="Heat_Hot" xml:space="preserve">
+    <value>Hot side</value>
+  </data>
+  <data name="Heat_Jump_Caption" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="Heat_Jump_Spark" xml:space="preserve">
+    <value>Spark</value>
+  </data>
+  <data name="Heat_Lesson_Cycle_Choice1" xml:space="preserve">
+    <value>Make the hot side hotter, or the cold side colder</value>
+  </data>
+  <data name="Heat_Lesson_Cycle_Choice2" xml:space="preserve">
+    <value>Use a bigger cylinder</value>
+  </data>
+  <data name="Heat_Lesson_Cycle_Choice3" xml:space="preserve">
+    <value>Run it faster</value>
+  </data>
+  <data name="Heat_Lesson_Engine_Choice1" xml:space="preserve">
+    <value>It burns in an instant, and the pressure leaps</value>
+  </data>
+  <data name="Heat_Lesson_Engine_Choice2" xml:space="preserve">
+    <value>It cools down and shrinks</value>
+  </data>
+  <data name="Heat_Lesson_Engine_Choice3" xml:space="preserve">
+    <value>Nothing, until a valve opens</value>
+  </data>
+  <data name="Heat_Lesson_Fridge_Choice1" xml:space="preserve">
+    <value>It gives its heat to the room and turns liquid</value>
+  </data>
+  <data name="Heat_Lesson_Fridge_Choice2" xml:space="preserve">
+    <value>It takes in heat from the room</value>
+  </data>
+  <data name="Heat_Lesson_Fridge_Choice3" xml:space="preserve">
+    <value>It freezes solid</value>
+  </data>
+  <data name="Heat_Mode_Cycle" xml:space="preserve">
+    <value>Forwards and backwards</value>
+  </data>
+  <data name="Heat_Mode_Engine" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="Heat_Mode_Fridge" xml:space="preserve">
+    <value>Fridge</value>
+  </data>
+  <data name="Heat_Obj_Capillary" xml:space="preserve">
+    <value>Capillary tube</value>
+  </data>
+  <data name="Heat_Obj_ColdFlow" xml:space="preserve">
+    <value>Heat at the cold side</value>
+  </data>
+  <data name="Heat_Obj_ColdSide" xml:space="preserve">
+    <value>The cold side</value>
+  </data>
+  <data name="Heat_Obj_Compressor" xml:space="preserve">
+    <value>Compressor</value>
+  </data>
+  <data name="Heat_Obj_Condenser" xml:space="preserve">
+    <value>Condenser</value>
+  </data>
+  <data name="Heat_Obj_Dial" xml:space="preserve">
+    <value>The four-stroke dial</value>
+  </data>
+  <data name="Heat_Obj_Door" xml:space="preserve">
+    <value>The door</value>
+  </data>
+  <data name="Heat_Obj_Evaporator" xml:space="preserve">
+    <value>Evaporator</value>
+  </data>
+  <data name="Heat_Obj_ExhaustPort" xml:space="preserve">
+    <value>Exhaust port</value>
+  </data>
+  <data name="Heat_Obj_Freezer" xml:space="preserve">
+    <value>Freezer</value>
+  </data>
+  <data name="Heat_Obj_FridgeInside" xml:space="preserve">
+    <value>Fridge compartment</value>
+  </data>
+  <data name="Heat_Obj_Gas" xml:space="preserve">
+    <value>The gas in the cylinder</value>
+  </data>
+  <data name="Heat_Obj_HeatOut" xml:space="preserve">
+    <value>Heat given out</value>
+  </data>
+  <data name="Heat_Obj_HotFlow" xml:space="preserve">
+    <value>Heat at the hot side</value>
+  </data>
+  <data name="Heat_Obj_HotSide" xml:space="preserve">
+    <value>The hot side</value>
+  </data>
+  <data name="Heat_Obj_IntakePort" xml:space="preserve">
+    <value>Intake port</value>
+  </data>
+  <data name="Heat_Obj_Isotherm" xml:space="preserve">
+    <value>Isotherms</value>
+  </data>
+  <data name="Heat_Obj_Loop" xml:space="preserve">
+    <value>The loop on the p-V chart</value>
+  </data>
+  <data name="Heat_Obj_Machine" xml:space="preserve">
+    <value>The working gas</value>
+  </data>
+  <data name="Heat_Obj_Room" xml:space="preserve">
+    <value>Room temperature</value>
+  </data>
+  <data name="Heat_Obj_Spark" xml:space="preserve">
+    <value>Spark timing</value>
+  </data>
+  <data name="Heat_Obj_Step0" xml:space="preserve">
+    <value>Isothermal at the hot side</value>
+  </data>
+  <data name="Heat_Obj_Step1" xml:space="preserve">
+    <value>Adiabatic, at large volume</value>
+  </data>
+  <data name="Heat_Obj_Step2" xml:space="preserve">
+    <value>Isothermal at the cold side</value>
+  </data>
+  <data name="Heat_Obj_Step3" xml:space="preserve">
+    <value>Adiabatic, at small volume</value>
+  </data>
+  <data name="Heat_Obj_Work" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="Heat_Open" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="Heat_Option_Door" xml:space="preserve">
+    <value>Open the door</value>
+  </data>
+  <data name="Heat_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Heat_Part_Camshaft" xml:space="preserve">
+    <value>Camshaft</value>
+  </data>
+  <data name="Heat_Part_Coolant" xml:space="preserve">
+    <value>Coolant</value>
+  </data>
+  <data name="Heat_Part_Crank" xml:space="preserve">
+    <value>Crankshaft</value>
+  </data>
+  <data name="Heat_Part_ExhaustValve" xml:space="preserve">
+    <value>Exhaust valve</value>
+  </data>
+  <data name="Heat_Part_IntakeValve" xml:space="preserve">
+    <value>Intake valve</value>
+  </data>
+  <data name="Heat_Part_Oil" xml:space="preserve">
+    <value>Oil</value>
+  </data>
+  <data name="Heat_Part_Piston" xml:space="preserve">
+    <value>Piston</value>
+  </data>
+  <data name="Heat_Part_Rod" xml:space="preserve">
+    <value>Connecting rod</value>
+  </data>
+  <data name="Heat_Part_SparkPlug" xml:space="preserve">
+    <value>Spark plug</value>
+  </data>
+  <data name="Heat_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Heat_Port_Exhaust" xml:space="preserve">
+    <value>→ Exhaust</value>
+  </data>
+  <data name="Heat_Port_Intake" xml:space="preserve">
+    <value>Air + petrol →</value>
+  </data>
+  <data name="Heat_Preset_Caption" xml:space="preserve">
+    <value>Real pairs</value>
+  </data>
+  <data name="Heat_Preset_CarEngine" xml:space="preserve">
+    <value>Car engine</value>
+  </data>
+  <data name="Heat_Preset_Fridge" xml:space="preserve">
+    <value>Fridge</value>
+  </data>
+  <data name="Heat_Preset_HeatPump" xml:space="preserve">
+    <value>Heat pump in winter</value>
+  </data>
+  <data name="Heat_Preset_PowerStation" xml:space="preserve">
+    <value>Power station, 567 °C steam</value>
+  </data>
+  <data name="Heat_Room" xml:space="preserve">
+    <value>Room temperature</value>
+  </data>
+  <data name="Heat_Room_Normal" xml:space="preserve">
+    <value>Usual 25 °C</value>
+  </data>
+  <data name="Heat_Room_Summer" xml:space="preserve">
+    <value>Summer 35 °C</value>
+  </data>
+  <data name="Heat_Room_Winter" xml:space="preserve">
+    <value>Winter 15 °C</value>
+  </data>
+  <data name="Heat_Rpm_Caption" xml:space="preserve">
+    <value>Engine speed</value>
+  </data>
+  <data name="Heat_Rpm_Full" xml:space="preserve">
+    <value>Flat out 6000</value>
+  </data>
+  <data name="Heat_Rpm_Idle" xml:space="preserve">
+    <value>Idle 800</value>
+  </data>
+  <data name="Heat_Rpm_Road" xml:space="preserve">
+    <value>Motorway 3000</value>
+  </data>
+  <data name="Heat_Rpm_Town" xml:space="preserve">
+    <value>Town 2000</value>
+  </data>
+  <data name="Heat_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Heat_Shut" xml:space="preserve">
+    <value>shut</value>
+  </data>
+  <data name="Heat_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Heat_Stat_Boiling" xml:space="preserve">
+    <value>Refrigerant boils at</value>
+  </data>
+  <data name="Heat_Stat_Boiling_Value" xml:space="preserve">
+    <value>{0} °C, {1} bar</value>
+  </data>
+  <data name="Heat_Stat_CarnotCop" xml:space="preserve">
+    <value>Best coefficient</value>
+  </data>
+  <data name="Heat_Stat_CarnotEfficiency" xml:space="preserve">
+    <value>Best efficiency 1 − Tc/Th</value>
+  </data>
+  <data name="Heat_Stat_Condensing" xml:space="preserve">
+    <value>Refrigerant condenses at</value>
+  </data>
+  <data name="Heat_Stat_Condensing_Value" xml:space="preserve">
+    <value>{0} °C, {1} bar</value>
+  </data>
+  <data name="Heat_Stat_Cop" xml:space="preserve">
+    <value>Coefficient of performance</value>
+  </data>
+  <data name="Heat_Stat_Cop_Value" xml:space="preserve">
+    <value>{0} (ideal {1})</value>
+  </data>
+  <data name="Heat_Stat_Crank" xml:space="preserve">
+    <value>Crank angle</value>
+  </data>
+  <data name="Heat_Stat_Daily" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="Heat_Stat_Daily_Value" xml:space="preserve">
+    <value>{0} kWh a day, about {1} kWh a year</value>
+  </data>
+  <data name="Heat_Stat_Duty" xml:space="preserve">
+    <value>Compressor runs</value>
+  </data>
+  <data name="Heat_Stat_Duty_Always" xml:space="preserve">
+    <value>all the time, and still cannot keep up</value>
+  </data>
+  <data name="Heat_Stat_Duty_Value" xml:space="preserve">
+    <value>{0}% of the time, about {1} minutes an hour</value>
+  </data>
+  <data name="Heat_Stat_GasTemperature" xml:space="preserve">
+    <value>Gas temperature</value>
+  </data>
+  <data name="Heat_Stat_HeatOut" xml:space="preserve">
+    <value>Heat budget</value>
+  </data>
+  <data name="Heat_Stat_HeatOut_Value" xml:space="preserve">
+    <value>{0} W taken out + {1} W electricity = {2} W given out</value>
+  </data>
+  <data name="Heat_Stat_Inside" xml:space="preserve">
+    <value>Inside</value>
+  </data>
+  <data name="Heat_Stat_Inside_Value" xml:space="preserve">
+    <value>fridge {0} °C, freezer {1} °C</value>
+  </data>
+  <data name="Heat_Stat_PerHundred" xml:space="preserve">
+    <value>Per 100</value>
+  </data>
+  <data name="Heat_Stat_PerHundred_Engine" xml:space="preserve">
+    <value>of 100 units of heat taken in, at most {0} become work and at least {1} are given out</value>
+  </data>
+  <data name="Heat_Stat_PerHundred_Fridge" xml:space="preserve">
+    <value>for 100 units of work, up to {0} units of heat out of the cold side, {1} to the warm side</value>
+  </data>
+  <data name="Heat_Stat_PerHundred_HeatPump" xml:space="preserve">
+    <value>for 100 units of work, up to {0} units of heat delivered indoors, {1} of them from outside</value>
+  </data>
+  <data name="Heat_Stat_Power" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="Heat_Stat_Power_Value" xml:space="preserve">
+    <value>{1} kW at {0} rpm (four cylinders)</value>
+  </data>
+  <data name="Heat_Stat_Pressure" xml:space="preserve">
+    <value>Gas pressure</value>
+  </data>
+  <data name="Heat_Stat_Ratio" xml:space="preserve">
+    <value>Cold ÷ hot</value>
+  </data>
+  <data name="Heat_Stat_Ratio_Value" xml:space="preserve">
+    <value>T cold ÷ T hot = {0}</value>
+  </data>
+  <data name="Heat_Stat_Slowdown" xml:space="preserve">
+    <value>Slowed down</value>
+  </data>
+  <data name="Heat_Stat_Slowdown_Value" xml:space="preserve">
+    <value>really {0} cycles a second; shown about {1} times slower</value>
+  </data>
+  <data name="Heat_Stat_Stroke" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="Heat_Stat_Stroke_Value" xml:space="preserve">
+    <value>{0} of 4: {1}</value>
+  </data>
+  <data name="Heat_Stat_Temperature" xml:space="preserve">
+    <value>Gas temperature</value>
+  </data>
+  <data name="Heat_Stat_Volume" xml:space="preserve">
+    <value>Space above the piston</value>
+  </data>
+  <data name="Heat_Stat_Work" xml:space="preserve">
+    <value>Work per cycle</value>
+  </data>
+  <data name="Heat_Stat_Work_Value" xml:space="preserve">
+    <value>{0} J (mean effective pressure {1} bar)</value>
+  </data>
+  <data name="Heat_Stroke_Compression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="Heat_Stroke_Exhaust" xml:space="preserve">
+    <value>Exhaust</value>
+  </data>
+  <data name="Heat_Stroke_Intake" xml:space="preserve">
+    <value>Intake</value>
+  </data>
+  <data name="Heat_Stroke_Power" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="Heat_Timeline_Cycle" xml:space="preserve">
+    <value>The cycle's four steps</value>
+  </data>
+  <data name="Heat_Timeline_Engine" xml:space="preserve">
+    <value>Crank angle (a cycle is two turns)</value>
+  </data>
+  <data name="Heat_Title" xml:space="preserve">
+    <value>Engine and fridge</value>
+  </data>
   <data name="Hole_Chart_Barrier" xml:space="preserve">
     <value>top</value>
   </data>
@@ -10664,6 +11429,213 @@
   </data>
   <data name="Narr_Green_Planet_10" xml:space="preserve">
     <value>Your turn. Drag the carbon dioxide slider, or take the greenhouse gases away, and watch the ground's temperature settle.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_01" xml:space="preserve">
+    <value>Every heat engine works the same way. Heat flows from a hot place to a cold place, and a machine in between turns some of it into work.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_02" xml:space="preserve">
+    <value>Here the machine is a gas in a cylinder. While it touches the hot side, it takes in heat and expands, pushing the piston up. That push is the work.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_03" xml:space="preserve">
+    <value>But to get back to where it started, the gas has to be squeezed again, and on the way it must give some heat to the cold side. Between five hundred and three hundred kelvin, at least sixty of every hundred units of heat are given away.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_04" xml:space="preserve">
+    <value>So how could you turn more of the heat into work?</value>
+  </data>
+  <data name="Narr_Heat_Cycle_05" xml:space="preserve">
+    <value>Widen the gap between the temperatures. A power station's steam, at about five hundred and sixty degrees, could at best turn sixty-four percent of its heat into work. Real power stations manage roughly forty to sixty.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_06" xml:space="preserve">
+    <value>On the right, the gas's pressure is drawn against its volume. As an engine it goes round clockwise, and the area inside the loop is the work it does in each cycle.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_07" xml:space="preserve">
+    <value>Run the same cycle backwards, and it becomes a fridge. Now you put work in, and heat is pumped out of the cold inside, up to the warm room. Here, twenty-one units of work move seventy-nine units of heat out of the cold side.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_08" xml:space="preserve">
+    <value>A heat pump is the same machine, used to warm a house. It delivers the work you put in, plus the heat it draws from the cold outdoor air. Ideally, here a hundred units of heat come indoors for only sixteen units of work.</value>
+  </data>
+  <data name="Narr_Heat_Cycle_09" xml:space="preserve">
+    <value>Your turn. Drag the hot and cold temperature sliders, and watch how the arrows and the loop change. What happens when the two get close?</value>
+  </data>
+  <data name="Narr_Heat_Engine_01" xml:space="preserve">
+    <value>This is one cylinder of a car engine, cut open down the middle. It works in four strokes. First, intake: the piston moves down, the intake valve opens, and a mixture of air and petrol is drawn in.</value>
+  </data>
+  <data name="Narr_Heat_Engine_02" xml:space="preserve">
+    <value>Who opens the valve at just the right moment? The camshaft, up at the top. It turns at half the speed of the crank, and its egg-shaped lobe pushes the valve down, then lets the spring close it again.</value>
+  </data>
+  <data name="Narr_Heat_Engine_03" xml:space="preserve">
+    <value>Second, compression. Both valves are shut and the piston rises, squeezing the mixture into about a tenth of the space. Squeezing a gas heats it: by the time the piston nears the top, it's over five hundred degrees.</value>
+  </data>
+  <data name="Narr_Heat_Engine_04" xml:space="preserve">
+    <value>Now the mixture is squeezed tight, and the spark plug fires. What do you think happens?</value>
+  </data>
+  <data name="Narr_Heat_Engine_05" xml:space="preserve">
+    <value>It burns in an instant. Just before the top, a spark jumps across the plug's gap, and a flame spreads out from it. In a few thousandths of a second the gas is over two thousand degrees, and its pressure leaps.</value>
+  </data>
+  <data name="Narr_Heat_Engine_06" xml:space="preserve">
+    <value>Third, the power stroke. The hot, high-pressure gas pushes the piston down hard. This is the only one of the four strokes that does work.</value>
+  </data>
+  <data name="Narr_Heat_Engine_07" xml:space="preserve">
+    <value>The connecting rod passes that push on to the crankshaft and turns it, the way your legs turn a bicycle's pedals. The crank's momentum then carries the engine through the other three strokes.</value>
+  </data>
+  <data name="Narr_Heat_Engine_08" xml:space="preserve">
+    <value>Fourth, exhaust. The exhaust valve opens, and the rising piston pushes the spent gas out. It's still about seven hundred degrees hot, and that heat simply leaves with the exhaust.</value>
+  </data>
+  <data name="Narr_Heat_Engine_09" xml:space="preserve">
+    <value>More heat soaks into the cylinder walls, and the coolant carries it away to the radiator. Altogether, only about a third of the fuel's energy actually moves the car.</value>
+  </data>
+  <data name="Narr_Heat_Engine_10" xml:space="preserve">
+    <value>Let it run. The dial shows the whole cycle: four strokes in two turns of the crank. On the motorway, at three thousand rpm, each cylinder goes round this cycle twenty-five times every second.</value>
+  </data>
+  <data name="Narr_Heat_Engine_11" xml:space="preserve">
+    <value>Your turn. Drag sideways across the picture to turn the crank by hand, or click a stroke on the dial to jump to it.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_01" xml:space="preserve">
+    <value>A fridge doesn't make cold. It moves heat from inside to outside. It starts here, in the freezer's back wall: the evaporator. Inside it the refrigerant boils at about minus twenty-five degrees, soaking up heat from the food.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_02" xml:space="preserve">
+    <value>The vapour flows down to the compressor, the black dome at the bottom. The compressor runs on electricity and squeezes the vapour, which makes it hot: hotter than the kitchen.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_03" xml:space="preserve">
+    <value>The vapour leaving the compressor is hotter than the room. What do you think happens to it in the pipes at the back?</value>
+  </data>
+  <data name="Narr_Heat_Fridge_04" xml:space="preserve">
+    <value>It gives its heat to the room. In the condenser at the back, the hot vapour cools to about forty degrees and turns back into a liquid. That's why the back of a fridge feels warm.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_05" xml:space="preserve">
+    <value>The liquid then squeezes through the capillary tube, a long tube thinner than a straw. Its pressure drops, so it starts to boil and cools far below zero, ready to soak up heat in the freezer again.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_06" xml:space="preserve">
+    <value>So out at the back goes all the heat taken from inside, plus the compressor's electricity: here, a hundred and ten watts from inside and sixty-four from the plug. A fridge always warms the kitchen a little.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_07" xml:space="preserve">
+    <value>What if you leave the door open? Cold air spills out at the bottom, warm air pours in at the top, and the compressor has to run all the time. Its electricity use more than doubles.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_08" xml:space="preserve">
+    <value>On a hot summer day, at thirty-five degrees, the condenser has to get even hotter to shed its heat. The compressor works harder and runs longer, and the fridge uses about half as much electricity again.</value>
+  </data>
+  <data name="Narr_Heat_Fridge_09" xml:space="preserve">
+    <value>Your turn. Click the fridge door to open or shut it, or change the room's temperature, and watch the heat arrows and the numbers.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Camshaft" xml:space="preserve">
+    <value>The camshaft turns at exactly half the crank's speed, driven by a belt or a chain. Each egg-shaped lobe pushes one valve open once every two turns of the crank, at just the right moment.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Capillary" xml:space="preserve">
+    <value>The capillary tube is a few metres of tube, thinner than a straw. Squeezing through it, the liquid loses pressure, so it can boil at a very low temperature in the evaporator.</value>
+  </data>
+  <data name="Narr_Heat_Obj_ColdFlow" xml:space="preserve">
+    <value>The heat flowing between the machine and the cold side. As an engine, it's the heat that has to be thrown away; as a fridge, it's the heat pumped out of the cold inside.</value>
+  </data>
+  <data name="Narr_Heat_Obj_ColdSide" xml:space="preserve">
+    <value>The cold side. For an engine it's the surrounding air or a river; for a fridge, its inside; for a heat pump, the cold air outdoors.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Compressor" xml:space="preserve">
+    <value>The compressor is the fridge's only moving part. Its electric motor squeezes the refrigerant vapour, raising its pressure and its temperature, so that it can give heat to the room.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Condenser" xml:space="preserve">
+    <value>The condenser is the grid of pipes at the back. The hot refrigerant gives its heat to the room air here, and condenses into a liquid. Leave a gap behind the fridge so it can breathe.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Coolant" xml:space="preserve">
+    <value>Coolant flows through passages around the cylinder and carries heat away to the radiator. Without it, the cylinder walls would soon get hot enough to wreck the engine.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Crank" xml:space="preserve">
+    <value>The crankshaft turns the pistons' pushes into rotation, which goes on to the gearbox and the wheels. The heavy counterweight opposite the pin keeps it spinning smoothly.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Dial" xml:space="preserve">
+    <value>This dial is the whole four-stroke cycle: once round the dial is two turns of the crank. The ticks mark where the valves open and close, and the dot marks the spark.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Door" xml:space="preserve">
+    <value>The door's rubber seal keeps warm air out. Each time it opens, cold air spills out at the bottom and warm, moist air takes its place, which the fridge then has to cool again. Click it to open or shut it.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Evaporator" xml:space="preserve">
+    <value>The evaporator is hidden in the freezer's back wall. The refrigerant boils inside it at about minus twenty-five degrees, and boiling takes in a lot of heat. That's how the inside is cooled.</value>
+  </data>
+  <data name="Narr_Heat_Obj_ExhaustPort" xml:space="preserve">
+    <value>The burned gas leaves through this port, on its way to the exhaust pipe. In many cars it first spins a turbocharger, which puts some of the exhaust's energy back to use.</value>
+  </data>
+  <data name="Narr_Heat_Obj_ExhaustValve" xml:space="preserve">
+    <value>The exhaust valve opens near the end of the power stroke, and stays open while the piston pushes the burned gas out. It gets very hot, so it's often made of special heat-resistant steel.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Freezer" xml:space="preserve">
+    <value>The freezer is kept at about minus eighteen degrees: cold enough to stop almost all bacteria growing, and to keep food for months.</value>
+  </data>
+  <data name="Narr_Heat_Obj_FridgeInside" xml:space="preserve">
+    <value>The fridge compartment is kept at about four degrees: cold enough to slow bacteria right down, but not so cold that the food freezes.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Gas" xml:space="preserve">
+    <value>The gas in the cylinder, coloured by its temperature: blue for the cool fresh mixture, glowing orange and yellow once it burns. The reading beside it shows its pressure and temperature right now.</value>
+  </data>
+  <data name="Narr_Heat_Obj_HeatOut" xml:space="preserve">
+    <value>Heat given out to the room: everything taken from inside, plus the electricity the compressor uses. A fridge always gives out more heat than it takes in.</value>
+  </data>
+  <data name="Narr_Heat_Obj_HotFlow" xml:space="preserve">
+    <value>The heat flowing between the hot side and the machine, counted here as a hundred units. As an engine it flows in; as a fridge or a heat pump, it flows out.</value>
+  </data>
+  <data name="Narr_Heat_Obj_HotSide" xml:space="preserve">
+    <value>The hot side. For an engine it's burning fuel or a boiler; for a fridge, the room; for a heat pump, the inside of the house. Temperatures here are in kelvin, counted from absolute zero.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Insulation" xml:space="preserve">
+    <value>Thick foam fills the walls. It slows down the heat leaking in from the room, so the compressor doesn't have to run all the time.</value>
+  </data>
+  <data name="Narr_Heat_Obj_IntakePort" xml:space="preserve">
+    <value>Air and a fine mist of petrol come in through this port. Its smooth curve helps the mixture swirl into the cylinder, so it burns evenly.</value>
+  </data>
+  <data name="Narr_Heat_Obj_IntakeValve" xml:space="preserve">
+    <value>The intake valve opens during the intake stroke to let the air and petrol in, and stays shut tight for the other three strokes. The camshaft pushes it open, and its spring closes it.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Isotherm" xml:space="preserve">
+    <value>An isotherm is a curve of constant temperature: along it, pressure times volume stays the same. The cycle runs partly along the hot side's isotherm, and partly along the cold side's.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Loop" xml:space="preserve">
+    <value>The loop on the pressure-volume chart. Each trip round is one cycle, and the area it encloses is the work: given out going clockwise, as an engine, and put in going anticlockwise.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Machine" xml:space="preserve">
+    <value>The machine is just a gas in a cylinder with a piston. Touching the hot side, touching the cold side, or insulated from both, it goes round the same four steps again and again.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Oil" xml:space="preserve">
+    <value>Oil in the sump is splashed and pumped onto every moving part, so metal slides on a thin film of oil instead of grinding on metal. It also helps to carry heat away.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Piston" xml:space="preserve">
+    <value>The piston slides up and down inside the cylinder. The rings around it seal the gas in above, and keep the oil out below.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Rod" xml:space="preserve">
+    <value>The connecting rod links the piston to the crankshaft. It turns the piston's up-and-down motion into the crank's turning, much like a leg on a bicycle pedal.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Room" xml:space="preserve">
+    <value>The room's temperature. The warmer the room, the more heat leaks into the fridge, and the hotter the condenser must get to shed it, so the fridge uses more electricity.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Spark" xml:space="preserve">
+    <value>The spark comes about twenty degrees of crank before the top. The flame needs a moment to spread, so firing early means the pressure peaks just as the piston starts down.</value>
+  </data>
+  <data name="Narr_Heat_Obj_SparkPlug" xml:space="preserve">
+    <value>The spark plug makes a spark of tens of thousands of volts across a gap smaller than a millimetre. It fires just before the piston reaches the top, so the flame has time to spread.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step0" xml:space="preserve">
+    <value>This step keeps the gas at the hot side's temperature. As an engine, the gas expands here and takes in heat; run backwards, it's squeezed here and gives heat out.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step1" xml:space="preserve">
+    <value>Here the gas is insulated, so no heat comes in or goes out. As an engine it keeps expanding, and cools itself down to the cold side's temperature; run backwards, it's squeezed, and heats up past the hot side's.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step2" xml:space="preserve">
+    <value>This step keeps the gas at the cold side's temperature. As an engine, it's squeezed here and gives heat to the cold side; as a fridge, it expands here and takes heat out of the cold side.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Step3" xml:space="preserve">
+    <value>Insulated again. As an engine, squeezing the gas warms it back up to the hot side's temperature, ready to start again; run backwards, it expands, and cools below the cold side's.</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokeCompression" xml:space="preserve">
+    <value>The compression stroke: both valves are shut, and the piston rises and squeezes the mixture to about a tenth of its volume, heating it up.</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokeExhaust" xml:space="preserve">
+    <value>The exhaust stroke: the exhaust valve is open, and the rising piston pushes the burned gas out, making room for the next fresh charge.</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokeIntake" xml:space="preserve">
+    <value>The intake stroke: the piston moves down with the intake valve open, drawing in a fresh charge of air and petrol.</value>
+  </data>
+  <data name="Narr_Heat_Obj_StrokePower" xml:space="preserve">
+    <value>The power stroke: the burning gas pushes the piston down. It's the only stroke that gives out work; the other three each take a little.</value>
+  </data>
+  <data name="Narr_Heat_Obj_Work" xml:space="preserve">
+    <value>Work. As an engine, it's what the machine gives out to turn a wheel; as a fridge or a heat pump, it's the electricity you put in. The energy always adds up: the heat on one side equals the work plus the heat on the other.</value>
   </data>
   <data name="Narr_Hole_Lensing_01" xml:space="preserve">
     <value>Now we're very far away. A black hole is drifting in front of a distant galaxy. The hole itself is far too small to see. But watch what it does to the light coming from behind it.</value>
@@ -26921,5 +27893,17 @@
   </data>
   <data name="Window_Minimize" xml:space="preserve">
     <value>Minimize</value>
+  </data>
+  <data name="Heat_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Heat_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Heat_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Heat_Speed_Two" xml:space="preserve">
+    <value>2×</value>
   </data>
 </root>

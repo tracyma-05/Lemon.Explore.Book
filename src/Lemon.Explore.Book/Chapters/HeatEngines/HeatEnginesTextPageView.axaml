@@ -1,0 +1,245 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:heat="using:Lemon.Explore.Book.Chapters.HeatEngines"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.HeatEngines.HeatEnginesTextPageView"
+                         x:DataType="heat:HeatEnginesTextPageViewModel">
+    <!-- Left page of the Heat engines spread: the engine, the fridge or the cycle's settings, their charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Heat.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Heat.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Heat.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="HeatMode" IsChecked="{Binding Heat.IsEngine}" Content="{loc:Localize Heat_Mode_Engine}" />
+                    <RadioButton Classes="chip" GroupName="HeatMode" IsChecked="{Binding Heat.IsFridge}" Content="{loc:Localize Heat_Mode_Fridge}" />
+                    <RadioButton Classes="chip" GroupName="HeatMode" IsChecked="{Binding Heat.IsCycle}" Content="{loc:Localize Heat_Mode_Cycle}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Heat.Card}" />
+
+                <!-- The engine: where it breathes, how hard it squeezes, how fast it turns, a stroke to jump to -->
+                <StackPanel IsVisible="{Binding Heat.IsEngine}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Heat.Location}" />
+
+                    <DockPanel Margin="0,14,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Heat.CompressionRatioText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Heat_Compression}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="{Binding Heat.MinCompressionRatio}"
+                            Maximum="{Binding Heat.MaxCompressionRatio}"
+                            Value="{Binding Heat.CompressionRatio}"
+                            SmallChange="0.5"
+                            LargeChange="1"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="0.5"
+                            AutomationProperties.Name="{loc:Localize Heat_Compression}" />
+                    <DockPanel Margin="0,6,0,0">
+                        <Button DockPanel.Dock="Left" Classes="chip" VerticalAlignment="Top"
+                                Command="{Binding Heat.ResetCompressionCommand}" Content="{loc:Localize Heat_Compression_Reset}" />
+                        <SelectableTextBlock Classes="note" VerticalAlignment="Center" Text="{loc:Localize Heat_Compression_Hint}" />
+                    </DockPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Rpm_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="HeatRpm" IsChecked="{Binding Heat.RpmChoice[800]}" Content="{loc:Localize Heat_Rpm_Idle}" />
+                        <RadioButton Classes="chip" GroupName="HeatRpm" IsChecked="{Binding Heat.RpmChoice[2000]}" Content="{loc:Localize Heat_Rpm_Town}" />
+                        <RadioButton Classes="chip" GroupName="HeatRpm" IsChecked="{Binding Heat.RpmChoice[3000]}" Content="{loc:Localize Heat_Rpm_Road}" />
+                        <RadioButton Classes="chip" GroupName="HeatRpm" IsChecked="{Binding Heat.RpmChoice[6000]}" Content="{loc:Localize Heat_Rpm_Full}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Text="{Binding Heat.AltitudeNote}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Jump_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Heat.JumpToStrokeCommand}" CommandParameter="Intake" Content="{loc:Localize Heat_Stroke_Intake}" />
+                        <Button Classes="chip" Command="{Binding Heat.JumpToStrokeCommand}" CommandParameter="Compression" Content="{loc:Localize Heat_Stroke_Compression}" />
+                        <Button Classes="chip" Command="{Binding Heat.JumpToStrokeCommand}" CommandParameter="Spark" Content="{loc:Localize Heat_Jump_Spark}" />
+                        <Button Classes="chip" Command="{Binding Heat.JumpToStrokeCommand}" CommandParameter="Power" Content="{loc:Localize Heat_Stroke_Power}" />
+                        <Button Classes="chip" Command="{Binding Heat.JumpToStrokeCommand}" CommandParameter="Exhaust" Content="{loc:Localize Heat_Stroke_Exhaust}" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Heat.ShowLabels}" Content="{loc:Localize Heat_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Chart_Pv_Caption}" />
+                    <Border Classes="plate" Height="220">
+                        <heat:EnginePvChart Angle="{Binding Heat.Angle}" CompressionRatio="{Binding Heat.CompressionRatio}" Ambient="{Binding Heat.Ambient}"
+                                            AutomationProperties.Name="{loc:Localize Heat_Chart_Pv_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Heat_Chart_Pv_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Chart_Eff_Caption}" />
+                    <Border Classes="plate" Height="150">
+                        <heat:EfficiencyChart CompressionRatio="{Binding Heat.CompressionRatio}" AutomationProperties.Name="{loc:Localize Heat_Chart_Eff_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Heat_Chart_Eff_Note}" />
+                </StackPanel>
+
+                <!-- The fridge: the room, the door -->
+                <StackPanel IsVisible="{Binding Heat.IsFridge}">
+                    <DockPanel Margin="0,14,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Heat.RoomText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Heat_Room}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="10"
+                            Maximum="40"
+                            Value="{Binding Heat.Room}"
+                            SmallChange="1"
+                            LargeChange="5"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Heat_Room}" />
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Heat.SetRoomCommand}" CommandParameter="15" Content="{loc:Localize Heat_Room_Winter}" />
+                        <Button Classes="chip" Command="{Binding Heat.SetRoomCommand}" CommandParameter="25" Content="{loc:Localize Heat_Room_Normal}" />
+                        <Button Classes="chip" Command="{Binding Heat.SetRoomCommand}" CommandParameter="35" Content="{loc:Localize Heat_Room_Summer}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Heat.DoorOpen}" Content="{loc:Localize Heat_Option_Door}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Heat.ShowLabels}" Content="{loc:Localize Heat_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Chart_Loop_Caption}" />
+                    <Border Classes="plate" Height="230">
+                        <heat:FridgeLoopChart Room="{Binding Heat.Room}" AutomationProperties.Name="{loc:Localize Heat_Chart_Loop_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Heat_Chart_Loop_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Chart_Energy_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <heat:FridgeEnergyChart Room="{Binding Heat.Room}" DoorOpen="{Binding Heat.DoorOpen}" AutomationProperties.Name="{loc:Localize Heat_Chart_Energy_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Heat_Chart_Energy_Note}" />
+                </StackPanel>
+
+                <!-- The ideal cycle: which way, the two temperatures, real pairs -->
+                <StackPanel IsVisible="{Binding Heat.IsCycle}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Direction_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="HeatDirection" IsChecked="{Binding Heat.DirectionChoice[Engine]}" Content="{loc:Localize Heat_Direction_Engine}" />
+                        <RadioButton Classes="chip" GroupName="HeatDirection" IsChecked="{Binding Heat.DirectionChoice[Fridge]}" Content="{loc:Localize Heat_Direction_Fridge}" />
+                        <RadioButton Classes="chip" GroupName="HeatDirection" IsChecked="{Binding Heat.DirectionChoice[HeatPump]}" Content="{loc:Localize Heat_Direction_HeatPump}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,12,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Heat.HotText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Heat_Hot}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="260"
+                            Maximum="1000"
+                            Value="{Binding Heat.Hot}"
+                            SmallChange="5"
+                            LargeChange="50"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Heat_Hot}" />
+                    <DockPanel Margin="0,8,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Heat.ColdText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Heat_Cold}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="200"
+                            Maximum="400"
+                            Value="{Binding Heat.Cold}"
+                            SmallChange="5"
+                            LargeChange="20"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Heat_Cold}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Preset_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Heat.UsePresetCommand}" CommandParameter="PowerStation" Content="{loc:Localize Heat_Preset_PowerStation}" />
+                        <Button Classes="chip" Command="{Binding Heat.UsePresetCommand}" CommandParameter="CarEngine" Content="{loc:Localize Heat_Preset_CarEngine}" />
+                        <Button Classes="chip" Command="{Binding Heat.UsePresetCommand}" CommandParameter="Fridge" Content="{loc:Localize Heat_Preset_Fridge}" />
+                        <Button Classes="chip" Command="{Binding Heat.UsePresetCommand}" CommandParameter="HeatPump" Content="{loc:Localize Heat_Preset_HeatPump}" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Heat.ShowLabels}" Content="{loc:Localize Heat_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Chart_Limit_Caption}" />
+                    <Border Classes="plate" Height="120">
+                        <heat:CarnotLimitChart Hot="{Binding Heat.Hot}" Cold="{Binding Heat.Cold}" Direction="{Binding Heat.Direction}"
+                                               AutomationProperties.Name="{loc:Localize Heat_Chart_Limit_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Heat_Chart_Limit_Note}" />
+                </StackPanel>
+
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Heat.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Heat.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Heat.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Heat.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Heat_Facts}" />
+                <ItemsControl ItemsSource="{Binding Heat.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

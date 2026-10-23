@@ -7646,6 +7646,1185 @@
      ]
     ]
    },
+   "Narr_Heat_Cycle_01": {
+    "duration": 9.696,
+    "hash": "3c210104bc69aac4",
+    "sentences": [
+     [
+      0.05,
+      3.042,
+      "Every heat engine works the same way."
+     ],
+     [
+      3.042,
+      9.639,
+      "Heat flows from a hot place to a cold place, and a machine in between turns some of it into work."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_02": {
+    "duration": 10.848,
+    "hash": "f381fe28ce8a2bf1",
+    "sentences": [
+     [
+      0.05,
+      2.958,
+      "Here the machine is a gas in a cylinder."
+     ],
+     [
+      2.958,
+      9.069,
+      "While it touches the hot side, it takes in heat and expands, pushing the piston up."
+     ],
+     [
+      9.069,
+      10.792,
+      "That push is the work."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_03": {
+    "duration": 15.0,
+    "hash": "29ed0df072f7593a",
+    "sentences": [
+     [
+      0.05,
+      7.472,
+      "But to get back to where it started, the gas has to be squeezed again, and on the way it must give some heat to the cold side."
+     ],
+     [
+      7.472,
+      14.944,
+      "Between five hundred and three hundred kelvin, at least sixty of every hundred units of heat are given away."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_04": {
+    "duration": 3.336,
+    "hash": "92e54e60c2cb7443",
+    "sentences": [
+     [
+      0.05,
+      3.278,
+      "So how could you turn more of the heat into work?"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_05": {
+    "duration": 15.792,
+    "hash": "45dae6bcd0e7946f",
+    "sentences": [
+     [
+      0.05,
+      2.514,
+      "Widen the gap between the temperatures."
+     ],
+     [
+      2.514,
+      11.486,
+      "A power station's steam, at about five hundred and sixty degrees, could at best turn sixty-four percent of its heat into work."
+     ],
+     [
+      11.486,
+      15.736,
+      "Real power stations manage roughly forty to sixty."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_06": {
+    "duration": 11.112,
+    "hash": "0cee4639fc4269f4",
+    "sentences": [
+     [
+      0.05,
+      4.361,
+      "On the right, the gas's pressure is drawn against its volume."
+     ],
+     [
+      4.361,
+      11.042,
+      "As an engine it goes round clockwise, and the area inside the loop is the work it does in each cycle."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_07": {
+    "duration": 17.04,
+    "hash": "7c4050351447aba0",
+    "sentences": [
+     [
+      0.05,
+      4.401,
+      "Run the same cycle backwards, and it becomes a fridge."
+     ],
+     [
+      4.401,
+      10.653,
+      "Now you put work in, and heat is pumped out of the cold inside, up to the warm room."
+     ],
+     [
+      10.653,
+      16.972,
+      "Here, twenty-one units of work move seventy-nine units of heat out of the cold side."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_08": {
+    "duration": 15.576,
+    "hash": "2bc386ff02539bb6",
+    "sentences": [
+     [
+      0.05,
+      4.083,
+      "A heat pump is the same machine, used to warm a house."
+     ],
+     [
+      4.083,
+      9.431,
+      "It delivers the work you put in, plus the heat it draws from the cold outdoor air."
+     ],
+     [
+      9.431,
+      15.514,
+      "Ideally, here a hundred units of heat come indoors for only sixteen units of work."
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_09": {
+    "duration": 9.816,
+    "hash": "527f82f5c7e96084",
+    "sentences": [
+     [
+      0.05,
+      1.194,
+      "Your turn."
+     ],
+     [
+      1.194,
+      7.083,
+      "Drag the hot and cold temperature sliders, and watch how the arrows and the loop change."
+     ],
+     [
+      7.083,
+      9.75,
+      "What happens when the two get close?"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_01": {
+    "duration": 15.936,
+    "hash": "7916ebc42b3b3841",
+    "sentences": [
+     [
+      0.05,
+      4.597,
+      "This is one cylinder of a car engine, cut open down the middle."
+     ],
+     [
+      4.597,
+      6.583,
+      "It works in four strokes."
+     ],
+     [
+      6.583,
+      15.875,
+      "First, intake: the piston moves down, the intake valve opens, and a mixture of air and petrol is drawn in."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_02": {
+    "duration": 13.92,
+    "hash": "2adddeaa471f0770",
+    "sentences": [
+     [
+      0.05,
+      3.167,
+      "Who opens the valve at just the right moment?"
+     ],
+     [
+      3.167,
+      5.792,
+      "The camshaft, up at the top."
+     ],
+     [
+      5.792,
+      13.847,
+      "It turns at half the speed of the crank, and its egg-shaped lobe pushes the valve down, then lets the spring close it again."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_03": {
+    "duration": 15.576,
+    "hash": "f8fbce15715ec390",
+    "sentences": [
+     [
+      0.05,
+      2.0,
+      "Second, compression."
+     ],
+     [
+      2.0,
+      8.622,
+      "Both valves are shut and the piston rises, squeezing the mixture into about a tenth of the space."
+     ],
+     [
+      8.622,
+      15.514,
+      "Squeezing a gas heats it: by the time the piston nears the top, it's over five hundred degrees."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_04": {
+    "duration": 6.624,
+    "hash": "fb16736116062ebe",
+    "sentences": [
+     [
+      0.05,
+      4.972,
+      "Now the mixture is squeezed tight, and the spark plug fires."
+     ],
+     [
+      4.972,
+      6.582,
+      "What do you think happens?"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_05": {
+    "duration": 14.76,
+    "hash": "eb7368776e64d12e",
+    "sentences": [
+     [
+      0.05,
+      2.111,
+      "It burns in an instant."
+     ],
+     [
+      2.111,
+      8.528,
+      "Just before the top, a spark jumps across the plug's gap, and a flame spreads out from it."
+     ],
+     [
+      8.528,
+      14.708,
+      "In a few thousandths of a second the gas is over two thousand degrees, and its pressure leaps."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_06": {
+    "duration": 10.032,
+    "hash": "9b37b867f2727e82",
+    "sentences": [
+     [
+      0.05,
+      2.25,
+      "Third, the power stroke."
+     ],
+     [
+      2.25,
+      6.472,
+      "The hot, high-pressure gas pushes the piston down hard."
+     ],
+     [
+      6.472,
+      9.972,
+      "This is the only one of the four strokes that does work."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_07": {
+    "duration": 11.952,
+    "hash": "5ec11842122db1f4",
+    "sentences": [
+     [
+      0.05,
+      7.139,
+      "The connecting rod passes that push on to the crankshaft and turns it, the way your legs turn a bicycle's pedals."
+     ],
+     [
+      7.139,
+      11.889,
+      "The crank's momentum then carries the engine through the other three strokes."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_08": {
+    "duration": 12.72,
+    "hash": "9dcf170239b1319a",
+    "sentences": [
+     [
+      0.05,
+      2.0,
+      "Fourth, exhaust."
+     ],
+     [
+      2.0,
+      7.264,
+      "The exhaust valve opens, and the rising piston pushes the spent gas out."
+     ],
+     [
+      7.264,
+      12.667,
+      "It's still about seven hundred degrees hot, and that heat simply leaves with the exhaust."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_09": {
+    "duration": 11.448,
+    "hash": "3b7bf79f3e907ef0",
+    "sentences": [
+     [
+      0.05,
+      5.861,
+      "More heat soaks into the cylinder walls, and the coolant carries it away to the radiator."
+     ],
+     [
+      5.861,
+      11.375,
+      "Altogether, only about a third of the fuel's energy actually moves the car."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_10": {
+    "duration": 14.928,
+    "hash": "c41dffd5e83caec2",
+    "sentences": [
+     [
+      0.05,
+      1.167,
+      "Let it run."
+     ],
+     [
+      1.167,
+      6.25,
+      "The dial shows the whole cycle: four strokes in two turns of the crank."
+     ],
+     [
+      6.25,
+      14.875,
+      "On the motorway, at three thousand rpm, each cylinder goes round this cycle twenty-five times every second."
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_11": {
+    "duration": 8.112,
+    "hash": "7437d4fb426c7642",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "Your turn."
+     ],
+     [
+      1.153,
+      8.056,
+      "Drag sideways across the picture to turn the crank by hand, or click a stroke on the dial to jump to it."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_01": {
+    "duration": 16.032,
+    "hash": "9bcef5b779bf6f11",
+    "sentences": [
+     [
+      0.05,
+      2.111,
+      "A fridge doesn't make cold."
+     ],
+     [
+      2.111,
+      4.889,
+      "It moves heat from inside to outside."
+     ],
+     [
+      4.889,
+      9.472,
+      "It starts here, in the freezer's back wall: the evaporator."
+     ],
+     [
+      9.472,
+      15.972,
+      "Inside it the refrigerant boils at about minus twenty-five degrees, soaking up heat from the food."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_02": {
+    "duration": 11.136,
+    "hash": "195d1074bb343db7",
+    "sentences": [
+     [
+      0.05,
+      4.458,
+      "The vapour flows down to the compressor, the black dome at the bottom."
+     ],
+     [
+      4.458,
+      11.069,
+      "The compressor runs on electricity and squeezes the vapour, which makes it hot: hotter than the kitchen."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_03": {
+    "duration": 6.864,
+    "hash": "80fb2eee3905e4ff",
+    "sentences": [
+     [
+      0.05,
+      3.944,
+      "The vapour leaving the compressor is hotter than the room."
+     ],
+     [
+      3.944,
+      6.792,
+      "What do you think happens to it in the pipes at the back?"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_04": {
+    "duration": 11.736,
+    "hash": "e1a17ddefa9a5105",
+    "sentences": [
+     [
+      0.05,
+      1.889,
+      "It gives its heat to the room."
+     ],
+     [
+      1.889,
+      8.75,
+      "In the condenser at the back, the hot vapour cools to about forty degrees and turns back into a liquid."
+     ],
+     [
+      8.75,
+      11.667,
+      "That's why the back of a fridge feels warm."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_05": {
+    "duration": 13.224,
+    "hash": "d7848b2db28007bb",
+    "sentences": [
+     [
+      0.05,
+      5.875,
+      "The liquid then squeezes through the capillary tube, a long tube thinner than a straw."
+     ],
+     [
+      5.875,
+      13.167,
+      "Its pressure drops, so it starts to boil and cools far below zero, ready to soak up heat in the freezer again."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_06": {
+    "duration": 13.68,
+    "hash": "bbc6efe632c56630",
+    "sentences": [
+     [
+      0.05,
+      10.75,
+      "So out at the back goes all the heat taken from inside, plus the compressor's electricity: here, a hundred and ten watts from inside and sixty-four from the plug."
+     ],
+     [
+      10.75,
+      13.611,
+      "A fridge always warms the kitchen a little."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_07": {
+    "duration": 12.024,
+    "hash": "4123ca7f0dfc48d3",
+    "sentences": [
+     [
+      0.05,
+      2.083,
+      "What if you leave the door open?"
+     ],
+     [
+      2.083,
+      8.986,
+      "Cold air spills out at the bottom, warm air pours in at the top, and the compressor has to run all the time."
+     ],
+     [
+      8.986,
+      11.972,
+      "Its electricity use more than doubles."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_08": {
+    "duration": 14.664,
+    "hash": "03412c08019a542b",
+    "sentences": [
+     [
+      0.05,
+      7.542,
+      "On a hot summer day, at thirty-five degrees, the condenser has to get even hotter to shed its heat."
+     ],
+     [
+      7.542,
+      14.597,
+      "The compressor works harder and runs longer, and the fridge uses about half as much electricity again."
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_09": {
+    "duration": 8.496,
+    "hash": "8f503d82ddb9d701",
+    "sentences": [
+     [
+      0.05,
+      1.124,
+      "Your turn."
+     ],
+     [
+      1.124,
+      8.444,
+      "Click the fridge door to open or shut it, or change the room's temperature, and watch the heat arrows and the numbers."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Camshaft": {
+    "duration": 13.224,
+    "hash": "58f4aefc56b32c1f",
+    "sentences": [
+     [
+      0.05,
+      5.889,
+      "The camshaft turns at exactly half the crank's speed, driven by a belt or a chain."
+     ],
+     [
+      5.889,
+      13.167,
+      "Each egg-shaped lobe pushes one valve open once every two turns of the crank, at just the right moment."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Capillary": {
+    "duration": 12.288,
+    "hash": "6b0ca0cbdca37b31",
+    "sentences": [
+     [
+      0.05,
+      4.792,
+      "The capillary tube is a few metres of tube, thinner than a straw."
+     ],
+     [
+      4.792,
+      12.222,
+      "Squeezing through it, the liquid loses pressure, so it can boil at a very low temperature in the evaporator."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ColdFlow": {
+    "duration": 11.328,
+    "hash": "7067cb8c1ec9d4c6",
+    "sentences": [
+     [
+      0.05,
+      3.556,
+      "The heat flowing between the machine and the cold side."
+     ],
+     [
+      3.556,
+      11.264,
+      "As an engine, it's the heat that has to be thrown away; as a fridge, it's the heat pumped out of the cold inside."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ColdSide": {
+    "duration": 10.608,
+    "hash": "6cbbe101796c9049",
+    "sentences": [
+     [
+      0.05,
+      1.528,
+      "The cold side."
+     ],
+     [
+      1.528,
+      10.542,
+      "For an engine it's the surrounding air or a river; for a fridge, its inside; for a heat pump, the cold air outdoors."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Compressor": {
+    "duration": 11.568,
+    "hash": "dcb9ffe6564bca6f",
+    "sentences": [
+     [
+      0.05,
+      3.403,
+      "The compressor is the fridge's only moving part."
+     ],
+     [
+      3.403,
+      11.514,
+      "Its electric motor squeezes the refrigerant vapour, raising its pressure and its temperature, so that it can give heat to the room."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Condenser": {
+    "duration": 12.744,
+    "hash": "199ab37c97b9bb6a",
+    "sentences": [
+     [
+      0.05,
+      3.222,
+      "The condenser is the grid of pipes at the back."
+     ],
+     [
+      3.222,
+      9.222,
+      "The hot refrigerant gives its heat to the room air here, and condenses into a liquid."
+     ],
+     [
+      9.222,
+      12.694,
+      "Leave a gap behind the fridge so it can breathe."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Coolant": {
+    "duration": 10.704,
+    "hash": "8155c1ecc6ca97ef",
+    "sentences": [
+     [
+      0.05,
+      5.75,
+      "Coolant flows through passages around the cylinder and carries heat away to the radiator."
+     ],
+     [
+      5.75,
+      10.653,
+      "Without it, the cylinder walls would soon get hot enough to wreck the engine."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Crank": {
+    "duration": 10.344,
+    "hash": "1216eea21a1b4002",
+    "sentences": [
+     [
+      0.05,
+      6.167,
+      "The crankshaft turns the pistons' pushes into rotation, which goes on to the gearbox and the wheels."
+     ],
+     [
+      6.167,
+      10.278,
+      "The heavy counterweight opposite the pin keeps it spinning smoothly."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Dial": {
+    "duration": 12.024,
+    "hash": "ac137d407028b37d",
+    "sentences": [
+     [
+      0.05,
+      6.361,
+      "This dial is the whole four-stroke cycle: once round the dial is two turns of the crank."
+     ],
+     [
+      6.361,
+      11.958,
+      "The ticks mark where the valves open and close, and the dot marks the spark."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Door": {
+    "duration": 14.184,
+    "hash": "b3b1e331e7b1b084",
+    "sentences": [
+     [
+      0.05,
+      3.125,
+      "The door's rubber seal keeps warm air out."
+     ],
+     [
+      3.125,
+      11.917,
+      "Each time it opens, cold air spills out at the bottom and warm, moist air takes its place, which the fridge then has to cool again."
+     ],
+     [
+      11.917,
+      14.125,
+      "Click it to open or shut it."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Evaporator": {
+    "duration": 12.528,
+    "hash": "a5403457cbb38c25",
+    "sentences": [
+     [
+      0.05,
+      3.417,
+      "The evaporator is hidden in the freezer's back wall."
+     ],
+     [
+      3.417,
+      10.194,
+      "The refrigerant boils inside it at about minus twenty-five degrees, and boiling takes in a lot of heat."
+     ],
+     [
+      10.194,
+      12.472,
+      "That's how the inside is cooled."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ExhaustPort": {
+    "duration": 11.112,
+    "hash": "f3a3036879be4e70",
+    "sentences": [
+     [
+      0.05,
+      4.861,
+      "The burned gas leaves through this port, on its way to the exhaust pipe."
+     ],
+     [
+      4.861,
+      11.042,
+      "In many cars it first spins a turbocharger, which puts some of the exhaust's energy back to use."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ExhaustValve": {
+    "duration": 12.888,
+    "hash": "5f898429c4960dc9",
+    "sentences": [
+     [
+      0.05,
+      7.486,
+      "The exhaust valve opens near the end of the power stroke, and stays open while the piston pushes the burned gas out."
+     ],
+     [
+      7.486,
+      12.833,
+      "It gets very hot, so it's often made of special heat-resistant steel."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Freezer": {
+    "duration": 9.12,
+    "hash": "5435323e5ea7dce8",
+    "sentences": [
+     [
+      0.05,
+      9.056,
+      "The freezer is kept at about minus eighteen degrees: cold enough to stop almost all bacteria growing, and to keep food for months."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_FridgeInside": {
+    "duration": 9.096,
+    "hash": "4c41d2e0c5657e12",
+    "sentences": [
+     [
+      0.05,
+      9.042,
+      "The fridge compartment is kept at about four degrees: cold enough to slow bacteria right down, but not so cold that the food freezes."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Gas": {
+    "duration": 13.104,
+    "hash": "fdcf26396949c463",
+    "sentences": [
+     [
+      0.05,
+      9.028,
+      "The gas in the cylinder, coloured by its temperature: blue for the cool fresh mixture, glowing orange and yellow once it burns."
+     ],
+     [
+      9.028,
+      13.042,
+      "The reading beside it shows its pressure and temperature right now."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_HeatOut": {
+    "duration": 11.208,
+    "hash": "dd449b39ee396e80",
+    "sentences": [
+     [
+      0.05,
+      7.236,
+      "Heat given out to the room: everything taken from inside, plus the electricity the compressor uses."
+     ],
+     [
+      7.236,
+      11.139,
+      "A fridge always gives out more heat than it takes in."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_HotFlow": {
+    "duration": 10.968,
+    "hash": "49c0e3c4636aa21d",
+    "sentences": [
+     [
+      0.05,
+      5.958,
+      "The heat flowing between the hot side and the machine, counted here as a hundred units."
+     ],
+     [
+      5.958,
+      10.903,
+      "As an engine it flows in; as a fridge or a heat pump, it flows out."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_HotSide": {
+    "duration": 13.944,
+    "hash": "7a5c335af1149fb0",
+    "sentences": [
+     [
+      0.05,
+      1.417,
+      "The hot side."
+     ],
+     [
+      1.417,
+      9.278,
+      "For an engine it's burning fuel or a boiler; for a fridge, the room; for a heat pump, the inside of the house."
+     ],
+     [
+      9.278,
+      13.889,
+      "Temperatures here are in kelvin, counted from absolute zero."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Insulation": {
+    "duration": 8.16,
+    "hash": "1cf5bbbdfa38af56",
+    "sentences": [
+     [
+      0.05,
+      2.25,
+      "Thick foam fills the walls."
+     ],
+     [
+      2.25,
+      8.097,
+      "It slows down the heat leaking in from the room, so the compressor doesn't have to run all the time."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_IntakePort": {
+    "duration": 9.984,
+    "hash": "743b0170ecc8a34d",
+    "sentences": [
+     [
+      0.05,
+      4.125,
+      "Air and a fine mist of petrol come in through this port."
+     ],
+     [
+      4.125,
+      9.931,
+      "Its smooth curve helps the mixture swirl into the cylinder, so it burns evenly."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_IntakeValve": {
+    "duration": 12.264,
+    "hash": "fddca3c4b1738e98",
+    "sentences": [
+     [
+      0.05,
+      8.111,
+      "The intake valve opens during the intake stroke to let the air and petrol in, and stays shut tight for the other three strokes."
+     ],
+     [
+      8.111,
+      12.208,
+      "The camshaft pushes it open, and its spring closes it."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Isotherm": {
+    "duration": 13.464,
+    "hash": "94266c20810282ea",
+    "sentences": [
+     [
+      0.05,
+      7.125,
+      "An isotherm is a curve of constant temperature: along it, pressure times volume stays the same."
+     ],
+     [
+      7.125,
+      13.403,
+      "The cycle runs partly along the hot side's isotherm, and partly along the cold side's."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Loop": {
+    "duration": 12.024,
+    "hash": "97fba2c860b82ec6",
+    "sentences": [
+     [
+      0.05,
+      2.319,
+      "The loop on the pressure-volume chart."
+     ],
+     [
+      2.319,
+      11.958,
+      "Each trip round is one cycle, and the area it encloses is the work: given out going clockwise, as an engine, and put in going anticlockwise."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Machine": {
+    "duration": 12.384,
+    "hash": "89f101d614e8881a",
+    "sentences": [
+     [
+      0.05,
+      3.833,
+      "The machine is just a gas in a cylinder with a piston."
+     ],
+     [
+      3.833,
+      12.333,
+      "Touching the hot side, touching the cold side, or insulated from both, it goes round the same four steps again and again."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Oil": {
+    "duration": 11.784,
+    "hash": "8eb7475fded61138",
+    "sentences": [
+     [
+      0.05,
+      9.222,
+      "Oil in the sump is splashed and pumped onto every moving part, so metal slides on a thin film of oil instead of grinding on metal."
+     ],
+     [
+      9.222,
+      11.722,
+      "It also helps to carry heat away."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Piston": {
+    "duration": 8.424,
+    "hash": "303b499eb13516ce",
+    "sentences": [
+     [
+      0.05,
+      3.569,
+      "The piston slides up and down inside the cylinder."
+     ],
+     [
+      3.569,
+      8.361,
+      "The rings around it seal the gas in above, and keep the oil out below."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Rod": {
+    "duration": 10.152,
+    "hash": "8a413e5447824b0b",
+    "sentences": [
+     [
+      0.05,
+      3.5,
+      "The connecting rod links the piston to the crankshaft."
+     ],
+     [
+      3.5,
+      10.083,
+      "It turns the piston's up-and-down motion into the crank's turning, much like a leg on a bicycle pedal."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Room": {
+    "duration": 10.488,
+    "hash": "0e7d2146311d8ab8",
+    "sentences": [
+     [
+      0.05,
+      1.667,
+      "The room's temperature."
+     ],
+     [
+      1.667,
+      10.431,
+      "The warmer the room, the more heat leaks into the fridge, and the hotter the condenser must get to shed it, so the fridge uses more electricity."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Spark": {
+    "duration": 11.52,
+    "hash": "e1298d534676a66a",
+    "sentences": [
+     [
+      0.05,
+      3.819,
+      "The spark comes about twenty degrees of crank before the top."
+     ],
+     [
+      3.819,
+      11.458,
+      "The flame needs a moment to spread, so firing early means the pressure peaks just as the piston starts down."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_SparkPlug": {
+    "duration": 11.568,
+    "hash": "a9fa3155ed6bbe97",
+    "sentences": [
+     [
+      0.05,
+      6.097,
+      "The spark plug makes a spark of tens of thousands of volts across a gap smaller than a millimetre."
+     ],
+     [
+      6.097,
+      11.514,
+      "It fires just before the piston reaches the top, so the flame has time to spread."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step0": {
+    "duration": 12.288,
+    "hash": "ca22f65bfbe57aec",
+    "sentences": [
+     [
+      0.05,
+      3.653,
+      "This step keeps the gas at the hot side's temperature."
+     ],
+     [
+      3.653,
+      12.236,
+      "As an engine, the gas expands here and takes in heat; run backwards, it's squeezed here and gives heat out."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step1": {
+    "duration": 15.696,
+    "hash": "bab4e79a922d8b03",
+    "sentences": [
+     [
+      0.05,
+      4.444,
+      "Here the gas is insulated, so no heat comes in or goes out."
+     ],
+     [
+      4.444,
+      15.625,
+      "As an engine it keeps expanding, and cools itself down to the cold side's temperature; run backwards, it's squeezed, and heats up past the hot side's."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step2": {
+    "duration": 13.584,
+    "hash": "95ed276501a1dfe6",
+    "sentences": [
+     [
+      0.05,
+      3.764,
+      "This step keeps the gas at the cold side's temperature."
+     ],
+     [
+      3.764,
+      13.514,
+      "As an engine, it's squeezed here and gives heat to the cold side; as a fridge, it expands here and takes heat out of the cold side."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step3": {
+    "duration": 13.68,
+    "hash": "a390596dbc385e8a",
+    "sentences": [
+     [
+      0.05,
+      1.569,
+      "Insulated again."
+     ],
+     [
+      1.569,
+      13.625,
+      "As an engine, squeezing the gas warms it back up to the hot side's temperature, ready to start again; run backwards, it expands, and cools below the cold side's."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokeCompression": {
+    "duration": 9.552,
+    "hash": "955d53b0b873a271",
+    "sentences": [
+     [
+      0.05,
+      9.5,
+      "The compression stroke: both valves are shut, and the piston rises and squeezes the mixture to about a tenth of its volume, heating it up."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokeExhaust": {
+    "duration": 9.0,
+    "hash": "1a3836e373b5e455",
+    "sentences": [
+     [
+      0.05,
+      8.931,
+      "The exhaust stroke: the exhaust valve is open, and the rising piston pushes the burned gas out, making room for the next fresh charge."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokeIntake": {
+    "duration": 8.232,
+    "hash": "eadcb027126c7456",
+    "sentences": [
+     [
+      0.05,
+      8.167,
+      "The intake stroke: the piston moves down with the intake valve open, drawing in a fresh charge of air and petrol."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokePower": {
+    "duration": 9.312,
+    "hash": "efb7b1815bf7a616",
+    "sentences": [
+     [
+      0.05,
+      4.319,
+      "The power stroke: the burning gas pushes the piston down."
+     ],
+     [
+      4.319,
+      9.25,
+      "It's the only stroke that gives out work; the other three each take a little."
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Work": {
+    "duration": 15.648,
+    "hash": "185019e253a77427",
+    "sentences": [
+     [
+      0.05,
+      0.972,
+      "Work."
+     ],
+     [
+      0.972,
+      9.167,
+      "As an engine, it's what the machine gives out to turn a wheel; as a fridge or a heat pump, it's the electricity you put in."
+     ],
+     [
+      9.167,
+      15.597,
+      "The energy always adds up: the heat on one side equals the work plus the heat on the other."
+     ]
+    ]
+   },
    "Narr_Hole_Lensing_01": {
     "duration": 13.056,
     "hash": "ceebce5eff2f77e2",
@@ -38670,6 +39849,1140 @@
       1.639,
       10.319,
       "拖动二氧化碳的滑块，或者把温室气体拿掉，看看地面温度怎样慢慢变到新的平衡。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_01": {
+    "duration": 9.456,
+    "hash": "868b777a13235df6",
+    "sentences": [
+     [
+      0.1,
+      9.403,
+      "所有热机的原理都一样：热量从热的地方流向冷的地方，中间的机器把其中一部分变成功。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_02": {
+    "duration": 11.208,
+    "hash": "4b1bce0e06ad7268",
+    "sentences": [
+     [
+      0.1,
+      3.772,
+      "这里的机器是气缸里的一团气体。"
+     ],
+     [
+      3.722,
+      11.153,
+      "它贴着热的一边时，吸收热量、膨胀，把活塞往上推，这一推就是功。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_03": {
+    "duration": 15.288,
+    "hash": "759b57a6f3b5ba41",
+    "sentences": [
+     [
+      0.1,
+      8.314,
+      "可是要回到起点，气体还得再被压回去，这时它必须把一部分热交给冷的一边。"
+     ],
+     [
+      8.264,
+      15.236,
+      "在五百开和三百开之间，每吸进一百份热，至少有六十份要放掉。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_04": {
+    "duration": 3.624,
+    "hash": "97a4dd7b7cf7a1b1",
+    "sentences": [
+     [
+      0.1,
+      3.619,
+      "那怎样才能让更多的热变成功呢？"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_05": {
+    "duration": 14.232,
+    "hash": "8501bc2481778abc",
+    "sentences": [
+     [
+      0.1,
+      2.925,
+      "关键是拉大两边的温差。"
+     ],
+     [
+      2.875,
+      14.167,
+      "热电厂五百六十多度的蒸汽，理论上最多能把百分之六十四的热变成功；实际的电厂大约做到百分之四十到六十。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_06": {
+    "duration": 11.928,
+    "hash": "c802037f187180ad",
+    "sentences": [
+     [
+      0.1,
+      3.647,
+      "右边画的是气体的压强和体积。"
+     ],
+     [
+      3.597,
+      11.861,
+      "作为热机，它沿顺时针方向转一圈，圈里面的面积，就是每个循环做的功。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_07": {
+    "duration": 16.32,
+    "hash": "c939c2493b941442",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "把同一个循环倒过来转，它就成了冰箱。"
+     ],
+     [
+      4.139,
+      10.694,
+      "现在是你输入功，把热从冷的里面抽出来，送到暖和的房间里。"
+     ],
+     [
+      10.694,
+      16.264,
+      "这里用 21 份功，就能从冷的一边搬走 79 份热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_08": {
+    "duration": 17.664,
+    "hash": "274849e7d5017cb6",
+    "sentences": [
+     [
+      0.1,
+      5.119,
+      "热泵也是同一种机器，只不过用来给房子供暖。"
+     ],
+     [
+      5.069,
+      11.528,
+      "送进屋里的热，是你输入的功，加上从室外冷空气里抽来的热。"
+     ],
+     [
+      11.528,
+      17.611,
+      "理想情况下，这里只用 16 份功，就能往屋里送 100 份热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Cycle_09": {
+    "duration": 11.112,
+    "hash": "596a8fe7a3abc52a",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      7.514,
+      "拖动热端和冷端的温度滑块，看看箭头和那个圈怎么变。"
+     ],
+     [
+      7.514,
+      11.056,
+      "两边温度靠近时，会发生什么？"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_01": {
+    "duration": 14.904,
+    "hash": "15133bf3a1af8ba9",
+    "sentences": [
+     [
+      0.1,
+      4.564,
+      "这是汽车发动机的一个气缸，从中间剖开。"
+     ],
+     [
+      4.514,
+      6.889,
+      "它靠四个冲程工作。"
+     ],
+     [
+      6.889,
+      14.833,
+      "第一个是进气：活塞往下走，进气门打开，空气和汽油的混合气被吸进来。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_02": {
+    "duration": 15.048,
+    "hash": "4cd52dee114c2db9",
+    "sentences": [
+     [
+      0.1,
+      3.703,
+      "是谁在恰好的时候把气门打开？"
+     ],
+     [
+      3.653,
+      5.903,
+      "是上面的凸轮轴。"
+     ],
+     [
+      5.903,
+      14.986,
+      "它的转速是曲轴的一半，凸起的那一块把气门往下顶，转过去以后，弹簧再把气门关上。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_03": {
+    "duration": 15.792,
+    "hash": "150cbe97c4aa8ad6",
+    "sentences": [
+     [
+      0.1,
+      1.981,
+      "第二个是压缩。"
+     ],
+     [
+      1.931,
+      9.083,
+      "两个气门都关着，活塞往上走，把混合气压到原来的十分之一左右。"
+     ],
+     [
+      9.083,
+      15.722,
+      "气体被压缩就会变热：活塞快到顶的时候，它已经超过五百度了。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_04": {
+    "duration": 7.008,
+    "hash": "0b226a58d562130b",
+    "sentences": [
+     [
+      0.1,
+      4.744,
+      "混合气被压得紧紧的，这时火花塞点火了。"
+     ],
+     [
+      4.694,
+      6.944,
+      "你觉得会发生什么？"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_05": {
+    "duration": 15.696,
+    "hash": "a02fb9c4bf7abc91",
+    "sentences": [
+     [
+      0.1,
+      2.189,
+      "它会瞬间燃烧。"
+     ],
+     [
+      2.139,
+      10.306,
+      "活塞快到顶时，火花塞的间隙里跳出一个电火花，火焰从这里向四周扩散。"
+     ],
+     [
+      10.306,
+      15.639,
+      "几毫秒之内，气体就超过两千度，压强猛地升高。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_06": {
+    "duration": 10.872,
+    "hash": "1d56cec8b55caa41",
+    "sentences": [
+     [
+      0.1,
+      2.606,
+      "第三个是做功冲程。"
+     ],
+     [
+      2.556,
+      6.583,
+      "高温高压的燃气用力把活塞往下推。"
+     ],
+     [
+      6.583,
+      10.806,
+      "四个冲程里，只有这一个在对外做功。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_07": {
+    "duration": 13.92,
+    "hash": "4337d82e60cbea95",
+    "sentences": [
+     [
+      0.1,
+      8.161,
+      "连杆把这股推力传给曲轴，让它转起来，就像骑自行车时腿蹬着脚踏板转。"
+     ],
+     [
+      8.111,
+      13.861,
+      "曲轴转起来的惯性，再带着发动机走完另外三个冲程。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_08": {
+    "duration": 12.936,
+    "hash": "98bceba5f6231031",
+    "sentences": [
+     [
+      0.1,
+      2.147,
+      "第四个是排气。"
+     ],
+     [
+      2.097,
+      6.903,
+      "排气门打开，往上走的活塞把废气推出去。"
+     ],
+     [
+      6.903,
+      12.875,
+      "废气还有七百度左右，这些热量就这样随着排气跑掉了。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_09": {
+    "duration": 12.456,
+    "hash": "d87783ee572b8aa8",
+    "sentences": [
+     [
+      0.1,
+      6.022,
+      "还有一部分热传进气缸壁，被冷却液带到散热器散掉。"
+     ],
+     [
+      5.972,
+      12.389,
+      "算下来，燃料的能量只有大约三分之一真正用来推动汽车。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_10": {
+    "duration": 15.072,
+    "hash": "e1431b0cc001c5b3",
+    "sentences": [
+     [
+      0.1,
+      1.869,
+      "让它转起来。"
+     ],
+     [
+      1.819,
+      7.625,
+      "表盘显示整个循环：曲轴转两圈，完成四个冲程。"
+     ],
+     [
+      7.625,
+      15.014,
+      "在高速上，每分钟三千转时，每个气缸每秒要完成二十五个这样的循环。"
+     ]
+    ]
+   },
+   "Narr_Heat_Engine_11": {
+    "duration": 9.912,
+    "hash": "729d995ad064ffa5",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.847,
+      "在画面上左右拖动，用手转动曲轴；或者点表盘上的某个冲程，直接跳过去。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_01": {
+    "duration": 14.952,
+    "hash": "d42f2d7a25ef10cc",
+    "sentences": [
+     [
+      0.1,
+      4.981,
+      "冰箱并不制造冷，它是把热从里面搬到外面。"
+     ],
+     [
+      4.931,
+      14.889,
+      "先看冷冻室后壁里的蒸发器：制冷剂在这里大约零下二十五度就沸腾了，同时吸走食物里的热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_02": {
+    "duration": 10.08,
+    "hash": "7ffc7f2f54051a29",
+    "sentences": [
+     [
+      0.1,
+      4.119,
+      "蒸气流到下面那个黑色圆顶的压缩机。"
+     ],
+     [
+      4.069,
+      10.028,
+      "压缩机用电把蒸气压紧，蒸气就变热了，比厨房还热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_03": {
+    "duration": 8.568,
+    "hash": "b8a8d4691bf97c37",
+    "sentences": [
+     [
+      0.1,
+      3.953,
+      "从压缩机出来的蒸气比房间还热。"
+     ],
+     [
+      3.903,
+      8.514,
+      "你觉得，它在冰箱背后的管子里会怎么样？"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_04": {
+    "duration": 13.392,
+    "hash": "2129622b93fafcaf",
+    "sentences": [
+     [
+      0.1,
+      2.286,
+      "它把热散给房间。"
+     ],
+     [
+      2.236,
+      9.319,
+      "在背后的冷凝器里，热蒸气冷却到四十度左右，重新凝结成液体。"
+     ],
+     [
+      9.319,
+      13.319,
+      "所以摸冰箱背后会觉得热乎乎的。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_05": {
+    "duration": 14.952,
+    "hash": "c97f1cbc5a0d76ab",
+    "sentences": [
+     [
+      0.1,
+      6.744,
+      "接着液体挤过毛细管，一根又长又细、比吸管还细的管子。"
+     ],
+     [
+      6.694,
+      14.889,
+      "压强一下子降低，它就开始沸腾，温度降到零下很多度，又可以回冷冻室吸热了。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_06": {
+    "duration": 17.856,
+    "hash": "5471e72be65efced",
+    "sentences": [
+     [
+      0.1,
+      7.883,
+      "所以从背后散出去的，是从里面搬出来的全部热量，再加上压缩机用的电。"
+     ],
+     [
+      7.833,
+      13.569,
+      "这里是从里面吸走 110 瓦，再加上用电 64 瓦。"
+     ],
+     [
+      13.569,
+      17.792,
+      "所以冰箱总会让厨房稍微变暖一点。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_07": {
+    "duration": 12.336,
+    "hash": "766e9632a3121ab0",
+    "sentences": [
+     [
+      0.1,
+      2.342,
+      "如果门一直开着呢？"
+     ],
+     [
+      2.292,
+      12.278,
+      "冷空气从下面流出去，热空气从上面灌进来，压缩机只好一直转个不停，耗电量翻了一倍还多。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_08": {
+    "duration": 13.032,
+    "hash": "c119e1db602b4e70",
+    "sentences": [
+     [
+      0.1,
+      5.967,
+      "夏天房间到了三十五度，冷凝器得更热才能把热散出去。"
+     ],
+     [
+      5.917,
+      12.972,
+      "压缩机更费劲，转的时间也更长，耗电量比平时多出一半左右。"
+     ]
+    ]
+   },
+   "Narr_Heat_Fridge_09": {
+    "duration": 9.936,
+    "hash": "7dae86239257e920",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.875,
+      "点一下冰箱门把它打开或关上，或者改一改室温，看看热量箭头和数字怎么变。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Camshaft": {
+    "duration": 12.576,
+    "hash": "4512830dbaf30275",
+    "sentences": [
+     [
+      0.1,
+      5.842,
+      "凸轮轴由皮带或链条带动，转速正好是曲轴的一半。"
+     ],
+     [
+      5.792,
+      12.514,
+      "每个凸起在曲轴转两圈时把一个气门顶开一次，时间分毫不差。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Capillary": {
+    "duration": 12.264,
+    "hash": "06ad7e89cfec851a",
+    "sentences": [
+     [
+      0.1,
+      4.508,
+      "毛细管是几米长、比吸管还细的管子。"
+     ],
+     [
+      4.458,
+      12.208,
+      "液体挤过它以后压强降低，这样到了蒸发器里，就能在很低的温度下沸腾。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ColdFlow": {
+    "duration": 11.256,
+    "hash": "f8952e81a0673648",
+    "sentences": [
+     [
+      0.1,
+      3.675,
+      "机器和冷的一边之间流动的热。"
+     ],
+     [
+      3.625,
+      11.194,
+      "作为热机，这是不得不扔掉的热；作为冰箱，这是从冷的里面抽出来的热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ColdSide": {
+    "duration": 11.64,
+    "hash": "fdada29b68860058",
+    "sentences": [
+     [
+      0.1,
+      1.647,
+      "冷的一边。"
+     ],
+     [
+      1.597,
+      11.583,
+      "对热机来说是周围的空气或河水；对冰箱来说是冰箱里面；对热泵来说是室外的冷空气。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Compressor": {
+    "duration": 11.736,
+    "hash": "7409774b6500e199",
+    "sentences": [
+     [
+      0.1,
+      3.842,
+      "压缩机是冰箱里唯一会动的部件。"
+     ],
+     [
+      3.792,
+      11.681,
+      "它的电机把制冷剂蒸气压缩，压强和温度都升高，这样才能把热散给房间。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Condenser": {
+    "duration": 13.824,
+    "hash": "d864be834c9f8c1a",
+    "sentences": [
+     [
+      0.1,
+      3.383,
+      "冷凝器就是背后那片管子。"
+     ],
+     [
+      3.333,
+      9.514,
+      "热的制冷剂在这里把热散给房间的空气，凝结成液体。"
+     ],
+     [
+      9.514,
+      13.764,
+      "所以冰箱背后要留点空，让它散热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Coolant": {
+    "duration": 10.752,
+    "hash": "d4128e2ee8998a6d",
+    "sentences": [
+     [
+      0.1,
+      5.661,
+      "冷却液在气缸周围的水道里流动，把热带到散热器。"
+     ],
+     [
+      5.611,
+      10.681,
+      "没有它，气缸壁很快就会热到把发动机烧坏。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Crank": {
+    "duration": 10.68,
+    "hash": "8fc7d0fedc2f2964",
+    "sentences": [
+     [
+      0.1,
+      5.994,
+      "曲轴把活塞的推力变成转动，再传给变速箱和车轮。"
+     ],
+     [
+      5.944,
+      10.625,
+      "曲柄对面那块沉重的配重，让它转得平稳。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Dial": {
+    "duration": 12.408,
+    "hash": "31b4bb826b716ad7",
+    "sentences": [
+     [
+      0.1,
+      6.814,
+      "这个表盘就是整个四冲程循环，绕表盘一圈，曲轴转两圈。"
+     ],
+     [
+      6.764,
+      12.347,
+      "小刻度标出气门开关的时刻，圆点标出点火的时刻。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Door": {
+    "duration": 16.584,
+    "hash": "1827a3c7a041a5bb",
+    "sentences": [
+     [
+      0.1,
+      4.508,
+      "门上的橡胶密封条把热空气挡在外面。"
+     ],
+     [
+      4.458,
+      13.764,
+      "每开一次门，冷空气就从下面流出去，温暖潮湿的空气补进来，冰箱又得重新把它冷却。"
+     ],
+     [
+      13.764,
+      16.514,
+      "点一下可以开门或关门。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Evaporator": {
+    "duration": 12.168,
+    "hash": "bfc33769add8835f",
+    "sentences": [
+     [
+      0.1,
+      3.508,
+      "蒸发器藏在冷冻室的后壁里。"
+     ],
+     [
+      3.458,
+      12.097,
+      "制冷剂在里面大约零下二十五度沸腾，沸腾要吸收大量的热，里面就是这样被冷却的。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ExhaustPort": {
+    "duration": 12.84,
+    "hash": "f833ffe5909d31dd",
+    "sentences": [
+     [
+      0.1,
+      5.481,
+      "燃烧过的废气从这条排气道出去，流向排气管。"
+     ],
+     [
+      5.431,
+      12.778,
+      "很多车上它会先吹动涡轮增压器，把废气里的一部分能量再利用起来。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_ExhaustValve": {
+    "duration": 12.648,
+    "hash": "da01031445ecaa78",
+    "sentences": [
+     [
+      0.1,
+      7.439,
+      "排气门在做功冲程快结束时打开，活塞往上推废气时一直开着。"
+     ],
+     [
+      7.389,
+      12.583,
+      "它被烧得很热，所以常用耐高温的特殊钢材制成。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Freezer": {
+    "duration": 8.808,
+    "hash": "eef0d594fb450d55",
+    "sentences": [
+     [
+      0.1,
+      8.8,
+      "冷冻室保持在零下十八度左右，冷到几乎所有细菌都停止生长，食物能放好几个月。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_FridgeInside": {
+    "duration": 7.656,
+    "hash": "f817608d81c6fd30",
+    "sentences": [
+     [
+      0.1,
+      7.633,
+      "冷藏室保持在四度左右：冷到能让细菌长得很慢，又不至于把食物冻住。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Gas": {
+    "duration": 13.344,
+    "hash": "21828526edfa4c9a",
+    "sentences": [
+     [
+      0.1,
+      9.286,
+      "气缸里的气体，颜色代表温度：新鲜混合气是凉的蓝色，燃烧后变成发亮的橙黄色。"
+     ],
+     [
+      9.236,
+      13.292,
+      "旁边的读数是它此刻的压强和温度。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_HeatOut": {
+    "duration": 10.704,
+    "hash": "a8d5bac7c2187e1a",
+    "sentences": [
+     [
+      0.1,
+      6.994,
+      "散到房间里的热：从里面搬出来的全部热量，再加上压缩机用的电。"
+     ],
+     [
+      6.944,
+      10.653,
+      "冰箱放出的热，总比它吸进的多。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_HotFlow": {
+    "duration": 12.168,
+    "hash": "03f6413677d59d9f",
+    "sentences": [
+     [
+      0.1,
+      5.217,
+      "热的一边和机器之间流动的热，这里定为 100 份。"
+     ],
+     [
+      5.167,
+      12.097,
+      "作为热机时它流进机器；作为冰箱或热泵时，它从机器流出去。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_HotSide": {
+    "duration": 14.04,
+    "hash": "e820dbbfe80a9f5b",
+    "sentences": [
+     [
+      0.1,
+      1.675,
+      "热的一边。"
+     ],
+     [
+      1.625,
+      9.722,
+      "对热机来说是燃烧的燃料或锅炉；对冰箱来说是房间；对热泵来说是屋里。"
+     ],
+     [
+      9.722,
+      13.972,
+      "这里的温度用开尔文，从绝对零度算起。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Insulation": {
+    "duration": 8.712,
+    "hash": "549f0aae0fda5605",
+    "sentences": [
+     [
+      0.1,
+      8.703,
+      "冰箱壁里填满了厚厚的泡沫，它让房间里的热漏进来得慢一些，压缩机就不用一直转。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_IntakePort": {
+    "duration": 10.44,
+    "hash": "5adf87e025bdd65b",
+    "sentences": [
+     [
+      0.1,
+      4.258,
+      "空气和雾状的汽油从这条进气道进来。"
+     ],
+     [
+      4.208,
+      10.389,
+      "它弯得很顺滑，让混合气旋转着进入气缸，烧得更均匀。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_IntakeValve": {
+    "duration": 11.496,
+    "hash": "83c458e2e32d22a3",
+    "sentences": [
+     [
+      0.1,
+      7.911,
+      "进气门在进气冲程打开，让空气和汽油进来，其余三个冲程都紧紧关着。"
+     ],
+     [
+      7.861,
+      11.444,
+      "它由凸轮轴顶开，靠弹簧关上。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Isotherm": {
+    "duration": 13.128,
+    "hash": "44618040e6577f9c",
+    "sentences": [
+     [
+      0.1,
+      6.606,
+      "等温线是温度不变的曲线：沿着它，压强乘体积保持不变。"
+     ],
+     [
+      6.556,
+      13.056,
+      "这个循环一段沿着热端的等温线走，一段沿着冷端的等温线走。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Loop": {
+    "duration": 13.632,
+    "hash": "6be6660e0a529a22",
+    "sentences": [
+     [
+      0.1,
+      3.147,
+      "压强-体积图上的这个圈。"
+     ],
+     [
+      3.097,
+      13.569,
+      "转一圈就是一个循环，圈住的面积就是功：顺时针转是热机，对外做功；逆时针转，就要输入功。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Machine": {
+    "duration": 14.4,
+    "hash": "d8d18979ffb0f151",
+    "sentences": [
+     [
+      0.1,
+      5.383,
+      "这台机器就是一个带活塞的气缸，里面装着气体。"
+     ],
+     [
+      5.333,
+      14.347,
+      "它时而贴着热的一边，时而贴着冷的一边，时而两边都隔开，一遍又一遍地重复同样的四步。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Oil": {
+    "duration": 12.696,
+    "hash": "27d6291f5975dd57",
+    "sentences": [
+     [
+      0.1,
+      10.306,
+      "油底壳里的机油被溅起、被泵送到每个运动部件上，让金属在一层薄薄的油膜上滑动，而不是硬磨。"
+     ],
+     [
+      10.306,
+      12.639,
+      "它也帮着带走热量。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Piston": {
+    "duration": 9.336,
+    "hash": "a37c2543e6eeecac",
+    "sentences": [
+     [
+      0.1,
+      3.3,
+      "活塞在气缸里上下滑动。"
+     ],
+     [
+      3.25,
+      9.278,
+      "它周围的活塞环把上面的气体封住，也把下面的机油挡住。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Rod": {
+    "duration": 9.552,
+    "hash": "38c33d02ad10c5a3",
+    "sentences": [
+     [
+      0.1,
+      9.5,
+      "连杆把活塞和曲轴连起来，把活塞的上下运动变成曲轴的转动，就像腿蹬自行车的脚踏板。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Room": {
+    "duration": 10.992,
+    "hash": "a465c8b4c5593ba2",
+    "sentences": [
+     [
+      0.1,
+      2.272,
+      "这是房间的温度。"
+     ],
+     [
+      2.222,
+      10.931,
+      "房间越热，漏进冰箱的热越多，冷凝器也得更热才能散热，所以冰箱更费电。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Spark": {
+    "duration": 13.584,
+    "hash": "b1527be74f4c029d",
+    "sentences": [
+     [
+      0.1,
+      4.8,
+      "点火在活塞到顶前大约二十度曲轴转角。"
+     ],
+     [
+      4.75,
+      13.528,
+      "火焰扩散需要一点时间，提前点火，压强才会正好在活塞开始下行时达到最高。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_SparkPlug": {
+    "duration": 11.448,
+    "hash": "883616dc7a956c71",
+    "sentences": [
+     [
+      0.1,
+      5.633,
+      "火花塞在不到一毫米的间隙上打出几万伏的电火花。"
+     ],
+     [
+      5.583,
+      11.375,
+      "它在活塞到顶之前一点点火，好让火焰有时间扩散开。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step0": {
+    "duration": 11.88,
+    "hash": "3134a2849ab1791d",
+    "sentences": [
+     [
+      0.1,
+      3.675,
+      "这一步里，气体保持热端的温度。"
+     ],
+     [
+      3.625,
+      11.819,
+      "作为热机，气体在这里膨胀、吸热；倒过来转时，它在这里被压缩、放热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step1": {
+    "duration": 14.544,
+    "hash": "8f06403646c53c8e",
+    "sentences": [
+     [
+      0.1,
+      4.494,
+      "这一步气体是隔热的，热量不进也不出。"
+     ],
+     [
+      4.444,
+      14.472,
+      "作为热机，它继续膨胀，把自己冷却到冷端的温度；倒过来时，它被压缩，升温到比热端还热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step2": {
+    "duration": 13.368,
+    "hash": "b9efbfc960dab096",
+    "sentences": [
+     [
+      0.1,
+      3.619,
+      "这一步里，气体保持冷端的温度。"
+     ],
+     [
+      3.569,
+      13.306,
+      "作为热机，它在这里被压缩，向冷的一边放热；作为冰箱，它在这里膨胀，从冷的一边吸热。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Step3": {
+    "duration": 13.416,
+    "hash": "dd147a13dcb98e51",
+    "sentences": [
+     [
+      0.1,
+      2.258,
+      "又是隔热的一步。"
+     ],
+     [
+      2.208,
+      13.347,
+      "作为热机，压缩让气体升温回到热端的温度，准备重新开始；倒过来时，它膨胀降温，变得比冷端还冷。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokeCompression": {
+    "duration": 10.464,
+    "hash": "ae4de5732a08bd3c",
+    "sentences": [
+     [
+      0.1,
+      10.403,
+      "压缩冲程：两个气门都关着，活塞往上走，把混合气压到原来体积的十分之一左右，同时让它升温。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokeExhaust": {
+    "duration": 9.72,
+    "hash": "b78cc9ac886c15b6",
+    "sentences": [
+     [
+      0.1,
+      9.703,
+      "排气冲程：排气门打开，往上走的活塞把废气推出去，给下一次的新鲜混合气腾出地方。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokeIntake": {
+    "duration": 7.248,
+    "hash": "4927c825d8295e33",
+    "sentences": [
+     [
+      0.1,
+      7.231,
+      "进气冲程：进气门打开，活塞往下走，吸进新鲜的空气和汽油。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_StrokePower": {
+    "duration": 10.512,
+    "hash": "a839ad89f3b6ba2f",
+    "sentences": [
+     [
+      0.1,
+      4.8,
+      "做功冲程：燃烧的气体把活塞往下推。"
+     ],
+     [
+      4.75,
+      10.458,
+      "只有这个冲程对外做功，其他三个冲程都要消耗一点功。"
+     ]
+    ]
+   },
+   "Narr_Heat_Obj_Work": {
+    "duration": 14.712,
+    "hash": "3a84099f8992049d",
+    "sentences": [
+     [
+      0.1,
+      9.175,
+      "功：作为热机，是机器输出、用来转动轮子的功；作为冰箱或热泵，是你输入的电。"
+     ],
+     [
+      9.125,
+      14.639,
+      "能量总是守恒的：一边的热，等于功加上另一边的热。"
      ]
     ]
    },
