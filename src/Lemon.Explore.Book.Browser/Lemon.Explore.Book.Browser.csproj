@@ -9,6 +9,16 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <!--
+      Compile to WebAssembly ahead of time. Interpreted, the diagrams' per-pixel renderers (globes, skies, planet
+      textures) cannot keep up with the frame rate and the whole tab stutters. Costs a longer publish and a larger
+      download; the IL left behind after AOT is stripped to win some of that back.
+    -->
+    <RunAOTCompilation>true</RunAOTCompilation>
+    <WasmStripILAfterAOT>true</WasmStripILAfterAOT>
+  </PropertyGroup>
+
   <ItemGroup>
     <!--
       The browser has no system fonts to fall back on, so the book carries its own CJK font. These are the full

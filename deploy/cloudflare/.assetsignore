@@ -1,0 +1,6 @@
+# Left out of the Worker's static assets (deploy.sh copies this file into the publish output).
+# Cloudflare compresses responses itself, so the build's precompressed copies are not needed.
+*.br
+*.gz
+# Over the 25 MiB per-file limit: uploaded to R2 and served by worker.js.
+_framework/dotnet.native.*.wasm

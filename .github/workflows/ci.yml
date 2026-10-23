@@ -1,9 +1,9 @@
 name: CI
 
+# Runs only by hand, to save Actions minutes and storage: a version tag runs release.yml alone.
+# Verify everyday changes locally: `dotnet test`, and the AOT publish below before a release.
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -80,13 +80,6 @@ jobs:
           fi
           kill "$pid"
           echo "Still running after 20 seconds."
-      - uses: actions/upload-artifact@v4
-        with:
-          name: desktop-aot-${{ matrix.rid }}
-          path: |
-            publish/aot/*
-            !publish/aot/*.pdb
-            !publish/aot/*.dSYM
 
   web:
     name: Web edition (PWA)
@@ -99,7 +92,3 @@ jobs:
       # Links Skia's native WebAssembly code into the app.
       - run: dotnet workload install wasm-tools
       - run: dotnet publish src/Lemon.Explore.Book.Browser -c Release -o publish/web
-      - uses: actions/upload-artifact@v4
-        with:
-          name: web
-          path: publish/web/wwwroot

@@ -34,6 +34,13 @@ dotnet workload install wasm-tools
 dotnet run --project src/Lemon.Explore.Book.Browser
 ```
 
+That Debug build runs interpreted and is only good for checking layout: the animated diagrams stutter. To judge how
+the book feels, run the Release build, which is AOT-compiled to WebAssembly (the first build takes several minutes):
+
+```bash
+dotnet run --project src/Lemon.Explore.Book.Browser -c Release
+```
+
 ### Native AOT
 
 The book builds as a native AOT app (no .NET runtime needed, fast start). The shared library is marked
@@ -46,8 +53,8 @@ dotnet publish src/Lemon.Explore.Book.Desktop -c Release -r win-x64 -p:PublishAo
 ```
 
 Use `osx-arm64` / `osx-x64` on a Mac. On Windows this needs the Visual Studio C++ build tools (the linker). The web
-edition can be AOT-compiled to WebAssembly with `-p:RunAOTCompilation=true` once the `wasm-tools` workload is
-installed; it starts faster but downloads more.
+edition's Release build is always AOT-compiled to WebAssembly (it needs the `wasm-tools` workload); it runs far
+faster than the interpreter but downloads more.
 
 ## Reading
 
@@ -77,6 +84,21 @@ tag; `.github/workflows/release.yml` builds and publishes everything).
 
 `scripts/package-desktop.sh <rid> [update-address]` builds one desktop package locally, the same way the release does.
 
+## Hosting the web edition
+
+The web edition is static files, so any static host works. `deploy/cloudflare` hosts it on Cloudflare as one Worker on
+one origin: static assets serve the app, and an R2 bucket serves what static assets cannot hold. That is the
+AOT-compiled runtime (`dotnet.native.*.wasm`, about 43 MiB, over the 25 MiB per-file limit), stored with a Brotli
+copy, and later the narration clips under `narration/`.
+
+```bash
+deploy/cloudflare/deploy.sh
+```
+
+It publishes the Release build, uploads the runtime to R2, then deploys the Worker. It needs Node.js, an existing
+bucket (`npx wrangler r2 bucket create explore-book`), and `CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` in the
+environment. Neither is stored in the repository.
+
 ## Project layout
 
 | Path | What |
@@ -86,6 +108,7 @@ tag; `.github/workflows/release.yml` builds and publishes everything).
 | `src/Lemon.Explore.Book.Browser` | WebAssembly head with PWA manifest and service worker (`wwwroot`) |
 | `tests/Lemon.Explore.Book.Tests` | Unit and headless UI tests |
 | `scripts/` | Repository checks (and, later, the narration pipeline) |
+| `deploy/cloudflare` | Cloudflare Worker, R2 routing and deploy script for the web edition |
 
 ## Contributing
 
