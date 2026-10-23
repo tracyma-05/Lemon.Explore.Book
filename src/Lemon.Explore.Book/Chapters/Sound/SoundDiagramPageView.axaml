@@ -1,0 +1,110 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:sound="using:Lemon.Explore.Book.Chapters.Sound"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Sound.SoundDiagramPageView"
+                         x:DataType="sound:SoundDiagramPageViewModel">
+    <!-- Right page of the Sound spread: the diagram on a dark plate, the walkthrough, playback and the chapter's own sound. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <sound:SoundDiagram Mode="{Binding Sound.Mode}"
+                                    Frequency="{Binding Sound.Frequency}"
+                                    Loudness="{Binding Sound.Loudness}"
+                                    Medium="{Binding Sound.Medium}"
+                                    Temperature="{Binding Sound.Temperature}"
+                                    Resonator="{Binding Sound.Resonator}"
+                                    StringFrequency="{Binding Sound.StringFrequency}"
+                                    Fret="{Binding Sound.Fret, Mode=TwoWay}"
+                                    PluckPoint="{Binding Sound.PluckPoint}"
+                                    PluckHeight="{Binding Sound.PluckHeight}"
+                                    PluckCount="{Binding Sound.PluckCount}"
+                                    SoloHarmonic="{Binding Sound.SoloHarmonic, Mode=TwoWay}"
+                                    ShowHarmonics="{Binding Sound.ShowHarmonics}"
+                                    PipeLength="{Binding Sound.PipeLength}"
+                                    PipeMode="{Binding Sound.PipeMode, Mode=TwoWay}"
+                                    NoteMidi="{Binding Sound.NoteMidi, Mode=TwoWay}"
+                                    Instrument="{Binding Sound.Instrument}"
+                                    Harmonics="{Binding Sound.Harmonics}"
+                                    SecondNote="{Binding Sound.SecondNote}"
+                                    Detune="{Binding Sound.Detune}"
+                                    NoteCount="{Binding Sound.NoteCount}"
+                                    PluckCommand="{Binding Sound.PluckCommand}"
+                                    PlayNoteCommand="{Binding Sound.PlayNoteCommand}"
+                                    EditHarmonicCommand="{Binding Sound.EditHarmonicCommand}"
+                                    ShowLabels="{Binding Sound.ShowLabels}"
+                                    Speed="{Binding Sound.Speed}"
+                                    IsPlaying="{Binding Sound.IsPlaying, Mode=TwoWay}"
+                                    ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                    Highlight="{Binding Sound.Lesson.Highlight}"
+                                    IsLessonActive="{Binding Sound.Lesson.IsActive}"
+                                    SelectedObject="{Binding Sound.Card.Id, Mode=TwoWay}"
+                                    InteractionCommand="{Binding Sound.UserInteractedCommand}"
+                                    ToolTip.Tip="{Binding Sound.Hint}"
+                                    AutomationProperties.Name="{Binding Sound.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Sound.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Sound.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Sound.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Sound.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Sound_PlayPause}" AutomationProperties.Name="{loc:Localize Sound_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Sound.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Sound.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Sound_Speed}">
+                                <RadioButton Classes="space speed" GroupName="SoundSpeed" Content="¼×" IsChecked="{Binding Sound.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="SoundSpeed" Content="½×" IsChecked="{Binding Sound.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="SoundSpeed" Content="1×" IsChecked="{Binding Sound.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="SoundSpeed" Content="2×" IsChecked="{Binding Sound.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <!-- The chapter's own sound, and the view's way of making one -->
+                            <ToggleButton Classes="space" IsChecked="{Binding Sound.SoundOn}"
+                                          ToolTip.Tip="{loc:Localize Sound_SoundOn_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Sound_SoundOn}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Voice}" IsVisible="{Binding Sound.SoundOn}" />
+                                    <PathIcon Data="{StaticResource Icon.Mute}" IsVisible="{Binding !Sound.SoundOn}" />
+                                </Panel>
+                            </ToggleButton>
+                            <ToggleButton Classes="space" IsChecked="{Binding Sound.ToneOn}" IsVisible="{Binding Sound.IsWave}"
+                                          Content="{loc:Localize Sound_Tone}" ToolTip.Tip="{loc:Localize Sound_Tone_Tooltip}" />
+                            <Button Classes="space" Command="{Binding Sound.PluckCommand}" IsVisible="{Binding Sound.ShowPluck}"
+                                    Content="{loc:Localize Sound_Pluck}" ToolTip.Tip="{loc:Localize Sound_Pluck_Tooltip}" />
+                            <Button Classes="space" Command="{Binding Sound.BlowCommand}" IsVisible="{Binding Sound.ShowBlow}"
+                                    Content="{loc:Localize Sound_Blow}" ToolTip.Tip="{loc:Localize Sound_Blow_Tooltip}" />
+                            <Button Classes="space" Command="{Binding Sound.PlayNoteCommand}" IsVisible="{Binding Sound.IsTimbre}"
+                                    Content="{loc:Localize Sound_PlayNote}" ToolTip.Tip="{loc:Localize Sound_PlayNote_Tooltip}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

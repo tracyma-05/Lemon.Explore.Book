@@ -10548,6 +10548,192 @@
   <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
     <value>Now you try. Click any planet or moon to fly to it and hear about it.</value>
   </data>
+  <data name="Narr_Sound_Obj_Antinode" xml:space="preserve">
+    <value>An antinode: halfway between two nodes, where the string swings the most.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Beat" xml:space="preserve">
+    <value>Beats: two notes slightly apart in frequency go in and out of step. The loudness swells as many times a second as their frequencies differ.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Body" xml:space="preserve">
+    <value>The body and sound hole. The guitar's hollow box and the air inside it resonate with the string, making the sound loud enough to fill a room.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Bridge" xml:space="preserve">
+    <value>The bridge holds the string's far end still, and passes its vibration into the guitar's top, which pushes far more air than the thin string ever could.</value>
+  </data>
+  <data name="Narr_Sound_Obj_ClosedEnd" xml:space="preserve">
+    <value>A closed end. The air can't move through the wall, so it stays still here. But this is where its pressure swings the most.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Compression" xml:space="preserve">
+    <value>A compression: the air here is squeezed slightly, so its pressure is a little above normal. Compressions travel away from the speaker at the speed of sound.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Ear" xml:space="preserve">
+    <value>The ear. The air's push and pull moves the eardrum; three tiny bones pass the motion on to the cochlea, where hair cells turn it into signals for the brain.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Envelope" xml:space="preserve">
+    <value>The envelope: how the loudness changes from the start of a note to its end. A sharp start and a slow fade sounds struck or plucked; a slow swell sounds bowed or blown.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Fret" xml:space="preserve">
+    <value>Frets. Pressing a string behind a fret shortens the part that vibrates. Each fret makes it about six percent shorter, raising the note by one semitone. Click the neck to hold one.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Fundamental" xml:space="preserve">
+    <value>The fundamental: the lowest frequency in the sound. It usually sets the pitch we hear.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Harmonic" xml:space="preserve">
+    <value>An overtone: the string splits into equal parts that swing in opposite directions. Its frequency is a whole number times the fundamental. Click the row to hear it alone.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Harmonic1" xml:space="preserve">
+    <value>The fundamental: the whole string swings as one arch. It's the lowest frequency the string makes, and the pitch you hear. Click the row to hear it alone.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Keyboard" xml:space="preserve">
+    <value>The keyboard is tuned in equal temperament: every key is the same step up, a frequency ratio of about 1.0595. Twelve steps make exactly a doubling.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Medium" xml:space="preserve">
+    <value>What the sound travels through. Sound needs a medium, and the harder it is to squeeze for its weight, the faster sound goes: about 343 metres a second in air, 1480 in water, nearly 6000 in steel.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Node" xml:space="preserve">
+    <value>A node: a point that stays still in this harmonic. The second harmonic has one in the middle, the third has two, and so on.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Octave" xml:space="preserve">
+    <value>An octave: twelve keys up, twice the frequency. Notes an octave apart sound so alike that they share the same letter name.</value>
+  </data>
+  <data name="Narr_Sound_Obj_OpenEnd" xml:space="preserve">
+    <value>An open end. The air here can move in and out freely, so this is where it moves the most, while its pressure stays close to normal.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Overtone" xml:space="preserve">
+    <value>The overtones: frequencies at two, three, four times the fundamental and up. How strong each one is gives the sound its colour. Drag the bars to change them.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Particle" xml:space="preserve">
+    <value>One small patch of air. It moves back and forth along the direction the sound travels, but always comes back to the same place. That's why sound is called a longitudinal wave.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Period" xml:space="preserve">
+    <value>The period: the time for one full repeat of the wave. Frequency is one over the period, so a period of a thousandth of a second means a thousand hertz.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Pipe" xml:space="preserve">
+    <value>The air column. What vibrates here is the air itself, back and forth along the pipe. Only waves that fit its length can build up: those are the pipe's resonances.</value>
+  </data>
+  <data name="Narr_Sound_Obj_PipeAntinode" xml:space="preserve">
+    <value>An antinode: the air here rushes back and forth the most, while its pressure hardly changes.</value>
+  </data>
+  <data name="Narr_Sound_Obj_PipeMode" xml:space="preserve">
+    <value>One of the pipe's resonances. An open pipe allows every whole-number multiple of its lowest frequency; a closed pipe, only the odd ones. Click a row to hear it.</value>
+  </data>
+  <data name="Narr_Sound_Obj_PipeNode" xml:space="preserve">
+    <value>A node: the air here stays still, but it's squeezed and stretched the most.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Pluck" xml:space="preserve">
+    <value>Where the string will be plucked. Plucking near an end starts many high harmonics and sounds bright; plucking near the middle sounds soft and round.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Pressure" xml:space="preserve">
+    <value>The pressure along the way. Up means squeezed, down means stretched. Even loud sounds change the air's pressure by only a tiny fraction.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Rarefaction" xml:space="preserve">
+    <value>A rarefaction: the air here is spread out slightly, so its pressure dips a little below normal. It follows each compression, half a wavelength behind.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Speaker" xml:space="preserve">
+    <value>A loudspeaker turns an electrical signal into motion. A coil in a magnet's field pushes the cone back and forth, and the cone pushes the air. Drag the cone to push the air yourself.</value>
+  </data>
+  <data name="Narr_Sound_Obj_String" xml:space="preserve">
+    <value>The string. Its note depends on three things: shorter, tighter and lighter strings vibrate faster. Drag it and let go to pluck it.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Timbre" xml:space="preserve">
+    <value>The instrument and the note. Two instruments playing the same note have the same pitch but a different timbre, because their waves have different shapes.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Waveform" xml:space="preserve">
+    <value>The waveform: how the air pressure at a microphone rises and falls over a few thousandths of a second. Its shape carries the sound's timbre.</value>
+  </data>
+  <data name="Narr_Sound_Obj_Wavelength" xml:space="preserve">
+    <value>The wavelength: the distance from one compression to the next. It equals the speed of sound divided by the frequency, so higher notes have shorter waves.</value>
+  </data>
+  <data name="Narr_Sound_Strings_01" xml:space="preserve">
+    <value>A guitar string is held tight at both ends. Pluck it, and the bend you made splits in two and runs back and forth between the ends, again and again.</value>
+  </data>
+  <data name="Narr_Sound_Strings_02" xml:space="preserve">
+    <value>That busy motion is really a few simple shapes added together. The simplest is one big arch, swinging up and down. It's called the fundamental, and it sets the note you hear.</value>
+  </data>
+  <data name="Narr_Sound_Strings_03" xml:space="preserve">
+    <value>Then come shapes with two, three, four arches. These are the overtones, at exactly two, three and four times the frequency. Together they give the string its bright, rich sound.</value>
+  </data>
+  <data name="Narr_Sound_Strings_04" xml:space="preserve">
+    <value>Look at the dots on each row. Those points never move: they're called nodes. Halfway between them, where the string swings the most, are the antinodes.</value>
+  </data>
+  <data name="Narr_Sound_Strings_05" xml:space="preserve">
+    <value>Here's a puzzle. If you pluck the string exactly in the middle, which harmonics can't start at all?</value>
+  </data>
+  <data name="Narr_Sound_Strings_06" xml:space="preserve">
+    <value>Plucked in the middle now. The second, fourth and sixth harmonics all have a node right there, and you can't start a wave by pulling a point that has to stay still. So the even ones vanish, and the sound turns round and hollow.</value>
+  </data>
+  <data name="Narr_Sound_Strings_07" xml:space="preserve">
+    <value>Now press the twelfth fret. Only half the string can vibrate, and half the length means twice the frequency: the same note, one octave higher.</value>
+  </data>
+  <data name="Narr_Sound_Strings_08" xml:space="preserve">
+    <value>Air in a pipe can do the same. At an open end the air moves freely, so there's an antinode there. In this pipe, open at both ends like a flute, the lowest note fits half a wave.</value>
+  </data>
+  <data name="Narr_Sound_Strings_09" xml:space="preserve">
+    <value>Now close the far end. The air there can't move, so it becomes a node. Only a quarter of a wave fits, so the note drops about an octave, and only the odd harmonics are allowed.</value>
+  </data>
+  <data name="Narr_Sound_Strings_10" xml:space="preserve">
+    <value>Your turn. Drag the string and let go to pluck it somewhere new, click the neck to hold a different fret, or click a row to hear just one harmonic.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_01" xml:space="preserve">
+    <value>Each key on a piano is a pitch: a number of vibrations every second. This A, just above middle C, is 440 hertz. It's the note orchestras tune to.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_02" xml:space="preserve">
+    <value>Go up twelve keys, one octave, and the frequency doubles. Every step in between is the same small ratio: each key is about six percent higher than the one before.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_03" xml:space="preserve">
+    <value>This is what a microphone would record from a tuning fork: a smooth, simple wave, repeating over and over, 440 times every second.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_04" xml:space="preserve">
+    <value>The time for one repeat is the period. Here it's a little over two milliseconds. Higher notes have shorter periods.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_05" xml:space="preserve">
+    <value>Now the same note on a violin. Same pitch, same period, but look at the shape: jagged, like a saw. That difference in shape is what we call timbre.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_06" xml:space="preserve">
+    <value>The bars show why. The violin adds lots of overtones, at two, three, four times the frequency and beyond. The tuning fork had almost none.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_07" xml:space="preserve">
+    <value>Timbre is also about how a note starts and ends. A piano note strikes in an instant and then slowly fades, while a violin can swell and hold its sound.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_08" xml:space="preserve">
+    <value>Question time. A clarinet and a flute both play this same A. What's different about the two sounds?</value>
+  </data>
+  <data name="Narr_Sound_Timbre_09" xml:space="preserve">
+    <value>Now two tuning forks, three hertz apart. They drift in and out of step, so the sound swells and fades three times a second. These are beats. Tuners listen for them to slow down and vanish.</value>
+  </data>
+  <data name="Narr_Sound_Timbre_10" xml:space="preserve">
+    <value>Your turn. Pick an instrument and play some keys, or drag the bars to build a sound of your own.</value>
+  </data>
+  <data name="Narr_Sound_Wave_01" xml:space="preserve">
+    <value>Every sound starts with something shaking. Here it's a loudspeaker. Watch its cone: it moves forward and back, pushing on the air in front of it, over and over.</value>
+  </data>
+  <data name="Narr_Sound_Wave_02" xml:space="preserve">
+    <value>Now follow the red dot. It's a little patch of air. Does it fly off towards the ear? No. It just shuffles back and forth around the same spot.</value>
+  </data>
+  <data name="Narr_Sound_Wave_03" xml:space="preserve">
+    <value>Where the dots crowd together, the air is squeezed a little. That's a compression, and its pressure is slightly higher than normal.</value>
+  </data>
+  <data name="Narr_Sound_Wave_04" xml:space="preserve">
+    <value>In between, the dots spread apart: a rarefaction, where the pressure dips a little. See how the pattern moves to the right? That moving pattern is the sound.</value>
+  </data>
+  <data name="Narr_Sound_Wave_05" xml:space="preserve">
+    <value>So here's a question. When you hear this speaker from across the room, what has actually travelled from the speaker to your ear?</value>
+  </data>
+  <data name="Narr_Sound_Wave_06" xml:space="preserve">
+    <value>The pattern travels; the air stays where it is. From one compression to the next is one wavelength. Now the pitch has doubled. Watch: the new compressions leave the speaker half as far apart.</value>
+  </data>
+  <data name="Narr_Sound_Wave_07" xml:space="preserve">
+    <value>This graph shows the pressure along the way: up where the air is squeezed, down where it's stretched. Even this fairly loud sound changes the pressure by less than one part in a million.</value>
+  </data>
+  <data name="Narr_Sound_Wave_08" xml:space="preserve">
+    <value>Now let's take the air away. The cone still moves, but there's nothing in front of it to push. In a vacuum, sound can't travel at all.</value>
+  </data>
+  <data name="Narr_Sound_Wave_09" xml:space="preserve">
+    <value>And in water? Its molecules are packed close and are very hard to squeeze, so sound races through more than four times faster. The same note now has a much longer wavelength. Check the ruler.</value>
+  </data>
+  <data name="Narr_Sound_Wave_10" xml:space="preserve">
+    <value>Your turn. Drag the speaker's cone to push the air yourself, or switch on the tone and change its frequency or level. Notice what changes, and what doesn't.</value>
+  </data>
   <data name="Narr_Star_Diagram_01" xml:space="preserve">
     <value>This is the Hertzsprung-Russell diagram, one of the most important maps in astronomy. Across is a star's surface temperature, hottest on the left. Up is how bright it really is.</value>
   </data>
@@ -16526,6 +16712,897 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>The hottest planet</value>
+  </data>
+  <data name="Sound_Blow" xml:space="preserve">
+    <value>Blow</value>
+  </data>
+  <data name="Sound_Blow_Tooltip" xml:space="preserve">
+    <value>Hear the pipe's note</value>
+  </data>
+  <data name="Sound_Chart_AllHarmonics" xml:space="preserve">
+    <value>Every harmonic</value>
+  </data>
+  <data name="Sound_Chart_Doubling" xml:space="preserve">
+    <value>C4 {0} → C5 {1} → B5 {2} Hz</value>
+  </data>
+  <data name="Sound_Chart_HarmonicHz" xml:space="preserve">
+    <value>1 = {0}</value>
+  </data>
+  <data name="Sound_Chart_OddOnly" xml:space="preserve">
+    <value>Odd harmonics only</value>
+  </data>
+  <data name="Sound_Chart_Pain" xml:space="preserve">
+    <value>threshold of pain</value>
+  </data>
+  <data name="Sound_Chart_PipeUnit" xml:space="preserve">
+    <value>1 = {0}</value>
+  </data>
+  <data name="Sound_Chart_Pipe_Caption" xml:space="preserve">
+    <value>The pipe's resonances</value>
+  </data>
+  <data name="Sound_Chart_Pipe_Note" xml:space="preserve">
+    <value>The bars are multiples of the lowest frequency. A pipe closed at one end only allows the odd ones.</value>
+  </data>
+  <data name="Sound_Chart_Silent" xml:space="preserve">
+    <value>too quiet to hear</value>
+  </data>
+  <data name="Sound_Chart_Speech" xml:space="preserve">
+    <value>speech</value>
+  </data>
+  <data name="Sound_Chart_Strings_Caption" xml:space="preserve">
+    <value>Harmonics of this pluck</value>
+  </data>
+  <data name="Sound_Chart_Strings_Note" xml:space="preserve">
+    <value>How strongly each harmonic starts. A cross marks one with a node right where the string was plucked: it cannot start.</value>
+  </data>
+  <data name="Sound_Chart_Timbre_Caption" xml:space="preserve">
+    <value>Frequency of every key</value>
+  </data>
+  <data name="Sound_Chart_Timbre_Note" xml:space="preserve">
+    <value>Each key is 2^(1/12) ≈ 1.059 times the one before, so every twelve keys the frequency doubles.</value>
+  </data>
+  <data name="Sound_Chart_Wave_Caption" xml:space="preserve">
+    <value>What you can hear</value>
+  </data>
+  <data name="Sound_Chart_Wave_Note" xml:space="preserve">
+    <value>Below the blue line is too quiet to hear (threshold of hearing, Terhardt 1979). The dot is the speaker's tone: drag it.</value>
+  </data>
+  <data name="Sound_Detune" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="Sound_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Sound_Freq_A" xml:space="preserve">
+    <value>A 440 Hz</value>
+  </data>
+  <data name="Sound_Freq_Ear" xml:space="preserve">
+    <value>3 kHz (most sensitive)</value>
+  </data>
+  <data name="Sound_Freq_High" xml:space="preserve">
+    <value>15 kHz (test your ears)</value>
+  </data>
+  <data name="Sound_Freq_Low" xml:space="preserve">
+    <value>Low A 110 Hz</value>
+  </data>
+  <data name="Sound_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Sound_Fret" xml:space="preserve">
+    <value>Fret held down</value>
+  </data>
+  <data name="Sound_Hint_Pipe" xml:space="preserve">
+    <value>Click a row to pick a resonance; change the pipe's length on the left-hand page.</value>
+  </data>
+  <data name="Sound_Hint_Strings" xml:space="preserve">
+    <value>Drag the string and let go to pluck it; click the neck to hold a fret; click a row to hear one harmonic.</value>
+  </data>
+  <data name="Sound_Hint_Timbre" xml:space="preserve">
+    <value>Click or drag across the keys to play; drag the bars to build your own sound.</value>
+  </data>
+  <data name="Sound_Hint_Wave" xml:space="preserve">
+    <value>Drag the speaker's cone to push the air yourself; click a dot to follow it.</value>
+  </data>
+  <data name="Sound_Instrument_Caption" xml:space="preserve">
+    <value>Instrument</value>
+  </data>
+  <data name="Sound_Instrument_Clarinet" xml:space="preserve">
+    <value>Clarinet</value>
+  </data>
+  <data name="Sound_Instrument_Custom" xml:space="preserve">
+    <value>Your own</value>
+  </data>
+  <data name="Sound_Instrument_Flute" xml:space="preserve">
+    <value>Flute</value>
+  </data>
+  <data name="Sound_Instrument_Fork" xml:space="preserve">
+    <value>Tuning fork</value>
+  </data>
+  <data name="Sound_Instrument_Piano" xml:space="preserve">
+    <value>Piano</value>
+  </data>
+  <data name="Sound_Instrument_Trumpet" xml:space="preserve">
+    <value>Trumpet</value>
+  </data>
+  <data name="Sound_Instrument_Violin" xml:space="preserve">
+    <value>Violin</value>
+  </data>
+  <data name="Sound_Label_A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Sound_Label_BarHz" xml:space="preserve">
+    <value>1 = {0}, 2 = {1}, …</value>
+  </data>
+  <data name="Sound_Label_BeatPeriod" xml:space="preserve">
+    <value>One beat: {0} s ({1} apart)</value>
+  </data>
+  <data name="Sound_Label_Bridge" xml:space="preserve">
+    <value>Bridge</value>
+  </data>
+  <data name="Sound_Label_ClosedEnd" xml:space="preserve">
+    <value>Closed end</value>
+  </data>
+  <data name="Sound_Label_Compression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="Sound_Label_DragBars" xml:space="preserve">
+    <value>drag the bars</value>
+  </data>
+  <data name="Sound_Label_Eardrum" xml:space="preserve">
+    <value>Eardrum</value>
+  </data>
+  <data name="Sound_Label_Fundamental" xml:space="preserve">
+    <value>Fundamental</value>
+  </data>
+  <data name="Sound_Label_Harmonic" xml:space="preserve">
+    <value>×{0} · {1}</value>
+  </data>
+  <data name="Sound_Label_Higher" xml:space="preserve">
+    <value>higher</value>
+  </data>
+  <data name="Sound_Label_Keyboard" xml:space="preserve">
+    <value>Equal temperament: each key ×1.0595</value>
+  </data>
+  <data name="Sound_Label_Loudness" xml:space="preserve">
+    <value>Loudness over time</value>
+  </data>
+  <data name="Sound_Label_Lower" xml:space="preserve">
+    <value>lower</value>
+  </data>
+  <data name="Sound_Label_MediumAir" xml:space="preserve">
+    <value>Air · {0} °C · {1} m/s</value>
+  </data>
+  <data name="Sound_Label_MediumSteel" xml:space="preserve">
+    <value>Steel · {0} m/s</value>
+  </data>
+  <data name="Sound_Label_MediumVacuum" xml:space="preserve">
+    <value>Vacuum</value>
+  </data>
+  <data name="Sound_Label_MediumWater" xml:space="preserve">
+    <value>Water · {0} m/s</value>
+  </data>
+  <data name="Sound_Label_Missing" xml:space="preserve">
+    <value>missing</value>
+  </data>
+  <data name="Sound_Label_Mouth" xml:space="preserve">
+    <value>Mouth (open)</value>
+  </data>
+  <data name="Sound_Label_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Sound_Label_NoAir" xml:space="preserve">
+    <value>No air: nothing to carry the sound</value>
+  </data>
+  <data name="Sound_Label_Nut" xml:space="preserve">
+    <value>Nut</value>
+  </data>
+  <data name="Sound_Label_Octave" xml:space="preserve">
+    <value>Octave: {0} → {1}</value>
+  </data>
+  <data name="Sound_Label_OpenEnd" xml:space="preserve">
+    <value>Open end</value>
+  </data>
+  <data name="Sound_Label_OvertoneBars" xml:space="preserve">
+    <value>Overtones ×2, ×3…</value>
+  </data>
+  <data name="Sound_Label_Overtones" xml:space="preserve">
+    <value>Overtones</value>
+  </data>
+  <data name="Sound_Label_Period" xml:space="preserve">
+    <value>T = {0} ms</value>
+  </data>
+  <data name="Sound_Label_PipeLength" xml:space="preserve">
+    <value>L = {0}</value>
+  </data>
+  <data name="Sound_Label_PipeMode" xml:space="preserve">
+    <value>Harmonic {0} · {1}</value>
+  </data>
+  <data name="Sound_Label_PipeNote" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Sound_Label_Pressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Sound_Label_Rarefaction" xml:space="preserve">
+    <value>Rarefaction</value>
+  </data>
+  <data name="Sound_Label_Scope" xml:space="preserve">
+    <value>{0} · {1} · {2}</value>
+  </data>
+  <data name="Sound_Label_Slowed" xml:space="preserve">
+    <value>slowed ×{0}, movement exaggerated</value>
+  </data>
+  <data name="Sound_Label_Speaker" xml:space="preserve">
+    <value>Speaker</value>
+  </data>
+  <data name="Sound_Label_StringNote" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Sound_Label_Sum" xml:space="preserve">
+    <value>{0} + {1}: their sum in white</value>
+  </data>
+  <data name="Sound_Label_Wavelength" xml:space="preserve">
+    <value>λ = {0}</value>
+  </data>
+  <data name="Sound_Lesson_Strings_Choice1" xml:space="preserve">
+    <value>The even ones: 2, 4, 6…</value>
+  </data>
+  <data name="Sound_Lesson_Strings_Choice2" xml:space="preserve">
+    <value>The odd ones: 1, 3, 5…</value>
+  </data>
+  <data name="Sound_Lesson_Strings_Choice3" xml:space="preserve">
+    <value>None of them</value>
+  </data>
+  <data name="Sound_Lesson_Timbre_Choice1" xml:space="preserve">
+    <value>The mix of overtones</value>
+  </data>
+  <data name="Sound_Lesson_Timbre_Choice2" xml:space="preserve">
+    <value>The frequency of the note</value>
+  </data>
+  <data name="Sound_Lesson_Timbre_Choice3" xml:space="preserve">
+    <value>How fast the sound travels</value>
+  </data>
+  <data name="Sound_Lesson_Wave_Choice1" xml:space="preserve">
+    <value>A pattern of squeezing and stretching</value>
+  </data>
+  <data name="Sound_Lesson_Wave_Choice2" xml:space="preserve">
+    <value>The air itself, blown from the speaker</value>
+  </data>
+  <data name="Sound_Lesson_Wave_Choice3" xml:space="preserve">
+    <value>Tiny particles of sound</value>
+  </data>
+  <data name="Sound_Loud_Breath" xml:space="preserve">
+    <value>breathing</value>
+  </data>
+  <data name="Sound_Loud_Concert" xml:space="preserve">
+    <value>a rock concert</value>
+  </data>
+  <data name="Sound_Loud_Drill" xml:space="preserve">
+    <value>a power drill</value>
+  </data>
+  <data name="Sound_Loud_Jet" xml:space="preserve">
+    <value>a jet taking off nearby</value>
+  </data>
+  <data name="Sound_Loud_Library" xml:space="preserve">
+    <value>a quiet library</value>
+  </data>
+  <data name="Sound_Loud_Talk" xml:space="preserve">
+    <value>conversation</value>
+  </data>
+  <data name="Sound_Loud_Thunder" xml:space="preserve">
+    <value>thunder overhead</value>
+  </data>
+  <data name="Sound_Loud_Traffic" xml:space="preserve">
+    <value>busy traffic</value>
+  </data>
+  <data name="Sound_Loud_Whisper" xml:space="preserve">
+    <value>a whisper</value>
+  </data>
+  <data name="Sound_Loudness" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Sound_Medium_Air" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="Sound_Medium_Caption" xml:space="preserve">
+    <value>What it travels through</value>
+  </data>
+  <data name="Sound_Medium_Steel" xml:space="preserve">
+    <value>Steel</value>
+  </data>
+  <data name="Sound_Medium_Vacuum" xml:space="preserve">
+    <value>Vacuum</value>
+  </data>
+  <data name="Sound_Medium_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Sound_Mode_Strings" xml:space="preserve">
+    <value>Strings and pipes</value>
+  </data>
+  <data name="Sound_Mode_Timbre" xml:space="preserve">
+    <value>Pitch and timbre</value>
+  </data>
+  <data name="Sound_Mode_Wave" xml:space="preserve">
+    <value>Sound wave</value>
+  </data>
+  <data name="Sound_Obj_Antinode" xml:space="preserve">
+    <value>Antinode</value>
+  </data>
+  <data name="Sound_Obj_Beat" xml:space="preserve">
+    <value>Beats</value>
+  </data>
+  <data name="Sound_Obj_Body" xml:space="preserve">
+    <value>Body and sound hole</value>
+  </data>
+  <data name="Sound_Obj_Bridge" xml:space="preserve">
+    <value>Bridge</value>
+  </data>
+  <data name="Sound_Obj_ClosedEnd" xml:space="preserve">
+    <value>Closed end</value>
+  </data>
+  <data name="Sound_Obj_Compression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="Sound_Obj_Ear" xml:space="preserve">
+    <value>The ear</value>
+  </data>
+  <data name="Sound_Obj_Envelope" xml:space="preserve">
+    <value>Envelope</value>
+  </data>
+  <data name="Sound_Obj_Fret" xml:space="preserve">
+    <value>Frets</value>
+  </data>
+  <data name="Sound_Obj_Fundamental" xml:space="preserve">
+    <value>Fundamental</value>
+  </data>
+  <data name="Sound_Obj_Harmonic" xml:space="preserve">
+    <value>An overtone</value>
+  </data>
+  <data name="Sound_Obj_Harmonic1" xml:space="preserve">
+    <value>The fundamental</value>
+  </data>
+  <data name="Sound_Obj_Keyboard" xml:space="preserve">
+    <value>Equal temperament</value>
+  </data>
+  <data name="Sound_Obj_Medium" xml:space="preserve">
+    <value>The medium</value>
+  </data>
+  <data name="Sound_Obj_Node" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="Sound_Obj_Octave" xml:space="preserve">
+    <value>Octave</value>
+  </data>
+  <data name="Sound_Obj_OpenEnd" xml:space="preserve">
+    <value>Open end</value>
+  </data>
+  <data name="Sound_Obj_Overtone" xml:space="preserve">
+    <value>Overtones</value>
+  </data>
+  <data name="Sound_Obj_Particle" xml:space="preserve">
+    <value>A patch of air</value>
+  </data>
+  <data name="Sound_Obj_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Sound_Obj_Pipe" xml:space="preserve">
+    <value>Air column</value>
+  </data>
+  <data name="Sound_Obj_PipeAntinode" xml:space="preserve">
+    <value>Antinode in the pipe</value>
+  </data>
+  <data name="Sound_Obj_PipeMode" xml:space="preserve">
+    <value>A resonance of the pipe</value>
+  </data>
+  <data name="Sound_Obj_PipeNode" xml:space="preserve">
+    <value>Node in the pipe</value>
+  </data>
+  <data name="Sound_Obj_Pluck" xml:space="preserve">
+    <value>Plucking point</value>
+  </data>
+  <data name="Sound_Obj_Pressure" xml:space="preserve">
+    <value>Pressure along the way</value>
+  </data>
+  <data name="Sound_Obj_Rarefaction" xml:space="preserve">
+    <value>Rarefaction</value>
+  </data>
+  <data name="Sound_Obj_Speaker" xml:space="preserve">
+    <value>Loudspeaker</value>
+  </data>
+  <data name="Sound_Obj_String" xml:space="preserve">
+    <value>The string</value>
+  </data>
+  <data name="Sound_Obj_Timbre" xml:space="preserve">
+    <value>Timbre</value>
+  </data>
+  <data name="Sound_Obj_Waveform" xml:space="preserve">
+    <value>Waveform</value>
+  </data>
+  <data name="Sound_Obj_Wavelength" xml:space="preserve">
+    <value>Wavelength</value>
+  </data>
+  <data name="Sound_Option_Harmonics" xml:space="preserve">
+    <value>Harmonics</value>
+  </data>
+  <data name="Sound_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Sound_Options_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Sound_PipeLength" xml:space="preserve">
+    <value>Pipe length</value>
+  </data>
+  <data name="Sound_PipeMode_Caption" xml:space="preserve">
+    <value>Resonance</value>
+  </data>
+  <data name="Sound_Pipe_Closed_Text" xml:space="preserve">
+    <value>The air cannot move at the closed end (a node) but can at the open one: a quarter wave fits, so the note is about an octave lower and only odd harmonics are allowed.</value>
+  </data>
+  <data name="Sound_Pipe_Closed_Title" xml:space="preserve">
+    <value>Closed at one end</value>
+  </data>
+  <data name="Sound_Pipe_Note" xml:space="preserve">
+    <value>Bore 19 mm across, like a flute's. At an open end the air's swing reaches about 0.6 radius past the tube.</value>
+  </data>
+  <data name="Sound_Pipe_Open_Text" xml:space="preserve">
+    <value>The air can move freely at both ends, so both are antinodes: half a wave fits the lowest note, and every harmonic is allowed.</value>
+  </data>
+  <data name="Sound_Pipe_Open_Title" xml:space="preserve">
+    <value>Open at both ends</value>
+  </data>
+  <data name="Sound_PlayNote" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Sound_PlayNote_Tooltip" xml:space="preserve">
+    <value>Play the note on the instrument</value>
+  </data>
+  <data name="Sound_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Sound_Pluck" xml:space="preserve">
+    <value>Pluck</value>
+  </data>
+  <data name="Sound_PluckPoint" xml:space="preserve">
+    <value>Plucked at</value>
+  </data>
+  <data name="Sound_Pluck_Tooltip" xml:space="preserve">
+    <value>Pluck the string at the pick</value>
+  </data>
+  <data name="Sound_Resonator_Caption" xml:space="preserve">
+    <value>What vibrates</value>
+  </data>
+  <data name="Sound_Resonator_ClosedPipe" xml:space="preserve">
+    <value>Closed pipe</value>
+  </data>
+  <data name="Sound_Resonator_OpenPipe" xml:space="preserve">
+    <value>Open pipe</value>
+  </data>
+  <data name="Sound_Resonator_String" xml:space="preserve">
+    <value>Guitar string</value>
+  </data>
+  <data name="Sound_Second_Beats" xml:space="preserve">
+    <value>A few Hz off</value>
+  </data>
+  <data name="Sound_Second_Caption" xml:space="preserve">
+    <value>Second note</value>
+  </data>
+  <data name="Sound_Second_Fifth" xml:space="preserve">
+    <value>Fifth up</value>
+  </data>
+  <data name="Sound_Second_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Sound_Second_Octave" xml:space="preserve">
+    <value>Octave up</value>
+  </data>
+  <data name="Sound_SoundOn" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="Sound_SoundOn_Tooltip" xml:space="preserve">
+    <value>The page's own sound on or off (plucks, notes and the tone)</value>
+  </data>
+  <data name="Sound_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Sound_Stat_Allowed" xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="Sound_Stat_Arrives" xml:space="preserve">
+    <value>Reaches you</value>
+  </data>
+  <data name="Sound_Stat_Beats" xml:space="preserve">
+    <value>Beats</value>
+  </data>
+  <data name="Sound_Stat_Displacement" xml:space="preserve">
+    <value>Air moves</value>
+  </data>
+  <data name="Sound_Stat_EndCorrection" xml:space="preserve">
+    <value>Open-end correction</value>
+  </data>
+  <data name="Sound_Stat_Ends" xml:space="preserve">
+    <value>Ends</value>
+  </data>
+  <data name="Sound_Stat_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Sound_Stat_Fret" xml:space="preserve">
+    <value>Fret</value>
+  </data>
+  <data name="Sound_Stat_Fundamental" xml:space="preserve">
+    <value>Fundamental</value>
+  </data>
+  <data name="Sound_Stat_Intensity" xml:space="preserve">
+    <value>Intensity</value>
+  </data>
+  <data name="Sound_Stat_KeyStep" xml:space="preserve">
+    <value>Next key up</value>
+  </data>
+  <data name="Sound_Stat_Length" xml:space="preserve">
+    <value>Vibrating length</value>
+  </data>
+  <data name="Sound_Stat_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Sound_Stat_Mass" xml:space="preserve">
+    <value>Mass per metre</value>
+  </data>
+  <data name="Sound_Stat_Missing" xml:space="preserve">
+    <value>Missing harmonics</value>
+  </data>
+  <data name="Sound_Stat_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Sound_Stat_Open" xml:space="preserve">
+    <value>Open string now</value>
+  </data>
+  <data name="Sound_Stat_Overtones" xml:space="preserve">
+    <value>Overtones</value>
+  </data>
+  <data name="Sound_Stat_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Sound_Stat_PipeLength" xml:space="preserve">
+    <value>Pipe length</value>
+  </data>
+  <data name="Sound_Stat_PluckedAt" xml:space="preserve">
+    <value>Plucked at</value>
+  </data>
+  <data name="Sound_Stat_PressureSwing" xml:space="preserve">
+    <value>Pressure swing</value>
+  </data>
+  <data name="Sound_Stat_Ratio" xml:space="preserve">
+    <value>Frequency ratio</value>
+  </data>
+  <data name="Sound_Stat_Resonance" xml:space="preserve">
+    <value>Resonance</value>
+  </data>
+  <data name="Sound_Stat_Second" xml:space="preserve">
+    <value>Second note</value>
+  </data>
+  <data name="Sound_Stat_Speed" xml:space="preserve">
+    <value>Speed of sound</value>
+  </data>
+  <data name="Sound_Stat_String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="Sound_Stat_StringSpeed" xml:space="preserve">
+    <value>Ripple speed on the string</value>
+  </data>
+  <data name="Sound_Stat_Strongest" xml:space="preserve">
+    <value>Strongest</value>
+  </data>
+  <data name="Sound_Stat_Tension" xml:space="preserve">
+    <value>Tension</value>
+  </data>
+  <data name="Sound_Stat_Threshold" xml:space="preserve">
+    <value>Quietest heard at this pitch</value>
+  </data>
+  <data name="Sound_Stat_Wavelength" xml:space="preserve">
+    <value>Wavelength</value>
+  </data>
+  <data name="Sound_Stat_WavelengthAir" xml:space="preserve">
+    <value>Wavelength in air</value>
+  </data>
+  <data name="Sound_State_Heard_Text" xml:space="preserve">
+    <value>At this pitch it is above the threshold of hearing. Your eardrum follows the air's tiny back-and-forth and passes it on to the inner ear.</value>
+  </data>
+  <data name="Sound_State_Heard_Title" xml:space="preserve">
+    <value>You can hear this</value>
+  </data>
+  <data name="Sound_State_High_Text" xml:space="preserve">
+    <value>A young ear can hear this, but many adults cannot: the top of our hearing falls with age.</value>
+  </data>
+  <data name="Sound_State_High_Title" xml:space="preserve">
+    <value>At the edge of hearing</value>
+  </data>
+  <data name="Sound_State_Infra_Text" xml:space="preserve">
+    <value>Below about 20 Hz the ear hears no pitch, though very strong infrasound can be felt. Elephants and whales use it.</value>
+  </data>
+  <data name="Sound_State_Infra_Title" xml:space="preserve">
+    <value>Infrasound</value>
+  </data>
+  <data name="Sound_State_Pain_Text" xml:space="preserve">
+    <value>Near 120–130 dB sound hurts, and even a short time can damage hearing for good.</value>
+  </data>
+  <data name="Sound_State_Pain_Title" xml:space="preserve">
+    <value>Painfully loud</value>
+  </data>
+  <data name="Sound_State_Quiet_Text" xml:space="preserve">
+    <value>At this pitch the ear needs a louder sound. Hearing is most sensitive around 3–4 kHz and much less so for low notes.</value>
+  </data>
+  <data name="Sound_State_Quiet_Title" xml:space="preserve">
+    <value>Too quiet to hear</value>
+  </data>
+  <data name="Sound_State_Ultra_Text" xml:space="preserve">
+    <value>Above 20 kHz is too high for human ears. Bats, dolphins and medical scanners use it.</value>
+  </data>
+  <data name="Sound_State_Ultra_Title" xml:space="preserve">
+    <value>Ultrasound</value>
+  </data>
+  <data name="Sound_State_Vacuum_Text" xml:space="preserve">
+    <value>The cone still moves, but there is nothing for it to push. Sound needs a medium: a gas, a liquid or a solid.</value>
+  </data>
+  <data name="Sound_State_Vacuum_Title" xml:space="preserve">
+    <value>No sound in a vacuum</value>
+  </data>
+  <data name="Sound_String_Caption" xml:space="preserve">
+    <value>Which string</value>
+  </data>
+  <data name="Sound_String_Edge_Text" xml:space="preserve">
+    <value>Close to an end many high harmonics start strongly: the sound is bright and thin, as guitarists know.</value>
+  </data>
+  <data name="Sound_String_Edge_Title" xml:space="preserve">
+    <value>Plucked near the end</value>
+  </data>
+  <data name="Sound_String_Middle_Text" xml:space="preserve">
+    <value>Every even harmonic has a node at the middle, so none of them start: the sound is round and hollow.</value>
+  </data>
+  <data name="Sound_String_Middle_Title" xml:space="preserve">
+    <value>Plucked in the middle</value>
+  </data>
+  <data name="Sound_String_Note" xml:space="preserve">
+    <value>Guitar scale length 648 mm; tensions typical of light steel strings.</value>
+  </data>
+  <data name="Sound_String_Plucked_Text" xml:space="preserve">
+    <value>The string's shape is the sum of its harmonics. The higher ones die away sooner, so the tone mellows as it rings.</value>
+  </data>
+  <data name="Sound_String_Plucked_Title" xml:space="preserve">
+    <value>A plucked string</value>
+  </data>
+  <data name="Sound_String_Solo1_Text" xml:space="preserve">
+    <value>Just the fundamental: one arch, the lowest frequency. On its own it sounds smooth and plain, a little like a flute.</value>
+  </data>
+  <data name="Sound_String_Solo_Text" xml:space="preserve">
+    <value>One overtone alone, at a whole multiple of the fundamental. Its nodes split the string into equal parts.</value>
+  </data>
+  <data name="Sound_String_Solo_Title" xml:space="preserve">
+    <value>Harmonic {0} alone</value>
+  </data>
+  <data name="Sound_String_Tooltip" xml:space="preserve">
+    <value>The six strings of a guitar in standard tuning, low to high</value>
+  </data>
+  <data name="Sound_Strings_Fact1" xml:space="preserve">
+    <value>Each fret raises the note a semitone by making the string 2^(1/12) times shorter, which is why frets crowd together towards the body.</value>
+  </data>
+  <data name="Sound_Strings_Fact2" xml:space="preserve">
+    <value>Pitch rises with tension and falls with length and weight: f = √(T/μ) / 2L. Thick, heavy strings play the low notes.</value>
+  </data>
+  <data name="Sound_Strings_Fact3" xml:space="preserve">
+    <value>A string alone is quiet: it barely pushes the air. The guitar's top and the air in its body pick up the vibration and pass it on.</value>
+  </data>
+  <data name="Sound_Strings_Fact4" xml:space="preserve">
+    <value>Touch a string lightly at its middle and pluck it, and you get a guitar 'harmonic': only the modes with a node there keep ringing.</value>
+  </data>
+  <data name="Sound_Strings_Fact5" xml:space="preserve">
+    <value>Flutes are open at both ends; a clarinet behaves as if closed at one end, so it sounds about an octave lower than a flute of the same length.</value>
+  </data>
+  <data name="Sound_Strings_Note" xml:space="preserve">
+    <value>Slowed so the lowest harmonic swings about once every two seconds; the string's swing is exaggerated.</value>
+  </data>
+  <data name="Sound_Strings_Subtitle" xml:space="preserve">
+    <value>Standing waves on a string and in a pipe</value>
+  </data>
+  <data name="Sound_Temperature" xml:space="preserve">
+    <value>Air temperature</value>
+  </data>
+  <data name="Sound_Tension" xml:space="preserve">
+    <value>Tension (tuning peg)</value>
+  </data>
+  <data name="Sound_Timbre_Clarinet_Text" xml:space="preserve">
+    <value>Its tube acts as if closed at the reed, so in its low notes the odd harmonics are strong and the even ones weak: a hollow, woody tone.</value>
+  </data>
+  <data name="Sound_Timbre_Custom_Text" xml:space="preserve">
+    <value>Your own mix of overtones. The pitch stays the same as long as the fundamental is there: only the timbre changes.</value>
+  </data>
+  <data name="Sound_Timbre_Fact1" xml:space="preserve">
+    <value>A4 = 440 Hz is the agreed tuning pitch for most orchestras today (ISO 16); some tune a little higher, to 442 or 443.</value>
+  </data>
+  <data name="Sound_Timbre_Fact2" xml:space="preserve">
+    <value>Your ear splits a sound into its frequencies, much as the bars here do: each place along the cochlea answers to a different pitch.</value>
+  </data>
+  <data name="Sound_Timbre_Fact3" xml:space="preserve">
+    <value>Notes an octave apart share many overtones, one reason they sound like the same note.</value>
+  </data>
+  <data name="Sound_Timbre_Fact4" xml:space="preserve">
+    <value>Equal temperament makes every step the same, so music can move to any key. The price: intervals such as the fifth are very slightly off simple ratios.</value>
+  </data>
+  <data name="Sound_Timbre_Fact5" xml:space="preserve">
+    <value>A telephone cuts off low frequencies, yet a deep voice still sounds deep: the brain fills in the missing fundamental from the overtones.</value>
+  </data>
+  <data name="Sound_Timbre_Flute_Text" xml:space="preserve">
+    <value>Mostly the fundamental with a few weak overtones: a soft, breathy, simple tone.</value>
+  </data>
+  <data name="Sound_Timbre_Fork_Text" xml:space="preserve">
+    <value>Almost a pure sine wave: one frequency, so it sounds clean and plain. That is why it is used for tuning.</value>
+  </data>
+  <data name="Sound_Timbre_Note" xml:space="preserve">
+    <value>The waveform is real and to scale in milliseconds; the instruments' overtone mixes are rounded, for illustration.</value>
+  </data>
+  <data name="Sound_Timbre_Panel_Note" xml:space="preserve">
+    <value>Click or drag across the keys to play. The overtone mixes are rough averages for a middle note.</value>
+  </data>
+  <data name="Sound_Timbre_Piano_Text" xml:space="preserve">
+    <value>A hammer strikes the strings and the sound dies away; the high overtones fade first, so the note softens as it rings.</value>
+  </data>
+  <data name="Sound_Timbre_Subtitle" xml:space="preserve">
+    <value>Why a violin and a flute sound different</value>
+  </data>
+  <data name="Sound_Timbre_Trumpet_Text" xml:space="preserve">
+    <value>Its strongest harmonics sit a few steps above the fundamental: a brassy, brilliant tone.</value>
+  </data>
+  <data name="Sound_Timbre_Violin_Text" xml:space="preserve">
+    <value>The bow drags the string and lets it slip, over and over: a sawtooth-like wave rich in overtones, bright and full.</value>
+  </data>
+  <data name="Sound_Title" xml:space="preserve">
+    <value>Sound and instruments</value>
+  </data>
+  <data name="Sound_Tone" xml:space="preserve">
+    <value>Play the tone</value>
+  </data>
+  <data name="Sound_Tone_Caption" xml:space="preserve">
+    <value>The tone</value>
+  </data>
+  <data name="Sound_Tone_Note" xml:space="preserve">
+    <value>Your speakers set the real loudness, so start with the volume low. Very low notes may be too deep for small speakers.</value>
+  </data>
+  <data name="Sound_Tone_Tooltip" xml:space="preserve">
+    <value>Hear the speaker's tone through your computer's speakers</value>
+  </data>
+  <data name="Sound_Value_Arrives" xml:space="preserve">
+    <value>{1} to reach {0} m</value>
+  </data>
+  <data name="Sound_Value_Beats" xml:space="preserve">
+    <value>{0} per second</value>
+  </data>
+  <data name="Sound_Value_BothOpen" xml:space="preserve">
+    <value>Both open</value>
+  </data>
+  <data name="Sound_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Sound_Value_Cm" xml:space="preserve">
+    <value>{0} cm</value>
+  </data>
+  <data name="Sound_Value_Db" xml:space="preserve">
+    <value>{0} dB</value>
+  </data>
+  <data name="Sound_Value_Fret" xml:space="preserve">
+    <value>Fret {0}</value>
+  </data>
+  <data name="Sound_Value_GramsPerMetre" xml:space="preserve">
+    <value>{0} g/m</value>
+  </data>
+  <data name="Sound_Value_Harmonic" xml:space="preserve">
+    <value>Harmonic {0}</value>
+  </data>
+  <data name="Sound_Value_Hz" xml:space="preserve">
+    <value>{0} Hz</value>
+  </data>
+  <data name="Sound_Value_Intensity" xml:space="preserve">
+    <value>{0} W/m²</value>
+  </data>
+  <data name="Sound_Value_KHz" xml:space="preserve">
+    <value>{0} kHz</value>
+  </data>
+  <data name="Sound_Value_KeyStep" xml:space="preserve">
+    <value>×1.0595 (a semitone)</value>
+  </data>
+  <data name="Sound_Value_Level" xml:space="preserve">
+    <value>{0} dB · {1}</value>
+  </data>
+  <data name="Sound_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Sound_Value_Mm" xml:space="preserve">
+    <value>{0} mm</value>
+  </data>
+  <data name="Sound_Value_Ms" xml:space="preserve">
+    <value>{0} ms</value>
+  </data>
+  <data name="Sound_Value_Newton" xml:space="preserve">
+    <value>{0} N</value>
+  </data>
+  <data name="Sound_Value_Nm" xml:space="preserve">
+    <value>{0} nm</value>
+  </data>
+  <data name="Sound_Value_NoSpeed" xml:space="preserve">
+    <value>It does not travel</value>
+  </data>
+  <data name="Sound_Value_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Sound_Value_Note" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Sound_Value_OneClosed" xml:space="preserve">
+    <value>Closed at the far end</value>
+  </data>
+  <data name="Sound_Value_Open" xml:space="preserve">
+    <value>Open string</value>
+  </data>
+  <data name="Sound_Value_Overtones" xml:space="preserve">
+    <value>{0} Hz…</value>
+  </data>
+  <data name="Sound_Value_Percent" xml:space="preserve">
+    <value>{0}% of the way along</value>
+  </data>
+  <data name="Sound_Value_PlusMinus" xml:space="preserve">
+    <value>±{0}</value>
+  </data>
+  <data name="Sound_Value_Pm" xml:space="preserve">
+    <value>{0} pm</value>
+  </data>
+  <data name="Sound_Value_PressureSwing" xml:space="preserve">
+    <value>±{0} Pa ({1}% of air pressure)</value>
+  </data>
+  <data name="Sound_Value_RatioFifth" xml:space="preserve">
+    <value>{0} (pure 3:2 would be 1.500)</value>
+  </data>
+  <data name="Sound_Value_RatioOctave" xml:space="preserve">
+    <value>{0} (exactly 2:1)</value>
+  </data>
+  <data name="Sound_Value_Resonance" xml:space="preserve">
+    <value>No. {0} (harmonic {1})</value>
+  </data>
+  <data name="Sound_Value_S" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Sound_Value_Speed" xml:space="preserve">
+    <value>{0} m/s</value>
+  </data>
+  <data name="Sound_Value_SpeedAt" xml:space="preserve">
+    <value>{0} m/s at {1} °C</value>
+  </data>
+  <data name="Sound_Value_String" xml:space="preserve">
+    <value>String {0} ({1})</value>
+  </data>
+  <data name="Sound_Value_Um" xml:space="preserve">
+    <value>{0} µm</value>
+  </data>
+  <data name="Sound_Value_Us" xml:space="preserve">
+    <value>{0} µs</value>
+  </data>
+  <data name="Sound_Wave_Fact1" xml:space="preserve">
+    <value>In air at 20 °C sound travels about 343 m/s, roughly 1 km in 3 seconds: count the seconds between lightning and thunder to tell how far the storm is.</value>
+  </data>
+  <data name="Sound_Wave_Fact2" xml:space="preserve">
+    <value>The air does not travel with the sound. Each bit only moves back and forth, often by less than the size of a virus.</value>
+  </data>
+  <data name="Sound_Wave_Fact3" xml:space="preserve">
+    <value>Decibels count by multiplying: every 10 dB more is ten times the power, and sounds about twice as loud.</value>
+  </data>
+  <data name="Sound_Wave_Fact4" xml:space="preserve">
+    <value>Young ears hear about 20 Hz to 20 kHz. The top falls with age, and many adults no longer hear 15 kHz. Dogs hear to about 45 kHz, bats beyond 100 kHz.</value>
+  </data>
+  <data name="Sound_Wave_Fact5" xml:space="preserve">
+    <value>In space there is no air to carry sound: explosions in space films should really be silent.</value>
+  </data>
+  <data name="Sound_Wave_Note" xml:space="preserve">
+    <value>Lengths to scale (see the ruler); time slowed down hugely and the air's movement exaggerated, or nothing would be visible.</value>
+  </data>
+  <data name="Sound_Wave_Subtitle" xml:space="preserve">
+    <value>A loudspeaker pushes the air</value>
   </data>
   <data name="Star_Class_Massive" xml:space="preserve">
     <value>Massive star</value>

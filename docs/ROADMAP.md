@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | clips rendered and playing on Windows and the web (macOS player untested); open: voice licence, desktop packs, offline save |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 25 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 26 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -34,6 +34,7 @@ cross-platform book.
 | `CompositionTarget.Rendering`, `DispatcherTimer` | `TopLevel.RequestAnimationFrame` |
 | `DependencyProperty` | `StyledProperty` / `DirectProperty` |
 | `MediaPlayer` | `INarrationAudio`: winmm (MCI) on Windows, `AVAudioPlayer` on macOS, Web Audio in the browser |
+| The Sound chapter's waveOut stream (`SoundOutput`) | `SoundEngine.OpenOutput`, set by each head: waveOut on Windows, an AudioToolbox queue on macOS (untested), and in the browser short chunks rendered on a timer and scheduled back to back with Web Audio |
 | MaterialDesign `PackIcon` | `PathIcon` with the project's own geometries (`Styles/Explore.axaml`) |
 | `dc.PushOpacity(...)` … `dc.Pop()` | `using var dc = new PaintContext(context);` keeps Push/Pop as is (or `using (dc.PushOpacity(...)) { … }`) |
 | `Point - Point` is a `Vector` | it is a `Point`: write `Vector v = a - b;` |

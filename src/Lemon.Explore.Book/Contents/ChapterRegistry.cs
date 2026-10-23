@@ -22,6 +22,7 @@ using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.Chapters.Typhoon;
 using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Chapters.WaterCycle;
+using Lemon.Explore.Book.Chapters.Sound;
 using Lemon.Explore.Book.Chapters.Waves;
 using Lemon.Explore.Book.ViewModels.Pages;
 
@@ -34,7 +35,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -239,6 +240,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, waves.Lesson, () => waves.Mode.ToString(), Enum.GetNames<WaveMode>());
                 return (new WavesTextPageViewModel(textPage, navigator, chapter, number, waves),
                     new WavesDiagramPageViewModel(textPage + 1, navigator, chapter, waves));
+            }
+
+            case "Sound":
+            {
+                var sound = new SoundViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, sound.Lesson, () => sound.Mode.ToString(), Enum.GetNames<SoundMode>());
+                return (new SoundTextPageViewModel(textPage, navigator, chapter, number, sound),
+                    new SoundDiagramPageViewModel(textPage + 1, navigator, chapter, sound));
             }
 
             default:

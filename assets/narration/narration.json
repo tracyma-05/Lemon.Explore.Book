@@ -17593,6 +17593,1153 @@
      ]
     ]
    },
+   "Narr_Sound_Obj_Antinode": {
+    "duration": 6.168,
+    "hash": "1690c1a5d47f9e12",
+    "sentences": [
+     [
+      0.05,
+      6.097,
+      "An antinode: halfway between two nodes, where the string swings the most."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Beat": {
+    "duration": 10.944,
+    "hash": "581c6bde60bbb8a5",
+    "sentences": [
+     [
+      0.05,
+      5.792,
+      "Beats: two notes slightly apart in frequency go in and out of step."
+     ],
+     [
+      5.792,
+      10.875,
+      "The loudness swells as many times a second as their frequencies differ."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Body": {
+    "duration": 9.312,
+    "hash": "441e29b690df6893",
+    "sentences": [
+     [
+      0.05,
+      1.972,
+      "The body and sound hole."
+     ],
+     [
+      1.972,
+      9.25,
+      "The guitar's hollow box and the air inside it resonate with the string, making the sound loud enough to fill a room."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Bridge": {
+    "duration": 10.584,
+    "hash": "09cdc723d259b489",
+    "sentences": [
+     [
+      0.05,
+      10.514,
+      "The bridge holds the string's far end still, and passes its vibration into the guitar's top, which pushes far more air than the thin string ever could."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_ClosedEnd": {
+    "duration": 8.4,
+    "hash": "5e96a832191feab2",
+    "sentences": [
+     [
+      0.05,
+      1.528,
+      "A closed end."
+     ],
+     [
+      1.528,
+      5.333,
+      "The air can't move through the wall, so it stays still here."
+     ],
+     [
+      5.333,
+      8.347,
+      "But this is where its pressure swings the most."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Compression": {
+    "duration": 11.016,
+    "hash": "d9c15e6109f1f58d",
+    "sentences": [
+     [
+      0.05,
+      6.625,
+      "A compression: the air here is squeezed slightly, so its pressure is a little above normal."
+     ],
+     [
+      6.625,
+      10.944,
+      "Compressions travel away from the speaker at the speed of sound."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Ear": {
+    "duration": 10.944,
+    "hash": "eef776136220b50d",
+    "sentences": [
+     [
+      0.05,
+      1.069,
+      "The ear."
+     ],
+     [
+      1.069,
+      10.889,
+      "The air's push and pull moves the eardrum; three tiny bones pass the motion on to the cochlea, where hair cells turn it into signals for the brain."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Envelope": {
+    "duration": 12.456,
+    "hash": "820e4c3c1ff02d57",
+    "sentences": [
+     [
+      0.05,
+      5.222,
+      "The envelope: how the loudness changes from the start of a note to its end."
+     ],
+     [
+      5.222,
+      12.403,
+      "A sharp start and a slow fade sounds struck or plucked; a slow swell sounds bowed or blown."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Fret": {
+    "duration": 13.392,
+    "hash": "93e6d14f7857d9cc",
+    "sentences": [
+     [
+      0.05,
+      1.083,
+      "Frets."
+     ],
+     [
+      1.083,
+      5.625,
+      "Pressing a string behind a fret shortens the part that vibrates."
+     ],
+     [
+      5.625,
+      11.333,
+      "Each fret makes it about six percent shorter, raising the note by one semitone."
+     ],
+     [
+      11.333,
+      13.333,
+      "Click the neck to hold one."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Fundamental": {
+    "duration": 6.24,
+    "hash": "3c841e27d09f2f37",
+    "sentences": [
+     [
+      0.05,
+      3.861,
+      "The fundamental: the lowest frequency in the sound."
+     ],
+     [
+      3.861,
+      6.181,
+      "It usually sets the pitch we hear."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Harmonic": {
+    "duration": 11.904,
+    "hash": "8f80137fce6b329c",
+    "sentences": [
+     [
+      0.05,
+      5.708,
+      "An overtone: the string splits into equal parts that swing in opposite directions."
+     ],
+     [
+      5.708,
+      9.625,
+      "Its frequency is a whole number times the fundamental."
+     ],
+     [
+      9.625,
+      11.847,
+      "Click the row to hear it alone."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Harmonic1": {
+    "duration": 10.968,
+    "hash": "b19e265343a98696",
+    "sentences": [
+     [
+      0.05,
+      4.278,
+      "The fundamental: the whole string swings as one arch."
+     ],
+     [
+      4.278,
+      8.764,
+      "It's the lowest frequency the string makes, and the pitch you hear."
+     ],
+     [
+      8.764,
+      10.903,
+      "Click the row to hear it alone."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Keyboard": {
+    "duration": 13.32,
+    "hash": "a4029fa38a9cede9",
+    "sentences": [
+     [
+      0.05,
+      10.25,
+      "The keyboard is tuned in equal temperament: every key is the same step up, a frequency ratio of about 1.0595."
+     ],
+     [
+      10.25,
+      13.25,
+      "Twelve steps make exactly a doubling."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Medium": {
+    "duration": 16.632,
+    "hash": "50cc11a74e3dbea3",
+    "sentences": [
+     [
+      0.05,
+      2.069,
+      "What the sound travels through."
+     ],
+     [
+      2.069,
+      16.569,
+      "Sound needs a medium, and the harder it is to squeeze for its weight, the faster sound goes: about 343 metres a second in air, 1480 in water, nearly 6000 in steel."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Node": {
+    "duration": 9.024,
+    "hash": "f6af59ac46826817",
+    "sentences": [
+     [
+      0.05,
+      4.014,
+      "A node: a point that stays still in this harmonic."
+     ],
+     [
+      4.014,
+      8.972,
+      "The second harmonic has one in the middle, the third has two, and so on."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Octave": {
+    "duration": 8.976,
+    "hash": "2689a29c197658fb",
+    "sentences": [
+     [
+      0.05,
+      4.069,
+      "An octave: twelve keys up, twice the frequency."
+     ],
+     [
+      4.069,
+      8.917,
+      "Notes an octave apart sound so alike that they share the same letter name."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_OpenEnd": {
+    "duration": 9.624,
+    "hash": "40485044596d43d4",
+    "sentences": [
+     [
+      0.05,
+      1.75,
+      "An open end."
+     ],
+     [
+      1.75,
+      9.569,
+      "The air here can move in and out freely, so this is where it moves the most, while its pressure stays close to normal."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Overtone": {
+    "duration": 12.168,
+    "hash": "653ee65b2d9d8d2b",
+    "sentences": [
+     [
+      0.05,
+      6.264,
+      "The overtones: frequencies at two, three, four times the fundamental and up."
+     ],
+     [
+      6.264,
+      9.764,
+      "How strong each one is gives the sound its colour."
+     ],
+     [
+      9.764,
+      12.097,
+      "Drag the bars to change them."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Particle": {
+    "duration": 12.384,
+    "hash": "ac5651a6a484ac8c",
+    "sentences": [
+     [
+      0.05,
+      2.014,
+      "One small patch of air."
+     ],
+     [
+      2.014,
+      8.764,
+      "It moves back and forth along the direction the sound travels, but always comes back to the same place."
+     ],
+     [
+      8.764,
+      12.319,
+      "That's why sound is called a longitudinal wave."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Period": {
+    "duration": 11.544,
+    "hash": "e6db8b83e0eb6bd7",
+    "sentences": [
+     [
+      0.05,
+      4.125,
+      "The period: the time for one full repeat of the wave."
+     ],
+     [
+      4.125,
+      11.486,
+      "Frequency is one over the period, so a period of a thousandth of a second means a thousand hertz."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Pipe": {
+    "duration": 11.928,
+    "hash": "4dc5746162ed3170",
+    "sentences": [
+     [
+      0.05,
+      1.417,
+      "The air column."
+     ],
+     [
+      1.417,
+      6.361,
+      "What vibrates here is the air itself, back and forth along the pipe."
+     ],
+     [
+      6.361,
+      11.861,
+      "Only waves that fit its length can build up: those are the pipe's resonances."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_PipeAntinode": {
+    "duration": 7.848,
+    "hash": "0c49fc163944a1b5",
+    "sentences": [
+     [
+      0.05,
+      7.778,
+      "An antinode: the air here rushes back and forth the most, while its pressure hardly changes."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_PipeMode": {
+    "duration": 12.168,
+    "hash": "1f5845ebb91dc49b",
+    "sentences": [
+     [
+      0.05,
+      2.278,
+      "One of the pipe's resonances."
+     ],
+     [
+      2.278,
+      10.472,
+      "An open pipe allows every whole-number multiple of its lowest frequency; a closed pipe, only the odd ones."
+     ],
+     [
+      10.472,
+      12.097,
+      "Click a row to hear it."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_PipeNode": {
+    "duration": 6.12,
+    "hash": "ea4e552658c9f496",
+    "sentences": [
+     [
+      0.05,
+      6.069,
+      "A node: the air here stays still, but it's squeezed and stretched the most."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Pluck": {
+    "duration": 10.464,
+    "hash": "a65be934e8207276",
+    "sentences": [
+     [
+      0.05,
+      1.931,
+      "Where the string will be plucked."
+     ],
+     [
+      1.931,
+      10.403,
+      "Plucking near an end starts many high harmonics and sounds bright; plucking near the middle sounds soft and round."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Pressure": {
+    "duration": 10.08,
+    "hash": "83eb57a8a070f626",
+    "sentences": [
+     [
+      0.05,
+      2.097,
+      "The pressure along the way."
+     ],
+     [
+      2.097,
+      4.667,
+      "Up means squeezed, down means stretched."
+     ],
+     [
+      4.667,
+      10.014,
+      "Even loud sounds change the air's pressure by only a tiny fraction."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Rarefaction": {
+    "duration": 11.424,
+    "hash": "bf0bf0f1318af557",
+    "sentences": [
+     [
+      0.05,
+      7.014,
+      "A rarefaction: the air here is spread out slightly, so its pressure dips a little below normal."
+     ],
+     [
+      7.014,
+      11.375,
+      "It follows each compression, half a wavelength behind."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Speaker": {
+    "duration": 12.84,
+    "hash": "ad5cf9c296dd0986",
+    "sentences": [
+     [
+      0.05,
+      4.125,
+      "A loudspeaker turns an electrical signal into motion."
+     ],
+     [
+      4.125,
+      9.986,
+      "A coil in a magnet's field pushes the cone back and forth, and the cone pushes the air."
+     ],
+     [
+      9.986,
+      12.778,
+      "Drag the cone to push the air yourself."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_String": {
+    "duration": 10.152,
+    "hash": "df44ed74292845b7",
+    "sentences": [
+     [
+      0.05,
+      1.221,
+      "The string."
+     ],
+     [
+      1.221,
+      7.847,
+      "Its note depends on three things: shorter, tighter and lighter strings vibrate faster."
+     ],
+     [
+      7.847,
+      10.083,
+      "Drag it and let go to pluck it."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Timbre": {
+    "duration": 9.432,
+    "hash": "21a7c0f410120ad7",
+    "sentences": [
+     [
+      0.05,
+      2.139,
+      "The instrument and the note."
+     ],
+     [
+      2.139,
+      9.375,
+      "Two instruments playing the same note have the same pitch but a different timbre, because their waves have different shapes."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Waveform": {
+    "duration": 9.936,
+    "hash": "62ffd9c32f738396",
+    "sentences": [
+     [
+      0.05,
+      7.264,
+      "The waveform: how the air pressure at a microphone rises and falls over a few thousandths of a second."
+     ],
+     [
+      7.264,
+      9.875,
+      "Its shape carries the sound's timbre."
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Wavelength": {
+    "duration": 10.92,
+    "hash": "ba0fe62983a12202",
+    "sentences": [
+     [
+      0.05,
+      4.486,
+      "The wavelength: the distance from one compression to the next."
+     ],
+     [
+      4.486,
+      10.861,
+      "It equals the speed of sound divided by the frequency, so higher notes have shorter waves."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_01": {
+    "duration": 10.512,
+    "hash": "20f4963f0f263033",
+    "sentences": [
+     [
+      0.05,
+      3.472,
+      "A guitar string is held tight at both ends."
+     ],
+     [
+      3.472,
+      10.444,
+      "Pluck it, and the bend you made splits in two and runs back and forth between the ends, again and again."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_02": {
+    "duration": 12.48,
+    "hash": "6250ae7e29daa916",
+    "sentences": [
+     [
+      0.05,
+      4.806,
+      "That busy motion is really a few simple shapes added together."
+     ],
+     [
+      4.806,
+      8.5,
+      "The simplest is one big arch, swinging up and down."
+     ],
+     [
+      8.5,
+      12.431,
+      "It's called the fundamental, and it sets the note you hear."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_03": {
+    "duration": 13.224,
+    "hash": "18ce838adedcdffa",
+    "sentences": [
+     [
+      0.05,
+      4.069,
+      "Then come shapes with two, three, four arches."
+     ],
+     [
+      4.069,
+      9.292,
+      "These are the overtones, at exactly two, three and four times the frequency."
+     ],
+     [
+      9.292,
+      13.167,
+      "Together they give the string its bright, rich sound."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_04": {
+    "duration": 11.592,
+    "hash": "fd89ea1a3715cdbd",
+    "sentences": [
+     [
+      0.05,
+      2.331,
+      "Look at the dots on each row."
+     ],
+     [
+      2.331,
+      6.014,
+      "Those points never move: they're called nodes."
+     ],
+     [
+      6.014,
+      11.528,
+      "Halfway between them, where the string swings the most, are the antinodes."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_05": {
+    "duration": 6.216,
+    "hash": "82134f0674da8980",
+    "sentences": [
+     [
+      0.05,
+      1.264,
+      "Here's a puzzle."
+     ],
+     [
+      1.264,
+      6.153,
+      "If you pluck the string exactly in the middle, which harmonics can't start at all?"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_06": {
+    "duration": 14.688,
+    "hash": "65c2a046c3dc5c53",
+    "sentences": [
+     [
+      0.05,
+      1.653,
+      "Plucked in the middle now."
+     ],
+     [
+      1.653,
+      9.819,
+      "The second, fourth and sixth harmonics all have a node right there, and you can't start a wave by pulling a point that has to stay still."
+     ],
+     [
+      9.819,
+      14.625,
+      "So the even ones vanish, and the sound turns round and hollow."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_07": {
+    "duration": 10.608,
+    "hash": "42e959d72e236e81",
+    "sentences": [
+     [
+      0.05,
+      2.417,
+      "Now press the twelfth fret."
+     ],
+     [
+      2.417,
+      10.542,
+      "Only half the string can vibrate, and half the length means twice the frequency: the same note, one octave higher."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_08": {
+    "duration": 13.32,
+    "hash": "d744d8a19408c70f",
+    "sentences": [
+     [
+      0.05,
+      2.431,
+      "Air in a pipe can do the same."
+     ],
+     [
+      2.431,
+      7.292,
+      "At an open end the air moves freely, so there's an antinode there."
+     ],
+     [
+      7.292,
+      13.264,
+      "In this pipe, open at both ends like a flute, the lowest note fits half a wave."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_09": {
+    "duration": 12.336,
+    "hash": "04904b6ecbcf85ff",
+    "sentences": [
+     [
+      0.05,
+      2.125,
+      "Now close the far end."
+     ],
+     [
+      2.125,
+      5.569,
+      "The air there can't move, so it becomes a node."
+     ],
+     [
+      5.569,
+      12.278,
+      "Only a quarter of a wave fits, so the note drops about an octave, and only the odd harmonics are allowed."
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_10": {
+    "duration": 10.104,
+    "hash": "5da4be367bd7628c",
+    "sentences": [
+     [
+      0.05,
+      1.164,
+      "Your turn."
+     ],
+     [
+      1.164,
+      10.042,
+      "Drag the string and let go to pluck it somewhere new, click the neck to hold a different fret, or click a row to hear just one harmonic."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_01": {
+    "duration": 13.08,
+    "hash": "ab5d9e5967916748",
+    "sentences": [
+     [
+      0.05,
+      5.597,
+      "Each key on a piano is a pitch: a number of vibrations every second."
+     ],
+     [
+      5.597,
+      10.611,
+      "This A, just above middle C, is 440 hertz."
+     ],
+     [
+      10.611,
+      13.014,
+      "It's the note orchestras tune to."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_02": {
+    "duration": 12.36,
+    "hash": "0d0e6e272e01315e",
+    "sentences": [
+     [
+      0.05,
+      4.667,
+      "Go up twelve keys, one octave, and the frequency doubles."
+     ],
+     [
+      4.667,
+      12.306,
+      "Every step in between is the same small ratio: each key is about six percent higher than the one before."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_03": {
+    "duration": 10.848,
+    "hash": "682533a3296b5cd8",
+    "sentences": [
+     [
+      0.05,
+      10.792,
+      "This is what a microphone would record from a tuning fork: a smooth, simple wave, repeating over and over, 440 times every second."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_04": {
+    "duration": 8.184,
+    "hash": "529650862176320a",
+    "sentences": [
+     [
+      0.05,
+      2.792,
+      "The time for one repeat is the period."
+     ],
+     [
+      2.792,
+      5.736,
+      "Here it's a little over two milliseconds."
+     ],
+     [
+      5.736,
+      8.111,
+      "Higher notes have shorter periods."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_05": {
+    "duration": 11.52,
+    "hash": "662499ca178883f8",
+    "sentences": [
+     [
+      0.05,
+      2.444,
+      "Now the same note on a violin."
+     ],
+     [
+      2.444,
+      8.097,
+      "Same pitch, same period, but look at the shape: jagged, like a saw."
+     ],
+     [
+      8.097,
+      11.458,
+      "That difference in shape is what we call timbre."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_06": {
+    "duration": 11.088,
+    "hash": "719dc1e3d741b223",
+    "sentences": [
+     [
+      0.05,
+      1.569,
+      "The bars show why."
+     ],
+     [
+      1.569,
+      8.417,
+      "The violin adds lots of overtones, at two, three, four times the frequency and beyond."
+     ],
+     [
+      8.417,
+      11.028,
+      "The tuning fork had almost none."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_07": {
+    "duration": 12.96,
+    "hash": "0e238d63f2de33bd",
+    "sentences": [
+     [
+      0.05,
+      4.653,
+      "Timbre is also about how a note starts and ends."
+     ],
+     [
+      4.653,
+      12.903,
+      "A piano note strikes in an instant and then slowly fades, while a violin can swell and hold its sound."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_08": {
+    "duration": 7.44,
+    "hash": "ac7b55dabbf6f9fb",
+    "sentences": [
+     [
+      0.05,
+      1.389,
+      "Question time."
+     ],
+     [
+      1.389,
+      5.042,
+      "A clarinet and a flute both play this same A."
+     ],
+     [
+      5.042,
+      7.375,
+      "What's different about the two sounds?"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_09": {
+    "duration": 14.784,
+    "hash": "83013be588cd0b31",
+    "sentences": [
+     [
+      0.05,
+      3.542,
+      "Now two tuning forks, three hertz apart."
+     ],
+     [
+      3.542,
+      9.194,
+      "They drift in and out of step, so the sound swells and fades three times a second."
+     ],
+     [
+      9.194,
+      10.611,
+      "These are beats."
+     ],
+     [
+      10.611,
+      14.722,
+      "Tuners listen for them to slow down and vanish."
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_10": {
+    "duration": 6.84,
+    "hash": "9bf28059fa912a45",
+    "sentences": [
+     [
+      0.05,
+      1.15,
+      "Your turn."
+     ],
+     [
+      1.15,
+      6.778,
+      "Pick an instrument and play some keys, or drag the bars to build a sound of your own."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_01": {
+    "duration": 12.096,
+    "hash": "9298025fc8acf1ab",
+    "sentences": [
+     [
+      0.05,
+      2.75,
+      "Every sound starts with something shaking."
+     ],
+     [
+      2.75,
+      4.528,
+      "Here it's a loudspeaker."
+     ],
+     [
+      4.528,
+      12.028,
+      "Watch its cone: it moves forward and back, pushing on the air in front of it, over and over."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_02": {
+    "duration": 10.608,
+    "hash": "9a21aa8d7109361e",
+    "sentences": [
+     [
+      0.05,
+      1.806,
+      "Now follow the red dot."
+     ],
+     [
+      1.806,
+      3.639,
+      "It's a little patch of air."
+     ],
+     [
+      3.639,
+      6.0,
+      "Does it fly off towards the ear?"
+     ],
+     [
+      6.0,
+      6.972,
+      "No."
+     ],
+     [
+      6.972,
+      10.542,
+      "It just shuffles back and forth around the same spot."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_03": {
+    "duration": 8.952,
+    "hash": "97faa922f3a41720",
+    "sentences": [
+     [
+      0.05,
+      4.194,
+      "Where the dots crowd together, the air is squeezed a little."
+     ],
+     [
+      4.194,
+      8.903,
+      "That's a compression, and its pressure is slightly higher than normal."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_04": {
+    "duration": 10.656,
+    "hash": "ed6765cf2aed0b22",
+    "sentences": [
+     [
+      0.05,
+      5.833,
+      "In between, the dots spread apart: a rarefaction, where the pressure dips a little."
+     ],
+     [
+      5.833,
+      8.306,
+      "See how the pattern moves to the right?"
+     ],
+     [
+      8.306,
+      10.583,
+      "That moving pattern is the sound."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_05": {
+    "duration": 8.328,
+    "hash": "8f1c495b85600439",
+    "sentences": [
+     [
+      0.05,
+      2.194,
+      "So here's a question."
+     ],
+     [
+      2.194,
+      8.278,
+      "When you hear this speaker from across the room, what has actually travelled from the speaker to your ear?"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_06": {
+    "duration": 15.024,
+    "hash": "f15a54c05673308f",
+    "sentences": [
+     [
+      0.05,
+      3.736,
+      "The pattern travels; the air stays where it is."
+     ],
+     [
+      3.736,
+      7.5,
+      "From one compression to the next is one wavelength."
+     ],
+     [
+      7.5,
+      9.583,
+      "Now the pitch has doubled."
+     ],
+     [
+      9.583,
+      14.958,
+      "Watch: the new compressions leave the speaker half as far apart."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_07": {
+    "duration": 12.336,
+    "hash": "20c86683de1c10ba",
+    "sentences": [
+     [
+      0.05,
+      6.556,
+      "This graph shows the pressure along the way: up where the air is squeezed, down where it's stretched."
+     ],
+     [
+      6.556,
+      12.278,
+      "Even this fairly loud sound changes the pressure by less than one part in a million."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_08": {
+    "duration": 10.08,
+    "hash": "c4249dca1f8bdc65",
+    "sentences": [
+     [
+      0.05,
+      2.444,
+      "Now let's take the air away."
+     ],
+     [
+      2.444,
+      6.597,
+      "The cone still moves, but there's nothing in front of it to push."
+     ],
+     [
+      6.597,
+      10.028,
+      "In a vacuum, sound can't travel at all."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_09": {
+    "duration": 13.344,
+    "hash": "df375e96ec32bf1d",
+    "sentences": [
+     [
+      0.05,
+      1.194,
+      "And in water?"
+     ],
+     [
+      1.194,
+      8.597,
+      "Its molecules are packed close and are very hard to squeeze, so sound races through more than four times faster."
+     ],
+     [
+      8.597,
+      12.014,
+      "The same note now has a much longer wavelength."
+     ],
+     [
+      12.014,
+      13.278,
+      "Check the ruler."
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_10": {
+    "duration": 11.376,
+    "hash": "570bf92be2e4d872",
+    "sentences": [
+     [
+      0.05,
+      1.165,
+      "Your turn."
+     ],
+     [
+      1.165,
+      8.528,
+      "Drag the speaker's cone to push the air yourself, or switch on the tone and change its frequency or level."
+     ],
+     [
+      8.528,
+      11.306,
+      "Notice what changes, and what doesn't."
+     ]
+    ]
+   },
    "Narr_Star_Diagram_01": {
     "duration": 12.984,
     "hash": "e524f2efc19715c5",
@@ -41926,6 +43073,1083 @@
       0.1,
       6.953,
       "现在你来试试：点击任意一颗行星或卫星，飞过去听听它的故事。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Antinode": {
+    "duration": 6.0,
+    "hash": "ab00668f4101a0fb",
+    "sentences": [
+     [
+      0.1,
+      5.981,
+      "波腹：在两个波节正中间，弦摆动得最厉害的地方。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Beat": {
+    "duration": 10.608,
+    "hash": "a468425c3ebce556",
+    "sentences": [
+     [
+      0.1,
+      5.647,
+      "拍：两个频率略有差别的音时而同步、时而错开。"
+     ],
+     [
+      5.597,
+      10.542,
+      "响度每秒起伏的次数，正好等于它们的频率差。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Body": {
+    "duration": 10.752,
+    "hash": "5ece284f2fbf6e0b",
+    "sentences": [
+     [
+      0.1,
+      2.133,
+      "琴身和音孔。"
+     ],
+     [
+      2.083,
+      10.681,
+      "吉他空心的箱体和里面的空气与琴弦一起共振，让声音响到足以充满整个房间。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Bridge": {
+    "duration": 10.176,
+    "hash": "b6929c15c8a3fc12",
+    "sentences": [
+     [
+      0.1,
+      6.064,
+      "琴码固定住弦的另一端，并把弦的振动传到吉他面板上。"
+     ],
+     [
+      6.014,
+      10.125,
+      "面板推动的空气，比细细的弦多得多。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_ClosedEnd": {
+    "duration": 9.36,
+    "hash": "aae076703bca2831",
+    "sentences": [
+     [
+      0.1,
+      1.606,
+      "封闭端。"
+     ],
+     [
+      1.556,
+      6.181,
+      "空气无法穿过管壁，所以这里的空气不动。"
+     ],
+     [
+      6.181,
+      9.306,
+      "但气压的变化在这里最大。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Compression": {
+    "duration": 8.592,
+    "hash": "c8325e46cf0abba6",
+    "sentences": [
+     [
+      0.1,
+      5.8,
+      "密部：这里的空气被稍稍压紧，气压比平时略高。"
+     ],
+     [
+      5.75,
+      8.528,
+      "密部以声速离开扬声器。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Ear": {
+    "duration": 12.24,
+    "hash": "fcc4038f7b8fcd8a",
+    "sentences": [
+     [
+      0.1,
+      1.356,
+      "耳朵。"
+     ],
+     [
+      1.306,
+      12.181,
+      "空气的推拉让鼓膜振动，三块小小的听小骨把振动传给耳蜗，耳蜗里的毛细胞再把它变成送往大脑的信号。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Envelope": {
+    "duration": 13.896,
+    "hash": "3fcaae982870b822",
+    "sentences": [
+     [
+      0.1,
+      5.217,
+      "包络：一个音从开始到结束，响度如何变化。"
+     ],
+     [
+      5.167,
+      13.833,
+      "起音快、衰减慢，听起来像敲击或拨弦；渐渐变强，听起来像拉奏或吹奏。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Fret": {
+    "duration": 13.704,
+    "hash": "199d2ed281bb0a72",
+    "sentences": [
+     [
+      0.1,
+      1.217,
+      "品。"
+     ],
+     [
+      1.167,
+      5.514,
+      "在品后面按住弦，振动的部分就变短了。"
+     ],
+     [
+      5.514,
+      10.5,
+      "每一品让弦缩短约百分之六，音升高一个半音。"
+     ],
+     [
+      10.5,
+      13.653,
+      "点击琴颈就能按住一个品。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Fundamental": {
+    "duration": 6.384,
+    "hash": "201825e60a1518b8",
+    "sentences": [
+     [
+      0.1,
+      6.383,
+      "基音：声音中最低的频率，它通常决定了我们听到的音高。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Harmonic": {
+    "duration": 11.832,
+    "hash": "a52f40d67878a540",
+    "sentences": [
+     [
+      0.1,
+      5.564,
+      "泛音：弦分成相等的几段，相邻两段反向摆动。"
+     ],
+     [
+      5.514,
+      8.583,
+      "它的频率是基音的整数倍。"
+     ],
+     [
+      8.583,
+      11.778,
+      "点击这一行，可以单独听它。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Harmonic1": {
+    "duration": 12.048,
+    "hash": "daa47ec33b1af871",
+    "sentences": [
+     [
+      0.1,
+      4.008,
+      "基音：整根弦作为一个拱形摆动。"
+     ],
+     [
+      3.958,
+      8.792,
+      "它是弦发出的最低频率，也就是你听到的音高。"
+     ],
+     [
+      8.792,
+      11.986,
+      "点击这一行，可以单独听它。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Keyboard": {
+    "duration": 10.272,
+    "hash": "29178c4a6f03153a",
+    "sentences": [
+     [
+      0.1,
+      10.222,
+      "键盘采用十二平均律：每个键都升高同样的一步，频率比约为 1.0595，十二步正好翻一番。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Medium": {
+    "duration": 18.216,
+    "hash": "063b86bd2a948454",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "声音传播所经过的东西，叫做介质。"
+     ],
+     [
+      4.139,
+      18.153,
+      "声音离不开介质，介质越难压缩（相对它的轻重），声音跑得越快：空气中约 343 米每秒，水中约 1480，钢中将近 6000。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Node": {
+    "duration": 10.536,
+    "hash": "117edf82c0ec993e",
+    "sentences": [
+     [
+      0.1,
+      4.383,
+      "波节：在这个谐波里始终不动的点。"
+     ],
+     [
+      4.333,
+      10.472,
+      "第二次谐波在正中有一个，第三次谐波有两个，依此类推。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Octave": {
+    "duration": 9.912,
+    "hash": "5f7257d892d71194",
+    "sentences": [
+     [
+      0.1,
+      4.119,
+      "八度：往上十二个键，频率加倍。"
+     ],
+     [
+      4.069,
+      9.847,
+      "相差八度的两个音听起来非常相像，所以用同一个音名。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_OpenEnd": {
+    "duration": 9.552,
+    "hash": "e7da7a1db57a1395",
+    "sentences": [
+     [
+      0.1,
+      1.564,
+      "开口端。"
+     ],
+     [
+      1.514,
+      9.5,
+      "这里的空气可以自由进出，所以是空气运动最大的地方，而气压几乎保持正常。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Overtone": {
+    "duration": 14.112,
+    "hash": "90b550f5e2d07878",
+    "sentences": [
+     [
+      0.1,
+      6.606,
+      "泛音：频率是基音两倍、三倍、四倍乃至更高的成分。"
+     ],
+     [
+      6.556,
+      11.153,
+      "每个泛音的强弱，给声音着上了不同的色彩。"
+     ],
+     [
+      11.153,
+      14.056,
+      "拖动柱子可以改变它们。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Particle": {
+    "duration": 10.248,
+    "hash": "45c8685c833e162b",
+    "sentences": [
+     [
+      0.1,
+      1.994,
+      "一小团空气。"
+     ],
+     [
+      1.944,
+      7.264,
+      "它沿着声音传播的方向来回移动，但总会回到原处。"
+     ],
+     [
+      7.264,
+      10.181,
+      "所以声音被叫做纵波。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Period": {
+    "duration": 11.904,
+    "hash": "7ac291b66fb8816e",
+    "sentences": [
+     [
+      0.1,
+      4.231,
+      "周期：波完整重复一次所需的时间。"
+     ],
+     [
+      4.181,
+      11.847,
+      "频率等于周期的倒数，所以周期是千分之一秒，频率就是一千赫兹。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Pipe": {
+    "duration": 12.792,
+    "hash": "9dd5e94c1449df85",
+    "sentences": [
+     [
+      0.1,
+      1.592,
+      "空气柱。"
+     ],
+     [
+      1.542,
+      6.861,
+      "这里振动的是管里的空气本身，沿着管子来回运动。"
+     ],
+     [
+      6.861,
+      12.736,
+      "只有和管长相匹配的波才能建立起来，这就是管的共振。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_PipeAntinode": {
+    "duration": 6.024,
+    "hash": "59993f336120a1f6",
+    "sentences": [
+     [
+      0.1,
+      6.008,
+      "波腹：这里的空气来回冲得最厉害，而气压几乎不变。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_PipeMode": {
+    "duration": 10.248,
+    "hash": "c188a1e9cd701350",
+    "sentences": [
+     [
+      0.1,
+      1.939,
+      "管的一个共振。"
+     ],
+     [
+      1.889,
+      7.722,
+      "开管允许最低频率的所有整数倍，闭管只允许奇数倍。"
+     ],
+     [
+      7.722,
+      10.181,
+      "点击一行可以听一听。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_PipeNode": {
+    "duration": 5.592,
+    "hash": "f8609f3865f81d11",
+    "sentences": [
+     [
+      0.1,
+      5.578,
+      "波节：这里的空气不动，但被压紧和拉开得最厉害。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Pluck": {
+    "duration": 11.376,
+    "hash": "ff37393b2e492f56",
+    "sentences": [
+     [
+      0.1,
+      2.425,
+      "这里是拨弦的位置。"
+     ],
+     [
+      2.375,
+      11.306,
+      "靠近端点拨，会激起许多高次谐波，声音明亮；靠近中间拨，声音柔和、圆润。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Pressure": {
+    "duration": 11.4,
+    "hash": "e69df42f10c1c796",
+    "sentences": [
+     [
+      0.1,
+      5.744,
+      "沿途的气压：向上表示被压紧，向下表示被拉开。"
+     ],
+     [
+      5.694,
+      11.333,
+      "即使是很响的声音，气压的变化也只有极小的一点点。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Rarefaction": {
+    "duration": 9.48,
+    "hash": "caf74a82bbb2ce03",
+    "sentences": [
+     [
+      0.1,
+      5.508,
+      "疏部：这里的空气稍稍散开，气压略低于平时。"
+     ],
+     [
+      5.458,
+      9.417,
+      "它总跟在密部后面，相隔半个波长。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Speaker": {
+    "duration": 12.696,
+    "hash": "cc44b51e10f4e959",
+    "sentences": [
+     [
+      0.1,
+      8.911,
+      "扬声器把电信号变成运动：磁场里的线圈推着纸盆前后运动，纸盆再推动空气。"
+     ],
+     [
+      8.861,
+      12.625,
+      "拖动纸盆，你可以亲手推动空气。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_String": {
+    "duration": 11.832,
+    "hash": "1178e6a17401730a",
+    "sentences": [
+     [
+      0.1,
+      1.453,
+      "琴弦。"
+     ],
+     [
+      1.403,
+      8.556,
+      "它的音高取决于三样东西：越短、越紧、越轻，振动就越快。"
+     ],
+     [
+      8.556,
+      11.778,
+      "拖动它再松手，就能拨弦。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Timbre": {
+    "duration": 9.336,
+    "hash": "eb38f2cf33dde31f",
+    "sentences": [
+     [
+      0.1,
+      1.8,
+      "乐器和音。"
+     ],
+     [
+      1.75,
+      9.278,
+      "两件乐器演奏同一个音，音高相同，音色却不同，因为它们的波形不一样。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Waveform": {
+    "duration": 8.928,
+    "hash": "7452de4539f0248e",
+    "sentences": [
+     [
+      0.1,
+      5.55,
+      "波形：麦克风处的气压在几毫秒内如何升降。"
+     ],
+     [
+      5.5,
+      8.875,
+      "它的形状承载着声音的音色。"
+     ]
+    ]
+   },
+   "Narr_Sound_Obj_Wavelength": {
+    "duration": 9.264,
+    "hash": "302eb9aaa6be7938",
+    "sentences": [
+     [
+      0.1,
+      4.133,
+      "波长：从一个密部到下一个密部的距离。"
+     ],
+     [
+      4.083,
+      9.208,
+      "它等于声速除以频率，所以音越高，波长越短。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_01": {
+    "duration": 10.968,
+    "hash": "8f7afe833fc9037e",
+    "sentences": [
+     [
+      0.1,
+      3.161,
+      "吉他弦两端被紧紧固定。"
+     ],
+     [
+      3.111,
+      10.917,
+      "拨一下，你拉出的那个弯会分成两半，在两端之间来回奔跑，一遍又一遍。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_02": {
+    "duration": 13.536,
+    "hash": "3d3e322aea5241fa",
+    "sentences": [
+     [
+      0.1,
+      5.689,
+      "这看似复杂的运动，其实是几种简单形状叠加而成的。"
+     ],
+     [
+      5.639,
+      13.472,
+      "最简单的是一个大拱形，上下摆动，叫做基音，它决定了你听到的音高。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_03": {
+    "duration": 14.4,
+    "hash": "16613cbadbdddfd8",
+    "sentences": [
+     [
+      0.1,
+      10.458,
+      "接下来是有两个、三个、四个拱形的形状，它们是泛音，频率正好是基音的两倍、三倍、四倍。"
+     ],
+     [
+      10.458,
+      14.347,
+      "它们一起让琴弦的声音明亮而丰满。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_04": {
+    "duration": 10.536,
+    "hash": "903f3f849cb197b8",
+    "sentences": [
+     [
+      0.1,
+      2.383,
+      "看每一行上的小点。"
+     ],
+     [
+      2.333,
+      5.625,
+      "这些点从来不动，叫做波节。"
+     ],
+     [
+      5.625,
+      10.472,
+      "两个波节中间摆得最厉害的地方，叫做波腹。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_05": {
+    "duration": 6.96,
+    "hash": "0d0a42b8d97ec3b2",
+    "sentences": [
+     [
+      0.1,
+      6.939,
+      "来个小谜题：如果正好在弦的正中间拨，哪些谐波根本起不了振？"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_06": {
+    "duration": 17.496,
+    "hash": "747b41d072d42a46",
+    "sentences": [
+     [
+      0.1,
+      2.481,
+      "现在在正中拨弦。"
+     ],
+     [
+      2.431,
+      11.583,
+      "第二、第四、第六次谐波在正中恰好都是波节，而一个必须静止的点，是拉不出振动的。"
+     ],
+     [
+      11.583,
+      17.431,
+      "所以偶数次谐波全都消失了，声音变得圆润、发空。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_07": {
+    "duration": 11.112,
+    "hash": "4c6fec4190e2193c",
+    "sentences": [
+     [
+      0.1,
+      2.842,
+      "现在按住第十二品。"
+     ],
+     [
+      2.792,
+      11.056,
+      "只有一半的弦能振动，长度减半，频率就加倍：还是同一个音名，但高了一个八度。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_08": {
+    "duration": 15.408,
+    "hash": "8e99291ce938028b",
+    "sentences": [
+     [
+      0.1,
+      3.342,
+      "管子里的空气也能这样振动。"
+     ],
+     [
+      3.292,
+      8.819,
+      "在开口端，空气可以自由进出，所以那里是波腹。"
+     ],
+     [
+      8.819,
+      15.347,
+      "这根管两端开口，就像长笛，最低的音正好装下半个波长。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_09": {
+    "duration": 15.096,
+    "hash": "6adb8852f6310e16",
+    "sentences": [
+     [
+      0.1,
+      2.397,
+      "现在把远端封上。"
+     ],
+     [
+      2.347,
+      6.222,
+      "那里的空气动不了，于是变成了波节。"
+     ],
+     [
+      6.222,
+      15.042,
+      "管里只能装下四分之一个波长，所以音大约低了一个八度，而且只剩下奇数次谐波。"
+     ]
+    ]
+   },
+   "Narr_Sound_Strings_10": {
+    "duration": 12.432,
+    "hash": "1ee1a365d2e2d32a",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      12.375,
+      "拖动琴弦再松手，换个位置拨一拨；点击琴颈，按住别的品；或者点击某一行，单独听听那一个谐波。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_01": {
+    "duration": 12.864,
+    "hash": "42502237b48428f5",
+    "sentences": [
+     [
+      0.1,
+      6.05,
+      "钢琴上的每个键都是一个音高，也就是每秒振动多少次。"
+     ],
+     [
+      6.0,
+      12.806,
+      "中央 C 上方的这个 A 是 440 赫兹，乐团就是用它来校音的。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_02": {
+    "duration": 11.712,
+    "hash": "89a04255994888ba",
+    "sentences": [
+     [
+      0.1,
+      5.425,
+      "往上数十二个键，也就是一个八度，频率就翻了一倍。"
+     ],
+     [
+      5.375,
+      11.639,
+      "中间每一步的比例都一样：每个键都比前一个高大约百分之六。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_03": {
+    "duration": 8.784,
+    "hash": "f939709714128fad",
+    "sentences": [
+     [
+      0.1,
+      8.772,
+      "这是麦克风录下的音叉声：一条光滑、简单的波，一遍遍重复，每秒 440 次。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_04": {
+    "duration": 8.448,
+    "hash": "841fc5ce9a3f1758",
+    "sentences": [
+     [
+      0.1,
+      5.8,
+      "重复一次所用的时间叫做周期，这里是两毫秒多一点。"
+     ],
+     [
+      5.75,
+      8.389,
+      "音越高，周期越短。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_05": {
+    "duration": 12.816,
+    "hash": "8d3e955636e42572",
+    "sentences": [
+     [
+      0.1,
+      3.036,
+      "现在用小提琴拉同一个音。"
+     ],
+     [
+      2.986,
+      8.75,
+      "音高一样，周期一样，可波形完全不同，像锯齿一样。"
+     ],
+     [
+      8.75,
+      12.75,
+      "这种波形上的不同，就是我们说的音色。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_06": {
+    "duration": 12.984,
+    "hash": "012b2e1479da0c9e",
+    "sentences": [
+     [
+      0.1,
+      9.731,
+      "柱子告诉我们原因：小提琴加进了许多泛音，频率是基音的两倍、三倍、四倍，还有更高的。"
+     ],
+     [
+      9.681,
+      12.917,
+      "而音叉几乎一个泛音都没有。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_07": {
+    "duration": 13.968,
+    "hash": "d08b1ecc3b1a7532",
+    "sentences": [
+     [
+      0.1,
+      4.8,
+      "音色还和一个音怎样开始、怎样结束有关。"
+     ],
+     [
+      4.75,
+      13.903,
+      "钢琴的音一敲就响，然后慢慢消失；而小提琴的声音可以渐渐变强，并且一直保持。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_08": {
+    "duration": 7.176,
+    "hash": "89b3dbe805703d57",
+    "sentences": [
+     [
+      0.1,
+      7.161,
+      "提个问题：单簧管和长笛都吹这个 A，两种声音到底哪里不一样？"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_09": {
+    "duration": 17.256,
+    "hash": "a2c93615c1e4eb3c",
+    "sentences": [
+     [
+      0.1,
+      3.786,
+      "现在是两个音叉，相差 3 赫兹。"
+     ],
+     [
+      3.736,
+      11.472,
+      "它们时而同步、时而错开，所以声音每秒忽强忽弱三次，这叫做拍。"
+     ],
+     [
+      11.472,
+      17.194,
+      "调音师就是听着拍越来越慢、直到消失，把音调准的。"
+     ]
+    ]
+   },
+   "Narr_Sound_Timbre_10": {
+    "duration": 8.304,
+    "hash": "1c890c798c2a5bcd",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      8.236,
+      "选一件乐器弹几个键，或者拖动柱子，调出属于你自己的声音。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_01": {
+    "duration": 13.536,
+    "hash": "b284a823e4cf86c4",
+    "sentences": [
+     [
+      0.1,
+      4.453,
+      "每一种声音，都从某样东西的振动开始。"
+     ],
+     [
+      4.403,
+      6.736,
+      "这里是一个扬声器。"
+     ],
+     [
+      6.736,
+      13.486,
+      "看它的纸盆：一前一后地来回运动，一次又一次地推着前面的空气。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_02": {
+    "duration": 11.136,
+    "hash": "9951e3245bb081db",
+    "sentences": [
+     [
+      0.1,
+      4.481,
+      "现在盯住这个红点，它代表一小团空气。"
+     ],
+     [
+      4.431,
+      6.583,
+      "它会飞向耳朵吗？"
+     ],
+     [
+      6.583,
+      7.833,
+      "不会。"
+     ],
+     [
+      7.833,
+      11.069,
+      "它只是在原地附近来回挪动。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_03": {
+    "duration": 8.688,
+    "hash": "b809e087d16f99ae",
+    "sentences": [
+     [
+      0.1,
+      5.731,
+      "小点挤在一起的地方，空气被压紧了一点，这叫密部。"
+     ],
+     [
+      5.681,
+      8.639,
+      "那里的气压比平时稍高。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_04": {
+    "duration": 12.408,
+    "hash": "1471835ecc70c8eb",
+    "sentences": [
+     [
+      0.1,
+      5.925,
+      "在两个密部之间，小点散开了，这是疏部，气压稍低。"
+     ],
+     [
+      5.875,
+      10.208,
+      "看到这种疏密相间的样子在向右移动了吗？"
+     ],
+     [
+      10.208,
+      12.333,
+      "移动的正是声音。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_05": {
+    "duration": 8.592,
+    "hash": "208530ca42c77d0d",
+    "sentences": [
+     [
+      0.1,
+      8.578,
+      "考考你：你在房间另一头听到这个扬声器，从扬声器传到你耳朵里的，到底是什么？"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_06": {
+    "duration": 16.704,
+    "hash": "a3e0174997989b9e",
+    "sentences": [
+     [
+      0.1,
+      4.397,
+      "传过来的是疏密的样式，空气留在原地。"
+     ],
+     [
+      4.347,
+      8.722,
+      "从一个密部到下一个密部的距离，叫做波长。"
+     ],
+     [
+      8.722,
+      11.625,
+      "现在我把音调提高了一倍。"
+     ],
+     [
+      11.625,
+      16.639,
+      "看，新发出的密部之间，距离只有原来的一半。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_07": {
+    "duration": 13.104,
+    "hash": "9d7deffd2aa1b5c6",
+    "sentences": [
+     [
+      0.1,
+      7.481,
+      "这张图画的是沿途的气压：空气被压紧的地方往上，被拉开的地方往下。"
+     ],
+     [
+      7.431,
+      13.042,
+      "即使是这么响的声音，气压的变化也不到百万分之一。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_08": {
+    "duration": 10.536,
+    "hash": "bf57a7bfd8233a74",
+    "sentences": [
+     [
+      0.1,
+      2.397,
+      "现在把空气抽走。"
+     ],
+     [
+      2.347,
+      6.875,
+      "纸盆还在动，可前面已经没有东西可推了。"
+     ],
+     [
+      6.875,
+      10.472,
+      "在真空里，声音根本无法传播。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_09": {
+    "duration": 15.264,
+    "hash": "1d3a4765ba5dd438",
+    "sentences": [
+     [
+      0.1,
+      1.869,
+      "那在水里呢？"
+     ],
+     [
+      1.819,
+      9.597,
+      "水分子挨得很紧，而且极难压缩，所以声音跑得比在空气中快四倍多。"
+     ],
+     [
+      9.597,
+      12.944,
+      "同样的音，波长也长了很多。"
+     ],
+     [
+      12.944,
+      15.194,
+      "看看下面的标尺。"
+     ]
+    ]
+   },
+   "Narr_Sound_Wave_10": {
+    "duration": 13.056,
+    "hash": "93d8733d955eae34",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.806,
+      "拖动扬声器的纸盆，亲手推一推空气；或者打开音调，改改它的频率和声级。"
+     ],
+     [
+      9.806,
+      13.0,
+      "留意哪些变了，哪些没变。"
      ]
     ]
    },

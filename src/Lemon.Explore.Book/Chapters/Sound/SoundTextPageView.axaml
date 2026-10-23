@@ -1,0 +1,263 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:sound="using:Lemon.Explore.Book.Chapters.Sound"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Sound.SoundTextPageView"
+                         x:DataType="sound:SoundTextPageViewModel">
+    <!-- Left page of the Sound spread: the view's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Sound.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Sound.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Sound.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="SoundMode" IsChecked="{Binding Sound.IsWave}" Content="{loc:Localize Sound_Mode_Wave}" />
+                    <RadioButton Classes="chip" GroupName="SoundMode" IsChecked="{Binding Sound.IsStrings}" Content="{loc:Localize Sound_Mode_Strings}" />
+                    <RadioButton Classes="chip" GroupName="SoundMode" IsChecked="{Binding Sound.IsTimbre}" Content="{loc:Localize Sound_Mode_Timbre}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Sound.Card}" />
+
+                <!-- Wave: the tone and what it travels through -->
+                <StackPanel IsVisible="{Binding Sound.IsWave}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_Tone_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SoundFrequency" IsChecked="{Binding Sound.FrequencyChoice[110]}" Content="{loc:Localize Sound_Freq_Low}" />
+                        <RadioButton Classes="chip" GroupName="SoundFrequency" IsChecked="{Binding Sound.FrequencyChoice[440]}" Content="{loc:Localize Sound_Freq_A}" />
+                        <RadioButton Classes="chip" GroupName="SoundFrequency" IsChecked="{Binding Sound.FrequencyChoice[3000]}" Content="{loc:Localize Sound_Freq_Ear}" />
+                        <RadioButton Classes="chip" GroupName="SoundFrequency" IsChecked="{Binding Sound.FrequencyChoice[15000]}" Content="{loc:Localize Sound_Freq_High}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Sound.FrequencyText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Frequency}" />
+                    </DockPanel>
+                    <Slider Minimum="1.30103" Maximum="4.30103" Value="{Binding Sound.FrequencyLog}" SmallChange="0.005" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Sound_Frequency}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Sound.LoudnessText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Loudness}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="120" Value="{Binding Sound.Loudness}" SmallChange="1" LargeChange="10"
+                            IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Sound_Loudness}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Sound.ToneOn}" Content="{loc:Localize Sound_Tone}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Sound.ShowLabels}" Content="{loc:Localize Sound_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Sound_Tone_Note}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_Medium_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SoundMedium" IsChecked="{Binding Sound.MediumChoice[Air]}" Content="{loc:Localize Sound_Medium_Air}" />
+                        <RadioButton Classes="chip" GroupName="SoundMedium" IsChecked="{Binding Sound.MediumChoice[Water]}" Content="{loc:Localize Sound_Medium_Water}" />
+                        <RadioButton Classes="chip" GroupName="SoundMedium" IsChecked="{Binding Sound.MediumChoice[Steel]}" Content="{loc:Localize Sound_Medium_Steel}" />
+                        <RadioButton Classes="chip" GroupName="SoundMedium" IsChecked="{Binding Sound.MediumChoice[Vacuum]}" Content="{loc:Localize Sound_Medium_Vacuum}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Sound.IsAir}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.TemperatureText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Temperature}" />
+                        </DockPanel>
+                        <Slider Minimum="-20" Maximum="40" Value="{Binding Sound.Temperature}" SmallChange="1" LargeChange="5"
+                                IsSnapToTickEnabled="True" TickFrequency="1"
+                                AutomationProperties.Name="{loc:Localize Sound_Temperature}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Strings: what vibrates -->
+                <StackPanel IsVisible="{Binding Sound.IsStrings}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_Resonator_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SoundResonator" IsChecked="{Binding Sound.ResonatorChoice[String]}" Content="{loc:Localize Sound_Resonator_String}" />
+                        <RadioButton Classes="chip" GroupName="SoundResonator" IsChecked="{Binding Sound.ResonatorChoice[OpenPipe]}" Content="{loc:Localize Sound_Resonator_OpenPipe}" />
+                        <RadioButton Classes="chip" GroupName="SoundResonator" IsChecked="{Binding Sound.ResonatorChoice[ClosedPipe]}" Content="{loc:Localize Sound_Resonator_ClosedPipe}" />
+                    </WrapPanel>
+
+                    <StackPanel IsVisible="{Binding Sound.IsString}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_String_Caption}" />
+                        <WrapPanel ToolTip.Tip="{loc:Localize Sound_String_Tooltip}">
+                            <RadioButton Classes="chip" GroupName="SoundString" IsChecked="{Binding Sound.StringChoice[0]}" Content="E2" />
+                            <RadioButton Classes="chip" GroupName="SoundString" IsChecked="{Binding Sound.StringChoice[1]}" Content="A2" />
+                            <RadioButton Classes="chip" GroupName="SoundString" IsChecked="{Binding Sound.StringChoice[2]}" Content="D3" />
+                            <RadioButton Classes="chip" GroupName="SoundString" IsChecked="{Binding Sound.StringChoice[3]}" Content="G3" />
+                            <RadioButton Classes="chip" GroupName="SoundString" IsChecked="{Binding Sound.StringChoice[4]}" Content="B3" />
+                            <RadioButton Classes="chip" GroupName="SoundString" IsChecked="{Binding Sound.StringChoice[5]}" Content="E4" />
+                        </WrapPanel>
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.FretText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Fret}" />
+                        </DockPanel>
+                        <Slider Minimum="0" Maximum="12" Value="{Binding Sound.Fret}" SmallChange="1" LargeChange="1"
+                                IsSnapToTickEnabled="True" TickFrequency="1"
+                                AutomationProperties.Name="{loc:Localize Sound_Fret}" />
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.TensionText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Tension}" />
+                        </DockPanel>
+                        <Slider Minimum="0.8" Maximum="1.25" Value="{Binding Sound.TensionScale}" SmallChange="0.01" LargeChange="0.05"
+                                AutomationProperties.Name="{loc:Localize Sound_Tension}" />
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.PluckText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_PluckPoint}" />
+                        </DockPanel>
+                        <Slider Minimum="0.05" Maximum="0.95" Value="{Binding Sound.PluckPoint}" SmallChange="0.01" LargeChange="0.05"
+                                AutomationProperties.Name="{loc:Localize Sound_PluckPoint}" />
+                        <WrapPanel Margin="0,8,0,0">
+                            <Button Classes="chip" Command="{Binding Sound.PluckCommand}" Content="{loc:Localize Sound_Pluck}" />
+                            <ToggleButton Classes="chip" IsChecked="{Binding Sound.ShowHarmonics}" Content="{loc:Localize Sound_Option_Harmonics}" />
+                            <ToggleButton Classes="chip" IsChecked="{Binding Sound.ShowLabels}" Content="{loc:Localize Sound_Option_Labels}" />
+                        </WrapPanel>
+                        <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Sound_String_Note}" />
+                    </StackPanel>
+
+                    <StackPanel IsVisible="{Binding Sound.IsPipe}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.PipeLengthText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_PipeLength}" />
+                        </DockPanel>
+                        <Slider Minimum="0.1" Maximum="1.5" Value="{Binding Sound.PipeLength}" SmallChange="0.01" LargeChange="0.1"
+                                AutomationProperties.Name="{loc:Localize Sound_PipeLength}" />
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_PipeMode_Caption}" />
+                        <WrapPanel>
+                            <RadioButton Classes="chip" GroupName="SoundPipeMode" IsChecked="{Binding Sound.PipeModeChoice[1]}" Content="1" />
+                            <RadioButton Classes="chip" GroupName="SoundPipeMode" IsChecked="{Binding Sound.PipeModeChoice[2]}" Content="2" />
+                            <RadioButton Classes="chip" GroupName="SoundPipeMode" IsChecked="{Binding Sound.PipeModeChoice[3]}" Content="3" />
+                            <RadioButton Classes="chip" GroupName="SoundPipeMode" IsChecked="{Binding Sound.PipeModeChoice[4]}" Content="4" />
+                            <Button Classes="chip" Command="{Binding Sound.BlowCommand}" Content="{loc:Localize Sound_Blow}" />
+                        </WrapPanel>
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.TemperatureText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Temperature}" />
+                        </DockPanel>
+                        <Slider Minimum="-20" Maximum="40" Value="{Binding Sound.Temperature}" SmallChange="1" LargeChange="5"
+                                IsSnapToTickEnabled="True" TickFrequency="1"
+                                AutomationProperties.Name="{loc:Localize Sound_Temperature}" />
+                        <WrapPanel Margin="0,8,0,0">
+                            <ToggleButton Classes="chip" IsChecked="{Binding Sound.ShowLabels}" Content="{loc:Localize Sound_Option_Labels}" />
+                        </WrapPanel>
+                        <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Sound_Pipe_Note}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Timbre: the instrument and a second note -->
+                <StackPanel IsVisible="{Binding Sound.IsTimbre}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_Instrument_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Fork]}" Content="{loc:Localize Sound_Instrument_Fork}" />
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Flute]}" Content="{loc:Localize Sound_Instrument_Flute}" />
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Clarinet]}" Content="{loc:Localize Sound_Instrument_Clarinet}" />
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Violin]}" Content="{loc:Localize Sound_Instrument_Violin}" />
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Trumpet]}" Content="{loc:Localize Sound_Instrument_Trumpet}" />
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Piano]}" Content="{loc:Localize Sound_Instrument_Piano}" />
+                        <RadioButton Classes="chip" GroupName="SoundInstrument" IsChecked="{Binding Sound.InstrumentChoice[Custom]}" Content="{loc:Localize Sound_Instrument_Custom}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_Second_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="SoundSecond" IsChecked="{Binding Sound.SecondChoice[None]}" Content="{loc:Localize Sound_Second_None}" />
+                        <RadioButton Classes="chip" GroupName="SoundSecond" IsChecked="{Binding Sound.SecondChoice[Beats]}" Content="{loc:Localize Sound_Second_Beats}" />
+                        <RadioButton Classes="chip" GroupName="SoundSecond" IsChecked="{Binding Sound.SecondChoice[Octave]}" Content="{loc:Localize Sound_Second_Octave}" />
+                        <RadioButton Classes="chip" GroupName="SoundSecond" IsChecked="{Binding Sound.SecondChoice[Fifth]}" Content="{loc:Localize Sound_Second_Fifth}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Sound.IsBeats}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Sound.DetuneText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Sound_Detune}" />
+                        </DockPanel>
+                        <Slider Minimum="0.5" Maximum="10" Value="{Binding Sound.Detune}" SmallChange="0.1" LargeChange="1"
+                                AutomationProperties.Name="{loc:Localize Sound_Detune}" />
+                    </StackPanel>
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Sound.PlayNoteCommand}" Content="{loc:Localize Sound_PlayNote}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Sound.ShowLabels}" Content="{loc:Localize Sound_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Sound_Timbre_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Sound.ChartCaption}" />
+                <Border Classes="plate" Height="180">
+                    <sound:SoundChart Mode="{Binding Sound.Mode}"
+                                      Frequency="{Binding Sound.Frequency, Mode=TwoWay}"
+                                      Loudness="{Binding Sound.Loudness, Mode=TwoWay}"
+                                      Resonator="{Binding Sound.Resonator}"
+                                      PluckPoint="{Binding Sound.PluckPoint}"
+                                      SoloHarmonic="{Binding Sound.SoloHarmonic}"
+                                      StringFrequency="{Binding Sound.StringFrequency}"
+                                      PipeMode="{Binding Sound.PipeMode}"
+                                      PipeFrequency="{Binding Sound.PipeFrequency}"
+                                      NoteMidi="{Binding Sound.NoteMidi}"
+                                      InteractionCommand="{Binding Sound.UserInteractedCommand}"
+                                      AutomationProperties.Name="{Binding Sound.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Sound.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Sound.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Sound.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Sound.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Sound.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Sound_Facts}" />
+                <ItemsControl ItemsSource="{Binding Sound.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

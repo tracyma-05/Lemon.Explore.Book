@@ -10548,6 +10548,192 @@
   <data name="Narr_SolarSystem_Tour_10" xml:space="preserve">
     <value>现在你来试试：点击任意一颗行星或卫星，飞过去听听它的故事。</value>
   </data>
+  <data name="Narr_Sound_Obj_Antinode" xml:space="preserve">
+    <value>波腹：在两个波节正中间，弦摆动得最厉害的地方。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Beat" xml:space="preserve">
+    <value>拍：两个频率略有差别的音时而同步、时而错开。响度每秒起伏的次数，正好等于它们的频率差。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Body" xml:space="preserve">
+    <value>琴身和音孔。吉他空心的箱体和里面的空气与琴弦一起共振，让声音响到足以充满整个房间。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Bridge" xml:space="preserve">
+    <value>琴码固定住弦的另一端，并把弦的振动传到吉他面板上。面板推动的空气，比细细的弦多得多。</value>
+  </data>
+  <data name="Narr_Sound_Obj_ClosedEnd" xml:space="preserve">
+    <value>封闭端。空气无法穿过管壁，所以这里的空气不动。但气压的变化在这里最大。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Compression" xml:space="preserve">
+    <value>密部：这里的空气被稍稍压紧，气压比平时略高。密部以声速离开扬声器。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Ear" xml:space="preserve">
+    <value>耳朵。空气的推拉让鼓膜振动，三块小小的听小骨把振动传给耳蜗，耳蜗里的毛细胞再把它变成送往大脑的信号。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Envelope" xml:space="preserve">
+    <value>包络：一个音从开始到结束，响度如何变化。起音快、衰减慢，听起来像敲击或拨弦；渐渐变强，听起来像拉奏或吹奏。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Fret" xml:space="preserve">
+    <value>品。在品后面按住弦，振动的部分就变短了。每一品让弦缩短约百分之六，音升高一个半音。点击琴颈就能按住一个品。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Fundamental" xml:space="preserve">
+    <value>基音：声音中最低的频率，它通常决定了我们听到的音高。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Harmonic" xml:space="preserve">
+    <value>泛音：弦分成相等的几段，相邻两段反向摆动。它的频率是基音的整数倍。点击这一行，可以单独听它。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Harmonic1" xml:space="preserve">
+    <value>基音：整根弦作为一个拱形摆动。它是弦发出的最低频率，也就是你听到的音高。点击这一行，可以单独听它。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Keyboard" xml:space="preserve">
+    <value>键盘采用十二平均律：每个键都升高同样的一步，频率比约为 1.0595，十二步正好翻一番。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Medium" xml:space="preserve">
+    <value>声音传播所经过的东西，叫做介质。声音离不开介质，介质越难压缩（相对它的轻重），声音跑得越快：空气中约 343 米每秒，水中约 1480，钢中将近 6000。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Node" xml:space="preserve">
+    <value>波节：在这个谐波里始终不动的点。第二次谐波在正中有一个，第三次谐波有两个，依此类推。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Octave" xml:space="preserve">
+    <value>八度：往上十二个键，频率加倍。相差八度的两个音听起来非常相像，所以用同一个音名。</value>
+  </data>
+  <data name="Narr_Sound_Obj_OpenEnd" xml:space="preserve">
+    <value>开口端。这里的空气可以自由进出，所以是空气运动最大的地方，而气压几乎保持正常。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Overtone" xml:space="preserve">
+    <value>泛音：频率是基音两倍、三倍、四倍乃至更高的成分。每个泛音的强弱，给声音着上了不同的色彩。拖动柱子可以改变它们。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Particle" xml:space="preserve">
+    <value>一小团空气。它沿着声音传播的方向来回移动，但总会回到原处。所以声音被叫做纵波。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Period" xml:space="preserve">
+    <value>周期：波完整重复一次所需的时间。频率等于周期的倒数，所以周期是千分之一秒，频率就是一千赫兹。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Pipe" xml:space="preserve">
+    <value>空气柱。这里振动的是管里的空气本身，沿着管子来回运动。只有和管长相匹配的波才能建立起来，这就是管的共振。</value>
+  </data>
+  <data name="Narr_Sound_Obj_PipeAntinode" xml:space="preserve">
+    <value>波腹：这里的空气来回冲得最厉害，而气压几乎不变。</value>
+  </data>
+  <data name="Narr_Sound_Obj_PipeMode" xml:space="preserve">
+    <value>管的一个共振。开管允许最低频率的所有整数倍，闭管只允许奇数倍。点击一行可以听一听。</value>
+  </data>
+  <data name="Narr_Sound_Obj_PipeNode" xml:space="preserve">
+    <value>波节：这里的空气不动，但被压紧和拉开得最厉害。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Pluck" xml:space="preserve">
+    <value>这里是拨弦的位置。靠近端点拨，会激起许多高次谐波，声音明亮；靠近中间拨，声音柔和、圆润。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Pressure" xml:space="preserve">
+    <value>沿途的气压：向上表示被压紧，向下表示被拉开。即使是很响的声音，气压的变化也只有极小的一点点。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Rarefaction" xml:space="preserve">
+    <value>疏部：这里的空气稍稍散开，气压略低于平时。它总跟在密部后面，相隔半个波长。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Speaker" xml:space="preserve">
+    <value>扬声器把电信号变成运动：磁场里的线圈推着纸盆前后运动，纸盆再推动空气。拖动纸盆，你可以亲手推动空气。</value>
+  </data>
+  <data name="Narr_Sound_Obj_String" xml:space="preserve">
+    <value>琴弦。它的音高取决于三样东西：越短、越紧、越轻，振动就越快。拖动它再松手，就能拨弦。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Timbre" xml:space="preserve">
+    <value>乐器和音。两件乐器演奏同一个音，音高相同，音色却不同，因为它们的波形不一样。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Waveform" xml:space="preserve">
+    <value>波形：麦克风处的气压在几毫秒内如何升降。它的形状承载着声音的音色。</value>
+  </data>
+  <data name="Narr_Sound_Obj_Wavelength" xml:space="preserve">
+    <value>波长：从一个密部到下一个密部的距离。它等于声速除以频率，所以音越高，波长越短。</value>
+  </data>
+  <data name="Narr_Sound_Strings_01" xml:space="preserve">
+    <value>吉他弦两端被紧紧固定。拨一下，你拉出的那个弯会分成两半，在两端之间来回奔跑，一遍又一遍。</value>
+  </data>
+  <data name="Narr_Sound_Strings_02" xml:space="preserve">
+    <value>这看似复杂的运动，其实是几种简单形状叠加而成的。最简单的是一个大拱形，上下摆动，叫做基音，它决定了你听到的音高。</value>
+  </data>
+  <data name="Narr_Sound_Strings_03" xml:space="preserve">
+    <value>接下来是有两个、三个、四个拱形的形状，它们是泛音，频率正好是基音的两倍、三倍、四倍。它们一起让琴弦的声音明亮而丰满。</value>
+  </data>
+  <data name="Narr_Sound_Strings_04" xml:space="preserve">
+    <value>看每一行上的小点。这些点从来不动，叫做波节。两个波节中间摆得最厉害的地方，叫做波腹。</value>
+  </data>
+  <data name="Narr_Sound_Strings_05" xml:space="preserve">
+    <value>来个小谜题：如果正好在弦的正中间拨，哪些谐波根本起不了振？</value>
+  </data>
+  <data name="Narr_Sound_Strings_06" xml:space="preserve">
+    <value>现在在正中拨弦。第二、第四、第六次谐波在正中恰好都是波节，而一个必须静止的点，是拉不出振动的。所以偶数次谐波全都消失了，声音变得圆润、发空。</value>
+  </data>
+  <data name="Narr_Sound_Strings_07" xml:space="preserve">
+    <value>现在按住第十二品。只有一半的弦能振动，长度减半，频率就加倍：还是同一个音名，但高了一个八度。</value>
+  </data>
+  <data name="Narr_Sound_Strings_08" xml:space="preserve">
+    <value>管子里的空气也能这样振动。在开口端，空气可以自由进出，所以那里是波腹。这根管两端开口，就像长笛，最低的音正好装下半个波长。</value>
+  </data>
+  <data name="Narr_Sound_Strings_09" xml:space="preserve">
+    <value>现在把远端封上。那里的空气动不了，于是变成了波节。管里只能装下四分之一个波长，所以音大约低了一个八度，而且只剩下奇数次谐波。</value>
+  </data>
+  <data name="Narr_Sound_Strings_10" xml:space="preserve">
+    <value>轮到你了。拖动琴弦再松手，换个位置拨一拨；点击琴颈，按住别的品；或者点击某一行，单独听听那一个谐波。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_01" xml:space="preserve">
+    <value>钢琴上的每个键都是一个音高，也就是每秒振动多少次。中央 C 上方的这个 A 是 440 赫兹，乐团就是用它来校音的。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_02" xml:space="preserve">
+    <value>往上数十二个键，也就是一个八度，频率就翻了一倍。中间每一步的比例都一样：每个键都比前一个高大约百分之六。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_03" xml:space="preserve">
+    <value>这是麦克风录下的音叉声：一条光滑、简单的波，一遍遍重复，每秒 440 次。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_04" xml:space="preserve">
+    <value>重复一次所用的时间叫做周期，这里是两毫秒多一点。音越高，周期越短。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_05" xml:space="preserve">
+    <value>现在用小提琴拉同一个音。音高一样，周期一样，可波形完全不同，像锯齿一样。这种波形上的不同，就是我们说的音色。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_06" xml:space="preserve">
+    <value>柱子告诉我们原因：小提琴加进了许多泛音，频率是基音的两倍、三倍、四倍，还有更高的。而音叉几乎一个泛音都没有。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_07" xml:space="preserve">
+    <value>音色还和一个音怎样开始、怎样结束有关。钢琴的音一敲就响，然后慢慢消失；而小提琴的声音可以渐渐变强，并且一直保持。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_08" xml:space="preserve">
+    <value>提个问题：单簧管和长笛都吹这个 A，两种声音到底哪里不一样？</value>
+  </data>
+  <data name="Narr_Sound_Timbre_09" xml:space="preserve">
+    <value>现在是两个音叉，相差 3 赫兹。它们时而同步、时而错开，所以声音每秒忽强忽弱三次，这叫做拍。调音师就是听着拍越来越慢、直到消失，把音调准的。</value>
+  </data>
+  <data name="Narr_Sound_Timbre_10" xml:space="preserve">
+    <value>轮到你了。选一件乐器弹几个键，或者拖动柱子，调出属于你自己的声音。</value>
+  </data>
+  <data name="Narr_Sound_Wave_01" xml:space="preserve">
+    <value>每一种声音，都从某样东西的振动开始。这里是一个扬声器。看它的纸盆：一前一后地来回运动，一次又一次地推着前面的空气。</value>
+  </data>
+  <data name="Narr_Sound_Wave_02" xml:space="preserve">
+    <value>现在盯住这个红点，它代表一小团空气。它会飞向耳朵吗？不会。它只是在原地附近来回挪动。</value>
+  </data>
+  <data name="Narr_Sound_Wave_03" xml:space="preserve">
+    <value>小点挤在一起的地方，空气被压紧了一点，这叫密部。那里的气压比平时稍高。</value>
+  </data>
+  <data name="Narr_Sound_Wave_04" xml:space="preserve">
+    <value>在两个密部之间，小点散开了，这是疏部，气压稍低。看到这种疏密相间的样子在向右移动了吗？移动的正是声音。</value>
+  </data>
+  <data name="Narr_Sound_Wave_05" xml:space="preserve">
+    <value>考考你：你在房间另一头听到这个扬声器，从扬声器传到你耳朵里的，到底是什么？</value>
+  </data>
+  <data name="Narr_Sound_Wave_06" xml:space="preserve">
+    <value>传过来的是疏密的样式，空气留在原地。从一个密部到下一个密部的距离，叫做波长。现在我把音调提高了一倍。看，新发出的密部之间，距离只有原来的一半。</value>
+  </data>
+  <data name="Narr_Sound_Wave_07" xml:space="preserve">
+    <value>这张图画的是沿途的气压：空气被压紧的地方往上，被拉开的地方往下。即使是这么响的声音，气压的变化也不到百万分之一。</value>
+  </data>
+  <data name="Narr_Sound_Wave_08" xml:space="preserve">
+    <value>现在把空气抽走。纸盆还在动，可前面已经没有东西可推了。在真空里，声音根本无法传播。</value>
+  </data>
+  <data name="Narr_Sound_Wave_09" xml:space="preserve">
+    <value>那在水里呢？水分子挨得很紧，而且极难压缩，所以声音跑得比在空气中快四倍多。同样的音，波长也长了很多。看看下面的标尺。</value>
+  </data>
+  <data name="Narr_Sound_Wave_10" xml:space="preserve">
+    <value>轮到你了。拖动扬声器的纸盆，亲手推一推空气；或者打开音调，改改它的频率和声级。留意哪些变了，哪些没变。</value>
+  </data>
   <data name="Narr_Star_Diagram_01" xml:space="preserve">
     <value>这是赫罗图，天文学里最重要的图之一。横着看是恒星的表面温度，越往左越热；竖着看是它真正有多亮。</value>
   </data>
@@ -16526,6 +16712,897 @@
   </data>
   <data name="SolarSystem_Venus_Tagline" xml:space="preserve">
     <value>最炽热的行星</value>
+  </data>
+  <data name="Sound_Blow" xml:space="preserve">
+    <value>吹奏</value>
+  </data>
+  <data name="Sound_Blow_Tooltip" xml:space="preserve">
+    <value>听这根管的声音</value>
+  </data>
+  <data name="Sound_Chart_AllHarmonics" xml:space="preserve">
+    <value>所有谐波</value>
+  </data>
+  <data name="Sound_Chart_Doubling" xml:space="preserve">
+    <value>C4 {0} → C5 {1} → B5 {2} Hz</value>
+  </data>
+  <data name="Sound_Chart_HarmonicHz" xml:space="preserve">
+    <value>1 = {0}</value>
+  </data>
+  <data name="Sound_Chart_OddOnly" xml:space="preserve">
+    <value>只有奇次谐波</value>
+  </data>
+  <data name="Sound_Chart_Pain" xml:space="preserve">
+    <value>痛阈</value>
+  </data>
+  <data name="Sound_Chart_PipeUnit" xml:space="preserve">
+    <value>1 = {0}</value>
+  </data>
+  <data name="Sound_Chart_Pipe_Caption" xml:space="preserve">
+    <value>管的共振频率</value>
+  </data>
+  <data name="Sound_Chart_Pipe_Note" xml:space="preserve">
+    <value>柱子是最低频率的整数倍。一端封闭的管只允许奇数倍。</value>
+  </data>
+  <data name="Sound_Chart_Silent" xml:space="preserve">
+    <value>听不到</value>
+  </data>
+  <data name="Sound_Chart_Speech" xml:space="preserve">
+    <value>语音</value>
+  </data>
+  <data name="Sound_Chart_Strings_Caption" xml:space="preserve">
+    <value>这一拨的谐波</value>
+  </data>
+  <data name="Sound_Chart_Strings_Note" xml:space="preserve">
+    <value>每个谐波起振的强弱。打叉的谐波在拨弦处正好是波节，所以根本起不了振。</value>
+  </data>
+  <data name="Sound_Chart_Timbre_Caption" xml:space="preserve">
+    <value>每个琴键的频率</value>
+  </data>
+  <data name="Sound_Chart_Timbre_Note" xml:space="preserve">
+    <value>每个键的频率是前一个键的 2^(1/12) ≈ 1.059 倍，所以每过十二个键，频率就翻一番。</value>
+  </data>
+  <data name="Sound_Chart_Wave_Caption" xml:space="preserve">
+    <value>人耳能听到的范围</value>
+  </data>
+  <data name="Sound_Chart_Wave_Note" xml:space="preserve">
+    <value>蓝线以下太轻，听不到（听阈，Terhardt 1979）。圆点是扬声器的声音，可以拖动它。</value>
+  </data>
+  <data name="Sound_Detune" xml:space="preserve">
+    <value>频率差</value>
+  </data>
+  <data name="Sound_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Sound_Freq_A" xml:space="preserve">
+    <value>标准音 A 440 Hz</value>
+  </data>
+  <data name="Sound_Freq_Ear" xml:space="preserve">
+    <value>3 kHz（最敏感）</value>
+  </data>
+  <data name="Sound_Freq_High" xml:space="preserve">
+    <value>15 kHz（测测耳朵）</value>
+  </data>
+  <data name="Sound_Freq_Low" xml:space="preserve">
+    <value>低音 A 110 Hz</value>
+  </data>
+  <data name="Sound_Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Sound_Fret" xml:space="preserve">
+    <value>按住的品</value>
+  </data>
+  <data name="Sound_Hint_Pipe" xml:space="preserve">
+    <value>点击下面的一行来选择共振；在左页调整管长。</value>
+  </data>
+  <data name="Sound_Hint_Strings" xml:space="preserve">
+    <value>拖动琴弦再松手就是拨弦；点击琴颈按住一个品；点击一行可单独听那个谐波。</value>
+  </data>
+  <data name="Sound_Hint_Timbre" xml:space="preserve">
+    <value>点击或划过琴键来演奏；拖动右边的柱子来调出你自己的声音。</value>
+  </data>
+  <data name="Sound_Hint_Wave" xml:space="preserve">
+    <value>拖动扬声器的纸盆，亲手推动空气；点击一个小点来跟踪它。</value>
+  </data>
+  <data name="Sound_Instrument_Caption" xml:space="preserve">
+    <value>乐器</value>
+  </data>
+  <data name="Sound_Instrument_Clarinet" xml:space="preserve">
+    <value>单簧管</value>
+  </data>
+  <data name="Sound_Instrument_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Sound_Instrument_Flute" xml:space="preserve">
+    <value>长笛</value>
+  </data>
+  <data name="Sound_Instrument_Fork" xml:space="preserve">
+    <value>音叉</value>
+  </data>
+  <data name="Sound_Instrument_Piano" xml:space="preserve">
+    <value>钢琴</value>
+  </data>
+  <data name="Sound_Instrument_Trumpet" xml:space="preserve">
+    <value>小号</value>
+  </data>
+  <data name="Sound_Instrument_Violin" xml:space="preserve">
+    <value>小提琴</value>
+  </data>
+  <data name="Sound_Label_A" xml:space="preserve">
+    <value>波腹</value>
+  </data>
+  <data name="Sound_Label_BarHz" xml:space="preserve">
+    <value>1 = {0}，2 = {1}，……</value>
+  </data>
+  <data name="Sound_Label_BeatPeriod" xml:space="preserve">
+    <value>一拍：{0} 秒（相差 {1}）</value>
+  </data>
+  <data name="Sound_Label_Bridge" xml:space="preserve">
+    <value>琴码</value>
+  </data>
+  <data name="Sound_Label_ClosedEnd" xml:space="preserve">
+    <value>封闭端</value>
+  </data>
+  <data name="Sound_Label_Compression" xml:space="preserve">
+    <value>密部</value>
+  </data>
+  <data name="Sound_Label_DragBars" xml:space="preserve">
+    <value>拖动柱子</value>
+  </data>
+  <data name="Sound_Label_Eardrum" xml:space="preserve">
+    <value>鼓膜</value>
+  </data>
+  <data name="Sound_Label_Fundamental" xml:space="preserve">
+    <value>基音</value>
+  </data>
+  <data name="Sound_Label_Harmonic" xml:space="preserve">
+    <value>×{0} · {1}</value>
+  </data>
+  <data name="Sound_Label_Higher" xml:space="preserve">
+    <value>较高</value>
+  </data>
+  <data name="Sound_Label_Keyboard" xml:space="preserve">
+    <value>十二平均律：每键 ×1.0595</value>
+  </data>
+  <data name="Sound_Label_Loudness" xml:space="preserve">
+    <value>响度随时间</value>
+  </data>
+  <data name="Sound_Label_Lower" xml:space="preserve">
+    <value>较低</value>
+  </data>
+  <data name="Sound_Label_MediumAir" xml:space="preserve">
+    <value>空气 · {0} °C · {1} 米/秒</value>
+  </data>
+  <data name="Sound_Label_MediumSteel" xml:space="preserve">
+    <value>钢 · {0} 米/秒</value>
+  </data>
+  <data name="Sound_Label_MediumVacuum" xml:space="preserve">
+    <value>真空</value>
+  </data>
+  <data name="Sound_Label_MediumWater" xml:space="preserve">
+    <value>水 · {0} 米/秒</value>
+  </data>
+  <data name="Sound_Label_Missing" xml:space="preserve">
+    <value>缺失</value>
+  </data>
+  <data name="Sound_Label_Mouth" xml:space="preserve">
+    <value>吹口（开口）</value>
+  </data>
+  <data name="Sound_Label_N" xml:space="preserve">
+    <value>波节</value>
+  </data>
+  <data name="Sound_Label_NoAir" xml:space="preserve">
+    <value>没有空气：没有东西传递声音</value>
+  </data>
+  <data name="Sound_Label_Nut" xml:space="preserve">
+    <value>琴枕</value>
+  </data>
+  <data name="Sound_Label_Octave" xml:space="preserve">
+    <value>八度：{0} → {1}</value>
+  </data>
+  <data name="Sound_Label_OpenEnd" xml:space="preserve">
+    <value>开口端</value>
+  </data>
+  <data name="Sound_Label_OvertoneBars" xml:space="preserve">
+    <value>泛音 ×2、×3……</value>
+  </data>
+  <data name="Sound_Label_Overtones" xml:space="preserve">
+    <value>泛音</value>
+  </data>
+  <data name="Sound_Label_Period" xml:space="preserve">
+    <value>周期 T = {0} 毫秒</value>
+  </data>
+  <data name="Sound_Label_PipeLength" xml:space="preserve">
+    <value>管长 {0}</value>
+  </data>
+  <data name="Sound_Label_PipeMode" xml:space="preserve">
+    <value>第 {0} 次谐波 · {1}</value>
+  </data>
+  <data name="Sound_Label_PipeNote" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Sound_Label_Pressure" xml:space="preserve">
+    <value>气压</value>
+  </data>
+  <data name="Sound_Label_Rarefaction" xml:space="preserve">
+    <value>疏部</value>
+  </data>
+  <data name="Sound_Label_Scope" xml:space="preserve">
+    <value>{0} · {1} · {2}</value>
+  </data>
+  <data name="Sound_Label_Slowed" xml:space="preserve">
+    <value>放慢 {0} 倍，位移已放大</value>
+  </data>
+  <data name="Sound_Label_Speaker" xml:space="preserve">
+    <value>扬声器</value>
+  </data>
+  <data name="Sound_Label_StringNote" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Sound_Label_Sum" xml:space="preserve">
+    <value>{0} + {1}：白线是两者之和</value>
+  </data>
+  <data name="Sound_Label_Wavelength" xml:space="preserve">
+    <value>波长 λ = {0}</value>
+  </data>
+  <data name="Sound_Lesson_Strings_Choice1" xml:space="preserve">
+    <value>偶数次的：2、4、6……</value>
+  </data>
+  <data name="Sound_Lesson_Strings_Choice2" xml:space="preserve">
+    <value>奇数次的：1、3、5……</value>
+  </data>
+  <data name="Sound_Lesson_Strings_Choice3" xml:space="preserve">
+    <value>一个也不缺</value>
+  </data>
+  <data name="Sound_Lesson_Timbre_Choice1" xml:space="preserve">
+    <value>泛音的配比</value>
+  </data>
+  <data name="Sound_Lesson_Timbre_Choice2" xml:space="preserve">
+    <value>音的频率</value>
+  </data>
+  <data name="Sound_Lesson_Timbre_Choice3" xml:space="preserve">
+    <value>声音传播的速度</value>
+  </data>
+  <data name="Sound_Lesson_Wave_Choice1" xml:space="preserve">
+    <value>一种压紧和拉开的样式</value>
+  </data>
+  <data name="Sound_Lesson_Wave_Choice2" xml:space="preserve">
+    <value>空气本身，从扬声器吹过来</value>
+  </data>
+  <data name="Sound_Lesson_Wave_Choice3" xml:space="preserve">
+    <value>细小的「声音粒子」</value>
+  </data>
+  <data name="Sound_Loud_Breath" xml:space="preserve">
+    <value>呼吸声</value>
+  </data>
+  <data name="Sound_Loud_Concert" xml:space="preserve">
+    <value>摇滚音乐会</value>
+  </data>
+  <data name="Sound_Loud_Drill" xml:space="preserve">
+    <value>电钻</value>
+  </data>
+  <data name="Sound_Loud_Jet" xml:space="preserve">
+    <value>近处起飞的喷气机</value>
+  </data>
+  <data name="Sound_Loud_Library" xml:space="preserve">
+    <value>安静的图书馆</value>
+  </data>
+  <data name="Sound_Loud_Talk" xml:space="preserve">
+    <value>交谈</value>
+  </data>
+  <data name="Sound_Loud_Thunder" xml:space="preserve">
+    <value>头顶的雷声</value>
+  </data>
+  <data name="Sound_Loud_Traffic" xml:space="preserve">
+    <value>繁忙的街道</value>
+  </data>
+  <data name="Sound_Loud_Whisper" xml:space="preserve">
+    <value>耳语</value>
+  </data>
+  <data name="Sound_Loudness" xml:space="preserve">
+    <value>声级</value>
+  </data>
+  <data name="Sound_Medium_Air" xml:space="preserve">
+    <value>空气</value>
+  </data>
+  <data name="Sound_Medium_Caption" xml:space="preserve">
+    <value>传播介质</value>
+  </data>
+  <data name="Sound_Medium_Steel" xml:space="preserve">
+    <value>钢</value>
+  </data>
+  <data name="Sound_Medium_Vacuum" xml:space="preserve">
+    <value>真空</value>
+  </data>
+  <data name="Sound_Medium_Water" xml:space="preserve">
+    <value>水</value>
+  </data>
+  <data name="Sound_Mode_Strings" xml:space="preserve">
+    <value>弦与管</value>
+  </data>
+  <data name="Sound_Mode_Timbre" xml:space="preserve">
+    <value>音高与音色</value>
+  </data>
+  <data name="Sound_Mode_Wave" xml:space="preserve">
+    <value>声波</value>
+  </data>
+  <data name="Sound_Obj_Antinode" xml:space="preserve">
+    <value>波腹</value>
+  </data>
+  <data name="Sound_Obj_Beat" xml:space="preserve">
+    <value>拍</value>
+  </data>
+  <data name="Sound_Obj_Body" xml:space="preserve">
+    <value>琴身和音孔</value>
+  </data>
+  <data name="Sound_Obj_Bridge" xml:space="preserve">
+    <value>琴码</value>
+  </data>
+  <data name="Sound_Obj_ClosedEnd" xml:space="preserve">
+    <value>封闭端</value>
+  </data>
+  <data name="Sound_Obj_Compression" xml:space="preserve">
+    <value>密部</value>
+  </data>
+  <data name="Sound_Obj_Ear" xml:space="preserve">
+    <value>耳朵</value>
+  </data>
+  <data name="Sound_Obj_Envelope" xml:space="preserve">
+    <value>包络</value>
+  </data>
+  <data name="Sound_Obj_Fret" xml:space="preserve">
+    <value>品</value>
+  </data>
+  <data name="Sound_Obj_Fundamental" xml:space="preserve">
+    <value>基音</value>
+  </data>
+  <data name="Sound_Obj_Harmonic" xml:space="preserve">
+    <value>泛音</value>
+  </data>
+  <data name="Sound_Obj_Harmonic1" xml:space="preserve">
+    <value>基音</value>
+  </data>
+  <data name="Sound_Obj_Keyboard" xml:space="preserve">
+    <value>十二平均律</value>
+  </data>
+  <data name="Sound_Obj_Medium" xml:space="preserve">
+    <value>介质</value>
+  </data>
+  <data name="Sound_Obj_Node" xml:space="preserve">
+    <value>波节</value>
+  </data>
+  <data name="Sound_Obj_Octave" xml:space="preserve">
+    <value>八度</value>
+  </data>
+  <data name="Sound_Obj_OpenEnd" xml:space="preserve">
+    <value>开口端</value>
+  </data>
+  <data name="Sound_Obj_Overtone" xml:space="preserve">
+    <value>泛音</value>
+  </data>
+  <data name="Sound_Obj_Particle" xml:space="preserve">
+    <value>一小团空气</value>
+  </data>
+  <data name="Sound_Obj_Period" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="Sound_Obj_Pipe" xml:space="preserve">
+    <value>空气柱</value>
+  </data>
+  <data name="Sound_Obj_PipeAntinode" xml:space="preserve">
+    <value>管中的波腹</value>
+  </data>
+  <data name="Sound_Obj_PipeMode" xml:space="preserve">
+    <value>管的共振</value>
+  </data>
+  <data name="Sound_Obj_PipeNode" xml:space="preserve">
+    <value>管中的波节</value>
+  </data>
+  <data name="Sound_Obj_Pluck" xml:space="preserve">
+    <value>拨弦位置</value>
+  </data>
+  <data name="Sound_Obj_Pressure" xml:space="preserve">
+    <value>沿途的气压</value>
+  </data>
+  <data name="Sound_Obj_Rarefaction" xml:space="preserve">
+    <value>疏部</value>
+  </data>
+  <data name="Sound_Obj_Speaker" xml:space="preserve">
+    <value>扬声器</value>
+  </data>
+  <data name="Sound_Obj_String" xml:space="preserve">
+    <value>琴弦</value>
+  </data>
+  <data name="Sound_Obj_Timbre" xml:space="preserve">
+    <value>音色</value>
+  </data>
+  <data name="Sound_Obj_Waveform" xml:space="preserve">
+    <value>波形</value>
+  </data>
+  <data name="Sound_Obj_Wavelength" xml:space="preserve">
+    <value>波长</value>
+  </data>
+  <data name="Sound_Option_Harmonics" xml:space="preserve">
+    <value>谐波</value>
+  </data>
+  <data name="Sound_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Sound_Options_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Sound_PipeLength" xml:space="preserve">
+    <value>管长</value>
+  </data>
+  <data name="Sound_PipeMode_Caption" xml:space="preserve">
+    <value>共振</value>
+  </data>
+  <data name="Sound_Pipe_Closed_Text" xml:space="preserve">
+    <value>封闭端的空气动不了（波节），开口端可以：只装下四分之一个波长，所以音大约低一个八度，而且只允许奇数次谐波。</value>
+  </data>
+  <data name="Sound_Pipe_Closed_Title" xml:space="preserve">
+    <value>一端封闭</value>
+  </data>
+  <data name="Sound_Pipe_Note" xml:space="preserve">
+    <value>管内径 19 毫米，和长笛差不多。开口端的空气振动会延伸到管外约 0.6 个半径。</value>
+  </data>
+  <data name="Sound_Pipe_Open_Text" xml:space="preserve">
+    <value>两端的空气都能自由运动，所以两端都是波腹：最低的音装下半个波长，所有谐波都可以出现。</value>
+  </data>
+  <data name="Sound_Pipe_Open_Title" xml:space="preserve">
+    <value>两端开口</value>
+  </data>
+  <data name="Sound_PlayNote" xml:space="preserve">
+    <value>演奏</value>
+  </data>
+  <data name="Sound_PlayNote_Tooltip" xml:space="preserve">
+    <value>用这件乐器奏出这个音</value>
+  </data>
+  <data name="Sound_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Sound_Pluck" xml:space="preserve">
+    <value>拨弦</value>
+  </data>
+  <data name="Sound_PluckPoint" xml:space="preserve">
+    <value>拨弦位置</value>
+  </data>
+  <data name="Sound_Pluck_Tooltip" xml:space="preserve">
+    <value>在拨片处拨弦</value>
+  </data>
+  <data name="Sound_Resonator_Caption" xml:space="preserve">
+    <value>振动的是什么</value>
+  </data>
+  <data name="Sound_Resonator_ClosedPipe" xml:space="preserve">
+    <value>闭管</value>
+  </data>
+  <data name="Sound_Resonator_OpenPipe" xml:space="preserve">
+    <value>开管</value>
+  </data>
+  <data name="Sound_Resonator_String" xml:space="preserve">
+    <value>吉他弦</value>
+  </data>
+  <data name="Sound_Second_Beats" xml:space="preserve">
+    <value>差几赫兹</value>
+  </data>
+  <data name="Sound_Second_Caption" xml:space="preserve">
+    <value>第二个音</value>
+  </data>
+  <data name="Sound_Second_Fifth" xml:space="preserve">
+    <value>高五度</value>
+  </data>
+  <data name="Sound_Second_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Sound_Second_Octave" xml:space="preserve">
+    <value>高八度</value>
+  </data>
+  <data name="Sound_SoundOn" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="Sound_SoundOn_Tooltip" xml:space="preserve">
+    <value>打开或关闭本页的声音（拨弦、音符和音调）</value>
+  </data>
+  <data name="Sound_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Sound_Stat_Allowed" xml:space="preserve">
+    <value>允许的谐波</value>
+  </data>
+  <data name="Sound_Stat_Arrives" xml:space="preserve">
+    <value>传到你耳边</value>
+  </data>
+  <data name="Sound_Stat_Beats" xml:space="preserve">
+    <value>拍频</value>
+  </data>
+  <data name="Sound_Stat_Displacement" xml:space="preserve">
+    <value>空气位移</value>
+  </data>
+  <data name="Sound_Stat_EndCorrection" xml:space="preserve">
+    <value>管口校正</value>
+  </data>
+  <data name="Sound_Stat_Ends" xml:space="preserve">
+    <value>管端</value>
+  </data>
+  <data name="Sound_Stat_Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Sound_Stat_Fret" xml:space="preserve">
+    <value>品位</value>
+  </data>
+  <data name="Sound_Stat_Fundamental" xml:space="preserve">
+    <value>基频</value>
+  </data>
+  <data name="Sound_Stat_Intensity" xml:space="preserve">
+    <value>声强</value>
+  </data>
+  <data name="Sound_Stat_KeyStep" xml:space="preserve">
+    <value>高一个键</value>
+  </data>
+  <data name="Sound_Stat_Length" xml:space="preserve">
+    <value>振动长度</value>
+  </data>
+  <data name="Sound_Stat_Level" xml:space="preserve">
+    <value>声级</value>
+  </data>
+  <data name="Sound_Stat_Mass" xml:space="preserve">
+    <value>线密度</value>
+  </data>
+  <data name="Sound_Stat_Missing" xml:space="preserve">
+    <value>缺失的谐波</value>
+  </data>
+  <data name="Sound_Stat_Note" xml:space="preserve">
+    <value>音</value>
+  </data>
+  <data name="Sound_Stat_Open" xml:space="preserve">
+    <value>当前空弦音</value>
+  </data>
+  <data name="Sound_Stat_Overtones" xml:space="preserve">
+    <value>泛音</value>
+  </data>
+  <data name="Sound_Stat_Period" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="Sound_Stat_PipeLength" xml:space="preserve">
+    <value>管长</value>
+  </data>
+  <data name="Sound_Stat_PluckedAt" xml:space="preserve">
+    <value>拨弦位置</value>
+  </data>
+  <data name="Sound_Stat_PressureSwing" xml:space="preserve">
+    <value>气压变化</value>
+  </data>
+  <data name="Sound_Stat_Ratio" xml:space="preserve">
+    <value>频率比</value>
+  </data>
+  <data name="Sound_Stat_Resonance" xml:space="preserve">
+    <value>共振</value>
+  </data>
+  <data name="Sound_Stat_Second" xml:space="preserve">
+    <value>第二个音</value>
+  </data>
+  <data name="Sound_Stat_Speed" xml:space="preserve">
+    <value>声速</value>
+  </data>
+  <data name="Sound_Stat_String" xml:space="preserve">
+    <value>琴弦</value>
+  </data>
+  <data name="Sound_Stat_StringSpeed" xml:space="preserve">
+    <value>弦上的波速</value>
+  </data>
+  <data name="Sound_Stat_Strongest" xml:space="preserve">
+    <value>最强的</value>
+  </data>
+  <data name="Sound_Stat_Tension" xml:space="preserve">
+    <value>张力</value>
+  </data>
+  <data name="Sound_Stat_Threshold" xml:space="preserve">
+    <value>此频率的听阈</value>
+  </data>
+  <data name="Sound_Stat_Wavelength" xml:space="preserve">
+    <value>波长</value>
+  </data>
+  <data name="Sound_Stat_WavelengthAir" xml:space="preserve">
+    <value>空气中的波长</value>
+  </data>
+  <data name="Sound_State_Heard_Text" xml:space="preserve">
+    <value>在这个音高下，它高于听阈。鼓膜跟着空气微小的来回运动，把振动传给内耳。</value>
+  </data>
+  <data name="Sound_State_Heard_Title" xml:space="preserve">
+    <value>你能听到它</value>
+  </data>
+  <data name="Sound_State_High_Text" xml:space="preserve">
+    <value>年轻人能听到，但很多成年人已经听不到了：听力的上限会随年龄下降。</value>
+  </data>
+  <data name="Sound_State_High_Title" xml:space="preserve">
+    <value>听觉的边缘</value>
+  </data>
+  <data name="Sound_State_Infra_Text" xml:space="preserve">
+    <value>低于约 20 赫兹，人耳听不出音高，但很强的次声能被身体感觉到。大象和鲸会用它交流。</value>
+  </data>
+  <data name="Sound_State_Infra_Title" xml:space="preserve">
+    <value>次声波</value>
+  </data>
+  <data name="Sound_State_Pain_Text" xml:space="preserve">
+    <value>接近 120–130 分贝时声音会让人疼，即使时间很短也可能永久损伤听力。</value>
+  </data>
+  <data name="Sound_State_Pain_Title" xml:space="preserve">
+    <value>响到令人疼痛</value>
+  </data>
+  <data name="Sound_State_Quiet_Text" xml:space="preserve">
+    <value>在这个音高下，要更响才能听到。人耳对 3–4 千赫最敏感，对低音则迟钝得多。</value>
+  </data>
+  <data name="Sound_State_Quiet_Title" xml:space="preserve">
+    <value>太轻，听不到</value>
+  </data>
+  <data name="Sound_State_Ultra_Text" xml:space="preserve">
+    <value>高于 20 千赫，人耳就听不到了。蝙蝠、海豚和医院的 B 超都在用它。</value>
+  </data>
+  <data name="Sound_State_Ultra_Title" xml:space="preserve">
+    <value>超声波</value>
+  </data>
+  <data name="Sound_State_Vacuum_Text" xml:space="preserve">
+    <value>纸盆仍在振动，但没有东西可推。声音需要介质：气体、液体或固体。</value>
+  </data>
+  <data name="Sound_State_Vacuum_Title" xml:space="preserve">
+    <value>真空中没有声音</value>
+  </data>
+  <data name="Sound_String_Caption" xml:space="preserve">
+    <value>哪根弦</value>
+  </data>
+  <data name="Sound_String_Edge_Text" xml:space="preserve">
+    <value>靠近端点拨弦，许多高次谐波都被激起：声音明亮而单薄，吉他手很熟悉这种音色。</value>
+  </data>
+  <data name="Sound_String_Edge_Title" xml:space="preserve">
+    <value>靠近端点拨弦</value>
+  </data>
+  <data name="Sound_String_Middle_Text" xml:space="preserve">
+    <value>所有偶数次谐波在正中都是波节，所以一个也起不了振：声音圆润而发空。</value>
+  </data>
+  <data name="Sound_String_Middle_Title" xml:space="preserve">
+    <value>在正中拨弦</value>
+  </data>
+  <data name="Sound_String_Note" xml:space="preserve">
+    <value>吉他有效弦长 648 毫米；张力取常见细钢弦的数值。</value>
+  </data>
+  <data name="Sound_String_Plucked_Text" xml:space="preserve">
+    <value>弦的形状是各个谐波之和。高次谐波衰减得更快，所以声音越响越柔和。</value>
+  </data>
+  <data name="Sound_String_Plucked_Title" xml:space="preserve">
+    <value>拨动的琴弦</value>
+  </data>
+  <data name="Sound_String_Solo1_Text" xml:space="preserve">
+    <value>只有基音：一个拱形，频率最低。单独听起来圆润而单调，有点像长笛。</value>
+  </data>
+  <data name="Sound_String_Solo_Text" xml:space="preserve">
+    <value>单独一个泛音，频率是基音的整数倍。它的波节把弦分成了相等的几段。</value>
+  </data>
+  <data name="Sound_String_Solo_Title" xml:space="preserve">
+    <value>单独的第 {0} 次谐波</value>
+  </data>
+  <data name="Sound_String_Tooltip" xml:space="preserve">
+    <value>标准调弦的吉他六根弦，从低到高</value>
+  </data>
+  <data name="Sound_Strings_Fact1" xml:space="preserve">
+    <value>每个品让弦长缩短为原来的 1/2^(1/12)，音升高一个半音，所以越靠近琴身，品排得越密。</value>
+  </data>
+  <data name="Sound_Strings_Fact2" xml:space="preserve">
+    <value>音高随张力升高，随长度和重量降低：f = √(T/μ) / 2L。粗而重的弦负责低音。</value>
+  </data>
+  <data name="Sound_Strings_Fact3" xml:space="preserve">
+    <value>一根弦本身很安静，几乎推不动空气。吉他的面板和箱体里的空气接过振动，再传给周围的空气。</value>
+  </data>
+  <data name="Sound_Strings_Fact4" xml:space="preserve">
+    <value>轻触琴弦正中再拨，就得到吉他上的「泛音」：只有在那里有波节的振动模式才能继续振动。</value>
+  </data>
+  <data name="Sound_Strings_Fact5" xml:space="preserve">
+    <value>长笛两端开口；单簧管相当于一端封闭，所以同样长度下，它比长笛低大约一个八度。</value>
+  </data>
+  <data name="Sound_Strings_Note" xml:space="preserve">
+    <value>放慢到最低的谐波大约两秒摆动一次；弦的摆幅被放大了。</value>
+  </data>
+  <data name="Sound_Strings_Subtitle" xml:space="preserve">
+    <value>弦上和管中的驻波</value>
+  </data>
+  <data name="Sound_Temperature" xml:space="preserve">
+    <value>气温</value>
+  </data>
+  <data name="Sound_Tension" xml:space="preserve">
+    <value>张力（弦钮）</value>
+  </data>
+  <data name="Sound_Timbre_Clarinet_Text" xml:space="preserve">
+    <value>单簧管的管在簧片一端相当于封闭，所以低音区奇数次谐波很强、偶数次很弱：音色空灵，带着木质感。</value>
+  </data>
+  <data name="Sound_Timbre_Custom_Text" xml:space="preserve">
+    <value>你自己调配的泛音。只要基音还在，音高就不变，改变的只是音色。</value>
+  </data>
+  <data name="Sound_Timbre_Fact1" xml:space="preserve">
+    <value>A4 = 440 赫兹是当今大多数乐团约定的标准音（ISO 16），也有乐团略高，调到 442 或 443。</value>
+  </data>
+  <data name="Sound_Timbre_Fact2" xml:space="preserve">
+    <value>耳朵会把声音拆成各个频率，就像这里的柱子：耳蜗上不同的位置对应不同的音高。</value>
+  </data>
+  <data name="Sound_Timbre_Fact3" xml:space="preserve">
+    <value>相差八度的两个音共享许多泛音，这也是它们听起来像「同一个音」的原因之一。</value>
+  </data>
+  <data name="Sound_Timbre_Fact4" xml:space="preserve">
+    <value>十二平均律让每一步都相等，乐曲可以转到任何调。代价是像五度这样的音程与简单整数比略有偏差。</value>
+  </data>
+  <data name="Sound_Timbre_Fact5" xml:space="preserve">
+    <value>电话会滤掉低频，但低沉的嗓音听起来仍然低沉：大脑会根据泛音补出缺失的基音。</value>
+  </data>
+  <data name="Sound_Timbre_Flute_Text" xml:space="preserve">
+    <value>以基音为主，只有几个很弱的泛音：柔和、带气声的简单音色。</value>
+  </data>
+  <data name="Sound_Timbre_Fork_Text" xml:space="preserve">
+    <value>几乎是纯正弦波，只有一个频率，听起来干净而单纯，所以被用来校音。</value>
+  </data>
+  <data name="Sound_Timbre_Note" xml:space="preserve">
+    <value>波形是真实的，时间按毫秒比例；各乐器的泛音配比是取整的示意值。</value>
+  </data>
+  <data name="Sound_Timbre_Panel_Note" xml:space="preserve">
+    <value>点击或划过琴键来演奏。各乐器的泛音配比是中音区的大致平均值。</value>
+  </data>
+  <data name="Sound_Timbre_Piano_Text" xml:space="preserve">
+    <value>琴槌敲击琴弦后声音逐渐消失，高次泛音先衰减，所以音越响越柔和。</value>
+  </data>
+  <data name="Sound_Timbre_Subtitle" xml:space="preserve">
+    <value>为什么小提琴和长笛听起来不同</value>
+  </data>
+  <data name="Sound_Timbre_Trumpet_Text" xml:space="preserve">
+    <value>最强的谐波在基音之上几级：音色嘹亮，带着金属感。</value>
+  </data>
+  <data name="Sound_Timbre_Violin_Text" xml:space="preserve">
+    <value>琴弓一次次拖动琴弦又让它滑脱，形成近似锯齿形的波，泛音丰富，明亮而饱满。</value>
+  </data>
+  <data name="Sound_Title" xml:space="preserve">
+    <value>声音与乐器</value>
+  </data>
+  <data name="Sound_Tone" xml:space="preserve">
+    <value>播放音调</value>
+  </data>
+  <data name="Sound_Tone_Caption" xml:space="preserve">
+    <value>音调</value>
+  </data>
+  <data name="Sound_Tone_Note" xml:space="preserve">
+    <value>实际音量由你的扬声器决定，先把音量调低。很低的音，小扬声器可能放不出来。</value>
+  </data>
+  <data name="Sound_Tone_Tooltip" xml:space="preserve">
+    <value>用电脑的扬声器听这个音调</value>
+  </data>
+  <data name="Sound_Value_Arrives" xml:space="preserve">
+    <value>{0} 米外需 {1}</value>
+  </data>
+  <data name="Sound_Value_Beats" xml:space="preserve">
+    <value>每秒 {0} 次</value>
+  </data>
+  <data name="Sound_Value_BothOpen" xml:space="preserve">
+    <value>两端开口</value>
+  </data>
+  <data name="Sound_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Sound_Value_Cm" xml:space="preserve">
+    <value>{0} cm</value>
+  </data>
+  <data name="Sound_Value_Db" xml:space="preserve">
+    <value>{0} dB</value>
+  </data>
+  <data name="Sound_Value_Fret" xml:space="preserve">
+    <value>第 {0} 品</value>
+  </data>
+  <data name="Sound_Value_GramsPerMetre" xml:space="preserve">
+    <value>{0} 克/米</value>
+  </data>
+  <data name="Sound_Value_Harmonic" xml:space="preserve">
+    <value>第 {0} 次谐波</value>
+  </data>
+  <data name="Sound_Value_Hz" xml:space="preserve">
+    <value>{0} Hz</value>
+  </data>
+  <data name="Sound_Value_Intensity" xml:space="preserve">
+    <value>{0} 瓦/平方米</value>
+  </data>
+  <data name="Sound_Value_KHz" xml:space="preserve">
+    <value>{0} kHz</value>
+  </data>
+  <data name="Sound_Value_KeyStep" xml:space="preserve">
+    <value>×1.0595（一个半音）</value>
+  </data>
+  <data name="Sound_Value_Level" xml:space="preserve">
+    <value>{0} dB · {1}</value>
+  </data>
+  <data name="Sound_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Sound_Value_Mm" xml:space="preserve">
+    <value>{0} mm</value>
+  </data>
+  <data name="Sound_Value_Ms" xml:space="preserve">
+    <value>{0} 毫秒</value>
+  </data>
+  <data name="Sound_Value_Newton" xml:space="preserve">
+    <value>{0} 牛</value>
+  </data>
+  <data name="Sound_Value_Nm" xml:space="preserve">
+    <value>{0} 纳米</value>
+  </data>
+  <data name="Sound_Value_NoSpeed" xml:space="preserve">
+    <value>无法传播</value>
+  </data>
+  <data name="Sound_Value_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="Sound_Value_Note" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Sound_Value_OneClosed" xml:space="preserve">
+    <value>远端封闭</value>
+  </data>
+  <data name="Sound_Value_Open" xml:space="preserve">
+    <value>空弦</value>
+  </data>
+  <data name="Sound_Value_Overtones" xml:space="preserve">
+    <value>{0} Hz……</value>
+  </data>
+  <data name="Sound_Value_Percent" xml:space="preserve">
+    <value>弦长的 {0}% 处</value>
+  </data>
+  <data name="Sound_Value_PlusMinus" xml:space="preserve">
+    <value>±{0}</value>
+  </data>
+  <data name="Sound_Value_Pm" xml:space="preserve">
+    <value>{0} 皮米</value>
+  </data>
+  <data name="Sound_Value_PressureSwing" xml:space="preserve">
+    <value>±{0} 帕（大气压的 {1}%）</value>
+  </data>
+  <data name="Sound_Value_RatioFifth" xml:space="preserve">
+    <value>{0}（纯律 3:2 是 1.500）</value>
+  </data>
+  <data name="Sound_Value_RatioOctave" xml:space="preserve">
+    <value>{0}（正好 2:1）</value>
+  </data>
+  <data name="Sound_Value_Resonance" xml:space="preserve">
+    <value>第 {0} 个（第 {1} 次谐波）</value>
+  </data>
+  <data name="Sound_Value_S" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Sound_Value_Speed" xml:space="preserve">
+    <value>{0} 米/秒</value>
+  </data>
+  <data name="Sound_Value_SpeedAt" xml:space="preserve">
+    <value>{1} °C 时 {0} 米/秒</value>
+  </data>
+  <data name="Sound_Value_String" xml:space="preserve">
+    <value>第 {0} 弦（{1}）</value>
+  </data>
+  <data name="Sound_Value_Um" xml:space="preserve">
+    <value>{0} 微米</value>
+  </data>
+  <data name="Sound_Value_Us" xml:space="preserve">
+    <value>{0} 微秒</value>
+  </data>
+  <data name="Sound_Wave_Fact1" xml:space="preserve">
+    <value>20 °C 的空气中声速约 343 米/秒，大约 3 秒走 1 公里：数一数闪电和雷声之间隔了几秒，就能估出雷暴有多远。</value>
+  </data>
+  <data name="Sound_Wave_Fact2" xml:space="preserve">
+    <value>空气并不会跟着声音走。每一小团空气只是来回挪动，挪动的距离常常比一个病毒还小。</value>
+  </data>
+  <data name="Sound_Wave_Fact3" xml:space="preserve">
+    <value>分贝是按倍数算的：每增加 10 分贝，声音的功率变成 10 倍，听起来大约响一倍。</value>
+  </data>
+  <data name="Sound_Wave_Fact4" xml:space="preserve">
+    <value>年轻人能听到约 20 赫兹到 20 千赫。上限随年龄下降，很多成年人已经听不到 15 千赫。狗能听到约 45 千赫，蝙蝠超过 100 千赫。</value>
+  </data>
+  <data name="Sound_Wave_Fact5" xml:space="preserve">
+    <value>太空里没有空气传声，所以电影里太空中的爆炸其实应该是无声的。</value>
+  </data>
+  <data name="Sound_Wave_Note" xml:space="preserve">
+    <value>长度按比例（看下方标尺）；时间被大大放慢，空气的移动也被放大了，否则什么也看不见。</value>
+  </data>
+  <data name="Sound_Wave_Subtitle" xml:space="preserve">
+    <value>扬声器推动空气</value>
   </data>
   <data name="Star_Class_Massive" xml:space="preserve">
     <value>大质量恒星</value>

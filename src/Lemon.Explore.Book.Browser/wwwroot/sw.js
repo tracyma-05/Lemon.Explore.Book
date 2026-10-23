@@ -10,7 +10,7 @@
 const SHELL_CACHE = 'explore-book-shell-v1';
 const FRAMEWORK_CACHE = 'explore-book-framework-v1';
 const NARRATION_CACHE = 'explore-book-narration-v1';
-const SHELL = ['./', './index.html', './main.js', './narration.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
+const SHELL = ['./', './index.html', './main.js', './narration.js', './synth.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
 
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(SHELL_CACHE).then(cache => cache.addAll(SHELL)));
