@@ -5053,6 +5053,1403 @@
      ]
     ]
    },
+   "Narr_Flight_Forces_01": {
+    "duration": 8.4,
+    "hash": "850c0eef3f282c5c",
+    "sentences": [
+     [
+      0.05,
+      3.444,
+      "Here's a small four-seat plane, cruising along."
+     ],
+     [
+      3.444,
+      6.181,
+      "Four forces act on it the whole time."
+     ],
+     [
+      6.181,
+      8.347,
+      "Let's meet them one by one."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_02": {
+    "duration": 11.016,
+    "hash": "b842f8df07a5cabf",
+    "sentences": [
+     [
+      0.05,
+      4.653,
+      "Pointing up is lift, made by the wings as they push air downward."
+     ],
+     [
+      4.653,
+      10.958,
+      "It grows with the square of the speed: fly twice as fast, and you get four times the lift."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_03": {
+    "duration": 9.912,
+    "hash": "2371c2d26b205763",
+    "sentences": [
+     [
+      0.05,
+      5.694,
+      "Pointing down is weight: gravity pulling on the plane and everything in it."
+     ],
+     [
+      5.694,
+      9.847,
+      "In level flight, lift and weight are exactly equal."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_04": {
+    "duration": 7.656,
+    "hash": "575cf351b6a6fe31",
+    "sentences": [
+     [
+      0.05,
+      3.069,
+      "Pulling forward is thrust, from the propeller."
+     ],
+     [
+      3.069,
+      7.597,
+      "It grabs the air and throws it backward, so the plane is pulled forward."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_05": {
+    "duration": 11.064,
+    "hash": "44e11a1134df965f",
+    "sentences": [
+     [
+      0.05,
+      4.597,
+      "Holding it back is drag, the air resisting the plane's motion."
+     ],
+     [
+      4.597,
+      11.0,
+      "Thrust and drag are drawn eight times longer than they really are here, or you'd hardly see them."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_06": {
+    "duration": 13.392,
+    "hash": "45cdbc469e0481a8",
+    "sentences": [
+     [
+      0.05,
+      2.75,
+      "This panel weighs them against each other."
+     ],
+     [
+      2.75,
+      6.528,
+      "Lift balances weight, and thrust balances drag."
+     ],
+     [
+      6.528,
+      13.333,
+      "Balanced forces don't mean no forces: they mean steady, straight flight at a constant speed."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_07": {
+    "duration": 6.48,
+    "hash": "5102fcf769dcb299",
+    "sentences": [
+     [
+      0.05,
+      4.153,
+      "Now, the pilot wants to climb while keeping the same speed."
+     ],
+     [
+      4.153,
+      6.431,
+      "What does the plane need more of?"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_08": {
+    "duration": 12.48,
+    "hash": "201c67362c403dff",
+    "sentences": [
+     [
+      0.05,
+      1.403,
+      "It's thrust."
+     ],
+     [
+      1.403,
+      8.389,
+      "In a steady climb, thrust is bigger than drag, and that extra pull carries the plane up the slope."
+     ],
+     [
+      8.389,
+      12.417,
+      "Surprisingly, lift is actually a little less than weight."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_09": {
+    "duration": 15.96,
+    "hash": "88bdf2c9a32799df",
+    "sentences": [
+     [
+      0.05,
+      1.875,
+      "Now the engine is off."
+     ],
+     [
+      1.875,
+      10.778,
+      "With no thrust, the plane glides down a gentle slope, like a sled on a hill: a little of its weight pulls it forward."
+     ],
+     [
+      10.778,
+      15.903,
+      "This plane travels about twelve metres forward for every metre it sinks."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_10": {
+    "duration": 14.568,
+    "hash": "4a170edd517e0d6d",
+    "sentences": [
+     [
+      0.05,
+      2.417,
+      "Here the nose is pulled up too far."
+     ],
+     [
+      2.417,
+      9.194,
+      "The wing is past its stall angle, lift collapses, and the plane sinks even with its nose high."
+     ],
+     [
+      9.194,
+      14.514,
+      "To recover, a pilot lowers the nose, rather than pulling it higher."
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_11": {
+    "duration": 12.576,
+    "hash": "0c270e6d7fbdfbbb",
+    "sentences": [
+     [
+      0.05,
+      1.472,
+      "Your turn to fly."
+     ],
+     [
+      1.472,
+      5.083,
+      "The plane is at the start of the runway with full power."
+     ],
+     [
+      5.083,
+      12.514,
+      "Once it's rolling fast, drag the plane's nose up, or use the slider, and see when it leaves the ground."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Aileron": {
+    "duration": 10.272,
+    "hash": "1749b5d8a61dd4d8",
+    "sentences": [
+     [
+      0.05,
+      3.361,
+      "Ailerons are hinged flaps near the wingtips."
+     ],
+     [
+      3.361,
+      10.208,
+      "Move the stick to the left, and the left aileron rises while the right one drops, so the plane rolls to the left."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Airspeed": {
+    "duration": 8.616,
+    "hash": "a3e5faec6c5beab0",
+    "sentences": [
+     [
+      0.05,
+      3.542,
+      "Airspeed is how fast the plane moves through the air."
+     ],
+     [
+      3.542,
+      8.556,
+      "It's what the wings feel, and it's the number pilots watch most closely."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Altimeter": {
+    "duration": 9.432,
+    "hash": "db651f4ac94d1253",
+    "sentences": [
+     [
+      0.05,
+      2.597,
+      "This is the height above the runway."
+     ],
+     [
+      2.597,
+      9.375,
+      "Higher up the air is thinner, so the wing needs more speed for the same lift, and the engine loses power."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Aoa": {
+    "duration": 12.48,
+    "hash": "fe34bfbc512e6ec7",
+    "sentences": [
+     [
+      0.05,
+      5.111,
+      "The angle of attack is the angle between the chord line and the oncoming wind."
+     ],
+     [
+      5.111,
+      12.431,
+      "More angle means more lift, up to the stall, which comes at around fifteen degrees for most wings."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Arrows": {
+    "duration": 13.272,
+    "hash": "951cf10a2a2f75b1",
+    "sentences": [
+     [
+      0.05,
+      3.986,
+      "Each arrow shows the pressure at that spot on the surface."
+     ],
+     [
+      3.986,
+      10.875,
+      "Red arrows push in where the pressure is above the surrounding air, and blue arrows pull out where it's below."
+     ],
+     [
+      10.875,
+      13.222,
+      "Most of the blue is on top."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Balance": {
+    "duration": 14.328,
+    "hash": "4d418f562a6914da",
+    "sentences": [
+     [
+      0.05,
+      4.292,
+      "This panel compares lift with weight, and thrust with drag."
+     ],
+     [
+      4.292,
+      9.681,
+      "When each pair is equal, the plane flies straight at a steady speed."
+     ],
+     [
+      9.681,
+      14.278,
+      "When they aren't, it speeds up, slows down, climbs or sinks."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Camber": {
+    "duration": 12.312,
+    "hash": "f7d545965417c460",
+    "sentences": [
+     [
+      0.05,
+      4.472,
+      "The camber line runs halfway between the top and bottom surfaces."
+     ],
+     [
+      4.472,
+      12.25,
+      "When it's curved, the wing is called cambered, and a cambered wing makes lift even at zero angle of attack."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Centripetal": {
+    "duration": 10.032,
+    "hash": "7b9b557160bb3837",
+    "sentences": [
+     [
+      0.05,
+      3.667,
+      "This sideways part of the lift is the centripetal force."
+     ],
+     [
+      3.667,
+      9.958,
+      "Without it the plane would keep flying straight; with it, the path bends into a circle."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Chord": {
+    "duration": 8.304,
+    "hash": "faaf374bd2208008",
+    "sentences": [
+     [
+      0.05,
+      4.556,
+      "The chord line is the straight line from the leading edge to the trailing edge."
+     ],
+     [
+      4.556,
+      8.25,
+      "A wing's size and its angles are measured against it."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Downwash": {
+    "duration": 10.272,
+    "hash": "e137ed22756b6c60",
+    "sentences": [
+     [
+      0.05,
+      3.903,
+      "Downwash is the air leaving the wing angled downward."
+     ],
+     [
+      3.903,
+      10.208,
+      "The wing pushes air down, so the air pushes the wing up: Newton's third law at work."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Drag": {
+    "duration": 12.168,
+    "hash": "2dd29c79a39bf797",
+    "sentences": [
+     [
+      0.05,
+      3.222,
+      "Drag points straight back along the flight path."
+     ],
+     [
+      3.222,
+      9.069,
+      "Part of it comes from the air rubbing and pushing on the plane, and part is the price of making lift."
+     ],
+     [
+      9.069,
+      12.111,
+      "The chart on the left-hand page shows both."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Elevator": {
+    "duration": 9.672,
+    "hash": "988b21a6576b71a6",
+    "sentences": [
+     [
+      0.05,
+      4.028,
+      "The elevator is the hinged back part of the horizontal tail."
+     ],
+     [
+      4.028,
+      9.611,
+      "Tilting it up pushes the tail down and the nose up, which increases the angle of attack."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_LeadingEdge": {
+    "duration": 11.76,
+    "hash": "43d6a30fdf9af2f2",
+    "sentences": [
+     [
+      0.05,
+      5.056,
+      "The leading edge is the rounded front of the wing, which meets the air first."
+     ],
+     [
+      5.056,
+      11.694,
+      "Being round lets the air turn smoothly onto the top surface, even at quite a steep angle."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Lift": {
+    "duration": 10.08,
+    "hash": "35e4e4d001a1886b",
+    "sentences": [
+     [
+      0.05,
+      3.194,
+      "Lift acts at right angles to the flight path."
+     ],
+     [
+      3.194,
+      10.028,
+      "It depends on the air's density, the wing's area, the angle of attack, and the square of the speed."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_LiftVector": {
+    "duration": 10.776,
+    "hash": "c4f1c5b32851d357",
+    "sentences": [
+     [
+      0.05,
+      3.401,
+      "Lift always points out of the top of the wings."
+     ],
+     [
+      3.401,
+      10.708,
+      "In a bank it tilts, and it has to grow so it can do two jobs at once: hold the plane up, and pull it round."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_LoadFactor": {
+    "duration": 13.848,
+    "hash": "333c3ab2da1cfc2f",
+    "sentences": [
+     [
+      0.05,
+      4.75,
+      "The load factor is the lift divided by the weight, counted in g."
+     ],
+     [
+      4.75,
+      13.778,
+      "In a level turn it's one over the cosine of the bank: about one point four at forty-five degrees, and exactly two at sixty."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Lower": {
+    "duration": 8.808,
+    "hash": "438f698e3f84af51",
+    "sentences": [
+     [
+      0.05,
+      8.75,
+      "Below the wing the air slows down a little, so its pressure rises slightly above the surrounding air and pushes up on the bottom surface."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Path": {
+    "duration": 9.552,
+    "hash": "1eeee0bbfdb0e52a",
+    "sentences": [
+     [
+      0.05,
+      3.958,
+      "The flight path is the direction the plane is actually moving."
+     ],
+     [
+      3.958,
+      9.486,
+      "It isn't always where the nose points: the difference between them is the angle of attack."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_PitchAxis": {
+    "duration": 6.624,
+    "hash": "0a0d60f0ba2e4562",
+    "sentences": [
+     [
+      0.05,
+      3.556,
+      "The pitch axis runs from one wingtip to the other."
+     ],
+     [
+      3.556,
+      6.569,
+      "Pitching around it moves the nose up and down."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Plane": {
+    "duration": 11.304,
+    "hash": "d7d9b97b48377f3f",
+    "sentences": [
+     [
+      0.05,
+      6.986,
+      "A small four-seat trainer, about the size of a family car, with wings eleven metres across."
+     ],
+     [
+      6.986,
+      11.25,
+      "It's drawn larger than the scenery so you can see its forces."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_PlaneAoa": {
+    "duration": 10.68,
+    "hash": "e937a869a6d6e9f6",
+    "sentences": [
+     [
+      0.05,
+      5.222,
+      "This arc is the angle between where the plane is going and where its nose points."
+     ],
+     [
+      5.222,
+      10.611,
+      "The pilot sets it with the elevator, and it decides how hard the wing works."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Propeller": {
+    "duration": 10.128,
+    "hash": "8f0c9387997fa1ee",
+    "sentences": [
+     [
+      0.05,
+      3.333,
+      "A propeller is really a pair of spinning wings."
+     ],
+     [
+      3.333,
+      10.069,
+      "Each blade makes lift that points forward, throwing air backward and pulling the plane along."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_RearView": {
+    "duration": 9.984,
+    "hash": "f6aca346c0933147",
+    "sentences": [
+     [
+      0.05,
+      4.347,
+      "Seen from behind, the tilted lift splits into two parts."
+     ],
+     [
+      4.347,
+      9.931,
+      "The upright part balances the weight, and the sideways part pulls the plane into the turn."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_RollAxis": {
+    "duration": 6.912,
+    "hash": "29657fb58aa53ff1",
+    "sentences": [
+     [
+      0.05,
+      3.278,
+      "The roll axis runs from nose to tail."
+     ],
+     [
+      3.278,
+      6.897,
+      "Rolling around it tips one wing up and the other down."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Rudder": {
+    "duration": 9.6,
+    "hash": "ab0907e124d283ee",
+    "sentences": [
+     [
+      0.05,
+      3.236,
+      "The rudder is the hinged back part of the tail fin."
+     ],
+     [
+      3.236,
+      9.528,
+      "It swings the nose left or right, and keeps turns tidy so the plane doesn't slip sideways."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Runway": {
+    "duration": 8.736,
+    "hash": "fb9c2dc5f65f0d4e",
+    "sentences": [
+     [
+      0.05,
+      2.556,
+      "On the runway the wheels carry the weight."
+     ],
+     [
+      2.556,
+      8.667,
+      "As the speed builds, lift grows until it matches the weight, and the plane lifts off."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Stagnation": {
+    "duration": 10.68,
+    "hash": "792ef136e97fec5e",
+    "sentences": [
+     [
+      0.05,
+      6.514,
+      "At the stagnation point the oncoming air splits in two and stands still for an instant."
+     ],
+     [
+      6.514,
+      10.625,
+      "The pressure here is the highest anywhere around the wing."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_StallWarn": {
+    "duration": 15.072,
+    "hash": "942708bc4f84397f",
+    "sentences": [
+     [
+      0.05,
+      2.653,
+      "The wing has passed its critical angle."
+     ],
+     [
+      2.653,
+      8.139,
+      "The airflow has torn off the top, lift collapses and the plane shudders."
+     ],
+     [
+      8.139,
+      15.0,
+      "The cure is less angle of attack: lower the nose, or in a turn, roll the wings level."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Streamline": {
+    "duration": 10.08,
+    "hash": "365221b73014a04d",
+    "sentences": [
+     [
+      0.05,
+      3.542,
+      "A streamline traces the path the air takes."
+     ],
+     [
+      3.542,
+      10.028,
+      "Where streamlines squeeze together the air flows faster, and where they spread apart it slows down."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Throttle": {
+    "duration": 12.096,
+    "hash": "f1a0aed60f24c981",
+    "sentences": [
+     [
+      0.05,
+      2.556,
+      "The throttle sets the engine's power."
+     ],
+     [
+      2.556,
+      4.917,
+      "Push the lever up for more thrust."
+     ],
+     [
+      4.917,
+      12.028,
+      "If the angle of attack stays the same, more power mostly makes the plane climb, rather than go faster."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Thrust": {
+    "duration": 10.224,
+    "hash": "e60925746bc346d0",
+    "sentences": [
+     [
+      0.05,
+      4.611,
+      "Thrust comes from the propeller and pulls along the line of the nose."
+     ],
+     [
+      4.611,
+      10.167,
+      "It pulls hardest at low speed; at high speed the engine's power limits it."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Timeline": {
+    "duration": 10.488,
+    "hash": "fa96e5bcb58c9bca",
+    "sentences": [
+     [
+      0.05,
+      3.819,
+      "These lines of smoke were all released at the same moment."
+     ],
+     [
+      3.819,
+      10.431,
+      "The air over the top reaches the back much sooner than the air underneath, and the two never meet up again."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_TopView": {
+    "duration": 13.992,
+    "hash": "676be96333ad8f7e",
+    "sentences": [
+     [
+      0.05,
+      3.083,
+      "From above, the plane flies a circle."
+     ],
+     [
+      3.083,
+      8.917,
+      "Its radius is the speed squared, divided by g times the tangent of the bank."
+     ],
+     [
+      8.917,
+      13.931,
+      "A steeper bank makes a tighter circle; more speed makes a wider one."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_TrailingEdge": {
+    "duration": 13.008,
+    "hash": "7479ec4d83b64911",
+    "sentences": [
+     [
+      0.05,
+      3.014,
+      "The trailing edge is the sharp back of the wing."
+     ],
+     [
+      3.014,
+      12.958,
+      "Air from the top and the bottom must leave here smoothly, and that rule decides how strongly the air circulates round the wing, and so how much lift it makes."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Upper": {
+    "duration": 10.272,
+    "hash": "9442cace82e0e5e0",
+    "sentences": [
+     [
+      0.05,
+      5.764,
+      "Above the wing the air speeds up, and its pressure drops below that of the surrounding air."
+     ],
+     [
+      5.764,
+      10.222,
+      "This suction on the top surface gives a wing most of its lift."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Vario": {
+    "duration": 9.792,
+    "hash": "52449317b94117c8",
+    "sentences": [
+     [
+      0.05,
+      4.847,
+      "This shows how fast the plane is going up or down, in metres per second."
+     ],
+     [
+      4.847,
+      9.722,
+      "A positive number means climbing, a negative one means descending."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Wake": {
+    "duration": 18.168,
+    "hash": "bb859977afa06246",
+    "sentences": [
+     [
+      0.05,
+      4.569,
+      "Past the stall, the air can no longer follow the top surface."
+     ],
+     [
+      4.569,
+      13.736,
+      "It breaks away into a churning, turbulent wake, the suction on top is lost, lift drops and drag soars."
+     ],
+     [
+      13.736,
+      18.097,
+      "This churning is drawn to show the idea; it isn't calculated."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Weight": {
+    "duration": 9.096,
+    "hash": "4bb040d6af641427",
+    "sentences": [
+     [
+      0.05,
+      2.611,
+      "Weight always points straight down."
+     ],
+     [
+      2.611,
+      9.042,
+      "Add passengers or fuel and it grows, so the wing needs more speed or more angle to carry it."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Wind": {
+    "duration": 9.96,
+    "hash": "b336f62102fb5378",
+    "sentences": [
+     [
+      0.05,
+      4.75,
+      "In a wind tunnel the wing stands still and the air blows past it."
+     ],
+     [
+      4.75,
+      9.889,
+      "For the wing, that's exactly the same as flying through still air at this speed."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Wing": {
+    "duration": 14.184,
+    "hash": "5875ab00fa47e38b",
+    "sentences": [
+     [
+      0.05,
+      3.542,
+      "This is a wing's cross-section, called an airfoil."
+     ],
+     [
+      3.542,
+      8.667,
+      "It's rounded at the front, sharp at the back, and usually more curved on top."
+     ],
+     [
+      8.667,
+      14.111,
+      "That shape lets air flow smoothly around it and leave cleanly from the back edge."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_WingDrag": {
+    "duration": 10.824,
+    "hash": "0d7d65e27ad7bec8",
+    "sentences": [
+     [
+      0.05,
+      5.583,
+      "Drag is the part of the air's force that points along the wind, holding the wing back."
+     ],
+     [
+      5.583,
+      10.764,
+      "It stays small while the air flows smoothly, but shoots up once the wing stalls."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_WingLift": {
+    "duration": 12.744,
+    "hash": "af1307cef1a90b95",
+    "sentences": [
+     [
+      0.05,
+      6.306,
+      "Lift is the total of all the pressure pushing and pulling on the wing, at right angles to the wind."
+     ],
+     [
+      6.306,
+      12.694,
+      "The label shows how many kilograms each square metre of wing could hold up at this wind speed."
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_YawAxis": {
+    "duration": 6.792,
+    "hash": "2a734451fa1afde4",
+    "sentences": [
+     [
+      0.05,
+      3.5,
+      "The yaw axis runs straight up and down through the plane."
+     ],
+     [
+      3.5,
+      6.736,
+      "Yawing around it swings the nose left and right."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_01": {
+    "duration": 10.104,
+    "hash": "cdae2e1300a84a9b",
+    "sentences": [
+     [
+      0.05,
+      2.875,
+      "A plane can rotate in three ways."
+     ],
+     [
+      2.875,
+      10.042,
+      "This first one is roll: turning around the line from nose to tail, tipping one wing down and the other up."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_02": {
+    "duration": 13.056,
+    "hash": "ffd05bdb5e126b5c",
+    "sentences": [
+     [
+      0.05,
+      5.417,
+      "Roll is controlled by the ailerons, these hinged flaps near the wingtips."
+     ],
+     [
+      5.417,
+      13.0,
+      "They always move opposite ways: one goes down to add lift to its wing, the other goes up to take lift away."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_03": {
+    "duration": 12.696,
+    "hash": "c20c54de3a059b49",
+    "sentences": [
+     [
+      0.05,
+      3.417,
+      "Next is pitch: the nose going up and down."
+     ],
+     [
+      3.417,
+      6.181,
+      "That's the elevator's job, on the tail."
+     ],
+     [
+      6.181,
+      12.625,
+      "Pull back on the stick, the elevator tilts up, the tail is pushed down, and the nose rises."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_04": {
+    "duration": 11.688,
+    "hash": "40732145bad5e24e",
+    "sentences": [
+     [
+      0.05,
+      6.778,
+      "The third is yaw: the nose swinging left and right, steered by the rudder on the tail fin."
+     ],
+     [
+      6.778,
+      11.639,
+      "It looks like a boat's rudder, but on a plane it isn't really what makes the turn."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_05": {
+    "duration": 4.632,
+    "hash": "cda4e266bb674859",
+    "sentences": [
+     [
+      0.05,
+      2.333,
+      "So here's the question."
+     ],
+     [
+      2.333,
+      4.569,
+      "What really makes a plane turn?"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_06": {
+    "duration": 7.608,
+    "hash": "d9f27e68d9ee22db",
+    "sentences": [
+     [
+      0.05,
+      1.25,
+      "It's the bank."
+     ],
+     [
+      1.25,
+      7.542,
+      "Tip the wings, and the lift, which always points out of the top of the wings, tilts over with them."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_07": {
+    "duration": 11.76,
+    "hash": "07406d2857f8031a",
+    "sentences": [
+     [
+      0.05,
+      5.042,
+      "Part of that tilted lift now points sideways, toward the inside of the turn."
+     ],
+     [
+      5.042,
+      11.708,
+      "This sideways pull keeps bending the plane's path into a circle, like a string whirling a ball around."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_08": {
+    "duration": 11.688,
+    "hash": "a2b99720b733387f",
+    "sentences": [
+     [
+      0.05,
+      2.833,
+      "This view from behind shows the catch."
+     ],
+     [
+      2.833,
+      6.0,
+      "Only the upright part of the lift holds the plane up."
+     ],
+     [
+      6.0,
+      11.639,
+      "So to keep from sinking, the wing has to make more lift than it does in level flight."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_09": {
+    "duration": 13.176,
+    "hash": "9d3e6b512acbbe4e",
+    "sentences": [
+     [
+      0.05,
+      5.222,
+      "At sixty degrees of bank, the wing must lift twice the plane's weight."
+     ],
+     [
+      5.222,
+      9.806,
+      "Everyone on board feels twice as heavy: that's two g."
+     ],
+     [
+      9.806,
+      13.125,
+      "And the stall speed goes up by about forty percent."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_10": {
+    "duration": 10.584,
+    "hash": "02480f7f8d4ad8be",
+    "sentences": [
+     [
+      0.05,
+      2.25,
+      "The little map shows the circle."
+     ],
+     [
+      2.25,
+      5.736,
+      "A steeper bank makes a tighter, quicker circle."
+     ],
+     [
+      5.736,
+      10.514,
+      "Fly faster at the same bank, and the circle gets much wider."
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_11": {
+    "duration": 8.952,
+    "hash": "1268d96bc465b7cb",
+    "sentences": [
+     [
+      0.05,
+      1.137,
+      "Your turn."
+     ],
+     [
+      1.137,
+      8.903,
+      "Drag left or right across the picture to bank the plane, or change its speed, and watch how the circle and the g change."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_01": {
+    "duration": 12.168,
+    "hash": "6c9d171aeffd3825",
+    "sentences": [
+     [
+      0.05,
+      5.861,
+      "This is a wing cut straight through, like a slice of bread, sitting in a wind tunnel."
+     ],
+     [
+      5.861,
+      8.347,
+      "The wind blows in from the left."
+     ],
+     [
+      8.347,
+      12.111,
+      "Watch the smoke: how does the air get past the wing?"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_02": {
+    "duration": 13.128,
+    "hash": "f11b3fac8d119605",
+    "sentences": [
+     [
+      0.05,
+      1.708,
+      "Look at the very front."
+     ],
+     [
+      1.708,
+      6.931,
+      "Right here the air splits in two: some goes over the top, some goes underneath."
+     ],
+     [
+      6.931,
+      10.819,
+      "At this one point the air actually stops for an instant."
+     ],
+     [
+      10.819,
+      13.069,
+      "It's called the stagnation point."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_03": {
+    "duration": 10.32,
+    "hash": "aea886c4b6e49c78",
+    "sentences": [
+     [
+      0.05,
+      2.222,
+      "Now follow the streamlines."
+     ],
+     [
+      2.222,
+      5.319,
+      "Over the top, they bunch up close together."
+     ],
+     [
+      5.319,
+      10.264,
+      "When streamlines crowd together, the air there is moving faster."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_04": {
+    "duration": 12.984,
+    "hash": "3355e9bd4450a105",
+    "sentences": [
+     [
+      0.05,
+      3.125,
+      "And faster air has lower pressure."
+     ],
+     [
+      3.125,
+      5.264,
+      "That's Bernoulli's idea."
+     ],
+     [
+      5.264,
+      12.931,
+      "The blue above the wing means the pressure there is lower than in the air around it, so the top surface is gently sucked upward."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_05": {
+    "duration": 12.072,
+    "hash": "e6f846f8f5e7658f",
+    "sentences": [
+     [
+      0.05,
+      5.361,
+      "Underneath, the air slows down a little and the pressure rises, shown in red."
+     ],
+     [
+      5.361,
+      12.0,
+      "The arrows make it clear: red arrows push up on the bottom, and blue arrows pull up on the top."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_06": {
+    "duration": 10.608,
+    "hash": "a512d8f5eeadff8a",
+    "sentences": [
+     [
+      0.05,
+      5.75,
+      "Add up every push and every pull, and you get this big arrow: lift."
+     ],
+     [
+      5.75,
+      10.542,
+      "Notice that most of it comes from the suction on top, not the push from below."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_07": {
+    "duration": 11.76,
+    "hash": "b3f46ea73acb0011",
+    "sentences": [
+     [
+      0.05,
+      1.306,
+      "Here's a puzzle."
+     ],
+     [
+      1.306,
+      5.556,
+      "Two puffs of air arrive at the front of the wing side by side."
+     ],
+     [
+      5.556,
+      8.986,
+      "One goes over the top, the other goes underneath."
+     ],
+     [
+      8.986,
+      11.694,
+      "Which one reaches the back edge first?"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_08": {
+    "duration": 14.16,
+    "hash": "9264a04ec44f26e4",
+    "sentences": [
+     [
+      0.05,
+      1.389,
+      "Let's test it."
+     ],
+     [
+      1.389,
+      5.736,
+      "These coloured lines are smoke released at the very same moment."
+     ],
+     [
+      5.736,
+      10.694,
+      "See how the part over the top races ahead, and never meets its partner again."
+     ],
+     [
+      10.694,
+      14.097,
+      "The old equal transit story is simply wrong."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_09": {
+    "duration": 16.128,
+    "hash": "36ea0b8bd62e82d9",
+    "sentences": [
+     [
+      0.05,
+      2.042,
+      "Now look behind the wing."
+     ],
+     [
+      2.042,
+      5.639,
+      "The air leaves the back edge heading slightly downward."
+     ],
+     [
+      5.639,
+      11.472,
+      "The wing pushes air down, so by Newton's third law, the air pushes the wing up."
+     ],
+     [
+      11.472,
+      16.056,
+      "Pressure and downwash are two ways of telling the same story."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_10": {
+    "duration": 12.552,
+    "hash": "cb39305e5973cda8",
+    "sentences": [
+     [
+      0.05,
+      1.79,
+      "Let's tilt the wing up more."
+     ],
+     [
+      1.79,
+      5.471,
+      "This tilt against the wind is called the angle of attack."
+     ],
+     [
+      5.471,
+      9.471,
+      "More angle turns more air downward, so the lift grows."
+     ],
+     [
+      9.471,
+      12.486,
+      "Watch the chart on the left-hand page climb."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_11": {
+    "duration": 14.736,
+    "hash": "65f416d10f818c02",
+    "sentences": [
+     [
+      0.05,
+      1.389,
+      "But there's a limit."
+     ],
+     [
+      1.389,
+      6.653,
+      "Past about fifteen degrees, the air can't follow the curved top any more."
+     ],
+     [
+      6.653,
+      13.306,
+      "It tears away into a churning wake, the suction collapses, and lift drops suddenly."
+     ],
+     [
+      13.306,
+      14.681,
+      "That's a stall."
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_12": {
+    "duration": 9.888,
+    "hash": "6aca1212ef567215",
+    "sentences": [
+     [
+      0.05,
+      1.193,
+      "Your turn."
+     ],
+     [
+      1.193,
+      6.681,
+      "Drag the wing to change its angle, try a different wing shape, or flip it upside down."
+     ],
+     [
+      6.681,
+      9.833,
+      "Can an upside-down wing still make lift?"
+     ]
+    ]
+   },
    "Narr_Green_Glass_01": {
     "duration": 10.2,
     "hash": "ec21277dc9d2b3cd",
@@ -32185,6 +33582,1373 @@
       0.1,
       7.189,
       "轮到你了：选另一个星系，或者在图表上拖动，选择光出发的时刻。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_01": {
+    "duration": 10.128,
+    "hash": "8827dda923bd6738",
+    "sentences": [
+     [
+      0.1,
+      3.744,
+      "这是一架正在巡航的四座小飞机。"
+     ],
+     [
+      3.694,
+      7.528,
+      "飞行时，它一直受到四个力的作用。"
+     ],
+     [
+      7.528,
+      10.069,
+      "我们一个一个来认识。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_02": {
+    "duration": 11.376,
+    "hash": "75f8ab1eedd4fd8c",
+    "sentences": [
+     [
+      0.1,
+      5.217,
+      "向上的是升力，由机翼把空气往下推而产生。"
+     ],
+     [
+      5.167,
+      11.319,
+      "它和速度的平方成正比：速度翻一倍，升力就变成四倍。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_03": {
+    "duration": 10.344,
+    "hash": "543b175c272cb1d7",
+    "sentences": [
+     [
+      0.1,
+      5.911,
+      "向下的是重力，也就是地球对飞机和里面一切的吸引。"
+     ],
+     [
+      5.861,
+      10.292,
+      "水平飞行时，升力和重力正好相等。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_04": {
+    "duration": 7.896,
+    "hash": "993b0e978d4e06f4",
+    "sentences": [
+     [
+      0.1,
+      3.772,
+      "向前拉的是推力，来自螺旋桨。"
+     ],
+     [
+      3.722,
+      7.833,
+      "它抓住空气往后甩，飞机就被往前拉。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_05": {
+    "duration": 11.112,
+    "hash": "b5193a23a653cb83",
+    "sentences": [
+     [
+      0.1,
+      5.342,
+      "往后拖的是阻力，也就是空气对飞机运动的阻碍。"
+     ],
+     [
+      5.292,
+      11.056,
+      "这里推力和阻力画得比实际长八倍，不然几乎看不见。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_06": {
+    "duration": 11.928,
+    "hash": "46dd55861dc745ab",
+    "sentences": [
+     [
+      0.1,
+      3.522,
+      "这个面板把它们放在一起比较。"
+     ],
+     [
+      3.472,
+      7.347,
+      "升力平衡重力，推力平衡阻力。"
+     ],
+     [
+      7.347,
+      11.875,
+      "力平衡不是没有力，而是匀速直线飞行。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_07": {
+    "duration": 7.752,
+    "hash": "d739a03d6d0cc766",
+    "sentences": [
+     [
+      0.1,
+      4.897,
+      "现在，飞行员想保持速度不变往上爬升。"
+     ],
+     [
+      4.847,
+      7.681,
+      "飞机需要增加的是什么？"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_08": {
+    "duration": 14.664,
+    "hash": "ab19d546ddbee81d",
+    "sentences": [
+     [
+      0.1,
+      1.939,
+      "答案是推力。"
+     ],
+     [
+      1.889,
+      9.444,
+      "稳定爬升时，推力比阻力大，多出来的那部分，把飞机沿着斜坡拉上去。"
+     ],
+     [
+      9.444,
+      14.611,
+      "出乎意料的是，这时升力其实比重力还小一点。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_09": {
+    "duration": 16.944,
+    "hash": "4b824f51180ed9b3",
+    "sentences": [
+     [
+      0.1,
+      2.564,
+      "现在发动机关掉了。"
+     ],
+     [
+      2.514,
+      11.75,
+      "没有推力，飞机沿着一个缓坡滑翔下来，就像雪橇滑下山坡，一小部分重力把它往前拉。"
+     ],
+     [
+      11.75,
+      16.889,
+      "这架飞机每下降一米，能向前滑大约十二米。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_10": {
+    "duration": 15.6,
+    "hash": "44c95f3460c84368",
+    "sentences": [
+     [
+      0.1,
+      2.592,
+      "这里机头抬得太高了。"
+     ],
+     [
+      2.542,
+      9.694,
+      "机翼超过了失速迎角，升力骤减，飞机即使机头朝上也在往下掉。"
+     ],
+     [
+      9.694,
+      15.528,
+      "要改出失速，飞行员要压低机头，而不是继续往上拉。"
+     ]
+    ]
+   },
+   "Narr_Flight_Forces_11": {
+    "duration": 13.776,
+    "hash": "d8d2e46f799f2e12",
+    "sentences": [
+     [
+      0.1,
+      1.856,
+      "该你来飞了。"
+     ],
+     [
+      1.806,
+      5.931,
+      "飞机停在跑道起点，油门已经推满。"
+     ],
+     [
+      5.931,
+      13.708,
+      "等它滑跑得够快了，向上拖动机头，或者用滑块，看看它什么时候离开地面。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Aileron": {
+    "duration": 10.68,
+    "hash": "27217979c7e968cc",
+    "sentences": [
+     [
+      0.1,
+      3.8,
+      "副翼是翼尖附近可以偏转的翼面。"
+     ],
+     [
+      3.75,
+      10.611,
+      "驾驶杆往左压，左副翼上偏，右副翼下偏，飞机就向左滚转。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Airspeed": {
+    "duration": 9.456,
+    "hash": "dcb4e439d24779a0",
+    "sentences": [
+     [
+      0.1,
+      4.119,
+      "空速是飞机相对于空气运动的速度。"
+     ],
+     [
+      4.069,
+      9.403,
+      "机翼感受到的正是它，这也是飞行员最关注的数字。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Altimeter": {
+    "duration": 12.336,
+    "hash": "ab61c1509b6b8303",
+    "sentences": [
+     [
+      0.1,
+      2.925,
+      "这是相对跑道的高度。"
+     ],
+     [
+      2.875,
+      12.264,
+      "越往高处空气越稀薄，机翼需要更快的速度才能产生同样的升力，发动机的功率也会下降。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Aoa": {
+    "duration": 12.096,
+    "hash": "278fbc37ee2d5b40",
+    "sentences": [
+     [
+      0.1,
+      4.494,
+      "迎角是翼弦线和迎面来风之间的夹角。"
+     ],
+     [
+      4.444,
+      12.042,
+      "迎角越大升力越大，直到失速为止，大多数机翼在十五度左右失速。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Arrows": {
+    "duration": 15.216,
+    "hash": "a4f54bfd842b666f",
+    "sentences": [
+     [
+      0.1,
+      3.869,
+      "每根箭头表示表面那一点的压强。"
+     ],
+     [
+      3.819,
+      12.569,
+      "红箭头往里推，表示那里压强比周围高；蓝箭头往外拉，表示那里压强比周围低。"
+     ],
+     [
+      12.569,
+      15.153,
+      "蓝色大多在上表面。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Balance": {
+    "duration": 15.024,
+    "hash": "144c6b9b0c83e67f",
+    "sentences": [
+     [
+      0.1,
+      5.453,
+      "这个面板把升力和重力、推力和阻力分别对比。"
+     ],
+     [
+      5.403,
+      14.958,
+      "两对力都相等时，飞机匀速直线飞行；不相等时，它就会加速、减速、爬升或下降。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Camber": {
+    "duration": 12.24,
+    "hash": "30b78657bc824c95",
+    "sentences": [
+     [
+      0.1,
+      3.828,
+      "中弧线位于上下表面的正中间。"
+     ],
+     [
+      3.778,
+      12.181,
+      "中弧线是弯的，这种机翼就叫有弯度的机翼，它即使迎角为零也能产生升力。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Centripetal": {
+    "duration": 10.368,
+    "hash": "91fad3d31a49fc51",
+    "sentences": [
+     [
+      0.1,
+      4.119,
+      "升力的这部分侧向分量就是向心力。"
+     ],
+     [
+      4.069,
+      10.306,
+      "没有它，飞机会一直直飞；有了它，航线就被弯成一个圆。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Chord": {
+    "duration": 9.072,
+    "hash": "23e7f7dcc20b9dc0",
+    "sentences": [
+     [
+      0.1,
+      4.786,
+      "翼弦线是从前缘到后缘连起来的一条直线。"
+     ],
+     [
+      4.736,
+      9.014,
+      "机翼的尺寸和角度，都以它为基准来量。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Downwash": {
+    "duration": 12.6,
+    "hash": "3d7df98b4f5f931f",
+    "sentences": [
+     [
+      0.1,
+      4.897,
+      "下洗气流是离开机翼时向下偏转的空气。"
+     ],
+     [
+      4.847,
+      12.528,
+      "机翼把空气往下推，空气就把机翼往上推，这就是牛顿第三定律在起作用。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Drag": {
+    "duration": 15.24,
+    "hash": "87f8f3e5e92eed31",
+    "sentences": [
+     [
+      0.1,
+      3.814,
+      "阻力沿着飞行路径指向正后方。"
+     ],
+     [
+      3.764,
+      11.597,
+      "一部分来自空气对飞机的摩擦和阻挡，另一部分是产生升力要付出的代价。"
+     ],
+     [
+      11.597,
+      15.167,
+      "左页的图表把两部分都画出来了。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Elevator": {
+    "duration": 10.848,
+    "hash": "17ff175de99a368b",
+    "sentences": [
+     [
+      0.1,
+      4.592,
+      "升降舵是水平尾翼后面可以偏转的部分。"
+     ],
+     [
+      4.542,
+      10.778,
+      "它向上偏，就把机尾压下、机头抬起，迎角也随之增大。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_LeadingEdge": {
+    "duration": 11.568,
+    "hash": "c8b6105d1c290d45",
+    "sentences": [
+     [
+      0.1,
+      4.981,
+      "前缘是机翼圆圆的最前端，最先迎上空气。"
+     ],
+     [
+      4.931,
+      11.5,
+      "它做得圆润，即使迎角比较大，空气也能顺滑地转到上表面去。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Lift": {
+    "duration": 9.024,
+    "hash": "506447d06d9644b4",
+    "sentences": [
+     [
+      0.1,
+      2.967,
+      "升力垂直于飞行路径。"
+     ],
+     [
+      2.917,
+      8.958,
+      "它取决于空气密度、机翼面积、迎角，以及速度的平方。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_LiftVector": {
+    "duration": 13.416,
+    "hash": "c20b6bcd868b2fcd",
+    "sentences": [
+     [
+      0.1,
+      3.369,
+      "升力总是垂直于机翼向上。"
+     ],
+     [
+      3.319,
+      13.347,
+      "飞机倾斜时它也跟着倾斜，而且必须变大，才能同时完成两件事：托住飞机，并拉着它转弯。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_LoadFactor": {
+    "duration": 13.968,
+    "hash": "0866e1ccd80f2585",
+    "sentences": [
+     [
+      0.1,
+      4.911,
+      "载荷因数是升力除以重力，用 g 来表示。"
+     ],
+     [
+      4.861,
+      13.917,
+      "水平转弯时，它等于坡度余弦的倒数：四十五度时约一点四，六十度时正好是二。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Lower": {
+    "duration": 7.8,
+    "hash": "3f29813ae73304b5",
+    "sentences": [
+     [
+      0.1,
+      7.8,
+      "机翼下方的空气稍稍减速，压强略高于周围的空气，从下面往上推机翼。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Path": {
+    "duration": 9.624,
+    "hash": "3db5a280b35d2fe5",
+    "sentences": [
+     [
+      0.1,
+      3.939,
+      "飞行路径是飞机实际运动的方向。"
+     ],
+     [
+      3.889,
+      9.556,
+      "它不一定是机头指的方向，两者之间的差别就是迎角。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_PitchAxis": {
+    "duration": 7.704,
+    "hash": "df037f5d617fe001",
+    "sentences": [
+     [
+      0.1,
+      4.231,
+      "俯仰轴从一侧翼尖贯穿到另一侧翼尖。"
+     ],
+     [
+      4.181,
+      7.639,
+      "绕它转动，机头就上下摆动。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Plane": {
+    "duration": 11.64,
+    "hash": "aa6c8aa3f962665f",
+    "sentences": [
+     [
+      0.1,
+      7.633,
+      "一架四座的小型教练机，机身和一辆家用轿车差不多大，翼展十一米。"
+     ],
+     [
+      7.583,
+      11.569,
+      "为了看清受力，它画得比背景景物大。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_PlaneAoa": {
+    "duration": 11.496,
+    "hash": "7ee2bfb4bcba2928",
+    "sentences": [
+     [
+      0.1,
+      5.8,
+      "这段弧线是飞机前进方向和机头指向之间的夹角。"
+     ],
+     [
+      5.75,
+      11.444,
+      "飞行员用升降舵控制它，它决定了机翼出多大的力。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Propeller": {
+    "duration": 10.416,
+    "hash": "4594d20f7990b8d5",
+    "sentences": [
+     [
+      0.1,
+      3.842,
+      "螺旋桨其实就是一对旋转的机翼。"
+     ],
+     [
+      3.792,
+      10.361,
+      "每片桨叶产生向前的升力，把空气往后甩，拉着飞机前进。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_RearView": {
+    "duration": 11.688,
+    "hash": "b76923b7821e9862",
+    "sentences": [
+     [
+      0.1,
+      4.772,
+      "从后面看，倾斜的升力可以分成两部分。"
+     ],
+     [
+      4.722,
+      11.639,
+      "竖直的那部分平衡重力，水平的那部分把飞机拉向转弯内侧。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_RollAxis": {
+    "duration": 7.824,
+    "hash": "57411f1836aa2319",
+    "sentences": [
+     [
+      0.1,
+      3.439,
+      "滚转轴从机头贯穿到机尾。"
+     ],
+     [
+      3.389,
+      7.764,
+      "绕它转动，一边机翼抬起，另一边下沉。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Rudder": {
+    "duration": 10.416,
+    "hash": "8e9944c38c4ea32d",
+    "sentences": [
+     [
+      0.1,
+      4.578,
+      "方向舵是垂直尾翼后面可以偏转的部分。"
+     ],
+     [
+      4.528,
+      10.361,
+      "它让机头左右摆动，并让转弯更协调，避免飞机侧滑。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Runway": {
+    "duration": 9.984,
+    "hash": "348ed7e52537a5b4",
+    "sentences": [
+     [
+      0.1,
+      3.453,
+      "在跑道上，重量由机轮承担。"
+     ],
+     [
+      3.403,
+      9.931,
+      "随着速度增加，升力越来越大，等它等于重力时，飞机就离地了。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Stagnation": {
+    "duration": 9.648,
+    "hash": "20751494e890bbc4",
+    "sentences": [
+     [
+      0.1,
+      6.008,
+      "在驻点，迎面而来的空气一分为二，并在这一瞬间停住。"
+     ],
+     [
+      5.958,
+      9.583,
+      "这里是机翼周围压强最高的地方。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_StallWarn": {
+    "duration": 15.504,
+    "hash": "c25bf1cccd8dee1f",
+    "sentences": [
+     [
+      0.1,
+      8.008,
+      "机翼超过了临界迎角，上表面的气流已经分离，升力骤降，飞机开始抖动。"
+     ],
+     [
+      7.958,
+      15.444,
+      "改出的办法是减小迎角：压低机头，如果在转弯中，就把机翼改平。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Streamline": {
+    "duration": 9.864,
+    "hash": "1bb2f73b1f035f2e",
+    "sentences": [
+     [
+      0.1,
+      3.133,
+      "流线描出空气流过的路径。"
+     ],
+     [
+      3.083,
+      9.806,
+      "流线挤在一起的地方，空气流得快；流线散开的地方，空气流得慢。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Throttle": {
+    "duration": 13.248,
+    "hash": "8023f816a2ead1a0",
+    "sentences": [
+     [
+      0.1,
+      2.744,
+      "油门控制发动机功率。"
+     ],
+     [
+      2.694,
+      6.083,
+      "把手柄往上推，推力就增加。"
+     ],
+     [
+      6.083,
+      13.181,
+      "如果迎角保持不变，加大油门主要会让飞机爬升，而不是飞得更快。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Thrust": {
+    "duration": 10.08,
+    "hash": "171e2579d8dea18d",
+    "sentences": [
+     [
+      0.1,
+      4.633,
+      "推力来自螺旋桨，沿着机头方向往前拉。"
+     ],
+     [
+      4.583,
+      10.028,
+      "低速时拉力最大，高速时受发动机功率的限制。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Timeline": {
+    "duration": 11.976,
+    "hash": "61cbe226f6d7e796",
+    "sentences": [
+     [
+      0.1,
+      4.008,
+      "这些烟线都是在同一时刻放出来的。"
+     ],
+     [
+      3.958,
+      11.917,
+      "从上面走的空气比从下面走的早得多到达后缘，而且两路再也不会会合。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_TopView": {
+    "duration": 13.248,
+    "hash": "3ad0d201380c9dd6",
+    "sentences": [
+     [
+      0.1,
+      3.439,
+      "从上往下看，飞机在画圆。"
+     ],
+     [
+      3.389,
+      8.361,
+      "半径等于速度的平方，除以 g 乘以坡度的正切。"
+     ],
+     [
+      8.361,
+      13.194,
+      "坡度越大，圆越小；速度越快，圆越大。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_TrailingEdge": {
+    "duration": 14.664,
+    "hash": "85f37c929f09e079",
+    "sentences": [
+     [
+      0.1,
+      3.078,
+      "后缘是机翼尖尖的尾部。"
+     ],
+     [
+      3.028,
+      14.597,
+      "上下两路空气都必须从这里平顺地离开，正是这个条件，决定了气流绕机翼环流的强弱，也就决定了升力有多大。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Upper": {
+    "duration": 10.656,
+    "hash": "84fcb60302eceb47",
+    "sentences": [
+     [
+      0.1,
+      5.869,
+      "机翼上方的空气加速流过，压强降到比周围空气还低。"
+     ],
+     [
+      5.819,
+      10.583,
+      "上表面的这股吸力，提供了机翼大部分的升力。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Vario": {
+    "duration": 7.992,
+    "hash": "699f5b71fd2b97ae",
+    "sentences": [
+     [
+      0.1,
+      4.717,
+      "这里显示飞机每秒上升或下降多少米。"
+     ],
+     [
+      4.667,
+      7.931,
+      "正数是爬升，负数是下降。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Wake": {
+    "duration": 16.92,
+    "hash": "af9dfec17f04d9d2",
+    "sentences": [
+     [
+      0.1,
+      7.578,
+      "失速以后，空气再也贴不住上表面，脱离开来，变成翻滚的湍流尾迹。"
+     ],
+     [
+      7.528,
+      12.069,
+      "上面的吸力没了，升力下降，阻力暴涨。"
+     ],
+     [
+      12.069,
+      16.861,
+      "这团乱流是示意画出来的，不是精确计算的。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Weight": {
+    "duration": 10.872,
+    "hash": "6edd9bd7aa50ff7b",
+    "sentences": [
+     [
+      0.1,
+      2.647,
+      "重力总是竖直向下。"
+     ],
+     [
+      2.597,
+      10.806,
+      "多载乘客或燃油，重力就增加，机翼就需要更快的速度或更大的迎角来托住它。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Wind": {
+    "duration": 10.608,
+    "hash": "70fd1ae6367736cb",
+    "sentences": [
+     [
+      0.1,
+      4.078,
+      "在风洞里，机翼不动，空气吹过它。"
+     ],
+     [
+      4.028,
+      10.542,
+      "对机翼来说，这和以同样的速度在静止空气中飞行完全一样。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_Wing": {
+    "duration": 15.12,
+    "hash": "865be549a023b680",
+    "sentences": [
+     [
+      0.1,
+      3.522,
+      "这是机翼的横截面，叫翼型。"
+     ],
+     [
+      3.472,
+      9.0,
+      "它前缘圆钝，后缘尖细，上表面通常更弯一些。"
+     ],
+     [
+      9.0,
+      15.069,
+      "这种形状让空气顺畅地绕过，并从后缘干净利落地离开。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_WingDrag": {
+    "duration": 10.8,
+    "hash": "ac2ad0e1cfbf4b9f",
+    "sentences": [
+     [
+      0.1,
+      6.092,
+      "阻力是空气作用力中沿着风向、把机翼往后拖的那部分。"
+     ],
+     [
+      6.042,
+      10.75,
+      "气流平顺时它很小，一旦失速就会猛增。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_WingLift": {
+    "duration": 14.04,
+    "hash": "9cf7942b873844ea",
+    "sentences": [
+     [
+      0.1,
+      6.828,
+      "升力是作用在机翼上所有压强推拉的总和，方向垂直于来风。"
+     ],
+     [
+      6.778,
+      13.972,
+      "标签上显示的是，在这个风速下，每平方米机翼能托起多少千克。"
+     ]
+    ]
+   },
+   "Narr_Flight_Obj_YawAxis": {
+    "duration": 6.456,
+    "hash": "1ac04864beb7591e",
+    "sentences": [
+     [
+      0.1,
+      3.106,
+      "偏航轴竖直地穿过飞机。"
+     ],
+     [
+      3.056,
+      6.403,
+      "绕它转动，机头就左右摆动。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_01": {
+    "duration": 10.776,
+    "hash": "3f4bbf7f9adb8fd6",
+    "sentences": [
+     [
+      0.1,
+      3.008,
+      "飞机可以绕三根轴转动。"
+     ],
+     [
+      2.958,
+      10.722,
+      "第一种叫滚转：绕着从机头到机尾的这根轴转，一边机翼下沉，另一边抬起。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_02": {
+    "duration": 14.16,
+    "hash": "9daf47d776c09c95",
+    "sentences": [
+     [
+      0.1,
+      5.8,
+      "滚转由副翼控制，就是翼尖附近这两块能活动的翼面。"
+     ],
+     [
+      5.75,
+      14.097,
+      "它们总是反着动：一边往下，增加这边机翼的升力；另一边往上，减小那边的升力。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_03": {
+    "duration": 14.304,
+    "hash": "eac6fb3a7e7251d9",
+    "sentences": [
+     [
+      0.1,
+      4.314,
+      "接下来是俯仰，也就是机头上下摆动。"
+     ],
+     [
+      4.264,
+      7.389,
+      "这是尾翼上升降舵的工作。"
+     ],
+     [
+      7.389,
+      14.236,
+      "驾驶杆往后拉，升降舵向上偏，机尾被压下去，机头就抬起来。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_04": {
+    "duration": 12.696,
+    "hash": "04ee5537da57dc11",
+    "sentences": [
+     [
+      0.1,
+      6.536,
+      "第三种是偏航，机头左右摆动，由垂直尾翼上的方向舵控制。"
+     ],
+     [
+      6.486,
+      12.625,
+      "它看起来很像船舵，但在飞机上，转弯其实主要不是靠它。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_05": {
+    "duration": 4.728,
+    "hash": "4468d2b18475348e",
+    "sentences": [
+     [
+      0.1,
+      1.925,
+      "那么问题来了。"
+     ],
+     [
+      1.875,
+      4.667,
+      "真正让飞机转弯的是什么？"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_06": {
+    "duration": 8.496,
+    "hash": "94a3f10fbe5e5c38",
+    "sentences": [
+     [
+      0.1,
+      2.008,
+      "答案是倾斜。"
+     ],
+     [
+      1.958,
+      8.431,
+      "机翼一倾斜，总是垂直于机翼向上的升力，也就跟着倒向一边。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_07": {
+    "duration": 13.752,
+    "hash": "c6f8295ee1fa9180",
+    "sentences": [
+     [
+      0.1,
+      5.647,
+      "倾斜的升力，有一部分指向侧面，指向转弯的内侧。"
+     ],
+     [
+      5.597,
+      13.694,
+      "这个侧向的拉力不断把飞机的航线弯成一个圆，就像绳子拉着一个转圈的小球。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_08": {
+    "duration": 15.096,
+    "hash": "5da35c512d78aa1c",
+    "sentences": [
+     [
+      0.1,
+      4.494,
+      "从后面看这张图，就能发现其中的代价。"
+     ],
+     [
+      4.444,
+      8.903,
+      "只有升力竖直向上的那部分在托住飞机。"
+     ],
+     [
+      8.903,
+      15.028,
+      "所以为了不掉高度，机翼必须产生比平飞时更大的升力。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_09": {
+    "duration": 14.976,
+    "hash": "b1a24de325bb61e9",
+    "sentences": [
+     [
+      0.1,
+      5.647,
+      "坡度六十度时，机翼要产生两倍于飞机重量的升力。"
+     ],
+     [
+      5.597,
+      10.806,
+      "机上每个人都会觉得自己重了一倍，这就是两个 g。"
+     ],
+     [
+      10.806,
+      14.903,
+      "失速速度也会提高大约百分之四十。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_10": {
+    "duration": 12.192,
+    "hash": "ff773f98014973c1",
+    "sentences": [
+     [
+      0.1,
+      3.633,
+      "这张小地图画出了飞行的圆圈。"
+     ],
+     [
+      3.583,
+      7.875,
+      "坡度越大，圆就越小，转一圈也越快。"
+     ],
+     [
+      7.875,
+      12.125,
+      "同样的坡度，飞得越快，圆就大得多。"
+     ]
+    ]
+   },
+   "Narr_Flight_Turn_11": {
+    "duration": 9.864,
+    "hash": "069e9243314bdf10",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.806,
+      "在画面上左右拖动，让飞机倾斜，或者改变速度，看看圆圈和 g 值怎么变化。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_01": {
+    "duration": 13.464,
+    "hash": "649ec7402841040d",
+    "sentences": [
+     [
+      0.1,
+      5.717,
+      "这是一片机翼的横截面，就像把机翼切成一片面包那样。"
+     ],
+     [
+      5.667,
+      9.5,
+      "它放在风洞里，风从左边吹过来。"
+     ],
+     [
+      9.5,
+      13.403,
+      "看看这些烟，空气是怎么绕过机翼的？"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_02": {
+    "duration": 13.824,
+    "hash": "9e69c80ab490728c",
+    "sentences": [
+     [
+      0.1,
+      2.606,
+      "看机翼最前面这一点。"
+     ],
+     [
+      2.556,
+      8.278,
+      "空气在这里分成两路，一路从上面走，一路从下面走。"
+     ],
+     [
+      8.278,
+      13.764,
+      "就在这个点上，空气其实停住了一瞬间，这叫驻点。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_03": {
+    "duration": 9.672,
+    "hash": "494efd824abd0f57",
+    "sentences": [
+     [
+      0.1,
+      2.481,
+      "再跟着这些流线看。"
+     ],
+     [
+      2.431,
+      5.597,
+      "机翼上方的流线挤得很紧。"
+     ],
+     [
+      5.597,
+      9.611,
+      "流线越挤，说明那里的空气流得越快。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_04": {
+    "duration": 13.344,
+    "hash": "fc5db50712b82dc3",
+    "sentences": [
+     [
+      0.1,
+      5.022,
+      "流得快的空气，压强就低，这就是伯努利原理。"
+     ],
+     [
+      4.972,
+      13.278,
+      "机翼上方的蓝色，表示那里的压强比周围低，所以上表面被轻轻地往上吸。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_05": {
+    "duration": 13.272,
+    "hash": "1e272544b17e548f",
+    "sentences": [
+     [
+      0.1,
+      5.744,
+      "机翼下面，空气稍微慢下来，压强升高，这是红色。"
+     ],
+     [
+      5.694,
+      13.222,
+      "看这些箭头就清楚了：红箭头从下面往上推，蓝箭头从上面往上拉。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_06": {
+    "duration": 12.6,
+    "hash": "2e56ad848da713c2",
+    "sentences": [
+     [
+      0.1,
+      6.397,
+      "把所有的推和拉加在一起，就得到这根大箭头，也就是升力。"
+     ],
+     [
+      6.347,
+      12.528,
+      "注意，升力的大部分来自上面的吸力，而不是下面的推力。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_07": {
+    "duration": 12.192,
+    "hash": "6438247795d75e23",
+    "sentences": [
+     [
+      0.1,
+      1.925,
+      "考你一个问题。"
+     ],
+     [
+      1.875,
+      9.236,
+      "两小团空气肩并肩来到机翼前面，一团从上面走，一团从下面走。"
+     ],
+     [
+      9.236,
+      12.139,
+      "哪一团先到达机翼后缘？"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_08": {
+    "duration": 16.776,
+    "hash": "1926c0529e4a15a3",
+    "sentences": [
+     [
+      0.1,
+      2.119,
+      "我们来验证一下。"
+     ],
+     [
+      2.069,
+      6.208,
+      "这些彩色的线，是同一时刻放出的烟。"
+     ],
+     [
+      6.208,
+      12.653,
+      "看，从上面走的那段一路领先，再也没有和下面那段会合。"
+     ],
+     [
+      12.653,
+      16.708,
+      "所谓等时间到达的说法，其实是错的。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_09": {
+    "duration": 17.808,
+    "hash": "55ace6b946efa55a",
+    "sentences": [
+     [
+      0.1,
+      2.147,
+      "再看机翼后面。"
+     ],
+     [
+      2.097,
+      6.014,
+      "空气离开后缘时，是稍微向下走的。"
+     ],
+     [
+      6.014,
+      12.708,
+      "机翼把空气往下推，根据牛顿第三定律，空气就把机翼往上推。"
+     ],
+     [
+      12.708,
+      17.75,
+      "压强差和下洗气流，是同一件事的两种讲法。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_10": {
+    "duration": 15.168,
+    "hash": "268a1f49a14356a9",
+    "sentences": [
+     [
+      0.1,
+      2.717,
+      "我们把机翼再抬高一点。"
+     ],
+     [
+      2.667,
+      6.889,
+      "机翼和来风之间的这个夹角，叫迎角。"
+     ],
+     [
+      6.889,
+      12.028,
+      "迎角越大，被往下推的空气越多，升力就越大。"
+     ],
+     [
+      12.028,
+      15.111,
+      "看左页的图表在往上走。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_11": {
+    "duration": 15.888,
+    "hash": "896fa99fe3444c55",
+    "sentences": [
+     [
+      0.1,
+      2.05,
+      "但这有个极限。"
+     ],
+     [
+      2.0,
+      7.194,
+      "超过大约十五度，空气就跟不住弯曲的上表面了。"
+     ],
+     [
+      7.194,
+      15.833,
+      "它脱离开来，变成一团翻滚的乱流，吸力一下子没了，升力突然下降，这就是失速。"
+     ]
+    ]
+   },
+   "Narr_Flight_Wing_12": {
+    "duration": 10.584,
+    "hash": "5fd81da30fc4f64c",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      6.972,
+      "拖动机翼改变迎角，换一种翼型，或者把它倒过来。"
+     ],
+     [
+      6.972,
+      10.528,
+      "倒过来的机翼，还能产生升力吗？"
      ]
     ]
    },

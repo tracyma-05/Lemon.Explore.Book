@@ -934,6 +934,10 @@ def convert_points(s: str) -> str:
     operand = r"[\w.]+(?:\([^()]*\)|\[[^\]]*\])?"
     for m in reversed(list(re.finditer(rf"\bvar (\w+) = ({operand}) - ({operand});", s))):
         rest = s[m.end():m.end() + 1500]
+        # A difference of 3D points is already a Vector3D (Controls/Space/Space3D.cs): leave it to `var`.
+        before = s[max(0, m.start() - 1500):m.start()]
+        if re.search(rf"\bPoint3D (?:{re.escape(m.group(2))}|{re.escape(m.group(3))})\b", before):
+            continue
         if re.search(rf"\b{m.group(1)}\.(?:Length|Normalize\(\))|\b{m.group(1)} /= ", rest):
             s = s[:m.start()] + f"Vector {m.group(1)} = {m.group(2)} - {m.group(3)};" + s[m.end():]
     # WPF's Vector.Normalize() changes the vector; Avalonia's returns a new one and leaves it as it was.
@@ -960,7 +964,7 @@ def convert_points(s: str) -> str:
 
 LEFT_FOR_HAND = ("DependencyProperty", "Freeze(", "MouseButton", "CompositionTarget", "WritePixels", "PathGeometry",
                  "PathFigure", "new Pen(", "TextElement", "FormattedText(", "Cursors.", "OnRender(", "RoutedEventArgs",
-                 "MappingMode", "Geometry.Empty")
+                 "MappingMode", "Geometry.Empty", "PolyBezierTo", "PolyLineTo")
 
 # Patterns rather than text: the book's own immutable brushes and `System.Windows.Input` (ICommand) are fine.
 LEFT_FOR_HAND_PATTERNS = {

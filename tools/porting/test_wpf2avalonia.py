@@ -135,6 +135,16 @@ public static readonly Brush Dot = Freeze(new SolidColorBrush(Gold));
         self.assertIn("if (at.X + text.Width > plot.Right) at = at.WithX(point.X - 8);", out)
         self.assertIn("tangent = tangent.Normalize();", out)
 
+    def test_a_difference_of_3d_points_stays_var(self):
+        source = """    private static Point3D Turn(Point3D p, Point3D a, Point3D b, double degrees)
+    {
+        var axis = b - a;
+        axis.Normalize();
+"""
+        out = tool.convert_points(source)
+        self.assertIn("var axis = b - a;", out)
+        self.assertIn("axis = axis.Normalize();", out)
+
 
 class LateTests(unittest.TestCase):
     def test_gradients_with_an_initializer_become_immutable(self):

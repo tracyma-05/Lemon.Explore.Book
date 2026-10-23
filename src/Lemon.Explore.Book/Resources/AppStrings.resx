@@ -3411,6 +3411,870 @@
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>Click anything in the picture to hear what it is</value>
   </data>
+  <data name="Flight_AirSpeed" xml:space="preserve">
+    <value>Wind speed</value>
+  </data>
+  <data name="Flight_Alpha" xml:space="preserve">
+    <value>Angle of attack</value>
+  </data>
+  <data name="Flight_Balance_Drag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Flight_Balance_Lift" xml:space="preserve">
+    <value>Lift</value>
+  </data>
+  <data name="Flight_Balance_Thrust" xml:space="preserve">
+    <value>Thrust</value>
+  </data>
+  <data name="Flight_Balance_Title" xml:space="preserve">
+    <value>Forces</value>
+  </data>
+  <data name="Flight_Balance_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Flight_Bank" xml:space="preserve">
+    <value>Bank angle</value>
+  </data>
+  <data name="Flight_Chart_AlphaAxis" xml:space="preserve">
+    <value>Angle of attack</value>
+  </data>
+  <data name="Flight_Chart_BankAxis" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Flight_Chart_DragAxis" xml:space="preserve">
+    <value>Force (kN)</value>
+  </data>
+  <data name="Flight_Chart_Forces_Caption" xml:space="preserve">
+    <value>Drag and thrust in level flight</value>
+  </data>
+  <data name="Flight_Chart_Forces_Note" xml:space="preserve">
+    <value>Drag from friction grows with speed and drag from making lift shrinks; their sum is least at the ring. Green: the propeller's thrust. Drag across the chart to fly level at that speed.</value>
+  </data>
+  <data name="Flight_Chart_Ideal" xml:space="preserve">
+    <value>ideal flow</value>
+  </data>
+  <data name="Flight_Chart_Induced" xml:space="preserve">
+    <value>from lift</value>
+  </data>
+  <data name="Flight_Chart_LiftAxis" xml:space="preserve">
+    <value>Lift coefficient</value>
+  </data>
+  <data name="Flight_Chart_LoadAxis" xml:space="preserve">
+    <value>Load factor</value>
+  </data>
+  <data name="Flight_Chart_Parasite" xml:space="preserve">
+    <value>friction</value>
+  </data>
+  <data name="Flight_Chart_Real" xml:space="preserve">
+    <value>real wing</value>
+  </data>
+  <data name="Flight_Chart_SpeedAxis" xml:space="preserve">
+    <value>Speed (km/h)</value>
+  </data>
+  <data name="Flight_Chart_Stall" xml:space="preserve">
+    <value>stall</value>
+  </data>
+  <data name="Flight_Chart_StallSpeed" xml:space="preserve">
+    <value>Stall speed (km/h, right)</value>
+  </data>
+  <data name="Flight_Chart_StallZone" xml:space="preserve">
+    <value>too slow</value>
+  </data>
+  <data name="Flight_Chart_Thrust" xml:space="preserve">
+    <value>thrust</value>
+  </data>
+  <data name="Flight_Chart_Total" xml:space="preserve">
+    <value>total drag</value>
+  </data>
+  <data name="Flight_Chart_Turn_Caption" xml:space="preserve">
+    <value>g and stall speed in a level turn</value>
+  </data>
+  <data name="Flight_Chart_Turn_Note" xml:space="preserve">
+    <value>Gold: load factor. Red dashed: stall speed (right scale, km/h). Where it crosses your speed is the steepest bank you can hold. Drag the dot.</value>
+  </data>
+  <data name="Flight_Chart_Wing_Caption" xml:space="preserve">
+    <value>Lift at each angle of attack</value>
+  </data>
+  <data name="Flight_Chart_Wing_Note" xml:space="preserve">
+    <value>Gold: the real wing, which stalls. Dashed: ideal flow, which never does. Drag the dot.</value>
+  </data>
+  <data name="Flight_Chart_YourSpeed" xml:space="preserve">
+    <value>your speed</value>
+  </data>
+  <data name="Flight_Controls_Caption" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="Flight_Demo_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Flight_Demo_Pitch" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="Flight_Demo_Roll" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="Flight_Demo_Turn" xml:space="preserve">
+    <value>Banked turn</value>
+  </data>
+  <data name="Flight_Demo_Yaw" xml:space="preserve">
+    <value>Yaw</value>
+  </data>
+  <data name="Flight_EqualTransit" xml:space="preserve">
+    <value>Do the two airstreams meet again?</value>
+  </data>
+  <data name="Flight_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Flight_Forces_Braking_Text" xml:space="preserve">
+    <value>With the throttle closed, the brakes slow the plane down the runway.</value>
+  </data>
+  <data name="Flight_Forces_Braking_Title" xml:space="preserve">
+    <value>Braking</value>
+  </data>
+  <data name="Flight_Forces_Climb_Text" xml:space="preserve">
+    <value>Thrust is greater than drag, and the extra pull carries the plane up the slope. Lift is a little less than weight.</value>
+  </data>
+  <data name="Flight_Forces_Climb_Title" xml:space="preserve">
+    <value>Climbing</value>
+  </data>
+  <data name="Flight_Forces_Descend_Text" xml:space="preserve">
+    <value>Thrust is less than drag, so the plane trades height for speed and comes down along a slope.</value>
+  </data>
+  <data name="Flight_Forces_Descend_Title" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="Flight_Forces_Fact1" xml:space="preserve">
+    <value>In steady flight the forces balance: the plane isn't being pushed along, it simply keeps going (Newton's first law).</value>
+  </data>
+  <data name="Flight_Forces_Fact2" xml:space="preserve">
+    <value>Taking off into the wind is easier: the wing feels the wind's speed too, so the plane leaves the ground at a lower ground speed.</value>
+  </data>
+  <data name="Flight_Forces_Fact3" xml:space="preserve">
+    <value>On hot days and at high airports the air is thinner, so planes need longer runways to take off.</value>
+  </data>
+  <data name="Flight_Forces_Fact4" xml:space="preserve">
+    <value>A glider has no engine at all; the best ones glide 50 metres forward for every metre they sink.</value>
+  </data>
+  <data name="Flight_Forces_Fact5" xml:space="preserve">
+    <value>A stall is about angle, not speed: a wing can stall at any speed if its angle of attack is too big.</value>
+  </data>
+  <data name="Flight_Forces_Glide_Text" xml:space="preserve">
+    <value>No thrust: a small part of the weight pulls the plane forward along a gentle downward slope, balancing the drag.</value>
+  </data>
+  <data name="Flight_Forces_Glide_Title" xml:space="preserve">
+    <value>Gliding</value>
+  </data>
+  <data name="Flight_Forces_Level_Text" xml:space="preserve">
+    <value>Lift equals weight and thrust equals drag: the plane flies straight and level at a steady speed.</value>
+  </data>
+  <data name="Flight_Forces_Level_Title" xml:space="preserve">
+    <value>Level flight</value>
+  </data>
+  <data name="Flight_Forces_Note" xml:space="preserve">
+    <value>A small four-seat plane. The scenery is to scale; the plane is drawn about 6 times larger, thrust and drag 8 times longer.</value>
+  </data>
+  <data name="Flight_Forces_Panel_Note" xml:space="preserve">
+    <value>The plane flies by Newton's laws as a point mass. The slow up-and-down swing that follows a change is damped, as a pilot would do.</value>
+  </data>
+  <data name="Flight_Forces_Parked_Text" xml:space="preserve">
+    <value>The plane sits on its wheels. Open the throttle and it will start to roll.</value>
+  </data>
+  <data name="Flight_Forces_Parked_Title" xml:space="preserve">
+    <value>Standing still</value>
+  </data>
+  <data name="Flight_Forces_Rolling_Text" xml:space="preserve">
+    <value>Thrust is speeding the plane down the runway. Lift grows with speed; raise the nose for more angle, and once lift beats weight the wheels leave the ground.</value>
+  </data>
+  <data name="Flight_Forces_Rolling_Title" xml:space="preserve">
+    <value>Take-off run</value>
+  </data>
+  <data name="Flight_Forces_Stall_Text" xml:space="preserve">
+    <value>The angle of attack is past the stall: lift has collapsed and the plane is sinking. Lower the nose to let the air flow smoothly over the wing again.</value>
+  </data>
+  <data name="Flight_Forces_Stall_Title" xml:space="preserve">
+    <value>Stalled</value>
+  </data>
+  <data name="Flight_Forces_Subtitle" xml:space="preserve">
+    <value>The four forces of flight</value>
+  </data>
+  <data name="Flight_Hint_Forces" xml:space="preserve">
+    <value>Drag the plane up or down to raise or lower its nose; slide the throttle lever.</value>
+  </data>
+  <data name="Flight_Hint_Turn" xml:space="preserve">
+    <value>Drag left or right to bank; click a control surface to see what it does.</value>
+  </data>
+  <data name="Flight_Hint_Wing" xml:space="preserve">
+    <value>Drag the wing to turn it; drag anywhere else to trail smoke, or click to puff it.</value>
+  </data>
+  <data name="Flight_Instrument_Altitude" xml:space="preserve">
+    <value>Height {0}</value>
+  </data>
+  <data name="Flight_Instrument_Bank" xml:space="preserve">
+    <value>Bank {0}° {1}</value>
+  </data>
+  <data name="Flight_Instrument_Climb" xml:space="preserve">
+    <value>Climb {0} m/s</value>
+  </data>
+  <data name="Flight_Instrument_Speed" xml:space="preserve">
+    <value>Speed {0}</value>
+  </data>
+  <data name="Flight_Label_Aileron" xml:space="preserve">
+    <value>Aileron</value>
+  </data>
+  <data name="Flight_Label_Aoa" xml:space="preserve">
+    <value>Angle of attack {0}°</value>
+  </data>
+  <data name="Flight_Label_Arrows" xml:space="preserve">
+    <value>Pressure: red pushes, blue pulls</value>
+  </data>
+  <data name="Flight_Label_Camber" xml:space="preserve">
+    <value>Camber line</value>
+  </data>
+  <data name="Flight_Label_Centripetal" xml:space="preserve">
+    <value>Pulls into the turn</value>
+  </data>
+  <data name="Flight_Label_Chord" xml:space="preserve">
+    <value>Chord line</value>
+  </data>
+  <data name="Flight_Label_Downwash" xml:space="preserve">
+    <value>Downwash</value>
+  </data>
+  <data name="Flight_Label_Drag" xml:space="preserve">
+    <value>Drag {0}</value>
+  </data>
+  <data name="Flight_Label_Elevator" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="Flight_Label_HardLanding" xml:space="preserve">
+    <value>Hard landing ({0} m/s)</value>
+  </data>
+  <data name="Flight_Label_LeadingEdge" xml:space="preserve">
+    <value>Leading edge</value>
+  </data>
+  <data name="Flight_Label_Lift" xml:space="preserve">
+    <value>Lift {0}</value>
+  </data>
+  <data name="Flight_Label_LiftG" xml:space="preserve">
+    <value>Lift = {0} × weight</value>
+  </data>
+  <data name="Flight_Label_LiftOff" xml:space="preserve">
+    <value>Lift-off!</value>
+  </data>
+  <data name="Flight_Label_Lower" xml:space="preserve">
+    <value>Higher pressure</value>
+  </data>
+  <data name="Flight_Label_Path" xml:space="preserve">
+    <value>Flight path</value>
+  </data>
+  <data name="Flight_Label_PitchAxis" xml:space="preserve">
+    <value>Pitch axis</value>
+  </data>
+  <data name="Flight_Label_RollAxis" xml:space="preserve">
+    <value>Roll axis</value>
+  </data>
+  <data name="Flight_Label_Rudder" xml:space="preserve">
+    <value>Rudder</value>
+  </data>
+  <data name="Flight_Label_Runway" xml:space="preserve">
+    <value>Runway</value>
+  </data>
+  <data name="Flight_Label_Stagnation" xml:space="preserve">
+    <value>Stagnation point</value>
+  </data>
+  <data name="Flight_Label_Stall" xml:space="preserve">
+    <value>STALL</value>
+  </data>
+  <data name="Flight_Label_Streamline" xml:space="preserve">
+    <value>Streamline</value>
+  </data>
+  <data name="Flight_Label_Thrust" xml:space="preserve">
+    <value>Thrust {0}</value>
+  </data>
+  <data name="Flight_Label_Timeline" xml:space="preserve">
+    <value>Smoke lines released together</value>
+  </data>
+  <data name="Flight_Label_Touchdown" xml:space="preserve">
+    <value>Touchdown</value>
+  </data>
+  <data name="Flight_Label_TrailingEdge" xml:space="preserve">
+    <value>Trailing edge</value>
+  </data>
+  <data name="Flight_Label_TurnStall" xml:space="preserve">
+    <value>Too slow: stall!</value>
+  </data>
+  <data name="Flight_Label_Upper" xml:space="preserve">
+    <value>Low pressure</value>
+  </data>
+  <data name="Flight_Label_Wake" xml:space="preserve">
+    <value>Flow torn off: stall</value>
+  </data>
+  <data name="Flight_Label_Weight" xml:space="preserve">
+    <value>Weight {0}</value>
+  </data>
+  <data name="Flight_Label_Wind" xml:space="preserve">
+    <value>Wind {0} km/h</value>
+  </data>
+  <data name="Flight_Label_WingDrag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Flight_Label_WingLift" xml:space="preserve">
+    <value>Lift ≈ {0} kg per m²</value>
+  </data>
+  <data name="Flight_Label_YawAxis" xml:space="preserve">
+    <value>Yaw axis</value>
+  </data>
+  <data name="Flight_Lesson_Forces_Choice1" xml:space="preserve">
+    <value>More thrust from the engine</value>
+  </data>
+  <data name="Flight_Lesson_Forces_Choice2" xml:space="preserve">
+    <value>More lift than weight</value>
+  </data>
+  <data name="Flight_Lesson_Forces_Choice3" xml:space="preserve">
+    <value>Less drag</value>
+  </data>
+  <data name="Flight_Lesson_Turn_Choice1" xml:space="preserve">
+    <value>Banking, so the lift pulls sideways</value>
+  </data>
+  <data name="Flight_Lesson_Turn_Choice2" xml:space="preserve">
+    <value>The rudder, like a boat's</value>
+  </data>
+  <data name="Flight_Lesson_Turn_Choice3" xml:space="preserve">
+    <value>The propeller pushing sideways</value>
+  </data>
+  <data name="Flight_Lesson_Wing_Choice1" xml:space="preserve">
+    <value>The one over the top, well ahead</value>
+  </data>
+  <data name="Flight_Lesson_Wing_Choice2" xml:space="preserve">
+    <value>They meet again at the back</value>
+  </data>
+  <data name="Flight_Lesson_Wing_Choice3" xml:space="preserve">
+    <value>The one underneath</value>
+  </data>
+  <data name="Flight_LevelOff" xml:space="preserve">
+    <value>Level off at this speed</value>
+  </data>
+  <data name="Flight_LevelWings" xml:space="preserve">
+    <value>Level the wings</value>
+  </data>
+  <data name="Flight_Load_Caption" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="Flight_Mass" xml:space="preserve">
+    <value>Mass with passengers</value>
+  </data>
+  <data name="Flight_Mode_Forces" xml:space="preserve">
+    <value>Four forces</value>
+  </data>
+  <data name="Flight_Mode_Turn" xml:space="preserve">
+    <value>Turning</value>
+  </data>
+  <data name="Flight_Mode_Wing" xml:space="preserve">
+    <value>Wing</value>
+  </data>
+  <data name="Flight_Obj_Aileron" xml:space="preserve">
+    <value>Ailerons</value>
+  </data>
+  <data name="Flight_Obj_Airspeed" xml:space="preserve">
+    <value>Airspeed</value>
+  </data>
+  <data name="Flight_Obj_Altimeter" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Flight_Obj_Aoa" xml:space="preserve">
+    <value>Angle of attack</value>
+  </data>
+  <data name="Flight_Obj_Arrows" xml:space="preserve">
+    <value>Pressure arrows</value>
+  </data>
+  <data name="Flight_Obj_Balance" xml:space="preserve">
+    <value>Force balance</value>
+  </data>
+  <data name="Flight_Obj_Camber" xml:space="preserve">
+    <value>Camber line</value>
+  </data>
+  <data name="Flight_Obj_Centripetal" xml:space="preserve">
+    <value>Pull into the turn</value>
+  </data>
+  <data name="Flight_Obj_Chord" xml:space="preserve">
+    <value>Chord line</value>
+  </data>
+  <data name="Flight_Obj_Downwash" xml:space="preserve">
+    <value>Downwash</value>
+  </data>
+  <data name="Flight_Obj_Drag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Flight_Obj_Elevator" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="Flight_Obj_LeadingEdge" xml:space="preserve">
+    <value>Leading edge</value>
+  </data>
+  <data name="Flight_Obj_Lift" xml:space="preserve">
+    <value>Lift</value>
+  </data>
+  <data name="Flight_Obj_LiftVector" xml:space="preserve">
+    <value>Lift in a turn</value>
+  </data>
+  <data name="Flight_Obj_LoadFactor" xml:space="preserve">
+    <value>Load factor</value>
+  </data>
+  <data name="Flight_Obj_Lower" xml:space="preserve">
+    <value>Higher pressure below</value>
+  </data>
+  <data name="Flight_Obj_Path" xml:space="preserve">
+    <value>Flight path</value>
+  </data>
+  <data name="Flight_Obj_PitchAxis" xml:space="preserve">
+    <value>Pitch axis</value>
+  </data>
+  <data name="Flight_Obj_Plane" xml:space="preserve">
+    <value>Trainer plane</value>
+  </data>
+  <data name="Flight_Obj_PlaneAoa" xml:space="preserve">
+    <value>Angle of attack</value>
+  </data>
+  <data name="Flight_Obj_Propeller" xml:space="preserve">
+    <value>Propeller</value>
+  </data>
+  <data name="Flight_Obj_RearView" xml:space="preserve">
+    <value>View from behind</value>
+  </data>
+  <data name="Flight_Obj_RollAxis" xml:space="preserve">
+    <value>Roll axis</value>
+  </data>
+  <data name="Flight_Obj_Rudder" xml:space="preserve">
+    <value>Rudder</value>
+  </data>
+  <data name="Flight_Obj_Runway" xml:space="preserve">
+    <value>Runway</value>
+  </data>
+  <data name="Flight_Obj_Stagnation" xml:space="preserve">
+    <value>Stagnation point</value>
+  </data>
+  <data name="Flight_Obj_StallWarn" xml:space="preserve">
+    <value>Stall</value>
+  </data>
+  <data name="Flight_Obj_Streamline" xml:space="preserve">
+    <value>Streamline</value>
+  </data>
+  <data name="Flight_Obj_Throttle" xml:space="preserve">
+    <value>Throttle</value>
+  </data>
+  <data name="Flight_Obj_Thrust" xml:space="preserve">
+    <value>Thrust</value>
+  </data>
+  <data name="Flight_Obj_Timeline" xml:space="preserve">
+    <value>Smoke released together</value>
+  </data>
+  <data name="Flight_Obj_TopView" xml:space="preserve">
+    <value>Turn from above</value>
+  </data>
+  <data name="Flight_Obj_TrailingEdge" xml:space="preserve">
+    <value>Trailing edge</value>
+  </data>
+  <data name="Flight_Obj_Upper" xml:space="preserve">
+    <value>Low pressure above</value>
+  </data>
+  <data name="Flight_Obj_Vario" xml:space="preserve">
+    <value>Climb rate</value>
+  </data>
+  <data name="Flight_Obj_Wake" xml:space="preserve">
+    <value>Stalled wake</value>
+  </data>
+  <data name="Flight_Obj_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Flight_Obj_Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="Flight_Obj_Wing" xml:space="preserve">
+    <value>Wing section</value>
+  </data>
+  <data name="Flight_Obj_WingDrag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Flight_Obj_WingLift" xml:space="preserve">
+    <value>Lift</value>
+  </data>
+  <data name="Flight_Obj_YawAxis" xml:space="preserve">
+    <value>Yaw axis</value>
+  </data>
+  <data name="Flight_Option_Arrows" xml:space="preserve">
+    <value>Pressure arrows</value>
+  </data>
+  <data name="Flight_Option_Inverted" xml:space="preserve">
+    <value>Upside down</value>
+  </data>
+  <data name="Flight_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Flight_Option_Pressure" xml:space="preserve">
+    <value>Pressure colours</value>
+  </data>
+  <data name="Flight_Option_Smoke" xml:space="preserve">
+    <value>Smoke</value>
+  </data>
+  <data name="Flight_Option_Streamlines" xml:space="preserve">
+    <value>Streamlines</value>
+  </data>
+  <data name="Flight_Option_Timelines" xml:space="preserve">
+    <value>Smoke lines</value>
+  </data>
+  <data name="Flight_PlaneAlpha" xml:space="preserve">
+    <value>Angle of attack (elevator)</value>
+  </data>
+  <data name="Flight_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Flight_Rear_Lift" xml:space="preserve">
+    <value>Lift</value>
+  </data>
+  <data name="Flight_Rear_LoadFactor" xml:space="preserve">
+    <value>{0} g</value>
+  </data>
+  <data name="Flight_Rear_Side" xml:space="preserve">
+    <value>into the turn</value>
+  </data>
+  <data name="Flight_Rear_Title" xml:space="preserve">
+    <value>From behind</value>
+  </data>
+  <data name="Flight_Rear_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Flight_Scenario_Caption" xml:space="preserve">
+    <value>Start a flight</value>
+  </data>
+  <data name="Flight_Scenario_Climb" xml:space="preserve">
+    <value>Climb</value>
+  </data>
+  <data name="Flight_Scenario_Cruise" xml:space="preserve">
+    <value>Cruise</value>
+  </data>
+  <data name="Flight_Scenario_Glide" xml:space="preserve">
+    <value>Glide (engine off)</value>
+  </data>
+  <data name="Flight_Scenario_Landing" xml:space="preserve">
+    <value>Landing</value>
+  </data>
+  <data name="Flight_Scenario_Stall" xml:space="preserve">
+    <value>Stall</value>
+  </data>
+  <data name="Flight_Scenario_Takeoff" xml:space="preserve">
+    <value>Take-off</value>
+  </data>
+  <data name="Flight_Shape_Bird" xml:space="preserve">
+    <value>Bird's wing</value>
+  </data>
+  <data name="Flight_Shape_Cambered" xml:space="preserve">
+    <value>Curved (light plane)</value>
+  </data>
+  <data name="Flight_Shape_Caption" xml:space="preserve">
+    <value>Wing section</value>
+  </data>
+  <data name="Flight_Shape_Flat" xml:space="preserve">
+    <value>Flat plate</value>
+  </data>
+  <data name="Flight_Shape_Symmetric" xml:space="preserve">
+    <value>Symmetric</value>
+  </data>
+  <data name="Flight_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Flight_Stat_Altitude" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Flight_Stat_Aoa" xml:space="preserve">
+    <value>Angle of attack</value>
+  </data>
+  <data name="Flight_Stat_Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Flight_Stat_Cd" xml:space="preserve">
+    <value>Drag coefficient</value>
+  </data>
+  <data name="Flight_Stat_Circle" xml:space="preserve">
+    <value>One full circle</value>
+  </data>
+  <data name="Flight_Stat_Cl" xml:space="preserve">
+    <value>Lift coefficient</value>
+  </data>
+  <data name="Flight_Stat_Climb" xml:space="preserve">
+    <value>Climb</value>
+  </data>
+  <data name="Flight_Stat_Density" xml:space="preserve">
+    <value>Air density</value>
+  </data>
+  <data name="Flight_Stat_Drag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Flight_Stat_Fastest" xml:space="preserve">
+    <value>Fastest air over it</value>
+  </data>
+  <data name="Flight_Stat_Lift" xml:space="preserve">
+    <value>Lift</value>
+  </data>
+  <data name="Flight_Stat_LiftNeeded" xml:space="preserve">
+    <value>Lift needed</value>
+  </data>
+  <data name="Flight_Stat_LiftToDrag" xml:space="preserve">
+    <value>Lift ÷ drag</value>
+  </data>
+  <data name="Flight_Stat_LoadFactor" xml:space="preserve">
+    <value>Load factor</value>
+  </data>
+  <data name="Flight_Stat_PerSquareMetre" xml:space="preserve">
+    <value>Lift per m²</value>
+  </data>
+  <data name="Flight_Stat_Radius" xml:space="preserve">
+    <value>Turn radius</value>
+  </data>
+  <data name="Flight_Stat_Speed" xml:space="preserve">
+    <value>Airspeed</value>
+  </data>
+  <data name="Flight_Stat_StallAngle" xml:space="preserve">
+    <value>Stall angle</value>
+  </data>
+  <data name="Flight_Stat_StallSpeed" xml:space="preserve">
+    <value>Stall speed</value>
+  </data>
+  <data name="Flight_Stat_Thrust" xml:space="preserve">
+    <value>Thrust</value>
+  </data>
+  <data name="Flight_Stat_TurnRate" xml:space="preserve">
+    <value>Turn rate</value>
+  </data>
+  <data name="Flight_Stat_TurnStall" xml:space="preserve">
+    <value>Stall speed in this turn</value>
+  </data>
+  <data name="Flight_Stat_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Flight_Stat_ZeroLift" xml:space="preserve">
+    <value>Zero-lift angle</value>
+  </data>
+  <data name="Flight_Throttle" xml:space="preserve">
+    <value>Throttle</value>
+  </data>
+  <data name="Flight_Title" xml:space="preserve">
+    <value>Flight and lift</value>
+  </data>
+  <data name="Flight_Top_Radius" xml:space="preserve">
+    <value>Radius {0}</value>
+  </data>
+  <data name="Flight_Top_Straight" xml:space="preserve">
+    <value>Flying straight</value>
+  </data>
+  <data name="Flight_Top_Time" xml:space="preserve">
+    <value>One circle: {0} s</value>
+  </data>
+  <data name="Flight_Top_Title" xml:space="preserve">
+    <value>From above</value>
+  </data>
+  <data name="Flight_TurnSpeed" xml:space="preserve">
+    <value>Airspeed</value>
+  </data>
+  <data name="Flight_Turn_Caption" xml:space="preserve">
+    <value>Turn</value>
+  </data>
+  <data name="Flight_Turn_Fact1" xml:space="preserve">
+    <value>Airliners usually bank no more than 25 to 30 degrees, so passengers barely feel the extra g.</value>
+  </data>
+  <data name="Flight_Turn_Fact2" xml:space="preserve">
+    <value>Fighter pilots pulling 9 g wear suits that squeeze their legs to keep blood in the brain.</value>
+  </data>
+  <data name="Flight_Turn_Fact3" xml:space="preserve">
+    <value>The Wright brothers' big idea was roll control: they twisted the wings to bank, the way a cyclist leans into a turn.</value>
+  </data>
+  <data name="Flight_Turn_Fact4" xml:space="preserve">
+    <value>Birds turn the same way, by banking, and fine-tune with their tails.</value>
+  </data>
+  <data name="Flight_Turn_Fact5" xml:space="preserve">
+    <value>A standard-rate turn takes two minutes for a full circle; it's what pilots fly in cloud.</value>
+  </data>
+  <data name="Flight_Turn_Note" xml:space="preserve">
+    <value>The same plane in 3D, followed from behind. The ground grid is 50 m squares, 60 m below the plane.</value>
+  </data>
+  <data name="Flight_Turn_Panel_Note" xml:space="preserve">
+    <value>Turns are level and coordinated (no slipping); stall speeds are for 1,000 kg at sea level.</value>
+  </data>
+  <data name="Flight_Turn_Pitch_Text" xml:space="preserve">
+    <value>The elevator tilts the tail up or down, pitching the nose about the wingtip-to-wingtip axis.</value>
+  </data>
+  <data name="Flight_Turn_Pitch_Title" xml:space="preserve">
+    <value>Pitch: elevator</value>
+  </data>
+  <data name="Flight_Turn_Roll_Text" xml:space="preserve">
+    <value>The ailerons move in opposite directions, so one wing lifts more than the other and the plane rolls about its nose-to-tail axis.</value>
+  </data>
+  <data name="Flight_Turn_Roll_Title" xml:space="preserve">
+    <value>Roll: ailerons</value>
+  </data>
+  <data name="Flight_Turn_Steep_Text" xml:space="preserve">
+    <value>At this bank the wing must lift much more than the plane's weight: everyone on board feels heavier, and the stall speed is higher.</value>
+  </data>
+  <data name="Flight_Turn_Steep_Title" xml:space="preserve">
+    <value>Steep turn</value>
+  </data>
+  <data name="Flight_Turn_Straight_Text" xml:space="preserve">
+    <value>With the wings level, lift points straight up and simply balances the weight: the plane flies straight.</value>
+  </data>
+  <data name="Flight_Turn_Straight_Title" xml:space="preserve">
+    <value>Wings level</value>
+  </data>
+  <data name="Flight_Turn_Subtitle" xml:space="preserve">
+    <value>Controls and the banked turn</value>
+  </data>
+  <data name="Flight_Turn_TurnStall_Text" xml:space="preserve">
+    <value>To hold this bank the wing would need more lift than it can make at this speed, so the plane would stall. Fly faster or bank less.</value>
+  </data>
+  <data name="Flight_Turn_TurnStall_Title" xml:space="preserve">
+    <value>Too slow for this bank</value>
+  </data>
+  <data name="Flight_Turn_Turning_Text" xml:space="preserve">
+    <value>The lift is tilted: its upright part holds the plane up and its sideways part pulls it round the circle.</value>
+  </data>
+  <data name="Flight_Turn_Turning_Title" xml:space="preserve">
+    <value>Banked turn</value>
+  </data>
+  <data name="Flight_Turn_Yaw_Text" xml:space="preserve">
+    <value>The rudder swings the tail sideways, yawing the nose left and right about the vertical axis.</value>
+  </data>
+  <data name="Flight_Turn_Yaw_Title" xml:space="preserve">
+    <value>Yaw: rudder</value>
+  </data>
+  <data name="Flight_Value_Bank" xml:space="preserve">
+    <value>{0}° {1}</value>
+  </data>
+  <data name="Flight_Value_Climb" xml:space="preserve">
+    <value>{0} m/s ({1}°)</value>
+  </data>
+  <data name="Flight_Value_DegPerSecond" xml:space="preserve">
+    <value>{0}°/s</value>
+  </data>
+  <data name="Flight_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Flight_Value_Density" xml:space="preserve">
+    <value>{0} kg/m³</value>
+  </data>
+  <data name="Flight_Value_G" xml:space="preserve">
+    <value>{0} g</value>
+  </data>
+  <data name="Flight_Value_Infinity" xml:space="preserve">
+    <value>straight (∞)</value>
+  </data>
+  <data name="Flight_Value_KN" xml:space="preserve">
+    <value>{0} kN</value>
+  </data>
+  <data name="Flight_Value_Kg" xml:space="preserve">
+    <value>{0} kg</value>
+  </data>
+  <data name="Flight_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Flight_Value_Kmh" xml:space="preserve">
+    <value>{0} km/h</value>
+  </data>
+  <data name="Flight_Value_Left" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="Flight_Value_Level" xml:space="preserve">
+    <value>level</value>
+  </data>
+  <data name="Flight_Value_LiftPerM2" xml:space="preserve">
+    <value>{0} (holds up {1} kg)</value>
+  </data>
+  <data name="Flight_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Flight_Value_N" xml:space="preserve">
+    <value>{0} N</value>
+  </data>
+  <data name="Flight_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Flight_Value_Right" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="Flight_Value_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Flight_Value_Times" xml:space="preserve">
+    <value>{0}× the wind ({1} km/h)</value>
+  </data>
+  <data name="Flight_Verdict_Balanced" xml:space="preserve">
+    <value>Balanced: steady flight</value>
+  </data>
+  <data name="Flight_Verdict_LessThrust" xml:space="preserve">
+    <value>Thrust &lt; drag: sinking or slowing</value>
+  </data>
+  <data name="Flight_Verdict_MoreThrust" xml:space="preserve">
+    <value>Thrust &gt; drag: climbing or speeding up</value>
+  </data>
+  <data name="Flight_Verdict_Rolling" xml:space="preserve">
+    <value>On the wheels: thrust &gt; drag</value>
+  </data>
+  <data name="Flight_Verdict_Slowing" xml:space="preserve">
+    <value>On the wheels: slowing down</value>
+  </data>
+  <data name="Flight_Verdict_Stall" xml:space="preserve">
+    <value>Stalled: lift has collapsed</value>
+  </data>
+  <data name="Flight_Wing_Down_Text" xml:space="preserve">
+    <value>The wing is now pushing the air up, so the air pushes the wing down. Racing cars use upside-down wings like this to press their tyres onto the track.</value>
+  </data>
+  <data name="Flight_Wing_Down_Title" xml:space="preserve">
+    <value>Lift pointing down</value>
+  </data>
+  <data name="Flight_Wing_Fact1" xml:space="preserve">
+    <value>A wing doesn't need a curved top: a flat plate at an angle lifts too, just less efficiently. That's how paper planes fly.</value>
+  </data>
+  <data name="Flight_Wing_Fact2" xml:space="preserve">
+    <value>The air over the top really does go faster, but not because it has to meet the air underneath. It gets to the back first.</value>
+  </data>
+  <data name="Flight_Wing_Fact3" xml:space="preserve">
+    <value>Aerobatic planes have symmetric wings, so they fly just as well upside down, using the angle of attack alone.</value>
+  </data>
+  <data name="Flight_Wing_Fact4" xml:space="preserve">
+    <value>A big airliner's wing holds up about 600 to 700 kilograms on every square metre at take-off.</value>
+  </data>
+  <data name="Flight_Wing_Fact5" xml:space="preserve">
+    <value>Birds change the shape and angle of their wings all the time, and spread their feathers like slots to delay the stall when landing.</value>
+  </data>
+  <data name="Flight_Wing_Lift_Text" xml:space="preserve">
+    <value>The air flows smoothly round the wing: fast and at low pressure over the top, slower and at higher pressure underneath. The difference holds the wing up.</value>
+  </data>
+  <data name="Flight_Wing_Lift_Title" xml:space="preserve">
+    <value>Making lift</value>
+  </data>
+  <data name="Flight_Wing_NearStall_Text" xml:space="preserve">
+    <value>Lift is near its greatest, but the air is struggling to follow the curved top. A little more angle and it will tear away.</value>
+  </data>
+  <data name="Flight_Wing_NearStall_Title" xml:space="preserve">
+    <value>Close to the stall</value>
+  </data>
+  <data name="Flight_Wing_NoLift_Text" xml:space="preserve">
+    <value>At this angle the wing makes no lift: the pressures above and below balance out. A curved wing gets here only with its nose slightly down.</value>
+  </data>
+  <data name="Flight_Wing_NoLift_Title" xml:space="preserve">
+    <value>No lift</value>
+  </data>
+  <data name="Flight_Wing_Note" xml:space="preserve">
+    <value>Ideal (frictionless) flow round a Joukowski wing, solved exactly. Past the stall the wake is drawn, not computed.</value>
+  </data>
+  <data name="Flight_Wing_Panel_Note" xml:space="preserve">
+    <value>The lift here is for a slice of wing; a real wing loses some of it at the tips.</value>
+  </data>
+  <data name="Flight_Wing_Stall_Text" xml:space="preserve">
+    <value>The air has broken away from the top of the wing into a turbulent wake. The suction is lost, lift has dropped and drag has soared.</value>
+  </data>
+  <data name="Flight_Wing_Stall_Title" xml:space="preserve">
+    <value>Stalled</value>
+  </data>
+  <data name="Flight_Wing_Subtitle" xml:space="preserve">
+    <value>How a wing makes lift</value>
+  </data>
   <data name="Green_Budget_AirSun" xml:space="preserve">
     <value>{0} into the air</value>
   </data>
@@ -8447,6 +9311,237 @@
   </data>
   <data name="Narr_Expand_Redshift_10" xml:space="preserve">
     <value>Your turn. Pick another galaxy, or drag along the chart to choose when the light set off.</value>
+  </data>
+  <data name="Narr_Flight_Forces_01" xml:space="preserve">
+    <value>Here's a small four-seat plane, cruising along. Four forces act on it the whole time. Let's meet them one by one.</value>
+  </data>
+  <data name="Narr_Flight_Forces_02" xml:space="preserve">
+    <value>Pointing up is lift, made by the wings as they push air downward. It grows with the square of the speed: fly twice as fast, and you get four times the lift.</value>
+  </data>
+  <data name="Narr_Flight_Forces_03" xml:space="preserve">
+    <value>Pointing down is weight: gravity pulling on the plane and everything in it. In level flight, lift and weight are exactly equal.</value>
+  </data>
+  <data name="Narr_Flight_Forces_04" xml:space="preserve">
+    <value>Pulling forward is thrust, from the propeller. It grabs the air and throws it backward, so the plane is pulled forward.</value>
+  </data>
+  <data name="Narr_Flight_Forces_05" xml:space="preserve">
+    <value>Holding it back is drag, the air resisting the plane's motion. Thrust and drag are drawn eight times longer than they really are here, or you'd hardly see them.</value>
+  </data>
+  <data name="Narr_Flight_Forces_06" xml:space="preserve">
+    <value>This panel weighs them against each other. Lift balances weight, and thrust balances drag. Balanced forces don't mean no forces: they mean steady, straight flight at a constant speed.</value>
+  </data>
+  <data name="Narr_Flight_Forces_07" xml:space="preserve">
+    <value>Now, the pilot wants to climb while keeping the same speed. What does the plane need more of?</value>
+  </data>
+  <data name="Narr_Flight_Forces_08" xml:space="preserve">
+    <value>It's thrust. In a steady climb, thrust is bigger than drag, and that extra pull carries the plane up the slope. Surprisingly, lift is actually a little less than weight.</value>
+  </data>
+  <data name="Narr_Flight_Forces_09" xml:space="preserve">
+    <value>Now the engine is off. With no thrust, the plane glides down a gentle slope, like a sled on a hill: a little of its weight pulls it forward. This plane travels about twelve metres forward for every metre it sinks.</value>
+  </data>
+  <data name="Narr_Flight_Forces_10" xml:space="preserve">
+    <value>Here the nose is pulled up too far. The wing is past its stall angle, lift collapses, and the plane sinks even with its nose high. To recover, a pilot lowers the nose, rather than pulling it higher.</value>
+  </data>
+  <data name="Narr_Flight_Forces_11" xml:space="preserve">
+    <value>Your turn to fly. The plane is at the start of the runway with full power. Once it's rolling fast, drag the plane's nose up, or use the slider, and see when it leaves the ground.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Aileron" xml:space="preserve">
+    <value>Ailerons are hinged flaps near the wingtips. Move the stick to the left, and the left aileron rises while the right one drops, so the plane rolls to the left.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Airspeed" xml:space="preserve">
+    <value>Airspeed is how fast the plane moves through the air. It's what the wings feel, and it's the number pilots watch most closely.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Altimeter" xml:space="preserve">
+    <value>This is the height above the runway. Higher up the air is thinner, so the wing needs more speed for the same lift, and the engine loses power.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Aoa" xml:space="preserve">
+    <value>The angle of attack is the angle between the chord line and the oncoming wind. More angle means more lift, up to the stall, which comes at around fifteen degrees for most wings.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Arrows" xml:space="preserve">
+    <value>Each arrow shows the pressure at that spot on the surface. Red arrows push in where the pressure is above the surrounding air, and blue arrows pull out where it's below. Most of the blue is on top.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Balance" xml:space="preserve">
+    <value>This panel compares lift with weight, and thrust with drag. When each pair is equal, the plane flies straight at a steady speed. When they aren't, it speeds up, slows down, climbs or sinks.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Camber" xml:space="preserve">
+    <value>The camber line runs halfway between the top and bottom surfaces. When it's curved, the wing is called cambered, and a cambered wing makes lift even at zero angle of attack.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Centripetal" xml:space="preserve">
+    <value>This sideways part of the lift is the centripetal force. Without it the plane would keep flying straight; with it, the path bends into a circle.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Chord" xml:space="preserve">
+    <value>The chord line is the straight line from the leading edge to the trailing edge. A wing's size and its angles are measured against it.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Downwash" xml:space="preserve">
+    <value>Downwash is the air leaving the wing angled downward. The wing pushes air down, so the air pushes the wing up: Newton's third law at work.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Drag" xml:space="preserve">
+    <value>Drag points straight back along the flight path. Part of it comes from the air rubbing and pushing on the plane, and part is the price of making lift. The chart on the left-hand page shows both.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Elevator" xml:space="preserve">
+    <value>The elevator is the hinged back part of the horizontal tail. Tilting it up pushes the tail down and the nose up, which increases the angle of attack.</value>
+  </data>
+  <data name="Narr_Flight_Obj_LeadingEdge" xml:space="preserve">
+    <value>The leading edge is the rounded front of the wing, which meets the air first. Being round lets the air turn smoothly onto the top surface, even at quite a steep angle.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Lift" xml:space="preserve">
+    <value>Lift acts at right angles to the flight path. It depends on the air's density, the wing's area, the angle of attack, and the square of the speed.</value>
+  </data>
+  <data name="Narr_Flight_Obj_LiftVector" xml:space="preserve">
+    <value>Lift always points out of the top of the wings. In a bank it tilts, and it has to grow so it can do two jobs at once: hold the plane up, and pull it round.</value>
+  </data>
+  <data name="Narr_Flight_Obj_LoadFactor" xml:space="preserve">
+    <value>The load factor is the lift divided by the weight, counted in g. In a level turn it's one over the cosine of the bank: about one point four at forty-five degrees, and exactly two at sixty.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Lower" xml:space="preserve">
+    <value>Below the wing the air slows down a little, so its pressure rises slightly above the surrounding air and pushes up on the bottom surface.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Path" xml:space="preserve">
+    <value>The flight path is the direction the plane is actually moving. It isn't always where the nose points: the difference between them is the angle of attack.</value>
+  </data>
+  <data name="Narr_Flight_Obj_PitchAxis" xml:space="preserve">
+    <value>The pitch axis runs from one wingtip to the other. Pitching around it moves the nose up and down.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Plane" xml:space="preserve">
+    <value>A small four-seat trainer, about the size of a family car, with wings eleven metres across. It's drawn larger than the scenery so you can see its forces.</value>
+  </data>
+  <data name="Narr_Flight_Obj_PlaneAoa" xml:space="preserve">
+    <value>This arc is the angle between where the plane is going and where its nose points. The pilot sets it with the elevator, and it decides how hard the wing works.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Propeller" xml:space="preserve">
+    <value>A propeller is really a pair of spinning wings. Each blade makes lift that points forward, throwing air backward and pulling the plane along.</value>
+  </data>
+  <data name="Narr_Flight_Obj_RearView" xml:space="preserve">
+    <value>Seen from behind, the tilted lift splits into two parts. The upright part balances the weight, and the sideways part pulls the plane into the turn.</value>
+  </data>
+  <data name="Narr_Flight_Obj_RollAxis" xml:space="preserve">
+    <value>The roll axis runs from nose to tail. Rolling around it tips one wing up and the other down.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Rudder" xml:space="preserve">
+    <value>The rudder is the hinged back part of the tail fin. It swings the nose left or right, and keeps turns tidy so the plane doesn't slip sideways.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Runway" xml:space="preserve">
+    <value>On the runway the wheels carry the weight. As the speed builds, lift grows until it matches the weight, and the plane lifts off.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Stagnation" xml:space="preserve">
+    <value>At the stagnation point the oncoming air splits in two and stands still for an instant. The pressure here is the highest anywhere around the wing.</value>
+  </data>
+  <data name="Narr_Flight_Obj_StallWarn" xml:space="preserve">
+    <value>The wing has passed its critical angle. The airflow has torn off the top, lift collapses and the plane shudders. The cure is less angle of attack: lower the nose, or in a turn, roll the wings level.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Streamline" xml:space="preserve">
+    <value>A streamline traces the path the air takes. Where streamlines squeeze together the air flows faster, and where they spread apart it slows down.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Throttle" xml:space="preserve">
+    <value>The throttle sets the engine's power. Push the lever up for more thrust. If the angle of attack stays the same, more power mostly makes the plane climb, rather than go faster.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Thrust" xml:space="preserve">
+    <value>Thrust comes from the propeller and pulls along the line of the nose. It pulls hardest at low speed; at high speed the engine's power limits it.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Timeline" xml:space="preserve">
+    <value>These lines of smoke were all released at the same moment. The air over the top reaches the back much sooner than the air underneath, and the two never meet up again.</value>
+  </data>
+  <data name="Narr_Flight_Obj_TopView" xml:space="preserve">
+    <value>From above, the plane flies a circle. Its radius is the speed squared, divided by g times the tangent of the bank. A steeper bank makes a tighter circle; more speed makes a wider one.</value>
+  </data>
+  <data name="Narr_Flight_Obj_TrailingEdge" xml:space="preserve">
+    <value>The trailing edge is the sharp back of the wing. Air from the top and the bottom must leave here smoothly, and that rule decides how strongly the air circulates round the wing, and so how much lift it makes.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Upper" xml:space="preserve">
+    <value>Above the wing the air speeds up, and its pressure drops below that of the surrounding air. This suction on the top surface gives a wing most of its lift.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Vario" xml:space="preserve">
+    <value>This shows how fast the plane is going up or down, in metres per second. A positive number means climbing, a negative one means descending.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Wake" xml:space="preserve">
+    <value>Past the stall, the air can no longer follow the top surface. It breaks away into a churning, turbulent wake, the suction on top is lost, lift drops and drag soars. This churning is drawn to show the idea; it isn't calculated.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Weight" xml:space="preserve">
+    <value>Weight always points straight down. Add passengers or fuel and it grows, so the wing needs more speed or more angle to carry it.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Wind" xml:space="preserve">
+    <value>In a wind tunnel the wing stands still and the air blows past it. For the wing, that's exactly the same as flying through still air at this speed.</value>
+  </data>
+  <data name="Narr_Flight_Obj_Wing" xml:space="preserve">
+    <value>This is a wing's cross-section, called an airfoil. It's rounded at the front, sharp at the back, and usually more curved on top. That shape lets air flow smoothly around it and leave cleanly from the back edge.</value>
+  </data>
+  <data name="Narr_Flight_Obj_WingDrag" xml:space="preserve">
+    <value>Drag is the part of the air's force that points along the wind, holding the wing back. It stays small while the air flows smoothly, but shoots up once the wing stalls.</value>
+  </data>
+  <data name="Narr_Flight_Obj_WingLift" xml:space="preserve">
+    <value>Lift is the total of all the pressure pushing and pulling on the wing, at right angles to the wind. The label shows how many kilograms each square metre of wing could hold up at this wind speed.</value>
+  </data>
+  <data name="Narr_Flight_Obj_YawAxis" xml:space="preserve">
+    <value>The yaw axis runs straight up and down through the plane. Yawing around it swings the nose left and right.</value>
+  </data>
+  <data name="Narr_Flight_Turn_01" xml:space="preserve">
+    <value>A plane can rotate in three ways. This first one is roll: turning around the line from nose to tail, tipping one wing down and the other up.</value>
+  </data>
+  <data name="Narr_Flight_Turn_02" xml:space="preserve">
+    <value>Roll is controlled by the ailerons, these hinged flaps near the wingtips. They always move opposite ways: one goes down to add lift to its wing, the other goes up to take lift away.</value>
+  </data>
+  <data name="Narr_Flight_Turn_03" xml:space="preserve">
+    <value>Next is pitch: the nose going up and down. That's the elevator's job, on the tail. Pull back on the stick, the elevator tilts up, the tail is pushed down, and the nose rises.</value>
+  </data>
+  <data name="Narr_Flight_Turn_04" xml:space="preserve">
+    <value>The third is yaw: the nose swinging left and right, steered by the rudder on the tail fin. It looks like a boat's rudder, but on a plane it isn't really what makes the turn.</value>
+  </data>
+  <data name="Narr_Flight_Turn_05" xml:space="preserve">
+    <value>So here's the question. What really makes a plane turn?</value>
+  </data>
+  <data name="Narr_Flight_Turn_06" xml:space="preserve">
+    <value>It's the bank. Tip the wings, and the lift, which always points out of the top of the wings, tilts over with them.</value>
+  </data>
+  <data name="Narr_Flight_Turn_07" xml:space="preserve">
+    <value>Part of that tilted lift now points sideways, toward the inside of the turn. This sideways pull keeps bending the plane's path into a circle, like a string whirling a ball around.</value>
+  </data>
+  <data name="Narr_Flight_Turn_08" xml:space="preserve">
+    <value>This view from behind shows the catch. Only the upright part of the lift holds the plane up. So to keep from sinking, the wing has to make more lift than it does in level flight.</value>
+  </data>
+  <data name="Narr_Flight_Turn_09" xml:space="preserve">
+    <value>At sixty degrees of bank, the wing must lift twice the plane's weight. Everyone on board feels twice as heavy: that's two g. And the stall speed goes up by about forty percent.</value>
+  </data>
+  <data name="Narr_Flight_Turn_10" xml:space="preserve">
+    <value>The little map shows the circle. A steeper bank makes a tighter, quicker circle. Fly faster at the same bank, and the circle gets much wider.</value>
+  </data>
+  <data name="Narr_Flight_Turn_11" xml:space="preserve">
+    <value>Your turn. Drag left or right across the picture to bank the plane, or change its speed, and watch how the circle and the g change.</value>
+  </data>
+  <data name="Narr_Flight_Wing_01" xml:space="preserve">
+    <value>This is a wing cut straight through, like a slice of bread, sitting in a wind tunnel. The wind blows in from the left. Watch the smoke: how does the air get past the wing?</value>
+  </data>
+  <data name="Narr_Flight_Wing_02" xml:space="preserve">
+    <value>Look at the very front. Right here the air splits in two: some goes over the top, some goes underneath. At this one point the air actually stops for an instant. It's called the stagnation point.</value>
+  </data>
+  <data name="Narr_Flight_Wing_03" xml:space="preserve">
+    <value>Now follow the streamlines. Over the top, they bunch up close together. When streamlines crowd together, the air there is moving faster.</value>
+  </data>
+  <data name="Narr_Flight_Wing_04" xml:space="preserve">
+    <value>And faster air has lower pressure. That's Bernoulli's idea. The blue above the wing means the pressure there is lower than in the air around it, so the top surface is gently sucked upward.</value>
+  </data>
+  <data name="Narr_Flight_Wing_05" xml:space="preserve">
+    <value>Underneath, the air slows down a little and the pressure rises, shown in red. The arrows make it clear: red arrows push up on the bottom, and blue arrows pull up on the top.</value>
+  </data>
+  <data name="Narr_Flight_Wing_06" xml:space="preserve">
+    <value>Add up every push and every pull, and you get this big arrow: lift. Notice that most of it comes from the suction on top, not the push from below.</value>
+  </data>
+  <data name="Narr_Flight_Wing_07" xml:space="preserve">
+    <value>Here's a puzzle. Two puffs of air arrive at the front of the wing side by side. One goes over the top, the other goes underneath. Which one reaches the back edge first?</value>
+  </data>
+  <data name="Narr_Flight_Wing_08" xml:space="preserve">
+    <value>Let's test it. These coloured lines are smoke released at the very same moment. See how the part over the top races ahead, and never meets its partner again. The old equal transit story is simply wrong.</value>
+  </data>
+  <data name="Narr_Flight_Wing_09" xml:space="preserve">
+    <value>Now look behind the wing. The air leaves the back edge heading slightly downward. The wing pushes air down, so by Newton's third law, the air pushes the wing up. Pressure and downwash are two ways of telling the same story.</value>
+  </data>
+  <data name="Narr_Flight_Wing_10" xml:space="preserve">
+    <value>Let's tilt the wing up more. This tilt against the wind is called the angle of attack. More angle turns more air downward, so the lift grows. Watch the chart on the left-hand page climb.</value>
+  </data>
+  <data name="Narr_Flight_Wing_11" xml:space="preserve">
+    <value>But there's a limit. Past about fifteen degrees, the air can't follow the curved top any more. It tears away into a churning wake, the suction collapses, and lift drops suddenly. That's a stall.</value>
+  </data>
+  <data name="Narr_Flight_Wing_12" xml:space="preserve">
+    <value>Your turn. Drag the wing to change its angle, try a different wing shape, or flip it upside down. Can an upside-down wing still make lift?</value>
   </data>
   <data name="Narr_Green_Glass_01" xml:space="preserve">
     <value>Here's a small glass greenhouse and a car, parked in the summer sun. Look at the readings: inside both, it's far warmer than the air outside.</value>

@@ -3411,6 +3411,870 @@
   <data name="Explore_ClickHint" xml:space="preserve">
     <value>点一下画面里的东西，听听它是什么</value>
   </data>
+  <data name="Flight_AirSpeed" xml:space="preserve">
+    <value>风速</value>
+  </data>
+  <data name="Flight_Alpha" xml:space="preserve">
+    <value>迎角</value>
+  </data>
+  <data name="Flight_Balance_Drag" xml:space="preserve">
+    <value>阻力</value>
+  </data>
+  <data name="Flight_Balance_Lift" xml:space="preserve">
+    <value>升力</value>
+  </data>
+  <data name="Flight_Balance_Thrust" xml:space="preserve">
+    <value>推力</value>
+  </data>
+  <data name="Flight_Balance_Title" xml:space="preserve">
+    <value>受力对比</value>
+  </data>
+  <data name="Flight_Balance_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Flight_Bank" xml:space="preserve">
+    <value>坡度（倾斜角）</value>
+  </data>
+  <data name="Flight_Chart_AlphaAxis" xml:space="preserve">
+    <value>迎角</value>
+  </data>
+  <data name="Flight_Chart_BankAxis" xml:space="preserve">
+    <value>坡度</value>
+  </data>
+  <data name="Flight_Chart_DragAxis" xml:space="preserve">
+    <value>力 (kN)</value>
+  </data>
+  <data name="Flight_Chart_Forces_Caption" xml:space="preserve">
+    <value>平飞时的阻力与推力</value>
+  </data>
+  <data name="Flight_Chart_Forces_Note" xml:space="preserve">
+    <value>摩擦阻力随速度增大，诱导阻力随速度减小，两者之和在圆圈处最小。绿色：螺旋桨推力。在图上横向拖动，飞机就在那个速度平飞。</value>
+  </data>
+  <data name="Flight_Chart_Ideal" xml:space="preserve">
+    <value>理想流动</value>
+  </data>
+  <data name="Flight_Chart_Induced" xml:space="preserve">
+    <value>诱导阻力</value>
+  </data>
+  <data name="Flight_Chart_LiftAxis" xml:space="preserve">
+    <value>升力系数</value>
+  </data>
+  <data name="Flight_Chart_LoadAxis" xml:space="preserve">
+    <value>载荷因数</value>
+  </data>
+  <data name="Flight_Chart_Parasite" xml:space="preserve">
+    <value>摩擦阻力</value>
+  </data>
+  <data name="Flight_Chart_Real" xml:space="preserve">
+    <value>真实机翼</value>
+  </data>
+  <data name="Flight_Chart_SpeedAxis" xml:space="preserve">
+    <value>速度 (km/h)</value>
+  </data>
+  <data name="Flight_Chart_Stall" xml:space="preserve">
+    <value>失速</value>
+  </data>
+  <data name="Flight_Chart_StallSpeed" xml:space="preserve">
+    <value>失速速度（km/h，右轴）</value>
+  </data>
+  <data name="Flight_Chart_StallZone" xml:space="preserve">
+    <value>速度过低</value>
+  </data>
+  <data name="Flight_Chart_Thrust" xml:space="preserve">
+    <value>推力</value>
+  </data>
+  <data name="Flight_Chart_Total" xml:space="preserve">
+    <value>总阻力</value>
+  </data>
+  <data name="Flight_Chart_Turn_Caption" xml:space="preserve">
+    <value>水平转弯时的 g 值与失速速度</value>
+  </data>
+  <data name="Flight_Chart_Turn_Note" xml:space="preserve">
+    <value>金色：载荷因数。红色虚线：失速速度（右侧刻度，km/h）。它和你的速度线相交的地方，就是能保持的最大坡度。可以拖动圆点。</value>
+  </data>
+  <data name="Flight_Chart_Wing_Caption" xml:space="preserve">
+    <value>不同迎角下的升力</value>
+  </data>
+  <data name="Flight_Chart_Wing_Note" xml:space="preserve">
+    <value>金色：真实机翼，会失速。虚线：理想流动，永远不会失速。可以拖动圆点。</value>
+  </data>
+  <data name="Flight_Chart_YourSpeed" xml:space="preserve">
+    <value>当前速度</value>
+  </data>
+  <data name="Flight_Controls_Caption" xml:space="preserve">
+    <value>操纵</value>
+  </data>
+  <data name="Flight_Demo_Caption" xml:space="preserve">
+    <value>演示</value>
+  </data>
+  <data name="Flight_Demo_Pitch" xml:space="preserve">
+    <value>俯仰</value>
+  </data>
+  <data name="Flight_Demo_Roll" xml:space="preserve">
+    <value>滚转</value>
+  </data>
+  <data name="Flight_Demo_Turn" xml:space="preserve">
+    <value>倾斜转弯</value>
+  </data>
+  <data name="Flight_Demo_Yaw" xml:space="preserve">
+    <value>偏航</value>
+  </data>
+  <data name="Flight_EqualTransit" xml:space="preserve">
+    <value>上下两路空气会重新会合吗？</value>
+  </data>
+  <data name="Flight_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Flight_Forces_Braking_Text" xml:space="preserve">
+    <value>油门收到底，刹车让飞机在跑道上减速。</value>
+  </data>
+  <data name="Flight_Forces_Braking_Title" xml:space="preserve">
+    <value>刹车减速</value>
+  </data>
+  <data name="Flight_Forces_Climb_Text" xml:space="preserve">
+    <value>推力大于阻力，多出来的拉力把飞机沿斜坡带上去。升力比重力稍小一点。</value>
+  </data>
+  <data name="Flight_Forces_Climb_Title" xml:space="preserve">
+    <value>爬升</value>
+  </data>
+  <data name="Flight_Forces_Descend_Text" xml:space="preserve">
+    <value>推力小于阻力，飞机用高度换速度，沿着斜坡下降。</value>
+  </data>
+  <data name="Flight_Forces_Descend_Title" xml:space="preserve">
+    <value>下降</value>
+  </data>
+  <data name="Flight_Forces_Fact1" xml:space="preserve">
+    <value>匀速直线飞行时受力平衡：飞机并没有被额外推着走，只是保持原来的运动（牛顿第一定律）。</value>
+  </data>
+  <data name="Flight_Forces_Fact2" xml:space="preserve">
+    <value>逆风起飞更容易：机翼也能感受到风速，所以飞机在较低的地速下就能离地。</value>
+  </data>
+  <data name="Flight_Forces_Fact3" xml:space="preserve">
+    <value>天热的时候或在高原机场，空气更稀薄，飞机起飞需要更长的跑道。</value>
+  </data>
+  <data name="Flight_Forces_Fact4" xml:space="preserve">
+    <value>滑翔机根本没有发动机；最好的滑翔机每下降一米能向前滑行五十米。</value>
+  </data>
+  <data name="Flight_Forces_Fact5" xml:space="preserve">
+    <value>失速取决于迎角而不是速度：只要迎角太大，机翼在任何速度下都可能失速。</value>
+  </data>
+  <data name="Flight_Forces_Glide_Text" xml:space="preserve">
+    <value>没有推力：重力的一小部分沿着平缓的下坡把飞机往前拉，和阻力平衡。</value>
+  </data>
+  <data name="Flight_Forces_Glide_Title" xml:space="preserve">
+    <value>滑翔</value>
+  </data>
+  <data name="Flight_Forces_Level_Text" xml:space="preserve">
+    <value>升力等于重力，推力等于阻力：飞机以稳定的速度水平直线飞行。</value>
+  </data>
+  <data name="Flight_Forces_Level_Title" xml:space="preserve">
+    <value>平飞</value>
+  </data>
+  <data name="Flight_Forces_Note" xml:space="preserve">
+    <value>一架四座小飞机。背景景物按比例绘制；飞机放大约 6 倍，推力和阻力箭头加长 8 倍。</value>
+  </data>
+  <data name="Flight_Forces_Panel_Note" xml:space="preserve">
+    <value>飞机作为一个质点按牛顿定律飞行。改变操纵后出现的缓慢起伏已经做了阻尼处理，就像飞行员会做的那样。</value>
+  </data>
+  <data name="Flight_Forces_Parked_Text" xml:space="preserve">
+    <value>飞机停在机轮上。推油门，它就开始滑跑。</value>
+  </data>
+  <data name="Flight_Forces_Parked_Title" xml:space="preserve">
+    <value>停在跑道上</value>
+  </data>
+  <data name="Flight_Forces_Rolling_Text" xml:space="preserve">
+    <value>推力推着飞机沿跑道加速。升力随速度增大；抬起机头增加迎角，一旦升力超过重力，机轮就离地了。</value>
+  </data>
+  <data name="Flight_Forces_Rolling_Title" xml:space="preserve">
+    <value>起飞滑跑</value>
+  </data>
+  <data name="Flight_Forces_Stall_Text" xml:space="preserve">
+    <value>迎角超过了失速角，升力骤降，飞机在下沉。压低机头，让气流重新平顺地流过机翼。</value>
+  </data>
+  <data name="Flight_Forces_Stall_Title" xml:space="preserve">
+    <value>失速</value>
+  </data>
+  <data name="Flight_Forces_Subtitle" xml:space="preserve">
+    <value>飞行中的四个力</value>
+  </data>
+  <data name="Flight_Hint_Forces" xml:space="preserve">
+    <value>上下拖动飞机来抬高或压低机头；拖动油门手柄。</value>
+  </data>
+  <data name="Flight_Hint_Turn" xml:space="preserve">
+    <value>左右拖动让飞机倾斜；单击操纵面看看它的作用。</value>
+  </data>
+  <data name="Flight_Hint_Wing" xml:space="preserve">
+    <value>拖动机翼改变迎角；在其他地方拖动可以拉出烟迹，单击喷出一团烟。</value>
+  </data>
+  <data name="Flight_Instrument_Altitude" xml:space="preserve">
+    <value>高度 {0}</value>
+  </data>
+  <data name="Flight_Instrument_Bank" xml:space="preserve">
+    <value>坡度 {0}° {1}</value>
+  </data>
+  <data name="Flight_Instrument_Climb" xml:space="preserve">
+    <value>升降 {0} m/s</value>
+  </data>
+  <data name="Flight_Instrument_Speed" xml:space="preserve">
+    <value>空速 {0}</value>
+  </data>
+  <data name="Flight_Label_Aileron" xml:space="preserve">
+    <value>副翼</value>
+  </data>
+  <data name="Flight_Label_Aoa" xml:space="preserve">
+    <value>迎角 {0}°</value>
+  </data>
+  <data name="Flight_Label_Arrows" xml:space="preserve">
+    <value>压强：红色推，蓝色拉</value>
+  </data>
+  <data name="Flight_Label_Camber" xml:space="preserve">
+    <value>中弧线</value>
+  </data>
+  <data name="Flight_Label_Centripetal" xml:space="preserve">
+    <value>指向圆心的拉力</value>
+  </data>
+  <data name="Flight_Label_Chord" xml:space="preserve">
+    <value>翼弦线</value>
+  </data>
+  <data name="Flight_Label_Downwash" xml:space="preserve">
+    <value>下洗气流</value>
+  </data>
+  <data name="Flight_Label_Drag" xml:space="preserve">
+    <value>阻力 {0}</value>
+  </data>
+  <data name="Flight_Label_Elevator" xml:space="preserve">
+    <value>升降舵</value>
+  </data>
+  <data name="Flight_Label_HardLanding" xml:space="preserve">
+    <value>重着陆（{0} m/s）</value>
+  </data>
+  <data name="Flight_Label_LeadingEdge" xml:space="preserve">
+    <value>前缘</value>
+  </data>
+  <data name="Flight_Label_Lift" xml:space="preserve">
+    <value>升力 {0}</value>
+  </data>
+  <data name="Flight_Label_LiftG" xml:space="preserve">
+    <value>升力 = {0} × 重力</value>
+  </data>
+  <data name="Flight_Label_LiftOff" xml:space="preserve">
+    <value>离地！</value>
+  </data>
+  <data name="Flight_Label_Lower" xml:space="preserve">
+    <value>较高压</value>
+  </data>
+  <data name="Flight_Label_Path" xml:space="preserve">
+    <value>飞行路径</value>
+  </data>
+  <data name="Flight_Label_PitchAxis" xml:space="preserve">
+    <value>俯仰轴</value>
+  </data>
+  <data name="Flight_Label_RollAxis" xml:space="preserve">
+    <value>滚转轴</value>
+  </data>
+  <data name="Flight_Label_Rudder" xml:space="preserve">
+    <value>方向舵</value>
+  </data>
+  <data name="Flight_Label_Runway" xml:space="preserve">
+    <value>跑道</value>
+  </data>
+  <data name="Flight_Label_Stagnation" xml:space="preserve">
+    <value>驻点</value>
+  </data>
+  <data name="Flight_Label_Stall" xml:space="preserve">
+    <value>失速！</value>
+  </data>
+  <data name="Flight_Label_Streamline" xml:space="preserve">
+    <value>流线</value>
+  </data>
+  <data name="Flight_Label_Thrust" xml:space="preserve">
+    <value>推力 {0}</value>
+  </data>
+  <data name="Flight_Label_Timeline" xml:space="preserve">
+    <value>同时放出的烟线</value>
+  </data>
+  <data name="Flight_Label_Touchdown" xml:space="preserve">
+    <value>接地</value>
+  </data>
+  <data name="Flight_Label_TrailingEdge" xml:space="preserve">
+    <value>后缘</value>
+  </data>
+  <data name="Flight_Label_TurnStall" xml:space="preserve">
+    <value>速度太慢：失速！</value>
+  </data>
+  <data name="Flight_Label_Upper" xml:space="preserve">
+    <value>低压</value>
+  </data>
+  <data name="Flight_Label_Wake" xml:space="preserve">
+    <value>气流分离：失速</value>
+  </data>
+  <data name="Flight_Label_Weight" xml:space="preserve">
+    <value>重力 {0}</value>
+  </data>
+  <data name="Flight_Label_Wind" xml:space="preserve">
+    <value>来风 {0} km/h</value>
+  </data>
+  <data name="Flight_Label_WingDrag" xml:space="preserve">
+    <value>阻力</value>
+  </data>
+  <data name="Flight_Label_WingLift" xml:space="preserve">
+    <value>升力 ≈ 每平方米 {0} kg</value>
+  </data>
+  <data name="Flight_Label_YawAxis" xml:space="preserve">
+    <value>偏航轴</value>
+  </data>
+  <data name="Flight_Lesson_Forces_Choice1" xml:space="preserve">
+    <value>更多的发动机推力</value>
+  </data>
+  <data name="Flight_Lesson_Forces_Choice2" xml:space="preserve">
+    <value>比重力更大的升力</value>
+  </data>
+  <data name="Flight_Lesson_Forces_Choice3" xml:space="preserve">
+    <value>更小的阻力</value>
+  </data>
+  <data name="Flight_Lesson_Turn_Choice1" xml:space="preserve">
+    <value>倾斜机身，让升力向侧面拉</value>
+  </data>
+  <data name="Flight_Lesson_Turn_Choice2" xml:space="preserve">
+    <value>方向舵，就像船舵一样</value>
+  </data>
+  <data name="Flight_Lesson_Turn_Choice3" xml:space="preserve">
+    <value>螺旋桨向侧面推</value>
+  </data>
+  <data name="Flight_Lesson_Wing_Choice1" xml:space="preserve">
+    <value>上面那团，而且领先很多</value>
+  </data>
+  <data name="Flight_Lesson_Wing_Choice2" xml:space="preserve">
+    <value>两团在后缘重新会合</value>
+  </data>
+  <data name="Flight_Lesson_Wing_Choice3" xml:space="preserve">
+    <value>下面那团</value>
+  </data>
+  <data name="Flight_LevelOff" xml:space="preserve">
+    <value>在当前速度改平</value>
+  </data>
+  <data name="Flight_LevelWings" xml:space="preserve">
+    <value>改平机翼</value>
+  </data>
+  <data name="Flight_Load_Caption" xml:space="preserve">
+    <value>载重</value>
+  </data>
+  <data name="Flight_Mass" xml:space="preserve">
+    <value>含乘客总质量</value>
+  </data>
+  <data name="Flight_Mode_Forces" xml:space="preserve">
+    <value>四个力</value>
+  </data>
+  <data name="Flight_Mode_Turn" xml:space="preserve">
+    <value>转弯</value>
+  </data>
+  <data name="Flight_Mode_Wing" xml:space="preserve">
+    <value>机翼</value>
+  </data>
+  <data name="Flight_Obj_Aileron" xml:space="preserve">
+    <value>副翼</value>
+  </data>
+  <data name="Flight_Obj_Airspeed" xml:space="preserve">
+    <value>空速</value>
+  </data>
+  <data name="Flight_Obj_Altimeter" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="Flight_Obj_Aoa" xml:space="preserve">
+    <value>迎角</value>
+  </data>
+  <data name="Flight_Obj_Arrows" xml:space="preserve">
+    <value>压强箭头</value>
+  </data>
+  <data name="Flight_Obj_Balance" xml:space="preserve">
+    <value>受力平衡</value>
+  </data>
+  <data name="Flight_Obj_Camber" xml:space="preserve">
+    <value>中弧线</value>
+  </data>
+  <data name="Flight_Obj_Centripetal" xml:space="preserve">
+    <value>向心力</value>
+  </data>
+  <data name="Flight_Obj_Chord" xml:space="preserve">
+    <value>翼弦线</value>
+  </data>
+  <data name="Flight_Obj_Downwash" xml:space="preserve">
+    <value>下洗气流</value>
+  </data>
+  <data name="Flight_Obj_Drag" xml:space="preserve">
+    <value>阻力</value>
+  </data>
+  <data name="Flight_Obj_Elevator" xml:space="preserve">
+    <value>升降舵</value>
+  </data>
+  <data name="Flight_Obj_LeadingEdge" xml:space="preserve">
+    <value>前缘</value>
+  </data>
+  <data name="Flight_Obj_Lift" xml:space="preserve">
+    <value>升力</value>
+  </data>
+  <data name="Flight_Obj_LiftVector" xml:space="preserve">
+    <value>转弯时的升力</value>
+  </data>
+  <data name="Flight_Obj_LoadFactor" xml:space="preserve">
+    <value>载荷因数</value>
+  </data>
+  <data name="Flight_Obj_Lower" xml:space="preserve">
+    <value>下方高压区</value>
+  </data>
+  <data name="Flight_Obj_Path" xml:space="preserve">
+    <value>飞行路径</value>
+  </data>
+  <data name="Flight_Obj_PitchAxis" xml:space="preserve">
+    <value>俯仰轴</value>
+  </data>
+  <data name="Flight_Obj_Plane" xml:space="preserve">
+    <value>教练机</value>
+  </data>
+  <data name="Flight_Obj_PlaneAoa" xml:space="preserve">
+    <value>迎角</value>
+  </data>
+  <data name="Flight_Obj_Propeller" xml:space="preserve">
+    <value>螺旋桨</value>
+  </data>
+  <data name="Flight_Obj_RearView" xml:space="preserve">
+    <value>后视图</value>
+  </data>
+  <data name="Flight_Obj_RollAxis" xml:space="preserve">
+    <value>滚转轴</value>
+  </data>
+  <data name="Flight_Obj_Rudder" xml:space="preserve">
+    <value>方向舵</value>
+  </data>
+  <data name="Flight_Obj_Runway" xml:space="preserve">
+    <value>跑道</value>
+  </data>
+  <data name="Flight_Obj_Stagnation" xml:space="preserve">
+    <value>驻点</value>
+  </data>
+  <data name="Flight_Obj_StallWarn" xml:space="preserve">
+    <value>失速</value>
+  </data>
+  <data name="Flight_Obj_Streamline" xml:space="preserve">
+    <value>流线</value>
+  </data>
+  <data name="Flight_Obj_Throttle" xml:space="preserve">
+    <value>油门</value>
+  </data>
+  <data name="Flight_Obj_Thrust" xml:space="preserve">
+    <value>推力</value>
+  </data>
+  <data name="Flight_Obj_Timeline" xml:space="preserve">
+    <value>同时放出的烟线</value>
+  </data>
+  <data name="Flight_Obj_TopView" xml:space="preserve">
+    <value>俯视的转弯</value>
+  </data>
+  <data name="Flight_Obj_TrailingEdge" xml:space="preserve">
+    <value>后缘</value>
+  </data>
+  <data name="Flight_Obj_Upper" xml:space="preserve">
+    <value>上方低压区</value>
+  </data>
+  <data name="Flight_Obj_Vario" xml:space="preserve">
+    <value>升降速度</value>
+  </data>
+  <data name="Flight_Obj_Wake" xml:space="preserve">
+    <value>失速尾流</value>
+  </data>
+  <data name="Flight_Obj_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Flight_Obj_Wind" xml:space="preserve">
+    <value>来风</value>
+  </data>
+  <data name="Flight_Obj_Wing" xml:space="preserve">
+    <value>翼型</value>
+  </data>
+  <data name="Flight_Obj_WingDrag" xml:space="preserve">
+    <value>阻力</value>
+  </data>
+  <data name="Flight_Obj_WingLift" xml:space="preserve">
+    <value>升力</value>
+  </data>
+  <data name="Flight_Obj_YawAxis" xml:space="preserve">
+    <value>偏航轴</value>
+  </data>
+  <data name="Flight_Option_Arrows" xml:space="preserve">
+    <value>压强箭头</value>
+  </data>
+  <data name="Flight_Option_Inverted" xml:space="preserve">
+    <value>倒置</value>
+  </data>
+  <data name="Flight_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Flight_Option_Pressure" xml:space="preserve">
+    <value>压强颜色</value>
+  </data>
+  <data name="Flight_Option_Smoke" xml:space="preserve">
+    <value>烟雾</value>
+  </data>
+  <data name="Flight_Option_Streamlines" xml:space="preserve">
+    <value>流线</value>
+  </data>
+  <data name="Flight_Option_Timelines" xml:space="preserve">
+    <value>烟线</value>
+  </data>
+  <data name="Flight_PlaneAlpha" xml:space="preserve">
+    <value>迎角（升降舵）</value>
+  </data>
+  <data name="Flight_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Flight_Rear_Lift" xml:space="preserve">
+    <value>升力</value>
+  </data>
+  <data name="Flight_Rear_LoadFactor" xml:space="preserve">
+    <value>{0} g</value>
+  </data>
+  <data name="Flight_Rear_Side" xml:space="preserve">
+    <value>向心</value>
+  </data>
+  <data name="Flight_Rear_Title" xml:space="preserve">
+    <value>后视图</value>
+  </data>
+  <data name="Flight_Rear_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Flight_Scenario_Caption" xml:space="preserve">
+    <value>选择飞行状态</value>
+  </data>
+  <data name="Flight_Scenario_Climb" xml:space="preserve">
+    <value>爬升</value>
+  </data>
+  <data name="Flight_Scenario_Cruise" xml:space="preserve">
+    <value>巡航</value>
+  </data>
+  <data name="Flight_Scenario_Glide" xml:space="preserve">
+    <value>滑翔（关发动机）</value>
+  </data>
+  <data name="Flight_Scenario_Landing" xml:space="preserve">
+    <value>着陆</value>
+  </data>
+  <data name="Flight_Scenario_Stall" xml:space="preserve">
+    <value>失速</value>
+  </data>
+  <data name="Flight_Scenario_Takeoff" xml:space="preserve">
+    <value>起飞</value>
+  </data>
+  <data name="Flight_Shape_Bird" xml:space="preserve">
+    <value>鸟翼</value>
+  </data>
+  <data name="Flight_Shape_Cambered" xml:space="preserve">
+    <value>有弯度（轻型飞机）</value>
+  </data>
+  <data name="Flight_Shape_Caption" xml:space="preserve">
+    <value>翼型</value>
+  </data>
+  <data name="Flight_Shape_Flat" xml:space="preserve">
+    <value>平板</value>
+  </data>
+  <data name="Flight_Shape_Symmetric" xml:space="preserve">
+    <value>对称翼型</value>
+  </data>
+  <data name="Flight_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Flight_Stat_Altitude" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="Flight_Stat_Aoa" xml:space="preserve">
+    <value>迎角</value>
+  </data>
+  <data name="Flight_Stat_Bank" xml:space="preserve">
+    <value>坡度</value>
+  </data>
+  <data name="Flight_Stat_Cd" xml:space="preserve">
+    <value>阻力系数</value>
+  </data>
+  <data name="Flight_Stat_Circle" xml:space="preserve">
+    <value>转一圈用时</value>
+  </data>
+  <data name="Flight_Stat_Cl" xml:space="preserve">
+    <value>升力系数</value>
+  </data>
+  <data name="Flight_Stat_Climb" xml:space="preserve">
+    <value>升降</value>
+  </data>
+  <data name="Flight_Stat_Density" xml:space="preserve">
+    <value>空气密度</value>
+  </data>
+  <data name="Flight_Stat_Drag" xml:space="preserve">
+    <value>阻力</value>
+  </data>
+  <data name="Flight_Stat_Fastest" xml:space="preserve">
+    <value>表面最快气流</value>
+  </data>
+  <data name="Flight_Stat_Lift" xml:space="preserve">
+    <value>升力</value>
+  </data>
+  <data name="Flight_Stat_LiftNeeded" xml:space="preserve">
+    <value>所需升力</value>
+  </data>
+  <data name="Flight_Stat_LiftToDrag" xml:space="preserve">
+    <value>升阻比</value>
+  </data>
+  <data name="Flight_Stat_LoadFactor" xml:space="preserve">
+    <value>载荷因数</value>
+  </data>
+  <data name="Flight_Stat_PerSquareMetre" xml:space="preserve">
+    <value>每平方米升力</value>
+  </data>
+  <data name="Flight_Stat_Radius" xml:space="preserve">
+    <value>转弯半径</value>
+  </data>
+  <data name="Flight_Stat_Speed" xml:space="preserve">
+    <value>空速</value>
+  </data>
+  <data name="Flight_Stat_StallAngle" xml:space="preserve">
+    <value>失速迎角</value>
+  </data>
+  <data name="Flight_Stat_StallSpeed" xml:space="preserve">
+    <value>失速速度</value>
+  </data>
+  <data name="Flight_Stat_Thrust" xml:space="preserve">
+    <value>推力</value>
+  </data>
+  <data name="Flight_Stat_TurnRate" xml:space="preserve">
+    <value>转弯角速度</value>
+  </data>
+  <data name="Flight_Stat_TurnStall" xml:space="preserve">
+    <value>此坡度下失速速度</value>
+  </data>
+  <data name="Flight_Stat_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Flight_Stat_ZeroLift" xml:space="preserve">
+    <value>零升迎角</value>
+  </data>
+  <data name="Flight_Throttle" xml:space="preserve">
+    <value>油门</value>
+  </data>
+  <data name="Flight_Title" xml:space="preserve">
+    <value>飞行与升力</value>
+  </data>
+  <data name="Flight_Top_Radius" xml:space="preserve">
+    <value>半径 {0}</value>
+  </data>
+  <data name="Flight_Top_Straight" xml:space="preserve">
+    <value>直线飞行</value>
+  </data>
+  <data name="Flight_Top_Time" xml:space="preserve">
+    <value>转一圈 {0} 秒</value>
+  </data>
+  <data name="Flight_Top_Title" xml:space="preserve">
+    <value>俯视图</value>
+  </data>
+  <data name="Flight_TurnSpeed" xml:space="preserve">
+    <value>空速</value>
+  </data>
+  <data name="Flight_Turn_Caption" xml:space="preserve">
+    <value>转弯</value>
+  </data>
+  <data name="Flight_Turn_Fact1" xml:space="preserve">
+    <value>客机转弯时坡度通常不超过二三十度，乘客几乎感觉不到额外的 g。</value>
+  </data>
+  <data name="Flight_Turn_Fact2" xml:space="preserve">
+    <value>战斗机飞行员承受 9 个 g 时，要穿抗荷服挤压双腿，让血液留在大脑里。</value>
+  </data>
+  <data name="Flight_Turn_Fact3" xml:space="preserve">
+    <value>莱特兄弟最重要的创意是滚转控制：他们扭转机翼让飞机倾斜，就像骑自行车转弯时要把身体侧倾一样。</value>
+  </data>
+  <data name="Flight_Turn_Fact4" xml:space="preserve">
+    <value>鸟转弯的方式也一样，靠倾斜身体，再用尾巴做细微调整。</value>
+  </data>
+  <data name="Flight_Turn_Fact5" xml:space="preserve">
+    <value>标准转弯率是两分钟转一整圈，飞行员在云中飞行时就用这个转弯率。</value>
+  </data>
+  <data name="Flight_Turn_Note" xml:space="preserve">
+    <value>同一架飞机的三维视图，从后方跟随。地面网格每格 50 米，位于飞机下方 60 米。</value>
+  </data>
+  <data name="Flight_Turn_Panel_Note" xml:space="preserve">
+    <value>转弯都是水平协调转弯（无侧滑）；失速速度按 1000 kg、海平面计算。</value>
+  </data>
+  <data name="Flight_Turn_Pitch_Text" xml:space="preserve">
+    <value>升降舵让机尾上下偏，机头就绕着翼尖到翼尖的轴俯仰。</value>
+  </data>
+  <data name="Flight_Turn_Pitch_Title" xml:space="preserve">
+    <value>俯仰：升降舵</value>
+  </data>
+  <data name="Flight_Turn_Roll_Text" xml:space="preserve">
+    <value>两侧副翼反向偏转，一边机翼的升力比另一边大，飞机就绕着机头到机尾的轴滚转。</value>
+  </data>
+  <data name="Flight_Turn_Roll_Title" xml:space="preserve">
+    <value>滚转：副翼</value>
+  </data>
+  <data name="Flight_Turn_Steep_Text" xml:space="preserve">
+    <value>坡度这么大，机翼产生的升力要远大于飞机重量：机上的人都觉得自己变重了，失速速度也提高了。</value>
+  </data>
+  <data name="Flight_Turn_Steep_Title" xml:space="preserve">
+    <value>大坡度转弯</value>
+  </data>
+  <data name="Flight_Turn_Straight_Text" xml:space="preserve">
+    <value>机翼水平时，升力竖直向上，正好平衡重力，飞机直线飞行。</value>
+  </data>
+  <data name="Flight_Turn_Straight_Title" xml:space="preserve">
+    <value>机翼水平</value>
+  </data>
+  <data name="Flight_Turn_Subtitle" xml:space="preserve">
+    <value>操纵面与倾斜转弯</value>
+  </data>
+  <data name="Flight_Turn_TurnStall_Text" xml:space="preserve">
+    <value>要保持这个坡度，机翼需要的升力超过了这个速度下能产生的最大值，飞机会失速。要么飞快一点，要么减小坡度。</value>
+  </data>
+  <data name="Flight_Turn_TurnStall_Title" xml:space="preserve">
+    <value>这个坡度下速度太慢</value>
+  </data>
+  <data name="Flight_Turn_Turning_Text" xml:space="preserve">
+    <value>升力倾斜了：竖直分量托住飞机，水平分量拉着它绕圈飞行。</value>
+  </data>
+  <data name="Flight_Turn_Turning_Title" xml:space="preserve">
+    <value>倾斜转弯</value>
+  </data>
+  <data name="Flight_Turn_Yaw_Text" xml:space="preserve">
+    <value>方向舵让机尾左右偏，机头就绕着竖直轴左右偏航。</value>
+  </data>
+  <data name="Flight_Turn_Yaw_Title" xml:space="preserve">
+    <value>偏航：方向舵</value>
+  </data>
+  <data name="Flight_Value_Bank" xml:space="preserve">
+    <value>{1} {0}°</value>
+  </data>
+  <data name="Flight_Value_Climb" xml:space="preserve">
+    <value>{0} m/s（{1}°）</value>
+  </data>
+  <data name="Flight_Value_DegPerSecond" xml:space="preserve">
+    <value>{0}°/秒</value>
+  </data>
+  <data name="Flight_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Flight_Value_Density" xml:space="preserve">
+    <value>{0} kg/m³</value>
+  </data>
+  <data name="Flight_Value_G" xml:space="preserve">
+    <value>{0} g</value>
+  </data>
+  <data name="Flight_Value_Infinity" xml:space="preserve">
+    <value>直线（∞）</value>
+  </data>
+  <data name="Flight_Value_KN" xml:space="preserve">
+    <value>{0} kN</value>
+  </data>
+  <data name="Flight_Value_Kg" xml:space="preserve">
+    <value>{0} kg</value>
+  </data>
+  <data name="Flight_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Flight_Value_Kmh" xml:space="preserve">
+    <value>{0} km/h</value>
+  </data>
+  <data name="Flight_Value_Left" xml:space="preserve">
+    <value>左倾</value>
+  </data>
+  <data name="Flight_Value_Level" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="Flight_Value_LiftPerM2" xml:space="preserve">
+    <value>{0}（可托起 {1} kg）</value>
+  </data>
+  <data name="Flight_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Flight_Value_N" xml:space="preserve">
+    <value>{0} N</value>
+  </data>
+  <data name="Flight_Value_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Flight_Value_Right" xml:space="preserve">
+    <value>右倾</value>
+  </data>
+  <data name="Flight_Value_Seconds" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Flight_Value_Times" xml:space="preserve">
+    <value>风速的 {0} 倍（{1} km/h）</value>
+  </data>
+  <data name="Flight_Verdict_Balanced" xml:space="preserve">
+    <value>平衡：稳定飞行</value>
+  </data>
+  <data name="Flight_Verdict_LessThrust" xml:space="preserve">
+    <value>推力 &lt; 阻力：下降或减速</value>
+  </data>
+  <data name="Flight_Verdict_MoreThrust" xml:space="preserve">
+    <value>推力 &gt; 阻力：爬升或加速</value>
+  </data>
+  <data name="Flight_Verdict_Rolling" xml:space="preserve">
+    <value>在地面：推力 &gt; 阻力</value>
+  </data>
+  <data name="Flight_Verdict_Slowing" xml:space="preserve">
+    <value>在地面：正在减速</value>
+  </data>
+  <data name="Flight_Verdict_Stall" xml:space="preserve">
+    <value>失速：升力骤降</value>
+  </data>
+  <data name="Flight_Wing_Down_Text" xml:space="preserve">
+    <value>机翼现在把空气往上推，空气就把机翼往下压。赛车就用这种倒装的翼片，把轮胎紧紧压在赛道上。</value>
+  </data>
+  <data name="Flight_Wing_Down_Title" xml:space="preserve">
+    <value>升力向下</value>
+  </data>
+  <data name="Flight_Wing_Fact1" xml:space="preserve">
+    <value>机翼不一定要上面弯：倾斜的平板也能产生升力，只是效率低一些。纸飞机就是这样飞起来的。</value>
+  </data>
+  <data name="Flight_Wing_Fact2" xml:space="preserve">
+    <value>机翼上方的空气确实流得更快，但不是因为它必须和下面的空气会合。实际上它先到达后缘。</value>
+  </data>
+  <data name="Flight_Wing_Fact3" xml:space="preserve">
+    <value>特技飞机用对称翼型，仅靠迎角就能倒着飞得一样好。</value>
+  </data>
+  <data name="Flight_Wing_Fact4" xml:space="preserve">
+    <value>大型客机起飞时，每平方米机翼要托起大约六七百千克。</value>
+  </data>
+  <data name="Flight_Wing_Fact5" xml:space="preserve">
+    <value>鸟会不断改变翅膀的形状和角度，降落时还会张开羽毛，像缝翼一样推迟失速。</value>
+  </data>
+  <data name="Flight_Wing_Lift_Text" xml:space="preserve">
+    <value>空气平顺地绕过机翼：上方流得快、压强低，下方流得慢、压强高。这个压强差托住了机翼。</value>
+  </data>
+  <data name="Flight_Wing_Lift_Title" xml:space="preserve">
+    <value>正在产生升力</value>
+  </data>
+  <data name="Flight_Wing_NearStall_Text" xml:space="preserve">
+    <value>升力接近最大，但空气已经很难贴着弯曲的上表面流动了。再增加一点迎角，气流就会分离。</value>
+  </data>
+  <data name="Flight_Wing_NearStall_Title" xml:space="preserve">
+    <value>接近失速</value>
+  </data>
+  <data name="Flight_Wing_NoLift_Text" xml:space="preserve">
+    <value>在这个迎角下，机翼不产生升力，上下压强相互抵消。有弯度的机翼要机头稍微朝下才会这样。</value>
+  </data>
+  <data name="Flight_Wing_NoLift_Title" xml:space="preserve">
+    <value>没有升力</value>
+  </data>
+  <data name="Flight_Wing_Note" xml:space="preserve">
+    <value>茹科夫斯基翼型周围理想（无黏）流动的精确解。失速后的尾流是示意画出的，不是计算结果。</value>
+  </data>
+  <data name="Flight_Wing_Panel_Note" xml:space="preserve">
+    <value>这里的升力是针对一段机翼截面算的；真实机翼在翼尖处会损失一部分。</value>
+  </data>
+  <data name="Flight_Wing_Stall_Text" xml:space="preserve">
+    <value>气流已经从机翼上表面分离，变成湍流尾迹。吸力没了，升力下降，阻力猛增。</value>
+  </data>
+  <data name="Flight_Wing_Stall_Title" xml:space="preserve">
+    <value>失速</value>
+  </data>
+  <data name="Flight_Wing_Subtitle" xml:space="preserve">
+    <value>机翼如何产生升力</value>
+  </data>
   <data name="Green_Budget_AirSun" xml:space="preserve">
     <value>大气吸收 {0}</value>
   </data>
@@ -8447,6 +9311,237 @@
   </data>
   <data name="Narr_Expand_Redshift_10" xml:space="preserve">
     <value>轮到你了：选另一个星系，或者在图表上拖动，选择光出发的时刻。</value>
+  </data>
+  <data name="Narr_Flight_Forces_01" xml:space="preserve">
+    <value>这是一架正在巡航的四座小飞机。飞行时，它一直受到四个力的作用。我们一个一个来认识。</value>
+  </data>
+  <data name="Narr_Flight_Forces_02" xml:space="preserve">
+    <value>向上的是升力，由机翼把空气往下推而产生。它和速度的平方成正比：速度翻一倍，升力就变成四倍。</value>
+  </data>
+  <data name="Narr_Flight_Forces_03" xml:space="preserve">
+    <value>向下的是重力，也就是地球对飞机和里面一切的吸引。水平飞行时，升力和重力正好相等。</value>
+  </data>
+  <data name="Narr_Flight_Forces_04" xml:space="preserve">
+    <value>向前拉的是推力，来自螺旋桨。它抓住空气往后甩，飞机就被往前拉。</value>
+  </data>
+  <data name="Narr_Flight_Forces_05" xml:space="preserve">
+    <value>往后拖的是阻力，也就是空气对飞机运动的阻碍。这里推力和阻力画得比实际长八倍，不然几乎看不见。</value>
+  </data>
+  <data name="Narr_Flight_Forces_06" xml:space="preserve">
+    <value>这个面板把它们放在一起比较。升力平衡重力，推力平衡阻力。力平衡不是没有力，而是匀速直线飞行。</value>
+  </data>
+  <data name="Narr_Flight_Forces_07" xml:space="preserve">
+    <value>现在，飞行员想保持速度不变往上爬升。飞机需要增加的是什么？</value>
+  </data>
+  <data name="Narr_Flight_Forces_08" xml:space="preserve">
+    <value>答案是推力。稳定爬升时，推力比阻力大，多出来的那部分，把飞机沿着斜坡拉上去。出乎意料的是，这时升力其实比重力还小一点。</value>
+  </data>
+  <data name="Narr_Flight_Forces_09" xml:space="preserve">
+    <value>现在发动机关掉了。没有推力，飞机沿着一个缓坡滑翔下来，就像雪橇滑下山坡，一小部分重力把它往前拉。这架飞机每下降一米，能向前滑大约十二米。</value>
+  </data>
+  <data name="Narr_Flight_Forces_10" xml:space="preserve">
+    <value>这里机头抬得太高了。机翼超过了失速迎角，升力骤减，飞机即使机头朝上也在往下掉。要改出失速，飞行员要压低机头，而不是继续往上拉。</value>
+  </data>
+  <data name="Narr_Flight_Forces_11" xml:space="preserve">
+    <value>该你来飞了。飞机停在跑道起点，油门已经推满。等它滑跑得够快了，向上拖动机头，或者用滑块，看看它什么时候离开地面。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Aileron" xml:space="preserve">
+    <value>副翼是翼尖附近可以偏转的翼面。驾驶杆往左压，左副翼上偏，右副翼下偏，飞机就向左滚转。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Airspeed" xml:space="preserve">
+    <value>空速是飞机相对于空气运动的速度。机翼感受到的正是它，这也是飞行员最关注的数字。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Altimeter" xml:space="preserve">
+    <value>这是相对跑道的高度。越往高处空气越稀薄，机翼需要更快的速度才能产生同样的升力，发动机的功率也会下降。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Aoa" xml:space="preserve">
+    <value>迎角是翼弦线和迎面来风之间的夹角。迎角越大升力越大，直到失速为止，大多数机翼在十五度左右失速。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Arrows" xml:space="preserve">
+    <value>每根箭头表示表面那一点的压强。红箭头往里推，表示那里压强比周围高；蓝箭头往外拉，表示那里压强比周围低。蓝色大多在上表面。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Balance" xml:space="preserve">
+    <value>这个面板把升力和重力、推力和阻力分别对比。两对力都相等时，飞机匀速直线飞行；不相等时，它就会加速、减速、爬升或下降。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Camber" xml:space="preserve">
+    <value>中弧线位于上下表面的正中间。中弧线是弯的，这种机翼就叫有弯度的机翼，它即使迎角为零也能产生升力。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Centripetal" xml:space="preserve">
+    <value>升力的这部分侧向分量就是向心力。没有它，飞机会一直直飞；有了它，航线就被弯成一个圆。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Chord" xml:space="preserve">
+    <value>翼弦线是从前缘到后缘连起来的一条直线。机翼的尺寸和角度，都以它为基准来量。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Downwash" xml:space="preserve">
+    <value>下洗气流是离开机翼时向下偏转的空气。机翼把空气往下推，空气就把机翼往上推，这就是牛顿第三定律在起作用。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Drag" xml:space="preserve">
+    <value>阻力沿着飞行路径指向正后方。一部分来自空气对飞机的摩擦和阻挡，另一部分是产生升力要付出的代价。左页的图表把两部分都画出来了。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Elevator" xml:space="preserve">
+    <value>升降舵是水平尾翼后面可以偏转的部分。它向上偏，就把机尾压下、机头抬起，迎角也随之增大。</value>
+  </data>
+  <data name="Narr_Flight_Obj_LeadingEdge" xml:space="preserve">
+    <value>前缘是机翼圆圆的最前端，最先迎上空气。它做得圆润，即使迎角比较大，空气也能顺滑地转到上表面去。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Lift" xml:space="preserve">
+    <value>升力垂直于飞行路径。它取决于空气密度、机翼面积、迎角，以及速度的平方。</value>
+  </data>
+  <data name="Narr_Flight_Obj_LiftVector" xml:space="preserve">
+    <value>升力总是垂直于机翼向上。飞机倾斜时它也跟着倾斜，而且必须变大，才能同时完成两件事：托住飞机，并拉着它转弯。</value>
+  </data>
+  <data name="Narr_Flight_Obj_LoadFactor" xml:space="preserve">
+    <value>载荷因数是升力除以重力，用 g 来表示。水平转弯时，它等于坡度余弦的倒数：四十五度时约一点四，六十度时正好是二。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Lower" xml:space="preserve">
+    <value>机翼下方的空气稍稍减速，压强略高于周围的空气，从下面往上推机翼。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Path" xml:space="preserve">
+    <value>飞行路径是飞机实际运动的方向。它不一定是机头指的方向，两者之间的差别就是迎角。</value>
+  </data>
+  <data name="Narr_Flight_Obj_PitchAxis" xml:space="preserve">
+    <value>俯仰轴从一侧翼尖贯穿到另一侧翼尖。绕它转动，机头就上下摆动。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Plane" xml:space="preserve">
+    <value>一架四座的小型教练机，机身和一辆家用轿车差不多大，翼展十一米。为了看清受力，它画得比背景景物大。</value>
+  </data>
+  <data name="Narr_Flight_Obj_PlaneAoa" xml:space="preserve">
+    <value>这段弧线是飞机前进方向和机头指向之间的夹角。飞行员用升降舵控制它，它决定了机翼出多大的力。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Propeller" xml:space="preserve">
+    <value>螺旋桨其实就是一对旋转的机翼。每片桨叶产生向前的升力，把空气往后甩，拉着飞机前进。</value>
+  </data>
+  <data name="Narr_Flight_Obj_RearView" xml:space="preserve">
+    <value>从后面看，倾斜的升力可以分成两部分。竖直的那部分平衡重力，水平的那部分把飞机拉向转弯内侧。</value>
+  </data>
+  <data name="Narr_Flight_Obj_RollAxis" xml:space="preserve">
+    <value>滚转轴从机头贯穿到机尾。绕它转动，一边机翼抬起，另一边下沉。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Rudder" xml:space="preserve">
+    <value>方向舵是垂直尾翼后面可以偏转的部分。它让机头左右摆动，并让转弯更协调，避免飞机侧滑。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Runway" xml:space="preserve">
+    <value>在跑道上，重量由机轮承担。随着速度增加，升力越来越大，等它等于重力时，飞机就离地了。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Stagnation" xml:space="preserve">
+    <value>在驻点，迎面而来的空气一分为二，并在这一瞬间停住。这里是机翼周围压强最高的地方。</value>
+  </data>
+  <data name="Narr_Flight_Obj_StallWarn" xml:space="preserve">
+    <value>机翼超过了临界迎角，上表面的气流已经分离，升力骤降，飞机开始抖动。改出的办法是减小迎角：压低机头，如果在转弯中，就把机翼改平。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Streamline" xml:space="preserve">
+    <value>流线描出空气流过的路径。流线挤在一起的地方，空气流得快；流线散开的地方，空气流得慢。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Throttle" xml:space="preserve">
+    <value>油门控制发动机功率。把手柄往上推，推力就增加。如果迎角保持不变，加大油门主要会让飞机爬升，而不是飞得更快。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Thrust" xml:space="preserve">
+    <value>推力来自螺旋桨，沿着机头方向往前拉。低速时拉力最大，高速时受发动机功率的限制。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Timeline" xml:space="preserve">
+    <value>这些烟线都是在同一时刻放出来的。从上面走的空气比从下面走的早得多到达后缘，而且两路再也不会会合。</value>
+  </data>
+  <data name="Narr_Flight_Obj_TopView" xml:space="preserve">
+    <value>从上往下看，飞机在画圆。半径等于速度的平方，除以 g 乘以坡度的正切。坡度越大，圆越小；速度越快，圆越大。</value>
+  </data>
+  <data name="Narr_Flight_Obj_TrailingEdge" xml:space="preserve">
+    <value>后缘是机翼尖尖的尾部。上下两路空气都必须从这里平顺地离开，正是这个条件，决定了气流绕机翼环流的强弱，也就决定了升力有多大。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Upper" xml:space="preserve">
+    <value>机翼上方的空气加速流过，压强降到比周围空气还低。上表面的这股吸力，提供了机翼大部分的升力。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Vario" xml:space="preserve">
+    <value>这里显示飞机每秒上升或下降多少米。正数是爬升，负数是下降。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Wake" xml:space="preserve">
+    <value>失速以后，空气再也贴不住上表面，脱离开来，变成翻滚的湍流尾迹。上面的吸力没了，升力下降，阻力暴涨。这团乱流是示意画出来的，不是精确计算的。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Weight" xml:space="preserve">
+    <value>重力总是竖直向下。多载乘客或燃油，重力就增加，机翼就需要更快的速度或更大的迎角来托住它。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Wind" xml:space="preserve">
+    <value>在风洞里，机翼不动，空气吹过它。对机翼来说，这和以同样的速度在静止空气中飞行完全一样。</value>
+  </data>
+  <data name="Narr_Flight_Obj_Wing" xml:space="preserve">
+    <value>这是机翼的横截面，叫翼型。它前缘圆钝，后缘尖细，上表面通常更弯一些。这种形状让空气顺畅地绕过，并从后缘干净利落地离开。</value>
+  </data>
+  <data name="Narr_Flight_Obj_WingDrag" xml:space="preserve">
+    <value>阻力是空气作用力中沿着风向、把机翼往后拖的那部分。气流平顺时它很小，一旦失速就会猛增。</value>
+  </data>
+  <data name="Narr_Flight_Obj_WingLift" xml:space="preserve">
+    <value>升力是作用在机翼上所有压强推拉的总和，方向垂直于来风。标签上显示的是，在这个风速下，每平方米机翼能托起多少千克。</value>
+  </data>
+  <data name="Narr_Flight_Obj_YawAxis" xml:space="preserve">
+    <value>偏航轴竖直地穿过飞机。绕它转动，机头就左右摆动。</value>
+  </data>
+  <data name="Narr_Flight_Turn_01" xml:space="preserve">
+    <value>飞机可以绕三根轴转动。第一种叫滚转：绕着从机头到机尾的这根轴转，一边机翼下沉，另一边抬起。</value>
+  </data>
+  <data name="Narr_Flight_Turn_02" xml:space="preserve">
+    <value>滚转由副翼控制，就是翼尖附近这两块能活动的翼面。它们总是反着动：一边往下，增加这边机翼的升力；另一边往上，减小那边的升力。</value>
+  </data>
+  <data name="Narr_Flight_Turn_03" xml:space="preserve">
+    <value>接下来是俯仰，也就是机头上下摆动。这是尾翼上升降舵的工作。驾驶杆往后拉，升降舵向上偏，机尾被压下去，机头就抬起来。</value>
+  </data>
+  <data name="Narr_Flight_Turn_04" xml:space="preserve">
+    <value>第三种是偏航，机头左右摆动，由垂直尾翼上的方向舵控制。它看起来很像船舵，但在飞机上，转弯其实主要不是靠它。</value>
+  </data>
+  <data name="Narr_Flight_Turn_05" xml:space="preserve">
+    <value>那么问题来了。真正让飞机转弯的是什么？</value>
+  </data>
+  <data name="Narr_Flight_Turn_06" xml:space="preserve">
+    <value>答案是倾斜。机翼一倾斜，总是垂直于机翼向上的升力，也就跟着倒向一边。</value>
+  </data>
+  <data name="Narr_Flight_Turn_07" xml:space="preserve">
+    <value>倾斜的升力，有一部分指向侧面，指向转弯的内侧。这个侧向的拉力不断把飞机的航线弯成一个圆，就像绳子拉着一个转圈的小球。</value>
+  </data>
+  <data name="Narr_Flight_Turn_08" xml:space="preserve">
+    <value>从后面看这张图，就能发现其中的代价。只有升力竖直向上的那部分在托住飞机。所以为了不掉高度，机翼必须产生比平飞时更大的升力。</value>
+  </data>
+  <data name="Narr_Flight_Turn_09" xml:space="preserve">
+    <value>坡度六十度时，机翼要产生两倍于飞机重量的升力。机上每个人都会觉得自己重了一倍，这就是两个 g。失速速度也会提高大约百分之四十。</value>
+  </data>
+  <data name="Narr_Flight_Turn_10" xml:space="preserve">
+    <value>这张小地图画出了飞行的圆圈。坡度越大，圆就越小，转一圈也越快。同样的坡度，飞得越快，圆就大得多。</value>
+  </data>
+  <data name="Narr_Flight_Turn_11" xml:space="preserve">
+    <value>轮到你了。在画面上左右拖动，让飞机倾斜，或者改变速度，看看圆圈和 g 值怎么变化。</value>
+  </data>
+  <data name="Narr_Flight_Wing_01" xml:space="preserve">
+    <value>这是一片机翼的横截面，就像把机翼切成一片面包那样。它放在风洞里，风从左边吹过来。看看这些烟，空气是怎么绕过机翼的？</value>
+  </data>
+  <data name="Narr_Flight_Wing_02" xml:space="preserve">
+    <value>看机翼最前面这一点。空气在这里分成两路，一路从上面走，一路从下面走。就在这个点上，空气其实停住了一瞬间，这叫驻点。</value>
+  </data>
+  <data name="Narr_Flight_Wing_03" xml:space="preserve">
+    <value>再跟着这些流线看。机翼上方的流线挤得很紧。流线越挤，说明那里的空气流得越快。</value>
+  </data>
+  <data name="Narr_Flight_Wing_04" xml:space="preserve">
+    <value>流得快的空气，压强就低，这就是伯努利原理。机翼上方的蓝色，表示那里的压强比周围低，所以上表面被轻轻地往上吸。</value>
+  </data>
+  <data name="Narr_Flight_Wing_05" xml:space="preserve">
+    <value>机翼下面，空气稍微慢下来，压强升高，这是红色。看这些箭头就清楚了：红箭头从下面往上推，蓝箭头从上面往上拉。</value>
+  </data>
+  <data name="Narr_Flight_Wing_06" xml:space="preserve">
+    <value>把所有的推和拉加在一起，就得到这根大箭头，也就是升力。注意，升力的大部分来自上面的吸力，而不是下面的推力。</value>
+  </data>
+  <data name="Narr_Flight_Wing_07" xml:space="preserve">
+    <value>考你一个问题。两小团空气肩并肩来到机翼前面，一团从上面走，一团从下面走。哪一团先到达机翼后缘？</value>
+  </data>
+  <data name="Narr_Flight_Wing_08" xml:space="preserve">
+    <value>我们来验证一下。这些彩色的线，是同一时刻放出的烟。看，从上面走的那段一路领先，再也没有和下面那段会合。所谓等时间到达的说法，其实是错的。</value>
+  </data>
+  <data name="Narr_Flight_Wing_09" xml:space="preserve">
+    <value>再看机翼后面。空气离开后缘时，是稍微向下走的。机翼把空气往下推，根据牛顿第三定律，空气就把机翼往上推。压强差和下洗气流，是同一件事的两种讲法。</value>
+  </data>
+  <data name="Narr_Flight_Wing_10" xml:space="preserve">
+    <value>我们把机翼再抬高一点。机翼和来风之间的这个夹角，叫迎角。迎角越大，被往下推的空气越多，升力就越大。看左页的图表在往上走。</value>
+  </data>
+  <data name="Narr_Flight_Wing_11" xml:space="preserve">
+    <value>但这有个极限。超过大约十五度，空气就跟不住弯曲的上表面了。它脱离开来，变成一团翻滚的乱流，吸力一下子没了，升力突然下降，这就是失速。</value>
+  </data>
+  <data name="Narr_Flight_Wing_12" xml:space="preserve">
+    <value>轮到你了。拖动机翼改变迎角，换一种翼型，或者把它倒过来。倒过来的机翼，还能产生升力吗？</value>
   </data>
   <data name="Narr_Green_Glass_01" xml:space="preserve">
     <value>这是夏天太阳下的一个小玻璃温室和一辆停着的汽车。看看读数：两者里面都比外面的空气热得多。</value>

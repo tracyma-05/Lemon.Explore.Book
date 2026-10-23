@@ -34,6 +34,7 @@
              xmlns:waves="using:Lemon.Explore.Book.Chapters.Waves"
              xmlns:sound="using:Lemon.Explore.Book.Chapters.Sound"
              xmlns:projectile="using:Lemon.Explore.Book.Chapters.Projectile"
+             xmlns:flight="using:Lemon.Explore.Book.Chapters.Flight"
              xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
@@ -100,6 +101,8 @@
         <DataTemplate DataType="sound:SoundDiagramPageViewModel"><sound:SoundDiagramPageView /></DataTemplate>
         <DataTemplate DataType="projectile:ProjectileTextPageViewModel"><projectile:ProjectileTextPageView /></DataTemplate>
         <DataTemplate DataType="projectile:ProjectileDiagramPageViewModel"><projectile:ProjectileDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="flight:FlightTextPageViewModel"><flight:FlightTextPageView /></DataTemplate>
+        <DataTemplate DataType="flight:FlightDiagramPageViewModel"><flight:FlightDiagramPageView /></DataTemplate>
         <DataTemplate DataType="pages:CoverPageViewModel"><pageViews:CoverPageView /></DataTemplate>
         <DataTemplate DataType="pages:HowToUsePageViewModel"><pageViews:HowToUsePageView /></DataTemplate>
         <DataTemplate DataType="pages:TitlePageViewModel"><pageViews:TitlePageView /></DataTemplate>

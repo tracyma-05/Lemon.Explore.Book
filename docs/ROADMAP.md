@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | clips rendered and playing on Windows and the web (macOS player untested); open: voice licence, desktop packs, offline save |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 27 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound, Projectile |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 28 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound, Projectile, Flight |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)

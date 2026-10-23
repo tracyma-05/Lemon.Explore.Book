@@ -22,6 +22,7 @@ using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.Chapters.Typhoon;
 using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Chapters.WaterCycle;
+using Lemon.Explore.Book.Chapters.Flight;
 using Lemon.Explore.Book.Chapters.Projectile;
 using Lemon.Explore.Book.Chapters.Sound;
 using Lemon.Explore.Book.Chapters.Waves;
@@ -36,7 +37,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -257,6 +258,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, projectile.Lesson, () => projectile.Mode.ToString(), Enum.GetNames<ProjectileMode>());
                 return (new ProjectileTextPageViewModel(textPage, navigator, chapter, number, projectile),
                     new ProjectileDiagramPageViewModel(textPage + 1, navigator, chapter, projectile));
+            }
+
+            case "Flight":
+            {
+                var flight = new FlightViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, flight.Lesson, () => flight.Mode.ToString(), Enum.GetNames<FlightMode>());
+                return (new FlightTextPageViewModel(textPage, navigator, chapter, number, flight),
+                    new FlightDiagramPageViewModel(textPage + 1, navigator, chapter, flight));
             }
 
             default:
