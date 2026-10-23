@@ -22,6 +22,32 @@ public partial class MainView : UserControl
 
         // Page text is selectable: right-click (or long-press) it for the book's own menu.
         AddHandler(ContextRequestedEvent, OnContextRequested);
+
+        // The book handles the keys itself while it has focus; this keeps them turning pages after a toolbar button
+        // has taken focus. Flyouts (settings, notes) are popups, so their keys never bubble up here.
+        AddHandler(KeyDownEvent, OnTurnKey);
+    }
+
+    private void OnTurnKey(object? sender, KeyEventArgs e)
+    {
+        if (e.Handled || e.KeyModifiers != KeyModifiers.None || e.Source is TextBox or Slider or ComboBox)
+        {
+            return;
+        }
+
+        switch (e.Key)
+        {
+            case Key.Right or Key.PageDown:
+                Book.Next();
+                break;
+            case Key.Left or Key.PageUp:
+                Book.Previous();
+                break;
+            default:
+                return;
+        }
+
+        e.Handled = true;
     }
 
     protected override void OnDataContextChanged(EventArgs e)

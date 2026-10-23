@@ -54,6 +54,24 @@ public class BookViewTests
     }
 
     [AvaloniaFact]
+    public void ArrowKeys_TurnPages_EvenAfterAToolbarButtonTookFocus()
+    {
+        var (window, book, model) = Open(1280, 800, animate: false);
+        ((MainView)window.Content!).FindControl<Button>("NotesButton")!.Focus();
+        Pump();
+
+        window.KeyPress(Key.Right, RawInputModifiers.None, PhysicalKey.ArrowRight, null);
+        Pump();
+        Assert.Equal(1, model.PageIndex);
+
+        window.KeyPress(Key.Left, RawInputModifiers.None, PhysicalKey.ArrowLeft, null);
+        Pump();
+        Assert.Equal(0, model.PageIndex);
+
+        window.Close();
+    }
+
+    [AvaloniaFact]
     public void ContentsLink_JumpsStraightToTheChapter()
     {
         var (window, book, model) = Open(1280, 800, animate: false);
