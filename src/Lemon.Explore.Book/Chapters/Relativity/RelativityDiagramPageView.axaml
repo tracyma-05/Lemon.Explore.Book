@@ -1,0 +1,72 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:rel="using:Lemon.Explore.Book.Chapters.Relativity"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Relativity.RelativityDiagramPageView"
+                         x:DataType="rel:RelativityDiagramPageViewModel">
+    <!-- Right page of the Relativity spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <rel:RelativityDiagram Mode="{Binding Relativity.Mode}"
+                                              Beta="{Binding Relativity.Beta, Mode=TwoWay}"
+                                              Frame="{Binding Relativity.Frame, Mode=TwoWay}"
+                                              ShowTriangle="{Binding Relativity.ShowTriangle}"
+                                              ShowTrail="{Binding Relativity.ShowTrail}"
+                                              ResetCount="{Binding Relativity.ResetCount}"
+                                              StillTicks="{Binding Relativity.StillTicks, Mode=TwoWay}"
+                                              MovingTicks="{Binding Relativity.MovingTicks, Mode=TwoWay}"
+                                              ShowClocks="{Binding Relativity.ShowClocks}"
+                                              ShowLengths="{Binding Relativity.ShowLengths}"
+                                              FlashCount="{Binding Relativity.FlashCount}"
+                                              TrainPhase="{Binding Relativity.TrainPhase, Mode=TwoWay}"
+                                              TrainHold="{Binding Relativity.TrainHold}"
+                                              Distance="{Binding Relativity.Distance, Mode=TwoWay}"
+                                              TwinTime="{Binding Relativity.TwinTime, Mode=TwoWay}"
+                                              ShowSignals="{Binding Relativity.ShowSignals}"
+                                              ShowNowLines="{Binding Relativity.ShowNowLines}"
+                                              ShowAxes="{Binding Relativity.ShowAxes}"
+                                              ShowLabels="{Binding Relativity.ShowLabels}"
+                                              IsPlaying="{Binding Relativity.IsPlaying, Mode=TwoWay}"
+                                              ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                              Highlight="{Binding Relativity.Lesson.Highlight}"
+                                              IsLessonActive="{Binding Relativity.Lesson.IsActive}"
+                                              SelectedObject="{Binding Relativity.Card.Id, Mode=TwoWay}"
+                                              InteractionCommand="{Binding Relativity.UserInteractedCommand}"
+                                              ToolTip.Tip="{Binding Relativity.Hint}"
+                                              AutomationProperties.Name="{Binding Relativity.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Relativity.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Relativity.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Relativity.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Relativity.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Rel_PlayPause}" AutomationProperties.Name="{loc:Localize Rel_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Relativity.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Relativity.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <ToggleButton Classes="space" IsChecked="{Binding Relativity.ShowLabels}" Content="{loc:Localize Rel_Option_Labels}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

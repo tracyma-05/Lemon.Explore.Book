@@ -21079,6 +21079,1343 @@
      ]
     ]
    },
+   "Narr_Rel_LightClock_01": {
+    "duration": 15.024,
+    "hash": "f69faed7ab16221e",
+    "sentences": [
+     [
+      0.05,
+      2.056,
+      "This is a light clock."
+     ],
+     [
+      2.056,
+      9.694,
+      "A flash of light bounces between two mirrors, and every time it goes up and comes back down, the clock ticks once."
+     ],
+     [
+      9.694,
+      14.958,
+      "The clock on the ground is standing still, so its light just goes straight up and down."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_02": {
+    "duration": 12.696,
+    "hash": "9af546fc909ab6e0",
+    "sentences": [
+     [
+      0.05,
+      7.083,
+      "Up above, an identical clock rides in a ship flying past at six tenths of the speed of light."
+     ],
+     [
+      7.083,
+      12.625,
+      "For the people on board, nothing is odd: their light goes straight up and down too."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_03": {
+    "duration": 10.872,
+    "hash": "777b62aa678ef135",
+    "sentences": [
+     [
+      0.05,
+      1.792,
+      "But look at it from the ground."
+     ],
+     [
+      1.792,
+      5.611,
+      "While the light is on its way up, the ship moves on."
+     ],
+     [
+      5.611,
+      10.819,
+      "So the light has to travel along a slanted line, and it draws a zigzag."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_04": {
+    "duration": 15.192,
+    "hash": "53ec1087034bc6dd",
+    "sentences": [
+     [
+      0.05,
+      1.75,
+      "Now here's the key."
+     ],
+     [
+      1.75,
+      5.986,
+      "Light always travels at the same speed, for everyone."
+     ],
+     [
+      5.986,
+      8.639,
+      "And the slanted path is longer."
+     ],
+     [
+      8.639,
+      15.139,
+      "So, seen from the ground, does the ship's clock tick faster, slower, or the same?"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_05": {
+    "duration": 13.512,
+    "hash": "9db1674af6e4cd86",
+    "sentences": [
+     [
+      0.05,
+      1.056,
+      "Slower."
+     ],
+     [
+      1.056,
+      5.778,
+      "Look at the two counters: the ship's clock keeps falling behind."
+     ],
+     [
+      5.778,
+      11.208,
+      "A longer path at the same speed takes more time, so each tick takes longer."
+     ],
+     [
+      11.208,
+      13.444,
+      "This is called time dilation."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_06": {
+    "duration": 14.52,
+    "hash": "31bd49a7a35718ce",
+    "sentences": [
+     [
+      0.05,
+      2.819,
+      "This triangle tells us how much slower."
+     ],
+     [
+      2.819,
+      11.361,
+      "The slanted side is how far the light goes, the bottom is how far the ship moves, and the upright side is the gap between the mirrors."
+     ],
+     [
+      11.361,
+      14.458,
+      "Pythagoras gives us a number called gamma."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_07": {
+    "duration": 13.392,
+    "hash": "e26833bbba4d0cf1",
+    "sentences": [
+     [
+      0.05,
+      4.403,
+      "Let's go faster, to nine tenths of the speed of light."
+     ],
+     [
+      4.403,
+      13.333,
+      "The zigzag gets much flatter, and gamma is now more than two: the ship's clock ticks less than half as often as the ground's."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_08": {
+    "duration": 18.024,
+    "hash": "42eefe6b2c5ae823",
+    "sentences": [
+     [
+      0.05,
+      2.75,
+      "Now let's ride along with the ship."
+     ],
+     [
+      2.75,
+      7.167,
+      "To us the ship stands still and the ground rushes backwards."
+     ],
+     [
+      7.167,
+      13.528,
+      "Look: now it's the ground's light that zigzags, and the ground's clock that runs slow."
+     ],
+     [
+      13.528,
+      17.958,
+      "Each side sees the other's clock slow, and both are right."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_09": {
+    "duration": 17.304,
+    "hash": "48105ae1748681e5",
+    "sentences": [
+     [
+      0.05,
+      2.5,
+      "This isn't just a thought experiment."
+     ],
+     [
+      2.5,
+      9.875,
+      "Tiny particles called muons are made high up in the air, and they last only about two millionths of a second."
+     ],
+     [
+      9.875,
+      13.125,
+      "Most should die long before reaching the ground."
+     ],
+     [
+      13.125,
+      17.236,
+      "Yet we catch lots of them down here, because their clocks run slow."
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_10": {
+    "duration": 12.528,
+    "hash": "c60208617fce6264",
+    "sentences": [
+     [
+      0.05,
+      1.164,
+      "Your turn."
+     ],
+     [
+      1.164,
+      6.375,
+      "Drag sideways across the picture, or use the slider, to change the speed."
+     ],
+     [
+      6.375,
+      12.458,
+      "Notice how little happens at low speeds, and how fast gamma shoots up near the speed of light."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Counter": {
+    "duration": 8.424,
+    "hash": "44f863aa314b57dc",
+    "sentences": [
+     [
+      0.05,
+      5.194,
+      "These count each clock's ticks, and the dials show each clock's own time."
+     ],
+     [
+      5.194,
+      8.361,
+      "The clock that moves in this picture falls behind."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_EarthLine": {
+    "duration": 6.072,
+    "hash": "6a498e24d7b32274",
+    "sentences": [
+     [
+      0.05,
+      1.861,
+      "The home twin's line."
+     ],
+     [
+      1.861,
+      6.014,
+      "Earth stays put, so the line goes straight up through time."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_EarthMarks": {
+    "duration": 4.872,
+    "hash": "7a510f2a7a73127d",
+    "sentences": [
+     [
+      0.05,
+      4.806,
+      "Marks on Earth's line, one for each year the home twin lives."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_EarthTwin": {
+    "duration": 5.712,
+    "hash": "96f5cedb81f61ba9",
+    "sentences": [
+     [
+      0.05,
+      5.653,
+      "The twin who stays at home, and how many years they've lived since the ship left."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Flash": {
+    "duration": 12.024,
+    "hash": "956644de3b57080c",
+    "sentences": [
+     [
+      0.05,
+      2.806,
+      "The flash of light inside the clock."
+     ],
+     [
+      2.806,
+      11.972,
+      "However fast the clock moves, this light always goes at the same speed, about three hundred thousand kilometres every second."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Frame": {
+    "duration": 9.984,
+    "hash": "3d2bf71dd634a5b9",
+    "sentences": [
+     [
+      0.05,
+      3.306,
+      "This says whose point of view the picture is drawn from."
+     ],
+     [
+      3.306,
+      5.208,
+      "Click it to switch sides."
+     ],
+     [
+      5.208,
+      9.943,
+      "Both pictures are equally correct; they just disagree about who is moving."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Front": {
+    "duration": 9.096,
+    "hash": "d62b81788a693d53",
+    "sentences": [
+     [
+      0.05,
+      2.778,
+      "The light catcher at the front of the train."
+     ],
+     [
+      2.778,
+      9.042,
+      "Seen from the platform, the front runs away from the light, so the light needs longer to catch it."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Gamma": {
+    "duration": 13.944,
+    "hash": "9b8ddfa52f60f8db",
+    "sentences": [
+     [
+      0.05,
+      2.389,
+      "Gamma is the slow-down factor."
+     ],
+     [
+      2.389,
+      7.208,
+      "It's one divided by the square root of one minus the speed squared."
+     ],
+     [
+      7.208,
+      13.875,
+      "At everyday speeds it's almost exactly one; near light's speed it grows without limit."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Grid": {
+    "duration": 8.904,
+    "hash": "23d9645a8c9f6be8",
+    "sentences": [
+     [
+      0.05,
+      5.431,
+      "The spacetime diagram: distance from Earth across, Earth's time up."
+     ],
+     [
+      5.431,
+      8.847,
+      "One light-year is drawn as long as one year."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Ground": {
+    "duration": 7.08,
+    "hash": "040a09172a4d0d65",
+    "sentences": [
+     [
+      0.05,
+      1.458,
+      "The ground's lane."
+     ],
+     [
+      1.458,
+      7.028,
+      "When you ride with the ship, the ground and everything on it rushes backwards past you."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_GroundClock": {
+    "duration": 9.384,
+    "hash": "1d58f997e326797f",
+    "sentences": [
+     [
+      0.05,
+      2.083,
+      "The ground's light clock."
+     ],
+     [
+      2.083,
+      9.333,
+      "For someone standing next to it, its light simply goes up and down between the mirrors, once per tick."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Jump": {
+    "duration": 11.112,
+    "hash": "0b4283b03eb2bdf8",
+    "sentences": [
+     [
+      0.05,
+      1.028,
+      "The jump."
+     ],
+     [
+      1.028,
+      7.417,
+      "Just before the turn, the traveller's “now” on Earth is early; just after, it's late."
+     ],
+     [
+      7.417,
+      11.056,
+      "Those Earth years are skipped over by the turn."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Lamp": {
+    "duration": 8.856,
+    "hash": "d632cb07decf09b9",
+    "sentences": [
+     [
+      0.05,
+      2.875,
+      "The lamp in the very middle of the train."
+     ],
+     [
+      2.875,
+      6.806,
+      "It flashes just as it passes the person on the platform."
+     ],
+     [
+      6.806,
+      8.792,
+      "Click it to flash it again."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Light": {
+    "duration": 9.696,
+    "hash": "dd78e30a6c6a2f7a",
+    "sentences": [
+     [
+      0.05,
+      5.819,
+      "The light from the flash, going both ways at the same speed, whoever is watching."
+     ],
+     [
+      5.819,
+      9.625,
+      "That one rule is what makes all the surprises."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_LightLine": {
+    "duration": 9.696,
+    "hash": "d018d9dcd4002b96",
+    "sentences": [
+     [
+      0.05,
+      6.083,
+      "Light's path through spacetime: one light-year per year, so forty-five degrees."
+     ],
+     [
+      6.083,
+      9.639,
+      "Anything with mass must stay steeper than this."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Mirror": {
+    "duration": 7.8,
+    "hash": "3167b28023cfe506",
+    "sentences": [
+     [
+      0.05,
+      2.194,
+      "Two mirrors facing each other."
+     ],
+     [
+      2.194,
+      7.736,
+      "Light bounces back and forth between them, and one trip up and back counts as one tick."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Now": {
+    "duration": 8.904,
+    "hash": "f11bd3c0e165924e",
+    "sentences": [
+     [
+      0.05,
+      5.917,
+      "Earth's “now”: a flat line, because for Earth everything on it happens at the same time."
+     ],
+     [
+      5.917,
+      8.833,
+      "Drag up and down to move through the trip."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Observer": {
+    "duration": 7.584,
+    "hash": "336d30b385d7aa3e",
+    "sentences": [
+     [
+      0.05,
+      3.153,
+      "Someone standing on the ground beside the clock."
+     ],
+     [
+      3.153,
+      7.528,
+      "For this person, the ground's clock is the one at rest."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Origin": {
+    "duration": 8.76,
+    "hash": "7b587760e92e4789",
+    "sentences": [
+     [
+      0.05,
+      2.208,
+      "This is where the flash happened."
+     ],
+     [
+      2.208,
+      8.694,
+      "Light spreads out from this spot at the same speed both ways, even though the lamp itself moves on."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Platform": {
+    "duration": 8.232,
+    "hash": "b9f886fff476d086",
+    "sentences": [
+     [
+      0.05,
+      3.986,
+      "The platform, as long as the train when both stand still."
+     ],
+     [
+      3.986,
+      8.181,
+      "Seen from the moving train, it's the platform that is shorter."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_PlatformClock": {
+    "duration": 6.6,
+    "hash": "6b67805b46a0f22c",
+    "sentences": [
+     [
+      0.05,
+      2.236,
+      "The platform person's clock."
+     ],
+     [
+      2.236,
+      6.528,
+      "It read zero at the flash, just like the train's clock in the middle."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_PlatformLength": {
+    "duration": 6.432,
+    "hash": "d857d2371df35e16",
+    "sentences": [
+     [
+      0.05,
+      2.056,
+      "The platform's length here."
+     ],
+     [
+      2.056,
+      6.375,
+      "When the platform is the one moving, it's the one that's shortened."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Rear": {
+    "duration": 8.496,
+    "hash": "d6fc645144aed687",
+    "sentences": [
+     [
+      0.05,
+      2.667,
+      "The light catcher at the back of the train."
+     ],
+     [
+      2.667,
+      8.431,
+      "Seen from the platform, the back rushes towards the light, so it's hit early."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Ship": {
+    "duration": 9.024,
+    "hash": "54cca799002555ce",
+    "sentences": [
+     [
+      0.05,
+      1.417,
+      "The ship's lane."
+     ],
+     [
+      1.417,
+      5.181,
+      "The ship carries a light clock just like the one on the ground."
+     ],
+     [
+      5.181,
+      8.972,
+      "Whether it seems to move depends on whose point of view you pick."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipAxes": {
+    "duration": 12.6,
+    "hash": "d60d3668a275e842",
+    "sentences": [
+     [
+      0.05,
+      3.847,
+      "The ship's own time and space axes on the way out."
+     ],
+     [
+      3.847,
+      7.069,
+      "They tilt towards the light line from both sides."
+     ],
+     [
+      7.069,
+      12.528,
+      "Everything along the tilted space axis happens at the same time, for the ship."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipClock": {
+    "duration": 10.68,
+    "hash": "bc8a611c6ff2c15c",
+    "sentences": [
+     [
+      0.05,
+      1.972,
+      "The ship's light clock."
+     ],
+     [
+      1.972,
+      5.083,
+      "It's exactly the same as the one on the ground."
+     ],
+     [
+      5.083,
+      10.611,
+      "On board, its light goes straight up and down, and it keeps perfect time."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipLine": {
+    "duration": 9.624,
+    "hash": "c0747b74327c571f",
+    "sentences": [
+     [
+      0.05,
+      5.653,
+      "The traveller's line: out to the star, a sharp turn, and back home."
+     ],
+     [
+      5.653,
+      9.556,
+      "Its clock runs slow by gamma on both legs."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipMarks": {
+    "duration": 8.904,
+    "hash": "0ed29887555cb81c",
+    "sentences": [
+     [
+      0.05,
+      4.833,
+      "Marks on the traveller's line, one for each year the traveller lives."
+     ],
+     [
+      4.833,
+      8.833,
+      "They're further apart, because the ship's clock runs slow."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipNow": {
+    "duration": 10.248,
+    "hash": "61247351ecf6212c",
+    "sentences": [
+     [
+      0.05,
+      6.125,
+      "The traveller's line of “now”: all the events the traveller counts as happening at this moment."
+     ],
+     [
+      6.125,
+      10.181,
+      "It tilts, so it meets Earth's line at a different year."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Signals": {
+    "duration": 14.4,
+    "hash": "99bf48c1db858f5c",
+    "sentences": [
+     [
+      0.05,
+      6.639,
+      "Birthday flashes, sent on every birthday and travelling at forty-five degrees."
+     ],
+     [
+      6.639,
+      9.667,
+      "Green from Earth, pink from the ship."
+     ],
+     [
+      9.667,
+      14.333,
+      "Watch them arrive slowly on the way out, quickly on the way back."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Star": {
+    "duration": 9.528,
+    "hash": "ad5d0a8ea6b3f90f",
+    "sentences": [
+     [
+      0.05,
+      2.097,
+      "The star the traveller visits."
+     ],
+     [
+      2.097,
+      9.472,
+      "For Earth it's this far away; for the ship, rushing towards it, the distance is shortened by gamma."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Strip": {
+    "duration": 7.704,
+    "hash": "453b9e6164c3b6c5",
+    "sentences": [
+     [
+      0.05,
+      7.653,
+      "Where everyone is right now, on the same distance scale as the diagram above: Earth, the ship and the star."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Time": {
+    "duration": 8.208,
+    "hash": "587e6d329f7bce09",
+    "sentences": [
+     [
+      0.05,
+      3.972,
+      "The time in the frame you're watching from, in microseconds."
+     ],
+     [
+      3.972,
+      8.153,
+      "In one microsecond, light goes three hundred metres."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Train": {
+    "duration": 10.344,
+    "hash": "53fbb01cd7c54615",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "The train."
+     ],
+     [
+      1.153,
+      4.083,
+      "On the train it is six hundred metres long."
+     ],
+     [
+      4.083,
+      10.292,
+      "Seen from the platform while it's moving, it's shorter, and so are its windows and wheels."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_TrainClocks": {
+    "duration": 9.6,
+    "hash": "75d5196e6e05d3a1",
+    "sentences": [
+     [
+      0.05,
+      4.083,
+      "Three clocks on the train, set together on the train."
+     ],
+     [
+      4.083,
+      9.542,
+      "Seen from the platform they're out of step: the further forward, the further behind."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_TrainLength": {
+    "duration": 9.816,
+    "hash": "7a37c4ca2bc42564",
+    "sentences": [
+     [
+      0.05,
+      1.792,
+      "The train's length here."
+     ],
+     [
+      1.792,
+      5.875,
+      "A moving train is shortened along its motion, by gamma."
+     ],
+     [
+      5.875,
+      9.764,
+      "On the train itself, it's always six hundred metres."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Traveller": {
+    "duration": 8.448,
+    "hash": "d9306967f17d065e",
+    "sentences": [
+     [
+      0.05,
+      5.417,
+      "The twin who travels, and how many years they've lived by their own clock."
+     ],
+     [
+      5.417,
+      8.389,
+      "It's always fewer, by the factor gamma."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Triangle": {
+    "duration": 15.888,
+    "hash": "e7475e00e1052eae",
+    "sentences": [
+     [
+      0.05,
+      2.097,
+      "The light-clock triangle."
+     ],
+     [
+      2.097,
+      10.917,
+      "The slanted side is what light covers, the bottom what the clock covers, and the upright side what the light would cover in the clock's own time."
+     ],
+     [
+      10.917,
+      15.833,
+      "Pythagoras says the slanted trip takes gamma times as long."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Turn": {
+    "duration": 10.56,
+    "hash": "1bf8597146fd0ef1",
+    "sentences": [
+     [
+      0.05,
+      4.972,
+      "The turning point, where the traveller reaches the star and heads home."
+     ],
+     [
+      4.972,
+      10.5,
+      "Drag it to change how far the star is and how fast the ship flies."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Watcher": {
+    "duration": 7.608,
+    "hash": "5f0bbc59443261aa",
+    "sentences": [
+     [
+      0.05,
+      2.431,
+      "The person standing on the platform."
+     ],
+     [
+      2.431,
+      7.542,
+      "The lamp flashes right in front of them, and for them the platform is at rest."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Younger": {
+    "duration": 8.112,
+    "hash": "751c28611d94e741",
+    "sentences": [
+     [
+      0.05,
+      2.319,
+      "The age gap between the twins."
+     ],
+     [
+      2.319,
+      8.056,
+      "When they meet again, it's real: the traveller has lived fewer years."
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Zigzag": {
+    "duration": 13.176,
+    "hash": "56819f809961d72f",
+    "sentences": [
+     [
+      0.05,
+      4.153,
+      "The zigzag is the moving clock's light, seen from here."
+     ],
+     [
+      4.153,
+      9.5,
+      "Because the clock moves on while the light bounces, the light runs slanted."
+     ],
+     [
+      9.5,
+      13.111,
+      "The path is longer, so each tick takes longer."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_01": {
+    "duration": 11.256,
+    "hash": "8981c5cecb2b9632",
+    "sentences": [
+     [
+      0.05,
+      5.194,
+      "Here's a train with a lamp in its very middle, and a light catcher at each end."
+     ],
+     [
+      5.194,
+      11.194,
+      "Right now we're riding on the train, so the train stands still and it's the platform that moves."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_02": {
+    "duration": 8.448,
+    "hash": "a4f606bcb0c9f7c8",
+    "sentences": [
+     [
+      0.05,
+      1.819,
+      "The lamp flashes."
+     ],
+     [
+      1.819,
+      8.389,
+      "Light sets off towards the back and the front at the same speed, and both ends are the same distance away."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_03": {
+    "duration": 8.88,
+    "hash": "a4e0b2ebdaf53fd5",
+    "sentences": [
+     [
+      0.05,
+      6.333,
+      "So on the train, the light reaches the back and the front at exactly the same moment."
+     ],
+     [
+      6.333,
+      8.857,
+      "Both catchers light up together."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_04": {
+    "duration": 9.816,
+    "hash": "a76128b2285c2d23",
+    "sentences": [
+     [
+      0.05,
+      3.681,
+      "Now let's watch the very same thing from the platform."
+     ],
+     [
+      3.681,
+      9.764,
+      "The train rushes past to the right, and the lamp will flash just as it passes this person."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_05": {
+    "duration": 9.648,
+    "hash": "c364d7d177da1ae5",
+    "sentences": [
+     [
+      0.05,
+      5.639,
+      "The light still sets off both ways at the same speed, from the spot where the flash happened."
+     ],
+     [
+      5.639,
+      9.597,
+      "But meanwhile, the whole train keeps moving to the right."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_06": {
+    "duration": 8.592,
+    "hash": "cfc4e2ed4fd25498",
+    "sentences": [
+     [
+      0.05,
+      5.264,
+      "The back of the train is rushing towards the light, and the front is running away from it."
+     ],
+     [
+      5.264,
+      8.542,
+      "So which end does the light reach first?"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_07": {
+    "duration": 15.216,
+    "hash": "3a8bdacdd353c8c6",
+    "sentences": [
+     [
+      0.05,
+      1.111,
+      "The back."
+     ],
+     [
+      1.111,
+      6.514,
+      "Seen from the platform, the back is hit first and the front only later."
+     ],
+     [
+      6.514,
+      12.139,
+      "Two things that happen at the same time on the train don't happen at the same time on the platform."
+     ],
+     [
+      12.139,
+      15.153,
+      "That's the relativity of simultaneity."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_08": {
+    "duration": 12.048,
+    "hash": "f44ed1e39954b65d",
+    "sentences": [
+     [
+      0.05,
+      1.806,
+      "Look at the lengths too."
+     ],
+     [
+      1.806,
+      6.944,
+      "On the train it's six hundred metres long, but from the platform it's shorter."
+     ],
+     [
+      6.944,
+      11.986,
+      "Moving things are squeezed along their motion, by the same gamma as the clocks."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_09": {
+    "duration": 13.824,
+    "hash": "15d205404d678101",
+    "sentences": [
+     [
+      0.05,
+      3.931,
+      "These are the train's own clocks, set together on the train."
+     ],
+     [
+      3.931,
+      9.833,
+      "Seen from the platform they don't agree: the one at the front is behind the one at the back."
+     ],
+     [
+      9.833,
+      13.764,
+      "That's how the train and the platform can both be right."
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_10": {
+    "duration": 11.472,
+    "hash": "d94ce32eaec576b8",
+    "sentences": [
+     [
+      0.05,
+      1.111,
+      "Your turn."
+     ],
+     [
+      1.111,
+      7.375,
+      "Change the speed, or switch between the train and the platform, and watch the flash again."
+     ],
+     [
+      7.375,
+      11.403,
+      "The faster the train, the bigger the gap between the two hits."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_01": {
+    "duration": 13.08,
+    "hash": "a7019a374f34bce3",
+    "sentences": [
+     [
+      0.05,
+      2.347,
+      "This is a spacetime diagram."
+     ],
+     [
+      2.347,
+      5.931,
+      "Going across is distance from Earth, in light-years."
+     ],
+     [
+      5.931,
+      8.944,
+      "Going up is time on Earth, in years."
+     ],
+     [
+      8.944,
+      13.014,
+      "Every moment of our story is one point on this picture."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_02": {
+    "duration": 9.264,
+    "hash": "a8b4ab2ffc22d186",
+    "sentences": [
+     [
+      0.05,
+      2.111,
+      "One twin stays at home."
+     ],
+     [
+      2.111,
+      6.431,
+      "Earth doesn't go anywhere, so the home twin's line goes straight up."
+     ],
+     [
+      6.431,
+      9.194,
+      "Each mark on it is one more birthday."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_03": {
+    "duration": 11.952,
+    "hash": "3166638fa8d54188",
+    "sentences": [
+     [
+      0.05,
+      6.722,
+      "Light travels one light-year every year, so on this picture it runs at forty-five degrees."
+     ],
+     [
+      6.722,
+      11.903,
+      "Nothing can go faster, so nothing's line can be flatter than this."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_04": {
+    "duration": 10.56,
+    "hash": "6fae479e44999dfb",
+    "sentences": [
+     [
+      0.05,
+      8.625,
+      "The other twin flies at eight tenths of the speed of light to a star four light-years away, turns round, and comes straight back."
+     ],
+     [
+      8.625,
+      10.5,
+      "That's this bent line."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_05": {
+    "duration": 7.392,
+    "hash": "60e5debe2a46c92f",
+    "sentences": [
+     [
+      0.05,
+      3.347,
+      "On Earth, the whole trip takes ten years."
+     ],
+     [
+      3.347,
+      7.319,
+      "When the traveller gets home, how many years older will they be?"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_06": {
+    "duration": 12.888,
+    "hash": "5c3c8d827d73b7bb",
+    "sentences": [
+     [
+      0.05,
+      1.083,
+      "Six."
+     ],
+     [
+      1.083,
+      7.514,
+      "The ship's clock ran slow all the way, so the traveller comes home four years younger than their twin."
+     ],
+     [
+      7.514,
+      12.819,
+      "Count the marks: ten on Earth's line, but only six on the ship's."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_07": {
+    "duration": 14.64,
+    "hash": "22d874d246f2598c",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "But wait."
+     ],
+     [
+      1.153,
+      3.875,
+      "From the ship, isn't it Earth that's moving?"
+     ],
+     [
+      3.875,
+      6.097,
+      "Why isn't it the other way round?"
+     ],
+     [
+      6.097,
+      9.069,
+      "Because only the traveller turns round."
+     ],
+     [
+      9.069,
+      14.569,
+      "The traveller switches from one point of view to another; the home twin never does."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_08": {
+    "duration": 18.24,
+    "hash": "aa343a5a026f5fbb",
+    "sentences": [
+     [
+      0.05,
+      4.583,
+      "These purple lines show which moment on Earth the traveller calls “now”."
+     ],
+     [
+      4.583,
+      8.431,
+      "On the way out, Earth's clocks seem slow too."
+     ],
+     [
+      8.431,
+      14.625,
+      "But at the turn, the traveller's “now” on Earth jumps forward by years in an instant."
+     ],
+     [
+      14.625,
+      18.181,
+      "That's where the home twin's extra years come from."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_09": {
+    "duration": 16.896,
+    "hash": "df062463fa689524",
+    "sentences": [
+     [
+      0.05,
+      4.931,
+      "Now suppose both twins send a flash of light on every birthday."
+     ],
+     [
+      4.931,
+      11.958,
+      "On the way out, the traveller receives Earth's flashes slowly; on the way back, quickly."
+     ],
+     [
+      11.958,
+      16.833,
+      "Both twins agree on every flash, and the numbers add up."
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_10": {
+    "duration": 12.432,
+    "hash": "153173f183307c8b",
+    "sentences": [
+     [
+      0.05,
+      1.221,
+      "Your turn."
+     ],
+     [
+      1.221,
+      6.958,
+      "Drag the turning point to change how far and how fast the traveller goes."
+     ],
+     [
+      6.958,
+      12.361,
+      "The closer the bent line gets to the light lines, the younger the traveller comes home."
+     ]
+    ]
+   },
    "Narr_Retro_Above_01": {
     "duration": 10.776,
     "hash": "b26a711ee5d11e1f",
@@ -53840,6 +55177,1308 @@
       1.639,
       8.222,
       "上下拖动天空来改变太阳的高度，看彩虹怎样升起和落下。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_01": {
+    "duration": 15.576,
+    "hash": "d65769c7cc956d04",
+    "sentences": [
+     [
+      0.1,
+      2.05,
+      "这是一只光钟。"
+     ],
+     [
+      2.0,
+      9.097,
+      "一束光在两面镜子之间来回弹，每上去再下来一次，钟就“滴答”一下。"
+     ],
+     [
+      9.097,
+      15.514,
+      "地面上这只钟是静止的，所以它的光就是直直地上下跑。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_02": {
+    "duration": 13.728,
+    "hash": "abeb1ab1524c7ce6",
+    "sentences": [
+     [
+      0.1,
+      6.981,
+      "上面这只一模一样的钟，装在一艘飞船里，正以六成光速飞过。"
+     ],
+     [
+      6.931,
+      13.667,
+      "对飞船上的人来说，一切都很正常：他们的光也是直上直下的。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_03": {
+    "duration": 11.28,
+    "hash": "716fdcba5db11fc7",
+    "sentences": [
+     [
+      0.1,
+      2.494,
+      "可是从地面上看呢？"
+     ],
+     [
+      2.444,
+      6.306,
+      "光往上跑的时候，飞船也在往前走。"
+     ],
+     [
+      6.306,
+      11.222,
+      "所以光得沿着一条斜线跑，画出一道锯齿线。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_04": {
+    "duration": 12.84,
+    "hash": "846c250d4ec0372e",
+    "sentences": [
+     [
+      0.1,
+      1.717,
+      "关键来了。"
+     ],
+     [
+      1.667,
+      6.222,
+      "光速对谁都是一样的，而斜着走的路更长。"
+     ],
+     [
+      6.222,
+      12.778,
+      "那么，从地面上看，飞船的钟是走得更快、更慢，还是一样？"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_05": {
+    "duration": 14.664,
+    "hash": "33241ca4292da099",
+    "sentences": [
+     [
+      0.1,
+      1.356,
+      "更慢。"
+     ],
+     [
+      1.306,
+      5.333,
+      "看看两个计数：飞船的钟越落越远。"
+     ],
+     [
+      5.333,
+      12.333,
+      "同样的速度，路更长，就要花更多时间，所以它的每一下都更久。"
+     ],
+     [
+      12.333,
+      14.611,
+      "这就叫时间膨胀。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_06": {
+    "duration": 15.36,
+    "hash": "d48b1593518c4e93",
+    "sentences": [
+     [
+      0.1,
+      3.383,
+      "这个三角形告诉我们慢多少。"
+     ],
+     [
+      3.333,
+      10.986,
+      "斜边是光走的路，底边是飞船走的路，竖着的那条边是两面镜子的距离。"
+     ],
+     [
+      10.986,
+      15.306,
+      "用勾股定理，就能算出一个数，叫伽马。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_07": {
+    "duration": 11.64,
+    "hash": "a1586d444759fd8d",
+    "sentences": [
+     [
+      0.1,
+      3.328,
+      "我们再快一点，到九成光速。"
+     ],
+     [
+      3.278,
+      11.583,
+      "锯齿线被拉得平多了，伽马也超过了二：飞船的钟滴答的次数还不到地面的一半。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_08": {
+    "duration": 17.304,
+    "hash": "77f5e2a400f0af7b",
+    "sentences": [
+     [
+      0.1,
+      2.869,
+      "现在我们坐到飞船上去。"
+     ],
+     [
+      2.819,
+      7.181,
+      "对我们来说，飞船不动，地面在往后飞。"
+     ],
+     [
+      7.181,
+      13.069,
+      "看：这回是地面的光在走锯齿线，地面的钟变慢了。"
+     ],
+     [
+      13.069,
+      17.25,
+      "双方都看到对方的钟慢，而且都对。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_09": {
+    "duration": 19.104,
+    "hash": "133db2d5672f4126",
+    "sentences": [
+     [
+      0.1,
+      2.231,
+      "这可不只是想象。"
+     ],
+     [
+      2.181,
+      13.083,
+      "高空中会产生一种叫 μ 子的小粒子，它们只能活大约两百万分之一秒，大多数本该在落地前很久就消失了。"
+     ],
+     [
+      13.083,
+      19.042,
+      "可我们在地面上能接到很多，就是因为它们的时间变慢了。"
+     ]
+    ]
+   },
+   "Narr_Rel_LightClock_10": {
+    "duration": 15.096,
+    "hash": "4d8e5dcf4b538552",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      7.097,
+      "在画面上左右拖动，或者用滑块，改变飞船的速度。"
+     ],
+     [
+      7.097,
+      15.028,
+      "注意看，速度低的时候几乎没什么变化，可一接近光速，伽马就猛地往上蹿。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Counter": {
+    "duration": 11.016,
+    "hash": "e28341aac8abd293",
+    "sentences": [
+     [
+      0.1,
+      7.022,
+      "这里数的是每只钟滴答了几下，小表盘显示的是每只钟自己的时间。"
+     ],
+     [
+      6.972,
+      10.958,
+      "在这个画面里运动的那只钟会落后。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_EarthLine": {
+    "duration": 6.984,
+    "hash": "a0fd75113a56045b",
+    "sentences": [
+     [
+      0.1,
+      2.314,
+      "留在家里那个的线。"
+     ],
+     [
+      2.264,
+      6.917,
+      "地球不动，所以这条线笔直地沿时间往上走。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_EarthMarks": {
+    "duration": 6.096,
+    "hash": "d717d53e6ab631dc",
+    "sentences": [
+     [
+      0.1,
+      6.092,
+      "地球那条线上的刻度，留在家里的那个每过一年就有一个。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_EarthTwin": {
+    "duration": 5.472,
+    "hash": "548c07fb1c7af084",
+    "sentences": [
+     [
+      0.1,
+      5.453,
+      "留在家里的双胞胎，以及飞船出发后他过了几年。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Flash": {
+    "duration": 8.808,
+    "hash": "942924818f521fce",
+    "sentences": [
+     [
+      0.1,
+      2.008,
+      "钟里的那束光。"
+     ],
+     [
+      1.958,
+      8.736,
+      "不管钟跑得多快，这束光的速度永远一样，大约每秒三十万千米。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Frame": {
+    "duration": 11.688,
+    "hash": "1c0380cab744467a",
+    "sentences": [
+     [
+      0.1,
+      4.064,
+      "这里写着画面是从谁的视角画的。"
+     ],
+     [
+      4.014,
+      6.417,
+      "点它可以换到另一边。"
+     ],
+     [
+      6.417,
+      11.639,
+      "两种画法同样正确，只是对“谁在动”看法不同。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Front": {
+    "duration": 9.336,
+    "hash": "f83b1694bfa8757c",
+    "sentences": [
+     [
+      0.1,
+      2.147,
+      "车头的感应器。"
+     ],
+     [
+      2.097,
+      9.264,
+      "从站台上看，车头在躲着光往前跑，所以光要更久才追得上它。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Gamma": {
+    "duration": 12.408,
+    "hash": "fc78c8bb9d7f4dd6",
+    "sentences": [
+     [
+      0.1,
+      6.133,
+      "伽马就是变慢的倍数，等于一除以根号下一减速度的平方。"
+     ],
+     [
+      6.083,
+      12.347,
+      "日常速度下它几乎正好是一，接近光速时它会无限变大。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Grid": {
+    "duration": 8.856,
+    "hash": "14591a93c30f1df3",
+    "sentences": [
+     [
+      0.1,
+      5.911,
+      "时空图：横向是离地球的距离，纵向是地球的时间。"
+     ],
+     [
+      5.861,
+      8.806,
+      "一光年画得和一年一样长。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Ground": {
+    "duration": 8.568,
+    "hash": "75dd966fe7f80b1a",
+    "sentences": [
+     [
+      0.1,
+      2.231,
+      "这是地面这一层。"
+     ],
+     [
+      2.181,
+      8.5,
+      "当你坐在飞船上时，地面和上面的一切都在往后飞过你身边。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_GroundClock": {
+    "duration": 10.032,
+    "hash": "763c6b8170d9948a",
+    "sentences": [
+     [
+      0.1,
+      2.064,
+      "地面上的光钟。"
+     ],
+     [
+      2.014,
+      9.972,
+      "对站在它旁边的人来说，光就是在两面镜子间上下来回，每来回一次滴答一下。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Jump": {
+    "duration": 14.04,
+    "hash": "b9d88dff8a87eb77",
+    "sentences": [
+     [
+      0.1,
+      1.939,
+      "这就是跳跃。"
+     ],
+     [
+      1.889,
+      10.028,
+      "掉头前一刻，旅行者的“此刻”在地球上还很早；掉头后一刻，就一下子变晚了。"
+     ],
+     [
+      10.028,
+      13.972,
+      "中间这几年，就在掉头时被跳过了。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Lamp": {
+    "duration": 8.304,
+    "hash": "186efec26f5e12e7",
+    "sentences": [
+     [
+      0.1,
+      2.161,
+      "车厢正中的灯。"
+     ],
+     [
+      2.111,
+      5.931,
+      "它在经过站台上那个人的时候闪光。"
+     ],
+     [
+      5.931,
+      8.236,
+      "点它可以再闪一次。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Light": {
+    "duration": 9.6,
+    "hash": "91603b67a433f1e8",
+    "sentences": [
+     [
+      0.1,
+      5.967,
+      "闪光发出的光，不管谁在看，都以同样的速度射向两边。"
+     ],
+     [
+      5.917,
+      9.528,
+      "所有的意外，都来自这一条规则。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_LightLine": {
+    "duration": 9.816,
+    "hash": "aedd981d1c4d82d4",
+    "sentences": [
+     [
+      0.1,
+      5.536,
+      "光在时空中的路线：每年一光年，所以是四十五度。"
+     ],
+     [
+      5.486,
+      9.764,
+      "任何有质量的东西，路线都必须比它陡。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Mirror": {
+    "duration": 8.304,
+    "hash": "97e2f9ca1efa8162",
+    "sentences": [
+     [
+      0.1,
+      2.508,
+      "两面面对面的镜子。"
+     ],
+     [
+      2.458,
+      8.25,
+      "光在它们之间来回反射，上去再下来一趟，算一下滴答。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Now": {
+    "duration": 11.304,
+    "hash": "9935c5e77de4edfa",
+    "sentences": [
+     [
+      0.1,
+      7.425,
+      "地球的“此刻”：一条水平线，因为对地球来说，线上的一切同时发生。"
+     ],
+     [
+      7.375,
+      11.25,
+      "上下拖动可以在旅程中前后移动。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Observer": {
+    "duration": 7.464,
+    "hash": "2773bca6397238c3",
+    "sentences": [
+     [
+      0.1,
+      3.022,
+      "站在地面钟旁边的一个人。"
+     ],
+     [
+      2.972,
+      7.403,
+      "对他来说，地面的钟才是静止的那只。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Origin": {
+    "duration": 10.368,
+    "hash": "4e188bd247a92399",
+    "sentences": [
+     [
+      0.1,
+      3.092,
+      "这里是闪光发生的地方。"
+     ],
+     [
+      3.042,
+      10.306,
+      "光从这一点以同样的速度向两边传开，即使灯本身已经往前走了。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Platform": {
+    "duration": 8.76,
+    "hash": "ce3f27b1d2d5b644",
+    "sentences": [
+     [
+      0.1,
+      4.425,
+      "站台，两者都不动时和火车一样长。"
+     ],
+     [
+      4.375,
+      8.694,
+      "从运动的火车上看，变短的就是站台了。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_PlatformClock": {
+    "duration": 7.08,
+    "hash": "5d3f59413654283e",
+    "sentences": [
+     [
+      0.1,
+      2.342,
+      "站台上那个人的钟。"
+     ],
+     [
+      2.292,
+      7.028,
+      "闪光时它指着零，和火车中间那只钟一样。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_PlatformLength": {
+    "duration": 7.272,
+    "hash": "d8fcd3c8a835c579",
+    "sentences": [
+     [
+      0.1,
+      2.731,
+      "这里量到的站台长度。"
+     ],
+     [
+      2.681,
+      7.222,
+      "当站台是在动的那一方时，变短的就是它。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Rear": {
+    "duration": 8.112,
+    "hash": "79d00537ab70b739",
+    "sentences": [
+     [
+      0.1,
+      2.133,
+      "车尾的感应器。"
+     ],
+     [
+      2.083,
+      8.056,
+      "从站台上看，车尾迎着光冲过去，所以它先被照到。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Ship": {
+    "duration": 10.464,
+    "hash": "75e3862e45ffce93",
+    "sentences": [
+     [
+      0.1,
+      2.217,
+      "这是飞船这一层。"
+     ],
+     [
+      2.167,
+      5.903,
+      "飞船里装着一只和地面一样的光钟。"
+     ],
+     [
+      5.903,
+      10.389,
+      "它看起来是不是在动，要看你选了谁的视角。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipAxes": {
+    "duration": 12.672,
+    "hash": "8fa8d59d14d3fcf1",
+    "sentences": [
+     [
+      0.1,
+      6.967,
+      "去程中飞船自己的时间轴和空间轴，它们从两边向光线靠拢。"
+     ],
+     [
+      6.917,
+      12.611,
+      "对飞船来说，倾斜的空间轴上的一切是同时发生的。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipClock": {
+    "duration": 9.744,
+    "hash": "a910c2c9987f6e5e",
+    "sentences": [
+     [
+      0.1,
+      4.633,
+      "飞船上的光钟，和地面上那只一模一样。"
+     ],
+     [
+      4.583,
+      9.694,
+      "在飞船里看，它的光直上直下，走得分毫不差。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipLine": {
+    "duration": 8.808,
+    "hash": "ad44f783795727f0",
+    "sentences": [
+     [
+      0.1,
+      5.328,
+      "旅行者的线：飞到恒星，急转弯，再飞回家。"
+     ],
+     [
+      5.278,
+      8.736,
+      "两段路上，它的钟都慢伽马倍。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipMarks": {
+    "duration": 9.408,
+    "hash": "f5cf9ce06407d52c",
+    "sentences": [
+     [
+      0.1,
+      5.508,
+      "旅行者那条线上的刻度，旅行者每过一年就有一个。"
+     ],
+     [
+      5.458,
+      9.347,
+      "它们隔得更开，因为飞船的钟走得慢。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_ShipNow": {
+    "duration": 12.144,
+    "hash": "ad481052ba5af5d5",
+    "sentences": [
+     [
+      0.1,
+      6.744,
+      "旅行者的“此刻”线：旅行者认为此时此刻同时发生的所有事。"
+     ],
+     [
+      6.694,
+      12.083,
+      "它是倾斜的，所以和地球那条线交在另一个年份上。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Signals": {
+    "duration": 14.208,
+    "hash": "1d1d93bda06ab753",
+    "sentences": [
+     [
+      0.1,
+      5.772,
+      "生日闪光，每个生日发一次，沿四十五度斜线传播。"
+     ],
+     [
+      5.722,
+      10.097,
+      "绿色从地球发出，粉色从飞船发出。"
+     ],
+     [
+      10.097,
+      14.153,
+      "看它们去程中来得慢，回程中来得快。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Star": {
+    "duration": 11.04,
+    "hash": "1a8973855df10e9e",
+    "sentences": [
+     [
+      0.1,
+      2.564,
+      "旅行者要去的恒星。"
+     ],
+     [
+      2.514,
+      10.972,
+      "对地球来说它有这么远；对朝它飞去的飞船来说，这段距离缩短为伽马分之一。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Strip": {
+    "duration": 7.872,
+    "hash": "84495bc52ff3d189",
+    "sentences": [
+     [
+      0.1,
+      7.856,
+      "此刻每个人在哪里，和上面的图用同样的距离比例：地球、飞船和恒星。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Time": {
+    "duration": 6.96,
+    "hash": "49329ab96e838215",
+    "sentences": [
+     [
+      0.1,
+      3.842,
+      "你所在视角的时间，单位是微秒。"
+     ],
+     [
+      3.792,
+      6.889,
+      "光在一微秒里走三百米。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Train": {
+    "duration": 12.192,
+    "hash": "aaf27a242349e9c1",
+    "sentences": [
+     [
+      0.1,
+      1.786,
+      "这列火车。"
+     ],
+     [
+      1.736,
+      5.083,
+      "在火车上量，它有六百米长。"
+     ],
+     [
+      5.083,
+      12.139,
+      "从站台上看它在跑的时候，它变短了，连窗户和车轮也一起变窄了。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_TrainClocks": {
+    "duration": 9.696,
+    "hash": "0bf5785a3bf467fb",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "火车上的三只钟，是在火车上对好的。"
+     ],
+     [
+      4.139,
+      9.639,
+      "从站台上看，它们并不同步：越靠车头的，越慢。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_TrainLength": {
+    "duration": 11.928,
+    "hash": "a2a3b26091313c68",
+    "sentences": [
+     [
+      0.1,
+      2.703,
+      "这里量到的火车长度。"
+     ],
+     [
+      2.653,
+      8.056,
+      "运动的火车沿运动方向缩短为原来的伽马分之一。"
+     ],
+     [
+      8.056,
+      11.861,
+      "在火车自己上量，永远是六百米。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Traveller": {
+    "duration": 7.992,
+    "hash": "46bc39311e8ecff1",
+    "sentences": [
+     [
+      0.1,
+      4.981,
+      "去旅行的双胞胎，以及按他自己的钟过了几年。"
+     ],
+     [
+      4.931,
+      7.931,
+      "总是少一些，少伽马倍。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Triangle": {
+    "duration": 14.28,
+    "hash": "cbb231f0c63bf95a",
+    "sentences": [
+     [
+      0.1,
+      2.078,
+      "光钟三角形。"
+     ],
+     [
+      2.028,
+      9.278,
+      "斜边是光走的路，底边是钟走的路，竖边是在钟自己看来光走的路。"
+     ],
+     [
+      9.278,
+      14.208,
+      "勾股定理告诉我们，斜着走要多花伽马倍的时间。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Turn": {
+    "duration": 10.224,
+    "hash": "671b6d6253255d5d",
+    "sentences": [
+     [
+      0.1,
+      5.231,
+      "掉头的那一点，旅行者到达恒星后开始回家。"
+     ],
+     [
+      5.181,
+      10.153,
+      "拖动它，可以改变恒星有多远、飞船飞多快。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Watcher": {
+    "duration": 7.44,
+    "hash": "5f1f4ff975ba233d",
+    "sentences": [
+     [
+      0.1,
+      2.3,
+      "站在站台上的人。"
+     ],
+     [
+      2.25,
+      7.375,
+      "灯就在他面前闪光，对他来说，站台是静止的。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Younger": {
+    "duration": 10.008,
+    "hash": "91d0ca997c5e737c",
+    "sentences": [
+     [
+      0.1,
+      2.633,
+      "两个双胞胎的年龄差。"
+     ],
+     [
+      2.583,
+      9.958,
+      "等他们再见面时，这个差距是实实在在的：旅行者真的少过了几年。"
+     ]
+    ]
+   },
+   "Narr_Rel_Obj_Zigzag": {
+    "duration": 14.04,
+    "hash": "3733fe4660fff2e9",
+    "sentences": [
+     [
+      0.1,
+      5.161,
+      "这道锯齿线，是从这边看到的运动的钟里的光。"
+     ],
+     [
+      5.111,
+      10.986,
+      "光在弹的时候，钟还在往前走，所以光走的是斜线。"
+     ],
+     [
+      10.986,
+      13.986,
+      "路更长，每一下也就更久。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_01": {
+    "duration": 12.72,
+    "hash": "96279bb68614f812",
+    "sentences": [
+     [
+      0.1,
+      7.036,
+      "这是一列火车，车厢正中有一盏灯，两头各有一个接收光的感应器。"
+     ],
+     [
+      6.986,
+      12.653,
+      "现在我们坐在火车上，所以火车不动，动的是站台。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_02": {
+    "duration": 7.56,
+    "hash": "b8ca40aa38eae02e",
+    "sentences": [
+     [
+      0.1,
+      1.606,
+      "灯闪了。"
+     ],
+     [
+      1.556,
+      7.5,
+      "光以同样的速度射向车尾和车头，而两头离灯一样远。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_03": {
+    "duration": 7.272,
+    "hash": "61bf29a3f6348c37",
+    "sentences": [
+     [
+      0.1,
+      7.272,
+      "所以在火车上，光正好同时到达车尾和车头，两个感应器一起亮了。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_04": {
+    "duration": 9.888,
+    "hash": "e137cc775730aeae",
+    "sentences": [
+     [
+      0.1,
+      4.356,
+      "现在我们站到站台上，看同一件事。"
+     ],
+     [
+      4.306,
+      9.819,
+      "火车向右飞驰而过，灯会在经过这个人的那一刻闪光。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_05": {
+    "duration": 10.464,
+    "hash": "df617e31c9294f1a",
+    "sentences": [
+     [
+      0.1,
+      6.119,
+      "光还是以同样的速度向两边射出，从闪光的那一点出发。"
+     ],
+     [
+      6.069,
+      10.403,
+      "可是与此同时，整列火车还在往右走。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_06": {
+    "duration": 8.232,
+    "hash": "3e54a9a3da2a7f1d",
+    "sentences": [
+     [
+      0.1,
+      5.356,
+      "车尾正迎着光冲过来，车头却在往前躲着光跑。"
+     ],
+     [
+      5.306,
+      8.181,
+      "那么，光先到达哪一头？"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_07": {
+    "duration": 15.672,
+    "hash": "402f27e56a1d48b2",
+    "sentences": [
+     [
+      0.1,
+      1.439,
+      "车尾。"
+     ],
+     [
+      1.389,
+      6.611,
+      "从站台上看，车尾先被照到，车头要晚一些。"
+     ],
+     [
+      6.611,
+      13.014,
+      "在火车上同时发生的两件事，在站台上看就不是同时的了。"
+     ],
+     [
+      13.014,
+      15.611,
+      "这就是同时的相对性。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_08": {
+    "duration": 15.576,
+    "hash": "93073a2e5b7a356d",
+    "sentences": [
+     [
+      0.1,
+      1.911,
+      "再看看长度。"
+     ],
+     [
+      1.861,
+      8.028,
+      "在火车上量，它有六百米长；可从站台上看，它变短了。"
+     ],
+     [
+      8.028,
+      15.514,
+      "运动的东西会沿着运动方向被压缩，压缩的倍数和钟变慢的伽马一样。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_09": {
+    "duration": 15.96,
+    "hash": "7574a4fec02d4dd5",
+    "sentences": [
+     [
+      0.1,
+      4.522,
+      "这些是火车自己的钟，是在火车上对好的。"
+     ],
+     [
+      4.472,
+      10.264,
+      "可从站台上看，它们并不一致：车头的钟比车尾的慢。"
+     ],
+     [
+      10.264,
+      15.903,
+      "正因为这样，火车上的人和站台上的人才能都是对的。"
+     ]
+    ]
+   },
+   "Narr_Rel_Simultaneity_10": {
+    "duration": 12.888,
+    "hash": "92c1ba1215bd82a9",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      8.264,
+      "改变速度，或者在火车和站台之间切换视角，再看看闪光。"
+     ],
+     [
+      8.264,
+      12.819,
+      "火车越快，两次“照到”之间相差得越多。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_01": {
+    "duration": 14.784,
+    "hash": "923a2c5279cd16ab",
+    "sentences": [
+     [
+      0.1,
+      2.3,
+      "这是一张时空图。"
+     ],
+     [
+      2.25,
+      10.167,
+      "横着走是离地球的距离，单位是光年；往上走是地球上的时间，单位是年。"
+     ],
+     [
+      10.167,
+      14.722,
+      "故事里的每一个瞬间，都是这张图上的一个点。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_02": {
+    "duration": 11.376,
+    "hash": "a0288b93fbe83ce6",
+    "sentences": [
+     [
+      0.1,
+      2.689,
+      "一个双胞胎留在家里。"
+     ],
+     [
+      2.639,
+      7.347,
+      "地球哪儿也不去，所以他的线是笔直向上的。"
+     ],
+     [
+      7.347,
+      11.306,
+      "线上每个刻度，就是又过了一个生日。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_03": {
+    "duration": 12.792,
+    "hash": "73261f87f93e711b",
+    "sentences": [
+     [
+      0.1,
+      6.661,
+      "光每年走一光年，所以在这张图上，它走的是四十五度的斜线。"
+     ],
+     [
+      6.611,
+      12.736,
+      "没有东西比光快，所以任何东西的线都不可能比它更平。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_04": {
+    "duration": 10.656,
+    "hash": "c600ab34d943640c",
+    "sentences": [
+     [
+      0.1,
+      8.175,
+      "另一个双胞胎以八成光速飞向四光年外的一颗恒星，掉头，再直接飞回来。"
+     ],
+     [
+      8.125,
+      10.597,
+      "就是这条拐了弯的线。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_05": {
+    "duration": 7.344,
+    "hash": "9b0d4b8c1c416d60",
+    "sentences": [
+     [
+      0.1,
+      3.578,
+      "在地球上，整个旅程要十年。"
+     ],
+     [
+      3.528,
+      7.278,
+      "旅行者回到家时，自己长了几岁？"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_06": {
+    "duration": 16.008,
+    "hash": "190ac479f33dbce6",
+    "sentences": [
+     [
+      0.1,
+      1.453,
+      "六岁。"
+     ],
+     [
+      1.403,
+      9.722,
+      "飞船的钟一路都走得慢，所以旅行者回家时比他的双胞胎兄弟年轻了四岁。"
+     ],
+     [
+      9.722,
+      15.958,
+      "数数刻度：地球的线上有十个，飞船的线上只有六个。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_07": {
+    "duration": 17.28,
+    "hash": "40058a202555e2e3",
+    "sentences": [
+     [
+      0.1,
+      1.425,
+      "等一下。"
+     ],
+     [
+      1.375,
+      4.958,
+      "从飞船上看，不是地球在动吗？"
+     ],
+     [
+      4.958,
+      7.056,
+      "为什么不是反过来？"
+     ],
+     [
+      7.056,
+      9.722,
+      "因为只有旅行者掉了头。"
+     ],
+     [
+      9.722,
+      17.222,
+      "旅行者从一种视角换到了另一种视角，而留在家的那个从来没换过。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_08": {
+    "duration": 21.96,
+    "hash": "63e64bf32c64220e",
+    "sentences": [
+     [
+      0.1,
+      6.272,
+      "这些紫色的线，表示旅行者把地球上的哪一刻叫做“此刻”。"
+     ],
+     [
+      6.222,
+      10.528,
+      "去程中，旅行者看地球的钟也是慢的。"
+     ],
+     [
+      10.528,
+      17.278,
+      "可一掉头，旅行者的“此刻”在地球上一下子往前跳了好几年。"
+     ],
+     [
+      17.278,
+      21.903,
+      "留在家的那个多出来的岁数，就是从这里来的。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_09": {
+    "duration": 17.136,
+    "hash": "8b67f43b1570b67c",
+    "sentences": [
+     [
+      0.1,
+      4.661,
+      "再假设两人每过一个生日就发一次闪光。"
+     ],
+     [
+      4.611,
+      11.486,
+      "去程中，旅行者收到地球的闪光很慢；回程中，又收得很快。"
+     ],
+     [
+      11.486,
+      17.069,
+      "每一次闪光两人都认同，最后算下来正好对得上。"
+     ]
+    ]
+   },
+   "Narr_Rel_Twins_10": {
+    "duration": 12.672,
+    "hash": "fe9746e8c4787725",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      7.111,
+      "拖动掉头的那一点，改变旅行者飞多远、飞多快。"
+     ],
+     [
+      7.111,
+      12.611,
+      "拐弯的线越贴近光线，旅行者回家时就越年轻。"
      ]
     ]
    },

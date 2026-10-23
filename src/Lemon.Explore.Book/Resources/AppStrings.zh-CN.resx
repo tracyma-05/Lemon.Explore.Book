@@ -5709,6 +5709,18 @@
   <data name="Grid_Speed" xml:space="preserve">
     <value>播放速度</value>
   </data>
+  <data name="Grid_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Grid_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Grid_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Grid_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
   <data name="Grid_Stat_Angle" xml:space="preserve">
     <value>线圈角度</value>
   </data>
@@ -14436,6 +14448,222 @@
   <data name="Narr_Rain_Sky_08" xml:space="preserve">
     <value>轮到你了。上下拖动天空来改变太阳的高度，看彩虹怎样升起和落下。</value>
   </data>
+  <data name="Narr_Rel_LightClock_01" xml:space="preserve">
+    <value>这是一只光钟。一束光在两面镜子之间来回弹，每上去再下来一次，钟就“滴答”一下。地面上这只钟是静止的，所以它的光就是直直地上下跑。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_02" xml:space="preserve">
+    <value>上面这只一模一样的钟，装在一艘飞船里，正以六成光速飞过。对飞船上的人来说，一切都很正常：他们的光也是直上直下的。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_03" xml:space="preserve">
+    <value>可是从地面上看呢？光往上跑的时候，飞船也在往前走。所以光得沿着一条斜线跑，画出一道锯齿线。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_04" xml:space="preserve">
+    <value>关键来了。光速对谁都是一样的，而斜着走的路更长。那么，从地面上看，飞船的钟是走得更快、更慢，还是一样？</value>
+  </data>
+  <data name="Narr_Rel_LightClock_05" xml:space="preserve">
+    <value>更慢。看看两个计数：飞船的钟越落越远。同样的速度，路更长，就要花更多时间，所以它的每一下都更久。这就叫时间膨胀。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_06" xml:space="preserve">
+    <value>这个三角形告诉我们慢多少。斜边是光走的路，底边是飞船走的路，竖着的那条边是两面镜子的距离。用勾股定理，就能算出一个数，叫伽马。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_07" xml:space="preserve">
+    <value>我们再快一点，到九成光速。锯齿线被拉得平多了，伽马也超过了二：飞船的钟滴答的次数还不到地面的一半。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_08" xml:space="preserve">
+    <value>现在我们坐到飞船上去。对我们来说，飞船不动，地面在往后飞。看：这回是地面的光在走锯齿线，地面的钟变慢了。双方都看到对方的钟慢，而且都对。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_09" xml:space="preserve">
+    <value>这可不只是想象。高空中会产生一种叫 μ 子的小粒子，它们只能活大约两百万分之一秒，大多数本该在落地前很久就消失了。可我们在地面上能接到很多，就是因为它们的时间变慢了。</value>
+  </data>
+  <data name="Narr_Rel_LightClock_10" xml:space="preserve">
+    <value>轮到你了。在画面上左右拖动，或者用滑块，改变飞船的速度。注意看，速度低的时候几乎没什么变化，可一接近光速，伽马就猛地往上蹿。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Counter" xml:space="preserve">
+    <value>这里数的是每只钟滴答了几下，小表盘显示的是每只钟自己的时间。在这个画面里运动的那只钟会落后。</value>
+  </data>
+  <data name="Narr_Rel_Obj_EarthLine" xml:space="preserve">
+    <value>留在家里那个的线。地球不动，所以这条线笔直地沿时间往上走。</value>
+  </data>
+  <data name="Narr_Rel_Obj_EarthMarks" xml:space="preserve">
+    <value>地球那条线上的刻度，留在家里的那个每过一年就有一个。</value>
+  </data>
+  <data name="Narr_Rel_Obj_EarthTwin" xml:space="preserve">
+    <value>留在家里的双胞胎，以及飞船出发后他过了几年。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Flash" xml:space="preserve">
+    <value>钟里的那束光。不管钟跑得多快，这束光的速度永远一样，大约每秒三十万千米。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Frame" xml:space="preserve">
+    <value>这里写着画面是从谁的视角画的。点它可以换到另一边。两种画法同样正确，只是对“谁在动”看法不同。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Front" xml:space="preserve">
+    <value>车头的感应器。从站台上看，车头在躲着光往前跑，所以光要更久才追得上它。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Gamma" xml:space="preserve">
+    <value>伽马就是变慢的倍数，等于一除以根号下一减速度的平方。日常速度下它几乎正好是一，接近光速时它会无限变大。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Grid" xml:space="preserve">
+    <value>时空图：横向是离地球的距离，纵向是地球的时间。一光年画得和一年一样长。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Ground" xml:space="preserve">
+    <value>这是地面这一层。当你坐在飞船上时，地面和上面的一切都在往后飞过你身边。</value>
+  </data>
+  <data name="Narr_Rel_Obj_GroundClock" xml:space="preserve">
+    <value>地面上的光钟。对站在它旁边的人来说，光就是在两面镜子间上下来回，每来回一次滴答一下。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Jump" xml:space="preserve">
+    <value>这就是跳跃。掉头前一刻，旅行者的“此刻”在地球上还很早；掉头后一刻，就一下子变晚了。中间这几年，就在掉头时被跳过了。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Lamp" xml:space="preserve">
+    <value>车厢正中的灯。它在经过站台上那个人的时候闪光。点它可以再闪一次。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Light" xml:space="preserve">
+    <value>闪光发出的光，不管谁在看，都以同样的速度射向两边。所有的意外，都来自这一条规则。</value>
+  </data>
+  <data name="Narr_Rel_Obj_LightLine" xml:space="preserve">
+    <value>光在时空中的路线：每年一光年，所以是四十五度。任何有质量的东西，路线都必须比它陡。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Mirror" xml:space="preserve">
+    <value>两面面对面的镜子。光在它们之间来回反射，上去再下来一趟，算一下滴答。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Now" xml:space="preserve">
+    <value>地球的“此刻”：一条水平线，因为对地球来说，线上的一切同时发生。上下拖动可以在旅程中前后移动。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Observer" xml:space="preserve">
+    <value>站在地面钟旁边的一个人。对他来说，地面的钟才是静止的那只。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Origin" xml:space="preserve">
+    <value>这里是闪光发生的地方。光从这一点以同样的速度向两边传开，即使灯本身已经往前走了。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Platform" xml:space="preserve">
+    <value>站台，两者都不动时和火车一样长。从运动的火车上看，变短的就是站台了。</value>
+  </data>
+  <data name="Narr_Rel_Obj_PlatformClock" xml:space="preserve">
+    <value>站台上那个人的钟。闪光时它指着零，和火车中间那只钟一样。</value>
+  </data>
+  <data name="Narr_Rel_Obj_PlatformLength" xml:space="preserve">
+    <value>这里量到的站台长度。当站台是在动的那一方时，变短的就是它。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Rear" xml:space="preserve">
+    <value>车尾的感应器。从站台上看，车尾迎着光冲过去，所以它先被照到。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Ship" xml:space="preserve">
+    <value>这是飞船这一层。飞船里装着一只和地面一样的光钟。它看起来是不是在动，要看你选了谁的视角。</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipAxes" xml:space="preserve">
+    <value>去程中飞船自己的时间轴和空间轴，它们从两边向光线靠拢。对飞船来说，倾斜的空间轴上的一切是同时发生的。</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipClock" xml:space="preserve">
+    <value>飞船上的光钟，和地面上那只一模一样。在飞船里看，它的光直上直下，走得分毫不差。</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipLine" xml:space="preserve">
+    <value>旅行者的线：飞到恒星，急转弯，再飞回家。两段路上，它的钟都慢伽马倍。</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipMarks" xml:space="preserve">
+    <value>旅行者那条线上的刻度，旅行者每过一年就有一个。它们隔得更开，因为飞船的钟走得慢。</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipNow" xml:space="preserve">
+    <value>旅行者的“此刻”线：旅行者认为此时此刻同时发生的所有事。它是倾斜的，所以和地球那条线交在另一个年份上。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Signals" xml:space="preserve">
+    <value>生日闪光，每个生日发一次，沿四十五度斜线传播。绿色从地球发出，粉色从飞船发出。看它们去程中来得慢，回程中来得快。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Star" xml:space="preserve">
+    <value>旅行者要去的恒星。对地球来说它有这么远；对朝它飞去的飞船来说，这段距离缩短为伽马分之一。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Strip" xml:space="preserve">
+    <value>此刻每个人在哪里，和上面的图用同样的距离比例：地球、飞船和恒星。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Time" xml:space="preserve">
+    <value>你所在视角的时间，单位是微秒。光在一微秒里走三百米。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Train" xml:space="preserve">
+    <value>这列火车。在火车上量，它有六百米长。从站台上看它在跑的时候，它变短了，连窗户和车轮也一起变窄了。</value>
+  </data>
+  <data name="Narr_Rel_Obj_TrainClocks" xml:space="preserve">
+    <value>火车上的三只钟，是在火车上对好的。从站台上看，它们并不同步：越靠车头的，越慢。</value>
+  </data>
+  <data name="Narr_Rel_Obj_TrainLength" xml:space="preserve">
+    <value>这里量到的火车长度。运动的火车沿运动方向缩短为原来的伽马分之一。在火车自己上量，永远是六百米。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Traveller" xml:space="preserve">
+    <value>去旅行的双胞胎，以及按他自己的钟过了几年。总是少一些，少伽马倍。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Triangle" xml:space="preserve">
+    <value>光钟三角形。斜边是光走的路，底边是钟走的路，竖边是在钟自己看来光走的路。勾股定理告诉我们，斜着走要多花伽马倍的时间。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Turn" xml:space="preserve">
+    <value>掉头的那一点，旅行者到达恒星后开始回家。拖动它，可以改变恒星有多远、飞船飞多快。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Watcher" xml:space="preserve">
+    <value>站在站台上的人。灯就在他面前闪光，对他来说，站台是静止的。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Younger" xml:space="preserve">
+    <value>两个双胞胎的年龄差。等他们再见面时，这个差距是实实在在的：旅行者真的少过了几年。</value>
+  </data>
+  <data name="Narr_Rel_Obj_Zigzag" xml:space="preserve">
+    <value>这道锯齿线，是从这边看到的运动的钟里的光。光在弹的时候，钟还在往前走，所以光走的是斜线。路更长，每一下也就更久。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_01" xml:space="preserve">
+    <value>这是一列火车，车厢正中有一盏灯，两头各有一个接收光的感应器。现在我们坐在火车上，所以火车不动，动的是站台。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_02" xml:space="preserve">
+    <value>灯闪了。光以同样的速度射向车尾和车头，而两头离灯一样远。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_03" xml:space="preserve">
+    <value>所以在火车上，光正好同时到达车尾和车头，两个感应器一起亮了。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_04" xml:space="preserve">
+    <value>现在我们站到站台上，看同一件事。火车向右飞驰而过，灯会在经过这个人的那一刻闪光。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_05" xml:space="preserve">
+    <value>光还是以同样的速度向两边射出，从闪光的那一点出发。可是与此同时，整列火车还在往右走。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_06" xml:space="preserve">
+    <value>车尾正迎着光冲过来，车头却在往前躲着光跑。那么，光先到达哪一头？</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_07" xml:space="preserve">
+    <value>车尾。从站台上看，车尾先被照到，车头要晚一些。在火车上同时发生的两件事，在站台上看就不是同时的了。这就是同时的相对性。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_08" xml:space="preserve">
+    <value>再看看长度。在火车上量，它有六百米长；可从站台上看，它变短了。运动的东西会沿着运动方向被压缩，压缩的倍数和钟变慢的伽马一样。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_09" xml:space="preserve">
+    <value>这些是火车自己的钟，是在火车上对好的。可从站台上看，它们并不一致：车头的钟比车尾的慢。正因为这样，火车上的人和站台上的人才能都是对的。</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_10" xml:space="preserve">
+    <value>轮到你了。改变速度，或者在火车和站台之间切换视角，再看看闪光。火车越快，两次“照到”之间相差得越多。</value>
+  </data>
+  <data name="Narr_Rel_Twins_01" xml:space="preserve">
+    <value>这是一张时空图。横着走是离地球的距离，单位是光年；往上走是地球上的时间，单位是年。故事里的每一个瞬间，都是这张图上的一个点。</value>
+  </data>
+  <data name="Narr_Rel_Twins_02" xml:space="preserve">
+    <value>一个双胞胎留在家里。地球哪儿也不去，所以他的线是笔直向上的。线上每个刻度，就是又过了一个生日。</value>
+  </data>
+  <data name="Narr_Rel_Twins_03" xml:space="preserve">
+    <value>光每年走一光年，所以在这张图上，它走的是四十五度的斜线。没有东西比光快，所以任何东西的线都不可能比它更平。</value>
+  </data>
+  <data name="Narr_Rel_Twins_04" xml:space="preserve">
+    <value>另一个双胞胎以八成光速飞向四光年外的一颗恒星，掉头，再直接飞回来。就是这条拐了弯的线。</value>
+  </data>
+  <data name="Narr_Rel_Twins_05" xml:space="preserve">
+    <value>在地球上，整个旅程要十年。旅行者回到家时，自己长了几岁？</value>
+  </data>
+  <data name="Narr_Rel_Twins_06" xml:space="preserve">
+    <value>六岁。飞船的钟一路都走得慢，所以旅行者回家时比他的双胞胎兄弟年轻了四岁。数数刻度：地球的线上有十个，飞船的线上只有六个。</value>
+  </data>
+  <data name="Narr_Rel_Twins_07" xml:space="preserve">
+    <value>等一下。从飞船上看，不是地球在动吗？为什么不是反过来？因为只有旅行者掉了头。旅行者从一种视角换到了另一种视角，而留在家的那个从来没换过。</value>
+  </data>
+  <data name="Narr_Rel_Twins_08" xml:space="preserve">
+    <value>这些紫色的线，表示旅行者把地球上的哪一刻叫做“此刻”。去程中，旅行者看地球的钟也是慢的。可一掉头，旅行者的“此刻”在地球上一下子往前跳了好几年。留在家的那个多出来的岁数，就是从这里来的。</value>
+  </data>
+  <data name="Narr_Rel_Twins_09" xml:space="preserve">
+    <value>再假设两人每过一个生日就发一次闪光。去程中，旅行者收到地球的闪光很慢；回程中，又收得很快。每一次闪光两人都认同，最后算下来正好对得上。</value>
+  </data>
+  <data name="Narr_Rel_Twins_10" xml:space="preserve">
+    <value>轮到你了。拖动掉头的那一点，改变旅行者飞多远、飞多快。拐弯的线越贴近光线，旅行者回家时就越年轻。</value>
+  </data>
   <data name="Narr_Retro_Above_01" xml:space="preserve">
     <value>现在我们飞到太阳的正上方往下看。这是地球和火星的轨道，按真实比例画的。它们都朝同一个方向转。</value>
   </data>
@@ -20087,6 +20315,663 @@
   </data>
   <data name="Rain_Title" xml:space="preserve">
     <value>折射与彩虹</value>
+  </data>
+  <data name="Rel_Chart_Age" xml:space="preserve">
+    <value>长了几岁</value>
+  </data>
+  <data name="Rel_Chart_EarthTwin" xml:space="preserve">
+    <value>地球上的</value>
+  </data>
+  <data name="Rel_Chart_EarthYears" xml:space="preserve">
+    <value>地球上的时间（年）</value>
+  </data>
+  <data name="Rel_Chart_Everyday" xml:space="preserve">
+    <value>日常速度：γ ≈ 1</value>
+  </data>
+  <data name="Rel_Chart_Gamma" xml:space="preserve">
+    <value>γ</value>
+  </data>
+  <data name="Rel_Chart_GammaDot" xml:space="preserve">
+    <value>γ = {0}</value>
+  </data>
+  <data name="Rel_Chart_LightClock_Caption" xml:space="preserve">
+    <value>运动的钟慢多少</value>
+  </data>
+  <data name="Rel_Chart_LightClock_Note" xml:space="preserve">
+    <value>在日常速度下 γ 几乎就是 1，接近光速时才猛地往上冲。点击或拖动图表可以设定速度。</value>
+  </data>
+  <data name="Rel_Chart_LightLimit" xml:space="preserve">
+    <value>光速</value>
+  </data>
+  <data name="Rel_Chart_Metres" xml:space="preserve">
+    <value>长度（米）</value>
+  </data>
+  <data name="Rel_Chart_MetresDot" xml:space="preserve">
+    <value>{0} 米</value>
+  </data>
+  <data name="Rel_Chart_Simultaneity_Caption" xml:space="preserve">
+    <value>从站台上看，600 米的火车有多长</value>
+  </data>
+  <data name="Rel_Chart_Simultaneity_Note" xml:space="preserve">
+    <value>只有沿着运动方向的长度缩短，缩短为原来的 1/γ；高度不变。点击或拖动图表可以设定速度。</value>
+  </data>
+  <data name="Rel_Chart_Speed" xml:space="preserve">
+    <value>速度（c）</value>
+  </data>
+  <data name="Rel_Chart_Traveller" xml:space="preserve">
+    <value>旅行者</value>
+  </data>
+  <data name="Rel_Chart_Twins_Caption" xml:space="preserve">
+    <value>两个双胞胎各长了几岁</value>
+  </data>
+  <data name="Rel_Chart_Twins_Note" xml:space="preserve">
+    <value>地球上的那个每年长一岁；旅行者一路上都慢 γ 倍。点击或拖动图表可以在旅程中前后移动。</value>
+  </data>
+  <data name="Rel_Clock_GammaPill" xml:space="preserve">
+    <value>速度 {0} c · γ = {1}</value>
+  </data>
+  <data name="Rel_Clock_GroundTicks" xml:space="preserve">
+    <value>地面的钟：{0} 下</value>
+  </data>
+  <data name="Rel_Clock_Ground_Text" xml:space="preserve">
+    <value>从地面看，飞船里的光得沿着斜斜的锯齿线走。速度一样，路更长，就要更久，所以它的每一下都要多花 γ 倍的时间。</value>
+  </data>
+  <data name="Rel_Clock_Ground_Title" xml:space="preserve">
+    <value>飞船的钟落后了</value>
+  </data>
+  <data name="Rel_Clock_ShipTicks" xml:space="preserve">
+    <value>飞船的钟：{0} 下</value>
+  </data>
+  <data name="Rel_Clock_Ship_Text" xml:space="preserve">
+    <value>坐在飞船上，地面在往后飞：现在是地面的光走锯齿线，地面的钟变慢了。双方都看到对方的钟慢，而且都没错。</value>
+  </data>
+  <data name="Rel_Clock_Ship_Title" xml:space="preserve">
+    <value>这回是地面的钟慢了</value>
+  </data>
+  <data name="Rel_Clock_Still_Text" xml:space="preserve">
+    <value>飞船几乎不动，它的光也几乎是直上直下，和地面的一样，两只钟一起滴答。</value>
+  </data>
+  <data name="Rel_Clock_Still_Title" xml:space="preserve">
+    <value>两只钟走得一样快</value>
+  </data>
+  <data name="Rel_Distance" xml:space="preserve">
+    <value>恒星的距离</value>
+  </data>
+  <data name="Rel_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Rel_FlashAgain" xml:space="preserve">
+    <value>再闪一次</value>
+  </data>
+  <data name="Rel_Frame_Caption" xml:space="preserve">
+    <value>从哪边看</value>
+  </data>
+  <data name="Rel_Frame_Ground" xml:space="preserve">
+    <value>地面</value>
+  </data>
+  <data name="Rel_Frame_Platform" xml:space="preserve">
+    <value>站台</value>
+  </data>
+  <data name="Rel_Frame_SeenFromGround" xml:space="preserve">
+    <value>视角：地面</value>
+  </data>
+  <data name="Rel_Frame_SeenFromPlatform" xml:space="preserve">
+    <value>视角：站台</value>
+  </data>
+  <data name="Rel_Frame_SeenFromShip" xml:space="preserve">
+    <value>视角：飞船</value>
+  </data>
+  <data name="Rel_Frame_SeenFromTrain" xml:space="preserve">
+    <value>视角：火车</value>
+  </data>
+  <data name="Rel_Frame_Ship" xml:space="preserve">
+    <value>飞船</value>
+  </data>
+  <data name="Rel_Frame_Train" xml:space="preserve">
+    <value>火车</value>
+  </data>
+  <data name="Rel_Hint_LightClock" xml:space="preserve">
+    <value>左右拖动可以改变速度；点“视角”标签可以换到另一边去看。</value>
+  </data>
+  <data name="Rel_Hint_Simultaneity" xml:space="preserve">
+    <value>左右拖动可以改变速度；点车顶的灯让它再闪一次。</value>
+  </data>
+  <data name="Rel_Hint_Twins" xml:space="preserve">
+    <value>上下拖动可以在旅程中前后移动；拖动掉头的那一点可以改变旅程。</value>
+  </data>
+  <data name="Rel_Lane_Ground" xml:space="preserve">
+    <value>地面上</value>
+  </data>
+  <data name="Rel_Lane_Ship" xml:space="preserve">
+    <value>飞船上</value>
+  </data>
+  <data name="Rel_Lesson_LightClock_Choice1" xml:space="preserve">
+    <value>更慢</value>
+  </data>
+  <data name="Rel_Lesson_LightClock_Choice2" xml:space="preserve">
+    <value>更快</value>
+  </data>
+  <data name="Rel_Lesson_LightClock_Choice3" xml:space="preserve">
+    <value>一样快</value>
+  </data>
+  <data name="Rel_Lesson_Simultaneity_Choice1" xml:space="preserve">
+    <value>车尾</value>
+  </data>
+  <data name="Rel_Lesson_Simultaneity_Choice2" xml:space="preserve">
+    <value>车头</value>
+  </data>
+  <data name="Rel_Lesson_Simultaneity_Choice3" xml:space="preserve">
+    <value>同时</value>
+  </data>
+  <data name="Rel_Lesson_Twins_Choice1" xml:space="preserve">
+    <value>6 岁</value>
+  </data>
+  <data name="Rel_Lesson_Twins_Choice2" xml:space="preserve">
+    <value>10 岁</value>
+  </data>
+  <data name="Rel_Lesson_Twins_Choice3" xml:space="preserve">
+    <value>14 岁</value>
+  </data>
+  <data name="Rel_LightClock_Fact1" xml:space="preserve">
+    <value>爱因斯坦在 1905 年用两条想法建立了狭义相对论：对所有匀速运动的人，物理规律都一样；光速对他们也都一样。</value>
+  </data>
+  <data name="Rel_LightClock_Fact2" xml:space="preserve">
+    <value>宇宙射线在约 15 千米高空打出的 μ 子，寿命只有约 220 万分之一秒。就算接近光速也只能走约 660 米——可还是有很多到达地面，因为它们的时间变慢了。</value>
+  </data>
+  <data name="Rel_LightClock_Fact3" xml:space="preserve">
+    <value>GPS 卫星的速度让它的钟每天慢约 7 微秒；而它在高处、引力较弱，又让钟每天快约 45 微秒。系统把这两个都修正了。</value>
+  </data>
+  <data name="Rel_LightClock_Fact4" xml:space="preserve">
+    <value>1971 年，哈费勒和基廷把原子钟放在客机上绕地球飞了一圈。和留在地面的钟比，它们差出的那一点点，正好是相对论预言的。</value>
+  </data>
+  <data name="Rel_LightClock_Fact5" xml:space="preserve">
+    <value>以喷气式客机的速度，约每秒 250 米，γ 是 1.00000000000035：要飞大约 9 万年才会慢 1 秒。</value>
+  </data>
+  <data name="Rel_LightClock_Note" xml:space="preserve">
+    <value>两只一模一样的光钟：一束光在两面镜子之间来回反射，上去再下来算一下“滴答”。对谁来说，光速都一样。</value>
+  </data>
+  <data name="Rel_LightClock_Panel_Note" xml:space="preserve">
+    <value>c 是光速，约每秒 30 万千米。改变速度或换一边看时，两只钟都会归零。</value>
+  </data>
+  <data name="Rel_LightClock_Subtitle" xml:space="preserve">
+    <value>运动的钟走得慢</value>
+  </data>
+  <data name="Rel_Mode_LightClock" xml:space="preserve">
+    <value>光钟</value>
+  </data>
+  <data name="Rel_Mode_Simultaneity" xml:space="preserve">
+    <value>火车实验</value>
+  </data>
+  <data name="Rel_Mode_Twins" xml:space="preserve">
+    <value>双生子</value>
+  </data>
+  <data name="Rel_Obj_Counter" xml:space="preserve">
+    <value>滴答计数</value>
+  </data>
+  <data name="Rel_Obj_EarthLine" xml:space="preserve">
+    <value>地球上那个的线</value>
+  </data>
+  <data name="Rel_Obj_EarthMarks" xml:space="preserve">
+    <value>地球上的生日刻度</value>
+  </data>
+  <data name="Rel_Obj_EarthTwin" xml:space="preserve">
+    <value>地球上的双胞胎</value>
+  </data>
+  <data name="Rel_Obj_Flash" xml:space="preserve">
+    <value>那束光</value>
+  </data>
+  <data name="Rel_Obj_Frame" xml:space="preserve">
+    <value>视角</value>
+  </data>
+  <data name="Rel_Obj_Front" xml:space="preserve">
+    <value>车头</value>
+  </data>
+  <data name="Rel_Obj_Gamma" xml:space="preserve">
+    <value>伽马（γ）</value>
+  </data>
+  <data name="Rel_Obj_Grid" xml:space="preserve">
+    <value>时空图</value>
+  </data>
+  <data name="Rel_Obj_Ground" xml:space="preserve">
+    <value>地面</value>
+  </data>
+  <data name="Rel_Obj_GroundClock" xml:space="preserve">
+    <value>地面上的光钟</value>
+  </data>
+  <data name="Rel_Obj_Jump" xml:space="preserve">
+    <value>掉头时的跳跃</value>
+  </data>
+  <data name="Rel_Obj_Lamp" xml:space="preserve">
+    <value>车顶的灯</value>
+  </data>
+  <data name="Rel_Obj_Light" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Rel_Obj_LightLine" xml:space="preserve">
+    <value>光的路线</value>
+  </data>
+  <data name="Rel_Obj_Mirror" xml:space="preserve">
+    <value>镜子</value>
+  </data>
+  <data name="Rel_Obj_Now" xml:space="preserve">
+    <value>地球的“此刻”</value>
+  </data>
+  <data name="Rel_Obj_Observer" xml:space="preserve">
+    <value>地面上的人</value>
+  </data>
+  <data name="Rel_Obj_Origin" xml:space="preserve">
+    <value>闪光发生的地方</value>
+  </data>
+  <data name="Rel_Obj_Platform" xml:space="preserve">
+    <value>站台</value>
+  </data>
+  <data name="Rel_Obj_PlatformClock" xml:space="preserve">
+    <value>站台上的钟</value>
+  </data>
+  <data name="Rel_Obj_PlatformLength" xml:space="preserve">
+    <value>站台的长度</value>
+  </data>
+  <data name="Rel_Obj_Rear" xml:space="preserve">
+    <value>车尾</value>
+  </data>
+  <data name="Rel_Obj_Ship" xml:space="preserve">
+    <value>飞船</value>
+  </data>
+  <data name="Rel_Obj_ShipAxes" xml:space="preserve">
+    <value>飞船的坐标轴</value>
+  </data>
+  <data name="Rel_Obj_ShipClock" xml:space="preserve">
+    <value>飞船上的光钟</value>
+  </data>
+  <data name="Rel_Obj_ShipLine" xml:space="preserve">
+    <value>旅行者的线</value>
+  </data>
+  <data name="Rel_Obj_ShipMarks" xml:space="preserve">
+    <value>旅行者的生日刻度</value>
+  </data>
+  <data name="Rel_Obj_ShipNow" xml:space="preserve">
+    <value>旅行者的“此刻”</value>
+  </data>
+  <data name="Rel_Obj_Signals" xml:space="preserve">
+    <value>生日闪光</value>
+  </data>
+  <data name="Rel_Obj_Star" xml:space="preserve">
+    <value>恒星</value>
+  </data>
+  <data name="Rel_Obj_Strip" xml:space="preserve">
+    <value>此刻在太空中</value>
+  </data>
+  <data name="Rel_Obj_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Rel_Obj_Train" xml:space="preserve">
+    <value>火车</value>
+  </data>
+  <data name="Rel_Obj_TrainClocks" xml:space="preserve">
+    <value>火车上的钟</value>
+  </data>
+  <data name="Rel_Obj_TrainLength" xml:space="preserve">
+    <value>火车的长度</value>
+  </data>
+  <data name="Rel_Obj_Traveller" xml:space="preserve">
+    <value>旅行者</value>
+  </data>
+  <data name="Rel_Obj_Triangle" xml:space="preserve">
+    <value>光钟三角形</value>
+  </data>
+  <data name="Rel_Obj_Turn" xml:space="preserve">
+    <value>掉头的那一点</value>
+  </data>
+  <data name="Rel_Obj_Watcher" xml:space="preserve">
+    <value>站台上的人</value>
+  </data>
+  <data name="Rel_Obj_Younger" xml:space="preserve">
+    <value>年龄差</value>
+  </data>
+  <data name="Rel_Obj_Zigzag" xml:space="preserve">
+    <value>光的锯齿路线</value>
+  </data>
+  <data name="Rel_Option_Axes" xml:space="preserve">
+    <value>飞船的坐标轴</value>
+  </data>
+  <data name="Rel_Option_Clocks" xml:space="preserve">
+    <value>时钟</value>
+  </data>
+  <data name="Rel_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Rel_Option_Lengths" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="Rel_Option_NowLines" xml:space="preserve">
+    <value>旅行者的“此刻”</value>
+  </data>
+  <data name="Rel_Option_Signals" xml:space="preserve">
+    <value>生日闪光</value>
+  </data>
+  <data name="Rel_Option_Trail" xml:space="preserve">
+    <value>光走过的路</value>
+  </data>
+  <data name="Rel_Option_Triangle" xml:space="preserve">
+    <value>三角形</value>
+  </data>
+  <data name="Rel_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格键）</value>
+  </data>
+  <data name="Rel_ResetClocks" xml:space="preserve">
+    <value>两只钟归零</value>
+  </data>
+  <data name="Rel_RestartTrip" xml:space="preserve">
+    <value>重新出发</value>
+  </data>
+  <data name="Rel_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact1" xml:space="preserve">
+    <value>这个火车实验出自爱因斯坦本人 1916 年写给大众的书，书里用的是两道闪电，而不是一盏灯。</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact2" xml:space="preserve">
+    <value>只有在同一个地点发生的事，对所有人都是“同时”的。相隔很远的两件事，先后顺序甚至可以颠倒——但前提是任何信号都来不及从一件传到另一件。</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact3" xml:space="preserve">
+    <value>长度缩短是真实的，但只发生在运动方向上：一个高速飞过的球，按你的同一时刻去量，会被压成一个扁饼。</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact4" xml:space="preserve">
+    <value>粒子加速器每天都看到这些：大型强子对撞机里的质子 γ 约为 7000，一团质子被压得像薄饼一样。</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact5" xml:space="preserve">
+    <value>火车看站台变短了，站台看火车也变短了。这并不矛盾，因为量两端时，他们对哪两个时刻算“同时”意见不同。</value>
+  </data>
+  <data name="Rel_Simultaneity_Note" xml:space="preserve">
+    <value>一列 600 米长的火车驶过一个同样长的站台。车厢正中的灯经过站台上的人时闪一下。时间以微秒计：光一微秒走 300 米。</value>
+  </data>
+  <data name="Rel_Simultaneity_Panel_Note" xml:space="preserve">
+    <value>火车上的钟是在火车上对好的，灯闪的那一刻都指着 0。站台上那个人的钟那一刻也是 0。</value>
+  </data>
+  <data name="Rel_Simultaneity_Subtitle" xml:space="preserve">
+    <value>“同时”取决于谁在看</value>
+  </data>
+  <data name="Rel_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Rel_Speed_Eight" xml:space="preserve">
+    <value>0.8 c</value>
+  </data>
+  <data name="Rel_Speed_Near" xml:space="preserve">
+    <value>0.99 c</value>
+  </data>
+  <data name="Rel_Speed_Six" xml:space="preserve">
+    <value>0.6 c</value>
+  </data>
+  <data name="Rel_Speed_Tenth" xml:space="preserve">
+    <value>0.1 c</value>
+  </data>
+  <data name="Rel_Stat_EarthWaits" xml:space="preserve">
+    <value>地球上的等了</value>
+  </data>
+  <data name="Rel_Stat_FrontHit" xml:space="preserve">
+    <value>车头被照到</value>
+  </data>
+  <data name="Rel_Stat_Gamma" xml:space="preserve">
+    <value>γ（变慢的倍数）</value>
+  </data>
+  <data name="Rel_Stat_Gap" xml:space="preserve">
+    <value>两次相差</value>
+  </data>
+  <data name="Rel_Stat_GroundTicks" xml:space="preserve">
+    <value>地面的钟</value>
+  </data>
+  <data name="Rel_Stat_Muon" xml:space="preserve">
+    <value>这么快的 μ 子能走</value>
+  </data>
+  <data name="Rel_Stat_PlatformLength" xml:space="preserve">
+    <value>站台长</value>
+  </data>
+  <data name="Rel_Stat_RearHit" xml:space="preserve">
+    <value>车尾被照到</value>
+  </data>
+  <data name="Rel_Stat_ShipLives" xml:space="preserve">
+    <value>旅行者过了</value>
+  </data>
+  <data name="Rel_Stat_ShipTicks" xml:space="preserve">
+    <value>飞船的钟</value>
+  </data>
+  <data name="Rel_Stat_SignalsEarth" xml:space="preserve">
+    <value>地球收到飞船的闪光</value>
+  </data>
+  <data name="Rel_Stat_SignalsShip" xml:space="preserve">
+    <value>飞船收到地球的闪光</value>
+  </data>
+  <data name="Rel_Stat_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Rel_Stat_StarEarth" xml:space="preserve">
+    <value>恒星距离（地球测）</value>
+  </data>
+  <data name="Rel_Stat_StarShip" xml:space="preserve">
+    <value>恒星距离（飞船测）</value>
+  </data>
+  <data name="Rel_Stat_TrainLength" xml:space="preserve">
+    <value>火车长</value>
+  </data>
+  <data name="Rel_Stat_YearOnShip" xml:space="preserve">
+    <value>运动的钟走 365 天的时间里</value>
+  </data>
+  <data name="Rel_Stat_Younger" xml:space="preserve">
+    <value>旅行者年轻</value>
+  </data>
+  <data name="Rel_Title" xml:space="preserve">
+    <value>狭义相对论</value>
+  </data>
+  <data name="Rel_Train_Apart_Text" xml:space="preserve">
+    <value>在站台上，两次“照到”不是同时的：车头晚了 γ·β·L/c。可在火车上它们是同时的。谁都没错——“同时”取决于谁在看。</value>
+  </data>
+  <data name="Rel_Train_Apart_Title" xml:space="preserve">
+    <value>车头晚一些才被照到</value>
+  </data>
+  <data name="Rel_Train_Before_Text" xml:space="preserve">
+    <value>火车正中的灯会在经过站台上那个人的一瞬间闪一下。火车两头各有一个接收光的感应器。</value>
+  </data>
+  <data name="Rel_Train_Before_Title" xml:space="preserve">
+    <value>灯马上要闪了</value>
+  </data>
+  <data name="Rel_Train_Flight_Text" xml:space="preserve">
+    <value>光从闪光的那一点出发，同时射向车尾和车头，速度都是 c——不管是谁在看。</value>
+  </data>
+  <data name="Rel_Train_Flight_Title" xml:space="preserve">
+    <value>光以同样的速度射向两头</value>
+  </data>
+  <data name="Rel_Train_Front" xml:space="preserve">
+    <value>车头</value>
+  </data>
+  <data name="Rel_Train_HitAt" xml:space="preserve">
+    <value>{0} 微秒时被照到</value>
+  </data>
+  <data name="Rel_Train_Length" xml:space="preserve">
+    <value>火车：{0} 米</value>
+  </data>
+  <data name="Rel_Train_LengthShort" xml:space="preserve">
+    <value>火车：{0} 米（静止时 600 米）</value>
+  </data>
+  <data name="Rel_Train_Origin" xml:space="preserve">
+    <value>在这里闪的光</value>
+  </data>
+  <data name="Rel_Train_PlatformLength" xml:space="preserve">
+    <value>站台：{0} 米</value>
+  </data>
+  <data name="Rel_Train_PlatformLengthShort" xml:space="preserve">
+    <value>站台：{0} 米（静止时 600 米）</value>
+  </data>
+  <data name="Rel_Train_PlatformSpeed" xml:space="preserve">
+    <value>站台 ← {0} c</value>
+  </data>
+  <data name="Rel_Train_Rear" xml:space="preserve">
+    <value>车尾</value>
+  </data>
+  <data name="Rel_Train_RearHit_Text" xml:space="preserve">
+    <value>从站台上看，车尾迎着光跑过去，车头却在躲着光往前跑，所以车尾先被照到，车头还得等。</value>
+  </data>
+  <data name="Rel_Train_RearHit_Title" xml:space="preserve">
+    <value>车尾先被照到</value>
+  </data>
+  <data name="Rel_Train_Speed" xml:space="preserve">
+    <value>火车 → {0} c</value>
+  </data>
+  <data name="Rel_Train_TimePlatform" xml:space="preserve">
+    <value>站台时间：{0} 微秒</value>
+  </data>
+  <data name="Rel_Train_TimeTrain" xml:space="preserve">
+    <value>火车时间：{0} 微秒</value>
+  </data>
+  <data name="Rel_Train_Together_Text" xml:space="preserve">
+    <value>在火车上，两头离灯都是 300 米，而且谁也没动，所以光正好同时到达车尾和车头。</value>
+  </data>
+  <data name="Rel_Train_Together_Title" xml:space="preserve">
+    <value>两头同时被照到</value>
+  </data>
+  <data name="Rel_Tri_Along" xml:space="preserve">
+    <value>v·t</value>
+  </data>
+  <data name="Rel_Tri_Pill" xml:space="preserve">
+    <value>(ct)² = (vt)² + (ct₀)²  →  t = {0} × t₀</value>
+  </data>
+  <data name="Rel_Tri_Slant" xml:space="preserve">
+    <value>c·t</value>
+  </data>
+  <data name="Rel_Tri_Up" xml:space="preserve">
+    <value>c·t₀</value>
+  </data>
+  <data name="Rel_Twin_AxisSpace" xml:space="preserve">
+    <value>离地球的距离（光年）</value>
+  </data>
+  <data name="Rel_Twin_AxisTime" xml:space="preserve">
+    <value>地球时间（年）</value>
+  </data>
+  <data name="Rel_Twin_Back_Text" xml:space="preserve">
+    <value>旅行者已经掉头了。回程中飞船的钟同样慢 γ 倍，所以年龄差还在继续变大。</value>
+  </data>
+  <data name="Rel_Twin_Back_Title" xml:space="preserve">
+    <value>回程</value>
+  </data>
+  <data name="Rel_Twin_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Rel_Twin_EarthTwin" xml:space="preserve">
+    <value>地球上的</value>
+  </data>
+  <data name="Rel_Twin_Gap" xml:space="preserve">
+    <value>目前年龄差：{0} 岁</value>
+  </data>
+  <data name="Rel_Twin_HomePill" xml:space="preserve">
+    <value>到家了：旅行者年轻 {0} 岁</value>
+  </data>
+  <data name="Rel_Twin_Home_Text" xml:space="preserve">
+    <value>两人又在同一个地方见面，这回没什么可争的：旅行者真的少过了几年。因为只有旅行者掉过头，两人的经历并不对称。</value>
+  </data>
+  <data name="Rel_Twin_Home_Title" xml:space="preserve">
+    <value>到家了，而且更年轻</value>
+  </data>
+  <data name="Rel_Twin_Jump" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="Rel_Twin_Light" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="Rel_Twin_NowPill" xml:space="preserve">
+    <value>地球：第 {0} 年</value>
+  </data>
+  <data name="Rel_Twin_Out_Text" xml:space="preserve">
+    <value>旅行者那条线上的年刻度在图上隔得更开：飞船的钟比地球的慢 γ 倍。</value>
+  </data>
+  <data name="Rel_Twin_Out_Title" xml:space="preserve">
+    <value>去程</value>
+  </data>
+  <data name="Rel_Twin_ShipSpace" xml:space="preserve">
+    <value>飞船的“同一时刻”</value>
+  </data>
+  <data name="Rel_Twin_ShipTime" xml:space="preserve">
+    <value>飞船的时间轴</value>
+  </data>
+  <data name="Rel_Twin_Speed" xml:space="preserve">
+    <value>旅程速度 {0} c</value>
+  </data>
+  <data name="Rel_Twin_StarName" xml:space="preserve">
+    <value>恒星，{0} 光年</value>
+  </data>
+  <data name="Rel_Twin_Start_Text" xml:space="preserve">
+    <value>一个留在地球上，另一个要飞到那颗恒星再马上飞回来。他们的钟和生日从同一刻开始算。</value>
+  </data>
+  <data name="Rel_Twin_Start_Title" xml:space="preserve">
+    <value>一对同岁的双胞胎</value>
+  </data>
+  <data name="Rel_Twin_Strip" xml:space="preserve">
+    <value>此刻在太空中</value>
+  </data>
+  <data name="Rel_Twin_Traveller" xml:space="preserve">
+    <value>旅行者</value>
+  </data>
+  <data name="Rel_Twin_Turn" xml:space="preserve">
+    <value>掉头</value>
+  </data>
+  <data name="Rel_Twins_Fact1" xml:space="preserve">
+    <value>没有东西能比光快，所以时空图上任何物体的路线，都比 45° 的光线更陡。</value>
+  </data>
+  <data name="Rel_Twins_Fact2" xml:space="preserve">
+    <value>在时空图上，两次相遇之间的直线，是钟走得“最多”的那条路。任何像旅行者那样拐弯的路线，钟走得都更少。</value>
+  </data>
+  <data name="Rel_Twins_Fact3" xml:space="preserve">
+    <value>宇航员斯科特·凯利在空间站待了一年，他的双胞胎兄弟留在地球上。他回来时年轻了几千分之一秒，这是速度和引力共同造成的。</value>
+  </data>
+  <data name="Rel_Twins_Fact4" xml:space="preserve">
+    <value>离太阳最近的恒星比邻星约 4.2 光年远。以 0.8 c 往返一趟，地球上过 10.5 年，旅行者只过 6.3 年。</value>
+  </data>
+  <data name="Rel_Twins_Fact5" xml:space="preserve">
+    <value>这就是一种单程的“穿越到未来”：飞得够快再回来，你就到了地球的未来。但没有办法回到过去。</value>
+  </data>
+  <data name="Rel_Twins_Note" xml:space="preserve">
+    <value>这是一张时空图：横向是离地球的距离（光年），纵向是地球上的时间（年）。一光年画得和一年一样长，所以光走 45° 斜线。</value>
+  </data>
+  <data name="Rel_Twins_Panel_Note" xml:space="preserve">
+    <value>旅程最慢按 0.3 c 画，否则太长放不下。加速、掉头和减速都当作一瞬间完成。</value>
+  </data>
+  <data name="Rel_Twins_Subtitle" xml:space="preserve">
+    <value>去旅行的那个双胞胎回来时更年轻</value>
+  </data>
+  <data name="Rel_Value_Beta" xml:space="preserve">
+    <value>{0} c</value>
+  </data>
+  <data name="Rel_Value_Days" xml:space="preserve">
+    <value>只走了 {0} 天</value>
+  </data>
+  <data name="Rel_Value_Gamma" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Rel_Value_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Rel_Value_Ly" xml:space="preserve">
+    <value>{0} 光年</value>
+  </data>
+  <data name="Rel_Value_M" xml:space="preserve">
+    <value>{0} 米</value>
+  </data>
+  <data name="Rel_Value_Muon" xml:space="preserve">
+    <value>{0}（没有相对论只有 {1}）</value>
+  </data>
+  <data name="Rel_Value_MuonSlow" xml:space="preserve">
+    <value>几乎走不远</value>
+  </data>
+  <data name="Rel_Value_PlusYears" xml:space="preserve">
+    <value>长了 {0} 岁</value>
+  </data>
+  <data name="Rel_Value_Speed" xml:space="preserve">
+    <value>{0} c（每秒 {1} 千米）</value>
+  </data>
+  <data name="Rel_Value_Us" xml:space="preserve">
+    <value>{0} 微秒</value>
+  </data>
+  <data name="Rel_Value_Years" xml:space="preserve">
+    <value>{0} 年</value>
   </data>
   <data name="Retro_Above_Fact1" xml:space="preserve">
     <value>平均公转速度：水星 47 公里/秒，金星 35，地球 30，火星 24，木星 13，土星 10。总是内圈的去超外圈的。</value>
@@ -28904,17 +29789,5 @@
   </data>
   <data name="Window_Minimize" xml:space="preserve">
     <value>最小化</value>
-  </data>
-  <data name="Grid_Speed_Quarter" xml:space="preserve">
-    <value>¼×</value>
-  </data>
-  <data name="Grid_Speed_Half" xml:space="preserve">
-    <value>½×</value>
-  </data>
-  <data name="Grid_Speed_One" xml:space="preserve">
-    <value>1×</value>
-  </data>
-  <data name="Grid_Speed_Two" xml:space="preserve">
-    <value>2×</value>
   </data>
 </root>

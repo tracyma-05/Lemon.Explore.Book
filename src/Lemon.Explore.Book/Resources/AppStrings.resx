@@ -5709,6 +5709,18 @@
   <data name="Grid_Speed" xml:space="preserve">
     <value>Playback speed</value>
   </data>
+  <data name="Grid_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Grid_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Grid_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Grid_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
   <data name="Grid_Stat_Angle" xml:space="preserve">
     <value>Coil's angle</value>
   </data>
@@ -14436,6 +14448,222 @@
   <data name="Narr_Rain_Sky_08" xml:space="preserve">
     <value>Your turn. Drag the sky up or down to move the Sun, and watch the rainbow rise and sink.</value>
   </data>
+  <data name="Narr_Rel_LightClock_01" xml:space="preserve">
+    <value>This is a light clock. A flash of light bounces between two mirrors, and every time it goes up and comes back down, the clock ticks once. The clock on the ground is standing still, so its light just goes straight up and down.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_02" xml:space="preserve">
+    <value>Up above, an identical clock rides in a ship flying past at six tenths of the speed of light. For the people on board, nothing is odd: their light goes straight up and down too.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_03" xml:space="preserve">
+    <value>But look at it from the ground. While the light is on its way up, the ship moves on. So the light has to travel along a slanted line, and it draws a zigzag.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_04" xml:space="preserve">
+    <value>Now here's the key. Light always travels at the same speed, for everyone. And the slanted path is longer. So, seen from the ground, does the ship's clock tick faster, slower, or the same?</value>
+  </data>
+  <data name="Narr_Rel_LightClock_05" xml:space="preserve">
+    <value>Slower. Look at the two counters: the ship's clock keeps falling behind. A longer path at the same speed takes more time, so each tick takes longer. This is called time dilation.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_06" xml:space="preserve">
+    <value>This triangle tells us how much slower. The slanted side is how far the light goes, the bottom is how far the ship moves, and the upright side is the gap between the mirrors. Pythagoras gives us a number called gamma.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_07" xml:space="preserve">
+    <value>Let's go faster, to nine tenths of the speed of light. The zigzag gets much flatter, and gamma is now more than two: the ship's clock ticks less than half as often as the ground's.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_08" xml:space="preserve">
+    <value>Now let's ride along with the ship. To us the ship stands still and the ground rushes backwards. Look: now it's the ground's light that zigzags, and the ground's clock that runs slow. Each side sees the other's clock slow, and both are right.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_09" xml:space="preserve">
+    <value>This isn't just a thought experiment. Tiny particles called muons are made high up in the air, and they last only about two millionths of a second. Most should die long before reaching the ground. Yet we catch lots of them down here, because their clocks run slow.</value>
+  </data>
+  <data name="Narr_Rel_LightClock_10" xml:space="preserve">
+    <value>Your turn. Drag sideways across the picture, or use the slider, to change the speed. Notice how little happens at low speeds, and how fast gamma shoots up near the speed of light.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Counter" xml:space="preserve">
+    <value>These count each clock's ticks, and the dials show each clock's own time. The clock that moves in this picture falls behind.</value>
+  </data>
+  <data name="Narr_Rel_Obj_EarthLine" xml:space="preserve">
+    <value>The home twin's line. Earth stays put, so the line goes straight up through time.</value>
+  </data>
+  <data name="Narr_Rel_Obj_EarthMarks" xml:space="preserve">
+    <value>Marks on Earth's line, one for each year the home twin lives.</value>
+  </data>
+  <data name="Narr_Rel_Obj_EarthTwin" xml:space="preserve">
+    <value>The twin who stays at home, and how many years they've lived since the ship left.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Flash" xml:space="preserve">
+    <value>The flash of light inside the clock. However fast the clock moves, this light always goes at the same speed, about three hundred thousand kilometres every second.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Frame" xml:space="preserve">
+    <value>This says whose point of view the picture is drawn from. Click it to switch sides. Both pictures are equally correct; they just disagree about who is moving.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Front" xml:space="preserve">
+    <value>The light catcher at the front of the train. Seen from the platform, the front runs away from the light, so the light needs longer to catch it.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Gamma" xml:space="preserve">
+    <value>Gamma is the slow-down factor. It's one divided by the square root of one minus the speed squared. At everyday speeds it's almost exactly one; near light's speed it grows without limit.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Grid" xml:space="preserve">
+    <value>The spacetime diagram: distance from Earth across, Earth's time up. One light-year is drawn as long as one year.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Ground" xml:space="preserve">
+    <value>The ground's lane. When you ride with the ship, the ground and everything on it rushes backwards past you.</value>
+  </data>
+  <data name="Narr_Rel_Obj_GroundClock" xml:space="preserve">
+    <value>The ground's light clock. For someone standing next to it, its light simply goes up and down between the mirrors, once per tick.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Jump" xml:space="preserve">
+    <value>The jump. Just before the turn, the traveller's “now” on Earth is early; just after, it's late. Those Earth years are skipped over by the turn.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Lamp" xml:space="preserve">
+    <value>The lamp in the very middle of the train. It flashes just as it passes the person on the platform. Click it to flash it again.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Light" xml:space="preserve">
+    <value>The light from the flash, going both ways at the same speed, whoever is watching. That one rule is what makes all the surprises.</value>
+  </data>
+  <data name="Narr_Rel_Obj_LightLine" xml:space="preserve">
+    <value>Light's path through spacetime: one light-year per year, so forty-five degrees. Anything with mass must stay steeper than this.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Mirror" xml:space="preserve">
+    <value>Two mirrors facing each other. Light bounces back and forth between them, and one trip up and back counts as one tick.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Now" xml:space="preserve">
+    <value>Earth's “now”: a flat line, because for Earth everything on it happens at the same time. Drag up and down to move through the trip.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Observer" xml:space="preserve">
+    <value>Someone standing on the ground beside the clock. For this person, the ground's clock is the one at rest.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Origin" xml:space="preserve">
+    <value>This is where the flash happened. Light spreads out from this spot at the same speed both ways, even though the lamp itself moves on.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Platform" xml:space="preserve">
+    <value>The platform, as long as the train when both stand still. Seen from the moving train, it's the platform that is shorter.</value>
+  </data>
+  <data name="Narr_Rel_Obj_PlatformClock" xml:space="preserve">
+    <value>The platform person's clock. It read zero at the flash, just like the train's clock in the middle.</value>
+  </data>
+  <data name="Narr_Rel_Obj_PlatformLength" xml:space="preserve">
+    <value>The platform's length here. When the platform is the one moving, it's the one that's shortened.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Rear" xml:space="preserve">
+    <value>The light catcher at the back of the train. Seen from the platform, the back rushes towards the light, so it's hit early.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Ship" xml:space="preserve">
+    <value>The ship's lane. The ship carries a light clock just like the one on the ground. Whether it seems to move depends on whose point of view you pick.</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipAxes" xml:space="preserve">
+    <value>The ship's own time and space axes on the way out. They tilt towards the light line from both sides. Everything along the tilted space axis happens at the same time, for the ship.</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipClock" xml:space="preserve">
+    <value>The ship's light clock. It's exactly the same as the one on the ground. On board, its light goes straight up and down, and it keeps perfect time.</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipLine" xml:space="preserve">
+    <value>The traveller's line: out to the star, a sharp turn, and back home. Its clock runs slow by gamma on both legs.</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipMarks" xml:space="preserve">
+    <value>Marks on the traveller's line, one for each year the traveller lives. They're further apart, because the ship's clock runs slow.</value>
+  </data>
+  <data name="Narr_Rel_Obj_ShipNow" xml:space="preserve">
+    <value>The traveller's line of “now”: all the events the traveller counts as happening at this moment. It tilts, so it meets Earth's line at a different year.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Signals" xml:space="preserve">
+    <value>Birthday flashes, sent on every birthday and travelling at forty-five degrees. Green from Earth, pink from the ship. Watch them arrive slowly on the way out, quickly on the way back.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Star" xml:space="preserve">
+    <value>The star the traveller visits. For Earth it's this far away; for the ship, rushing towards it, the distance is shortened by gamma.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Strip" xml:space="preserve">
+    <value>Where everyone is right now, on the same distance scale as the diagram above: Earth, the ship and the star.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Time" xml:space="preserve">
+    <value>The time in the frame you're watching from, in microseconds. In one microsecond, light goes three hundred metres.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Train" xml:space="preserve">
+    <value>The train. On the train it is six hundred metres long. Seen from the platform while it's moving, it's shorter, and so are its windows and wheels.</value>
+  </data>
+  <data name="Narr_Rel_Obj_TrainClocks" xml:space="preserve">
+    <value>Three clocks on the train, set together on the train. Seen from the platform they're out of step: the further forward, the further behind.</value>
+  </data>
+  <data name="Narr_Rel_Obj_TrainLength" xml:space="preserve">
+    <value>The train's length here. A moving train is shortened along its motion, by gamma. On the train itself, it's always six hundred metres.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Traveller" xml:space="preserve">
+    <value>The twin who travels, and how many years they've lived by their own clock. It's always fewer, by the factor gamma.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Triangle" xml:space="preserve">
+    <value>The light-clock triangle. The slanted side is what light covers, the bottom what the clock covers, and the upright side what the light would cover in the clock's own time. Pythagoras says the slanted trip takes gamma times as long.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Turn" xml:space="preserve">
+    <value>The turning point, where the traveller reaches the star and heads home. Drag it to change how far the star is and how fast the ship flies.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Watcher" xml:space="preserve">
+    <value>The person standing on the platform. The lamp flashes right in front of them, and for them the platform is at rest.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Younger" xml:space="preserve">
+    <value>The age gap between the twins. When they meet again, it's real: the traveller has lived fewer years.</value>
+  </data>
+  <data name="Narr_Rel_Obj_Zigzag" xml:space="preserve">
+    <value>The zigzag is the moving clock's light, seen from here. Because the clock moves on while the light bounces, the light runs slanted. The path is longer, so each tick takes longer.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_01" xml:space="preserve">
+    <value>Here's a train with a lamp in its very middle, and a light catcher at each end. Right now we're riding on the train, so the train stands still and it's the platform that moves.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_02" xml:space="preserve">
+    <value>The lamp flashes. Light sets off towards the back and the front at the same speed, and both ends are the same distance away.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_03" xml:space="preserve">
+    <value>So on the train, the light reaches the back and the front at exactly the same moment. Both catchers light up together.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_04" xml:space="preserve">
+    <value>Now let's watch the very same thing from the platform. The train rushes past to the right, and the lamp will flash just as it passes this person.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_05" xml:space="preserve">
+    <value>The light still sets off both ways at the same speed, from the spot where the flash happened. But meanwhile, the whole train keeps moving to the right.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_06" xml:space="preserve">
+    <value>The back of the train is rushing towards the light, and the front is running away from it. So which end does the light reach first?</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_07" xml:space="preserve">
+    <value>The back. Seen from the platform, the back is hit first and the front only later. Two things that happen at the same time on the train don't happen at the same time on the platform. That's the relativity of simultaneity.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_08" xml:space="preserve">
+    <value>Look at the lengths too. On the train it's six hundred metres long, but from the platform it's shorter. Moving things are squeezed along their motion, by the same gamma as the clocks.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_09" xml:space="preserve">
+    <value>These are the train's own clocks, set together on the train. Seen from the platform they don't agree: the one at the front is behind the one at the back. That's how the train and the platform can both be right.</value>
+  </data>
+  <data name="Narr_Rel_Simultaneity_10" xml:space="preserve">
+    <value>Your turn. Change the speed, or switch between the train and the platform, and watch the flash again. The faster the train, the bigger the gap between the two hits.</value>
+  </data>
+  <data name="Narr_Rel_Twins_01" xml:space="preserve">
+    <value>This is a spacetime diagram. Going across is distance from Earth, in light-years. Going up is time on Earth, in years. Every moment of our story is one point on this picture.</value>
+  </data>
+  <data name="Narr_Rel_Twins_02" xml:space="preserve">
+    <value>One twin stays at home. Earth doesn't go anywhere, so the home twin's line goes straight up. Each mark on it is one more birthday.</value>
+  </data>
+  <data name="Narr_Rel_Twins_03" xml:space="preserve">
+    <value>Light travels one light-year every year, so on this picture it runs at forty-five degrees. Nothing can go faster, so nothing's line can be flatter than this.</value>
+  </data>
+  <data name="Narr_Rel_Twins_04" xml:space="preserve">
+    <value>The other twin flies at eight tenths of the speed of light to a star four light-years away, turns round, and comes straight back. That's this bent line.</value>
+  </data>
+  <data name="Narr_Rel_Twins_05" xml:space="preserve">
+    <value>On Earth, the whole trip takes ten years. When the traveller gets home, how many years older will they be?</value>
+  </data>
+  <data name="Narr_Rel_Twins_06" xml:space="preserve">
+    <value>Six. The ship's clock ran slow all the way, so the traveller comes home four years younger than their twin. Count the marks: ten on Earth's line, but only six on the ship's.</value>
+  </data>
+  <data name="Narr_Rel_Twins_07" xml:space="preserve">
+    <value>But wait. From the ship, isn't it Earth that's moving? Why isn't it the other way round? Because only the traveller turns round. The traveller switches from one point of view to another; the home twin never does.</value>
+  </data>
+  <data name="Narr_Rel_Twins_08" xml:space="preserve">
+    <value>These purple lines show which moment on Earth the traveller calls “now”. On the way out, Earth's clocks seem slow too. But at the turn, the traveller's “now” on Earth jumps forward by years in an instant. That's where the home twin's extra years come from.</value>
+  </data>
+  <data name="Narr_Rel_Twins_09" xml:space="preserve">
+    <value>Now suppose both twins send a flash of light on every birthday. On the way out, the traveller receives Earth's flashes slowly; on the way back, quickly. Both twins agree on every flash, and the numbers add up.</value>
+  </data>
+  <data name="Narr_Rel_Twins_10" xml:space="preserve">
+    <value>Your turn. Drag the turning point to change how far and how fast the traveller goes. The closer the bent line gets to the light lines, the younger the traveller comes home.</value>
+  </data>
   <data name="Narr_Retro_Above_01" xml:space="preserve">
     <value>Now let's fly far above the Sun and look down. Here are the orbits of Earth and Mars, drawn to scale. They both go round the same way.</value>
   </data>
@@ -20087,6 +20315,663 @@
   </data>
   <data name="Rain_Title" xml:space="preserve">
     <value>Refraction and rainbows</value>
+  </data>
+  <data name="Rel_Chart_Age" xml:space="preserve">
+    <value>years older</value>
+  </data>
+  <data name="Rel_Chart_EarthTwin" xml:space="preserve">
+    <value>Earth's twin</value>
+  </data>
+  <data name="Rel_Chart_EarthYears" xml:space="preserve">
+    <value>Earth's time (years)</value>
+  </data>
+  <data name="Rel_Chart_Everyday" xml:space="preserve">
+    <value>everyday speeds: γ ≈ 1</value>
+  </data>
+  <data name="Rel_Chart_Gamma" xml:space="preserve">
+    <value>γ</value>
+  </data>
+  <data name="Rel_Chart_GammaDot" xml:space="preserve">
+    <value>γ = {0}</value>
+  </data>
+  <data name="Rel_Chart_LightClock_Caption" xml:space="preserve">
+    <value>How much slower a moving clock ticks</value>
+  </data>
+  <data name="Rel_Chart_LightClock_Note" xml:space="preserve">
+    <value>γ hardly moves from 1 at everyday speeds, then shoots up near the speed of light. Click or drag the chart to set the speed.</value>
+  </data>
+  <data name="Rel_Chart_LightLimit" xml:space="preserve">
+    <value>speed of light</value>
+  </data>
+  <data name="Rel_Chart_Metres" xml:space="preserve">
+    <value>length (m)</value>
+  </data>
+  <data name="Rel_Chart_MetresDot" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Rel_Chart_Simultaneity_Caption" xml:space="preserve">
+    <value>The 600 m train seen from the platform</value>
+  </data>
+  <data name="Rel_Chart_Simultaneity_Note" xml:space="preserve">
+    <value>Only the length along the motion shrinks, by γ; its height stays the same. Click or drag the chart to set the speed.</value>
+  </data>
+  <data name="Rel_Chart_Speed" xml:space="preserve">
+    <value>speed (c)</value>
+  </data>
+  <data name="Rel_Chart_Traveller" xml:space="preserve">
+    <value>traveller</value>
+  </data>
+  <data name="Rel_Chart_Twins_Caption" xml:space="preserve">
+    <value>How old each twin has got</value>
+  </data>
+  <data name="Rel_Chart_Twins_Note" xml:space="preserve">
+    <value>Earth's twin ages a year per year; the traveller γ times slower, all the way. Click or drag the chart to move through the trip.</value>
+  </data>
+  <data name="Rel_Clock_GammaPill" xml:space="preserve">
+    <value>Speed {0} c · γ = {1}</value>
+  </data>
+  <data name="Rel_Clock_GroundTicks" xml:space="preserve">
+    <value>Ground's clock ticks: {0}</value>
+  </data>
+  <data name="Rel_Clock_Ground_Text" xml:space="preserve">
+    <value>Seen from the ground, the ship's light has to run along the slanted zigzag. At the same speed a longer path takes longer, so each of its ticks takes γ times as long.</value>
+  </data>
+  <data name="Rel_Clock_Ground_Title" xml:space="preserve">
+    <value>The ship's clock falls behind</value>
+  </data>
+  <data name="Rel_Clock_ShipTicks" xml:space="preserve">
+    <value>Ship's clock ticks: {0}</value>
+  </data>
+  <data name="Rel_Clock_Ship_Text" xml:space="preserve">
+    <value>Ride with the ship and the ground rushes backwards: now the ground's light zigzags and the ground's clock is slow. Each side sees the other's clock slow, and both are right.</value>
+  </data>
+  <data name="Rel_Clock_Ship_Title" xml:space="preserve">
+    <value>Now the ground's clock is slow</value>
+  </data>
+  <data name="Rel_Clock_Still_Text" xml:space="preserve">
+    <value>The ship is barely moving, so its light goes almost straight up and down like the ground's, and the two clocks tick together.</value>
+  </data>
+  <data name="Rel_Clock_Still_Title" xml:space="preserve">
+    <value>Both clocks keep time</value>
+  </data>
+  <data name="Rel_Distance" xml:space="preserve">
+    <value>The star's distance</value>
+  </data>
+  <data name="Rel_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Rel_FlashAgain" xml:space="preserve">
+    <value>Flash again</value>
+  </data>
+  <data name="Rel_Frame_Caption" xml:space="preserve">
+    <value>Seen from</value>
+  </data>
+  <data name="Rel_Frame_Ground" xml:space="preserve">
+    <value>The ground</value>
+  </data>
+  <data name="Rel_Frame_Platform" xml:space="preserve">
+    <value>The platform</value>
+  </data>
+  <data name="Rel_Frame_SeenFromGround" xml:space="preserve">
+    <value>Seen from: the ground</value>
+  </data>
+  <data name="Rel_Frame_SeenFromPlatform" xml:space="preserve">
+    <value>Seen from: the platform</value>
+  </data>
+  <data name="Rel_Frame_SeenFromShip" xml:space="preserve">
+    <value>Seen from: the ship</value>
+  </data>
+  <data name="Rel_Frame_SeenFromTrain" xml:space="preserve">
+    <value>Seen from: the train</value>
+  </data>
+  <data name="Rel_Frame_Ship" xml:space="preserve">
+    <value>The ship</value>
+  </data>
+  <data name="Rel_Frame_Train" xml:space="preserve">
+    <value>The train</value>
+  </data>
+  <data name="Rel_Hint_LightClock" xml:space="preserve">
+    <value>Drag sideways to change the speed; click “Seen from” to ride along.</value>
+  </data>
+  <data name="Rel_Hint_Simultaneity" xml:space="preserve">
+    <value>Drag sideways to change the speed; click the lamp to flash it again.</value>
+  </data>
+  <data name="Rel_Hint_Twins" xml:space="preserve">
+    <value>Drag up and down to move through the trip; drag the turning point to change the trip.</value>
+  </data>
+  <data name="Rel_Lane_Ground" xml:space="preserve">
+    <value>On the ground</value>
+  </data>
+  <data name="Rel_Lane_Ship" xml:space="preserve">
+    <value>On the ship</value>
+  </data>
+  <data name="Rel_Lesson_LightClock_Choice1" xml:space="preserve">
+    <value>Slower</value>
+  </data>
+  <data name="Rel_Lesson_LightClock_Choice2" xml:space="preserve">
+    <value>Faster</value>
+  </data>
+  <data name="Rel_Lesson_LightClock_Choice3" xml:space="preserve">
+    <value>The same</value>
+  </data>
+  <data name="Rel_Lesson_Simultaneity_Choice1" xml:space="preserve">
+    <value>The back</value>
+  </data>
+  <data name="Rel_Lesson_Simultaneity_Choice2" xml:space="preserve">
+    <value>The front</value>
+  </data>
+  <data name="Rel_Lesson_Simultaneity_Choice3" xml:space="preserve">
+    <value>Both at once</value>
+  </data>
+  <data name="Rel_Lesson_Twins_Choice1" xml:space="preserve">
+    <value>Six years</value>
+  </data>
+  <data name="Rel_Lesson_Twins_Choice2" xml:space="preserve">
+    <value>Ten years</value>
+  </data>
+  <data name="Rel_Lesson_Twins_Choice3" xml:space="preserve">
+    <value>Fourteen years</value>
+  </data>
+  <data name="Rel_LightClock_Fact1" xml:space="preserve">
+    <value>Einstein built special relativity in 1905 on two ideas: the laws of physics are the same for everyone moving steadily, and light's speed is the same for all of them.</value>
+  </data>
+  <data name="Rel_LightClock_Fact2" xml:space="preserve">
+    <value>Muons made by cosmic rays about 15 km up live about 2.2 millionths of a second. Even at nearly light's speed that is only about 660 m — yet many reach the ground, because their clocks run slow.</value>
+  </data>
+  <data name="Rel_LightClock_Fact3" xml:space="preserve">
+    <value>A GPS satellite's speed slows its clocks by about 7 microseconds a day; being higher up, where gravity is weaker, speeds them up by about 45. The system corrects for both.</value>
+  </data>
+  <data name="Rel_LightClock_Fact4" xml:space="preserve">
+    <value>In 1971 Hafele and Keating flew atomic clocks round the world on airliners. Compared with clocks left behind, they were off by the tiny amounts relativity predicted.</value>
+  </data>
+  <data name="Rel_LightClock_Fact5" xml:space="preserve">
+    <value>At a jet's speed, about 250 m/s, γ is 1.00000000000035: you would have to fly for about 90 000 years to lose one second.</value>
+  </data>
+  <data name="Rel_LightClock_Note" xml:space="preserve">
+    <value>Two identical light clocks: a flash bouncing between two mirrors, one tick per trip up and back. Light goes at the same speed for everyone.</value>
+  </data>
+  <data name="Rel_LightClock_Panel_Note" xml:space="preserve">
+    <value>c is the speed of light, about 300 000 km/s. Changing the speed or the side you watch from sets both clocks back to 0.</value>
+  </data>
+  <data name="Rel_LightClock_Subtitle" xml:space="preserve">
+    <value>A moving clock ticks slower</value>
+  </data>
+  <data name="Rel_Mode_LightClock" xml:space="preserve">
+    <value>Light clock</value>
+  </data>
+  <data name="Rel_Mode_Simultaneity" xml:space="preserve">
+    <value>The train</value>
+  </data>
+  <data name="Rel_Mode_Twins" xml:space="preserve">
+    <value>The twins</value>
+  </data>
+  <data name="Rel_Obj_Counter" xml:space="preserve">
+    <value>The tick counters</value>
+  </data>
+  <data name="Rel_Obj_EarthLine" xml:space="preserve">
+    <value>Earth's twin's line</value>
+  </data>
+  <data name="Rel_Obj_EarthMarks" xml:space="preserve">
+    <value>Earth's birthdays</value>
+  </data>
+  <data name="Rel_Obj_EarthTwin" xml:space="preserve">
+    <value>Earth's twin</value>
+  </data>
+  <data name="Rel_Obj_Flash" xml:space="preserve">
+    <value>The flash of light</value>
+  </data>
+  <data name="Rel_Obj_Frame" xml:space="preserve">
+    <value>Seen from</value>
+  </data>
+  <data name="Rel_Obj_Front" xml:space="preserve">
+    <value>The front of the train</value>
+  </data>
+  <data name="Rel_Obj_Gamma" xml:space="preserve">
+    <value>Gamma (γ)</value>
+  </data>
+  <data name="Rel_Obj_Grid" xml:space="preserve">
+    <value>The spacetime diagram</value>
+  </data>
+  <data name="Rel_Obj_Ground" xml:space="preserve">
+    <value>The ground</value>
+  </data>
+  <data name="Rel_Obj_GroundClock" xml:space="preserve">
+    <value>The ground's light clock</value>
+  </data>
+  <data name="Rel_Obj_Jump" xml:space="preserve">
+    <value>The jump at the turn</value>
+  </data>
+  <data name="Rel_Obj_Lamp" xml:space="preserve">
+    <value>The lamp</value>
+  </data>
+  <data name="Rel_Obj_Light" xml:space="preserve">
+    <value>The light</value>
+  </data>
+  <data name="Rel_Obj_LightLine" xml:space="preserve">
+    <value>Light's lines</value>
+  </data>
+  <data name="Rel_Obj_Mirror" xml:space="preserve">
+    <value>The mirrors</value>
+  </data>
+  <data name="Rel_Obj_Now" xml:space="preserve">
+    <value>Earth's “now”</value>
+  </data>
+  <data name="Rel_Obj_Observer" xml:space="preserve">
+    <value>Someone on the ground</value>
+  </data>
+  <data name="Rel_Obj_Origin" xml:space="preserve">
+    <value>Where the flash happened</value>
+  </data>
+  <data name="Rel_Obj_Platform" xml:space="preserve">
+    <value>The platform</value>
+  </data>
+  <data name="Rel_Obj_PlatformClock" xml:space="preserve">
+    <value>The platform's clock</value>
+  </data>
+  <data name="Rel_Obj_PlatformLength" xml:space="preserve">
+    <value>The platform's length</value>
+  </data>
+  <data name="Rel_Obj_Rear" xml:space="preserve">
+    <value>The back of the train</value>
+  </data>
+  <data name="Rel_Obj_Ship" xml:space="preserve">
+    <value>The ship</value>
+  </data>
+  <data name="Rel_Obj_ShipAxes" xml:space="preserve">
+    <value>The ship's axes</value>
+  </data>
+  <data name="Rel_Obj_ShipClock" xml:space="preserve">
+    <value>The ship's light clock</value>
+  </data>
+  <data name="Rel_Obj_ShipLine" xml:space="preserve">
+    <value>The traveller's line</value>
+  </data>
+  <data name="Rel_Obj_ShipMarks" xml:space="preserve">
+    <value>The traveller's birthdays</value>
+  </data>
+  <data name="Rel_Obj_ShipNow" xml:space="preserve">
+    <value>The traveller's “now”</value>
+  </data>
+  <data name="Rel_Obj_Signals" xml:space="preserve">
+    <value>Birthday flashes</value>
+  </data>
+  <data name="Rel_Obj_Star" xml:space="preserve">
+    <value>The star</value>
+  </data>
+  <data name="Rel_Obj_Strip" xml:space="preserve">
+    <value>Now in space</value>
+  </data>
+  <data name="Rel_Obj_Time" xml:space="preserve">
+    <value>The time</value>
+  </data>
+  <data name="Rel_Obj_Train" xml:space="preserve">
+    <value>The train</value>
+  </data>
+  <data name="Rel_Obj_TrainClocks" xml:space="preserve">
+    <value>The train's clocks</value>
+  </data>
+  <data name="Rel_Obj_TrainLength" xml:space="preserve">
+    <value>The train's length</value>
+  </data>
+  <data name="Rel_Obj_Traveller" xml:space="preserve">
+    <value>The traveller</value>
+  </data>
+  <data name="Rel_Obj_Triangle" xml:space="preserve">
+    <value>The light-clock triangle</value>
+  </data>
+  <data name="Rel_Obj_Turn" xml:space="preserve">
+    <value>The turning point</value>
+  </data>
+  <data name="Rel_Obj_Watcher" xml:space="preserve">
+    <value>The person on the platform</value>
+  </data>
+  <data name="Rel_Obj_Younger" xml:space="preserve">
+    <value>The age gap</value>
+  </data>
+  <data name="Rel_Obj_Zigzag" xml:space="preserve">
+    <value>Light's zigzag path</value>
+  </data>
+  <data name="Rel_Option_Axes" xml:space="preserve">
+    <value>Ship's axes</value>
+  </data>
+  <data name="Rel_Option_Clocks" xml:space="preserve">
+    <value>Clocks</value>
+  </data>
+  <data name="Rel_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Rel_Option_Lengths" xml:space="preserve">
+    <value>Lengths</value>
+  </data>
+  <data name="Rel_Option_NowLines" xml:space="preserve">
+    <value>Traveller's “now”</value>
+  </data>
+  <data name="Rel_Option_Signals" xml:space="preserve">
+    <value>Birthday flashes</value>
+  </data>
+  <data name="Rel_Option_Trail" xml:space="preserve">
+    <value>Light's path</value>
+  </data>
+  <data name="Rel_Option_Triangle" xml:space="preserve">
+    <value>Triangle</value>
+  </data>
+  <data name="Rel_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Rel_ResetClocks" xml:space="preserve">
+    <value>Set the clocks to 0</value>
+  </data>
+  <data name="Rel_RestartTrip" xml:space="preserve">
+    <value>Start the trip again</value>
+  </data>
+  <data name="Rel_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact1" xml:space="preserve">
+    <value>This train experiment is Einstein's own, from his 1916 book for the general reader, with two lightning strikes instead of a lamp.</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact2" xml:space="preserve">
+    <value>Only events at the same place are “at the same time” for everyone. For events far apart, the order can even swap — but only if no signal could get from one to the other.</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact3" xml:space="preserve">
+    <value>The shortening is real but only along the motion: a ball flying past very fast would be squashed into a disc, measured at one moment of your time.</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact4" xml:space="preserve">
+    <value>Particle accelerators see it every day: the LHC's protons have γ of about 7000, so a bunch of them is squeezed thin like a pancake.</value>
+  </data>
+  <data name="Rel_Simultaneity_Fact5" xml:space="preserve">
+    <value>The train sees the platform shortened, and the platform sees the train shortened. That is not a contradiction, because they disagree about which moments are “at the same time” when measuring ends.</value>
+  </data>
+  <data name="Rel_Simultaneity_Note" xml:space="preserve">
+    <value>A train 600 m long passes a platform just as long. A lamp in the train's middle flashes as it passes the person on the platform. Times are in microseconds: light goes 300 m in one.</value>
+  </data>
+  <data name="Rel_Simultaneity_Panel_Note" xml:space="preserve">
+    <value>The train's clocks were set together on the train, all reading 0 when the lamp flashed. The platform's clock reads 0 then too.</value>
+  </data>
+  <data name="Rel_Simultaneity_Subtitle" xml:space="preserve">
+    <value>“At the same time” depends on who is watching</value>
+  </data>
+  <data name="Rel_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Rel_Speed_Eight" xml:space="preserve">
+    <value>0.8 c</value>
+  </data>
+  <data name="Rel_Speed_Near" xml:space="preserve">
+    <value>0.99 c</value>
+  </data>
+  <data name="Rel_Speed_Six" xml:space="preserve">
+    <value>0.6 c</value>
+  </data>
+  <data name="Rel_Speed_Tenth" xml:space="preserve">
+    <value>0.1 c</value>
+  </data>
+  <data name="Rel_Stat_EarthWaits" xml:space="preserve">
+    <value>Earth's twin waits</value>
+  </data>
+  <data name="Rel_Stat_FrontHit" xml:space="preserve">
+    <value>Front hit at</value>
+  </data>
+  <data name="Rel_Stat_Gamma" xml:space="preserve">
+    <value>γ (slow-down factor)</value>
+  </data>
+  <data name="Rel_Stat_Gap" xml:space="preserve">
+    <value>Time between the hits</value>
+  </data>
+  <data name="Rel_Stat_GroundTicks" xml:space="preserve">
+    <value>Ground's clock</value>
+  </data>
+  <data name="Rel_Stat_Muon" xml:space="preserve">
+    <value>A muon this fast goes</value>
+  </data>
+  <data name="Rel_Stat_PlatformLength" xml:space="preserve">
+    <value>The platform is</value>
+  </data>
+  <data name="Rel_Stat_RearHit" xml:space="preserve">
+    <value>Back hit at</value>
+  </data>
+  <data name="Rel_Stat_ShipLives" xml:space="preserve">
+    <value>Traveller lives through</value>
+  </data>
+  <data name="Rel_Stat_ShipTicks" xml:space="preserve">
+    <value>Ship's clock</value>
+  </data>
+  <data name="Rel_Stat_SignalsEarth" xml:space="preserve">
+    <value>Ship's flashes Earth has seen</value>
+  </data>
+  <data name="Rel_Stat_SignalsShip" xml:space="preserve">
+    <value>Earth's flashes the ship has seen</value>
+  </data>
+  <data name="Rel_Stat_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Rel_Stat_StarEarth" xml:space="preserve">
+    <value>Star's distance (Earth)</value>
+  </data>
+  <data name="Rel_Stat_StarShip" xml:space="preserve">
+    <value>Star's distance (ship)</value>
+  </data>
+  <data name="Rel_Stat_TrainLength" xml:space="preserve">
+    <value>The train is</value>
+  </data>
+  <data name="Rel_Stat_YearOnShip" xml:space="preserve">
+    <value>A moving clock in 365 days</value>
+  </data>
+  <data name="Rel_Stat_Younger" xml:space="preserve">
+    <value>Traveller younger by</value>
+  </data>
+  <data name="Rel_Title" xml:space="preserve">
+    <value>Special relativity</value>
+  </data>
+  <data name="Rel_Train_Apart_Text" xml:space="preserve">
+    <value>On the platform the two hits are not at the same time: the front comes later by γ·β·L/c. On the train they were together. Neither is wrong — “at the same time” depends on who is watching.</value>
+  </data>
+  <data name="Rel_Train_Apart_Title" xml:space="preserve">
+    <value>The front is hit later</value>
+  </data>
+  <data name="Rel_Train_Before_Text" xml:space="preserve">
+    <value>The lamp in the middle of the train will flash just as it passes the person on the platform. Both ends of the train have a light catcher.</value>
+  </data>
+  <data name="Rel_Train_Before_Title" xml:space="preserve">
+    <value>The lamp is about to flash</value>
+  </data>
+  <data name="Rel_Train_Flight_Text" xml:space="preserve">
+    <value>Light sets off from the spot where the flash happened, towards the back and the front, at the same speed c — whoever is watching.</value>
+  </data>
+  <data name="Rel_Train_Flight_Title" xml:space="preserve">
+    <value>Light goes both ways at the same speed</value>
+  </data>
+  <data name="Rel_Train_Front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="Rel_Train_HitAt" xml:space="preserve">
+    <value>Hit at {0} µs</value>
+  </data>
+  <data name="Rel_Train_Length" xml:space="preserve">
+    <value>Train: {0} m</value>
+  </data>
+  <data name="Rel_Train_LengthShort" xml:space="preserve">
+    <value>Train: {0} m (600 m at rest)</value>
+  </data>
+  <data name="Rel_Train_Origin" xml:space="preserve">
+    <value>the flash was here</value>
+  </data>
+  <data name="Rel_Train_PlatformLength" xml:space="preserve">
+    <value>Platform: {0} m</value>
+  </data>
+  <data name="Rel_Train_PlatformLengthShort" xml:space="preserve">
+    <value>Platform: {0} m (600 m at rest)</value>
+  </data>
+  <data name="Rel_Train_PlatformSpeed" xml:space="preserve">
+    <value>Platform ← {0} c</value>
+  </data>
+  <data name="Rel_Train_Rear" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Rel_Train_RearHit_Text" xml:space="preserve">
+    <value>Seen from the platform the back of the train runs into the light and the front runs away from it, so the back is hit first and the front has to wait.</value>
+  </data>
+  <data name="Rel_Train_RearHit_Title" xml:space="preserve">
+    <value>The back is hit first</value>
+  </data>
+  <data name="Rel_Train_Speed" xml:space="preserve">
+    <value>Train → {0} c</value>
+  </data>
+  <data name="Rel_Train_TimePlatform" xml:space="preserve">
+    <value>Platform time: {0} µs</value>
+  </data>
+  <data name="Rel_Train_TimeTrain" xml:space="preserve">
+    <value>Train time: {0} µs</value>
+  </data>
+  <data name="Rel_Train_Together_Text" xml:space="preserve">
+    <value>On the train both ends are 300 m from the lamp and nothing moves, so the light reaches the back and the front at exactly the same moment.</value>
+  </data>
+  <data name="Rel_Train_Together_Title" xml:space="preserve">
+    <value>Both ends at the same moment</value>
+  </data>
+  <data name="Rel_Tri_Along" xml:space="preserve">
+    <value>v·t</value>
+  </data>
+  <data name="Rel_Tri_Pill" xml:space="preserve">
+    <value>(ct)² = (vt)² + (ct₀)²  →  t = {0} × t₀</value>
+  </data>
+  <data name="Rel_Tri_Slant" xml:space="preserve">
+    <value>c·t</value>
+  </data>
+  <data name="Rel_Tri_Up" xml:space="preserve">
+    <value>c·t₀</value>
+  </data>
+  <data name="Rel_Twin_AxisSpace" xml:space="preserve">
+    <value>distance from Earth (light-years)</value>
+  </data>
+  <data name="Rel_Twin_AxisTime" xml:space="preserve">
+    <value>Earth's time (years)</value>
+  </data>
+  <data name="Rel_Twin_Back_Text" xml:space="preserve">
+    <value>The traveller has turned round. The ship's clock is still slow by γ on the way back, so the age gap keeps growing.</value>
+  </data>
+  <data name="Rel_Twin_Back_Title" xml:space="preserve">
+    <value>On the way back</value>
+  </data>
+  <data name="Rel_Twin_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Rel_Twin_EarthTwin" xml:space="preserve">
+    <value>Earth's twin</value>
+  </data>
+  <data name="Rel_Twin_Gap" xml:space="preserve">
+    <value>Age gap so far: {0} years</value>
+  </data>
+  <data name="Rel_Twin_HomePill" xml:space="preserve">
+    <value>Home: the traveller is {0} years younger</value>
+  </data>
+  <data name="Rel_Twin_Home_Text" xml:space="preserve">
+    <value>The twins meet again at the same place, so there's no arguing: the traveller really has lived fewer years. Only the traveller turned round, so the two trips are not alike.</value>
+  </data>
+  <data name="Rel_Twin_Home_Title" xml:space="preserve">
+    <value>Home, and younger</value>
+  </data>
+  <data name="Rel_Twin_Jump" xml:space="preserve">
+    <value>jump</value>
+  </data>
+  <data name="Rel_Twin_Light" xml:space="preserve">
+    <value>light</value>
+  </data>
+  <data name="Rel_Twin_NowPill" xml:space="preserve">
+    <value>Earth: year {0}</value>
+  </data>
+  <data name="Rel_Twin_Out_Text" xml:space="preserve">
+    <value>The traveller's year marks are further apart on the diagram: the ship's clock runs slow compared with Earth's, by γ.</value>
+  </data>
+  <data name="Rel_Twin_Out_Title" xml:space="preserve">
+    <value>On the way out</value>
+  </data>
+  <data name="Rel_Twin_ShipSpace" xml:space="preserve">
+    <value>ship's “same time”</value>
+  </data>
+  <data name="Rel_Twin_ShipTime" xml:space="preserve">
+    <value>ship's time</value>
+  </data>
+  <data name="Rel_Twin_Speed" xml:space="preserve">
+    <value>Trip at {0} c</value>
+  </data>
+  <data name="Rel_Twin_StarName" xml:space="preserve">
+    <value>Star, {0} ly</value>
+  </data>
+  <data name="Rel_Twin_Start_Text" xml:space="preserve">
+    <value>One twin stays on Earth; the other is about to fly to the star and come straight back. Their clocks and their birthdays start together.</value>
+  </data>
+  <data name="Rel_Twin_Start_Title" xml:space="preserve">
+    <value>Two twins, the same age</value>
+  </data>
+  <data name="Rel_Twin_Strip" xml:space="preserve">
+    <value>Now in space</value>
+  </data>
+  <data name="Rel_Twin_Traveller" xml:space="preserve">
+    <value>Traveller</value>
+  </data>
+  <data name="Rel_Twin_Turn" xml:space="preserve">
+    <value>turns round</value>
+  </data>
+  <data name="Rel_Twins_Fact1" xml:space="preserve">
+    <value>Nothing can go faster than light, so every path through spacetime stays steeper than the 45° light lines.</value>
+  </data>
+  <data name="Rel_Twins_Fact2" xml:space="preserve">
+    <value>On a spacetime diagram the straight line between two meetings is the one with the MOST time on its clock. Any bent detour, like the traveller's, has less.</value>
+  </data>
+  <data name="Rel_Twins_Fact3" xml:space="preserve">
+    <value>The astronaut Scott Kelly spent a year on the space station while his twin brother stayed on Earth. He came back a few thousandths of a second younger, from speed and gravity together.</value>
+  </data>
+  <data name="Rel_Twins_Fact4" xml:space="preserve">
+    <value>The nearest star after the Sun, Proxima Centauri, is about 4.2 light-years away. At 0.8 c a round trip would take Earth 10.5 years and the traveller 6.3.</value>
+  </data>
+  <data name="Rel_Twins_Fact5" xml:space="preserve">
+    <value>This is one-way time travel into the future: go fast enough and come back, and you arrive in Earth's future. There is no way back to the past.</value>
+  </data>
+  <data name="Rel_Twins_Note" xml:space="preserve">
+    <value>A spacetime diagram: across is distance from Earth (light-years), up is Earth's time (years). A light-year is drawn as long as a year, so light runs at 45°.</value>
+  </data>
+  <data name="Rel_Twins_Panel_Note" xml:space="preserve">
+    <value>The trip is drawn at no less than 0.3 c, or it would take too long to fit. Speeding up, turning round and slowing down are taken as instant.</value>
+  </data>
+  <data name="Rel_Twins_Subtitle" xml:space="preserve">
+    <value>The twin who travels comes home younger</value>
+  </data>
+  <data name="Rel_Value_Beta" xml:space="preserve">
+    <value>{0} c</value>
+  </data>
+  <data name="Rel_Value_Days" xml:space="preserve">
+    <value>only {0} days</value>
+  </data>
+  <data name="Rel_Value_Gamma" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Rel_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Rel_Value_Ly" xml:space="preserve">
+    <value>{0} light-years</value>
+  </data>
+  <data name="Rel_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Rel_Value_Muon" xml:space="preserve">
+    <value>{0} (without relativity {1})</value>
+  </data>
+  <data name="Rel_Value_MuonSlow" xml:space="preserve">
+    <value>almost no distance</value>
+  </data>
+  <data name="Rel_Value_PlusYears" xml:space="preserve">
+    <value>+{0} years</value>
+  </data>
+  <data name="Rel_Value_Speed" xml:space="preserve">
+    <value>{0} c ({1} km/s)</value>
+  </data>
+  <data name="Rel_Value_Us" xml:space="preserve">
+    <value>{0} µs</value>
+  </data>
+  <data name="Rel_Value_Years" xml:space="preserve">
+    <value>{0} years</value>
   </data>
   <data name="Retro_Above_Fact1" xml:space="preserve">
     <value>Average orbital speeds: Mercury 47 km/s, Venus 35, Earth 30, Mars 24, Jupiter 13, Saturn 10. The inner planet always overtakes.</value>
@@ -28904,17 +29789,5 @@
   </data>
   <data name="Window_Minimize" xml:space="preserve">
     <value>Minimize</value>
-  </data>
-  <data name="Grid_Speed_Quarter" xml:space="preserve">
-    <value>¼×</value>
-  </data>
-  <data name="Grid_Speed_Half" xml:space="preserve">
-    <value>½×</value>
-  </data>
-  <data name="Grid_Speed_One" xml:space="preserve">
-    <value>1×</value>
-  </data>
-  <data name="Grid_Speed_Two" xml:space="preserve">
-    <value>2×</value>
   </data>
 </root>
