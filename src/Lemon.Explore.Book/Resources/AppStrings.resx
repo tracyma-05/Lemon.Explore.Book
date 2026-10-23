@@ -12,6 +12,825 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Acid_AcidChoice_Caption" xml:space="preserve">
+    <value>Acid in the flask</value>
+  </data>
+  <data name="Acid_Add_Caption" xml:space="preserve">
+    <value>Pour into the beaker (1 mL each)</value>
+  </data>
+  <data name="Acid_Add_Dilute" xml:space="preserve">
+    <value>Water it down ×10</value>
+  </data>
+  <data name="Acid_Add_Fresh" xml:space="preserve">
+    <value>Fresh water</value>
+  </data>
+  <data name="Acid_Add_StrongAcid" xml:space="preserve">
+    <value>Hydrochloric acid</value>
+  </data>
+  <data name="Acid_Add_StrongBase" xml:space="preserve">
+    <value>Sodium hydroxide</value>
+  </data>
+  <data name="Acid_Add_WeakAcid" xml:space="preserve">
+    <value>Acetic acid</value>
+  </data>
+  <data name="Acid_Add_WeakBase" xml:space="preserve">
+    <value>Ammonia</value>
+  </data>
+  <data name="Acid_BaseAdded" xml:space="preserve">
+    <value>Sodium hydroxide added</value>
+  </data>
+  <data name="Acid_BeakerIndicator_Caption" xml:space="preserve">
+    <value>Indicator in the beaker</value>
+  </data>
+  <data name="Acid_Beaker_Acidic_Text" xml:space="preserve">
+    <value>There is more H₃O⁺ than OH⁻: an acid has given protons to water. The more H₃O⁺, the lower the pH, one step for every ten times as much.</value>
+  </data>
+  <data name="Acid_Beaker_Acidic_Title" xml:space="preserve">
+    <value>Acidic</value>
+  </data>
+  <data name="Acid_Beaker_Basic_Text" xml:space="preserve">
+    <value>There is more OH⁻ than H₃O⁺: a base has brought OH⁻ or taken protons from water. The fewer H₃O⁺, the higher the pH.</value>
+  </data>
+  <data name="Acid_Beaker_Basic_Title" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Acid_Beaker_Neutral_Text" xml:space="preserve">
+    <value>H₃O⁺ and OH⁻ are as many as in pure water: the acid and the base have used each other up, and what is left is a salt dissolved in water.</value>
+  </data>
+  <data name="Acid_Beaker_Neutral_Title" xml:space="preserve">
+    <value>Neutral</value>
+  </data>
+  <data name="Acid_Beaker_Water_Text" xml:space="preserve">
+    <value>Water molecules now and then pass a proton to each other, making one H₃O⁺ and one OH⁻. They come in pairs, so pure water is exactly neutral, pH 7.</value>
+  </data>
+  <data name="Acid_Beaker_Water_Title" xml:space="preserve">
+    <value>Pure water</value>
+  </data>
+  <data name="Acid_Bottle_StrongAcid" xml:space="preserve">
+    <value>hydrochloric acid</value>
+  </data>
+  <data name="Acid_Bottle_StrongBase" xml:space="preserve">
+    <value>sodium hydroxide</value>
+  </data>
+  <data name="Acid_Bottle_Water" xml:space="preserve">
+    <value>water ×10</value>
+  </data>
+  <data name="Acid_Bottle_WeakAcid" xml:space="preserve">
+    <value>acetic acid</value>
+  </data>
+  <data name="Acid_Bottle_WeakBase" xml:space="preserve">
+    <value>ammonia</value>
+  </data>
+  <data name="Acid_Burette_Label" xml:space="preserve">
+    <value>NaOH</value>
+  </data>
+  <data name="Acid_Chart_AcidLeftStrong" xml:space="preserve">
+    <value>HCl left</value>
+  </data>
+  <data name="Acid_Chart_AcidLeftWeak" xml:space="preserve">
+    <value>acetic acid left</value>
+  </data>
+  <data name="Acid_Chart_BaseExtra" xml:space="preserve">
+    <value>extra NaOH</value>
+  </data>
+  <data name="Acid_Chart_Hydronium" xml:space="preserve">
+    <value>H₃O⁺</value>
+  </data>
+  <data name="Acid_Chart_Hydroxide" xml:space="preserve">
+    <value>OH⁻</value>
+  </data>
+  <data name="Acid_Chart_Neutralize_Caption" xml:space="preserve">
+    <value>What is in the flask</value>
+  </data>
+  <data name="Acid_Chart_Neutralize_Note" xml:space="preserve">
+    <value>Every OH⁻ added takes one acid proton: the acid shrinks as the salt grows, until there is none left and the base starts to pile up.</value>
+  </data>
+  <data name="Acid_Chart_Note" xml:space="preserve">
+    <value>mmol in the flask</value>
+  </data>
+  <data name="Acid_Chart_Particles_Caption" xml:space="preserve">
+    <value>H₃O⁺ and OH⁻ in the beaker</value>
+  </data>
+  <data name="Acid_Chart_Particles_Note" xml:space="preserve">
+    <value>A ladder of powers of ten, in mol/L. When one bar goes up a step the other goes down one: their product is always 10⁻¹⁴, and the pH is the H₃O⁺ bar's step.</value>
+  </data>
+  <data name="Acid_Chart_SaltStrong" xml:space="preserve">
+    <value>salt NaCl</value>
+  </data>
+  <data name="Acid_Chart_SaltWeak" xml:space="preserve">
+    <value>salt CH₃COONa</value>
+  </data>
+  <data name="Acid_Chart_Scale_Caption" xml:space="preserve">
+    <value>Six indicators from pH 0 to 14</value>
+  </data>
+  <data name="Acid_Chart_Scale_Note" xml:space="preserve">
+    <value>The white line is the chosen liquid. Some indicators show a whole ladder of colours; others change only once. Click a strip to use it.</value>
+  </data>
+  <data name="Acid_Colour_Blue" xml:space="preserve">
+    <value>blue</value>
+  </data>
+  <data name="Acid_Colour_Colourless" xml:space="preserve">
+    <value>colourless</value>
+  </data>
+  <data name="Acid_Colour_Green" xml:space="preserve">
+    <value>green</value>
+  </data>
+  <data name="Acid_Colour_Orange" xml:space="preserve">
+    <value>orange</value>
+  </data>
+  <data name="Acid_Colour_PalePink" xml:space="preserve">
+    <value>pale pink</value>
+  </data>
+  <data name="Acid_Colour_Pink" xml:space="preserve">
+    <value>pink</value>
+  </data>
+  <data name="Acid_Colour_Purple" xml:space="preserve">
+    <value>purple</value>
+  </data>
+  <data name="Acid_Colour_Red" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="Acid_Colour_Yellow" xml:space="preserve">
+    <value>yellow</value>
+  </data>
+  <data name="Acid_Curve_Axis" xml:space="preserve">
+    <value>sodium hydroxide added (mL)</value>
+  </data>
+  <data name="Acid_Curve_Band" xml:space="preserve">
+    <value>{0} changes colour here</value>
+  </data>
+  <data name="Acid_Curve_Equivalence" xml:space="preserve">
+    <value>acid = base</value>
+  </data>
+  <data name="Acid_Curve_Half" xml:space="preserve">
+    <value>halfway: pH = pKa</value>
+  </data>
+  <data name="Acid_Curve_Point" xml:space="preserve">
+    <value>pH {0} · {1} mL</value>
+  </data>
+  <data name="Acid_Curve_Title" xml:space="preserve">
+    <value>Titration curve</value>
+  </data>
+  <data name="Acid_Dilute_Caption" xml:space="preserve">
+    <value>Water it down</value>
+  </data>
+  <data name="Acid_Dilute_Undo" xml:space="preserve">
+    <value>Undiluted</value>
+  </data>
+  <data name="Acid_Facts" xml:space="preserve">
+    <value>Good to know</value>
+  </data>
+  <data name="Acid_FlaskIndicator_Caption" xml:space="preserve">
+    <value>Indicator in the flask</value>
+  </data>
+  <data name="Acid_Flask_Strong" xml:space="preserve">
+    <value>Hydrochloric acid</value>
+  </data>
+  <data name="Acid_Flask_Weak" xml:space="preserve">
+    <value>Acetic acid</value>
+  </data>
+  <data name="Acid_Formula_Acetic" xml:space="preserve">
+    <value>CH₃COOH</value>
+  </data>
+  <data name="Acid_Formula_Ammonia" xml:space="preserve">
+    <value>NH₃</value>
+  </data>
+  <data name="Acid_Formula_Hcl" xml:space="preserve">
+    <value>HCl</value>
+  </data>
+  <data name="Acid_Formula_Naoh" xml:space="preserve">
+    <value>NaOH</value>
+  </data>
+  <data name="Acid_Hint_Neutralize" xml:space="preserve">
+    <value>Click the tap to open it (drip, stream, shut), the flask for a single drop, or drag along the curve.</value>
+  </data>
+  <data name="Acid_Hint_Particles" xml:space="preserve">
+    <value>Click a bottle to let a drop fall; hold it down to keep dripping. The jug waters the beaker down ten times.</value>
+  </data>
+  <data name="Acid_Hint_Scale" xml:space="preserve">
+    <value>Click a liquid to test it; click a small tube to use that indicator; click the water pill to water it down.</value>
+  </data>
+  <data name="Acid_Indicator_Bromothymol" xml:space="preserve">
+    <value>Bromothymol blue</value>
+  </data>
+  <data name="Acid_Indicator_Cabbage" xml:space="preserve">
+    <value>Red cabbage</value>
+  </data>
+  <data name="Acid_Indicator_Litmus" xml:space="preserve">
+    <value>Litmus</value>
+  </data>
+  <data name="Acid_Indicator_MethylOrange" xml:space="preserve">
+    <value>Methyl orange</value>
+  </data>
+  <data name="Acid_Indicator_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Acid_Indicator_Phenolphthalein" xml:space="preserve">
+    <value>Phenolphthalein</value>
+  </data>
+  <data name="Acid_Indicator_Universal" xml:space="preserve">
+    <value>Universal</value>
+  </data>
+  <data name="Acid_Kind_Buffer" xml:space="preserve">
+    <value>buffer</value>
+  </data>
+  <data name="Acid_Kind_Neutral" xml:space="preserve">
+    <value>neither</value>
+  </data>
+  <data name="Acid_Kind_StrongAcid" xml:space="preserve">
+    <value>strong acid</value>
+  </data>
+  <data name="Acid_Kind_StrongBase" xml:space="preserve">
+    <value>strong base</value>
+  </data>
+  <data name="Acid_Kind_WeakAcid" xml:space="preserve">
+    <value>weak acid</value>
+  </data>
+  <data name="Acid_Kind_WeakBase" xml:space="preserve">
+    <value>weak base</value>
+  </data>
+  <data name="Acid_Lens_Swap" xml:space="preserve">
+    <value>a proton swapped: 1 in 550 million</value>
+  </data>
+  <data name="Acid_Lens_Unit" xml:space="preserve">
+    <value>each ion or molecule drawn ≈ {0} mol/L</value>
+  </data>
+  <data name="Acid_Lesson_Neutralize_Choice1" xml:space="preserve">
+    <value>The pH leaps from about 3 to 11</value>
+  </data>
+  <data name="Acid_Lesson_Neutralize_Choice2" xml:space="preserve">
+    <value>The pH rises by about 0.1</value>
+  </data>
+  <data name="Acid_Lesson_Neutralize_Choice3" xml:space="preserve">
+    <value>Nothing changes</value>
+  </data>
+  <data name="Acid_Lesson_Particles_Choice1" xml:space="preserve">
+    <value>One step lower: 3</value>
+  </data>
+  <data name="Acid_Lesson_Particles_Choice2" xml:space="preserve">
+    <value>Ten steps lower</value>
+  </data>
+  <data name="Acid_Lesson_Particles_Choice3" xml:space="preserve">
+    <value>Half of it: 2</value>
+  </data>
+  <data name="Acid_Lesson_Scale2_Choice1" xml:space="preserve">
+    <value>2.5</value>
+  </data>
+  <data name="Acid_Lesson_Scale2_Choice2" xml:space="preserve">
+    <value>Still 1.5</value>
+  </data>
+  <data name="Acid_Lesson_Scale2_Choice3" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Acid_Lesson_Scale_Choice1" xml:space="preserve">
+    <value>Cola, about 300 times</value>
+  </data>
+  <data name="Acid_Lesson_Scale_Choice2" xml:space="preserve">
+    <value>Coffee, about 2 times</value>
+  </data>
+  <data name="Acid_Lesson_Scale_Choice3" xml:space="preserve">
+    <value>Cola, about 2 times</value>
+  </data>
+  <data name="Acid_Mode_Neutralize" xml:space="preserve">
+    <value>Neutralising</value>
+  </data>
+  <data name="Acid_Mode_Particles" xml:space="preserve">
+    <value>Particles</value>
+  </data>
+  <data name="Acid_Mode_Scale" xml:space="preserve">
+    <value>pH scale</value>
+  </data>
+  <data name="Acid_Molar_Caption" xml:space="preserve">
+    <value>Strength of acid and base</value>
+  </data>
+  <data name="Acid_Molar_Dilute" xml:space="preserve">
+    <value>0.1 mol/L</value>
+  </data>
+  <data name="Acid_Molar_Strong" xml:space="preserve">
+    <value>1 mol/L</value>
+  </data>
+  <data name="Acid_Nature_Acidic" xml:space="preserve">
+    <value>acidic</value>
+  </data>
+  <data name="Acid_Nature_Basic" xml:space="preserve">
+    <value>basic</value>
+  </data>
+  <data name="Acid_Nature_Neutral" xml:space="preserve">
+    <value>neutral</value>
+  </data>
+  <data name="Acid_Neutralize_Fact1" xml:space="preserve">
+    <value>Acid + base → salt + water. With hydrochloric acid and sodium hydroxide the salt is ordinary table salt, NaCl.</value>
+  </data>
+  <data name="Acid_Neutralize_Fact2" xml:space="preserve">
+    <value>Titration finds how strong an unknown acid is: the base used to reach the colour change tells you how many protons the acid had.</value>
+  </data>
+  <data name="Acid_Neutralize_Fact3" xml:space="preserve">
+    <value>Neutralising gives off heat, about 57 kJ for each mole of water made. Strong enough acid and base can warm up by several degrees.</value>
+  </data>
+  <data name="Acid_Neutralize_Fact4" xml:space="preserve">
+    <value>Antacid tablets are weak bases such as magnesium hydroxide or calcium carbonate: they neutralise some stomach acid without making the stomach basic.</value>
+  </data>
+  <data name="Acid_Neutralize_Fact5" xml:space="preserve">
+    <value>A good indicator changes colour inside the steep jump. For a weak acid the end is basic, so phenolphthalein works and methyl orange changes far too early.</value>
+  </data>
+  <data name="Acid_Neutralize_Note" xml:space="preserve">
+    <value>25 mL of acid in the flask, sodium hydroxide of the same strength in the burette, at 25 °C. The curve is drawn as far as the base has gone.</value>
+  </data>
+  <data name="Acid_Neutralize_Panel_Note" xml:space="preserve">
+    <value>Same amounts in real labs: a burette reads from 0 at the top, and the last drops before the end are added one at a time.</value>
+  </data>
+  <data name="Acid_Neutralize_Subtitle" xml:space="preserve">
+    <value>An acid meets a base, drop by drop</value>
+  </data>
+  <data name="Acid_Obj_Acetic" xml:space="preserve">
+    <value>Acetic acid</value>
+  </data>
+  <data name="Acid_Obj_AcidIon" xml:space="preserve">
+    <value>Acetate ion</value>
+  </data>
+  <data name="Acid_Obj_AcidMolecule" xml:space="preserve">
+    <value>Acetic acid molecule</value>
+  </data>
+  <data name="Acid_Obj_Ammonia" xml:space="preserve">
+    <value>Ammonia cleaner</value>
+  </data>
+  <data name="Acid_Obj_AmmoniaBottle" xml:space="preserve">
+    <value>Ammonia</value>
+  </data>
+  <data name="Acid_Obj_Antacid" xml:space="preserve">
+    <value>Milk of magnesia</value>
+  </data>
+  <data name="Acid_Obj_BakingSoda" xml:space="preserve">
+    <value>Baking soda</value>
+  </data>
+  <data name="Acid_Obj_Band" xml:space="preserve">
+    <value>Where the colour changes</value>
+  </data>
+  <data name="Acid_Obj_BaseIon" xml:space="preserve">
+    <value>Ammonium ion</value>
+  </data>
+  <data name="Acid_Obj_BaseMolecule" xml:space="preserve">
+    <value>Ammonia molecule</value>
+  </data>
+  <data name="Acid_Obj_Beaker" xml:space="preserve">
+    <value>The beaker</value>
+  </data>
+  <data name="Acid_Obj_Bleach" xml:space="preserve">
+    <value>Bleach</value>
+  </data>
+  <data name="Acid_Obj_Blood" xml:space="preserve">
+    <value>Blood</value>
+  </data>
+  <data name="Acid_Obj_Bromothymol" xml:space="preserve">
+    <value>Bromothymol blue</value>
+  </data>
+  <data name="Acid_Obj_Burette" xml:space="preserve">
+    <value>The burette</value>
+  </data>
+  <data name="Acid_Obj_Cabbage" xml:space="preserve">
+    <value>Red cabbage juice</value>
+  </data>
+  <data name="Acid_Obj_Chloride" xml:space="preserve">
+    <value>Chloride ion Cl⁻</value>
+  </data>
+  <data name="Acid_Obj_Coffee" xml:space="preserve">
+    <value>Black coffee</value>
+  </data>
+  <data name="Acid_Obj_Cola" xml:space="preserve">
+    <value>Cola</value>
+  </data>
+  <data name="Acid_Obj_Curve" xml:space="preserve">
+    <value>The titration curve</value>
+  </data>
+  <data name="Acid_Obj_Dilute" xml:space="preserve">
+    <value>Watering down</value>
+  </data>
+  <data name="Acid_Obj_Drain" xml:space="preserve">
+    <value>Drain cleaner</value>
+  </data>
+  <data name="Acid_Obj_Equivalence" xml:space="preserve">
+    <value>The equivalence point</value>
+  </data>
+  <data name="Acid_Obj_Flask" xml:space="preserve">
+    <value>The flask</value>
+  </data>
+  <data name="Acid_Obj_FlaskIndicator" xml:space="preserve">
+    <value>The indicator</value>
+  </data>
+  <data name="Acid_Obj_Halfway" xml:space="preserve">
+    <value>Halfway</value>
+  </data>
+  <data name="Acid_Obj_Hcl" xml:space="preserve">
+    <value>Hydrochloric acid</value>
+  </data>
+  <data name="Acid_Obj_Hydronium" xml:space="preserve">
+    <value>Hydronium ion H₃O⁺</value>
+  </data>
+  <data name="Acid_Obj_Hydroxide" xml:space="preserve">
+    <value>Hydroxide ion OH⁻</value>
+  </data>
+  <data name="Acid_Obj_Jug" xml:space="preserve">
+    <value>The water jug</value>
+  </data>
+  <data name="Acid_Obj_Jump" xml:space="preserve">
+    <value>The jump</value>
+  </data>
+  <data name="Acid_Obj_Lemon" xml:space="preserve">
+    <value>Lemon juice</value>
+  </data>
+  <data name="Acid_Obj_Litmus" xml:space="preserve">
+    <value>Litmus</value>
+  </data>
+  <data name="Acid_Obj_Magnifier" xml:space="preserve">
+    <value>The magnifier</value>
+  </data>
+  <data name="Acid_Obj_Meter" xml:space="preserve">
+    <value>The pH meter</value>
+  </data>
+  <data name="Acid_Obj_Methyl" xml:space="preserve">
+    <value>Methyl orange</value>
+  </data>
+  <data name="Acid_Obj_Milk" xml:space="preserve">
+    <value>Milk</value>
+  </data>
+  <data name="Acid_Obj_Naoh" xml:space="preserve">
+    <value>Sodium hydroxide</value>
+  </data>
+  <data name="Acid_Obj_Neutral" xml:space="preserve">
+    <value>Neutral, pH 7</value>
+  </data>
+  <data name="Acid_Obj_Orange" xml:space="preserve">
+    <value>Orange juice</value>
+  </data>
+  <data name="Acid_Obj_PhStrip" xml:space="preserve">
+    <value>The pH scale</value>
+  </data>
+  <data name="Acid_Obj_PhValue" xml:space="preserve">
+    <value>The pH</value>
+  </data>
+  <data name="Acid_Obj_Phenol" xml:space="preserve">
+    <value>Phenolphthalein</value>
+  </data>
+  <data name="Acid_Obj_Rain" xml:space="preserve">
+    <value>Clean rain</value>
+  </data>
+  <data name="Acid_Obj_Reaction" xml:space="preserve">
+    <value>Particles meeting</value>
+  </data>
+  <data name="Acid_Obj_Scale" xml:space="preserve">
+    <value>The pH scale</value>
+  </data>
+  <data name="Acid_Obj_Seawater" xml:space="preserve">
+    <value>Seawater</value>
+  </data>
+  <data name="Acid_Obj_Soap" xml:space="preserve">
+    <value>Soapy water</value>
+  </data>
+  <data name="Acid_Obj_Sodium" xml:space="preserve">
+    <value>Sodium ion Na⁺</value>
+  </data>
+  <data name="Acid_Obj_Steps" xml:space="preserve">
+    <value>Steps of ten</value>
+  </data>
+  <data name="Acid_Obj_Stomach" xml:space="preserve">
+    <value>Stomach acid</value>
+  </data>
+  <data name="Acid_Obj_Swap" xml:space="preserve">
+    <value>Water swapping a proton</value>
+  </data>
+  <data name="Acid_Obj_Tap" xml:space="preserve">
+    <value>The tap</value>
+  </data>
+  <data name="Acid_Obj_Thermometer" xml:space="preserve">
+    <value>The thermometer</value>
+  </data>
+  <data name="Acid_Obj_Tube" xml:space="preserve">
+    <value>The test tube</value>
+  </data>
+  <data name="Acid_Obj_Universal" xml:space="preserve">
+    <value>Universal indicator</value>
+  </data>
+  <data name="Acid_Obj_Vinegar" xml:space="preserve">
+    <value>Vinegar</value>
+  </data>
+  <data name="Acid_Obj_Water" xml:space="preserve">
+    <value>Pure water</value>
+  </data>
+  <data name="Acid_Obj_WaterMolecule" xml:space="preserve">
+    <value>Water molecule</value>
+  </data>
+  <data name="Acid_OneDrop" xml:space="preserve">
+    <value>One drop</value>
+  </data>
+  <data name="Acid_Option_Compare" xml:space="preserve">
+    <value>The other acid's curve</value>
+  </data>
+  <data name="Acid_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Acid_Option_Particles" xml:space="preserve">
+    <value>Magnifier</value>
+  </data>
+  <data name="Acid_Particle_AcidIon" xml:space="preserve">
+    <value>acetate CH₃COO⁻</value>
+  </data>
+  <data name="Acid_Particle_AcidMolecule" xml:space="preserve">
+    <value>acetic acid CH₃COOH</value>
+  </data>
+  <data name="Acid_Particle_BaseIon" xml:space="preserve">
+    <value>ammonium NH₄⁺</value>
+  </data>
+  <data name="Acid_Particle_BaseMolecule" xml:space="preserve">
+    <value>ammonia NH₃</value>
+  </data>
+  <data name="Acid_Particle_Chloride" xml:space="preserve">
+    <value>chloride Cl⁻</value>
+  </data>
+  <data name="Acid_Particle_Hydronium" xml:space="preserve">
+    <value>hydronium H₃O⁺</value>
+  </data>
+  <data name="Acid_Particle_Hydroxide" xml:space="preserve">
+    <value>hydroxide OH⁻</value>
+  </data>
+  <data name="Acid_Particle_Sodium" xml:space="preserve">
+    <value>sodium Na⁺</value>
+  </data>
+  <data name="Acid_Particle_Water" xml:space="preserve">
+    <value>water H₂O</value>
+  </data>
+  <data name="Acid_Particles_Fact1" xml:space="preserve">
+    <value>An acid is something that gives protons (hydrogen ions, H⁺) away; a base takes them. In water a lone H⁺ never stays free: it rides on a water molecule as H₃O⁺.</value>
+  </data>
+  <data name="Acid_Particles_Fact2" xml:space="preserve">
+    <value>“Strong” and “weak” are about how many molecules let go of their proton, not about how much acid there is. Strong hydrochloric acid gives up all of them; acetic acid only a few.</value>
+  </data>
+  <data name="Acid_Particles_Fact3" xml:space="preserve">
+    <value>In any water at 25 °C, [H₃O⁺] × [OH⁻] = 10⁻¹⁴. Add H₃O⁺ and the OH⁻ must fall: they meet and turn back into water.</value>
+  </data>
+  <data name="Acid_Particles_Fact4" xml:space="preserve">
+    <value>pH means “power of hydrogen”: pH 3 is 10⁻³ mol of H₃O⁺ per litre. The scale was invented in 1909 by Søren Sørensen at the Carlsberg brewery in Copenhagen.</value>
+  </data>
+  <data name="Acid_Particles_Fact5" xml:space="preserve">
+    <value>Never taste or smell chemicals to identify them, and always add acid to water, not water to acid: the heat can make it spit.</value>
+  </data>
+  <data name="Acid_Particles_Note" xml:space="preserve">
+    <value>100 mL of water at 25 °C; every bottle holds 0.1 mol/L and a drop is 0.05 mL. The pH is worked out exactly from the particles' charges.</value>
+  </data>
+  <data name="Acid_Particles_Panel_Note" xml:space="preserve">
+    <value>The magnifier draws the dissolved particles in proportion to one another; the water molecules are far too many to draw: even in the strongest mix here there are more than 500 for every dissolved particle.</value>
+  </data>
+  <data name="Acid_Particles_Subtitle" xml:space="preserve">
+    <value>What an acid and a base do to water</value>
+  </data>
+  <data name="Acid_Refill" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="Acid_ScaleIndicator_Caption" xml:space="preserve">
+    <value>Colour the scale with</value>
+  </data>
+  <data name="Acid_Scale_AddWater" xml:space="preserve">
+    <value>+ water ×10</value>
+  </data>
+  <data name="Acid_Scale_AsWater" xml:space="preserve">
+    <value>about as much H₃O⁺ as pure water</value>
+  </data>
+  <data name="Acid_Scale_Diluted" xml:space="preserve">
+    <value>watered down {0}×</value>
+  </data>
+  <data name="Acid_Scale_Fact1" xml:space="preserve">
+    <value>Each whole step on the pH scale is ten times as much H₃O⁺: lemon juice at pH 2.3 has about 50,000 times as much as pure water.</value>
+  </data>
+  <data name="Acid_Scale_Fact2" xml:space="preserve">
+    <value>Your stomach keeps itself near pH 1.5 to 3.5 to digest food and kill germs; a thick layer of mucus stops it from digesting itself.</value>
+  </data>
+  <data name="Acid_Scale_Fact3" xml:space="preserve">
+    <value>Blood stays between pH 7.35 and 7.45. Dissolved carbon dioxide and bicarbonate form a buffer, and your breathing adjusts it every minute.</value>
+  </data>
+  <data name="Acid_Scale_Fact4" xml:space="preserve">
+    <value>Clean rain is slightly acidic, about pH 5.6, because it dissolves carbon dioxide from the air. Acid rain, from sulphur and nitrogen oxides, can fall below 4.</value>
+  </data>
+  <data name="Acid_Scale_Fact5" xml:space="preserve">
+    <value>Never mix bleach with acidic cleaners such as toilet cleaner or vinegar: together they give off poisonous chlorine gas.</value>
+  </data>
+  <data name="Acid_Scale_Hydronium" xml:space="preserve">
+    <value>[H₃O⁺] = {0} mol/L</value>
+  </data>
+  <data name="Acid_Scale_Indicators" xml:space="preserve">
+    <value>in each indicator</value>
+  </data>
+  <data name="Acid_Scale_Less" xml:space="preserve">
+    <value>1/{0} of pure water's H₃O⁺</value>
+  </data>
+  <data name="Acid_Scale_More" xml:space="preserve">
+    <value>{0}× as much H₃O⁺ as pure water</value>
+  </data>
+  <data name="Acid_Scale_Note" xml:space="preserve">
+    <value>Typical values; real lemons, coffees and soaps vary. Each liquid is modelled as a simple solution of the acid, base or buffer that makes it so.</value>
+  </data>
+  <data name="Acid_Scale_Panel_Note" xml:space="preserve">
+    <value>Each time, a tenth of the liquid is kept and topped up with water. A strong acid moves one step towards 7 each time; a buffer hardly moves.</value>
+  </data>
+  <data name="Acid_Scale_Steps" xml:space="preserve">
+    <value>one step down: 10× as much H₃O⁺</value>
+  </data>
+  <data name="Acid_Scale_Subtitle" xml:space="preserve">
+    <value>From stomach acid to drain cleaner</value>
+  </data>
+  <data name="Acid_Scale_Undiluted" xml:space="preserve">
+    <value>as it comes</value>
+  </data>
+  <data name="Acid_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Acid_Stage_Before_Strong" xml:space="preserve">
+    <value>Each OH⁻ that falls in meets an H₃O⁺ and both become water. The acid is being used up, but slowly the pH barely moves.</value>
+  </data>
+  <data name="Acid_Stage_Before_Title" xml:space="preserve">
+    <value>Acid still left</value>
+  </data>
+  <data name="Acid_Stage_Before_Weak" xml:space="preserve">
+    <value>Each OH⁻ pulls a proton off an acetic acid molecule, leaving acetate. Acid and acetate together hold the pH steady: a buffer.</value>
+  </data>
+  <data name="Acid_Stage_Equivalence_Strong" xml:space="preserve">
+    <value>Exactly as many OH⁻ as there were protons: only salt water is left, pH 7. Around here one drop swings the pH by several steps.</value>
+  </data>
+  <data name="Acid_Stage_Equivalence_Title" xml:space="preserve">
+    <value>Acid = base</value>
+  </data>
+  <data name="Acid_Stage_Equivalence_Weak" xml:space="preserve">
+    <value>Exactly as many OH⁻ as there were protons, but acetate takes a few protons back from water, so the end is a little basic, near pH 8.7.</value>
+  </data>
+  <data name="Acid_Stage_Excess_Strong" xml:space="preserve">
+    <value>The acid is gone; every extra drop adds OH⁻ that nothing uses up. The pH climbs towards that of the base itself.</value>
+  </data>
+  <data name="Acid_Stage_Excess_Title" xml:space="preserve">
+    <value>Too much base</value>
+  </data>
+  <data name="Acid_Stage_Excess_Weak" xml:space="preserve">
+    <value>The acid is gone; extra OH⁻ piles up and the curve joins hydrochloric acid's: past the end, the acid no longer matters.</value>
+  </data>
+  <data name="Acid_Stage_Half_Strong" xml:space="preserve">
+    <value>Half the acid is used up.</value>
+  </data>
+  <data name="Acid_Stage_Half_Title" xml:space="preserve">
+    <value>Halfway</value>
+  </data>
+  <data name="Acid_Stage_Half_Weak" xml:space="preserve">
+    <value>Half the acetic acid has become acetate: the two are equal, and the pH equals the acid's pKa, 4.76. This is where a buffer is strongest.</value>
+  </data>
+  <data name="Acid_Stage_Start_Strong" xml:space="preserve">
+    <value>25 mL of hydrochloric acid: every HCl has given its proton to water, so the flask is full of H₃O⁺ and Cl⁻.</value>
+  </data>
+  <data name="Acid_Stage_Start_Title" xml:space="preserve">
+    <value>Only acid</value>
+  </data>
+  <data name="Acid_Stage_Start_Weak" xml:space="preserve">
+    <value>25 mL of acetic acid: almost every molecule still holds its proton, so its pH is higher than hydrochloric acid's of the same strength.</value>
+  </data>
+  <data name="Acid_Stat_AcidLeft" xml:space="preserve">
+    <value>Acid left</value>
+  </data>
+  <data name="Acid_Stat_Acids" xml:space="preserve">
+    <value>Acid in it</value>
+  </data>
+  <data name="Acid_Stat_Base" xml:space="preserve">
+    <value>NaOH added</value>
+  </data>
+  <data name="Acid_Stat_Bases" xml:space="preserve">
+    <value>Base in it</value>
+  </data>
+  <data name="Acid_Stat_Colour" xml:space="preserve">
+    <value>Indicator colour</value>
+  </data>
+  <data name="Acid_Stat_Compare" xml:space="preserve">
+    <value>Compared with water</value>
+  </data>
+  <data name="Acid_Stat_Diluted" xml:space="preserve">
+    <value>Watered down</value>
+  </data>
+  <data name="Acid_Stat_Hydronium" xml:space="preserve">
+    <value>H₃O⁺</value>
+  </data>
+  <data name="Acid_Stat_Hydroxide" xml:space="preserve">
+    <value>OH⁻</value>
+  </data>
+  <data name="Acid_Stat_Kind" xml:space="preserve">
+    <value>Made acidic or basic by</value>
+  </data>
+  <data name="Acid_Stat_Nature" xml:space="preserve">
+    <value>It is</value>
+  </data>
+  <data name="Acid_Stat_Ph" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="Acid_Stat_Product" xml:space="preserve">
+    <value>H₃O⁺ × OH⁻</value>
+  </data>
+  <data name="Acid_Stat_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Acid_Stat_Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Acid_Strip_Acidic" xml:space="preserve">
+    <value>← acidic</value>
+  </data>
+  <data name="Acid_Strip_Basic" xml:space="preserve">
+    <value>basic →</value>
+  </data>
+  <data name="Acid_Strip_Neutral" xml:space="preserve">
+    <value>neutral</value>
+  </data>
+  <data name="Acid_Sub_Ammonia" xml:space="preserve">
+    <value>Ammonia cleaner</value>
+  </data>
+  <data name="Acid_Sub_Antacid" xml:space="preserve">
+    <value>Milk of magnesia</value>
+  </data>
+  <data name="Acid_Sub_BakingSoda" xml:space="preserve">
+    <value>Baking soda in water</value>
+  </data>
+  <data name="Acid_Sub_Bleach" xml:space="preserve">
+    <value>Bleach</value>
+  </data>
+  <data name="Acid_Sub_Blood" xml:space="preserve">
+    <value>Blood</value>
+  </data>
+  <data name="Acid_Sub_Coffee" xml:space="preserve">
+    <value>Black coffee</value>
+  </data>
+  <data name="Acid_Sub_Cola" xml:space="preserve">
+    <value>Cola</value>
+  </data>
+  <data name="Acid_Sub_Drain" xml:space="preserve">
+    <value>Drain cleaner</value>
+  </data>
+  <data name="Acid_Sub_Lemon" xml:space="preserve">
+    <value>Lemon juice</value>
+  </data>
+  <data name="Acid_Sub_Milk" xml:space="preserve">
+    <value>Milk</value>
+  </data>
+  <data name="Acid_Sub_Orange" xml:space="preserve">
+    <value>Orange juice</value>
+  </data>
+  <data name="Acid_Sub_Rain" xml:space="preserve">
+    <value>Clean rain</value>
+  </data>
+  <data name="Acid_Sub_Seawater" xml:space="preserve">
+    <value>Seawater</value>
+  </data>
+  <data name="Acid_Sub_Soap" xml:space="preserve">
+    <value>Soapy water</value>
+  </data>
+  <data name="Acid_Sub_Stomach" xml:space="preserve">
+    <value>Stomach acid</value>
+  </data>
+  <data name="Acid_Sub_Vinegar" xml:space="preserve">
+    <value>Vinegar</value>
+  </data>
+  <data name="Acid_Sub_Water" xml:space="preserve">
+    <value>Pure water</value>
+  </data>
+  <data name="Acid_Tap_Closed" xml:space="preserve">
+    <value>shut</value>
+  </data>
+  <data name="Acid_Tap_Drip" xml:space="preserve">
+    <value>drip</value>
+  </data>
+  <data name="Acid_Tap_Stream" xml:space="preserve">
+    <value>stream</value>
+  </data>
+  <data name="Acid_Times_Big" xml:space="preserve">
+    <value>1000000</value>
+  </data>
+  <data name="Acid_Times_BigFormat" xml:space="preserve">
+    <value>{0} million</value>
+  </data>
+  <data name="Acid_Title" xml:space="preserve">
+    <value>Acids, bases and pH</value>
+  </data>
+  <data name="Acid_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Acid_Value_Ml" xml:space="preserve">
+    <value>{0} mL</value>
+  </data>
+  <data name="Acid_Value_Mmol" xml:space="preserve">
+    <value>{0} mmol</value>
+  </data>
+  <data name="Acid_Value_Mmol2" xml:space="preserve">
+    <value>{0} strong + {1} weak mmol</value>
+  </data>
+  <data name="Acid_Value_Molar" xml:space="preserve">
+    <value>{0} mol/L</value>
+  </data>
+  <data name="Acid_Value_Ph" xml:space="preserve">
+    <value>pH {0}</value>
+  </data>
+  <data name="Acid_Value_Product" xml:space="preserve">
+    <value>{0} (mol/L)²</value>
+  </data>
   <data name="App_Title" xml:space="preserve">
     <value>Explore Book</value>
   </data>
@@ -10928,6 +11747,285 @@
   </data>
   <data name="MoonPhases_Upcoming_When" xml:space="preserve">
     <value>{0} ({1}) {2}</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_01" xml:space="preserve">
+    <value>In this flask are twenty five millilitres of hydrochloric acid, with a few drops of phenolphthalein. Colourless, because it is acidic.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_02" xml:space="preserve">
+    <value>Above it, the burette is full of sodium hydroxide, a base of the same strength. We'll let it in a little at a time and read how much has gone.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_03" xml:space="preserve">
+    <value>The tap is open and the base is dripping in. Watch the curve: the pH is creeping up, but only slowly.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_04" xml:space="preserve">
+    <value>Why so slow? In the magnifier, each OH⁻ that arrives meets an H₃O⁺, and they become two water molecules. There is still plenty of acid to use up.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_05" xml:space="preserve">
+    <value>We've added twenty four millilitres, and the acid is nearly gone. What do you think will happen over the next two millilitres?</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_06" xml:space="preserve">
+    <value>Watch! Around twenty five millilitres the pH shoots up from about three to about eleven, and the flask flashes pink. With almost no acid left, every drop counts.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_07" xml:space="preserve">
+    <value>Right here, the base added equals the acid we started with. This is the equivalence point, and for a strong acid it is exactly neutral. Chemists use it to measure how strong an acid is.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_08" xml:space="preserve">
+    <value>Now look at the thermometer. Neutralising gives off heat. Here the flask warms by under a degree, but with stronger solutions it would get noticeably warm.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_09" xml:space="preserve">
+    <value>Now acetic acid instead. The curve starts higher, because it is a weak acid. Halfway through it flattens out, and right here the pH equals the acid's pKa. The jump is smaller, and ends on the basic side.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_10" xml:space="preserve">
+    <value>So which indicator should we use? Methyl orange changes colour in this band, long before the end. For a weak acid, it would fool us. Phenolphthalein changes right inside the jump.</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_11" xml:space="preserve">
+    <value>Your turn. The flask is full of fresh acid again. Open the tap, and shut it as soon as the flask turns pink, as close to twenty five millilitres as you can.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Acetic" xml:space="preserve">
+    <value>Acetic acid is the acid in vinegar. It is a weak acid: most of its molecules hold on to their proton, and only a few give it to water.</value>
+  </data>
+  <data name="Narr_Acid_Obj_AcidIon" xml:space="preserve">
+    <value>An acetate ion: an acetic acid molecule that has given its proton away. It would happily take one back, which is what makes a buffer work.</value>
+  </data>
+  <data name="Narr_Acid_Obj_AcidMolecule" xml:space="preserve">
+    <value>A whole acetic acid molecule, still holding its proton. In vinegar most molecules look like this, which is why vinegar is a weak acid.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Ammonia" xml:space="preserve">
+    <value>Household ammonia cleaner is a weak base, around pH eleven and a half. Its sharp smell is ammonia gas escaping from the water.</value>
+  </data>
+  <data name="Narr_Acid_Obj_AmmoniaBottle" xml:space="preserve">
+    <value>Ammonia is a weak base. A few of its molecules take a proton from water, becoming ammonium and leaving OH⁻ behind. Most stay as they are.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Antacid" xml:space="preserve">
+    <value>Milk of magnesia is magnesium hydroxide in water, around pH ten and a half. Swallowed, it neutralises some stomach acid and eases heartburn.</value>
+  </data>
+  <data name="Narr_Acid_Obj_BakingSoda" xml:space="preserve">
+    <value>Baking soda, sodium bicarbonate, makes water a little basic, about eight point three. It fizzes with acids like vinegar because it gives off carbon dioxide.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Band" xml:space="preserve">
+    <value>This shaded band is where the chosen indicator changes colour. For a sharp end point it should sit inside the steep part of the curve.</value>
+  </data>
+  <data name="Narr_Acid_Obj_BaseIon" xml:space="preserve">
+    <value>An ammonium ion: ammonia that has caught a proton from water. For every one of these, an OH⁻ was left behind in the water.</value>
+  </data>
+  <data name="Narr_Acid_Obj_BaseMolecule" xml:space="preserve">
+    <value>An ammonia molecule: one nitrogen and three hydrogens. The nitrogen has a spare pair of electrons that can catch a proton.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Beaker" xml:space="preserve">
+    <value>This beaker started with a hundred millilitres of pure water. Every drop you add changes what is floating in it, and the meter and the colour tell you what that did.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Bleach" xml:space="preserve">
+    <value>Bleach is strongly basic, around twelve and a half. It can burn skin and eyes, and mixed with acids it releases poisonous chlorine gas.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Blood" xml:space="preserve">
+    <value>Blood is slightly basic, about seven point four. It is a buffer: watering it down or adding a little acid barely moves its pH, which keeps you alive.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Bromothymol" xml:space="preserve">
+    <value>Bromothymol blue is yellow in acid, green right around neutral, and blue in base. It is handy for telling whether something is close to pH seven.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Burette" xml:space="preserve">
+    <value>The burette is a long tube with a scale. It is read from the top, so the number at the liquid's surface is how much has already run out.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Cabbage" xml:space="preserve">
+    <value>Red cabbage juice is an indicator you can make in your kitchen. Its colour comes from anthocyanins: red in acid, purple near neutral, blue, green and then yellow in strong base.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Chloride" xml:space="preserve">
+    <value>A chloride ion is what is left of hydrochloric acid after it gives its proton away. It just floats around and takes no part in the pH.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Coffee" xml:space="preserve">
+    <value>Black coffee is mildly acidic, around pH five, from acids roasted out of the beans.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Cola" xml:space="preserve">
+    <value>Cola contains phosphoric acid, and with dissolved carbon dioxide it sits around pH two and a half. The sugar hides how sour it really is.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Curve" xml:space="preserve">
+    <value>The titration curve shows the pH after each amount of base. Drag along it to go back or forward.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Dilute" xml:space="preserve">
+    <value>Click here to water the liquid down ten times. Watch which way the pH moves, and how far.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Drain" xml:space="preserve">
+    <value>Drain cleaner is concentrated sodium hydroxide, near the top of the scale. It dissolves hair and grease, and skin too, so it must be handled with gloves.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Equivalence" xml:space="preserve">
+    <value>At the equivalence point the base added exactly matches the acid that was there. Here that is twenty five millilitres, because both have the same strength.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Flask" xml:space="preserve">
+    <value>The conical flask holds the acid with a few drops of indicator. Its shape lets you swirl it without spilling. Click it to add a single drop.</value>
+  </data>
+  <data name="Narr_Acid_Obj_FlaskIndicator" xml:space="preserve">
+    <value>This is the indicator in the flask. Its colour change is your signal that the acid has run out.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Halfway" xml:space="preserve">
+    <value>Halfway to the end, half the acetic acid has become acetate. With equal amounts of both, the pH equals the acid's pKa, four point seven six.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Hcl" xml:space="preserve">
+    <value>Hydrochloric acid is a strong acid. Every single HCl molecule hands its proton to water, so you get one H₃O⁺ and one chloride ion for each.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Hydronium" xml:space="preserve">
+    <value>This is a hydronium ion, H₃O⁺: a water molecule carrying an extra proton. The more of these there are, the more acidic the water, and the lower the pH.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Hydroxide" xml:space="preserve">
+    <value>This is a hydroxide ion, OH⁻: a water molecule that has lost a proton. When it meets an H₃O⁺, the proton jumps across and both become water.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Jug" xml:space="preserve">
+    <value>The jug waters the beaker down: it keeps one tenth and fills it back up with water. Everything dissolved becomes ten times thinner.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Jump" xml:space="preserve">
+    <value>Near the end, the pH leaps. With almost no acid left, a single drop of base changes the amount of H₃O⁺ by thousands of times.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Lemon" xml:space="preserve">
+    <value>Lemon juice gets its sourness from citric acid, a weak acid. At around pH two point three, it has tens of thousands of times more H₃O⁺ than pure water.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Litmus" xml:space="preserve">
+    <value>Litmus comes from lichens. It is red in acid and blue in base, with purple in between. It tells you which side you are on, but not by how much.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Magnifier" xml:space="preserve">
+    <value>The magnifier zooms in on the beaker. The pale bent shapes are water molecules. The bright ones are what is dissolved, drawn in proportion to each other.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Meter" xml:space="preserve">
+    <value>A pH meter has a thin glass bulb at the tip of its probe. H₃O⁺ ions build up a tiny voltage across the glass, and the meter turns that voltage into a pH.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Methyl" xml:space="preserve">
+    <value>Methyl orange is red in fairly strong acid and yellow from about pH four and a half upwards. It changes colour on the acid side.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Milk" xml:space="preserve">
+    <value>Milk is just on the acidic side of neutral, around six point six. As it goes sour, bacteria turn its sugar into lactic acid and the pH drops.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Naoh" xml:space="preserve">
+    <value>Sodium hydroxide is a strong base. It falls apart into sodium ions and hydroxide ions, and the hydroxide grabs any H₃O⁺ it meets.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Neutral" xml:space="preserve">
+    <value>Seven is neutral: just as many H₃O⁺ as OH⁻, like pure water. Neutral does not mean nothing is dissolved; salt water is neutral too.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Orange" xml:space="preserve">
+    <value>Orange juice, like lemon juice, owes its tang to citric acid, but there is less of it, so it is around pH three and a half.</value>
+  </data>
+  <data name="Narr_Acid_Obj_PhStrip" xml:space="preserve">
+    <value>Here is the pH scale in the colours of universal indicator: red for strong acids, green for neutral, purple for strong bases.</value>
+  </data>
+  <data name="Narr_Acid_Obj_PhValue" xml:space="preserve">
+    <value>This is the pH right now. Below seven means acidic, above seven means basic. And remember, one step is not a little bit: it is ten times.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Phenol" xml:space="preserve">
+    <value>Phenolphthalein is colourless in acid and in neutral water, and turns pink only above about pH eight. That makes it perfect for spotting the end of a titration.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Rain" xml:space="preserve">
+    <value>Even clean rain is a little acidic. Carbon dioxide from the air dissolves in it and makes carbonic acid, bringing it to about five point six.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Reaction" xml:space="preserve">
+    <value>Inside the flask, each hydroxide ion that arrives finds a hydronium ion. The proton jumps across and the pair become two water molecules.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Scale" xml:space="preserve">
+    <value>The pH scale runs from zero to fourteen. Seven in the middle is neutral, lower is acidic, higher is basic. The colours are what the indicator would show.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Seawater" xml:space="preserve">
+    <value>Seawater is slightly basic, about eight point one. As the oceans soak up carbon dioxide from the air, that number is slowly going down.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Soap" xml:space="preserve">
+    <value>Soapy water is basic, around ten. That slippery feel on your fingers is typical of bases.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Sodium" xml:space="preserve">
+    <value>A sodium ion comes from sodium hydroxide. Like chloride, it is a spectator: it floats about while the H₃O⁺ and OH⁻ do the reacting.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Steps" xml:space="preserve">
+    <value>Every step to the left means ten times as much H₃O⁺. So two steps is a hundred times, three steps a thousand times.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Stomach" xml:space="preserve">
+    <value>Stomach acid is mostly hydrochloric acid, around pH one and a half. It is strong enough to dissolve some metals, and it helps break down your food.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Swap" xml:space="preserve">
+    <value>Two water molecules just swapped a proton: one became H₃O⁺, the other OH⁻. In pure water only about one molecule in five hundred and fifty million is like this at any moment.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Tap" xml:space="preserve">
+    <value>Click the tap to turn it. Once for a drop at a time, again for a thin stream, and once more to shut it.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Thermometer" xml:space="preserve">
+    <value>Neutralising gives off heat. With these weak solutions the flask warms by less than a degree; with acid and base ten times stronger, by several degrees.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Tube" xml:space="preserve">
+    <value>The test tube holds a sample of the chosen liquid with a few drops of indicator. Its colour is what you would see on a lab bench.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Universal" xml:space="preserve">
+    <value>Universal indicator is a mixture of several dyes, so it changes colour step by step: red, orange, yellow, green, blue and purple across the scale.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Vinegar" xml:space="preserve">
+    <value>Vinegar is about five percent acetic acid in water. It is a weak acid, so it is around pH three, not as low as its strength might suggest.</value>
+  </data>
+  <data name="Narr_Acid_Obj_Water" xml:space="preserve">
+    <value>Pure water is exactly neutral, pH seven, at twenty five degrees. Tap water usually has a few minerals in it and can be a little either way.</value>
+  </data>
+  <data name="Narr_Acid_Obj_WaterMolecule" xml:space="preserve">
+    <value>A water molecule: one oxygen with two hydrogens, bent like a boomerang. There are so many that even this drawing shows only a sprinkle of them.</value>
+  </data>
+  <data name="Narr_Acid_Particles_01" xml:space="preserve">
+    <value>Here is a beaker of pure water, with a pH meter dipped in. What does it read? Exactly seven. That is what we call neutral.</value>
+  </data>
+  <data name="Narr_Acid_Particles_02" xml:space="preserve">
+    <value>Let's zoom in. Watch closely: every now and then two water molecules swap a proton, and for a moment you get one H₃O⁺ and one OH⁻. Always one of each, so the water stays neutral.</value>
+  </data>
+  <data name="Narr_Acid_Particles_03" xml:space="preserve">
+    <value>Now two tiny drops of hydrochloric acid. Look at the meter: the pH has dropped from seven to four, from just two drops!</value>
+  </data>
+  <data name="Narr_Acid_Particles_04" xml:space="preserve">
+    <value>In the magnifier, every HCl has given its proton to a water molecule. The red ones are H₃O⁺, and the green ones are the chloride left behind. More H₃O⁺ means more acidic.</value>
+  </data>
+  <data name="Narr_Acid_Particles_05" xml:space="preserve">
+    <value>Here is a question. If we put in ten times as much acid, so there is ten times as much H₃O⁺, what will the pH be?</value>
+  </data>
+  <data name="Narr_Acid_Particles_06" xml:space="preserve">
+    <value>Twenty drops instead of two, and the meter reads three. Ten times as much H₃O⁺ moves the pH down just one step. That is how the pH scale works: each step is ten times.</value>
+  </data>
+  <data name="Narr_Acid_Particles_07" xml:space="preserve">
+    <value>Now the same twenty drops, but of acetic acid, the acid in vinegar. The pH is only about four. Look at the magnifier: most acetic acid molecules are still whole, holding on to their proton. That is a weak acid.</value>
+  </data>
+  <data name="Narr_Acid_Particles_08" xml:space="preserve">
+    <value>Let's try a base: twenty drops of sodium hydroxide into fresh water. The pH jumps up to eleven. Now the blue OH⁻ ions are everywhere, and the H₃O⁺ have almost vanished.</value>
+  </data>
+  <data name="Narr_Acid_Particles_09" xml:space="preserve">
+    <value>And now twenty drops of the acid on top. Back to seven! Each H₃O⁺ met an OH⁻ and they became water. What is left is sodium and chloride: salt water.</value>
+  </data>
+  <data name="Narr_Acid_Particles_10" xml:space="preserve">
+    <value>We can see pH without a meter, too. This beaker has universal indicator and a little ammonia in it, and it has turned blue: basic.</value>
+  </data>
+  <data name="Narr_Acid_Particles_11" xml:space="preserve">
+    <value>Your turn. Drip hydrochloric acid into the beaker until it turns acidic and the meter reads below five. Click the bottle, or hold it down.</value>
+  </data>
+  <data name="Narr_Acid_Scale_01" xml:space="preserve">
+    <value>This is the pH scale, from zero to fourteen. Seven in the middle is neutral, like pure water. Below seven is acidic, above seven is basic.</value>
+  </data>
+  <data name="Narr_Acid_Scale_02" xml:space="preserve">
+    <value>Here is the important part. Each step to the left means ten times as much H₃O⁺. Two steps is a hundred times, three steps a thousand.</value>
+  </data>
+  <data name="Narr_Acid_Scale_03" xml:space="preserve">
+    <value>Lemon juice sits at about two point three. That is almost five steps below water, so it has about fifty thousand times as much H₃O⁺.</value>
+  </data>
+  <data name="Narr_Acid_Scale_04" xml:space="preserve">
+    <value>Now a puzzle. Cola is at two and a half, and black coffee at five. Which one is more acidic, and by how much?</value>
+  </data>
+  <data name="Narr_Acid_Scale_05" xml:space="preserve">
+    <value>Cola is two and a half steps lower than coffee. Ten times ten, and a bit more: about three hundred times as much H₃O⁺. Small numbers, huge difference.</value>
+  </data>
+  <data name="Narr_Acid_Scale_06" xml:space="preserve">
+    <value>On the other side are the bases. Bleach is at about twelve and a half, as far from neutral as a strong acid. Bases can burn just like acids, so handle cleaners with care.</value>
+  </data>
+  <data name="Narr_Acid_Scale_07" xml:space="preserve">
+    <value>How can we tell pH by eye? With an indicator. Here is vinegar in red cabbage juice. It turns pink-red. Look along the row: each indicator gives its own colour.</value>
+  </data>
+  <data name="Narr_Acid_Scale_08" xml:space="preserve">
+    <value>Phenolphthalein is different. It stays colourless in acids and in water, and turns pink only in bases, like this soapy water.</value>
+  </data>
+  <data name="Narr_Acid_Scale_09" xml:space="preserve">
+    <value>Here is stomach acid, at one and a half. If we keep a tenth of it and fill it up with water, what will its pH be?</value>
+  </data>
+  <data name="Narr_Acid_Scale_10" xml:space="preserve">
+    <value>Two and a half. Ten times less H₃O⁺ means one step up. Watering an acid down moves it towards seven.</value>
+  </data>
+  <data name="Narr_Acid_Scale_11" xml:space="preserve">
+    <value>Watered down a million times, it is almost seven. But it never goes past seven: water alone can't turn an acid into a base.</value>
+  </data>
+  <data name="Narr_Acid_Scale_12" xml:space="preserve">
+    <value>Your turn. Click any liquid on the scale and see what colour it turns in each indicator.</value>
   </data>
   <data name="Narr_Aurora_Obj_Aurora" xml:space="preserve">
     <value>The aurora: a ring of light around each magnetic pole, where electrons from the magnetosphere crash into the upper air. It glows brighter when the solar wind is fast and its field points south.</value>

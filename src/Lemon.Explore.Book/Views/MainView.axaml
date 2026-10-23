@@ -37,6 +37,7 @@
              xmlns:flight="using:Lemon.Explore.Book.Chapters.Flight"
              xmlns:lenses="using:Lemon.Explore.Book.Chapters.Lenses"
              xmlns:spectra="using:Lemon.Explore.Book.Chapters.Spectra"
+             xmlns:acid="using:Lemon.Explore.Book.Chapters.AcidsBases"
              xmlns:rel="using:Lemon.Explore.Book.Chapters.Relativity"
              xmlns:grid="using:Lemon.Explore.Book.Chapters.PowerGrid"
              xmlns:heat="using:Lemon.Explore.Book.Chapters.HeatEngines"
@@ -112,6 +113,8 @@
         <DataTemplate DataType="lenses:LensesDiagramPageViewModel"><lenses:LensesDiagramPageView /></DataTemplate>
         <DataTemplate DataType="spectra:SpectraTextPageViewModel"><spectra:SpectraTextPageView /></DataTemplate>
         <DataTemplate DataType="spectra:SpectraDiagramPageViewModel"><spectra:SpectraDiagramPageView /></DataTemplate>
+        <DataTemplate DataType="acid:AcidsBasesTextPageViewModel"><acid:AcidsBasesTextPageView /></DataTemplate>
+        <DataTemplate DataType="acid:AcidsBasesDiagramPageViewModel"><acid:AcidsBasesDiagramPageView /></DataTemplate>
         <DataTemplate DataType="rel:RelativityTextPageViewModel"><rel:RelativityTextPageView /></DataTemplate>
         <DataTemplate DataType="rel:RelativityDiagramPageViewModel"><rel:RelativityDiagramPageView /></DataTemplate>
         <DataTemplate DataType="grid:PowerGridTextPageViewModel"><grid:PowerGridTextPageView /></DataTemplate>

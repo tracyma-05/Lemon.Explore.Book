@@ -1,6 +1,1649 @@
 {
  "en": {
   "clips": {
+   "Narr_Acid_Neutralize_01": {
+    "duration": 9.816,
+    "hash": "c53d7672c938caec",
+    "sentences": [
+     [
+      0.05,
+      7.319,
+      "In this flask are twenty five millilitres of hydrochloric acid, with a few drops of phenolphthalein."
+     ],
+     [
+      7.319,
+      9.764,
+      "Colourless, because it is acidic."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_02": {
+    "duration": 10.008,
+    "hash": "b9826b7eab967eeb",
+    "sentences": [
+     [
+      0.05,
+      6.236,
+      "Above it, the burette is full of sodium hydroxide, a base of the same strength."
+     ],
+     [
+      6.236,
+      9.944,
+      "We'll let it in a little at a time and read how much has gone."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_03": {
+    "duration": 7.848,
+    "hash": "b502207db30a3401",
+    "sentences": [
+     [
+      0.05,
+      3.083,
+      "The tap is open and the base is dripping in."
+     ],
+     [
+      3.083,
+      7.792,
+      "Watch the curve: the pH is creeping up, but only slowly."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_04": {
+    "duration": 11.736,
+    "hash": "520d2d52049ba2fd",
+    "sentences": [
+     [
+      0.05,
+      1.639,
+      "Why so slow?"
+     ],
+     [
+      1.639,
+      9.181,
+      "In the magnifier, each OH⁻ that arrives meets an H₃O⁺, and they become two water molecules."
+     ],
+     [
+      9.181,
+      11.667,
+      "There is still plenty of acid to use up."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_05": {
+    "duration": 8.064,
+    "hash": "09fedd13b12bfa1e",
+    "sentences": [
+     [
+      0.05,
+      4.958,
+      "We've added twenty four millilitres, and the acid is nearly gone."
+     ],
+     [
+      4.958,
+      8.014,
+      "What do you think will happen over the next two millilitres?"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_06": {
+    "duration": 12.456,
+    "hash": "dde7523b8ee4f756",
+    "sentences": [
+     [
+      0.05,
+      1.194,
+      "Watch!"
+     ],
+     [
+      1.194,
+      8.361,
+      "Around twenty five millilitres the pH shoots up from about three to about eleven, and the flask flashes pink."
+     ],
+     [
+      8.361,
+      12.403,
+      "With almost no acid left, every drop counts."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_07": {
+    "duration": 13.08,
+    "hash": "7631174e67d14b28",
+    "sentences": [
+     [
+      0.05,
+      4.153,
+      "Right here, the base added equals the acid we started with."
+     ],
+     [
+      4.153,
+      9.569,
+      "This is the equivalence point, and for a strong acid it is exactly neutral."
+     ],
+     [
+      9.569,
+      13.028,
+      "Chemists use it to measure how strong an acid is."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_08": {
+    "duration": 10.392,
+    "hash": "2a804000195b5631",
+    "sentences": [
+     [
+      0.05,
+      1.833,
+      "Now look at the thermometer."
+     ],
+     [
+      1.833,
+      4.014,
+      "Neutralising gives off heat."
+     ],
+     [
+      4.014,
+      10.319,
+      "Here the flask warms by under a degree, but with stronger solutions it would get noticeably warm."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_09": {
+    "duration": 15.168,
+    "hash": "7be5ad7280779a8f",
+    "sentences": [
+     [
+      0.05,
+      2.583,
+      "Now acetic acid instead."
+     ],
+     [
+      2.583,
+      5.889,
+      "The curve starts higher, because it is a weak acid."
+     ],
+     [
+      5.889,
+      11.458,
+      "Halfway through it flattens out, and right here the pH equals the acid's pKa."
+     ],
+     [
+      11.458,
+      15.111,
+      "The jump is smaller, and ends on the basic side."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_10": {
+    "duration": 14.448,
+    "hash": "9451584b3af55b3c",
+    "sentences": [
+     [
+      0.05,
+      2.778,
+      "So which indicator should we use?"
+     ],
+     [
+      2.778,
+      7.556,
+      "Methyl orange changes colour in this band, long before the end."
+     ],
+     [
+      7.556,
+      10.611,
+      "For a weak acid, it would fool us."
+     ],
+     [
+      10.611,
+      14.389,
+      "Phenolphthalein changes right inside the jump."
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_11": {
+    "duration": 11.304,
+    "hash": "0530c7aac1d25b92",
+    "sentences": [
+     [
+      0.05,
+      1.096,
+      "Your turn."
+     ],
+     [
+      1.096,
+      4.194,
+      "The flask is full of fresh acid again."
+     ],
+     [
+      4.194,
+      11.236,
+      "Open the tap, and shut it as soon as the flask turns pink, as close to twenty five millilitres as you can."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Acetic": {
+    "duration": 10.08,
+    "hash": "3a6fca3f11a34103",
+    "sentences": [
+     [
+      0.05,
+      3.0,
+      "Acetic acid is the acid in vinegar."
+     ],
+     [
+      3.0,
+      10.014,
+      "It is a weak acid: most of its molecules hold on to their proton, and only a few give it to water."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_AcidIon": {
+    "duration": 10.032,
+    "hash": "f5f4799c3ffbfc81",
+    "sentences": [
+     [
+      0.05,
+      5.903,
+      "An acetate ion: an acetic acid molecule that has given its proton away."
+     ],
+     [
+      5.903,
+      9.958,
+      "It would happily take one back, which is what makes a buffer work."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_AcidMolecule": {
+    "duration": 10.008,
+    "hash": "d9b73072f82aea27",
+    "sentences": [
+     [
+      0.05,
+      4.417,
+      "A whole acetic acid molecule, still holding its proton."
+     ],
+     [
+      4.417,
+      9.944,
+      "In vinegar most molecules look like this, which is why vinegar is a weak acid."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Ammonia": {
+    "duration": 9.552,
+    "hash": "6e3276f5f3482d6f",
+    "sentences": [
+     [
+      0.05,
+      5.611,
+      "Household ammonia cleaner is a weak base, around pH eleven and a half."
+     ],
+     [
+      5.611,
+      9.486,
+      "Its sharp smell is ammonia gas escaping from the water."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_AmmoniaBottle": {
+    "duration": 10.848,
+    "hash": "15f00cf83dddce56",
+    "sentences": [
+     [
+      0.05,
+      2.264,
+      "Ammonia is a weak base."
+     ],
+     [
+      2.264,
+      9.056,
+      "A few of its molecules take a proton from water, becoming ammonium and leaving OH⁻ behind."
+     ],
+     [
+      9.056,
+      10.792,
+      "Most stay as they are."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Antacid": {
+    "duration": 12.168,
+    "hash": "b5096fd57507a4eb",
+    "sentences": [
+     [
+      0.05,
+      6.639,
+      "Milk of magnesia is magnesium hydroxide in water, around pH ten and a half."
+     ],
+     [
+      6.639,
+      12.111,
+      "Swallowed, it neutralises some stomach acid and eases heartburn."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_BakingSoda": {
+    "duration": 11.328,
+    "hash": "6b2c4af4409b75b5",
+    "sentences": [
+     [
+      0.05,
+      6.514,
+      "Baking soda, sodium bicarbonate, makes water a little basic, about eight point three."
+     ],
+     [
+      6.514,
+      11.264,
+      "It fizzes with acids like vinegar because it gives off carbon dioxide."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Band": {
+    "duration": 8.976,
+    "hash": "6b0c0622e4703217",
+    "sentences": [
+     [
+      0.05,
+      4.208,
+      "This shaded band is where the chosen indicator changes colour."
+     ],
+     [
+      4.208,
+      8.917,
+      "For a sharp end point it should sit inside the steep part of the curve."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_BaseIon": {
+    "duration": 9.432,
+    "hash": "f7463a71fc6afefd",
+    "sentences": [
+     [
+      0.05,
+      4.624,
+      "An ammonium ion: ammonia that has caught a proton from water."
+     ],
+     [
+      4.624,
+      9.361,
+      "For every one of these, an OH⁻ was left behind in the water."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_BaseMolecule": {
+    "duration": 9.408,
+    "hash": "a11c55e2ee64362a",
+    "sentences": [
+     [
+      0.05,
+      4.569,
+      "An ammonia molecule: one nitrogen and three hydrogens."
+     ],
+     [
+      4.569,
+      9.347,
+      "The nitrogen has a spare pair of electrons that can catch a proton."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Beaker": {
+    "duration": 10.224,
+    "hash": "bfcf3301b03aacdc",
+    "sentences": [
+     [
+      0.05,
+      4.181,
+      "This beaker started with a hundred millilitres of pure water."
+     ],
+     [
+      4.181,
+      10.167,
+      "Every drop you add changes what is floating in it, and the meter and the colour tell you what that did."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Bleach": {
+    "duration": 10.488,
+    "hash": "daeb7337a1e522be",
+    "sentences": [
+     [
+      0.05,
+      4.167,
+      "Bleach is strongly basic, around twelve and a half."
+     ],
+     [
+      4.167,
+      10.417,
+      "It can burn skin and eyes, and mixed with acids it releases poisonous chlorine gas."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Blood": {
+    "duration": 11.184,
+    "hash": "e2429f787ceadd28",
+    "sentences": [
+     [
+      0.05,
+      3.806,
+      "Blood is slightly basic, about seven point four."
+     ],
+     [
+      3.806,
+      11.125,
+      "It is a buffer: watering it down or adding a little acid barely moves its pH, which keeps you alive."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Bromothymol": {
+    "duration": 10.68,
+    "hash": "f2618445f51974da",
+    "sentences": [
+     [
+      0.05,
+      6.472,
+      "Bromothymol blue is yellow in acid, green right around neutral, and blue in base."
+     ],
+     [
+      6.472,
+      10.611,
+      "It is handy for telling whether something is close to pH seven."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Burette": {
+    "duration": 9.24,
+    "hash": "4d8e022c67d0a697",
+    "sentences": [
+     [
+      0.05,
+      3.194,
+      "The burette is a long tube with a scale."
+     ],
+     [
+      3.194,
+      9.181,
+      "It is read from the top, so the number at the liquid's surface is how much has already run out."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Cabbage": {
+    "duration": 13.56,
+    "hash": "4dc4194305273550",
+    "sentences": [
+     [
+      0.05,
+      3.931,
+      "Red cabbage juice is an indicator you can make in your kitchen."
+     ],
+     [
+      3.931,
+      13.5,
+      "Its colour comes from anthocyanins: red in acid, purple near neutral, blue, green and then yellow in strong base."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Chloride": {
+    "duration": 9.528,
+    "hash": "43af1b0c93122447",
+    "sentences": [
+     [
+      0.05,
+      5.944,
+      "A chloride ion is what is left of hydrochloric acid after it gives its proton away."
+     ],
+     [
+      5.944,
+      9.458,
+      "It just floats around and takes no part in the pH."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Coffee": {
+    "duration": 6.864,
+    "hash": "c57ec48a4d54b5ec",
+    "sentences": [
+     [
+      0.05,
+      6.806,
+      "Black coffee is mildly acidic, around pH five, from acids roasted out of the beans."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Cola": {
+    "duration": 10.536,
+    "hash": "66c492683f48c72f",
+    "sentences": [
+     [
+      0.05,
+      7.431,
+      "Cola contains phosphoric acid, and with dissolved carbon dioxide it sits around pH two and a half."
+     ],
+     [
+      7.431,
+      10.486,
+      "The sugar hides how sour it really is."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Curve": {
+    "duration": 7.32,
+    "hash": "6f9c84df28e99d1b",
+    "sentences": [
+     [
+      0.05,
+      4.472,
+      "The titration curve shows the pH after each amount of base."
+     ],
+     [
+      4.472,
+      7.264,
+      "Drag along it to go back or forward."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Dilute": {
+    "duration": 6.96,
+    "hash": "ba4eba2a8930cf93",
+    "sentences": [
+     [
+      0.05,
+      3.569,
+      "Click here to water the liquid down ten times."
+     ],
+     [
+      3.569,
+      6.889,
+      "Watch which way the pH moves, and how far."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Drain": {
+    "duration": 11.688,
+    "hash": "5d525a29d0a7633f",
+    "sentences": [
+     [
+      0.05,
+      5.778,
+      "Drain cleaner is concentrated sodium hydroxide, near the top of the scale."
+     ],
+     [
+      5.778,
+      11.639,
+      "It dissolves hair and grease, and skin too, so it must be handled with gloves."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Equivalence": {
+    "duration": 9.96,
+    "hash": "6ddd010ca709ae99",
+    "sentences": [
+     [
+      0.05,
+      5.25,
+      "At the equivalence point the base added exactly matches the acid that was there."
+     ],
+     [
+      5.25,
+      9.903,
+      "Here that is twenty five millilitres, because both have the same strength."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Flask": {
+    "duration": 9.648,
+    "hash": "7e91d733c8bb641b",
+    "sentences": [
+     [
+      0.05,
+      4.333,
+      "The conical flask holds the acid with a few drops of indicator."
+     ],
+     [
+      4.333,
+      7.403,
+      "Its shape lets you swirl it without spilling."
+     ],
+     [
+      7.403,
+      9.597,
+      "Click it to add a single drop."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_FlaskIndicator": {
+    "duration": 6.552,
+    "hash": "1b37e513b8ad2ad6",
+    "sentences": [
+     [
+      0.05,
+      2.624,
+      "This is the indicator in the flask."
+     ],
+     [
+      2.624,
+      6.486,
+      "Its colour change is your signal that the acid has run out."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Halfway": {
+    "duration": 11.928,
+    "hash": "ef5b7c3439e650d8",
+    "sentences": [
+     [
+      0.05,
+      5.111,
+      "Halfway to the end, half the acetic acid has become acetate."
+     ],
+     [
+      5.111,
+      11.861,
+      "With equal amounts of both, the pH equals the acid's pKa, four point seven six."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Hcl": {
+    "duration": 11.544,
+    "hash": "58397a5c04b3d963",
+    "sentences": [
+     [
+      0.05,
+      2.931,
+      "Hydrochloric acid is a strong acid."
+     ],
+     [
+      2.931,
+      11.472,
+      "Every single HCl molecule hands its proton to water, so you get one H₃O⁺ and one chloride ion for each."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Hydronium": {
+    "duration": 11.952,
+    "hash": "cc55cf738aabc2ea",
+    "sentences": [
+     [
+      0.05,
+      7.014,
+      "This is a hydronium ion, H₃O⁺: a water molecule carrying an extra proton."
+     ],
+     [
+      7.014,
+      11.903,
+      "The more of these there are, the more acidic the water, and the lower the pH."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Hydroxide": {
+    "duration": 11.448,
+    "hash": "2af050d4d7b6e555",
+    "sentences": [
+     [
+      0.05,
+      5.778,
+      "This is a hydroxide ion, OH⁻: a water molecule that has lost a proton."
+     ],
+     [
+      5.778,
+      11.389,
+      "When it meets an H₃O⁺, the proton jumps across and both become water."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Jug": {
+    "duration": 9.48,
+    "hash": "ee591605ff535d96",
+    "sentences": [
+     [
+      0.05,
+      6.069,
+      "The jug waters the beaker down: it keeps one tenth and fills it back up with water."
+     ],
+     [
+      6.069,
+      9.417,
+      "Everything dissolved becomes ten times thinner."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Jump": {
+    "duration": 10.704,
+    "hash": "9153a9492b63213c",
+    "sentences": [
+     [
+      0.05,
+      3.054,
+      "Near the end, the pH leaps."
+     ],
+     [
+      3.054,
+      10.653,
+      "With almost no acid left, a single drop of base changes the amount of H₃O⁺ by thousands of times."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Lemon": {
+    "duration": 11.952,
+    "hash": "4a519bae6ced8fe0",
+    "sentences": [
+     [
+      0.05,
+      5.056,
+      "Lemon juice gets its sourness from citric acid, a weak acid."
+     ],
+     [
+      5.056,
+      11.903,
+      "At around pH two point three, it has tens of thousands of times more H₃O⁺ than pure water."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Litmus": {
+    "duration": 10.68,
+    "hash": "2d5d9f38e455b574",
+    "sentences": [
+     [
+      0.05,
+      2.292,
+      "Litmus comes from lichens."
+     ],
+     [
+      2.292,
+      6.778,
+      "It is red in acid and blue in base, with purple in between."
+     ],
+     [
+      6.778,
+      10.625,
+      "It tells you which side you are on, but not by how much."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Magnifier": {
+    "duration": 11.304,
+    "hash": "dbb8066eedfbccb3",
+    "sentences": [
+     [
+      0.05,
+      3.222,
+      "The magnifier zooms in on the beaker."
+     ],
+     [
+      3.222,
+      6.444,
+      "The pale bent shapes are water molecules."
+     ],
+     [
+      6.444,
+      11.236,
+      "The bright ones are what is dissolved, drawn in proportion to each other."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Meter": {
+    "duration": 12.072,
+    "hash": "9f65a3d0b84796ba",
+    "sentences": [
+     [
+      0.05,
+      4.278,
+      "A pH meter has a thin glass bulb at the tip of its probe."
+     ],
+     [
+      4.278,
+      12.0,
+      "H₃O⁺ ions build up a tiny voltage across the glass, and the meter turns that voltage into a pH."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Methyl": {
+    "duration": 9.552,
+    "hash": "9da1005adf140540",
+    "sentences": [
+     [
+      0.05,
+      6.861,
+      "Methyl orange is red in fairly strong acid and yellow from about pH four and a half upwards."
+     ],
+     [
+      6.861,
+      9.486,
+      "It changes colour on the acid side."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Milk": {
+    "duration": 11.28,
+    "hash": "369ec23e694d1327",
+    "sentences": [
+     [
+      0.05,
+      4.833,
+      "Milk is just on the acidic side of neutral, around six point six."
+     ],
+     [
+      4.833,
+      11.222,
+      "As it goes sour, bacteria turn its sugar into lactic acid and the pH drops."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Naoh": {
+    "duration": 11.04,
+    "hash": "4e2b44228f453dea",
+    "sentences": [
+     [
+      0.05,
+      3.125,
+      "Sodium hydroxide is a strong base."
+     ],
+     [
+      3.125,
+      10.972,
+      "It falls apart into sodium ions and hydroxide ions, and the hydroxide grabs any H₃O⁺ it meets."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Neutral": {
+    "duration": 10.944,
+    "hash": "bd022ef14dde56b6",
+    "sentences": [
+     [
+      0.05,
+      6.125,
+      "Seven is neutral: just as many H₃O⁺ as OH⁻, like pure water."
+     ],
+     [
+      6.125,
+      10.875,
+      "Neutral does not mean nothing is dissolved; salt water is neutral too."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Orange": {
+    "duration": 8.544,
+    "hash": "9b3207c5bc2ddee7",
+    "sentences": [
+     [
+      0.05,
+      8.486,
+      "Orange juice, like lemon juice, owes its tang to citric acid, but there is less of it, so it is around pH three and a half."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_PhStrip": {
+    "duration": 9.432,
+    "hash": "84485c6ccdda9446",
+    "sentences": [
+     [
+      0.05,
+      9.361,
+      "Here is the pH scale in the colours of universal indicator: red for strong acids, green for neutral, purple for strong bases."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_PhValue": {
+    "duration": 11.496,
+    "hash": "40113e068ba1ea5a",
+    "sentences": [
+     [
+      0.05,
+      2.139,
+      "This is the pH right now."
+     ],
+     [
+      2.139,
+      6.861,
+      "Below seven means acidic, above seven means basic."
+     ],
+     [
+      6.861,
+      11.431,
+      "And remember, one step is not a little bit: it is ten times."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Phenol": {
+    "duration": 11.208,
+    "hash": "87fd4850f4ab05d7",
+    "sentences": [
+     [
+      0.05,
+      7.264,
+      "Phenolphthalein is colourless in acid and in neutral water, and turns pink only above about pH eight."
+     ],
+     [
+      7.264,
+      11.139,
+      "That makes it perfect for spotting the end of a titration."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Rain": {
+    "duration": 10.152,
+    "hash": "a3bbe22c18a9079e",
+    "sentences": [
+     [
+      0.05,
+      2.722,
+      "Even clean rain is a little acidic."
+     ],
+     [
+      2.722,
+      10.083,
+      "Carbon dioxide from the air dissolves in it and makes carbonic acid, bringing it to about five point six."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Reaction": {
+    "duration": 11.376,
+    "hash": "b83ddb6d5ea3b602",
+    "sentences": [
+     [
+      0.05,
+      6.319,
+      "Inside the flask, each hydroxide ion that arrives finds a hydronium ion."
+     ],
+     [
+      6.319,
+      11.319,
+      "The proton jumps across and the pair become two water molecules."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Scale": {
+    "duration": 11.352,
+    "hash": "06e6cf154c7ea786",
+    "sentences": [
+     [
+      0.05,
+      3.458,
+      "The pH scale runs from zero to fourteen."
+     ],
+     [
+      3.458,
+      8.667,
+      "Seven in the middle is neutral, lower is acidic, higher is basic."
+     ],
+     [
+      8.667,
+      11.292,
+      "The colours are what the indicator would show."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Seawater": {
+    "duration": 9.48,
+    "hash": "2535aa4d7dd5eeac",
+    "sentences": [
+     [
+      0.05,
+      3.75,
+      "Seawater is slightly basic, about eight point one."
+     ],
+     [
+      3.75,
+      9.417,
+      "As the oceans soak up carbon dioxide from the air, that number is slowly going down."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Soap": {
+    "duration": 7.344,
+    "hash": "a0d2395c38f4e71b",
+    "sentences": [
+     [
+      0.05,
+      3.319,
+      "Soapy water is basic, around ten."
+     ],
+     [
+      3.319,
+      7.278,
+      "That slippery feel on your fingers is typical of bases."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Sodium": {
+    "duration": 10.512,
+    "hash": "7495e84374c341cb",
+    "sentences": [
+     [
+      0.05,
+      3.792,
+      "A sodium ion comes from sodium hydroxide."
+     ],
+     [
+      3.792,
+      10.444,
+      "Like chloride, it is a spectator: it floats about while the H₃O⁺ and OH⁻ do the reacting."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Steps": {
+    "duration": 10.224,
+    "hash": "32856e187f379b31",
+    "sentences": [
+     [
+      0.05,
+      4.75,
+      "Every step to the left means ten times as much H₃O⁺."
+     ],
+     [
+      4.75,
+      10.167,
+      "So two steps is a hundred times, three steps a thousand times."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Stomach": {
+    "duration": 11.064,
+    "hash": "06022173bd3bc60c",
+    "sentences": [
+     [
+      0.05,
+      6.222,
+      "Stomach acid is mostly hydrochloric acid, around pH one and a half."
+     ],
+     [
+      6.222,
+      11.014,
+      "It is strong enough to dissolve some metals, and it helps break down your food."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Swap": {
+    "duration": 13.368,
+    "hash": "736bf7187c79c2da",
+    "sentences": [
+     [
+      0.05,
+      6.556,
+      "Two water molecules just swapped a proton: one became H₃O⁺, the other OH⁻."
+     ],
+     [
+      6.556,
+      13.306,
+      "In pure water only about one molecule in five hundred and fifty million is like this at any moment."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Tap": {
+    "duration": 7.416,
+    "hash": "cad12b1f54ff2eb7",
+    "sentences": [
+     [
+      0.05,
+      1.861,
+      "Click the tap to turn it."
+     ],
+     [
+      1.861,
+      7.36,
+      "Once for a drop at a time, again for a thin stream, and once more to shut it."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Thermometer": {
+    "duration": 11.664,
+    "hash": "853e7196a5b11017",
+    "sentences": [
+     [
+      0.05,
+      2.25,
+      "Neutralising gives off heat."
+     ],
+     [
+      2.25,
+      11.597,
+      "With these weak solutions the flask warms by less than a degree; with acid and base ten times stronger, by several degrees."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Tube": {
+    "duration": 8.928,
+    "hash": "5496533d991d89c0",
+    "sentences": [
+     [
+      0.05,
+      5.444,
+      "The test tube holds a sample of the chosen liquid with a few drops of indicator."
+     ],
+     [
+      5.444,
+      8.875,
+      "Its colour is what you would see on a lab bench."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Universal": {
+    "duration": 12.456,
+    "hash": "010b44b30709b00f",
+    "sentences": [
+     [
+      0.05,
+      12.403,
+      "Universal indicator is a mixture of several dyes, so it changes colour step by step: red, orange, yellow, green, blue and purple across the scale."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Vinegar": {
+    "duration": 10.44,
+    "hash": "f8f7cfe795695bb3",
+    "sentences": [
+     [
+      0.05,
+      4.011,
+      "Vinegar is about five percent acetic acid in water."
+     ],
+     [
+      4.011,
+      10.375,
+      "It is a weak acid, so it is around pH three, not as low as its strength might suggest."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Water": {
+    "duration": 11.112,
+    "hash": "c71f2c90725ab77f",
+    "sentences": [
+     [
+      0.05,
+      5.764,
+      "Pure water is exactly neutral, pH seven, at twenty five degrees."
+     ],
+     [
+      5.764,
+      11.056,
+      "Tap water usually has a few minerals in it and can be a little either way."
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_WaterMolecule": {
+    "duration": 10.392,
+    "hash": "544c0dec98b03032",
+    "sentences": [
+     [
+      0.05,
+      6.014,
+      "A water molecule: one oxygen with two hydrogens, bent like a boomerang."
+     ],
+     [
+      6.014,
+      10.333,
+      "There are so many that even this drawing shows only a sprinkle of them."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_01": {
+    "duration": 9.384,
+    "hash": "470d74d50c9b582f",
+    "sentences": [
+     [
+      0.05,
+      4.292,
+      "Here is a beaker of pure water, with a pH meter dipped in."
+     ],
+     [
+      4.292,
+      5.596,
+      "What does it read?"
+     ],
+     [
+      5.596,
+      7.292,
+      "Exactly seven."
+     ],
+     [
+      7.292,
+      9.319,
+      "That is what we call neutral."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_02": {
+    "duration": 14.208,
+    "hash": "476402ba26445f8d",
+    "sentences": [
+     [
+      0.05,
+      1.222,
+      "Let's zoom in."
+     ],
+     [
+      1.222,
+      10.528,
+      "Watch closely: every now and then two water molecules swap a proton, and for a moment you get one H₃O⁺ and one OH⁻."
+     ],
+     [
+      10.528,
+      14.153,
+      "Always one of each, so the water stays neutral."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_03": {
+    "duration": 9.6,
+    "hash": "2becdec7aa27f2f3",
+    "sentences": [
+     [
+      0.05,
+      3.931,
+      "Now two tiny drops of hydrochloric acid."
+     ],
+     [
+      3.931,
+      9.554,
+      "Look at the meter: the pH has dropped from seven to four, from just two drops!"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_04": {
+    "duration": 14.688,
+    "hash": "4eb2a364db127483",
+    "sentences": [
+     [
+      0.05,
+      5.958,
+      "In the magnifier, every HCl has given its proton to a water molecule."
+     ],
+     [
+      5.958,
+      11.611,
+      "The red ones are H₃O⁺, and the green ones are the chloride left behind."
+     ],
+     [
+      11.611,
+      14.625,
+      "More H₃O⁺ means more acidic."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_05": {
+    "duration": 8.28,
+    "hash": "3be0a358fb282482",
+    "sentences": [
+     [
+      0.05,
+      1.514,
+      "Here is a question."
+     ],
+     [
+      1.514,
+      8.208,
+      "If we put in ten times as much acid, so there is ten times as much H₃O⁺, what will the pH be?"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_06": {
+    "duration": 14.112,
+    "hash": "9126c6bf91a8889f",
+    "sentences": [
+     [
+      0.05,
+      3.917,
+      "Twenty drops instead of two, and the meter reads three."
+     ],
+     [
+      3.917,
+      8.889,
+      "Ten times as much H₃O⁺ moves the pH down just one step."
+     ],
+     [
+      8.889,
+      14.042,
+      "That is how the pH scale works: each step is ten times."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_07": {
+    "duration": 15.96,
+    "hash": "22b5f6cda92f8707",
+    "sentences": [
+     [
+      0.05,
+      4.986,
+      "Now the same twenty drops, but of acetic acid, the acid in vinegar."
+     ],
+     [
+      4.986,
+      7.333,
+      "The pH is only about four."
+     ],
+     [
+      7.333,
+      14.042,
+      "Look at the magnifier: most acetic acid molecules are still whole, holding on to their proton."
+     ],
+     [
+      14.042,
+      15.903,
+      "That is a weak acid."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_08": {
+    "duration": 13.416,
+    "hash": "7c570561594328af",
+    "sentences": [
+     [
+      0.05,
+      5.472,
+      "Let's try a base: twenty drops of sodium hydroxide into fresh water."
+     ],
+     [
+      5.472,
+      7.861,
+      "The pH jumps up to eleven."
+     ],
+     [
+      7.861,
+      13.361,
+      "Now the blue OH⁻ ions are everywhere, and the H₃O⁺ have almost vanished."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_09": {
+    "duration": 12.528,
+    "hash": "57a330ba3c2c6d1b",
+    "sentences": [
+     [
+      0.05,
+      3.167,
+      "And now twenty drops of the acid on top."
+     ],
+     [
+      3.167,
+      4.583,
+      "Back to seven!"
+     ],
+     [
+      4.583,
+      8.667,
+      "Each H₃O⁺ met an OH⁻ and they became water."
+     ],
+     [
+      8.667,
+      12.485,
+      "What is left is sodium and chloride: salt water."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_10": {
+    "duration": 10.2,
+    "hash": "c8bf3166299f7b64",
+    "sentences": [
+     [
+      0.05,
+      3.069,
+      "We can see pH without a meter, too."
+     ],
+     [
+      3.069,
+      10.139,
+      "This beaker has universal indicator and a little ammonia in it, and it has turned blue: basic."
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_11": {
+    "duration": 9.648,
+    "hash": "a260ca7ce97c32e0",
+    "sentences": [
+     [
+      0.05,
+      1.137,
+      "Your turn."
+     ],
+     [
+      1.137,
+      7.139,
+      "Drip hydrochloric acid into the beaker until it turns acidic and the meter reads below five."
+     ],
+     [
+      7.139,
+      9.597,
+      "Click the bottle, or hold it down."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_01": {
+    "duration": 11.736,
+    "hash": "2c1f86aa1cb12069",
+    "sentences": [
+     [
+      0.05,
+      3.931,
+      "This is the pH scale, from zero to fourteen."
+     ],
+     [
+      3.931,
+      7.569,
+      "Seven in the middle is neutral, like pure water."
+     ],
+     [
+      7.569,
+      11.667,
+      "Below seven is acidic, above seven is basic."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_02": {
+    "duration": 11.4,
+    "hash": "819bcaa286fc5466",
+    "sentences": [
+     [
+      0.05,
+      2.389,
+      "Here is the important part."
+     ],
+     [
+      2.389,
+      7.0,
+      "Each step to the left means ten times as much H₃O⁺."
+     ],
+     [
+      7.0,
+      11.347,
+      "Two steps is a hundred times, three steps a thousand."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_03": {
+    "duration": 9.816,
+    "hash": "9b51800b45934ff2",
+    "sentences": [
+     [
+      0.05,
+      2.889,
+      "Lemon juice sits at about two point three."
+     ],
+     [
+      2.889,
+      9.75,
+      "That is almost five steps below water, so it has about fifty thousand times as much H₃O⁺."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_04": {
+    "duration": 8.904,
+    "hash": "b052aa3d424d0112",
+    "sentences": [
+     [
+      0.05,
+      1.375,
+      "Now a puzzle."
+     ],
+     [
+      1.375,
+      5.556,
+      "Cola is at two and a half, and black coffee at five."
+     ],
+     [
+      5.556,
+      8.847,
+      "Which one is more acidic, and by how much?"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_05": {
+    "duration": 12.384,
+    "hash": "7f6da37c168c29ac",
+    "sentences": [
+     [
+      0.05,
+      3.972,
+      "Cola is two and a half steps lower than coffee."
+     ],
+     [
+      3.972,
+      9.917,
+      "Ten times ten, and a bit more: about three hundred times as much H₃O⁺."
+     ],
+     [
+      9.917,
+      12.333,
+      "Small numbers, huge difference."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_06": {
+    "duration": 12.792,
+    "hash": "15905727476d32f7",
+    "sentences": [
+     [
+      0.05,
+      2.847,
+      "On the other side are the bases."
+     ],
+     [
+      2.847,
+      8.097,
+      "Bleach is at about twelve and a half, as far from neutral as a strong acid."
+     ],
+     [
+      8.097,
+      12.736,
+      "Bases can burn just like acids, so handle cleaners with care."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_07": {
+    "duration": 12.6,
+    "hash": "a70158ad105d93e9",
+    "sentences": [
+     [
+      0.05,
+      2.278,
+      "How can we tell pH by eye?"
+     ],
+     [
+      2.278,
+      3.833,
+      "With an indicator."
+     ],
+     [
+      3.833,
+      6.861,
+      "Here is vinegar in red cabbage juice."
+     ],
+     [
+      6.861,
+      8.458,
+      "It turns pink-red."
+     ],
+     [
+      8.458,
+      12.542,
+      "Look along the row: each indicator gives its own colour."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_08": {
+    "duration": 9.072,
+    "hash": "9bf83cc77ddc9312",
+    "sentences": [
+     [
+      0.05,
+      2.111,
+      "Phenolphthalein is different."
+     ],
+     [
+      2.111,
+      9.0,
+      "It stays colourless in acids and in water, and turns pink only in bases, like this soapy water."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_09": {
+    "duration": 8.088,
+    "hash": "ea404cdd61a70429",
+    "sentences": [
+     [
+      0.05,
+      3.194,
+      "Here is stomach acid, at one and a half."
+     ],
+     [
+      3.194,
+      8.014,
+      "If we keep a tenth of it and fill it up with water, what will its pH be?"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_10": {
+    "duration": 9.576,
+    "hash": "fdfa907e2367f1d7",
+    "sentences": [
+     [
+      0.05,
+      1.833,
+      "Two and a half."
+     ],
+     [
+      1.833,
+      6.306,
+      "Ten times less H₃O⁺ means one step up."
+     ],
+     [
+      6.306,
+      9.551,
+      "Watering an acid down moves it towards seven."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_11": {
+    "duration": 9.48,
+    "hash": "417c5df35d1ef0ee",
+    "sentences": [
+     [
+      0.05,
+      3.814,
+      "Watered down a million times, it is almost seven."
+     ],
+     [
+      3.814,
+      9.417,
+      "But it never goes past seven: water alone can't turn an acid into a base."
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_12": {
+    "duration": 6.288,
+    "hash": "e10fbdf2c287b8d0",
+    "sentences": [
+     [
+      0.05,
+      1.139,
+      "Your turn."
+     ],
+     [
+      1.139,
+      6.222,
+      "Click any liquid on the scale and see what colour it turns in each indicator."
+     ]
+    ]
+   },
    "Narr_Aurora_Obj_Aurora": {
     "duration": 13.728,
     "hash": "32ebc61529f12aa6",
@@ -35327,6 +36970,1644 @@
  },
  "zh-CN": {
   "clips": {
+   "Narr_Acid_Neutralize_01": {
+    "duration": 8.952,
+    "hash": "5377b77ef556f72c",
+    "sentences": [
+     [
+      0.1,
+      5.522,
+      "这个锥形瓶里有二十五毫升盐酸，还加了几滴酚酞。"
+     ],
+     [
+      5.472,
+      8.903,
+      "它是无色的，因为它是酸性的。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_02": {
+    "duration": 10.008,
+    "hash": "6931e5e14de88649",
+    "sentences": [
+     [
+      0.1,
+      5.758,
+      "上面的滴定管装满了氢氧化钠，一种浓度相同的碱。"
+     ],
+     [
+      5.708,
+      9.944,
+      "我们一点一点地放进去，并读出放了多少。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_03": {
+    "duration": 9.24,
+    "hash": "29487c9be61e2117",
+    "sentences": [
+     [
+      0.1,
+      4.356,
+      "活塞打开了，碱正在一滴一滴地流进去。"
+     ],
+     [
+      4.306,
+      9.181,
+      "看这条曲线：pH 在往上爬，但爬得很慢。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_04": {
+    "duration": 12.048,
+    "hash": "58a4eb9b64bf046d",
+    "sentences": [
+     [
+      0.1,
+      1.883,
+      "为什么这么慢？"
+     ],
+     [
+      1.833,
+      8.5,
+      "看放大镜，每来一个 OH⁻ 就会遇到一个 H₃O⁺，变成两个水分子。"
+     ],
+     [
+      8.5,
+      11.986,
+      "可酸还多得是，需要慢慢用完。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_05": {
+    "duration": 8.328,
+    "hash": "9a60c2c8e24f1bba",
+    "sentences": [
+     [
+      0.1,
+      4.397,
+      "我们已经加了二十四毫升，酸几乎用完了。"
+     ],
+     [
+      4.347,
+      8.278,
+      "你觉得接下来的两毫升会发生什么？"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_06": {
+    "duration": 13.488,
+    "hash": "6bd219afc7f18708",
+    "sentences": [
+     [
+      0.1,
+      1.161,
+      "看！"
+     ],
+     [
+      1.111,
+      9.722,
+      "在二十五毫升左右，pH 从三左右一下子冲到十一左右，烧瓶也变成了粉红色。"
+     ],
+     [
+      9.722,
+      13.431,
+      "酸几乎没了，每一滴都举足轻重。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_07": {
+    "duration": 13.056,
+    "hash": "beea4136def42d6f",
+    "sentences": [
+     [
+      0.1,
+      4.717,
+      "就在这里，加入的碱正好等于开始时的酸。"
+     ],
+     [
+      4.667,
+      9.153,
+      "这叫等当点，对强酸来说正好是中性。"
+     ],
+     [
+      9.153,
+      12.986,
+      "化学家用它来测出一种酸有多浓。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_08": {
+    "duration": 10.656,
+    "hash": "543a312be6df73c9",
+    "sentences": [
+     [
+      0.1,
+      1.925,
+      "再看温度计。"
+     ],
+     [
+      1.875,
+      4.194,
+      "中和反应会放热。"
+     ],
+     [
+      4.194,
+      10.583,
+      "这里烧瓶只升温不到一度，但如果溶液更浓，就会明显变热。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_09": {
+    "duration": 16.32,
+    "hash": "d32f3c46dc87b7de",
+    "sentences": [
+     [
+      0.1,
+      2.286,
+      "换成醋酸试试。"
+     ],
+     [
+      2.236,
+      5.75,
+      "曲线起点更高，因为它是弱酸。"
+     ],
+     [
+      5.75,
+      12.458,
+      "到一半时曲线变得平缓，就在这里，pH 等于醋酸的 pKa。"
+     ],
+     [
+      12.458,
+      16.25,
+      "突跃也更小，而且落在碱性一边。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_10": {
+    "duration": 13.776,
+    "hash": "6c3425d63c9dadfb",
+    "sentences": [
+     [
+      0.1,
+      2.633,
+      "那该用哪种指示剂呢？"
+     ],
+     [
+      2.583,
+      7.222,
+      "甲基橙在这条带里变色，远远早于终点。"
+     ],
+     [
+      7.222,
+      10.472,
+      "对弱酸来说，它会骗了我们。"
+     ],
+     [
+      10.472,
+      13.722,
+      "酚酞正好在突跃那一段变色。"
+     ]
+    ]
+   },
+   "Narr_Acid_Neutralize_11": {
+    "duration": 12.192,
+    "hash": "5ddd77710752d2fe",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      4.611,
+      "烧瓶里又换上了新的酸。"
+     ],
+     [
+      4.611,
+      12.125,
+      "打开活塞，一看到烧瓶变粉红就马上关上，尽量接近二十五毫升。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Acetic": {
+    "duration": 10.512,
+    "hash": "e0266df412efbe71",
+    "sentences": [
+     [
+      0.1,
+      2.467,
+      "醋酸就是醋里的酸。"
+     ],
+     [
+      2.417,
+      10.458,
+      "它是弱酸：大多数醋酸分子都紧紧抓着自己的质子，只有少数交给了水。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_AcidIon": {
+    "duration": 10.872,
+    "hash": "f1b47efce412365f",
+    "sentences": [
+     [
+      0.1,
+      4.856,
+      "醋酸根离子：一个已经交出质子的醋酸分子。"
+     ],
+     [
+      4.806,
+      10.819,
+      "它随时愿意把质子要回来，缓冲溶液就是靠这一点起作用的。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_AcidMolecule": {
+    "duration": 10.2,
+    "hash": "1ca3b50a0dd80c4e",
+    "sentences": [
+     [
+      0.1,
+      5.022,
+      "这是一个完整的醋酸分子，它还攥着自己的质子。"
+     ],
+     [
+      4.972,
+      10.139,
+      "醋里大多数分子都是这样，所以醋酸是弱酸。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Ammonia": {
+    "duration": 9.912,
+    "hash": "0edc84c7fd426000",
+    "sentences": [
+     [
+      0.1,
+      5.286,
+      "家用氨水清洁剂是弱碱，pH 大约十一点五。"
+     ],
+     [
+      5.236,
+      9.861,
+      "那股刺鼻的气味，是氨气从水里跑出来了。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_AmmoniaBottle": {
+    "duration": 12.792,
+    "hash": "02688ab0250fe389",
+    "sentences": [
+     [
+      0.1,
+      2.133,
+      "氨水是弱碱。"
+     ],
+     [
+      2.083,
+      9.75,
+      "少数氨分子会从水那里拿走一个质子，变成铵根，同时留下一个 OH⁻。"
+     ],
+     [
+      9.75,
+      12.722,
+      "大多数氨分子保持原样。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Antacid": {
+    "duration": 10.488,
+    "hash": "3afe6d06146f6464",
+    "sentences": [
+     [
+      0.1,
+      5.939,
+      "氢氧化镁乳是氢氧化镁的悬浊液，pH 大约十点五。"
+     ],
+     [
+      5.889,
+      10.417,
+      "吃下去能中和一部分胃酸，缓解烧心。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_BakingSoda": {
+    "duration": 11.496,
+    "hash": "9aea18e5ad8c6270",
+    "sentences": [
+     [
+      0.1,
+      6.356,
+      "小苏打，也就是碳酸氢钠，让水略带碱性，大约八点三。"
+     ],
+     [
+      6.306,
+      11.431,
+      "它遇到醋这样的酸会冒泡，因为放出了二氧化碳。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Band": {
+    "duration": 9.84,
+    "hash": "084e78cd8c3d8749",
+    "sentences": [
+     [
+      0.1,
+      4.397,
+      "这条阴影带是所选指示剂变色的范围。"
+     ],
+     [
+      4.347,
+      9.778,
+      "要让终点清清楚楚，它应该落在曲线最陡的那一段里。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_BaseIon": {
+    "duration": 8.664,
+    "hash": "e9a7aaf5f1847a6b",
+    "sentences": [
+     [
+      0.1,
+      4.675,
+      "铵根离子：从水那里抓到一个质子的氨。"
+     ],
+     [
+      4.625,
+      8.597,
+      "每有一个铵根，水里就留下一个 OH⁻。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_BaseMolecule": {
+    "duration": 9.264,
+    "hash": "691c8ab2db32664c",
+    "sentences": [
+     [
+      0.1,
+      4.606,
+      "氨分子：一个氮原子连着三个氢原子。"
+     ],
+     [
+      4.556,
+      9.208,
+      "氮上还有一对空闲的电子，可以抓住一个质子。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Beaker": {
+    "duration": 11.856,
+    "hash": "349f924b374e0b3a",
+    "sentences": [
+     [
+      0.1,
+      4.106,
+      "这个烧杯一开始装着一百毫升纯水。"
+     ],
+     [
+      4.056,
+      11.792,
+      "你每加一滴，水里漂着的粒子就会变，pH 计和颜色会告诉你发生了什么。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Bleach": {
+    "duration": 10.848,
+    "hash": "39655c03bbf65c4d",
+    "sentences": [
+     [
+      0.1,
+      4.8,
+      "漂白水是强碱性的，pH 大约十二点五。"
+     ],
+     [
+      4.75,
+      10.792,
+      "它会灼伤皮肤和眼睛，和酸混合还会放出有毒的氯气。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Blood": {
+    "duration": 11.88,
+    "hash": "bbe4ead11a7a5425",
+    "sentences": [
+     [
+      0.1,
+      3.814,
+      "血液略偏碱性，大约七点四。"
+     ],
+     [
+      3.764,
+      11.819,
+      "它是缓冲溶液：加水或加一点酸，它的 pH 几乎不动，这对生命至关重要。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Bromothymol": {
+    "duration": 12.312,
+    "hash": "2fa4fa1986dd338f",
+    "sentences": [
+     [
+      0.1,
+      7.383,
+      "溴百里酚蓝在酸里是黄色，正好中性时是绿色，在碱里是蓝色。"
+     ],
+     [
+      7.333,
+      12.25,
+      "用它判断一种液体是不是接近 pH 七很方便。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Burette": {
+    "duration": 9.192,
+    "hash": "7f67dae0a8399d66",
+    "sentences": [
+     [
+      0.1,
+      3.3,
+      "滴定管是一根带刻度的长管。"
+     ],
+     [
+      3.25,
+      9.125,
+      "读数从上往下读，液面所在的刻度就是已经流出去的量。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Cabbage": {
+    "duration": 14.664,
+    "hash": "a8f4e4aabd686d86",
+    "sentences": [
+     [
+      0.1,
+      4.494,
+      "紫甘蓝汁是在厨房里就能做的指示剂。"
+     ],
+     [
+      4.444,
+      14.611,
+      "它的颜色来自花青素：酸里是红色，中性附近是紫色，碱里依次变蓝、变绿，强碱里变黄。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Chloride": {
+    "duration": 8.136,
+    "hash": "8edfba365669b106",
+    "sentences": [
+     [
+      0.1,
+      4.383,
+      "氯离子是盐酸交出质子后剩下的部分。"
+     ],
+     [
+      4.333,
+      8.083,
+      "它只是在水里漂着，不影响 pH。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Coffee": {
+    "duration": 7.584,
+    "hash": "b62520f1c8319f16",
+    "sentences": [
+     [
+      0.1,
+      7.578,
+      "黑咖啡是弱酸性的，pH 大约五，酸来自咖啡豆在烘焙时产生的酸。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Cola": {
+    "duration": 9.432,
+    "hash": "ae607772b7cdae5e",
+    "sentences": [
+     [
+      0.1,
+      6.453,
+      "可乐里有磷酸，再加上溶解的二氧化碳，pH 大约二点五。"
+     ],
+     [
+      6.403,
+      9.375,
+      "糖掩盖了它到底有多酸。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Curve": {
+    "duration": 8.4,
+    "hash": "7163676a3a191581",
+    "sentences": [
+     [
+      0.1,
+      4.897,
+      "滴定曲线显示每加入一定量的碱以后的 pH。"
+     ],
+     [
+      4.847,
+      8.333,
+      "沿着它拖动，可以前进或后退。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Dilute": {
+    "duration": 7.032,
+    "hash": "f7d116095d6e3b8b",
+    "sentences": [
+     [
+      0.1,
+      3.175,
+      "点这里把液体稀释十倍。"
+     ],
+     [
+      3.125,
+      6.972,
+      "看看 pH 往哪边走，走了多远。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Drain": {
+    "duration": 12.6,
+    "hash": "3504b37e977e79dd",
+    "sentences": [
+     [
+      0.1,
+      5.744,
+      "管道疏通剂是浓的氢氧化钠，几乎在标尺的最顶端。"
+     ],
+     [
+      5.694,
+      12.542,
+      "它能溶解头发和油脂，也能腐蚀皮肤，所以一定要戴手套使用。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Equivalence": {
+    "duration": 9.264,
+    "hash": "a8ed210543447ace",
+    "sentences": [
+     [
+      0.1,
+      4.994,
+      "在等当点，加入的碱正好和原来的酸一样多。"
+     ],
+     [
+      4.944,
+      9.208,
+      "这里是二十五毫升，因为两者的浓度一样。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Flask": {
+    "duration": 9.888,
+    "hash": "c9f5ff2d080d6632",
+    "sentences": [
+     [
+      0.1,
+      3.925,
+      "锥形瓶里装着酸和几滴指示剂。"
+     ],
+     [
+      3.875,
+      7.542,
+      "它的形状让你可以摇晃而不洒出来。"
+     ],
+     [
+      7.542,
+      9.833,
+      "点它可以只加一滴。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_FlaskIndicator": {
+    "duration": 6.888,
+    "hash": "5178284a0c670538",
+    "sentences": [
+     [
+      0.1,
+      2.675,
+      "这是烧瓶里的指示剂。"
+     ],
+     [
+      2.625,
+      6.833,
+      "它一变色，就是在告诉你：酸用完了。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Halfway": {
+    "duration": 11.496,
+    "hash": "726fed4fbcfd2da3",
+    "sentences": [
+     [
+      0.1,
+      5.106,
+      "到终点的一半时，一半醋酸已经变成醋酸根。"
+     ],
+     [
+      5.056,
+      11.431,
+      "两者一样多，此时 pH 就等于醋酸的 pKa，四点七六。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Hcl": {
+    "duration": 11.688,
+    "hash": "c72ccf950ccb9ed2",
+    "sentences": [
+     [
+      0.1,
+      2.106,
+      "盐酸是强酸。"
+     ],
+     [
+      2.056,
+      11.639,
+      "每一个 HCl 分子都会把质子交给水，所以每个 HCl 都变成一个 H₃O⁺ 和一个氯离子。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Hydronium": {
+    "duration": 9.384,
+    "hash": "5c6c356073931920",
+    "sentences": [
+     [
+      0.1,
+      5.564,
+      "这是水合氢离子 H₃O⁺：一个多带了一个质子的水分子。"
+     ],
+     [
+      5.514,
+      9.333,
+      "它越多，溶液越酸，pH 越低。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Hydroxide": {
+    "duration": 10.224,
+    "hash": "b9b61182ac98c2a7",
+    "sentences": [
+     [
+      0.1,
+      5.203,
+      "这是氢氧根离子 OH⁻：一个丢了质子的水分子。"
+     ],
+     [
+      5.153,
+      10.153,
+      "它碰到 H₃O⁺ 时，质子跳过来，两个都变回水。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Jug": {
+    "duration": 8.76,
+    "hash": "dea6c1b25d978df8",
+    "sentences": [
+     [
+      0.1,
+      5.522,
+      "水壶用来稀释：只留下十分之一，再加水加满。"
+     ],
+     [
+      5.472,
+      8.694,
+      "溶解的东西都变稀了十倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Jump": {
+    "duration": 10.416,
+    "hash": "e7e4ada2f0e90fa9",
+    "sentences": [
+     [
+      0.1,
+      3.856,
+      "快到终点时，pH 会突然跳起来。"
+     ],
+     [
+      3.806,
+      10.347,
+      "酸几乎用完了，一滴碱就能让 H₃O⁺ 的数量变化成千上万倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Lemon": {
+    "duration": 9.96,
+    "hash": "1c210edfebf881de",
+    "sentences": [
+     [
+      0.1,
+      4.494,
+      "柠檬汁的酸味来自柠檬酸，一种弱酸。"
+     ],
+     [
+      4.444,
+      9.889,
+      "它的 pH 大约二点三，H₃O⁺ 是纯水的好几万倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Litmus": {
+    "duration": 12.024,
+    "hash": "56aeddfe7084b11c",
+    "sentences": [
+     [
+      0.1,
+      2.244,
+      "石蕊来自地衣。"
+     ],
+     [
+      2.194,
+      7.472,
+      "它在酸里是红色，在碱里是蓝色，中间是紫色。"
+     ],
+     [
+      7.472,
+      11.958,
+      "它能告诉你偏哪一边，但说不出偏多少。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Magnifier": {
+    "duration": 12.528,
+    "hash": "0f12258b7fcc978b",
+    "sentences": [
+     [
+      0.1,
+      2.967,
+      "放大镜把烧杯里放大了。"
+     ],
+     [
+      2.917,
+      12.458,
+      "那些淡淡的、弯弯的是水分子；亮色的是溶解在里面的粒子，它们按彼此的数量比例来画。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Meter": {
+    "duration": 12.12,
+    "hash": "3c68b499cba73df1",
+    "sentences": [
+     [
+      0.1,
+      4.286,
+      "pH 计的探头顶端有一个薄薄的玻璃泡。"
+     ],
+     [
+      4.236,
+      12.069,
+      "H₃O⁺ 会在玻璃两边产生一个很小的电压，仪器再把这个电压换算成 pH。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Methyl": {
+    "duration": 9.96,
+    "hash": "c5d593c2fc6dbbe3",
+    "sentences": [
+     [
+      0.1,
+      7.383,
+      "甲基橙在较强的酸里是红色，从大约 pH 四点五往上就变成黄色。"
+     ],
+     [
+      7.333,
+      9.903,
+      "它在酸性的一边变色。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Milk": {
+    "duration": 9.888,
+    "hash": "c1d0dcac472f9482",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "牛奶略偏酸性，pH 大约六点六。"
+     ],
+     [
+      4.139,
+      9.819,
+      "牛奶变酸时，细菌把糖变成乳酸，pH 就降下来。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Naoh": {
+    "duration": 11.04,
+    "hash": "f6fd0438d588cd80",
+    "sentences": [
+     [
+      0.1,
+      2.481,
+      "氢氧化钠是强碱。"
+     ],
+     [
+      2.431,
+      10.972,
+      "它在水里完全分开，变成钠离子和氢氧根离子，氢氧根见到 H₃O⁺ 就会抓住它。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Neutral": {
+    "duration": 10.512,
+    "hash": "c87e327189e806b7",
+    "sentences": [
+     [
+      0.1,
+      5.258,
+      "七是中性：H₃O⁺ 和 OH⁻ 一样多，就像纯水。"
+     ],
+     [
+      5.208,
+      10.444,
+      "中性不代表里面什么都没溶解，盐水也是中性的。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Orange": {
+    "duration": 8.472,
+    "hash": "23ce1f983ddde276",
+    "sentences": [
+     [
+      0.1,
+      8.467,
+      "橙汁和柠檬汁一样，酸味来自柠檬酸，但含量少一些，所以 pH 大约三点五。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_PhStrip": {
+    "duration": 9.0,
+    "hash": "da0f5f8a67a39bf6",
+    "sentences": [
+     [
+      0.1,
+      8.994,
+      "这是用广泛指示剂颜色画的 pH 标尺：强酸是红色，中性是绿色，强碱是紫色。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_PhValue": {
+    "duration": 11.208,
+    "hash": "9a8ac37fd0d8c8ae",
+    "sentences": [
+     [
+      0.1,
+      2.342,
+      "这是现在的 pH。"
+     ],
+     [
+      2.292,
+      6.083,
+      "小于七是酸性，大于七是碱性。"
+     ],
+     [
+      6.083,
+      11.139,
+      "记住，差一格可不是差一点点，而是差十倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Phenol": {
+    "duration": 12.168,
+    "hash": "810241903927fc4f",
+    "sentences": [
+     [
+      0.1,
+      8.508,
+      "酚酞在酸里和中性的水里都是无色的，只有 pH 超过大约八才变成粉红色。"
+     ],
+     [
+      8.458,
+      12.111,
+      "这让它特别适合找出滴定的终点。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Rain": {
+    "duration": 11.016,
+    "hash": "a33a574f27c3b09f",
+    "sentences": [
+     [
+      0.1,
+      3.592,
+      "就连干净的雨水也略带酸性。"
+     ],
+     [
+      3.542,
+      10.958,
+      "空气中的二氧化碳溶进雨里，形成碳酸，使它的 pH 大约是五点六。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Reaction": {
+    "duration": 10.752,
+    "hash": "a1da0bcf4968c290",
+    "sentences": [
+     [
+      0.1,
+      6.272,
+      "在烧瓶里，每来一个氢氧根离子，就会找到一个水合氢离子。"
+     ],
+     [
+      6.222,
+      10.694,
+      "质子跳过去，这一对就变成了两个水分子。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Scale": {
+    "duration": 11.472,
+    "hash": "3cc18af525e42256",
+    "sentences": [
+     [
+      0.1,
+      3.119,
+      "pH 标尺从零到十四。"
+     ],
+     [
+      3.069,
+      7.778,
+      "中间的七是中性，越小越酸，越大越碱。"
+     ],
+     [
+      7.778,
+      11.403,
+      "颜色就是指示剂会显示的颜色。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Seawater": {
+    "duration": 10.224,
+    "hash": "a05d12fb341bde05",
+    "sentences": [
+     [
+      0.1,
+      3.703,
+      "海水略偏碱性，大约八点一。"
+     ],
+     [
+      3.653,
+      10.153,
+      "随着海洋吸收空气中的二氧化碳，这个数字正在慢慢下降。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Soap": {
+    "duration": 8.376,
+    "hash": "4822841b021df385",
+    "sentences": [
+     [
+      0.1,
+      3.939,
+      "肥皂水是碱性的，pH 大约十。"
+     ],
+     [
+      3.889,
+      8.319,
+      "手指摸上去滑滑的感觉，正是碱的特点。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Sodium": {
+    "duration": 10.68,
+    "hash": "7d8a4d40d971e4b5",
+    "sentences": [
+     [
+      0.1,
+      2.925,
+      "钠离子来自氢氧化钠。"
+     ],
+     [
+      2.875,
+      10.611,
+      "它和氯离子一样是个旁观者：H₃O⁺ 和 OH⁻ 在反应，它只是在旁边漂着。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Steps": {
+    "duration": 8.856,
+    "hash": "2bd0ed1e63287a14",
+    "sentences": [
+     [
+      0.1,
+      3.717,
+      "每往左走一格，H₃O⁺ 就多十倍。"
+     ],
+     [
+      3.667,
+      8.792,
+      "所以差两格就是一百倍，差三格就是一千倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Stomach": {
+    "duration": 8.76,
+    "hash": "d87a2096f94a1c01",
+    "sentences": [
+     [
+      0.1,
+      4.203,
+      "胃酸主要是盐酸，pH 大约一点五。"
+     ],
+     [
+      4.153,
+      8.694,
+      "它强到能溶解一些金属，能帮你分解食物。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Swap": {
+    "duration": 14.184,
+    "hash": "ec42eba4fa79506c",
+    "sentences": [
+     [
+      0.1,
+      7.258,
+      "两个水分子刚刚交换了一个质子：一个变成 H₃O⁺，另一个变成 OH⁻。"
+     ],
+     [
+      7.208,
+      14.125,
+      "纯水里，任何时刻大约五亿五千万个水分子里只有一个是这样的。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Tap": {
+    "duration": 8.4,
+    "hash": "c322d1e87ad8e555",
+    "sentences": [
+     [
+      0.1,
+      2.522,
+      "点活塞可以转动它。"
+     ],
+     [
+      2.472,
+      8.333,
+      "点一下是一滴一滴地滴，再点是细细地流，再点一下就关上。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Thermometer": {
+    "duration": 10.44,
+    "hash": "7b46b758217f905a",
+    "sentences": [
+     [
+      0.1,
+      2.411,
+      "中和会放出热量。"
+     ],
+     [
+      2.361,
+      10.375,
+      "用这么稀的溶液，烧瓶只升温不到一度；如果酸和碱浓十倍，就能升好几度。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Tube": {
+    "duration": 9.504,
+    "hash": "acd339d4ccd39880",
+    "sentences": [
+     [
+      0.1,
+      5.133,
+      "试管里是所选液体的样品，加了几滴指示剂。"
+     ],
+     [
+      5.083,
+      9.444,
+      "它的颜色就是你在实验台上会看到的样子。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Universal": {
+    "duration": 10.536,
+    "hash": "8f6d734b333d0b7b",
+    "sentences": [
+     [
+      0.1,
+      10.522,
+      "广泛指示剂是几种染料的混合物，所以它一格一格地变色：从红、橙、黄、绿，到蓝和紫。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Vinegar": {
+    "duration": 11.016,
+    "hash": "e080c1225308a0c4",
+    "sentences": [
+     [
+      0.1,
+      3.842,
+      "醋大约是百分之五的醋酸水溶液。"
+     ],
+     [
+      3.792,
+      10.958,
+      "醋酸是弱酸，所以它的 pH 大约是三，没有它的浓度看起来那么低。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_Water": {
+    "duration": 10.776,
+    "hash": "f4dbe38987ceb6a2",
+    "sentences": [
+     [
+      0.1,
+      5.119,
+      "在二十五度时，纯水正好是中性，pH 七。"
+     ],
+     [
+      5.069,
+      10.722,
+      "自来水里通常有一些矿物质，可能稍微偏酸或偏碱。"
+     ]
+    ]
+   },
+   "Narr_Acid_Obj_WaterMolecule": {
+    "duration": 11.808,
+    "hash": "b9679051ed92fca7",
+    "sentences": [
+     [
+      0.1,
+      7.05,
+      "这是水分子：一个氧原子连着两个氢原子，弯成回旋镖的形状。"
+     ],
+     [
+      7.0,
+      11.75,
+      "水分子多得数不清，图里只画了一小撮。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_01": {
+    "duration": 10.488,
+    "hash": "44bc609da57ffdd0",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "这是一杯纯水，里面插着一个 pH 计。"
+     ],
+     [
+      4.139,
+      6.319,
+      "它的读数是多少？"
+     ],
+     [
+      6.319,
+      8.0,
+      "正好是七。"
+     ],
+     [
+      8.0,
+      10.431,
+      "这就是我们说的中性。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_02": {
+    "duration": 16.2,
+    "hash": "19361c71cac4d5be",
+    "sentences": [
+     [
+      0.1,
+      2.05,
+      "我们放大来看。"
+     ],
+     [
+      2.0,
+      11.111,
+      "仔细观察：时不时会有两个水分子交换一个质子，一瞬间出现一个 H₃O⁺ 和一个 OH⁻。"
+     ],
+     [
+      11.111,
+      16.139,
+      "它们总是一对一对出现，所以水仍然是中性的。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_03": {
+    "duration": 8.472,
+    "hash": "1f5cbc77cd4fa1ae",
+    "sentences": [
+     [
+      0.1,
+      3.106,
+      "现在滴进两小滴盐酸。"
+     ],
+     [
+      3.056,
+      8.403,
+      "看 pH 计：只滴了两滴，pH 就从七降到了四！"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_04": {
+    "duration": 13.128,
+    "hash": "3d791ebf7e270f59",
+    "sentences": [
+     [
+      0.1,
+      5.717,
+      "看放大镜，每个 HCl 都把质子交给了一个水分子。"
+     ],
+     [
+      5.667,
+      10.472,
+      "红色的是 H₃O⁺，绿色的是剩下的氯离子。"
+     ],
+     [
+      10.472,
+      13.069,
+      "H₃O⁺ 越多，就越酸。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_05": {
+    "duration": 8.136,
+    "hash": "8e8cd46a554d8d4f",
+    "sentences": [
+     [
+      0.1,
+      1.731,
+      "来想一想。"
+     ],
+     [
+      1.681,
+      8.083,
+      "如果我们加入十倍的酸，H₃O⁺ 也变成十倍，pH 会变成多少？"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_06": {
+    "duration": 12.48,
+    "hash": "4e813d2f767a5293",
+    "sentences": [
+     [
+      0.1,
+      4.231,
+      "两滴换成二十滴，pH 计读数是三。"
+     ],
+     [
+      4.181,
+      8.111,
+      "H₃O⁺ 多了十倍，pH 只下降一格。"
+     ],
+     [
+      8.111,
+      12.431,
+      "pH 标尺就是这样：每一格都是十倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_07": {
+    "duration": 16.776,
+    "hash": "d9d5468c5962f8d4",
+    "sentences": [
+     [
+      0.1,
+      5.633,
+      "现在同样滴二十滴，但换成醋酸，也就是醋里的酸。"
+     ],
+     [
+      5.583,
+      7.889,
+      "pH 只有四左右。"
+     ],
+     [
+      7.889,
+      14.917,
+      "看放大镜：大多数醋酸分子还是完整的，攥着自己的质子不放。"
+     ],
+     [
+      14.917,
+      16.708,
+      "这就是弱酸。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_08": {
+    "duration": 13.248,
+    "hash": "9771b1e78580d257",
+    "sentences": [
+     [
+      0.1,
+      4.897,
+      "再来试试碱：往清水里滴二十滴氢氧化钠。"
+     ],
+     [
+      4.847,
+      7.569,
+      "pH 一下升到了十一。"
+     ],
+     [
+      7.569,
+      13.181,
+      "现在到处都是蓝色的 OH⁻，H₃O⁺ 几乎看不见了。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_09": {
+    "duration": 13.68,
+    "hash": "71385fde620fd529",
+    "sentences": [
+     [
+      0.1,
+      2.953,
+      "再在上面滴二十滴盐酸。"
+     ],
+     [
+      2.903,
+      4.694,
+      "又回到七了！"
+     ],
+     [
+      4.694,
+      9.125,
+      "每个 H₃O⁺ 都遇到了一个 OH⁻，变成了水。"
+     ],
+     [
+      9.125,
+      13.611,
+      "剩下的是钠离子和氯离子：也就是盐水。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_10": {
+    "duration": 10.248,
+    "hash": "a5459219bc52549b",
+    "sentences": [
+     [
+      0.1,
+      3.439,
+      "不用 pH 计也能看出 pH。"
+     ],
+     [
+      3.389,
+      10.181,
+      "这个烧杯里加了广泛指示剂和一点氨水，它变成了蓝色：碱性。"
+     ]
+    ]
+   },
+   "Narr_Acid_Particles_11": {
+    "duration": 11.232,
+    "hash": "f66b781c32cd4129",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      7.847,
+      "往烧杯里滴盐酸，直到它变成酸性、pH 计读数低于五。"
+     ],
+     [
+      7.847,
+      11.167,
+      "点一下瓶子，或者按住不放。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_01": {
+    "duration": 11.208,
+    "hash": "a3a8e799d8b8b268",
+    "sentences": [
+     [
+      0.1,
+      3.883,
+      "这就是 pH 标尺，从零到十四。"
+     ],
+     [
+      3.833,
+      7.347,
+      "中间的七是中性，就像纯水。"
+     ],
+     [
+      7.347,
+      11.139,
+      "小于七是酸性，大于七是碱性。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_02": {
+    "duration": 9.192,
+    "hash": "b03b4302136a8fe0",
+    "sentences": [
+     [
+      0.1,
+      1.703,
+      "重点来了。"
+     ],
+     [
+      1.653,
+      5.264,
+      "每往左走一格，H₃O⁺ 就多十倍。"
+     ],
+     [
+      5.264,
+      9.139,
+      "两格是一百倍，三格就是一千倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_03": {
+    "duration": 8.688,
+    "hash": "cfa9e9ed8de2fdfb",
+    "sentences": [
+     [
+      0.1,
+      2.814,
+      "柠檬汁大约在二点三。"
+     ],
+     [
+      2.764,
+      8.639,
+      "它比水低了将近五格，所以 H₃O⁺ 大约是水的五万倍。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_04": {
+    "duration": 8.688,
+    "hash": "d44262beac6a062a",
+    "sentences": [
+     [
+      0.1,
+      1.953,
+      "来个小谜题。"
+     ],
+     [
+      1.903,
+      5.444,
+      "可乐在二点五，黑咖啡在五。"
+     ],
+     [
+      5.444,
+      7.083,
+      "哪个更酸？"
+     ],
+     [
+      7.083,
+      8.625,
+      "酸多少？"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_05": {
+    "duration": 11.712,
+    "hash": "6e2af797c49296ed",
+    "sentences": [
+     [
+      0.1,
+      2.869,
+      "可乐比咖啡低两格半。"
+     ],
+     [
+      2.819,
+      8.333,
+      "十乘十，再多一些：H₃O⁺ 大约是咖啡的三百倍。"
+     ],
+     [
+      8.333,
+      11.639,
+      "数字差一点，实际差很多。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_06": {
+    "duration": 13.08,
+    "hash": "426ec7102dc56c0e",
+    "sentences": [
+     [
+      0.1,
+      1.856,
+      "另一边是碱。"
+     ],
+     [
+      1.806,
+      7.236,
+      "漂白水大约在十二点五，离中性和强酸一样远。"
+     ],
+     [
+      7.236,
+      13.014,
+      "碱也会像酸一样灼伤人，所以用清洁剂一定要小心。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_07": {
+    "duration": 13.848,
+    "hash": "5caea6137307627c",
+    "sentences": [
+     [
+      0.1,
+      2.786,
+      "怎样用眼睛看出 pH？"
+     ],
+     [
+      2.736,
+      4.472,
+      "用指示剂。"
+     ],
+     [
+      4.472,
+      9.264,
+      "这是滴进紫甘蓝汁的醋，它变成了粉红色。"
+     ],
+     [
+      9.264,
+      13.778,
+      "看这一排：每种指示剂都有自己的颜色。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_08": {
+    "duration": 8.808,
+    "hash": "3654b4a29291e24c",
+    "sentences": [
+     [
+      0.1,
+      1.897,
+      "酚酞不一样。"
+     ],
+     [
+      1.847,
+      8.736,
+      "它在酸里和水里都无色，只有在碱里才变粉红，就像这杯肥皂水。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_09": {
+    "duration": 9.168,
+    "hash": "f3717a219ef2734d",
+    "sentences": [
+     [
+      0.1,
+      3.175,
+      "这是胃酸，pH 一点五。"
+     ],
+     [
+      3.125,
+      9.097,
+      "如果我们只留十分之一，再加满水，它的 pH 会是多少？"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_10": {
+    "duration": 8.664,
+    "hash": "09c9bad906b9279e",
+    "sentences": [
+     [
+      0.1,
+      1.814,
+      "是二点五。"
+     ],
+     [
+      1.764,
+      5.444,
+      "H₃O⁺ 少了十倍，pH 就升一格。"
+     ],
+     [
+      5.444,
+      8.611,
+      "给酸加水，它就往七靠近。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_11": {
+    "duration": 9.552,
+    "hash": "3ff484bd6584a958",
+    "sentences": [
+     [
+      0.1,
+      4.369,
+      "稀释一百万倍以后，它已经非常接近七了。"
+     ],
+     [
+      4.319,
+      9.5,
+      "但永远不会越过七：光靠加水，酸变不成碱。"
+     ]
+    ]
+   },
+   "Narr_Acid_Scale_12": {
+    "duration": 8.688,
+    "hash": "306cf6b92fb0c55c",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      8.639,
+      "在标尺上点任意一种液体，看看它在每种指示剂里变成什么颜色。"
+     ]
+    ]
+   },
    "Narr_Aurora_Obj_Aurora": {
     "duration": 12.216,
     "hash": "65562995d0b19267",

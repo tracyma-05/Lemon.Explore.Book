@@ -12,6 +12,825 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Acid_AcidChoice_Caption" xml:space="preserve">
+    <value>烧瓶里的酸</value>
+  </data>
+  <data name="Acid_Add_Caption" xml:space="preserve">
+    <value>倒进烧杯（每次 1 毫升）</value>
+  </data>
+  <data name="Acid_Add_Dilute" xml:space="preserve">
+    <value>稀释 10 倍</value>
+  </data>
+  <data name="Acid_Add_Fresh" xml:space="preserve">
+    <value>换一杯清水</value>
+  </data>
+  <data name="Acid_Add_StrongAcid" xml:space="preserve">
+    <value>盐酸</value>
+  </data>
+  <data name="Acid_Add_StrongBase" xml:space="preserve">
+    <value>氢氧化钠</value>
+  </data>
+  <data name="Acid_Add_WeakAcid" xml:space="preserve">
+    <value>醋酸</value>
+  </data>
+  <data name="Acid_Add_WeakBase" xml:space="preserve">
+    <value>氨水</value>
+  </data>
+  <data name="Acid_BaseAdded" xml:space="preserve">
+    <value>已加入的氢氧化钠</value>
+  </data>
+  <data name="Acid_BeakerIndicator_Caption" xml:space="preserve">
+    <value>烧杯里的指示剂</value>
+  </data>
+  <data name="Acid_Beaker_Acidic_Text" xml:space="preserve">
+    <value>H₃O⁺ 比 OH⁻ 多：酸把质子交给了水。H₃O⁺ 越多，pH 越低，每多 10 倍就低一格。</value>
+  </data>
+  <data name="Acid_Beaker_Acidic_Title" xml:space="preserve">
+    <value>酸性</value>
+  </data>
+  <data name="Acid_Beaker_Basic_Text" xml:space="preserve">
+    <value>OH⁻ 比 H₃O⁺ 多：碱带来了 OH⁻，或者从水里抢走了质子。H₃O⁺ 越少，pH 越高。</value>
+  </data>
+  <data name="Acid_Beaker_Basic_Title" xml:space="preserve">
+    <value>碱性</value>
+  </data>
+  <data name="Acid_Beaker_Neutral_Text" xml:space="preserve">
+    <value>H₃O⁺ 和 OH⁻ 跟纯水一样多：酸和碱互相用完了，剩下的是溶在水里的盐。</value>
+  </data>
+  <data name="Acid_Beaker_Neutral_Title" xml:space="preserve">
+    <value>中性</value>
+  </data>
+  <data name="Acid_Beaker_Water_Text" xml:space="preserve">
+    <value>水分子偶尔会把一个质子递给旁边的水分子，变成一个 H₃O⁺ 和一个 OH⁻。它们总是成对出现，所以纯水正好是中性，pH 7。</value>
+  </data>
+  <data name="Acid_Beaker_Water_Title" xml:space="preserve">
+    <value>纯水</value>
+  </data>
+  <data name="Acid_Bottle_StrongAcid" xml:space="preserve">
+    <value>盐酸</value>
+  </data>
+  <data name="Acid_Bottle_StrongBase" xml:space="preserve">
+    <value>氢氧化钠</value>
+  </data>
+  <data name="Acid_Bottle_Water" xml:space="preserve">
+    <value>加水 ×10</value>
+  </data>
+  <data name="Acid_Bottle_WeakAcid" xml:space="preserve">
+    <value>醋酸</value>
+  </data>
+  <data name="Acid_Bottle_WeakBase" xml:space="preserve">
+    <value>氨水</value>
+  </data>
+  <data name="Acid_Burette_Label" xml:space="preserve">
+    <value>NaOH</value>
+  </data>
+  <data name="Acid_Chart_AcidLeftStrong" xml:space="preserve">
+    <value>剩余的盐酸</value>
+  </data>
+  <data name="Acid_Chart_AcidLeftWeak" xml:space="preserve">
+    <value>剩余的醋酸</value>
+  </data>
+  <data name="Acid_Chart_BaseExtra" xml:space="preserve">
+    <value>多余的 NaOH</value>
+  </data>
+  <data name="Acid_Chart_Hydronium" xml:space="preserve">
+    <value>H₃O⁺</value>
+  </data>
+  <data name="Acid_Chart_Hydroxide" xml:space="preserve">
+    <value>OH⁻</value>
+  </data>
+  <data name="Acid_Chart_Neutralize_Caption" xml:space="preserve">
+    <value>烧瓶里现在有什么</value>
+  </data>
+  <data name="Acid_Chart_Neutralize_Note" xml:space="preserve">
+    <value>每加入一个 OH⁻ 就带走一个酸的质子：酸越来越少，盐越来越多；酸用完以后，多余的碱开始积累。</value>
+  </data>
+  <data name="Acid_Chart_Note" xml:space="preserve">
+    <value>烧瓶中的毫摩尔数</value>
+  </data>
+  <data name="Acid_Chart_Particles_Caption" xml:space="preserve">
+    <value>烧杯里的 H₃O⁺ 和 OH⁻</value>
+  </data>
+  <data name="Acid_Chart_Particles_Note" xml:space="preserve">
+    <value>这是一把“十的几次方”梯子，单位 mol/L。一根柱子升一格，另一根就降一格：两者相乘永远是 10⁻¹⁴，而 pH 就是 H₃O⁺ 那根柱子所在的格数。</value>
+  </data>
+  <data name="Acid_Chart_SaltStrong" xml:space="preserve">
+    <value>生成的 NaCl</value>
+  </data>
+  <data name="Acid_Chart_SaltWeak" xml:space="preserve">
+    <value>生成的醋酸钠</value>
+  </data>
+  <data name="Acid_Chart_Scale_Caption" xml:space="preserve">
+    <value>六种指示剂从 pH 0 到 14 的颜色</value>
+  </data>
+  <data name="Acid_Chart_Scale_Note" xml:space="preserve">
+    <value>白线是所选的液体。有的指示剂一路变出一串颜色，有的只变一次色。点一条色带就换用它。</value>
+  </data>
+  <data name="Acid_Colour_Blue" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="Acid_Colour_Colourless" xml:space="preserve">
+    <value>无色</value>
+  </data>
+  <data name="Acid_Colour_Green" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="Acid_Colour_Orange" xml:space="preserve">
+    <value>橙色</value>
+  </data>
+  <data name="Acid_Colour_PalePink" xml:space="preserve">
+    <value>浅粉色</value>
+  </data>
+  <data name="Acid_Colour_Pink" xml:space="preserve">
+    <value>粉红色</value>
+  </data>
+  <data name="Acid_Colour_Purple" xml:space="preserve">
+    <value>紫色</value>
+  </data>
+  <data name="Acid_Colour_Red" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="Acid_Colour_Yellow" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="Acid_Curve_Axis" xml:space="preserve">
+    <value>加入的氢氧化钠（毫升）</value>
+  </data>
+  <data name="Acid_Curve_Band" xml:space="preserve">
+    <value>{0}在这里变色</value>
+  </data>
+  <data name="Acid_Curve_Equivalence" xml:space="preserve">
+    <value>酸 = 碱</value>
+  </data>
+  <data name="Acid_Curve_Half" xml:space="preserve">
+    <value>一半时：pH = pKa</value>
+  </data>
+  <data name="Acid_Curve_Point" xml:space="preserve">
+    <value>pH {0} · {1} 毫升</value>
+  </data>
+  <data name="Acid_Curve_Title" xml:space="preserve">
+    <value>滴定曲线</value>
+  </data>
+  <data name="Acid_Dilute_Caption" xml:space="preserve">
+    <value>加水稀释</value>
+  </data>
+  <data name="Acid_Dilute_Undo" xml:space="preserve">
+    <value>恢复原液</value>
+  </data>
+  <data name="Acid_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Acid_FlaskIndicator_Caption" xml:space="preserve">
+    <value>烧瓶里的指示剂</value>
+  </data>
+  <data name="Acid_Flask_Strong" xml:space="preserve">
+    <value>盐酸</value>
+  </data>
+  <data name="Acid_Flask_Weak" xml:space="preserve">
+    <value>醋酸</value>
+  </data>
+  <data name="Acid_Formula_Acetic" xml:space="preserve">
+    <value>CH₃COOH</value>
+  </data>
+  <data name="Acid_Formula_Ammonia" xml:space="preserve">
+    <value>NH₃</value>
+  </data>
+  <data name="Acid_Formula_Hcl" xml:space="preserve">
+    <value>HCl</value>
+  </data>
+  <data name="Acid_Formula_Naoh" xml:space="preserve">
+    <value>NaOH</value>
+  </data>
+  <data name="Acid_Hint_Neutralize" xml:space="preserve">
+    <value>点活塞开关（滴、流、关），点烧瓶加一滴，或者沿着曲线拖动。</value>
+  </data>
+  <data name="Acid_Hint_Particles" xml:space="preserve">
+    <value>点一下瓶子滴一滴，按住不放就一直滴。点水壶，把烧杯里的溶液稀释十倍。</value>
+  </data>
+  <data name="Acid_Hint_Scale" xml:space="preserve">
+    <value>点一种液体来检测它；点小试管换成那种指示剂；点“加水”把它稀释。</value>
+  </data>
+  <data name="Acid_Indicator_Bromothymol" xml:space="preserve">
+    <value>溴百里酚蓝</value>
+  </data>
+  <data name="Acid_Indicator_Cabbage" xml:space="preserve">
+    <value>紫甘蓝汁</value>
+  </data>
+  <data name="Acid_Indicator_Litmus" xml:space="preserve">
+    <value>石蕊</value>
+  </data>
+  <data name="Acid_Indicator_MethylOrange" xml:space="preserve">
+    <value>甲基橙</value>
+  </data>
+  <data name="Acid_Indicator_None" xml:space="preserve">
+    <value>不加</value>
+  </data>
+  <data name="Acid_Indicator_Phenolphthalein" xml:space="preserve">
+    <value>酚酞</value>
+  </data>
+  <data name="Acid_Indicator_Universal" xml:space="preserve">
+    <value>广泛指示剂</value>
+  </data>
+  <data name="Acid_Kind_Buffer" xml:space="preserve">
+    <value>缓冲溶液</value>
+  </data>
+  <data name="Acid_Kind_Neutral" xml:space="preserve">
+    <value>中性</value>
+  </data>
+  <data name="Acid_Kind_StrongAcid" xml:space="preserve">
+    <value>强酸</value>
+  </data>
+  <data name="Acid_Kind_StrongBase" xml:space="preserve">
+    <value>强碱</value>
+  </data>
+  <data name="Acid_Kind_WeakAcid" xml:space="preserve">
+    <value>弱酸</value>
+  </data>
+  <data name="Acid_Kind_WeakBase" xml:space="preserve">
+    <value>弱碱</value>
+  </data>
+  <data name="Acid_Lens_Swap" xml:space="preserve">
+    <value>交换了一个质子：5.5 亿分之一</value>
+  </data>
+  <data name="Acid_Lens_Unit" xml:space="preserve">
+    <value>画出的每个粒子 ≈ {0} mol/L</value>
+  </data>
+  <data name="Acid_Lesson_Neutralize_Choice1" xml:space="preserve">
+    <value>pH 从 3 左右跳到 11 左右</value>
+  </data>
+  <data name="Acid_Lesson_Neutralize_Choice2" xml:space="preserve">
+    <value>pH 只升高 0.1 左右</value>
+  </data>
+  <data name="Acid_Lesson_Neutralize_Choice3" xml:space="preserve">
+    <value>什么也不变</value>
+  </data>
+  <data name="Acid_Lesson_Particles_Choice1" xml:space="preserve">
+    <value>低一格：3</value>
+  </data>
+  <data name="Acid_Lesson_Particles_Choice2" xml:space="preserve">
+    <value>低十格</value>
+  </data>
+  <data name="Acid_Lesson_Particles_Choice3" xml:space="preserve">
+    <value>变成一半：2</value>
+  </data>
+  <data name="Acid_Lesson_Scale2_Choice1" xml:space="preserve">
+    <value>2.5</value>
+  </data>
+  <data name="Acid_Lesson_Scale2_Choice2" xml:space="preserve">
+    <value>还是 1.5</value>
+  </data>
+  <data name="Acid_Lesson_Scale2_Choice3" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Acid_Lesson_Scale_Choice1" xml:space="preserve">
+    <value>可乐，大约 300 倍</value>
+  </data>
+  <data name="Acid_Lesson_Scale_Choice2" xml:space="preserve">
+    <value>咖啡，大约 2 倍</value>
+  </data>
+  <data name="Acid_Lesson_Scale_Choice3" xml:space="preserve">
+    <value>可乐，大约 2 倍</value>
+  </data>
+  <data name="Acid_Mode_Neutralize" xml:space="preserve">
+    <value>中和与滴定</value>
+  </data>
+  <data name="Acid_Mode_Particles" xml:space="preserve">
+    <value>溶液里的粒子</value>
+  </data>
+  <data name="Acid_Mode_Scale" xml:space="preserve">
+    <value>pH 标尺</value>
+  </data>
+  <data name="Acid_Molar_Caption" xml:space="preserve">
+    <value>酸和碱的浓度</value>
+  </data>
+  <data name="Acid_Molar_Dilute" xml:space="preserve">
+    <value>0.1 mol/L</value>
+  </data>
+  <data name="Acid_Molar_Strong" xml:space="preserve">
+    <value>1 mol/L</value>
+  </data>
+  <data name="Acid_Nature_Acidic" xml:space="preserve">
+    <value>酸性</value>
+  </data>
+  <data name="Acid_Nature_Basic" xml:space="preserve">
+    <value>碱性</value>
+  </data>
+  <data name="Acid_Nature_Neutral" xml:space="preserve">
+    <value>中性</value>
+  </data>
+  <data name="Acid_Neutralize_Fact1" xml:space="preserve">
+    <value>酸 + 碱 → 盐 + 水。盐酸和氢氧化钠反应，生成的盐就是普通的食盐 NaCl。</value>
+  </data>
+  <data name="Acid_Neutralize_Fact2" xml:space="preserve">
+    <value>滴定可以测出未知酸的浓度：到变色时用了多少碱，就说明酸里原来有多少质子。</value>
+  </data>
+  <data name="Acid_Neutralize_Fact3" xml:space="preserve">
+    <value>中和反应会放热，每生成 1 摩尔水大约放出 57 千焦。酸和碱浓一些，温度能升高好几度。</value>
+  </data>
+  <data name="Acid_Neutralize_Fact4" xml:space="preserve">
+    <value>胃药里的抗酸剂是氢氧化镁、碳酸钙这样的弱碱：它们中和一部分胃酸，但不会把胃变成碱性。</value>
+  </data>
+  <data name="Acid_Neutralize_Fact5" xml:space="preserve">
+    <value>好的指示剂要在曲线陡升的那一段变色。弱酸的终点偏碱性，所以要用酚酞；甲基橙会提前很久就变色。</value>
+  </data>
+  <data name="Acid_Neutralize_Note" xml:space="preserve">
+    <value>烧瓶里是 25 毫升酸，滴定管里是同样浓度的氢氧化钠，25 °C。曲线只画到已经加进去的地方。</value>
+  </data>
+  <data name="Acid_Neutralize_Panel_Note" xml:space="preserve">
+    <value>这和实验室里的做法一样：滴定管的读数从顶部的 0 开始往下读，快到终点时要一滴一滴地加。</value>
+  </data>
+  <data name="Acid_Neutralize_Subtitle" xml:space="preserve">
+    <value>酸遇上碱，一滴一滴地中和</value>
+  </data>
+  <data name="Acid_Obj_Acetic" xml:space="preserve">
+    <value>醋酸</value>
+  </data>
+  <data name="Acid_Obj_AcidIon" xml:space="preserve">
+    <value>醋酸根离子</value>
+  </data>
+  <data name="Acid_Obj_AcidMolecule" xml:space="preserve">
+    <value>醋酸分子</value>
+  </data>
+  <data name="Acid_Obj_Ammonia" xml:space="preserve">
+    <value>氨水清洁剂</value>
+  </data>
+  <data name="Acid_Obj_AmmoniaBottle" xml:space="preserve">
+    <value>氨水</value>
+  </data>
+  <data name="Acid_Obj_Antacid" xml:space="preserve">
+    <value>氢氧化镁乳</value>
+  </data>
+  <data name="Acid_Obj_BakingSoda" xml:space="preserve">
+    <value>小苏打</value>
+  </data>
+  <data name="Acid_Obj_Band" xml:space="preserve">
+    <value>变色范围</value>
+  </data>
+  <data name="Acid_Obj_BaseIon" xml:space="preserve">
+    <value>铵根离子</value>
+  </data>
+  <data name="Acid_Obj_BaseMolecule" xml:space="preserve">
+    <value>氨分子</value>
+  </data>
+  <data name="Acid_Obj_Beaker" xml:space="preserve">
+    <value>烧杯</value>
+  </data>
+  <data name="Acid_Obj_Bleach" xml:space="preserve">
+    <value>漂白水</value>
+  </data>
+  <data name="Acid_Obj_Blood" xml:space="preserve">
+    <value>血液</value>
+  </data>
+  <data name="Acid_Obj_Bromothymol" xml:space="preserve">
+    <value>溴百里酚蓝</value>
+  </data>
+  <data name="Acid_Obj_Burette" xml:space="preserve">
+    <value>滴定管</value>
+  </data>
+  <data name="Acid_Obj_Cabbage" xml:space="preserve">
+    <value>紫甘蓝汁</value>
+  </data>
+  <data name="Acid_Obj_Chloride" xml:space="preserve">
+    <value>氯离子 Cl⁻</value>
+  </data>
+  <data name="Acid_Obj_Coffee" xml:space="preserve">
+    <value>黑咖啡</value>
+  </data>
+  <data name="Acid_Obj_Cola" xml:space="preserve">
+    <value>可乐</value>
+  </data>
+  <data name="Acid_Obj_Curve" xml:space="preserve">
+    <value>滴定曲线</value>
+  </data>
+  <data name="Acid_Obj_Dilute" xml:space="preserve">
+    <value>加水稀释</value>
+  </data>
+  <data name="Acid_Obj_Drain" xml:space="preserve">
+    <value>管道疏通剂</value>
+  </data>
+  <data name="Acid_Obj_Equivalence" xml:space="preserve">
+    <value>等当点</value>
+  </data>
+  <data name="Acid_Obj_Flask" xml:space="preserve">
+    <value>锥形瓶</value>
+  </data>
+  <data name="Acid_Obj_FlaskIndicator" xml:space="preserve">
+    <value>指示剂</value>
+  </data>
+  <data name="Acid_Obj_Halfway" xml:space="preserve">
+    <value>半中和点</value>
+  </data>
+  <data name="Acid_Obj_Hcl" xml:space="preserve">
+    <value>盐酸</value>
+  </data>
+  <data name="Acid_Obj_Hydronium" xml:space="preserve">
+    <value>水合氢离子 H₃O⁺</value>
+  </data>
+  <data name="Acid_Obj_Hydroxide" xml:space="preserve">
+    <value>氢氧根离子 OH⁻</value>
+  </data>
+  <data name="Acid_Obj_Jug" xml:space="preserve">
+    <value>水壶</value>
+  </data>
+  <data name="Acid_Obj_Jump" xml:space="preserve">
+    <value>突跃</value>
+  </data>
+  <data name="Acid_Obj_Lemon" xml:space="preserve">
+    <value>柠檬汁</value>
+  </data>
+  <data name="Acid_Obj_Litmus" xml:space="preserve">
+    <value>石蕊</value>
+  </data>
+  <data name="Acid_Obj_Magnifier" xml:space="preserve">
+    <value>放大镜</value>
+  </data>
+  <data name="Acid_Obj_Meter" xml:space="preserve">
+    <value>pH 计</value>
+  </data>
+  <data name="Acid_Obj_Methyl" xml:space="preserve">
+    <value>甲基橙</value>
+  </data>
+  <data name="Acid_Obj_Milk" xml:space="preserve">
+    <value>牛奶</value>
+  </data>
+  <data name="Acid_Obj_Naoh" xml:space="preserve">
+    <value>氢氧化钠</value>
+  </data>
+  <data name="Acid_Obj_Neutral" xml:space="preserve">
+    <value>中性 pH 7</value>
+  </data>
+  <data name="Acid_Obj_Orange" xml:space="preserve">
+    <value>橙汁</value>
+  </data>
+  <data name="Acid_Obj_PhStrip" xml:space="preserve">
+    <value>pH 标尺</value>
+  </data>
+  <data name="Acid_Obj_PhValue" xml:space="preserve">
+    <value>pH 值</value>
+  </data>
+  <data name="Acid_Obj_Phenol" xml:space="preserve">
+    <value>酚酞</value>
+  </data>
+  <data name="Acid_Obj_Rain" xml:space="preserve">
+    <value>雨水</value>
+  </data>
+  <data name="Acid_Obj_Reaction" xml:space="preserve">
+    <value>粒子相遇</value>
+  </data>
+  <data name="Acid_Obj_Scale" xml:space="preserve">
+    <value>pH 标尺</value>
+  </data>
+  <data name="Acid_Obj_Seawater" xml:space="preserve">
+    <value>海水</value>
+  </data>
+  <data name="Acid_Obj_Soap" xml:space="preserve">
+    <value>肥皂水</value>
+  </data>
+  <data name="Acid_Obj_Sodium" xml:space="preserve">
+    <value>钠离子 Na⁺</value>
+  </data>
+  <data name="Acid_Obj_Steps" xml:space="preserve">
+    <value>十倍一格</value>
+  </data>
+  <data name="Acid_Obj_Stomach" xml:space="preserve">
+    <value>胃酸</value>
+  </data>
+  <data name="Acid_Obj_Swap" xml:space="preserve">
+    <value>水分子交换质子</value>
+  </data>
+  <data name="Acid_Obj_Tap" xml:space="preserve">
+    <value>活塞</value>
+  </data>
+  <data name="Acid_Obj_Thermometer" xml:space="preserve">
+    <value>温度计</value>
+  </data>
+  <data name="Acid_Obj_Tube" xml:space="preserve">
+    <value>试管</value>
+  </data>
+  <data name="Acid_Obj_Universal" xml:space="preserve">
+    <value>广泛指示剂</value>
+  </data>
+  <data name="Acid_Obj_Vinegar" xml:space="preserve">
+    <value>白醋</value>
+  </data>
+  <data name="Acid_Obj_Water" xml:space="preserve">
+    <value>纯水</value>
+  </data>
+  <data name="Acid_Obj_WaterMolecule" xml:space="preserve">
+    <value>水分子</value>
+  </data>
+  <data name="Acid_OneDrop" xml:space="preserve">
+    <value>加一滴</value>
+  </data>
+  <data name="Acid_Option_Compare" xml:space="preserve">
+    <value>另一种酸的曲线</value>
+  </data>
+  <data name="Acid_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Acid_Option_Particles" xml:space="preserve">
+    <value>放大镜</value>
+  </data>
+  <data name="Acid_Particle_AcidIon" xml:space="preserve">
+    <value>醋酸根 CH₃COO⁻</value>
+  </data>
+  <data name="Acid_Particle_AcidMolecule" xml:space="preserve">
+    <value>醋酸分子 CH₃COOH</value>
+  </data>
+  <data name="Acid_Particle_BaseIon" xml:space="preserve">
+    <value>铵根 NH₄⁺</value>
+  </data>
+  <data name="Acid_Particle_BaseMolecule" xml:space="preserve">
+    <value>氨分子 NH₃</value>
+  </data>
+  <data name="Acid_Particle_Chloride" xml:space="preserve">
+    <value>氯离子 Cl⁻</value>
+  </data>
+  <data name="Acid_Particle_Hydronium" xml:space="preserve">
+    <value>水合氢离子 H₃O⁺</value>
+  </data>
+  <data name="Acid_Particle_Hydroxide" xml:space="preserve">
+    <value>氢氧根 OH⁻</value>
+  </data>
+  <data name="Acid_Particle_Sodium" xml:space="preserve">
+    <value>钠离子 Na⁺</value>
+  </data>
+  <data name="Acid_Particle_Water" xml:space="preserve">
+    <value>水 H₂O</value>
+  </data>
+  <data name="Acid_Particles_Fact1" xml:space="preserve">
+    <value>酸是能给出质子（氢离子 H⁺）的物质，碱是能接受质子的物质。在水里 H⁺ 从不单独存在，它总是挂在一个水分子上，成为 H₃O⁺。</value>
+  </data>
+  <data name="Acid_Particles_Fact2" xml:space="preserve">
+    <value>“强”和“弱”说的是有多少分子放开了质子，而不是酸有多少。强酸盐酸全部放开，醋酸只放开一小部分。</value>
+  </data>
+  <data name="Acid_Particles_Fact3" xml:space="preserve">
+    <value>25 °C 的任何水溶液中，[H₃O⁺] × [OH⁻] = 10⁻¹⁴。H₃O⁺ 多了，OH⁻ 就一定变少：它们相遇就重新变回水。</value>
+  </data>
+  <data name="Acid_Particles_Fact4" xml:space="preserve">
+    <value>pH 的意思是“氢的指数”：pH 3 就是每升有 10⁻³ 摩尔 H₃O⁺。1909 年，丹麦嘉士伯酒厂实验室的索伦森发明了这个标尺。</value>
+  </data>
+  <data name="Acid_Particles_Fact5" xml:space="preserve">
+    <value>千万不要用尝或闻的方法辨认化学品。稀释时要把酸倒进水里，而不是把水倒进酸里：放出的热会让它溅出来。</value>
+  </data>
+  <data name="Acid_Particles_Note" xml:space="preserve">
+    <value>25 °C 的 100 毫升水；每个瓶子里都是 0.1 mol/L 的溶液，一滴 0.05 毫升。pH 由溶液里正负电荷相等精确算出。</value>
+  </data>
+  <data name="Acid_Particles_Panel_Note" xml:space="preserve">
+    <value>放大镜里溶解的粒子按彼此的比例来画；水分子多得画不下：就算在这里最浓的溶液中，每个溶解粒子也对应着 500 多个水分子。</value>
+  </data>
+  <data name="Acid_Particles_Subtitle" xml:space="preserve">
+    <value>酸和碱放进水里，发生了什么</value>
+  </data>
+  <data name="Acid_Refill" xml:space="preserve">
+    <value>重新开始</value>
+  </data>
+  <data name="Acid_ScaleIndicator_Caption" xml:space="preserve">
+    <value>用哪种指示剂上色</value>
+  </data>
+  <data name="Acid_Scale_AddWater" xml:space="preserve">
+    <value>+ 加水 ×10</value>
+  </data>
+  <data name="Acid_Scale_AsWater" xml:space="preserve">
+    <value>H₃O⁺ 和纯水差不多</value>
+  </data>
+  <data name="Acid_Scale_Diluted" xml:space="preserve">
+    <value>稀释了 {0} 倍</value>
+  </data>
+  <data name="Acid_Scale_Fact1" xml:space="preserve">
+    <value>pH 每差一整格，H₃O⁺ 就差 10 倍：pH 2.3 的柠檬汁，H₃O⁺ 大约是纯水的 5 万倍。</value>
+  </data>
+  <data name="Acid_Scale_Fact2" xml:space="preserve">
+    <value>胃里的 pH 大约在 1.5 到 3.5 之间，用来消化食物、杀死细菌；一层厚厚的黏液保护胃壁不被自己消化。</value>
+  </data>
+  <data name="Acid_Scale_Fact3" xml:space="preserve">
+    <value>血液的 pH 保持在 7.35 到 7.45 之间。溶解的二氧化碳和碳酸氢根组成缓冲体系，呼吸每分钟都在调节它。</value>
+  </data>
+  <data name="Acid_Scale_Fact4" xml:space="preserve">
+    <value>干净的雨水因为溶解了空气中的二氧化碳，略带酸性，大约 pH 5.6。由硫和氮的氧化物造成的酸雨可以低于 4。</value>
+  </data>
+  <data name="Acid_Scale_Fact5" xml:space="preserve">
+    <value>千万不要把漂白水和洁厕灵、醋等酸性清洁剂混在一起：它们会放出有毒的氯气。</value>
+  </data>
+  <data name="Acid_Scale_Hydronium" xml:space="preserve">
+    <value>[H₃O⁺] = {0} mol/L</value>
+  </data>
+  <data name="Acid_Scale_Indicators" xml:space="preserve">
+    <value>滴进各种指示剂</value>
+  </data>
+  <data name="Acid_Scale_Less" xml:space="preserve">
+    <value>H₃O⁺ 只有纯水的 {0} 分之一</value>
+  </data>
+  <data name="Acid_Scale_More" xml:space="preserve">
+    <value>H₃O⁺ 是纯水的 {0} 倍</value>
+  </data>
+  <data name="Acid_Scale_Note" xml:space="preserve">
+    <value>这些是典型值，真实的柠檬、咖啡、肥皂各有不同。每种液体都当作一种简单的酸、碱或缓冲溶液来计算。</value>
+  </data>
+  <data name="Acid_Scale_Panel_Note" xml:space="preserve">
+    <value>每次只留十分之一，再加满水。强酸每稀释一次 pH 向 7 走一格；缓冲溶液几乎不动。</value>
+  </data>
+  <data name="Acid_Scale_Steps" xml:space="preserve">
+    <value>每往左一格：H₃O⁺ 多 10 倍</value>
+  </data>
+  <data name="Acid_Scale_Subtitle" xml:space="preserve">
+    <value>从胃酸到管道疏通剂</value>
+  </data>
+  <data name="Acid_Scale_Undiluted" xml:space="preserve">
+    <value>原液</value>
+  </data>
+  <data name="Acid_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Acid_Stage_Before_Strong" xml:space="preserve">
+    <value>每滴进一个 OH⁻，就和一个 H₃O⁺ 结合成水。酸正在被用掉，可 pH 涨得很慢。</value>
+  </data>
+  <data name="Acid_Stage_Before_Title" xml:space="preserve">
+    <value>酸还没用完</value>
+  </data>
+  <data name="Acid_Stage_Before_Weak" xml:space="preserve">
+    <value>每个 OH⁻ 从一个醋酸分子身上拿走质子，留下醋酸根。醋酸和醋酸根在一起能稳住 pH：这就是缓冲溶液。</value>
+  </data>
+  <data name="Acid_Stage_Equivalence_Strong" xml:space="preserve">
+    <value>加入的 OH⁻ 正好和原来的质子一样多：只剩盐水，pH 7。在这附近，一滴就能让 pH 跳好几格。</value>
+  </data>
+  <data name="Acid_Stage_Equivalence_Title" xml:space="preserve">
+    <value>酸碱恰好中和</value>
+  </data>
+  <data name="Acid_Stage_Equivalence_Weak" xml:space="preserve">
+    <value>加入的 OH⁻ 正好和原来的质子一样多，但醋酸根会从水里抢回一点质子，所以终点略偏碱性，大约 pH 8.7。</value>
+  </data>
+  <data name="Acid_Stage_Excess_Strong" xml:space="preserve">
+    <value>酸已经没了，多加的每一滴都带来没人消耗的 OH⁻，pH 一路升向碱本身的 pH。</value>
+  </data>
+  <data name="Acid_Stage_Excess_Title" xml:space="preserve">
+    <value>碱加多了</value>
+  </data>
+  <data name="Acid_Stage_Excess_Weak" xml:space="preserve">
+    <value>酸已经没了，多余的 OH⁻ 越积越多，曲线和盐酸的重合了：过了终点，原来是哪种酸已经不重要了。</value>
+  </data>
+  <data name="Acid_Stage_Half_Strong" xml:space="preserve">
+    <value>一半的酸已经被中和。</value>
+  </data>
+  <data name="Acid_Stage_Half_Title" xml:space="preserve">
+    <value>中和了一半</value>
+  </data>
+  <data name="Acid_Stage_Half_Weak" xml:space="preserve">
+    <value>一半的醋酸变成了醋酸根，两者一样多，此时 pH 正好等于醋酸的 pKa，4.76。缓冲能力在这里最强。</value>
+  </data>
+  <data name="Acid_Stage_Start_Strong" xml:space="preserve">
+    <value>25 毫升盐酸：每个 HCl 都把质子交给了水，烧瓶里满是 H₃O⁺ 和 Cl⁻。</value>
+  </data>
+  <data name="Acid_Stage_Start_Title" xml:space="preserve">
+    <value>只有酸</value>
+  </data>
+  <data name="Acid_Stage_Start_Weak" xml:space="preserve">
+    <value>25 毫升醋酸：几乎每个分子都还攥着自己的质子，所以同样浓度下它的 pH 比盐酸高。</value>
+  </data>
+  <data name="Acid_Stat_AcidLeft" xml:space="preserve">
+    <value>剩余的酸</value>
+  </data>
+  <data name="Acid_Stat_Acids" xml:space="preserve">
+    <value>加入的酸</value>
+  </data>
+  <data name="Acid_Stat_Base" xml:space="preserve">
+    <value>已加 NaOH</value>
+  </data>
+  <data name="Acid_Stat_Bases" xml:space="preserve">
+    <value>加入的碱</value>
+  </data>
+  <data name="Acid_Stat_Colour" xml:space="preserve">
+    <value>指示剂颜色</value>
+  </data>
+  <data name="Acid_Stat_Compare" xml:space="preserve">
+    <value>与纯水比</value>
+  </data>
+  <data name="Acid_Stat_Diluted" xml:space="preserve">
+    <value>稀释</value>
+  </data>
+  <data name="Acid_Stat_Hydronium" xml:space="preserve">
+    <value>H₃O⁺</value>
+  </data>
+  <data name="Acid_Stat_Hydroxide" xml:space="preserve">
+    <value>OH⁻</value>
+  </data>
+  <data name="Acid_Stat_Kind" xml:space="preserve">
+    <value>酸碱来源</value>
+  </data>
+  <data name="Acid_Stat_Nature" xml:space="preserve">
+    <value>性质</value>
+  </data>
+  <data name="Acid_Stat_Ph" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="Acid_Stat_Product" xml:space="preserve">
+    <value>H₃O⁺ × OH⁻</value>
+  </data>
+  <data name="Acid_Stat_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Acid_Stat_Volume" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="Acid_Strip_Acidic" xml:space="preserve">
+    <value>← 酸性</value>
+  </data>
+  <data name="Acid_Strip_Basic" xml:space="preserve">
+    <value>碱性 →</value>
+  </data>
+  <data name="Acid_Strip_Neutral" xml:space="preserve">
+    <value>中性</value>
+  </data>
+  <data name="Acid_Sub_Ammonia" xml:space="preserve">
+    <value>氨水清洁剂</value>
+  </data>
+  <data name="Acid_Sub_Antacid" xml:space="preserve">
+    <value>氢氧化镁乳（胃药）</value>
+  </data>
+  <data name="Acid_Sub_BakingSoda" xml:space="preserve">
+    <value>小苏打水</value>
+  </data>
+  <data name="Acid_Sub_Bleach" xml:space="preserve">
+    <value>漂白水</value>
+  </data>
+  <data name="Acid_Sub_Blood" xml:space="preserve">
+    <value>血液</value>
+  </data>
+  <data name="Acid_Sub_Coffee" xml:space="preserve">
+    <value>黑咖啡</value>
+  </data>
+  <data name="Acid_Sub_Cola" xml:space="preserve">
+    <value>可乐</value>
+  </data>
+  <data name="Acid_Sub_Drain" xml:space="preserve">
+    <value>管道疏通剂</value>
+  </data>
+  <data name="Acid_Sub_Lemon" xml:space="preserve">
+    <value>柠檬汁</value>
+  </data>
+  <data name="Acid_Sub_Milk" xml:space="preserve">
+    <value>牛奶</value>
+  </data>
+  <data name="Acid_Sub_Orange" xml:space="preserve">
+    <value>橙汁</value>
+  </data>
+  <data name="Acid_Sub_Rain" xml:space="preserve">
+    <value>干净的雨水</value>
+  </data>
+  <data name="Acid_Sub_Seawater" xml:space="preserve">
+    <value>海水</value>
+  </data>
+  <data name="Acid_Sub_Soap" xml:space="preserve">
+    <value>肥皂水</value>
+  </data>
+  <data name="Acid_Sub_Stomach" xml:space="preserve">
+    <value>胃酸</value>
+  </data>
+  <data name="Acid_Sub_Vinegar" xml:space="preserve">
+    <value>白醋</value>
+  </data>
+  <data name="Acid_Sub_Water" xml:space="preserve">
+    <value>纯水</value>
+  </data>
+  <data name="Acid_Tap_Closed" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Acid_Tap_Drip" xml:space="preserve">
+    <value>慢滴</value>
+  </data>
+  <data name="Acid_Tap_Stream" xml:space="preserve">
+    <value>快流</value>
+  </data>
+  <data name="Acid_Times_Big" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="Acid_Times_BigFormat" xml:space="preserve">
+    <value>{0}万</value>
+  </data>
+  <data name="Acid_Title" xml:space="preserve">
+    <value>酸、碱与 pH</value>
+  </data>
+  <data name="Acid_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Acid_Value_Ml" xml:space="preserve">
+    <value>{0} 毫升</value>
+  </data>
+  <data name="Acid_Value_Mmol" xml:space="preserve">
+    <value>{0} mmol</value>
+  </data>
+  <data name="Acid_Value_Mmol2" xml:space="preserve">
+    <value>强 {0} + 弱 {1} mmol</value>
+  </data>
+  <data name="Acid_Value_Molar" xml:space="preserve">
+    <value>{0} mol/L</value>
+  </data>
+  <data name="Acid_Value_Ph" xml:space="preserve">
+    <value>pH {0}</value>
+  </data>
+  <data name="Acid_Value_Product" xml:space="preserve">
+    <value>{0} (mol/L)²</value>
+  </data>
   <data name="App_Title" xml:space="preserve">
     <value>探索之书</value>
   </data>
@@ -10928,6 +11747,285 @@
   </data>
   <data name="MoonPhases_Upcoming_When" xml:space="preserve">
     <value>{0}（{1}）{2}</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_01" xml:space="preserve">
+    <value>这个锥形瓶里有二十五毫升盐酸，还加了几滴酚酞。它是无色的，因为它是酸性的。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_02" xml:space="preserve">
+    <value>上面的滴定管装满了氢氧化钠，一种浓度相同的碱。我们一点一点地放进去，并读出放了多少。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_03" xml:space="preserve">
+    <value>活塞打开了，碱正在一滴一滴地流进去。看这条曲线：pH 在往上爬，但爬得很慢。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_04" xml:space="preserve">
+    <value>为什么这么慢？看放大镜，每来一个 OH⁻ 就会遇到一个 H₃O⁺，变成两个水分子。可酸还多得是，需要慢慢用完。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_05" xml:space="preserve">
+    <value>我们已经加了二十四毫升，酸几乎用完了。你觉得接下来的两毫升会发生什么？</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_06" xml:space="preserve">
+    <value>看！在二十五毫升左右，pH 从三左右一下子冲到十一左右，烧瓶也变成了粉红色。酸几乎没了，每一滴都举足轻重。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_07" xml:space="preserve">
+    <value>就在这里，加入的碱正好等于开始时的酸。这叫等当点，对强酸来说正好是中性。化学家用它来测出一种酸有多浓。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_08" xml:space="preserve">
+    <value>再看温度计。中和反应会放热。这里烧瓶只升温不到一度，但如果溶液更浓，就会明显变热。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_09" xml:space="preserve">
+    <value>换成醋酸试试。曲线起点更高，因为它是弱酸。到一半时曲线变得平缓，就在这里，pH 等于醋酸的 pKa。突跃也更小，而且落在碱性一边。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_10" xml:space="preserve">
+    <value>那该用哪种指示剂呢？甲基橙在这条带里变色，远远早于终点。对弱酸来说，它会骗了我们。酚酞正好在突跃那一段变色。</value>
+  </data>
+  <data name="Narr_Acid_Neutralize_11" xml:space="preserve">
+    <value>轮到你了。烧瓶里又换上了新的酸。打开活塞，一看到烧瓶变粉红就马上关上，尽量接近二十五毫升。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Acetic" xml:space="preserve">
+    <value>醋酸就是醋里的酸。它是弱酸：大多数醋酸分子都紧紧抓着自己的质子，只有少数交给了水。</value>
+  </data>
+  <data name="Narr_Acid_Obj_AcidIon" xml:space="preserve">
+    <value>醋酸根离子：一个已经交出质子的醋酸分子。它随时愿意把质子要回来，缓冲溶液就是靠这一点起作用的。</value>
+  </data>
+  <data name="Narr_Acid_Obj_AcidMolecule" xml:space="preserve">
+    <value>这是一个完整的醋酸分子，它还攥着自己的质子。醋里大多数分子都是这样，所以醋酸是弱酸。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Ammonia" xml:space="preserve">
+    <value>家用氨水清洁剂是弱碱，pH 大约十一点五。那股刺鼻的气味，是氨气从水里跑出来了。</value>
+  </data>
+  <data name="Narr_Acid_Obj_AmmoniaBottle" xml:space="preserve">
+    <value>氨水是弱碱。少数氨分子会从水那里拿走一个质子，变成铵根，同时留下一个 OH⁻。大多数氨分子保持原样。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Antacid" xml:space="preserve">
+    <value>氢氧化镁乳是氢氧化镁的悬浊液，pH 大约十点五。吃下去能中和一部分胃酸，缓解烧心。</value>
+  </data>
+  <data name="Narr_Acid_Obj_BakingSoda" xml:space="preserve">
+    <value>小苏打，也就是碳酸氢钠，让水略带碱性，大约八点三。它遇到醋这样的酸会冒泡，因为放出了二氧化碳。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Band" xml:space="preserve">
+    <value>这条阴影带是所选指示剂变色的范围。要让终点清清楚楚，它应该落在曲线最陡的那一段里。</value>
+  </data>
+  <data name="Narr_Acid_Obj_BaseIon" xml:space="preserve">
+    <value>铵根离子：从水那里抓到一个质子的氨。每有一个铵根，水里就留下一个 OH⁻。</value>
+  </data>
+  <data name="Narr_Acid_Obj_BaseMolecule" xml:space="preserve">
+    <value>氨分子：一个氮原子连着三个氢原子。氮上还有一对空闲的电子，可以抓住一个质子。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Beaker" xml:space="preserve">
+    <value>这个烧杯一开始装着一百毫升纯水。你每加一滴，水里漂着的粒子就会变，pH 计和颜色会告诉你发生了什么。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Bleach" xml:space="preserve">
+    <value>漂白水是强碱性的，pH 大约十二点五。它会灼伤皮肤和眼睛，和酸混合还会放出有毒的氯气。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Blood" xml:space="preserve">
+    <value>血液略偏碱性，大约七点四。它是缓冲溶液：加水或加一点酸，它的 pH 几乎不动，这对生命至关重要。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Bromothymol" xml:space="preserve">
+    <value>溴百里酚蓝在酸里是黄色，正好中性时是绿色，在碱里是蓝色。用它判断一种液体是不是接近 pH 七很方便。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Burette" xml:space="preserve">
+    <value>滴定管是一根带刻度的长管。读数从上往下读，液面所在的刻度就是已经流出去的量。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Cabbage" xml:space="preserve">
+    <value>紫甘蓝汁是在厨房里就能做的指示剂。它的颜色来自花青素：酸里是红色，中性附近是紫色，碱里依次变蓝、变绿，强碱里变黄。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Chloride" xml:space="preserve">
+    <value>氯离子是盐酸交出质子后剩下的部分。它只是在水里漂着，不影响 pH。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Coffee" xml:space="preserve">
+    <value>黑咖啡是弱酸性的，pH 大约五，酸来自咖啡豆在烘焙时产生的酸。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Cola" xml:space="preserve">
+    <value>可乐里有磷酸，再加上溶解的二氧化碳，pH 大约二点五。糖掩盖了它到底有多酸。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Curve" xml:space="preserve">
+    <value>滴定曲线显示每加入一定量的碱以后的 pH。沿着它拖动，可以前进或后退。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Dilute" xml:space="preserve">
+    <value>点这里把液体稀释十倍。看看 pH 往哪边走，走了多远。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Drain" xml:space="preserve">
+    <value>管道疏通剂是浓的氢氧化钠，几乎在标尺的最顶端。它能溶解头发和油脂，也能腐蚀皮肤，所以一定要戴手套使用。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Equivalence" xml:space="preserve">
+    <value>在等当点，加入的碱正好和原来的酸一样多。这里是二十五毫升，因为两者的浓度一样。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Flask" xml:space="preserve">
+    <value>锥形瓶里装着酸和几滴指示剂。它的形状让你可以摇晃而不洒出来。点它可以只加一滴。</value>
+  </data>
+  <data name="Narr_Acid_Obj_FlaskIndicator" xml:space="preserve">
+    <value>这是烧瓶里的指示剂。它一变色，就是在告诉你：酸用完了。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Halfway" xml:space="preserve">
+    <value>到终点的一半时，一半醋酸已经变成醋酸根。两者一样多，此时 pH 就等于醋酸的 pKa，四点七六。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Hcl" xml:space="preserve">
+    <value>盐酸是强酸。每一个 HCl 分子都会把质子交给水，所以每个 HCl 都变成一个 H₃O⁺ 和一个氯离子。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Hydronium" xml:space="preserve">
+    <value>这是水合氢离子 H₃O⁺：一个多带了一个质子的水分子。它越多，溶液越酸，pH 越低。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Hydroxide" xml:space="preserve">
+    <value>这是氢氧根离子 OH⁻：一个丢了质子的水分子。它碰到 H₃O⁺ 时，质子跳过来，两个都变回水。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Jug" xml:space="preserve">
+    <value>水壶用来稀释：只留下十分之一，再加水加满。溶解的东西都变稀了十倍。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Jump" xml:space="preserve">
+    <value>快到终点时，pH 会突然跳起来。酸几乎用完了，一滴碱就能让 H₃O⁺ 的数量变化成千上万倍。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Lemon" xml:space="preserve">
+    <value>柠檬汁的酸味来自柠檬酸，一种弱酸。它的 pH 大约二点三，H₃O⁺ 是纯水的好几万倍。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Litmus" xml:space="preserve">
+    <value>石蕊来自地衣。它在酸里是红色，在碱里是蓝色，中间是紫色。它能告诉你偏哪一边，但说不出偏多少。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Magnifier" xml:space="preserve">
+    <value>放大镜把烧杯里放大了。那些淡淡的、弯弯的是水分子；亮色的是溶解在里面的粒子，它们按彼此的数量比例来画。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Meter" xml:space="preserve">
+    <value>pH 计的探头顶端有一个薄薄的玻璃泡。H₃O⁺ 会在玻璃两边产生一个很小的电压，仪器再把这个电压换算成 pH。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Methyl" xml:space="preserve">
+    <value>甲基橙在较强的酸里是红色，从大约 pH 四点五往上就变成黄色。它在酸性的一边变色。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Milk" xml:space="preserve">
+    <value>牛奶略偏酸性，pH 大约六点六。牛奶变酸时，细菌把糖变成乳酸，pH 就降下来。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Naoh" xml:space="preserve">
+    <value>氢氧化钠是强碱。它在水里完全分开，变成钠离子和氢氧根离子，氢氧根见到 H₃O⁺ 就会抓住它。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Neutral" xml:space="preserve">
+    <value>七是中性：H₃O⁺ 和 OH⁻ 一样多，就像纯水。中性不代表里面什么都没溶解，盐水也是中性的。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Orange" xml:space="preserve">
+    <value>橙汁和柠檬汁一样，酸味来自柠檬酸，但含量少一些，所以 pH 大约三点五。</value>
+  </data>
+  <data name="Narr_Acid_Obj_PhStrip" xml:space="preserve">
+    <value>这是用广泛指示剂颜色画的 pH 标尺：强酸是红色，中性是绿色，强碱是紫色。</value>
+  </data>
+  <data name="Narr_Acid_Obj_PhValue" xml:space="preserve">
+    <value>这是现在的 pH。小于七是酸性，大于七是碱性。记住，差一格可不是差一点点，而是差十倍。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Phenol" xml:space="preserve">
+    <value>酚酞在酸里和中性的水里都是无色的，只有 pH 超过大约八才变成粉红色。这让它特别适合找出滴定的终点。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Rain" xml:space="preserve">
+    <value>就连干净的雨水也略带酸性。空气中的二氧化碳溶进雨里，形成碳酸，使它的 pH 大约是五点六。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Reaction" xml:space="preserve">
+    <value>在烧瓶里，每来一个氢氧根离子，就会找到一个水合氢离子。质子跳过去，这一对就变成了两个水分子。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Scale" xml:space="preserve">
+    <value>pH 标尺从零到十四。中间的七是中性，越小越酸，越大越碱。颜色就是指示剂会显示的颜色。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Seawater" xml:space="preserve">
+    <value>海水略偏碱性，大约八点一。随着海洋吸收空气中的二氧化碳，这个数字正在慢慢下降。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Soap" xml:space="preserve">
+    <value>肥皂水是碱性的，pH 大约十。手指摸上去滑滑的感觉，正是碱的特点。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Sodium" xml:space="preserve">
+    <value>钠离子来自氢氧化钠。它和氯离子一样是个旁观者：H₃O⁺ 和 OH⁻ 在反应，它只是在旁边漂着。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Steps" xml:space="preserve">
+    <value>每往左走一格，H₃O⁺ 就多十倍。所以差两格就是一百倍，差三格就是一千倍。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Stomach" xml:space="preserve">
+    <value>胃酸主要是盐酸，pH 大约一点五。它强到能溶解一些金属，能帮你分解食物。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Swap" xml:space="preserve">
+    <value>两个水分子刚刚交换了一个质子：一个变成 H₃O⁺，另一个变成 OH⁻。纯水里，任何时刻大约五亿五千万个水分子里只有一个是这样的。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Tap" xml:space="preserve">
+    <value>点活塞可以转动它。点一下是一滴一滴地滴，再点是细细地流，再点一下就关上。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Thermometer" xml:space="preserve">
+    <value>中和会放出热量。用这么稀的溶液，烧瓶只升温不到一度；如果酸和碱浓十倍，就能升好几度。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Tube" xml:space="preserve">
+    <value>试管里是所选液体的样品，加了几滴指示剂。它的颜色就是你在实验台上会看到的样子。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Universal" xml:space="preserve">
+    <value>广泛指示剂是几种染料的混合物，所以它一格一格地变色：从红、橙、黄、绿，到蓝和紫。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Vinegar" xml:space="preserve">
+    <value>醋大约是百分之五的醋酸水溶液。醋酸是弱酸，所以它的 pH 大约是三，没有它的浓度看起来那么低。</value>
+  </data>
+  <data name="Narr_Acid_Obj_Water" xml:space="preserve">
+    <value>在二十五度时，纯水正好是中性，pH 七。自来水里通常有一些矿物质，可能稍微偏酸或偏碱。</value>
+  </data>
+  <data name="Narr_Acid_Obj_WaterMolecule" xml:space="preserve">
+    <value>这是水分子：一个氧原子连着两个氢原子，弯成回旋镖的形状。水分子多得数不清，图里只画了一小撮。</value>
+  </data>
+  <data name="Narr_Acid_Particles_01" xml:space="preserve">
+    <value>这是一杯纯水，里面插着一个 pH 计。它的读数是多少？正好是七。这就是我们说的中性。</value>
+  </data>
+  <data name="Narr_Acid_Particles_02" xml:space="preserve">
+    <value>我们放大来看。仔细观察：时不时会有两个水分子交换一个质子，一瞬间出现一个 H₃O⁺ 和一个 OH⁻。它们总是一对一对出现，所以水仍然是中性的。</value>
+  </data>
+  <data name="Narr_Acid_Particles_03" xml:space="preserve">
+    <value>现在滴进两小滴盐酸。看 pH 计：只滴了两滴，pH 就从七降到了四！</value>
+  </data>
+  <data name="Narr_Acid_Particles_04" xml:space="preserve">
+    <value>看放大镜，每个 HCl 都把质子交给了一个水分子。红色的是 H₃O⁺，绿色的是剩下的氯离子。H₃O⁺ 越多，就越酸。</value>
+  </data>
+  <data name="Narr_Acid_Particles_05" xml:space="preserve">
+    <value>来想一想。如果我们加入十倍的酸，H₃O⁺ 也变成十倍，pH 会变成多少？</value>
+  </data>
+  <data name="Narr_Acid_Particles_06" xml:space="preserve">
+    <value>两滴换成二十滴，pH 计读数是三。H₃O⁺ 多了十倍，pH 只下降一格。pH 标尺就是这样：每一格都是十倍。</value>
+  </data>
+  <data name="Narr_Acid_Particles_07" xml:space="preserve">
+    <value>现在同样滴二十滴，但换成醋酸，也就是醋里的酸。pH 只有四左右。看放大镜：大多数醋酸分子还是完整的，攥着自己的质子不放。这就是弱酸。</value>
+  </data>
+  <data name="Narr_Acid_Particles_08" xml:space="preserve">
+    <value>再来试试碱：往清水里滴二十滴氢氧化钠。pH 一下升到了十一。现在到处都是蓝色的 OH⁻，H₃O⁺ 几乎看不见了。</value>
+  </data>
+  <data name="Narr_Acid_Particles_09" xml:space="preserve">
+    <value>再在上面滴二十滴盐酸。又回到七了！每个 H₃O⁺ 都遇到了一个 OH⁻，变成了水。剩下的是钠离子和氯离子：也就是盐水。</value>
+  </data>
+  <data name="Narr_Acid_Particles_10" xml:space="preserve">
+    <value>不用 pH 计也能看出 pH。这个烧杯里加了广泛指示剂和一点氨水，它变成了蓝色：碱性。</value>
+  </data>
+  <data name="Narr_Acid_Particles_11" xml:space="preserve">
+    <value>轮到你了。往烧杯里滴盐酸，直到它变成酸性、pH 计读数低于五。点一下瓶子，或者按住不放。</value>
+  </data>
+  <data name="Narr_Acid_Scale_01" xml:space="preserve">
+    <value>这就是 pH 标尺，从零到十四。中间的七是中性，就像纯水。小于七是酸性，大于七是碱性。</value>
+  </data>
+  <data name="Narr_Acid_Scale_02" xml:space="preserve">
+    <value>重点来了。每往左走一格，H₃O⁺ 就多十倍。两格是一百倍，三格就是一千倍。</value>
+  </data>
+  <data name="Narr_Acid_Scale_03" xml:space="preserve">
+    <value>柠檬汁大约在二点三。它比水低了将近五格，所以 H₃O⁺ 大约是水的五万倍。</value>
+  </data>
+  <data name="Narr_Acid_Scale_04" xml:space="preserve">
+    <value>来个小谜题。可乐在二点五，黑咖啡在五。哪个更酸？酸多少？</value>
+  </data>
+  <data name="Narr_Acid_Scale_05" xml:space="preserve">
+    <value>可乐比咖啡低两格半。十乘十，再多一些：H₃O⁺ 大约是咖啡的三百倍。数字差一点，实际差很多。</value>
+  </data>
+  <data name="Narr_Acid_Scale_06" xml:space="preserve">
+    <value>另一边是碱。漂白水大约在十二点五，离中性和强酸一样远。碱也会像酸一样灼伤人，所以用清洁剂一定要小心。</value>
+  </data>
+  <data name="Narr_Acid_Scale_07" xml:space="preserve">
+    <value>怎样用眼睛看出 pH？用指示剂。这是滴进紫甘蓝汁的醋，它变成了粉红色。看这一排：每种指示剂都有自己的颜色。</value>
+  </data>
+  <data name="Narr_Acid_Scale_08" xml:space="preserve">
+    <value>酚酞不一样。它在酸里和水里都无色，只有在碱里才变粉红，就像这杯肥皂水。</value>
+  </data>
+  <data name="Narr_Acid_Scale_09" xml:space="preserve">
+    <value>这是胃酸，pH 一点五。如果我们只留十分之一，再加满水，它的 pH 会是多少？</value>
+  </data>
+  <data name="Narr_Acid_Scale_10" xml:space="preserve">
+    <value>是二点五。H₃O⁺ 少了十倍，pH 就升一格。给酸加水，它就往七靠近。</value>
+  </data>
+  <data name="Narr_Acid_Scale_11" xml:space="preserve">
+    <value>稀释一百万倍以后，它已经非常接近七了。但永远不会越过七：光靠加水，酸变不成碱。</value>
+  </data>
+  <data name="Narr_Acid_Scale_12" xml:space="preserve">
+    <value>轮到你了。在标尺上点任意一种液体，看看它在每种指示剂里变成什么颜色。</value>
   </data>
   <data name="Narr_Aurora_Obj_Aurora" xml:space="preserve">
     <value>极光：围绕每个磁极的一圈光，来自磁层的电子在这里撞进高层大气。太阳风越快、磁场越朝南，它就越亮。</value>

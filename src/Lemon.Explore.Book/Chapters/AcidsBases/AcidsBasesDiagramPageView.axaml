@@ -1,0 +1,60 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:acid="using:Lemon.Explore.Book.Chapters.AcidsBases"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.AcidsBases.AcidsBasesDiagramPageView"
+                         x:DataType="acid:AcidsBasesDiagramPageViewModel">
+    <!-- Right page of the Acids and bases spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <acid:AcidBaseDiagram Mode="{Binding Acids.Mode}"
+                                          Beaker="{Binding Acids.Beaker}"
+                                          BeakerIndicator="{Binding Acids.BeakerIndicator}"
+                                          DropCommand="{Binding Acids.DropCommand}"
+                                          SubstanceId="{Binding Acids.SubstanceId, Mode=TwoWay}"
+                                          Dilutions="{Binding Acids.Dilutions, Mode=TwoWay}"
+                                          ScaleIndicator="{Binding Acids.ScaleIndicator, Mode=TwoWay}"
+                                          Acid="{Binding Acids.Acid}"
+                                          FlaskIndicator="{Binding Acids.FlaskIndicator}"
+                                          BaseMl="{Binding Acids.BaseMl, Mode=TwoWay}"
+                                          Tap="{Binding Acids.Tap, Mode=TwoWay}"
+                                          Molar="{Binding Acids.Molar}"
+                                          ShowCompare="{Binding Acids.ShowCompare}"
+                                          ShowParticles="{Binding Acids.ShowParticles}"
+                                          ShowLabels="{Binding Acids.ShowLabels}"
+                                          ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                          Highlight="{Binding Acids.Lesson.Highlight}"
+                                          IsLessonActive="{Binding Acids.Lesson.IsActive}"
+                                          SelectedObject="{Binding Acids.Card.Id, Mode=TwoWay}"
+                                          InteractionCommand="{Binding Acids.UserInteractedCommand}"
+                                          ToolTip.Tip="{Binding Acids.Hint}"
+                                          AutomationProperties.Name="{Binding Acids.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Acids.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Acids.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Acids.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <ToggleButton Classes="space" IsChecked="{Binding Acids.ShowLabels}" Content="{loc:Localize Acid_Option_Labels}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>
