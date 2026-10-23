@@ -17,6 +17,16 @@ public sealed record NarrationSettings
 
     /// <summary>Clicking a thing in a picture reads its explanation aloud (it is always shown).</summary>
     public bool SpeakOnClick { get; init; } = true;
+
+    /// <summary>How fast the voice reads (and the subtitles run without it): 1 as recorded; the pitch is kept.</summary>
+    public double Speed { get; init; } = 1;
+
+    /// <summary>The speeds offered in Settings.</summary>
+    public static IReadOnlyList<double> Speeds { get; } = [0.75, 1, 1.25, 1.5];
+
+    internal const double MinSpeed = 0.5;
+
+    internal const double MaxSpeed = 2;
 }
 
 /// <summary>
@@ -64,6 +74,9 @@ public sealed class NarrationService : INarrationService
     private readonly NarrationManifest _manifest;
     private readonly INarrationAudio _audio;
     private readonly Stopwatch _silent = new();
+
+    /// <summary>Clip seconds the silent clock had covered before it was last restarted (a speed change, a switch from audio).</summary>
+    private double _silentBase;
     private NarrationClip? _clip;
     private bool _playingAudio;
 
@@ -73,6 +86,8 @@ public sealed class NarrationService : INarrationService
         _manifest = manifest;
         _audio = audio;
         Settings = Load(store);
+        Settings = Settings with { Speed = Math.Clamp(Settings.Speed, NarrationSettings.MinSpeed, NarrationSettings.MaxSpeed) };
+        audio.Rate = Settings.Speed;
         audio.Failed += OnAudioFailed;
     }
 
@@ -88,10 +103,13 @@ public sealed class NarrationService : INarrationService
 
     public bool IsPaused { get; private set; }
 
-    public double Position => _clip is null ? 0 : _playingAudio ? _audio.Position : _silent.Elapsed.TotalSeconds;
+    public double Position => _clip is null ? 0 : _playingAudio ? _audio.Position : SilentPosition;
 
     public bool IsFinished => _clip is null
-        || (_playingAudio ? _audio.IsEnded || Position > _clip.Duration + 3 : _silent.Elapsed.TotalSeconds >= _clip.Duration);
+        || (_playingAudio ? _audio.IsEnded || Position > _clip.Duration + 3 : SilentPosition >= _clip.Duration);
+
+    /// <summary>Where the silent clock is in the clip: it runs at the reader's speed, as the voice would.</summary>
+    private double SilentPosition => _silentBase + (_silent.Elapsed.TotalSeconds * Settings.Speed);
 
     public void Update(NarrationSettings settings)
     {
@@ -101,9 +119,21 @@ public sealed class NarrationService : INarrationService
         }
 
         var voiceTurnedOff = Settings.VoiceEnabled && !settings.VoiceEnabled;
-        Settings = settings with { Volume = Math.Clamp(settings.Volume, 0, 1) };
+
+        // The silent clock keeps the clip seconds it has covered at the old speed before running at the new one.
+        var silentSoFar = SilentPosition;
+        Settings = settings with
+        {
+            Volume = Math.Clamp(settings.Volume, 0, 1),
+            Speed = Math.Clamp(settings.Speed, NarrationSettings.MinSpeed, NarrationSettings.MaxSpeed),
+        };
         _store.Set(SettingKeys.Narration, JsonSerializer.Serialize(Settings, BookJson.Default.NarrationSettings));
         _audio.Volume = Settings.Volume;
+        _audio.Rate = Settings.Speed;
+        if (_clip is not null && !_playingAudio)
+        {
+            RestartSilent(silentSoFar);
+        }
 
         // Carry on where the voice was, without it.
         if (voiceTurnedOff && _playingAudio)
@@ -131,7 +161,7 @@ public sealed class NarrationService : INarrationService
         _playingAudio = hasAudio && Settings.VoiceEnabled && _audio.Play(path!, Settings.Volume);
         if (!_playingAudio)
         {
-            _silent.Restart();
+            RestartSilent(0);
         }
 
         return _clip;
@@ -213,6 +243,7 @@ public sealed class NarrationService : INarrationService
 
         _playingAudio = false;
         _silent.Reset();
+        _silentBase = 0;
     }
 
     private void OnAudioFailed(object? sender, EventArgs e)
@@ -228,18 +259,14 @@ public sealed class NarrationService : INarrationService
     {
         _audio.Stop();
         _playingAudio = false;
+        RestartSilent(seconds);
+    }
+
+    /// <summary>Starts the silent clock again from <paramref name="seconds"/> into the clip (stopped while paused).</summary>
+    private void RestartSilent(double seconds)
+    {
+        _silentBase = seconds;
         _silent.Restart();
-
-        // Stopwatch cannot start part-way, so the clip is shifted back by what was already heard.
-        if (_clip is not null && seconds > 0)
-        {
-            _clip = _clip with
-            {
-                Duration = Math.Max(0, _clip.Duration - seconds),
-                Sentences = _clip.Sentences.Select(s => s with { Start = s.Start - seconds, End = s.End - seconds }).ToList(),
-            };
-        }
-
         if (IsPaused)
         {
             _silent.Stop();

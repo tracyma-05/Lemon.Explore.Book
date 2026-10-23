@@ -7,10 +7,11 @@ namespace Lemon.Explore.Book.Desktop.Narration;
 
 /// <summary>
 /// Plays clips with the Windows Media Control Interface (winmm), which decodes mp3 itself. Commands are sent from the
-/// UI thread, whose message loop MCI needs.
+/// UI thread, whose message loop MCI needs. The fallback where Media Foundation is missing (Windows "N" editions without
+/// the Media Feature Pack): it cannot change speed without changing the voice's pitch, so it always plays at 1×.
 /// </summary>
 [SupportedOSPlatform("windows")]
-internal sealed partial class WindowsNarrationAudio(string folder) : DesktopNarrationAudio(folder)
+internal sealed partial class MciNarrationAudio(string folder) : DesktopNarrationAudio(folder)
 {
     private const string Alias = "narration";
     private bool _open;
@@ -72,6 +73,11 @@ internal sealed partial class WindowsNarrationAudio(string folder) : DesktopNarr
             _volume = value;
             ApplyVolume();
         }
+    }
+
+    public override double Rate
+    {
+        set { }
     }
 
     public override double Position =>

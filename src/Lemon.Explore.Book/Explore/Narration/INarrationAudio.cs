@@ -21,6 +21,12 @@ public interface INarrationAudio
 
     double Volume { set; }
 
+    /// <summary>
+    /// How fast clips play: 1 as recorded, 1.25 a quarter faster. The voice keeps its pitch, and <see cref="Position"/>
+    /// stays in the clip's own seconds, so its sentence timings still apply.
+    /// </summary>
+    double Rate { set; }
+
     /// <summary>Seconds into the clip being played.</summary>
     double Position { get; }
 
@@ -53,6 +59,11 @@ public sealed class SilentNarrationAudio : INarrationAudio
     }
 
     public double Volume
+    {
+        set { }
+    }
+
+    public double Rate
     {
         set { }
     }

@@ -4,7 +4,10 @@ using System.Runtime.Versioning;
 
 namespace Lemon.Explore.Book.Desktop.Narration;
 
-/// <summary>Plays clips with AVFoundation's <c>AVAudioPlayer</c>, called through the Objective-C runtime.</summary>
+/// <summary>
+/// Plays clips with AVFoundation's <c>AVAudioPlayer</c>, called through the Objective-C runtime. Its rate keeps the
+/// voice's pitch (AVFoundation stretches time, not frequency).
+/// </summary>
 [SupportedOSPlatform("macos")]
 internal sealed partial class MacNarrationAudio : DesktopNarrationAudio
 {
@@ -17,6 +20,7 @@ internal sealed partial class MacNarrationAudio : DesktopNarrationAudio
     private IntPtr _player;
     private bool _paused;
     private double _volume = 1;
+    private double _rate = 1;
 
     static MacNarrationAudio()
     {
@@ -52,6 +56,10 @@ internal sealed partial class MacNarrationAudio : DesktopNarrationAudio
         }
 
         SendFloat(_player, Selector("setVolume:"), (float)Math.Clamp(volume, 0, 1));
+
+        // The rate only works if enabled before the player prepares; set before play, which prepares it.
+        SendFlag(_player, Selector("setEnableRate:"), true);
+        SendFloat(_player, Selector("setRate:"), (float)_rate);
         if (!SendBool(_player, Selector("play")))
         {
             Stop();
@@ -103,6 +111,19 @@ internal sealed partial class MacNarrationAudio : DesktopNarrationAudio
         }
     }
 
+    public override double Rate
+    {
+        set
+        {
+            _rate = Math.Clamp(value, 0.5, 2);
+            if (_player != IntPtr.Zero)
+            {
+                SendFloat(_player, Selector("setRate:"), (float)_rate);
+            }
+        }
+    }
+
+    // currentTime is in the clip's own seconds whatever the rate, as the sentence timings are.
     public override double Position => _player == IntPtr.Zero ? 0 : SendDouble(_player, Selector("currentTime"));
 
     // AVAudioPlayer stops by itself at the end of the clip; a paused clip is not playing either.
@@ -130,6 +151,9 @@ internal sealed partial class MacNarrationAudio : DesktopNarrationAudio
 
     [LibraryImport(ObjC, EntryPoint = "objc_msgSend")]
     private static partial void SendFloat(IntPtr receiver, IntPtr selector, float argument);
+
+    [LibraryImport(ObjC, EntryPoint = "objc_msgSend")]
+    private static partial void SendFlag(IntPtr receiver, IntPtr selector, [MarshalAs(UnmanagedType.U1)] bool argument);
 
     [LibraryImport(ObjC, EntryPoint = "objc_msgSend")]
     private static partial double SendDouble(IntPtr receiver, IntPtr selector);

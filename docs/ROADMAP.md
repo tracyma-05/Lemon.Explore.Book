@@ -33,7 +33,7 @@ cross-platform book.
 | `FormattedText`, `StreamGeometry` | same names, small API differences |
 | `CompositionTarget.Rendering`, `DispatcherTimer` | `TopLevel.RequestAnimationFrame` |
 | `DependencyProperty` | `StyledProperty` / `DirectProperty` |
-| `MediaPlayer` | `INarrationAudio`: winmm (MCI) on Windows, `AVAudioPlayer` on macOS, Web Audio in the browser |
+| `MediaPlayer` | `INarrationAudio`: Media Foundation's media engine on Windows (MCI where it is missing), `AVAudioPlayer` on macOS, an audio element through Web Audio in the browser |
 | The Sound chapter's waveOut stream (`SoundOutput`) | `SoundEngine.OpenOutput`, set by each head: waveOut on Windows, an AudioToolbox queue on macOS (untested), and in the browser short chunks rendered on a timer and scheduled back to back with Web Audio |
 | MaterialDesign `PackIcon` | `PathIcon` with the project's own geometries (`Styles/Explore.axaml`) |
 | `dc.PushOpacity(...)` … `dc.Pop()` | `using var dc = new PaintContext(context);` keeps Push/Pop as is (or `using (dc.PushOpacity(...)) { … }`) |
@@ -102,17 +102,21 @@ cross-platform book.
   builds a release; the release workflow does not have them yet, so its packages and web edition fall back to
   subtitles.
 - **Desktop** (Windows done; macOS written, untested): the clips are copied next to the program (`narration/`; in a
-  macOS bundle, `Contents/Resources/narration`) and played with winmm (MCI) on Windows and `AVAudioPlayer` on macOS,
-  so no audio library ships. Still to do: per-chapter packs downloaded the first time a chapter is opened (checked
+  macOS bundle, `Contents/Resources/narration`) and played with Media Foundation's media engine on Windows (winmm
+  MCI, at normal speed only, where Media Foundation is missing) and `AVAudioPlayer` on macOS, so no audio library ships. Still to do: per-chapter packs downloaded the first time a chapter is opened (checked
   with sha256), so the package and every update do not carry all the audio.
 - **Web** (done): clips are static assets under `narration/`, next to the app; their hashed names never change
-  content, so the service worker caches each clip cache-first once it has been played. Playback decodes clips with
-  Web Audio, which avoids Safari's range-request problems with cached audio. The first clip waits for a tap, as
-  browsers require. Still to do: save a chapter for offline use ahead of time, and ask for persistent storage.
+  content, so the service worker caches each clip cache-first once it has been played. A clip is fetched whole and
+  played from a blob URL, which avoids Safari's range-request problems with cached audio, in an audio element routed
+  through Web Audio (iOS ignores an element's own volume). The first clip waits for a tap, as browsers require.
+  Untested on an iPhone since the move from a Web Audio buffer source to the audio element. Still to do: save a chapter for offline use ahead of time, and ask for persistent storage.
+- **Speed** (Settings, 0.75× to 1.5×): every player keeps the voice's pitch (measured on Windows: the same median
+  pitch at 1× and 1.5×) and reports its position in the clip's own seconds, so the sentence timings still apply; the
+  silent clock runs at the same speed.
 - **Fallback**: a clip that is missing or fails to play runs as silent timed subtitles. The system voice (Windows,
   macOS speech, Web Speech API) as an intermediate fallback is not planned now that the clips exist.
 
 ## Later
 
 - Subset the web edition's Chinese font to the characters the book uses (the full files are about 8 MB each).
-- Settings page: page-turn animation on or off, narration voice and speed.
+- Settings page: a choice of narration voice.

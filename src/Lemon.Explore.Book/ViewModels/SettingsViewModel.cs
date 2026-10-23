@@ -36,6 +36,7 @@ public sealed partial class SettingsViewModel : ObservableObject
         _themeMode = BookTheme.LoadMode(_store);
         _accent = BookTheme.LoadAccent(_store);
         Accents = BookTheme.Accents.Select(a => new AccentChoice(a, this)).ToList();
+        Speeds = NarrationSettings.Speeds.Select(s => new SpeedChoice(s, this)).ToList();
         _progress.Changed += (_, _) => OnPropertyChanged(nameof(ProgressSummary));
         Location = new ExploreLocationPickerViewModel(services.Location);
         _narration.SettingsChanged += (_, _) => RaiseNarration();
@@ -208,12 +209,23 @@ public sealed partial class SettingsViewModel : ObservableObject
         set => _narration.Update(_narration.Settings with { SpeakOnClick = value });
     }
 
+    /// <summary>How fast the narration reads; the chips offer <see cref="NarrationSettings.Speeds"/>.</summary>
+    public double Speed
+    {
+        get => _narration.Settings.Speed;
+        set => _narration.Update(_narration.Settings with { Speed = value });
+    }
+
+    public IReadOnlyList<SpeedChoice> Speeds { get; }
+
     private void RaiseNarration()
     {
         OnPropertyChanged(nameof(VoiceEnabled));
         OnPropertyChanged(nameof(VolumePercent));
         OnPropertyChanged(nameof(ShowSubtitles));
         OnPropertyChanged(nameof(SpeakOnClick));
+        OnPropertyChanged(nameof(Speed));
+        foreach (var speed in Speeds) speed.RefreshSelected();
     }
 
     #endregion
@@ -231,6 +243,25 @@ public sealed partial class SettingsViewModel : ObservableObject
 }
 
 /// <summary>One accent colour as a swatch in the settings.</summary>
+/// <summary>One of the narration speed chips: 0.75×, 1×, 1.25×, 1.5×.</summary>
+public sealed class SpeedChoice(double speed, SettingsViewModel settings) : ObservableObject
+{
+    public double Speed { get; } = speed;
+
+    public string Label { get; } = speed.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture) + "×";
+
+    public bool IsSelected
+    {
+        get => Math.Abs(settings.Speed - Speed) < 0.001;
+        set
+        {
+            if (value) settings.Speed = Speed;
+        }
+    }
+
+    internal void RefreshSelected() => OnPropertyChanged(nameof(IsSelected));
+}
+
 public sealed class AccentChoice(AccentColor color, SettingsViewModel settings) : ObservableObject
 {
     public AccentColor Color { get; } = color;

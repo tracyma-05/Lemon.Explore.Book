@@ -5,7 +5,7 @@ using Lemon.Explore.Book.Explore.Narration;
 namespace Lemon.Explore.Book.Browser;
 
 /// <summary>
-/// Narration clips served next to the app under <c>narration/</c>, played with Web Audio (<c>wwwroot/narration.js</c>).
+/// Narration clips served next to the app under <c>narration/</c>, played in an audio element routed through Web Audio (<c>wwwroot/narration.js</c>).
 /// A clip that cannot be fetched (not deployed, or offline and never cached) raises <see cref="Failed"/>, and the
 /// narration carries on as subtitles.
 /// </summary>
@@ -39,6 +39,11 @@ internal sealed partial class WebNarrationAudio : INarrationAudio
         set => SetVolume(Math.Clamp(value, 0, 1));
     }
 
+    public double Rate
+    {
+        set => SetRate(Math.Clamp(value, 0.5, 2));
+    }
+
     public double Position => ClipPosition();
 
     public bool IsEnded => ClipEnded();
@@ -57,6 +62,9 @@ internal sealed partial class WebNarrationAudio : INarrationAudio
 
     [JSImport("setVolume", ModuleName)]
     private static partial void SetVolume(double volume);
+
+    [JSImport("setRate", ModuleName)]
+    private static partial void SetRate(double rate);
 
     [JSImport("position", ModuleName)]
     private static partial double ClipPosition();

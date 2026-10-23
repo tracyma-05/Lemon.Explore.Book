@@ -30888,4 +30888,7 @@
   <data name="Window_Minimize" xml:space="preserve">
     <value>Minimize</value>
   </data>
+  <data name="Settings_Speed" xml:space="preserve">
+    <value>Reading speed</value>
+  </data>
 </root>

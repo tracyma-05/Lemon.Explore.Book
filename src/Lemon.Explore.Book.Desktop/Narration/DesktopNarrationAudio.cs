@@ -31,7 +31,7 @@ internal abstract class DesktopNarrationAudio : INarrationAudio
 
         if (OperatingSystem.IsWindows())
         {
-            return new WindowsNarrationAudio(folder);
+            return (DesktopNarrationAudio?)MediaFoundationNarrationAudio.TryCreate(folder) ?? new MciNarrationAudio(folder);
         }
 
         if (OperatingSystem.IsMacOS())
@@ -54,12 +54,14 @@ internal abstract class DesktopNarrationAudio : INarrationAudio
 
     public abstract double Volume { set; }
 
+    public abstract double Rate { set; }
+
     public abstract double Position { get; }
 
     public abstract bool IsEnded { get; }
 
-    // Both players report a file they cannot open when Play is called; neither tells us about a failure part-way.
-    public event EventHandler? Failed
+    // Every player reports a file it cannot open when Play is called; Media Foundation also reports a failure part-way.
+    public virtual event EventHandler? Failed
     {
         add { }
         remove { }

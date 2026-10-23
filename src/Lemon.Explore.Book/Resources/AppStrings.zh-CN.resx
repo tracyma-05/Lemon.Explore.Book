@@ -30888,4 +30888,7 @@
   <data name="Window_Minimize" xml:space="preserve">
     <value>最小化</value>
   </data>
+  <data name="Settings_Speed" xml:space="preserve">
+    <value>朗读语速</value>
+  </data>
 </root>

@@ -89,6 +89,43 @@ public sealed class NarrationServiceTests
     }
 
     [Fact]
+    public void Speed_IsRemembered_KeptInRange_AndPassedToThePlayer()
+    {
+        var store = new MemorySettingsStore();
+        var audio = new FakeAudio();
+        var service = new NarrationService(store, NarrationManifest.Empty, audio);
+        Assert.Equal(1, audio.Rate);
+
+        service.Update(service.Settings with { Speed = 1.25 });
+        Assert.Equal(1.25, audio.Rate);
+
+        service.Update(service.Settings with { Speed = 9 });
+        Assert.Equal(2, service.Settings.Speed);
+
+        var reloaded = new NarrationService(store, NarrationManifest.Empty, new FakeAudio());
+        Assert.Equal(2, reloaded.Settings.Speed);
+    }
+
+    [Fact]
+    public void WithoutAudio_TheSilentClock_RunsAtTheReadersSpeed()
+    {
+        var service = new NarrationService(new MemorySettingsStore(), NarrationManifest.Empty, SilentNarrationAudio.Instance);
+        service.Update(service.Settings with { Speed = 2 });
+        service.Play("Narr_Seasons_Obj_Sun", this);
+
+        Thread.Sleep(300);
+        var fast = service.Position;
+
+        // Back to 1x: the clock keeps what it has covered and goes on from there, more slowly.
+        service.Update(service.Settings with { Speed = 1 });
+        Assert.True(service.Position >= fast * 0.95, $"{service.Position} after {fast}");
+        Thread.Sleep(300);
+
+        Assert.InRange(fast, 0.5, 1.2);
+        Assert.InRange(service.Position - fast, 0.25, 0.7);
+    }
+
+    [Fact]
     public void Stop_WithAnotherOwner_LeavesTheClipPlaying()
     {
         var service = new NarrationService(new MemorySettingsStore(), NarrationManifest.Empty, SilentNarrationAudio.Instance);
@@ -150,6 +187,8 @@ public sealed class NarrationServiceTests
         {
             set { }
         }
+
+        public double Rate { get; set; }
 
         public double Position => 0.5;
 
