@@ -1,0 +1,263 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:lenses="using:Lemon.Explore.Book.Chapters.Lenses"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Lenses.LensesTextPageView"
+                         x:DataType="lenses:LensesTextPageViewModel">
+    <!-- Left page of the Lenses spread: the bench, the eye or the camera's settings, its chart, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Lenses.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Lenses.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Lenses.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="LensMode" IsChecked="{Binding Lenses.IsBench}" Content="{loc:Localize Lens_Mode_Bench}" />
+                    <RadioButton Classes="chip" GroupName="LensMode" IsChecked="{Binding Lenses.IsEye}" Content="{loc:Localize Lens_Mode_Eye}" />
+                    <RadioButton Classes="chip" GroupName="LensMode" IsChecked="{Binding Lenses.IsCamera}" Content="{loc:Localize Lens_Mode_Camera}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Lenses.Card}" />
+
+                <!-- Bench: the lens, the candle, the screen and the light -->
+                <StackPanel IsVisible="{Binding Lenses.IsBench}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Lens_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LensKind" IsChecked="{Binding Lenses.KindChoice[Convex]}" Content="{loc:Localize Lens_Kind_Convex}" />
+                        <RadioButton Classes="chip" GroupName="LensKind" IsChecked="{Binding Lenses.KindChoice[Concave]}" Content="{loc:Localize Lens_Kind_Concave}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.FocalText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Focal}" />
+                    </DockPanel>
+                    <Slider Minimum="10" Maximum="25" Value="{Binding Lenses.FocalLength}" SmallChange="0.5" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="0.5"
+                            AutomationProperties.Name="{loc:Localize Lens_Focal}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Candle_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.ObjectText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_ObjectDistance}" />
+                    </DockPanel>
+                    <Slider Minimum="3" Maximum="68" Value="{Binding Lenses.ObjectDistance}" SmallChange="0.5" LargeChange="5"
+                            IsSnapToTickEnabled="True" TickFrequency="0.5"
+                            AutomationProperties.Name="{loc:Localize Lens_ObjectDistance}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Lenses.PresetCommand}" CommandParameter="Camera" Content="{loc:Localize Lens_Preset_Camera}" />
+                        <Button Classes="chip" Command="{Binding Lenses.PresetCommand}" CommandParameter="Copier" Content="{loc:Localize Lens_Preset_Copier}" />
+                        <Button Classes="chip" Command="{Binding Lenses.PresetCommand}" CommandParameter="Projector" Content="{loc:Localize Lens_Preset_Projector}" />
+                        <Button Classes="chip" Command="{Binding Lenses.PresetCommand}" CommandParameter="Magnifier" Content="{loc:Localize Lens_Preset_Magnifier}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Screen_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lenses.ShowScreen}" Content="{loc:Localize Lens_Option_Screen}" />
+                        <Button Classes="chip" Command="{Binding Lenses.FindImageCommand}" Content="{loc:Localize Lens_FindImage}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Lenses.ShowScreen}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Lenses.ScreenText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_ScreenDistance}" />
+                        </DockPanel>
+                        <Slider Minimum="3" Maximum="88" Value="{Binding Lenses.ScreenDistance}" SmallChange="0.5" LargeChange="5"
+                                IsSnapToTickEnabled="True" TickFrequency="0.5"
+                                AutomationProperties.Name="{loc:Localize Lens_ScreenDistance}" />
+                    </StackPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Rays_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LensRays" IsChecked="{Binding Lenses.RayChoice[Principal]}" Content="{loc:Localize Lens_Rays_Principal}" />
+                        <RadioButton Classes="chip" GroupName="LensRays" IsChecked="{Binding Lenses.RayChoice[Fan]}" Content="{loc:Localize Lens_Rays_Fan}" />
+                        <RadioButton Classes="chip" GroupName="LensRays" IsChecked="{Binding Lenses.RayChoice[Sunlight]}" Content="{loc:Localize Lens_Rays_Sunlight}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lenses.ShowColours}" Content="{loc:Localize Lens_Option_Colours}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lenses.ShowLabels}" Content="{loc:Localize Lens_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Lens_Rays_Note}" />
+                </StackPanel>
+
+                <!-- Eye: the chart, the eye, glasses and light -->
+                <StackPanel IsVisible="{Binding Lenses.IsEye}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_EyeChart_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.DistanceText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Distance}" />
+                    </DockPanel>
+                    <Slider Minimum="-1.155" Maximum="2" Value="{Binding Lenses.DistanceLog}" SmallChange="0.01" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Lens_Distance}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Lenses.SetDistanceCommand}" CommandParameter="Inf" Content="{loc:Localize Lens_Distance_Far}" />
+                        <Button Classes="chip" Command="{Binding Lenses.SetDistanceCommand}" CommandParameter="6" Content="{loc:Localize Lens_Distance_Board}" />
+                        <Button Classes="chip" Command="{Binding Lenses.SetDistanceCommand}" CommandParameter="0.6" Content="{loc:Localize Lens_Distance_Screen}" />
+                        <Button Classes="chip" Command="{Binding Lenses.SetDistanceCommand}" CommandParameter="0.33" Content="{loc:Localize Lens_Distance_Book}" />
+                        <Button Classes="chip" Command="{Binding Lenses.SetDistanceCommand}" CommandParameter="0.1" Content="{loc:Localize Lens_Distance_Close}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Eye_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.AgeText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Age}" />
+                    </DockPanel>
+                    <Slider Minimum="5" Maximum="75" Value="{Binding Lenses.Age}" SmallChange="1" LargeChange="5"
+                            IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Lens_Age}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.ErrorText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Error}" />
+                    </DockPanel>
+                    <Slider Minimum="-6" Maximum="4" Value="{Binding Lenses.Error}" SmallChange="0.25" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="0.25"
+                            AutomationProperties.Name="{loc:Localize Lens_Error}" />
+                    <WrapPanel Margin="0,8,0,0">
+                        <Button Classes="chip" Command="{Binding Lenses.SetErrorCommand}" CommandParameter="0" Content="{loc:Localize Lens_Error_Normal}" />
+                        <Button Classes="chip" Command="{Binding Lenses.SetErrorCommand}" CommandParameter="-3" Content="{loc:Localize Lens_Error_Myopia}" />
+                        <Button Classes="chip" Command="{Binding Lenses.SetErrorCommand}" CommandParameter="2" Content="{loc:Localize Lens_Error_Hyperopia}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Glasses_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LensGlasses" IsChecked="{Binding Lenses.GlassesChoice[None]}" Content="{loc:Localize Lens_Glasses_None}" />
+                        <RadioButton Classes="chip" GroupName="LensGlasses" IsChecked="{Binding Lenses.GlassesChoice[Distance]}" Content="{loc:Localize Lens_Glasses_Distance}" />
+                        <RadioButton Classes="chip" GroupName="LensGlasses" IsChecked="{Binding Lenses.GlassesChoice[Reading]}" Content="{loc:Localize Lens_Glasses_Reading}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Light_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LensLight" IsChecked="{Binding Lenses.LightChoice[Bright]}" Content="{loc:Localize Lens_Light_Bright}" />
+                        <RadioButton Classes="chip" GroupName="LensLight" IsChecked="{Binding Lenses.LightChoice[Indoor]}" Content="{loc:Localize Lens_Light_Indoor}" />
+                        <RadioButton Classes="chip" GroupName="LensLight" IsChecked="{Binding Lenses.LightChoice[Dim]}" Content="{loc:Localize Lens_Light_Dim}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lenses.ShowLabels}" Content="{loc:Localize Lens_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Lens_Eye_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Camera: lens, focus and exposure -->
+                <StackPanel IsVisible="{Binding Lenses.IsCamera}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_CameraLens_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.FocalMmText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_FocalMm}" />
+                    </DockPanel>
+                    <Slider Minimum="1.2553" Maximum="2.30103" Value="{Binding Lenses.FocalLog}" SmallChange="0.01" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Lens_FocalMm}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.FNumberText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_FNumber}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="8" Value="{Binding Lenses.FStopIndex}" SmallChange="1" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Lens_FNumber}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.FocusText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Focus}" />
+                    </DockPanel>
+                    <Slider Minimum="-0.523" Maximum="2.3" Value="{Binding Lenses.FocusLog}" SmallChange="0.01" LargeChange="0.1"
+                            AutomationProperties.Name="{loc:Localize Lens_Focus}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Exposure_Caption}" />
+                    <DockPanel Margin="0,4,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.ShutterText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Shutter}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="12" Value="{Binding Lenses.ShutterIndex}" SmallChange="1" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Lens_Shutter}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Lenses.IsoText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Lens_Iso}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="6" Value="{Binding Lenses.IsoIndex}" SmallChange="1" LargeChange="1"
+                            IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Lens_Iso}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Scene_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="LensScene" IsChecked="{Binding Lenses.SceneChoice[Sun]}" Content="{loc:Localize Lens_Scene_Sun}" />
+                        <RadioButton Classes="chip" GroupName="LensScene" IsChecked="{Binding Lenses.SceneChoice[Cloud]}" Content="{loc:Localize Lens_Scene_Cloud}" />
+                        <RadioButton Classes="chip" GroupName="LensScene" IsChecked="{Binding Lenses.SceneChoice[Dusk]}" Content="{loc:Localize Lens_Scene_Dusk}" />
+                        <RadioButton Classes="chip" GroupName="LensScene" IsChecked="{Binding Lenses.SceneChoice[Night]}" Content="{loc:Localize Lens_Scene_Night}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <Button Classes="chip" Command="{Binding Lenses.AutoExposeCommand}" Content="{loc:Localize Lens_Auto}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Lenses.ShowLabels}" Content="{loc:Localize Lens_Option_Labels}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Lens_Camera_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Lenses.ChartCaption}" />
+                <Border Classes="plate" Height="190">
+                    <lenses:LensChart Mode="{Binding Lenses.Mode}"
+                                      LensKind="{Binding Lenses.LensKind}"
+                                      FocalLength="{Binding Lenses.FocalLength}"
+                                      ObjectDistance="{Binding Lenses.ObjectDistance, Mode=TwoWay}"
+                                      Age="{Binding Lenses.Age, Mode=TwoWay}"
+                                      FocalMm="{Binding Lenses.FocalMm}"
+                                      FNumber="{Binding Lenses.FNumber, Mode=TwoWay}"
+                                      FocusDistance="{Binding Lenses.FocusDistance}"
+                                      InteractionCommand="{Binding Lenses.UserInteractedCommand}"
+                                      AutomationProperties.Name="{Binding Lenses.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{Binding Lenses.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Lenses.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Lenses.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Lenses.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Lenses.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Lens_Facts}" />
+                <ItemsControl ItemsSource="{Binding Lenses.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

@@ -7107,6 +7107,915 @@
   <data name="Kepler_YourAxis_Value" xml:space="preserve">
     <value>{0} AU · {1}</value>
   </data>
+  <data name="Lens_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Lens_Auto" xml:space="preserve">
+    <value>Auto exposure</value>
+  </data>
+  <data name="Lens_Auto_Tooltip" xml:space="preserve">
+    <value>Pick the shutter time that exposes this scene right</value>
+  </data>
+  <data name="Lens_Bench_Concave_Text" xml:space="preserve">
+    <value>A concave lens spreads light out wherever the candle is. The rays seem to come from a smaller, upright candle nearer the lens. Glasses for short sight are concave.</value>
+  </data>
+  <data name="Lens_Bench_Concave_Title" xml:space="preserve">
+    <value>Upright, smaller, virtual</value>
+  </data>
+  <data name="Lens_Bench_Fact1" xml:space="preserve">
+    <value>1/u + 1/v = 1/f: the closer the candle comes to F, the farther away and bigger its image.</value>
+  </data>
+  <data name="Lens_Bench_Fact2" xml:space="preserve">
+    <value>A lens's power in dioptres is 1 over its focal length in metres: a lens with a 10 cm focal length is 10 D.</value>
+  </data>
+  <data name="Lens_Bench_Fact3" xml:space="preserve">
+    <value>A single lens's real images are always upside down; its virtual images are always upright.</value>
+  </data>
+  <data name="Lens_Bench_Fact4" xml:space="preserve">
+    <value>Glass bends violet light more than red, so a simple lens focuses colours in slightly different places. Camera lenses pair two kinds of glass to cancel it.</value>
+  </data>
+  <data name="Lens_Bench_Fact5" xml:space="preserve">
+    <value>A burning glass works because it packs the sunlight falling on the whole lens into one small spot.</value>
+  </data>
+  <data name="Lens_Bench_Larger_Text" xml:space="preserve">
+    <value>Between F and 2F, the image lands beyond 2F: larger and upside down. A projector holds its picture here, upside down, so it comes out the right way up.</value>
+  </data>
+  <data name="Lens_Bench_Larger_Title" xml:space="preserve">
+    <value>Larger, upside down, real</value>
+  </data>
+  <data name="Lens_Bench_Magnifier_Text" xml:space="preserve">
+    <value>Inside F, the rays still spread apart after the lens. Looking back through it, your eye follows them to a larger, upright candle on the same side: a virtual image, which no screen can catch. This is a magnifying glass.</value>
+  </data>
+  <data name="Lens_Bench_Magnifier_Title" xml:space="preserve">
+    <value>Upright, larger, virtual</value>
+  </data>
+  <data name="Lens_Bench_None_Text" xml:space="preserve">
+    <value>With the candle at the focal point, the light leaves the lens parallel and never meets again. A torch or a lighthouse uses this to send out a straight beam.</value>
+  </data>
+  <data name="Lens_Bench_None_Title" xml:space="preserve">
+    <value>No image</value>
+  </data>
+  <data name="Lens_Bench_Note" xml:space="preserve">
+    <value>Lengths in centimetres; heights are drawn 4 times larger. The three rays bend at the lens's middle plane (a thin lens).</value>
+  </data>
+  <data name="Lens_Bench_Same_Text" xml:space="preserve">
+    <value>At exactly two focal lengths, the image is also two focal lengths away on the other side and just as big, only upside down.</value>
+  </data>
+  <data name="Lens_Bench_Same_Title" xml:space="preserve">
+    <value>Same size, upside down</value>
+  </data>
+  <data name="Lens_Bench_Smaller_Text" xml:space="preserve">
+    <value>The candle is more than two focal lengths away, so its image lands between F and 2F on the other side: smaller and upside down. Cameras and eyes work like this.</value>
+  </data>
+  <data name="Lens_Bench_Smaller_Title" xml:space="preserve">
+    <value>Smaller, upside down, real</value>
+  </data>
+  <data name="Lens_Bench_Subtitle" xml:space="preserve">
+    <value>How a lens makes an image</value>
+  </data>
+  <data name="Lens_Bench_Sunlight_Text" xml:space="preserve">
+    <value>Sunlight arrives parallel, and a convex lens brings it to a point at F (a concave one spreads it as if from F). With a real glass lens, the rays near the edge meet a little nearer than those near the middle.</value>
+  </data>
+  <data name="Lens_Bench_Sunlight_Title" xml:space="preserve">
+    <value>Sunlight comes to a focus</value>
+  </data>
+  <data name="Lens_CameraLens_Caption" xml:space="preserve">
+    <value>Lens</value>
+  </data>
+  <data name="Lens_Camera_Bright_Text" xml:space="preserve">
+    <value>Too much light: the bright parts turn white. Use a faster shutter, a smaller aperture (a bigger f-number) or a lower ISO, or press Auto exposure.</value>
+  </data>
+  <data name="Lens_Camera_Bright_Title" xml:space="preserve">
+    <value>Too bright</value>
+  </data>
+  <data name="Lens_Camera_Dark_Text" xml:space="preserve">
+    <value>Too little light. Use a slower shutter, a wider aperture (a smaller f-number) or a higher ISO, or press Auto exposure.</value>
+  </data>
+  <data name="Lens_Camera_Dark_Title" xml:space="preserve">
+    <value>Too dark</value>
+  </data>
+  <data name="Lens_Camera_Fact1" xml:space="preserve">
+    <value>The f-number is the focal length divided by the opening's width: a 50 mm lens at f/2 has a 25 mm hole.</value>
+  </data>
+  <data name="Lens_Camera_Fact2" xml:space="preserve">
+    <value>Each full stop (f/2.8 to f/4, 1/250 to 1/125, ISO 100 to 200) halves or doubles the light.</value>
+  </data>
+  <data name="Lens_Camera_Fact3" xml:space="preserve">
+    <value>Focus at the hyperfocal distance and everything from half that distance to infinity looks sharp.</value>
+  </data>
+  <data name="Lens_Camera_Fact4" xml:space="preserve">
+    <value>A phone's lens has a focal length of only a few millimetres, which gives a huge depth of field, so phones add background blur in software.</value>
+  </data>
+  <data name="Lens_Camera_Fact5" xml:space="preserve">
+    <value>A dark room with a small hole in one wall, a camera obscura, makes the same upside-down image without any lens.</value>
+  </data>
+  <data name="Lens_Camera_Good_Text" xml:space="preserve">
+    <value>The aperture, shutter and ISO let in just the right amount of light for this scene.</value>
+  </data>
+  <data name="Lens_Camera_Good_Title" xml:space="preserve">
+    <value>Well exposed</value>
+  </data>
+  <data name="Lens_Camera_Note" xml:space="preserve">
+    <value>A full-frame camera. Distances on the track are squeezed and those behind the lens stretched, so the focus shows; the photo itself is to scale.</value>
+  </data>
+  <data name="Lens_Camera_Panel_Note" xml:space="preserve">
+    <value>Each step of aperture, shutter or ISO doubles or halves the light. A blur under 0.03 mm on the sensor counts as sharp. The ball crosses at 4 m/s.</value>
+  </data>
+  <data name="Lens_Camera_SharpRange" xml:space="preserve">
+    <value>Sharp from {0} to {1}.</value>
+  </data>
+  <data name="Lens_Camera_SharpToInfinity" xml:space="preserve">
+    <value>Sharp from {0} to infinity.</value>
+  </data>
+  <data name="Lens_Camera_Subtitle" xml:space="preserve">
+    <value>Focus, aperture and shutter</value>
+  </data>
+  <data name="Lens_Candle_Caption" xml:space="preserve">
+    <value>The candle</value>
+  </data>
+  <data name="Lens_Chart_AgeAxis" xml:space="preserve">
+    <value>age</value>
+  </data>
+  <data name="Lens_Chart_AlwaysVirtual" xml:space="preserve">
+    <value>concave: always virtual</value>
+  </data>
+  <data name="Lens_Chart_AmplitudeAxis" xml:space="preserve">
+    <value>accommodation, D</value>
+  </data>
+  <data name="Lens_Chart_Bench_Caption" xml:space="preserve">
+    <value>Where the image is</value>
+  </data>
+  <data name="Lens_Chart_Bench_Note" xml:space="preserve">
+    <value>Both in focal lengths. Gold: a real image behind the lens; blue: a virtual one in front of it. Drag the dot to move the candle.</value>
+  </data>
+  <data name="Lens_Chart_Camera_Caption" xml:space="preserve">
+    <value>What looks sharp, by aperture</value>
+  </data>
+  <data name="Lens_Chart_Camera_Note" xml:space="preserve">
+    <value>For this focal length and focus distance: the green band runs from the nearest to the farthest sharp distance. Drag to change the aperture.</value>
+  </data>
+  <data name="Lens_Chart_CandleAxis" xml:space="preserve">
+    <value>candle distance u</value>
+  </data>
+  <data name="Lens_Chart_Eye_Caption" xml:space="preserve">
+    <value>How much closer the eye can focus, by age</value>
+  </data>
+  <data name="Lens_Chart_Eye_Note" xml:space="preserve">
+    <value>Accommodation in dioptres (Hofstetter: the average, and the spread between people); the near point is 1 over it, in metres. Below the orange line, reading at 40 cm needs glasses. Drag the dot to change the age.</value>
+  </data>
+  <data name="Lens_Chart_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="Lens_Chart_Focus" xml:space="preserve">
+    <value>focus</value>
+  </data>
+  <data name="Lens_Chart_ImageAxis" xml:space="preserve">
+    <value>image distance v</value>
+  </data>
+  <data name="Lens_Chart_NF" xml:space="preserve">
+    <value>{0}F</value>
+  </data>
+  <data name="Lens_Chart_Reading" xml:space="preserve">
+    <value>reading at 40 cm</value>
+  </data>
+  <data name="Lens_Chart_RealBelow" xml:space="preserve">
+    <value>below 0: virtual</value>
+  </data>
+  <data name="Lens_Chart_SharpAxis" xml:space="preserve">
+    <value>sharp from near to far</value>
+  </data>
+  <data name="Lens_Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Lens_Distance_Board" xml:space="preserve">
+    <value>Board, 6 m</value>
+  </data>
+  <data name="Lens_Distance_Book" xml:space="preserve">
+    <value>Book, 33 cm</value>
+  </data>
+  <data name="Lens_Distance_Close" xml:space="preserve">
+    <value>Very close, 10 cm</value>
+  </data>
+  <data name="Lens_Distance_Far" xml:space="preserve">
+    <value>Far away</value>
+  </data>
+  <data name="Lens_Distance_Screen" xml:space="preserve">
+    <value>Screen, 60 cm</value>
+  </data>
+  <data name="Lens_Error" xml:space="preserve">
+    <value>Short or long sight</value>
+  </data>
+  <data name="Lens_Error_Hyperopia" xml:space="preserve">
+    <value>Long-sighted +2</value>
+  </data>
+  <data name="Lens_Error_Myopia" xml:space="preserve">
+    <value>Short-sighted −3</value>
+  </data>
+  <data name="Lens_Error_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Lens_Exposure_Caption" xml:space="preserve">
+    <value>Exposure</value>
+  </data>
+  <data name="Lens_EyeChart_Caption" xml:space="preserve">
+    <value>The chart</value>
+  </data>
+  <data name="Lens_Eye_Behind_Text" xml:space="preserve">
+    <value>This eye is too short for its power, and even focusing as hard as it can it cannot bend the light enough. This is long sight. A convex lens adds the missing bending.</value>
+  </data>
+  <data name="Lens_Eye_Behind_Title" xml:space="preserve">
+    <value>Blurred: focus behind the retina</value>
+  </data>
+  <data name="Lens_Eye_Caption" xml:space="preserve">
+    <value>The eye</value>
+  </data>
+  <data name="Lens_Eye_Fact1" xml:space="preserve">
+    <value>About two thirds of the eye's focusing is done by the cornea; the lens adds the adjustable rest.</value>
+  </data>
+  <data name="Lens_Eye_Fact2" xml:space="preserve">
+    <value>The image on the retina is upside down; the brain learns to see the world the right way up.</value>
+  </data>
+  <data name="Lens_Eye_Fact3" xml:space="preserve">
+    <value>A child can focus closer than 10 cm; by 45 the near point is about 25 cm, and by 60 the lens hardly changes at all.</value>
+  </data>
+  <data name="Lens_Eye_Fact4" xml:space="preserve">
+    <value>Each dioptre of short sight is roughly a third of a millimetre of extra eye length.</value>
+  </data>
+  <data name="Lens_Eye_Fact5" xml:space="preserve">
+    <value>Where the optic nerve leaves the eye there are no light-sensitive cells: everyone has a blind spot, filled in by the brain.</value>
+  </data>
+  <data name="Lens_Eye_Front_Text" xml:space="preserve">
+    <value>For this distance the eye bends the light too much, so it meets before the retina and spreads out again. This is short sight, or glasses that are wrong for this distance. A concave lens fixes it.</value>
+  </data>
+  <data name="Lens_Eye_Front_Title" xml:space="preserve">
+    <value>Blurred: focus in front of the retina</value>
+  </data>
+  <data name="Lens_Eye_Note" xml:space="preserve">
+    <value>The eye is drawn to scale; the distances outside it are squeezed. Light from the chart's top comes in more steeply than it really would, so the upside-down image shows.</value>
+  </data>
+  <data name="Lens_Eye_Panel_Note" xml:space="preserve">
+    <value>A model eye: cornea 43 D, lens 19 D when relaxed, and how much it can focus closer at each age from Hofstetter's average. Short sight here is an eye that is too long. In China, “300 degrees” means −3 D.</value>
+  </data>
+  <data name="Lens_Eye_SharpNear_Text" xml:space="preserve">
+    <value>Light from near things spreads out more, so the eye works for it: the ciliary muscle tightens, the lens bulges and bends harder, and the image lands on the retina.</value>
+  </data>
+  <data name="Lens_Eye_SharpNear_Title" xml:space="preserve">
+    <value>Sharp, the eye focusing</value>
+  </data>
+  <data name="Lens_Eye_Sharp_Text" xml:space="preserve">
+    <value>Light from the chart meets right on the retina without any effort: the ciliary muscle rests and the lens stays flat.</value>
+  </data>
+  <data name="Lens_Eye_Sharp_Title" xml:space="preserve">
+    <value>Sharp, the eye relaxed</value>
+  </data>
+  <data name="Lens_Eye_Subtitle" xml:space="preserve">
+    <value>How the eye focuses near and far</value>
+  </data>
+  <data name="Lens_Eye_TooClose_Text" xml:space="preserve">
+    <value>The lens is already as round as it can get, and the light would still meet behind the retina. Move the chart back past the near point, or wear reading glasses.</value>
+  </data>
+  <data name="Lens_Eye_TooClose_Title" xml:space="preserve">
+    <value>Blurred: closer than the near point</value>
+  </data>
+  <data name="Lens_FNumber" xml:space="preserve">
+    <value>Aperture</value>
+  </data>
+  <data name="Lens_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Lens_FindImage" xml:space="preserve">
+    <value>Find the image</value>
+  </data>
+  <data name="Lens_FindImage_Tooltip" xml:space="preserve">
+    <value>Move the screen to where the image is sharp</value>
+  </data>
+  <data name="Lens_Focal" xml:space="preserve">
+    <value>Focal length</value>
+  </data>
+  <data name="Lens_FocalMm" xml:space="preserve">
+    <value>Focal length</value>
+  </data>
+  <data name="Lens_Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="Lens_Glasses_Caption" xml:space="preserve">
+    <value>Glasses</value>
+  </data>
+  <data name="Lens_Glasses_Distance" xml:space="preserve">
+    <value>Made for this eye</value>
+  </data>
+  <data name="Lens_Glasses_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Lens_Glasses_Reading" xml:space="preserve">
+    <value>Reading, +2.5</value>
+  </data>
+  <data name="Lens_Hint_Bench" xml:space="preserve">
+    <value>Drag the candle (by its flame to change its height), the screen or an F.</value>
+  </data>
+  <data name="Lens_Hint_Camera" xml:space="preserve">
+    <value>Drag the focus pin, or click something in the photo to focus on it.</value>
+  </data>
+  <data name="Lens_Hint_Eye" xml:space="preserve">
+    <value>Drag the chart nearer or farther along its track.</value>
+  </data>
+  <data name="Lens_Iso" xml:space="preserve">
+    <value>ISO</value>
+  </data>
+  <data name="Lens_Kind_Concave" xml:space="preserve">
+    <value>Concave</value>
+  </data>
+  <data name="Lens_Kind_Convex" xml:space="preserve">
+    <value>Convex</value>
+  </data>
+  <data name="Lens_Label_2F" xml:space="preserve">
+    <value>2F</value>
+  </data>
+  <data name="Lens_Label_Aperture" xml:space="preserve">
+    <value>aperture {0}</value>
+  </data>
+  <data name="Lens_Label_BlindSpot" xml:space="preserve">
+    <value>blind spot</value>
+  </data>
+  <data name="Lens_Label_BlockedImage" xml:space="preserve">
+    <value>image (behind the screen)</value>
+  </data>
+  <data name="Lens_Label_Bright" xml:space="preserve">
+    <value>too bright</value>
+  </data>
+  <data name="Lens_Label_CameraLens" xml:space="preserve">
+    <value>lens {0} mm</value>
+  </data>
+  <data name="Lens_Label_Ciliary" xml:space="preserve">
+    <value>ciliary muscle</value>
+  </data>
+  <data name="Lens_Label_Concave" xml:space="preserve">
+    <value>concave lens</value>
+  </data>
+  <data name="Lens_Label_ConcaveGlasses" xml:space="preserve">
+    <value>concave {0} D</value>
+  </data>
+  <data name="Lens_Label_Convex" xml:space="preserve">
+    <value>convex lens</value>
+  </data>
+  <data name="Lens_Label_ConvexGlasses" xml:space="preserve">
+    <value>convex {0} D</value>
+  </data>
+  <data name="Lens_Label_Cornea" xml:space="preserve">
+    <value>cornea</value>
+  </data>
+  <data name="Lens_Label_Dark" xml:space="preserve">
+    <value>too dark</value>
+  </data>
+  <data name="Lens_Label_Dof" xml:space="preserve">
+    <value>depth of field</value>
+  </data>
+  <data name="Lens_Label_EyeLens" xml:space="preserve">
+    <value>lens</value>
+  </data>
+  <data name="Lens_Label_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="Lens_Label_FarPoint" xml:space="preserve">
+    <value>far point</value>
+  </data>
+  <data name="Lens_Label_FocusAt" xml:space="preserve">
+    <value>focus {0}</value>
+  </data>
+  <data name="Lens_Label_FocusBehind" xml:space="preserve">
+    <value>light would meet behind the retina</value>
+  </data>
+  <data name="Lens_Label_FocusFront" xml:space="preserve">
+    <value>light meets in front of the retina</value>
+  </data>
+  <data name="Lens_Label_FocusOn" xml:space="preserve">
+    <value>sharp on the retina</value>
+  </data>
+  <data name="Lens_Label_Fov" xml:space="preserve">
+    <value>field of view {0}°</value>
+  </data>
+  <data name="Lens_Label_Fovea" xml:space="preserve">
+    <value>fovea</value>
+  </data>
+  <data name="Lens_Label_ImageFarLeft" xml:space="preserve">
+    <value>← virtual image {0} away</value>
+  </data>
+  <data name="Lens_Label_ImageFarRight" xml:space="preserve">
+    <value>image {0} away →</value>
+  </data>
+  <data name="Lens_Label_NearPoint" xml:space="preserve">
+    <value>near point</value>
+  </data>
+  <data name="Lens_Label_NearPointClose" xml:space="preserve">
+    <value>near point (closer)</value>
+  </data>
+  <data name="Lens_Label_NoImage" xml:space="preserve">
+    <value>rays leave parallel: no image</value>
+  </data>
+  <data name="Lens_Label_O" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Lens_Label_OnScreenBlur" xml:space="preserve">
+    <value>On the screen: blurred over {0}</value>
+  </data>
+  <data name="Lens_Label_OnScreenSharp" xml:space="preserve">
+    <value>On the screen: sharp</value>
+  </data>
+  <data name="Lens_Label_Photo" xml:space="preserve">
+    <value>photo</value>
+  </data>
+  <data name="Lens_Label_Pupil" xml:space="preserve">
+    <value>iris and pupil</value>
+  </data>
+  <data name="Lens_Label_ReadingGlasses" xml:space="preserve">
+    <value>reading glasses {0} D</value>
+  </data>
+  <data name="Lens_Label_RealImage" xml:space="preserve">
+    <value>real image</value>
+  </data>
+  <data name="Lens_Label_Retina" xml:space="preserve">
+    <value>retina</value>
+  </data>
+  <data name="Lens_Label_Row" xml:space="preserve">
+    <value>{0} · 20/{1}</value>
+  </data>
+  <data name="Lens_Label_Screen" xml:space="preserve">
+    <value>screen</value>
+  </data>
+  <data name="Lens_Label_Sensor" xml:space="preserve">
+    <value>sensor</value>
+  </data>
+  <data name="Lens_Label_Sunlight" xml:space="preserve">
+    <value>sunlight</value>
+  </data>
+  <data name="Lens_Label_U" xml:space="preserve">
+    <value>u = {0}</value>
+  </data>
+  <data name="Lens_Label_V" xml:space="preserve">
+    <value>v = {0}</value>
+  </data>
+  <data name="Lens_Label_VirtualImage" xml:space="preserve">
+    <value>virtual image</value>
+  </data>
+  <data name="Lens_Label_WhatYouSee" xml:space="preserve">
+    <value>What you see: about {0} (20/{1})</value>
+  </data>
+  <data name="Lens_Lens_Caption" xml:space="preserve">
+    <value>The lens</value>
+  </data>
+  <data name="Lens_Lesson_Bench_Choice1" xml:space="preserve">
+    <value>Bigger, and farther from the lens</value>
+  </data>
+  <data name="Lens_Lesson_Bench_Choice2" xml:space="preserve">
+    <value>Smaller, and closer to the lens</value>
+  </data>
+  <data name="Lens_Lesson_Bench_Choice3" xml:space="preserve">
+    <value>It disappears</value>
+  </data>
+  <data name="Lens_Lesson_Camera_Choice1" xml:space="preserve">
+    <value>Open the aperture (a smaller f-number)</value>
+  </data>
+  <data name="Lens_Lesson_Camera_Choice2" xml:space="preserve">
+    <value>Close the aperture (a bigger f-number)</value>
+  </data>
+  <data name="Lens_Lesson_Camera_Choice3" xml:space="preserve">
+    <value>Use a faster shutter</value>
+  </data>
+  <data name="Lens_Lesson_Eye_Choice1" xml:space="preserve">
+    <value>In front of the retina</value>
+  </data>
+  <data name="Lens_Lesson_Eye_Choice2" xml:space="preserve">
+    <value>Behind the retina</value>
+  </data>
+  <data name="Lens_Lesson_Eye_Choice3" xml:space="preserve">
+    <value>Exactly on the retina</value>
+  </data>
+  <data name="Lens_Light_Bright" xml:space="preserve">
+    <value>Bright day</value>
+  </data>
+  <data name="Lens_Light_Caption" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Lens_Light_Dim" xml:space="preserve">
+    <value>Dim</value>
+  </data>
+  <data name="Lens_Light_Indoor" xml:space="preserve">
+    <value>Indoors</value>
+  </data>
+  <data name="Lens_Mode_Bench" xml:space="preserve">
+    <value>Lens bench</value>
+  </data>
+  <data name="Lens_Mode_Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Lens_Mode_Eye" xml:space="preserve">
+    <value>The eye</value>
+  </data>
+  <data name="Lens_Obj_Aberration" xml:space="preserve">
+    <value>Spherical aberration</value>
+  </data>
+  <data name="Lens_Obj_Aperture" xml:space="preserve">
+    <value>Aperture</value>
+  </data>
+  <data name="Lens_Obj_Axis" xml:space="preserve">
+    <value>Optical axis</value>
+  </data>
+  <data name="Lens_Obj_Ball" xml:space="preserve">
+    <value>Moving ball</value>
+  </data>
+  <data name="Lens_Obj_BlindSpot" xml:space="preserve">
+    <value>Blind spot</value>
+  </data>
+  <data name="Lens_Obj_BlurCircle" xml:space="preserve">
+    <value>Blur circle</value>
+  </data>
+  <data name="Lens_Obj_CameraLens" xml:space="preserve">
+    <value>Camera lens</value>
+  </data>
+  <data name="Lens_Obj_Candle" xml:space="preserve">
+    <value>The candle</value>
+  </data>
+  <data name="Lens_Obj_Centre" xml:space="preserve">
+    <value>Optical centre</value>
+  </data>
+  <data name="Lens_Obj_Chart" xml:space="preserve">
+    <value>Eye chart</value>
+  </data>
+  <data name="Lens_Obj_Chromatic" xml:space="preserve">
+    <value>Chromatic aberration</value>
+  </data>
+  <data name="Lens_Obj_Ciliary" xml:space="preserve">
+    <value>Ciliary muscle</value>
+  </data>
+  <data name="Lens_Obj_Cornea" xml:space="preserve">
+    <value>Cornea</value>
+  </data>
+  <data name="Lens_Obj_Dof" xml:space="preserve">
+    <value>Depth of field</value>
+  </data>
+  <data name="Lens_Obj_EyeLens" xml:space="preserve">
+    <value>Crystalline lens</value>
+  </data>
+  <data name="Lens_Obj_FarPoint" xml:space="preserve">
+    <value>Far point</value>
+  </data>
+  <data name="Lens_Obj_Focus" xml:space="preserve">
+    <value>Focal point F</value>
+  </data>
+  <data name="Lens_Obj_FocusMark" xml:space="preserve">
+    <value>Focus distance</value>
+  </data>
+  <data name="Lens_Obj_Fov" xml:space="preserve">
+    <value>Field of view</value>
+  </data>
+  <data name="Lens_Obj_Fovea" xml:space="preserve">
+    <value>Fovea</value>
+  </data>
+  <data name="Lens_Obj_Glasses" xml:space="preserve">
+    <value>Glasses</value>
+  </data>
+  <data name="Lens_Obj_Iris" xml:space="preserve">
+    <value>Iris and pupil</value>
+  </data>
+  <data name="Lens_Obj_Lens" xml:space="preserve">
+    <value>Lens</value>
+  </data>
+  <data name="Lens_Obj_Meter" xml:space="preserve">
+    <value>Exposure meter</value>
+  </data>
+  <data name="Lens_Obj_NearPoint" xml:space="preserve">
+    <value>Near point</value>
+  </data>
+  <data name="Lens_Obj_Photo" xml:space="preserve">
+    <value>The photo</value>
+  </data>
+  <data name="Lens_Obj_Ray1" xml:space="preserve">
+    <value>Parallel ray</value>
+  </data>
+  <data name="Lens_Obj_Ray2" xml:space="preserve">
+    <value>Ray through the centre</value>
+  </data>
+  <data name="Lens_Obj_Ray3" xml:space="preserve">
+    <value>Ray through the focus</value>
+  </data>
+  <data name="Lens_Obj_RealImage" xml:space="preserve">
+    <value>Real image</value>
+  </data>
+  <data name="Lens_Obj_Retina" xml:space="preserve">
+    <value>Retina</value>
+  </data>
+  <data name="Lens_Obj_RetinalImage" xml:space="preserve">
+    <value>The image on the retina</value>
+  </data>
+  <data name="Lens_Obj_Screen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Lens_Obj_ScreenView" xml:space="preserve">
+    <value>On the screen</value>
+  </data>
+  <data name="Lens_Obj_Sensor" xml:space="preserve">
+    <value>Sensor</value>
+  </data>
+  <data name="Lens_Obj_Shutter" xml:space="preserve">
+    <value>Shutter</value>
+  </data>
+  <data name="Lens_Obj_Subject" xml:space="preserve">
+    <value>Tap to focus</value>
+  </data>
+  <data name="Lens_Obj_TwoF" xml:space="preserve">
+    <value>Twice the focal length</value>
+  </data>
+  <data name="Lens_Obj_View" xml:space="preserve">
+    <value>What you see</value>
+  </data>
+  <data name="Lens_Obj_VirtualImage" xml:space="preserve">
+    <value>Virtual image</value>
+  </data>
+  <data name="Lens_Obj_Vitreous" xml:space="preserve">
+    <value>Vitreous humour</value>
+  </data>
+  <data name="Lens_ObjectDistance" xml:space="preserve">
+    <value>Distance from the lens (u)</value>
+  </data>
+  <data name="Lens_Option_Colours" xml:space="preserve">
+    <value>Colours</value>
+  </data>
+  <data name="Lens_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Lens_Option_Screen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Lens_PlayPause" xml:space="preserve">
+    <value>Play or pause (Space)</value>
+  </data>
+  <data name="Lens_Preset_Camera" xml:space="preserve">
+    <value>Camera: beyond 2F</value>
+  </data>
+  <data name="Lens_Preset_Copier" xml:space="preserve">
+    <value>At 2F</value>
+  </data>
+  <data name="Lens_Preset_Magnifier" xml:space="preserve">
+    <value>Magnifier: inside F</value>
+  </data>
+  <data name="Lens_Preset_Projector" xml:space="preserve">
+    <value>Projector: F to 2F</value>
+  </data>
+  <data name="Lens_Rays_Caption" xml:space="preserve">
+    <value>The light</value>
+  </data>
+  <data name="Lens_Rays_Fan" xml:space="preserve">
+    <value>Many rays</value>
+  </data>
+  <data name="Lens_Rays_Note" xml:space="preserve">
+    <value>Many rays and sunlight are traced through a real glass lens, with Snell's law at both faces: the rays near the edge meet a little nearer (spherical aberration). In colour, the glass's spread of colours is shown 6 times larger.</value>
+  </data>
+  <data name="Lens_Rays_Principal" xml:space="preserve">
+    <value>Three rays</value>
+  </data>
+  <data name="Lens_Rays_Sunlight" xml:space="preserve">
+    <value>Sunlight</value>
+  </data>
+  <data name="Lens_Readout" xml:space="preserve">
+    <value>{0} mm   {1}   {2}   ISO {3}</value>
+  </data>
+  <data name="Lens_Scene_Caption" xml:space="preserve">
+    <value>The light on the scene</value>
+  </data>
+  <data name="Lens_Scene_Cloud" xml:space="preserve">
+    <value>Cloudy</value>
+  </data>
+  <data name="Lens_Scene_Dusk" xml:space="preserve">
+    <value>Dusk</value>
+  </data>
+  <data name="Lens_Scene_Night" xml:space="preserve">
+    <value>Night street</value>
+  </data>
+  <data name="Lens_Scene_Sun" xml:space="preserve">
+    <value>Sunny</value>
+  </data>
+  <data name="Lens_ScreenDistance" xml:space="preserve">
+    <value>Distance behind the lens</value>
+  </data>
+  <data name="Lens_Screen_Caption" xml:space="preserve">
+    <value>The screen</value>
+  </data>
+  <data name="Lens_Shutter" xml:space="preserve">
+    <value>Shutter</value>
+  </data>
+  <data name="Lens_Stat_Accommodation" xml:space="preserve">
+    <value>Focusing used</value>
+  </data>
+  <data name="Lens_Stat_Acuity" xml:space="preserve">
+    <value>Sharpness (rough)</value>
+  </data>
+  <data name="Lens_Stat_Aperture" xml:space="preserve">
+    <value>Aperture</value>
+  </data>
+  <data name="Lens_Stat_Blur" xml:space="preserve">
+    <value>Blur on the screen</value>
+  </data>
+  <data name="Lens_Stat_CameraFocal" xml:space="preserve">
+    <value>Focal length</value>
+  </data>
+  <data name="Lens_Stat_Distance" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="Lens_Stat_Dof" xml:space="preserve">
+    <value>Depth of field</value>
+  </data>
+  <data name="Lens_Stat_Equation" xml:space="preserve">
+    <value>1/u + 1/v = 1/f</value>
+  </data>
+  <data name="Lens_Stat_Exposure" xml:space="preserve">
+    <value>Exposure</value>
+  </data>
+  <data name="Lens_Stat_EyeLength" xml:space="preserve">
+    <value>Eye length</value>
+  </data>
+  <data name="Lens_Stat_FarPoint" xml:space="preserve">
+    <value>Far point</value>
+  </data>
+  <data name="Lens_Stat_Focal" xml:space="preserve">
+    <value>Focal length</value>
+  </data>
+  <data name="Lens_Stat_Focus" xml:space="preserve">
+    <value>Focused at</value>
+  </data>
+  <data name="Lens_Stat_FocusError" xml:space="preserve">
+    <value>Out of focus by</value>
+  </data>
+  <data name="Lens_Stat_Fov" xml:space="preserve">
+    <value>Field of view</value>
+  </data>
+  <data name="Lens_Stat_Glasses" xml:space="preserve">
+    <value>Glasses</value>
+  </data>
+  <data name="Lens_Stat_Hyperfocal" xml:space="preserve">
+    <value>Hyperfocal distance</value>
+  </data>
+  <data name="Lens_Stat_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Lens_Stat_ImageHeight" xml:space="preserve">
+    <value>Image height</value>
+  </data>
+  <data name="Lens_Stat_Iso" xml:space="preserve">
+    <value>ISO</value>
+  </data>
+  <data name="Lens_Stat_LensPower" xml:space="preserve">
+    <value>Lens power</value>
+  </data>
+  <data name="Lens_Stat_LensToSensor" xml:space="preserve">
+    <value>Lens to sensor</value>
+  </data>
+  <data name="Lens_Stat_Magnification" xml:space="preserve">
+    <value>Magnification</value>
+  </data>
+  <data name="Lens_Stat_NearPoint" xml:space="preserve">
+    <value>Near point</value>
+  </data>
+  <data name="Lens_Stat_Power" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="Lens_Stat_Pupil" xml:space="preserve">
+    <value>Pupil</value>
+  </data>
+  <data name="Lens_Stat_Screen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Lens_Stat_Shutter" xml:space="preserve">
+    <value>Shutter</value>
+  </data>
+  <data name="Lens_Stat_Smear" xml:space="preserve">
+    <value>Ball's smear</value>
+  </data>
+  <data name="Lens_Stat_U" xml:space="preserve">
+    <value>Candle (u)</value>
+  </data>
+  <data name="Lens_Stat_V" xml:space="preserve">
+    <value>Image (v)</value>
+  </data>
+  <data name="Lens_Tick_10cm" xml:space="preserve">
+    <value>10 cm</value>
+  </data>
+  <data name="Lens_Tick_10m" xml:space="preserve">
+    <value>10 m</value>
+  </data>
+  <data name="Lens_Tick_1m" xml:space="preserve">
+    <value>1 m</value>
+  </data>
+  <data name="Lens_Tick_25cm" xml:space="preserve">
+    <value>25 cm</value>
+  </data>
+  <data name="Lens_Tick_30m" xml:space="preserve">
+    <value>30 m</value>
+  </data>
+  <data name="Lens_Tick_3m" xml:space="preserve">
+    <value>3 m</value>
+  </data>
+  <data name="Lens_Tick_50cm" xml:space="preserve">
+    <value>50 cm</value>
+  </data>
+  <data name="Lens_Tick_6m" xml:space="preserve">
+    <value>6 m</value>
+  </data>
+  <data name="Lens_Title" xml:space="preserve">
+    <value>Lenses, the eye and the camera</value>
+  </data>
+  <data name="Lens_Value_Accommodation" xml:space="preserve">
+    <value>{0} of {1} D</value>
+  </data>
+  <data name="Lens_Value_Acuity" xml:space="preserve">
+    <value>about {0} (20/{1})</value>
+  </data>
+  <data name="Lens_Value_Age" xml:space="preserve">
+    <value>{0} years</value>
+  </data>
+  <data name="Lens_Value_ApertureSize" xml:space="preserve">
+    <value>{0}, {1} mm across</value>
+  </data>
+  <data name="Lens_Value_AtF" xml:space="preserve">
+    <value>at F</value>
+  </data>
+  <data name="Lens_Value_Behind" xml:space="preserve">
+    <value>{0} behind the lens</value>
+  </data>
+  <data name="Lens_Value_BeyondInfinity" xml:space="preserve">
+    <value>none: farther than infinity (long sight)</value>
+  </data>
+  <data name="Lens_Value_Cm" xml:space="preserve">
+    <value>{0} cm</value>
+  </data>
+  <data name="Lens_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Lens_Value_Dioptres" xml:space="preserve">
+    <value>{0} D</value>
+  </data>
+  <data name="Lens_Value_ExposureRight" xml:space="preserve">
+    <value>just right</value>
+  </data>
+  <data name="Lens_Value_Focal" xml:space="preserve">
+    <value>{0} ({1} D)</value>
+  </data>
+  <data name="Lens_Value_FromF" xml:space="preserve">
+    <value>seems to come from F</value>
+  </data>
+  <data name="Lens_Value_Hyperopia" xml:space="preserve">
+    <value>Long-sighted, {0} D</value>
+  </data>
+  <data name="Lens_Value_InFront" xml:space="preserve">
+    <value>{0} in front (virtual)</value>
+  </data>
+  <data name="Lens_Value_Infinity" xml:space="preserve">
+    <value>∞</value>
+  </data>
+  <data name="Lens_Value_Inverted" xml:space="preserve">
+    <value>×{0}, upside down</value>
+  </data>
+  <data name="Lens_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Lens_Value_M" xml:space="preserve">
+    <value>{0} m</value>
+  </data>
+  <data name="Lens_Value_Mm" xml:space="preserve">
+    <value>{0} mm</value>
+  </data>
+  <data name="Lens_Value_Myopia" xml:space="preserve">
+    <value>Short-sighted, {0} D</value>
+  </data>
+  <data name="Lens_Value_NoError" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Lens_Value_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Lens_Value_Over" xml:space="preserve">
+    <value>{0} stops too bright</value>
+  </data>
+  <data name="Lens_Value_Range" xml:space="preserve">
+    <value>{0} to {1}</value>
+  </data>
+  <data name="Lens_Value_RangeToInfinity" xml:space="preserve">
+    <value>{0} to infinity</value>
+  </data>
+  <data name="Lens_Value_S" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Lens_Value_Sharp" xml:space="preserve">
+    <value>sharp</value>
+  </data>
+  <data name="Lens_Value_Smear" xml:space="preserve">
+    <value>{0} ball widths</value>
+  </data>
+  <data name="Lens_Value_Under" xml:space="preserve">
+    <value>{0} stops too dark</value>
+  </data>
+  <data name="Lens_Value_Upright" xml:space="preserve">
+    <value>×{0}, upright</value>
+  </data>
   <data name="Lesson_Close" xml:space="preserve">
     <value>Close</value>
   </data>
@@ -10262,6 +11171,234 @@
   </data>
   <data name="Narr_Kepler_Periods_07" xml:space="preserve">
     <value>This rule works for every planet. Later, Isaac Newton showed where it comes from: the Sun's gravity gets weaker the farther away you are. The table on the left page checks it for each planet.</value>
+  </data>
+  <data name="Narr_Lens_Bench_01" xml:space="preserve">
+    <value>Here's a convex lens, thicker in the middle than at the edges. On the left stands a candle, on the line through the middle of the lens, called the axis. Let's follow the light from the tip of its flame.</value>
+  </data>
+  <data name="Narr_Lens_Bench_02" xml:space="preserve">
+    <value>Start with the gold ray. It leaves the flame parallel to the axis. The lens bends it, and on the far side it passes through a special point.</value>
+  </data>
+  <data name="Narr_Lens_Bench_03" xml:space="preserve">
+    <value>That point is the focus, F. Every ray that arrives parallel to the axis is bent through it. Its distance from the lens is the focal length, here fifteen centimetres.</value>
+  </data>
+  <data name="Narr_Lens_Bench_04" xml:space="preserve">
+    <value>Now the blue ray. It goes through the very centre of the lens, where the two faces are almost parallel, so it carries straight on without bending.</value>
+  </data>
+  <data name="Narr_Lens_Bench_05" xml:space="preserve">
+    <value>And the pink ray. It passes through the focus on the near side first, and the lens turns it parallel to the axis. It's the gold ray, run backwards.</value>
+  </data>
+  <data name="Narr_Lens_Bench_06" xml:space="preserve">
+    <value>Where the three rays meet again, the flame forms an image. Notice that it's upside down, and smaller than the candle. With the candle beyond twice the focal length, this is just how a camera works.</value>
+  </data>
+  <data name="Narr_Lens_Bench_07" xml:space="preserve">
+    <value>Here's a question. If the candle moves closer, between F and 2F, what do you think happens to the image?</value>
+  </data>
+  <data name="Narr_Lens_Bench_08" xml:space="preserve">
+    <value>The image grows and moves farther from the lens. Now it's even bigger than the candle itself. A projector works this way, throwing a large picture onto a wall.</value>
+  </data>
+  <data name="Narr_Lens_Bench_09" xml:space="preserve">
+    <value>Now the candle is inside the focal point. After the lens, the rays still spread apart and never meet. But trace them backwards, and they seem to come from a bigger, upright candle. That's a virtual image, the one you see through a magnifying glass.</value>
+  </data>
+  <data name="Narr_Lens_Bench_10" xml:space="preserve">
+    <value>A real image can be caught on a screen, but only in the right place. This screen is a little too far, so the light from each point has already spread out. Look at the picture in the corner: it's blurred.</value>
+  </data>
+  <data name="Narr_Lens_Bench_11" xml:space="preserve">
+    <value>Finally, a concave lens. It's thinner in the middle and spreads light out, so wherever the candle stands, you only get a small, upright, virtual image. Glasses for short sight use lenses like this.</value>
+  </data>
+  <data name="Narr_Lens_Bench_12" xml:space="preserve">
+    <value>Your turn. The screen is in the wrong place again. Drag the candle or the screen until the picture in the corner becomes sharp.</value>
+  </data>
+  <data name="Narr_Lens_Camera_01" xml:space="preserve">
+    <value>A camera works a lot like an eye. Its lens gathers light from the scene and forms an image on the sensor at the back, upside down, just as on the retina.</value>
+  </data>
+  <data name="Narr_Lens_Camera_02" xml:space="preserve">
+    <value>But a camera can't change the shape of its lens. To focus, it moves the whole lens instead. Light from near things meets farther back, so focusing close moves the lens forward.</value>
+  </data>
+  <data name="Narr_Lens_Camera_03" xml:space="preserve">
+    <value>Here it's focused on the person, five metres away. Their light meets exactly on the sensor, so in the photo they're sharp.</value>
+  </data>
+  <data name="Narr_Lens_Camera_04" xml:space="preserve">
+    <value>Light from the branch close by would meet behind the sensor. The sensor cuts its cone short, so each point lands as a little disc, called a blur circle. That's why the branch looks soft.</value>
+  </data>
+  <data name="Narr_Lens_Camera_05" xml:space="preserve">
+    <value>This is the aperture, the hole the light comes through. Open it wide, to f one point four, and the cones get fatter. Everything out of focus blurs much more.</value>
+  </data>
+  <data name="Narr_Lens_Camera_06" xml:space="preserve">
+    <value>Close it down to f eleven, and the cones get thin. Now much more of the scene looks sharp. This sharp zone is called the depth of field.</value>
+  </data>
+  <data name="Narr_Lens_Camera_07" xml:space="preserve">
+    <value>Quick question. For a portrait with a soft, blurry background, what should you do?</value>
+  </data>
+  <data name="Narr_Lens_Camera_08" xml:space="preserve">
+    <value>Now the light is fading, and the shutter stays open for a fifteenth of a second. The ball keeps moving while it's open, so it smears into a streak.</value>
+  </data>
+  <data name="Narr_Lens_Camera_09" xml:space="preserve">
+    <value>A thousandth of a second freezes the ball. But so little light gets in that the photo is nearly black. Look at the meter: we're about six stops short.</value>
+  </data>
+  <data name="Narr_Lens_Camera_10" xml:space="preserve">
+    <value>Raising the ISO amplifies the signal to make up for it, but the noise is amplified too, so the photo turns grainy. Aperture, shutter and ISO always trade against each other.</value>
+  </data>
+  <data name="Narr_Lens_Camera_11" xml:space="preserve">
+    <value>Last, the focal length. A long, two hundred millimetre lens sees only a narrow slice of the scene and makes it big. A short lens sees wide.</value>
+  </data>
+  <data name="Narr_Lens_Camera_12" xml:space="preserve">
+    <value>Your turn. Click something in the photo to focus on it, or change the aperture, the shutter or the zoom, and see how the picture changes.</value>
+  </data>
+  <data name="Narr_Lens_Eye_01" xml:space="preserve">
+    <value>This is an eye, cut in half and seen from the side. Light from the chart on the left comes in through the cornea, the clear dome at the front.</value>
+  </data>
+  <data name="Narr_Lens_Eye_02" xml:space="preserve">
+    <value>Behind the cornea, the coloured iris leaves a round hole, the pupil. It narrows in bright light and opens wide in the dark, like a camera's aperture.</value>
+  </data>
+  <data name="Narr_Lens_Eye_03" xml:space="preserve">
+    <value>The cornea does most of the bending. Then the lens behind the pupil fine-tunes it, so the light from each point of the chart meets again on the retina at the back.</value>
+  </data>
+  <data name="Narr_Lens_Eye_04" xml:space="preserve">
+    <value>Look at the image on the retina. It's upside down! The gold light from the top of the chart lands at the bottom. Your brain quietly turns it the right way up.</value>
+  </data>
+  <data name="Narr_Lens_Eye_05" xml:space="preserve">
+    <value>Now the chart comes close, a quarter of a metre away. Light from near things spreads out more, so the eye has to bend it harder. The ciliary muscle tightens, and the lens bulges. This is called accommodation.</value>
+  </data>
+  <data name="Narr_Lens_Eye_06" xml:space="preserve">
+    <value>But there's a limit, called the near point. Any closer, and the lens can't bulge any more, so things blur. At twenty years old, it's less than ten centimetres away.</value>
+  </data>
+  <data name="Narr_Lens_Eye_07" xml:space="preserve">
+    <value>As we age, the lens stiffens. At sixty, the near point has moved out to a couple of metres, so a book at reading distance is a blur. That's why older people need reading glasses.</value>
+  </data>
+  <data name="Narr_Lens_Eye_08" xml:space="preserve">
+    <value>Now imagine this eye were a little too long, as happens in short sight. Where do you think the light from a far chart would meet?</value>
+  </data>
+  <data name="Narr_Lens_Eye_09" xml:space="preserve">
+    <value>It meets in front of the retina, then spreads out again, so far things blur. That's short sight. This eye only sees clearly out to its far point, about a third of a metre away.</value>
+  </data>
+  <data name="Narr_Lens_Eye_10" xml:space="preserve">
+    <value>Glasses fix it. A concave lens in front spreads the light out a little first, so the eye focuses it right on the retina again, and the far chart is sharp.</value>
+  </data>
+  <data name="Narr_Lens_Eye_11" xml:space="preserve">
+    <value>Your turn. Drag the chart nearer or farther, or change the age, the eye or the glasses, and watch what the lens does.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Aberration" xml:space="preserve">
+    <value>Real lenses have spherical faces, and rays through the edge are bent a little too much. They cross the axis nearer the lens than the middle rays, so the focus is a short smear instead of a point.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Aperture" xml:space="preserve">
+    <value>Blades inside the lens make an adjustable hole. The f-number is the focal length divided by the hole's width, so a small f-number means a big hole: more light, and a shallower zone of sharpness.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Axis" xml:space="preserve">
+    <value>This line through the middle of the lens is the optical axis. A ray along it goes straight through without bending, and all the distances are measured along it.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ball" xml:space="preserve">
+    <value>The ball keeps moving while the shutter is open, so it's recorded as a streak. A faster shutter freezes it; a slower one smears it more.</value>
+  </data>
+  <data name="Narr_Lens_Obj_BlindSpot" xml:space="preserve">
+    <value>Where the optic nerve leaves the eye, there's no room for light-sensitive cells. Light landing here isn't seen at all, but the brain fills in the gap, so you never notice.</value>
+  </data>
+  <data name="Narr_Lens_Obj_BlurCircle" xml:space="preserve">
+    <value>Light from the nearby branch would meet behind the sensor. Cut short by the sensor, its cone lands as a little disc. Every point of the branch becomes a disc like this, so the branch looks soft.</value>
+  </data>
+  <data name="Narr_Lens_Obj_CameraLens" xml:space="preserve">
+    <value>A camera lens is several pieces of glass working together as one convex lens. To focus closer, the whole lens moves a little forward, away from the sensor.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Candle" xml:space="preserve">
+    <value>Every point of the flame sends light out in all directions. The lens catches a cone of it and bends it. Drag the candle and see how the image moves.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Centre" xml:space="preserve">
+    <value>At the very middle of the lens its two faces are parallel, like a thin window. A ray through here goes straight on.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Chart" xml:space="preserve">
+    <value>This is the chart we're looking at. Drag it along the track, from very close to far away, and watch the lens change its shape.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Chromatic" xml:space="preserve">
+    <value>Glass bends blue light more than red, so blue focuses a little nearer the lens. Here the effect is drawn six times stronger. It gives cheap lenses coloured fringes.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ciliary" xml:space="preserve">
+    <value>This ring of muscle holds the lens by fine fibres. When it relaxes, the fibres pull the lens flat for far vision. When it tightens, they slacken, and the lens bulges to focus near. Long reading tires it.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Cornea" xml:space="preserve">
+    <value>The cornea is the clear front window of the eye. Light bends most here, going from air into the eye, so it does about two thirds of all the focusing. Laser eye surgery reshapes it.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Dof" xml:space="preserve">
+    <value>Between these limits, the blur circles are too small to notice, so everything here looks sharp. A smaller aperture, a shorter lens or a farther focus all make it deeper.</value>
+  </data>
+  <data name="Narr_Lens_Obj_EyeLens" xml:space="preserve">
+    <value>The eye's own lens is soft and elastic, and it can change its shape: flatter for far things, rounder for near ones. That fine-tunes the focus.</value>
+  </data>
+  <data name="Narr_Lens_Obj_FarPoint" xml:space="preserve">
+    <value>The farthest place this eye sees clearly when it is fully relaxed. For a normal eye it's at infinity. A short-sighted eye's far point is close: at minus three dioptres, only a third of a metre.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Focus" xml:space="preserve">
+    <value>Light arriving parallel to the axis is brought together here, at the focal point. Its distance from the lens is the focal length. The shorter it is, the stronger the lens.</value>
+  </data>
+  <data name="Narr_Lens_Obj_FocusMark" xml:space="preserve">
+    <value>The camera is focused at this distance: light from here meets exactly on the sensor. Drag the pin, or click something in the photo, to focus there.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Fov" xml:space="preserve">
+    <value>A short focal length sees a wide angle and makes everything small; a long one sees a narrow slice and makes it big. That's what a zoom changes.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Fovea" xml:space="preserve">
+    <value>This small pit is packed with cone cells, so it sees the finest detail and the best colour. Whatever you look straight at lands here.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Glasses" xml:space="preserve">
+    <value>Glasses add a little bending in front of the eye. A concave lens spreads light for short sight; a convex one adds bending for long sight, or for reading.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Iris" xml:space="preserve">
+    <value>The coloured iris is a ring of muscle, and the hole in its middle is the pupil. In bright light it shrinks to about two millimetres; in the dark it opens to six or more. A small pupil also makes blur smaller.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Lens" xml:space="preserve">
+    <value>A lens is a piece of glass with curved faces. Light slows down in glass, so it bends where it goes in and where it comes out. A convex lens, thicker in the middle, brings light together; a concave one, thinner in the middle, spreads it apart.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Meter" xml:space="preserve">
+    <value>The meter compares the light the settings let in with what this scene needs. Each mark is one stop, a doubling or halving of the light. Zero is just right.</value>
+  </data>
+  <data name="Narr_Lens_Obj_NearPoint" xml:space="preserve">
+    <value>The closest place this eye can still focus, with its lens as round as it gets. It moves away with age, from under ten centimetres in children to beyond arm's length after sixty.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Photo" xml:space="preserve">
+    <value>This is the picture the sensor records. Focus, depth of field, motion blur, brightness and grain all come from the settings. Click anything in it to focus there.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ray1" xml:space="preserve">
+    <value>This ray sets off parallel to the axis. A convex lens bends it through the focal point on the far side; a concave lens bends it away, as if it came from the near focal point.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ray2" xml:space="preserve">
+    <value>This ray passes through the centre of the lens and carries straight on. It makes finding the image easy: the image of the flame's tip lies somewhere on this line.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ray3" xml:space="preserve">
+    <value>This ray passes through the near focal point before the lens, and the lens turns it parallel to the axis. It's the parallel ray, run backwards.</value>
+  </data>
+  <data name="Narr_Lens_Obj_RealImage" xml:space="preserve">
+    <value>Here the light really does come together again, so you can catch it on a screen. A real image made by one lens is always upside down.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Retina" xml:space="preserve">
+    <value>The retina lines the back of the eye with light-sensitive cells, more than a hundred million of them. The picture formed here is turned into nerve signals.</value>
+  </data>
+  <data name="Narr_Lens_Obj_RetinalImage" xml:space="preserve">
+    <value>The image on the retina is real, small and upside down: light from the top of the chart lands at the bottom. Your brain turns it the right way up.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Screen" xml:space="preserve">
+    <value>A white card that catches light. Where the light from each point of the flame meets on it, you see a sharp picture. Move it away, and each point spreads into a blurry patch.</value>
+  </data>
+  <data name="Narr_Lens_Obj_ScreenView" xml:space="preserve">
+    <value>This is what the screen shows, enlarged. Notice that the candle is upside down, and that it blurs as the screen moves away from the image.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Sensor" xml:space="preserve">
+    <value>Millions of tiny light sensors, one for each pixel, sit here, where the retina would be in an eye. The image on it is upside down; the camera simply flips the numbers.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Shutter" xml:space="preserve">
+    <value>The shutter decides how long light falls on the sensor, from a few thousandths of a second to whole seconds. Longer lets in more light, but moving things smear.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Subject" xml:space="preserve">
+    <value>The camera now focuses on this. Things nearer or farther blur, more so with a wide aperture. It's what happens when you tap the screen of a phone camera.</value>
+  </data>
+  <data name="Narr_Lens_Obj_TwoF" xml:space="preserve">
+    <value>This mark is two focal lengths from the lens. A candle here makes an image of the same size, at 2F on the other side. Beyond it the image is smaller; inside it, bigger.</value>
+  </data>
+  <data name="Narr_Lens_Obj_View" xml:space="preserve">
+    <value>This is the chart as this eye sees it. When the light doesn't meet on the retina, each point spreads into a small disc, and the smallest rows blur first.</value>
+  </data>
+  <data name="Narr_Lens_Obj_VirtualImage" xml:space="preserve">
+    <value>No light actually reaches this place. The rays only seem to come from it when you look back through the lens, so no screen can catch it. A magnifying glass shows you one.</value>
+  </data>
+  <data name="Narr_Lens_Obj_Vitreous" xml:space="preserve">
+    <value>Most of the eye is filled with a clear jelly that keeps it round. Light crosses it on the way to the retina.</value>
   </data>
   <data name="Narr_Lightning_Cloud_01" xml:space="preserve">
     <value>This is a thundercloud cut in half, thirty-six kilometres across and drawn to scale. Its top reaches twelve kilometres up, where it's colder than minus forty degrees.</value>

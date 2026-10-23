@@ -7107,6 +7107,915 @@
   <data name="Kepler_YourAxis_Value" xml:space="preserve">
     <value>{0} AU · {1}</value>
   </data>
+  <data name="Lens_Age" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="Lens_Auto" xml:space="preserve">
+    <value>自动曝光</value>
+  </data>
+  <data name="Lens_Auto_Tooltip" xml:space="preserve">
+    <value>选择让这个场景曝光正确的快门时间</value>
+  </data>
+  <data name="Lens_Bench_Concave_Text" xml:space="preserve">
+    <value>无论蜡烛在哪里，凹透镜都让光发散。光线好像是从靠近透镜的一支正立、缩小的蜡烛发出的。近视眼镜就是凹透镜。</value>
+  </data>
+  <data name="Lens_Bench_Concave_Title" xml:space="preserve">
+    <value>正立、缩小的虚像</value>
+  </data>
+  <data name="Lens_Bench_Fact1" xml:space="preserve">
+    <value>1/u + 1/v = 1/f：蜡烛越靠近焦点，像就越远、越大。</value>
+  </data>
+  <data name="Lens_Bench_Fact2" xml:space="preserve">
+    <value>透镜的光焦度（屈光度 D）等于焦距（米）的倒数：焦距 10 厘米的透镜是 10 D。</value>
+  </data>
+  <data name="Lens_Bench_Fact3" xml:space="preserve">
+    <value>单个透镜成的实像总是倒立的，虚像总是正立的。</value>
+  </data>
+  <data name="Lens_Bench_Fact4" xml:space="preserve">
+    <value>玻璃对紫光的折射比红光强，所以简单透镜对不同颜色的焦点略有不同。相机镜头用两种玻璃组合来抵消这种色差。</value>
+  </data>
+  <data name="Lens_Bench_Fact5" xml:space="preserve">
+    <value>凸透镜能取火，是因为它把落在整个镜面上的阳光集中到一个小光斑里。</value>
+  </data>
+  <data name="Lens_Bench_Larger_Text" xml:space="preserve">
+    <value>物体在 F 与 2F 之间，像在 2F 以外：倒立、放大。投影仪就把画面倒着放在这里，投出来才是正的。</value>
+  </data>
+  <data name="Lens_Bench_Larger_Title" xml:space="preserve">
+    <value>倒立、放大的实像</value>
+  </data>
+  <data name="Lens_Bench_Magnifier_Text" xml:space="preserve">
+    <value>物体在焦点以内，光线经透镜后仍然分散。透过透镜看去，眼睛沿光线反向延长，看到同一侧一支正立、放大的蜡烛：虚像，光屏接不到它。这就是放大镜。</value>
+  </data>
+  <data name="Lens_Bench_Magnifier_Title" xml:space="preserve">
+    <value>正立、放大的虚像</value>
+  </data>
+  <data name="Lens_Bench_None_Text" xml:space="preserve">
+    <value>蜡烛在焦点上时，光线经透镜后平行射出，再也不会相交。手电筒和灯塔就是利用这一点发出平行光束的。</value>
+  </data>
+  <data name="Lens_Bench_None_Title" xml:space="preserve">
+    <value>不成像</value>
+  </data>
+  <data name="Lens_Bench_Note" xml:space="preserve">
+    <value>长度单位为厘米，高度放大 4 倍绘制。三条特殊光线在透镜中间平面处偏折（薄透镜）。</value>
+  </data>
+  <data name="Lens_Bench_Same_Text" xml:space="preserve">
+    <value>物体正好在两倍焦距处，像也在另一侧两倍焦距处，大小相同，只是倒立。</value>
+  </data>
+  <data name="Lens_Bench_Same_Title" xml:space="preserve">
+    <value>倒立、等大的实像</value>
+  </data>
+  <data name="Lens_Bench_Smaller_Text" xml:space="preserve">
+    <value>蜡烛在两倍焦距以外，像落在另一侧的 F 与 2F 之间：倒立、缩小。照相机和眼睛就是这样成像的。</value>
+  </data>
+  <data name="Lens_Bench_Smaller_Title" xml:space="preserve">
+    <value>倒立、缩小的实像</value>
+  </data>
+  <data name="Lens_Bench_Subtitle" xml:space="preserve">
+    <value>透镜怎样成像</value>
+  </data>
+  <data name="Lens_Bench_Sunlight_Text" xml:space="preserve">
+    <value>太阳光是平行光，凸透镜把它会聚到焦点 F（凹透镜则让它发散，好像从 F 发出）。真实的玻璃透镜中，靠近边缘的光线比中间的光线会聚得略近一些。</value>
+  </data>
+  <data name="Lens_Bench_Sunlight_Title" xml:space="preserve">
+    <value>平行光会聚于焦点</value>
+  </data>
+  <data name="Lens_CameraLens_Caption" xml:space="preserve">
+    <value>镜头</value>
+  </data>
+  <data name="Lens_Camera_Bright_Text" xml:space="preserve">
+    <value>光太多，亮的地方变成一片白。可以用更快的快门、更小的光圈（更大的 f 值）或更低的 ISO，或者按“自动曝光”。</value>
+  </data>
+  <data name="Lens_Camera_Bright_Title" xml:space="preserve">
+    <value>曝光过度</value>
+  </data>
+  <data name="Lens_Camera_Dark_Text" xml:space="preserve">
+    <value>光太少。可以用更慢的快门、更大的光圈（更小的 f 值）或更高的 ISO，或者按“自动曝光”。</value>
+  </data>
+  <data name="Lens_Camera_Dark_Title" xml:space="preserve">
+    <value>曝光不足</value>
+  </data>
+  <data name="Lens_Camera_Fact1" xml:space="preserve">
+    <value>f 值等于焦距除以光圈孔径：50 毫米镜头在 f/2 时孔径为 25 毫米。</value>
+  </data>
+  <data name="Lens_Camera_Fact2" xml:space="preserve">
+    <value>每一整档（f/2.8 到 f/4，1/250 到 1/125，ISO 100 到 200）光量减半或加倍。</value>
+  </data>
+  <data name="Lens_Camera_Fact3" xml:space="preserve">
+    <value>对焦在超焦距上，从超焦距的一半到无穷远都会清晰。</value>
+  </data>
+  <data name="Lens_Camera_Fact4" xml:space="preserve">
+    <value>手机镜头焦距只有几毫米，景深很大，所以手机的背景虚化主要靠软件计算。</value>
+  </data>
+  <data name="Lens_Camera_Fact5" xml:space="preserve">
+    <value>暗室的墙上开一个小孔，不用透镜也能在对面墙上得到同样倒立的像，这就是小孔成像。</value>
+  </data>
+  <data name="Lens_Camera_Good_Text" xml:space="preserve">
+    <value>光圈、快门和 ISO 为这个场景放进了刚好的光量。</value>
+  </data>
+  <data name="Lens_Camera_Good_Title" xml:space="preserve">
+    <value>曝光正确</value>
+  </data>
+  <data name="Lens_Camera_Note" xml:space="preserve">
+    <value>全画幅相机。轨道上的距离被压缩，镜头后的距离被拉长，以便看清对焦；照片本身按真实比例生成。</value>
+  </data>
+  <data name="Lens_Camera_Panel_Note" xml:space="preserve">
+    <value>光圈、快门或 ISO 每变一档，光量就加倍或减半。传感器上小于 0.03 毫米的模糊算作清晰。小球以每秒 4 米的速度飞过。</value>
+  </data>
+  <data name="Lens_Camera_SharpRange" xml:space="preserve">
+    <value>清晰范围：{0} 至 {1}。</value>
+  </data>
+  <data name="Lens_Camera_SharpToInfinity" xml:space="preserve">
+    <value>清晰范围：{0} 至无穷远。</value>
+  </data>
+  <data name="Lens_Camera_Subtitle" xml:space="preserve">
+    <value>对焦、光圈与快门</value>
+  </data>
+  <data name="Lens_Candle_Caption" xml:space="preserve">
+    <value>蜡烛</value>
+  </data>
+  <data name="Lens_Chart_AgeAxis" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="Lens_Chart_AlwaysVirtual" xml:space="preserve">
+    <value>凹透镜：总是虚像</value>
+  </data>
+  <data name="Lens_Chart_AmplitudeAxis" xml:space="preserve">
+    <value>调节幅度 D</value>
+  </data>
+  <data name="Lens_Chart_Bench_Caption" xml:space="preserve">
+    <value>像在哪里</value>
+  </data>
+  <data name="Lens_Chart_Bench_Note" xml:space="preserve">
+    <value>两轴都以焦距为单位。金色：透镜后的实像；蓝色：透镜前的虚像。拖动圆点可以移动蜡烛。</value>
+  </data>
+  <data name="Lens_Chart_Camera_Caption" xml:space="preserve">
+    <value>不同光圈下的清晰范围</value>
+  </data>
+  <data name="Lens_Chart_Camera_Note" xml:space="preserve">
+    <value>在当前焦距和对焦距离下，绿色带从最近的清晰距离延伸到最远的清晰距离。拖动可以改变光圈。</value>
+  </data>
+  <data name="Lens_Chart_CandleAxis" xml:space="preserve">
+    <value>物距 u</value>
+  </data>
+  <data name="Lens_Chart_Eye_Caption" xml:space="preserve">
+    <value>不同年龄的调节能力</value>
+  </data>
+  <data name="Lens_Chart_Eye_Note" xml:space="preserve">
+    <value>调节幅度，单位为屈光度（Hofstetter 平均值及个体差异范围），近点距离（米）是它的倒数。低于橙线时，在 40 厘米处读书就需要老花镜。拖动圆点可以改变年龄。</value>
+  </data>
+  <data name="Lens_Chart_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="Lens_Chart_Focus" xml:space="preserve">
+    <value>对焦</value>
+  </data>
+  <data name="Lens_Chart_ImageAxis" xml:space="preserve">
+    <value>像距 v</value>
+  </data>
+  <data name="Lens_Chart_NF" xml:space="preserve">
+    <value>{0}F</value>
+  </data>
+  <data name="Lens_Chart_Reading" xml:space="preserve">
+    <value>在 40 厘米读书</value>
+  </data>
+  <data name="Lens_Chart_RealBelow" xml:space="preserve">
+    <value>0 以下：虚像</value>
+  </data>
+  <data name="Lens_Chart_SharpAxis" xml:space="preserve">
+    <value>从近到远的清晰范围</value>
+  </data>
+  <data name="Lens_Distance" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="Lens_Distance_Board" xml:space="preserve">
+    <value>黑板 6 米</value>
+  </data>
+  <data name="Lens_Distance_Book" xml:space="preserve">
+    <value>书本 33 厘米</value>
+  </data>
+  <data name="Lens_Distance_Close" xml:space="preserve">
+    <value>很近 10 厘米</value>
+  </data>
+  <data name="Lens_Distance_Far" xml:space="preserve">
+    <value>远处</value>
+  </data>
+  <data name="Lens_Distance_Screen" xml:space="preserve">
+    <value>屏幕 60 厘米</value>
+  </data>
+  <data name="Lens_Error" xml:space="preserve">
+    <value>近视或远视</value>
+  </data>
+  <data name="Lens_Error_Hyperopia" xml:space="preserve">
+    <value>远视 200 度</value>
+  </data>
+  <data name="Lens_Error_Myopia" xml:space="preserve">
+    <value>近视 300 度</value>
+  </data>
+  <data name="Lens_Error_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="Lens_Exposure_Caption" xml:space="preserve">
+    <value>曝光</value>
+  </data>
+  <data name="Lens_EyeChart_Caption" xml:space="preserve">
+    <value>视力表</value>
+  </data>
+  <data name="Lens_Eye_Behind_Text" xml:space="preserve">
+    <value>这只眼睛的眼轴相对太短，即使用尽调节也折不够光。这就是远视。凸透镜可以补上不足的折光。</value>
+  </data>
+  <data name="Lens_Eye_Behind_Title" xml:space="preserve">
+    <value>模糊：像成在视网膜后</value>
+  </data>
+  <data name="Lens_Eye_Caption" xml:space="preserve">
+    <value>眼睛</value>
+  </data>
+  <data name="Lens_Eye_Fact1" xml:space="preserve">
+    <value>眼睛约三分之二的折光由角膜完成，晶状体负责其余可调节的部分。</value>
+  </data>
+  <data name="Lens_Eye_Fact2" xml:space="preserve">
+    <value>视网膜上的像是倒立的，大脑学会了把世界“看正”。</value>
+  </data>
+  <data name="Lens_Eye_Fact3" xml:space="preserve">
+    <value>儿童能看清 10 厘米以内的东西；到 45 岁近点约 25 厘米；到 60 岁晶状体几乎不能再调节。</value>
+  </data>
+  <data name="Lens_Eye_Fact4" xml:space="preserve">
+    <value>眼轴每多长约三分之一毫米，近视大约就加深 1 D（100 度）。</value>
+  </data>
+  <data name="Lens_Eye_Fact5" xml:space="preserve">
+    <value>视神经离开眼球的地方没有感光细胞：每个人都有盲点，只是大脑把它补上了。</value>
+  </data>
+  <data name="Lens_Eye_Front_Text" xml:space="preserve">
+    <value>对这个距离来说，眼睛把光折得太厉害，光在视网膜前就会聚又散开。这就是近视，或者戴的眼镜不适合这个距离。凹透镜可以矫正。</value>
+  </data>
+  <data name="Lens_Eye_Front_Title" xml:space="preserve">
+    <value>模糊：像成在视网膜前</value>
+  </data>
+  <data name="Lens_Eye_Note" xml:space="preserve">
+    <value>眼球按真实比例绘制，眼外的距离被压缩。视力表顶端的光画得比实际更斜，以便看清倒立的像。</value>
+  </data>
+  <data name="Lens_Eye_Panel_Note" xml:space="preserve">
+    <value>模型眼：角膜 43 D，放松时晶状体 19 D，各年龄的调节幅度取 Hofstetter 平均值。这里的近视是眼轴过长造成的。常说的“300 度”就是 −3 D。</value>
+  </data>
+  <data name="Lens_Eye_SharpNear_Text" xml:space="preserve">
+    <value>近处的光更加发散，眼睛要用力：睫状肌收缩，晶状体变凸、折光更强，像就落在视网膜上。</value>
+  </data>
+  <data name="Lens_Eye_SharpNear_Title" xml:space="preserve">
+    <value>清晰，眼睛在调节</value>
+  </data>
+  <data name="Lens_Eye_Sharp_Text" xml:space="preserve">
+    <value>视力表的光不用费力就正好会聚在视网膜上：睫状肌放松，晶状体保持扁平。</value>
+  </data>
+  <data name="Lens_Eye_Sharp_Title" xml:space="preserve">
+    <value>清晰，眼睛放松</value>
+  </data>
+  <data name="Lens_Eye_Subtitle" xml:space="preserve">
+    <value>眼睛怎样看清远近</value>
+  </data>
+  <data name="Lens_Eye_TooClose_Text" xml:space="preserve">
+    <value>晶状体已经凸到极限，光仍要到视网膜后面才会聚。把视力表移到近点以外，或者戴上老花镜。</value>
+  </data>
+  <data name="Lens_Eye_TooClose_Title" xml:space="preserve">
+    <value>模糊：比近点还近</value>
+  </data>
+  <data name="Lens_FNumber" xml:space="preserve">
+    <value>光圈</value>
+  </data>
+  <data name="Lens_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Lens_FindImage" xml:space="preserve">
+    <value>找到像</value>
+  </data>
+  <data name="Lens_FindImage_Tooltip" xml:space="preserve">
+    <value>把光屏移到成像清晰的位置</value>
+  </data>
+  <data name="Lens_Focal" xml:space="preserve">
+    <value>焦距</value>
+  </data>
+  <data name="Lens_FocalMm" xml:space="preserve">
+    <value>焦距</value>
+  </data>
+  <data name="Lens_Focus" xml:space="preserve">
+    <value>对焦距离</value>
+  </data>
+  <data name="Lens_Glasses_Caption" xml:space="preserve">
+    <value>眼镜</value>
+  </data>
+  <data name="Lens_Glasses_Distance" xml:space="preserve">
+    <value>按度数配的眼镜</value>
+  </data>
+  <data name="Lens_Glasses_None" xml:space="preserve">
+    <value>不戴</value>
+  </data>
+  <data name="Lens_Glasses_Reading" xml:space="preserve">
+    <value>老花镜 +2.5</value>
+  </data>
+  <data name="Lens_Hint_Bench" xml:space="preserve">
+    <value>拖动蜡烛（拖火焰可改变高度）、光屏或焦点 F。</value>
+  </data>
+  <data name="Lens_Hint_Camera" xml:space="preserve">
+    <value>拖动对焦标记，或点击照片里的东西对焦。</value>
+  </data>
+  <data name="Lens_Hint_Eye" xml:space="preserve">
+    <value>沿轨道拖动视力表，让它变近或变远。</value>
+  </data>
+  <data name="Lens_Iso" xml:space="preserve">
+    <value>感光度 ISO</value>
+  </data>
+  <data name="Lens_Kind_Concave" xml:space="preserve">
+    <value>凹透镜</value>
+  </data>
+  <data name="Lens_Kind_Convex" xml:space="preserve">
+    <value>凸透镜</value>
+  </data>
+  <data name="Lens_Label_2F" xml:space="preserve">
+    <value>2F</value>
+  </data>
+  <data name="Lens_Label_Aperture" xml:space="preserve">
+    <value>光圈 {0}</value>
+  </data>
+  <data name="Lens_Label_BlindSpot" xml:space="preserve">
+    <value>盲点</value>
+  </data>
+  <data name="Lens_Label_BlockedImage" xml:space="preserve">
+    <value>像（在光屏后面）</value>
+  </data>
+  <data name="Lens_Label_Bright" xml:space="preserve">
+    <value>过亮</value>
+  </data>
+  <data name="Lens_Label_CameraLens" xml:space="preserve">
+    <value>镜头 {0} 毫米</value>
+  </data>
+  <data name="Lens_Label_Ciliary" xml:space="preserve">
+    <value>睫状肌</value>
+  </data>
+  <data name="Lens_Label_Concave" xml:space="preserve">
+    <value>凹透镜</value>
+  </data>
+  <data name="Lens_Label_ConcaveGlasses" xml:space="preserve">
+    <value>凹透镜 {0} D</value>
+  </data>
+  <data name="Lens_Label_Convex" xml:space="preserve">
+    <value>凸透镜</value>
+  </data>
+  <data name="Lens_Label_ConvexGlasses" xml:space="preserve">
+    <value>凸透镜 {0} D</value>
+  </data>
+  <data name="Lens_Label_Cornea" xml:space="preserve">
+    <value>角膜</value>
+  </data>
+  <data name="Lens_Label_Dark" xml:space="preserve">
+    <value>过暗</value>
+  </data>
+  <data name="Lens_Label_Dof" xml:space="preserve">
+    <value>景深</value>
+  </data>
+  <data name="Lens_Label_EyeLens" xml:space="preserve">
+    <value>晶状体</value>
+  </data>
+  <data name="Lens_Label_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="Lens_Label_FarPoint" xml:space="preserve">
+    <value>远点</value>
+  </data>
+  <data name="Lens_Label_FocusAt" xml:space="preserve">
+    <value>对焦 {0}</value>
+  </data>
+  <data name="Lens_Label_FocusBehind" xml:space="preserve">
+    <value>光要到视网膜后才会聚</value>
+  </data>
+  <data name="Lens_Label_FocusFront" xml:space="preserve">
+    <value>光在视网膜前会聚</value>
+  </data>
+  <data name="Lens_Label_FocusOn" xml:space="preserve">
+    <value>清晰地落在视网膜上</value>
+  </data>
+  <data name="Lens_Label_Fov" xml:space="preserve">
+    <value>视角 {0}°</value>
+  </data>
+  <data name="Lens_Label_Fovea" xml:space="preserve">
+    <value>黄斑中央凹</value>
+  </data>
+  <data name="Lens_Label_ImageFarLeft" xml:space="preserve">
+    <value>← 虚像在透镜前 {0}</value>
+  </data>
+  <data name="Lens_Label_ImageFarRight" xml:space="preserve">
+    <value>像在透镜后 {0} →</value>
+  </data>
+  <data name="Lens_Label_NearPoint" xml:space="preserve">
+    <value>近点</value>
+  </data>
+  <data name="Lens_Label_NearPointClose" xml:space="preserve">
+    <value>近点（更近）</value>
+  </data>
+  <data name="Lens_Label_NoImage" xml:space="preserve">
+    <value>光线平行射出：不成像</value>
+  </data>
+  <data name="Lens_Label_O" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Lens_Label_OnScreenBlur" xml:space="preserve">
+    <value>光屏上：模糊 {0}</value>
+  </data>
+  <data name="Lens_Label_OnScreenSharp" xml:space="preserve">
+    <value>光屏上：清晰</value>
+  </data>
+  <data name="Lens_Label_Photo" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="Lens_Label_Pupil" xml:space="preserve">
+    <value>虹膜与瞳孔</value>
+  </data>
+  <data name="Lens_Label_ReadingGlasses" xml:space="preserve">
+    <value>老花镜 {0} D</value>
+  </data>
+  <data name="Lens_Label_RealImage" xml:space="preserve">
+    <value>实像</value>
+  </data>
+  <data name="Lens_Label_Retina" xml:space="preserve">
+    <value>视网膜</value>
+  </data>
+  <data name="Lens_Label_Row" xml:space="preserve">
+    <value>{0} · 20/{1}</value>
+  </data>
+  <data name="Lens_Label_Screen" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Lens_Label_Sensor" xml:space="preserve">
+    <value>传感器</value>
+  </data>
+  <data name="Lens_Label_Sunlight" xml:space="preserve">
+    <value>平行阳光</value>
+  </data>
+  <data name="Lens_Label_U" xml:space="preserve">
+    <value>u = {0}</value>
+  </data>
+  <data name="Lens_Label_V" xml:space="preserve">
+    <value>v = {0}</value>
+  </data>
+  <data name="Lens_Label_VirtualImage" xml:space="preserve">
+    <value>虚像</value>
+  </data>
+  <data name="Lens_Label_WhatYouSee" xml:space="preserve">
+    <value>看到的样子：视力约 {0}（20/{1}）</value>
+  </data>
+  <data name="Lens_Lens_Caption" xml:space="preserve">
+    <value>透镜</value>
+  </data>
+  <data name="Lens_Lesson_Bench_Choice1" xml:space="preserve">
+    <value>变大，并且离透镜更远</value>
+  </data>
+  <data name="Lens_Lesson_Bench_Choice2" xml:space="preserve">
+    <value>变小，并且离透镜更近</value>
+  </data>
+  <data name="Lens_Lesson_Bench_Choice3" xml:space="preserve">
+    <value>像消失了</value>
+  </data>
+  <data name="Lens_Lesson_Camera_Choice1" xml:space="preserve">
+    <value>开大光圈（f 值变小）</value>
+  </data>
+  <data name="Lens_Lesson_Camera_Choice2" xml:space="preserve">
+    <value>缩小光圈（f 值变大）</value>
+  </data>
+  <data name="Lens_Lesson_Camera_Choice3" xml:space="preserve">
+    <value>用更快的快门</value>
+  </data>
+  <data name="Lens_Lesson_Eye_Choice1" xml:space="preserve">
+    <value>视网膜前方</value>
+  </data>
+  <data name="Lens_Lesson_Eye_Choice2" xml:space="preserve">
+    <value>视网膜后方</value>
+  </data>
+  <data name="Lens_Lesson_Eye_Choice3" xml:space="preserve">
+    <value>正好在视网膜上</value>
+  </data>
+  <data name="Lens_Light_Bright" xml:space="preserve">
+    <value>晴天户外</value>
+  </data>
+  <data name="Lens_Light_Caption" xml:space="preserve">
+    <value>光线</value>
+  </data>
+  <data name="Lens_Light_Dim" xml:space="preserve">
+    <value>昏暗</value>
+  </data>
+  <data name="Lens_Light_Indoor" xml:space="preserve">
+    <value>室内</value>
+  </data>
+  <data name="Lens_Mode_Bench" xml:space="preserve">
+    <value>透镜成像</value>
+  </data>
+  <data name="Lens_Mode_Camera" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="Lens_Mode_Eye" xml:space="preserve">
+    <value>眼睛</value>
+  </data>
+  <data name="Lens_Obj_Aberration" xml:space="preserve">
+    <value>球差</value>
+  </data>
+  <data name="Lens_Obj_Aperture" xml:space="preserve">
+    <value>光圈</value>
+  </data>
+  <data name="Lens_Obj_Axis" xml:space="preserve">
+    <value>主光轴</value>
+  </data>
+  <data name="Lens_Obj_Ball" xml:space="preserve">
+    <value>运动的小球</value>
+  </data>
+  <data name="Lens_Obj_BlindSpot" xml:space="preserve">
+    <value>盲点</value>
+  </data>
+  <data name="Lens_Obj_BlurCircle" xml:space="preserve">
+    <value>弥散圆</value>
+  </data>
+  <data name="Lens_Obj_CameraLens" xml:space="preserve">
+    <value>相机镜头</value>
+  </data>
+  <data name="Lens_Obj_Candle" xml:space="preserve">
+    <value>蜡烛</value>
+  </data>
+  <data name="Lens_Obj_Centre" xml:space="preserve">
+    <value>光心</value>
+  </data>
+  <data name="Lens_Obj_Chart" xml:space="preserve">
+    <value>视力表</value>
+  </data>
+  <data name="Lens_Obj_Chromatic" xml:space="preserve">
+    <value>色差</value>
+  </data>
+  <data name="Lens_Obj_Ciliary" xml:space="preserve">
+    <value>睫状肌</value>
+  </data>
+  <data name="Lens_Obj_Cornea" xml:space="preserve">
+    <value>角膜</value>
+  </data>
+  <data name="Lens_Obj_Dof" xml:space="preserve">
+    <value>景深</value>
+  </data>
+  <data name="Lens_Obj_EyeLens" xml:space="preserve">
+    <value>晶状体</value>
+  </data>
+  <data name="Lens_Obj_FarPoint" xml:space="preserve">
+    <value>远点</value>
+  </data>
+  <data name="Lens_Obj_Focus" xml:space="preserve">
+    <value>焦点 F</value>
+  </data>
+  <data name="Lens_Obj_FocusMark" xml:space="preserve">
+    <value>对焦距离</value>
+  </data>
+  <data name="Lens_Obj_Fov" xml:space="preserve">
+    <value>视角</value>
+  </data>
+  <data name="Lens_Obj_Fovea" xml:space="preserve">
+    <value>黄斑中央凹</value>
+  </data>
+  <data name="Lens_Obj_Glasses" xml:space="preserve">
+    <value>眼镜</value>
+  </data>
+  <data name="Lens_Obj_Iris" xml:space="preserve">
+    <value>虹膜与瞳孔</value>
+  </data>
+  <data name="Lens_Obj_Lens" xml:space="preserve">
+    <value>透镜</value>
+  </data>
+  <data name="Lens_Obj_Meter" xml:space="preserve">
+    <value>测光表</value>
+  </data>
+  <data name="Lens_Obj_NearPoint" xml:space="preserve">
+    <value>近点</value>
+  </data>
+  <data name="Lens_Obj_Photo" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="Lens_Obj_Ray1" xml:space="preserve">
+    <value>平行光线</value>
+  </data>
+  <data name="Lens_Obj_Ray2" xml:space="preserve">
+    <value>过光心的光线</value>
+  </data>
+  <data name="Lens_Obj_Ray3" xml:space="preserve">
+    <value>过焦点的光线</value>
+  </data>
+  <data name="Lens_Obj_RealImage" xml:space="preserve">
+    <value>实像</value>
+  </data>
+  <data name="Lens_Obj_Retina" xml:space="preserve">
+    <value>视网膜</value>
+  </data>
+  <data name="Lens_Obj_RetinalImage" xml:space="preserve">
+    <value>视网膜上的像</value>
+  </data>
+  <data name="Lens_Obj_Screen" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Lens_Obj_ScreenView" xml:space="preserve">
+    <value>光屏上的画面</value>
+  </data>
+  <data name="Lens_Obj_Sensor" xml:space="preserve">
+    <value>传感器</value>
+  </data>
+  <data name="Lens_Obj_Shutter" xml:space="preserve">
+    <value>快门</value>
+  </data>
+  <data name="Lens_Obj_Subject" xml:space="preserve">
+    <value>点击对焦</value>
+  </data>
+  <data name="Lens_Obj_TwoF" xml:space="preserve">
+    <value>二倍焦距 2F</value>
+  </data>
+  <data name="Lens_Obj_View" xml:space="preserve">
+    <value>看到的样子</value>
+  </data>
+  <data name="Lens_Obj_VirtualImage" xml:space="preserve">
+    <value>虚像</value>
+  </data>
+  <data name="Lens_Obj_Vitreous" xml:space="preserve">
+    <value>玻璃体</value>
+  </data>
+  <data name="Lens_ObjectDistance" xml:space="preserve">
+    <value>物距 u</value>
+  </data>
+  <data name="Lens_Option_Colours" xml:space="preserve">
+    <value>色散</value>
+  </data>
+  <data name="Lens_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Lens_Option_Screen" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Lens_PlayPause" xml:space="preserve">
+    <value>播放或暂停（空格）</value>
+  </data>
+  <data name="Lens_Preset_Camera" xml:space="preserve">
+    <value>照相机：2F 以外</value>
+  </data>
+  <data name="Lens_Preset_Copier" xml:space="preserve">
+    <value>正好在 2F</value>
+  </data>
+  <data name="Lens_Preset_Magnifier" xml:space="preserve">
+    <value>放大镜：F 以内</value>
+  </data>
+  <data name="Lens_Preset_Projector" xml:space="preserve">
+    <value>投影仪：F 与 2F 之间</value>
+  </data>
+  <data name="Lens_Rays_Caption" xml:space="preserve">
+    <value>光线</value>
+  </data>
+  <data name="Lens_Rays_Fan" xml:space="preserve">
+    <value>许多光线</value>
+  </data>
+  <data name="Lens_Rays_Note" xml:space="preserve">
+    <value>“许多光线”和“平行阳光”按折射定律逐面追迹真实的玻璃透镜：靠近边缘的光线会聚得更近一些（球差）。开启色散时，玻璃的色散放大 6 倍显示。</value>
+  </data>
+  <data name="Lens_Rays_Principal" xml:space="preserve">
+    <value>三条特殊光线</value>
+  </data>
+  <data name="Lens_Rays_Sunlight" xml:space="preserve">
+    <value>平行阳光</value>
+  </data>
+  <data name="Lens_Readout" xml:space="preserve">
+    <value>{0} 毫米   {1}   {2}   ISO {3}</value>
+  </data>
+  <data name="Lens_Scene_Caption" xml:space="preserve">
+    <value>场景光线</value>
+  </data>
+  <data name="Lens_Scene_Cloud" xml:space="preserve">
+    <value>阴天</value>
+  </data>
+  <data name="Lens_Scene_Dusk" xml:space="preserve">
+    <value>黄昏</value>
+  </data>
+  <data name="Lens_Scene_Night" xml:space="preserve">
+    <value>夜晚街道</value>
+  </data>
+  <data name="Lens_Scene_Sun" xml:space="preserve">
+    <value>晴天</value>
+  </data>
+  <data name="Lens_ScreenDistance" xml:space="preserve">
+    <value>光屏到透镜的距离</value>
+  </data>
+  <data name="Lens_Screen_Caption" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Lens_Shutter" xml:space="preserve">
+    <value>快门</value>
+  </data>
+  <data name="Lens_Stat_Accommodation" xml:space="preserve">
+    <value>调节用量</value>
+  </data>
+  <data name="Lens_Stat_Acuity" xml:space="preserve">
+    <value>视力（粗略估计）</value>
+  </data>
+  <data name="Lens_Stat_Aperture" xml:space="preserve">
+    <value>光圈</value>
+  </data>
+  <data name="Lens_Stat_Blur" xml:space="preserve">
+    <value>光屏上的模糊</value>
+  </data>
+  <data name="Lens_Stat_CameraFocal" xml:space="preserve">
+    <value>焦距</value>
+  </data>
+  <data name="Lens_Stat_Distance" xml:space="preserve">
+    <value>视力表距离</value>
+  </data>
+  <data name="Lens_Stat_Dof" xml:space="preserve">
+    <value>景深</value>
+  </data>
+  <data name="Lens_Stat_Equation" xml:space="preserve">
+    <value>1/u + 1/v = 1/f</value>
+  </data>
+  <data name="Lens_Stat_Exposure" xml:space="preserve">
+    <value>曝光</value>
+  </data>
+  <data name="Lens_Stat_EyeLength" xml:space="preserve">
+    <value>眼轴长度</value>
+  </data>
+  <data name="Lens_Stat_FarPoint" xml:space="preserve">
+    <value>远点</value>
+  </data>
+  <data name="Lens_Stat_Focal" xml:space="preserve">
+    <value>焦距</value>
+  </data>
+  <data name="Lens_Stat_Focus" xml:space="preserve">
+    <value>对焦距离</value>
+  </data>
+  <data name="Lens_Stat_FocusError" xml:space="preserve">
+    <value>离焦量</value>
+  </data>
+  <data name="Lens_Stat_Fov" xml:space="preserve">
+    <value>视角</value>
+  </data>
+  <data name="Lens_Stat_Glasses" xml:space="preserve">
+    <value>眼镜</value>
+  </data>
+  <data name="Lens_Stat_Hyperfocal" xml:space="preserve">
+    <value>超焦距</value>
+  </data>
+  <data name="Lens_Stat_Image" xml:space="preserve">
+    <value>像</value>
+  </data>
+  <data name="Lens_Stat_ImageHeight" xml:space="preserve">
+    <value>像高</value>
+  </data>
+  <data name="Lens_Stat_Iso" xml:space="preserve">
+    <value>ISO</value>
+  </data>
+  <data name="Lens_Stat_LensPower" xml:space="preserve">
+    <value>晶状体光焦度</value>
+  </data>
+  <data name="Lens_Stat_LensToSensor" xml:space="preserve">
+    <value>镜头到传感器</value>
+  </data>
+  <data name="Lens_Stat_Magnification" xml:space="preserve">
+    <value>放大率</value>
+  </data>
+  <data name="Lens_Stat_NearPoint" xml:space="preserve">
+    <value>近点</value>
+  </data>
+  <data name="Lens_Stat_Power" xml:space="preserve">
+    <value>光焦度</value>
+  </data>
+  <data name="Lens_Stat_Pupil" xml:space="preserve">
+    <value>瞳孔</value>
+  </data>
+  <data name="Lens_Stat_Screen" xml:space="preserve">
+    <value>光屏</value>
+  </data>
+  <data name="Lens_Stat_Shutter" xml:space="preserve">
+    <value>快门</value>
+  </data>
+  <data name="Lens_Stat_Smear" xml:space="preserve">
+    <value>小球拖影</value>
+  </data>
+  <data name="Lens_Stat_U" xml:space="preserve">
+    <value>物距 u</value>
+  </data>
+  <data name="Lens_Stat_V" xml:space="preserve">
+    <value>像距 v</value>
+  </data>
+  <data name="Lens_Tick_10cm" xml:space="preserve">
+    <value>10 厘米</value>
+  </data>
+  <data name="Lens_Tick_10m" xml:space="preserve">
+    <value>10 米</value>
+  </data>
+  <data name="Lens_Tick_1m" xml:space="preserve">
+    <value>1 米</value>
+  </data>
+  <data name="Lens_Tick_25cm" xml:space="preserve">
+    <value>25 厘米</value>
+  </data>
+  <data name="Lens_Tick_30m" xml:space="preserve">
+    <value>30 米</value>
+  </data>
+  <data name="Lens_Tick_3m" xml:space="preserve">
+    <value>3 米</value>
+  </data>
+  <data name="Lens_Tick_50cm" xml:space="preserve">
+    <value>50 厘米</value>
+  </data>
+  <data name="Lens_Tick_6m" xml:space="preserve">
+    <value>6 米</value>
+  </data>
+  <data name="Lens_Title" xml:space="preserve">
+    <value>透镜、眼睛与相机</value>
+  </data>
+  <data name="Lens_Value_Accommodation" xml:space="preserve">
+    <value>{0} / {1} D</value>
+  </data>
+  <data name="Lens_Value_Acuity" xml:space="preserve">
+    <value>约 {0}（20/{1}）</value>
+  </data>
+  <data name="Lens_Value_Age" xml:space="preserve">
+    <value>{0} 岁</value>
+  </data>
+  <data name="Lens_Value_ApertureSize" xml:space="preserve">
+    <value>{0}，孔径 {1} 毫米</value>
+  </data>
+  <data name="Lens_Value_AtF" xml:space="preserve">
+    <value>在焦点 F</value>
+  </data>
+  <data name="Lens_Value_Behind" xml:space="preserve">
+    <value>透镜后 {0}</value>
+  </data>
+  <data name="Lens_Value_BeyondInfinity" xml:space="preserve">
+    <value>无：比无穷远还远（远视）</value>
+  </data>
+  <data name="Lens_Value_Cm" xml:space="preserve">
+    <value>{0} 厘米</value>
+  </data>
+  <data name="Lens_Value_Degrees" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Lens_Value_Dioptres" xml:space="preserve">
+    <value>{0} D</value>
+  </data>
+  <data name="Lens_Value_ExposureRight" xml:space="preserve">
+    <value>正好</value>
+  </data>
+  <data name="Lens_Value_Focal" xml:space="preserve">
+    <value>{0}（{1} D）</value>
+  </data>
+  <data name="Lens_Value_FromF" xml:space="preserve">
+    <value>好像从焦点 F 发出</value>
+  </data>
+  <data name="Lens_Value_Hyperopia" xml:space="preserve">
+    <value>远视 {0} D</value>
+  </data>
+  <data name="Lens_Value_InFront" xml:space="preserve">
+    <value>透镜前 {0}（虚像）</value>
+  </data>
+  <data name="Lens_Value_Infinity" xml:space="preserve">
+    <value>∞</value>
+  </data>
+  <data name="Lens_Value_Inverted" xml:space="preserve">
+    <value>×{0}，倒立</value>
+  </data>
+  <data name="Lens_Value_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Lens_Value_M" xml:space="preserve">
+    <value>{0} 米</value>
+  </data>
+  <data name="Lens_Value_Mm" xml:space="preserve">
+    <value>{0} 毫米</value>
+  </data>
+  <data name="Lens_Value_Myopia" xml:space="preserve">
+    <value>近视 {0} D</value>
+  </data>
+  <data name="Lens_Value_NoError" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Lens_Value_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Lens_Value_Over" xml:space="preserve">
+    <value>过曝 {0} 档</value>
+  </data>
+  <data name="Lens_Value_Range" xml:space="preserve">
+    <value>{0} 至 {1}</value>
+  </data>
+  <data name="Lens_Value_RangeToInfinity" xml:space="preserve">
+    <value>{0} 至无穷远</value>
+  </data>
+  <data name="Lens_Value_S" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Lens_Value_Sharp" xml:space="preserve">
+    <value>清晰</value>
+  </data>
+  <data name="Lens_Value_Smear" xml:space="preserve">
+    <value>{0} 个球宽</value>
+  </data>
+  <data name="Lens_Value_Under" xml:space="preserve">
+    <value>欠曝 {0} 档</value>
+  </data>
+  <data name="Lens_Value_Upright" xml:space="preserve">
+    <value>×{0}，正立</value>
+  </data>
   <data name="Lesson_Close" xml:space="preserve">
     <value>关闭</value>
   </data>
@@ -10262,6 +11171,234 @@
   </data>
   <data name="Narr_Kepler_Periods_07" xml:space="preserve">
     <value>这条规律对每颗行星都成立。后来，牛顿找到了它背后的原因：离太阳越远，太阳的引力就越弱。左页上的表格，可以一颗一颗地验证它。</value>
+  </data>
+  <data name="Narr_Lens_Bench_01" xml:space="preserve">
+    <value>这是一块凸透镜，中间厚、边缘薄。左边立着一支蜡烛，正好在穿过透镜中心的那条线上，这条线叫主光轴。我们来追踪火焰尖发出的光。</value>
+  </data>
+  <data name="Narr_Lens_Bench_02" xml:space="preserve">
+    <value>先看金色这条光线。它从火焰尖出发，平行于主光轴。透镜把它折弯，到另一侧时，它穿过一个特殊的点。</value>
+  </data>
+  <data name="Narr_Lens_Bench_03" xml:space="preserve">
+    <value>这个点就是焦点 F。所有平行于主光轴射来的光，都会被折向它。焦点到透镜的距离叫焦距，这里是十五厘米。</value>
+  </data>
+  <data name="Narr_Lens_Bench_04" xml:space="preserve">
+    <value>再看蓝色光线。它穿过透镜的正中心，那里两个表面几乎平行，所以它不偏折，笔直地往前走。</value>
+  </data>
+  <data name="Narr_Lens_Bench_05" xml:space="preserve">
+    <value>还有粉色光线。它先经过左边的焦点，透镜再把它折成平行于主光轴。它就像金色光线倒过来走。</value>
+  </data>
+  <data name="Narr_Lens_Bench_06" xml:space="preserve">
+    <value>三条光线重新相交的地方，就是火焰的像。注意，它是倒立的，而且比蜡烛小。蜡烛在两倍焦距以外时就是这样，照相机用的正是这个原理。</value>
+  </data>
+  <data name="Narr_Lens_Bench_07" xml:space="preserve">
+    <value>考考你：如果蜡烛向透镜靠近，移到 F 和 2F 之间，像会怎样变化？</value>
+  </data>
+  <data name="Narr_Lens_Bench_08" xml:space="preserve">
+    <value>像变大了，并且离透镜更远。现在它比蜡烛本身还要大。投影仪就是这样，把大大的画面投到墙上。</value>
+  </data>
+  <data name="Narr_Lens_Bench_09" xml:space="preserve">
+    <value>现在蜡烛在焦点以内。光线经过透镜后仍然分散，永远不会相交。可是把它们反向延长，好像是从一支更大、正立的蜡烛发出的。这就是虚像，用放大镜看到的正是它。</value>
+  </data>
+  <data name="Narr_Lens_Bench_10" xml:space="preserve">
+    <value>实像可以用光屏接住，但光屏必须放在合适的位置。现在光屏稍远了一些，每个点的光已经散开了。看看角落里的画面，它是模糊的。</value>
+  </data>
+  <data name="Narr_Lens_Bench_11" xml:space="preserve">
+    <value>最后看凹透镜。它中间薄，会让光发散，所以无论蜡烛放在哪里，都只能得到一个正立、缩小的虚像。近视眼镜用的就是这种透镜。</value>
+  </data>
+  <data name="Narr_Lens_Bench_12" xml:space="preserve">
+    <value>轮到你了。光屏又放错了位置。拖动蜡烛或者光屏，直到角落里的画面变清晰。</value>
+  </data>
+  <data name="Narr_Lens_Camera_01" xml:space="preserve">
+    <value>相机和眼睛很像。镜头收集景物的光，在后面的传感器上成像，像也是倒立的，跟视网膜上一样。</value>
+  </data>
+  <data name="Narr_Lens_Camera_02" xml:space="preserve">
+    <value>不过相机镜头不能改变形状，它靠移动整个镜头来对焦。近处物体的光会聚得更靠后，所以对焦近处时，镜头要向前移。</value>
+  </data>
+  <data name="Narr_Lens_Camera_03" xml:space="preserve">
+    <value>现在相机对焦在五米外的人身上。人身上来的光正好会聚在传感器上，所以照片里的人是清晰的。</value>
+  </data>
+  <data name="Narr_Lens_Camera_04" xml:space="preserve">
+    <value>近处树枝的光要到传感器后面才会聚。传感器把光锥截断，每一点都落成一个小圆斑，叫弥散圆。所以树枝看起来是虚的。</value>
+  </data>
+  <data name="Narr_Lens_Camera_05" xml:space="preserve">
+    <value>这是光圈，光从这个孔进来。把它开到最大，f 一点四，光锥变粗了，所有没对上焦的东西都虚得更厉害。</value>
+  </data>
+  <data name="Narr_Lens_Camera_06" xml:space="preserve">
+    <value>把光圈缩小到 f 十一，光锥变细了，画面中清晰的部分多了很多。这个清晰的范围叫景深。</value>
+  </data>
+  <data name="Narr_Lens_Camera_07" xml:space="preserve">
+    <value>问你一个问题：拍人像时，想让背景虚化得更柔和，应该怎么做？</value>
+  </data>
+  <data name="Narr_Lens_Camera_08" xml:space="preserve">
+    <value>现在天色暗了，快门要打开十五分之一秒。快门打开期间小球一直在动，所以拖成了一道影子。</value>
+  </data>
+  <data name="Narr_Lens_Camera_09" xml:space="preserve">
+    <value>千分之一秒的快门能把小球定格。可是进光太少，照片几乎全黑了。看看测光表，差了大约六档。</value>
+  </data>
+  <data name="Narr_Lens_Camera_10" xml:space="preserve">
+    <value>提高 ISO 可以放大信号来弥补，但噪点也一起被放大，照片变得很粗糙。光圈、快门和 ISO 总是此消彼长。</value>
+  </data>
+  <data name="Narr_Lens_Camera_11" xml:space="preserve">
+    <value>最后是焦距。两百毫米的长焦镜头只看到景物中窄窄的一部分，并把它放大；短焦镜头则看得更宽。</value>
+  </data>
+  <data name="Narr_Lens_Camera_12" xml:space="preserve">
+    <value>轮到你了。点击照片里的东西来对焦，或者调整光圈、快门和焦距，看看画面怎样变化。</value>
+  </data>
+  <data name="Narr_Lens_Eye_01" xml:space="preserve">
+    <value>这是一只从侧面剖开的眼睛。左边视力表发出的光，先从前面透明的圆顶，也就是角膜，进入眼睛。</value>
+  </data>
+  <data name="Narr_Lens_Eye_02" xml:space="preserve">
+    <value>角膜后面是有颜色的虹膜，中间留着一个圆孔，叫瞳孔。光强时它缩小，光暗时它张大，就像相机的光圈。</value>
+  </data>
+  <data name="Narr_Lens_Eye_03" xml:space="preserve">
+    <value>大部分折光是角膜完成的。瞳孔后面的晶状体再做精细的调整，让视力表上每一点的光，重新会聚在眼底的视网膜上。</value>
+  </data>
+  <data name="Narr_Lens_Eye_04" xml:space="preserve">
+    <value>看看视网膜上的像，它是倒立的！视力表顶端的金色光线落在了下面。大脑会悄悄地把它翻正。</value>
+  </data>
+  <data name="Narr_Lens_Eye_05" xml:space="preserve">
+    <value>现在把视力表拿近，只有二十五厘米。近处的光更加发散，眼睛必须折得更厉害。睫状肌收缩，晶状体变凸。这就叫调节。</value>
+  </data>
+  <data name="Narr_Lens_Eye_06" xml:space="preserve">
+    <value>不过调节是有极限的，这个极限位置叫近点。再近，晶状体就凸不起来了，东西就会变模糊。二十岁时，近点还不到十厘米。</value>
+  </data>
+  <data name="Narr_Lens_Eye_07" xml:space="preserve">
+    <value>随着年龄增长，晶状体会变硬。到了六十岁，近点已经退到两米左右，拿在手上的书就看不清了。这就是为什么老年人需要老花镜。</value>
+  </data>
+  <data name="Narr_Lens_Eye_08" xml:space="preserve">
+    <value>如果这只眼睛的眼轴稍微长了一点，就像近视眼那样，你觉得远处视力表的光会在哪里会聚？</value>
+  </data>
+  <data name="Narr_Lens_Eye_09" xml:space="preserve">
+    <value>光在视网膜前面就会聚了，然后又散开，所以远处的东西看不清。这就是近视。这只眼睛只能看清远点以内的东西，大约三十三厘米。</value>
+  </data>
+  <data name="Narr_Lens_Eye_10" xml:space="preserve">
+    <value>戴上眼镜就好了。前面的凹透镜先让光稍微发散一点，眼睛就又能把它会聚到视网膜上，远处的视力表也清楚了。</value>
+  </data>
+  <data name="Narr_Lens_Eye_11" xml:space="preserve">
+    <value>轮到你了。把视力表拖近或拖远，或者改变年龄、近视远视和眼镜，看看晶状体怎样变化。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Aberration" xml:space="preserve">
+    <value>真实透镜的表面是球面，经过边缘的光线偏折得稍多，与主光轴相交的位置比中间的光线更靠近透镜，所以焦点不是一个点，而是一小段。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Aperture" xml:space="preserve">
+    <value>镜头里的叶片围成一个可调的孔。f 值等于焦距除以孔径，所以 f 值越小，孔越大：进光更多，清晰范围也更浅。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Axis" xml:space="preserve">
+    <value>穿过透镜中心的这条线叫主光轴。沿着它走的光不会偏折，所有距离也都沿着它来量。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ball" xml:space="preserve">
+    <value>快门打开期间小球一直在运动，所以被记录成一道拖影。快门越快，越能把它定格；越慢，拖影越长。</value>
+  </data>
+  <data name="Narr_Lens_Obj_BlindSpot" xml:space="preserve">
+    <value>视神经离开眼球的地方没有感光细胞。落在这里的光根本看不见，但大脑会把空缺补上，所以你平时察觉不到。</value>
+  </data>
+  <data name="Narr_Lens_Obj_BlurCircle" xml:space="preserve">
+    <value>近处树枝的光要在传感器后面才会聚，被传感器截住时落成一个小圆斑。树枝上的每一点都变成这样的圆斑，所以树枝看起来是虚的。</value>
+  </data>
+  <data name="Narr_Lens_Obj_CameraLens" xml:space="preserve">
+    <value>相机镜头由好几片镜片组成，整体相当于一个凸透镜。对焦到近处时，镜头会稍微向前移动，离传感器远一点。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Candle" xml:space="preserve">
+    <value>火焰上的每一点都向四面八方发光，透镜接住其中的一束光并让它偏折。拖动蜡烛，看看像怎样移动。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Centre" xml:space="preserve">
+    <value>透镜正中心的两个表面近似平行，就像一块薄玻璃窗。通过光心的光线方向不变。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Chart" xml:space="preserve">
+    <value>这是我们正在看的视力表。沿着轨道把它从很近拖到很远，看看晶状体怎样改变形状。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Chromatic" xml:space="preserve">
+    <value>玻璃对蓝光的折射比红光强，所以蓝光的焦点离透镜更近一些。这里把效果放大了六倍。便宜的镜头会因此出现彩色的边。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ciliary" xml:space="preserve">
+    <value>睫状肌通过细小的纤维拉住晶状体。它放松时，纤维把晶状体拉扁，用来看远；它收缩时，纤维松弛，晶状体变凸，用来看近。长时间看近处会让它疲劳。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Cornea" xml:space="preserve">
+    <value>角膜是眼睛前面透明的窗口。光从空气进入眼睛时在这里偏折最多，约占全部折光的三分之二。激光近视手术改变的就是角膜的形状。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Dof" xml:space="preserve">
+    <value>在这个范围内，弥散圆小到察觉不出来，所以看起来都是清晰的。光圈越小、焦距越短、对焦越远，景深就越深。</value>
+  </data>
+  <data name="Narr_Lens_Obj_EyeLens" xml:space="preserve">
+    <value>晶状体柔软而有弹性，能改变形状：看远时变扁，看近时变凸，从而精细地调节焦距。</value>
+  </data>
+  <data name="Narr_Lens_Obj_FarPoint" xml:space="preserve">
+    <value>这是眼睛完全放松时能看清的最远位置。正常眼的远点在无穷远。近视眼的远点很近：三百度近视只有三十三厘米左右。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Focus" xml:space="preserve">
+    <value>平行于主光轴的光经过凸透镜后会聚到这一点，叫焦点。焦点到透镜的距离叫焦距。焦距越短，透镜越强。</value>
+  </data>
+  <data name="Narr_Lens_Obj_FocusMark" xml:space="preserve">
+    <value>相机对焦在这个距离上：从这里来的光正好会聚在传感器上。拖动这个标记，或者点击照片里的东西，就能对焦到那里。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Fov" xml:space="preserve">
+    <value>焦距短，视角宽，景物显得小；焦距长，视角窄，景物被放大。变焦改变的就是这个。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Fovea" xml:space="preserve">
+    <value>这个小凹里密集地排列着视锥细胞，看得最清楚，颜色也最准。你正眼看着的东西，像就落在这里。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Glasses" xml:space="preserve">
+    <value>眼镜在眼睛前面增加一点折光。凹透镜让光发散，矫正近视；凸透镜增加会聚，矫正远视，或者用来看书。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Iris" xml:space="preserve">
+    <value>有颜色的虹膜是一圈肌肉，中间的孔就是瞳孔。强光下瞳孔缩小到两毫米左右，黑暗中能开到六毫米以上。瞳孔小，模糊也会变小。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Lens" xml:space="preserve">
+    <value>透镜是表面弯曲的玻璃。光在玻璃里会变慢，所以进出时都会偏折。中间厚的凸透镜让光会聚，中间薄的凹透镜让光发散。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Meter" xml:space="preserve">
+    <value>测光表把设置放进的光量和场景需要的光量作比较。每一格是一档，也就是光量加倍或减半。指在零就正好。</value>
+  </data>
+  <data name="Narr_Lens_Obj_NearPoint" xml:space="preserve">
+    <value>这是眼睛用尽调节、晶状体凸到极限时能看清的最近位置。它随年龄后移：儿童不到十厘米，六十岁以后会超过一臂远。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Photo" xml:space="preserve">
+    <value>这是传感器记录下的画面。对焦、景深、运动模糊、亮度和噪点，都由设置决定。点击画面里的任何东西，就能对焦到那里。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ray1" xml:space="preserve">
+    <value>这条光线平行于主光轴射出。凸透镜把它折向另一侧的焦点；凹透镜则让它偏开，好像是从同侧的焦点发出的。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ray2" xml:space="preserve">
+    <value>这条光线穿过光心，方向不变。它让找像变得容易：火焰尖的像一定在这条线上。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Ray3" xml:space="preserve">
+    <value>这条光线先经过透镜前的焦点，经透镜后变成平行于主光轴。它正好是平行光线倒过来走。</value>
+  </data>
+  <data name="Narr_Lens_Obj_RealImage" xml:space="preserve">
+    <value>光在这里真的重新会聚，所以能用光屏接住。单个透镜成的实像总是倒立的。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Retina" xml:space="preserve">
+    <value>视网膜铺在眼球后壁上，有一亿多个感光细胞。在这里形成的像被转换成神经信号。</value>
+  </data>
+  <data name="Narr_Lens_Obj_RetinalImage" xml:space="preserve">
+    <value>视网膜上的像是倒立、缩小的实像：视力表顶部的光落在下方。大脑再把它翻正。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Screen" xml:space="preserve">
+    <value>光屏是接收光的白板。火焰每一点的光都恰好会聚在屏上时，就能看到清晰的像；移开一点，每个点都会散成模糊的光斑。</value>
+  </data>
+  <data name="Narr_Lens_Obj_ScreenView" xml:space="preserve">
+    <value>这是放大后的光屏画面。注意蜡烛是倒立的，而光屏离开成像位置时，画面就会变模糊。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Sensor" xml:space="preserve">
+    <value>这里排列着数以百万计的微小感光单元，每个对应一个像素，相当于眼睛的视网膜。传感器上的像是倒立的，相机只要把数据翻过来就行了。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Shutter" xml:space="preserve">
+    <value>快门决定光照到传感器上的时间，从几千分之一秒到好几秒。时间越长进光越多，但运动的物体会拖出影子。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Subject" xml:space="preserve">
+    <value>相机现在对焦到这里。比它近或者比它远的东西会变虚，光圈越大越明显。在手机相机上点一下屏幕对焦，就是这么回事。</value>
+  </data>
+  <data name="Narr_Lens_Obj_TwoF" xml:space="preserve">
+    <value>这个点到透镜的距离是两倍焦距。蜡烛放在这里，像也在另一侧的 2F 处，大小相同。在它外面像变小，在它里面像变大。</value>
+  </data>
+  <data name="Narr_Lens_Obj_View" xml:space="preserve">
+    <value>这是这只眼睛看到的视力表。光没有会聚在视网膜上时，每个点都会散成一个小圆斑，最小的那几行最先看不清。</value>
+  </data>
+  <data name="Narr_Lens_Obj_VirtualImage" xml:space="preserve">
+    <value>并没有光真正到达这里，只是透过透镜看去，光好像是从这里发出的，所以光屏接不到它。放大镜让你看到的就是虚像。</value>
+  </data>
+  <data name="Narr_Lens_Obj_Vitreous" xml:space="preserve">
+    <value>眼球的大部分充满透明的胶状物质，维持着眼球的形状。光穿过它到达视网膜。</value>
   </data>
   <data name="Narr_Lightning_Cloud_01" xml:space="preserve">
     <value>这是一朵被剖开的雷雨云，宽三十六公里，按真实比例画出。它的云顶高达十二公里，那里比零下四十度还冷。</value>

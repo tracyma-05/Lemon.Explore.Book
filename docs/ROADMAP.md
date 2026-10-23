@@ -22,7 +22,7 @@ cross-platform book.
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
 | P3 | Narration pipeline (see below) | clips rendered and playing on Windows and the web (macOS player untested); open: voice licence, desktop packs, offline save |
-| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 28 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound, Projectile, Flight |
+| P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 29 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound, Projectile, Flight, Lenses |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
 ### Porting notes (P2/P4)
@@ -43,6 +43,7 @@ cross-platform book.
 | `WriteableBitmap.WritePixels` | `SpaceDrawing.WritePixels` (locks the bitmap and copies rows) |
 | `OnPropertyChanged("Item[]")` for an indexer | `OnPropertyChanged("Item")` (Avalonia listens for the indexer's name) |
 | `DrawingVisual` + `RenderTargetBitmap.Render` | `SpaceDrawing.RenderPixels(w, h, dpi, dc => …)` (or `RenderToBitmap` in DIPs) |
+| `RenderTargetBitmap.CopyPixels(bytes, stride, 0)` into Pbgra32 | `SpaceDrawing.ReadPixels(bitmap)`: premultiplied BGRA bytes whatever the platform's own layout |
 | `v.Normalize();`, `r.Offset(…)`, `r.Union(…)`, `r.Inflate(…)` change the struct | they return a new one: `v = v.Normalize();`, `r = r.Translate(…)`, `r = r.Union(…)` |
 | `DrawImage(bitmap, rect)` of a bitmap at the screen's DPI | `SpaceDrawing.DrawWhole`: the source rectangle is in pixels, a bitmap's `Size` in DIPs |
 | A coarse bitmap (a pixel for a few DIPs) stretched over the view | `SpaceDrawing.DrawSmooth`: Avalonia draws it nearest-neighbour, WPF smooths it |

@@ -10845,6 +10845,1422 @@
      ]
     ]
    },
+   "Narr_Lens_Bench_01": {
+    "duration": 12.456,
+    "hash": "228e035db2bdd60f",
+    "sentences": [
+     [
+      0.05,
+      4.361,
+      "Here's a convex lens, thicker in the middle than at the edges."
+     ],
+     [
+      4.361,
+      9.361,
+      "On the left stands a candle, on the line through the middle of the lens, called the axis."
+     ],
+     [
+      9.361,
+      12.403,
+      "Let's follow the light from the tip of its flame."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_02": {
+    "duration": 10.248,
+    "hash": "1a280b3a8ee7e914",
+    "sentences": [
+     [
+      0.05,
+      1.903,
+      "Start with the gold ray."
+     ],
+     [
+      1.903,
+      5.194,
+      "It leaves the flame parallel to the axis."
+     ],
+     [
+      5.194,
+      10.181,
+      "The lens bends it, and on the far side it passes through a special point."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_03": {
+    "duration": 11.664,
+    "hash": "bbe0e6b3b9abbc5b",
+    "sentences": [
+     [
+      0.05,
+      2.539,
+      "That point is the focus, F."
+     ],
+     [
+      2.539,
+      6.625,
+      "Every ray that arrives parallel to the axis is bent through it."
+     ],
+     [
+      6.625,
+      11.597,
+      "Its distance from the lens is the focal length, here fifteen centimetres."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_04": {
+    "duration": 9.816,
+    "hash": "487a213b588216af",
+    "sentences": [
+     [
+      0.05,
+      1.736,
+      "Now the blue ray."
+     ],
+     [
+      1.736,
+      9.764,
+      "It goes through the very centre of the lens, where the two faces are almost parallel, so it carries straight on without bending."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_05": {
+    "duration": 11.256,
+    "hash": "8616492fe555c642",
+    "sentences": [
+     [
+      0.05,
+      1.681,
+      "And the pink ray."
+     ],
+     [
+      1.681,
+      7.958,
+      "It passes through the focus on the near side first, and the lens turns it parallel to the axis."
+     ],
+     [
+      7.958,
+      11.194,
+      "It's the gold ray, run backwards."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_06": {
+    "duration": 14.184,
+    "hash": "7ca83cf43e8e7d8d",
+    "sentences": [
+     [
+      0.05,
+      4.597,
+      "Where the three rays meet again, the flame forms an image."
+     ],
+     [
+      4.597,
+      8.639,
+      "Notice that it's upside down, and smaller than the candle."
+     ],
+     [
+      8.639,
+      14.111,
+      "With the candle beyond twice the focal length, this is just how a camera works."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_07": {
+    "duration": 7.68,
+    "hash": "3c29cbc93425e85d",
+    "sentences": [
+     [
+      0.05,
+      1.361,
+      "Here's a question."
+     ],
+     [
+      1.361,
+      7.611,
+      "If the candle moves closer, between F and 2F, what do you think happens to the image?"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_08": {
+    "duration": 11.784,
+    "hash": "3502c0abfedc042d",
+    "sentences": [
+     [
+      0.05,
+      3.472,
+      "The image grows and moves farther from the lens."
+     ],
+     [
+      3.472,
+      6.917,
+      "Now it's even bigger than the candle itself."
+     ],
+     [
+      6.917,
+      11.722,
+      "A projector works this way, throwing a large picture onto a wall."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_09": {
+    "duration": 18.216,
+    "hash": "028843e95e79050a",
+    "sentences": [
+     [
+      0.05,
+      3.083,
+      "Now the candle is inside the focal point."
+     ],
+     [
+      3.083,
+      7.903,
+      "After the lens, the rays still spread apart and never meet."
+     ],
+     [
+      7.903,
+      13.153,
+      "But trace them backwards, and they seem to come from a bigger, upright candle."
+     ],
+     [
+      13.153,
+      18.153,
+      "That's a virtual image, the one you see through a magnifying glass."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_10": {
+    "duration": 12.336,
+    "hash": "153248bf36ba7cee",
+    "sentences": [
+     [
+      0.05,
+      4.542,
+      "A real image can be caught on a screen, but only in the right place."
+     ],
+     [
+      4.542,
+      9.568,
+      "This screen is a little too far, so the light from each point has already spread out."
+     ],
+     [
+      9.568,
+      12.264,
+      "Look at the picture in the corner: it's blurred."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_11": {
+    "duration": 14.928,
+    "hash": "274cf4bdb0d959b3",
+    "sentences": [
+     [
+      0.05,
+      2.611,
+      "Finally, a concave lens."
+     ],
+     [
+      2.611,
+      11.292,
+      "It's thinner in the middle and spreads light out, so wherever the candle stands, you only get a small, upright, virtual image."
+     ],
+     [
+      11.292,
+      14.861,
+      "Glasses for short sight use lenses like this."
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_12": {
+    "duration": 8.328,
+    "hash": "e1158a70cb823555",
+    "sentences": [
+     [
+      0.05,
+      1.096,
+      "Your turn."
+     ],
+     [
+      1.096,
+      3.528,
+      "The screen is in the wrong place again."
+     ],
+     [
+      3.528,
+      8.278,
+      "Drag the candle or the screen until the picture in the corner becomes sharp."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_01": {
+    "duration": 10.92,
+    "hash": "c05184e43724be93",
+    "sentences": [
+     [
+      0.05,
+      2.903,
+      "A camera works a lot like an eye."
+     ],
+     [
+      2.903,
+      10.847,
+      "Its lens gathers light from the scene and forms an image on the sensor at the back, upside down, just as on the retina."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_02": {
+    "duration": 12.24,
+    "hash": "5e76298cd2cac8c5",
+    "sentences": [
+     [
+      0.05,
+      3.208,
+      "But a camera can't change the shape of its lens."
+     ],
+     [
+      3.208,
+      6.389,
+      "To focus, it moves the whole lens instead."
+     ],
+     [
+      6.389,
+      12.181,
+      "Light from near things meets farther back, so focusing close moves the lens forward."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_03": {
+    "duration": 8.16,
+    "hash": "13285e0f0147da22",
+    "sentences": [
+     [
+      0.05,
+      3.472,
+      "Here it's focused on the person, five metres away."
+     ],
+     [
+      3.472,
+      8.111,
+      "Their light meets exactly on the sensor, so in the photo they're sharp."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_04": {
+    "duration": 12.744,
+    "hash": "f2f2df77efa52e65",
+    "sentences": [
+     [
+      0.05,
+      3.639,
+      "Light from the branch close by would meet behind the sensor."
+     ],
+     [
+      3.639,
+      10.014,
+      "The sensor cuts its cone short, so each point lands as a little disc, called a blur circle."
+     ],
+     [
+      10.014,
+      12.694,
+      "That's why the branch looks soft."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_05": {
+    "duration": 12.048,
+    "hash": "f24c6ffabcd8c519",
+    "sentences": [
+     [
+      0.05,
+      3.736,
+      "This is the aperture, the hole the light comes through."
+     ],
+     [
+      3.736,
+      8.903,
+      "Open it wide, to f one point four, and the cones get fatter."
+     ],
+     [
+      8.903,
+      11.986,
+      "Everything out of focus blurs much more."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_06": {
+    "duration": 9.792,
+    "hash": "1a1c2ce5d7f6c2cb",
+    "sentences": [
+     [
+      0.05,
+      3.75,
+      "Close it down to f eleven, and the cones get thin."
+     ],
+     [
+      3.75,
+      6.625,
+      "Now much more of the scene looks sharp."
+     ],
+     [
+      6.625,
+      9.736,
+      "This sharp zone is called the depth of field."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_07": {
+    "duration": 6.36,
+    "hash": "ebf3b6065b42541f",
+    "sentences": [
+     [
+      0.05,
+      1.347,
+      "Quick question."
+     ],
+     [
+      1.347,
+      6.292,
+      "For a portrait with a soft, blurry background, what should you do?"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_08": {
+    "duration": 10.224,
+    "hash": "bc4a01d9ca3d9db8",
+    "sentences": [
+     [
+      0.05,
+      5.361,
+      "Now the light is fading, and the shutter stays open for a fifteenth of a second."
+     ],
+     [
+      5.361,
+      10.167,
+      "The ball keeps moving while it's open, so it smears into a streak."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_09": {
+    "duration": 10.2,
+    "hash": "21a5246d1ce2c893",
+    "sentences": [
+     [
+      0.05,
+      2.778,
+      "A thousandth of a second freezes the ball."
+     ],
+     [
+      2.778,
+      6.764,
+      "But so little light gets in that the photo is nearly black."
+     ],
+     [
+      6.764,
+      10.164,
+      "Look at the meter: we're about six stops short."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_10": {
+    "duration": 12.816,
+    "hash": "153cc22ae18bee40",
+    "sentences": [
+     [
+      0.05,
+      7.958,
+      "Raising the ISO amplifies the signal to make up for it, but the noise is amplified too, so the photo turns grainy."
+     ],
+     [
+      7.958,
+      12.764,
+      "Aperture, shutter and ISO always trade against each other."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_11": {
+    "duration": 11.112,
+    "hash": "7cb09693ad7f05ff",
+    "sentences": [
+     [
+      0.05,
+      2.167,
+      "Last, the focal length."
+     ],
+     [
+      2.167,
+      8.944,
+      "A long, two hundred millimetre lens sees only a narrow slice of the scene and makes it big."
+     ],
+     [
+      8.944,
+      11.042,
+      "A short lens sees wide."
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_12": {
+    "duration": 9.024,
+    "hash": "41a950bf7af111f5",
+    "sentences": [
+     [
+      0.05,
+      1.136,
+      "Your turn."
+     ],
+     [
+      1.136,
+      8.958,
+      "Click something in the photo to focus on it, or change the aperture, the shutter or the zoom, and see how the picture changes."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_01": {
+    "duration": 9.288,
+    "hash": "ebc58ce47da16a23",
+    "sentences": [
+     [
+      0.05,
+      4.042,
+      "This is an eye, cut in half and seen from the side."
+     ],
+     [
+      4.042,
+      9.222,
+      "Light from the chart on the left comes in through the cornea, the clear dome at the front."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_02": {
+    "duration": 11.04,
+    "hash": "9bcf46ae73c8e5c0",
+    "sentences": [
+     [
+      0.05,
+      5.319,
+      "Behind the cornea, the coloured iris leaves a round hole, the pupil."
+     ],
+     [
+      5.319,
+      10.972,
+      "It narrows in bright light and opens wide in the dark, like a camera's aperture."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_03": {
+    "duration": 10.08,
+    "hash": "4e1c9e67417c8fba",
+    "sentences": [
+     [
+      0.05,
+      2.514,
+      "The cornea does most of the bending."
+     ],
+     [
+      2.514,
+      10.028,
+      "Then the lens behind the pupil fine-tunes it, so the light from each point of the chart meets again on the retina at the back."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_04": {
+    "duration": 10.488,
+    "hash": "64a1b0117558b67f",
+    "sentences": [
+     [
+      0.05,
+      2.124,
+      "Look at the image on the retina."
+     ],
+     [
+      2.124,
+      3.722,
+      "It's upside down!"
+     ],
+     [
+      3.722,
+      7.319,
+      "The gold light from the top of the chart lands at the bottom."
+     ],
+     [
+      7.319,
+      10.417,
+      "Your brain quietly turns it the right way up."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_05": {
+    "duration": 15.072,
+    "hash": "d7b0c6b2035262be",
+    "sentences": [
+     [
+      0.05,
+      4.444,
+      "Now the chart comes close, a quarter of a metre away."
+     ],
+     [
+      4.444,
+      9.097,
+      "Light from near things spreads out more, so the eye has to bend it harder."
+     ],
+     [
+      9.097,
+      12.764,
+      "The ciliary muscle tightens, and the lens bulges."
+     ],
+     [
+      12.764,
+      15.0,
+      "This is called accommodation."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_06": {
+    "duration": 11.832,
+    "hash": "1682c0e043fdbe93",
+    "sentences": [
+     [
+      0.05,
+      2.514,
+      "But there's a limit, called the near point."
+     ],
+     [
+      2.514,
+      7.278,
+      "Any closer, and the lens can't bulge any more, so things blur."
+     ],
+     [
+      7.278,
+      11.778,
+      "At twenty years old, it's less than ten centimetres away."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_07": {
+    "duration": 12.624,
+    "hash": "4c964dea6de3f01c",
+    "sentences": [
+     [
+      0.05,
+      2.819,
+      "As we age, the lens stiffens."
+     ],
+     [
+      2.819,
+      9.486,
+      "At sixty, the near point has moved out to a couple of metres, so a book at reading distance is a blur."
+     ],
+     [
+      9.486,
+      12.556,
+      "That's why older people need reading glasses."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_08": {
+    "duration": 7.896,
+    "hash": "4dc132b0c955fe3c",
+    "sentences": [
+     [
+      0.05,
+      4.569,
+      "Now imagine this eye were a little too long, as happens in short sight."
+     ],
+     [
+      4.569,
+      7.833,
+      "Where do you think the light from a far chart would meet?"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_09": {
+    "duration": 13.176,
+    "hash": "292a09196bcac105",
+    "sentences": [
+     [
+      0.05,
+      5.792,
+      "It meets in front of the retina, then spreads out again, so far things blur."
+     ],
+     [
+      5.792,
+      7.458,
+      "That's short sight."
+     ],
+     [
+      7.458,
+      13.111,
+      "This eye only sees clearly out to its far point, about a third of a metre away."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_10": {
+    "duration": 9.864,
+    "hash": "a6bd612d23bdcfe6",
+    "sentences": [
+     [
+      0.05,
+      1.653,
+      "Glasses fix it."
+     ],
+     [
+      1.653,
+      9.792,
+      "A concave lens in front spreads the light out a little first, so the eye focuses it right on the retina again, and the far chart is sharp."
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_11": {
+    "duration": 8.688,
+    "hash": "33431623072aeb9c",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "Your turn."
+     ],
+     [
+      1.153,
+      8.625,
+      "Drag the chart nearer or farther, or change the age, the eye or the glasses, and watch what the lens does."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Aberration": {
+    "duration": 12.432,
+    "hash": "8d6e1c28c9cf78b2",
+    "sentences": [
+     [
+      0.05,
+      5.761,
+      "Real lenses have spherical faces, and rays through the edge are bent a little too much."
+     ],
+     [
+      5.761,
+      12.361,
+      "They cross the axis nearer the lens than the middle rays, so the focus is a short smear instead of a point."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Aperture": {
+    "duration": 13.128,
+    "hash": "9da94c7e34c978b3",
+    "sentences": [
+     [
+      0.05,
+      3.472,
+      "Blades inside the lens make an adjustable hole."
+     ],
+     [
+      3.472,
+      13.056,
+      "The f-number is the focal length divided by the hole's width, so a small f-number means a big hole: more light, and a shallower zone of sharpness."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Axis": {
+    "duration": 10.08,
+    "hash": "85480d78659dd11d",
+    "sentences": [
+     [
+      0.05,
+      4.153,
+      "This line through the middle of the lens is the optical axis."
+     ],
+     [
+      4.153,
+      10.028,
+      "A ray along it goes straight through without bending, and all the distances are measured along it."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ball": {
+    "duration": 9.432,
+    "hash": "d81b1c3a4790db55",
+    "sentences": [
+     [
+      0.05,
+      5.25,
+      "The ball keeps moving while the shutter is open, so it's recorded as a streak."
+     ],
+     [
+      5.25,
+      9.375,
+      "A faster shutter freezes it; a slower one smears it more."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_BlindSpot": {
+    "duration": 11.04,
+    "hash": "4d07c7705e65af95",
+    "sentences": [
+     [
+      0.05,
+      5.458,
+      "Where the optic nerve leaves the eye, there's no room for light-sensitive cells."
+     ],
+     [
+      5.458,
+      10.986,
+      "Light landing here isn't seen at all, but the brain fills in the gap, so you never notice."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_BlurCircle": {
+    "duration": 13.296,
+    "hash": "4e172e3771e6db4b",
+    "sentences": [
+     [
+      0.05,
+      3.542,
+      "Light from the nearby branch would meet behind the sensor."
+     ],
+     [
+      3.542,
+      7.694,
+      "Cut short by the sensor, its cone lands as a little disc."
+     ],
+     [
+      7.694,
+      13.236,
+      "Every point of the branch becomes a disc like this, so the branch looks soft."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_CameraLens": {
+    "duration": 11.304,
+    "hash": "27fd34405a260fba",
+    "sentences": [
+     [
+      0.05,
+      5.958,
+      "A camera lens is several pieces of glass working together as one convex lens."
+     ],
+     [
+      5.958,
+      11.236,
+      "To focus closer, the whole lens moves a little forward, away from the sensor."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Candle": {
+    "duration": 11.28,
+    "hash": "0e3f6730d9440daa",
+    "sentences": [
+     [
+      0.05,
+      4.514,
+      "Every point of the flame sends light out in all directions."
+     ],
+     [
+      4.514,
+      7.681,
+      "The lens catches a cone of it and bends it."
+     ],
+     [
+      7.681,
+      11.222,
+      "Drag the candle and see how the image moves."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Centre": {
+    "duration": 7.92,
+    "hash": "27d790b5d8e562f7",
+    "sentences": [
+     [
+      0.05,
+      5.389,
+      "At the very middle of the lens its two faces are parallel, like a thin window."
+     ],
+     [
+      5.389,
+      7.861,
+      "A ray through here goes straight on."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Chart": {
+    "duration": 8.208,
+    "hash": "94f25129b9502e50",
+    "sentences": [
+     [
+      0.05,
+      2.042,
+      "This is the chart we're looking at."
+     ],
+     [
+      2.042,
+      8.139,
+      "Drag it along the track, from very close to far away, and watch the lens change its shape."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Chromatic": {
+    "duration": 12.288,
+    "hash": "67b0d402dca01403",
+    "sentences": [
+     [
+      0.05,
+      5.917,
+      "Glass bends blue light more than red, so blue focuses a little nearer the lens."
+     ],
+     [
+      5.917,
+      9.236,
+      "Here the effect is drawn six times stronger."
+     ],
+     [
+      9.236,
+      12.222,
+      "It gives cheap lenses coloured fringes."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ciliary": {
+    "duration": 15.96,
+    "hash": "8148443be88623f8",
+    "sentences": [
+     [
+      0.05,
+      3.972,
+      "This ring of muscle holds the lens by fine fibres."
+     ],
+     [
+      3.972,
+      8.833,
+      "When it relaxes, the fibres pull the lens flat for far vision."
+     ],
+     [
+      8.833,
+      13.847,
+      "When it tightens, they slacken, and the lens bulges to focus near."
+     ],
+     [
+      13.847,
+      15.889,
+      "Long reading tires it."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Cornea": {
+    "duration": 12.456,
+    "hash": "01139229c8ef8919",
+    "sentences": [
+     [
+      0.05,
+      3.347,
+      "The cornea is the clear front window of the eye."
+     ],
+     [
+      3.347,
+      9.775,
+      "Light bends most here, going from air into the eye, so it does about two thirds of all the focusing."
+     ],
+     [
+      9.775,
+      12.403,
+      "Laser eye surgery reshapes it."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Dof": {
+    "duration": 12.12,
+    "hash": "fabda3bf5dcf4a3d",
+    "sentences": [
+     [
+      0.05,
+      6.306,
+      "Between these limits, the blur circles are too small to notice, so everything here looks sharp."
+     ],
+     [
+      6.306,
+      12.056,
+      "A smaller aperture, a shorter lens or a farther focus all make it deeper."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_EyeLens": {
+    "duration": 11.04,
+    "hash": "d39b9c9b1a2e15a4",
+    "sentences": [
+     [
+      0.05,
+      8.681,
+      "The eye's own lens is soft and elastic, and it can change its shape: flatter for far things, rounder for near ones."
+     ],
+     [
+      8.681,
+      10.986,
+      "That fine-tunes the focus."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_FarPoint": {
+    "duration": 15.12,
+    "hash": "a65672d17c73ac1f",
+    "sentences": [
+     [
+      0.05,
+      4.972,
+      "The farthest place this eye sees clearly when it is fully relaxed."
+     ],
+     [
+      4.972,
+      7.694,
+      "For a normal eye it's at infinity."
+     ],
+     [
+      7.694,
+      15.069,
+      "A short-sighted eye's far point is close: at minus three dioptres, only a third of a metre."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Focus": {
+    "duration": 12.024,
+    "hash": "65ada72abc83c1e5",
+    "sentences": [
+     [
+      0.05,
+      5.722,
+      "Light arriving parallel to the axis is brought together here, at the focal point."
+     ],
+     [
+      5.722,
+      9.0,
+      "Its distance from the lens is the focal length."
+     ],
+     [
+      9.0,
+      11.972,
+      "The shorter it is, the stronger the lens."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_FocusMark": {
+    "duration": 9.744,
+    "hash": "ea23a2317b52ab5e",
+    "sentences": [
+     [
+      0.05,
+      5.708,
+      "The camera is focused at this distance: light from here meets exactly on the sensor."
+     ],
+     [
+      5.708,
+      9.694,
+      "Drag the pin, or click something in the photo, to focus there."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Fov": {
+    "duration": 10.344,
+    "hash": "8feaeb944f866ac0",
+    "sentences": [
+     [
+      0.05,
+      8.139,
+      "A short focal length sees a wide angle and makes everything small; a long one sees a narrow slice and makes it big."
+     ],
+     [
+      8.139,
+      10.278,
+      "That's what a zoom changes."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Fovea": {
+    "duration": 8.76,
+    "hash": "f566fb06690128fb",
+    "sentences": [
+     [
+      0.05,
+      6.458,
+      "This small pit is packed with cone cells, so it sees the finest detail and the best colour."
+     ],
+     [
+      6.458,
+      8.708,
+      "Whatever you look straight at lands here."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Glasses": {
+    "duration": 11.52,
+    "hash": "93f6f219e00db129",
+    "sentences": [
+     [
+      0.05,
+      3.292,
+      "Glasses add a little bending in front of the eye."
+     ],
+     [
+      3.292,
+      11.458,
+      "A concave lens spreads light for short sight; a convex one adds bending for long sight, or for reading."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Iris": {
+    "duration": 14.832,
+    "hash": "fe0f375f7a4ddaba",
+    "sentences": [
+     [
+      0.05,
+      5.264,
+      "The coloured iris is a ring of muscle, and the hole in its middle is the pupil."
+     ],
+     [
+      5.264,
+      11.444,
+      "In bright light it shrinks to about two millimetres; in the dark it opens to six or more."
+     ],
+     [
+      11.444,
+      14.764,
+      "A small pupil also makes blur smaller."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Lens": {
+    "duration": 18.072,
+    "hash": "bd4ad5ab20001fdd",
+    "sentences": [
+     [
+      0.05,
+      3.611,
+      "A lens is a piece of glass with curved faces."
+     ],
+     [
+      3.611,
+      9.039,
+      "Light slows down in glass, so it bends where it goes in and where it comes out."
+     ],
+     [
+      9.039,
+      18.014,
+      "A convex lens, thicker in the middle, brings light together; a concave one, thinner in the middle, spreads it apart."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Meter": {
+    "duration": 11.136,
+    "hash": "996f2d752efce1b3",
+    "sentences": [
+     [
+      0.05,
+      4.597,
+      "The meter compares the light the settings let in with what this scene needs."
+     ],
+     [
+      4.597,
+      9.139,
+      "Each mark is one stop, a doubling or halving of the light."
+     ],
+     [
+      9.139,
+      11.096,
+      "Zero is just right."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_NearPoint": {
+    "duration": 12.984,
+    "hash": "cd933347ba11a18d",
+    "sentences": [
+     [
+      0.05,
+      5.542,
+      "The closest place this eye can still focus, with its lens as round as it gets."
+     ],
+     [
+      5.542,
+      12.917,
+      "It moves away with age, from under ten centimetres in children to beyond arm's length after sixty."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Photo": {
+    "duration": 12.072,
+    "hash": "40ca86baba0ff201",
+    "sentences": [
+     [
+      0.05,
+      2.482,
+      "This is the picture the sensor records."
+     ],
+     [
+      2.482,
+      9.556,
+      "Focus, depth of field, motion blur, brightness and grain all come from the settings."
+     ],
+     [
+      9.556,
+      12.014,
+      "Click anything in it to focus there."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ray1": {
+    "duration": 12.408,
+    "hash": "3cd5e39e5304a4b9",
+    "sentences": [
+     [
+      0.05,
+      3.181,
+      "This ray sets off parallel to the axis."
+     ],
+     [
+      3.181,
+      12.347,
+      "A convex lens bends it through the focal point on the far side; a concave lens bends it away, as if it came from the near focal point."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ray2": {
+    "duration": 10.128,
+    "hash": "1b72f485586d73aa",
+    "sentences": [
+     [
+      0.05,
+      4.332,
+      "This ray passes through the centre of the lens and carries straight on."
+     ],
+     [
+      4.332,
+      10.056,
+      "It makes finding the image easy: the image of the flame's tip lies somewhere on this line."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ray3": {
+    "duration": 10.32,
+    "hash": "9c4c47225ac8ff15",
+    "sentences": [
+     [
+      0.05,
+      6.889,
+      "This ray passes through the near focal point before the lens, and the lens turns it parallel to the axis."
+     ],
+     [
+      6.889,
+      10.25,
+      "It's the parallel ray, run backwards."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_RealImage": {
+    "duration": 8.832,
+    "hash": "c298784dd7664e5f",
+    "sentences": [
+     [
+      0.05,
+      4.361,
+      "Here the light really does come together again, so you can catch it on a screen."
+     ],
+     [
+      4.361,
+      8.778,
+      "A real image made by one lens is always upside down."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Retina": {
+    "duration": 10.368,
+    "hash": "f6125dc0889fbf02",
+    "sentences": [
+     [
+      0.05,
+      6.181,
+      "The retina lines the back of the eye with light-sensitive cells, more than a hundred million of them."
+     ],
+     [
+      6.181,
+      10.306,
+      "The picture formed here is turned into nerve signals."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_RetinalImage": {
+    "duration": 10.032,
+    "hash": "b7d156ecbf5a92fa",
+    "sentences": [
+     [
+      0.05,
+      7.528,
+      "The image on the retina is real, small and upside down: light from the top of the chart lands at the bottom."
+     ],
+     [
+      7.528,
+      9.972,
+      "Your brain turns it the right way up."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Screen": {
+    "duration": 12.24,
+    "hash": "3bb5ab9ae2010369",
+    "sentences": [
+     [
+      0.05,
+      2.431,
+      "A white card that catches light."
+     ],
+     [
+      2.431,
+      7.569,
+      "Where the light from each point of the flame meets on it, you see a sharp picture."
+     ],
+     [
+      7.569,
+      12.181,
+      "Move it away, and each point spreads into a blurry patch."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_ScreenView": {
+    "duration": 9.312,
+    "hash": "25370a1923997d98",
+    "sentences": [
+     [
+      0.05,
+      3.026,
+      "This is what the screen shows, enlarged."
+     ],
+     [
+      3.026,
+      9.25,
+      "Notice that the candle is upside down, and that it blurs as the screen moves away from the image."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Sensor": {
+    "duration": 11.808,
+    "hash": "ca02df6198e9f623",
+    "sentences": [
+     [
+      0.05,
+      7.042,
+      "Millions of tiny light sensors, one for each pixel, sit here, where the retina would be in an eye."
+     ],
+     [
+      7.042,
+      11.736,
+      "The image on it is upside down; the camera simply flips the numbers."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Shutter": {
+    "duration": 10.848,
+    "hash": "9b9513b06aab6acf",
+    "sentences": [
+     [
+      0.05,
+      6.861,
+      "The shutter decides how long light falls on the sensor, from a few thousandths of a second to whole seconds."
+     ],
+     [
+      6.861,
+      10.792,
+      "Longer lets in more light, but moving things smear."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Subject": {
+    "duration": 10.776,
+    "hash": "575c9c11540bfde6",
+    "sentences": [
+     [
+      0.05,
+      2.444,
+      "The camera now focuses on this."
+     ],
+     [
+      2.444,
+      7.486,
+      "Things nearer or farther blur, more so with a wide aperture."
+     ],
+     [
+      7.486,
+      10.708,
+      "It's what happens when you tap the screen of a phone camera."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_TwoF": {
+    "duration": 12.744,
+    "hash": "0907a387ff90afc3",
+    "sentences": [
+     [
+      0.05,
+      3.139,
+      "This mark is two focal lengths from the lens."
+     ],
+     [
+      3.139,
+      8.694,
+      "A candle here makes an image of the same size, at 2F on the other side."
+     ],
+     [
+      8.694,
+      12.694,
+      "Beyond it the image is smaller; inside it, bigger."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_View": {
+    "duration": 10.344,
+    "hash": "563c340715cb383b",
+    "sentences": [
+     [
+      0.05,
+      2.639,
+      "This is the chart as this eye sees it."
+     ],
+     [
+      2.639,
+      10.278,
+      "When the light doesn't meet on the retina, each point spreads into a small disc, and the smallest rows blur first."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_VirtualImage": {
+    "duration": 11.856,
+    "hash": "fbf33aa0acf88387",
+    "sentences": [
+     [
+      0.05,
+      3.069,
+      "No light actually reaches this place."
+     ],
+     [
+      3.069,
+      9.194,
+      "The rays only seem to come from it when you look back through the lens, so no screen can catch it."
+     ],
+     [
+      9.194,
+      11.806,
+      "A magnifying glass shows you one."
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Vitreous": {
+    "duration": 7.224,
+    "hash": "80d40c8f81732a48",
+    "sentences": [
+     [
+      0.05,
+      4.458,
+      "Most of the eye is filled with a clear jelly that keeps it round."
+     ],
+     [
+      4.458,
+      7.165,
+      "Light crosses it on the way to the retina."
+     ]
+    ]
+   },
    "Narr_Lightning_Cloud_01": {
     "duration": 12.12,
     "hash": "84aa3bf65274eda3",
@@ -39074,6 +40490,1347 @@
       10.778,
       14.847,
       "左页上的表格，可以一颗一颗地验证它。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_01": {
+    "duration": 14.976,
+    "hash": "21f572edc3dafd5e",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "这是一块凸透镜，中间厚、边缘薄。"
+     ],
+     [
+      4.139,
+      11.806,
+      "左边立着一支蜡烛，正好在穿过透镜中心的那条线上，这条线叫主光轴。"
+     ],
+     [
+      11.806,
+      14.917,
+      "我们来追踪火焰尖发出的光。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_02": {
+    "duration": 11.832,
+    "hash": "0aea165a08a78022",
+    "sentences": [
+     [
+      0.1,
+      2.703,
+      "先看金色这条光线。"
+     ],
+     [
+      2.653,
+      6.486,
+      "它从火焰尖出发，平行于主光轴。"
+     ],
+     [
+      6.486,
+      11.778,
+      "透镜把它折弯，到另一侧时，它穿过一个特殊的点。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_03": {
+    "duration": 12.048,
+    "hash": "ad9be16ba2cb1317",
+    "sentences": [
+     [
+      0.1,
+      2.675,
+      "这个点就是焦点 F。"
+     ],
+     [
+      2.625,
+      7.292,
+      "所有平行于主光轴射来的光，都会被折向它。"
+     ],
+     [
+      7.292,
+      11.986,
+      "焦点到透镜的距离叫焦距，这里是十五厘米。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_04": {
+    "duration": 10.296,
+    "hash": "a2dfb8b717535fcc",
+    "sentences": [
+     [
+      0.1,
+      2.231,
+      "再看蓝色光线。"
+     ],
+     [
+      2.181,
+      10.236,
+      "它穿过透镜的正中心，那里两个表面几乎平行，所以它不偏折，笔直地往前走。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_05": {
+    "duration": 11.256,
+    "hash": "3baa1c01921aeb8c",
+    "sentences": [
+     [
+      0.1,
+      2.189,
+      "还有粉色光线。"
+     ],
+     [
+      2.139,
+      8.222,
+      "它先经过左边的焦点，透镜再把它折成平行于主光轴。"
+     ],
+     [
+      8.222,
+      11.194,
+      "它就像金色光线倒过来走。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_06": {
+    "duration": 15.336,
+    "hash": "9a05135a4d2ffefe",
+    "sentences": [
+     [
+      0.1,
+      4.814,
+      "三条光线重新相交的地方，就是火焰的像。"
+     ],
+     [
+      4.764,
+      8.847,
+      "注意，它是倒立的，而且比蜡烛小。"
+     ],
+     [
+      8.847,
+      15.264,
+      "蜡烛在两倍焦距以外时就是这样，照相机用的正是这个原理。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_07": {
+    "duration": 7.8,
+    "hash": "c7f04c11e1e17df1",
+    "sentences": [
+     [
+      0.1,
+      7.786,
+      "考考你：如果蜡烛向透镜靠近，移到 F 和 2F 之间，像会怎样变化？"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_08": {
+    "duration": 11.376,
+    "hash": "fa4a0c2f5db4dc83",
+    "sentences": [
+     [
+      0.1,
+      3.592,
+      "像变大了，并且离透镜更远。"
+     ],
+     [
+      3.542,
+      6.764,
+      "现在它比蜡烛本身还要大。"
+     ],
+     [
+      6.764,
+      11.306,
+      "投影仪就是这样，把大大的画面投到墙上。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_09": {
+    "duration": 18.432,
+    "hash": "f32731fc89a170bb",
+    "sentences": [
+     [
+      0.1,
+      2.8,
+      "现在蜡烛在焦点以内。"
+     ],
+     [
+      2.75,
+      7.667,
+      "光线经过透镜后仍然分散，永远不会相交。"
+     ],
+     [
+      7.667,
+      13.903,
+      "可是把它们反向延长，好像是从一支更大、正立的蜡烛发出的。"
+     ],
+     [
+      13.903,
+      18.375,
+      "这就是虚像，用放大镜看到的正是它。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_10": {
+    "duration": 14.112,
+    "hash": "d688e64c8251be96",
+    "sentences": [
+     [
+      0.1,
+      5.842,
+      "实像可以用光屏接住，但光屏必须放在合适的位置。"
+     ],
+     [
+      5.792,
+      10.542,
+      "现在光屏稍远了一些，每个点的光已经散开了。"
+     ],
+     [
+      10.542,
+      14.042,
+      "看看角落里的画面，它是模糊的。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_11": {
+    "duration": 14.856,
+    "hash": "f47505c3f4a6d231",
+    "sentences": [
+     [
+      0.1,
+      2.286,
+      "最后看凹透镜。"
+     ],
+     [
+      2.236,
+      11.514,
+      "它中间薄，会让光发散，所以无论蜡烛放在哪里，都只能得到一个正立、缩小的虚像。"
+     ],
+     [
+      11.514,
+      14.806,
+      "近视眼镜用的就是这种透镜。"
+     ]
+    ]
+   },
+   "Narr_Lens_Bench_12": {
+    "duration": 9.312,
+    "hash": "05557d821ec01571",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      4.028,
+      "光屏又放错了位置。"
+     ],
+     [
+      4.028,
+      9.25,
+      "拖动蜡烛或者光屏，直到角落里的画面变清晰。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_01": {
+    "duration": 10.656,
+    "hash": "7349e257e1a17ffc",
+    "sentences": [
+     [
+      0.1,
+      2.536,
+      "相机和眼睛很像。"
+     ],
+     [
+      2.486,
+      10.597,
+      "镜头收集景物的光，在后面的传感器上成像，像也是倒立的，跟视网膜上一样。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_02": {
+    "duration": 12.984,
+    "hash": "1b0fd0b3b8f1dbe1",
+    "sentences": [
+     [
+      0.1,
+      6.147,
+      "不过相机镜头不能改变形状，它靠移动整个镜头来对焦。"
+     ],
+     [
+      6.097,
+      12.931,
+      "近处物体的光会聚得更靠后，所以对焦近处时，镜头要向前移。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_03": {
+    "duration": 10.872,
+    "hash": "c07c049207a8325d",
+    "sentences": [
+     [
+      0.1,
+      3.939,
+      "现在相机对焦在五米外的人身上。"
+     ],
+     [
+      3.889,
+      10.819,
+      "人身上来的光正好会聚在传感器上，所以照片里的人是清晰的。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_04": {
+    "duration": 13.872,
+    "hash": "e08afa954997cce0",
+    "sentences": [
+     [
+      0.1,
+      4.411,
+      "近处树枝的光要到传感器后面才会聚。"
+     ],
+     [
+      4.361,
+      10.764,
+      "传感器把光锥截断，每一点都落成一个小圆斑，叫弥散圆。"
+     ],
+     [
+      10.764,
+      13.806,
+      "所以树枝看起来是虚的。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_05": {
+    "duration": 11.496,
+    "hash": "015fa6f2b44c2b67",
+    "sentences": [
+     [
+      0.1,
+      3.397,
+      "这是光圈，光从这个孔进来。"
+     ],
+     [
+      3.347,
+      11.431,
+      "把它开到最大，f 一点四，光锥变粗了，所有没对上焦的东西都虚得更厉害。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_06": {
+    "duration": 10.056,
+    "hash": "54acf924b363d798",
+    "sentences": [
+     [
+      0.1,
+      7.05,
+      "把光圈缩小到 f 十一，光锥变细了，画面中清晰的部分多了很多。"
+     ],
+     [
+      7.0,
+      10.0,
+      "这个清晰的范围叫景深。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_07": {
+    "duration": 6.648,
+    "hash": "94419eee9efcc15d",
+    "sentences": [
+     [
+      0.1,
+      6.647,
+      "问你一个问题：拍人像时，想让背景虚化得更柔和，应该怎么做？"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_08": {
+    "duration": 10.128,
+    "hash": "9bcd487ba4400c95",
+    "sentences": [
+     [
+      0.1,
+      4.758,
+      "现在天色暗了，快门要打开十五分之一秒。"
+     ],
+     [
+      4.708,
+      10.069,
+      "快门打开期间小球一直在动，所以拖成了一道影子。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_09": {
+    "duration": 11.184,
+    "hash": "0c42d953262fbc9a",
+    "sentences": [
+     [
+      0.1,
+      3.925,
+      "千分之一秒的快门能把小球定格。"
+     ],
+     [
+      3.875,
+      7.819,
+      "可是进光太少，照片几乎全黑了。"
+     ],
+     [
+      7.819,
+      11.111,
+      "看看测光表，差了大约六档。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_10": {
+    "duration": 13.176,
+    "hash": "d2ae565179041b25",
+    "sentences": [
+     [
+      0.1,
+      8.619,
+      "提高 ISO 可以放大信号来弥补，但噪点也一起被放大，照片变得很粗糙。"
+     ],
+     [
+      8.569,
+      13.111,
+      "光圈、快门和 ISO 总是此消彼长。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_11": {
+    "duration": 11.16,
+    "hash": "f6c385956ffe6c4f",
+    "sentences": [
+     [
+      0.1,
+      1.939,
+      "最后是焦距。"
+     ],
+     [
+      1.889,
+      11.097,
+      "两百毫米的长焦镜头只看到景物中窄窄的一部分，并把它放大；短焦镜头则看得更宽。"
+     ]
+    ]
+   },
+   "Narr_Lens_Camera_12": {
+    "duration": 9.984,
+    "hash": "8167989b61eef33a",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      9.917,
+      "点击照片里的东西来对焦，或者调整光圈、快门和焦距，看看画面怎样变化。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_01": {
+    "duration": 10.752,
+    "hash": "910cf57d2f388d01",
+    "sentences": [
+     [
+      0.1,
+      3.231,
+      "这是一只从侧面剖开的眼睛。"
+     ],
+     [
+      3.181,
+      10.681,
+      "左边视力表发出的光，先从前面透明的圆顶，也就是角膜，进入眼睛。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_02": {
+    "duration": 11.736,
+    "hash": "068ce3eefaaf5b29",
+    "sentences": [
+     [
+      0.1,
+      6.272,
+      "角膜后面是有颜色的虹膜，中间留着一个圆孔，叫瞳孔。"
+     ],
+     [
+      6.222,
+      11.681,
+      "光强时它缩小，光暗时它张大，就像相机的光圈。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_03": {
+    "duration": 12.576,
+    "hash": "f5a7380d0cf6b73f",
+    "sentences": [
+     [
+      0.1,
+      3.244,
+      "大部分折光是角膜完成的。"
+     ],
+     [
+      3.194,
+      12.514,
+      "瞳孔后面的晶状体再做精细的调整，让视力表上每一点的光，重新会聚在眼底的视网膜上。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_04": {
+    "duration": 10.536,
+    "hash": "7efd88cace3595c9",
+    "sentences": [
+     [
+      0.1,
+      3.675,
+      "看看视网膜上的像，它是倒立的！"
+     ],
+     [
+      3.625,
+      7.639,
+      "视力表顶端的金色光线落在了下面。"
+     ],
+     [
+      7.639,
+      10.472,
+      "大脑会悄悄地把它翻正。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_05": {
+    "duration": 14.064,
+    "hash": "7831e666e939c3bd",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "现在把视力表拿近，只有二十五厘米。"
+     ],
+     [
+      4.139,
+      8.778,
+      "近处的光更加发散，眼睛必须折得更厉害。"
+     ],
+     [
+      8.778,
+      12.139,
+      "睫状肌收缩，晶状体变凸。"
+     ],
+     [
+      12.139,
+      14.014,
+      "这就叫调节。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_06": {
+    "duration": 13.992,
+    "hash": "5082c33aa3097273",
+    "sentences": [
+     [
+      0.1,
+      5.383,
+      "不过调节是有极限的，这个极限位置叫近点。"
+     ],
+     [
+      5.333,
+      10.417,
+      "再近，晶状体就凸不起来了，东西就会变模糊。"
+     ],
+     [
+      10.417,
+      13.931,
+      "二十岁时，近点还不到十厘米。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_07": {
+    "duration": 14.112,
+    "hash": "9bf4310be0d783ce",
+    "sentences": [
+     [
+      0.1,
+      3.744,
+      "随着年龄增长，晶状体会变硬。"
+     ],
+     [
+      3.694,
+      10.486,
+      "到了六十岁，近点已经退到两米左右，拿在手上的书就看不清了。"
+     ],
+     [
+      10.486,
+      14.056,
+      "这就是为什么老年人需要老花镜。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_08": {
+    "duration": 9.744,
+    "hash": "ccac8a64787d87aa",
+    "sentences": [
+     [
+      0.1,
+      9.667,
+      "如果这只眼睛的眼轴稍微长了一点，就像近视眼那样，你觉得远处视力表的光会在哪里会聚？"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_09": {
+    "duration": 14.64,
+    "hash": "9007804aa275cf94",
+    "sentences": [
+     [
+      0.1,
+      6.981,
+      "光在视网膜前面就会聚了，然后又散开，所以远处的东西看不清。"
+     ],
+     [
+      6.931,
+      8.806,
+      "这就是近视。"
+     ],
+     [
+      8.806,
+      14.569,
+      "这只眼睛只能看清远点以内的东西，大约三十三厘米。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_10": {
+    "duration": 11.688,
+    "hash": "e163ec0003586a7f",
+    "sentences": [
+     [
+      0.1,
+      2.231,
+      "戴上眼镜就好了。"
+     ],
+     [
+      2.181,
+      11.625,
+      "前面的凹透镜先让光稍微发散一点，眼睛就又能把它会聚到视网膜上，远处的视力表也清楚了。"
+     ]
+    ]
+   },
+   "Narr_Lens_Eye_11": {
+    "duration": 10.44,
+    "hash": "33419bbb6ed4f2c9",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      10.375,
+      "把视力表拖近或拖远，或者改变年龄、近视远视和眼镜，看看晶状体怎样变化。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Aberration": {
+    "duration": 14.832,
+    "hash": "69233694cbf17c79",
+    "sentences": [
+     [
+      0.1,
+      14.778,
+      "真实透镜的表面是球面，经过边缘的光线偏折得稍多，与主光轴相交的位置比中间的光线更靠近透镜，所以焦点不是一个点，而是一小段。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Aperture": {
+    "duration": 12.648,
+    "hash": "16850410afec370c",
+    "sentences": [
+     [
+      0.1,
+      3.772,
+      "镜头里的叶片围成一个可调的孔。"
+     ],
+     [
+      3.722,
+      12.583,
+      "f 值等于焦距除以孔径，所以 f 值越小，孔越大：进光更多，清晰范围也更浅。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Axis": {
+    "duration": 9.72,
+    "hash": "7cd370c612a1aa91",
+    "sentences": [
+     [
+      0.1,
+      4.036,
+      "穿过透镜中心的这条线叫主光轴。"
+     ],
+     [
+      3.986,
+      9.653,
+      "沿着它走的光不会偏折，所有距离也都沿着它来量。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ball": {
+    "duration": 11.28,
+    "hash": "871a92050ec2cd47",
+    "sentences": [
+     [
+      0.1,
+      6.036,
+      "快门打开期间小球一直在运动，所以被记录成一道拖影。"
+     ],
+     [
+      5.986,
+      11.208,
+      "快门越快，越能把它定格；越慢，拖影越长。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_BlindSpot": {
+    "duration": 12.024,
+    "hash": "f651026d0c0ade4f",
+    "sentences": [
+     [
+      0.1,
+      4.161,
+      "视神经离开眼球的地方没有感光细胞。"
+     ],
+     [
+      4.111,
+      11.958,
+      "落在这里的光根本看不见，但大脑会把空缺补上，所以你平时察觉不到。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_BlurCircle": {
+    "duration": 14.448,
+    "hash": "b11a0420db25368e",
+    "sentences": [
+     [
+      0.1,
+      7.939,
+      "近处树枝的光要在传感器后面才会聚，被传感器截住时落成一个小圆斑。"
+     ],
+     [
+      7.889,
+      14.389,
+      "树枝上的每一点都变成这样的圆斑，所以树枝看起来是虚的。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_CameraLens": {
+    "duration": 12.648,
+    "hash": "e0b560752fac3ac7",
+    "sentences": [
+     [
+      0.1,
+      6.244,
+      "相机镜头由好几片镜片组成，整体相当于一个凸透镜。"
+     ],
+     [
+      6.194,
+      12.597,
+      "对焦到近处时，镜头会稍微向前移动，离传感器远一点。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Candle": {
+    "duration": 11.136,
+    "hash": "a44fdf284806cb5b",
+    "sentences": [
+     [
+      0.1,
+      7.828,
+      "火焰上的每一点都向四面八方发光，透镜接住其中的一束光并让它偏折。"
+     ],
+     [
+      7.778,
+      11.083,
+      "拖动蜡烛，看看像怎样移动。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Centre": {
+    "duration": 9.192,
+    "hash": "6b247af5a32b9a83",
+    "sentences": [
+     [
+      0.1,
+      6.161,
+      "透镜正中心的两个表面近似平行，就像一块薄玻璃窗。"
+     ],
+     [
+      6.111,
+      9.125,
+      "通过光心的光线方向不变。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Chart": {
+    "duration": 9.576,
+    "hash": "37091c1afbf957cf",
+    "sentences": [
+     [
+      0.1,
+      2.869,
+      "这是我们正在看的视力表。"
+     ],
+     [
+      2.819,
+      9.514,
+      "沿着轨道把它从很近拖到很远，看看晶状体怎样改变形状。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Chromatic": {
+    "duration": 14.4,
+    "hash": "122d046dda225c0a",
+    "sentences": [
+     [
+      0.1,
+      7.3,
+      "玻璃对蓝光的折射比红光强，所以蓝光的焦点离透镜更近一些。"
+     ],
+     [
+      7.25,
+      10.306,
+      "这里把效果放大了六倍。"
+     ],
+     [
+      10.306,
+      14.333,
+      "便宜的镜头会因此出现彩色的边。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ciliary": {
+    "duration": 17.76,
+    "hash": "aa91e225f541351c",
+    "sentences": [
+     [
+      0.1,
+      4.439,
+      "睫状肌通过细小的纤维拉住晶状体。"
+     ],
+     [
+      4.389,
+      14.403,
+      "它放松时，纤维把晶状体拉扁，用来看远；它收缩时，纤维松弛，晶状体变凸，用来看近。"
+     ],
+     [
+      14.403,
+      17.708,
+      "长时间看近处会让它疲劳。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Cornea": {
+    "duration": 15.048,
+    "hash": "08bcb68acfcb5b6b",
+    "sentences": [
+     [
+      0.1,
+      3.536,
+      "角膜是眼睛前面透明的窗口。"
+     ],
+     [
+      3.486,
+      10.486,
+      "光从空气进入眼睛时在这里偏折最多，约占全部折光的三分之二。"
+     ],
+     [
+      10.486,
+      14.986,
+      "激光近视手术改变的就是角膜的形状。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Dof": {
+    "duration": 12.216,
+    "hash": "1927bc179e8dafeb",
+    "sentences": [
+     [
+      0.1,
+      6.647,
+      "在这个范围内，弥散圆小到察觉不出来，所以看起来都是清晰的。"
+     ],
+     [
+      6.597,
+      12.167,
+      "光圈越小、焦距越短、对焦越远，景深就越深。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_EyeLens": {
+    "duration": 9.48,
+    "hash": "b6348b9107b38acb",
+    "sentences": [
+     [
+      0.1,
+      9.467,
+      "晶状体柔软而有弹性，能改变形状：看远时变扁，看近时变凸，从而精细地调节焦距。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_FarPoint": {
+    "duration": 13.344,
+    "hash": "6504b96a01f7e7a7",
+    "sentences": [
+     [
+      0.1,
+      4.467,
+      "这是眼睛完全放松时能看清的最远位置。"
+     ],
+     [
+      4.417,
+      7.528,
+      "正常眼的远点在无穷远。"
+     ],
+     [
+      7.528,
+      13.292,
+      "近视眼的远点很近：三百度近视只有三十三厘米左右。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Focus": {
+    "duration": 12.552,
+    "hash": "21d70b4d1f56d51f",
+    "sentences": [
+     [
+      0.1,
+      6.286,
+      "平行于主光轴的光经过凸透镜后会聚到这一点，叫焦点。"
+     ],
+     [
+      6.236,
+      9.542,
+      "焦点到透镜的距离叫焦距。"
+     ],
+     [
+      9.542,
+      12.5,
+      "焦距越短，透镜越强。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_FocusMark": {
+    "duration": 12.6,
+    "hash": "3c1da306eabae12b",
+    "sentences": [
+     [
+      0.1,
+      6.689,
+      "相机对焦在这个距离上：从这里来的光正好会聚在传感器上。"
+     ],
+     [
+      6.639,
+      12.542,
+      "拖动这个标记，或者点击照片里的东西，就能对焦到那里。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Fov": {
+    "duration": 9.936,
+    "hash": "1fe6bdff93e0c3f5",
+    "sentences": [
+     [
+      0.1,
+      7.439,
+      "焦距短，视角宽，景物显得小；焦距长，视角窄，景物被放大。"
+     ],
+     [
+      7.389,
+      9.875,
+      "变焦改变的就是这个。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Fovea": {
+    "duration": 10.68,
+    "hash": "4951439ac623795e",
+    "sentences": [
+     [
+      0.1,
+      6.883,
+      "这个小凹里密集地排列着视锥细胞，看得最清楚，颜色也最准。"
+     ],
+     [
+      6.833,
+      10.611,
+      "你正眼看着的东西，像就落在这里。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Glasses": {
+    "duration": 12.264,
+    "hash": "1aae1f86783a3d0c",
+    "sentences": [
+     [
+      0.1,
+      3.717,
+      "眼镜在眼睛前面增加一点折光。"
+     ],
+     [
+      3.667,
+      12.194,
+      "凹透镜让光发散，矫正近视；凸透镜增加会聚，矫正远视，或者用来看书。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Iris": {
+    "duration": 15.12,
+    "hash": "f1dc171ef25c2e8d",
+    "sentences": [
+     [
+      0.1,
+      5.536,
+      "有颜色的虹膜是一圈肌肉，中间的孔就是瞳孔。"
+     ],
+     [
+      5.486,
+      12.069,
+      "强光下瞳孔缩小到两毫米左右，黑暗中能开到六毫米以上。"
+     ],
+     [
+      12.069,
+      15.056,
+      "瞳孔小，模糊也会变小。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Lens": {
+    "duration": 14.04,
+    "hash": "e9e68a89059278c3",
+    "sentences": [
+     [
+      0.1,
+      3.022,
+      "透镜是表面弯曲的玻璃。"
+     ],
+     [
+      2.972,
+      7.792,
+      "光在玻璃里会变慢，所以进出时都会偏折。"
+     ],
+     [
+      7.792,
+      13.972,
+      "中间厚的凸透镜让光会聚，中间薄的凹透镜让光发散。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Meter": {
+    "duration": 12.432,
+    "hash": "f70a7684a5bb065e",
+    "sentences": [
+     [
+      0.1,
+      5.994,
+      "测光表把设置放进的光量和场景需要的光量作比较。"
+     ],
+     [
+      5.944,
+      10.306,
+      "每一格是一档，也就是光量加倍或减半。"
+     ],
+     [
+      10.306,
+      12.375,
+      "指在零就正好。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_NearPoint": {
+    "duration": 13.32,
+    "hash": "8d34dba384f052ab",
+    "sentences": [
+     [
+      0.1,
+      6.578,
+      "这是眼睛用尽调节、晶状体凸到极限时能看清的最近位置。"
+     ],
+     [
+      6.528,
+      13.264,
+      "它随年龄后移：儿童不到十厘米，六十岁以后会超过一臂远。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Photo": {
+    "duration": 13.512,
+    "hash": "09387e05c447cf4a",
+    "sentences": [
+     [
+      0.1,
+      3.106,
+      "这是传感器记录下的画面。"
+     ],
+     [
+      3.056,
+      9.097,
+      "对焦、景深、运动模糊、亮度和噪点，都由设置决定。"
+     ],
+     [
+      9.097,
+      13.458,
+      "点击画面里的任何东西，就能对焦到那里。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ray1": {
+    "duration": 12.096,
+    "hash": "e1d5ac13a2ba0b43",
+    "sentences": [
+     [
+      0.1,
+      3.675,
+      "这条光线平行于主光轴射出。"
+     ],
+     [
+      3.625,
+      12.028,
+      "凸透镜把它折向另一侧的焦点；凹透镜则让它偏开，好像是从同侧的焦点发出的。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ray2": {
+    "duration": 9.072,
+    "hash": "99f210ab305f41e0",
+    "sentences": [
+     [
+      0.1,
+      3.744,
+      "这条光线穿过光心，方向不变。"
+     ],
+     [
+      3.694,
+      9.0,
+      "它让找像变得容易：火焰尖的像一定在这条线上。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Ray3": {
+    "duration": 10.344,
+    "hash": "c92ef1f598be80f3",
+    "sentences": [
+     [
+      0.1,
+      7.078,
+      "这条光线先经过透镜前的焦点，经透镜后变成平行于主光轴。"
+     ],
+     [
+      7.028,
+      10.278,
+      "它正好是平行光线倒过来走。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_RealImage": {
+    "duration": 8.28,
+    "hash": "cb1f531060f52521",
+    "sentences": [
+     [
+      0.1,
+      4.758,
+      "光在这里真的重新会聚，所以能用光屏接住。"
+     ],
+     [
+      4.708,
+      8.208,
+      "单个透镜成的实像总是倒立的。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Retina": {
+    "duration": 9.024,
+    "hash": "8d6568f95e75f4cd",
+    "sentences": [
+     [
+      0.1,
+      4.994,
+      "视网膜铺在眼球后壁上，有一亿多个感光细胞。"
+     ],
+     [
+      4.944,
+      8.958,
+      "在这里形成的像被转换成神经信号。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_RetinalImage": {
+    "duration": 9.384,
+    "hash": "5b69ecee3147782d",
+    "sentences": [
+     [
+      0.1,
+      7.231,
+      "视网膜上的像是倒立、缩小的实像：视力表顶部的光落在下方。"
+     ],
+     [
+      7.181,
+      9.333,
+      "大脑再把它翻正。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Screen": {
+    "duration": 12.792,
+    "hash": "ff13d564598b4c09",
+    "sentences": [
+     [
+      0.1,
+      2.897,
+      "光屏是接收光的白板。"
+     ],
+     [
+      2.847,
+      12.736,
+      "火焰每一点的光都恰好会聚在屏上时，就能看到清晰的像；移开一点，每个点都会散成模糊的光斑。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_ScreenView": {
+    "duration": 10.176,
+    "hash": "aff2abfc4ea25a9d",
+    "sentences": [
+     [
+      0.1,
+      2.897,
+      "这是放大后的光屏画面。"
+     ],
+     [
+      2.847,
+      10.111,
+      "注意蜡烛是倒立的，而光屏离开成像位置时，画面就会变模糊。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Sensor": {
+    "duration": 14.376,
+    "hash": "2e130349019cfb4c",
+    "sentences": [
+     [
+      0.1,
+      8.439,
+      "这里排列着数以百万计的微小感光单元，每个对应一个像素，相当于眼睛的视网膜。"
+     ],
+     [
+      8.389,
+      14.319,
+      "传感器上的像是倒立的，相机只要把数据翻过来就行了。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Shutter": {
+    "duration": 11.832,
+    "hash": "447e73584e925122",
+    "sentences": [
+     [
+      0.1,
+      6.536,
+      "快门决定光照到传感器上的时间，从几千分之一秒到好几秒。"
+     ],
+     [
+      6.486,
+      11.764,
+      "时间越长进光越多，但运动的物体会拖出影子。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Subject": {
+    "duration": 13.56,
+    "hash": "4efe88e04c1ec258",
+    "sentences": [
+     [
+      0.1,
+      2.8,
+      "相机现在对焦到这里。"
+     ],
+     [
+      2.75,
+      8.667,
+      "比它近或者比它远的东西会变虚，光圈越大越明显。"
+     ],
+     [
+      8.667,
+      13.5,
+      "在手机相机上点一下屏幕对焦，就是这么回事。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_TwoF": {
+    "duration": 13.512,
+    "hash": "eef305b01bee9229",
+    "sentences": [
+     [
+      0.1,
+      3.856,
+      "这个点到透镜的距离是两倍焦距。"
+     ],
+     [
+      3.806,
+      9.528,
+      "蜡烛放在这里，像也在另一侧的 2F 处，大小相同。"
+     ],
+     [
+      9.528,
+      13.458,
+      "在它外面像变小，在它里面像变大。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_View": {
+    "duration": 11.808,
+    "hash": "8b922cab518791aa",
+    "sentences": [
+     [
+      0.1,
+      3.286,
+      "这是这只眼睛看到的视力表。"
+     ],
+     [
+      3.236,
+      11.736,
+      "光没有会聚在视网膜上时，每个点都会散成一个小圆斑，最小的那几行最先看不清。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_VirtualImage": {
+    "duration": 12.96,
+    "hash": "522793b0e5fd4976",
+    "sentences": [
+     [
+      0.1,
+      9.606,
+      "并没有光真正到达这里，只是透过透镜看去，光好像是从这里发出的，所以光屏接不到它。"
+     ],
+     [
+      9.556,
+      12.903,
+      "放大镜让你看到的就是虚像。"
+     ]
+    ]
+   },
+   "Narr_Lens_Obj_Vitreous": {
+    "duration": 9.024,
+    "hash": "85e9d0827eba2ec8",
+    "sentences": [
+     [
+      0.1,
+      6.189,
+      "眼球的大部分充满透明的胶状物质，维持着眼球的形状。"
+     ],
+     [
+      6.139,
+      8.958,
+      "光穿过它到达视网膜。"
      ]
     ]
    },

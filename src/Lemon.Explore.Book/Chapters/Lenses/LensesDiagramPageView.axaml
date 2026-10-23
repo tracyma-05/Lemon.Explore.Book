@@ -1,0 +1,78 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:lenses="using:Lemon.Explore.Book.Chapters.Lenses"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Lenses.LensesDiagramPageView"
+                         x:DataType="lenses:LensesDiagramPageViewModel">
+    <!-- Right page of the Lenses spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <lenses:LensDiagram Mode="{Binding Lenses.Mode}"
+                                    LensKind="{Binding Lenses.LensKind}"
+                                    FocalLength="{Binding Lenses.FocalLength, Mode=TwoWay}"
+                                    ObjectDistance="{Binding Lenses.ObjectDistance, Mode=TwoWay}"
+                                    ObjectHeight="{Binding Lenses.ObjectHeight, Mode=TwoWay}"
+                                    ScreenDistance="{Binding Lenses.ScreenDistance, Mode=TwoWay}"
+                                    ShowScreen="{Binding Lenses.ShowScreen}"
+                                    RayStyle="{Binding Lenses.RayStyle}"
+                                    ShowColours="{Binding Lenses.ShowColours}"
+                                    Distance="{Binding Lenses.Distance, Mode=TwoWay}"
+                                    Age="{Binding Lenses.Age}"
+                                    Error="{Binding Lenses.Error}"
+                                    Glasses="{Binding Lenses.Glasses}"
+                                    Light="{Binding Lenses.Light}"
+                                    FocalMm="{Binding Lenses.FocalMm}"
+                                    FNumber="{Binding Lenses.FNumber}"
+                                    FocusDistance="{Binding Lenses.FocusDistance, Mode=TwoWay}"
+                                    Shutter="{Binding Lenses.Shutter}"
+                                    Iso="{Binding Lenses.Iso}"
+                                    Scene="{Binding Lenses.Scene}"
+                                    ShowLabels="{Binding Lenses.ShowLabels}"
+                                    IsPlaying="{Binding Lenses.IsPlaying, Mode=TwoWay}"
+                                    ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                    Highlight="{Binding Lenses.Lesson.Highlight}"
+                                    IsLessonActive="{Binding Lenses.Lesson.IsActive}"
+                                    SelectedObject="{Binding Lenses.Card.Id, Mode=TwoWay}"
+                                    InteractionCommand="{Binding Lenses.UserInteractedCommand}"
+                                    ToolTip.Tip="{Binding Lenses.Hint}"
+                                    AutomationProperties.Name="{Binding Lenses.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Lenses.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Lenses.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Lenses.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Lenses.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Lens_PlayPause}" AutomationProperties.Name="{loc:Localize Lens_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Lenses.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Lenses.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <ToggleButton Classes="space" IsChecked="{Binding Lenses.ShowLabels}" Content="{loc:Localize Lens_Option_Labels}" />
+                            <Button Classes="space" Command="{Binding Lenses.FindImageCommand}" IsVisible="{Binding Lenses.IsBench}"
+                                    Content="{loc:Localize Lens_FindImage}" ToolTip.Tip="{loc:Localize Lens_FindImage_Tooltip}" />
+                            <Button Classes="space" Command="{Binding Lenses.AutoExposeCommand}" IsVisible="{Binding Lenses.IsCamera}"
+                                    Content="{loc:Localize Lens_Auto}" ToolTip.Tip="{loc:Localize Lens_Auto_Tooltip}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

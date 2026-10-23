@@ -23,6 +23,7 @@ using Lemon.Explore.Book.Chapters.Typhoon;
 using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Chapters.WaterCycle;
 using Lemon.Explore.Book.Chapters.Flight;
+using Lemon.Explore.Book.Chapters.Lenses;
 using Lemon.Explore.Book.Chapters.Projectile;
 using Lemon.Explore.Book.Chapters.Sound;
 using Lemon.Explore.Book.Chapters.Waves;
@@ -37,7 +38,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -266,6 +267,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, flight.Lesson, () => flight.Mode.ToString(), Enum.GetNames<FlightMode>());
                 return (new FlightTextPageViewModel(textPage, navigator, chapter, number, flight),
                     new FlightDiagramPageViewModel(textPage + 1, navigator, chapter, flight));
+            }
+
+            case "Lenses":
+            {
+                var lenses = new LensesViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, lenses.Lesson, () => lenses.Mode.ToString(), Enum.GetNames<LensMode>());
+                return (new LensesTextPageViewModel(textPage, navigator, chapter, number, lenses),
+                    new LensesDiagramPageViewModel(textPage + 1, navigator, chapter, lenses));
             }
 
             default:

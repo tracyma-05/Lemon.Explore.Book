@@ -135,6 +135,10 @@ public static readonly Brush Dot = Freeze(new SolidColorBrush(Gold));
         self.assertIn("if (at.X + text.Width > plot.Right) at = at.WithX(point.X - 8);", out)
         self.assertIn("tangent = tangent.Normalize();", out)
 
+    def test_static_rect_inflate_becomes_the_instance_method(self):
+        out = tool.convert_points("        AddBoxTarget(\"sensor\", Rect.Inflate(sensor, 3, 2));\n")
+        self.assertIn("AddBoxTarget(\"sensor\", sensor.Inflate(new Thickness(3, 2)));", out)
+
     def test_a_difference_of_3d_points_stays_var(self):
         source = """    private static Point3D Turn(Point3D p, Point3D a, Point3D b, double degrees)
     {
@@ -259,6 +263,18 @@ class LateTests(unittest.TestCase):
             siblings)
         self.assertIn("DependencyProperty.Register(nameof(LastSlip), typeof(double), typeof(QuakeDiagram)", out)
         self.assertIn("BindsTwoWayByDefault", out)
+
+    def test_a_property_named_like_its_enum_takes_the_enum_type(self):
+        siblings = """
+    private static DependencyProperty Register<T>(string name, T value) =>
+        DependencyProperty.Register(name, typeof(T), typeof(LensDiagram), new FrameworkPropertyMetadata(value));
+"""
+        out = tool.expand_register_helpers(
+            "public enum RayStyle\n{\n    Principal,\n}\n\n"
+            "    public static readonly DependencyProperty RayStyleProperty = Register(nameof(RayStyle), RayStyle.Principal);\n"
+            "    public RayStyle RayStyle { get => (RayStyle)GetValue(RayStyleProperty); set => SetValue(RayStyleProperty, value); }\n",
+            siblings)
+        self.assertIn("typeof(RayStyle), typeof(LensDiagram)", out)
 
     def test_initialized_pens_empty_rects_and_polylines(self):
         out = tool.convert_late("""        pen = new Pen(brush, 2) { StartLineCap = cap, EndLineCap = cap, LineJoin = PenLineJoin.Round };

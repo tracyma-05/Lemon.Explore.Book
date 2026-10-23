@@ -36,6 +36,25 @@ public sealed class BitmapDrawingTests
     }
 
     [AvaloniaFact]
+    public void ReadPixels_GivesPremultipliedBgra_RowAfterRow()
+    {
+        // Opaque red on the left half, half-transparent white on the right half of a 4 × 2 picture.
+        using var bitmap = SpaceDrawing.RenderPixels(4, 2, 96, dc =>
+        {
+            dc.DrawRectangle(Brushes.Red, null, new Rect(0, 0, 2, 2));
+            dc.DrawRectangle(new SolidColorBrush(Color.FromArgb(128, 255, 255, 255)), null, new Rect(2, 0, 2, 2));
+        });
+
+        var pixels = SpaceDrawing.ReadPixels(bitmap);
+
+        Assert.Equal(4 * 2 * 4, pixels.Length);
+        Assert.Equal(new byte[] { 0, 0, 255, 255 }, pixels[..4]);
+        var right = pixels.AsSpan(((1 * 4) + 3) * 4, 4).ToArray();
+        Assert.InRange(right[3], 127, 129);
+        Assert.All(right[..3], c => Assert.InRange(c, right[3] - 1, right[3] + 1));
+    }
+
+    [AvaloniaFact]
     public void RenderToBitmap_DrawsInDips_AtTheGivenScale()
     {
         // 40 × 40 DIPs at 2 pixels per DIP; red over the top-left 10 × 10 DIPs.

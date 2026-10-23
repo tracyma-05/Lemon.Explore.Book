@@ -387,7 +387,8 @@ def expand_register_helpers(s: str, siblings: str = "") -> str:
         elif value_type:
             type_ = value_type
         else:
-            clr = re.search(rf"public ([\w.<>?,\[\] ]+?) {name}\s*(?:\{{|=>)", s)
+            # The property's own type, not an enum, class or struct that shares its name (`public enum RayStyle {`).
+            clr = re.search(rf"public (?!(?:enum|class|struct|record|interface)\b)([\w.<>?,\[\] ]+?) {name}\s*(?:\{{|=>)", s)
             type_ = clr.group(1) if clr else "object"
         meta = [args[1] if len(args) > 1 else default]
         if flags:
@@ -947,6 +948,8 @@ def convert_points(s: str) -> str:
     # (so do Union, Intersect and Inflate; a Union with a point fails to compile and is fixed by hand)
     s = re.sub(r"^(\s*)(\w+)\.(Union|Intersect)\((.+)\);$", r"\1\2 = \2.\3(\4);", s, flags=re.M)
     s = re.sub(r"^(\s*)(\w+)\.Inflate\(([^;]+)\);$", r"\1\2 = \2.Inflate(new Thickness(\3));", s, flags=re.M)
+    # WPF's static Rect.Inflate(rect, x, y) returns an inflated copy, as Avalonia's instance method does.
+    s = re.sub(r"\bRect\.Inflate\((\w+), ([^,()]+), ([^,()]+)\)", r"\1.Inflate(new Thickness(\2, \3))", s)
     s = s.replace("Vector.AngleBetween(", "SpaceDrawing.AngleBetween(")
     s = s.replace("Vector.Multiply(", "Vector.Dot(")
     # (also after an `if (...)` on the same line). Not a variable also changed with `v.X +=`: that is one of the file's
@@ -971,6 +974,8 @@ LEFT_FOR_HAND_PATTERNS = {
     "System.Windows.": r"System\.Windows\.(?!Input;)",
     "GradientBrush(": r"(?<!\w)(?:Linear|Radial)?GradientBrush\(",
     "SolidColorBrush(": r"(?<!\w)SolidColorBrush\(",
+    # `new EllipseGeometry(...) { Transform = ... }` became a method call, which cannot take an initializer.
+    "SpaceDrawing.Ellipse(...) { ... }": r"SpaceDrawing\.Ellipse\([^;{]*\)\s*\{",
 }
 
 

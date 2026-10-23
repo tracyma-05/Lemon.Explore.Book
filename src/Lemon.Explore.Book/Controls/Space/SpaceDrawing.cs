@@ -3,6 +3,7 @@ using Avalonia;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
 using Avalonia.Media.Immutable;
+using Avalonia.Platform;
 
 namespace Lemon.Explore.Book.Controls.Space;
 
@@ -208,6 +209,45 @@ internal static class SpaceDrawing
         }
 
         return bitmap;
+    }
+
+    /// <summary>
+    /// The pixels of <paramref name="source"/> as premultiplied BGRA bytes, row after row with no padding (WPF's
+    /// CopyPixels into a Pbgra32 buffer). A render target's own layout depends on the platform, so RGBA is swapped and
+    /// straight alpha premultiplied.
+    /// </summary>
+    public static unsafe byte[] ReadPixels(Bitmap source)
+    {
+        var size = source.PixelSize;
+        var stride = size.Width * 4;
+        var pixels = new byte[stride * size.Height];
+        fixed (byte* address = pixels)
+        {
+            source.CopyPixels(new PixelRect(size), (nint)address, pixels.Length, stride);
+        }
+
+        var swap = source.Format == PixelFormat.Rgba8888;
+        var premultiply = source.AlphaFormat == AlphaFormat.Unpremul;
+        if (swap || premultiply)
+        {
+            for (var i = 0; i < pixels.Length; i += 4)
+            {
+                if (swap)
+                {
+                    (pixels[i], pixels[i + 2]) = (pixels[i + 2], pixels[i]);
+                }
+
+                if (premultiply)
+                {
+                    var a = pixels[i + 3];
+                    pixels[i] = (byte)((pixels[i] * a + 127) / 255);
+                    pixels[i + 1] = (byte)((pixels[i + 1] * a + 127) / 255);
+                    pixels[i + 2] = (byte)((pixels[i + 2] * a + 127) / 255);
+                }
+            }
+        }
+
+        return pixels;
     }
 
     private static unsafe void WritePixels(WriteableBitmap bitmap, ReadOnlySpan<uint> pixels, int width, int height)
