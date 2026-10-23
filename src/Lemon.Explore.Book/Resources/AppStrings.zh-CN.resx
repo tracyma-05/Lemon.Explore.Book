@@ -5148,6 +5148,786 @@
   <data name="Green_World_Venus" xml:space="preserve">
     <value>金星</value>
   </data>
+  <data name="Grid_Bal_After" xml:space="preserve">
+    <value>事件后 {0} 秒</value>
+  </data>
+  <data name="Grid_Bal_Caught_Description" xml:space="preserve">
+    <value>几秒之内，其他电厂的调速器把汽门、水门开大；电动机转慢了，用电也略少一点。频率止跌回升。</value>
+  </data>
+  <data name="Grid_Bal_Caught_Title" xml:space="preserve">
+    <value>止跌：调速器出手</value>
+  </data>
+  <data name="Grid_Bal_Curtailed" xml:space="preserve">
+    <value>部分被限发</value>
+  </data>
+  <data name="Grid_Bal_Day_Description" xml:space="preserve">
+    <value>办公室、工厂和空调让用电上升，煤电机组跟着调高调低。</value>
+  </data>
+  <data name="Grid_Bal_Day_Title" xml:space="preserve">
+    <value>白天</value>
+  </data>
+  <data name="Grid_Bal_Demand" xml:space="preserve">
+    <value>用电 {0} GW</value>
+  </data>
+  <data name="Grid_Bal_EventClock" xml:space="preserve">
+    <value>+{0} 秒 · {1}</value>
+  </data>
+  <data name="Grid_Bal_Event_Caption" xml:space="preserve">
+    <value>突发事件</value>
+  </data>
+  <data name="Grid_Bal_Event_Link" xml:space="preserve">
+    <value>3000 MW 直流闭锁</value>
+  </data>
+  <data name="Grid_Bal_Event_Surge" xml:space="preserve">
+    <value>负荷突增 800 MW</value>
+  </data>
+  <data name="Grid_Bal_Event_Trip" xml:space="preserve">
+    <value>1000 MW 机组跳闸</value>
+  </data>
+  <data name="Grid_Bal_Falling_Description" xml:space="preserve">
+    <value>电源突然少了，用电却没少。差额来自所有转动的汽轮机和发电机里储存的动能，它们都稍稍变慢，频率随之下降。</value>
+  </data>
+  <data name="Grid_Bal_Falling_Title" xml:space="preserve">
+    <value>下跌：转动的机组在减速</value>
+  </data>
+  <data name="Grid_Bal_Inertia" xml:space="preserve">
+    <value>转动惯量：H = {0} 秒（减速被放大显示）</value>
+  </data>
+  <data name="Grid_Bal_Jump_Caption" xml:space="preserve">
+    <value>跳到</value>
+  </data>
+  <data name="Grid_Bal_LinkLost" xml:space="preserve">
+    <value>直流闭锁 −3000 MW</value>
+  </data>
+  <data name="Grid_Bal_Night_Description" xml:space="preserve">
+    <value>大多数人都睡了。核电和煤电平稳运行，夜里风往往更大，抽水蓄能也许正在为明天蓄水。</value>
+  </data>
+  <data name="Grid_Bal_Night_Title" xml:space="preserve">
+    <value>深夜：用电低谷</value>
+  </data>
+  <data name="Grid_Bal_Peak_Description" xml:space="preserve">
+    <value>太阳下山了，可照明、做饭和空调都开着。所有电源都顶上去：煤电满发，水电和燃气发电，抽水蓄能把水放下来发电。</value>
+  </data>
+  <data name="Grid_Bal_Peak_Title" xml:space="preserve">
+    <value>晚高峰</value>
+  </data>
+  <data name="Grid_Bal_Pumping" xml:space="preserve">
+    <value>正在抽水</value>
+  </data>
+  <data name="Grid_Bal_Recovering_Description" xml:space="preserve">
+    <value>接下来几分钟，调度中心让电厂持续增加出力，频率回到 50 赫兹。</value>
+  </data>
+  <data name="Grid_Bal_Recovering_Title" xml:space="preserve">
+    <value>恢复：调度中心接手</value>
+  </data>
+  <data name="Grid_Bal_Season_Caption" xml:space="preserve">
+    <value>季节</value>
+  </data>
+  <data name="Grid_Bal_ShedLabel" xml:space="preserve">
+    <value>切除负荷 {0} GW</value>
+  </data>
+  <data name="Grid_Bal_Shed_Description" xml:space="preserve">
+    <value>频率掉得太低，继电器自动切掉了一部分用户，保住了其余的电网。</value>
+  </data>
+  <data name="Grid_Bal_Solar" xml:space="preserve">
+    <value>光伏装机</value>
+  </data>
+  <data name="Grid_Bal_Steady" xml:space="preserve">
+    <value>平稳：发电 = 用电</value>
+  </data>
+  <data name="Grid_Bal_Summer" xml:space="preserve">
+    <value>夏季</value>
+  </data>
+  <data name="Grid_Bal_SunNote" xml:space="preserve">
+    <value>太阳高度按{0}计算；时间为当地太阳时。</value>
+  </data>
+  <data name="Grid_Bal_Sunny_Description" xml:space="preserve">
+    <value>光伏大量发电。煤电机组降到能安全运行的最低出力，抽水蓄能吸收多余的电，还可能有一部分风电光伏被限发。</value>
+  </data>
+  <data name="Grid_Bal_Sunny_Title" xml:space="preserve">
+    <value>正午阳光：电太多了</value>
+  </data>
+  <data name="Grid_Bal_SurgeLabel" xml:space="preserve">
+    <value>突然多用 800 MW</value>
+  </data>
+  <data name="Grid_Bal_Tripped" xml:space="preserve">
+    <value>跳闸 −1000 MW</value>
+  </data>
+  <data name="Grid_Bal_Winter" xml:space="preserve">
+    <value>冬季</value>
+  </data>
+  <data name="Grid_Balance_Fact1" xml:space="preserve">
+    <value>电网几乎存不住电，所以每一秒，电厂发的电都要等于大家用的电，再加上线路的损耗。</value>
+  </data>
+  <data name="Grid_Balance_Fact2" xml:space="preserve">
+    <value>频率是电网的脉搏：用电多了它下降，发电多了它上升。中国电网把它控制在 50 赫兹上下 0.2 赫兹以内。</value>
+  </data>
+  <data name="Grid_Balance_Fact3" xml:space="preserve">
+    <value>抽水蓄能电站在电多的时候把水抽到上水库，在用电高峰时再放下来发电。</value>
+  </data>
+  <data name="Grid_Balance_Fact4" xml:space="preserve">
+    <value>如果频率掉得太低（中国大约从 49 赫兹开始），继电器会自动切掉一部分负荷，保住其余的用电。</value>
+  </data>
+  <data name="Grid_Balance_Fact5" xml:space="preserve">
+    <value>光伏和储能是通过电力电子设备接入电网的，没有同步转动的机器。新能源多的电网会加装构网型逆变器和调相机，补充惯量。</value>
+  </data>
+  <data name="Grid_Balance_Note" xml:space="preserve">
+    <value>一个虚构的区域电网，夏季高峰 40 GW（4000 万千瓦）。一分钟走完一天；突发事件的前 20 秒按真实时间播放。</value>
+  </data>
+  <data name="Grid_Balance_Subtitle" xml:space="preserve">
+    <value>每一秒，发电都要等于用电</value>
+  </data>
+  <data name="Grid_Chart_Day_Caption" xml:space="preserve">
+    <value>一天的电源构成</value>
+  </data>
+  <data name="Grid_Chart_Day_Note" xml:space="preserve">
+    <value>堆叠色块：各类电源的出力；虚线：用电负荷。零线以下：抽水蓄能在抽水。</value>
+  </data>
+  <data name="Grid_Chart_Flux_Caption" xml:space="preserve">
+    <value>转一圈：磁通与电压</value>
+  </data>
+  <data name="Grid_Chart_Flux_Legend" xml:space="preserve">
+    <value>- - 磁通</value>
+  </data>
+  <data name="Grid_Chart_Flux_Note" xml:space="preserve">
+    <value>虚线最陡的地方电压最大，虚线平的地方电压为零：电压就是磁通的变化率。</value>
+  </data>
+  <data name="Grid_Chart_Freq_Caption" xml:space="preserve">
+    <value>最近一次事件后的频率</value>
+  </data>
+  <data name="Grid_Chart_Freq_Empty" xml:space="preserve">
+    <value>还没有发生事件</value>
+  </data>
+  <data name="Grid_Chart_Freq_Lowest" xml:space="preserve">
+    <value>最低 {0} Hz，第 {1} 秒</value>
+  </data>
+  <data name="Grid_Chart_Freq_Note" xml:space="preserve">
+    <value>红色虚线：继电器开始自动切负荷的频率。下跌有多深，取决于电网里有多少转动的质量。</value>
+  </data>
+  <data name="Grid_Chart_Loss_Caption" xml:space="preserve">
+    <value>各电压等级的损耗比例</value>
+  </data>
+  <data name="Grid_Chart_Loss_Note" xml:space="preserve">
+    <value>同样的功率、导线和距离（对数刻度）。电压每升高一级，损耗按升高倍数的平方下降；✕ 表示根本送不过去。</value>
+  </data>
+  <data name="Grid_Chart_Phases_Legend" xml:space="preserve">
+    <value>转一圈中的三相电压</value>
+  </data>
+  <data name="Grid_Chart_Three_Caption" xml:space="preserve">
+    <value>转一圈：三相电压</value>
+  </data>
+  <data name="Grid_Chart_Three_Note" xml:space="preserve">
+    <value>每一相都比前一相晚三分之一个周期到达峰值。换成四极，转一圈就有两个周期。</value>
+  </data>
+  <data name="Grid_Chart_Volts_Legend" xml:space="preserve">
+    <value>— 电压</value>
+  </data>
+  <data name="Grid_Event_Link" xml:space="preserve">
+    <value>直流输电闭锁</value>
+  </data>
+  <data name="Grid_Event_Surge" xml:space="preserve">
+    <value>负荷突增 800 MW</value>
+  </data>
+  <data name="Grid_Event_Trip" xml:space="preserve">
+    <value>1000 MW 机组跳闸</value>
+  </data>
+  <data name="Grid_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Grid_Gen_Along_Description" xml:space="preserve">
+    <value>线圈顺着磁场，没有磁场穿过它，但磁通量变化得最快：两条边正好垂直切过磁场，电压达到最大。</value>
+  </data>
+  <data name="Grid_Gen_Along_Title" xml:space="preserve">
+    <value>顺着磁场：磁通为零，电压最大</value>
+  </data>
+  <data name="Grid_Gen_Between_Description" xml:space="preserve">
+    <value>线圈转动时，穿过它的磁场时多时少。电压取决于磁通变化得多快，而不是有多少：它是一条正弦曲线，比磁通落后四分之一圈。</value>
+  </data>
+  <data name="Grid_Gen_Between_Title" xml:space="preserve">
+    <value>转动中：磁通在变化</value>
+  </data>
+  <data name="Grid_Gen_Clock" xml:space="preserve">
+    <value>{0}° · 每秒 {1} 圈</value>
+  </data>
+  <data name="Grid_Gen_Facing_Description" xml:space="preserve">
+    <value>线圈正对两极，穿过它的磁场最多。可就在这一瞬间，这个量没有变化，所以不产生电压。</value>
+  </data>
+  <data name="Grid_Gen_Facing_Title" xml:space="preserve">
+    <value>正对磁场：磁通最大，电压为零</value>
+  </data>
+  <data name="Grid_Gen_Field_Caption" xml:space="preserve">
+    <value>磁铁</value>
+  </data>
+  <data name="Grid_Gen_Field_Strong" xml:space="preserve">
+    <value>强（0.3 T）</value>
+  </data>
+  <data name="Grid_Gen_Field_Weak" xml:space="preserve">
+    <value>弱（0.1 T）</value>
+  </data>
+  <data name="Grid_Gen_Hold_Along" xml:space="preserve">
+    <value>顺着磁场</value>
+  </data>
+  <data name="Grid_Gen_Hold_Caption" xml:space="preserve">
+    <value>让线圈停在</value>
+  </data>
+  <data name="Grid_Gen_Hold_Facing" xml:space="preserve">
+    <value>正对磁场</value>
+  </data>
+  <data name="Grid_Gen_Kind_Ac" xml:space="preserve">
+    <value>滑环（交流）</value>
+  </data>
+  <data name="Grid_Gen_Kind_Caption" xml:space="preserve">
+    <value>机器</value>
+  </data>
+  <data name="Grid_Gen_Kind_Dc" xml:space="preserve">
+    <value>换向器（直流）</value>
+  </data>
+  <data name="Grid_Gen_Kind_ThreePhase" xml:space="preserve">
+    <value>三相发电机</value>
+  </data>
+  <data name="Grid_Gen_Poles_2" xml:space="preserve">
+    <value>2 极</value>
+  </data>
+  <data name="Grid_Gen_Poles_4" xml:space="preserve">
+    <value>4 极</value>
+  </data>
+  <data name="Grid_Gen_Poles_Caption" xml:space="preserve">
+    <value>磁极数</value>
+  </data>
+  <data name="Grid_Gen_Speed" xml:space="preserve">
+    <value>转速</value>
+  </data>
+  <data name="Grid_Gen_Speed_Value" xml:space="preserve">
+    <value>每秒 {0} 圈（每分钟 {1} 圈）</value>
+  </data>
+  <data name="Grid_Gen_Sum" xml:space="preserve">
+    <value>A + B + C = 0</value>
+  </data>
+  <data name="Grid_Gen_Three_Description" xml:space="preserve">
+    <value>磁铁在三组线圈中间转动，三组线圈彼此相隔三分之一圈。每组线圈的电压依次起落，而任何时刻三者加起来都是零。</value>
+  </data>
+  <data name="Grid_Gen_Three_Title" xml:space="preserve">
+    <value>{0} 相接近峰值</value>
+  </data>
+  <data name="Grid_Gen_TooBright" xml:space="preserve">
+    <value>灯泡要烧坏了！</value>
+  </data>
+  <data name="Grid_Gen_Turns_200" xml:space="preserve">
+    <value>200 匝</value>
+  </data>
+  <data name="Grid_Gen_Turns_50" xml:space="preserve">
+    <value>50 匝</value>
+  </data>
+  <data name="Grid_Gen_Turns_500" xml:space="preserve">
+    <value>500 匝</value>
+  </data>
+  <data name="Grid_Gen_Turns_Caption" xml:space="preserve">
+    <value>线圈匝数</value>
+  </data>
+  <data name="Grid_Generator_Fact1" xml:space="preserve">
+    <value>1831 年，法拉第发现变化的磁场会让导线里产生电压。今天世界上几乎所有的电，仍然是这样发出来的。</value>
+  </data>
+  <data name="Grid_Generator_Fact2" xml:space="preserve">
+    <value>火电和核电站把水烧成蒸汽去推动汽轮机，水电和风电则直接靠水流和风来转动。不管哪种，转动的都是发电机。</value>
+  </data>
+  <data name="Grid_Generator_Fact3" xml:space="preserve">
+    <value>中国电网的频率是 50 赫兹，北美是 60 赫兹。两极发电机要发出 50 赫兹，每分钟得转 3000 圈。</value>
+  </data>
+  <data name="Grid_Generator_Fact4" xml:space="preserve">
+    <value>水轮机转得慢，发电机就要很多磁极：一台每分钟转 75 圈的大型水电机组有 80 个磁极，才能发出 50 赫兹。</value>
+  </data>
+  <data name="Grid_Generator_Fact5" xml:space="preserve">
+    <value>大型电站的发电机输出电压约 2 万伏，单机功率可达 100 万千瓦以上，效率约 99%。</value>
+  </data>
+  <data name="Grid_Generator_Note" xml:space="preserve">
+    <value>课堂上的小发电机：10 厘米见方的线圈，接一只 6 V 3 W 的小灯泡，按真实转速播放。电站的发电机每分钟要转 3000 圈。</value>
+  </data>
+  <data name="Grid_Generator_Subtitle" xml:space="preserve">
+    <value>线圈在磁场里转动，就能发电</value>
+  </data>
+  <data name="Grid_Hint_Balance" xml:space="preserve">
+    <value>左右拖动可以改变一天中的时间；在左页让机组跳闸，看看频率的变化。</value>
+  </data>
+  <data name="Grid_Hint_Generator" xml:space="preserve">
+    <value>左右拖动可以亲手转动线圈；点灯泡可以接通或断开电路。</value>
+  </data>
+  <data name="Grid_Hint_Transmission" xml:space="preserve">
+    <value>在左页选一个电压，看看电流、发热和送到城镇的电力。</value>
+  </data>
+  <data name="Grid_Lesson_Balance_Choice1" xml:space="preserve">
+    <value>更快：转动的机组少了</value>
+  </data>
+  <data name="Grid_Lesson_Balance_Choice2" xml:space="preserve">
+    <value>更慢：光伏板转得更快</value>
+  </data>
+  <data name="Grid_Lesson_Balance_Choice3" xml:space="preserve">
+    <value>完全一样</value>
+  </data>
+  <data name="Grid_Lesson_Generator_Choice1" xml:space="preserve">
+    <value>电压翻倍，波也密了一倍</value>
+  </data>
+  <data name="Grid_Lesson_Generator_Choice2" xml:space="preserve">
+    <value>电压不变，只是变得更快</value>
+  </data>
+  <data name="Grid_Lesson_Generator_Choice3" xml:space="preserve">
+    <value>电压减半</value>
+  </data>
+  <data name="Grid_Lesson_Transmission_Choice1" xml:space="preserve">
+    <value>降为四分之一</value>
+  </data>
+  <data name="Grid_Lesson_Transmission_Choice2" xml:space="preserve">
+    <value>减半</value>
+  </data>
+  <data name="Grid_Lesson_Transmission_Choice3" xml:space="preserve">
+    <value>翻倍</value>
+  </data>
+  <data name="Grid_Line_Arrives" xml:space="preserve">
+    <value>送到：{0} MW</value>
+  </data>
+  <data name="Grid_Line_Clock" xml:space="preserve">
+    <value>{0} kV · {1} MW · {2} 公里</value>
+  </data>
+  <data name="Grid_Line_Dc_Description" xml:space="preserve">
+    <value>恒定的电流在铁芯里产生恒定的磁场。只有变化的磁场才能在另一个线圈里感应出电压，所以变压器只能用交流电。</value>
+  </data>
+  <data name="Grid_Line_Dc_Title" xml:space="preserve">
+    <value>变压器通直流：没有输出</value>
+  </data>
+  <data name="Grid_Line_Distance" xml:space="preserve">
+    <value>≈ {0} 公里 ≈</value>
+  </data>
+  <data name="Grid_Line_DistanceCaption" xml:space="preserve">
+    <value>输电距离</value>
+  </data>
+  <data name="Grid_Line_Good_Description" xml:space="preserve">
+    <value>在这个电压下电流不大，导线不怎么发热，只有很小一部分电力在路上变成了热。</value>
+  </data>
+  <data name="Grid_Line_Good_Title" xml:space="preserve">
+    <value>大部分电力送到了</value>
+  </data>
+  <data name="Grid_Line_HeatLabel" xml:space="preserve">
+    <value>发热 {0} MW</value>
+  </data>
+  <data name="Grid_Line_High_Description" xml:space="preserve">
+    <value>电流很大，导线发热又和电流的平方成正比。提高电压，或者少送一点、送近一点。</value>
+  </data>
+  <data name="Grid_Line_High_Title" xml:space="preserve">
+    <value>损耗太大了</value>
+  </data>
+  <data name="Grid_Line_Impossible" xml:space="preserve">
+    <value>送不过去：一半以上都会损失掉</value>
+  </data>
+  <data name="Grid_Line_Impossible_Description" xml:space="preserve">
+    <value>电流大到一半以上的功率都会损失掉，远端的电压也会崩溃。这就是远距离输电必须用高压的原因。</value>
+  </data>
+  <data name="Grid_Line_Impossible_Title" xml:space="preserve">
+    <value>这样送不过去</value>
+  </data>
+  <data name="Grid_Line_LineLabel" xml:space="preserve">
+    <value>{0} · {1} A</value>
+  </data>
+  <data name="Grid_Line_Lost" xml:space="preserve">
+    <value>发热损失：{0} MW（{1}%）</value>
+  </data>
+  <data name="Grid_Line_Overloaded" xml:space="preserve">
+    <value>每根导线 {0} A，上限只有 {1} A</value>
+  </data>
+  <data name="Grid_Line_PoleLabel" xml:space="preserve">
+    <value>10 kV → 380/220 V</value>
+  </data>
+  <data name="Grid_Line_Power" xml:space="preserve">
+    <value>输送功率</value>
+  </data>
+  <data name="Grid_Line_Sent" xml:space="preserve">
+    <value>送出：{0} MW</value>
+  </data>
+  <data name="Grid_Line_StationLabel" xml:space="preserve">
+    <value>发电厂 · {0} kV</value>
+  </data>
+  <data name="Grid_Line_StepUpLabel" xml:space="preserve">
+    <value>升压 {0} kV → {1}</value>
+  </data>
+  <data name="Grid_Line_Voltage_Caption" xml:space="preserve">
+    <value>输电电压</value>
+  </data>
+  <data name="Grid_Mode_Balance" xml:space="preserve">
+    <value>电网平衡</value>
+  </data>
+  <data name="Grid_Mode_Generator" xml:space="preserve">
+    <value>发电机</value>
+  </data>
+  <data name="Grid_Mode_Transmission" xml:space="preserve">
+    <value>输电</value>
+  </data>
+  <data name="Grid_Obj_Brushes" xml:space="preserve">
+    <value>电刷</value>
+  </data>
+  <data name="Grid_Obj_Bus" xml:space="preserve">
+    <value>电网母线</value>
+  </data>
+  <data name="Grid_Obj_City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="Grid_Obj_Coal" xml:space="preserve">
+    <value>煤电</value>
+  </data>
+  <data name="Grid_Obj_Coil" xml:space="preserve">
+    <value>线圈</value>
+  </data>
+  <data name="Grid_Obj_Commutator" xml:space="preserve">
+    <value>换向器</value>
+  </data>
+  <data name="Grid_Obj_Core" xml:space="preserve">
+    <value>铁芯</value>
+  </data>
+  <data name="Grid_Obj_Crank" xml:space="preserve">
+    <value>手柄</value>
+  </data>
+  <data name="Grid_Obj_Dial" xml:space="preserve">
+    <value>电网频率</value>
+  </data>
+  <data name="Grid_Obj_Field" xml:space="preserve">
+    <value>磁场</value>
+  </data>
+  <data name="Grid_Obj_Flywheel" xml:space="preserve">
+    <value>转动惯量</value>
+  </data>
+  <data name="Grid_Obj_Gas" xml:space="preserve">
+    <value>燃气发电</value>
+  </data>
+  <data name="Grid_Obj_Heat" xml:space="preserve">
+    <value>发热损耗</value>
+  </data>
+  <data name="Grid_Obj_Hydro" xml:space="preserve">
+    <value>水电</value>
+  </data>
+  <data name="Grid_Obj_Import" xml:space="preserve">
+    <value>外来直流电</value>
+  </data>
+  <data name="Grid_Obj_Lamp" xml:space="preserve">
+    <value>灯泡</value>
+  </data>
+  <data name="Grid_Obj_Lamps" xml:space="preserve">
+    <value>三只灯泡</value>
+  </data>
+  <data name="Grid_Obj_Line" xml:space="preserve">
+    <value>输电线</value>
+  </data>
+  <data name="Grid_Obj_North" xml:space="preserve">
+    <value>N 极</value>
+  </data>
+  <data name="Grid_Obj_Nuclear" xml:space="preserve">
+    <value>核电</value>
+  </data>
+  <data name="Grid_Obj_PhaseA" xml:space="preserve">
+    <value>A 相线圈</value>
+  </data>
+  <data name="Grid_Obj_PhaseB" xml:space="preserve">
+    <value>B 相线圈</value>
+  </data>
+  <data name="Grid_Obj_PhaseC" xml:space="preserve">
+    <value>C 相线圈</value>
+  </data>
+  <data name="Grid_Obj_Pole" xml:space="preserve">
+    <value>柱上变压器</value>
+  </data>
+  <data name="Grid_Obj_Primary" xml:space="preserve">
+    <value>原线圈</value>
+  </data>
+  <data name="Grid_Obj_Pumped" xml:space="preserve">
+    <value>抽水蓄能</value>
+  </data>
+  <data name="Grid_Obj_PushBack" xml:space="preserve">
+    <value>阻碍转动的力</value>
+  </data>
+  <data name="Grid_Obj_Pylon" xml:space="preserve">
+    <value>输电铁塔</value>
+  </data>
+  <data name="Grid_Obj_Rings" xml:space="preserve">
+    <value>滑环</value>
+  </data>
+  <data name="Grid_Obj_Rotor" xml:space="preserve">
+    <value>转子（磁铁）</value>
+  </data>
+  <data name="Grid_Obj_Scope" xml:space="preserve">
+    <value>示波器</value>
+  </data>
+  <data name="Grid_Obj_Secondary" xml:space="preserve">
+    <value>副线圈</value>
+  </data>
+  <data name="Grid_Obj_Solar" xml:space="preserve">
+    <value>光伏</value>
+  </data>
+  <data name="Grid_Obj_South" xml:space="preserve">
+    <value>S 极</value>
+  </data>
+  <data name="Grid_Obj_Station" xml:space="preserve">
+    <value>发电厂</value>
+  </data>
+  <data name="Grid_Obj_Stator" xml:space="preserve">
+    <value>定子</value>
+  </data>
+  <data name="Grid_Obj_StepUp" xml:space="preserve">
+    <value>升压变电站</value>
+  </data>
+  <data name="Grid_Obj_Substation" xml:space="preserve">
+    <value>降压变电站</value>
+  </data>
+  <data name="Grid_Obj_Supply" xml:space="preserve">
+    <value>电源：交流或直流</value>
+  </data>
+  <data name="Grid_Obj_Town" xml:space="preserve">
+    <value>城镇</value>
+  </data>
+  <data name="Grid_Obj_Trace" xml:space="preserve">
+    <value>事件后的频率</value>
+  </data>
+  <data name="Grid_Obj_Wind" xml:space="preserve">
+    <value>风电</value>
+  </data>
+  <data name="Grid_Option_FeedDc" xml:space="preserve">
+    <value>给变压器通直流</value>
+  </data>
+  <data name="Grid_Option_Labels" xml:space="preserve">
+    <value>标注</value>
+  </data>
+  <data name="Grid_Option_Lamp" xml:space="preserve">
+    <value>接通灯泡</value>
+  </data>
+  <data name="Grid_Phase_0" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Grid_Phase_1" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Grid_Phase_2" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="Grid_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停（空格）</value>
+  </data>
+  <data name="Grid_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Grid_Stat_Angle" xml:space="preserve">
+    <value>线圈角度</value>
+  </data>
+  <data name="Grid_Stat_Arrives" xml:space="preserve">
+    <value>送到</value>
+  </data>
+  <data name="Grid_Stat_Coal" xml:space="preserve">
+    <value>煤电</value>
+  </data>
+  <data name="Grid_Stat_Coal_Value" xml:space="preserve">
+    <value>{0} GW（最低 {1}）</value>
+  </data>
+  <data name="Grid_Stat_Control" xml:space="preserve">
+    <value>二次调频</value>
+  </data>
+  <data name="Grid_Stat_Current" xml:space="preserve">
+    <value>电流</value>
+  </data>
+  <data name="Grid_Stat_Current_Off" xml:space="preserve">
+    <value>无：开关断开</value>
+  </data>
+  <data name="Grid_Stat_Current_Value" xml:space="preserve">
+    <value>此刻 {0} A（峰值 {1} A）</value>
+  </data>
+  <data name="Grid_Stat_Curtailed" xml:space="preserve">
+    <value>弃风弃光</value>
+  </data>
+  <data name="Grid_Stat_Curtailed_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Grid_Stat_Demand" xml:space="preserve">
+    <value>用电负荷</value>
+  </data>
+  <data name="Grid_Stat_Eased" xml:space="preserve">
+    <value>负荷自然减少</value>
+  </data>
+  <data name="Grid_Stat_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Grid_Stat_Event_Value" xml:space="preserve">
+    <value>{1} {0}</value>
+  </data>
+  <data name="Grid_Stat_FirstFall" xml:space="preserve">
+    <value>初始下降速度</value>
+  </data>
+  <data name="Grid_Stat_FirstFall_Value" xml:space="preserve">
+    <value>{0} Hz/秒（H = {1} 秒）</value>
+  </data>
+  <data name="Grid_Stat_Flux" xml:space="preserve">
+    <value>磁通量</value>
+  </data>
+  <data name="Grid_Stat_Flux_Value" xml:space="preserve">
+    <value>{0} mWb（最大 {1}）</value>
+  </data>
+  <data name="Grid_Stat_Force" xml:space="preserve">
+    <value>手柄上要用的力</value>
+  </data>
+  <data name="Grid_Stat_Force_None" xml:space="preserve">
+    <value>几乎不用力：没有电流</value>
+  </data>
+  <data name="Grid_Stat_Force_Value" xml:space="preserve">
+    <value>最大 {0} N</value>
+  </data>
+  <data name="Grid_Stat_Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Grid_Stat_Frequency_Three" xml:space="preserve">
+    <value>{0} Hz（每秒 {1} 圈，{2} 极）</value>
+  </data>
+  <data name="Grid_Stat_Frequency_Value" xml:space="preserve">
+    <value>{0} Hz（每分钟 {1} 圈）</value>
+  </data>
+  <data name="Grid_Stat_Governors" xml:space="preserve">
+    <value>一次调频</value>
+  </data>
+  <data name="Grid_Stat_GridFrequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Grid_Stat_GridFrequency_Event" xml:space="preserve">
+    <value>{0} Hz（最低 {1}，第 {2} 秒）</value>
+  </data>
+  <data name="Grid_Stat_Inertia" xml:space="preserve">
+    <value>转动惯量</value>
+  </data>
+  <data name="Grid_Stat_Inertia_Value" xml:space="preserve">
+    <value>H = {0} 秒</value>
+  </data>
+  <data name="Grid_Stat_Lamp" xml:space="preserve">
+    <value>灯泡</value>
+  </data>
+  <data name="Grid_Stat_Lamp_Value" xml:space="preserve">
+    <value>平均 {0} W（额定 {1} W）</value>
+  </data>
+  <data name="Grid_Stat_LineCurrent" xml:space="preserve">
+    <value>每根导线电流</value>
+  </data>
+  <data name="Grid_Stat_LineCurrent_Value" xml:space="preserve">
+    <value>{0} A（上限 {1} A）</value>
+  </data>
+  <data name="Grid_Stat_LineVoltage" xml:space="preserve">
+    <value>线路电压</value>
+  </data>
+  <data name="Grid_Stat_LineVoltage_Value" xml:space="preserve">
+    <value>{0} kV（升高到 {1} 倍）</value>
+  </data>
+  <data name="Grid_Stat_Loss" xml:space="preserve">
+    <value>发热 3·I²·R</value>
+  </data>
+  <data name="Grid_Stat_Loss_Impossible" xml:space="preserve">
+    <value>超过一半</value>
+  </data>
+  <data name="Grid_Stat_Loss_Value" xml:space="preserve">
+    <value>{0} MW（{1}%）</value>
+  </data>
+  <data name="Grid_Stat_Peak" xml:space="preserve">
+    <value>峰值 N·B·A·ω</value>
+  </data>
+  <data name="Grid_Stat_Peak_Value" xml:space="preserve">
+    <value>{0} × {1} T × 0.01 m² × 2π × {2}/s = {3} V</value>
+  </data>
+  <data name="Grid_Stat_Phases" xml:space="preserve">
+    <value>A · B · C</value>
+  </data>
+  <data name="Grid_Stat_Pumped" xml:space="preserve">
+    <value>抽水蓄能</value>
+  </data>
+  <data name="Grid_Stat_Pumped_Generating" xml:space="preserve">
+    <value>发电 {0} GW</value>
+  </data>
+  <data name="Grid_Stat_Pumped_Idle" xml:space="preserve">
+    <value>停机</value>
+  </data>
+  <data name="Grid_Stat_Pumped_Pumping" xml:space="preserve">
+    <value>抽水 {0} GW</value>
+  </data>
+  <data name="Grid_Stat_Renewables" xml:space="preserve">
+    <value>风电和光伏</value>
+  </data>
+  <data name="Grid_Stat_Renewables_Value" xml:space="preserve">
+    <value>{0} GW（占负荷 {1}%）</value>
+  </data>
+  <data name="Grid_Stat_Resistance" xml:space="preserve">
+    <value>每根导线电阻</value>
+  </data>
+  <data name="Grid_Stat_Resistance_Value" xml:space="preserve">
+    <value>{1} 公里共 {0} Ω</value>
+  </data>
+  <data name="Grid_Stat_Sent" xml:space="preserve">
+    <value>送出</value>
+  </data>
+  <data name="Grid_Stat_Shed" xml:space="preserve">
+    <value>切除负荷</value>
+  </data>
+  <data name="Grid_Stat_Shed_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Grid_Stat_Station" xml:space="preserve">
+    <value>要发 50 Hz</value>
+  </data>
+  <data name="Grid_Stat_Station_Value" xml:space="preserve">
+    <value>{0} 极每分钟转 {1} 圈</value>
+  </data>
+  <data name="Grid_Stat_Sum" xml:space="preserve">
+    <value>三相之和</value>
+  </data>
+  <data name="Grid_Stat_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Grid_Stat_Voltage" xml:space="preserve">
+    <value>此刻电压</value>
+  </data>
+  <data name="Grid_Timeline_Balance" xml:space="preserve">
+    <value>一天中的时间</value>
+  </data>
+  <data name="Grid_Timeline_Generator" xml:space="preserve">
+    <value>线圈的角度</value>
+  </data>
+  <data name="Grid_Title" xml:space="preserve">
+    <value>发电机与电网</value>
+  </data>
+  <data name="Grid_Transmission_Fact1" xml:space="preserve">
+    <value>导线发热和电流的平方成正比。同样的功率，电压升高 10 倍，损耗就降为原来的百分之一。</value>
+  </data>
+  <data name="Grid_Transmission_Fact2" xml:space="preserve">
+    <value>中国的交流电压等级有 10、35、110、220、330、500、750、1000 千伏，直流最高达到 ±1100 千伏。</value>
+  </data>
+  <data name="Grid_Transmission_Fact3" xml:space="preserve">
+    <value>从新疆昌吉到安徽古泉的 ±1100 千伏特高压直流线路长约 3300 公里，输送能力 1200 万千瓦。</value>
+  </data>
+  <data name="Grid_Transmission_Fact4" xml:space="preserve">
+    <value>特别长的线路常用直流：没有来回振荡的无功电流，两根导线就够了，只是两端的换流站造价很高。</value>
+  </data>
+  <data name="Grid_Transmission_Fact5" xml:space="preserve">
+    <value>在整个电网里，大约 5% 的电会在线路和变压器上损耗掉。</value>
+  </data>
+  <data name="Grid_Transmission_Note" xml:space="preserve">
+    <value>线路被大大压缩：几座铁塔代表几百公里。各种电压都用同样的导线。</value>
+  </data>
+  <data name="Grid_Transmission_Subtitle" xml:space="preserve">
+    <value>为什么要用高压输电</value>
+  </data>
+  <data name="Grid_Tx_Caption" xml:space="preserve">
+    <value>升压变压器内部</value>
+  </data>
+  <data name="Grid_Tx_Output" xml:space="preserve">
+    <value>输出：{0}</value>
+  </data>
+  <data name="Grid_Tx_OutputNone" xml:space="preserve">
+    <value>输出：无</value>
+  </data>
+  <data name="Grid_Tx_Ratio" xml:space="preserve">
+    <value>匝数比 1 : {0} → 电压 ×{0}，电流 ÷{0}</value>
+  </data>
+  <data name="Grid_Tx_SupplyAc" xml:space="preserve">
+    <value>交流 {0} kV</value>
+  </data>
+  <data name="Grid_Tx_SupplyDc" xml:space="preserve">
+    <value>直流 {0} kV</value>
+  </data>
   <data name="Heat_Chart_Eff_Caption" xml:space="preserve">
     <value>燃料的热有多少变成了功</value>
   </data>
@@ -5783,6 +6563,18 @@
   </data>
   <data name="Heat_Speed" xml:space="preserve">
     <value>播放速度</value>
+  </data>
+  <data name="Heat_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Heat_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Heat_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Heat_Speed_Two" xml:space="preserve">
+    <value>2×</value>
   </data>
   <data name="Heat_Stat_Boiling" xml:space="preserve">
     <value>制冷剂沸腾</value>
@@ -11429,6 +12221,225 @@
   </data>
   <data name="Narr_Green_Planet_10" xml:space="preserve">
     <value>轮到你了。拖动二氧化碳的滑块，或者把温室气体拿掉，看看地面温度怎样慢慢变到新的平衡。</value>
+  </data>
+  <data name="Narr_Grid_Balance_01" xml:space="preserve">
+    <value>电很难大量储存，所以每时每刻，电厂发的电都必须正好等于大家用的电。看，城市醒来了，用电一路攀升。</value>
+  </data>
+  <data name="Narr_Grid_Balance_02" xml:space="preserve">
+    <value>现在是晚上八点，用电高峰。照明、做饭、空调全都开着。煤电满发，水电、抽水蓄能和燃气发电也都顶了上来。</value>
+  </data>
+  <data name="Narr_Grid_Balance_03" xml:space="preserve">
+    <value>再看晴天的正午，光伏装得很多，电多得用不完。煤电机组降到能安全运行的最低出力，抽水蓄能电站把水抽上山，把多余的电留到晚上用。</value>
+  </data>
+  <data name="Narr_Grid_Balance_04" xml:space="preserve">
+    <value>电网怎么知道发电和用电是否平衡呢？看频率。所有大型发电机都同步转动，这个电网是每秒五十个周期。用电多了，它们就稍稍变慢；发电多了，就稍稍变快。</value>
+  </data>
+  <data name="Narr_Grid_Balance_05" xml:space="preserve">
+    <value>这时，一台大机组突然跳闸，一百万千瓦没了。用电并没有减少，差额只能从所有转动机组的动能里来。它们变慢了，频率就往下掉。</value>
+  </data>
+  <data name="Narr_Grid_Balance_06" xml:space="preserve">
+    <value>几秒钟之内，其他电厂的调速器察觉到频率下降，把汽门和水门开大。看，额外的出力出现了。下跌止住了，只低了零点几赫兹。</value>
+  </data>
+  <data name="Narr_Grid_Balance_07" xml:space="preserve">
+    <value>接下来的几分钟里，调度中心让电厂持续增加出力。从这张图上可以看到，频率正慢慢回升。</value>
+  </data>
+  <data name="Narr_Grid_Balance_08" xml:space="preserve">
+    <value>考考你：中午光伏发电很多的时候，同样一台机组跳闸，这次频率会怎样下跌？</value>
+  </data>
+  <data name="Narr_Grid_Balance_09" xml:space="preserve">
+    <value>下跌得更快，也更深。光伏和很多风机是通过电力电子设备接入的，没有同步转动的机器。转动的质量少了，轮子就小了，频率掉得更快。所以新能源多的电网，要配上储能这些反应很快的帮手。</value>
+  </data>
+  <data name="Narr_Grid_Balance_10" xml:space="preserve">
+    <value>该你来试试了。在一天中的任意时刻，让机组跳闸、让直流线路断开，或者突然加上一大块负荷，看看频率怎么变化。</value>
+  </data>
+  <data name="Narr_Grid_Generator_01" xml:space="preserve">
+    <value>这是最简单的发电机：一个线圈在磁铁的两极之间转动。灯泡只连着两根导线，却亮了起来。那么，这电是从哪儿来的呢？</value>
+  </data>
+  <data name="Narr_Grid_Generator_02" xml:space="preserve">
+    <value>磁场从 N 极横穿空隙，到达 S 极。线圈一转，穿过它的磁场就不停地变化。请留意这一点。</value>
+  </data>
+  <data name="Narr_Grid_Generator_03" xml:space="preserve">
+    <value>我们先停在这里。线圈正对着两极，穿过它的磁场最多。可是看看示波器：此刻电压是零。因为就在这一瞬间，磁通量没有变化。</value>
+  </data>
+  <data name="Narr_Grid_Generator_04" xml:space="preserve">
+    <value>再转四分之一圈。线圈顺着磁场，一点磁场都没有穿过它，可电压却达到了最大。这就是法拉第的发现：电压来自磁场的变化，而不是磁场有多少。</value>
+  </data>
+  <data name="Narr_Grid_Generator_05" xml:space="preserve">
+    <value>考考你：如果线圈转得快一倍，电压会怎样？</value>
+  </data>
+  <data name="Narr_Grid_Generator_06" xml:space="preserve">
+    <value>那电流是怎么引出来的呢？线圈两端各接一个圆环，碳刷压在环上。每转半圈，电压就反向一次，电流来回流动，这就是交流电。</value>
+  </data>
+  <data name="Narr_Grid_Generator_07" xml:space="preserve">
+    <value>把两个圆环换成一个劈成两半的环，叫作换向器。每转半圈，两半交换所接的电刷，外面的电流就总是一个方向。看示波器，波形全被翻到了零线上方。</value>
+  </data>
+  <data name="Narr_Grid_Generator_08" xml:space="preserve">
+    <value>但这里有个代价。有电流的时候，磁场推着线圈的两条边，方向和它们的运动正好相反。所以灯一亮，手柄就更难转。灯的能量来自你的手臂；在电站里，就来自蒸汽、水流或者风。</value>
+  </data>
+  <data name="Narr_Grid_Generator_09" xml:space="preserve">
+    <value>真正的发电站把它倒了过来：磁铁在中间转，三组线圈围在外面，彼此相隔三分之一圈。看，三只灯泡一个接一个地亮。</value>
+  </data>
+  <data name="Narr_Grid_Generator_10" xml:space="preserve">
+    <value>示波器上，三条波轮流起伏。任何时刻把它们加起来，结果都正好是零。两极的发电机每分钟转三千圈，每秒就是五十个这样的周期。</value>
+  </data>
+  <data name="Narr_Grid_Generator_11" xml:space="preserve">
+    <value>该你来试试了。改一改转速、线圈的匝数或者磁铁的强弱，看看电压会怎样变化。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Brushes" xml:space="preserve">
+    <value>电刷是压在转动圆环上的碳块。有了它们，电流就能从转动的线圈里引出来，导线也不会缠在一起。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Bus" xml:space="preserve">
+    <value>所有电厂都接在同一张电网上。各种来源的电在这里汇合，再流向用电的地方。</value>
+  </data>
+  <data name="Narr_Grid_Obj_City" xml:space="preserve">
+    <value>城市的用电早上攀升，中午略降，晚上达到高峰。每按一次开关，电厂要发的电就跟着变。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Coal" xml:space="preserve">
+    <value>煤电机组跟着负荷上下调节，但不能低于一个最低出力，否则就得停机。它们巨大的汽轮机还为电网提供了转动惯量。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Coil" xml:space="preserve">
+    <value>线圈是一圈圈的铜导线。它的金色深浅，表示此刻有多少磁场穿过它。电压正是来自这个量的变化。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Commutator" xml:space="preserve">
+    <value>这是一个分成两半的圆环。每转半圈，正好在电压为零的时候，两半交换所接的电刷，所以外面的电流总是朝同一个方向。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Core" xml:space="preserve">
+    <value>铁芯把磁场从一个线圈引到另一个线圈。它用薄薄的硅钢片叠成，为的是减少发热。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Crank" xml:space="preserve">
+    <value>手柄带动转轴。在画面上左右拖动，就能亲手转它，快一点、慢一点，看电压怎样跟着你的手变化。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Dial" xml:space="preserve">
+    <value>频率是电网的脉搏。频率稳定，说明发电和用电平衡；频率下降，是用电多了；频率上升，是发电多了。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Field" xml:space="preserve">
+    <value>这些线表示磁场。对线圈来说，关键是有多少磁场穿过它，以及这个量变化得有多快。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Flywheel" xml:space="preserve">
+    <value>这个轮子代表所有同步转动的汽轮机和发电机。它们储存的动能，可以缓冲突然出现的缺口。轮子越大，频率掉得越慢。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Gas" xml:space="preserve">
+    <value>燃气轮机启动很快，所以主要用在用电高峰。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Heat" xml:space="preserve">
+    <value>这是路上损失的电能，变成了导线里的热。它和电流的平方成正比。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Hydro" xml:space="preserve">
+    <value>水电只要开关闸门，出力几乎马上就能变化。所以它很适合跟随高峰，也很适合应对突然出现的缺口。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Import" xml:space="preserve">
+    <value>一条特高压直流线路从远方送来电力，常常来自大型水电、风电或光伏基地。它很稳定，可一旦突然断开，就是很大的冲击。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Lamp" xml:space="preserve">
+    <value>灯泡显示电功率。点它可以断开或接通开关。开关断开时没有电流，线圈转起来毫不费力。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Lamps" xml:space="preserve">
+    <value>每一相接一只灯泡。让发电机转慢一点，你就能看到它们一个接一个亮起来：A、B、C。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Line" xml:space="preserve">
+    <value>每根导线都有电阻，电流流过就会发热。这些小点代表电流：越密、跑得越快，电流就越大。</value>
+  </data>
+  <data name="Narr_Grid_Obj_North" xml:space="preserve">
+    <value>这是磁铁的 N 极。磁场从这里出发，穿过空隙，到达 S 极。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Nuclear" xml:space="preserve">
+    <value>核电站白天黑夜都满负荷运行。它们运行成本低，但调节很慢，所以承担最稳定的那部分负荷。</value>
+  </data>
+  <data name="Narr_Grid_Obj_PhaseA" xml:space="preserve">
+    <value>这是 A 相线圈，它的两条边在定子里隔着中心相对。每当磁极扫过这两条边，它的电压就达到最大。</value>
+  </data>
+  <data name="Narr_Grid_Obj_PhaseB" xml:space="preserve">
+    <value>B 相是一样的线圈，只是转开了三分之一圈，所以它的电压比 A 相晚三分之一个周期到达最大。</value>
+  </data>
+  <data name="Narr_Grid_Obj_PhaseC" xml:space="preserve">
+    <value>C 相又转开了三分之一圈。三个波轮流起伏，所以三根导线就能把电送走，不需要另外一根回流的线。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Pole" xml:space="preserve">
+    <value>最后一步：街边的小变压器把电压降到家里用的电压。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Primary" xml:space="preserve">
+    <value>原线圈的匝数很少。交流电流过它，在铁芯里产生不断反向的磁场。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Pumped" xml:space="preserve">
+    <value>抽水蓄能就像一块由两个水库组成的巨型电池。电多的时候把水抽上去，高峰时再放下来发电。</value>
+  </data>
+  <data name="Narr_Grid_Obj_PushBack" xml:space="preserve">
+    <value>有电流的时候，磁场推着线圈的两条边，方向正好和它们的运动相反。所以灯一亮，手柄就更难转。灯的能量，来自你的手。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Pylon" xml:space="preserve">
+    <value>铁塔把导线高高架起、远远分开，用长长的绝缘子串挂着。电压越高，绝缘子越长，铁塔也越大。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Rings" xml:space="preserve">
+    <value>线圈两端各接一个圆环，圆环跟着线圈一起转。每个环始终连着同一端，所以每转半圈电流就换一次方向，这就是交流电。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Rotor" xml:space="preserve">
+    <value>真正的电站里，转的是磁铁，不是线圈。这个转子是一块电磁铁，由汽轮机或水轮机带着转。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Scope" xml:space="preserve">
+    <value>示波器把电压随时间的变化画出来。线圈匀速转动，画出来就是一条光滑的正弦曲线。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Secondary" xml:space="preserve">
+    <value>副线圈的匝数多得多。变化的磁场在每一匝里都感应出电压，匝数越多，电压就越高。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Solar" xml:space="preserve">
+    <value>光伏跟着太阳走：夜里为零，中午鼓起一个大包。中午发得太多，就得储存起来，或者限发。</value>
+  </data>
+  <data name="Narr_Grid_Obj_South" xml:space="preserve">
+    <value>这是 S 极。两极之间的磁场又强又整齐，一条条横穿过去。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Station" xml:space="preserve">
+    <value>电厂的发电机输出大约两万伏。要送到远处，得先把电压升上去。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Stator" xml:space="preserve">
+    <value>定子是不动的部分：一圈铁芯，线圈嵌在槽里。线圈不动，巨大的电流就不用经过滑动的接触点了。</value>
+  </data>
+  <data name="Narr_Grid_Obj_StepUp" xml:space="preserve">
+    <value>升压变电站把电压提高很多倍，电流就按同样的倍数减小，正是这一点省下了能量。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Substation" xml:space="preserve">
+    <value>到了城镇附近，变电站再一级一级把电压降下来，降到可以安全引进街道的水平。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Supply" xml:space="preserve">
+    <value>点这里可以在交流和直流之间切换。通直流时，铁芯里的磁场不再变化，输出就变成了零。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Town" xml:space="preserve">
+    <value>城镇的灯光表示送到了多少电。路上损失太多，窗户就会暗下来。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Trace" xml:space="preserve">
+    <value>这张图记录事件发生后的频率：快速下跌，止跌回头，再慢慢回升。</value>
+  </data>
+  <data name="Narr_Grid_Obj_Wind" xml:space="preserve">
+    <value>风电场发多少电，要看风给多少。风常常在夜里更大，偏偏那时用电最少。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_01" xml:space="preserve">
+    <value>发电厂发出的电大约是两万伏，可它要供电的城镇，也许在几百公里之外。怎样才能把电送过去，又不在路上损失掉呢？</value>
+  </data>
+  <data name="Narr_Grid_Transmission_02" xml:space="preserve">
+    <value>每根导线都有电阻，电流流过就会发热。这些热就是损失掉的电能，而且它和电流的平方成正比：电流翻一倍，损耗就变成四倍。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_03" xml:space="preserve">
+    <value>所以要用更小的电流来送同样的功率。功率等于电压乘以电流。升压变压器把电压提高到二十五倍，电流就只有原来的二十五分之一。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_04" xml:space="preserve">
+    <value>现在把线路电压降到十一万伏。电流大了好几倍，导线都发红了，再看发热：将近一半的电根本送不到。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_05" xml:space="preserve">
+    <value>同样的功率、同样的导线。如果把电压提高一倍，发热损耗会怎样？</value>
+  </data>
+  <data name="Narr_Grid_Transmission_06" xml:space="preserve">
+    <value>回到五十万伏。负责升压的是变压器：两个线圈绕在同一个铁芯上。第一个线圈里的交流电，在铁芯中产生不断变化的磁场。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_07" xml:space="preserve">
+    <value>变化的磁场在第二个线圈的每一匝里都感应出电压。匝数是二十五倍，电压就是二十五倍，电流只有二十五分之一，功率几乎不变。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_08" xml:space="preserve">
+    <value>现在改通恒定的直流电。铁芯里的磁场不再变化，输出就没有了。这正是电网使用交流电的一个重要原因。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_09" xml:space="preserve">
+    <value>到了城镇附近，变电站一级一级把电压降下来，最后由街边的小变压器降到家里用的几百伏。</value>
+  </data>
+  <data name="Narr_Grid_Transmission_10" xml:space="preserve">
+    <value>该你来试试了。换一个电压，多送一些电，或者送得更远，看看有多少能送到城镇。</value>
   </data>
   <data name="Narr_Heat_Cycle_01" xml:space="preserve">
     <value>所有热机的原理都一样：热量从热的地方流向冷的地方，中间的机器把其中一部分变成功。</value>
@@ -27894,16 +28905,16 @@
   <data name="Window_Minimize" xml:space="preserve">
     <value>最小化</value>
   </data>
-  <data name="Heat_Speed_Quarter" xml:space="preserve">
+  <data name="Grid_Speed_Quarter" xml:space="preserve">
     <value>¼×</value>
   </data>
-  <data name="Heat_Speed_Half" xml:space="preserve">
+  <data name="Grid_Speed_Half" xml:space="preserve">
     <value>½×</value>
   </data>
-  <data name="Heat_Speed_One" xml:space="preserve">
+  <data name="Grid_Speed_One" xml:space="preserve">
     <value>1×</value>
   </data>
-  <data name="Heat_Speed_Two" xml:space="preserve">
+  <data name="Grid_Speed_Two" xml:space="preserve">
     <value>2×</value>
   </data>
 </root>

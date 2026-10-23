@@ -1,0 +1,293 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:grid="using:Lemon.Explore.Book.Chapters.PowerGrid"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.PowerGrid.PowerGridTextPageView"
+                         x:DataType="grid:PowerGridTextPageViewModel">
+    <!-- Left page of the Power grid spread: the generator, the line or the day's settings, their charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Grid.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Grid.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Grid.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="GridMode" IsChecked="{Binding Grid.IsGenerator}" Content="{loc:Localize Grid_Mode_Generator}" />
+                    <RadioButton Classes="chip" GroupName="GridMode" IsChecked="{Binding Grid.IsTransmission}" Content="{loc:Localize Grid_Mode_Transmission}" />
+                    <RadioButton Classes="chip" GroupName="GridMode" IsChecked="{Binding Grid.IsBalance}" Content="{loc:Localize Grid_Mode_Balance}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Grid.Card}" />
+
+                <!-- The generator: which machine, how fast, the coil, the magnet, the lamp -->
+                <StackPanel IsVisible="{Binding Grid.IsGenerator}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Gen_Kind_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GridKind" IsChecked="{Binding Grid.KindChoice[Ac]}" Content="{loc:Localize Grid_Gen_Kind_Ac}" />
+                        <RadioButton Classes="chip" GroupName="GridKind" IsChecked="{Binding Grid.KindChoice[Dc]}" Content="{loc:Localize Grid_Gen_Kind_Dc}" />
+                        <RadioButton Classes="chip" GroupName="GridKind" IsChecked="{Binding Grid.KindChoice[ThreePhase]}" Content="{loc:Localize Grid_Gen_Kind_ThreePhase}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,12,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Grid.CoilSpeedText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Grid_Gen_Speed}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="0.2"
+                            Maximum="3"
+                            Value="{Binding Grid.CoilSpeed}"
+                            SmallChange="0.1"
+                            LargeChange="0.5"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="0.1"
+                            AutomationProperties.Name="{loc:Localize Grid_Gen_Speed}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Gen_Turns_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GridTurns" IsChecked="{Binding Grid.TurnsChoice[50]}" Content="{loc:Localize Grid_Gen_Turns_50}" />
+                        <RadioButton Classes="chip" GroupName="GridTurns" IsChecked="{Binding Grid.TurnsChoice[200]}" Content="{loc:Localize Grid_Gen_Turns_200}" />
+                        <RadioButton Classes="chip" GroupName="GridTurns" IsChecked="{Binding Grid.TurnsChoice[500]}" Content="{loc:Localize Grid_Gen_Turns_500}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Gen_Field_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GridField" IsChecked="{Binding Grid.FieldChoice[0.1]}" Content="{loc:Localize Grid_Gen_Field_Weak}" />
+                        <RadioButton Classes="chip" GroupName="GridField" IsChecked="{Binding Grid.FieldChoice[0.3]}" Content="{loc:Localize Grid_Gen_Field_Strong}" />
+                    </WrapPanel>
+
+                    <StackPanel IsVisible="{Binding Grid.IsThreePhase}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Gen_Poles_Caption}" />
+                        <WrapPanel>
+                            <RadioButton Classes="chip" GroupName="GridPoles" IsChecked="{Binding Grid.PolesChoice[1]}" Content="{loc:Localize Grid_Gen_Poles_2}" />
+                            <RadioButton Classes="chip" GroupName="GridPoles" IsChecked="{Binding Grid.PolesChoice[2]}" Content="{loc:Localize Grid_Gen_Poles_4}" />
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <StackPanel IsVisible="{Binding Grid.IsSingleCoil}">
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Gen_Hold_Caption}" />
+                        <WrapPanel>
+                            <Button Classes="chip" Command="{Binding Grid.HoldAngleCommand}" CommandParameter="0" Content="{loc:Localize Grid_Gen_Hold_Facing}" />
+                            <Button Classes="chip" Command="{Binding Grid.HoldAngleCommand}" CommandParameter="90" Content="{loc:Localize Grid_Gen_Hold_Along}" />
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Grid.LampOn}" Content="{loc:Localize Grid_Option_Lamp}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Grid.ShowLabels}" Content="{loc:Localize Grid_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Chart_Flux_Caption}"
+                               IsVisible="{Binding Grid.IsSingleCoil}" />
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Chart_Three_Caption}"
+                               IsVisible="{Binding Grid.IsThreePhase}" />
+                    <Border Classes="plate" Height="170">
+                        <grid:FluxChart Angle="{Binding Grid.Angle}" Kind="{Binding Grid.Kind}" PolePairs="{Binding Grid.PolePairs}"
+                                        AutomationProperties.Name="{loc:Localize Grid_Chart_Flux_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Grid_Chart_Flux_Note}"
+                               IsVisible="{Binding Grid.IsSingleCoil}" />
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Grid_Chart_Three_Note}"
+                               IsVisible="{Binding Grid.IsThreePhase}" />
+                </StackPanel>
+
+                <!-- The line: its voltage, the power, how far -->
+                <StackPanel IsVisible="{Binding Grid.IsTransmission}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Line_Voltage_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GridKv" IsChecked="{Binding Grid.VoltageChoice[10]}" Content="10 kV" />
+                        <RadioButton Classes="chip" GroupName="GridKv" IsChecked="{Binding Grid.VoltageChoice[35]}" Content="35 kV" />
+                        <RadioButton Classes="chip" GroupName="GridKv" IsChecked="{Binding Grid.VoltageChoice[110]}" Content="110 kV" />
+                        <RadioButton Classes="chip" GroupName="GridKv" IsChecked="{Binding Grid.VoltageChoice[220]}" Content="220 kV" />
+                        <RadioButton Classes="chip" GroupName="GridKv" IsChecked="{Binding Grid.VoltageChoice[500]}" Content="500 kV" />
+                        <RadioButton Classes="chip" GroupName="GridKv" IsChecked="{Binding Grid.VoltageChoice[1000]}" Content="1000 kV" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,12,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Grid.PowerText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Grid_Line_Power}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="100"
+                            Maximum="3000"
+                            Value="{Binding Grid.Power}"
+                            SmallChange="100"
+                            LargeChange="500"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="100"
+                            AutomationProperties.Name="{loc:Localize Grid_Line_Power}" />
+
+                    <DockPanel Margin="0,12,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Grid.DistanceText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Grid_Line_DistanceCaption}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="20"
+                            Maximum="1500"
+                            Value="{Binding Grid.Distance}"
+                            SmallChange="10"
+                            LargeChange="100"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="10"
+                            AutomationProperties.Name="{loc:Localize Grid_Line_DistanceCaption}" />
+
+                    <WrapPanel Margin="0,12,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Grid.FeedDc}" Content="{loc:Localize Grid_Option_FeedDc}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Grid.ShowLabels}" Content="{loc:Localize Grid_Option_Labels}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Chart_Loss_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <grid:LossChart LineKv="{Binding Grid.LineKv}" Power="{Binding Grid.Power}" Distance="{Binding Grid.Distance}"
+                                        AutomationProperties.Name="{loc:Localize Grid_Chart_Loss_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Grid_Chart_Loss_Note}" />
+                </StackPanel>
+
+                <!-- The grid's day: where, which season, how much solar, something happening -->
+                <StackPanel IsVisible="{Binding Grid.IsBalance}">
+                    <explore:LocationChip Margin="0,14,0,0" Service="{Binding Grid.Location}" />
+                    <SelectableTextBlock Margin="0,6,0,0" Classes="note" Text="{Binding Grid.SunNote}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Bal_Season_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="GridSeason" IsChecked="{Binding Grid.SeasonChoice[Summer]}" Content="{loc:Localize Grid_Bal_Summer}" />
+                        <RadioButton Classes="chip" GroupName="GridSeason" IsChecked="{Binding Grid.SeasonChoice[Winter]}" Content="{loc:Localize Grid_Bal_Winter}" />
+                    </WrapPanel>
+
+                    <DockPanel Margin="0,12,0,0">
+                        <SelectableTextBlock Classes="value" Text="{Binding Grid.SolarText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Grid_Bal_Solar}" />
+                    </DockPanel>
+                    <Slider Margin="0,6,0,0"
+                            Minimum="0"
+                            Maximum="{Binding Grid.MaxSolar}"
+                            Value="{Binding Grid.SolarCapacity}"
+                            SmallChange="1"
+                            LargeChange="5"
+                            IsSnapToTickEnabled="True"
+                            TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Grid_Bal_Solar}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Bal_Event_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Grid.TriggerEventCommand}" CommandParameter="Trip" Content="{loc:Localize Grid_Bal_Event_Trip}" />
+                        <Button Classes="chip" Command="{Binding Grid.TriggerEventCommand}" CommandParameter="Link" Content="{loc:Localize Grid_Bal_Event_Link}" />
+                        <Button Classes="chip" Command="{Binding Grid.TriggerEventCommand}" CommandParameter="Surge" Content="{loc:Localize Grid_Bal_Event_Surge}" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Bal_Jump_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Grid.JumpToHourCommand}" CommandParameter="4" Content="04:00" />
+                        <Button Classes="chip" Command="{Binding Grid.JumpToHourCommand}" CommandParameter="9" Content="09:00" />
+                        <Button Classes="chip" Command="{Binding Grid.JumpToHourCommand}" CommandParameter="12" Content="12:00" />
+                        <Button Classes="chip" Command="{Binding Grid.JumpToHourCommand}" CommandParameter="20" Content="20:00" />
+                    </WrapPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Chart_Day_Caption}" />
+                    <Border Classes="plate" Height="180">
+                        <grid:DayMixChart Hour="{Binding Grid.Hour}" Season="{Binding Grid.Season}" SolarCapacity="{Binding Grid.SolarCapacity}" Latitude="{Binding Grid.Latitude}"
+                                          AutomationProperties.Name="{loc:Localize Grid_Chart_Day_Caption}" />
+                    </Border>
+                    <WrapPanel Margin="0,8,0,0">
+                        <WrapPanel.Styles>
+                            <Style Selector="Ellipse">
+                                <Setter Property="Width" Value="8" />
+                                <Setter Property="Height" Value="8" />
+                                <Setter Property="Margin" Value="0,0,5,0" />
+                                <Setter Property="VerticalAlignment" Value="Center" />
+                            </Style>
+                            <Style Selector="StackPanel">
+                                <Setter Property="Orientation" Value="Horizontal" />
+                                <Setter Property="Margin" Value="0,0,12,4" />
+                            </Style>
+                        </WrapPanel.Styles>
+                        <StackPanel><Ellipse Fill="#B39DFF" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Nuclear}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#A89280" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Coal}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#FF9F5A" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Gas}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#5AA8FF" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Hydro}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#6FD8FF" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Pumped}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#8BE08F" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Wind}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#FFD36B" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Solar}" /></StackPanel>
+                        <StackPanel><Ellipse Fill="#FF8AC8" /><SelectableTextBlock Classes="note" Text="{loc:Localize Grid_Obj_Import}" /></StackPanel>
+                    </WrapPanel>
+                    <SelectableTextBlock Margin="0,4,0,0" Classes="note" Text="{loc:Localize Grid_Chart_Day_Note}" />
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Chart_Freq_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <grid:FrequencyChart Trace="{Binding Grid.LastTrace}" Time="{Binding Grid.EventTime}"
+                                             AutomationProperties.Name="{loc:Localize Grid_Chart_Freq_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{loc:Localize Grid_Chart_Freq_Note}" />
+                </StackPanel>
+
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Grid.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Grid.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Grid.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Grid.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Grid_Facts}" />
+                <ItemsControl ItemsSource="{Binding Grid.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

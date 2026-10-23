@@ -5148,6 +5148,786 @@
   <data name="Green_World_Venus" xml:space="preserve">
     <value>Venus</value>
   </data>
+  <data name="Grid_Bal_After" xml:space="preserve">
+    <value>{0} s after the event</value>
+  </data>
+  <data name="Grid_Bal_Caught_Description" xml:space="preserve">
+    <value>Within seconds, governors on the other plants open their steam and water valves wider, and motors turning slower use a little less. The fall stops and turns.</value>
+  </data>
+  <data name="Grid_Bal_Caught_Title" xml:space="preserve">
+    <value>Caught: the governors answer</value>
+  </data>
+  <data name="Grid_Bal_Curtailed" xml:space="preserve">
+    <value>some turned back</value>
+  </data>
+  <data name="Grid_Bal_Day_Description" xml:space="preserve">
+    <value>Offices, factories and air conditioning push demand up, and coal plants turn up and down to follow it.</value>
+  </data>
+  <data name="Grid_Bal_Day_Title" xml:space="preserve">
+    <value>Daytime</value>
+  </data>
+  <data name="Grid_Bal_Demand" xml:space="preserve">
+    <value>Demand {0} GW</value>
+  </data>
+  <data name="Grid_Bal_EventClock" xml:space="preserve">
+    <value>+{0} s · {1}</value>
+  </data>
+  <data name="Grid_Bal_Event_Caption" xml:space="preserve">
+    <value>Something happens</value>
+  </data>
+  <data name="Grid_Bal_Event_Link" xml:space="preserve">
+    <value>Lose the 3000 MW DC link</value>
+  </data>
+  <data name="Grid_Bal_Event_Surge" xml:space="preserve">
+    <value>Everyone switches on (+800 MW)</value>
+  </data>
+  <data name="Grid_Bal_Event_Trip" xml:space="preserve">
+    <value>Trip a 1000 MW unit</value>
+  </data>
+  <data name="Grid_Bal_Falling_Description" xml:space="preserve">
+    <value>Power vanished, but demand didn't. The difference comes out of the energy stored in every spinning turbine and generator, so they all slow a little, and the frequency falls.</value>
+  </data>
+  <data name="Grid_Bal_Falling_Title" xml:space="preserve">
+    <value>Falling: the spinning machines slow down</value>
+  </data>
+  <data name="Grid_Bal_Inertia" xml:space="preserve">
+    <value>Spinning mass: H = {0} s (slowing exaggerated)</value>
+  </data>
+  <data name="Grid_Bal_Jump_Caption" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="Grid_Bal_LinkLost" xml:space="preserve">
+    <value>link lost −3000 MW</value>
+  </data>
+  <data name="Grid_Bal_Night_Description" xml:space="preserve">
+    <value>Most people are asleep. Nuclear and coal run steadily, the wind is often stronger, and pumped storage may be filling up for tomorrow.</value>
+  </data>
+  <data name="Grid_Bal_Night_Title" xml:space="preserve">
+    <value>Night: the trough</value>
+  </data>
+  <data name="Grid_Bal_Peak_Description" xml:space="preserve">
+    <value>The Sun has gone, but lights, cooking and air conditioning are on. Everything is called on: coal at full, hydro and gas, and pumped storage giving its water back.</value>
+  </data>
+  <data name="Grid_Bal_Peak_Title" xml:space="preserve">
+    <value>Evening peak</value>
+  </data>
+  <data name="Grid_Bal_Pumping" xml:space="preserve">
+    <value>pumping water uphill</value>
+  </data>
+  <data name="Grid_Bal_Recovering_Description" xml:space="preserve">
+    <value>Over the next minutes the control centre asks plants to raise their output for good, and the frequency climbs back to 50 Hz.</value>
+  </data>
+  <data name="Grid_Bal_Recovering_Title" xml:space="preserve">
+    <value>Recovering: the control centre steps in</value>
+  </data>
+  <data name="Grid_Bal_Season_Caption" xml:space="preserve">
+    <value>Season</value>
+  </data>
+  <data name="Grid_Bal_ShedLabel" xml:space="preserve">
+    <value>{0} GW switched off</value>
+  </data>
+  <data name="Grid_Bal_Shed_Description" xml:space="preserve">
+    <value>It fell so far that relays switched some areas off to save the rest.</value>
+  </data>
+  <data name="Grid_Bal_Solar" xml:space="preserve">
+    <value>Solar farms</value>
+  </data>
+  <data name="Grid_Bal_Steady" xml:space="preserve">
+    <value>Steady: supply = demand</value>
+  </data>
+  <data name="Grid_Bal_Summer" xml:space="preserve">
+    <value>Summer</value>
+  </data>
+  <data name="Grid_Bal_SunNote" xml:space="preserve">
+    <value>The Sun's height follows {0}; times are local sun time.</value>
+  </data>
+  <data name="Grid_Bal_Sunny_Description" xml:space="preserve">
+    <value>Solar floods in. Coal plants turn down as far as they safely can, pumped storage soaks up the spare, and some solar and wind may be turned back.</value>
+  </data>
+  <data name="Grid_Bal_Sunny_Title" xml:space="preserve">
+    <value>Midday sun: more than enough</value>
+  </data>
+  <data name="Grid_Bal_SurgeLabel" xml:space="preserve">
+    <value>+800 MW switched on at once</value>
+  </data>
+  <data name="Grid_Bal_Tripped" xml:space="preserve">
+    <value>tripped −1000 MW</value>
+  </data>
+  <data name="Grid_Bal_Winter" xml:space="preserve">
+    <value>Winter</value>
+  </data>
+  <data name="Grid_Balance_Fact1" xml:space="preserve">
+    <value>A grid stores very little energy, so every second its plants must make what everyone uses, plus what the wires lose.</value>
+  </data>
+  <data name="Grid_Balance_Fact2" xml:space="preserve">
+    <value>The frequency is the grid's pulse: it falls when demand gets ahead and rises when supply does. China keeps it within 0.2 Hz of 50 Hz.</value>
+  </data>
+  <data name="Grid_Balance_Fact3" xml:space="preserve">
+    <value>Pumped-storage stations pump water up to a high lake when power is spare, and let it run back down through turbines at the peak.</value>
+  </data>
+  <data name="Grid_Balance_Fact4" xml:space="preserve">
+    <value>If the frequency falls too far (in China from about 49 Hz), relays switch some areas off automatically so that the rest stay on.</value>
+  </data>
+  <data name="Grid_Balance_Fact5" xml:space="preserve">
+    <value>Solar panels and batteries connect through electronics, not spinning machines. Grids with many of them add grid-forming inverters and synchronous condensers to keep enough inertia.</value>
+  </data>
+  <data name="Grid_Balance_Note" xml:space="preserve">
+    <value>A made-up regional grid with a 40 GW summer peak. A day passes in a minute; an event's first 20 seconds play in real time.</value>
+  </data>
+  <data name="Grid_Balance_Subtitle" xml:space="preserve">
+    <value>Supply must match demand, every second</value>
+  </data>
+  <data name="Grid_Chart_Day_Caption" xml:space="preserve">
+    <value>The day's mix</value>
+  </data>
+  <data name="Grid_Chart_Day_Note" xml:space="preserve">
+    <value>Stacked: what each kind makes; dashed: demand. Below zero: pumped storage pumping.</value>
+  </data>
+  <data name="Grid_Chart_Flux_Caption" xml:space="preserve">
+    <value>One turn: field through the coil and voltage</value>
+  </data>
+  <data name="Grid_Chart_Flux_Legend" xml:space="preserve">
+    <value>- - field through it</value>
+  </data>
+  <data name="Grid_Chart_Flux_Note" xml:space="preserve">
+    <value>The voltage is biggest where the dashed line is steepest and zero where it is flat: it is the rate of change of the field through the coil.</value>
+  </data>
+  <data name="Grid_Chart_Freq_Caption" xml:space="preserve">
+    <value>Frequency after the last event</value>
+  </data>
+  <data name="Grid_Chart_Freq_Empty" xml:space="preserve">
+    <value>Nothing has happened yet</value>
+  </data>
+  <data name="Grid_Chart_Freq_Lowest" xml:space="preserve">
+    <value>lowest {0} Hz at {1} s</value>
+  </data>
+  <data name="Grid_Chart_Freq_Note" xml:space="preserve">
+    <value>Red dashes: where relays start switching areas off. How deep the fall goes depends on how much spinning mass there is.</value>
+  </data>
+  <data name="Grid_Chart_Loss_Caption" xml:space="preserve">
+    <value>Share lost at each voltage</value>
+  </data>
+  <data name="Grid_Chart_Loss_Note" xml:space="preserve">
+    <value>Same power, same wires, same distance (log scale). Each step up the ladder cuts the loss by the square of the step; ✕ means it can't be done.</value>
+  </data>
+  <data name="Grid_Chart_Phases_Legend" xml:space="preserve">
+    <value>The three voltages over one turn</value>
+  </data>
+  <data name="Grid_Chart_Three_Caption" xml:space="preserve">
+    <value>One turn: the three phases</value>
+  </data>
+  <data name="Grid_Chart_Three_Note" xml:space="preserve">
+    <value>Each phase reaches its peak a third of a cycle after the one before. With four poles, two cycles fit in one turn.</value>
+  </data>
+  <data name="Grid_Chart_Volts_Legend" xml:space="preserve">
+    <value>— voltage</value>
+  </data>
+  <data name="Grid_Event_Link" xml:space="preserve">
+    <value>the DC link lost</value>
+  </data>
+  <data name="Grid_Event_Surge" xml:space="preserve">
+    <value>a sudden 800 MW load</value>
+  </data>
+  <data name="Grid_Event_Trip" xml:space="preserve">
+    <value>a 1000 MW unit tripped</value>
+  </data>
+  <data name="Grid_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Grid_Gen_Along_Description" xml:space="preserve">
+    <value>The coil lies along the field, so none passes through it, yet that amount is changing fastest: its sides cut straight across the field. The voltage peaks.</value>
+  </data>
+  <data name="Grid_Gen_Along_Title" xml:space="preserve">
+    <value>Along the field: no field, most voltage</value>
+  </data>
+  <data name="Grid_Gen_Between_Description" xml:space="preserve">
+    <value>As the coil turns, the field through it rises and falls. The voltage follows how fast that changes, not how much there is: a sine wave a quarter turn behind the field.</value>
+  </data>
+  <data name="Grid_Gen_Between_Title" xml:space="preserve">
+    <value>Turning: the field through it changing</value>
+  </data>
+  <data name="Grid_Gen_Clock" xml:space="preserve">
+    <value>{0}° · {1} turns/s</value>
+  </data>
+  <data name="Grid_Gen_Facing_Description" xml:space="preserve">
+    <value>The coil faces the poles square on, so the most field passes through it. But for this instant that amount isn't changing, so no voltage is made.</value>
+  </data>
+  <data name="Grid_Gen_Facing_Title" xml:space="preserve">
+    <value>Facing the field: most field, no voltage</value>
+  </data>
+  <data name="Grid_Gen_Field_Caption" xml:space="preserve">
+    <value>Magnet</value>
+  </data>
+  <data name="Grid_Gen_Field_Strong" xml:space="preserve">
+    <value>Strong (0.3 T)</value>
+  </data>
+  <data name="Grid_Gen_Field_Weak" xml:space="preserve">
+    <value>Weak (0.1 T)</value>
+  </data>
+  <data name="Grid_Gen_Hold_Along" xml:space="preserve">
+    <value>Along the field</value>
+  </data>
+  <data name="Grid_Gen_Hold_Caption" xml:space="preserve">
+    <value>Hold the coil</value>
+  </data>
+  <data name="Grid_Gen_Hold_Facing" xml:space="preserve">
+    <value>Facing the field</value>
+  </data>
+  <data name="Grid_Gen_Kind_Ac" xml:space="preserve">
+    <value>Slip rings (AC)</value>
+  </data>
+  <data name="Grid_Gen_Kind_Caption" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="Grid_Gen_Kind_Dc" xml:space="preserve">
+    <value>Commutator (DC)</value>
+  </data>
+  <data name="Grid_Gen_Kind_ThreePhase" xml:space="preserve">
+    <value>Three-phase</value>
+  </data>
+  <data name="Grid_Gen_Poles_2" xml:space="preserve">
+    <value>2 poles</value>
+  </data>
+  <data name="Grid_Gen_Poles_4" xml:space="preserve">
+    <value>4 poles</value>
+  </data>
+  <data name="Grid_Gen_Poles_Caption" xml:space="preserve">
+    <value>The magnet's poles</value>
+  </data>
+  <data name="Grid_Gen_Speed" xml:space="preserve">
+    <value>How fast it turns</value>
+  </data>
+  <data name="Grid_Gen_Speed_Value" xml:space="preserve">
+    <value>{0} turns/s ({1} rpm)</value>
+  </data>
+  <data name="Grid_Gen_Sum" xml:space="preserve">
+    <value>A + B + C = 0</value>
+  </data>
+  <data name="Grid_Gen_Three_Description" xml:space="preserve">
+    <value>A magnet turns inside three coils set a third of a turn apart. Each coil's voltage rises and falls in turn, and at every moment the three add up to zero.</value>
+  </data>
+  <data name="Grid_Gen_Three_Title" xml:space="preserve">
+    <value>Phase {0} near its peak</value>
+  </data>
+  <data name="Grid_Gen_TooBright" xml:space="preserve">
+    <value>The lamp would burn out!</value>
+  </data>
+  <data name="Grid_Gen_Turns_200" xml:space="preserve">
+    <value>200 turns</value>
+  </data>
+  <data name="Grid_Gen_Turns_50" xml:space="preserve">
+    <value>50 turns</value>
+  </data>
+  <data name="Grid_Gen_Turns_500" xml:space="preserve">
+    <value>500 turns</value>
+  </data>
+  <data name="Grid_Gen_Turns_Caption" xml:space="preserve">
+    <value>Turns of wire on the coil</value>
+  </data>
+  <data name="Grid_Generator_Fact1" xml:space="preserve">
+    <value>In 1831 Michael Faraday found that a changing magnetic field makes a voltage in a wire. Almost all the world's electricity is still made this way.</value>
+  </data>
+  <data name="Grid_Generator_Fact2" xml:space="preserve">
+    <value>Coal, gas and nuclear plants boil water so the steam spins a turbine; hydro and wind spin it directly. Either way, the turbine turns a generator.</value>
+  </data>
+  <data name="Grid_Generator_Fact3" xml:space="preserve">
+    <value>China's grid runs at 50 Hz, North America's at 60 Hz. A two-pole machine makes 50 Hz turning 3000 times a minute.</value>
+  </data>
+  <data name="Grid_Generator_Fact4" xml:space="preserve">
+    <value>Water turbines turn slowly, so their generators need many poles: a large hydro set turning 75 times a minute has 80 poles to make 50 Hz.</value>
+  </data>
+  <data name="Grid_Generator_Fact5" xml:space="preserve">
+    <value>A big power-station generator puts out about 20,000 volts and up to a million kilowatts or more, at about 99% efficiency.</value>
+  </data>
+  <data name="Grid_Generator_Note" xml:space="preserve">
+    <value>A classroom generator: a coil 10 cm across and a 6 V 3 W lamp, at its real speed. A power station turns its magnet 3000 times a minute.</value>
+  </data>
+  <data name="Grid_Generator_Subtitle" xml:space="preserve">
+    <value>A coil turning in a magnet's field makes electricity</value>
+  </data>
+  <data name="Grid_Hint_Balance" xml:space="preserve">
+    <value>Drag sideways to move through the day. Trip a plant on the left-hand page and watch the frequency.</value>
+  </data>
+  <data name="Grid_Hint_Generator" xml:space="preserve">
+    <value>Drag sideways to turn the coil by hand. Click the lamp to switch it on or off.</value>
+  </data>
+  <data name="Grid_Hint_Transmission" xml:space="preserve">
+    <value>Pick a voltage on the left-hand page and watch the current, the heat and what reaches the town.</value>
+  </data>
+  <data name="Grid_Lesson_Balance_Choice1" xml:space="preserve">
+    <value>Faster: fewer machines spinning to slow it</value>
+  </data>
+  <data name="Grid_Lesson_Balance_Choice2" xml:space="preserve">
+    <value>Slower: solar panels spin faster</value>
+  </data>
+  <data name="Grid_Lesson_Balance_Choice3" xml:space="preserve">
+    <value>Just the same</value>
+  </data>
+  <data name="Grid_Lesson_Generator_Choice1" xml:space="preserve">
+    <value>It doubles, and the waves come twice as often</value>
+  </data>
+  <data name="Grid_Lesson_Generator_Choice2" xml:space="preserve">
+    <value>It stays the same, only quicker</value>
+  </data>
+  <data name="Grid_Lesson_Generator_Choice3" xml:space="preserve">
+    <value>It halves</value>
+  </data>
+  <data name="Grid_Lesson_Transmission_Choice1" xml:space="preserve">
+    <value>It falls to a quarter</value>
+  </data>
+  <data name="Grid_Lesson_Transmission_Choice2" xml:space="preserve">
+    <value>It halves</value>
+  </data>
+  <data name="Grid_Lesson_Transmission_Choice3" xml:space="preserve">
+    <value>It doubles</value>
+  </data>
+  <data name="Grid_Line_Arrives" xml:space="preserve">
+    <value>Arrives: {0} MW</value>
+  </data>
+  <data name="Grid_Line_Clock" xml:space="preserve">
+    <value>{0} kV · {1} MW · {2} km</value>
+  </data>
+  <data name="Grid_Line_Dc_Description" xml:space="preserve">
+    <value>A steady current makes a steady field in the iron. Only a changing field makes a voltage in the other coil, so a transformer needs alternating current.</value>
+  </data>
+  <data name="Grid_Line_Dc_Title" xml:space="preserve">
+    <value>DC into a transformer: nothing comes out</value>
+  </data>
+  <data name="Grid_Line_Distance" xml:space="preserve">
+    <value>≈ {0} km ≈</value>
+  </data>
+  <data name="Grid_Line_DistanceCaption" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Grid_Line_Good_Description" xml:space="preserve">
+    <value>At this voltage the current is small enough that the wires stay cool, and only a small share of the power turns into heat on the way.</value>
+  </data>
+  <data name="Grid_Line_Good_Title" xml:space="preserve">
+    <value>Most of it arrives</value>
+  </data>
+  <data name="Grid_Line_HeatLabel" xml:space="preserve">
+    <value>Heat: {0} MW</value>
+  </data>
+  <data name="Grid_Line_High_Description" xml:space="preserve">
+    <value>The current is large, and the heat in the wires goes with its square. Raise the voltage, or send less, or not so far.</value>
+  </data>
+  <data name="Grid_Line_High_Title" xml:space="preserve">
+    <value>Too much is lost</value>
+  </data>
+  <data name="Grid_Line_Impossible" xml:space="preserve">
+    <value>Can't be done: more than half would be lost</value>
+  </data>
+  <data name="Grid_Line_Impossible_Description" xml:space="preserve">
+    <value>So much current would flow that over half the power would be lost and the voltage at the far end would collapse. That's why long lines need high voltage.</value>
+  </data>
+  <data name="Grid_Line_Impossible_Title" xml:space="preserve">
+    <value>This can't work</value>
+  </data>
+  <data name="Grid_Line_LineLabel" xml:space="preserve">
+    <value>{0} · {1} A</value>
+  </data>
+  <data name="Grid_Line_Lost" xml:space="preserve">
+    <value>Lost as heat: {0} MW ({1}%)</value>
+  </data>
+  <data name="Grid_Line_Overloaded" xml:space="preserve">
+    <value>{0} A per wire, but the limit is {1} A</value>
+  </data>
+  <data name="Grid_Line_PoleLabel" xml:space="preserve">
+    <value>10 kV → 380/220 V</value>
+  </data>
+  <data name="Grid_Line_Power" xml:space="preserve">
+    <value>Power sent</value>
+  </data>
+  <data name="Grid_Line_Sent" xml:space="preserve">
+    <value>Sent: {0} MW</value>
+  </data>
+  <data name="Grid_Line_StationLabel" xml:space="preserve">
+    <value>Power station · {0} kV</value>
+  </data>
+  <data name="Grid_Line_StepUpLabel" xml:space="preserve">
+    <value>Step up {0} kV → {1}</value>
+  </data>
+  <data name="Grid_Line_Voltage_Caption" xml:space="preserve">
+    <value>Line voltage</value>
+  </data>
+  <data name="Grid_Mode_Balance" xml:space="preserve">
+    <value>Keeping balance</value>
+  </data>
+  <data name="Grid_Mode_Generator" xml:space="preserve">
+    <value>Generator</value>
+  </data>
+  <data name="Grid_Mode_Transmission" xml:space="preserve">
+    <value>Transmission</value>
+  </data>
+  <data name="Grid_Obj_Brushes" xml:space="preserve">
+    <value>Brushes</value>
+  </data>
+  <data name="Grid_Obj_Bus" xml:space="preserve">
+    <value>The grid</value>
+  </data>
+  <data name="Grid_Obj_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Grid_Obj_Coal" xml:space="preserve">
+    <value>Coal</value>
+  </data>
+  <data name="Grid_Obj_Coil" xml:space="preserve">
+    <value>Coil</value>
+  </data>
+  <data name="Grid_Obj_Commutator" xml:space="preserve">
+    <value>Commutator</value>
+  </data>
+  <data name="Grid_Obj_Core" xml:space="preserve">
+    <value>Iron core</value>
+  </data>
+  <data name="Grid_Obj_Crank" xml:space="preserve">
+    <value>Handle</value>
+  </data>
+  <data name="Grid_Obj_Dial" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Grid_Obj_Field" xml:space="preserve">
+    <value>Magnetic field</value>
+  </data>
+  <data name="Grid_Obj_Flywheel" xml:space="preserve">
+    <value>Spinning mass</value>
+  </data>
+  <data name="Grid_Obj_Gas" xml:space="preserve">
+    <value>Gas</value>
+  </data>
+  <data name="Grid_Obj_Heat" xml:space="preserve">
+    <value>Heat lost</value>
+  </data>
+  <data name="Grid_Obj_Hydro" xml:space="preserve">
+    <value>Hydro</value>
+  </data>
+  <data name="Grid_Obj_Import" xml:space="preserve">
+    <value>DC link from afar</value>
+  </data>
+  <data name="Grid_Obj_Lamp" xml:space="preserve">
+    <value>Lamp</value>
+  </data>
+  <data name="Grid_Obj_Lamps" xml:space="preserve">
+    <value>Three lamps</value>
+  </data>
+  <data name="Grid_Obj_Line" xml:space="preserve">
+    <value>Transmission line</value>
+  </data>
+  <data name="Grid_Obj_North" xml:space="preserve">
+    <value>North pole</value>
+  </data>
+  <data name="Grid_Obj_Nuclear" xml:space="preserve">
+    <value>Nuclear</value>
+  </data>
+  <data name="Grid_Obj_PhaseA" xml:space="preserve">
+    <value>Phase A coil</value>
+  </data>
+  <data name="Grid_Obj_PhaseB" xml:space="preserve">
+    <value>Phase B coil</value>
+  </data>
+  <data name="Grid_Obj_PhaseC" xml:space="preserve">
+    <value>Phase C coil</value>
+  </data>
+  <data name="Grid_Obj_Pole" xml:space="preserve">
+    <value>Pole-top transformer</value>
+  </data>
+  <data name="Grid_Obj_Primary" xml:space="preserve">
+    <value>Input coil</value>
+  </data>
+  <data name="Grid_Obj_Pumped" xml:space="preserve">
+    <value>Pumped storage</value>
+  </data>
+  <data name="Grid_Obj_PushBack" xml:space="preserve">
+    <value>Push back</value>
+  </data>
+  <data name="Grid_Obj_Pylon" xml:space="preserve">
+    <value>Pylon</value>
+  </data>
+  <data name="Grid_Obj_Rings" xml:space="preserve">
+    <value>Slip rings</value>
+  </data>
+  <data name="Grid_Obj_Rotor" xml:space="preserve">
+    <value>Rotor (the magnet)</value>
+  </data>
+  <data name="Grid_Obj_Scope" xml:space="preserve">
+    <value>Oscilloscope</value>
+  </data>
+  <data name="Grid_Obj_Secondary" xml:space="preserve">
+    <value>Output coil</value>
+  </data>
+  <data name="Grid_Obj_Solar" xml:space="preserve">
+    <value>Solar</value>
+  </data>
+  <data name="Grid_Obj_South" xml:space="preserve">
+    <value>South pole</value>
+  </data>
+  <data name="Grid_Obj_Station" xml:space="preserve">
+    <value>Power station</value>
+  </data>
+  <data name="Grid_Obj_Stator" xml:space="preserve">
+    <value>Stator</value>
+  </data>
+  <data name="Grid_Obj_StepUp" xml:space="preserve">
+    <value>Step-up substation</value>
+  </data>
+  <data name="Grid_Obj_Substation" xml:space="preserve">
+    <value>Step-down substation</value>
+  </data>
+  <data name="Grid_Obj_Supply" xml:space="preserve">
+    <value>Supply: AC or DC</value>
+  </data>
+  <data name="Grid_Obj_Town" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="Grid_Obj_Trace" xml:space="preserve">
+    <value>Frequency since the event</value>
+  </data>
+  <data name="Grid_Obj_Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="Grid_Option_FeedDc" xml:space="preserve">
+    <value>Feed the transformer DC</value>
+  </data>
+  <data name="Grid_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Grid_Option_Lamp" xml:space="preserve">
+    <value>Lamp switched on</value>
+  </data>
+  <data name="Grid_Phase_0" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Grid_Phase_1" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Grid_Phase_2" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="Grid_PlayPause" xml:space="preserve">
+    <value>Play / pause (Space)</value>
+  </data>
+  <data name="Grid_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Grid_Stat_Angle" xml:space="preserve">
+    <value>Coil's angle</value>
+  </data>
+  <data name="Grid_Stat_Arrives" xml:space="preserve">
+    <value>Arrives</value>
+  </data>
+  <data name="Grid_Stat_Coal" xml:space="preserve">
+    <value>Coal</value>
+  </data>
+  <data name="Grid_Stat_Coal_Value" xml:space="preserve">
+    <value>{0} GW (no lower than {1})</value>
+  </data>
+  <data name="Grid_Stat_Control" xml:space="preserve">
+    <value>Control centre</value>
+  </data>
+  <data name="Grid_Stat_Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="Grid_Stat_Current_Off" xml:space="preserve">
+    <value>none: the switch is open</value>
+  </data>
+  <data name="Grid_Stat_Current_Value" xml:space="preserve">
+    <value>{0} A now (peak {1} A)</value>
+  </data>
+  <data name="Grid_Stat_Curtailed" xml:space="preserve">
+    <value>Turned back</value>
+  </data>
+  <data name="Grid_Stat_Curtailed_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Grid_Stat_Demand" xml:space="preserve">
+    <value>Demand</value>
+  </data>
+  <data name="Grid_Stat_Eased" xml:space="preserve">
+    <value>Demand eased</value>
+  </data>
+  <data name="Grid_Stat_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Grid_Stat_Event_Value" xml:space="preserve">
+    <value>{0} at {1}</value>
+  </data>
+  <data name="Grid_Stat_FirstFall" xml:space="preserve">
+    <value>First fall</value>
+  </data>
+  <data name="Grid_Stat_FirstFall_Value" xml:space="preserve">
+    <value>{0} Hz/s (H = {1} s)</value>
+  </data>
+  <data name="Grid_Stat_Flux" xml:space="preserve">
+    <value>Field through it</value>
+  </data>
+  <data name="Grid_Stat_Flux_Value" xml:space="preserve">
+    <value>{0} mWb (at most {1})</value>
+  </data>
+  <data name="Grid_Stat_Force" xml:space="preserve">
+    <value>Push on the handle</value>
+  </data>
+  <data name="Grid_Stat_Force_None" xml:space="preserve">
+    <value>almost none: no current</value>
+  </data>
+  <data name="Grid_Stat_Force_Value" xml:space="preserve">
+    <value>up to {0} N</value>
+  </data>
+  <data name="Grid_Stat_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Grid_Stat_Frequency_Three" xml:space="preserve">
+    <value>{0} Hz ({1} turns/s, {2} poles)</value>
+  </data>
+  <data name="Grid_Stat_Frequency_Value" xml:space="preserve">
+    <value>{0} Hz ({1} rpm)</value>
+  </data>
+  <data name="Grid_Stat_Governors" xml:space="preserve">
+    <value>Governors</value>
+  </data>
+  <data name="Grid_Stat_GridFrequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Grid_Stat_GridFrequency_Event" xml:space="preserve">
+    <value>{0} Hz (lowest {1} at {2} s)</value>
+  </data>
+  <data name="Grid_Stat_Inertia" xml:space="preserve">
+    <value>Spinning mass</value>
+  </data>
+  <data name="Grid_Stat_Inertia_Value" xml:space="preserve">
+    <value>H = {0} s</value>
+  </data>
+  <data name="Grid_Stat_Lamp" xml:space="preserve">
+    <value>Lamp</value>
+  </data>
+  <data name="Grid_Stat_Lamp_Value" xml:space="preserve">
+    <value>{0} W on average (made for {1} W)</value>
+  </data>
+  <data name="Grid_Stat_LineCurrent" xml:space="preserve">
+    <value>Current per wire</value>
+  </data>
+  <data name="Grid_Stat_LineCurrent_Value" xml:space="preserve">
+    <value>{0} A (limit {1} A)</value>
+  </data>
+  <data name="Grid_Stat_LineVoltage" xml:space="preserve">
+    <value>Line voltage</value>
+  </data>
+  <data name="Grid_Stat_LineVoltage_Value" xml:space="preserve">
+    <value>{0} kV (stepped up ×{1})</value>
+  </data>
+  <data name="Grid_Stat_Loss" xml:space="preserve">
+    <value>Heat 3·I²·R</value>
+  </data>
+  <data name="Grid_Stat_Loss_Impossible" xml:space="preserve">
+    <value>more than half</value>
+  </data>
+  <data name="Grid_Stat_Loss_Value" xml:space="preserve">
+    <value>{0} MW ({1}%)</value>
+  </data>
+  <data name="Grid_Stat_Peak" xml:space="preserve">
+    <value>Peak N·B·A·ω</value>
+  </data>
+  <data name="Grid_Stat_Peak_Value" xml:space="preserve">
+    <value>{0} × {1} T × 0.01 m² × 2π × {2}/s = {3} V</value>
+  </data>
+  <data name="Grid_Stat_Phases" xml:space="preserve">
+    <value>A · B · C</value>
+  </data>
+  <data name="Grid_Stat_Pumped" xml:space="preserve">
+    <value>Pumped storage</value>
+  </data>
+  <data name="Grid_Stat_Pumped_Generating" xml:space="preserve">
+    <value>generating {0} GW</value>
+  </data>
+  <data name="Grid_Stat_Pumped_Idle" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="Grid_Stat_Pumped_Pumping" xml:space="preserve">
+    <value>pumping {0} GW</value>
+  </data>
+  <data name="Grid_Stat_Renewables" xml:space="preserve">
+    <value>Wind and solar</value>
+  </data>
+  <data name="Grid_Stat_Renewables_Value" xml:space="preserve">
+    <value>{0} GW ({1}% of demand)</value>
+  </data>
+  <data name="Grid_Stat_Resistance" xml:space="preserve">
+    <value>Each wire's resistance</value>
+  </data>
+  <data name="Grid_Stat_Resistance_Value" xml:space="preserve">
+    <value>{0} Ω over {1} km</value>
+  </data>
+  <data name="Grid_Stat_Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="Grid_Stat_Shed" xml:space="preserve">
+    <value>Switched off</value>
+  </data>
+  <data name="Grid_Stat_Shed_None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Grid_Stat_Station" xml:space="preserve">
+    <value>For 50 Hz</value>
+  </data>
+  <data name="Grid_Stat_Station_Value" xml:space="preserve">
+    <value>{0} poles turn at {1} rpm</value>
+  </data>
+  <data name="Grid_Stat_Sum" xml:space="preserve">
+    <value>Added up</value>
+  </data>
+  <data name="Grid_Stat_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Grid_Stat_Voltage" xml:space="preserve">
+    <value>Voltage now</value>
+  </data>
+  <data name="Grid_Timeline_Balance" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="Grid_Timeline_Generator" xml:space="preserve">
+    <value>The coil's angle</value>
+  </data>
+  <data name="Grid_Title" xml:space="preserve">
+    <value>Generator and the grid</value>
+  </data>
+  <data name="Grid_Transmission_Fact1" xml:space="preserve">
+    <value>The heat in a wire grows with the square of the current. Send the same power at ten times the voltage and the loss falls a hundredfold.</value>
+  </data>
+  <data name="Grid_Transmission_Fact2" xml:space="preserve">
+    <value>China's AC voltage ladder runs 10, 35, 110, 220, 330, 500, 750 and 1000 kV; its DC lines go up to ±1100 kV.</value>
+  </data>
+  <data name="Grid_Transmission_Fact3" xml:space="preserve">
+    <value>The ±1100 kV DC line from Changji in Xinjiang to Guquan in Anhui is about 3,300 km long and can carry 12 GW.</value>
+  </data>
+  <data name="Grid_Transmission_Fact4" xml:space="preserve">
+    <value>Very long lines often use DC: no current sloshes back and forth, and two conductors are enough. But the converter stations at each end are costly.</value>
+  </data>
+  <data name="Grid_Transmission_Fact5" xml:space="preserve">
+    <value>Across a whole grid, roughly 5% of the electricity is lost on its way through lines and transformers.</value>
+  </data>
+  <data name="Grid_Transmission_Note" xml:space="preserve">
+    <value>The line is squeezed: a few pylons stand for hundreds of kilometres. The same wires are used at every voltage.</value>
+  </data>
+  <data name="Grid_Transmission_Subtitle" xml:space="preserve">
+    <value>Why power travels at high voltage</value>
+  </data>
+  <data name="Grid_Tx_Caption" xml:space="preserve">
+    <value>Inside the step-up transformer</value>
+  </data>
+  <data name="Grid_Tx_Output" xml:space="preserve">
+    <value>Out: {0}</value>
+  </data>
+  <data name="Grid_Tx_OutputNone" xml:space="preserve">
+    <value>Out: nothing</value>
+  </data>
+  <data name="Grid_Tx_Ratio" xml:space="preserve">
+    <value>Turns 1 : {0} → voltage ×{0}, current ÷{0}</value>
+  </data>
+  <data name="Grid_Tx_SupplyAc" xml:space="preserve">
+    <value>AC {0} kV</value>
+  </data>
+  <data name="Grid_Tx_SupplyDc" xml:space="preserve">
+    <value>DC {0} kV</value>
+  </data>
   <data name="Heat_Chart_Eff_Caption" xml:space="preserve">
     <value>How much of the fuel's heat becomes work</value>
   </data>
@@ -5783,6 +6563,18 @@
   </data>
   <data name="Heat_Speed" xml:space="preserve">
     <value>Playback speed</value>
+  </data>
+  <data name="Heat_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Heat_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Heat_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Heat_Speed_Two" xml:space="preserve">
+    <value>2×</value>
   </data>
   <data name="Heat_Stat_Boiling" xml:space="preserve">
     <value>Refrigerant boils at</value>
@@ -11429,6 +12221,225 @@
   </data>
   <data name="Narr_Green_Planet_10" xml:space="preserve">
     <value>Your turn. Drag the carbon dioxide slider, or take the greenhouse gases away, and watch the ground's temperature settle.</value>
+  </data>
+  <data name="Narr_Grid_Balance_01" xml:space="preserve">
+    <value>Electricity is hard to store in bulk, so at every moment the power stations must make exactly what everyone is using. Watch the city wake up: demand climbs through the morning.</value>
+  </data>
+  <data name="Narr_Grid_Balance_02" xml:space="preserve">
+    <value>It's eight in the evening, the peak. Lights, cooking and air conditioning are all on. Coal runs flat out, and hydro, pumped storage and gas are called on too.</value>
+  </data>
+  <data name="Narr_Grid_Balance_03" xml:space="preserve">
+    <value>Now it's noon on a sunny day, with plenty of solar farms. There's more than enough. Coal turns down as far as it safely can, and the pumped storage station pumps water uphill, saving the spare energy for the evening.</value>
+  </data>
+  <data name="Narr_Grid_Balance_04" xml:space="preserve">
+    <value>So how does the grid know whether supply matches demand? By the frequency. All the big generators spin in step, fifty cycles a second on this grid. If demand gets ahead, they slow down a little. If supply gets ahead, they speed up.</value>
+  </data>
+  <data name="Narr_Grid_Balance_05" xml:space="preserve">
+    <value>Now a big generating unit suddenly trips off. A thousand megawatts, gone. Demand hasn't changed, so the difference comes out of the energy in all those spinning machines. They slow down, and the frequency falls.</value>
+  </data>
+  <data name="Narr_Grid_Balance_06" xml:space="preserve">
+    <value>Within seconds, governors on the other plants feel the drop and open their steam and water valves wider. See the extra megawatts appear. The fall stops, just a few tenths of a hertz down.</value>
+  </data>
+  <data name="Narr_Grid_Balance_07" xml:space="preserve">
+    <value>Over the next minutes, the control centre asks plants to raise their output for good. On this graph you can see the frequency climbing slowly back.</value>
+  </data>
+  <data name="Narr_Grid_Balance_08" xml:space="preserve">
+    <value>Here's a question. At midday, with lots of solar power, the same unit trips. How does the frequency fall this time?</value>
+  </data>
+  <data name="Narr_Grid_Balance_09" xml:space="preserve">
+    <value>Faster, and further. Solar panels and many wind turbines connect through electronics, not spinning machines. With less spinning mass the wheel is smaller, and the frequency drops more quickly. That's why grids with lots of renewables add batteries and other fast helpers.</value>
+  </data>
+  <data name="Narr_Grid_Balance_10" xml:space="preserve">
+    <value>Your turn. Trip a unit, lose the DC link, or switch on a big load, at any time of day, and watch the frequency.</value>
+  </data>
+  <data name="Narr_Grid_Generator_01" xml:space="preserve">
+    <value>Here's a generator at its simplest: a coil of wire turning between the poles of a magnet. Nothing touches the lamp but two wires, and yet it lights up. So where does that electricity come from?</value>
+  </data>
+  <data name="Narr_Grid_Generator_02" xml:space="preserve">
+    <value>The magnet's field runs straight across the gap, from north to south. As the coil turns, the amount of field passing through it keeps changing. Keep an eye on that.</value>
+  </data>
+  <data name="Narr_Grid_Generator_03" xml:space="preserve">
+    <value>Let's stop it here. The coil faces the poles square on, so the most field goes through it. But look at the oscilloscope: right now the voltage is zero. For this instant, the amount isn't changing.</value>
+  </data>
+  <data name="Narr_Grid_Generator_04" xml:space="preserve">
+    <value>Now a quarter turn on. The coil lies along the field, so no field passes through it at all. And yet the voltage is at its peak. That was Faraday's discovery: the voltage comes from change, not from how much field there is.</value>
+  </data>
+  <data name="Narr_Grid_Generator_05" xml:space="preserve">
+    <value>Here's a question. If you turn the coil twice as fast, what happens to the voltage?</value>
+  </data>
+  <data name="Narr_Grid_Generator_06" xml:space="preserve">
+    <value>Now, how does the current get out? Each end of the coil goes to its own ring, and carbon brushes rub on the rings. Every half turn the voltage reverses, so the current goes back and forth. That's alternating current.</value>
+  </data>
+  <data name="Narr_Grid_Generator_07" xml:space="preserve">
+    <value>Swap the two rings for one ring split in half: a commutator. Every half turn the halves swap brushes, so the current outside always flows one way. Look at the oscilloscope: the wave is folded up above zero.</value>
+  </data>
+  <data name="Narr_Grid_Generator_08" xml:space="preserve">
+    <value>But there's a catch. With current flowing, the magnet pushes on the coil's sides against the way they're moving. So lighting the lamp makes the handle harder to turn. The lamp's energy comes from your arm, or in a power station, from steam, water or wind.</value>
+  </data>
+  <data name="Narr_Grid_Generator_09" xml:space="preserve">
+    <value>A real power station turns all this inside out. The magnet spins in the middle, and three coils sit around it, a third of a turn apart. Watch the three lamps light up one after another.</value>
+  </data>
+  <data name="Narr_Grid_Generator_10" xml:space="preserve">
+    <value>On the oscilloscope, three waves rise and fall in turn. Add them up at any moment and you get exactly zero. A two-pole machine spinning three thousand times a minute makes fifty of these cycles every second.</value>
+  </data>
+  <data name="Narr_Grid_Generator_11" xml:space="preserve">
+    <value>Your turn. Change how fast it turns, the number of turns in the coil, or the magnet, and watch what happens to the voltage.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Brushes" xml:space="preserve">
+    <value>Brushes are blocks of carbon pressed against the turning rings. They let the current out of a spinning coil without the wires getting twisted up.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Bus" xml:space="preserve">
+    <value>All the stations feed one connected grid. Power from every source mixes here, and flows to wherever it's being used.</value>
+  </data>
+  <data name="Narr_Grid_Obj_City" xml:space="preserve">
+    <value>The city's demand climbs in the morning, dips a little at noon and peaks in the evening. Every switch flicked changes what the plants must make.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Coal" xml:space="preserve">
+    <value>Coal plants follow the load up and down, but they can't go below a minimum without shutting down. Their big turbines also add spinning mass.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Coil" xml:space="preserve">
+    <value>The coil is many turns of copper wire. Its golden tint shows how much field passes through it right now. The voltage comes from that amount changing.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Commutator" xml:space="preserve">
+    <value>This is one ring split into two halves. Every half turn, just as the voltage passes zero, the halves swap brushes, so the current outside always flows the same way.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Core" xml:space="preserve">
+    <value>The iron core carries the magnetic field from one coil to the other. It's built from thin sheets to keep it from heating up.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Crank" xml:space="preserve">
+    <value>The handle turns the axle. Drag across the picture to turn it yourself, fast or slow, and watch the voltage follow your hand.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Dial" xml:space="preserve">
+    <value>The frequency is the grid's pulse. When it holds steady, supply and demand are in balance. If it drops, demand is ahead; if it rises, supply is.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Field" xml:space="preserve">
+    <value>These lines show the magnetic field. What matters to the coil is how much of it passes through, and how quickly that amount changes.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Flywheel" xml:space="preserve">
+    <value>This wheel stands for all the turbines and generators spinning in step. Their stored energy cushions any sudden gap. The bigger the wheel, the slower the frequency falls.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Gas" xml:space="preserve">
+    <value>Gas turbines start up quickly, so they're used mostly at the peaks.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Heat" xml:space="preserve">
+    <value>This is the power lost on the way, turned into heat in the wires. It grows with the square of the current.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Hydro" xml:space="preserve">
+    <value>Hydro can change its output in moments, just by opening or closing its gates. That makes it ideal for following the peaks, and for answering a sudden gap.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Import" xml:space="preserve">
+    <value>A high-voltage DC line brings power from far away, often from big hydro, wind or solar bases. It's steady, but losing it all at once is a big shock.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Lamp" xml:space="preserve">
+    <value>The lamp shows the power. Click it to open or close the switch. With the switch open no current flows, and the coil turns freely.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Lamps" xml:space="preserve">
+    <value>There's one lamp on each phase. Turn the machine slowly and you'll see them light up one after another: A, then B, then C.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Line" xml:space="preserve">
+    <value>Each wire has some resistance, so the current warms it. The dots show the current: the denser and faster they are, the bigger it is.</value>
+  </data>
+  <data name="Narr_Grid_Obj_North" xml:space="preserve">
+    <value>This is the magnet's north pole. The field leaves it and crosses the gap to the south pole.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Nuclear" xml:space="preserve">
+    <value>Nuclear plants run flat out, day and night. They're cheap to run but slow to change, so they carry the steady base of the load.</value>
+  </data>
+  <data name="Narr_Grid_Obj_PhaseA" xml:space="preserve">
+    <value>This is the A phase: one coil, its two sides facing each other across the stator. Its voltage peaks each time a magnet pole sweeps past those sides.</value>
+  </data>
+  <data name="Narr_Grid_Obj_PhaseB" xml:space="preserve">
+    <value>The B phase is the same kind of coil, turned a third of the way round. So its voltage peaks a third of a cycle after A's.</value>
+  </data>
+  <data name="Narr_Grid_Obj_PhaseC" xml:space="preserve">
+    <value>And the C phase sits another third of the way round. Three waves taking turns: that's why three wires can carry the power without a separate return wire.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Pole" xml:space="preserve">
+    <value>The last step: a small transformer near the street brings the voltage down to what homes use.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Primary" xml:space="preserve">
+    <value>The input coil has only a few turns. Alternating current in it makes a field in the iron that keeps reversing.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Pumped" xml:space="preserve">
+    <value>Pumped storage is a giant battery made of two lakes. Spare power pumps water up; at the peak it runs back down through the turbines.</value>
+  </data>
+  <data name="Narr_Grid_Obj_PushBack" xml:space="preserve">
+    <value>When current flows, the magnet pushes on the coil's sides against their motion. That's why lighting the lamp makes the handle harder to turn. The energy comes from you.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Pylon" xml:space="preserve">
+    <value>Pylons hold the wires high and far apart, hanging from long insulators. The higher the voltage, the longer the insulators and the bigger the towers.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Rings" xml:space="preserve">
+    <value>Each end of the coil goes to its own ring, and the rings turn with it. Each ring always stays joined to the same end, so the current flips every half turn. That's alternating current.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Rotor" xml:space="preserve">
+    <value>In a real power station the magnet turns, not the coils. This rotor is an electromagnet, spun by a steam or water turbine.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Scope" xml:space="preserve">
+    <value>The oscilloscope draws the voltage against time. A coil turning steadily draws a smooth sine wave.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Secondary" xml:space="preserve">
+    <value>The output coil has many more turns. The changing field makes a voltage in every turn, so more turns mean a higher voltage.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Solar" xml:space="preserve">
+    <value>Solar follows the Sun: nothing at night, a big bulge at midday. Too much at noon has to be stored, or turned back.</value>
+  </data>
+  <data name="Narr_Grid_Obj_South" xml:space="preserve">
+    <value>This is the south pole. Between the two poles the field is strong, and runs straight across.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Station" xml:space="preserve">
+    <value>The power station's generator makes about twenty thousand volts. To travel far, that has to be stepped up.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Stator" xml:space="preserve">
+    <value>The stator is the part that stays still: a ring of iron with the coils laid in slots. Keeping the coils still means the huge currents need no sliding contacts.</value>
+  </data>
+  <data name="Narr_Grid_Obj_StepUp" xml:space="preserve">
+    <value>The step-up substation raises the voltage many times over. The current drops by the same factor, and that's what saves the energy.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Substation" xml:space="preserve">
+    <value>Near the town, substations step the voltage back down, a stage at a time, to levels that are safer to bring into the streets.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Supply" xml:space="preserve">
+    <value>Click here to switch the supply between AC and DC. With steady DC, the field in the iron stops changing, and the output falls to nothing.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Town" xml:space="preserve">
+    <value>The town's lights show how much power arrives. If too much is lost on the way, windows go dark.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Trace" xml:space="preserve">
+    <value>This graph follows the frequency after the event: the quick fall, the turn, and the slow climb back.</value>
+  </data>
+  <data name="Narr_Grid_Obj_Wind" xml:space="preserve">
+    <value>Wind farms make whatever the wind gives them. Often the wind is stronger at night, just when the least power is needed.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_01" xml:space="preserve">
+    <value>A power station makes electricity at about twenty thousand volts, but the town it feeds may be hundreds of kilometres away. How do we get the power there without losing it on the way?</value>
+  </data>
+  <data name="Narr_Grid_Transmission_02" xml:space="preserve">
+    <value>Every wire has some resistance, so current flowing through it warms it up. That heat is lost power, and it grows with the square of the current. Twice the current means four times the loss.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_03" xml:space="preserve">
+    <value>So we send the same power with less current. Power is voltage times current. The step-up transformer raises the voltage twenty-five times, so the current is twenty-five times smaller.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_04" xml:space="preserve">
+    <value>Now drop the line to a hundred and ten thousand volts. The current is several times bigger, the wires glow, and look at the heat: nearly half the power never arrives.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_05" xml:space="preserve">
+    <value>Same power, same wires. If you double the voltage, what happens to the heat that's lost?</value>
+  </data>
+  <data name="Narr_Grid_Transmission_06" xml:space="preserve">
+    <value>Back to five hundred thousand volts. The thing that does the stepping up is a transformer: two coils sharing one iron core. Alternating current in the first coil makes a changing field in the iron.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_07" xml:space="preserve">
+    <value>That changing field makes a voltage in every turn of the second coil. Give it twenty-five times as many turns, and you get twenty-five times the voltage, with a twenty-fifth of the current. The power stays almost the same.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_08" xml:space="preserve">
+    <value>Now feed it steady direct current instead. The field in the iron stops changing, and the output drops to nothing. That's a big reason why the grid runs on alternating current.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_09" xml:space="preserve">
+    <value>Near the town, substations step the voltage back down, stage by stage, and a small transformer near each street brings it to the few hundred volts used at home.</value>
+  </data>
+  <data name="Narr_Grid_Transmission_10" xml:space="preserve">
+    <value>Your turn. Pick a different voltage, send more power, or send it further, and see how much reaches the town.</value>
   </data>
   <data name="Narr_Heat_Cycle_01" xml:space="preserve">
     <value>Every heat engine works the same way. Heat flows from a hot place to a cold place, and a machine in between turns some of it into work.</value>
@@ -27894,16 +28905,16 @@
   <data name="Window_Minimize" xml:space="preserve">
     <value>Minimize</value>
   </data>
-  <data name="Heat_Speed_Quarter" xml:space="preserve">
+  <data name="Grid_Speed_Quarter" xml:space="preserve">
     <value>¼×</value>
   </data>
-  <data name="Heat_Speed_Half" xml:space="preserve">
+  <data name="Grid_Speed_Half" xml:space="preserve">
     <value>½×</value>
   </data>
-  <data name="Heat_Speed_One" xml:space="preserve">
+  <data name="Grid_Speed_One" xml:space="preserve">
     <value>1×</value>
   </data>
-  <data name="Heat_Speed_Two" xml:space="preserve">
+  <data name="Grid_Speed_Two" xml:space="preserve">
     <value>2×</value>
   </data>
 </root>

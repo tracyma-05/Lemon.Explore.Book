@@ -1,0 +1,93 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:grid="using:Lemon.Explore.Book.Chapters.PowerGrid"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.PowerGrid.PowerGridDiagramPageView"
+                         x:DataType="grid:PowerGridDiagramPageViewModel">
+    <!-- Right page of the Power grid spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <grid:GridDiagram Mode="{Binding Grid.Mode}"
+                                  Kind="{Binding Grid.Kind}"
+                                  Angle="{Binding Grid.Angle, Mode=TwoWay}"
+                                  CoilSpeed="{Binding Grid.CoilSpeed}"
+                                  Turns="{Binding Grid.Turns}"
+                                  Field="{Binding Grid.Field}"
+                                  LampOn="{Binding Grid.LampOn, Mode=TwoWay}"
+                                  PolePairs="{Binding Grid.PolePairs}"
+                                  LineKv="{Binding Grid.LineKv}"
+                                  Power="{Binding Grid.Power}"
+                                  Distance="{Binding Grid.Distance}"
+                                  FeedDc="{Binding Grid.FeedDc, Mode=TwoWay}"
+                                  Season="{Binding Grid.Season}"
+                                  Hour="{Binding Grid.Hour, Mode=TwoWay}"
+                                  SolarCapacity="{Binding Grid.SolarCapacity}"
+                                  Latitude="{Binding Grid.Latitude}"
+                                  EventKind="{Binding Grid.EventKind}"
+                                  EventTrace="{Binding Grid.EventTrace}"
+                                  EventTime="{Binding Grid.EventTime, Mode=TwoWay}"
+                                  ShowLabels="{Binding Grid.ShowLabels}"
+                                  Speed="{Binding Grid.Speed}"
+                                  IsPlaying="{Binding Grid.IsPlaying, Mode=TwoWay}"
+                                  ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                  Highlight="{Binding Grid.Lesson.Highlight}"
+                                  IsLessonActive="{Binding Grid.Lesson.IsActive}"
+                                  SelectedObject="{Binding Grid.Card.Id, Mode=TwoWay}"
+                                  InteractionCommand="{Binding Grid.UserInteractedCommand}"
+                                  ToolTip.Tip="{Binding Grid.Hint}"
+                                  AutomationProperties.Name="{Binding Grid.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Grid.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Grid.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Grid.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Grid.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Grid_PlayPause}" AutomationProperties.Name="{loc:Localize Grid_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Grid.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Grid.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Grid_Speed}">
+                                <RadioButton Classes="space speed" GroupName="GridSpeed" Content="{loc:Localize Grid_Speed_Quarter}" IsChecked="{Binding Grid.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="GridSpeed" Content="{loc:Localize Grid_Speed_Half}" IsChecked="{Binding Grid.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="GridSpeed" Content="{loc:Localize Grid_Speed_One}" IsChecked="{Binding Grid.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="GridSpeed" Content="{loc:Localize Grid_Speed_Two}" IsChecked="{Binding Grid.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <!-- The timeline of the view: the generator's turn, the hours of the day -->
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="360" Value="{Binding Grid.Angle}" SmallChange="5" LargeChange="45"
+                                        IsVisible="{Binding Grid.IsGenerator}"
+                                        ToolTip.Tip="{loc:Localize Grid_Timeline_Generator}" AutomationProperties.Name="{loc:Localize Grid_Timeline_Generator}" />
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="24" Value="{Binding Grid.Hour}" SmallChange="0.25" LargeChange="2"
+                                        IsVisible="{Binding Grid.IsBalance}"
+                                        ToolTip.Tip="{loc:Localize Grid_Timeline_Balance}" AutomationProperties.Name="{loc:Localize Grid_Timeline_Balance}" />
+                                <TextBlock MinWidth="110" Margin="6,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Grid.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

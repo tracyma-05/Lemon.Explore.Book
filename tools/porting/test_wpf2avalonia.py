@@ -135,6 +135,11 @@ public static readonly Brush Dot = Freeze(new SolidColorBrush(Gold));
         self.assertIn("if (at.X + text.Width > plot.Right) at = at.WithX(point.X - 8);", out)
         self.assertIn("tangent = tangent.Normalize();", out)
 
+    def test_a_difference_of_calls_with_nested_arguments_is_a_vector(self):
+        out = tool.convert_points("        var ahead = Along(path, Math.Min(1, s + 0.01)) - Along(path, Math.Max(0, s - 0.01));\n"
+                                  "        if (ahead.Length < 1e-6) continue;\n")
+        self.assertIn("Vector ahead = Along(path, Math.Min(1, s + 0.01)) - Along(path, Math.Max(0, s - 0.01));", out)
+
     def test_static_rect_inflate_becomes_the_instance_method(self):
         out = tool.convert_points("        AddBoxTarget(\"sensor\", Rect.Inflate(sensor, 3, 2));\n")
         self.assertIn("AddBoxTarget(\"sensor\", sensor.Inflate(new Thickness(3, 2)));", out)
@@ -282,6 +287,17 @@ class LateTests(unittest.TestCase):
             "    public RayStyle RayStyle { get => (RayStyle)GetValue(RayStyleProperty); set => SetValue(RayStyleProperty, value); }\n",
             siblings)
         self.assertIn("typeof(RayStyle), typeof(LensDiagram)", out)
+
+    def test_a_generic_helper_call_with_a_nested_type_argument(self):
+        siblings = """
+    protected static DependencyProperty Register<TOwner, TValue>(string name, TValue value) =>
+        DependencyProperty.Register(name, typeof(TValue), typeof(TOwner),
+            new FrameworkPropertyMetadata(value, FrameworkPropertyMetadataOptions.AffectsRender));
+"""
+        out = tool.expand_register_helpers(
+            "    public static readonly DependencyProperty TraceProperty = Register<FrequencyChart, IReadOnlyList<FrequencyPoint>?>(nameof(Trace), null);\n",
+            siblings)
+        self.assertIn("typeof(IReadOnlyList<FrequencyPoint>?), typeof(FrequencyChart)", out)
 
     def test_initialized_pens_empty_rects_and_polylines(self):
         out = tool.convert_late("""        pen = new Pen(brush, 2) { StartLineCap = cap, EndLineCap = cap, LineJoin = PenLineJoin.Round };

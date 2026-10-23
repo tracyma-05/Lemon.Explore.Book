@@ -372,7 +372,8 @@ def expand_register_helpers(s: str, siblings: str = "") -> str:
     for span, *_ in sorted((h for h in helpers.values() if h[0]), key=lambda h: h[0][0], reverse=True):
         s = s[:span[0]] + "\n" + s[span[1]:]
 
-    call = re.compile(rf"public static readonly DependencyProperty (\w+)Property = ({'|'.join(map(re.escape, helpers))})(?:<([^>]+)>)?\(")
+    # (generic arguments may nest one level: Register<Chart, IReadOnlyList<Point>?>)
+    call = re.compile(rf"public static readonly DependencyProperty (\w+)Property = ({'|'.join(map(re.escape, helpers))})(?:<((?:[^<>]|<[^<>]*>)+)>)?\(")
     out, i = [], 0
     while (m := call.search(s, i)) is not None:
         out.append(s[i:m.start()])
@@ -951,7 +952,7 @@ def convert_plumbing(s: str) -> str:
 def convert_points(s: str) -> str:
     """WPF Point/Vector idioms that mean something else, or nothing, in Avalonia."""
     # A Point difference is a Point in Avalonia: `var x = a - b;` whose Length is used becomes a Vector.
-    operand = r"[\w.]+(?:\([^()]*\)|\[[^\]]*\])?"
+    operand = r"[\w.]+(?:\((?:[^()]|\([^()]*\))*\)|\[[^\]]*\])?"  # (a call's arguments may hold one more call)
     for m in reversed(list(re.finditer(rf"\bvar (\w+) = ({operand}) - ({operand});", s))):
         rest = s[m.end():m.end() + 1500]
         # A difference of 3D points is already a Vector3D (Controls/Space/Space3D.cs): leave it to `var`.

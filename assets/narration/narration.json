@@ -7646,6 +7646,1324 @@
      ]
     ]
    },
+   "Narr_Grid_Balance_01": {
+    "duration": 12.696,
+    "hash": "3103a429f92a6519",
+    "sentences": [
+     [
+      0.05,
+      8.278,
+      "Electricity is hard to store in bulk, so at every moment the power stations must make exactly what everyone is using."
+     ],
+     [
+      8.278,
+      12.638,
+      "Watch the city wake up: demand climbs through the morning."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_02": {
+    "duration": 11.496,
+    "hash": "40798c5c2636f786",
+    "sentences": [
+     [
+      0.05,
+      2.486,
+      "It's eight in the evening, the peak."
+     ],
+     [
+      2.486,
+      6.083,
+      "Lights, cooking and air conditioning are all on."
+     ],
+     [
+      6.083,
+      11.431,
+      "Coal runs flat out, and hydro, pumped storage and gas are called on too."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_03": {
+    "duration": 15.168,
+    "hash": "a5f100742b403b4a",
+    "sentences": [
+     [
+      0.05,
+      4.458,
+      "Now it's noon on a sunny day, with plenty of solar farms."
+     ],
+     [
+      4.458,
+      6.153,
+      "There's more than enough."
+     ],
+     [
+      6.153,
+      15.097,
+      "Coal turns down as far as it safely can, and the pumped storage station pumps water uphill, saving the spare energy for the evening."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_04": {
+    "duration": 17.136,
+    "hash": "8d7a2d0b3524606c",
+    "sentences": [
+     [
+      0.05,
+      3.708,
+      "So how does the grid know whether supply matches demand?"
+     ],
+     [
+      3.708,
+      5.222,
+      "By the frequency."
+     ],
+     [
+      5.222,
+      10.847,
+      "All the big generators spin in step, fifty cycles a second on this grid."
+     ],
+     [
+      10.847,
+      14.25,
+      "If demand gets ahead, they slow down a little."
+     ],
+     [
+      14.25,
+      17.083,
+      "If supply gets ahead, they speed up."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_05": {
+    "duration": 14.712,
+    "hash": "b617f86b7c552d98",
+    "sentences": [
+     [
+      0.05,
+      3.514,
+      "Now a big generating unit suddenly trips off."
+     ],
+     [
+      3.514,
+      5.806,
+      "A thousand megawatts, gone."
+     ],
+     [
+      5.806,
+      11.514,
+      "Demand hasn't changed, so the difference comes out of the energy in all those spinning machines."
+     ],
+     [
+      11.514,
+      14.639,
+      "They slow down, and the frequency falls."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_06": {
+    "duration": 14.064,
+    "hash": "5d3167e509df411e",
+    "sentences": [
+     [
+      0.05,
+      7.375,
+      "Within seconds, governors on the other plants feel the drop and open their steam and water valves wider."
+     ],
+     [
+      7.375,
+      10.0,
+      "See the extra megawatts appear."
+     ],
+     [
+      10.0,
+      14.014,
+      "The fall stops, just a few tenths of a hertz down."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_07": {
+    "duration": 9.648,
+    "hash": "9fdd8c8cce3e2d3a",
+    "sentences": [
+     [
+      0.05,
+      5.514,
+      "Over the next minutes, the control centre asks plants to raise their output for good."
+     ],
+     [
+      5.514,
+      9.583,
+      "On this graph you can see the frequency climbing slowly back."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_08": {
+    "duration": 8.496,
+    "hash": "74ec64bc8a57ca8c",
+    "sentences": [
+     [
+      0.05,
+      1.347,
+      "Here's a question."
+     ],
+     [
+      1.347,
+      6.014,
+      "At midday, with lots of solar power, the same unit trips."
+     ],
+     [
+      6.014,
+      8.444,
+      "How does the frequency fall this time?"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_09": {
+    "duration": 19.008,
+    "hash": "48469ff884bddfbb",
+    "sentences": [
+     [
+      0.05,
+      2.083,
+      "Faster, and further."
+     ],
+     [
+      2.083,
+      8.264,
+      "Solar panels and many wind turbines connect through electronics, not spinning machines."
+     ],
+     [
+      8.264,
+      13.458,
+      "With less spinning mass the wheel is smaller, and the frequency drops more quickly."
+     ],
+     [
+      13.458,
+      18.944,
+      "That's why grids with lots of renewables add batteries and other fast helpers."
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_10": {
+    "duration": 8.952,
+    "hash": "0457955de86e45d4",
+    "sentences": [
+     [
+      0.05,
+      1.208,
+      "Your turn."
+     ],
+     [
+      1.208,
+      8.889,
+      "Trip a unit, lose the DC link, or switch on a big load, at any time of day, and watch the frequency."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_01": {
+    "duration": 14.232,
+    "hash": "cc7c1cd78215b75b",
+    "sentences": [
+     [
+      0.05,
+      6.667,
+      "Here's a generator at its simplest: a coil of wire turning between the poles of a magnet."
+     ],
+     [
+      6.667,
+      10.972,
+      "Nothing touches the lamp but two wires, and yet it lights up."
+     ],
+     [
+      10.972,
+      14.167,
+      "So where does that electricity come from?"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_02": {
+    "duration": 11.04,
+    "hash": "86d061ff10b36e0d",
+    "sentences": [
+     [
+      0.05,
+      4.556,
+      "The magnet's field runs straight across the gap, from north to south."
+     ],
+     [
+      4.556,
+      9.292,
+      "As the coil turns, the amount of field passing through it keeps changing."
+     ],
+     [
+      9.292,
+      10.972,
+      "Keep an eye on that."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_03": {
+    "duration": 13.128,
+    "hash": "5d9e3c028da9ec49",
+    "sentences": [
+     [
+      0.05,
+      1.375,
+      "Let's stop it here."
+     ],
+     [
+      1.375,
+      5.917,
+      "The coil faces the poles square on, so the most field goes through it."
+     ],
+     [
+      5.917,
+      9.875,
+      "But look at the oscilloscope: right now the voltage is zero."
+     ],
+     [
+      9.875,
+      13.069,
+      "For this instant, the amount isn't changing."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_04": {
+    "duration": 16.416,
+    "hash": "cee5e1eeac1ea44f",
+    "sentences": [
+     [
+      0.05,
+      2.014,
+      "Now a quarter turn on."
+     ],
+     [
+      2.014,
+      6.708,
+      "The coil lies along the field, so no field passes through it at all."
+     ],
+     [
+      6.708,
+      9.5,
+      "And yet the voltage is at its peak."
+     ],
+     [
+      9.5,
+      16.361,
+      "That was Faraday's discovery: the voltage comes from change, not from how much field there is."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_05": {
+    "duration": 5.808,
+    "hash": "9c96b176f52f2c5d",
+    "sentences": [
+     [
+      0.05,
+      1.306,
+      "Here's a question."
+     ],
+     [
+      1.306,
+      5.75,
+      "If you turn the coil twice as fast, what happens to the voltage?"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_06": {
+    "duration": 15.12,
+    "hash": "44db28809ddefeb8",
+    "sentences": [
+     [
+      0.05,
+      2.583,
+      "Now, how does the current get out?"
+     ],
+     [
+      2.583,
+      8.167,
+      "Each end of the coil goes to its own ring, and carbon brushes rub on the rings."
+     ],
+     [
+      8.167,
+      12.958,
+      "Every half turn the voltage reverses, so the current goes back and forth."
+     ],
+     [
+      12.958,
+      15.094,
+      "That's alternating current."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_07": {
+    "duration": 15.384,
+    "hash": "5ced5127382f2360",
+    "sentences": [
+     [
+      0.05,
+      4.972,
+      "Swap the two rings for one ring split in half: a commutator."
+     ],
+     [
+      4.972,
+      10.569,
+      "Every half turn the halves swap brushes, so the current outside always flows one way."
+     ],
+     [
+      10.569,
+      15.333,
+      "Look at the oscilloscope: the wave is folded up above zero."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_08": {
+    "duration": 18.12,
+    "hash": "92168dfa1f102821",
+    "sentences": [
+     [
+      0.05,
+      1.542,
+      "But there's a catch."
+     ],
+     [
+      1.542,
+      7.139,
+      "With current flowing, the magnet pushes on the coil's sides against the way they're moving."
+     ],
+     [
+      7.139,
+      10.722,
+      "So lighting the lamp makes the handle harder to turn."
+     ],
+     [
+      10.722,
+      18.056,
+      "The lamp's energy comes from your arm, or in a power station, from steam, water or wind."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_09": {
+    "duration": 13.584,
+    "hash": "d4f0c11d797594fb",
+    "sentences": [
+     [
+      0.05,
+      3.681,
+      "A real power station turns all this inside out."
+     ],
+     [
+      3.681,
+      9.861,
+      "The magnet spins in the middle, and three coils sit around it, a third of a turn apart."
+     ],
+     [
+      9.861,
+      13.528,
+      "Watch the three lamps light up one after another."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_10": {
+    "duration": 15.024,
+    "hash": "dcb4f476de567605",
+    "sentences": [
+     [
+      0.05,
+      4.556,
+      "On the oscilloscope, three waves rise and fall in turn."
+     ],
+     [
+      4.556,
+      8.708,
+      "Add them up at any moment and you get exactly zero."
+     ],
+     [
+      8.708,
+      14.972,
+      "A two-pole machine spinning three thousand times a minute makes fifty of these cycles every second."
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_11": {
+    "duration": 8.544,
+    "hash": "e0bc6f4ccf2e2af0",
+    "sentences": [
+     [
+      0.05,
+      1.125,
+      "Your turn."
+     ],
+     [
+      1.125,
+      8.472,
+      "Change how fast it turns, the number of turns in the coil, or the magnet, and watch what happens to the voltage."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Brushes": {
+    "duration": 8.808,
+    "hash": "6a4df72f12a409d4",
+    "sentences": [
+     [
+      0.05,
+      3.833,
+      "Brushes are blocks of carbon pressed against the turning rings."
+     ],
+     [
+      3.833,
+      8.75,
+      "They let the current out of a spinning coil without the wires getting twisted up."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Bus": {
+    "duration": 8.928,
+    "hash": "d24d5c7832cfbfc0",
+    "sentences": [
+     [
+      0.05,
+      3.111,
+      "All the stations feed one connected grid."
+     ],
+     [
+      3.111,
+      8.875,
+      "Power from every source mixes here, and flows to wherever it's being used."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_City": {
+    "duration": 9.288,
+    "hash": "deafd50ee33166ee",
+    "sentences": [
+     [
+      0.05,
+      5.333,
+      "The city's demand climbs in the morning, dips a little at noon and peaks in the evening."
+     ],
+     [
+      5.333,
+      9.222,
+      "Every switch flicked changes what the plants must make."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Coal": {
+    "duration": 10.224,
+    "hash": "186d83db553b5908",
+    "sentences": [
+     [
+      0.05,
+      6.597,
+      "Coal plants follow the load up and down, but they can't go below a minimum without shutting down."
+     ],
+     [
+      6.597,
+      10.167,
+      "Their big turbines also add spinning mass."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Coil": {
+    "duration": 10.152,
+    "hash": "16fc9116ecb6e7ed",
+    "sentences": [
+     [
+      0.05,
+      3.028,
+      "The coil is many turns of copper wire."
+     ],
+     [
+      3.028,
+      7.167,
+      "Its golden tint shows how much field passes through it right now."
+     ],
+     [
+      7.167,
+      10.083,
+      "The voltage comes from that amount changing."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Commutator": {
+    "duration": 11.088,
+    "hash": "443e491106cfe09e",
+    "sentences": [
+     [
+      0.05,
+      3.014,
+      "This is one ring split into two halves."
+     ],
+     [
+      3.014,
+      11.028,
+      "Every half turn, just as the voltage passes zero, the halves swap brushes, so the current outside always flows the same way."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Core": {
+    "duration": 8.04,
+    "hash": "502e34487b31081b",
+    "sentences": [
+     [
+      0.05,
+      4.597,
+      "The iron core carries the magnetic field from one coil to the other."
+     ],
+     [
+      4.597,
+      7.972,
+      "It's built from thin sheets to keep it from heating up."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Crank": {
+    "duration": 9.024,
+    "hash": "b185194c30bf7b81",
+    "sentences": [
+     [
+      0.05,
+      2.056,
+      "The handle turns the axle."
+     ],
+     [
+      2.056,
+      8.972,
+      "Drag across the picture to turn it yourself, fast or slow, and watch the voltage follow your hand."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Dial": {
+    "duration": 11.472,
+    "hash": "501c354eabbdb9d8",
+    "sentences": [
+     [
+      0.05,
+      2.569,
+      "The frequency is the grid's pulse."
+     ],
+     [
+      2.569,
+      6.486,
+      "When it holds steady, supply and demand are in balance."
+     ],
+     [
+      6.486,
+      11.417,
+      "If it drops, demand is ahead; if it rises, supply is."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Field": {
+    "duration": 9.504,
+    "hash": "859fe7101e21d956",
+    "sentences": [
+     [
+      0.05,
+      2.819,
+      "These lines show the magnetic field."
+     ],
+     [
+      2.819,
+      9.444,
+      "What matters to the coil is how much of it passes through, and how quickly that amount changes."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Flywheel": {
+    "duration": 11.832,
+    "hash": "3d9b67440d424820",
+    "sentences": [
+     [
+      0.05,
+      4.625,
+      "This wheel stands for all the turbines and generators spinning in step."
+     ],
+     [
+      4.625,
+      8.181,
+      "Their stored energy cushions any sudden gap."
+     ],
+     [
+      8.181,
+      11.764,
+      "The bigger the wheel, the slower the frequency falls."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Gas": {
+    "duration": 4.416,
+    "hash": "fefd3f24f9989e5b",
+    "sentences": [
+     [
+      0.05,
+      4.361,
+      "Gas turbines start up quickly, so they're used mostly at the peaks."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Heat": {
+    "duration": 7.824,
+    "hash": "934e5c14ff108227",
+    "sentences": [
+     [
+      0.05,
+      5.042,
+      "This is the power lost on the way, turned into heat in the wires."
+     ],
+     [
+      5.042,
+      7.75,
+      "It grows with the square of the current."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Hydro": {
+    "duration": 10.632,
+    "hash": "38aec15d9344cfb5",
+    "sentences": [
+     [
+      0.05,
+      5.611,
+      "Hydro can change its output in moments, just by opening or closing its gates."
+     ],
+     [
+      5.611,
+      10.569,
+      "That makes it ideal for following the peaks, and for answering a sudden gap."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Import": {
+    "duration": 12.024,
+    "hash": "d555b962d62ce67d",
+    "sentences": [
+     [
+      0.05,
+      8.097,
+      "A high-voltage DC line brings power from far away, often from big hydro, wind or solar bases."
+     ],
+     [
+      8.097,
+      11.958,
+      "It's steady, but losing it all at once is a big shock."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Lamp": {
+    "duration": 9.552,
+    "hash": "cc6d55f0d21b36c8",
+    "sentences": [
+     [
+      0.05,
+      1.903,
+      "The lamp shows the power."
+     ],
+     [
+      1.903,
+      4.792,
+      "Click it to open or close the switch."
+     ],
+     [
+      4.792,
+      9.5,
+      "With the switch open no current flows, and the coil turns freely."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Lamps": {
+    "duration": 9.648,
+    "hash": "0c017b54859a8c3e",
+    "sentences": [
+     [
+      0.05,
+      2.542,
+      "There's one lamp on each phase."
+     ],
+     [
+      2.542,
+      9.583,
+      "Turn the machine slowly and you'll see them light up one after another: A, then B, then C."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Line": {
+    "duration": 9.6,
+    "hash": "79455539504eec0e",
+    "sentences": [
+     [
+      0.05,
+      3.903,
+      "Each wire has some resistance, so the current warms it."
+     ],
+     [
+      3.903,
+      9.528,
+      "The dots show the current: the denser and faster they are, the bigger it is."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_North": {
+    "duration": 6.888,
+    "hash": "65274c48c109ba67",
+    "sentences": [
+     [
+      0.05,
+      2.708,
+      "This is the magnet's north pole."
+     ],
+     [
+      2.708,
+      6.819,
+      "The field leaves it and crosses the gap to the south pole."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Nuclear": {
+    "duration": 8.904,
+    "hash": "4d2edd3083f98dd4",
+    "sentences": [
+     [
+      0.05,
+      3.986,
+      "Nuclear plants run flat out, day and night."
+     ],
+     [
+      3.986,
+      8.847,
+      "They're cheap to run but slow to change, so they carry the steady base of the load."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PhaseA": {
+    "duration": 11.64,
+    "hash": "1f86ba808c6c72f5",
+    "sentences": [
+     [
+      0.05,
+      6.736,
+      "This is the A phase: one coil, its two sides facing each other across the stator."
+     ],
+     [
+      6.736,
+      11.583,
+      "Its voltage peaks each time a magnet pole sweeps past those sides."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PhaseB": {
+    "duration": 8.736,
+    "hash": "cd4def11decebfa3",
+    "sentences": [
+     [
+      0.05,
+      4.639,
+      "The B phase is the same kind of coil, turned a third of the way round."
+     ],
+     [
+      4.639,
+      8.681,
+      "So its voltage peaks a third of a cycle after A's."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PhaseC": {
+    "duration": 11.064,
+    "hash": "3a7cb8d7a8abcb09",
+    "sentences": [
+     [
+      0.05,
+      3.542,
+      "And the C phase sits another third of the way round."
+     ],
+     [
+      3.542,
+      11.014,
+      "Three waves taking turns: that's why three wires can carry the power without a separate return wire."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Pole": {
+    "duration": 6.216,
+    "hash": "faade6b6b7de03d6",
+    "sentences": [
+     [
+      0.05,
+      6.167,
+      "The last step: a small transformer near the street brings the voltage down to what homes use."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Primary": {
+    "duration": 7.464,
+    "hash": "1dcf1cd4c3907187",
+    "sentences": [
+     [
+      0.05,
+      2.833,
+      "The input coil has only a few turns."
+     ],
+     [
+      2.833,
+      7.403,
+      "Alternating current in it makes a field in the iron that keeps reversing."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Pumped": {
+    "duration": 9.888,
+    "hash": "e714e978bc982971",
+    "sentences": [
+     [
+      0.05,
+      4.236,
+      "Pumped storage is a giant battery made of two lakes."
+     ],
+     [
+      4.236,
+      9.819,
+      "Spare power pumps water up; at the peak it runs back down through the turbines."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PushBack": {
+    "duration": 11.304,
+    "hash": "db79cbacb635ffd5",
+    "sentences": [
+     [
+      0.05,
+      5.458,
+      "When current flows, the magnet pushes on the coil's sides against their motion."
+     ],
+     [
+      5.458,
+      9.208,
+      "That's why lighting the lamp makes the handle harder to turn."
+     ],
+     [
+      9.208,
+      11.25,
+      "The energy comes from you."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Pylon": {
+    "duration": 10.968,
+    "hash": "6831806d635fc71d",
+    "sentences": [
+     [
+      0.05,
+      5.639,
+      "Pylons hold the wires high and far apart, hanging from long insulators."
+     ],
+     [
+      5.639,
+      10.903,
+      "The higher the voltage, the longer the insulators and the bigger the towers."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Rings": {
+    "duration": 13.176,
+    "hash": "b92a1d86cb2a3f3c",
+    "sentences": [
+     [
+      0.05,
+      5.028,
+      "Each end of the coil goes to its own ring, and the rings turn with it."
+     ],
+     [
+      5.028,
+      10.986,
+      "Each ring always stays joined to the same end, so the current flips every half turn."
+     ],
+     [
+      10.986,
+      13.125,
+      "That's alternating current."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Rotor": {
+    "duration": 9.864,
+    "hash": "60279667a59dafc4",
+    "sentences": [
+     [
+      0.05,
+      4.264,
+      "In a real power station the magnet turns, not the coils."
+     ],
+     [
+      4.264,
+      9.792,
+      "This rotor is an electromagnet, spun by a steam or water turbine."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Scope": {
+    "duration": 7.584,
+    "hash": "6bcca2b93e8f75ec",
+    "sentences": [
+     [
+      0.05,
+      3.458,
+      "The oscilloscope draws the voltage against time."
+     ],
+     [
+      3.458,
+      7.528,
+      "A coil turning steadily draws a smooth sine wave."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Secondary": {
+    "duration": 9.864,
+    "hash": "35ab0fa65f573119",
+    "sentences": [
+     [
+      0.05,
+      3.194,
+      "The output coil has many more turns."
+     ],
+     [
+      3.194,
+      9.806,
+      "The changing field makes a voltage in every turn, so more turns mean a higher voltage."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Solar": {
+    "duration": 9.216,
+    "hash": "ca67c4273aeb9120",
+    "sentences": [
+     [
+      0.05,
+      5.486,
+      "Solar follows the Sun: nothing at night, a big bulge at midday."
+     ],
+     [
+      5.486,
+      9.167,
+      "Too much at noon has to be stored, or turned back."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_South": {
+    "duration": 6.648,
+    "hash": "cd48a49310ff20f5",
+    "sentences": [
+     [
+      0.05,
+      1.969,
+      "This is the south pole."
+     ],
+     [
+      1.969,
+      6.583,
+      "Between the two poles the field is strong, and runs straight across."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Station": {
+    "duration": 7.584,
+    "hash": "977c17b05dcd70bb",
+    "sentences": [
+     [
+      0.05,
+      4.486,
+      "The power station's generator makes about twenty thousand volts."
+     ],
+     [
+      4.486,
+      7.514,
+      "To travel far, that has to be stepped up."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Stator": {
+    "duration": 11.544,
+    "hash": "6018304c8d222c8a",
+    "sentences": [
+     [
+      0.05,
+      6.472,
+      "The stator is the part that stays still: a ring of iron with the coils laid in slots."
+     ],
+     [
+      6.472,
+      11.472,
+      "Keeping the coils still means the huge currents need no sliding contacts."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_StepUp": {
+    "duration": 9.12,
+    "hash": "b93736089488c592",
+    "sentences": [
+     [
+      0.05,
+      4.306,
+      "The step-up substation raises the voltage many times over."
+     ],
+     [
+      4.306,
+      9.056,
+      "The current drops by the same factor, and that's what saves the energy."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Substation": {
+    "duration": 8.52,
+    "hash": "9f37f545bbcc417d",
+    "sentences": [
+     [
+      0.05,
+      8.458,
+      "Near the town, substations step the voltage back down, a stage at a time, to levels that are safer to bring into the streets."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Supply": {
+    "duration": 10.488,
+    "hash": "1552c0ed37b2b4ec",
+    "sentences": [
+     [
+      0.05,
+      3.931,
+      "Click here to switch the supply between AC and DC."
+     ],
+     [
+      3.931,
+      10.431,
+      "With steady DC, the field in the iron stops changing, and the output falls to nothing."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Town": {
+    "duration": 7.632,
+    "hash": "1d41b9a795e796d9",
+    "sentences": [
+     [
+      0.05,
+      3.583,
+      "The town's lights show how much power arrives."
+     ],
+     [
+      3.583,
+      7.569,
+      "If too much is lost on the way, windows go dark."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Trace": {
+    "duration": 7.56,
+    "hash": "9173d1f248cca0ad",
+    "sentences": [
+     [
+      0.05,
+      7.5,
+      "This graph follows the frequency after the event: the quick fall, the turn, and the slow climb back."
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Wind": {
+    "duration": 7.632,
+    "hash": "b8c24461431d587a",
+    "sentences": [
+     [
+      0.05,
+      2.958,
+      "Wind farms make whatever the wind gives them."
+     ],
+     [
+      2.958,
+      7.569,
+      "Often the wind is stronger at night, just when the least power is needed."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_01": {
+    "duration": 11.904,
+    "hash": "3729c37d7396b98c",
+    "sentences": [
+     [
+      0.05,
+      8.417,
+      "A power station makes electricity at about twenty thousand volts, but the town it feeds may be hundreds of kilometres away."
+     ],
+     [
+      8.417,
+      11.847,
+      "How do we get the power there without losing it on the way?"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_02": {
+    "duration": 13.584,
+    "hash": "cc0b078422dc7729",
+    "sentences": [
+     [
+      0.05,
+      5.014,
+      "Every wire has some resistance, so current flowing through it warms it up."
+     ],
+     [
+      5.014,
+      10.0,
+      "That heat is lost power, and it grows with the square of the current."
+     ],
+     [
+      10.0,
+      13.514,
+      "Twice the current means four times the loss."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_03": {
+    "duration": 13.44,
+    "hash": "ba3637e1a7c034c2",
+    "sentences": [
+     [
+      0.05,
+      3.583,
+      "So we send the same power with less current."
+     ],
+     [
+      3.583,
+      6.097,
+      "Power is voltage times current."
+     ],
+     [
+      6.097,
+      13.389,
+      "The step-up transformer raises the voltage twenty-five times, so the current is twenty-five times smaller."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_04": {
+    "duration": 12.408,
+    "hash": "7e1575486127219c",
+    "sentences": [
+     [
+      0.05,
+      3.875,
+      "Now drop the line to a hundred and ten thousand volts."
+     ],
+     [
+      3.875,
+      12.347,
+      "The current is several times bigger, the wires glow, and look at the heat: nearly half the power never arrives."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_05": {
+    "duration": 6.96,
+    "hash": "1b3bbfe1322e9e24",
+    "sentences": [
+     [
+      0.05,
+      2.611,
+      "Same power, same wires."
+     ],
+     [
+      2.611,
+      6.903,
+      "If you double the voltage, what happens to the heat that's lost?"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_06": {
+    "duration": 13.896,
+    "hash": "301dd05f0618d530",
+    "sentences": [
+     [
+      0.05,
+      2.722,
+      "Back to five hundred thousand volts."
+     ],
+     [
+      2.722,
+      8.764,
+      "The thing that does the stepping up is a transformer: two coils sharing one iron core."
+     ],
+     [
+      8.764,
+      13.833,
+      "Alternating current in the first coil makes a changing field in the iron."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_07": {
+    "duration": 14.088,
+    "hash": "056a1c6100743ab7",
+    "sentences": [
+     [
+      0.05,
+      4.944,
+      "That changing field makes a voltage in every turn of the second coil."
+     ],
+     [
+      4.944,
+      11.625,
+      "Give it twenty-five times as many turns, and you get twenty-five times the voltage, with a twenty-fifth of the current."
+     ],
+     [
+      11.625,
+      14.028,
+      "The power stays almost the same."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_08": {
+    "duration": 12.192,
+    "hash": "8acbb90fbaa7b3ad",
+    "sentences": [
+     [
+      0.05,
+      3.208,
+      "Now feed it steady direct current instead."
+     ],
+     [
+      3.208,
+      8.014,
+      "The field in the iron stops changing, and the output drops to nothing."
+     ],
+     [
+      8.014,
+      12.125,
+      "That's a big reason why the grid runs on alternating current."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_09": {
+    "duration": 10.584,
+    "hash": "4255bf3f46d853cf",
+    "sentences": [
+     [
+      0.05,
+      10.514,
+      "Near the town, substations step the voltage back down, stage by stage, and a small transformer near each street brings it to the few hundred volts used at home."
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_10": {
+    "duration": 7.8,
+    "hash": "42a27114de5a2761",
+    "sentences": [
+     [
+      0.05,
+      1.139,
+      "Your turn."
+     ],
+     [
+      1.139,
+      7.736,
+      "Pick a different voltage, send more power, or send it further, and see how much reaches the town."
+     ]
+    ]
+   },
    "Narr_Heat_Cycle_01": {
     "duration": 9.696,
     "hash": "3c210104bc69aac4",
@@ -39849,6 +41167,1249 @@
       1.639,
       10.319,
       "拖动二氧化碳的滑块，或者把温室气体拿掉，看看地面温度怎样慢慢变到新的平衡。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_01": {
+    "duration": 11.976,
+    "hash": "c82550b462526e87",
+    "sentences": [
+     [
+      0.1,
+      8.036,
+      "电很难大量储存，所以每时每刻，电厂发的电都必须正好等于大家用的电。"
+     ],
+     [
+      7.986,
+      11.917,
+      "看，城市醒来了，用电一路攀升。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_02": {
+    "duration": 13.608,
+    "hash": "7bcf74c3a9c2e095",
+    "sentences": [
+     [
+      0.1,
+      3.606,
+      "现在是晚上八点，用电高峰。"
+     ],
+     [
+      3.556,
+      7.417,
+      "照明、做饭、空调全都开着。"
+     ],
+     [
+      7.417,
+      13.556,
+      "煤电满发，水电、抽水蓄能和燃气发电也都顶了上来。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_03": {
+    "duration": 14.928,
+    "hash": "d80a168c6638f226",
+    "sentences": [
+     [
+      0.1,
+      5.3,
+      "再看晴天的正午，光伏装得很多，电多得用不完。"
+     ],
+     [
+      5.25,
+      14.861,
+      "煤电机组降到能安全运行的最低出力，抽水蓄能电站把水抽上山，把多余的电留到晚上用。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_04": {
+    "duration": 18.072,
+    "hash": "45b42c26db983efc",
+    "sentences": [
+     [
+      0.1,
+      4.425,
+      "电网怎么知道发电和用电是否平衡呢？"
+     ],
+     [
+      4.375,
+      5.917,
+      "看频率。"
+     ],
+     [
+      5.917,
+      12.097,
+      "所有大型发电机都同步转动，这个电网是每秒五十个周期。"
+     ],
+     [
+      12.097,
+      18.0,
+      "用电多了，它们就稍稍变慢；发电多了，就稍稍变快。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_05": {
+    "duration": 14.4,
+    "hash": "51c59eae480985be",
+    "sentences": [
+     [
+      0.1,
+      5.133,
+      "这时，一台大机组突然跳闸，一百万千瓦没了。"
+     ],
+     [
+      5.083,
+      11.056,
+      "用电并没有减少，差额只能从所有转动机组的动能里来。"
+     ],
+     [
+      11.056,
+      14.347,
+      "它们变慢了，频率就往下掉。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_06": {
+    "duration": 14.472,
+    "hash": "9de4f114a601dfc6",
+    "sentences": [
+     [
+      0.1,
+      7.828,
+      "几秒钟之内，其他电厂的调速器察觉到频率下降，把汽门和水门开大。"
+     ],
+     [
+      7.778,
+      10.597,
+      "看，额外的出力出现了。"
+     ],
+     [
+      10.597,
+      14.417,
+      "下跌止住了，只低了零点几赫兹。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_07": {
+    "duration": 10.152,
+    "hash": "54fb409ba458c274",
+    "sentences": [
+     [
+      0.1,
+      5.633,
+      "接下来的几分钟里，调度中心让电厂持续增加出力。"
+     ],
+     [
+      5.583,
+      10.083,
+      "从这张图上可以看到，频率正慢慢回升。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_08": {
+    "duration": 8.64,
+    "hash": "6cc285ec1e60fc54",
+    "sentences": [
+     [
+      0.1,
+      8.633,
+      "考考你：中午光伏发电很多的时候，同样一台机组跳闸，这次频率会怎样下跌？"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_09": {
+    "duration": 21.12,
+    "hash": "d0f92be48cae894a",
+    "sentences": [
+     [
+      0.1,
+      2.897,
+      "下跌得更快，也更深。"
+     ],
+     [
+      2.847,
+      9.875,
+      "光伏和很多风机是通过电力电子设备接入的，没有同步转动的机器。"
+     ],
+     [
+      9.875,
+      14.931,
+      "转动的质量少了，轮子就小了，频率掉得更快。"
+     ],
+     [
+      14.931,
+      21.056,
+      "所以新能源多的电网，要配上储能这些反应很快的帮手。"
+     ]
+    ]
+   },
+   "Narr_Grid_Balance_10": {
+    "duration": 12.336,
+    "hash": "086a6b1b5465b06d",
+    "sentences": [
+     [
+      0.1,
+      1.967,
+      "该你来试试了。"
+     ],
+     [
+      1.917,
+      12.264,
+      "在一天中的任意时刻，让机组跳闸、让直流线路断开，或者突然加上一大块负荷，看看频率怎么变化。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_01": {
+    "duration": 12.984,
+    "hash": "80f77b11906e52f1",
+    "sentences": [
+     [
+      0.1,
+      6.036,
+      "这是最简单的发电机：一个线圈在磁铁的两极之间转动。"
+     ],
+     [
+      5.986,
+      9.875,
+      "灯泡只连着两根导线，却亮了起来。"
+     ],
+     [
+      9.875,
+      12.931,
+      "那么，这电是从哪儿来的呢？"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_02": {
+    "duration": 10.848,
+    "hash": "3de490d95a1f4820",
+    "sentences": [
+     [
+      0.1,
+      4.397,
+      "磁场从 N 极横穿空隙，到达 S 极。"
+     ],
+     [
+      4.347,
+      8.903,
+      "线圈一转，穿过它的磁场就不停地变化。"
+     ],
+     [
+      8.903,
+      10.792,
+      "请留意这一点。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_03": {
+    "duration": 14.4,
+    "hash": "29df20cf773fa556",
+    "sentences": [
+     [
+      0.1,
+      2.147,
+      "我们先停在这里。"
+     ],
+     [
+      2.097,
+      6.458,
+      "线圈正对着两极，穿过它的磁场最多。"
+     ],
+     [
+      6.458,
+      10.347,
+      "可是看看示波器：此刻电压是零。"
+     ],
+     [
+      10.347,
+      14.347,
+      "因为就在这一瞬间，磁通量没有变化。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_04": {
+    "duration": 15.864,
+    "hash": "f2e0437b614daa47",
+    "sentences": [
+     [
+      0.1,
+      2.397,
+      "再转四分之一圈。"
+     ],
+     [
+      2.347,
+      8.931,
+      "线圈顺着磁场，一点磁场都没有穿过它，可电压却达到了最大。"
+     ],
+     [
+      8.931,
+      15.806,
+      "这就是法拉第的发现：电压来自磁场的变化，而不是磁场有多少。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_05": {
+    "duration": 4.968,
+    "hash": "cfe6fdae63c01134",
+    "sentences": [
+     [
+      0.1,
+      4.953,
+      "考考你：如果线圈转得快一倍，电压会怎样？"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_06": {
+    "duration": 14.496,
+    "hash": "c9461cd30d0cff7d",
+    "sentences": [
+     [
+      0.1,
+      2.869,
+      "那电流是怎么引出来的呢？"
+     ],
+     [
+      2.819,
+      7.694,
+      "线圈两端各接一个圆环，碳刷压在环上。"
+     ],
+     [
+      7.694,
+      14.431,
+      "每转半圈，电压就反向一次，电流来回流动，这就是交流电。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_07": {
+    "duration": 16.8,
+    "hash": "5cd893d18ef0ea68",
+    "sentences": [
+     [
+      0.1,
+      5.411,
+      "把两个圆环换成一个劈成两半的环，叫作换向器。"
+     ],
+     [
+      5.361,
+      12.292,
+      "每转半圈，两半交换所接的电刷，外面的电流就总是一个方向。"
+     ],
+     [
+      12.292,
+      16.736,
+      "看示波器，波形全被翻到了零线上方。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_08": {
+    "duration": 20.28,
+    "hash": "b9921f0f843135f3",
+    "sentences": [
+     [
+      0.1,
+      2.133,
+      "但这里有个代价。"
+     ],
+     [
+      2.083,
+      9.444,
+      "有电流的时候，磁场推着线圈的两条边，方向和它们的运动正好相反。"
+     ],
+     [
+      9.444,
+      12.847,
+      "所以灯一亮，手柄就更难转。"
+     ],
+     [
+      12.847,
+      20.208,
+      "灯的能量来自你的手臂；在电站里，就来自蒸汽、水流或者风。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_09": {
+    "duration": 13.008,
+    "hash": "5f353517516deefe",
+    "sentences": [
+     [
+      0.1,
+      9.619,
+      "真正的发电站把它倒了过来：磁铁在中间转，三组线圈围在外面，彼此相隔三分之一圈。"
+     ],
+     [
+      9.569,
+      12.958,
+      "看，三只灯泡一个接一个地亮。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_10": {
+    "duration": 14.832,
+    "hash": "67d56128fb8ee3fd",
+    "sentences": [
+     [
+      0.1,
+      3.772,
+      "示波器上，三条波轮流起伏。"
+     ],
+     [
+      3.722,
+      8.306,
+      "任何时刻把它们加起来，结果都正好是零。"
+     ],
+     [
+      8.306,
+      14.778,
+      "两极的发电机每分钟转三千圈，每秒就是五十个这样的周期。"
+     ]
+    ]
+   },
+   "Narr_Grid_Generator_11": {
+    "duration": 9.168,
+    "hash": "7cc036e630e9b28b",
+    "sentences": [
+     [
+      0.1,
+      1.967,
+      "该你来试试了。"
+     ],
+     [
+      1.917,
+      9.111,
+      "改一改转速、线圈的匝数或者磁铁的强弱，看看电压会怎样变化。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Brushes": {
+    "duration": 10.656,
+    "hash": "1a6dea98ef852cc4",
+    "sentences": [
+     [
+      0.1,
+      3.703,
+      "电刷是压在转动圆环上的碳块。"
+     ],
+     [
+      3.653,
+      10.597,
+      "有了它们，电流就能从转动的线圈里引出来，导线也不会缠在一起。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Bus": {
+    "duration": 8.592,
+    "hash": "de84cebdd1daf32a",
+    "sentences": [
+     [
+      0.1,
+      3.55,
+      "所有电厂都接在同一张电网上。"
+     ],
+     [
+      3.5,
+      8.542,
+      "各种来源的电在这里汇合，再流向用电的地方。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_City": {
+    "duration": 10.128,
+    "hash": "807f249ccf45b7a3",
+    "sentences": [
+     [
+      0.1,
+      5.606,
+      "城市的用电早上攀升，中午略降，晚上达到高峰。"
+     ],
+     [
+      5.556,
+      10.056,
+      "每按一次开关，电厂要发的电就跟着变。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Coal": {
+    "duration": 12.576,
+    "hash": "3f11aea9965ecf2d",
+    "sentences": [
+     [
+      0.1,
+      7.911,
+      "煤电机组跟着负荷上下调节，但不能低于一个最低出力，否则就得停机。"
+     ],
+     [
+      7.861,
+      12.514,
+      "它们巨大的汽轮机还为电网提供了转动惯量。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Coil": {
+    "duration": 11.208,
+    "hash": "cb65c386d23e12be",
+    "sentences": [
+     [
+      0.1,
+      3.161,
+      "线圈是一圈圈的铜导线。"
+     ],
+     [
+      3.111,
+      8.028,
+      "它的金色深浅，表示此刻有多少磁场穿过它。"
+     ],
+     [
+      8.028,
+      11.153,
+      "电压正是来自这个量的变化。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Commutator": {
+    "duration": 13.152,
+    "hash": "3698e71d567b23b4",
+    "sentences": [
+     [
+      0.1,
+      3.064,
+      "这是一个分成两半的圆环。"
+     ],
+     [
+      3.014,
+      13.083,
+      "每转半圈，正好在电压为零的时候，两半交换所接的电刷，所以外面的电流总是朝同一个方向。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Core": {
+    "duration": 9.432,
+    "hash": "bff400b06308fbcb",
+    "sentences": [
+     [
+      0.1,
+      4.536,
+      "铁芯把磁场从一个线圈引到另一个线圈。"
+     ],
+     [
+      4.486,
+      9.375,
+      "它用薄薄的硅钢片叠成，为的是减少发热。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Crank": {
+    "duration": 10.872,
+    "hash": "3b812dbd3e348474",
+    "sentences": [
+     [
+      0.1,
+      2.439,
+      "手柄带动转轴。"
+     ],
+     [
+      2.389,
+      10.819,
+      "在画面上左右拖动，就能亲手转它，快一点、慢一点，看电压怎样跟着你的手变化。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Dial": {
+    "duration": 12.048,
+    "hash": "fd670b1a33542db7",
+    "sentences": [
+     [
+      0.1,
+      2.647,
+      "频率是电网的脉搏。"
+     ],
+     [
+      2.597,
+      11.986,
+      "频率稳定，说明发电和用电平衡；频率下降，是用电多了；频率上升，是发电多了。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Field": {
+    "duration": 9.456,
+    "hash": "acf99a2d6d48facf",
+    "sentences": [
+     [
+      0.1,
+      2.494,
+      "这些线表示磁场。"
+     ],
+     [
+      2.444,
+      9.403,
+      "对线圈来说，关键是有多少磁场穿过它，以及这个量变化得有多快。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Flywheel": {
+    "duration": 12.984,
+    "hash": "ea12b976e214f3dd",
+    "sentences": [
+     [
+      0.1,
+      5.244,
+      "这个轮子代表所有同步转动的汽轮机和发电机。"
+     ],
+     [
+      5.194,
+      9.806,
+      "它们储存的动能，可以缓冲突然出现的缺口。"
+     ],
+     [
+      9.806,
+      12.931,
+      "轮子越大，频率掉得越慢。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Gas": {
+    "duration": 5.136,
+    "hash": "ca0f32fe8e52e1a7",
+    "sentences": [
+     [
+      0.1,
+      5.133,
+      "燃气轮机启动很快，所以主要用在用电高峰。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Heat": {
+    "duration": 7.296,
+    "hash": "acebfbbcf01f2db7",
+    "sentences": [
+     [
+      0.1,
+      4.467,
+      "这是路上损失的电能，变成了导线里的热。"
+     ],
+     [
+      4.417,
+      7.236,
+      "它和电流的平方成正比。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Hydro": {
+    "duration": 11.496,
+    "hash": "c7635267695b6ed0",
+    "sentences": [
+     [
+      0.1,
+      5.175,
+      "水电只要开关闸门，出力几乎马上就能变化。"
+     ],
+     [
+      5.125,
+      11.431,
+      "所以它很适合跟随高峰，也很适合应对突然出现的缺口。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Import": {
+    "duration": 13.824,
+    "hash": "f63d8851394cbd93",
+    "sentences": [
+     [
+      0.1,
+      8.786,
+      "一条特高压直流线路从远方送来电力，常常来自大型水电、风电或光伏基地。"
+     ],
+     [
+      8.736,
+      13.75,
+      "它很稳定，可一旦突然断开，就是很大的冲击。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Lamp": {
+    "duration": 10.608,
+    "hash": "a598227a326af165",
+    "sentences": [
+     [
+      0.1,
+      2.425,
+      "灯泡显示电功率。"
+     ],
+     [
+      2.375,
+      5.542,
+      "点它可以断开或接通开关。"
+     ],
+     [
+      5.542,
+      10.556,
+      "开关断开时没有电流，线圈转起来毫不费力。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Lamps": {
+    "duration": 10.008,
+    "hash": "c9dc1f27f0fb3cff",
+    "sentences": [
+     [
+      0.1,
+      2.467,
+      "每一相接一只灯泡。"
+     ],
+     [
+      2.417,
+      9.944,
+      "让发电机转慢一点，你就能看到它们一个接一个亮起来：A、B、C。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Line": {
+    "duration": 10.272,
+    "hash": "d7b9aec8f14dd2a3",
+    "sentences": [
+     [
+      0.1,
+      4.481,
+      "每根导线都有电阻，电流流过就会发热。"
+     ],
+     [
+      4.431,
+      10.208,
+      "这些小点代表电流：越密、跑得越快，电流就越大。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_North": {
+    "duration": 7.176,
+    "hash": "c94ded5ea9e1e10b",
+    "sentences": [
+     [
+      0.1,
+      2.369,
+      "这是磁铁的 N 极。"
+     ],
+     [
+      2.319,
+      7.111,
+      "磁场从这里出发，穿过空隙，到达 S 极。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Nuclear": {
+    "duration": 10.368,
+    "hash": "a7d31ae69a18b854",
+    "sentences": [
+     [
+      0.1,
+      3.967,
+      "核电站白天黑夜都满负荷运行。"
+     ],
+     [
+      3.917,
+      10.306,
+      "它们运行成本低，但调节很慢，所以承担最稳定的那部分负荷。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PhaseA": {
+    "duration": 10.848,
+    "hash": "7eb064a93fb8b628",
+    "sentences": [
+     [
+      0.1,
+      5.731,
+      "这是 A 相线圈，它的两条边在定子里隔着中心相对。"
+     ],
+     [
+      5.681,
+      10.778,
+      "每当磁极扫过这两条边，它的电压就达到最大。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PhaseB": {
+    "duration": 10.008,
+    "hash": "8025e0e497f3471d",
+    "sentences": [
+     [
+      0.1,
+      9.958,
+      "B 相是一样的线圈，只是转开了三分之一圈，所以它的电压比 A 相晚三分之一个周期到达最大。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PhaseC": {
+    "duration": 10.968,
+    "hash": "38a371c5e5c71ab4",
+    "sentences": [
+     [
+      0.1,
+      3.189,
+      "C 相又转开了三分之一圈。"
+     ],
+     [
+      3.139,
+      10.903,
+      "三个波轮流起伏，所以三根导线就能把电送走，不需要另外一根回流的线。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Pole": {
+    "duration": 5.928,
+    "hash": "03eb3346c919e624",
+    "sentences": [
+     [
+      0.1,
+      5.911,
+      "最后一步：街边的小变压器把电压降到家里用的电压。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Primary": {
+    "duration": 8.016,
+    "hash": "07edc11c2ab20f73",
+    "sentences": [
+     [
+      0.1,
+      2.619,
+      "原线圈的匝数很少。"
+     ],
+     [
+      2.569,
+      7.958,
+      "交流电流过它，在铁芯里产生不断反向的磁场。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Pumped": {
+    "duration": 10.656,
+    "hash": "f5a72c75030de385",
+    "sentences": [
+     [
+      0.1,
+      5.244,
+      "抽水蓄能就像一块由两个水库组成的巨型电池。"
+     ],
+     [
+      5.194,
+      10.597,
+      "电多的时候把水抽上去，高峰时再放下来发电。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_PushBack": {
+    "duration": 13.56,
+    "hash": "f7b5469409fcd101",
+    "sentences": [
+     [
+      0.1,
+      7.328,
+      "有电流的时候，磁场推着线圈的两条边，方向正好和它们的运动相反。"
+     ],
+     [
+      7.278,
+      10.681,
+      "所以灯一亮，手柄就更难转。"
+     ],
+     [
+      10.681,
+      13.5,
+      "灯的能量，来自你的手。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Pylon": {
+    "duration": 11.328,
+    "hash": "4c4a455bdac1689b",
+    "sentences": [
+     [
+      0.1,
+      6.772,
+      "铁塔把导线高高架起、远远分开，用长长的绝缘子串挂着。"
+     ],
+     [
+      6.722,
+      11.264,
+      "电压越高，绝缘子越长，铁塔也越大。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Rings": {
+    "duration": 13.536,
+    "hash": "e463c0f6d5f4ed62",
+    "sentences": [
+     [
+      0.1,
+      5.453,
+      "线圈两端各接一个圆环，圆环跟着线圈一起转。"
+     ],
+     [
+      5.403,
+      13.472,
+      "每个环始终连着同一端，所以每转半圈电流就换一次方向，这就是交流电。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Rotor": {
+    "duration": 10.224,
+    "hash": "a02799639ab5d460",
+    "sentences": [
+     [
+      0.1,
+      4.564,
+      "真正的电站里，转的是磁铁，不是线圈。"
+     ],
+     [
+      4.514,
+      10.167,
+      "这个转子是一块电磁铁，由汽轮机或水轮机带着转。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Scope": {
+    "duration": 9.48,
+    "hash": "aeee608a67ec70f7",
+    "sentences": [
+     [
+      0.1,
+      4.05,
+      "示波器把电压随时间的变化画出来。"
+     ],
+     [
+      4.0,
+      9.417,
+      "线圈匀速转动，画出来就是一条光滑的正弦曲线。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Secondary": {
+    "duration": 9.792,
+    "hash": "1e51b30ad0b41d5e",
+    "sentences": [
+     [
+      0.1,
+      2.717,
+      "副线圈的匝数多得多。"
+     ],
+     [
+      2.667,
+      9.722,
+      "变化的磁场在每一匝里都感应出电压，匝数越多，电压就越高。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Solar": {
+    "duration": 9.792,
+    "hash": "2db4ac60b0af81df",
+    "sentences": [
+     [
+      0.1,
+      5.244,
+      "光伏跟着太阳走：夜里为零，中午鼓起一个大包。"
+     ],
+     [
+      5.194,
+      9.722,
+      "中午发得太多，就得储存起来，或者限发。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_South": {
+    "duration": 7.248,
+    "hash": "9105cb62d4aa6a27",
+    "sentences": [
+     [
+      0.1,
+      1.883,
+      "这是 S 极。"
+     ],
+     [
+      1.833,
+      7.181,
+      "两极之间的磁场又强又整齐，一条条横穿过去。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Station": {
+    "duration": 7.584,
+    "hash": "94cc3321876a2b32",
+    "sentences": [
+     [
+      0.1,
+      3.869,
+      "电厂的发电机输出大约两万伏。"
+     ],
+     [
+      3.819,
+      7.528,
+      "要送到远处，得先把电压升上去。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Stator": {
+    "duration": 11.136,
+    "hash": "49d54050f6b397f2",
+    "sentences": [
+     [
+      0.1,
+      5.661,
+      "定子是不动的部分：一圈铁芯，线圈嵌在槽里。"
+     ],
+     [
+      5.611,
+      11.069,
+      "线圈不动，巨大的电流就不用经过滑动的接触点了。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_StepUp": {
+    "duration": 8.952,
+    "hash": "400ea770b835d54b",
+    "sentences": [
+     [
+      0.1,
+      8.939,
+      "升压变电站把电压提高很多倍，电流就按同样的倍数减小，正是这一点省下了能量。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Substation": {
+    "duration": 8.808,
+    "hash": "8599d46544771e1d",
+    "sentences": [
+     [
+      0.1,
+      8.8,
+      "到了城镇附近，变电站再一级一级把电压降下来，降到可以安全引进街道的水平。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Supply": {
+    "duration": 10.08,
+    "hash": "4567d1ac57b95d19",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "点这里可以在交流和直流之间切换。"
+     ],
+     [
+      4.139,
+      10.014,
+      "通直流时，铁芯里的磁场不再变化，输出就变成了零。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Town": {
+    "duration": 7.344,
+    "hash": "051f114f8837e040",
+    "sentences": [
+     [
+      0.1,
+      3.619,
+      "城镇的灯光表示送到了多少电。"
+     ],
+     [
+      3.569,
+      7.278,
+      "路上损失太多，窗户就会暗下来。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Trace": {
+    "duration": 7.752,
+    "hash": "a8830e9988c624f3",
+    "sentences": [
+     [
+      0.1,
+      7.744,
+      "这张图记录事件发生后的频率：快速下跌，止跌回头，再慢慢回升。"
+     ]
+    ]
+   },
+   "Narr_Grid_Obj_Wind": {
+    "duration": 8.664,
+    "hash": "8e6caf70758011b1",
+    "sentences": [
+     [
+      0.1,
+      3.925,
+      "风电场发多少电，要看风给多少。"
+     ],
+     [
+      3.875,
+      8.597,
+      "风常常在夜里更大，偏偏那时用电最少。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_01": {
+    "duration": 12.264,
+    "hash": "1e17575bc3412785",
+    "sentences": [
+     [
+      0.1,
+      7.731,
+      "发电厂发出的电大约是两万伏，可它要供电的城镇，也许在几百公里之外。"
+     ],
+     [
+      7.681,
+      12.194,
+      "怎样才能把电送过去，又不在路上损失掉呢？"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_02": {
+    "duration": 14.136,
+    "hash": "ae6b1a37ede5601e",
+    "sentences": [
+     [
+      0.1,
+      4.481,
+      "每根导线都有电阻，电流流过就会发热。"
+     ],
+     [
+      4.431,
+      14.069,
+      "这些热就是损失掉的电能，而且它和电流的平方成正比：电流翻一倍，损耗就变成四倍。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_03": {
+    "duration": 14.52,
+    "hash": "c5465f779a1d9157",
+    "sentences": [
+     [
+      0.1,
+      4.411,
+      "所以要用更小的电流来送同样的功率。"
+     ],
+     [
+      4.361,
+      7.181,
+      "功率等于电压乘以电流。"
+     ],
+     [
+      7.181,
+      14.458,
+      "升压变压器把电压提高到二十五倍，电流就只有原来的二十五分之一。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_04": {
+    "duration": 11.4,
+    "hash": "e6f9f67d929046c2",
+    "sentences": [
+     [
+      0.1,
+      4.036,
+      "现在把线路电压降到十一万伏。"
+     ],
+     [
+      3.986,
+      11.333,
+      "电流大了好几倍，导线都发红了，再看发热：将近一半的电根本送不到。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_05": {
+    "duration": 7.368,
+    "hash": "9cad7f5710095378",
+    "sentences": [
+     [
+      0.1,
+      3.189,
+      "同样的功率、同样的导线。"
+     ],
+     [
+      3.139,
+      7.306,
+      "如果把电压提高一倍，发热损耗会怎样？"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_06": {
+    "duration": 13.704,
+    "hash": "55717fe23d1cdf58",
+    "sentences": [
+     [
+      0.1,
+      2.189,
+      "回到五十万伏。"
+     ],
+     [
+      2.139,
+      7.611,
+      "负责升压的是变压器：两个线圈绕在同一个铁芯上。"
+     ],
+     [
+      7.611,
+      13.639,
+      "第一个线圈里的交流电，在铁芯中产生不断变化的磁场。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_07": {
+    "duration": 13.68,
+    "hash": "ea27db88799d7b4c",
+    "sentences": [
+     [
+      0.1,
+      5.522,
+      "变化的磁场在第二个线圈的每一匝里都感应出电压。"
+     ],
+     [
+      5.472,
+      13.625,
+      "匝数是二十五倍，电压就是二十五倍，电流只有二十五分之一，功率几乎不变。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_08": {
+    "duration": 11.208,
+    "hash": "d58df58aaa0eca41",
+    "sentences": [
+     [
+      0.1,
+      2.953,
+      "现在改通恒定的直流电。"
+     ],
+     [
+      2.903,
+      7.208,
+      "铁芯里的磁场不再变化，输出就没有了。"
+     ],
+     [
+      7.208,
+      11.139,
+      "这正是电网使用交流电的一个重要原因。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_09": {
+    "duration": 9.936,
+    "hash": "dfb4fd34a8760d17",
+    "sentences": [
+     [
+      0.1,
+      9.875,
+      "到了城镇附近，变电站一级一级把电压降下来，最后由街边的小变压器降到家里用的几百伏。"
+     ]
+    ]
+   },
+   "Narr_Grid_Transmission_10": {
+    "duration": 8.76,
+    "hash": "a130801676a8b0f0",
+    "sentences": [
+     [
+      0.1,
+      1.967,
+      "该你来试试了。"
+     ],
+     [
+      1.917,
+      8.694,
+      "换一个电压，多送一些电，或者送得更远，看看有多少能送到城镇。"
      ]
     ]
    },

@@ -29,6 +29,7 @@ using Lemon.Explore.Book.Chapters.Sound;
 using Lemon.Explore.Book.Chapters.Spectra;
 using Lemon.Explore.Book.Chapters.Waves;
 using Lemon.Explore.Book.Chapters.HeatEngines;
+using Lemon.Explore.Book.Chapters.PowerGrid;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.Contents;
@@ -40,7 +41,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra", "Heat-Engines" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra", "Heat-Engines", "Power-Grid" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -293,6 +294,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, heat.Lesson, () => heat.Mode.ToString(), Enum.GetNames<HeatMode>());
                 return (new HeatEnginesTextPageViewModel(textPage, navigator, chapter, number, heat),
                     new HeatEnginesDiagramPageViewModel(textPage + 1, navigator, chapter, heat));
+            }
+
+            case "Power-Grid":
+            {
+                var grid = new PowerGridViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, grid.Lesson, () => grid.Mode.ToString(), Enum.GetNames<GridMode>());
+                return (new PowerGridTextPageViewModel(textPage, navigator, chapter, number, grid),
+                    new PowerGridDiagramPageViewModel(textPage + 1, navigator, chapter, grid));
             }
 
             default:
