@@ -9618,6 +9618,162 @@
   <data name="Narr_Osc_Wave_07" xml:space="preserve">
     <value>现在你来试试：拖动时间轴，找找别的图案，比如三排或者四排。</value>
   </data>
+  <data name="Narr_Proj_Best_01" xml:space="preserve">
+    <value>七个球在同一时刻、以同样的速度发射，角度从 15 度到 75 度，每隔 10 度一个。</value>
+  </data>
+  <data name="Narr_Proj_Best_02" xml:space="preserve">
+    <value>你觉得哪个角度会飞得最远？</value>
+  </data>
+  <data name="Narr_Proj_Best_03" xml:space="preserve">
+    <value>45 度胜出。角度太陡，速度都花在往上爬了；角度太平，又太早落地。45 度正好在两者之间取得最好的平衡。</value>
+  </data>
+  <data name="Narr_Proj_Best_04" xml:space="preserve">
+    <value>再看落地的标记：35 度和 55 度落在一起，25 度和 65 度也是，15 度和 75 度也是。每一对加起来都是 90 度。</value>
+  </data>
+  <data name="Narr_Proj_Best_05" xml:space="preserve">
+    <value>这条紫色的虚线，是这个速度下任何一发都越不过去的边界。每一条轨迹都只在一个点上碰到它，然后就拐开了。</value>
+  </data>
+  <data name="Narr_Proj_Best_06" xml:space="preserve">
+    <value>现在从 20 米高的悬崖顶上发射。冠军不再是 45 度，而是一个更平的角度。在高处，球下落时本来就多出一段飞行时间，所以往前扔会更划算。</value>
+  </data>
+  <data name="Narr_Proj_Best_07" xml:space="preserve">
+    <value>回到平地上，这次加上空气，换成足球。最佳角度又低于 45 度了，因为飞得又高又久的球，被空气拖慢得最多。这也是体育比赛里投掷和踢球的角度，通常都低于 45 度的原因之一。</value>
+  </data>
+  <data name="Narr_Proj_Best_08" xml:space="preserve">
+    <value>轮到你了。在左页改一改速度。在平地上、没有空气的时候，45 度还会胜出吗？</value>
+  </data>
+  <data name="Narr_Proj_Launch_01" xml:space="preserve">
+    <value>这里有一门大炮，以每秒 20 米的速度、45 度角向上发射一个球。整幅图是按比例画的：横着一米和竖着一米一样长。</value>
+  </data>
+  <data name="Narr_Proj_Launch_02" xml:space="preserve">
+    <value>那些淡淡的球，是每隔相同时间拍下的一张张快照。看看它们的间距：横着看，间距都一样；竖着看，上升时越来越小，下落时越来越大。</value>
+  </data>
+  <data name="Narr_Proj_Launch_03" xml:space="preserve">
+    <value>绿色的箭头是球横向的速度。整个飞行过程中它一点都不变，因为没有什么东西在横向推球。</value>
+  </data>
+  <data name="Narr_Proj_Launch_04" xml:space="preserve">
+    <value>蓝色的箭头是球向上的速度。重力每秒都把它减掉同样多，所以到最高点时变成零，然后又朝下越变越长。</value>
+  </data>
+  <data name="Narr_Proj_Launch_05" xml:space="preserve">
+    <value>现在看影子。地上的影子匀速向前滑；柱子上的影子先上后下，就像一个竖直往上抛的球。弯弯的飞行轨迹，其实就是这两个简单的运动同时发生。</value>
+  </data>
+  <data name="Narr_Proj_Launch_06" xml:space="preserve">
+    <value>考考你：同样的速度，先用 30 度发射，再用 60 度发射，哪一个落得更远？</value>
+  </data>
+  <data name="Narr_Proj_Launch_07" xml:space="preserve">
+    <value>我们来看看。这是 30 度：飞得更平、更快。注意它落在哪里。刚才 45 度的那一发，留下了一条淡淡的轨迹，可以拿来比较。</value>
+  </data>
+  <data name="Narr_Proj_Launch_08" xml:space="preserve">
+    <value>再来 60 度：飞得更高、更慢，却正好落在同一个点上。没有空气时，两个角度只要加起来是 90 度，就落在同一个地方。而正好在中间的 45 度，仍然飞得最远。</value>
+  </data>
+  <data name="Narr_Proj_Launch_09" xml:space="preserve">
+    <value>现在加上空气，换成发射乒乓球。虚线是没有空气时同样的一发。空气一直在给球减速，所以它落得近了很多，而且下落时比上升时陡得多。</value>
+  </data>
+  <data name="Narr_Proj_Launch_10" xml:space="preserve">
+    <value>轮到你了。从大炮上拖出箭头，瞄准你自己的一发。拖的方向决定角度，拖的长短决定速度。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Aim" xml:space="preserve">
+    <value>瞄准线，从吹管笔直地指向猴子。如果没有重力，飞镖就会沿着这条线飞。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Airless" xml:space="preserve">
+    <value>虚线是完全没有空气时同样的一发。它和真实轨迹之间的差距，就是空气带走的那部分。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Ball" xml:space="preserve">
+    <value>正在飞的球。离开大炮以后，作用在它身上的只有重力，以及有空气时的空气阻力。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Cannon" xml:space="preserve">
+    <value>大炮。从它上面往外拖，就可以瞄准：拖的方向是发射角度，箭头的长短是发射速度。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Dart" xml:space="preserve">
+    <value>飞镖。它比笔直的瞄准线低了多少，猴子就比树枝低了多少，所以两者正好相遇。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Drag" xml:space="preserve">
+    <value>空气阻力，方向总是和运动方向相反。速度越快，它增长得越厉害；对乒乓球、羽毛球这样轻的球影响最大。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Dropped" xml:space="preserve">
+    <value>松手落下的球。它只是被松开，然后竖直往下落，越落越快。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Envelope" xml:space="preserve">
+    <value>可达边界，有时也叫安全抛物线。在这个速度下，不管用什么角度，都越不过这条线。每一条轨迹都恰好碰到它一次。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Fall" xml:space="preserve">
+    <value>各自比没有重力时的位置低了多少：二分之一 g t 平方。飞镖和猴子的这个距离一样，因为它们下落的时间一样长。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Farthest" xml:space="preserve">
+    <value>在这个速度下扔得最远的角度，以及它能飞多远。在平地上、没有空气时是 45 度；从高处发射或者有空气时，它会更低。</value>
+  </data>
+  <data name="Narr_Proj_Obj_GroundShadow" xml:space="preserve">
+    <value>球在地面上的影子，正好在球的下方。它只显示横向的运动：没有空气时匀速，有空气时越来越慢。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Hunter" xml:space="preserve">
+    <value>猎人的吹管，正对着猴子瞄准。在左页改飞镖的速度：什么速度都能打中，只要飞镖在猴子落地之前飞到。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Landing" xml:space="preserve">
+    <value>每个角度的落点。没有空气时，加起来是 90 度的两个角度落在同一个地方，所以它们共用一个标签。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Launcher" xml:space="preserve">
+    <value>发射器同时发射七个球，速度都一样，角度每隔 10 度一个。在左页改速度、高度或空气阻力，看哪个角度胜出。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Monkey" xml:space="preserve">
+    <value>猴子。飞镖射出的那一刻，它松开树枝，像任何松手的球一样往下落。关掉“猴子松手”，看看它不松手会怎样。</value>
+  </data>
+  <data name="Narr_Proj_Obj_OddNumbers" xml:space="preserve">
+    <value>每一段相同的时间里，球下落的距离：1 份、3 份、5 份、7 份……把它们加起来，就是 1、4、9、16，下落的距离和时间的平方成正比。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Peak" xml:space="preserve">
+    <value>最高点。在这一瞬间球不再往上走了，但它仍然在横着向前飞，并没有完全停下来。</value>
+  </data>
+  <data name="Narr_Proj_Obj_PostShadow" xml:space="preserve">
+    <value>球在柱子上的影子，和球一样高。它只显示竖向的运动：上升、变慢、停住、再落回来，和竖直上抛的球一模一样。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Range" xml:space="preserve">
+    <value>射程：球落在多远的地方。没有空气时，它取决于速度、角度和重力的大小。速度变成两倍，射程就变成四倍。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Strobe" xml:space="preserve">
+    <value>频闪影像：每隔相同时间，球所在的位置。横向间距相等，说明横向速度不变；竖向间距在变，是因为重力让它减速又加速。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Thrown" xml:space="preserve">
+    <value>水平抛出的球。它在同一时刻横着飞出去，但往下落的方式和松手的球一模一样，所以两个球始终一样高。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Velocity" xml:space="preserve">
+    <value>白色箭头是球的速度：有多快，朝哪个方向。它总是沿着轨迹的方向，由横向的绿色部分和竖向的蓝色部分合成。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Vx" xml:space="preserve">
+    <value>横向速度。没有空气时，没有什么东西横着推球，所以从发射到落地，它都保持不变。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Vy" xml:space="preserve">
+    <value>竖向速度。重力每秒都让它改变同样多：上升时越来越小，到最高点正好是零，下落时又越来越大。</value>
+  </data>
+  <data name="Narr_Proj_Obj_Weight" xml:space="preserve">
+    <value>球受到的重力。不管球是在上升、在最高点还是在下落，它的大小都一样，方向总是竖直向下。</value>
+  </data>
+  <data name="Narr_Proj_Together_01" xml:space="preserve">
+    <value>两个球在同一时刻离开这张桌子。粉色的球只是松手让它落下，蓝色的球则被水平抛了出去。</value>
+  </data>
+  <data name="Narr_Proj_Together_02" xml:space="preserve">
+    <value>你觉得哪一个先落地？</value>
+  </data>
+  <data name="Narr_Proj_Together_03" xml:space="preserve">
+    <value>它们同时落地。看这些快照：每一刻，两个球都在完全相同的高度。横着运动，并不会改变往下落的快慢。</value>
+  </data>
+  <data name="Narr_Proj_Together_04" xml:space="preserve">
+    <value>在每一段相同的时间里，它们都比上一段落得更多：第一段是 1 份，接着是 3 份、5 份、7 份。这就是均匀加速的样子。</value>
+  </data>
+  <data name="Narr_Proj_Together_05" xml:space="preserve">
+    <value>现在把蓝色的球抛得快一倍。它落得远了一倍，但仍然和粉色的球在同一时刻落地。</value>
+  </data>
+  <data name="Narr_Proj_Together_06" xml:space="preserve">
+    <value>这是一个有名的难题：猎人把飞镖直直地瞄准挂在树枝上的猴子。飞镖射出的那一刻，猴子松开手往下掉。</value>
+  </data>
+  <data name="Narr_Proj_Together_07" xml:space="preserve">
+    <value>那么，猎人应该瞄准哪里，才能打中正在下落的猴子？</value>
+  </data>
+  <data name="Narr_Proj_Together_08" xml:space="preserve">
+    <value>直接瞄准就对了。重力让飞镖和猴子都比没有重力时低了同样多，也就是二分之一 g t 平方。飞镖掉下去多少，猴子也掉下去多少，所以正好打中。</value>
+  </data>
+  <data name="Narr_Proj_Together_09" xml:space="preserve">
+    <value>轮到你了。在左页改一改飞镖的速度。不管快还是慢，它都能打中，只要在猴子落地之前飞到那里。</value>
+  </data>
   <data name="Narr_Quake_Boundaries_01" xml:space="preserve">
     <value>我们潜到海底，来到一条海岭。这里两块板块正在分开，每边每年一两厘米。下面炽热的地幔岩石往上升，一部分熔化成岩浆，填进裂缝，冷却以后就变成了新的洋底。</value>
   </data>
@@ -12758,6 +12914,657 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>讲解 {0}/{1}</value>
+  </data>
+  <data name="Proj_Angle" xml:space="preserve">
+    <value>发射角度</value>
+  </data>
+  <data name="Proj_Ball_Baseball" xml:space="preserve">
+    <value>棒球</value>
+  </data>
+  <data name="Proj_Ball_Caption" xml:space="preserve">
+    <value>扔的是什么</value>
+  </data>
+  <data name="Proj_Ball_PingPong" xml:space="preserve">
+    <value>乒乓球</value>
+  </data>
+  <data name="Proj_Ball_ShotPut" xml:space="preserve">
+    <value>铅球</value>
+  </data>
+  <data name="Proj_Ball_Shuttlecock" xml:space="preserve">
+    <value>羽毛球</value>
+  </data>
+  <data name="Proj_Ball_Soccer" xml:space="preserve">
+    <value>足球</value>
+  </data>
+  <data name="Proj_BestAngle_Fact1" xml:space="preserve">
+    <value>不计空气、从地面抛出时，射程是 v²·sin2θ / g，2θ = 90°（即 θ = 45°）时最大。</value>
+  </data>
+  <data name="Proj_BestAngle_Fact2" xml:space="preserve">
+    <value>两角相加为 90°（如 30° 与 60°）时，没有空气就落在同一点，只是陡的那个在空中更久。</value>
+  </data>
+  <data name="Proj_BestAngle_Fact3" xml:space="preserve">
+    <value>铅球出手点约有 2 m 高，所以最佳角度约 42°，而不是 45°；运动员实际用的角度更小，因为角度低时能推得更有力。</value>
+  </data>
+  <data name="Proj_BestAngle_Fact4" xml:space="preserve">
+    <value>跳远运动员的起跳角只有约 20°：助跑速度比角度更重要，起跳太陡反而会损失速度。</value>
+  </data>
+  <data name="Proj_BestAngle_Fact5" xml:space="preserve">
+    <value>有空气时，羽毛球大约 30° 飞得最远，乒乓球约 35°，棒球约 41°（具体角度随速度而变）。</value>
+  </data>
+  <data name="Proj_BestAngle_Note" xml:space="preserve">
+    <value>同样的速度，从 15° 到 75°，每隔 10° 同时发射一个球。</value>
+  </data>
+  <data name="Proj_BestAngle_Subtitle" xml:space="preserve">
+    <value>哪个角度扔得最远？</value>
+  </data>
+  <data name="Proj_Best_Flying_Description" xml:space="preserve">
+    <value>角度大的球飞得高、在空中久，但横着走得慢；角度小的横着走得快，却很快落地。最远的在两者之间。</value>
+  </data>
+  <data name="Proj_Best_Flying_Title" xml:space="preserve">
+    <value>七个角度，同一个速度</value>
+  </data>
+  <data name="Proj_Best_Landed_Air_Description" xml:space="preserve">
+    <value>有空气时，球飞得越高，被阻力拖慢的时间越长，陡的角度吃亏最多。最佳角度降到 45° 以下，球越轻降得越多。</value>
+  </data>
+  <data name="Proj_Best_Landed_Ground_Description" xml:space="preserve">
+    <value>从地面发射、没有空气时，45° 最远，与 45° 相差同样度数的两个角（如 30° 和 60°）落在同一点。所有轨迹都在虚线边界之下。</value>
+  </data>
+  <data name="Proj_Best_Landed_Height_Description" xml:space="preserve">
+    <value>从高处发射时，球回到出发高度后还要继续往下落，角度小一点的球更能利用这段额外的时间，所以最佳角度小于 45°。</value>
+  </data>
+  <data name="Proj_Best_Landed_Title" xml:space="preserve">
+    <value>最远：{0}°</value>
+  </data>
+  <data name="Proj_Chart_Best" xml:space="preserve">
+    <value>最远 {0}°</value>
+  </data>
+  <data name="Proj_Chart_BothBalls" xml:space="preserve">
+    <value>两个球</value>
+  </data>
+  <data name="Proj_Chart_Dart" xml:space="preserve">
+    <value>飞镖</value>
+  </data>
+  <data name="Proj_Chart_Monkey" xml:space="preserve">
+    <value>猴子</value>
+  </data>
+  <data name="Proj_Chart_Top" xml:space="preserve">
+    <value>最高点</value>
+  </data>
+  <data name="Proj_Chart_WithoutAir" xml:space="preserve">
+    <value>无空气</value>
+  </data>
+  <data name="Proj_ClearTrails" xml:space="preserve">
+    <value>清除轨迹</value>
+  </data>
+  <data name="Proj_CliffHeight" xml:space="preserve">
+    <value>发射高度</value>
+  </data>
+  <data name="Proj_Clock" xml:space="preserve">
+    <value>t = {0} 秒</value>
+  </data>
+  <data name="Proj_Clock_Boost" xml:space="preserve">
+    <value>t = {0} 秒 · 快放 {1}×</value>
+  </data>
+  <data name="Proj_DartSpeed" xml:space="preserve">
+    <value>飞镖速度</value>
+  </data>
+  <data name="Proj_DartSpeed_Minimum" xml:space="preserve">
+    <value>刚好够快</value>
+  </data>
+  <data name="Proj_Diagram_Aim" xml:space="preserve">
+    <value>瞄准线</value>
+  </data>
+  <data name="Proj_Diagram_Airless" xml:space="preserve">
+    <value>无空气 {0}</value>
+  </data>
+  <data name="Proj_Diagram_Below" xml:space="preserve">
+    <value>从下方 {0} 处飞过</value>
+  </data>
+  <data name="Proj_Diagram_Drag" xml:space="preserve">
+    <value>空气阻力</value>
+  </data>
+  <data name="Proj_Diagram_Dropped" xml:space="preserve">
+    <value>松手落下</value>
+  </data>
+  <data name="Proj_Diagram_Envelope" xml:space="preserve">
+    <value>这个速度飞不出这条线</value>
+  </data>
+  <data name="Proj_Diagram_Farthest" xml:space="preserve">
+    <value>最远 {0}° · {1}</value>
+  </data>
+  <data name="Proj_Diagram_GroundShadow" xml:space="preserve">
+    <value>地上的影子：匀速</value>
+  </data>
+  <data name="Proj_Diagram_GroundShadowSlowing" xml:space="preserve">
+    <value>地上的影子：越来越慢</value>
+  </data>
+  <data name="Proj_Diagram_Hit" xml:space="preserve">
+    <value>命中！</value>
+  </data>
+  <data name="Proj_Diagram_LandTogether" xml:space="preserve">
+    <value>同时落地 · {0} 秒</value>
+  </data>
+  <data name="Proj_Diagram_OddNumbers" xml:space="preserve">
+    <value>每 {0} 秒下落：1 : 3 : 5 : 7 …</value>
+  </data>
+  <data name="Proj_Diagram_Peak" xml:space="preserve">
+    <value>最高 {0}</value>
+  </data>
+  <data name="Proj_Diagram_PostShadow" xml:space="preserve">
+    <value>柱上的影子：先上后下</value>
+  </data>
+  <data name="Proj_Diagram_Range" xml:space="preserve">
+    <value>射程 {0}</value>
+  </data>
+  <data name="Proj_Diagram_Short" xml:space="preserve">
+    <value>太慢：先落地了</value>
+  </data>
+  <data name="Proj_Diagram_Thrown" xml:space="preserve">
+    <value>水平抛出</value>
+  </data>
+  <data name="Proj_Diagram_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Proj_DragHint_BestAngle" xml:space="preserve">
+    <value>在左页改速度、高度或空气阻力，看哪个角度胜出。</value>
+  </data>
+  <data name="Proj_DragHint_Launch" xml:space="preserve">
+    <value>从大炮拖出箭头来瞄准：方向是角度，长短是速度。</value>
+  </data>
+  <data name="Proj_DragHint_Together_DropAndThrow" xml:space="preserve">
+    <value>改高度、改水平速度，它们依然同时落地。</value>
+  </data>
+  <data name="Proj_DragHint_Together_MonkeyHunter" xml:space="preserve">
+    <value>改飞镖速度：快也好慢也好都能命中，只要落地前飞得到。</value>
+  </data>
+  <data name="Proj_Drop_Falling_Description" xml:space="preserve">
+    <value>每一对频闪影像都在同一高度：横着走既不会让下落变慢，也不会变快。每一段时间里，两球下落的距离都是第一段的 1、3、5、7……倍。</value>
+  </data>
+  <data name="Proj_Drop_Falling_Title" xml:space="preserve">
+    <value>始终一样高</value>
+  </data>
+  <data name="Proj_Drop_Landed_Description" xml:space="preserve">
+    <value>两个球下落用的时间都是 √(2h/g)。被抛出的球只是在下落的同时，带着它的水平速度往前走。</value>
+  </data>
+  <data name="Proj_Drop_Landed_Title" xml:space="preserve">
+    <value>同时落地</value>
+  </data>
+  <data name="Proj_Drop_Ready_Description" xml:space="preserve">
+    <value>同一时刻，一个球松手落下，另一个被水平推出去。谁先落地？</value>
+  </data>
+  <data name="Proj_Drop_Ready_Title" xml:space="preserve">
+    <value>并排准备</value>
+  </data>
+  <data name="Proj_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Proj_Fall_Caption" xml:space="preserve">
+    <value>高度随时间变化</value>
+  </data>
+  <data name="Proj_Fall_DropAndThrow_Note" xml:space="preserve">
+    <value>两个球是同一条曲线：横着走不影响往下落。</value>
+  </data>
+  <data name="Proj_Fall_MonkeyHunter_Note" xml:space="preserve">
+    <value>飞镖和猴子之间的高度差匀速缩小，就像两者都没有下落一样。</value>
+  </data>
+  <data name="Proj_Launch" xml:space="preserve">
+    <value>重新发射</value>
+  </data>
+  <data name="Proj_LaunchSpeed" xml:space="preserve">
+    <value>发射速度</value>
+  </data>
+  <data name="Proj_Launch_Fact1" xml:space="preserve">
+    <value>伽利略在 1638 年证明：不计空气时，抛出的物体横向匀速、竖向越落越快，走的是一条抛物线。</value>
+  </data>
+  <data name="Proj_Launch_Fact2" xml:space="preserve">
+    <value>月球重力约为地球的六分之一：同样的抛法，飞得远六倍，在空中也待六倍久。</value>
+  </data>
+  <data name="Proj_Launch_Fact3" xml:space="preserve">
+    <value>没有空气时，球落回出发高度时的速度和抛出时一样大：上升时失去的速度，下落时又全部找回来。</value>
+  </data>
+  <data name="Proj_Launch_Fact4" xml:space="preserve">
+    <value>以 40 m/s、45° 击出的棒球，没有空气能飞约 163 m；空气阻力把它缩短到约 96 m。</value>
+  </data>
+  <data name="Proj_Launch_Fact5" xml:space="preserve">
+    <value>乒乓球下落最快约 8 m/s，羽毛球约 6 m/s：空气阻力很快就和它们的重力一样大了。</value>
+  </data>
+  <data name="Proj_Launch_Note" xml:space="preserve">
+    <value>按比例画：横竖一米一样长。球画得比实际大；每隔相同时间留下一个淡淡的影像。</value>
+  </data>
+  <data name="Proj_Launch_Subtitle" xml:space="preserve">
+    <value>横着匀速走，竖着越落越快</value>
+  </data>
+  <data name="Proj_Lesson_Best_Choice1" xml:space="preserve">
+    <value>45 度</value>
+  </data>
+  <data name="Proj_Lesson_Best_Choice2" xml:space="preserve">
+    <value>35 度</value>
+  </data>
+  <data name="Proj_Lesson_Best_Choice3" xml:space="preserve">
+    <value>65 度</value>
+  </data>
+  <data name="Proj_Lesson_Launch_Choice1" xml:space="preserve">
+    <value>落在同一个地方</value>
+  </data>
+  <data name="Proj_Lesson_Launch_Choice2" xml:space="preserve">
+    <value>30 度更远</value>
+  </data>
+  <data name="Proj_Lesson_Launch_Choice3" xml:space="preserve">
+    <value>60 度更远</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice1" xml:space="preserve">
+    <value>同时落地</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice2" xml:space="preserve">
+    <value>松手落下的球</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice3" xml:space="preserve">
+    <value>水平抛出的球</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice4" xml:space="preserve">
+    <value>直接瞄准猴子</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice5" xml:space="preserve">
+    <value>瞄准猴子上方</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice6" xml:space="preserve">
+    <value>瞄准猴子下方</value>
+  </data>
+  <data name="Proj_Mode_BestAngle" xml:space="preserve">
+    <value>最佳角度</value>
+  </data>
+  <data name="Proj_Mode_Launch" xml:space="preserve">
+    <value>发射</value>
+  </data>
+  <data name="Proj_Mode_Together" xml:space="preserve">
+    <value>同时落地</value>
+  </data>
+  <data name="Proj_Monkey_Below_Description" xml:space="preserve">
+    <value>猴子没有松手，飞镖一路下落了 ½gt²，从它下方穿过。要打中不动的目标，得瞄得比它高。</value>
+  </data>
+  <data name="Proj_Monkey_Below_Title" xml:space="preserve">
+    <value>从下方飞过</value>
+  </data>
+  <data name="Proj_Monkey_FlyingHeld_Description" xml:space="preserve">
+    <value>飞镖往虚线下方落，猴子却留在原处。</value>
+  </data>
+  <data name="Proj_Monkey_FlyingHeld_Title" xml:space="preserve">
+    <value>猴子没松手</value>
+  </data>
+  <data name="Proj_Monkey_Flying_Description" xml:space="preserve">
+    <value>如果没有重力，飞镖会沿虚线直奔树枝。有重力时，它比虚线低 ½gt²，而猴子也正好比树枝低 ½gt²。</value>
+  </data>
+  <data name="Proj_Monkey_Flying_Title" xml:space="preserve">
+    <value>一起下落</value>
+  </data>
+  <data name="Proj_Monkey_Hit_Description" xml:space="preserve">
+    <value>飞镖和猴子在同样的时间里下落了同样的距离，所以飞镖正好到达猴子的位置。松手反而是最糟的选择。</value>
+  </data>
+  <data name="Proj_Monkey_Hit_Title" xml:space="preserve">
+    <value>命中！</value>
+  </data>
+  <data name="Proj_Monkey_Ready_Description" xml:space="preserve">
+    <value>猎人直接瞄准猴子。猴子打算一看到飞镖射出就松手跳下。这样能躲开吗？</value>
+  </data>
+  <data name="Proj_Monkey_Ready_Title" xml:space="preserve">
+    <value>瞄准猴子</value>
+  </data>
+  <data name="Proj_Monkey_Short_Description" xml:space="preserve">
+    <value>飞镖还没飞到就落地了。按理它仍会和猴子相遇，可地面先挡住了它们。</value>
+  </data>
+  <data name="Proj_Monkey_Short_Title" xml:space="preserve">
+    <value>太慢了</value>
+  </data>
+  <data name="Proj_NoAir_Note" xml:space="preserve">
+    <value>月球上没有空气，打开空气阻力也没有区别。</value>
+  </data>
+  <data name="Proj_Obj_Aim" xml:space="preserve">
+    <value>瞄准线</value>
+  </data>
+  <data name="Proj_Obj_Airless" xml:space="preserve">
+    <value>无空气时的轨迹</value>
+  </data>
+  <data name="Proj_Obj_Ball" xml:space="preserve">
+    <value>球</value>
+  </data>
+  <data name="Proj_Obj_Cannon" xml:space="preserve">
+    <value>大炮</value>
+  </data>
+  <data name="Proj_Obj_Dart" xml:space="preserve">
+    <value>飞镖</value>
+  </data>
+  <data name="Proj_Obj_Drag" xml:space="preserve">
+    <value>空气阻力</value>
+  </data>
+  <data name="Proj_Obj_Dropped" xml:space="preserve">
+    <value>松手落下的球</value>
+  </data>
+  <data name="Proj_Obj_Envelope" xml:space="preserve">
+    <value>可达边界</value>
+  </data>
+  <data name="Proj_Obj_Fall" xml:space="preserve">
+    <value>下落的距离</value>
+  </data>
+  <data name="Proj_Obj_Farthest" xml:space="preserve">
+    <value>最远的一发</value>
+  </data>
+  <data name="Proj_Obj_GroundShadow" xml:space="preserve">
+    <value>地上的影子</value>
+  </data>
+  <data name="Proj_Obj_Hunter" xml:space="preserve">
+    <value>猎人</value>
+  </data>
+  <data name="Proj_Obj_Landing" xml:space="preserve">
+    <value>落点角度</value>
+  </data>
+  <data name="Proj_Obj_Launcher" xml:space="preserve">
+    <value>发射器</value>
+  </data>
+  <data name="Proj_Obj_Monkey" xml:space="preserve">
+    <value>猴子</value>
+  </data>
+  <data name="Proj_Obj_OddNumbers" xml:space="preserve">
+    <value>1、3、5、7</value>
+  </data>
+  <data name="Proj_Obj_Peak" xml:space="preserve">
+    <value>最高点</value>
+  </data>
+  <data name="Proj_Obj_PostShadow" xml:space="preserve">
+    <value>柱上的影子</value>
+  </data>
+  <data name="Proj_Obj_Range" xml:space="preserve">
+    <value>射程</value>
+  </data>
+  <data name="Proj_Obj_Strobe" xml:space="preserve">
+    <value>频闪影像</value>
+  </data>
+  <data name="Proj_Obj_Thrown" xml:space="preserve">
+    <value>水平抛出的球</value>
+  </data>
+  <data name="Proj_Obj_Velocity" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Proj_Obj_Vx" xml:space="preserve">
+    <value>横向速度</value>
+  </data>
+  <data name="Proj_Obj_Vy" xml:space="preserve">
+    <value>竖向速度</value>
+  </data>
+  <data name="Proj_Obj_Weight" xml:space="preserve">
+    <value>重力</value>
+  </data>
+  <data name="Proj_Option_AirDrag" xml:space="preserve">
+    <value>空气阻力</value>
+  </data>
+  <data name="Proj_Option_LetsGo" xml:space="preserve">
+    <value>猴子松手</value>
+  </data>
+  <data name="Proj_Option_Shadows" xml:space="preserve">
+    <value>影子</value>
+  </data>
+  <data name="Proj_Option_Strobe" xml:space="preserve">
+    <value>频闪</value>
+  </data>
+  <data name="Proj_Option_Trails" xml:space="preserve">
+    <value>保留轨迹</value>
+  </data>
+  <data name="Proj_Option_Vectors" xml:space="preserve">
+    <value>速度与受力</value>
+  </data>
+  <data name="Proj_Place_Caption" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="Proj_Place_Earth" xml:space="preserve">
+    <value>地球</value>
+  </data>
+  <data name="Proj_Place_Mars" xml:space="preserve">
+    <value>火星</value>
+  </data>
+  <data name="Proj_Place_Moon" xml:space="preserve">
+    <value>月球</value>
+  </data>
+  <data name="Proj_PlayPause" xml:space="preserve">
+    <value>播放 / 暂停</value>
+  </data>
+  <data name="Proj_Range_Caption" xml:space="preserve">
+    <value>射程与发射角度</value>
+  </data>
+  <data name="Proj_Range_Note" xml:space="preserve">
+    <value>没有空气时曲线关于 45° 对称：30° 和 60° 落在同一点。从高处发射、或者有空气阻力时，峰值都会移向更小的角度。</value>
+  </data>
+  <data name="Proj_Scene_Caption" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="Proj_Scene_DropAndThrow" xml:space="preserve">
+    <value>落下与平抛</value>
+  </data>
+  <data name="Proj_Scene_MonkeyHunter" xml:space="preserve">
+    <value>猴子与猎人</value>
+  </data>
+  <data name="Proj_Speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Proj_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Proj_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Proj_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Proj_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
+  <data name="Proj_Stage_AirNote" xml:space="preserve">
+    <value>有空气时，阻力总与运动方向相反，两个方向的速度都被拖慢，下落段比上升段更陡。</value>
+  </data>
+  <data name="Proj_Stage_Falling_Description" xml:space="preserve">
+    <value>现在向下的速度每秒增加 g，横着的速度依旧不变，两者合起来，路线弯成一条抛物线。</value>
+  </data>
+  <data name="Proj_Stage_Falling_Title" xml:space="preserve">
+    <value>下落</value>
+  </data>
+  <data name="Proj_Stage_Landed_Description" xml:space="preserve">
+    <value>在空中停留多久只取决于竖直速度和高度；飞多远就是这段时间乘以水平速度。</value>
+  </data>
+  <data name="Proj_Stage_Landed_Title" xml:space="preserve">
+    <value>落地</value>
+  </data>
+  <data name="Proj_Stage_Ready_Description" xml:space="preserve">
+    <value>箭头就是发射速度：倾斜程度是角度，长短是速度大小。拖动它来瞄准。</value>
+  </data>
+  <data name="Proj_Stage_Ready_Title" xml:space="preserve">
+    <value>准备发射</value>
+  </data>
+  <data name="Proj_Stage_Rising_Description" xml:space="preserve">
+    <value>重力只向下拉，所以只有竖直速度在变：每秒减少 g。没有空气时，水平速度保持不变。</value>
+  </data>
+  <data name="Proj_Stage_Rising_Title" xml:space="preserve">
+    <value>上升</value>
+  </data>
+  <data name="Proj_Stage_Top_Description" xml:space="preserve">
+    <value>竖直速度减到了零，但球还在横着走：最高点速度最小，但并没有停下。</value>
+  </data>
+  <data name="Proj_Stage_Top_Title" xml:space="preserve">
+    <value>最高点</value>
+  </data>
+  <data name="Proj_Stat_Aim" xml:space="preserve">
+    <value>瞄准角度</value>
+  </data>
+  <data name="Proj_Stat_Airless" xml:space="preserve">
+    <value>无空气时</value>
+  </data>
+  <data name="Proj_Stat_AirlessBest" xml:space="preserve">
+    <value>无空气时最佳</value>
+  </data>
+  <data name="Proj_Stat_Airless_Value" xml:space="preserve">
+    <value>{0}（空气让它少飞了 {1}%）</value>
+  </data>
+  <data name="Proj_Stat_At45" xml:space="preserve">
+    <value>45° 射程</value>
+  </data>
+  <data name="Proj_Stat_Ball" xml:space="preserve">
+    <value>球</value>
+  </data>
+  <data name="Proj_Stat_Ball_AirOff" xml:space="preserve">
+    <value>{0} · 不计空气阻力</value>
+  </data>
+  <data name="Proj_Stat_Ball_NoAir" xml:space="preserve">
+    <value>{0} · 这里没有空气</value>
+  </data>
+  <data name="Proj_Stat_Ball_Terminal" xml:space="preserve">
+    <value>{0} · 下落极限速度 {1}</value>
+  </data>
+  <data name="Proj_Stat_BestAngle" xml:space="preserve">
+    <value>最佳角度</value>
+  </data>
+  <data name="Proj_Stat_Best_Value" xml:space="preserve">
+    <value>{0}° · {1}</value>
+  </data>
+  <data name="Proj_Stat_BothFallen" xml:space="preserve">
+    <value>两者都已下落</value>
+  </data>
+  <data name="Proj_Stat_Branch" xml:space="preserve">
+    <value>树枝位置</value>
+  </data>
+  <data name="Proj_Stat_Branch_Value" xml:space="preserve">
+    <value>相距 {0}，高 {1}</value>
+  </data>
+  <data name="Proj_Stat_DartSpeed" xml:space="preserve">
+    <value>飞镖速度</value>
+  </data>
+  <data name="Proj_Stat_FallTime" xml:space="preserve">
+    <value>落地时间</value>
+  </data>
+  <data name="Proj_Stat_Fallen" xml:space="preserve">
+    <value>已下落</value>
+  </data>
+  <data name="Proj_Stat_FirstStep" xml:space="preserve">
+    <value>第一段</value>
+  </data>
+  <data name="Proj_Stat_FirstStep_Value" xml:space="preserve">
+    <value>{0} 秒内下落 {1}</value>
+  </data>
+  <data name="Proj_Stat_FlightTime" xml:space="preserve">
+    <value>飞行时间</value>
+  </data>
+  <data name="Proj_Stat_Landing" xml:space="preserve">
+    <value>落地速度</value>
+  </data>
+  <data name="Proj_Stat_Launch" xml:space="preserve">
+    <value>发射</value>
+  </data>
+  <data name="Proj_Stat_Launch_Value" xml:space="preserve">
+    <value>{0}，高度 {1}</value>
+  </data>
+  <data name="Proj_Stat_MinSpeed" xml:space="preserve">
+    <value>最小命中速度</value>
+  </data>
+  <data name="Proj_Stat_Now" xml:space="preserve">
+    <value>当前位置</value>
+  </data>
+  <data name="Proj_Stat_Now_Value" xml:space="preserve">
+    <value>水平 {0}，高 {1}</value>
+  </data>
+  <data name="Proj_Stat_Pairs" xml:space="preserve">
+    <value>30° 与 60°</value>
+  </data>
+  <data name="Proj_Stat_Pairs_Value" xml:space="preserve">
+    <value>{0} 与 {1}</value>
+  </data>
+  <data name="Proj_Stat_Peak" xml:space="preserve">
+    <value>最大高度</value>
+  </data>
+  <data name="Proj_Stat_Place" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="Proj_Stat_Place_Value" xml:space="preserve">
+    <value>{0} · g = {1} m/s²</value>
+  </data>
+  <data name="Proj_Stat_Range" xml:space="preserve">
+    <value>射程</value>
+  </data>
+  <data name="Proj_Stat_Reach" xml:space="preserve">
+    <value>飞到所需时间</value>
+  </data>
+  <data name="Proj_Stat_Reach_Never" xml:space="preserve">
+    <value>飞不到，先落地了</value>
+  </data>
+  <data name="Proj_Stat_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Proj_Stat_Speed_Value" xml:space="preserve">
+    <value>{0}（vx {1}，vy {2}）</value>
+  </data>
+  <data name="Proj_Stat_TableHeight" xml:space="preserve">
+    <value>桌子高度</value>
+  </data>
+  <data name="Proj_Stat_ThrowRange" xml:space="preserve">
+    <value>平抛水平距离</value>
+  </data>
+  <data name="Proj_Stat_ThrowSpeed" xml:space="preserve">
+    <value>水平速度</value>
+  </data>
+  <data name="Proj_ThrowSpeed" xml:space="preserve">
+    <value>水平速度</value>
+  </data>
+  <data name="Proj_Timeline" xml:space="preserve">
+    <value>发射后的时间</value>
+  </data>
+  <data name="Proj_Title" xml:space="preserve">
+    <value>抛体运动</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact1" xml:space="preserve">
+    <value>从同一高度水平射出的子弹和同时松手落下的子弹，在平地上几乎同时落地。</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact2" xml:space="preserve">
+    <value>伽利略让小球沿缓坡滚下并计时，发现相等时间内走过的距离之比是 1 : 3 : 5 : 7。</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact3" xml:space="preserve">
+    <value>第一秒内任何物体下落约 4.9 m；两秒后约 19.6 m，是四倍。</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact4" xml:space="preserve">
+    <value>课本里常见的频闪照片（一张底片上闪光多次）就是这样展示抛体运动的。</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact5" xml:space="preserve">
+    <value>水平速度只决定落在哪里，不决定何时落地：推得越用力落得越远，但落地时刻不变。</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Note" xml:space="preserve">
+    <value>同一高度、同一时刻放手；每隔相同时间留下一个影像。</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Subtitle" xml:space="preserve">
+    <value>一个松手落下，一个水平抛出，同时落地</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact1" xml:space="preserve">
+    <value>“猴子与猎人”是经典的物理课堂演示：电磁铁吸着一个罐子，小球一射出就断电让罐子落下。</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact2" xml:space="preserve">
+    <value>不论瞄准角度多少，只要飞镖在落地前飞得到，都能命中。</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact3" xml:space="preserve">
+    <value>重力让所有物体同样地下落，所以如果跟着一起下落来看，飞镖就是沿直线飞向猴子的。</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact4" xml:space="preserve">
+    <value>射箭时要瞄得比静止的目标高，也是这个原因：箭会落到瞄准线下方。</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact5" xml:space="preserve">
+    <value>有空气时飞镖会减速，结论就不再精确；但课堂演示距离很短，影响可以忽略。</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Note" xml:space="preserve">
+    <value>不计空气。飞镖射出的那一刻，猴子松手往下掉。</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Subtitle" xml:space="preserve">
+    <value>瞄准猴子，飞镖就一定打中</value>
+  </data>
+  <data name="Proj_TowerHeight" xml:space="preserve">
+    <value>桌子高度</value>
+  </data>
+  <data name="Proj_Velocity_Caption" xml:space="preserve">
+    <value>水平速度 vx 与竖直速度 vy 随时间变化</value>
+  </data>
+  <data name="Proj_Velocity_Note" xml:space="preserve">
+    <value>没有空气时 vx 是一条水平线，vy 是一条每秒减少 g 的直线，在最高点穿过零。有空气时两者都被拖向零，连 vx 也越来越小。</value>
   </data>
   <data name="Quake_Boundaries_Fact1" xml:space="preserve">
     <value>最古老的洋底只有约 1.8 亿年；更老的已经俯冲回地幔了。而大陆上保存着几十亿年的岩石。</value>

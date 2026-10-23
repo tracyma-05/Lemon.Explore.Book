@@ -1,0 +1,100 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:proj="using:Lemon.Explore.Book.Chapters.Projectile"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Projectile.ProjectileDiagramPageView"
+                         x:DataType="proj:ProjectileDiagramPageViewModel">
+    <!-- Right page of the Projectile spread: the diagram on a dark plate, the walkthrough and playback. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector="RadioButton.speed">
+            <Setter Property="MinWidth" Value="30" />
+            <Setter Property="Padding" Value="6,4" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <proj:ProjectileDiagram Mode="{Binding Projectile.Mode}"
+                                        Place="{Binding Projectile.Place}"
+                                        EarthGravity="{Binding Projectile.EarthGravity}"
+                                        Ball="{Binding Projectile.Ball}"
+                                        AirDrag="{Binding Projectile.AirDrag}"
+                                        Angle="{Binding Projectile.Angle, Mode=TwoWay}"
+                                        LaunchSpeed="{Binding Projectile.LaunchSpeed, Mode=TwoWay}"
+                                        CliffHeight="{Binding Projectile.CliffHeight}"
+                                        ShowVectors="{Binding Projectile.ShowVectors}"
+                                        ShowShadows="{Binding Projectile.ShowShadows}"
+                                        ShowStrobe="{Binding Projectile.ShowStrobe}"
+                                        KeepTrails="{Binding Projectile.KeepTrails}"
+                                        ClearTrailsCount="{Binding Projectile.ClearTrailsCount}"
+                                        Scene="{Binding Projectile.Scene}"
+                                        TowerHeight="{Binding Projectile.TowerHeight}"
+                                        ThrowSpeed="{Binding Projectile.ThrowSpeed}"
+                                        DartSpeed="{Binding Projectile.DartSpeed}"
+                                        MonkeyLetsGo="{Binding Projectile.MonkeyLetsGo}"
+                                        Speed="{Binding Projectile.Speed}"
+                                        IsPlaying="{Binding Projectile.IsPlaying, Mode=TwoWay}"
+                                        Time="{Binding Projectile.Time, Mode=TwoWay}"
+                                        LaunchCount="{Binding Projectile.LaunchCount}"
+                                        ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                        Highlight="{Binding Projectile.Lesson.Highlight}"
+                                        IsLessonActive="{Binding Projectile.Lesson.IsActive}"
+                                        SelectedObject="{Binding Projectile.Card.Id, Mode=TwoWay}"
+                                        InteractionCommand="{Binding Projectile.UserInteractedCommand}"
+                                        ToolTip.Tip="{Binding Projectile.DragHint}"
+                                        AutomationProperties.Name="{Binding Projectile.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Projectile.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Projectile.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Projectile.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <Button Classes="space" Command="{Binding Projectile.TogglePlayCommand}"
+                                    ToolTip.Tip="{loc:Localize Proj_PlayPause}" AutomationProperties.Name="{loc:Localize Proj_PlayPause}">
+                                <Panel>
+                                    <PathIcon Data="{StaticResource Icon.Pause}" IsVisible="{Binding Projectile.IsPlaying}" />
+                                    <PathIcon Data="{StaticResource Icon.Play}" IsVisible="{Binding !Projectile.IsPlaying}" />
+                                </Panel>
+                            </Button>
+                            <Button Classes="space" Command="{Binding Projectile.LaunchCommand}"
+                                    ToolTip.Tip="{loc:Localize Proj_Launch}" AutomationProperties.Name="{loc:Localize Proj_Launch}">
+                                <PathIcon Data="{StaticResource Icon.Restart}" />
+                            </Button>
+                            <!-- Playback speed -->
+                            <StackPanel Margin="2,0" Orientation="Horizontal" ToolTip.Tip="{loc:Localize Proj_Speed}">
+                                <RadioButton Classes="space speed" GroupName="ProjSpeed" Content="{loc:Localize Proj_Speed_Quarter}" IsChecked="{Binding Projectile.SpeedChoice[0.25]}" />
+                                <RadioButton Classes="space speed" GroupName="ProjSpeed" Content="{loc:Localize Proj_Speed_Half}" IsChecked="{Binding Projectile.SpeedChoice[0.5]}" />
+                                <RadioButton Classes="space speed" GroupName="ProjSpeed" Content="{loc:Localize Proj_Speed_One}" IsChecked="{Binding Projectile.SpeedChoice[1]}" />
+                                <RadioButton Classes="space speed" GroupName="ProjSpeed" Content="{loc:Localize Proj_Speed_Two}" IsChecked="{Binding Projectile.SpeedChoice[2]}" />
+                            </StackPanel>
+                            <!-- The timeline through the flight -->
+                            <StackPanel Orientation="Horizontal">
+                                <Slider Width="130" Margin="6,0" VerticalAlignment="Center" Foreground="#D9DCE3"
+                                        Minimum="0" Maximum="{Binding Projectile.Duration}" Value="{Binding Projectile.Time}" SmallChange="0.05" LargeChange="0.5"
+                                        ToolTip.Tip="{loc:Localize Proj_Timeline}" AutomationProperties.Name="{loc:Localize Proj_Timeline}" />
+                                <TextBlock MinWidth="110" Margin="6,0,10,0" VerticalAlignment="Center" FontSize="13"
+                                           Foreground="{StaticResource SpaceText}" Text="{Binding Projectile.ClockText}" />
+                            </StackPanel>
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

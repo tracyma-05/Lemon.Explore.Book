@@ -9618,6 +9618,162 @@
   <data name="Narr_Osc_Wave_07" xml:space="preserve">
     <value>Now you try. Drag the timeline to find other patterns, like three or four rows.</value>
   </data>
+  <data name="Narr_Proj_Best_01" xml:space="preserve">
+    <value>Seven balls fired at the same moment and the same speed, from fifteen degrees up to seventy-five, ten degrees apart.</value>
+  </data>
+  <data name="Narr_Proj_Best_02" xml:space="preserve">
+    <value>Which angle do you think will go the farthest?</value>
+  </data>
+  <data name="Narr_Proj_Best_03" xml:space="preserve">
+    <value>Forty-five degrees wins. Steeper shots spend their speed climbing; flatter ones hit the ground too soon. Forty-five is the best balance between the two.</value>
+  </data>
+  <data name="Narr_Proj_Best_04" xml:space="preserve">
+    <value>Now look at the landing marks. Thirty-five and fifty-five land together, so do twenty-five and sixty-five, and fifteen and seventy-five. Each pair adds up to ninety degrees.</value>
+  </data>
+  <data name="Narr_Proj_Best_05" xml:space="preserve">
+    <value>The dashed purple line is an edge that no shot at this speed can ever get past. Every path just touches it at one point, and then turns away.</value>
+  </data>
+  <data name="Narr_Proj_Best_06" xml:space="preserve">
+    <value>Now fire from the top of a cliff twenty metres high. The winner is no longer forty-five degrees, but a flatter angle. Up here, the ball already has extra time to fly while it falls, so it pays to throw it more forwards.</value>
+  </data>
+  <data name="Narr_Proj_Best_07" xml:space="preserve">
+    <value>Back on level ground, now with air, and a football. The best angle drops below forty-five degrees again, because air steals the most from long, high flights. That's one reason throws and kicks in sport usually go off lower than forty-five.</value>
+  </data>
+  <data name="Narr_Proj_Best_08" xml:space="preserve">
+    <value>Your turn. Change the speed on the left-hand page. Without air and on level ground, does forty-five degrees still win?</value>
+  </data>
+  <data name="Narr_Proj_Launch_01" xml:space="preserve">
+    <value>Here's a cannon firing a ball at twenty metres a second, aimed forty-five degrees up. Everything is drawn to scale: a metre across is as long as a metre up.</value>
+  </data>
+  <data name="Narr_Proj_Launch_02" xml:space="preserve">
+    <value>The faint balls are snapshots, taken at equal moments apart. Look at their spacing. Across, the gaps are all the same. Up and down, they shrink on the way up and grow on the way down.</value>
+  </data>
+  <data name="Narr_Proj_Launch_03" xml:space="preserve">
+    <value>The green arrow is the ball's speed across. It stays exactly the same for the whole flight, because nothing pushes the ball sideways.</value>
+  </data>
+  <data name="Narr_Proj_Launch_04" xml:space="preserve">
+    <value>The blue arrow is its speed upwards. Gravity takes away the same amount every second, so it shrinks to nothing at the top, then grows again pointing down.</value>
+  </data>
+  <data name="Narr_Proj_Launch_05" xml:space="preserve">
+    <value>Now look at the shadows. The one on the ground slides along at a steady pace. The one on the post goes up and comes down, like a ball thrown straight up. The curved flight is just these two simple motions happening at once.</value>
+  </data>
+  <data name="Narr_Proj_Launch_06" xml:space="preserve">
+    <value>A question. If we fire at thirty degrees, and then at sixty degrees, at the same speed, which one lands farther away?</value>
+  </data>
+  <data name="Narr_Proj_Launch_07" xml:space="preserve">
+    <value>Let's see. Here's thirty degrees: a flatter, quicker flight. Watch where it lands. The forty-five degree shot stays behind as a faint path to compare with.</value>
+  </data>
+  <data name="Narr_Proj_Launch_08" xml:space="preserve">
+    <value>And now sixty degrees: higher and slower, but it comes down on the very same spot. Without air, any two angles that add up to ninety land together. And forty-five, right in the middle, still goes the farthest.</value>
+  </data>
+  <data name="Narr_Proj_Launch_09" xml:space="preserve">
+    <value>Now let's add air, and fire a ping-pong ball. The dashed line is the same shot with no air. The air keeps slowing the ball down, so it falls well short and comes down more steeply than it went up.</value>
+  </data>
+  <data name="Narr_Proj_Launch_10" xml:space="preserve">
+    <value>Your turn. Drag from the cannon to aim your own shot. The direction you drag sets the angle, and how far you drag sets the speed.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Aim" xml:space="preserve">
+    <value>The aiming line, straight from the blowpipe to the monkey. It's where the dart would fly if there were no gravity.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Airless" xml:space="preserve">
+    <value>The dashed path is the same shot with no air at all. The gap between it and the real path shows how much the air took away.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Ball" xml:space="preserve">
+    <value>The ball in flight. Once it leaves the cannon, the only things acting on it are gravity, and the air if there is any.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Cannon" xml:space="preserve">
+    <value>The cannon. Drag from it to aim: the direction sets the launch angle, and the length of the arrow sets the speed.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Dart" xml:space="preserve">
+    <value>The dart. It falls below its straight aiming line by exactly as much as the monkey falls below the branch, so the two meet.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Drag" xml:space="preserve">
+    <value>Air resistance, always pointing against the motion. It grows quickly with speed, and it hits light balls like ping-pong balls and shuttlecocks the hardest.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Dropped" xml:space="preserve">
+    <value>The dropped ball. It's simply let go, and falls straight down, faster and faster.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Envelope" xml:space="preserve">
+    <value>The edge of reach, sometimes called the safety parabola. At this speed, no shot at any angle can get past it. Every path touches it once.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Fall" xml:space="preserve">
+    <value>How far below its no-gravity position each one has fallen: one half g t squared. It's the same for the dart and for the monkey, because both have been falling for the same time.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Farthest" xml:space="preserve">
+    <value>The angle that throws the farthest at this speed, and how far it goes. Without air and on level ground it's forty-five degrees; from up high, or with air, it's lower.</value>
+  </data>
+  <data name="Narr_Proj_Obj_GroundShadow" xml:space="preserve">
+    <value>The ball's shadow on the ground, straight below it. It shows just the motion across: steady without air, slowing down with air.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Hunter" xml:space="preserve">
+    <value>The hunter's blowpipe, aimed straight at the monkey. Change the dart's speed on the left-hand page: any speed hits, as long as the dart arrives before the monkey reaches the ground.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Landing" xml:space="preserve">
+    <value>Where each angle landed. Without air, two angles that add up to ninety degrees land in the same place, so they share one label.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Launcher" xml:space="preserve">
+    <value>The launcher fires seven balls at once, all at the same speed, at angles ten degrees apart. Change the speed, the height or the air on the left-hand page and see which angle wins.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Monkey" xml:space="preserve">
+    <value>The monkey. It lets go of the branch the moment the dart is fired, and falls just like any dropped ball. Turn off 'Monkey lets go' to see what happens if it holds on.</value>
+  </data>
+  <data name="Narr_Proj_Obj_OddNumbers" xml:space="preserve">
+    <value>How far the balls fall in each equal step of time: one, three, five, seven parts, and so on. Add them up and you get one, four, nine, sixteen: the distance grows as the square of the time.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Peak" xml:space="preserve">
+    <value>The highest point. Here the ball has stopped going up for an instant, but it's still moving across. It never stops completely.</value>
+  </data>
+  <data name="Narr_Proj_Obj_PostShadow" xml:space="preserve">
+    <value>The ball's shadow on the post, straight across from it. It shows just the motion up and down: it rises, slows, stops, and falls back, exactly like a ball thrown straight up.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Range" xml:space="preserve">
+    <value>The range: how far away the ball lands. Without air it depends on the speed, the angle and the strength of gravity. Double the speed and it goes four times as far.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Strobe" xml:space="preserve">
+    <value>Strobe snapshots: where the ball was at equal moments apart. Even spacing across means a steady speed across; the spacing up and down changes, because gravity speeds it up and slows it down.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Thrown" xml:space="preserve">
+    <value>The thrown ball. It leaves sideways at the same moment, but falls exactly like the dropped one, so the two are always at the same height.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Velocity" xml:space="preserve">
+    <value>The white arrow is the ball's velocity: how fast it's going and in which direction. It always points along the path, and it's made of the green part across and the blue part up.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Vx" xml:space="preserve">
+    <value>The speed across. Without air nothing pushes the ball sideways, so it stays the same from launch to landing.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Vy" xml:space="preserve">
+    <value>The speed up and down. Gravity changes it by the same amount every second: it shrinks on the way up, is zero at the very top, and grows on the way down.</value>
+  </data>
+  <data name="Narr_Proj_Obj_Weight" xml:space="preserve">
+    <value>The ball's weight, the pull of gravity. It's the same size and always points straight down, whether the ball is rising, at the top, or falling.</value>
+  </data>
+  <data name="Narr_Proj_Together_01" xml:space="preserve">
+    <value>Two balls leave this table at exactly the same moment. The pink one is simply let go. The blue one is thrown sideways.</value>
+  </data>
+  <data name="Narr_Proj_Together_02" xml:space="preserve">
+    <value>Which one do you think hits the ground first?</value>
+  </data>
+  <data name="Narr_Proj_Together_03" xml:space="preserve">
+    <value>They land together. Look at the snapshots: at every moment the two balls are at exactly the same height. Moving sideways doesn't change how fast you fall.</value>
+  </data>
+  <data name="Narr_Proj_Together_04" xml:space="preserve">
+    <value>In each equal step of time they fall farther than before: one, then three, then five, then seven times as far as in the first step. That's what speeding up steadily looks like.</value>
+  </data>
+  <data name="Narr_Proj_Together_05" xml:space="preserve">
+    <value>Now throw the blue ball twice as fast. It lands twice as far away, but still at exactly the same moment as the pink one.</value>
+  </data>
+  <data name="Narr_Proj_Together_06" xml:space="preserve">
+    <value>Here's a famous puzzle. A hunter aims a dart straight at a monkey hanging from a branch. The moment the dart is fired, the monkey lets go and drops.</value>
+  </data>
+  <data name="Narr_Proj_Together_07" xml:space="preserve">
+    <value>So where should the hunter aim, to hit the falling monkey?</value>
+  </data>
+  <data name="Narr_Proj_Together_08" xml:space="preserve">
+    <value>Straight at it. Gravity pulls the dart and the monkey down by exactly the same amount, one half g t squared, below where each would be without it. So the dart drops just as far as the monkey does, and hits.</value>
+  </data>
+  <data name="Narr_Proj_Together_09" xml:space="preserve">
+    <value>Your turn. Change the dart's speed on the left-hand page. Fast or slow, it still hits, as long as it gets there before the monkey reaches the ground.</value>
+  </data>
   <data name="Narr_Quake_Boundaries_01" xml:space="preserve">
     <value>Let's dive under the sea, to a mid-ocean ridge. Two plates are moving apart here, a centimetre or two a year on each side. Hot mantle rock rises beneath, partly melts, and the magma fills the crack, cooling into new ocean floor.</value>
   </data>
@@ -12758,6 +12914,657 @@
   </data>
   <data name="Progress_Walkthroughs" xml:space="preserve">
     <value>Walkthroughs {0}/{1}</value>
+  </data>
+  <data name="Proj_Angle" xml:space="preserve">
+    <value>Launch angle</value>
+  </data>
+  <data name="Proj_Ball_Baseball" xml:space="preserve">
+    <value>Baseball</value>
+  </data>
+  <data name="Proj_Ball_Caption" xml:space="preserve">
+    <value>What is thrown</value>
+  </data>
+  <data name="Proj_Ball_PingPong" xml:space="preserve">
+    <value>Ping-pong ball</value>
+  </data>
+  <data name="Proj_Ball_ShotPut" xml:space="preserve">
+    <value>Shot put</value>
+  </data>
+  <data name="Proj_Ball_Shuttlecock" xml:space="preserve">
+    <value>Shuttlecock</value>
+  </data>
+  <data name="Proj_Ball_Soccer" xml:space="preserve">
+    <value>Football</value>
+  </data>
+  <data name="Proj_BestAngle_Fact1" xml:space="preserve">
+    <value>Without air, from the ground, the range is v²·sin 2θ / g: biggest when 2θ = 90°, that is θ = 45°.</value>
+  </data>
+  <data name="Proj_BestAngle_Fact2" xml:space="preserve">
+    <value>Angles that add up to 90°, like 30° and 60°, land in the same place without air; the steeper one just takes longer.</value>
+  </data>
+  <data name="Proj_BestAngle_Fact3" xml:space="preserve">
+    <value>A shot put leaves the hand about 2 m up, so its best angle is about 42°, not 45°; athletes use even less, because they can push harder at a flatter angle.</value>
+  </data>
+  <data name="Proj_BestAngle_Fact4" xml:space="preserve">
+    <value>Long jumpers take off at only about 20°: running speed matters more than the angle, and jumping up steeply would cost them speed.</value>
+  </data>
+  <data name="Proj_BestAngle_Fact5" xml:space="preserve">
+    <value>With air, a shuttlecock goes farthest at about 30°, a ping-pong ball at about 35°, a baseball at about 41° (the exact angle depends on the speed).</value>
+  </data>
+  <data name="Proj_BestAngle_Note" xml:space="preserve">
+    <value>Seven balls fired together at the same speed, from 15° to 75°, ten degrees apart.</value>
+  </data>
+  <data name="Proj_BestAngle_Subtitle" xml:space="preserve">
+    <value>Which angle throws the farthest?</value>
+  </data>
+  <data name="Proj_Best_Flying_Description" xml:space="preserve">
+    <value>Steep shots go high and stay up long but move across slowly; flat shots move across fast but come down soon. The farthest is in between.</value>
+  </data>
+  <data name="Proj_Best_Flying_Title" xml:space="preserve">
+    <value>Seven angles, one speed</value>
+  </data>
+  <data name="Proj_Best_Landed_Air_Description" xml:space="preserve">
+    <value>In air, the higher a ball goes the longer drag works on it, so steep shots lose the most. The best angle drops below 45°, more for light balls.</value>
+  </data>
+  <data name="Proj_Best_Landed_Ground_Description" xml:space="preserve">
+    <value>From the ground without air, 45° goes farthest, and angles the same distance either side of it (30° and 60°) land in the same place. Every path stays under the dashed edge.</value>
+  </data>
+  <data name="Proj_Best_Landed_Height_Description" xml:space="preserve">
+    <value>From up high the ball keeps falling after it is back at the launch height, and a flatter shot makes better use of that extra time: the best angle is below 45°.</value>
+  </data>
+  <data name="Proj_Best_Landed_Title" xml:space="preserve">
+    <value>Farthest: {0}°</value>
+  </data>
+  <data name="Proj_Chart_Best" xml:space="preserve">
+    <value>best {0}°</value>
+  </data>
+  <data name="Proj_Chart_BothBalls" xml:space="preserve">
+    <value>both balls</value>
+  </data>
+  <data name="Proj_Chart_Dart" xml:space="preserve">
+    <value>dart</value>
+  </data>
+  <data name="Proj_Chart_Monkey" xml:space="preserve">
+    <value>monkey</value>
+  </data>
+  <data name="Proj_Chart_Top" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="Proj_Chart_WithoutAir" xml:space="preserve">
+    <value>without air</value>
+  </data>
+  <data name="Proj_ClearTrails" xml:space="preserve">
+    <value>Clear paths</value>
+  </data>
+  <data name="Proj_CliffHeight" xml:space="preserve">
+    <value>Launch height</value>
+  </data>
+  <data name="Proj_Clock" xml:space="preserve">
+    <value>t = {0} s</value>
+  </data>
+  <data name="Proj_Clock_Boost" xml:space="preserve">
+    <value>t = {0} s · played {1}× faster</value>
+  </data>
+  <data name="Proj_DartSpeed" xml:space="preserve">
+    <value>Dart speed</value>
+  </data>
+  <data name="Proj_DartSpeed_Minimum" xml:space="preserve">
+    <value>Just fast enough</value>
+  </data>
+  <data name="Proj_Diagram_Aim" xml:space="preserve">
+    <value>Aimed here</value>
+  </data>
+  <data name="Proj_Diagram_Airless" xml:space="preserve">
+    <value>Without air {0}</value>
+  </data>
+  <data name="Proj_Diagram_Below" xml:space="preserve">
+    <value>Passes {0} below</value>
+  </data>
+  <data name="Proj_Diagram_Drag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="Proj_Diagram_Dropped" xml:space="preserve">
+    <value>Dropped</value>
+  </data>
+  <data name="Proj_Diagram_Envelope" xml:space="preserve">
+    <value>Nothing at this speed gets past this line</value>
+  </data>
+  <data name="Proj_Diagram_Farthest" xml:space="preserve">
+    <value>Farthest {0}° · {1}</value>
+  </data>
+  <data name="Proj_Diagram_GroundShadow" xml:space="preserve">
+    <value>Shadow on the ground: steady</value>
+  </data>
+  <data name="Proj_Diagram_GroundShadowSlowing" xml:space="preserve">
+    <value>Shadow on the ground: slowing</value>
+  </data>
+  <data name="Proj_Diagram_Hit" xml:space="preserve">
+    <value>Hit!</value>
+  </data>
+  <data name="Proj_Diagram_LandTogether" xml:space="preserve">
+    <value>Land together · {0} s</value>
+  </data>
+  <data name="Proj_Diagram_OddNumbers" xml:space="preserve">
+    <value>Fallen in each {0} s: 1 : 3 : 5 : 7 …</value>
+  </data>
+  <data name="Proj_Diagram_Peak" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="Proj_Diagram_PostShadow" xml:space="preserve">
+    <value>Shadow on the post: up, then down</value>
+  </data>
+  <data name="Proj_Diagram_Range" xml:space="preserve">
+    <value>Range {0}</value>
+  </data>
+  <data name="Proj_Diagram_Short" xml:space="preserve">
+    <value>Too slow: it lands first</value>
+  </data>
+  <data name="Proj_Diagram_Thrown" xml:space="preserve">
+    <value>Thrown</value>
+  </data>
+  <data name="Proj_Diagram_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Proj_DragHint_BestAngle" xml:space="preserve">
+    <value>Change the speed, the height or the air on the left-hand page and see which angle wins.</value>
+  </data>
+  <data name="Proj_DragHint_Launch" xml:space="preserve">
+    <value>Drag from the cannon to aim: the direction is the angle, the length is the speed.</value>
+  </data>
+  <data name="Proj_DragHint_Together_DropAndThrow" xml:space="preserve">
+    <value>Change the height, or how fast the second ball is pushed off: they still land together.</value>
+  </data>
+  <data name="Proj_DragHint_Together_MonkeyHunter" xml:space="preserve">
+    <value>Change the dart's speed: fast or slow, it meets the monkey, as long as it gets there before the ground does.</value>
+  </data>
+  <data name="Proj_Drop_Falling_Description" xml:space="preserve">
+    <value>Every pair of strobe images is level: moving sideways neither slows the fall nor speeds it up. In each step both fall 1, 3, 5, 7… times as far as in the first.</value>
+  </data>
+  <data name="Proj_Drop_Falling_Title" xml:space="preserve">
+    <value>Always at the same height</value>
+  </data>
+  <data name="Proj_Drop_Landed_Description" xml:space="preserve">
+    <value>The fall takes √(2h/g) for both. The thrown ball just carries its sideways speed along while it falls.</value>
+  </data>
+  <data name="Proj_Drop_Landed_Title" xml:space="preserve">
+    <value>They land together</value>
+  </data>
+  <data name="Proj_Drop_Ready_Description" xml:space="preserve">
+    <value>At the same moment one ball is let go and the other is pushed off sideways. Which lands first?</value>
+  </data>
+  <data name="Proj_Drop_Ready_Title" xml:space="preserve">
+    <value>Side by side</value>
+  </data>
+  <data name="Proj_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Proj_Fall_Caption" xml:space="preserve">
+    <value>Height over time</value>
+  </data>
+  <data name="Proj_Fall_DropAndThrow_Note" xml:space="preserve">
+    <value>One curve for both balls: moving sideways does not change how a ball falls.</value>
+  </data>
+  <data name="Proj_Fall_MonkeyHunter_Note" xml:space="preserve">
+    <value>The gap between the dart and the monkey shrinks at a steady rate, exactly as if neither were falling.</value>
+  </data>
+  <data name="Proj_Launch" xml:space="preserve">
+    <value>Fire again</value>
+  </data>
+  <data name="Proj_LaunchSpeed" xml:space="preserve">
+    <value>Launch speed</value>
+  </data>
+  <data name="Proj_Launch_Fact1" xml:space="preserve">
+    <value>Galileo showed in 1638 that without air a thrown body follows a parabola: steady across, falling faster and faster.</value>
+  </data>
+  <data name="Proj_Launch_Fact2" xml:space="preserve">
+    <value>On the Moon gravity is about a sixth of Earth's: the same throw goes six times as far and stays up six times as long.</value>
+  </data>
+  <data name="Proj_Launch_Fact3" xml:space="preserve">
+    <value>Without air a ball comes back to its launch height as fast as it was thrown: the speed it lost going up it gets back coming down.</value>
+  </data>
+  <data name="Proj_Launch_Fact4" xml:space="preserve">
+    <value>A baseball hit at 40 m/s and 45° would go about 163 m without air; air drag cuts that to about 96 m.</value>
+  </data>
+  <data name="Proj_Launch_Fact5" xml:space="preserve">
+    <value>A ping-pong ball cannot fall faster than about 8 m/s, a shuttlecock about 6 m/s: the drag soon grows as big as their weight.</value>
+  </data>
+  <data name="Proj_Launch_Note" xml:space="preserve">
+    <value>Drawn to scale: a metre across is as long as a metre up. The ball is drawn bigger than life; a faint image is left at every equal step of time.</value>
+  </data>
+  <data name="Proj_Launch_Subtitle" xml:space="preserve">
+    <value>Across it keeps its speed, downwards it gains speed</value>
+  </data>
+  <data name="Proj_Lesson_Best_Choice1" xml:space="preserve">
+    <value>45 degrees</value>
+  </data>
+  <data name="Proj_Lesson_Best_Choice2" xml:space="preserve">
+    <value>35 degrees</value>
+  </data>
+  <data name="Proj_Lesson_Best_Choice3" xml:space="preserve">
+    <value>65 degrees</value>
+  </data>
+  <data name="Proj_Lesson_Launch_Choice1" xml:space="preserve">
+    <value>They land in the same place</value>
+  </data>
+  <data name="Proj_Lesson_Launch_Choice2" xml:space="preserve">
+    <value>Thirty degrees goes farther</value>
+  </data>
+  <data name="Proj_Lesson_Launch_Choice3" xml:space="preserve">
+    <value>Sixty degrees goes farther</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice1" xml:space="preserve">
+    <value>They land at the same time</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice2" xml:space="preserve">
+    <value>The dropped ball</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice3" xml:space="preserve">
+    <value>The thrown ball</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice4" xml:space="preserve">
+    <value>Straight at the monkey</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice5" xml:space="preserve">
+    <value>Above the monkey</value>
+  </data>
+  <data name="Proj_Lesson_Together_Choice6" xml:space="preserve">
+    <value>Below the monkey</value>
+  </data>
+  <data name="Proj_Mode_BestAngle" xml:space="preserve">
+    <value>Best angle</value>
+  </data>
+  <data name="Proj_Mode_Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Proj_Mode_Together" xml:space="preserve">
+    <value>Fall together</value>
+  </data>
+  <data name="Proj_Monkey_Below_Description" xml:space="preserve">
+    <value>The monkey held on, so the dart, which fell ½gt² on the way, passes under it. To hit a target that stays still, aim above it.</value>
+  </data>
+  <data name="Proj_Monkey_Below_Title" xml:space="preserve">
+    <value>Passes below</value>
+  </data>
+  <data name="Proj_Monkey_FlyingHeld_Description" xml:space="preserve">
+    <value>The dart falls below the line it was aimed along; the monkey stays where it is.</value>
+  </data>
+  <data name="Proj_Monkey_FlyingHeld_Title" xml:space="preserve">
+    <value>The monkey holds on</value>
+  </data>
+  <data name="Proj_Monkey_Flying_Description" xml:space="preserve">
+    <value>Without gravity the dart would fly along the dashed line straight at the branch. With gravity it is ½gt² below that line, and the monkey is just as far below the branch.</value>
+  </data>
+  <data name="Proj_Monkey_Flying_Title" xml:space="preserve">
+    <value>Both falling</value>
+  </data>
+  <data name="Proj_Monkey_Hit_Description" xml:space="preserve">
+    <value>The dart and the monkey fell the same distance in the same time, so the dart arrives exactly where the monkey is. Letting go was the worst thing it could do.</value>
+  </data>
+  <data name="Proj_Monkey_Hit_Title" xml:space="preserve">
+    <value>Hit!</value>
+  </data>
+  <data name="Proj_Monkey_Ready_Description" xml:space="preserve">
+    <value>The hunter aims straight at the monkey. The monkey plans to let go the moment it sees the dart leave. Will that save it?</value>
+  </data>
+  <data name="Proj_Monkey_Ready_Title" xml:space="preserve">
+    <value>Aimed at the monkey</value>
+  </data>
+  <data name="Proj_Monkey_Short_Description" xml:space="preserve">
+    <value>The dart lands before it gets across. It would still have met the monkey, but the ground got in the way first.</value>
+  </data>
+  <data name="Proj_Monkey_Short_Title" xml:space="preserve">
+    <value>Too slow</value>
+  </data>
+  <data name="Proj_NoAir_Note" xml:space="preserve">
+    <value>The Moon has no air: switching drag on changes nothing here.</value>
+  </data>
+  <data name="Proj_Obj_Aim" xml:space="preserve">
+    <value>Aiming line</value>
+  </data>
+  <data name="Proj_Obj_Airless" xml:space="preserve">
+    <value>The same shot without air</value>
+  </data>
+  <data name="Proj_Obj_Ball" xml:space="preserve">
+    <value>Ball</value>
+  </data>
+  <data name="Proj_Obj_Cannon" xml:space="preserve">
+    <value>Cannon</value>
+  </data>
+  <data name="Proj_Obj_Dart" xml:space="preserve">
+    <value>Dart</value>
+  </data>
+  <data name="Proj_Obj_Drag" xml:space="preserve">
+    <value>Air resistance</value>
+  </data>
+  <data name="Proj_Obj_Dropped" xml:space="preserve">
+    <value>The dropped ball</value>
+  </data>
+  <data name="Proj_Obj_Envelope" xml:space="preserve">
+    <value>Edge of reach</value>
+  </data>
+  <data name="Proj_Obj_Fall" xml:space="preserve">
+    <value>How far it has fallen</value>
+  </data>
+  <data name="Proj_Obj_Farthest" xml:space="preserve">
+    <value>The farthest throw</value>
+  </data>
+  <data name="Proj_Obj_GroundShadow" xml:space="preserve">
+    <value>Shadow on the ground</value>
+  </data>
+  <data name="Proj_Obj_Hunter" xml:space="preserve">
+    <value>Hunter</value>
+  </data>
+  <data name="Proj_Obj_Landing" xml:space="preserve">
+    <value>Landing angles</value>
+  </data>
+  <data name="Proj_Obj_Launcher" xml:space="preserve">
+    <value>Launcher</value>
+  </data>
+  <data name="Proj_Obj_Monkey" xml:space="preserve">
+    <value>Monkey</value>
+  </data>
+  <data name="Proj_Obj_OddNumbers" xml:space="preserve">
+    <value>1, 3, 5, 7</value>
+  </data>
+  <data name="Proj_Obj_Peak" xml:space="preserve">
+    <value>Highest point</value>
+  </data>
+  <data name="Proj_Obj_PostShadow" xml:space="preserve">
+    <value>Shadow on the post</value>
+  </data>
+  <data name="Proj_Obj_Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Proj_Obj_Strobe" xml:space="preserve">
+    <value>Strobe snapshots</value>
+  </data>
+  <data name="Proj_Obj_Thrown" xml:space="preserve">
+    <value>The thrown ball</value>
+  </data>
+  <data name="Proj_Obj_Velocity" xml:space="preserve">
+    <value>Velocity</value>
+  </data>
+  <data name="Proj_Obj_Vx" xml:space="preserve">
+    <value>Speed across</value>
+  </data>
+  <data name="Proj_Obj_Vy" xml:space="preserve">
+    <value>Speed up and down</value>
+  </data>
+  <data name="Proj_Obj_Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Proj_Option_AirDrag" xml:space="preserve">
+    <value>Air drag</value>
+  </data>
+  <data name="Proj_Option_LetsGo" xml:space="preserve">
+    <value>Monkey lets go</value>
+  </data>
+  <data name="Proj_Option_Shadows" xml:space="preserve">
+    <value>Shadows</value>
+  </data>
+  <data name="Proj_Option_Strobe" xml:space="preserve">
+    <value>Strobe</value>
+  </data>
+  <data name="Proj_Option_Trails" xml:space="preserve">
+    <value>Keep paths</value>
+  </data>
+  <data name="Proj_Option_Vectors" xml:space="preserve">
+    <value>Velocity and forces</value>
+  </data>
+  <data name="Proj_Place_Caption" xml:space="preserve">
+    <value>Where</value>
+  </data>
+  <data name="Proj_Place_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="Proj_Place_Mars" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="Proj_Place_Moon" xml:space="preserve">
+    <value>Moon</value>
+  </data>
+  <data name="Proj_PlayPause" xml:space="preserve">
+    <value>Play / pause</value>
+  </data>
+  <data name="Proj_Range_Caption" xml:space="preserve">
+    <value>How far it goes, by angle</value>
+  </data>
+  <data name="Proj_Range_Note" xml:space="preserve">
+    <value>Without air the curve is symmetrical about 45°: 30° and 60° land in the same place. From up high, or in air, the peak moves to flatter angles.</value>
+  </data>
+  <data name="Proj_Scene_Caption" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="Proj_Scene_DropAndThrow" xml:space="preserve">
+    <value>Drop and throw</value>
+  </data>
+  <data name="Proj_Scene_MonkeyHunter" xml:space="preserve">
+    <value>Monkey and hunter</value>
+  </data>
+  <data name="Proj_Speed" xml:space="preserve">
+    <value>Playback speed</value>
+  </data>
+  <data name="Proj_Speed_Half" xml:space="preserve">
+    <value>½×</value>
+  </data>
+  <data name="Proj_Speed_One" xml:space="preserve">
+    <value>1×</value>
+  </data>
+  <data name="Proj_Speed_Quarter" xml:space="preserve">
+    <value>¼×</value>
+  </data>
+  <data name="Proj_Speed_Two" xml:space="preserve">
+    <value>2×</value>
+  </data>
+  <data name="Proj_Stage_AirNote" xml:space="preserve">
+    <value>With air, drag pulls against the motion and slows both parts: the way down is steeper than the way up.</value>
+  </data>
+  <data name="Proj_Stage_Falling_Description" xml:space="preserve">
+    <value>Now the downward speed grows by g every second while the pace across stays the same, so the path bends into a parabola.</value>
+  </data>
+  <data name="Proj_Stage_Falling_Title" xml:space="preserve">
+    <value>Coming down</value>
+  </data>
+  <data name="Proj_Stage_Landed_Description" xml:space="preserve">
+    <value>How long it stays up depends only on the upward speed and the height; how far it goes is that time times the speed across.</value>
+  </data>
+  <data name="Proj_Stage_Landed_Title" xml:space="preserve">
+    <value>Landed</value>
+  </data>
+  <data name="Proj_Stage_Ready_Description" xml:space="preserve">
+    <value>The arrow is the launch velocity: its slope is the angle, its length the speed. Drag it to aim.</value>
+  </data>
+  <data name="Proj_Stage_Ready_Title" xml:space="preserve">
+    <value>Ready to fire</value>
+  </data>
+  <data name="Proj_Stage_Rising_Description" xml:space="preserve">
+    <value>Gravity only pulls down, so only the upward part of the speed changes: it loses g every second. Without air, the part across stays the same.</value>
+  </data>
+  <data name="Proj_Stage_Rising_Title" xml:space="preserve">
+    <value>Going up</value>
+  </data>
+  <data name="Proj_Stage_Top_Description" xml:space="preserve">
+    <value>The upward speed has run out, but the ball still moves across: at the top it is slowest, not stopped.</value>
+  </data>
+  <data name="Proj_Stage_Top_Title" xml:space="preserve">
+    <value>At the top</value>
+  </data>
+  <data name="Proj_Stat_Aim" xml:space="preserve">
+    <value>Aim</value>
+  </data>
+  <data name="Proj_Stat_Airless" xml:space="preserve">
+    <value>Without air</value>
+  </data>
+  <data name="Proj_Stat_AirlessBest" xml:space="preserve">
+    <value>Best without air</value>
+  </data>
+  <data name="Proj_Stat_Airless_Value" xml:space="preserve">
+    <value>{0} (air takes {1}% off)</value>
+  </data>
+  <data name="Proj_Stat_At45" xml:space="preserve">
+    <value>At 45°</value>
+  </data>
+  <data name="Proj_Stat_Ball" xml:space="preserve">
+    <value>Ball</value>
+  </data>
+  <data name="Proj_Stat_Ball_AirOff" xml:space="preserve">
+    <value>{0} · no air drag</value>
+  </data>
+  <data name="Proj_Stat_Ball_NoAir" xml:space="preserve">
+    <value>{0} · no air here</value>
+  </data>
+  <data name="Proj_Stat_Ball_Terminal" xml:space="preserve">
+    <value>{0} · falls no faster than {1}</value>
+  </data>
+  <data name="Proj_Stat_BestAngle" xml:space="preserve">
+    <value>Best angle</value>
+  </data>
+  <data name="Proj_Stat_Best_Value" xml:space="preserve">
+    <value>{0}° · {1}</value>
+  </data>
+  <data name="Proj_Stat_BothFallen" xml:space="preserve">
+    <value>Both have fallen</value>
+  </data>
+  <data name="Proj_Stat_Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="Proj_Stat_Branch_Value" xml:space="preserve">
+    <value>{0} away, {1} up</value>
+  </data>
+  <data name="Proj_Stat_DartSpeed" xml:space="preserve">
+    <value>Dart speed</value>
+  </data>
+  <data name="Proj_Stat_FallTime" xml:space="preserve">
+    <value>Time to land</value>
+  </data>
+  <data name="Proj_Stat_Fallen" xml:space="preserve">
+    <value>Fallen so far</value>
+  </data>
+  <data name="Proj_Stat_FirstStep" xml:space="preserve">
+    <value>First step</value>
+  </data>
+  <data name="Proj_Stat_FirstStep_Value" xml:space="preserve">
+    <value>{1} in {0} s</value>
+  </data>
+  <data name="Proj_Stat_FlightTime" xml:space="preserve">
+    <value>Time in the air</value>
+  </data>
+  <data name="Proj_Stat_Landing" xml:space="preserve">
+    <value>Lands at</value>
+  </data>
+  <data name="Proj_Stat_Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Proj_Stat_Launch_Value" xml:space="preserve">
+    <value>{0} from {1} up</value>
+  </data>
+  <data name="Proj_Stat_MinSpeed" xml:space="preserve">
+    <value>Slowest that reaches</value>
+  </data>
+  <data name="Proj_Stat_Now" xml:space="preserve">
+    <value>Where it is</value>
+  </data>
+  <data name="Proj_Stat_Now_Value" xml:space="preserve">
+    <value>{0} across, {1} up</value>
+  </data>
+  <data name="Proj_Stat_Pairs" xml:space="preserve">
+    <value>30° and 60°</value>
+  </data>
+  <data name="Proj_Stat_Pairs_Value" xml:space="preserve">
+    <value>{0} and {1}</value>
+  </data>
+  <data name="Proj_Stat_Peak" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="Proj_Stat_Place" xml:space="preserve">
+    <value>Where</value>
+  </data>
+  <data name="Proj_Stat_Place_Value" xml:space="preserve">
+    <value>{0} · g = {1} m/s²</value>
+  </data>
+  <data name="Proj_Stat_Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Proj_Stat_Reach" xml:space="preserve">
+    <value>Time to get there</value>
+  </data>
+  <data name="Proj_Stat_Reach_Never" xml:space="preserve">
+    <value>never: it lands first</value>
+  </data>
+  <data name="Proj_Stat_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Proj_Stat_Speed_Value" xml:space="preserve">
+    <value>{0} (vx {1}, vy {2})</value>
+  </data>
+  <data name="Proj_Stat_TableHeight" xml:space="preserve">
+    <value>Table height</value>
+  </data>
+  <data name="Proj_Stat_ThrowRange" xml:space="preserve">
+    <value>Thrown ball goes</value>
+  </data>
+  <data name="Proj_Stat_ThrowSpeed" xml:space="preserve">
+    <value>Sideways speed</value>
+  </data>
+  <data name="Proj_ThrowSpeed" xml:space="preserve">
+    <value>Sideways speed</value>
+  </data>
+  <data name="Proj_Timeline" xml:space="preserve">
+    <value>Time since launch</value>
+  </data>
+  <data name="Proj_Title" xml:space="preserve">
+    <value>Projectile motion</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact1" xml:space="preserve">
+    <value>A bullet fired level and one dropped from the same height at the same moment hit flat ground at almost the same time.</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact2" xml:space="preserve">
+    <value>Galileo found that distances fallen in equal times go 1 : 3 : 5 : 7 by timing balls rolling down gentle slopes.</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact3" xml:space="preserve">
+    <value>In the first second anything falls about 4.9 m; after two seconds about 19.6 m, four times as far.</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact4" xml:space="preserve">
+    <value>Strobe photographs, with many flashes on one picture, are how textbooks first showed these motions.</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Fact5" xml:space="preserve">
+    <value>The sideways speed decides only where it lands, not when: push the ball harder and it lands farther, at the same moment.</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Note" xml:space="preserve">
+    <value>Both let go at the same moment from the same height; a faint image at every equal step of time.</value>
+  </data>
+  <data name="Proj_Together_DropAndThrow_Subtitle" xml:space="preserve">
+    <value>Dropped or thrown sideways, they land together</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact1" xml:space="preserve">
+    <value>The monkey and the hunter is a classic lecture demonstration: a can held by an electromagnet drops the moment the ball leaves the launcher.</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact2" xml:space="preserve">
+    <value>It works at any aim angle and any speed fast enough to get there before the ground.</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact3" xml:space="preserve">
+    <value>Gravity pulls everything down alike, so seen by someone falling along with them, the dart just flies straight at the monkey.</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact4" xml:space="preserve">
+    <value>Archers aim above a target that stays still for the same reason: the arrow drops below the line it was aimed along.</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Fact5" xml:space="preserve">
+    <value>With air the dart slows down and the trick is no longer exact; in a lecture hall the distances are short enough for it not to matter.</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Note" xml:space="preserve">
+    <value>No air. The monkey lets go of the branch the moment the dart is fired.</value>
+  </data>
+  <data name="Proj_Together_MonkeyHunter_Subtitle" xml:space="preserve">
+    <value>Aim straight at the monkey and the dart cannot miss</value>
+  </data>
+  <data name="Proj_TowerHeight" xml:space="preserve">
+    <value>Table height</value>
+  </data>
+  <data name="Proj_Velocity_Caption" xml:space="preserve">
+    <value>Velocity across (vx) and up (vy) over time</value>
+  </data>
+  <data name="Proj_Velocity_Note" xml:space="preserve">
+    <value>Without air vx is a flat line and vy a straight line falling by g every second, through zero at the top. With air both sag towards zero, vx too.</value>
   </data>
   <data name="Quake_Boundaries_Fact1" xml:space="preserve">
     <value>The oldest sea floor is only about 180 million years old; older floor has sunk back into the mantle. Continents keep rocks billions of years old.</value>

@@ -12088,6 +12088,933 @@
      ]
     ]
    },
+   "Narr_Proj_Best_01": {
+    "duration": 8.4,
+    "hash": "621ad48bdadb2924",
+    "sentences": [
+     [
+      0.05,
+      8.347,
+      "Seven balls fired at the same moment and the same speed, from fifteen degrees up to seventy-five, ten degrees apart."
+     ]
+    ]
+   },
+   "Narr_Proj_Best_02": {
+    "duration": 2.952,
+    "hash": "d4ac863940336535",
+    "sentences": [
+     [
+      0.05,
+      2.889,
+      "Which angle do you think will go the farthest?"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_03": {
+    "duration": 11.472,
+    "hash": "b1c0b8bfabb770a0",
+    "sentences": [
+     [
+      0.05,
+      2.389,
+      "Forty-five degrees wins."
+     ],
+     [
+      2.389,
+      8.056,
+      "Steeper shots spend their speed climbing; flatter ones hit the ground too soon."
+     ],
+     [
+      8.056,
+      11.403,
+      "Forty-five is the best balance between the two."
+     ]
+    ]
+   },
+   "Narr_Proj_Best_04": {
+    "duration": 13.32,
+    "hash": "dd19afae2449fcdb",
+    "sentences": [
+     [
+      0.05,
+      2.056,
+      "Now look at the landing marks."
+     ],
+     [
+      2.056,
+      10.278,
+      "Thirty-five and fifty-five land together, so do twenty-five and sixty-five, and fifteen and seventy-five."
+     ],
+     [
+      10.278,
+      13.264,
+      "Each pair adds up to ninety degrees."
+     ]
+    ]
+   },
+   "Narr_Proj_Best_05": {
+    "duration": 9.864,
+    "hash": "279977fc7699a319",
+    "sentences": [
+     [
+      0.05,
+      5.417,
+      "The dashed purple line is an edge that no shot at this speed can ever get past."
+     ],
+     [
+      5.417,
+      9.792,
+      "Every path just touches it at one point, and then turns away."
+     ]
+    ]
+   },
+   "Narr_Proj_Best_06": {
+    "duration": 15.192,
+    "hash": "c4f85fbeb6ccf4a0",
+    "sentences": [
+     [
+      0.05,
+      3.736,
+      "Now fire from the top of a cliff twenty metres high."
+     ],
+     [
+      3.736,
+      8.694,
+      "The winner is no longer forty-five degrees, but a flatter angle."
+     ],
+     [
+      8.694,
+      15.125,
+      "Up here, the ball already has extra time to fly while it falls, so it pays to throw it more forwards."
+     ]
+    ]
+   },
+   "Narr_Proj_Best_07": {
+    "duration": 16.896,
+    "hash": "77238103aaf0a0f2",
+    "sentences": [
+     [
+      0.05,
+      3.931,
+      "Back on level ground, now with air, and a football."
+     ],
+     [
+      3.931,
+      11.333,
+      "The best angle drops below forty-five degrees again, because air steals the most from long, high flights."
+     ],
+     [
+      11.333,
+      16.833,
+      "That's one reason throws and kicks in sport usually go off lower than forty-five."
+     ]
+    ]
+   },
+   "Narr_Proj_Best_08": {
+    "duration": 9.384,
+    "hash": "a9ffa7982213ead9",
+    "sentences": [
+     [
+      0.05,
+      1.206,
+      "Your turn."
+     ],
+     [
+      1.206,
+      4.097,
+      "Change the speed on the left-hand page."
+     ],
+     [
+      4.097,
+      9.319,
+      "Without air and on level ground, does forty-five degrees still win?"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_01": {
+    "duration": 11.736,
+    "hash": "e2f00f2014cfe701",
+    "sentences": [
+     [
+      0.05,
+      6.125,
+      "Here's a cannon firing a ball at twenty metres a second, aimed forty-five degrees up."
+     ],
+     [
+      6.125,
+      11.681,
+      "Everything is drawn to scale: a metre across is as long as a metre up."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_02": {
+    "duration": 13.584,
+    "hash": "e0281ddf2d89f460",
+    "sentences": [
+     [
+      0.05,
+      4.917,
+      "The faint balls are snapshots, taken at equal moments apart."
+     ],
+     [
+      4.917,
+      6.471,
+      "Look at their spacing."
+     ],
+     [
+      6.471,
+      9.139,
+      "Across, the gaps are all the same."
+     ],
+     [
+      9.139,
+      13.528,
+      "Up and down, they shrink on the way up and grow on the way down."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_03": {
+    "duration": 8.496,
+    "hash": "46a90fb6f721684a",
+    "sentences": [
+     [
+      0.05,
+      2.903,
+      "The green arrow is the ball's speed across."
+     ],
+     [
+      2.903,
+      8.444,
+      "It stays exactly the same for the whole flight, because nothing pushes the ball sideways."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_04": {
+    "duration": 10.968,
+    "hash": "398e52a15902086a",
+    "sentences": [
+     [
+      0.05,
+      2.819,
+      "The blue arrow is its speed upwards."
+     ],
+     [
+      2.819,
+      10.917,
+      "Gravity takes away the same amount every second, so it shrinks to nothing at the top, then grows again pointing down."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_05": {
+    "duration": 15.408,
+    "hash": "79f2a2cfe765d309",
+    "sentences": [
+     [
+      0.05,
+      2.0,
+      "Now look at the shadows."
+     ],
+     [
+      2.0,
+      6.0,
+      "The one on the ground slides along at a steady pace."
+     ],
+     [
+      6.0,
+      10.889,
+      "The one on the post goes up and comes down, like a ball thrown straight up."
+     ],
+     [
+      10.889,
+      15.347,
+      "The curved flight is just these two simple motions happening at once."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_06": {
+    "duration": 9.432,
+    "hash": "384352fa47453535",
+    "sentences": [
+     [
+      0.05,
+      1.167,
+      "A question."
+     ],
+     [
+      1.167,
+      9.375,
+      "If we fire at thirty degrees, and then at sixty degrees, at the same speed, which one lands farther away?"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_07": {
+    "duration": 12.0,
+    "hash": "f2d3cd5bce0f2424",
+    "sentences": [
+     [
+      0.05,
+      1.068,
+      "Let's see."
+     ],
+     [
+      1.068,
+      5.181,
+      "Here's thirty degrees: a flatter, quicker flight."
+     ],
+     [
+      5.181,
+      7.0,
+      "Watch where it lands."
+     ],
+     [
+      7.0,
+      11.944,
+      "The forty-five degree shot stays behind as a faint path to compare with."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_08": {
+    "duration": 14.712,
+    "hash": "aea4cdad75048606",
+    "sentences": [
+     [
+      0.05,
+      6.208,
+      "And now sixty degrees: higher and slower, but it comes down on the very same spot."
+     ],
+     [
+      6.208,
+      10.958,
+      "Without air, any two angles that add up to ninety land together."
+     ],
+     [
+      10.958,
+      14.653,
+      "And forty-five, right in the middle, still goes the farthest."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_09": {
+    "duration": 13.224,
+    "hash": "f08ff32f94fc9f6f",
+    "sentences": [
+     [
+      0.05,
+      3.403,
+      "Now let's add air, and fire a ping-pong ball."
+     ],
+     [
+      3.403,
+      6.792,
+      "The dashed line is the same shot with no air."
+     ],
+     [
+      6.792,
+      13.153,
+      "The air keeps slowing the ball down, so it falls well short and comes down more steeply than it went up."
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_10": {
+    "duration": 9.312,
+    "hash": "7101824410b89a46",
+    "sentences": [
+     [
+      0.05,
+      1.179,
+      "Your turn."
+     ],
+     [
+      1.179,
+      4.153,
+      "Drag from the cannon to aim your own shot."
+     ],
+     [
+      4.153,
+      9.25,
+      "The direction you drag sets the angle, and how far you drag sets the speed."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Aim": {
+    "duration": 7.368,
+    "hash": "987f64abe7398e1b",
+    "sentences": [
+     [
+      0.05,
+      4.111,
+      "The aiming line, straight from the blowpipe to the monkey."
+     ],
+     [
+      4.111,
+      7.306,
+      "It's where the dart would fly if there were no gravity."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Airless": {
+    "duration": 8.496,
+    "hash": "2b28a48c9bdf223b",
+    "sentences": [
+     [
+      0.05,
+      3.875,
+      "The dashed path is the same shot with no air at all."
+     ],
+     [
+      3.875,
+      8.444,
+      "The gap between it and the real path shows how much the air took away."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Ball": {
+    "duration": 7.944,
+    "hash": "dc42d8ef55016f11",
+    "sentences": [
+     [
+      0.05,
+      1.597,
+      "The ball in flight."
+     ],
+     [
+      1.597,
+      7.914,
+      "Once it leaves the cannon, the only things acting on it are gravity, and the air if there is any."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Cannon": {
+    "duration": 8.016,
+    "hash": "0146000919fd2eaa",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "The cannon."
+     ],
+     [
+      1.153,
+      7.944,
+      "Drag from it to aim: the direction sets the launch angle, and the length of the arrow sets the speed."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Dart": {
+    "duration": 8.376,
+    "hash": "543c56ef23a12437",
+    "sentences": [
+     [
+      0.05,
+      0.972,
+      "The dart."
+     ],
+     [
+      0.972,
+      8.306,
+      "It falls below its straight aiming line by exactly as much as the monkey falls below the branch, so the two meet."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Drag": {
+    "duration": 10.872,
+    "hash": "15d8ef31b722fcf7",
+    "sentences": [
+     [
+      0.05,
+      3.792,
+      "Air resistance, always pointing against the motion."
+     ],
+     [
+      3.792,
+      10.819,
+      "It grows quickly with speed, and it hits light balls like ping-pong balls and shuttlecocks the hardest."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Dropped": {
+    "duration": 7.152,
+    "hash": "f47363b9d804e816",
+    "sentences": [
+     [
+      0.05,
+      1.431,
+      "The dropped ball."
+     ],
+     [
+      1.431,
+      7.097,
+      "It's simply let go, and falls straight down, faster and faster."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Envelope": {
+    "duration": 10.536,
+    "hash": "27ea3b20a71e2843",
+    "sentences": [
+     [
+      0.05,
+      3.875,
+      "The edge of reach, sometimes called the safety parabola."
+     ],
+     [
+      3.875,
+      8.153,
+      "At this speed, no shot at any angle can get past it."
+     ],
+     [
+      8.153,
+      10.486,
+      "Every path touches it once."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Fall": {
+    "duration": 12.648,
+    "hash": "11c0967269383c7b",
+    "sentences": [
+     [
+      0.05,
+      6.833,
+      "How far below its no-gravity position each one has fallen: one half g t squared."
+     ],
+     [
+      6.833,
+      12.583,
+      "It's the same for the dart and for the monkey, because both have been falling for the same time."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Farthest": {
+    "duration": 12.432,
+    "hash": "fe9aa3f070b35e6b",
+    "sentences": [
+     [
+      0.05,
+      4.597,
+      "The angle that throws the farthest at this speed, and how far it goes."
+     ],
+     [
+      4.597,
+      12.361,
+      "Without air and on level ground it's forty-five degrees; from up high, or with air, it's lower."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_GroundShadow": {
+    "duration": 9.408,
+    "hash": "c6b82226ec04966b",
+    "sentences": [
+     [
+      0.05,
+      3.528,
+      "The ball's shadow on the ground, straight below it."
+     ],
+     [
+      3.528,
+      9.347,
+      "It shows just the motion across: steady without air, slowing down with air."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Hunter": {
+    "duration": 12.168,
+    "hash": "11c49d63628d4bed",
+    "sentences": [
+     [
+      0.05,
+      3.792,
+      "The hunter's blowpipe, aimed straight at the monkey."
+     ],
+     [
+      3.792,
+      12.097,
+      "Change the dart's speed on the left-hand page: any speed hits, as long as the dart arrives before the monkey reaches the ground."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Landing": {
+    "duration": 9.576,
+    "hash": "decf586242acf0c0",
+    "sentences": [
+     [
+      0.05,
+      2.319,
+      "Where each angle landed."
+     ],
+     [
+      2.319,
+      9.514,
+      "Without air, two angles that add up to ninety degrees land in the same place, so they share one label."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Launcher": {
+    "duration": 13.368,
+    "hash": "16e896626a043125",
+    "sentences": [
+     [
+      0.05,
+      7.208,
+      "The launcher fires seven balls at once, all at the same speed, at angles ten degrees apart."
+     ],
+     [
+      7.208,
+      13.306,
+      "Change the speed, the height or the air on the left-hand page and see which angle wins."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Monkey": {
+    "duration": 10.8,
+    "hash": "a629c187b1a9d13c",
+    "sentences": [
+     [
+      0.05,
+      1.125,
+      "The monkey."
+     ],
+     [
+      1.125,
+      6.722,
+      "It lets go of the branch the moment the dart is fired, and falls just like any dropped ball."
+     ],
+     [
+      6.722,
+      10.736,
+      "Turn off 'Monkey lets go' to see what happens if it holds on."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_OddNumbers": {
+    "duration": 14.568,
+    "hash": "3bbf7859870eb8c2",
+    "sentences": [
+     [
+      0.05,
+      7.403,
+      "How far the balls fall in each equal step of time: one, three, five, seven parts, and so on."
+     ],
+     [
+      7.403,
+      14.514,
+      "Add them up and you get one, four, nine, sixteen: the distance grows as the square of the time."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Peak": {
+    "duration": 8.568,
+    "hash": "cf498115706e0b2c",
+    "sentences": [
+     [
+      0.05,
+      1.681,
+      "The highest point."
+     ],
+     [
+      1.681,
+      6.514,
+      "Here the ball has stopped going up for an instant, but it's still moving across."
+     ],
+     [
+      6.514,
+      8.5,
+      "It never stops completely."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_PostShadow": {
+    "duration": 12.216,
+    "hash": "75bee5efecc040a5",
+    "sentences": [
+     [
+      0.05,
+      3.528,
+      "The ball's shadow on the post, straight across from it."
+     ],
+     [
+      3.528,
+      12.153,
+      "It shows just the motion up and down: it rises, slows, stops, and falls back, exactly like a ball thrown straight up."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Range": {
+    "duration": 12.0,
+    "hash": "b7bfd5afc4fb6d0d",
+    "sentences": [
+     [
+      0.05,
+      3.653,
+      "The range: how far away the ball lands."
+     ],
+     [
+      3.653,
+      8.333,
+      "Without air it depends on the speed, the angle and the strength of gravity."
+     ],
+     [
+      8.333,
+      11.944,
+      "Double the speed and it goes four times as far."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Strobe": {
+    "duration": 13.608,
+    "hash": "4a5a51f29a9f0c3f",
+    "sentences": [
+     [
+      0.05,
+      4.542,
+      "Strobe snapshots: where the ball was at equal moments apart."
+     ],
+     [
+      4.542,
+      13.542,
+      "Even spacing across means a steady speed across; the spacing up and down changes, because gravity speeds it up and slows it down."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Thrown": {
+    "duration": 8.856,
+    "hash": "c1112e3984075bbd",
+    "sentences": [
+     [
+      0.05,
+      1.361,
+      "The thrown ball."
+     ],
+     [
+      1.361,
+      8.792,
+      "It leaves sideways at the same moment, but falls exactly like the dropped one, so the two are always at the same height."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Velocity": {
+    "duration": 11.808,
+    "hash": "ee4cd625840c5153",
+    "sentences": [
+     [
+      0.05,
+      5.681,
+      "The white arrow is the ball's velocity: how fast it's going and in which direction."
+     ],
+     [
+      5.681,
+      11.75,
+      "It always points along the path, and it's made of the green part across and the blue part up."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Vx": {
+    "duration": 7.752,
+    "hash": "6ec289aaa6062b74",
+    "sentences": [
+     [
+      0.05,
+      1.694,
+      "The speed across."
+     ],
+     [
+      1.694,
+      7.694,
+      "Without air nothing pushes the ball sideways, so it stays the same from launch to landing."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Vy": {
+    "duration": 10.776,
+    "hash": "a77c72e0c6ce685d",
+    "sentences": [
+     [
+      0.05,
+      1.736,
+      "The speed up and down."
+     ],
+     [
+      1.736,
+      10.722,
+      "Gravity changes it by the same amount every second: it shrinks on the way up, is zero at the very top, and grows on the way down."
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Weight": {
+    "duration": 9.312,
+    "hash": "c4bcf6c26a36cb2f",
+    "sentences": [
+     [
+      0.05,
+      3.042,
+      "The ball's weight, the pull of gravity."
+     ],
+     [
+      3.042,
+      9.25,
+      "It's the same size and always points straight down, whether the ball is rising, at the top, or falling."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_01": {
+    "duration": 9.168,
+    "hash": "b3fd9088b297fd59",
+    "sentences": [
+     [
+      0.05,
+      3.958,
+      "Two balls leave this table at exactly the same moment."
+     ],
+     [
+      3.958,
+      6.639,
+      "The pink one is simply let go."
+     ],
+     [
+      6.639,
+      9.097,
+      "The blue one is thrown sideways."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_02": {
+    "duration": 2.736,
+    "hash": "b919d3ca54ed8620",
+    "sentences": [
+     [
+      0.05,
+      2.681,
+      "Which one do you think hits the ground first?"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_03": {
+    "duration": 11.952,
+    "hash": "2d64786aa342c3df",
+    "sentences": [
+     [
+      0.05,
+      2.042,
+      "They land together."
+     ],
+     [
+      2.042,
+      8.278,
+      "Look at the snapshots: at every moment the two balls are at exactly the same height."
+     ],
+     [
+      8.278,
+      11.889,
+      "Moving sideways doesn't change how fast you fall."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_04": {
+    "duration": 13.128,
+    "hash": "65d7b9b7c1ef8027",
+    "sentences": [
+     [
+      0.05,
+      9.958,
+      "In each equal step of time they fall farther than before: one, then three, then five, then seven times as far as in the first step."
+     ],
+     [
+      9.958,
+      13.056,
+      "That's what speeding up steadily looks like."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_05": {
+    "duration": 9.264,
+    "hash": "01fd0e669e0aefa8",
+    "sentences": [
+     [
+      0.05,
+      3.028,
+      "Now throw the blue ball twice as fast."
+     ],
+     [
+      3.028,
+      9.208,
+      "It lands twice as far away, but still at exactly the same moment as the pink one."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_06": {
+    "duration": 11.688,
+    "hash": "1483c0c984153c7c",
+    "sentences": [
+     [
+      0.05,
+      1.944,
+      "Here's a famous puzzle."
+     ],
+     [
+      1.944,
+      6.889,
+      "A hunter aims a dart straight at a monkey hanging from a branch."
+     ],
+     [
+      6.889,
+      11.639,
+      "The moment the dart is fired, the monkey lets go and drops."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_07": {
+    "duration": 4.08,
+    "hash": "0ea6f77a360c0f4d",
+    "sentences": [
+     [
+      0.05,
+      4.028,
+      "So where should the hunter aim, to hit the falling monkey?"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_08": {
+    "duration": 14.88,
+    "hash": "ddf6b07686b09ccc",
+    "sentences": [
+     [
+      0.05,
+      1.194,
+      "Straight at it."
+     ],
+     [
+      1.194,
+      10.958,
+      "Gravity pulls the dart and the monkey down by exactly the same amount, one half g t squared, below where each would be without it."
+     ],
+     [
+      10.958,
+      14.819,
+      "So the dart drops just as far as the monkey does, and hits."
+     ]
+    ]
+   },
+   "Narr_Proj_Together_09": {
+    "duration": 11.184,
+    "hash": "98494601cda3639e",
+    "sentences": [
+     [
+      0.05,
+      1.153,
+      "Your turn."
+     ],
+     [
+      1.153,
+      4.417,
+      "Change the dart's speed on the left-hand page."
+     ],
+     [
+      4.417,
+      11.125,
+      "Fast or slow, it still hits, as long as it gets there before the monkey reaches the ground."
+     ]
+    ]
+   },
    "Narr_Quake_Boundaries_01": {
     "duration": 17.712,
     "hash": "0f3aa6f2cc268f56",
@@ -37858,6 +38785,888 @@
       0.1,
       7.175,
       "现在你来试试：拖动时间轴，找找别的图案，比如三排或者四排。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_01": {
+    "duration": 8.736,
+    "hash": "73e081211f87cd33",
+    "sentences": [
+     [
+      0.1,
+      8.717,
+      "七个球在同一时刻、以同样的速度发射，角度从 15 度到 75 度，每隔 10 度一个。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_02": {
+    "duration": 3.504,
+    "hash": "255c06b88e908a1f",
+    "sentences": [
+     [
+      0.1,
+      3.494,
+      "你觉得哪个角度会飞得最远？"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_03": {
+    "duration": 13.512,
+    "hash": "036171165fcd692a",
+    "sentences": [
+     [
+      0.1,
+      2.161,
+      "45 度胜出。"
+     ],
+     [
+      2.111,
+      8.639,
+      "角度太陡，速度都花在往上爬了；角度太平，又太早落地。"
+     ],
+     [
+      8.639,
+      13.458,
+      "45 度正好在两者之间取得最好的平衡。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_04": {
+    "duration": 13.512,
+    "hash": "b856050231cef585",
+    "sentences": [
+     [
+      0.1,
+      10.472,
+      "再看落地的标记：35 度和 55 度落在一起，25 度和 65 度也是，15 度和 75 度也是。"
+     ],
+     [
+      10.472,
+      13.458,
+      "每一对加起来都是 90 度。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_05": {
+    "duration": 11.832,
+    "hash": "8bd459d6b0574b77",
+    "sentences": [
+     [
+      0.1,
+      6.55,
+      "这条紫色的虚线，是这个速度下任何一发都越不过去的边界。"
+     ],
+     [
+      6.5,
+      11.764,
+      "每一条轨迹都只在一个点上碰到它，然后就拐开了。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_06": {
+    "duration": 16.08,
+    "hash": "b476e894ccc17b84",
+    "sentences": [
+     [
+      0.1,
+      3.786,
+      "现在从 20 米高的悬崖顶上发射。"
+     ],
+     [
+      3.736,
+      8.306,
+      "冠军不再是 45 度，而是一个更平的角度。"
+     ],
+     [
+      8.306,
+      16.028,
+      "在高处，球下落时本来就多出一段飞行时间，所以往前扔会更划算。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_07": {
+    "duration": 19.728,
+    "hash": "b65bc55382f50b21",
+    "sentences": [
+     [
+      0.1,
+      4.8,
+      "回到平地上，这次加上空气，换成足球。"
+     ],
+     [
+      4.75,
+      12.333,
+      "最佳角度又低于 45 度了，因为飞得又高又久的球，被空气拖慢得最多。"
+     ],
+     [
+      12.333,
+      19.667,
+      "这也是体育比赛里投掷和踢球的角度，通常都低于 45 度的原因之一。"
+     ]
+    ]
+   },
+   "Narr_Proj_Best_08": {
+    "duration": 9.48,
+    "hash": "aca901570dc64ad5",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      4.139,
+      "在左页改一改速度。"
+     ],
+     [
+      4.139,
+      9.431,
+      "在平地上、没有空气的时候，45 度还会胜出吗？"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_01": {
+    "duration": 12.864,
+    "hash": "00d72b00f9d696d2",
+    "sentences": [
+     [
+      0.1,
+      7.106,
+      "这里有一门大炮，以每秒 20 米的速度、45 度角向上发射一个球。"
+     ],
+     [
+      7.056,
+      12.806,
+      "整幅图是按比例画的：横着一米和竖着一米一样长。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_02": {
+    "duration": 15.096,
+    "hash": "3b36bb99efc01f74",
+    "sentences": [
+     [
+      0.1,
+      5.856,
+      "那些淡淡的球，是每隔相同时间拍下的一张张快照。"
+     ],
+     [
+      5.806,
+      15.042,
+      "看看它们的间距：横着看，间距都一样；竖着看，上升时越来越小，下落时越来越大。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_03": {
+    "duration": 10.08,
+    "hash": "130b1dbc1c24211e",
+    "sentences": [
+     [
+      0.1,
+      3.481,
+      "绿色的箭头是球横向的速度。"
+     ],
+     [
+      3.431,
+      10.028,
+      "整个飞行过程中它一点都不变，因为没有什么东西在横向推球。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_04": {
+    "duration": 11.688,
+    "hash": "883050b06acc3e89",
+    "sentences": [
+     [
+      0.1,
+      3.592,
+      "蓝色的箭头是球向上的速度。"
+     ],
+     [
+      3.542,
+      11.625,
+      "重力每秒都把它减掉同样多，所以到最高点时变成零，然后又朝下越变越长。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_05": {
+    "duration": 15.864,
+    "hash": "b1dc2f1d11950b22",
+    "sentences": [
+     [
+      0.1,
+      1.953,
+      "现在看影子。"
+     ],
+     [
+      1.903,
+      9.972,
+      "地上的影子匀速向前滑；柱子上的影子先上后下，就像一个竖直往上抛的球。"
+     ],
+     [
+      9.972,
+      15.806,
+      "弯弯的飞行轨迹，其实就是这两个简单的运动同时发生。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_06": {
+    "duration": 7.944,
+    "hash": "b56beaa1566d7dfe",
+    "sentences": [
+     [
+      0.1,
+      7.939,
+      "考考你：同样的速度，先用 30 度发射，再用 60 度发射，哪一个落得更远？"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_07": {
+    "duration": 13.872,
+    "hash": "37d3ce944dee5d14",
+    "sentences": [
+     [
+      0.1,
+      1.8,
+      "我们来看看。"
+     ],
+     [
+      1.75,
+      5.5,
+      "这是 30 度：飞得更平、更快。"
+     ],
+     [
+      5.5,
+      7.542,
+      "注意它落在哪里。"
+     ],
+     [
+      7.542,
+      13.806,
+      "刚才 45 度的那一发，留下了一条淡淡的轨迹，可以拿来比较。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_08": {
+    "duration": 17.136,
+    "hash": "480a6b53091939c1",
+    "sentences": [
+     [
+      0.1,
+      6.175,
+      "再来 60 度：飞得更高、更慢，却正好落在同一个点上。"
+     ],
+     [
+      6.125,
+      12.528,
+      "没有空气时，两个角度只要加起来是 90 度，就落在同一个地方。"
+     ],
+     [
+      12.528,
+      17.083,
+      "而正好在中间的 45 度，仍然飞得最远。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_09": {
+    "duration": 15.888,
+    "hash": "a2e762c5be8eecaf",
+    "sentences": [
+     [
+      0.1,
+      4.175,
+      "现在加上空气，换成发射乒乓球。"
+     ],
+     [
+      4.125,
+      7.667,
+      "虚线是没有空气时同样的一发。"
+     ],
+     [
+      7.667,
+      15.819,
+      "空气一直在给球减速，所以它落得近了很多，而且下落时比上升时陡得多。"
+     ]
+    ]
+   },
+   "Narr_Proj_Launch_10": {
+    "duration": 10.536,
+    "hash": "7bb49832b244c6a9",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      6.069,
+      "从大炮上拖出箭头，瞄准你自己的一发。"
+     ],
+     [
+      6.069,
+      10.486,
+      "拖的方向决定角度，拖的长短决定速度。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Aim": {
+    "duration": 8.304,
+    "hash": "7533b6b6be4bfefa",
+    "sentences": [
+     [
+      0.1,
+      4.036,
+      "瞄准线，从吹管笔直地指向猴子。"
+     ],
+     [
+      3.986,
+      8.236,
+      "如果没有重力，飞镖就会沿着这条线飞。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Airless": {
+    "duration": 9.696,
+    "hash": "8916e56742bf1e7f",
+    "sentences": [
+     [
+      0.1,
+      4.064,
+      "虚线是完全没有空气时同样的一发。"
+     ],
+     [
+      4.014,
+      9.625,
+      "它和真实轨迹之间的差距，就是空气带走的那部分。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Ball": {
+    "duration": 9.024,
+    "hash": "7d4e78f042de3ae1",
+    "sentences": [
+     [
+      0.1,
+      1.981,
+      "正在飞的球。"
+     ],
+     [
+      1.931,
+      8.972,
+      "离开大炮以后，作用在它身上的只有重力，以及有空气时的空气阻力。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Cannon": {
+    "duration": 9.888,
+    "hash": "32e93414b01069e0",
+    "sentences": [
+     [
+      0.1,
+      1.383,
+      "大炮。"
+     ],
+     [
+      1.333,
+      9.819,
+      "从它上面往外拖，就可以瞄准：拖的方向是发射角度，箭头的长短是发射速度。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Dart": {
+    "duration": 9.504,
+    "hash": "3d633e7e83efe40f",
+    "sentences": [
+     [
+      0.1,
+      1.425,
+      "飞镖。"
+     ],
+     [
+      1.375,
+      9.444,
+      "它比笔直的瞄准线低了多少，猴子就比树枝低了多少，所以两者正好相遇。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Drag": {
+    "duration": 12.096,
+    "hash": "040cc19f18c2a8b5",
+    "sentences": [
+     [
+      0.1,
+      4.383,
+      "空气阻力，方向总是和运动方向相反。"
+     ],
+     [
+      4.333,
+      12.028,
+      "速度越快，它增长得越厉害；对乒乓球、羽毛球这样轻的球影响最大。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Dropped": {
+    "duration": 7.368,
+    "hash": "2c6ad38d65509eb1",
+    "sentences": [
+     [
+      0.1,
+      2.244,
+      "松手落下的球。"
+     ],
+     [
+      2.194,
+      7.306,
+      "它只是被松开，然后竖直往下落，越落越快。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Envelope": {
+    "duration": 12.504,
+    "hash": "ad4511d596e3529e",
+    "sentences": [
+     [
+      0.1,
+      3.953,
+      "可达边界，有时也叫安全抛物线。"
+     ],
+     [
+      3.903,
+      8.958,
+      "在这个速度下，不管用什么角度，都越不过这条线。"
+     ],
+     [
+      8.958,
+      12.444,
+      "每一条轨迹都恰好碰到它一次。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Fall": {
+    "duration": 11.712,
+    "hash": "9f68e7970f4055b5",
+    "sentences": [
+     [
+      0.1,
+      6.022,
+      "各自比没有重力时的位置低了多少：二分之一 g t 平方。"
+     ],
+     [
+      5.972,
+      11.639,
+      "飞镖和猴子的这个距离一样，因为它们下落的时间一样长。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Farthest": {
+    "duration": 13.512,
+    "hash": "8a979a62864f6eb7",
+    "sentences": [
+     [
+      0.1,
+      5.203,
+      "在这个速度下扔得最远的角度，以及它能飞多远。"
+     ],
+     [
+      5.153,
+      13.444,
+      "在平地上、没有空气时是 45 度；从高处发射或者有空气时，它会更低。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_GroundShadow": {
+    "duration": 10.536,
+    "hash": "a7d2483e1282f2b2",
+    "sentences": [
+     [
+      0.1,
+      4.175,
+      "球在地面上的影子，正好在球的下方。"
+     ],
+     [
+      4.125,
+      10.472,
+      "它只显示横向的运动：没有空气时匀速，有空气时越来越慢。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Hunter": {
+    "duration": 11.352,
+    "hash": "1f1a987344aa2d59",
+    "sentences": [
+     [
+      0.1,
+      3.647,
+      "猎人的吹管，正对着猴子瞄准。"
+     ],
+     [
+      3.597,
+      11.292,
+      "在左页改飞镖的速度：什么速度都能打中，只要飞镖在猴子落地之前飞到。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Landing": {
+    "duration": 10.68,
+    "hash": "38c8517717c965bb",
+    "sentences": [
+     [
+      0.1,
+      2.217,
+      "每个角度的落点。"
+     ],
+     [
+      2.167,
+      10.625,
+      "没有空气时，加起来是 90 度的两个角度落在同一个地方，所以它们共用一个标签。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Launcher": {
+    "duration": 12.12,
+    "hash": "039ada432b539105",
+    "sentences": [
+     [
+      0.1,
+      6.369,
+      "发射器同时发射七个球，速度都一样，角度每隔 10 度一个。"
+     ],
+     [
+      6.319,
+      12.069,
+      "在左页改速度、高度或空气阻力，看哪个角度胜出。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Monkey": {
+    "duration": 11.832,
+    "hash": "a07d4376c45d19e6",
+    "sentences": [
+     [
+      0.1,
+      1.383,
+      "猴子。"
+     ],
+     [
+      1.333,
+      7.778,
+      "飞镖射出的那一刻，它松开树枝，像任何松手的球一样往下落。"
+     ],
+     [
+      7.778,
+      11.764,
+      "关掉“猴子松手”，看看它不松手会怎样。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_OddNumbers": {
+    "duration": 15.12,
+    "hash": "7c96a4a7cbfc8f8a",
+    "sentences": [
+     [
+      0.1,
+      15.056,
+      "每一段相同的时间里，球下落的距离：1 份、3 份、5 份、7 份……把它们加起来，就是 1、4、9、16，下落的距离和时间的平方成正比。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Peak": {
+    "duration": 9.36,
+    "hash": "dcc1de33bf67b2a7",
+    "sentences": [
+     [
+      0.1,
+      1.633,
+      "最高点。"
+     ],
+     [
+      1.583,
+      9.306,
+      "在这一瞬间球不再往上走了，但它仍然在横着向前飞，并没有完全停下来。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_PostShadow": {
+    "duration": 12.552,
+    "hash": "94e27a17d344d047",
+    "sentences": [
+     [
+      0.1,
+      3.744,
+      "球在柱子上的影子，和球一样高。"
+     ],
+     [
+      3.694,
+      12.5,
+      "它只显示竖向的运动：上升、变慢、停住、再落回来，和竖直上抛的球一模一样。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Range": {
+    "duration": 12.984,
+    "hash": "0530d709efca2eed",
+    "sentences": [
+     [
+      0.1,
+      3.425,
+      "射程：球落在多远的地方。"
+     ],
+     [
+      3.375,
+      8.875,
+      "没有空气时，它取决于速度、角度和重力的大小。"
+     ],
+     [
+      8.875,
+      12.917,
+      "速度变成两倍，射程就变成四倍。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Strobe": {
+    "duration": 13.992,
+    "hash": "3a8f89482b735889",
+    "sentences": [
+     [
+      0.1,
+      5.147,
+      "频闪影像：每隔相同时间，球所在的位置。"
+     ],
+     [
+      5.097,
+      13.931,
+      "横向间距相等，说明横向速度不变；竖向间距在变，是因为重力让它减速又加速。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Thrown": {
+    "duration": 11.856,
+    "hash": "ec5cdf955aa6e9ff",
+    "sentences": [
+     [
+      0.1,
+      2.286,
+      "水平抛出的球。"
+     ],
+     [
+      2.236,
+      11.792,
+      "它在同一时刻横着飞出去，但往下落的方式和松手的球一模一样，所以两个球始终一样高。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Velocity": {
+    "duration": 12.168,
+    "hash": "cfdbd1af71f4cbf8",
+    "sentences": [
+     [
+      0.1,
+      5.106,
+      "白色箭头是球的速度：有多快，朝哪个方向。"
+     ],
+     [
+      5.056,
+      12.097,
+      "它总是沿着轨迹的方向，由横向的绿色部分和竖向的蓝色部分合成。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Vx": {
+    "duration": 9.168,
+    "hash": "46e28e5c0068e6c1",
+    "sentences": [
+     [
+      0.1,
+      1.814,
+      "横向速度。"
+     ],
+     [
+      1.764,
+      9.097,
+      "没有空气时，没有什么东西横着推球，所以从发射到落地，它都保持不变。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Vy": {
+    "duration": 11.352,
+    "hash": "3a2ec476a868eb9d",
+    "sentences": [
+     [
+      0.1,
+      1.842,
+      "竖向速度。"
+     ],
+     [
+      1.792,
+      11.292,
+      "重力每秒都让它改变同样多：上升时越来越小，到最高点正好是零，下落时又越来越大。"
+     ]
+    ]
+   },
+   "Narr_Proj_Obj_Weight": {
+    "duration": 10.56,
+    "hash": "71a65d23318b6ea8",
+    "sentences": [
+     [
+      0.1,
+      2.092,
+      "球受到的重力。"
+     ],
+     [
+      2.042,
+      10.5,
+      "不管球是在上升、在最高点还是在下落，它的大小都一样，方向总是竖直向下。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_01": {
+    "duration": 10.248,
+    "hash": "d3a48f2b2e7bc85a",
+    "sentences": [
+     [
+      0.1,
+      3.828,
+      "两个球在同一时刻离开这张桌子。"
+     ],
+     [
+      3.778,
+      10.181,
+      "粉色的球只是松手让它落下，蓝色的球则被水平抛了出去。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_02": {
+    "duration": 2.736,
+    "hash": "903fa6d5f769cc2e",
+    "sentences": [
+     [
+      0.1,
+      2.717,
+      "你觉得哪一个先落地？"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_03": {
+    "duration": 11.928,
+    "hash": "0ae7b3e00a73ef36",
+    "sentences": [
+     [
+      0.1,
+      2.036,
+      "它们同时落地。"
+     ],
+     [
+      1.986,
+      7.597,
+      "看这些快照：每一刻，两个球都在完全相同的高度。"
+     ],
+     [
+      7.597,
+      11.875,
+      "横着运动，并不会改变往下落的快慢。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_04": {
+    "duration": 12.432,
+    "hash": "407940e738d59646",
+    "sentences": [
+     [
+      0.1,
+      9.667,
+      "在每一段相同的时间里，它们都比上一段落得更多：第一段是 1 份，接着是 3 份、5 份、7 份。"
+     ],
+     [
+      9.667,
+      12.361,
+      "这就是均匀加速的样子。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_05": {
+    "duration": 9.096,
+    "hash": "49e2aef769437eef",
+    "sentences": [
+     [
+      0.1,
+      3.397,
+      "现在把蓝色的球抛得快一倍。"
+     ],
+     [
+      3.347,
+      9.042,
+      "它落得远了一倍，但仍然和粉色的球在同一时刻落地。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_06": {
+    "duration": 11.136,
+    "hash": "a2228a65ff5317bb",
+    "sentences": [
+     [
+      0.1,
+      6.717,
+      "这是一个有名的难题：猎人把飞镖直直地瞄准挂在树枝上的猴子。"
+     ],
+     [
+      6.667,
+      11.083,
+      "飞镖射出的那一刻，猴子松开手往下掉。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_07": {
+    "duration": 5.664,
+    "hash": "fc30cd195a48dff6",
+    "sentences": [
+     [
+      0.1,
+      5.647,
+      "那么，猎人应该瞄准哪里，才能打中正在下落的猴子？"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_08": {
+    "duration": 15.6,
+    "hash": "18f463b399bc1878",
+    "sentences": [
+     [
+      0.1,
+      2.328,
+      "直接瞄准就对了。"
+     ],
+     [
+      2.278,
+      9.931,
+      "重力让飞镖和猴子都比没有重力时低了同样多，也就是二分之一 g t 平方。"
+     ],
+     [
+      9.931,
+      15.528,
+      "飞镖掉下去多少，猴子也掉下去多少，所以正好打中。"
+     ]
+    ]
+   },
+   "Narr_Proj_Together_09": {
+    "duration": 11.04,
+    "hash": "25b7d5598a74c711",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      4.764,
+      "在左页改一改飞镖的速度。"
+     ],
+     [
+      4.764,
+      10.972,
+      "不管快还是慢，它都能打中，只要在猴子落地之前飞到那里。"
      ]
     ]
    },

@@ -22,6 +22,7 @@ using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.Chapters.Typhoon;
 using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Chapters.WaterCycle;
+using Lemon.Explore.Book.Chapters.Projectile;
 using Lemon.Explore.Book.Chapters.Sound;
 using Lemon.Explore.Book.Chapters.Waves;
 using Lemon.Explore.Book.ViewModels.Pages;
@@ -35,7 +36,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -248,6 +249,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, sound.Lesson, () => sound.Mode.ToString(), Enum.GetNames<SoundMode>());
                 return (new SoundTextPageViewModel(textPage, navigator, chapter, number, sound),
                     new SoundDiagramPageViewModel(textPage + 1, navigator, chapter, sound));
+            }
+
+            case "Projectile":
+            {
+                var projectile = new ProjectileViewModel(services.Location, services.Narration);
+                services.Progress.Track(chapter.Slug, projectile.Lesson, () => projectile.Mode.ToString(), Enum.GetNames<ProjectileMode>());
+                return (new ProjectileTextPageViewModel(textPage, navigator, chapter, number, projectile),
+                    new ProjectileDiagramPageViewModel(textPage + 1, navigator, chapter, projectile));
             }
 
             default:

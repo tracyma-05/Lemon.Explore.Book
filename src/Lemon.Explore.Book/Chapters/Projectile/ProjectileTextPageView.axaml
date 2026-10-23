@@ -1,0 +1,226 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:proj="using:Lemon.Explore.Book.Chapters.Projectile"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.Projectile.ProjectileTextPageView"
+                         x:DataType="proj:ProjectileTextPageViewModel">
+    <!-- Left page of the Projectile spread: where and what is thrown, the shot, its charts, and what is happening. -->
+    <explore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </explore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Projectile.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Projectile.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Projectile.DragHint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="ProjMode" IsChecked="{Binding Projectile.IsLaunch}" Content="{loc:Localize Proj_Mode_Launch}" />
+                    <RadioButton Classes="chip" GroupName="ProjMode" IsChecked="{Binding Projectile.IsBestAngle}" Content="{loc:Localize Proj_Mode_BestAngle}" />
+                    <RadioButton Classes="chip" GroupName="ProjMode" IsChecked="{Binding Projectile.IsTogether}" Content="{loc:Localize Proj_Mode_Together}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Projectile.Card}" />
+
+                <!-- Where it is thrown: the place sets the pull of gravity -->
+                <explore:LocationChip Margin="0,14,0,0" Service="{Binding Projectile.Location}" />
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Place_Caption}" />
+                <WrapPanel>
+                    <RadioButton Classes="chip" GroupName="ProjPlace" IsChecked="{Binding Projectile.PlaceChoice[Earth]}" Content="{loc:Localize Proj_Place_Earth}" />
+                    <RadioButton Classes="chip" GroupName="ProjPlace" IsChecked="{Binding Projectile.PlaceChoice[Moon]}" Content="{loc:Localize Proj_Place_Moon}" />
+                    <RadioButton Classes="chip" GroupName="ProjPlace" IsChecked="{Binding Projectile.PlaceChoice[Mars]}" Content="{loc:Localize Proj_Place_Mars}" />
+                </WrapPanel>
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Projectile.EarthGravityNote}" />
+
+                <!-- Launch and best angle: the ball, the air, and the shot -->
+                <StackPanel IsVisible="{Binding Projectile.IsThrowing}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Ball_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="ProjBall" IsChecked="{Binding Projectile.BallChoice[ShotPut]}" Content="{loc:Localize Proj_Ball_ShotPut}" />
+                        <RadioButton Classes="chip" GroupName="ProjBall" IsChecked="{Binding Projectile.BallChoice[Soccer]}" Content="{loc:Localize Proj_Ball_Soccer}" />
+                        <RadioButton Classes="chip" GroupName="ProjBall" IsChecked="{Binding Projectile.BallChoice[Baseball]}" Content="{loc:Localize Proj_Ball_Baseball}" />
+                        <RadioButton Classes="chip" GroupName="ProjBall" IsChecked="{Binding Projectile.BallChoice[PingPong]}" Content="{loc:Localize Proj_Ball_PingPong}" />
+                        <RadioButton Classes="chip" GroupName="ProjBall" IsChecked="{Binding Projectile.BallChoice[Shuttlecock]}" Content="{loc:Localize Proj_Ball_Shuttlecock}" />
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <ToggleButton Classes="chip" IsChecked="{Binding Projectile.AirDrag}" Content="{loc:Localize Proj_Option_AirDrag}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="note" Text="{loc:Localize Proj_NoAir_Note}" IsVisible="{Binding Projectile.ShowsNoAirNote}" />
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Projectile.LaunchSpeedText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Proj_LaunchSpeed}" />
+                    </DockPanel>
+                    <Slider Minimum="2" Maximum="60" Value="{Binding Projectile.LaunchSpeed}" SmallChange="0.5" LargeChange="5"
+                            AutomationProperties.Name="{loc:Localize Proj_LaunchSpeed}" />
+
+                    <!-- Launch: the angle -->
+                    <StackPanel IsVisible="{Binding Projectile.IsLaunch}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Projectile.AngleText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Proj_Angle}" />
+                        </DockPanel>
+                        <Slider Minimum="0" Maximum="90" Value="{Binding Projectile.Angle}" SmallChange="1" LargeChange="5"
+                                AutomationProperties.Name="{loc:Localize Proj_Angle}" />
+                        <WrapPanel Margin="0,6,0,0">
+                            <Button Classes="chip" Command="{Binding Projectile.SetAngleCommand}" CommandParameter="15" Content="15°" />
+                            <Button Classes="chip" Command="{Binding Projectile.SetAngleCommand}" CommandParameter="30" Content="30°" />
+                            <Button Classes="chip" Command="{Binding Projectile.SetAngleCommand}" CommandParameter="45" Content="45°" />
+                            <Button Classes="chip" Command="{Binding Projectile.SetAngleCommand}" CommandParameter="60" Content="60°" />
+                            <Button Classes="chip" Command="{Binding Projectile.SetAngleCommand}" CommandParameter="75" Content="75°" />
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Projectile.CliffHeightText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Proj_CliffHeight}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="50" Value="{Binding Projectile.CliffHeight}" SmallChange="1" LargeChange="5"
+                            IsSnapToTickEnabled="True" TickFrequency="1"
+                            AutomationProperties.Name="{loc:Localize Proj_CliffHeight}" />
+
+                    <!-- Launch: what to show, and the velocity chart -->
+                    <StackPanel IsVisible="{Binding Projectile.IsLaunch}">
+                        <WrapPanel Margin="0,12,0,0">
+                            <ToggleButton Classes="chip" IsChecked="{Binding Projectile.ShowVectors}" Content="{loc:Localize Proj_Option_Vectors}" />
+                            <ToggleButton Classes="chip" IsChecked="{Binding Projectile.ShowStrobe}" Content="{loc:Localize Proj_Option_Strobe}" />
+                            <ToggleButton Classes="chip" IsChecked="{Binding Projectile.ShowShadows}" Content="{loc:Localize Proj_Option_Shadows}" />
+                            <ToggleButton Classes="chip" IsChecked="{Binding Projectile.KeepTrails}" Content="{loc:Localize Proj_Option_Trails}" />
+                            <Button Classes="chip" Command="{Binding Projectile.ClearTrailsCommand}" Content="{loc:Localize Proj_ClearTrails}" />
+                        </WrapPanel>
+                        <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Velocity_Caption}" />
+                        <Border Classes="plate" Height="170">
+                            <proj:VelocityChart Place="{Binding Projectile.Place}" EarthGravity="{Binding Projectile.EarthGravity}"
+                                                Ball="{Binding Projectile.Ball}" AirDrag="{Binding Projectile.AirDrag}"
+                                                LaunchSpeed="{Binding Projectile.LaunchSpeed}" Angle="{Binding Projectile.Angle}"
+                                                CliffHeight="{Binding Projectile.CliffHeight}" Time="{Binding Projectile.Time}"
+                                                AutomationProperties.Name="{loc:Localize Proj_Velocity_Caption}" />
+                        </Border>
+                        <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Proj_Velocity_Note}" />
+                    </StackPanel>
+
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Range_Caption}" />
+                    <Border Classes="plate" Height="180">
+                        <proj:RangeChart Place="{Binding Projectile.Place}" EarthGravity="{Binding Projectile.EarthGravity}"
+                                         Ball="{Binding Projectile.Ball}" AirDrag="{Binding Projectile.AirDrag}"
+                                         LaunchSpeed="{Binding Projectile.LaunchSpeed}" CliffHeight="{Binding Projectile.CliffHeight}"
+                                         Angle="{Binding Projectile.ChartAngle}"
+                                         AutomationProperties.Name="{loc:Localize Proj_Range_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Proj_Range_Note}" />
+                </StackPanel>
+
+                <!-- Falling together: the scene and its settings -->
+                <StackPanel IsVisible="{Binding Projectile.IsTogether}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Scene_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="ProjScene" IsChecked="{Binding Projectile.SceneChoice[DropAndThrow]}" Content="{loc:Localize Proj_Scene_DropAndThrow}" />
+                        <RadioButton Classes="chip" GroupName="ProjScene" IsChecked="{Binding Projectile.SceneChoice[MonkeyHunter]}" Content="{loc:Localize Proj_Scene_MonkeyHunter}" />
+                    </WrapPanel>
+                    <StackPanel IsVisible="{Binding Projectile.IsDropAndThrow}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Projectile.TowerHeightText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Proj_TowerHeight}" />
+                        </DockPanel>
+                        <Slider Minimum="2" Maximum="45" Value="{Binding Projectile.TowerHeight}" SmallChange="1" LargeChange="5"
+                                IsSnapToTickEnabled="True" TickFrequency="1"
+                                AutomationProperties.Name="{loc:Localize Proj_TowerHeight}" />
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Projectile.ThrowSpeedText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Proj_ThrowSpeed}" />
+                        </DockPanel>
+                        <Slider Minimum="1" Maximum="20" Value="{Binding Projectile.ThrowSpeed}" SmallChange="0.5" LargeChange="2"
+                                IsSnapToTickEnabled="True" TickFrequency="0.5"
+                                AutomationProperties.Name="{loc:Localize Proj_ThrowSpeed}" />
+                    </StackPanel>
+                    <StackPanel IsVisible="{Binding Projectile.IsMonkeyHunter}">
+                        <DockPanel Margin="0,14,0,2">
+                            <SelectableTextBlock Classes="value" Text="{Binding Projectile.DartSpeedText}" />
+                            <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Proj_DartSpeed}" />
+                        </DockPanel>
+                        <Slider Minimum="10" Maximum="50" Value="{Binding Projectile.DartSpeed}" SmallChange="0.5" LargeChange="5"
+                                IsSnapToTickEnabled="True" TickFrequency="0.5"
+                                AutomationProperties.Name="{loc:Localize Proj_DartSpeed}" />
+                        <WrapPanel Margin="0,8,0,0">
+                            <ToggleButton Classes="chip" IsChecked="{Binding Projectile.MonkeyLetsGo}" Content="{loc:Localize Proj_Option_LetsGo}" />
+                            <Button Classes="chip" Command="{Binding Projectile.SetMinimumDartSpeedCommand}" Content="{loc:Localize Proj_DartSpeed_Minimum}" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Fall_Caption}" />
+                    <Border Classes="plate" Height="170">
+                        <proj:FallChart Scene="{Binding Projectile.Scene}"
+                                        Place="{Binding Projectile.Place}" EarthGravity="{Binding Projectile.EarthGravity}"
+                                        TowerHeight="{Binding Projectile.TowerHeight}" DartSpeed="{Binding Projectile.DartSpeed}"
+                                        MonkeyLetsGo="{Binding Projectile.MonkeyLetsGo}" Time="{Binding Projectile.Time}"
+                                        AutomationProperties.Name="{loc:Localize Proj_Fall_Caption}" />
+                    </Border>
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Proj_Fall_DropAndThrow_Note}" IsVisible="{Binding Projectile.IsDropAndThrow}" />
+                    <SelectableTextBlock Classes="note" Margin="0,8,0,0" Text="{loc:Localize Proj_Fall_MonkeyHunter_Note}" IsVisible="{Binding Projectile.IsMonkeyHunter}" />
+                </StackPanel>
+
+                <!-- What is happening now: a coloured edge for the phase -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Projectile.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Projectile.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Projectile.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Projectile.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Proj_Facts}" />
+                <ItemsControl ItemsSource="{Binding Projectile.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>
