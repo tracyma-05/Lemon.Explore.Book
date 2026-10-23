@@ -84,6 +84,8 @@ small JSON manifest. See [docs/UPDATES.md](docs/UPDATES.md), which also describe
 tag; `.github/workflows/release.yml` builds and publishes everything).
 
 `scripts/package-desktop.sh <rid> [update-address]` builds one desktop package locally, the same way the release does.
+On Windows, `scripts/publish-local.ps1` publishes the same AOT build into a local folder (`-Output`; `-Zip` also writes
+the package), closing a copy running from there and starting it again on the new files.
 
 ## Narration
 
