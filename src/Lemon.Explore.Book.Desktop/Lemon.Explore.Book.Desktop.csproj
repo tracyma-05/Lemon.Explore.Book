@@ -9,7 +9,18 @@
     <RootNamespace>Lemon.Explore.Book.Desktop</RootNamespace>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>..\Lemon.Explore.Book\Assets\book.ico</ApplicationIcon>
+    <!-- The narration players call the operating system through generated P/Invoke. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+
+  <!--
+    Narration clips, when they have been rendered here (scripts/narration/generate-narration.py; they are not in git),
+    go next to the program as narration/<culture>/<key>.<hash>.mp3. Without them narration is timed subtitles.
+  -->
+  <ItemGroup Condition="Exists('..\..\assets\narration\audio')">
+    <None Include="..\..\assets\narration\audio\**\*.mp3" Link="narration\%(RecursiveDir)%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia.Desktop" />

@@ -7,10 +7,11 @@ namespace Lemon.Explore.Book.Explore.Narration;
 public interface INarrationAudio
 {
     /// <summary>True when the clip's audio is available here (downloaded, or reachable).</summary>
-    bool Has(string culture, string key);
+    /// <param name="clip">The clip's path in the narration folder (<see cref="NarrationManifest.ClipPath"/>).</param>
+    bool Has(string clip);
 
     /// <summary>Starts the clip from the beginning, replacing whatever was playing; false if it cannot be played.</summary>
-    bool Play(string culture, string key, double volume);
+    bool Play(string clip, double volume);
 
     void Pause();
 
@@ -35,9 +36,9 @@ public sealed class SilentNarrationAudio : INarrationAudio
 {
     public static SilentNarrationAudio Instance { get; } = new();
 
-    public bool Has(string culture, string key) => false;
+    public bool Has(string clip) => false;
 
-    public bool Play(string culture, string key, double volume) => false;
+    public bool Play(string clip, double volume) => false;
 
     public void Pause()
     {

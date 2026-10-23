@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Reflection;
 using System.Text.Json;
 
 namespace Lemon.Explore.Book.Explore.Narration;
@@ -22,6 +23,17 @@ public sealed class NarrationManifest
     public sealed record CultureEntry(string Voice, string Rate, string Pitch, IReadOnlyDictionary<string, ClipEntry> Clips);
 
     public static NarrationManifest Empty { get; } = new([]);
+
+    private static readonly Lazy<NarrationManifest> s_bundled = new(LoadBundled);
+
+    /// <summary>The manifest built into the app (read once).</summary>
+    public static NarrationManifest Bundled => s_bundled.Value;
+
+    /// <summary>
+    /// Where a clip's audio is, relative to the narration folder: <c>&lt;culture&gt;/&lt;key&gt;.&lt;hash&gt;.mp3</c>. The hash
+    /// changes with the text, so a file name never changes content.
+    /// </summary>
+    public static string ClipPath(string culture, string key, string hash) => $"{culture}/{key}.{hash}.mp3";
 
     /// <summary>Reads a manifest; broken JSON gives an empty one, so narration falls back to timed subtitles.</summary>
     public static NarrationManifest Parse(string json)
@@ -60,6 +72,18 @@ public sealed class NarrationManifest
             Trace.TraceWarning($"The narration manifest could not be read; narration plays as subtitles only. {ex.Message}");
             return Empty;
         }
+    }
+
+    private static NarrationManifest LoadBundled()
+    {
+        using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Lemon.Explore.Book.Narration.Manifest");
+        if (stream is null)
+        {
+            return Empty;
+        }
+
+        using var reader = new StreamReader(stream);
+        return Parse(reader.ReadToEnd());
     }
 
     public CultureEntry? Culture(string culture) => _cultures.GetValueOrDefault(culture);

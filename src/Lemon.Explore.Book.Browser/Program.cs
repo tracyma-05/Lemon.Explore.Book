@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices.JavaScript;
 using Avalonia;
 using Avalonia.Browser;
 using Avalonia.Media;
@@ -7,6 +8,8 @@ using Lemon.Explore.Book.Browser;
 using Lemon.Explore.Book.Controls.Space;
 
 App.Settings = new LocalStorageSettingsStore();
+await JSHost.ImportAsync(WebNarrationAudio.ModuleName, WebNarrationAudio.ModuleUrl);
+App.NarrationAudio = new WebNarrationAudio();
 
 // The browser runs the planet texture generator on its only thread; a smaller map keeps the first frames responsive.
 PlanetTexture.PlanetWidth = 512;

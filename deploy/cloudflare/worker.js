@@ -1,7 +1,7 @@
-// Serves the web edition on Cloudflare. Static assets hold everything except what they cannot: the AOT-compiled
-// runtime (over the 25 MiB per-file limit) and the narration clips, which live in R2 under the same paths, so the
-// app, its service worker and the .NET boot manifest see a single origin.
-const FROM_R2 = [/^\/_framework\/dotnet\.native\.[a-z0-9]+\.wasm$/, /^\/narration\//];
+// Serves the web edition on Cloudflare. Static assets hold everything (narration clips included) except what they
+// cannot: the AOT-compiled runtime, over the 25 MiB per-file limit, lives in R2 under the same path, so the app, its
+// service worker and the .NET boot manifest see a single origin.
+const FROM_R2 = [/^\/_framework\/dotnet\.native\.[a-z0-9]+\.wasm$/];
 
 export default {
     async fetch(request, env) {
@@ -19,7 +19,7 @@ export default {
 async function serveFromR2(request, bucket, key) {
     const ranged = request.headers.has('range');
 
-    // The runtime is stored with a Brotli copy next to it (about 9 MB instead of 45 MB); audio is not.
+    // The runtime is stored with a Brotli copy next to it (about 9 MB instead of 45 MB).
     const wantsBrotli = key.endsWith('.wasm') && !ranged
         && /\bbr\b/.test(request.headers.get('accept-encoding') ?? '');
     let object = wantsBrotli ? await bucket.get(`${key}.br`, { onlyIf: request.headers }) : null;

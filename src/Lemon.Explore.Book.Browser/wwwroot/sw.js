@@ -4,12 +4,13 @@
 //   the next visit, with the cached copy as the offline fallback.
 // - Everything under _framework/ is fingerprinted by the .NET build, so it is cache-first: a file name never
 //   changes content.
-// - Narration audio (narration/) will be cached per chapter as it is played or saved for offline use; that
-//   part arrives with the narration pipeline (docs/ROADMAP.md).
+// - Narration clips (narration/) carry their text's hash in the file name, so they are cache-first too: each clip
+//   is kept once it has been played. Saving a whole chapter for offline use ahead of time is still to come.
 
 const SHELL_CACHE = 'explore-book-shell-v1';
 const FRAMEWORK_CACHE = 'explore-book-framework-v1';
-const SHELL = ['./', './index.html', './main.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
+const NARRATION_CACHE = 'explore-book-narration-v1';
+const SHELL = ['./', './index.html', './main.js', './narration.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
 
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(SHELL_CACHE).then(cache => cache.addAll(SHELL)));
@@ -17,7 +18,7 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
-    const keep = new Set([SHELL_CACHE, FRAMEWORK_CACHE]);
+    const keep = new Set([SHELL_CACHE, FRAMEWORK_CACHE, NARRATION_CACHE]);
     event.waitUntil(
         caches.keys()
             .then(keys => Promise.all(keys.filter(key => !keep.has(key)).map(key => caches.delete(key))))
@@ -30,8 +31,11 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    if (new URL(request.url).pathname.includes('/_framework/')) {
+    const path = new URL(request.url).pathname;
+    if (path.includes('/_framework/')) {
         event.respondWith(cacheFirst(request, FRAMEWORK_CACHE));
+    } else if (path.includes('/narration/')) {
+        event.respondWith(cacheFirst(request, NARRATION_CACHE));
     } else {
         event.respondWith(networkFirst(request, SHELL_CACHE));
     }

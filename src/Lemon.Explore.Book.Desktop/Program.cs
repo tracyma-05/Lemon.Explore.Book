@@ -1,4 +1,5 @@
 using Avalonia;
+using Lemon.Explore.Book.Desktop.Narration;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Lemon.Explore.Book.Updates;
 
@@ -19,6 +20,7 @@ internal static class Program
 
         AppInstallation.MoveWorkingDirectoryOut();
         App.Settings = new JsonFileSettingsStore(JsonFileSettingsStore.DefaultPath());
+        App.NarrationAudio = DesktopNarrationAudio.Create();
         return BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);
     }
 

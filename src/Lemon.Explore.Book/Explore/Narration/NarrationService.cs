@@ -120,14 +120,15 @@ public sealed class NarrationService : INarrationService
         var culture = LocalizationService.Instance.CurrentCulture;
         var folder = CultureFolder(culture.Name);
         var entry = _manifest.Culture(folder)?.Clips.GetValueOrDefault(key);
-        var hasAudio = entry is not null && _audio.Has(folder, key);
+        var path = entry is null ? null : NarrationManifest.ClipPath(folder, key, entry.Hash);
+        var hasAudio = path is not null && _audio.Has(path);
         _clip = entry is null
             ? NarrationClip.Estimate(key, LocalizationService.Instance.GetString(key), culture)
             : new NarrationClip(key, entry.Duration, entry.Sentences, hasAudio);
         CurrentOwner = owner;
         IsPaused = false;
 
-        _playingAudio = hasAudio && Settings.VoiceEnabled && _audio.Play(folder, key, Settings.Volume);
+        _playingAudio = hasAudio && Settings.VoiceEnabled && _audio.Play(path!, Settings.Volume);
         if (!_playingAudio)
         {
             _silent.Restart();

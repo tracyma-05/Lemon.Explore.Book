@@ -28,6 +28,8 @@
     <AvaloniaResource Include="Assets\**" Exclude="Assets\Maps\**" />
     <!-- Natural Earth 1:110m land (public domain), read by the world map. -->
     <EmbeddedResource Include="Assets\Maps\land-110m.txt" LogicalName="Lemon.Explore.Book.Maps.Land110m" />
+    <!-- Narration timings, written by scripts/narration/generate-narration.py; the audio itself ships separately. -->
+    <EmbeddedResource Include="..\..\assets\narration\narration.json" LogicalName="Lemon.Explore.Book.Narration.Manifest" />
   </ItemGroup>
 
   <ItemGroup>

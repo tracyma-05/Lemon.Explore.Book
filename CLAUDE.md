@@ -28,6 +28,8 @@ one shared project. Plan and phases: `docs/ROADMAP.md`.
 - `Controls/BookView.cs` shows and turns pages; `Controls/PageCurlGeometry.cs` is the turn's geometry, unit-tested.
 - Ported chapters live in `Chapters/<Topic>/` and are wired in `Contents/ChapterRegistry.cs`; follow "Porting a
   chapter" in `docs/ROADMAP.md`. Seasons is the reference.
+- After editing a `Narr_*` string, run `python -I scripts/narration/generate-narration.py` so the committed manifest
+  (`assets/narration/narration.json`) matches; `NarrationManifestTests` checks it. The mp3s are not in git.
 - Every `Narr_*` key is a narration clip and must exist in both languages; walkthrough steps and clickable targets
   are checked per chapter (see `SeasonsChapterTests`).
 

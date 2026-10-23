@@ -12,7 +12,7 @@ public sealed record BookServices(
     ISettingsStore Settings, INarrationService Narration, IExploreLocationService Location, Bookmarks Bookmarks, Notes Notes, ReadingProgress Progress)
 {
     /// <summary>
-    /// Services over <paramref name="settings"/>. Without audio (none ships yet, and tests have none) narration runs
+    /// Services over <paramref name="settings"/>. Without audio (tests, or a platform with no player) narration runs
     /// as timed subtitles.
     /// </summary>
     public static BookServices Create(ISettingsStore settings, NarrationManifest? manifest = null, INarrationAudio? audio = null) =>

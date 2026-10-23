@@ -46,7 +46,7 @@ public sealed class NarrationServiceTests
             Assert.True(clip.HasAudio);
             Assert.Equal(4.5, clip.Duration);
             Assert.Equal("Second.", clip.SentenceAt(3));
-            Assert.Equal(("en", "Narr_Seasons_Obj_Sun"), audio.Playing);
+            Assert.Equal("en/Narr_Seasons_Obj_Sun.abc.mp3", audio.Playing);
         });
     }
 
@@ -126,13 +126,13 @@ public sealed class NarrationServiceTests
 
     private sealed class FakeAudio : INarrationAudio
     {
-        public (string Culture, string Key)? Playing { get; private set; }
+        public string? Playing { get; private set; }
 
-        public bool Has(string culture, string key) => true;
+        public bool Has(string clip) => true;
 
-        public bool Play(string culture, string key, double volume)
+        public bool Play(string clip, double volume)
         {
-            Playing = (culture, key);
+            Playing = clip;
             return true;
         }
 

@@ -13,7 +13,7 @@
     "directory": "../../publish/web/wwwroot",
     "binding": "ASSETS",
     // Only these paths reach the Worker; everything else is served straight from static assets.
-    "run_worker_first": ["/_framework/dotnet.native.*", "/narration/*"]
+    "run_worker_first": ["/_framework/dotnet.native.*"]
   },
   "r2_buckets": [
     // deploy.sh uploads to the same bucket name. Created with the apac location hint; a hint only applies the first

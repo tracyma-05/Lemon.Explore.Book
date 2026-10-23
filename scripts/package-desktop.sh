@@ -43,6 +43,10 @@ case "$RID" in
     APP="$OUT/Explore Book.app"
     mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
     cp -R "$OUT/app/." "$APP/Contents/MacOS/"
+    # Narration clips are data, not code: Resources is where the signature seals them (the app looks there too).
+    if [ -d "$APP/Contents/MacOS/narration" ]; then
+      mv "$APP/Contents/MacOS/narration" "$APP/Contents/Resources/"
+    fi
     sed "s/__VERSION__/$VERSION/g" src/Lemon.Explore.Book.Desktop/macOS/Info.plist > "$APP/Contents/Info.plist"
     chmod +x "$APP/Contents/MacOS/ExploreBook"
 

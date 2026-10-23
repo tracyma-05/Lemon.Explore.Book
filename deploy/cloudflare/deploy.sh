@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Publishes the web edition to Cloudflare: a Worker with static assets, plus an R2 bucket for the files that are too
-# large for static assets (the AOT-compiled runtime). Narration clips go to the same bucket under narration/.
+# large for static assets (the AOT-compiled runtime). Narration clips are static assets under narration/, copied in
+# from assets/narration/audio (render them first: scripts/narration/generate-narration.py).
 #
 #   deploy/cloudflare/deploy.sh
 #
@@ -18,6 +19,15 @@ out=publish/web/wwwroot
 rm -rf publish/web
 dotnet publish src/Lemon.Explore.Book.Browser -c Release -o publish/web
 cp deploy/cloudflare/.assetsignore "$out/"
+
+# The clips are not in git. Static assets upload only files Cloudflare has not seen, so a deploy sends just the clips
+# whose text changed (their names carry the text's hash).
+if [[ -d assets/narration/audio ]]; then
+    mkdir -p "$out/narration"
+    cp -R assets/narration/audio/. "$out/narration/"
+else
+    echo "No clips in assets/narration/audio: the web edition's narration will be subtitles only." >&2
+fi
 
 # Anything else over the limit would fail the deploy halfway; stop before uploading.
 too_large=$(find "$out" -type f -size +25M ! -name '*.br' ! -name '*.gz' ! -name 'dotnet.native.*.wasm')

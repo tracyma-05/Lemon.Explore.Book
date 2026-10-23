@@ -9,8 +9,9 @@ interactive picture on the right. Pages turn like paper, and every lesson can be
 
 It runs on **Windows** and **macOS**, and in the browser as an installable **PWA**, all from one Avalonia code base.
 
-> Status: the book shell (cover, contents, page turning, language switch) is in place. The chapters are being
-> moved in one by one, and narration comes after that. See [docs/ROADMAP.md](docs/ROADMAP.md).
+> Status: the book shell (cover, contents, page turning, language switch) is in place, and the chapters are being
+> moved in one by one. Narration plays on Windows and the web once its clips are rendered (see "Narration" below).
+> See [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## Build and run
 
@@ -84,12 +85,28 @@ tag; `.github/workflows/release.yml` builds and publishes everything).
 
 `scripts/package-desktop.sh <rid> [update-address]` builds one desktop package locally, the same way the release does.
 
+## Narration
+
+Walkthroughs and object cards are read aloud from pre-rendered mp3 clips, one per `Narr_*` string and language. The
+manifest (`assets/narration/narration.json`) is in git; the audio (`assets/narration/audio`, about 180 MB) is not.
+Render it, or only what changed after editing a `Narr_*` string, with:
+
+```bash
+pip install edge-tts
+python -I scripts/narration/generate-narration.py
+```
+
+`--seed-from <folder>` first copies clips from another narration folder in the same format whose text matches, and
+`--check` lists missing or stale clips without rendering. When the clips are present, desktop builds copy them next to
+the program and `deploy/cloudflare/deploy.sh` deploys them with the web edition; without them narration is timed
+subtitles. The voices and their licence status are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
 ## Hosting the web edition
 
 The web edition is static files, so any static host works. `deploy/cloudflare` hosts it on Cloudflare as one Worker on
 one origin: static assets serve the app, and an R2 bucket serves what static assets cannot hold. That is the
 AOT-compiled runtime (`dotnet.native.*.wasm`, about 43 MiB, over the 25 MiB per-file limit), stored with a Brotli
-copy, and later the narration clips under `narration/`.
+copy. The narration clips are copied in from `assets/narration/audio` as static assets under `narration/`.
 
 ```bash
 deploy/cloudflare/deploy.sh
@@ -107,7 +124,8 @@ bucket (`npx wrangler r2 bucket create explore-book-apac --location apac`), and 
 | `src/Lemon.Explore.Book.Desktop` | Windows / macOS head |
 | `src/Lemon.Explore.Book.Browser` | WebAssembly head with PWA manifest and service worker (`wwwroot`) |
 | `tests/Lemon.Explore.Book.Tests` | Unit and headless UI tests |
-| `scripts/` | Repository checks (and, later, the narration pipeline) |
+| `scripts/` | Repository checks, desktop packaging, and the narration generator (`scripts/narration`) |
+| `assets/narration` | Narration manifest (committed) and the rendered clips (`audio/`, not committed) |
 | `deploy/cloudflare` | Cloudflare Worker, R2 routing and deploy script for the web edition |
 
 ## Contributing

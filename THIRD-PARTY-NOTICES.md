@@ -11,7 +11,8 @@ The Explore Book's own code is under the MIT licence (see `LICENSE`). It ships o
 
 ## Narration audio
 
-Narration clips are not stored in this repository. They are generated ahead of time with an openly licensed
-text-to-speech model and published with each release. The model, its voices and their licences will be listed
-here once chosen (see `docs/ROADMAP.md`, "Narration"). Audio from services whose terms do not allow
-redistribution is never published.
+Narration clips are not stored in this repository; they ship with the desktop packages and the web edition. They
+are rendered ahead of time by `scripts/narration/generate-narration.py` with Microsoft's neural voices
+`en-US-AvaMultilingualNeural` and `zh-CN-XiaoxiaoNeural`, through [edge-tts](https://github.com/rany2/edge-tts) and
+the Edge browser's online "Read aloud" service. Microsoft publishes no licence for redistributing audio from that
+service; moving to openly licensed voices is still open (see `docs/ROADMAP.md`, "Narration").

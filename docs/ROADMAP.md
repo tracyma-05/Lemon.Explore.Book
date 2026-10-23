@@ -21,7 +21,7 @@ cross-platform book.
 | P0 | Repository, CI, secret scanning, localization | done |
 | P1 | Book shell: cover, contents, page turning, language switch, reading position | done |
 | P2 | Lesson engine, object cards, click targets, narration player; port the **Seasons** chapter as the reference | done |
-| P3 | Narration pipeline (see below) | can run alongside P2 |
+| P3 | Narration pipeline (see below) | clips rendered and playing on Windows and the web (macOS player untested); open: voice licence, desktop packs, offline save |
 | P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | 25 of 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 
@@ -33,7 +33,7 @@ cross-platform book.
 | `FormattedText`, `StreamGeometry` | same names, small API differences |
 | `CompositionTarget.Rendering`, `DispatcherTimer` | `TopLevel.RequestAnimationFrame` |
 | `DependencyProperty` | `StyledProperty` / `DirectProperty` |
-| `MediaPlayer` | `INarrationAudio` (desktop audio library, Web Audio in the browser); none yet, so clips run as timed subtitles |
+| `MediaPlayer` | `INarrationAudio`: winmm (MCI) on Windows, `AVAudioPlayer` on macOS, Web Audio in the browser |
 | MaterialDesign `PackIcon` | `PathIcon` with the project's own geometries (`Styles/Explore.axaml`) |
 | `dc.PushOpacity(...)` … `dc.Pop()` | `using var dc = new PaintContext(context);` keeps Push/Pop as is (or `using (dc.PushOpacity(...)) { … }`) |
 | `Point - Point` is a `Vector` | it is a `Point`: write `Vector v = a - b;` |
@@ -86,22 +86,29 @@ cross-platform book.
 
 ## Narration
 
-- **Pre-rendered clips**. Every narrated line is a resource key; a script renders it to audio. A manifest records
-  each clip's text hash, duration and sentence timings, so subtitles stay in sync and only changed lines are
-  re-rendered.
-- **Openly licensed voices only.** The clips are published, so the text-to-speech model and voices must allow
-  redistribution. Candidates to compare on a short English and Chinese sample: CosyVoice, MeloTTS, Kokoro.
-  Check each model's weight licence, not just its code licence.
-- **Not in git.** Clips ship as per-chapter, per-language packs with each release, and are deployed next to the
-  web edition.
-- **Desktop**: a chapter's pack downloads the first time it is opened (checked with sha256), with an option to
-  download everything.
-- **Web**: audio is served from the same origin as the app, under hashed, immutable file names. The service worker
-  caches each chapter's clips as they are played or saved for offline use, and the app asks for persistent
-  storage. Playback decodes clips with Web Audio, which avoids Safari's range-request problems with cached
-  audio. The first clip waits for a tap, as browsers require.
-- **Fallback**: the system voice (Windows, macOS speech, Web Speech API) when a clip is missing, then silent
-  timed subtitles.
+- **Pre-rendered clips** (done). Every narrated line is a resource key; `scripts/narration/generate-narration.py`
+  renders it to `assets/narration/audio/<culture>/<key>.<hash>.mp3`. The manifest, `assets/narration/narration.json`,
+  is committed and embedded in the app: each clip's text hash, duration and sentence timings, so subtitles stay in
+  sync and only changed lines are re-rendered. `NarrationManifestTests` fails when a `Narr_*` string changes without
+  rendering again.
+- **Voices** (open). The clips are the original app's, rendered with Microsoft's Edge "Read aloud" neural voices
+  through edge-tts (`--seed-from` copied the ones whose text matched; the rest were rendered with the same voices).
+  Microsoft publishes no licence for redistributing that audio. Replacing it with openly licensed voices is still
+  the goal: compare CosyVoice, MeloTTS and Kokoro on a short English and Chinese sample, and check each model's
+  weight licence, not just its code licence.
+- **Not in git.** Clips are about 180 MB for both languages. They must be rendered (or copied) on the machine that
+  builds a release; the release workflow does not have them yet, so its packages and web edition fall back to
+  subtitles.
+- **Desktop** (Windows done; macOS written, untested): the clips are copied next to the program (`narration/`; in a
+  macOS bundle, `Contents/Resources/narration`) and played with winmm (MCI) on Windows and `AVAudioPlayer` on macOS,
+  so no audio library ships. Still to do: per-chapter packs downloaded the first time a chapter is opened (checked
+  with sha256), so the package and every update do not carry all the audio.
+- **Web** (done): clips are static assets under `narration/`, next to the app; their hashed names never change
+  content, so the service worker caches each clip cache-first once it has been played. Playback decodes clips with
+  Web Audio, which avoids Safari's range-request problems with cached audio. The first clip waits for a tap, as
+  browsers require. Still to do: save a chapter for offline use ahead of time, and ask for persistent storage.
+- **Fallback**: a clip that is missing or fails to play runs as silent timed subtitles. The system voice (Windows,
+  macOS speech, Web Speech API) as an intermediate fallback is not planned now that the clips exist.
 
 ## Later
 

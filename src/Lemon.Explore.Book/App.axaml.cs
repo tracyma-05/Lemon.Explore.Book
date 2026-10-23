@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using Lemon.Explore.Book.Contents;
+using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Lemon.Explore.Book.Infrastructures.Theming;
@@ -17,6 +18,9 @@ public partial class App : Application
     /// the designer get one that forgets everything.
     /// </summary>
     public static ISettingsStore Settings { get; set; } = new MemorySettingsStore();
+
+    /// <summary>Plays narration clips. Each head sets its own player; without one, narration is timed subtitles.</summary>
+    public static INarrationAudio NarrationAudio { get; set; } = SilentNarrationAudio.Instance;
 
 #if DEBUG
     // Developer tools attach once per process; headless tests start a fresh Application for every test.
@@ -41,7 +45,7 @@ public partial class App : Application
         localization.SetCulture(localization.ResolveSupportedCulture(Settings.Get(SettingKeys.Culture)));
         BookTheme.Apply(this, Settings);
 
-        var book = new MainViewModel(BookServices.Create(Settings));
+        var book = new MainViewModel(BookServices.Create(Settings, NarrationManifest.Bundled, NarrationAudio));
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
             desktop.MainWindow = new MainWindow { DataContext = book };
