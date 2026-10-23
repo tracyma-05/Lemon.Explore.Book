@@ -96,8 +96,8 @@ deploy/cloudflare/deploy.sh
 ```
 
 It publishes the Release build, uploads the runtime to R2, then deploys the Worker. It needs Node.js, an existing
-bucket (`npx wrangler r2 bucket create explore-book`), and `CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` in the
-environment. Neither is stored in the repository.
+bucket (`npx wrangler r2 bucket create explore-book-apac --location apac`), and `CLOUDFLARE_ACCOUNT_ID` /
+`CLOUDFLARE_API_TOKEN` in the environment. Neither is stored in the repository.
 
 ## Project layout
 

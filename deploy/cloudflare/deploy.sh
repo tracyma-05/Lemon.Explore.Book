@@ -5,12 +5,13 @@
 #   deploy/cloudflare/deploy.sh
 #
 # Needs Node.js (for wrangler) and, in the environment, CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN (a token
-# allowed to edit Workers and R2). The R2 bucket must exist: `npx wrangler r2 bucket create explore-book`.
+# allowed to edit Workers and R2). The R2 bucket must exist:
+# `npx wrangler r2 bucket create explore-book-apac --location apac`.
 set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
-bucket=explore-book # Must match r2_buckets in wrangler.jsonc.
+bucket=explore-book-apac # Must match r2_buckets in wrangler.jsonc.
 wrangler=(npx --yes wrangler@4)
 out=publish/web/wwwroot
 

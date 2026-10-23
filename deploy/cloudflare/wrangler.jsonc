@@ -4,6 +4,10 @@
   "name": "explore-book",
   "main": "worker.js",
   "compatibility_date": "2026-10-01",
+  // The book is served only on a custom domain, attached in the Cloudflare dashboard so it stays out of this
+  // repository. *.workers.dev is unreachable for many readers, so it is switched off.
+  "workers_dev": false,
+  "preview_urls": false,
   "assets": {
     // Paths are relative to this file. deploy.sh publishes here and copies .assetsignore in.
     "directory": "../../publish/web/wwwroot",
@@ -12,7 +16,8 @@
     "run_worker_first": ["/_framework/dotnet.native.*", "/narration/*"]
   },
   "r2_buckets": [
-    // deploy.sh uploads to the same bucket name.
-    { "binding": "BOOK", "bucket_name": "explore-book" }
+    // deploy.sh uploads to the same bucket name. Created with the apac location hint; a hint only applies the first
+    // time a name is used, so moving the bucket to another region means a new name.
+    { "binding": "BOOK", "bucket_name": "explore-book-apac" }
   ]
 }

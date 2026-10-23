@@ -10,7 +10,10 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(error => console.warn('Service worker not registered', error));
 }
 
+// By default the runtime downloads resource satellites only for the browser's language at startup, so switching
+// language in Settings would find no strings for it and fall back to English. The satellites hold only strings.
 const runtime = await dotnet
+    .withConfig({ loadAllSatelliteResources: true })
     .withDiagnosticTracing(false)
     .withApplicationArgumentsFromQuery()
     .create();
