@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Globalization;
 using Avalonia;
 using Avalonia.Data;
@@ -8,6 +7,7 @@ using Avalonia.Media;
 using Avalonia.Media.Immutable;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 
 namespace Lemon.Explore.Book.Chapters.Projectile;
@@ -314,7 +314,7 @@ public sealed partial class ProjectileDiagram : Control
     /// <summary>A path of the best-angle fan.</summary>
     private sealed record FanPath(double Angle, Flight Flight, Color Color, bool IsBest);
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly StarBackdrop _stars = new();
     private readonly LabelCache _labels;
     private readonly List<Trail> _trails = [];

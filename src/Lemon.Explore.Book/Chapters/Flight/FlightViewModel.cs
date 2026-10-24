@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Globalization;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
@@ -9,6 +8,7 @@ using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Explore.Lessons;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.Flight;
 
@@ -31,7 +31,7 @@ public partial class FlightViewModel : ObservableObject, IChapterContent, IDispo
     private int _views;
 
     /// <summary>The flying plane moves every frame; its card is rebuilt a few times a second, or when its state changes.</summary>
-    private readonly Stopwatch _sinceRefresh = Stopwatch.StartNew();
+    private readonly BookStopwatch _sinceRefresh = BookStopwatch.StartNew();
 
     private string _forcesState = string.Empty;
 

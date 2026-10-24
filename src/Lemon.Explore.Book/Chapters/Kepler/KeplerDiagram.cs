@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using Avalonia;
 using Avalonia.Data;
 using Avalonia.Controls;
@@ -9,6 +8,7 @@ using Avalonia.Media;
 using Avalonia.Media.Immutable;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.Kepler;
 
@@ -173,7 +173,7 @@ public sealed partial class KeplerDiagram : Control
 
     #endregion
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly StarBackdrop _stars = new();
     private readonly LabelCache _labels;
     private readonly PlanetRenderer _sun = new(SpaceDrawing.Body("Sun"));

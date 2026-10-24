@@ -13,6 +13,7 @@ using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Infrastructures.Localization;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 using Lemon.Explore.Book.Controls.Space;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.Oscillations;
 
@@ -293,7 +294,7 @@ public sealed partial class OscillatorDiagram : Control
     /// <summary>A moment of the paper trace: the time, the offset drawn and the formula twin's offset.</summary>
     private readonly record struct TracePoint(double Time, double Offset, double Twin);
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly StarBackdrop _stars = new();
     private readonly LabelCache _labels;
     private readonly List<TracePoint> _trace = [];

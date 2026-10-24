@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Windows.Input;
 using Avalonia;
 using Avalonia.Controls;
@@ -9,6 +8,7 @@ using Avalonia.Media;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.Seasons;
 
@@ -139,7 +139,7 @@ public sealed partial class SeasonsDiagram : Control
 
     #endregion
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly StarBackdrop _stars = new();
     private readonly LabelCache _labels;
 

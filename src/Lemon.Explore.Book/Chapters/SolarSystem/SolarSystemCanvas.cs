@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Globalization;
 using Avalonia;
 using System.Windows.Input;
@@ -12,6 +11,7 @@ using Avalonia.Data;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.SolarSystem;
 
@@ -171,7 +171,7 @@ public sealed class SolarSystemCanvas : Control
 
     #endregion
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly Dictionary<CelestialBody, PlanetRenderer> _renderers = [];
     private readonly Dictionary<CelestialBody, BodyFrame> _frames = [];
     private readonly Dictionary<CelestialBody, FormattedText> _labels = [];

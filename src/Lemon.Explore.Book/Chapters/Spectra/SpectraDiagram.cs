@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Globalization;
 using Avalonia;
 using Avalonia.Data;
@@ -11,6 +10,7 @@ using Avalonia.Media.Imaging;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Chapters.BlueSky;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 
 namespace Lemon.Explore.Book.Chapters.Spectra;
@@ -271,7 +271,7 @@ public sealed partial class SpectraDiagram : Control
 
     #endregion
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly LabelCache _labels;
     private double _lastSeconds;
 

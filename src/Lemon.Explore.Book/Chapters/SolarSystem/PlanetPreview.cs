@@ -1,8 +1,8 @@
-using System.Diagnostics;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media;
 using Lemon.Explore.Book.Controls.Space;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.SolarSystem;
 
@@ -14,7 +14,7 @@ public sealed class PlanetPreview : Control
 
     private static readonly LightVector Light = LightVector.Normalize(-0.62, 0.38, 0.69);
 
-    private readonly Stopwatch _clock = Stopwatch.StartNew();
+    private readonly BookStopwatch _clock = BookStopwatch.StartNew();
     private PlanetRenderer? _renderer;
     private double _appearedAt;
     private bool _attached;

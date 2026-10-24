@@ -1,10 +1,10 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Explore.Lessons;
 
@@ -78,7 +78,7 @@ public sealed partial class LessonPlayer : ObservableObject, IDisposable
     private readonly INarrationService _narration;
     private readonly Func<IReadOnlyList<LessonStep>> _build;
     private readonly DispatcherTimer? _timer;
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private IReadOnlyList<LessonStep> _steps = [];
     private string? _speakingKey;
     private double? _advanceIn;

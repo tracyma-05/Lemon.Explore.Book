@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Globalization;
 using Avalonia;
 using Avalonia.Data;
@@ -13,6 +12,7 @@ using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Infrastructures.Localization;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 using Lemon.Explore.Book.Controls.Space;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.AcidsBases;
 
@@ -235,7 +235,7 @@ public sealed partial class AcidBaseDiagram : Control
 
     #endregion
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly LabelCache _labels;
     private double _lastSeconds;
 

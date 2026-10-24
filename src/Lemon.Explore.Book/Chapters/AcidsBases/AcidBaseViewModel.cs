@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Globalization;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
@@ -9,6 +8,7 @@ using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Explore.Lessons;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.AcidsBases;
 
@@ -32,7 +32,7 @@ public partial class AcidBaseViewModel : ObservableObject, IChapterContent, IDis
     private int _views;
 
     /// <summary>The base runs in every frame while the tap is open; the card is rebuilt a few times a second, or when its state changes.</summary>
-    private readonly Stopwatch _sinceRefresh = Stopwatch.StartNew();
+    private readonly BookStopwatch _sinceRefresh = BookStopwatch.StartNew();
 
     /// <summary>Brings the card up to date shortly after a burst of changes stops (the last change of a drag or a step).</summary>
     private readonly Avalonia.Threading.DispatcherTimer _lateRefresh = new() { Interval = TimeSpan.FromSeconds(0.3) };

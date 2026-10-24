@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using System.Diagnostics;
 using Avalonia;
 using Avalonia.Data;
 using Avalonia.Controls;
@@ -11,6 +10,7 @@ using Lemon.Explore.Book.Chapters.Eclipses;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.MoonPhases;
 
@@ -164,7 +164,7 @@ public sealed partial class MoonPhasesDiagram : Control
 
     #endregion
 
-    private readonly Stopwatch _clock = new();
+    private readonly BookStopwatch _clock = new();
     private readonly StarBackdrop _stars = new();
     private readonly LabelCache _labels;
     private readonly PlanetRenderer _sun = new(SpaceDrawing.Body("Sun"));
