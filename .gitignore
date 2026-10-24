@@ -22,6 +22,9 @@ secrets*.json
 assets/narration/audio/
 narration-out/
 
+# Local AI-assistant settings and worktrees (they hold machine paths).
+.claude/
+
 # Run-time output.
 Logs/
 artifacts/

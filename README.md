@@ -1,19 +1,104 @@
-# The Explore Book · 探索之书
+<div align="center">
 
-An interactive science book for children, in English and Chinese: a cover, a table of contents, and 34
-chapters on the sky, our Earth, physics and chemistry. Each chapter is one spread, with text on the left and an
-interactive picture on the right. Pages turn like paper, and every lesson can be read aloud.
+<img src="src/Lemon.Explore.Book/Assets/book.png" width="112" alt="The Explore Book icon: a small solar system" />
 
-一本给孩子的互动科学书，中英双语：有封面、有目录，34 章覆盖天空、地球、物理和化学。每章占一个跨页，左页读、右页玩。
-可以像纸书一样翻页，每一课都能朗读。
+# The Explore Book
 
-It runs on **Windows** and **macOS**, and in the browser as an installable **PWA**, all from one Avalonia code base.
+**An interactive science book for curious kids — 34 chapters you can read, touch and listen to, in English and Chinese.**
 
-> Status: the book shell (cover, contents, page turning, language switch) is in place, and the chapters are being
-> moved in one by one. Narration plays on Windows and the web once its clips are rendered (see "Narration" below).
-> See [docs/ROADMAP.md](docs/ROADMAP.md).
+**English** · [简体中文](README.zh-CN.md)
 
-## Build and run
+[![Read online](https://img.shields.io/badge/Read%20online-book--explore.lemontree.asia-f0a030?style=for-the-badge)](https://book-explore.lemontree.asia)
+[![Download](https://img.shields.io/github/v/release/tracyma-05/Lemon.Explore.Book?style=for-the-badge&label=Download&color=3b6fd8)](https://github.com/tracyma-05/Lemon.Explore.Book/releases/latest)
+
+![Windows](https://img.shields.io/badge/Windows-x64-0078d4)
+![macOS](https://img.shields.io/badge/macOS-Apple%20silicon%20%7C%20Intel-555)
+![Web](https://img.shields.io/badge/Web-installable%20PWA-5a0fc8)
+![.NET 10](https://img.shields.io/badge/.NET-10-512bd4)
+![Avalonia 12](https://img.shields.io/badge/Avalonia-12-8b44ac)
+[![MIT](https://img.shields.io/badge/licence-MIT-2ea44f)](LICENSE)
+
+<img src="docs/images/en/walkthrough.jpg" alt="The Seasons chapter: text on the left, an animated orbit diagram on the right, with a spoken walkthrough and subtitles" />
+
+</div>
+
+A real book on the screen: a cover, a table of contents, and one spread per chapter — words on the left, a living
+picture on the right. Drag the Earth round the Sun, bend light through a raindrop, fire a cannon, drip a base into an
+acid. Every chapter has a spoken walkthrough that sets the scene, points at things, asks a question and waits for you
+to have a go.
+
+## ▶ See it in action
+
+<div align="center">
+
+[![Watch the Solar System chapter (video)](docs/images/en/demo.gif)](docs/videos/solar-system-en.mp4)
+
+*The Solar System chapter's walkthrough, recorded from the book itself. Click for the two-minute video with sound.*
+
+</div>
+
+## ✨ What's inside
+
+<table>
+<tr>
+<td width="50%"><img src="docs/images/en/solar-system.jpg" alt="Solar System chapter" /><br/><b>The sky</b> — planets on their real orbits, eclipses, seasons, moon phases, tides, black holes and the expanding universe.</td>
+<td width="50%"><img src="docs/images/en/rainbow.jpg" alt="Refraction and rainbows chapter" /><br/><b>Our Earth</b> — the water cycle, typhoons, lightning, rainbows, auroras, earthquakes and volcanoes.</td>
+</tr>
+<tr>
+<td><img src="docs/images/en/black-hole.jpg" alt="Black holes and lensing chapter" /><br/><b>Things to play with</b> — every picture responds: drag, scrub through time, change the tilt, click anything to hear what it is.</td>
+<td><img src="docs/images/en/acids-bases.jpg" alt="Acids and bases chapter" /><br/><b>Physics and chemistry</b> — pendulums, waves, lenses, engines, relativity, and a titration you run yourself.</td>
+</tr>
+</table>
+
+- 📖 **A book that feels like one.** Pages turn with a paper curl you can drag; the contents page tracks what you
+  have read; bookmarks, notes (exported as Markdown) and a reading position that is remembered.
+- 🗣️ **Read aloud, in two languages.** Every lesson is narrated in English and Chinese with subtitles, at the speed
+  you choose. Switch language at any time — the whole book follows.
+- 🧭 **Guided, not just animated.** Walkthroughs highlight what they talk about, ask questions with answers to pick,
+  and hand over the controls: "your turn".
+- 🌍 **About where you are.** Set your city once and the sky chapters show your latitude, your sunrise, your tides.
+- 💻 **Everywhere.** Windows and macOS apps that update themselves, and the same book in the browser as an
+  installable PWA — on a phone it reads one page at a time.
+
+<details>
+<summary><b>All 34 chapters</b></summary>
+
+| The Sky | Our Earth | Physics | Chemistry |
+|---|---|---|---|
+| Solar System | Water cycle | Pendulum and spring | Acids and bases |
+| Eclipses | Sea and land breezes | Interference and Doppler | |
+| Seasons | Greenhouse effect | Sound and instruments | |
+| Moon phases | Typhoons | Projectile motion | |
+| Day and night | Lightning and static | Flight and lift | |
+| Tides | Blue sky, red sunset | Lenses, eye and camera | |
+| Kepler's laws | Refraction and rainbows | Atoms and spectra | |
+| Star trails | Aurora and magnetosphere | Engine and fridge | |
+| Retrograde motion | Earthquakes and plates | Generator and grid | |
+| Life of a star | Volcanoes and rocks | Special relativity | |
+| Black holes and lensing | Ice ages | | |
+| The expanding universe | | | |
+
+</details>
+
+<table>
+<tr>
+<td width="62%"><img src="docs/images/en/contents.jpg" alt="The table of contents" /></td>
+<td width="38%"><img src="docs/images/en/phone.jpg" alt="The book on a phone, one page at a time" /></td>
+</tr>
+</table>
+
+## 🚀 Get it
+
+| | |
+|---|---|
+| 🌐 **In the browser** | Open **[book-explore.lemontree.asia](https://book-explore.lemontree.asia)**. Use the browser's *Install* to keep it as an app; it then works offline. |
+| 🪟 **Windows** | Download `explore-book-<version>-win-x64.zip` from the [latest release](https://github.com/tracyma-05/Lemon.Explore.Book/releases/latest), unzip, run `ExploreBook.exe`. |
+| 🍎 **macOS** | Download the `osx-arm64` (Apple silicon) or `osx-x64` (Intel) zip, unzip, then right-click **Explore Book** → **Open** the first time (the app is not notarised). |
+
+The desktop apps check for updates when they open and install them in place (**Update and restart**), from this
+repository's GitHub Releases. No account, no sign-in, no tracking: settings, notes and progress stay on your device.
+
+## 🛠️ Build from source
 
 Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download).
 
@@ -32,62 +117,36 @@ dotnet workload install wasm-tools
 ```
 
 ```bash
-dotnet run --project src/Lemon.Explore.Book.Browser
-```
-
-That Debug build runs interpreted and is only good for checking layout: the animated diagrams stutter. To judge how
-the book feels, run the Release build, which is AOT-compiled to WebAssembly (the first build takes several minutes):
-
-```bash
 dotnet run --project src/Lemon.Explore.Book.Browser -c Release
 ```
 
-### Native AOT
+The Debug web build runs interpreted and is only good for checking layout; the Release build is AOT-compiled to
+WebAssembly and runs smoothly (the first build takes several minutes).
 
-The book builds as a native AOT app (no .NET runtime needed, fast start). The shared library is marked
-`IsAotCompatible`, so any change that would break AOT or trimming shows up as a build warning.
-CI publishes the Windows (win-x64) and macOS (osx-arm64) AOT builds with warnings as errors, checks that each one
-starts and keeps running, and keeps them as build artifacts.
+<details>
+<summary><b>Native AOT, packaging and releases</b></summary>
+
+The desktop book builds as a native AOT app (no .NET runtime needed, fast start). The shared library is marked
+`IsAotCompatible`, so a change that would break AOT or trimming shows up as a build warning.
 
 ```bash
 dotnet publish src/Lemon.Explore.Book.Desktop -c Release -r win-x64 -p:PublishAot=true
 ```
 
-Use `osx-arm64` / `osx-x64` on a Mac. On Windows this needs the Visual Studio C++ build tools (the linker). The web
-edition's Release build is always AOT-compiled to WebAssembly (it needs the `wasm-tools` workload); it runs far
-faster than the interpreter but downloads more.
+Use `osx-arm64` / `osx-x64` on a Mac. On Windows this needs the Visual Studio C++ build tools (the linker).
 
-## Reading
+- `scripts/package-desktop.sh <rid> [update-address]` builds one desktop package the way the release does.
+- `scripts/publish-local.ps1` publishes the Windows AOT build into a local folder (`-Zip` also writes the package).
+- A Release build updates from this repository's GitHub Releases by default. The address can be changed at build
+  time (`-p:UpdateFeed=…`, or `off`), with `update-feed.txt` next to the program, or in Settings → Updates; it can
+  point at any server with a small JSON manifest. See [docs/UPDATES.md](docs/UPDATES.md).
+- Publishing a release: set `<Version>` in `Directory.Build.props`, then push a `v*` tag;
+  `.github/workflows/release.yml` builds and publishes everything.
 
-- Turn a page: drag a page's outer edge, click it, or press ← / →.
-- **Contents** in the toolbar goes back to the table of contents.
-- **Bookmarks** marks the page you are reading (or press Ctrl+D) and lists your bookmarks; a bookmarked page has a
-  ribbon at the top. The book also reopens at the page you left.
-- The table of contents shows your progress: chapters you have opened, and how many of a chapter's walkthroughs you
-  have heard to the end.
-- **Settings** (top right) has everything you can set: the language, light or dark paper and an accent colour, your
-  observer location, narration (voice, volume, subtitles), page-turn animation, and clearing your reading progress.
-  Changes apply at once and are saved on the device.
-- The text on a chapter's left page can be selected and copied. Right-click it for **Copy**, **Select all** and
-  **Add to notes**.
-- **Notes**: write a note on the page you are reading, quote text from it, edit or delete notes, and **Export** them
-  all as a Markdown file (or **Copy all**). Notes are saved on the device.
-- On the desktop the toolbar is the window's title bar: drag it to move the window, double-click it to maximize.
-  F11 reads full screen, and the window reopens where it was, at its size.
+</details>
 
-## Updates and releases
-
-The desktop book checks for updates when it opens and installs them in place (**Update and restart**). By default a
-release updates from the GitHub Releases of the repository that built it. The address can be replaced: at build
-time, with `update-feed.txt` next to the program, or in Settings → Updates. It can point at any server that serves a
-small JSON manifest. See [docs/UPDATES.md](docs/UPDATES.md), which also describes publishing a release (push a `v*`
-tag; `.github/workflows/release.yml` builds and publishes everything).
-
-`scripts/package-desktop.sh <rid> [update-address]` builds one desktop package locally, the same way the release does.
-On Windows, `scripts/publish-local.ps1` publishes the same AOT build into a local folder (`-Output`; `-Zip` also writes
-the package), closing a copy running from there and starting it again on the new files.
-
-## Narration
+<details>
+<summary><b>Narration</b></summary>
 
 Walkthroughs and object cards are read aloud from pre-rendered mp3 clips, one per `Narr_*` string and language. The
 manifest (`assets/narration/narration.json`) is in git; the audio (`assets/narration/audio`, about 180 MB) is not.
@@ -98,46 +157,84 @@ pip install edge-tts
 python -I scripts/narration/generate-narration.py
 ```
 
-`--seed-from <folder>` first copies clips from another narration folder in the same format whose text matches, and
-`--check` lists missing or stale clips without rendering. When the clips are present, desktop builds copy them next to
-the program and `deploy/cloudflare/deploy.sh` deploys them with the web edition; without them narration is timed
-subtitles. The voices and their licence status are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+`--seed-from <folder>` first copies clips from another narration folder whose text matches, and `--check` lists
+missing or stale clips without rendering. Without the clips, narration runs as timed subtitles. The voices and their
+licence status are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
-## Hosting the web edition
+</details>
 
-The web edition is static files, so any static host works. `deploy/cloudflare` hosts it on Cloudflare as one Worker on
-one origin: static assets serve the app, and an R2 bucket serves what static assets cannot hold. That is the
-AOT-compiled runtime (`dotnet.native.*.wasm`, about 43 MiB, over the 25 MiB per-file limit), stored with a Brotli
-copy. The narration clips are copied in from `assets/narration/audio` as static assets under `narration/`.
+<details>
+<summary><b>Videos and screenshots</b></summary>
+
+The book can film itself. `scripts/video/make-chapter-video.py` plays a chapter's walkthroughs in a headless window
+on a stepped clock — every frame moves the book on exactly 1/30 s, however long it takes to draw — and lays the
+narration on top:
+
+```bash
+python -I scripts/video/make-chapter-video.py --chapter Seasons --culture en
+```
+
+`--views` records only some of a chapter's views, `--layout phone` films the phone layout (9:16), `--scale 1.5` gives
+1080p. `scripts/readme/make-images.py` renders this README's screenshots the same way, and
+`scripts/appicon/make-icons.py` draws the icon.
+
+</details>
+
+<details>
+<summary><b>Hosting the web edition</b></summary>
+
+The web edition is static files, so any static host works. `deploy/cloudflare` hosts it on Cloudflare as one Worker
+on one origin: static assets serve the app, and an R2 bucket serves what static assets cannot hold (the AOT-compiled
+runtime, over the 25 MiB per-file limit). The narration clips are deployed as static assets under `narration/`.
 
 ```bash
 deploy/cloudflare/deploy.sh
 ```
 
-It publishes the Release build, uploads the runtime to R2, then deploys the Worker. It needs Node.js, an existing
-bucket (`npx wrangler r2 bucket create explore-book-apac --location apac`), and `CLOUDFLARE_ACCOUNT_ID` /
-`CLOUDFLARE_API_TOKEN` in the environment. Neither is stored in the repository.
+It needs Node.js, an existing R2 bucket and `CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` in the environment.
+Neither is stored in the repository.
 
-## Project layout
+</details>
+
+<details>
+<summary><b>Reading tips</b></summary>
+
+- Turn a page: drag a page's outer edge, click it, or press ← / →. F11 reads full screen.
+- **Contents** goes back to the table of contents, which shows the chapters you have opened and the walkthroughs you
+  have heard to the end.
+- **Bookmarks** (Ctrl+D) marks the page you are reading; the book also reopens where you left it.
+- **Notes**: write a note on any page, quote its text (right-click → **Add to notes**), and **Export** them all as
+  Markdown.
+- **Settings**: language, light or dark paper and an accent colour, your location, narration (voice, volume, speed,
+  subtitles), page-turn animation, updates, and clearing your reading progress.
+
+</details>
+
+## 🗂️ Project layout
 
 | Path | What |
 |---|---|
-| `src/Lemon.Explore.Book` | Everything shared: the book control (`Controls/BookView`), pages, localization, settings |
+| `src/Lemon.Explore.Book` | Everything shared: the book control (`Controls/BookView`), chapters (`Chapters/<Topic>`), localization, settings |
 | `src/Lemon.Explore.Book.Desktop` | Windows / macOS head |
 | `src/Lemon.Explore.Book.Browser` | WebAssembly head with PWA manifest and service worker (`wwwroot`) |
-| `tests/Lemon.Explore.Book.Tests` | Unit and headless UI tests |
-| `scripts/` | Repository checks, desktop packaging, and the narration generator (`scripts/narration`) |
+| `tests/Lemon.Explore.Book.Tests` | Unit and headless UI tests (and the video and screenshot exporters) |
+| `scripts/` | Repository checks, packaging, narration, videos, screenshots and the icon |
 | `assets/narration` | Narration manifest (committed) and the rendered clips (`audio/`, not committed) |
 | `deploy/cloudflare` | Cloudflare Worker, R2 routing and deploy script for the web edition |
+| `docs/` | [Roadmap](docs/ROADMAP.md), [updates](docs/UPDATES.md), README images and videos |
 
-## Contributing
+## 🤝 Contributing
+
+Issues and pull requests are welcome.
 
 - Every user-visible string goes in both `Resources/AppStrings.resx` and `AppStrings.zh-CN.resx`;
-  `LocalizationCoverageTests` enforces it.
-- This repository is public. Never commit credentials, private host names or personal data. Enable the
-  pre-commit check once with `git config core.hooksPath .githooks`; CI runs it again, with gitleaks.
+  `LocalizationCoverageTests` enforces it. Porting a chapter follows "Porting a chapter" in
+  [docs/ROADMAP.md](docs/ROADMAP.md); Seasons is the reference.
+- This repository is public. Never commit credentials, private host names or personal data. Enable the pre-commit
+  check once with `git config core.hooksPath .githooks`; CI runs it again, with gitleaks.
+- Run `dotnet test` before sending a change.
 
-## Licence
+## 📄 Licence
 
-MIT, see [LICENSE](LICENSE). Bundled fonts and data keep their own licences, see
-[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+MIT, see [LICENSE](LICENSE). Bundled fonts and data keep their own licences, and the narration voices have their own
+terms — see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
