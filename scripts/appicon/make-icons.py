@@ -1,6 +1,6 @@
 """Draws the book's icon, a small solar system, and writes every size the apps use.
 
-    python -I scripts/icon/make-icons.py
+    python -I scripts/appicon/make-icons.py
 
 Writes (all committed):
     src/Lemon.Explore.Book/Assets/book.png                       512 px; also the source of the macOS .icns
