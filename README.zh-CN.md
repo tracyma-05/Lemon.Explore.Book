@@ -153,6 +153,12 @@ python -I scripts/narration/generate-narration.py
 `--seed-from <文件夹>` 先从另一个文本相同的朗读文件夹复制片段，`--check` 只列出缺失或过期的片段而不生成。没有音频时，
 讲解以定时字幕的方式进行。所用声音及其许可情况见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
 
+发布构建从 `narration-v1` 预发布版本获取音频（每种语言一个 zip）。重新生成了音频后，打标签发布之前先重新上传：
+
+```bash
+python -I scripts/narration/narration-pack.py pack --upload
+```
+
 </details>
 
 <details>

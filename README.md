@@ -161,6 +161,13 @@ python -I scripts/narration/generate-narration.py
 missing or stale clips without rendering. Without the clips, narration runs as timed subtitles. The voices and their
 licence status are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
+Release builds get the clips from the `narration-v1` pre-release (one zip per language). After rendering changed
+clips, upload them again before tagging a release:
+
+```bash
+python -I scripts/narration/narration-pack.py pack --upload
+```
+
 </details>
 
 <details>

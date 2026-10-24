@@ -98,9 +98,10 @@ cross-platform book.
   Microsoft publishes no licence for redistributing that audio. Replacing it with openly licensed voices is still
   the goal: compare CosyVoice, MeloTTS and Kokoro on a short English and Chinese sample, and check each model's
   weight licence, not just its code licence.
-- **Not in git.** Clips are about 180 MB for both languages. They must be rendered (or copied) on the machine that
-  builds a release; the release workflow does not have them yet, so its packages and web edition fall back to
-  subtitles.
+- **Not in git.** Clips are about 280 MB for both languages. They are rendered on a developer's machine and kept as
+  the assets of the `narration-v1` pre-release, one zip per language (`scripts/narration/narration-pack.py pack
+  --upload`); the release workflow fetches them before it builds, so every package and the web edition carry the
+  voice. A clip missing from the pack plays as subtitles, with a warning in the release run.
 - **Desktop** (Windows done; macOS written, untested): the clips are copied next to the program (`narration/`; in a
   macOS bundle, `Contents/Resources/narration`) and played with Media Foundation's media engine on Windows (winmm
   MCI, at normal speed only, where Media Foundation is missing) and `AVAudioPlayer` on macOS, so no audio library ships. Still to do: per-chapter packs downloaded the first time a chapter is opened (checked

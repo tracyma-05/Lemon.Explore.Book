@@ -9,6 +9,9 @@
 #   2. git tag v0.2.0 && git push origin main v0.2.0
 # The tag must equal Directory.Build.props' Version (checked below).
 #
+# The narration audio is not in git: each build fetches it from the narration-v1 pre-release first (uploaded with
+# scripts/narration/narration-pack.py pack --upload; the repository variable NARRATION_TAG names another one).
+#
 # Each build has this repository as its update address (github:<owner>/<repo>), so a fork that runs this workflow
 # publishes builds that update from the fork. To point them elsewhere, set the repository variable UPDATE_FEED
 # (e.g. https://downloads.example.com/explore-book/latest.json); see docs/UPDATES.md.
@@ -23,6 +26,7 @@ permissions:
 
 env:
   UPDATE_FEED: ${{ vars.UPDATE_FEED || format('github:{0}', github.repository) }}
+  NARRATION_TAG: ${{ vars.NARRATION_TAG || 'narration-v1' }}
 
 jobs:
   version:
@@ -74,6 +78,14 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           global-json-file: global.json
+      # Into assets/narration/audio, where the desktop project picks the clips up and ships them next to the program.
+      - name: Fetch the narration
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # python3 on macOS, python on Windows.
+        run: |
+          "$(command -v python3 || command -v python)" scripts/narration/narration-pack.py --tag "$NARRATION_TAG" fetch
       - name: Package
         shell: bash
         run: bash scripts/package-desktop.sh "${{ matrix.rid }}" "$UPDATE_FEED"
@@ -97,6 +109,14 @@ jobs:
       # Links Skia's native WebAssembly code into the app.
       - run: dotnet workload install wasm-tools
       - run: dotnet publish src/Lemon.Explore.Book.Browser -c Release -o publish/web
+      # The clips are static assets under narration/, next to the app (as deploy/cloudflare/deploy.sh does).
+      - name: Add the narration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/narration/narration-pack.py --tag "$NARRATION_TAG" fetch
+          mkdir -p publish/web/wwwroot/narration
+          cp -R assets/narration/audio/. publish/web/wwwroot/narration/
       - name: Zip the site
         run: |
           mkdir -p artifacts

@@ -72,8 +72,10 @@ Then point the builds at it: `-p:UpdateFeed=https://downloads.example.com/explor
 
 ## Publishing a release (GitHub)
 
-1. Set `<Version>` in `Directory.Build.props` and commit (`Release 0.2.0`).
-2. `git tag v0.2.0 && git push origin main v0.2.0`.
+1. If narration clips changed, render them and upload them:
+   `python -I scripts/narration/narration-pack.py pack --upload` (the `narration-v1` pre-release the build reads).
+2. Set `<Version>` in `Directory.Build.props` and commit (`Release 0.2.0`).
+3. `git tag v0.2.0 && git push origin main v0.2.0`.
 
 `.github/workflows/release.yml` checks the tag equals the version, runs the tests, builds the three desktop packages
 and the web edition, and creates the GitHub Release with them (its notes are the commit subjects since the previous
