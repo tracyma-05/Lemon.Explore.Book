@@ -27,8 +27,9 @@ public enum UpdateFeedOrigin
 /// The update address. Anyone can point the book's updates at their own server, at three levels, each overriding
 /// the one before:
 /// <list type="number">
-/// <item>Built in at build time: <c>dotnet publish -p:UpdateFeed=…</c>. The release workflow sets it to the
-/// repository it publishes from (<c>github:owner/repo</c>), so a fork that publishes releases updates from itself.</item>
+/// <item>Built in at build time: <c>dotnet publish -p:UpdateFeed=…</c>. A Release build defaults to this repository's
+/// GitHub Releases; the release workflow sets it to the repository it publishes from (<c>github:owner/repo</c>), so a
+/// fork that publishes releases updates from itself.</item>
 /// <item><see cref="FileName"/> next to the program, for a copy repackaged without rebuilding.</item>
 /// <item>The reader's own address in the settings (<see cref="SettingKey"/>).</item>
 /// </list>
@@ -44,7 +45,7 @@ public static partial class UpdateFeed
 
     private const string GitHubPrefix = "github:";
 
-    /// <summary>The address built into this release, or null (a local build).</summary>
+    /// <summary>The address built into this build, or null (a Debug build).</summary>
     public static string? BuiltIn { get; } = ReadBuiltIn();
 
     /// <summary>The feed in force and where it came from; a null feed means updates are off.</summary>

@@ -16,11 +16,16 @@
     <InternalsVisibleTo Include="Lemon.Explore.Book.Tests" />
   </ItemGroup>
 
-  <ItemGroup>
+  <PropertyGroup>
     <!--
-      Where this build looks for updates (see Updates/UpdateFeed.cs): github:owner/repo, or the address of a JSON
-      manifest. Empty in local builds; the release workflow passes -p:UpdateFeed=github:<the repository it runs in>.
+      Where this build looks for updates (see Updates/UpdateFeed.cs): github:owner/repo, the address of a JSON
+      manifest, or off. A Release build updates from this repository's GitHub Releases unless told otherwise (the
+      release workflow passes github:<the repository it runs in>, so a fork updates from itself); a Debug build has none.
     -->
+    <UpdateFeed Condition="'$(UpdateFeed)' == '' and '$(Configuration)' == 'Release'">github:tracyma-05/Lemon.Explore.Book</UpdateFeed>
+  </PropertyGroup>
+
+  <ItemGroup>
     <AssemblyMetadata Include="UpdateFeed" Value="$(UpdateFeed)" />
   </ItemGroup>
 

@@ -4,7 +4,7 @@
 
 .DESCRIPTION
     The same build as scripts/package-desktop.sh and the release workflow: Release, native AOT, debug symbols left out,
-    version from Directory.Build.props. The default update feed is empty, so the local copy does not look for updates.
+    version from Directory.Build.props. It updates from this repository's GitHub Releases unless -UpdateFeed says otherwise.
 
     Native AOT turns the whole app into one ExploreBook.exe. The native libraries that Avalonia draws with
     (libSkiaSharp.dll, libHarfBuzzSharp.dll and av_libglesv2.dll) cannot go inside it, so they stay next to the exe.
@@ -36,7 +36,8 @@ param(
     [string] $Output = 'C:\Data\publishes\explore-book',
     [ValidateSet('win-x64', 'win-arm64')]
     [string] $Runtime = 'win-x64',
-    # Built into the exe as its update address (see docs/UPDATES.md), e.g. github:owner/repo. Empty: no updates.
+    # Built into the exe as its update address (see docs/UPDATES.md), e.g. github:owner/repo, or off.
+    # Empty: the project's default, this repository's GitHub Releases.
     [string] $UpdateFeed = '',
     # Also write explore-book-<version>-<rid>.zip next to the output folder, named the way the updater recognises it.
     [switch] $Zip,
@@ -100,8 +101,10 @@ if ($Clean) {
     }
 }
 
+# An empty -p:UpdateFeed= would override the project's default, so only pass one that was given.
+$feedArgs = if ($UpdateFeed) { @("-p:UpdateFeed=$UpdateFeed") } else { @() }
 dotnet publish $project -c Release -r $Runtime `
-    -p:PublishAot=true -p:DebugType=none "-p:UpdateFeed=$UpdateFeed" -p:Version=$version -warnaserror `
+    -p:PublishAot=true -p:DebugType=none @feedArgs -p:Version=$version -warnaserror `
     -o $staging
 if ($LASTEXITCODE -ne 0) { throw "dotnet publish failed (exit code $LASTEXITCODE)." }
 

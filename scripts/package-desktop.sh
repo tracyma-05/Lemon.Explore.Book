@@ -7,8 +7,8 @@
 #
 # Usage: scripts/package-desktop.sh <rid> [update-feed]
 #   rid          win-x64, win-arm64, osx-arm64 or osx-x64
-#   update-feed  built into the package as its update address (see docs/UPDATES.md), e.g. github:owner/repo.
-#                Empty: the package does not look for updates unless the reader sets an address.
+#   update-feed  built into the package as its update address (see docs/UPDATES.md), e.g. github:owner/repo, or off.
+#                Empty: this repository's GitHub Releases (the Release build's default).
 #
 # Windows needs the Visual Studio C++ build tools (the native linker); macOS needs the Xcode command line tools.
 set -euo pipefail
@@ -23,9 +23,12 @@ OUT="publish/$RID"
 mkdir -p artifacts
 rm -rf "$OUT"
 
-echo "==> $NAME (update feed: ${FEED:-none})"
+echo "==> $NAME (update feed: ${FEED:-the default})"
+# An empty -p:UpdateFeed= would override the project's default, so only pass one that was given.
+FEED_ARG=()
+if [[ -n "$FEED" ]]; then FEED_ARG=("-p:UpdateFeed=$FEED"); fi
 dotnet publish src/Lemon.Explore.Book.Desktop -c Release -r "$RID" \
-  -p:PublishAot=true -p:DebugType=none -p:UpdateFeed="$FEED" -warnaserror \
+  -p:PublishAot=true -p:DebugType=none ${FEED_ARG[@]+"${FEED_ARG[@]}"} -warnaserror \
   -o "$OUT/app"
 
 # Debug symbols (the app's and the native libraries' .pdb / .dSYM) are not shipped: most of the size, no use to readers.

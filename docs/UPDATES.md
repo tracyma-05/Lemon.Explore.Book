@@ -22,7 +22,9 @@ Three places can set it; each overrides the one before:
 
 1. **Built into the build** — `dotnet publish … -p:UpdateFeed=<address>`. The release workflow sets
    `github:<the repository it runs in>`, so a fork that publishes releases gets builds that update from the fork.
-   Set the repository variable `UPDATE_FEED` to build in another address. Local builds have none.
+   Set the repository variable `UPDATE_FEED` to build in another address. Without `-p:UpdateFeed`, a Release build
+   (local ones too) updates from this repository's GitHub Releases, `github:tracyma-05/Lemon.Explore.Book`; a Debug
+   build has no address. `-p:UpdateFeed=off` builds one that never looks.
 2. **`update-feed.txt` next to the program** (inside `Explore Book.app/Contents/MacOS/` on macOS) — for whoever
    repackages a build for their own server without rebuilding it. The first line that is not empty or a `#` comment
    is the address.
