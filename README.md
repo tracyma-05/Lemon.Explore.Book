@@ -198,8 +198,9 @@ runtime, over the 25 MiB per-file limit). The narration clips are deployed as st
 deploy/cloudflare/deploy.sh
 ```
 
-It needs Node.js, an existing R2 bucket and `CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN` in the environment.
-Neither is stored in the repository.
+After deploying it deletes the runtimes in R2 that no longer serve (it keeps the current one and the previous one;
+`--dry-run` only lists them). It needs Node.js, an existing R2 bucket and `CLOUDFLARE_ACCOUNT_ID` /
+`CLOUDFLARE_API_TOKEN` in the environment. Neither is stored in the repository.
 
 </details>
 

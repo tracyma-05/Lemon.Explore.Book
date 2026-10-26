@@ -187,6 +187,7 @@ python -I scripts/video/make-chapter-video.py --chapter Seasons --culture zh-CN
 deploy/cloudflare/deploy.sh
 ```
 
+部署完成后，它会删除 R2 里已不再使用的运行时（保留当前和上一版；`--dry-run` 只列出不删）。
 需要 Node.js、一个已建好的 R2 存储桶，以及环境变量 `CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN`。它们都不存放在仓库里。
 
 </details>
