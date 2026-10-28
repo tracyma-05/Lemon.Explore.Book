@@ -16,6 +16,16 @@ set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
+# Wrangler and the clean-up script read these. Windows keeps user variables in the registry, and a shell started
+# before they were set does not have them yet, so fall back to the registry there. Checked now, not after the build.
+for name in CLOUDFLARE_ACCOUNT_ID CLOUDFLARE_API_TOKEN; do
+    if [[ -z "${!name:-}" ]] && command -v reg.exe >/dev/null; then
+        value=$(reg.exe query 'HKCU\Environment' //v "$name" 2>/dev/null | sed -n "s/^ *$name *REG_[A-Z_]* *//p" | tr -d '\r') || true
+        [[ -z "$value" ]] || export "$name=$value"
+    fi
+    [[ -n "${!name:-}" ]] || { echo "$name is not set." >&2; exit 1; }
+done
+
 bucket=explore-book-apac # Must match r2_buckets in wrangler.jsonc.
 wrangler=(npx --yes wrangler@4)
 out=publish/web/wwwroot
