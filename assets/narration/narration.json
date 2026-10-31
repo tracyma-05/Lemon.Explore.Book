@@ -18517,6 +18517,1002 @@
      ]
     ]
    },
+   "Narr_Matter_Diagram_01": {
+    "duration": 12.816,
+    "hash": "1999a3a4e67982af",
+    "sentences": [
+     [
+      0.05,
+      2.722,
+      "This is a phase diagram for water."
+     ],
+     [
+      2.722,
+      8.639,
+      "Temperature goes across, and pressure goes up, each step ten times the last."
+     ],
+     [
+      8.639,
+      12.764,
+      "The colour at each spot shows which state water is in there."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_02": {
+    "duration": 7.992,
+    "hash": "4fd3eb814b7de80f",
+    "sentences": [
+     [
+      0.05,
+      7.931,
+      "The dot is at twenty-five degrees and ordinary air pressure, in the blue liquid region, just like a glass of water on your table."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_03": {
+    "duration": 12.072,
+    "hash": "948eda6958c9c09a",
+    "sentences": [
+     [
+      0.05,
+      4.639,
+      "This dashed line is one atmosphere, the air around us."
+     ],
+     [
+      4.639,
+      12.0,
+      "Along it, water is ice below zero, liquid up to a hundred degrees, and steam above that."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_04": {
+    "duration": 9.216,
+    "hash": "72d6bdabf738e80f",
+    "sentences": [
+     [
+      0.05,
+      4.472,
+      "This line is the boiling line, where liquid and gas meet."
+     ],
+     [
+      4.472,
+      9.167,
+      "It slopes: the lower the pressure, the lower the boiling point."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_05": {
+    "duration": 8.784,
+    "hash": "a0efe0305f545fb9",
+    "sentences": [
+     [
+      0.05,
+      8.722,
+      "So on top of Everest, where the pressure is about a third of an atmosphere, water boils at only about seventy degrees."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_06": {
+    "duration": 13.968,
+    "hash": "2f9d4ee1afb4a400",
+    "sentences": [
+     [
+      0.05,
+      9.611,
+      "Here the three lines meet, at the triple point: just above zero degrees and a tiny pressure, about six thousandths of an atmosphere."
+     ],
+     [
+      9.611,
+      13.903,
+      "Here ice, water and steam can all exist at once."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_07": {
+    "duration": 10.68,
+    "hash": "acbb2abff4657d57",
+    "sentences": [
+     [
+      0.05,
+      3.528,
+      "Now the dot is in ice at minus ten degrees."
+     ],
+     [
+      3.528,
+      7.458,
+      "Water's melting line leans slightly to the left."
+     ],
+     [
+      7.458,
+      10.625,
+      "What do you think squeezing the ice very hard does?"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_08": {
+    "duration": 15.552,
+    "hash": "982a3923d521cefc",
+    "sentences": [
+     [
+      0.05,
+      4.5,
+      "And at the top right, the boiling line ends at the critical point."
+     ],
+     [
+      4.5,
+      15.5,
+      "Hotter and more squeezed than that, water becomes a supercritical fluid: not liquid, not gas, but one dense fluid with no surface."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_09": {
+    "duration": 14.928,
+    "hash": "4212a458871ec371",
+    "sentences": [
+     [
+      0.05,
+      2.833,
+      "Carbon dioxide's map is different."
+     ],
+     [
+      2.833,
+      8.389,
+      "Its triple point is at about five atmospheres, above ordinary air pressure."
+     ],
+     [
+      8.389,
+      14.875,
+      "So at one atmosphere there is no liquid at all: dry ice turns straight into gas."
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_10": {
+    "duration": 7.776,
+    "hash": "3b76bdbf5ec15cf0",
+    "sentences": [
+     [
+      0.05,
+      1.653,
+      "Now it's your turn."
+     ],
+     [
+      1.653,
+      4.389,
+      "Here is water at room temperature."
+     ],
+     [
+      4.389,
+      7.722,
+      "Drag the dot into the gas region, any way you like."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_01": {
+    "duration": 11.52,
+    "hash": "50ca54c252f040e5",
+    "sentences": [
+     [
+      0.05,
+      6.0,
+      "Here are a hundred grams of ice at minus forty degrees, in a beaker on a burner."
+     ],
+     [
+      6.0,
+      11.458,
+      "Under it, we will draw the heating curve: the temperature against the heat we put in."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_02": {
+    "duration": 8.952,
+    "hash": "09c9eaafcbb6454e",
+    "sentences": [
+     [
+      0.05,
+      1.236,
+      "Light the burner."
+     ],
+     [
+      1.236,
+      8.903,
+      "The heat makes the ice's molecules shiver faster, so the temperature climbs steadily, and the curve goes up."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_03": {
+    "duration": 8.496,
+    "hash": "f2348ef4b931267d",
+    "sentences": [
+     [
+      0.05,
+      5.389,
+      "The ice has reached zero degrees and started to melt, and the burner is still on."
+     ],
+     [
+      5.389,
+      8.444,
+      "What do you think the thermometer does while it melts?"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_04": {
+    "duration": 11.64,
+    "hash": "0be7c5e9bbcab344",
+    "sentences": [
+     [
+      0.05,
+      1.694,
+      "It stays at zero."
+     ],
+     [
+      1.694,
+      7.611,
+      "All the heat goes into breaking molecules out of the lattice, not into making them faster."
+     ],
+     [
+      7.611,
+      11.569,
+      "So the curve goes flat until the last of the ice has melted."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_05": {
+    "duration": 10.92,
+    "hash": "d4b3953aa13b9c00",
+    "sentences": [
+     [
+      0.05,
+      4.028,
+      "Now it is all water, and the temperature rises again."
+     ],
+     [
+      4.028,
+      10.847,
+      "Look at the molecules: they touch and slide past one another, faster as it warms."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_06": {
+    "duration": 12.912,
+    "hash": "002ee4bc3505b41c",
+    "sentences": [
+     [
+      0.05,
+      6.0,
+      "At a hundred degrees the water boils, and the curve goes flat again, for much longer."
+     ],
+     [
+      6.0,
+      12.847,
+      "Tearing every molecule away into steam takes almost seven times the heat it took to melt the ice."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_07": {
+    "duration": 12.672,
+    "hash": "5b427cb457cdab10",
+    "sentences": [
+     [
+      0.05,
+      3.694,
+      "Now let's take the beaker to the top of Everest."
+     ],
+     [
+      3.694,
+      12.611,
+      "The air pressure there is only about a third of sea level's, so the molecules escape more easily, and water boils at only about seventy degrees."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_08": {
+    "duration": 11.832,
+    "hash": "358c8e69445437f1",
+    "sentences": [
+     [
+      0.05,
+      9.278,
+      "And in a pressure cooker, the trapped steam presses down at about two atmospheres, so the water must reach about a hundred and twenty degrees to boil."
+     ],
+     [
+      9.278,
+      11.778,
+      "That is why food cooks faster."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_09": {
+    "duration": 13.848,
+    "hash": "5aa922b0d7acd510",
+    "sentences": [
+     [
+      0.05,
+      3.528,
+      "Now dry ice, solid carbon dioxide."
+     ],
+     [
+      3.528,
+      6.903,
+      "At ordinary pressure it never melts."
+     ],
+     [
+      6.903,
+      11.625,
+      "It turns straight into gas at minus seventy-eight and a half degrees."
+     ],
+     [
+      11.625,
+      13.792,
+      "That is called sublimation."
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_10": {
+    "duration": 7.44,
+    "hash": "644b97eed64407ef",
+    "sentences": [
+     [
+      0.05,
+      1.583,
+      "Now it's your turn."
+     ],
+     [
+      1.583,
+      3.375,
+      "Here is fresh ice again."
+     ],
+     [
+      3.375,
+      7.375,
+      "Light the burner and heat it until all the ice has melted."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Atm": {
+    "duration": 12.192,
+    "hash": "ae80f6dc8fad9a34",
+    "sentences": [
+     [
+      0.05,
+      4.028,
+      "This dashed line is the pressure of the air at sea level."
+     ],
+     [
+      4.028,
+      12.139,
+      "Follow it across: it crosses the melting line at water's freezing point and the boiling line at its boiling point."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Beaker": {
+    "duration": 11.088,
+    "hash": "a9b5519819fedb18",
+    "sentences": [
+     [
+      0.05,
+      4.042,
+      "A hundred grams of ice sits in this beaker on a burner."
+     ],
+     [
+      4.042,
+      11.028,
+      "Watch the ice melt, the water warm and then boil away, while the thermometer tells you the temperature."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Boil": {
+    "duration": 10.824,
+    "hash": "c004406d83bb8319",
+    "sentences": [
+     [
+      0.05,
+      2.681,
+      "This long flat stretch is boiling."
+     ],
+     [
+      2.681,
+      10.764,
+      "Pulling every molecule right away from the liquid takes far more heat than melting, so this plateau is much longer."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_BoilLine": {
+    "duration": 10.392,
+    "hash": "a13118a39a4c5f46",
+    "sentences": [
+     [
+      0.05,
+      4.292,
+      "Along this line liquid and gas sit side by side."
+     ],
+     [
+      4.292,
+      10.319,
+      "Follow it up and the boiling point rises with the pressure; follow it down and it falls."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Cooker": {
+    "duration": 9.192,
+    "hash": "d7297252b49b3f62",
+    "sentences": [
+     [
+      0.05,
+      9.139,
+      "A pressure cooker traps its steam until the pressure is about two atmospheres, so the water inside boils at about a hundred and twenty degrees."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Critical": {
+    "duration": 14.304,
+    "hash": "1f4e6903ba0961a7",
+    "sentences": [
+     [
+      0.05,
+      3.569,
+      "The boiling line stops here, at the critical point."
+     ],
+     [
+      3.569,
+      9.889,
+      "For water that is 374 degrees and about 218 atmospheres."
+     ],
+     [
+      9.889,
+      14.25,
+      "Beyond it, there is no difference between liquid and gas."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Curve": {
+    "duration": 13.944,
+    "hash": "d710eff2ce052e57",
+    "sentences": [
+     [
+      0.05,
+      5.319,
+      "This is the heating curve: temperature going up, heat put in going across."
+     ],
+     [
+      5.319,
+      11.042,
+      "Where it slopes, the substance is warming; where it is flat, it is changing state."
+     ],
+     [
+      11.042,
+      13.9,
+      "Drag along it to go back or forward."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Cylinder": {
+    "duration": 9.864,
+    "hash": "1da0992123d42d28",
+    "sentences": [
+     [
+      0.05,
+      4.319,
+      "This glass cylinder holds forty molecules, drawn huge."
+     ],
+     [
+      4.319,
+      9.792,
+      "The heater below sets their temperature, and the piston on top presses down on them."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Dot": {
+    "duration": 8.016,
+    "hash": "b8285bcbaa500218",
+    "sentences": [
+     [
+      0.05,
+      3.194,
+      "The dot is the temperature and pressure you have chosen."
+     ],
+     [
+      3.194,
+      7.944,
+      "Drag it, and the window beside the map shows what the molecules do there."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_DryIce": {
+    "duration": 8.928,
+    "hash": "5806c9272b372619",
+    "sentences": [
+     [
+      0.05,
+      7.069,
+      "At ordinary air pressure, solid carbon dioxide sublimes at minus seventy-eight and a half degrees."
+     ],
+     [
+      7.069,
+      8.861,
+      "That is dry ice."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Everest": {
+    "duration": 7.896,
+    "hash": "d0f568d83ccb30ed",
+    "sentences": [
+     [
+      0.05,
+      7.833,
+      "On top of Everest the air pressure is only about a third of sea level's, so water boils at about seventy degrees."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Extinguisher": {
+    "duration": 9.648,
+    "hash": "f56792cc11a390c7",
+    "sentences": [
+     [
+      0.05,
+      9.583,
+      "Inside a carbon dioxide fire extinguisher, the gas is squeezed to nearly sixty atmospheres, enough to make it a liquid at room temperature."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Flame": {
+    "duration": 8.856,
+    "hash": "897097bbd1470bcc",
+    "sentences": [
+     [
+      0.05,
+      2.972,
+      "The burner puts heat in at a steady rate."
+     ],
+     [
+      2.972,
+      8.792,
+      "Click it to light a low flame, again for a high one, and again to turn it off."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Gas": {
+    "duration": 6.312,
+    "hash": "4dcfbd8b7286f6c5",
+    "sentences": [
+     [
+      0.05,
+      6.25,
+      "In this region, hot or at low pressure, the molecules fly apart as a gas."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Gauge": {
+    "duration": 12.096,
+    "hash": "8eb73bcaaf468a05",
+    "sentences": [
+     [
+      0.05,
+      2.097,
+      "The gauge reads the pressure."
+     ],
+     [
+      2.097,
+      8.028,
+      "Each mark is ten times the one before, from one pascal up to a hundred million."
+     ],
+     [
+      8.028,
+      12.042,
+      "The green mark is the air around us, one atmosphere."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Heater": {
+    "duration": 9.264,
+    "hash": "be013351e9c1af19",
+    "sentences": [
+     [
+      0.05,
+      5.139,
+      "The plate under the cylinder heats or cools the molecules to the temperature you set."
+     ],
+     [
+      5.139,
+      9.208,
+      "It glows red when hot and frosts blue when cold."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Liquid": {
+    "duration": 7.32,
+    "hash": "cedb0749eb38dc15",
+    "sentences": [
+     [
+      0.05,
+      7.25,
+      "In this region the substance is a liquid: warm enough to flow, but pressed hard enough not to boil."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Mars": {
+    "duration": 11.04,
+    "hash": "7cf12d13ce4c1c46",
+    "sentences": [
+     [
+      0.05,
+      6.083,
+      "Mars's air pressure is about six hundred pascals, just below water's triple point."
+     ],
+     [
+      6.083,
+      10.972,
+      "Liquid water cannot last there: ice turns straight into vapour."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_MarsPole": {
+    "duration": 10.656,
+    "hash": "de071e2f665b72f6",
+    "sentences": [
+     [
+      0.05,
+      10.597,
+      "In the Martian winter, at about minus one hundred and twenty-five degrees, carbon dioxide freezes out of the thin air as frost, and the polar caps grow."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Melt": {
+    "duration": 10.368,
+    "hash": "079b9940c1d2c710",
+    "sentences": [
+     [
+      0.05,
+      2.54,
+      "This flat stretch is melting."
+     ],
+     [
+      2.54,
+      10.306,
+      "The burner is still on, but the temperature does not rise: all the heat goes into breaking the ice's lattice apart."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_MeltLine": {
+    "duration": 10.944,
+    "hash": "75b54c8ab7935425",
+    "sentences": [
+     [
+      0.05,
+      4.5,
+      "Along this line solid and liquid can sit side by side."
+     ],
+     [
+      4.5,
+      10.875,
+      "For water it leans slightly back: squeeze ice hard enough and it melts below zero."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Molecule": {
+    "duration": 14.808,
+    "hash": "bacc4d1bf284c011",
+    "sentences": [
+     [
+      0.05,
+      2.611,
+      "Each little ball is one molecule."
+     ],
+     [
+      2.611,
+      10.431,
+      "Water's is an oxygen atom with two hydrogen atoms; carbon dioxide's is a carbon atom between two oxygens."
+     ],
+     [
+      10.431,
+      14.736,
+      "The molecules never change; only the way they move does."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Piston": {
+    "duration": 11.328,
+    "hash": "c95d7da69b2c7e73",
+    "sentences": [
+     [
+      0.05,
+      6.181,
+      "The piston presses down on what is inside, and each weight stands for ten times more pressure."
+     ],
+     [
+      6.181,
+      11.278,
+      "A gas pushes it up; squeeze harder and the gas takes less room."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Place": {
+    "duration": 8.832,
+    "hash": "83862a91e604acdd",
+    "sentences": [
+     [
+      0.05,
+      5.667,
+      "Where you heat the water changes the air pressure on it, and that changes its boiling point."
+     ],
+     [
+      5.667,
+      8.778,
+      "Click to take the beaker to the next place."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Plot": {
+    "duration": 9.024,
+    "hash": "9a3e91c7ba8aee79",
+    "sentences": [
+     [
+      0.05,
+      2.389,
+      "A phase diagram is a map."
+     ],
+     [
+      2.389,
+      8.972,
+      "Pick a temperature across and a pressure up, and the colour there tells you which state the substance will be in."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Solid": {
+    "duration": 7.008,
+    "hash": "ab3e8e984c06af4a",
+    "sentences": [
+     [
+      0.05,
+      6.944,
+      "In this region the molecules are cold enough, or squeezed hard enough, to lock into a solid."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_State": {
+    "duration": 8.16,
+    "hash": "cc5a06f1c55a0db1",
+    "sentences": [
+     [
+      0.05,
+      8.097,
+      "This names the state the molecules are in now: solid, liquid, gas, or past the critical point, a supercritical fluid."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_SubLine": {
+    "duration": 10.056,
+    "hash": "547b83406a64674f",
+    "sentences": [
+     [
+      0.05,
+      4.569,
+      "Along this line solid and gas sit side by side."
+     ],
+     [
+      4.569,
+      10.0,
+      "Cross it and the solid turns straight into gas, or the gas straight into frost."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Sublime": {
+    "duration": 7.584,
+    "hash": "673bfb504ed37b90",
+    "sentences": [
+     [
+      0.05,
+      7.514,
+      "This flat stretch is sublimation: the solid turning straight into gas without ever becoming a liquid."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Supercritical": {
+    "duration": 9.672,
+    "hash": "ef3f7866f3e57c1e",
+    "sentences": [
+     [
+      0.05,
+      5.139,
+      "Beyond the critical point, liquid and gas can no longer be told apart."
+     ],
+     [
+      5.139,
+      9.611,
+      "There is one fluid, with no surface and no boiling."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Thermometer": {
+    "duration": 8.76,
+    "hash": "43123fda1b941ede",
+    "sentences": [
+     [
+      0.05,
+      5.5,
+      "The thermometer shows the temperature, which is really how fast the molecules are moving."
+     ],
+     [
+      5.5,
+      8.694,
+      "Drag it up or down to warm or cool them."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Triple": {
+    "duration": 9.816,
+    "hash": "1f0cab421485cc64",
+    "sentences": [
+     [
+      0.05,
+      3.403,
+      "The triple point is where the three lines meet."
+     ],
+     [
+      3.403,
+      9.75,
+      "At exactly this temperature and pressure, solid, liquid and gas can all exist together."
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Window": {
+    "duration": 9.192,
+    "hash": "51e4d485beb4a40e",
+    "sentences": [
+     [
+      0.05,
+      3.069,
+      "This window looks at the molecules themselves."
+     ],
+     [
+      3.069,
+      9.139,
+      "You can see them leave the lattice as the ice melts, and fly off as the water boils."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_01": {
+    "duration": 11.472,
+    "hash": "54f9debe6f6a1a4c",
+    "sentences": [
+     [
+      0.05,
+      5.5,
+      "Here are forty water molecules in a cylinder, at minus twenty degrees."
+     ],
+     [
+      5.5,
+      11.403,
+      "They are ice: each molecule is held in its own place in a neat lattice."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_02": {
+    "duration": 10.176,
+    "hash": "5a665e15af9984dd",
+    "sentences": [
+     [
+      0.05,
+      2.512,
+      "Look closely at one molecule."
+     ],
+     [
+      2.513,
+      6.333,
+      "It is not still: it shivers in its place."
+     ],
+     [
+      6.333,
+      10.125,
+      "But its neighbours hold it there, so the ice keeps its shape."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_03": {
+    "duration": 14.496,
+    "hash": "ff625b05cc075504",
+    "sentences": [
+     [
+      0.05,
+      3.153,
+      "Now let's warm it to twenty-five degrees."
+     ],
+     [
+      3.153,
+      8.417,
+      "Past zero, the molecules shake hard enough to break out of the lattice."
+     ],
+     [
+      8.417,
+      11.903,
+      "They still touch, but they slide past one another."
+     ],
+     [
+      11.903,
+      14.431,
+      "The ice has melted into water."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_04": {
+    "duration": 7.224,
+    "hash": "456119d7b7350f55",
+    "sentences": [
+     [
+      0.05,
+      2.972,
+      "Now it is at ninety-five degrees."
+     ],
+     [
+      2.972,
+      7.167,
+      "What do you think will happen if we keep warming it, to a hundred and twenty?"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_05": {
+    "duration": 11.112,
+    "hash": "837a62443da85a44",
+    "sentences": [
+     [
+      0.05,
+      1.292,
+      "It boils."
+     ],
+     [
+      1.292,
+      8.056,
+      "Past a hundred degrees the molecules break away from one another completely and fly about as steam."
+     ],
+     [
+      8.056,
+      11.042,
+      "They fill the cylinder and push the piston up."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_06": {
+    "duration": 13.104,
+    "hash": "45121bf4368731de",
+    "sentences": [
+     [
+      0.05,
+      6.097,
+      "Still at a hundred and twenty degrees, let's squeeze much harder, to twenty atmospheres."
+     ],
+     [
+      6.097,
+      13.042,
+      "The molecules are pushed back together, and the steam turns back into liquid water, even though it is hot."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_07": {
+    "duration": 8.592,
+    "hash": "ca00d24b61a19948",
+    "sentences": [
+     [
+      0.05,
+      8.528,
+      "So the state depends on two things: temperature, which shakes the molecules apart, and pressure, which pushes them together."
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_08": {
+    "duration": 5.472,
+    "hash": "d86806c19df9b6f8",
+    "sentences": [
+     [
+      0.05,
+      1.597,
+      "Now it's your turn."
+     ],
+     [
+      1.597,
+      5.417,
+      "Cool the water down until it freezes into ice again."
+     ]
+    ]
+   },
    "Narr_MoonPhases_Month_01": {
     "duration": 12.384,
     "hash": "fcbd7df4d4356e64",
@@ -55467,6 +56463,997 @@
       1.639,
       9.25,
       "改变电流，拿掉避雷针，站远一点，或者换一道闪电，看看会打到哪里。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_01": {
+    "duration": 12.072,
+    "hash": "7df67694ca8b92cd",
+    "sentences": [
+     [
+      0.1,
+      2.161,
+      "这是水的相图。"
+     ],
+     [
+      2.111,
+      7.514,
+      "横轴是温度，纵轴是压强，每上一格增大十倍。"
+     ],
+     [
+      7.514,
+      12.014,
+      "每个位置的颜色表示水在那里是什么状态。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_02": {
+    "duration": 8.184,
+    "hash": "b862ce0bd7472a1a",
+    "sentences": [
+     [
+      0.1,
+      8.175,
+      "圆点在二十五度、普通气压的位置，处在蓝色的液态区，就像你桌上的一杯水。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_03": {
+    "duration": 12.744,
+    "hash": "2b9256821e2f4458",
+    "sentences": [
+     [
+      0.1,
+      5.064,
+      "这条虚线是一个大气压，也就是我们身边的空气。"
+     ],
+     [
+      5.014,
+      12.694,
+      "沿着它看，零度以下是冰，到一百度之前是液态水，再往上是水蒸气。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_04": {
+    "duration": 9.072,
+    "hash": "b300ee75a138308f",
+    "sentences": [
+     [
+      0.1,
+      5.036,
+      "这条线是沸腾线，液体和气体在这里相遇。"
+     ],
+     [
+      4.986,
+      9.014,
+      "它是斜的：压强越低，沸点越低。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_05": {
+    "duration": 8.256,
+    "hash": "e947e7bd7103422a",
+    "sentences": [
+     [
+      0.1,
+      8.244,
+      "所以在珠峰峰顶，气压大约只有三分之一个大气压，水大约七十度就沸腾了。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_06": {
+    "duration": 15.144,
+    "hash": "3eadbcb0216c026b",
+    "sentences": [
+     [
+      0.1,
+      10.222,
+      "三条线在这里交汇，这就是三相点：温度刚过零度，压强非常小，大约只有一个大气压的千分之六。"
+     ],
+     [
+      10.222,
+      15.069,
+      "在这里，冰、水和水蒸气可以同时存在。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_07": {
+    "duration": 10.704,
+    "hash": "77bbad607c3705d6",
+    "sentences": [
+     [
+      0.1,
+      3.314,
+      "现在圆点在零下十度的冰里。"
+     ],
+     [
+      3.264,
+      6.708,
+      "水的熔化线微微向左倾斜。"
+     ],
+     [
+      6.708,
+      10.639,
+      "你觉得用很大的力去压冰会怎样？"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_08": {
+    "duration": 14.904,
+    "hash": "52887693dcdff9ee",
+    "sentences": [
+     [
+      0.1,
+      4.064,
+      "在右上方，沸腾线终止于临界点。"
+     ],
+     [
+      4.014,
+      14.833,
+      "比它更热、压得更紧，水就变成了超临界流体：不是液体也不是气体，而是一种没有液面的稠密流体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_09": {
+    "duration": 14.064,
+    "hash": "399428de642f9cde",
+    "sentences": [
+     [
+      0.1,
+      2.744,
+      "二氧化碳的相图不一样。"
+     ],
+     [
+      2.694,
+      7.736,
+      "它的三相点大约在五个大气压，高于普通气压。"
+     ],
+     [
+      7.736,
+      14.0,
+      "所以在一个大气压下根本没有液体：干冰直接变成气体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Diagram_10": {
+    "duration": 8.808,
+    "hash": "cf8534dd44ffa376",
+    "sentences": [
+     [
+      0.1,
+      2.064,
+      "现在轮到你了。"
+     ],
+     [
+      2.014,
+      4.25,
+      "这是室温下的水。"
+     ],
+     [
+      4.25,
+      8.75,
+      "用你喜欢的任何方式，把圆点拖进气态区。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_01": {
+    "duration": 10.776,
+    "hash": "c0c3bef1eb1394f2",
+    "sentences": [
+     [
+      0.1,
+      5.494,
+      "烧杯里有一百克零下四十度的冰，放在燃气灶上。"
+     ],
+     [
+      5.444,
+      10.722,
+      "下面我们要画加热曲线：温度随加入热量的变化。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_02": {
+    "duration": 8.952,
+    "hash": "5a52fff55a64d8c9",
+    "sentences": [
+     [
+      0.1,
+      1.953,
+      "点燃燃气灶。"
+     ],
+     [
+      1.903,
+      8.889,
+      "热量让冰里的分子振动得更快，所以温度稳步上升，曲线往上走。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_03": {
+    "duration": 8.52,
+    "hash": "cc7ed5bc5fa5e504",
+    "sentences": [
+     [
+      0.1,
+      4.453,
+      "冰到了零度，开始融化，燃气灶还开着。"
+     ],
+     [
+      4.403,
+      8.458,
+      "你觉得冰在融化时，温度计会怎样？"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_04": {
+    "duration": 13.44,
+    "hash": "5ba53dbaf30b3328",
+    "sentences": [
+     [
+      0.1,
+      1.897,
+      "它停在零度。"
+     ],
+     [
+      1.847,
+      8.764,
+      "所有热量都用来把分子从晶格里拆出来，而不是让它们跑得更快。"
+     ],
+     [
+      8.764,
+      13.389,
+      "所以曲线变平了，直到最后一点冰化完。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_05": {
+    "duration": 9.12,
+    "hash": "f72299273f52e2b9",
+    "sentences": [
+     [
+      0.1,
+      3.981,
+      "现在全是水了，温度又开始上升。"
+     ],
+     [
+      3.931,
+      9.056,
+      "看看分子：它们挨着彼此滑动，越热滑得越快。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_06": {
+    "duration": 13.248,
+    "hash": "0e48efc99db2bd06",
+    "sentences": [
+     [
+      0.1,
+      6.217,
+      "到了一百度，水沸腾了，曲线又变平了，而且平得更久。"
+     ],
+     [
+      6.167,
+      13.194,
+      "把每个分子都拉开变成水蒸气，需要的热量差不多是融冰的七倍。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_07": {
+    "duration": 12.576,
+    "hash": "cb8f8a80e55283a6",
+    "sentences": [
+     [
+      0.1,
+      3.508,
+      "现在把烧杯带到珠峰峰顶。"
+     ],
+     [
+      3.458,
+      12.514,
+      "那里的气压只有海平面的三分之一左右，分子更容易逃出去，所以水大约七十度就沸腾了。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_08": {
+    "duration": 12.336,
+    "hash": "a83951d3712c1b40",
+    "sentences": [
+     [
+      0.1,
+      9.369,
+      "在高压锅里，被关住的蒸汽以大约两个大气压往下压，所以水要到约一百二十度才沸腾。"
+     ],
+     [
+      9.319,
+      12.264,
+      "这就是食物熟得更快的原因。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_09": {
+    "duration": 12.84,
+    "hash": "df891840201fcc23",
+    "sentences": [
+     [
+      0.1,
+      3.925,
+      "再来看干冰，也就是固态二氧化碳。"
+     ],
+     [
+      3.875,
+      11.111,
+      "在普通气压下它从不熔化，而是在零下七十八点五度直接变成气体。"
+     ],
+     [
+      11.111,
+      12.778,
+      "这叫升华。"
+     ]
+    ]
+   },
+   "Narr_Matter_Heating_10": {
+    "duration": 8.304,
+    "hash": "147ad807f8dc1b27",
+    "sentences": [
+     [
+      0.1,
+      2.064,
+      "现在轮到你了。"
+     ],
+     [
+      2.014,
+      4.319,
+      "这里又是一块新冰。"
+     ],
+     [
+      4.319,
+      8.25,
+      "点燃燃气灶，加热到冰全部化完。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Atm": {
+    "duration": 13.008,
+    "hash": "cb552df9d7b0b485",
+    "sentences": [
+     [
+      0.1,
+      3.786,
+      "这条虚线是海平面的空气压强。"
+     ],
+     [
+      3.736,
+      12.958,
+      "顺着它看过去：它和熔化线相交的地方是水的冰点，和沸腾线相交的地方是水的沸点。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Beaker": {
+    "duration": 10.656,
+    "hash": "8c45555c153860db",
+    "sentences": [
+     [
+      0.1,
+      4.356,
+      "烧杯里放着一百克冰，下面是燃气灶。"
+     ],
+     [
+      4.306,
+      10.597,
+      "看冰融化、水升温然后烧干，温度计告诉你温度的变化。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Boil": {
+    "duration": 11.616,
+    "hash": "2725172451738e2c",
+    "sentences": [
+     [
+      0.1,
+      2.981,
+      "这段很长的平台是沸腾。"
+     ],
+     [
+      2.931,
+      11.556,
+      "要把每个分子从液体中完全拉开，需要的热量比熔化多得多，所以这个平台长得多。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_BoilLine": {
+    "duration": 10.152,
+    "hash": "9176ce87ec898c35",
+    "sentences": [
+     [
+      0.1,
+      4.203,
+      "在这条线上，液体和气体可以共存。"
+     ],
+     [
+      4.153,
+      10.083,
+      "顺着它往上，沸点随压强升高；往下，沸点就降低。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Cooker": {
+    "duration": 10.2,
+    "hash": "2db23058ce287023",
+    "sentences": [
+     [
+      0.1,
+      10.139,
+      "高压锅把蒸汽关在里面，直到压强达到大约两个大气压，所以锅里的水要到约一百二十度才沸腾。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Critical": {
+    "duration": 14.112,
+    "hash": "abe30dcb6d496394",
+    "sentences": [
+     [
+      0.1,
+      4.064,
+      "沸腾线在这里终止，这就是临界点。"
+     ],
+     [
+      4.014,
+      9.958,
+      "水的临界点是 374 度、大约 218 个大气压。"
+     ],
+     [
+      9.958,
+      14.056,
+      "越过它，液体和气体就没有区别了。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Curve": {
+    "duration": 15.048,
+    "hash": "fc4ed3472cf59eec",
+    "sentences": [
+     [
+      0.1,
+      5.883,
+      "这是加热曲线：纵轴是温度，横轴是加入的热量。"
+     ],
+     [
+      5.833,
+      11.639,
+      "倾斜的地方物质在升温；平的地方物质在改变状态。"
+     ],
+     [
+      11.639,
+      14.986,
+      "沿着曲线拖动可以前后移动。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Cylinder": {
+    "duration": 11.328,
+    "hash": "ef8c2b725db811db",
+    "sentences": [
+     [
+      0.1,
+      5.036,
+      "这个玻璃圆筒里装着四十个分子，画得特别大。"
+     ],
+     [
+      4.986,
+      11.264,
+      "下面的加热板决定它们的温度，上面的活塞向下压着它们。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Dot": {
+    "duration": 8.64,
+    "hash": "e57aec57533d953a",
+    "sentences": [
+     [
+      0.1,
+      3.675,
+      "圆点代表你选定的温度和压强。"
+     ],
+     [
+      3.625,
+      8.569,
+      "拖动它，旁边的窗口会显示分子在那里的样子。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_DryIce": {
+    "duration": 8.016,
+    "hash": "e9da1f836e6541b3",
+    "sentences": [
+     [
+      0.1,
+      6.217,
+      "在普通气压下，固态二氧化碳在零下七十八点五度升华。"
+     ],
+     [
+      6.167,
+      7.944,
+      "这就是干冰。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Everest": {
+    "duration": 8.136,
+    "hash": "9369e8cd93b00242",
+    "sentences": [
+     [
+      0.1,
+      8.119,
+      "在珠峰峰顶，气压只有海平面的三分之一左右，所以水大约七十度就沸腾了。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Extinguisher": {
+    "duration": 8.592,
+    "hash": "d21d0083eeb5e1de",
+    "sentences": [
+     [
+      0.1,
+      8.578,
+      "二氧化碳灭火器里，气体被压到将近六十个大气压，在室温下就足以变成液体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Flame": {
+    "duration": 8.064,
+    "hash": "3cb7a4ed5aaf8de0",
+    "sentences": [
+     [
+      0.1,
+      3.008,
+      "燃气灶匀速地加入热量。"
+     ],
+     [
+      2.958,
+      8.0,
+      "点一下点小火，再点一下开大火，再点一下关掉。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Gas": {
+    "duration": 6.36,
+    "hash": "40c222e45e93d262",
+    "sentences": [
+     [
+      0.1,
+      6.356,
+      "在这个区域里，温度高或压强低，分子就会飞散成气体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Gauge": {
+    "duration": 12.432,
+    "hash": "152456e1cf2105c5",
+    "sentences": [
+     [
+      0.1,
+      2.536,
+      "压力表显示压强。"
+     ],
+     [
+      2.486,
+      7.708,
+      "每一格都是前一格的十倍，从一帕一直到一亿帕。"
+     ],
+     [
+      7.708,
+      12.375,
+      "绿色的刻度是我们身边的空气，一个大气压。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Heater": {
+    "duration": 10.536,
+    "hash": "a7d5355c9d74976f",
+    "sentences": [
+     [
+      0.1,
+      5.981,
+      "圆筒下面的这块板会把分子加热或冷却到你设定的温度。"
+     ],
+     [
+      5.931,
+      10.472,
+      "热的时候发红，冷的时候结着蓝色的霜。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Liquid": {
+    "duration": 8.04,
+    "hash": "7179c7966a4439d7",
+    "sentences": [
+     [
+      0.1,
+      8.022,
+      "在这个区域里物质是液体：温度高到可以流动，但压强又大到不会沸腾。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Mars": {
+    "duration": 11.328,
+    "hash": "5b1dca487253f14b",
+    "sentences": [
+     [
+      0.1,
+      5.342,
+      "火星的气压大约六百帕，刚好低于水的三相点。"
+     ],
+     [
+      5.292,
+      11.278,
+      "液态水在那里无法长久存在：冰会直接变成水蒸气。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_MarsPole": {
+    "duration": 10.752,
+    "hash": "270f359f36856f6f",
+    "sentences": [
+     [
+      0.1,
+      10.694,
+      "在火星的冬天，温度降到大约零下一百二十五度，二氧化碳会从稀薄的空气中冻成霜，极冠就变大了。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Melt": {
+    "duration": 9.816,
+    "hash": "6cb87234f8eefa7c",
+    "sentences": [
+     [
+      0.1,
+      2.994,
+      "这段平的地方就是熔化。"
+     ],
+     [
+      2.944,
+      9.75,
+      "燃气灶还开着，温度却不升高：所有热量都用来拆散冰的晶格了。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_MeltLine": {
+    "duration": 11.664,
+    "hash": "140abf8605e8add6",
+    "sentences": [
+     [
+      0.1,
+      4.189,
+      "在这条线上，固体和液体可以共存。"
+     ],
+     [
+      4.139,
+      11.611,
+      "水的这条线微微向左倾：把冰压得足够紧，它在零度以下也会融化。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Molecule": {
+    "duration": 17.688,
+    "hash": "fb7d30dd72744770",
+    "sentences": [
+     [
+      0.1,
+      2.828,
+      "每个小球就是一个分子。"
+     ],
+     [
+      2.778,
+      12.403,
+      "水分子是一个氧原子带着两个氢原子；二氧化碳分子是一个碳原子夹在两个氧原子中间。"
+     ],
+     [
+      12.403,
+      17.625,
+      "分子本身从不改变，变的只是它们的运动方式。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Piston": {
+    "duration": 13.032,
+    "hash": "7aa834ef6e88c0ae",
+    "sentences": [
+     [
+      0.1,
+      6.661,
+      "活塞向下压着里面的物质，每加一块砝码，压强就增大十倍。"
+     ],
+     [
+      6.611,
+      12.972,
+      "气体会把活塞往上推；压得越用力，气体占的空间就越小。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Place": {
+    "duration": 9.216,
+    "hash": "6d95f4017afddeaf",
+    "sentences": [
+     [
+      0.1,
+      5.828,
+      "在哪里加热，决定了水面上的气压，而气压决定沸点。"
+     ],
+     [
+      5.778,
+      9.167,
+      "点一下把烧杯带到下一个地方。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Plot": {
+    "duration": 10.104,
+    "hash": "6ea5df561286a254",
+    "sentences": [
+     [
+      0.1,
+      2.564,
+      "相图是一张地图。"
+     ],
+     [
+      2.514,
+      10.042,
+      "横着选一个温度，竖着选一个压强，那里的颜色就告诉你物质会是什么状态。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Solid": {
+    "duration": 7.2,
+    "hash": "2fbf3ee31feca3bf",
+    "sentences": [
+     [
+      0.1,
+      7.189,
+      "在这个区域里，分子足够冷，或者被压得足够紧，于是锁定成固体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_State": {
+    "duration": 9.12,
+    "hash": "f4139f7c3396e3c0",
+    "sentences": [
+     [
+      0.1,
+      9.119,
+      "这里写着分子现在的状态：固态、液态、气态，或者越过临界点后的超临界流体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_SubLine": {
+    "duration": 10.008,
+    "hash": "b21fbae84a2ab415",
+    "sentences": [
+     [
+      0.1,
+      4.147,
+      "在这条线上，固体和气体可以共存。"
+     ],
+     [
+      4.097,
+      9.944,
+      "越过它，固体直接变成气体，或者气体直接凝成霜。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Sublime": {
+    "duration": 6.168,
+    "hash": "f64b009b0e761385",
+    "sentences": [
+     [
+      0.1,
+      6.147,
+      "这段平的地方是升华：固体不经过液体，直接变成气体。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Supercritical": {
+    "duration": 9.0,
+    "hash": "95c990880ce36a3b",
+    "sentences": [
+     [
+      0.1,
+      4.633,
+      "越过临界点后，液体和气体再也分不清了。"
+     ],
+     [
+      4.583,
+      8.944,
+      "只有一种流体，没有液面，也不会沸腾。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Thermometer": {
+    "duration": 9.264,
+    "hash": "8e4f2d5aefec670f",
+    "sentences": [
+     [
+      0.1,
+      5.619,
+      "温度计显示的是温度，其实就是分子运动得有多快。"
+     ],
+     [
+      5.569,
+      9.208,
+      "上下拖动它可以加热或冷却。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Triple": {
+    "duration": 10.248,
+    "hash": "e5ad4da9100f053d",
+    "sentences": [
+     [
+      0.1,
+      3.508,
+      "三相点是三条线交汇的地方。"
+     ],
+     [
+      3.458,
+      10.194,
+      "恰好在这个温度和压强下，固体、液体和气体可以同时存在。"
+     ]
+    ]
+   },
+   "Narr_Matter_Obj_Window": {
+    "duration": 9.696,
+    "hash": "d7708638b6b4acbd",
+    "sentences": [
+     [
+      0.1,
+      2.786,
+      "这个窗口直接看分子。"
+     ],
+     [
+      2.736,
+      9.625,
+      "冰融化时你能看到它们离开晶格，水沸腾时它们飞散开去。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_01": {
+    "duration": 10.728,
+    "hash": "de9d4296f718ac2c",
+    "sentences": [
+     [
+      0.1,
+      5.036,
+      "圆筒里有四十个水分子，温度是零下二十度。"
+     ],
+     [
+      4.986,
+      10.667,
+      "它们是冰：每个分子都待在整齐晶格里自己的位置上。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_02": {
+    "duration": 10.92,
+    "hash": "3b57e486a6c76e01",
+    "sentences": [
+     [
+      0.1,
+      2.244,
+      "仔细看一个分子。"
+     ],
+     [
+      2.194,
+      6.139,
+      "它并不是静止的，而是在原地振动。"
+     ],
+     [
+      6.139,
+      10.861,
+      "但邻居们把它拉住了，所以冰能保持形状。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_03": {
+    "duration": 13.584,
+    "hash": "f14933e45067a1d5",
+    "sentences": [
+     [
+      0.1,
+      3.064,
+      "现在把它加热到二十五度。"
+     ],
+     [
+      3.014,
+      8.111,
+      "过了零度，分子振动得足够剧烈，挣脱了晶格。"
+     ],
+     [
+      8.111,
+      11.611,
+      "它们仍然挨着，却能彼此滑过。"
+     ],
+     [
+      11.611,
+      13.514,
+      "冰化成了水。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_04": {
+    "duration": 7.224,
+    "hash": "670c43c587b1e055",
+    "sentences": [
+     [
+      0.1,
+      2.356,
+      "现在是九十五度。"
+     ],
+     [
+      2.306,
+      7.153,
+      "如果继续加热到一百二十度，你觉得会发生什么？"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_05": {
+    "duration": 11.448,
+    "hash": "cc0079c6113bc700",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "它沸腾了。"
+     ],
+     [
+      1.639,
+      7.722,
+      "超过一百度，分子彼此完全分开，变成水蒸气四处飞。"
+     ],
+     [
+      7.722,
+      11.375,
+      "它们充满了圆筒，把活塞往上推。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_06": {
+    "duration": 12.744,
+    "hash": "0bc27255c1bb5bff",
+    "sentences": [
+     [
+      0.1,
+      6.328,
+      "温度还是一百二十度，我们用更大的力压，压到二十个大气压。"
+     ],
+     [
+      6.278,
+      12.681,
+      "分子又被挤到一起，水蒸气变回了液态水，尽管它还很热。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_07": {
+    "duration": 8.544,
+    "hash": "d82cc6223fb0222f",
+    "sentences": [
+     [
+      0.1,
+      8.522,
+      "所以物质的状态取决于两件事：温度会把分子摇散，压强会把它们挤到一起。"
+     ]
+    ]
+   },
+   "Narr_Matter_Particles_08": {
+    "duration": 5.784,
+    "hash": "ecd872519a58aa5e",
+    "sentences": [
+     [
+      0.1,
+      2.064,
+      "现在轮到你了。"
+     ],
+     [
+      2.014,
+      5.722,
+      "把水冷却，直到它重新结成冰。"
      ]
     ]
    },

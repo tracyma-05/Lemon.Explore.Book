@@ -1,0 +1,169 @@
+<shellExplore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:matter="using:Lemon.Explore.Book.Chapters.StatesOfMatter"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:shellExplore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.StatesOfMatter.StatesOfMatterTextPageView"
+                         x:DataType="matter:StatesOfMatterTextPageViewModel">
+    <!-- Left page of the States of matter spread: the substance, the temperature and pressure or the heating's settings, their chart, and what is happening. -->
+    <shellExplore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).value">
+            <Setter Property="DockPanel.Dock" Value="Right" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </shellExplore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Matter.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Matter.ModeNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Matter.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="MatterMode" IsChecked="{Binding Matter.IsParticles}" Content="{loc:Localize Matter_Mode_Particles}" />
+                    <RadioButton Classes="chip" GroupName="MatterMode" IsChecked="{Binding Matter.IsHeating}" Content="{loc:Localize Matter_Mode_Heating}" />
+                    <RadioButton Classes="chip" GroupName="MatterMode" IsChecked="{Binding Matter.IsDiagram}" Content="{loc:Localize Matter_Mode_Diagram}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Matter.Card}" />
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Matter_Substance_Caption}" />
+                <WrapPanel>
+                    <RadioButton Classes="chip" GroupName="MatterSubstance" IsChecked="{Binding Matter.SubstanceChoice[Water]}" Content="{loc:Localize Matter_Substance_Water}" />
+                    <RadioButton Classes="chip" GroupName="MatterSubstance" IsChecked="{Binding Matter.SubstanceChoice[CarbonDioxide]}" Content="{loc:Localize Matter_Substance_CarbonDioxide}" />
+                </WrapPanel>
+
+                <!-- Particles and diagram: the temperature and the pressure -->
+                <StackPanel IsVisible="{Binding Matter.IsStateView}">
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Matter.CelsiusText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Matter_Temperature}" />
+                    </DockPanel>
+                    <Slider Minimum="{Binding Matter.MinCelsius}" Maximum="{Binding Matter.MaxCelsius}" Value="{Binding Matter.Celsius}"
+                            SmallChange="1" LargeChange="10" AutomationProperties.Name="{loc:Localize Matter_Temperature}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Matter.CoolerCommand}" Content="{loc:Localize Matter_Cooler}" />
+                        <Button Classes="chip" Command="{Binding Matter.WarmerCommand}" Content="{loc:Localize Matter_Warmer}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,10,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Matter.PressureText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Matter_Pressure}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="8" Value="{Binding Matter.PressureLog}" SmallChange="0.05" LargeChange="0.5"
+                            AutomationProperties.Name="{loc:Localize Matter_Pressure}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Matter.ReleaseCommand}" Content="{loc:Localize Matter_Release}" />
+                        <Button Classes="chip" Command="{Binding Matter.SqueezeCommand}" Content="{loc:Localize Matter_Squeeze}" />
+                        <Button Classes="chip" Command="{Binding Matter.OneAtmosphereCommand}" Content="{loc:Localize Matter_OneAtmosphere}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Matter_Show_Caption}" />
+                    <WrapPanel>
+                        <ToggleButton Classes="chip" IsChecked="{Binding Matter.ShowBonds}" Content="{loc:Localize Matter_Option_Bonds}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Matter.ShowLabels}" Content="{loc:Localize Matter_Option_Labels}" />
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Heating: where, the burner, the heat put in -->
+                <StackPanel IsVisible="{Binding Matter.IsHeating}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Matter_Place_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="MatterPlace" IsChecked="{Binding Matter.PlaceChoice[SeaLevel]}" Content="{loc:Localize Matter_Place_SeaLevel}" />
+                        <RadioButton Classes="chip" GroupName="MatterPlace" IsChecked="{Binding Matter.PlaceChoice[Lhasa]}" Content="{loc:Localize Matter_Place_Lhasa}" />
+                        <RadioButton Classes="chip" GroupName="MatterPlace" IsChecked="{Binding Matter.PlaceChoice[Everest]}" Content="{loc:Localize Matter_Place_Everest}" />
+                        <RadioButton Classes="chip" GroupName="MatterPlace" IsChecked="{Binding Matter.PlaceChoice[Cooker]}" Content="{loc:Localize Matter_Place_Cooker}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Matter_Burner_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="MatterHeat" IsChecked="{Binding Matter.HeatChoice[Off]}" Content="{loc:Localize Matter_Heat_Off}" />
+                        <RadioButton Classes="chip" GroupName="MatterHeat" IsChecked="{Binding Matter.HeatChoice[Low]}" Content="{loc:Localize Matter_Heat_Low}" />
+                        <RadioButton Classes="chip" GroupName="MatterHeat" IsChecked="{Binding Matter.HeatChoice[High]}" Content="{loc:Localize Matter_Heat_High}" />
+                    </WrapPanel>
+                    <DockPanel Margin="0,14,0,2">
+                        <SelectableTextBlock Classes="value" Text="{Binding Matter.HeatKjText}" />
+                        <SelectableTextBlock Classes="caption" Margin="0" Text="{loc:Localize Matter_HeatAdded}" />
+                    </DockPanel>
+                    <Slider Minimum="0" Maximum="{Binding Matter.TotalKj}" Value="{Binding Matter.HeatKj}" SmallChange="0.5" LargeChange="10"
+                            AutomationProperties.Name="{loc:Localize Matter_HeatAdded}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Matter.RestartCommand}" Content="{loc:Localize Matter_Restart}" />
+                        <ToggleButton Classes="chip" IsChecked="{Binding Matter.ShowLabels}" Content="{loc:Localize Matter_Option_Labels}" />
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Matter.ChartCaption}" />
+                <Border Classes="plate" Height="200">
+                    <matter:MatterChart Mode="{Binding Matter.Mode}"
+                                        Substance="{Binding Matter.Substance}"
+                                        Celsius="{Binding Matter.Celsius, Mode=TwoWay}"
+                                        PressureLog="{Binding Matter.PressureLog, Mode=TwoWay}"
+                                        Place="{Binding Matter.Place}"
+                                        HeatKj="{Binding Matter.HeatKj}"
+                                        InteractionCommand="{Binding Matter.UserInteractedCommand}"
+                                        AutomationProperties.Name="{Binding Matter.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{Binding Matter.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Matter.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Matter.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Matter.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Matter.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Matter_Facts}" />
+                <ItemsControl ItemsSource="{Binding Matter.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</shellExplore:ChapterPageView>

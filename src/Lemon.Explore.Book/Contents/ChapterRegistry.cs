@@ -34,6 +34,7 @@ using Lemon.Explore.Book.Chapters.PowerGrid;
 using Lemon.Explore.Book.Chapters.Relativity;
 using Lemon.Explore.Book.Chapters.AcidsBases;
 using Lemon.Explore.Book.Chapters.PeriodicTable;
+using Lemon.Explore.Book.Chapters.StatesOfMatter;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.Contents;
@@ -45,7 +46,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra", "Heat-Engines", "Power-Grid", "Relativity", "Acids-Bases", "Periodic-Table" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra", "Heat-Engines", "Power-Grid", "Relativity", "Acids-Bases", "Periodic-Table", "States-of-Matter" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -330,6 +331,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, atoms.Lesson, () => atoms.Mode.ToString(), Enum.GetNames<AtomMode>());
                 return (new PeriodicTableTextPageViewModel(textPage, navigator, chapter, number, atoms),
                     new PeriodicTableDiagramPageViewModel(textPage + 1, navigator, chapter, atoms));
+            }
+
+            case "States-of-Matter":
+            {
+                var matter = new MatterViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, matter.Lesson, () => matter.Mode.ToString(), Enum.GetNames<MatterMode>());
+                return (new StatesOfMatterTextPageViewModel(textPage, navigator, chapter, number, matter),
+                    new StatesOfMatterDiagramPageViewModel(textPage + 1, navigator, chapter, matter));
             }
 
             default:

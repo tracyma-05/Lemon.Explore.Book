@@ -46,6 +46,7 @@ public static class BookContents
 
         new("Acids-Bases", Volume.Chemistry),
         new("Periodic-Table", Volume.Chemistry),
+        new("States-of-Matter", Volume.Chemistry),
     ];
 
     public static IReadOnlyList<Volume> Volumes { get; } = Enum.GetValues<Volume>();

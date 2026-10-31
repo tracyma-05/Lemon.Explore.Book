@@ -12,9 +12,9 @@ namespace Lemon.Explore.Book.Tests;
 public class BookContentsTests
 {
     [Fact]
-    public void AllThirtyFiveTopics_AreChapters_Once()
+    public void AllThirtySixTopics_AreChapters_Once()
     {
-        Assert.Equal(35, BookContents.Chapters.Count);
+        Assert.Equal(36, BookContents.Chapters.Count);
         Assert.Equal(BookContents.Chapters.Count, BookContents.Chapters.Select(c => c.Slug).Distinct().Count());
     }
 

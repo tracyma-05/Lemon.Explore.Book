@@ -3402,6 +3402,9 @@
   <data name="Chapter_Star_Trails" xml:space="preserve">
     <value>Star trails</value>
   </data>
+  <data name="Chapter_States_of_Matter" xml:space="preserve">
+    <value>States of matter and phase changes</value>
+  </data>
   <data name="Chapter_Tides" xml:space="preserve">
     <value>Tides</value>
   </data>
@@ -12156,6 +12159,546 @@
   <data name="Location_West" xml:space="preserve">
     <value>{0}° W</value>
   </data>
+  <data name="Matter_Axis_Heat" xml:space="preserve">
+    <value>heat put in →</value>
+  </data>
+  <data name="Matter_Axis_Temperature" xml:space="preserve">
+    <value>temperature →</value>
+  </data>
+  <data name="Matter_Burner_Caption" xml:space="preserve">
+    <value>Burner</value>
+  </data>
+  <data name="Matter_Chart_Diagram_Caption" xml:space="preserve">
+    <value>Boiling point and height above sea level</value>
+  </data>
+  <data name="Matter_Chart_Diagram_Note" xml:space="preserve">
+    <value>The higher you go, the thinner the air and the lower the boiling point. For carbon dioxide the line is where dry ice turns to gas. Click a height to put the dot there.</value>
+  </data>
+  <data name="Matter_Chart_Heating_Caption" xml:space="preserve">
+    <value>Where the heat goes</value>
+  </data>
+  <data name="Matter_Chart_Heating_Note" xml:space="preserve">
+    <value>Each bar is one stretch of the heating curve, filled as far as the heating has got. Boiling water away takes far more heat than anything else.</value>
+  </data>
+  <data name="Matter_Chart_Particles_Caption" xml:space="preserve">
+    <value>Where the cylinder is on the phase diagram</value>
+  </data>
+  <data name="Matter_Chart_Particles_Note" xml:space="preserve">
+    <value>Drag the dot: it is the same temperature and pressure as the cylinder. The Phase diagram view explains the map.</value>
+  </data>
+  <data name="Matter_Cooler" xml:space="preserve">
+    <value>10 °C cooler</value>
+  </data>
+  <data name="Matter_Diagram_Fact1" xml:space="preserve">
+    <value>Every substance has its own phase diagram; the lines are where two states can sit side by side, like ice floating in water at 0 °C.</value>
+  </data>
+  <data name="Matter_Diagram_Fact2" xml:space="preserve">
+    <value>At the triple point, 0.01 °C and 611.657 Pa, ice, water and steam can all exist together. It is so exact that it was used to define the kelvin.</value>
+  </data>
+  <data name="Matter_Diagram_Fact3" xml:space="preserve">
+    <value>Water's melting line leans back: squeezing ice lowers its melting point, by about 1 °C for every 135 atmospheres. Most other substances lean the other way.</value>
+  </data>
+  <data name="Matter_Diagram_Fact4" xml:space="preserve">
+    <value>Supercritical carbon dioxide, past 31 °C and 73 atmospheres, is used to take the caffeine out of coffee beans without leaving any solvent behind.</value>
+  </data>
+  <data name="Matter_Diagram_Fact5" xml:space="preserve">
+    <value>Mars's air is so thin, about 600 Pa, that it sits below water's triple point: ice there turns straight to vapour instead of melting.</value>
+  </data>
+  <data name="Matter_Diagram_Note" xml:space="preserve">
+    <value>Temperature runs across; pressure runs up, each step ten times the one below, from 1 Pa to 100 MPa (about a thousand atmospheres).</value>
+  </data>
+  <data name="Matter_Diagram_Subtitle" xml:space="preserve">
+    <value>A map of which state wins at each temperature and pressure</value>
+  </data>
+  <data name="Matter_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Matter_HeatAdded" xml:space="preserve">
+    <value>Heat put in</value>
+  </data>
+  <data name="Matter_Heat_High" xml:space="preserve">
+    <value>High flame</value>
+  </data>
+  <data name="Matter_Heat_Low" xml:space="preserve">
+    <value>Low flame</value>
+  </data>
+  <data name="Matter_Heat_Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="Matter_Heating_Fact1" xml:space="preserve">
+    <value>The heat that melts or boils something without warming it is called latent heat, from the Latin for hidden.</value>
+  </data>
+  <data name="Matter_Heating_Fact2" xml:space="preserve">
+    <value>Melting 1 g of ice takes 334 joules; boiling away 1 g of water takes 2,257 joules, enough to warm that gram from 0 to 100 °C more than five times over.</value>
+  </data>
+  <data name="Matter_Heating_Fact3" xml:space="preserve">
+    <value>Sweat cools you for the same reason: each gram that evaporates from your skin carries about 2,400 joules away with it.</value>
+  </data>
+  <data name="Matter_Heating_Fact4" xml:space="preserve">
+    <value>On the top of Everest water boils at about 70 °C, too cool to cook rice or noodles properly; in a pressure cooker it boils at about 120 °C, so food cooks faster.</value>
+  </data>
+  <data name="Matter_Heating_Fact5" xml:space="preserve">
+    <value>Steam at 100 °C scalds worse than water at 100 °C: when it touches your skin it condenses and hands over all its latent heat.</value>
+  </data>
+  <data name="Matter_Heating_Note" xml:space="preserve">
+    <value>100 g of ice from −40 °C (or dry ice from −120 °C), heated by a burner at a steady rate. Heat lost to the air is left out.</value>
+  </data>
+  <data name="Matter_Heating_Subtitle" xml:space="preserve">
+    <value>Why the temperature stops while ice melts and water boils</value>
+  </data>
+  <data name="Matter_Hint_Diagram" xml:space="preserve">
+    <value>Drag the dot anywhere on the map, or click a marked place to go there.</value>
+  </data>
+  <data name="Matter_Hint_Heating" xml:space="preserve">
+    <value>Click the burner to light it and turn it up, click the place to move the beaker, or drag along the curve.</value>
+  </data>
+  <data name="Matter_Hint_Particles" xml:space="preserve">
+    <value>Drag the thermometer to warm or cool the cylinder; drag the piston down to squeeze it.</value>
+  </data>
+  <data name="Matter_Label_Atm" xml:space="preserve">
+    <value>1 atmosphere</value>
+  </data>
+  <data name="Matter_Label_Critical" xml:space="preserve">
+    <value>critical point</value>
+  </data>
+  <data name="Matter_Label_Molecules" xml:space="preserve">
+    <value>40 molecules, drawn hugely enlarged</value>
+  </data>
+  <data name="Matter_Label_Triple" xml:space="preserve">
+    <value>triple point</value>
+  </data>
+  <data name="Matter_Lesson_Diagram_Choice1" xml:space="preserve">
+    <value>Lowers its melting point, so it can melt</value>
+  </data>
+  <data name="Matter_Lesson_Diagram_Choice2" xml:space="preserve">
+    <value>Raises its melting point</value>
+  </data>
+  <data name="Matter_Lesson_Diagram_Choice3" xml:space="preserve">
+    <value>Turns it straight into steam</value>
+  </data>
+  <data name="Matter_Lesson_Heating_Choice1" xml:space="preserve">
+    <value>It stays at 0 °C until the ice has melted</value>
+  </data>
+  <data name="Matter_Lesson_Heating_Choice2" xml:space="preserve">
+    <value>It keeps rising steadily</value>
+  </data>
+  <data name="Matter_Lesson_Heating_Choice3" xml:space="preserve">
+    <value>It drops a little</value>
+  </data>
+  <data name="Matter_Lesson_Particles_Choice1" xml:space="preserve">
+    <value>It boils and becomes steam</value>
+  </data>
+  <data name="Matter_Lesson_Particles_Choice2" xml:space="preserve">
+    <value>It freezes back into ice</value>
+  </data>
+  <data name="Matter_Lesson_Particles_Choice3" xml:space="preserve">
+    <value>Nothing: it stays liquid</value>
+  </data>
+  <data name="Matter_Line_boilline" xml:space="preserve">
+    <value>boiling</value>
+  </data>
+  <data name="Matter_Line_meltline" xml:space="preserve">
+    <value>melting</value>
+  </data>
+  <data name="Matter_Line_subline" xml:space="preserve">
+    <value>sublimation</value>
+  </data>
+  <data name="Matter_Mode_Diagram" xml:space="preserve">
+    <value>Phase diagram</value>
+  </data>
+  <data name="Matter_Mode_Heating" xml:space="preserve">
+    <value>Heating curve</value>
+  </data>
+  <data name="Matter_Mode_Particles" xml:space="preserve">
+    <value>Molecules</value>
+  </data>
+  <data name="Matter_Motion_Gas" xml:space="preserve">
+    <value>Molecules fly apart and fill the space</value>
+  </data>
+  <data name="Matter_Motion_Liquid" xml:space="preserve">
+    <value>Molecules touch and slide past each other</value>
+  </data>
+  <data name="Matter_Motion_Solid" xml:space="preserve">
+    <value>Molecules shiver in place</value>
+  </data>
+  <data name="Matter_Motion_Supercritical" xml:space="preserve">
+    <value>Packed close, yet with no surface</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Gas" xml:space="preserve">
+    <value>Carbon dioxide gas</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Liquid" xml:space="preserve">
+    <value>Liquid carbon dioxide</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Solid" xml:space="preserve">
+    <value>Dry ice</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Supercritical" xml:space="preserve">
+    <value>Supercritical carbon dioxide</value>
+  </data>
+  <data name="Matter_Name_Water_Gas" xml:space="preserve">
+    <value>Steam (water vapour)</value>
+  </data>
+  <data name="Matter_Name_Water_Liquid" xml:space="preserve">
+    <value>Liquid water</value>
+  </data>
+  <data name="Matter_Name_Water_Solid" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="Matter_Name_Water_Supercritical" xml:space="preserve">
+    <value>Supercritical water</value>
+  </data>
+  <data name="Matter_Obj_Atm" xml:space="preserve">
+    <value>One atmosphere</value>
+  </data>
+  <data name="Matter_Obj_Beaker" xml:space="preserve">
+    <value>The beaker</value>
+  </data>
+  <data name="Matter_Obj_Boil" xml:space="preserve">
+    <value>The boiling plateau</value>
+  </data>
+  <data name="Matter_Obj_BoilLine" xml:space="preserve">
+    <value>The boiling line</value>
+  </data>
+  <data name="Matter_Obj_Cooker" xml:space="preserve">
+    <value>Pressure cooker</value>
+  </data>
+  <data name="Matter_Obj_Critical" xml:space="preserve">
+    <value>The critical point</value>
+  </data>
+  <data name="Matter_Obj_Curve" xml:space="preserve">
+    <value>The heating curve</value>
+  </data>
+  <data name="Matter_Obj_Cylinder" xml:space="preserve">
+    <value>The cylinder</value>
+  </data>
+  <data name="Matter_Obj_Dot" xml:space="preserve">
+    <value>The dot</value>
+  </data>
+  <data name="Matter_Obj_DryIce" xml:space="preserve">
+    <value>Dry ice</value>
+  </data>
+  <data name="Matter_Obj_Everest" xml:space="preserve">
+    <value>Everest summit</value>
+  </data>
+  <data name="Matter_Obj_Extinguisher" xml:space="preserve">
+    <value>CO₂ extinguisher</value>
+  </data>
+  <data name="Matter_Obj_Flame" xml:space="preserve">
+    <value>The burner</value>
+  </data>
+  <data name="Matter_Obj_Gas" xml:space="preserve">
+    <value>The gas region</value>
+  </data>
+  <data name="Matter_Obj_Gauge" xml:space="preserve">
+    <value>The pressure gauge</value>
+  </data>
+  <data name="Matter_Obj_Heater" xml:space="preserve">
+    <value>The heater</value>
+  </data>
+  <data name="Matter_Obj_Liquid" xml:space="preserve">
+    <value>The liquid region</value>
+  </data>
+  <data name="Matter_Obj_Mars" xml:space="preserve">
+    <value>Mars surface</value>
+  </data>
+  <data name="Matter_Obj_MarsPole" xml:space="preserve">
+    <value>Mars polar cap</value>
+  </data>
+  <data name="Matter_Obj_Melt" xml:space="preserve">
+    <value>The melting plateau</value>
+  </data>
+  <data name="Matter_Obj_MeltLine" xml:space="preserve">
+    <value>The melting line</value>
+  </data>
+  <data name="Matter_Obj_Molecule" xml:space="preserve">
+    <value>A molecule</value>
+  </data>
+  <data name="Matter_Obj_Piston" xml:space="preserve">
+    <value>The piston</value>
+  </data>
+  <data name="Matter_Obj_Place" xml:space="preserve">
+    <value>Where the beaker is</value>
+  </data>
+  <data name="Matter_Obj_Plot" xml:space="preserve">
+    <value>The phase diagram</value>
+  </data>
+  <data name="Matter_Obj_Solid" xml:space="preserve">
+    <value>The solid region</value>
+  </data>
+  <data name="Matter_Obj_State" xml:space="preserve">
+    <value>The state</value>
+  </data>
+  <data name="Matter_Obj_SubLine" xml:space="preserve">
+    <value>The sublimation line</value>
+  </data>
+  <data name="Matter_Obj_Sublime" xml:space="preserve">
+    <value>The sublimation plateau</value>
+  </data>
+  <data name="Matter_Obj_Supercritical" xml:space="preserve">
+    <value>The supercritical region</value>
+  </data>
+  <data name="Matter_Obj_Thermometer" xml:space="preserve">
+    <value>The thermometer</value>
+  </data>
+  <data name="Matter_Obj_Triple" xml:space="preserve">
+    <value>The triple point</value>
+  </data>
+  <data name="Matter_Obj_Window" xml:space="preserve">
+    <value>The molecules up close</value>
+  </data>
+  <data name="Matter_OneAtmosphere" xml:space="preserve">
+    <value>1 atmosphere</value>
+  </data>
+  <data name="Matter_Option_Bonds" xml:space="preserve">
+    <value>Bonds in the solid</value>
+  </data>
+  <data name="Matter_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Matter_Particles_Fact1" xml:space="preserve">
+    <value>Ice, water and steam are all made of the same H₂O molecules. Only how they move and how tightly they hold one another changes.</value>
+  </data>
+  <data name="Matter_Particles_Fact2" xml:space="preserve">
+    <value>Temperature is a measure of how fast the molecules move. At room temperature a water molecule in the air averages about 600 metres a second, faster than a jet airliner.</value>
+  </data>
+  <data name="Matter_Particles_Fact3" xml:space="preserve">
+    <value>A gas is mostly empty space: in steam at 100 °C the molecules are on average more than ten of their own widths apart.</value>
+  </data>
+  <data name="Matter_Particles_Fact4" xml:space="preserve">
+    <value>Water is unusual: its solid is less dense than its liquid, because the ice lattice holds the molecules a little apart. So ice floats, and lakes freeze from the top down.</value>
+  </data>
+  <data name="Matter_Particles_Fact5" xml:space="preserve">
+    <value>Pressure is the push of countless molecules hitting a wall. Squeeze a gas into less room and they hit more often, so the pressure rises.</value>
+  </data>
+  <data name="Matter_Particles_Note" xml:space="preserve">
+    <value>Forty molecules stand for the countless ones in a real cylinder: a drop of water holds about 1.7 × 10²¹ of them.</value>
+  </data>
+  <data name="Matter_Particles_Subtitle" xml:space="preserve">
+    <value>Solid, liquid and gas are the same molecules, moving differently</value>
+  </data>
+  <data name="Matter_Place_Caption" xml:space="preserve">
+    <value>Where</value>
+  </data>
+  <data name="Matter_Place_Cooker" xml:space="preserve">
+    <value>Pressure cooker</value>
+  </data>
+  <data name="Matter_Place_Everest" xml:space="preserve">
+    <value>Top of Everest</value>
+  </data>
+  <data name="Matter_Place_Lhasa" xml:space="preserve">
+    <value>Lhasa (3,650 m)</value>
+  </data>
+  <data name="Matter_Place_Pill" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Matter_Place_SeaLevel" xml:space="preserve">
+    <value>Sea level</value>
+  </data>
+  <data name="Matter_Plateau_Boil" xml:space="preserve">
+    <value>boiling at {0} °C</value>
+  </data>
+  <data name="Matter_Plateau_Melt" xml:space="preserve">
+    <value>melting at {0} °C</value>
+  </data>
+  <data name="Matter_Plateau_Sublime" xml:space="preserve">
+    <value>subliming at {0} °C</value>
+  </data>
+  <data name="Matter_Pressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Matter_Release" xml:space="preserve">
+    <value>Let off pressure</value>
+  </data>
+  <data name="Matter_Restart" xml:space="preserve">
+    <value>Start again with fresh ice</value>
+  </data>
+  <data name="Matter_Short_Boil" xml:space="preserve">
+    <value>Boil</value>
+  </data>
+  <data name="Matter_Short_Melt" xml:space="preserve">
+    <value>Melt</value>
+  </data>
+  <data name="Matter_Short_Sublime" xml:space="preserve">
+    <value>Sublime</value>
+  </data>
+  <data name="Matter_Short_WarmGas" xml:space="preserve">
+    <value>Warm the gas</value>
+  </data>
+  <data name="Matter_Short_WarmLiquid" xml:space="preserve">
+    <value>Warm the liquid</value>
+  </data>
+  <data name="Matter_Short_WarmSolid" xml:space="preserve">
+    <value>Warm the solid</value>
+  </data>
+  <data name="Matter_Show_Caption" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Matter_Squeeze" xml:space="preserve">
+    <value>Squeeze harder</value>
+  </data>
+  <data name="Matter_Stat_Boils" xml:space="preserve">
+    <value>Boils at</value>
+  </data>
+  <data name="Matter_Stat_Heat" xml:space="preserve">
+    <value>Heat put in</value>
+  </data>
+  <data name="Matter_Stat_Melts" xml:space="preserve">
+    <value>Melts at</value>
+  </data>
+  <data name="Matter_Stat_Pressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Matter_Stat_Shares" xml:space="preserve">
+    <value>Made up of</value>
+  </data>
+  <data name="Matter_Stat_Speed" xml:space="preserve">
+    <value>Molecules' speed</value>
+  </data>
+  <data name="Matter_Stat_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Matter_Stat_Sublimes" xml:space="preserve">
+    <value>Sublimes at</value>
+  </data>
+  <data name="Matter_Stat_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Matter_State_Gas" xml:space="preserve">
+    <value>Gas</value>
+  </data>
+  <data name="Matter_State_Gas_Text" xml:space="preserve">
+    <value>The molecules have broken free of one another and fly about, far apart, until they hit a wall or each other. A gas fills whatever space it is given.</value>
+  </data>
+  <data name="Matter_State_Liquid" xml:space="preserve">
+    <value>Liquid</value>
+  </data>
+  <data name="Matter_State_Liquid_Text" xml:space="preserve">
+    <value>The molecules still touch, but they have enough energy to slip past one another. A liquid keeps its volume but takes the shape of its container.</value>
+  </data>
+  <data name="Matter_State_Solid" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="Matter_State_Solid_Text" xml:space="preserve">
+    <value>Each molecule is held in its place by its neighbours and can only shiver there. That is why a solid keeps its shape.</value>
+  </data>
+  <data name="Matter_State_Supercritical" xml:space="preserve">
+    <value>Supercritical fluid</value>
+  </data>
+  <data name="Matter_State_Supercritical_Text" xml:space="preserve">
+    <value>Hotter and more squeezed than the critical point, there is no surface between liquid and gas any more: one dense fluid that fills its container yet dissolves things like a liquid.</value>
+  </data>
+  <data name="Matter_Stretch_Boil_CarbonDioxide" xml:space="preserve">
+    <value>The liquid boils: the heat tears its molecules away into gas, and the temperature waits at the boiling point.</value>
+  </data>
+  <data name="Matter_Stretch_Boil_Title" xml:space="preserve">
+    <value>Boiling</value>
+  </data>
+  <data name="Matter_Stretch_Boil_Water" xml:space="preserve">
+    <value>Bubbles of steam form inside the water. The heat goes into tearing molecules away from the liquid altogether, so the temperature stays at the boiling point until the water has all boiled away. This takes almost seven times as much heat as melting the ice.</value>
+  </data>
+  <data name="Matter_Stretch_Melt_CarbonDioxide" xml:space="preserve">
+    <value>Every bit of heat goes into breaking the solid's lattice, so the temperature stays put until it has all melted.</value>
+  </data>
+  <data name="Matter_Stretch_Melt_Title" xml:space="preserve">
+    <value>Melting</value>
+  </data>
+  <data name="Matter_Stretch_Melt_Water" xml:space="preserve">
+    <value>Every bit of heat now goes into breaking molecules out of the ice's lattice, not into making them faster, so the temperature stays at 0 °C until the last ice has melted.</value>
+  </data>
+  <data name="Matter_Stretch_Sublime_CarbonDioxide" xml:space="preserve">
+    <value>At ordinary pressure dry ice never melts. Its molecules leave the solid straight into the air as gas, at −78.5 °C, which is why it smokes and leaves nothing wet behind.</value>
+  </data>
+  <data name="Matter_Stretch_Sublime_Title" xml:space="preserve">
+    <value>Subliming</value>
+  </data>
+  <data name="Matter_Stretch_Sublime_Water" xml:space="preserve">
+    <value>Below the triple point's pressure, ice cannot melt: it turns straight into vapour, and the temperature waits until it is all gone.</value>
+  </data>
+  <data name="Matter_Stretch_WarmGas_CarbonDioxide" xml:space="preserve">
+    <value>Only gas is left, and it heats up quickly: its molecules simply fly faster and faster.</value>
+  </data>
+  <data name="Matter_Stretch_WarmGas_Title" xml:space="preserve">
+    <value>Warming the gas</value>
+  </data>
+  <data name="Matter_Stretch_WarmGas_Water" xml:space="preserve">
+    <value>Only steam is left, and it heats up quickly: its molecules simply fly faster and faster.</value>
+  </data>
+  <data name="Matter_Stretch_WarmLiquid_CarbonDioxide" xml:space="preserve">
+    <value>The liquid warms steadily, its molecules sliding faster past one another.</value>
+  </data>
+  <data name="Matter_Stretch_WarmLiquid_Title" xml:space="preserve">
+    <value>Warming the liquid</value>
+  </data>
+  <data name="Matter_Stretch_WarmLiquid_Water" xml:space="preserve">
+    <value>The water warms more slowly than the ice did: liquid water needs about twice as much heat for each degree.</value>
+  </data>
+  <data name="Matter_Stretch_WarmSolid_CarbonDioxide" xml:space="preserve">
+    <value>The heat makes the dry ice's molecules shiver harder in their places, so its temperature climbs steadily.</value>
+  </data>
+  <data name="Matter_Stretch_WarmSolid_Title" xml:space="preserve">
+    <value>Warming the solid</value>
+  </data>
+  <data name="Matter_Stretch_WarmSolid_Water" xml:space="preserve">
+    <value>The heat makes the ice's molecules shiver harder in their places, so its temperature climbs steadily.</value>
+  </data>
+  <data name="Matter_Substance_Caption" xml:space="preserve">
+    <value>Substance</value>
+  </data>
+  <data name="Matter_Substance_CarbonDioxide" xml:space="preserve">
+    <value>Carbon dioxide</value>
+  </data>
+  <data name="Matter_Substance_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Matter_Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Matter_Town_Everest" xml:space="preserve">
+    <value>Everest</value>
+  </data>
+  <data name="Matter_Town_Lhasa" xml:space="preserve">
+    <value>Lhasa</value>
+  </data>
+  <data name="Matter_Town_Sea" xml:space="preserve">
+    <value>Sea level</value>
+  </data>
+  <data name="Matter_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Matter_Value_CelsiusKelvin" xml:space="preserve">
+    <value>{0} °C ({1} K)</value>
+  </data>
+  <data name="Matter_Value_Dot" xml:space="preserve">
+    <value>{0} °C, {1}</value>
+  </data>
+  <data name="Matter_Value_Kj" xml:space="preserve">
+    <value>{0} kJ</value>
+  </data>
+  <data name="Matter_Value_Km" xml:space="preserve">
+    <value>{0} km</value>
+  </data>
+  <data name="Matter_Value_Kpa" xml:space="preserve">
+    <value>{0} kPa</value>
+  </data>
+  <data name="Matter_Value_Mpa" xml:space="preserve">
+    <value>{0} MPa</value>
+  </data>
+  <data name="Matter_Value_Pa" xml:space="preserve">
+    <value>{0} Pa</value>
+  </data>
+  <data name="Matter_Value_Shares" xml:space="preserve">
+    <value>solid {0}% · liquid {1}% · gas {2}%</value>
+  </data>
+  <data name="Matter_Value_Speed" xml:space="preserve">
+    <value>about {0} m/s</value>
+  </data>
+  <data name="Matter_Value_WithAtm" xml:space="preserve">
+    <value>{0} ({1} atm)</value>
+  </data>
+  <data name="Matter_Warmer" xml:space="preserve">
+    <value>10 °C warmer</value>
+  </data>
   <data name="MoonPhases_Age_Short" xml:space="preserve">
     <value>Day {0:0.0}</value>
   </data>
@@ -15680,6 +16223,189 @@
   </data>
   <data name="Narr_Lightning_Strike_10" xml:space="preserve">
     <value>Your turn. Change the current, take the rod away, move further off, or try another strike, and see what gets hit.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_01" xml:space="preserve">
+    <value>This is a phase diagram for water. Temperature goes across, and pressure goes up, each step ten times the last. The colour at each spot shows which state water is in there.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_02" xml:space="preserve">
+    <value>The dot is at twenty-five degrees and ordinary air pressure, in the blue liquid region, just like a glass of water on your table.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_03" xml:space="preserve">
+    <value>This dashed line is one atmosphere, the air around us. Along it, water is ice below zero, liquid up to a hundred degrees, and steam above that.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_04" xml:space="preserve">
+    <value>This line is the boiling line, where liquid and gas meet. It slopes: the lower the pressure, the lower the boiling point.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_05" xml:space="preserve">
+    <value>So on top of Everest, where the pressure is about a third of an atmosphere, water boils at only about seventy degrees.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_06" xml:space="preserve">
+    <value>Here the three lines meet, at the triple point: just above zero degrees and a tiny pressure, about six thousandths of an atmosphere. Here ice, water and steam can all exist at once.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_07" xml:space="preserve">
+    <value>Now the dot is in ice at minus ten degrees. Water's melting line leans slightly to the left. What do you think squeezing the ice very hard does?</value>
+  </data>
+  <data name="Narr_Matter_Diagram_08" xml:space="preserve">
+    <value>And at the top right, the boiling line ends at the critical point. Hotter and more squeezed than that, water becomes a supercritical fluid: not liquid, not gas, but one dense fluid with no surface.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_09" xml:space="preserve">
+    <value>Carbon dioxide's map is different. Its triple point is at about five atmospheres, above ordinary air pressure. So at one atmosphere there is no liquid at all: dry ice turns straight into gas.</value>
+  </data>
+  <data name="Narr_Matter_Diagram_10" xml:space="preserve">
+    <value>Now it's your turn. Here is water at room temperature. Drag the dot into the gas region, any way you like.</value>
+  </data>
+  <data name="Narr_Matter_Heating_01" xml:space="preserve">
+    <value>Here are a hundred grams of ice at minus forty degrees, in a beaker on a burner. Under it, we will draw the heating curve: the temperature against the heat we put in.</value>
+  </data>
+  <data name="Narr_Matter_Heating_02" xml:space="preserve">
+    <value>Light the burner. The heat makes the ice's molecules shiver faster, so the temperature climbs steadily, and the curve goes up.</value>
+  </data>
+  <data name="Narr_Matter_Heating_03" xml:space="preserve">
+    <value>The ice has reached zero degrees and started to melt, and the burner is still on. What do you think the thermometer does while it melts?</value>
+  </data>
+  <data name="Narr_Matter_Heating_04" xml:space="preserve">
+    <value>It stays at zero. All the heat goes into breaking molecules out of the lattice, not into making them faster. So the curve goes flat until the last of the ice has melted.</value>
+  </data>
+  <data name="Narr_Matter_Heating_05" xml:space="preserve">
+    <value>Now it is all water, and the temperature rises again. Look at the molecules: they touch and slide past one another, faster as it warms.</value>
+  </data>
+  <data name="Narr_Matter_Heating_06" xml:space="preserve">
+    <value>At a hundred degrees the water boils, and the curve goes flat again, for much longer. Tearing every molecule away into steam takes almost seven times the heat it took to melt the ice.</value>
+  </data>
+  <data name="Narr_Matter_Heating_07" xml:space="preserve">
+    <value>Now let's take the beaker to the top of Everest. The air pressure there is only about a third of sea level's, so the molecules escape more easily, and water boils at only about seventy degrees.</value>
+  </data>
+  <data name="Narr_Matter_Heating_08" xml:space="preserve">
+    <value>And in a pressure cooker, the trapped steam presses down at about two atmospheres, so the water must reach about a hundred and twenty degrees to boil. That is why food cooks faster.</value>
+  </data>
+  <data name="Narr_Matter_Heating_09" xml:space="preserve">
+    <value>Now dry ice, solid carbon dioxide. At ordinary pressure it never melts. It turns straight into gas at minus seventy-eight and a half degrees. That is called sublimation.</value>
+  </data>
+  <data name="Narr_Matter_Heating_10" xml:space="preserve">
+    <value>Now it's your turn. Here is fresh ice again. Light the burner and heat it until all the ice has melted.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Atm" xml:space="preserve">
+    <value>This dashed line is the pressure of the air at sea level. Follow it across: it crosses the melting line at water's freezing point and the boiling line at its boiling point.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Beaker" xml:space="preserve">
+    <value>A hundred grams of ice sits in this beaker on a burner. Watch the ice melt, the water warm and then boil away, while the thermometer tells you the temperature.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Boil" xml:space="preserve">
+    <value>This long flat stretch is boiling. Pulling every molecule right away from the liquid takes far more heat than melting, so this plateau is much longer.</value>
+  </data>
+  <data name="Narr_Matter_Obj_BoilLine" xml:space="preserve">
+    <value>Along this line liquid and gas sit side by side. Follow it up and the boiling point rises with the pressure; follow it down and it falls.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Cooker" xml:space="preserve">
+    <value>A pressure cooker traps its steam until the pressure is about two atmospheres, so the water inside boils at about a hundred and twenty degrees.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Critical" xml:space="preserve">
+    <value>The boiling line stops here, at the critical point. For water that is 374 degrees and about 218 atmospheres. Beyond it, there is no difference between liquid and gas.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Curve" xml:space="preserve">
+    <value>This is the heating curve: temperature going up, heat put in going across. Where it slopes, the substance is warming; where it is flat, it is changing state. Drag along it to go back or forward.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Cylinder" xml:space="preserve">
+    <value>This glass cylinder holds forty molecules, drawn huge. The heater below sets their temperature, and the piston on top presses down on them.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Dot" xml:space="preserve">
+    <value>The dot is the temperature and pressure you have chosen. Drag it, and the window beside the map shows what the molecules do there.</value>
+  </data>
+  <data name="Narr_Matter_Obj_DryIce" xml:space="preserve">
+    <value>At ordinary air pressure, solid carbon dioxide sublimes at minus seventy-eight and a half degrees. That is dry ice.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Everest" xml:space="preserve">
+    <value>On top of Everest the air pressure is only about a third of sea level's, so water boils at about seventy degrees.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Extinguisher" xml:space="preserve">
+    <value>Inside a carbon dioxide fire extinguisher, the gas is squeezed to nearly sixty atmospheres, enough to make it a liquid at room temperature.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Flame" xml:space="preserve">
+    <value>The burner puts heat in at a steady rate. Click it to light a low flame, again for a high one, and again to turn it off.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Gas" xml:space="preserve">
+    <value>In this region, hot or at low pressure, the molecules fly apart as a gas.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Gauge" xml:space="preserve">
+    <value>The gauge reads the pressure. Each mark is ten times the one before, from one pascal up to a hundred million. The green mark is the air around us, one atmosphere.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Heater" xml:space="preserve">
+    <value>The plate under the cylinder heats or cools the molecules to the temperature you set. It glows red when hot and frosts blue when cold.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Liquid" xml:space="preserve">
+    <value>In this region the substance is a liquid: warm enough to flow, but pressed hard enough not to boil.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Mars" xml:space="preserve">
+    <value>Mars's air pressure is about six hundred pascals, just below water's triple point. Liquid water cannot last there: ice turns straight into vapour.</value>
+  </data>
+  <data name="Narr_Matter_Obj_MarsPole" xml:space="preserve">
+    <value>In the Martian winter, at about minus one hundred and twenty-five degrees, carbon dioxide freezes out of the thin air as frost, and the polar caps grow.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Melt" xml:space="preserve">
+    <value>This flat stretch is melting. The burner is still on, but the temperature does not rise: all the heat goes into breaking the ice's lattice apart.</value>
+  </data>
+  <data name="Narr_Matter_Obj_MeltLine" xml:space="preserve">
+    <value>Along this line solid and liquid can sit side by side. For water it leans slightly back: squeeze ice hard enough and it melts below zero.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Molecule" xml:space="preserve">
+    <value>Each little ball is one molecule. Water's is an oxygen atom with two hydrogen atoms; carbon dioxide's is a carbon atom between two oxygens. The molecules never change; only the way they move does.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Piston" xml:space="preserve">
+    <value>The piston presses down on what is inside, and each weight stands for ten times more pressure. A gas pushes it up; squeeze harder and the gas takes less room.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Place" xml:space="preserve">
+    <value>Where you heat the water changes the air pressure on it, and that changes its boiling point. Click to take the beaker to the next place.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Plot" xml:space="preserve">
+    <value>A phase diagram is a map. Pick a temperature across and a pressure up, and the colour there tells you which state the substance will be in.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Solid" xml:space="preserve">
+    <value>In this region the molecules are cold enough, or squeezed hard enough, to lock into a solid.</value>
+  </data>
+  <data name="Narr_Matter_Obj_State" xml:space="preserve">
+    <value>This names the state the molecules are in now: solid, liquid, gas, or past the critical point, a supercritical fluid.</value>
+  </data>
+  <data name="Narr_Matter_Obj_SubLine" xml:space="preserve">
+    <value>Along this line solid and gas sit side by side. Cross it and the solid turns straight into gas, or the gas straight into frost.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Sublime" xml:space="preserve">
+    <value>This flat stretch is sublimation: the solid turning straight into gas without ever becoming a liquid.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Supercritical" xml:space="preserve">
+    <value>Beyond the critical point, liquid and gas can no longer be told apart. There is one fluid, with no surface and no boiling.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Thermometer" xml:space="preserve">
+    <value>The thermometer shows the temperature, which is really how fast the molecules are moving. Drag it up or down to warm or cool them.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Triple" xml:space="preserve">
+    <value>The triple point is where the three lines meet. At exactly this temperature and pressure, solid, liquid and gas can all exist together.</value>
+  </data>
+  <data name="Narr_Matter_Obj_Window" xml:space="preserve">
+    <value>This window looks at the molecules themselves. You can see them leave the lattice as the ice melts, and fly off as the water boils.</value>
+  </data>
+  <data name="Narr_Matter_Particles_01" xml:space="preserve">
+    <value>Here are forty water molecules in a cylinder, at minus twenty degrees. They are ice: each molecule is held in its own place in a neat lattice.</value>
+  </data>
+  <data name="Narr_Matter_Particles_02" xml:space="preserve">
+    <value>Look closely at one molecule. It is not still: it shivers in its place. But its neighbours hold it there, so the ice keeps its shape.</value>
+  </data>
+  <data name="Narr_Matter_Particles_03" xml:space="preserve">
+    <value>Now let's warm it to twenty-five degrees. Past zero, the molecules shake hard enough to break out of the lattice. They still touch, but they slide past one another. The ice has melted into water.</value>
+  </data>
+  <data name="Narr_Matter_Particles_04" xml:space="preserve">
+    <value>Now it is at ninety-five degrees. What do you think will happen if we keep warming it, to a hundred and twenty?</value>
+  </data>
+  <data name="Narr_Matter_Particles_05" xml:space="preserve">
+    <value>It boils. Past a hundred degrees the molecules break away from one another completely and fly about as steam. They fill the cylinder and push the piston up.</value>
+  </data>
+  <data name="Narr_Matter_Particles_06" xml:space="preserve">
+    <value>Still at a hundred and twenty degrees, let's squeeze much harder, to twenty atmospheres. The molecules are pushed back together, and the steam turns back into liquid water, even though it is hot.</value>
+  </data>
+  <data name="Narr_Matter_Particles_07" xml:space="preserve">
+    <value>So the state depends on two things: temperature, which shakes the molecules apart, and pressure, which pushes them together.</value>
+  </data>
+  <data name="Narr_Matter_Particles_08" xml:space="preserve">
+    <value>Now it's your turn. Cool the water down until it freezes into ice again.</value>
   </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>From one new moon to the next takes twenty-nine and a half days. But the Moon only needs about twenty-seven days to go once around Earth. So where do the extra two days come from?</value>

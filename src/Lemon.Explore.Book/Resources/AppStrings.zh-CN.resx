@@ -3402,6 +3402,9 @@
   <data name="Chapter_Star_Trails" xml:space="preserve">
     <value>星轨</value>
   </data>
+  <data name="Chapter_States_of_Matter" xml:space="preserve">
+    <value>物态与相变</value>
+  </data>
   <data name="Chapter_Tides" xml:space="preserve">
     <value>潮汐</value>
   </data>
@@ -12156,6 +12159,546 @@
   <data name="Location_West" xml:space="preserve">
     <value>西经 {0}°</value>
   </data>
+  <data name="Matter_Axis_Heat" xml:space="preserve">
+    <value>加入的热量 →</value>
+  </data>
+  <data name="Matter_Axis_Temperature" xml:space="preserve">
+    <value>温度 →</value>
+  </data>
+  <data name="Matter_Burner_Caption" xml:space="preserve">
+    <value>燃气灶</value>
+  </data>
+  <data name="Matter_Chart_Diagram_Caption" xml:space="preserve">
+    <value>沸点与海拔</value>
+  </data>
+  <data name="Matter_Chart_Diagram_Note" xml:space="preserve">
+    <value>越往高处，空气越稀薄，沸点越低。对二氧化碳来说，这条线是干冰变成气体的温度。点一个高度，圆点就会移到那里。</value>
+  </data>
+  <data name="Matter_Chart_Heating_Caption" xml:space="preserve">
+    <value>热量都去哪儿了</value>
+  </data>
+  <data name="Matter_Chart_Heating_Note" xml:space="preserve">
+    <value>每一条代表加热曲线的一段，加热到哪里就填到哪里。把水烧干所需的热量远远超过其他各段。</value>
+  </data>
+  <data name="Matter_Chart_Particles_Caption" xml:space="preserve">
+    <value>圆筒在相图上的位置</value>
+  </data>
+  <data name="Matter_Chart_Particles_Note" xml:space="preserve">
+    <value>拖动圆点：它就是圆筒的温度和压强。“相图”一页会详细讲这张图。</value>
+  </data>
+  <data name="Matter_Cooler" xml:space="preserve">
+    <value>降温 10 °C</value>
+  </data>
+  <data name="Matter_Diagram_Fact1" xml:space="preserve">
+    <value>每种物质都有自己的相图；图上的线表示两种状态可以共存的条件，比如 0 °C 时冰浮在水里。</value>
+  </data>
+  <data name="Matter_Diagram_Fact2" xml:space="preserve">
+    <value>在三相点（0.01 °C、611.657 帕），冰、水和水蒸气可以同时存在。它非常精确，曾被用来定义开尔文温标。</value>
+  </data>
+  <data name="Matter_Diagram_Fact3" xml:space="preserve">
+    <value>水的熔化线向左倾斜：给冰加压会降低它的熔点，大约每增加 135 个大气压降低 1 °C。大多数其他物质的熔化线向右倾斜。</value>
+  </data>
+  <data name="Matter_Diagram_Fact4" xml:space="preserve">
+    <value>超过 31 °C 和 73 个大气压的超临界二氧化碳被用来去除咖啡豆里的咖啡因，不会留下任何溶剂残留。</value>
+  </data>
+  <data name="Matter_Diagram_Fact5" xml:space="preserve">
+    <value>火星大气非常稀薄，只有约 600 帕，低于水的三相点：那里的冰不会融化，而是直接变成水蒸气。</value>
+  </data>
+  <data name="Matter_Diagram_Note" xml:space="preserve">
+    <value>横轴是温度；纵轴是压强，每上一格增大十倍，从 1 帕到 100 兆帕（大约一千个大气压）。</value>
+  </data>
+  <data name="Matter_Diagram_Subtitle" xml:space="preserve">
+    <value>一张地图：每个温度和压强下，物质是哪种状态</value>
+  </data>
+  <data name="Matter_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Matter_HeatAdded" xml:space="preserve">
+    <value>加入的热量</value>
+  </data>
+  <data name="Matter_Heat_High" xml:space="preserve">
+    <value>大火</value>
+  </data>
+  <data name="Matter_Heat_Low" xml:space="preserve">
+    <value>小火</value>
+  </data>
+  <data name="Matter_Heat_Off" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Matter_Heating_Fact1" xml:space="preserve">
+    <value>使物质熔化或沸腾、却不让它升温的热量叫“潜热”，意思是“藏起来的热”。</value>
+  </data>
+  <data name="Matter_Heating_Fact2" xml:space="preserve">
+    <value>融化 1 克冰需要 334 焦耳；把 1 克水烧干需要 2257 焦耳，足够把这 1 克水从 0 °C 加热到 100 °C 五次还多。</value>
+  </data>
+  <data name="Matter_Heating_Fact3" xml:space="preserve">
+    <value>出汗能降温也是这个道理：皮肤上每蒸发 1 克汗，就会带走大约 2400 焦耳的热量。</value>
+  </data>
+  <data name="Matter_Heating_Fact4" xml:space="preserve">
+    <value>在珠峰峰顶，水大约 70 °C 就沸腾了，煮米饭面条都不熟；高压锅里的水要到约 120 °C 才沸腾，所以饭熟得更快。</value>
+  </data>
+  <data name="Matter_Heating_Fact5" xml:space="preserve">
+    <value>100 °C 的水蒸气比 100 °C 的开水烫得更厉害：它碰到皮肤会凝结，把全部潜热都交给你。</value>
+  </data>
+  <data name="Matter_Heating_Note" xml:space="preserve">
+    <value>100 克冰从 −40 °C 开始（干冰从 −120 °C 开始），用燃气灶匀速加热。散失到空气里的热量不计。</value>
+  </data>
+  <data name="Matter_Heating_Subtitle" xml:space="preserve">
+    <value>为什么冰在融化、水在沸腾时温度不再上升</value>
+  </data>
+  <data name="Matter_Hint_Diagram" xml:space="preserve">
+    <value>在地图上随意拖动圆点，或者点一个标出的地方跳过去。</value>
+  </data>
+  <data name="Matter_Hint_Heating" xml:space="preserve">
+    <value>点燃气灶点火、调大火力；点地点标签换个地方；也可以沿着曲线拖动。</value>
+  </data>
+  <data name="Matter_Hint_Particles" xml:space="preserve">
+    <value>上下拖动温度计可以加热或冷却圆筒；向下拖动活塞可以压缩它。</value>
+  </data>
+  <data name="Matter_Label_Atm" xml:space="preserve">
+    <value>1 个大气压</value>
+  </data>
+  <data name="Matter_Label_Critical" xml:space="preserve">
+    <value>临界点</value>
+  </data>
+  <data name="Matter_Label_Molecules" xml:space="preserve">
+    <value>40 个分子，放大了无数倍</value>
+  </data>
+  <data name="Matter_Label_Triple" xml:space="preserve">
+    <value>三相点</value>
+  </data>
+  <data name="Matter_Lesson_Diagram_Choice1" xml:space="preserve">
+    <value>降低它的熔点，冰可能会融化</value>
+  </data>
+  <data name="Matter_Lesson_Diagram_Choice2" xml:space="preserve">
+    <value>提高它的熔点</value>
+  </data>
+  <data name="Matter_Lesson_Diagram_Choice3" xml:space="preserve">
+    <value>直接变成水蒸气</value>
+  </data>
+  <data name="Matter_Lesson_Heating_Choice1" xml:space="preserve">
+    <value>停在 0 °C，直到冰化完</value>
+  </data>
+  <data name="Matter_Lesson_Heating_Choice2" xml:space="preserve">
+    <value>继续稳步上升</value>
+  </data>
+  <data name="Matter_Lesson_Heating_Choice3" xml:space="preserve">
+    <value>稍微下降</value>
+  </data>
+  <data name="Matter_Lesson_Particles_Choice1" xml:space="preserve">
+    <value>沸腾，变成水蒸气</value>
+  </data>
+  <data name="Matter_Lesson_Particles_Choice2" xml:space="preserve">
+    <value>重新结成冰</value>
+  </data>
+  <data name="Matter_Lesson_Particles_Choice3" xml:space="preserve">
+    <value>什么都不变，仍然是液体</value>
+  </data>
+  <data name="Matter_Line_boilline" xml:space="preserve">
+    <value>沸腾</value>
+  </data>
+  <data name="Matter_Line_meltline" xml:space="preserve">
+    <value>熔化</value>
+  </data>
+  <data name="Matter_Line_subline" xml:space="preserve">
+    <value>升华</value>
+  </data>
+  <data name="Matter_Mode_Diagram" xml:space="preserve">
+    <value>相图</value>
+  </data>
+  <data name="Matter_Mode_Heating" xml:space="preserve">
+    <value>加热曲线</value>
+  </data>
+  <data name="Matter_Mode_Particles" xml:space="preserve">
+    <value>分子</value>
+  </data>
+  <data name="Matter_Motion_Gas" xml:space="preserve">
+    <value>分子飞散开，充满空间</value>
+  </data>
+  <data name="Matter_Motion_Liquid" xml:space="preserve">
+    <value>分子挨着彼此滑动</value>
+  </data>
+  <data name="Matter_Motion_Solid" xml:space="preserve">
+    <value>分子在原地振动</value>
+  </data>
+  <data name="Matter_Motion_Supercritical" xml:space="preserve">
+    <value>挤得很密，却没有液面</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Gas" xml:space="preserve">
+    <value>二氧化碳气体</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Liquid" xml:space="preserve">
+    <value>液态二氧化碳</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Solid" xml:space="preserve">
+    <value>干冰</value>
+  </data>
+  <data name="Matter_Name_CarbonDioxide_Supercritical" xml:space="preserve">
+    <value>超临界二氧化碳</value>
+  </data>
+  <data name="Matter_Name_Water_Gas" xml:space="preserve">
+    <value>水蒸气</value>
+  </data>
+  <data name="Matter_Name_Water_Liquid" xml:space="preserve">
+    <value>液态水</value>
+  </data>
+  <data name="Matter_Name_Water_Solid" xml:space="preserve">
+    <value>冰</value>
+  </data>
+  <data name="Matter_Name_Water_Supercritical" xml:space="preserve">
+    <value>超临界水</value>
+  </data>
+  <data name="Matter_Obj_Atm" xml:space="preserve">
+    <value>一个大气压</value>
+  </data>
+  <data name="Matter_Obj_Beaker" xml:space="preserve">
+    <value>烧杯</value>
+  </data>
+  <data name="Matter_Obj_Boil" xml:space="preserve">
+    <value>沸腾平台</value>
+  </data>
+  <data name="Matter_Obj_BoilLine" xml:space="preserve">
+    <value>沸腾线</value>
+  </data>
+  <data name="Matter_Obj_Cooker" xml:space="preserve">
+    <value>高压锅</value>
+  </data>
+  <data name="Matter_Obj_Critical" xml:space="preserve">
+    <value>临界点</value>
+  </data>
+  <data name="Matter_Obj_Curve" xml:space="preserve">
+    <value>加热曲线</value>
+  </data>
+  <data name="Matter_Obj_Cylinder" xml:space="preserve">
+    <value>圆筒</value>
+  </data>
+  <data name="Matter_Obj_Dot" xml:space="preserve">
+    <value>圆点</value>
+  </data>
+  <data name="Matter_Obj_DryIce" xml:space="preserve">
+    <value>干冰</value>
+  </data>
+  <data name="Matter_Obj_Everest" xml:space="preserve">
+    <value>珠峰峰顶</value>
+  </data>
+  <data name="Matter_Obj_Extinguisher" xml:space="preserve">
+    <value>二氧化碳灭火器</value>
+  </data>
+  <data name="Matter_Obj_Flame" xml:space="preserve">
+    <value>燃气灶</value>
+  </data>
+  <data name="Matter_Obj_Gas" xml:space="preserve">
+    <value>气态区</value>
+  </data>
+  <data name="Matter_Obj_Gauge" xml:space="preserve">
+    <value>压力表</value>
+  </data>
+  <data name="Matter_Obj_Heater" xml:space="preserve">
+    <value>加热板</value>
+  </data>
+  <data name="Matter_Obj_Liquid" xml:space="preserve">
+    <value>液态区</value>
+  </data>
+  <data name="Matter_Obj_Mars" xml:space="preserve">
+    <value>火星表面</value>
+  </data>
+  <data name="Matter_Obj_MarsPole" xml:space="preserve">
+    <value>火星极冠</value>
+  </data>
+  <data name="Matter_Obj_Melt" xml:space="preserve">
+    <value>熔化平台</value>
+  </data>
+  <data name="Matter_Obj_MeltLine" xml:space="preserve">
+    <value>熔化线</value>
+  </data>
+  <data name="Matter_Obj_Molecule" xml:space="preserve">
+    <value>一个分子</value>
+  </data>
+  <data name="Matter_Obj_Piston" xml:space="preserve">
+    <value>活塞</value>
+  </data>
+  <data name="Matter_Obj_Place" xml:space="preserve">
+    <value>烧杯在哪里</value>
+  </data>
+  <data name="Matter_Obj_Plot" xml:space="preserve">
+    <value>相图</value>
+  </data>
+  <data name="Matter_Obj_Solid" xml:space="preserve">
+    <value>固态区</value>
+  </data>
+  <data name="Matter_Obj_State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Matter_Obj_SubLine" xml:space="preserve">
+    <value>升华线</value>
+  </data>
+  <data name="Matter_Obj_Sublime" xml:space="preserve">
+    <value>升华平台</value>
+  </data>
+  <data name="Matter_Obj_Supercritical" xml:space="preserve">
+    <value>超临界区</value>
+  </data>
+  <data name="Matter_Obj_Thermometer" xml:space="preserve">
+    <value>温度计</value>
+  </data>
+  <data name="Matter_Obj_Triple" xml:space="preserve">
+    <value>三相点</value>
+  </data>
+  <data name="Matter_Obj_Window" xml:space="preserve">
+    <value>分子特写</value>
+  </data>
+  <data name="Matter_OneAtmosphere" xml:space="preserve">
+    <value>1 个大气压</value>
+  </data>
+  <data name="Matter_Option_Bonds" xml:space="preserve">
+    <value>固体里的键</value>
+  </data>
+  <data name="Matter_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Matter_Particles_Fact1" xml:space="preserve">
+    <value>冰、水和水蒸气都是同样的 H₂O 分子，变的只是它们怎样运动、彼此拉得多紧。</value>
+  </data>
+  <data name="Matter_Particles_Fact2" xml:space="preserve">
+    <value>温度衡量的是分子运动得有多快。室温下，空气里的水分子平均每秒跑约 600 米，比喷气式客机还快。</value>
+  </data>
+  <data name="Matter_Particles_Fact3" xml:space="preserve">
+    <value>气体几乎全是空隙：100 °C 的水蒸气里，分子之间平均相隔十多个分子的宽度。</value>
+  </data>
+  <data name="Matter_Particles_Fact4" xml:space="preserve">
+    <value>水很特别：它的固体比液体密度小，因为冰的晶格把分子撑开了一点。所以冰浮在水面，湖泊从上往下结冰。</value>
+  </data>
+  <data name="Matter_Particles_Fact5" xml:space="preserve">
+    <value>压强就是无数分子撞击器壁的推力。把气体压进更小的空间，分子撞得更频繁，压强就升高了。</value>
+  </data>
+  <data name="Matter_Particles_Note" xml:space="preserve">
+    <value>这里用四十个分子代表真实容器里数不清的分子：一滴水里大约有 1.7 × 10²¹ 个水分子。</value>
+  </data>
+  <data name="Matter_Particles_Subtitle" xml:space="preserve">
+    <value>固体、液体、气体是同样的分子，只是运动方式不同</value>
+  </data>
+  <data name="Matter_Place_Caption" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="Matter_Place_Cooker" xml:space="preserve">
+    <value>高压锅</value>
+  </data>
+  <data name="Matter_Place_Everest" xml:space="preserve">
+    <value>珠峰峰顶</value>
+  </data>
+  <data name="Matter_Place_Lhasa" xml:space="preserve">
+    <value>拉萨（3650 米）</value>
+  </data>
+  <data name="Matter_Place_Pill" xml:space="preserve">
+    <value>{0} · {1}</value>
+  </data>
+  <data name="Matter_Place_SeaLevel" xml:space="preserve">
+    <value>海平面</value>
+  </data>
+  <data name="Matter_Plateau_Boil" xml:space="preserve">
+    <value>{0} °C 沸腾</value>
+  </data>
+  <data name="Matter_Plateau_Melt" xml:space="preserve">
+    <value>{0} °C 熔化</value>
+  </data>
+  <data name="Matter_Plateau_Sublime" xml:space="preserve">
+    <value>{0} °C 升华</value>
+  </data>
+  <data name="Matter_Pressure" xml:space="preserve">
+    <value>压强</value>
+  </data>
+  <data name="Matter_Release" xml:space="preserve">
+    <value>减小压强</value>
+  </data>
+  <data name="Matter_Restart" xml:space="preserve">
+    <value>换一块新冰重来</value>
+  </data>
+  <data name="Matter_Short_Boil" xml:space="preserve">
+    <value>沸腾</value>
+  </data>
+  <data name="Matter_Short_Melt" xml:space="preserve">
+    <value>熔化</value>
+  </data>
+  <data name="Matter_Short_Sublime" xml:space="preserve">
+    <value>升华</value>
+  </data>
+  <data name="Matter_Short_WarmGas" xml:space="preserve">
+    <value>气体升温</value>
+  </data>
+  <data name="Matter_Short_WarmLiquid" xml:space="preserve">
+    <value>液体升温</value>
+  </data>
+  <data name="Matter_Short_WarmSolid" xml:space="preserve">
+    <value>固体升温</value>
+  </data>
+  <data name="Matter_Show_Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Matter_Squeeze" xml:space="preserve">
+    <value>加大压强</value>
+  </data>
+  <data name="Matter_Stat_Boils" xml:space="preserve">
+    <value>沸点</value>
+  </data>
+  <data name="Matter_Stat_Heat" xml:space="preserve">
+    <value>加入热量</value>
+  </data>
+  <data name="Matter_Stat_Melts" xml:space="preserve">
+    <value>熔点</value>
+  </data>
+  <data name="Matter_Stat_Pressure" xml:space="preserve">
+    <value>压强</value>
+  </data>
+  <data name="Matter_Stat_Shares" xml:space="preserve">
+    <value>组成</value>
+  </data>
+  <data name="Matter_Stat_Speed" xml:space="preserve">
+    <value>分子速度</value>
+  </data>
+  <data name="Matter_Stat_State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Matter_Stat_Sublimes" xml:space="preserve">
+    <value>升华温度</value>
+  </data>
+  <data name="Matter_Stat_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Matter_State_Gas" xml:space="preserve">
+    <value>气态</value>
+  </data>
+  <data name="Matter_State_Gas_Text" xml:space="preserve">
+    <value>分子挣脱了彼此，相隔很远地四处飞行，直到撞上器壁或其他分子。气体会充满给它的任何空间。</value>
+  </data>
+  <data name="Matter_State_Liquid" xml:space="preserve">
+    <value>液态</value>
+  </data>
+  <data name="Matter_State_Liquid_Text" xml:space="preserve">
+    <value>分子仍然挨在一起，但能量足够让它们彼此滑过。液体体积不变，形状却随容器而变。</value>
+  </data>
+  <data name="Matter_State_Solid" xml:space="preserve">
+    <value>固态</value>
+  </data>
+  <data name="Matter_State_Solid_Text" xml:space="preserve">
+    <value>每个分子都被邻居牢牢拉住，只能在原地振动。所以固体有固定的形状。</value>
+  </data>
+  <data name="Matter_State_Supercritical" xml:space="preserve">
+    <value>超临界流体</value>
+  </data>
+  <data name="Matter_State_Supercritical_Text" xml:space="preserve">
+    <value>温度和压强都超过临界点后，液体和气体之间不再有界面：只剩一种稠密的流体，它像气体一样充满容器，又像液体一样能溶解东西。</value>
+  </data>
+  <data name="Matter_Stretch_Boil_CarbonDioxide" xml:space="preserve">
+    <value>液体沸腾：热量把分子拉开变成气体，温度停在沸点。</value>
+  </data>
+  <data name="Matter_Stretch_Boil_Title" xml:space="preserve">
+    <value>正在沸腾</value>
+  </data>
+  <data name="Matter_Stretch_Boil_Water" xml:space="preserve">
+    <value>水里冒出水蒸气的气泡。热量全用来把分子从液体中彻底拉开，所以温度停在沸点，直到水全部烧干。这一步需要的热量差不多是融冰的七倍。</value>
+  </data>
+  <data name="Matter_Stretch_Melt_CarbonDioxide" xml:space="preserve">
+    <value>所有热量都用来拆开固体的晶格，所以温度保持不变，直到全部熔化。</value>
+  </data>
+  <data name="Matter_Stretch_Melt_Title" xml:space="preserve">
+    <value>正在熔化</value>
+  </data>
+  <data name="Matter_Stretch_Melt_Water" xml:space="preserve">
+    <value>现在所有热量都用来把分子从冰的晶格里拆出来，而不是让它们跑得更快，所以温度停在 0 °C，直到最后一点冰化完。</value>
+  </data>
+  <data name="Matter_Stretch_Sublime_CarbonDioxide" xml:space="preserve">
+    <value>在普通气压下，干冰从不熔化。它的分子直接离开固体变成气体，温度是 −78.5 °C，所以它会冒“烟”，却不留下一点水迹。</value>
+  </data>
+  <data name="Matter_Stretch_Sublime_Title" xml:space="preserve">
+    <value>正在升华</value>
+  </data>
+  <data name="Matter_Stretch_Sublime_Water" xml:space="preserve">
+    <value>压强低于三相点时，冰不会熔化，而是直接变成水蒸气，温度一直停着，直到冰全部消失。</value>
+  </data>
+  <data name="Matter_Stretch_WarmGas_CarbonDioxide" xml:space="preserve">
+    <value>只剩下气体，它升温很快：分子只是飞得越来越快。</value>
+  </data>
+  <data name="Matter_Stretch_WarmGas_Title" xml:space="preserve">
+    <value>气体在升温</value>
+  </data>
+  <data name="Matter_Stretch_WarmGas_Water" xml:space="preserve">
+    <value>只剩下水蒸气，它升温很快：分子只是飞得越来越快。</value>
+  </data>
+  <data name="Matter_Stretch_WarmLiquid_CarbonDioxide" xml:space="preserve">
+    <value>液体稳步升温，分子彼此滑动得越来越快。</value>
+  </data>
+  <data name="Matter_Stretch_WarmLiquid_Title" xml:space="preserve">
+    <value>液体在升温</value>
+  </data>
+  <data name="Matter_Stretch_WarmLiquid_Water" xml:space="preserve">
+    <value>水升温比冰慢：液态水每升高一度需要的热量大约是冰的两倍。</value>
+  </data>
+  <data name="Matter_Stretch_WarmSolid_CarbonDioxide" xml:space="preserve">
+    <value>热量让干冰里的分子在原位振动得更剧烈，所以温度稳步上升。</value>
+  </data>
+  <data name="Matter_Stretch_WarmSolid_Title" xml:space="preserve">
+    <value>固体在升温</value>
+  </data>
+  <data name="Matter_Stretch_WarmSolid_Water" xml:space="preserve">
+    <value>热量让冰里的分子在原位振动得更剧烈，所以温度稳步上升。</value>
+  </data>
+  <data name="Matter_Substance_Caption" xml:space="preserve">
+    <value>物质</value>
+  </data>
+  <data name="Matter_Substance_CarbonDioxide" xml:space="preserve">
+    <value>二氧化碳</value>
+  </data>
+  <data name="Matter_Substance_Water" xml:space="preserve">
+    <value>水</value>
+  </data>
+  <data name="Matter_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="Matter_Town_Everest" xml:space="preserve">
+    <value>珠峰</value>
+  </data>
+  <data name="Matter_Town_Lhasa" xml:space="preserve">
+    <value>拉萨</value>
+  </data>
+  <data name="Matter_Town_Sea" xml:space="preserve">
+    <value>海平面</value>
+  </data>
+  <data name="Matter_Value_Celsius" xml:space="preserve">
+    <value>{0} °C</value>
+  </data>
+  <data name="Matter_Value_CelsiusKelvin" xml:space="preserve">
+    <value>{0} °C（{1} K）</value>
+  </data>
+  <data name="Matter_Value_Dot" xml:space="preserve">
+    <value>{0} °C，{1}</value>
+  </data>
+  <data name="Matter_Value_Kj" xml:space="preserve">
+    <value>{0} 千焦</value>
+  </data>
+  <data name="Matter_Value_Km" xml:space="preserve">
+    <value>{0} 千米</value>
+  </data>
+  <data name="Matter_Value_Kpa" xml:space="preserve">
+    <value>{0} 千帕</value>
+  </data>
+  <data name="Matter_Value_Mpa" xml:space="preserve">
+    <value>{0} 兆帕</value>
+  </data>
+  <data name="Matter_Value_Pa" xml:space="preserve">
+    <value>{0} 帕</value>
+  </data>
+  <data name="Matter_Value_Shares" xml:space="preserve">
+    <value>固 {0}% · 液 {1}% · 气 {2}%</value>
+  </data>
+  <data name="Matter_Value_Speed" xml:space="preserve">
+    <value>约 {0} 米/秒</value>
+  </data>
+  <data name="Matter_Value_WithAtm" xml:space="preserve">
+    <value>{0}（{1} 个大气压）</value>
+  </data>
+  <data name="Matter_Warmer" xml:space="preserve">
+    <value>升温 10 °C</value>
+  </data>
   <data name="MoonPhases_Age_Short" xml:space="preserve">
     <value>第 {0:0.0} 天</value>
   </data>
@@ -15680,6 +16223,189 @@
   </data>
   <data name="Narr_Lightning_Strike_10" xml:space="preserve">
     <value>轮到你了。改变电流，拿掉避雷针，站远一点，或者换一道闪电，看看会打到哪里。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_01" xml:space="preserve">
+    <value>这是水的相图。横轴是温度，纵轴是压强，每上一格增大十倍。每个位置的颜色表示水在那里是什么状态。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_02" xml:space="preserve">
+    <value>圆点在二十五度、普通气压的位置，处在蓝色的液态区，就像你桌上的一杯水。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_03" xml:space="preserve">
+    <value>这条虚线是一个大气压，也就是我们身边的空气。沿着它看，零度以下是冰，到一百度之前是液态水，再往上是水蒸气。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_04" xml:space="preserve">
+    <value>这条线是沸腾线，液体和气体在这里相遇。它是斜的：压强越低，沸点越低。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_05" xml:space="preserve">
+    <value>所以在珠峰峰顶，气压大约只有三分之一个大气压，水大约七十度就沸腾了。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_06" xml:space="preserve">
+    <value>三条线在这里交汇，这就是三相点：温度刚过零度，压强非常小，大约只有一个大气压的千分之六。在这里，冰、水和水蒸气可以同时存在。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_07" xml:space="preserve">
+    <value>现在圆点在零下十度的冰里。水的熔化线微微向左倾斜。你觉得用很大的力去压冰会怎样？</value>
+  </data>
+  <data name="Narr_Matter_Diagram_08" xml:space="preserve">
+    <value>在右上方，沸腾线终止于临界点。比它更热、压得更紧，水就变成了超临界流体：不是液体也不是气体，而是一种没有液面的稠密流体。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_09" xml:space="preserve">
+    <value>二氧化碳的相图不一样。它的三相点大约在五个大气压，高于普通气压。所以在一个大气压下根本没有液体：干冰直接变成气体。</value>
+  </data>
+  <data name="Narr_Matter_Diagram_10" xml:space="preserve">
+    <value>现在轮到你了。这是室温下的水。用你喜欢的任何方式，把圆点拖进气态区。</value>
+  </data>
+  <data name="Narr_Matter_Heating_01" xml:space="preserve">
+    <value>烧杯里有一百克零下四十度的冰，放在燃气灶上。下面我们要画加热曲线：温度随加入热量的变化。</value>
+  </data>
+  <data name="Narr_Matter_Heating_02" xml:space="preserve">
+    <value>点燃燃气灶。热量让冰里的分子振动得更快，所以温度稳步上升，曲线往上走。</value>
+  </data>
+  <data name="Narr_Matter_Heating_03" xml:space="preserve">
+    <value>冰到了零度，开始融化，燃气灶还开着。你觉得冰在融化时，温度计会怎样？</value>
+  </data>
+  <data name="Narr_Matter_Heating_04" xml:space="preserve">
+    <value>它停在零度。所有热量都用来把分子从晶格里拆出来，而不是让它们跑得更快。所以曲线变平了，直到最后一点冰化完。</value>
+  </data>
+  <data name="Narr_Matter_Heating_05" xml:space="preserve">
+    <value>现在全是水了，温度又开始上升。看看分子：它们挨着彼此滑动，越热滑得越快。</value>
+  </data>
+  <data name="Narr_Matter_Heating_06" xml:space="preserve">
+    <value>到了一百度，水沸腾了，曲线又变平了，而且平得更久。把每个分子都拉开变成水蒸气，需要的热量差不多是融冰的七倍。</value>
+  </data>
+  <data name="Narr_Matter_Heating_07" xml:space="preserve">
+    <value>现在把烧杯带到珠峰峰顶。那里的气压只有海平面的三分之一左右，分子更容易逃出去，所以水大约七十度就沸腾了。</value>
+  </data>
+  <data name="Narr_Matter_Heating_08" xml:space="preserve">
+    <value>在高压锅里，被关住的蒸汽以大约两个大气压往下压，所以水要到约一百二十度才沸腾。这就是食物熟得更快的原因。</value>
+  </data>
+  <data name="Narr_Matter_Heating_09" xml:space="preserve">
+    <value>再来看干冰，也就是固态二氧化碳。在普通气压下它从不熔化，而是在零下七十八点五度直接变成气体。这叫升华。</value>
+  </data>
+  <data name="Narr_Matter_Heating_10" xml:space="preserve">
+    <value>现在轮到你了。这里又是一块新冰。点燃燃气灶，加热到冰全部化完。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Atm" xml:space="preserve">
+    <value>这条虚线是海平面的空气压强。顺着它看过去：它和熔化线相交的地方是水的冰点，和沸腾线相交的地方是水的沸点。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Beaker" xml:space="preserve">
+    <value>烧杯里放着一百克冰，下面是燃气灶。看冰融化、水升温然后烧干，温度计告诉你温度的变化。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Boil" xml:space="preserve">
+    <value>这段很长的平台是沸腾。要把每个分子从液体中完全拉开，需要的热量比熔化多得多，所以这个平台长得多。</value>
+  </data>
+  <data name="Narr_Matter_Obj_BoilLine" xml:space="preserve">
+    <value>在这条线上，液体和气体可以共存。顺着它往上，沸点随压强升高；往下，沸点就降低。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Cooker" xml:space="preserve">
+    <value>高压锅把蒸汽关在里面，直到压强达到大约两个大气压，所以锅里的水要到约一百二十度才沸腾。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Critical" xml:space="preserve">
+    <value>沸腾线在这里终止，这就是临界点。水的临界点是 374 度、大约 218 个大气压。越过它，液体和气体就没有区别了。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Curve" xml:space="preserve">
+    <value>这是加热曲线：纵轴是温度，横轴是加入的热量。倾斜的地方物质在升温；平的地方物质在改变状态。沿着曲线拖动可以前后移动。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Cylinder" xml:space="preserve">
+    <value>这个玻璃圆筒里装着四十个分子，画得特别大。下面的加热板决定它们的温度，上面的活塞向下压着它们。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Dot" xml:space="preserve">
+    <value>圆点代表你选定的温度和压强。拖动它，旁边的窗口会显示分子在那里的样子。</value>
+  </data>
+  <data name="Narr_Matter_Obj_DryIce" xml:space="preserve">
+    <value>在普通气压下，固态二氧化碳在零下七十八点五度升华。这就是干冰。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Everest" xml:space="preserve">
+    <value>在珠峰峰顶，气压只有海平面的三分之一左右，所以水大约七十度就沸腾了。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Extinguisher" xml:space="preserve">
+    <value>二氧化碳灭火器里，气体被压到将近六十个大气压，在室温下就足以变成液体。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Flame" xml:space="preserve">
+    <value>燃气灶匀速地加入热量。点一下点小火，再点一下开大火，再点一下关掉。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Gas" xml:space="preserve">
+    <value>在这个区域里，温度高或压强低，分子就会飞散成气体。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Gauge" xml:space="preserve">
+    <value>压力表显示压强。每一格都是前一格的十倍，从一帕一直到一亿帕。绿色的刻度是我们身边的空气，一个大气压。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Heater" xml:space="preserve">
+    <value>圆筒下面的这块板会把分子加热或冷却到你设定的温度。热的时候发红，冷的时候结着蓝色的霜。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Liquid" xml:space="preserve">
+    <value>在这个区域里物质是液体：温度高到可以流动，但压强又大到不会沸腾。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Mars" xml:space="preserve">
+    <value>火星的气压大约六百帕，刚好低于水的三相点。液态水在那里无法长久存在：冰会直接变成水蒸气。</value>
+  </data>
+  <data name="Narr_Matter_Obj_MarsPole" xml:space="preserve">
+    <value>在火星的冬天，温度降到大约零下一百二十五度，二氧化碳会从稀薄的空气中冻成霜，极冠就变大了。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Melt" xml:space="preserve">
+    <value>这段平的地方就是熔化。燃气灶还开着，温度却不升高：所有热量都用来拆散冰的晶格了。</value>
+  </data>
+  <data name="Narr_Matter_Obj_MeltLine" xml:space="preserve">
+    <value>在这条线上，固体和液体可以共存。水的这条线微微向左倾：把冰压得足够紧，它在零度以下也会融化。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Molecule" xml:space="preserve">
+    <value>每个小球就是一个分子。水分子是一个氧原子带着两个氢原子；二氧化碳分子是一个碳原子夹在两个氧原子中间。分子本身从不改变，变的只是它们的运动方式。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Piston" xml:space="preserve">
+    <value>活塞向下压着里面的物质，每加一块砝码，压强就增大十倍。气体会把活塞往上推；压得越用力，气体占的空间就越小。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Place" xml:space="preserve">
+    <value>在哪里加热，决定了水面上的气压，而气压决定沸点。点一下把烧杯带到下一个地方。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Plot" xml:space="preserve">
+    <value>相图是一张地图。横着选一个温度，竖着选一个压强，那里的颜色就告诉你物质会是什么状态。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Solid" xml:space="preserve">
+    <value>在这个区域里，分子足够冷，或者被压得足够紧，于是锁定成固体。</value>
+  </data>
+  <data name="Narr_Matter_Obj_State" xml:space="preserve">
+    <value>这里写着分子现在的状态：固态、液态、气态，或者越过临界点后的超临界流体。</value>
+  </data>
+  <data name="Narr_Matter_Obj_SubLine" xml:space="preserve">
+    <value>在这条线上，固体和气体可以共存。越过它，固体直接变成气体，或者气体直接凝成霜。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Sublime" xml:space="preserve">
+    <value>这段平的地方是升华：固体不经过液体，直接变成气体。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Supercritical" xml:space="preserve">
+    <value>越过临界点后，液体和气体再也分不清了。只有一种流体，没有液面，也不会沸腾。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Thermometer" xml:space="preserve">
+    <value>温度计显示的是温度，其实就是分子运动得有多快。上下拖动它可以加热或冷却。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Triple" xml:space="preserve">
+    <value>三相点是三条线交汇的地方。恰好在这个温度和压强下，固体、液体和气体可以同时存在。</value>
+  </data>
+  <data name="Narr_Matter_Obj_Window" xml:space="preserve">
+    <value>这个窗口直接看分子。冰融化时你能看到它们离开晶格，水沸腾时它们飞散开去。</value>
+  </data>
+  <data name="Narr_Matter_Particles_01" xml:space="preserve">
+    <value>圆筒里有四十个水分子，温度是零下二十度。它们是冰：每个分子都待在整齐晶格里自己的位置上。</value>
+  </data>
+  <data name="Narr_Matter_Particles_02" xml:space="preserve">
+    <value>仔细看一个分子。它并不是静止的，而是在原地振动。但邻居们把它拉住了，所以冰能保持形状。</value>
+  </data>
+  <data name="Narr_Matter_Particles_03" xml:space="preserve">
+    <value>现在把它加热到二十五度。过了零度，分子振动得足够剧烈，挣脱了晶格。它们仍然挨着，却能彼此滑过。冰化成了水。</value>
+  </data>
+  <data name="Narr_Matter_Particles_04" xml:space="preserve">
+    <value>现在是九十五度。如果继续加热到一百二十度，你觉得会发生什么？</value>
+  </data>
+  <data name="Narr_Matter_Particles_05" xml:space="preserve">
+    <value>它沸腾了。超过一百度，分子彼此完全分开，变成水蒸气四处飞。它们充满了圆筒，把活塞往上推。</value>
+  </data>
+  <data name="Narr_Matter_Particles_06" xml:space="preserve">
+    <value>温度还是一百二十度，我们用更大的力压，压到二十个大气压。分子又被挤到一起，水蒸气变回了液态水，尽管它还很热。</value>
+  </data>
+  <data name="Narr_Matter_Particles_07" xml:space="preserve">
+    <value>所以物质的状态取决于两件事：温度会把分子摇散，压强会把它们挤到一起。</value>
+  </data>
+  <data name="Narr_Matter_Particles_08" xml:space="preserve">
+    <value>现在轮到你了。把水冷却，直到它重新结成冰。</value>
   </data>
   <data name="Narr_MoonPhases_Month_01" xml:space="preserve">
     <value>从一个新月到下一个新月，要二十九天半。可是月亮绕地球转一圈，其实只要二十七天多。多出来的两天，是从哪里来的呢？</value>
