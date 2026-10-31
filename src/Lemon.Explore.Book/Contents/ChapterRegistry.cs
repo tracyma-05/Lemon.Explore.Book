@@ -33,6 +33,7 @@ using Lemon.Explore.Book.Chapters.HeatEngines;
 using Lemon.Explore.Book.Chapters.PowerGrid;
 using Lemon.Explore.Book.Chapters.Relativity;
 using Lemon.Explore.Book.Chapters.AcidsBases;
+using Lemon.Explore.Book.Chapters.PeriodicTable;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.Contents;
@@ -44,7 +45,7 @@ namespace Lemon.Explore.Book.Contents;
 public static class ChapterRegistry
 {
     /// <summary>Slugs of the chapters that are fully in the book.</summary>
-    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra", "Heat-Engines", "Power-Grid", "Relativity", "Acids-Bases" };
+    public static IReadOnlySet<string> Ported { get; } = new HashSet<string>(StringComparer.Ordinal) { "Solar-System", "Eclipses", "Seasons", "Moon-Phases", "Day-Night", "Tides", "Kepler", "Star-Trails", "Retrograde", "Star-Life", "Black-Hole", "Expansion", "Water-Cycle", "Sea-Breeze", "Greenhouse", "Typhoon", "Lightning", "Blue-Sky", "Rainbow", "Aurora", "Earthquakes", "Volcanoes", "Ice-Ages", "Oscillations", "Waves", "Sound", "Projectile", "Flight", "Lenses", "Spectra", "Heat-Engines", "Power-Grid", "Relativity", "Acids-Bases", "Periodic-Table" };
 
     public static (PageViewModel Text, PageViewModel Diagram) CreatePages(
         Chapter chapter, int number, int textPage, IBookNavigator navigator, BookServices services)
@@ -321,6 +322,14 @@ public static class ChapterRegistry
                 services.Progress.Track(chapter.Slug, acids.Lesson, () => acids.Mode.ToString(), Enum.GetNames<AcidBaseMode>());
                 return (new AcidsBasesTextPageViewModel(textPage, navigator, chapter, number, acids),
                     new AcidsBasesDiagramPageViewModel(textPage + 1, navigator, chapter, acids));
+            }
+
+            case "Periodic-Table":
+            {
+                var atoms = new AtomViewModel(services.Narration);
+                services.Progress.Track(chapter.Slug, atoms.Lesson, () => atoms.Mode.ToString(), Enum.GetNames<AtomMode>());
+                return (new PeriodicTableTextPageViewModel(textPage, navigator, chapter, number, atoms),
+                    new PeriodicTableDiagramPageViewModel(textPage + 1, navigator, chapter, atoms));
             }
 
             default:

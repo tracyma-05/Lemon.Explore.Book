@@ -1644,6 +1644,940 @@
      ]
     ]
    },
+   "Narr_Atom_Build_01": {
+    "duration": 9.288,
+    "hash": "863852b54b11a450",
+    "sentences": [
+     [
+      0.05,
+      3.694,
+      "This is the simplest atom there is: hydrogen."
+     ],
+     [
+      3.694,
+      7.097,
+      "In the middle is its nucleus, a single proton."
+     ],
+     [
+      7.097,
+      9.249,
+      "Around it goes one electron."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_02": {
+    "duration": 10.056,
+    "hash": "13e28794df8d8db9",
+    "sentences": [
+     [
+      0.05,
+      3.014,
+      "The proton carries a positive charge."
+     ],
+     [
+      3.014,
+      9.986,
+      "How many protons an atom has is its atomic number, and that number alone decides which element it is."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_03": {
+    "duration": 14.04,
+    "hash": "c44daa0e68d117d4",
+    "sentences": [
+     [
+      0.05,
+      7.778,
+      "Add a second proton and it is not hydrogen any more: it is helium, the gas in party balloons."
+     ],
+     [
+      7.778,
+      11.417,
+      "Two neutrons help glue its nucleus together."
+     ],
+     [
+      11.417,
+      13.972,
+      "Neutrons have no charge at all."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_04": {
+    "duration": 10.104,
+    "hash": "ba8d54a8198ca8d9",
+    "sentences": [
+     [
+      0.05,
+      6.792,
+      "Here is carbon, with six protons: the element of coal, diamonds and pencil leads."
+     ],
+     [
+      6.792,
+      10.042,
+      "What do we get if we give it two more protons?"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_05": {
+    "duration": 8.64,
+    "hash": "8f74cd478e22d9b5",
+    "sentences": [
+     [
+      0.05,
+      4.097,
+      "Eight protons make oxygen, the gas you are breathing now."
+     ],
+     [
+      4.097,
+      8.583,
+      "Every single proton added makes a completely different element."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_06": {
+    "duration": 12.216,
+    "hash": "2e2192b7038540df",
+    "sentences": [
+     [
+      0.05,
+      2.111,
+      "Electrons sit in shells."
+     ],
+     [
+      2.111,
+      6.278,
+      "The first shell holds only two, the next one eight."
+     ],
+     [
+      6.278,
+      12.153,
+      "Sodium has eleven electrons, so the eleventh starts a third shell all on its own."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_07": {
+    "duration": 16.104,
+    "hash": "0b31d9a727978b54",
+    "sentences": [
+     [
+      0.05,
+      4.778,
+      "Sodium gives that lonely outer electron away very easily."
+     ],
+     [
+      4.778,
+      11.194,
+      "Now it has eleven protons but only ten electrons, so it carries a charge of plus one."
+     ],
+     [
+      11.194,
+      16.042,
+      "It has become a positive ion, the sodium you met in salty water."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_08": {
+    "duration": 17.184,
+    "hash": "e5f1918448d97c65",
+    "sentences": [
+     [
+      0.05,
+      2.028,
+      "Chlorine does the opposite."
+     ],
+     [
+      2.028,
+      7.958,
+      "Its outer shell has seven electrons, one short of eight, so it takes one extra."
+     ],
+     [
+      7.958,
+      13.194,
+      "With eighteen electrons and seventeen protons it is a negative chloride ion."
+     ],
+     [
+      13.194,
+      17.125,
+      "Sodium and chloride ions together make table salt."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_09": {
+    "duration": 18.912,
+    "hash": "369a385c830b44a0",
+    "sentences": [
+     [
+      0.05,
+      2.722,
+      "Now change only the neutrons."
+     ],
+     [
+      2.722,
+      8.542,
+      "This is still carbon, but with eight neutrons instead of six: carbon-14."
+     ],
+     [
+      8.542,
+      13.431,
+      "Atoms of one element with different numbers of neutrons are called isotopes."
+     ],
+     [
+      13.431,
+      18.847,
+      "Carbon-14's nucleus does not last; it is radioactive."
+     ]
+    ]
+   },
+   "Narr_Atom_Build_10": {
+    "duration": 6.216,
+    "hash": "1efa556256660890",
+    "sentences": [
+     [
+      0.05,
+      6.167,
+      "Carbon-12 and carbon-14: do they have the same number of electrons?"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_11": {
+    "duration": 11.136,
+    "hash": "1bf6fe6d4ed10e4a",
+    "sentences": [
+     [
+      0.05,
+      1.15,
+      "Your turn."
+     ],
+     [
+      1.15,
+      7.75,
+      "Build a neutral atom of neon: ten protons, ten neutrons and ten electrons."
+     ],
+     [
+      7.75,
+      11.069,
+      "Use the minus and plus buttons on the trays."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Actinide": {
+    "duration": 10.872,
+    "hash": "732f82302ee6689a",
+    "sentences": [
+     [
+      0.05,
+      3.667,
+      "The actinides, the second row underneath."
+     ],
+     [
+      3.667,
+      6.25,
+      "All of them are radioactive."
+     ],
+     [
+      6.25,
+      10.806,
+      "Only thorium and uranium are found in any amount in nature."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_AlkaliMetal": {
+    "duration": 10.944,
+    "hash": "0071e4a95ace59df",
+    "sentences": [
+     [
+      0.05,
+      6.875,
+      "The alkali metals, in the first column: lithium, sodium, potassium and their cousins."
+     ],
+     [
+      6.875,
+      10.889,
+      "Soft enough to cut with a knife, and they react with water."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_AlkalineEarth": {
+    "duration": 9.144,
+    "hash": "a0a2af0502f83600",
+    "sentences": [
+     [
+      0.05,
+      5.444,
+      "The alkaline earth metals, in the second column, with two outer electrons."
+     ],
+     [
+      5.444,
+      9.069,
+      "Calcium builds bones, shells and chalk."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Halogen": {
+    "duration": 12.432,
+    "hash": "3b3b1753a68df1a7",
+    "sentences": [
+     [
+      0.05,
+      3.819,
+      "The halogens, in the column next to the last."
+     ],
+     [
+      3.819,
+      12.361,
+      "Each needs just one electron to fill its outer shell, which makes them fierce: fluorine reacts with nearly everything."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Lanthanide": {
+    "duration": 8.904,
+    "hash": "d3ad7290bedb0cd4",
+    "sentences": [
+     [
+      0.05,
+      3.583,
+      "The lanthanides, the first row underneath."
+     ],
+     [
+      3.583,
+      8.833,
+      "They are so alike that it took chemists more than a century to tell them all apart."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Metalloid": {
+    "duration": 9.912,
+    "hash": "c0aa6c45e971352b",
+    "sentences": [
+     [
+      0.05,
+      5.972,
+      "The metalloids form a staircase between the metals and the nonmetals, and are a bit of both."
+     ],
+     [
+      5.972,
+      9.861,
+      "Silicon, the stuff of sand and computer chips, is one."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_NobleGas": {
+    "duration": 9.408,
+    "hash": "bf09b5c692e5eb88",
+    "sentences": [
+     [
+      0.05,
+      3.056,
+      "The noble gases, in the last column."
+     ],
+     [
+      3.056,
+      9.347,
+      "With full outer shells they keep to themselves, which is why they were the last group to be discovered."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Nonmetal": {
+    "duration": 9.984,
+    "hash": "50c35a2eee4ae4db",
+    "sentences": [
+     [
+      0.05,
+      4.208,
+      "The nonmetals, like carbon, nitrogen and oxygen."
+     ],
+     [
+      4.208,
+      9.917,
+      "Together with hydrogen, they make up about ninety-six parts in a hundred of your body."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_PostTransition": {
+    "duration": 9.936,
+    "hash": "9414f00aa2f31fd6",
+    "sentences": [
+     [
+      0.05,
+      5.639,
+      "The other metals, right of the middle block: aluminium for cans, tin, and lead."
+     ],
+     [
+      5.639,
+      9.875,
+      "Softer than the transition metals, and they melt more easily."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Transition": {
+    "duration": 11.496,
+    "hash": "147ef4ccd39012db",
+    "sentences": [
+     [
+      0.05,
+      3.403,
+      "The transition metals fill the wide middle block."
+     ],
+     [
+      3.403,
+      11.444,
+      "Iron, copper, silver and gold are here; many make bright colours, like the blue of copper in some paints."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Charge": {
+    "duration": 12.648,
+    "hash": "a8d44ac9cbb32537",
+    "sentences": [
+     [
+      0.05,
+      3.319,
+      "The charge is protons minus electrons."
+     ],
+     [
+      3.319,
+      5.792,
+      "Zero means a neutral atom."
+     ],
+     [
+      5.792,
+      12.597,
+      "Lose an electron and it becomes a positive ion; gain one and it becomes a negative ion."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Detail": {
+    "duration": 10.296,
+    "hash": "39b3684abda48662",
+    "sentences": [
+     [
+      0.05,
+      10.236,
+      "The element you picked, as its tile on the table: its atomic number at the top, its symbol, its name and its atomic mass, the average mass of its atoms."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Electron": {
+    "duration": 11.04,
+    "hash": "26dbb0d538eb0c97",
+    "sentences": [
+     [
+      0.05,
+      4.333,
+      "An electron is tiny and light, with a negative charge."
+     ],
+     [
+      4.333,
+      10.986,
+      "Electrons are what atoms share and swap when they join together, so they decide how an element reacts."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_ElectronTray": {
+    "duration": 10.488,
+    "hash": "f9fa249502085bd2",
+    "sentences": [
+     [
+      0.05,
+      4.097,
+      "Changing the electrons turns the atom into an ion."
+     ],
+     [
+      4.097,
+      10.417,
+      "Electrons are the easiest part of an atom to move: rubbing a balloon on your hair moves some of them."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_FBlock": {
+    "duration": 12.12,
+    "hash": "6a49772a9b4d1fd2",
+    "sentences": [
+     [
+      0.05,
+      3.153,
+      "The lanthanides and the actinides."
+     ],
+     [
+      3.153,
+      12.056,
+      "They belong in periods six and seven, in column three, but would make the table far too wide, so they are printed underneath."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Groups": {
+    "duration": 10.416,
+    "hash": "c9f6d6924ce50581",
+    "sentences": [
+     [
+      0.05,
+      3.486,
+      "The columns are groups, numbered one to eighteen."
+     ],
+     [
+      3.486,
+      10.347,
+      "Elements in the same group usually have the same number of outer electrons, so they behave like a family."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_MassNumber": {
+    "duration": 12.528,
+    "hash": "78de88d5b62e85bc",
+    "sentences": [
+     [
+      0.05,
+      4.083,
+      "The mass number counts the protons and neutrons together."
+     ],
+     [
+      4.083,
+      12.458,
+      "Carbon-12 has six of each; carbon-14 has two more neutrons, so its mass number is fourteen."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_MiniShells": {
+    "duration": 11.184,
+    "hash": "0932015f413b29ab",
+    "sentences": [
+     [
+      0.05,
+      3.431,
+      "The picked element's electrons, shell by shell."
+     ],
+     [
+      3.431,
+      11.161,
+      "Count the rings and you nearly always have its period; the dots on the outermost ring are its outer electrons."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Neutron": {
+    "duration": 12.024,
+    "hash": "37353ab940a246c5",
+    "sentences": [
+     [
+      0.05,
+      4.75,
+      "A neutron weighs about the same as a proton but has no charge."
+     ],
+     [
+      4.75,
+      11.958,
+      "Neutrons help hold the nucleus together; without enough of them, the protons would push each other apart."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_NeutronTray": {
+    "duration": 9.096,
+    "hash": "ad501af70bf12c0c",
+    "sentences": [
+     [
+      0.05,
+      9.028,
+      "Changing the neutrons keeps the element the same but makes a different isotope, heavier or lighter, and perhaps radioactive."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Nucleus": {
+    "duration": 13.92,
+    "hash": "cce967bd87c9b60a",
+    "sentences": [
+     [
+      0.05,
+      8.083,
+      "The nucleus is the atom's tiny, heavy centre, made of protons and neutrons squeezed tightly together."
+     ],
+     [
+      8.083,
+      13.847,
+      "It holds almost all the atom's mass, yet takes up almost none of its space."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Outer": {
+    "duration": 9.888,
+    "hash": "fe9d2a86923f71b8",
+    "sentences": [
+     [
+      0.05,
+      7.611,
+      "Coloured by outer electrons, each main column is one colour, from one in the first column to eight in the last."
+     ],
+     [
+      7.611,
+      9.833,
+      "The middle block mostly has two."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Periods": {
+    "duration": 12.264,
+    "hash": "f59158d02052d951",
+    "sentences": [
+     [
+      0.05,
+      1.931,
+      "The rows are periods."
+     ],
+     [
+      1.931,
+      12.194,
+      "Elements in a row have the same number of electron shells (palladium is the one exception): one for hydrogen and helium, seven for the bottom row."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Proton": {
+    "duration": 10.992,
+    "hash": "e448b74927bd2b7b",
+    "sentences": [
+     [
+      0.05,
+      2.653,
+      "A proton has a positive charge."
+     ],
+     [
+      2.653,
+      10.931,
+      "Count an atom's protons and you know its element: one is hydrogen, six is carbon, seventy-nine is gold."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_ProtonTray": {
+    "duration": 9.336,
+    "hash": "f412a4788333e2bd",
+    "sentences": [
+     [
+      0.05,
+      4.889,
+      "Add or take away a proton and you change the element itself."
+     ],
+     [
+      4.889,
+      9.264,
+      "One more proton moves you one step along the periodic table."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Shell": {
+    "duration": 12.888,
+    "hash": "4142b20286b92c7b",
+    "sentences": [
+     [
+      0.05,
+      3.04,
+      "Electrons fill shells from the inside out."
+     ],
+     [
+      3.04,
+      9.361,
+      "The first holds two, the second eight, and the third takes eight before the fourth begins."
+     ],
+     [
+      9.361,
+      12.819,
+      "The electrons in the outermost shell do the chemistry."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Stability": {
+    "duration": 11.544,
+    "hash": "1298906a5f803745",
+    "sentences": [
+     [
+      0.05,
+      4.417,
+      "Only certain numbers of neutrons make a nucleus that lasts."
+     ],
+     [
+      4.417,
+      11.486,
+      "With too many or too few, it is radioactive: one day it breaks up and gives off radiation."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Gas": {
+    "duration": 10.248,
+    "hash": "d69421ddd6c6d86d",
+    "sentences": [
+     [
+      0.05,
+      10.181,
+      "Eleven elements are gases at room temperature: hydrogen, nitrogen, oxygen, fluorine, chlorine and the six noble gases."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Liquid": {
+    "duration": 10.128,
+    "hash": "925dc8e2088c6fb9",
+    "sentences": [
+     [
+      0.05,
+      10.056,
+      "Only two elements are liquid at room temperature: bromine, a red-brown liquid, and mercury, a silvery metal once used in thermometers."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Solid": {
+    "duration": 9.912,
+    "hash": "605c1a880ee5d33c",
+    "sentences": [
+     [
+      0.05,
+      5.847,
+      "Solid at room temperature: nearly every element, from carbon to gold."
+     ],
+     [
+      5.847,
+      9.861,
+      "Gallium is solid too, but it would melt in your hand."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Unknown": {
+    "duration": 10.152,
+    "hash": "5183393230f75176",
+    "sentences": [
+     [
+      0.05,
+      10.083,
+      "These elements have only been made a few atoms at a time, or fall apart so fast that no one has ever seen a lump of them, so nobody knows for sure what they would be like."
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Tile": {
+    "duration": 13.392,
+    "hash": "bb6017299c57272b",
+    "sentences": [
+     [
+      0.05,
+      8.458,
+      "This is the element your atom makes, as it appears on the periodic table: its atomic number, its symbol and its name."
+     ],
+     [
+      8.458,
+      13.319,
+      "Next to the symbol are the mass number and, for an ion, the charge."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_01": {
+    "duration": 9.528,
+    "hash": "9c2de306e1cf93c7",
+    "sentences": [
+     [
+      0.05,
+      5.556,
+      "Here are all one hundred and eighteen known elements, in order of atomic number."
+     ],
+     [
+      5.556,
+      9.472,
+      "Hydrogen comes first, with just one proton."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_02": {
+    "duration": 15.816,
+    "hash": "c7663e25981f0140",
+    "sentences": [
+     [
+      0.05,
+      2.153,
+      "Each row is called a period."
+     ],
+     [
+      2.153,
+      6.956,
+      "Moving right, every element has one proton more than the one before."
+     ],
+     [
+      6.956,
+      15.764,
+      "A new row begins each time the atoms start a new shell of electrons, so sodium, with its third shell, starts row three."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_03": {
+    "duration": 14.424,
+    "hash": "69cfb52e31828176",
+    "sentences": [
+     [
+      0.05,
+      2.264,
+      "Each column is called a group."
+     ],
+     [
+      2.264,
+      14.361,
+      "Colour the table by outer electrons, and you can see that the main columns are each a single colour: lithium, sodium and the rest of the first column all have one electron in their outer shell."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_04": {
+    "duration": 16.944,
+    "hash": "60f88a1f799590f2",
+    "sentences": [
+     [
+      0.05,
+      5.264,
+      "Because they have the same outer electrons, elements in a column behave alike."
+     ],
+     [
+      5.264,
+      9.722,
+      "The first column holds the alkali metals, like potassium."
+     ],
+     [
+      9.722,
+      16.889,
+      "They are so eager to lose their one outer electron that they fizz and even burst into flame in water."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_05": {
+    "duration": 9.6,
+    "hash": "ead8d00425f8f7f4",
+    "sentences": [
+     [
+      0.05,
+      2.986,
+      "Chlorine has seven outer electrons."
+     ],
+     [
+      2.986,
+      6.417,
+      "Fluorine sits just above it, in the same column."
+     ],
+     [
+      6.417,
+      9.528,
+      "How many outer electrons does fluorine have?"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_06": {
+    "duration": 13.728,
+    "hash": "ab93e3d2f8b2218a",
+    "sentences": [
+     [
+      0.05,
+      4.139,
+      "The last column holds the noble gases, like neon."
+     ],
+     [
+      4.139,
+      9.235,
+      "Their outer shells are already full, so they hardly react with anything at all."
+     ],
+     [
+      9.235,
+      13.667,
+      "Neon glows in signs, and argon fills light bulbs."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_07": {
+    "duration": 10.248,
+    "hash": "0baeb7ded1855f99",
+    "sentences": [
+     [
+      0.05,
+      7.5,
+      "The wide middle block is the transition metals: iron, copper, silver, gold and many more."
+     ],
+     [
+      7.5,
+      10.219,
+      "Most of the metals we build with are here."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_08": {
+    "duration": 13.848,
+    "hash": "2f8b0b05a1960bea",
+    "sentences": [
+     [
+      0.05,
+      4.972,
+      "Now colour the table by what each element is like at room temperature."
+     ],
+     [
+      4.972,
+      6.958,
+      "Almost all are solids."
+     ],
+     [
+      6.958,
+      8.681,
+      "Eleven are gases."
+     ],
+     [
+      8.681,
+      13.792,
+      "And only two are liquids: bromine, here, and the metal mercury."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_09": {
+    "duration": 14.472,
+    "hash": "6f274b18e9c37054",
+    "sentences": [
+     [
+      0.05,
+      7.569,
+      "These two rows below really belong inside periods six and seven, in the spaces marked in column three."
+     ],
+     [
+      7.569,
+      12.014,
+      "They are printed apart only so the table fits on a page."
+     ],
+     [
+      12.014,
+      14.403,
+      "Uranium is in the second row."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_10": {
+    "duration": 12.864,
+    "hash": "62b27db28754d3a7",
+    "sentences": [
+     [
+      0.05,
+      5.319,
+      "The last element, oganesson, has one hundred and eighteen protons."
+     ],
+     [
+      5.319,
+      12.806,
+      "Scientists have made only a handful of its atoms, and each fell apart in less than a thousandth of a second."
+     ]
+    ]
+   },
+   "Narr_Atom_Table_11": {
+    "duration": 10.056,
+    "hash": "a087105171834527",
+    "sentences": [
+     [
+      0.05,
+      1.111,
+      "Your turn."
+     ],
+     [
+      1.111,
+      3.792,
+      "Find gold on the table and click it."
+     ],
+     [
+      3.792,
+      9.986,
+      "A hint: its symbol is A u, from aurum, the Latin word for gold."
+     ]
+    ]
+   },
    "Narr_Aurora_Obj_Aurora": {
     "duration": 13.728,
     "hash": "32ebc61529f12aa6",
@@ -38605,6 +39539,925 @@
       1.639,
       8.639,
       "在标尺上点任意一种液体，看看它在每种指示剂里变成什么颜色。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_01": {
+    "duration": 9.864,
+    "hash": "3a4e81f2baca75f4",
+    "sentences": [
+     [
+      0.1,
+      3.078,
+      "这是最简单的原子：氢。"
+     ],
+     [
+      3.028,
+      6.875,
+      "中间是它的原子核，只有一个质子。"
+     ],
+     [
+      6.875,
+      9.806,
+      "外面有一个电子绕着它转。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_02": {
+    "duration": 10.56,
+    "hash": "177ffd2d6db4079c",
+    "sentences": [
+     [
+      0.1,
+      1.994,
+      "质子带正电。"
+     ],
+     [
+      1.944,
+      10.5,
+      "一个原子有多少个质子，就是它的原子序数，而且只有这个数决定它是哪种元素。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_03": {
+    "duration": 13.488,
+    "hash": "c430fa9b1bdc3997",
+    "sentences": [
+     [
+      0.1,
+      7.369,
+      "再加一个质子，它就不再是氢了，而是氦，就是气球里充的那种气体。"
+     ],
+     [
+      7.319,
+      11.181,
+      "两个中子帮忙把原子核粘在一起。"
+     ],
+     [
+      11.181,
+      13.417,
+      "中子完全不带电。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_04": {
+    "duration": 9.72,
+    "hash": "4d399268f4d9425f",
+    "sentences": [
+     [
+      0.1,
+      5.842,
+      "这是碳，有六个质子：煤、钻石和铅笔芯都是碳。"
+     ],
+     [
+      5.792,
+      9.667,
+      "如果再给它加两个质子，会变成什么？"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_05": {
+    "duration": 9.816,
+    "hash": "943fa800adfdbcfb",
+    "sentences": [
+     [
+      0.1,
+      4.842,
+      "八个质子就是氧，就是你现在正在呼吸的气体。"
+     ],
+     [
+      4.792,
+      9.75,
+      "每多加一个质子，就会变成一种完全不同的元素。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_06": {
+    "duration": 11.952,
+    "hash": "e4b26cb3fdb68cea",
+    "sentences": [
+     [
+      0.1,
+      2.272,
+      "电子分层排列。"
+     ],
+     [
+      2.222,
+      6.264,
+      "第一层只能放两个，第二层能放八个。"
+     ],
+     [
+      6.264,
+      11.903,
+      "钠有十一个电子，所以第十一个只好单独开始第三层。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_07": {
+    "duration": 17.376,
+    "hash": "c1282b15240b73d8",
+    "sentences": [
+     [
+      0.1,
+      4.55,
+      "钠很容易把最外层那个孤零零的电子交出去。"
+     ],
+     [
+      4.5,
+      11.847,
+      "现在它有十一个质子，却只有十个电子，所以带一个单位的正电荷。"
+     ],
+     [
+      11.847,
+      17.306,
+      "它变成了正离子，就是你在盐水里见过的那种钠离子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_08": {
+    "duration": 19.272,
+    "hash": "e30fd1979f2f49b2",
+    "sentences": [
+     [
+      0.1,
+      2.05,
+      "氯正好相反。"
+     ],
+     [
+      2.0,
+      9.306,
+      "它的最外层有七个电子，离八个只差一个，所以它会多拿一个电子。"
+     ],
+     [
+      9.306,
+      15.236,
+      "有了十八个电子、十七个质子，它就成了带负电的氯离子。"
+     ],
+     [
+      15.236,
+      19.208,
+      "钠离子和氯离子在一起，就是食盐。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_09": {
+    "duration": 18.384,
+    "hash": "8c112ad358fbbea4",
+    "sentences": [
+     [
+      0.1,
+      2.522,
+      "现在只改变中子。"
+     ],
+     [
+      2.472,
+      8.625,
+      "这还是碳，只是有八个中子而不是六个，叫作碳-14。"
+     ],
+     [
+      8.625,
+      13.833,
+      "同一种元素、中子数不同的原子，叫作同位素。"
+     ],
+     [
+      13.833,
+      18.319,
+      "碳-14 的原子核不稳定，它有放射性。"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_10": {
+    "duration": 4.176,
+    "hash": "a37263f002a41d2f",
+    "sentences": [
+     [
+      0.1,
+      4.161,
+      "碳-12 和碳-14 的电子数一样吗？"
+     ]
+    ]
+   },
+   "Narr_Atom_Build_11": {
+    "duration": 11.376,
+    "hash": "8b4369aa82da97ca",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      7.806,
+      "搭一个中性的氖原子：十个质子、十个中子和十个电子。"
+     ],
+     [
+      7.806,
+      11.306,
+      "用托盘上的减号和加号按钮。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Actinide": {
+    "duration": 9.552,
+    "hash": "2f29da7c594e2b06",
+    "sentences": [
+     [
+      0.1,
+      4.661,
+      "锕系元素是下面的第二行，全都有放射性。"
+     ],
+     [
+      4.611,
+      9.486,
+      "在自然界里能找到一定数量的，只有钍和铀。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_AlkaliMetal": {
+    "duration": 10.056,
+    "hash": "eb76f89ef9ad9769",
+    "sentences": [
+     [
+      0.1,
+      5.147,
+      "碱金属在第一列：锂、钠、钾和它们的亲戚。"
+     ],
+     [
+      5.097,
+      10.0,
+      "它们软得能用小刀切开，遇水会发生反应。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_AlkalineEarth": {
+    "duration": 8.4,
+    "hash": "63d932e7b27f8a57",
+    "sentences": [
+     [
+      0.1,
+      4.494,
+      "碱土金属在第二列，最外层有两个电子。"
+     ],
+     [
+      4.444,
+      8.333,
+      "钙是骨头、贝壳和粉笔的成分。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Halogen": {
+    "duration": 12.12,
+    "hash": "46796e7c4a2cfaf9",
+    "sentences": [
+     [
+      0.1,
+      2.578,
+      "卤素在倒数第二列。"
+     ],
+     [
+      2.528,
+      12.069,
+      "每一种都只差一个电子就能填满最外层，所以它们特别活泼：氟几乎和什么都能反应。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Lanthanide": {
+    "duration": 9.888,
+    "hash": "8bf552f55aa7e11d",
+    "sentences": [
+     [
+      0.1,
+      3.189,
+      "镧系元素是下面的第一行。"
+     ],
+     [
+      3.139,
+      9.819,
+      "它们彼此太像了，化学家花了一百多年才把它们一一分辨清楚。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Metalloid": {
+    "duration": 12.144,
+    "hash": "44c5500c7df205d2",
+    "sentences": [
+     [
+      0.1,
+      7.119,
+      "类金属像一道台阶，隔开了金属和非金属，两边的性质都有一点。"
+     ],
+     [
+      7.069,
+      12.083,
+      "硅就是其中之一，沙子和电脑芯片里都有它。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_NobleGas": {
+    "duration": 10.416,
+    "hash": "2af3bca99beff176",
+    "sentences": [
+     [
+      0.1,
+      2.744,
+      "稀有气体在最后一列。"
+     ],
+     [
+      2.694,
+      10.347,
+      "最外层是满的，它们几乎不和别人打交道，所以它们是最后被发现的一族。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Nonmetal": {
+    "duration": 8.808,
+    "hash": "1955c623d599bfa8",
+    "sentences": [
+     [
+      0.1,
+      3.55,
+      "非金属，比如碳、氮和氧。"
+     ],
+     [
+      3.5,
+      8.736,
+      "它们和氢加在一起，大约占你身体的百分之九十六。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_PostTransition": {
+    "duration": 10.248,
+    "hash": "2511d63732c96278",
+    "sentences": [
+     [
+      0.1,
+      6.467,
+      "其他金属在中间那一块的右边：做易拉罐的铝，还有锡和铅。"
+     ],
+     [
+      6.417,
+      10.194,
+      "它们比过渡金属软，也更容易熔化。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Cat_Transition": {
+    "duration": 12.216,
+    "hash": "118dadf573bd5997",
+    "sentences": [
+     [
+      0.1,
+      3.703,
+      "过渡金属占满了中间那一大块。"
+     ],
+     [
+      3.653,
+      12.153,
+      "铁、铜、银、金都在这里；很多能呈现鲜艳的颜色，比如一些颜料里铜的蓝色。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Charge": {
+    "duration": 12.336,
+    "hash": "1050960e241aa929",
+    "sentences": [
+     [
+      0.1,
+      3.633,
+      "电荷等于质子数减去电子数。"
+     ],
+     [
+      3.583,
+      6.014,
+      "零表示中性原子。"
+     ],
+     [
+      6.014,
+      12.264,
+      "少一个电子，就变成正离子；多一个电子，就变成负离子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Detail": {
+    "duration": 14.28,
+    "hash": "618bc4c40d56bfdf",
+    "sentences": [
+     [
+      0.1,
+      14.208,
+      "这是你选中的元素，就像它在周期表上的那一格：上面是原子序数，然后是元素符号、名字，以及相对原子质量，也就是它的原子的平均质量。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Electron": {
+    "duration": 12.48,
+    "hash": "b37bf0309b46517d",
+    "sentences": [
+     [
+      0.1,
+      3.133,
+      "电子又小又轻，带负电。"
+     ],
+     [
+      3.083,
+      12.431,
+      "原子结合在一起时，分享和交换的就是电子，所以电子决定了一种元素会怎样发生反应。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_ElectronTray": {
+    "duration": 11.4,
+    "hash": "92f44c4fa0524f54",
+    "sentences": [
+     [
+      0.1,
+      3.994,
+      "改变电子数，原子就变成了离子。"
+     ],
+     [
+      3.944,
+      11.347,
+      "电子是原子里最容易移动的部分：用气球蹭头发，就会让一些电子跑过去。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_FBlock": {
+    "duration": 11.208,
+    "hash": "3c80b22667a70d0c",
+    "sentences": [
+     [
+      0.1,
+      2.786,
+      "这是镧系和锕系元素。"
+     ],
+     [
+      2.736,
+      11.139,
+      "它们本该放在第六和第七周期的第三列，可那样周期表就太宽了，所以印在下面。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Groups": {
+    "duration": 12.336,
+    "hash": "997e0135d7841f1b",
+    "sentences": [
+     [
+      0.1,
+      3.731,
+      "竖列叫作族，从一到十八编号。"
+     ],
+     [
+      3.681,
+      12.278,
+      "同一族的元素，最外层电子数通常一样，所以它们的性质就像一家人一样相似。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_MassNumber": {
+    "duration": 12.288,
+    "hash": "c16a9c51c9d1f177",
+    "sentences": [
+     [
+      0.1,
+      3.856,
+      "质量数就是质子数加中子数。"
+     ],
+     [
+      3.806,
+      12.222,
+      "碳-12 有六个质子和六个中子；碳-14 多了两个中子，所以质量数是十四。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_MiniShells": {
+    "duration": 12.96,
+    "hash": "964a90ecd7f5240b",
+    "sentences": [
+     [
+      0.1,
+      3.939,
+      "选中元素的电子，一层一层排开。"
+     ],
+     [
+      3.889,
+      12.903,
+      "数一数有几圈，几乎总能知道它在第几周期；最外面一圈上的点，就是它的最外层电子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Neutron": {
+    "duration": 11.136,
+    "hash": "c6cf0c18160ce52f",
+    "sentences": [
+     [
+      0.1,
+      3.883,
+      "中子和质子差不多重，但不带电。"
+     ],
+     [
+      3.833,
+      11.069,
+      "中子帮忙把原子核粘在一起；中子不够的话，质子们就会互相推开。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_NeutronTray": {
+    "duration": 9.888,
+    "hash": "53af247b93602025",
+    "sentences": [
+     [
+      0.1,
+      9.883,
+      "改变中子数，元素还是那种元素，但会变成另一种同位素：更重或更轻，还可能有放射性。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Nucleus": {
+    "duration": 13.488,
+    "hash": "5ab77ebc6f63e307",
+    "sentences": [
+     [
+      0.1,
+      7.814,
+      "原子核是原子中心又小又重的部分，由紧紧挤在一起的质子和中子组成。"
+     ],
+     [
+      7.764,
+      13.431,
+      "原子的质量几乎全在这里，可它几乎不占原子的空间。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Outer": {
+    "duration": 12.384,
+    "hash": "c4615276b208fc3e",
+    "sentences": [
+     [
+      0.1,
+      9.203,
+      "按最外层电子数上色，主要的每一列都是同一种颜色：第一列是一个，最后一列是八个。"
+     ],
+     [
+      9.153,
+      12.319,
+      "中间那一大块大多是两个。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Periods": {
+    "duration": 11.376,
+    "hash": "0993aa3fef9d02b6",
+    "sentences": [
+     [
+      0.1,
+      2.314,
+      "横行叫作周期。"
+     ],
+     [
+      2.264,
+      11.306,
+      "同一行的元素，电子层数都一样（只有钯是例外）：氢和氦只有一层，最下面一行有七层。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Proton": {
+    "duration": 10.584,
+    "hash": "41a76359c943837f",
+    "sentences": [
+     [
+      0.1,
+      1.994,
+      "质子带正电。"
+     ],
+     [
+      1.944,
+      10.528,
+      "数一数原子里的质子，就知道它是哪种元素：一个是氢，六个是碳，七十九个是金。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_ProtonTray": {
+    "duration": 8.904,
+    "hash": "06c2b6e4ee5420a7",
+    "sentences": [
+     [
+      0.1,
+      4.369,
+      "加上或拿走一个质子，元素本身就变了。"
+     ],
+     [
+      4.319,
+      8.833,
+      "多一个质子，就在周期表上往后走一格。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Shell": {
+    "duration": 14.472,
+    "hash": "f333f6788fac23ff",
+    "sentences": [
+     [
+      0.1,
+      3.092,
+      "电子从里往外一层层填。"
+     ],
+     [
+      3.042,
+      10.153,
+      "第一层放两个，第二层放八个，第三层放满八个后就开始填第四层。"
+     ],
+     [
+      10.153,
+      14.403,
+      "真正参与化学反应的，是最外层的电子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Stability": {
+    "duration": 12.984,
+    "hash": "5a70b0ffafa56749",
+    "sentences": [
+     [
+      0.1,
+      5.022,
+      "只有特定数量的中子，才能让原子核稳定存在。"
+     ],
+     [
+      4.972,
+      12.931,
+      "中子太多或太少，原子核就有放射性：总有一天它会分裂，放出射线。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Gas": {
+    "duration": 8.568,
+    "hash": "125fd834f310f693",
+    "sentences": [
+     [
+      0.1,
+      8.564,
+      "常温下是气体的元素有十一种：氢、氮、氧、氟、氯，还有六种稀有气体。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Liquid": {
+    "duration": 8.64,
+    "hash": "3c92c959a1799579",
+    "sentences": [
+     [
+      0.1,
+      8.633,
+      "常温下是液体的元素只有两种：红棕色的溴，和曾经用在温度计里的银白色金属汞。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Solid": {
+    "duration": 10.152,
+    "hash": "b3b4f7571ee5dbbd",
+    "sentences": [
+     [
+      0.1,
+      5.578,
+      "常温下是固体：从碳到金，几乎所有元素都是。"
+     ],
+     [
+      5.528,
+      10.097,
+      "镓也是固体，可它放在手心里就会熔化。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_State_Unknown": {
+    "duration": 11.616,
+    "hash": "f59b9bee77d9ac54",
+    "sentences": [
+     [
+      0.1,
+      11.556,
+      "这些元素每次只造出过几个原子，或者衰变得太快，谁也没见过一块这样的东西，所以没人能确定它们会是什么样子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Obj_Tile": {
+    "duration": 13.752,
+    "hash": "7ee8485bb2672c7c",
+    "sentences": [
+     [
+      0.1,
+      8.217,
+      "这是你的原子组成的元素，就像在周期表上那样：原子序数、元素符号和名字。"
+     ],
+     [
+      8.167,
+      13.681,
+      "符号旁边标着质量数；如果是离子，还标着电荷。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_01": {
+    "duration": 9.792,
+    "hash": "2bcfa69b0a50eb5d",
+    "sentences": [
+     [
+      0.1,
+      6.55,
+      "这里是人类已知的全部一百一十八种元素，按原子序数排好。"
+     ],
+     [
+      6.5,
+      9.736,
+      "氢排第一，它只有一个质子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_02": {
+    "duration": 16.776,
+    "hash": "feeef858e8066e68",
+    "sentences": [
+     [
+      0.1,
+      3.119,
+      "每一横行叫作一个周期。"
+     ],
+     [
+      3.069,
+      7.625,
+      "往右走，每种元素都比前一个多一个质子。"
+     ],
+     [
+      7.625,
+      16.708,
+      "原子每开始一个新的电子层，就开始新的一行，所以开始第三层电子的钠，排在第三行的开头。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_03": {
+    "duration": 15.888,
+    "hash": "6497bb9c583e1510",
+    "sentences": [
+     [
+      0.1,
+      2.856,
+      "每一竖列叫作一个族。"
+     ],
+     [
+      2.806,
+      15.819,
+      "按最外层电子数给表上色，你会看到主要的几列每列都是同一种颜色：锂、钠和第一列的其他元素，最外层都只有一个电子。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_04": {
+    "duration": 15.72,
+    "hash": "baa45bc9bf14b46d",
+    "sentences": [
+     [
+      0.1,
+      5.133,
+      "最外层电子一样，同一列的元素性质也就相似。"
+     ],
+     [
+      5.083,
+      8.292,
+      "第一列是碱金属，比如钾。"
+     ],
+     [
+      8.292,
+      15.653,
+      "它们太想甩掉最外层那一个电子了，一碰到水就嘶嘶作响，甚至燃烧起来。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_05": {
+    "duration": 9.36,
+    "hash": "e90c8ffb17db75f4",
+    "sentences": [
+     [
+      0.1,
+      3.147,
+      "氯的最外层有七个电子。"
+     ],
+     [
+      3.097,
+      6.292,
+      "氟就在它上面，在同一列。"
+     ],
+     [
+      6.292,
+      9.306,
+      "氟的最外层有几个电子？"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_06": {
+    "duration": 13.176,
+    "hash": "3944552a69571dd3",
+    "sentences": [
+     [
+      0.1,
+      3.717,
+      "最后一列是稀有气体，比如氖。"
+     ],
+     [
+      3.667,
+      8.958,
+      "它们的最外层已经满了，所以几乎不和任何东西反应。"
+     ],
+     [
+      8.958,
+      13.125,
+      "氖在霓虹灯里发光，氩被充进灯泡里。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_07": {
+    "duration": 10.488,
+    "hash": "e9bcadf5bb29607e",
+    "sentences": [
+     [
+      0.1,
+      6.731,
+      "中间那一大块是过渡金属：铁、铜、银、金，还有很多。"
+     ],
+     [
+      6.681,
+      10.431,
+      "我们用来造东西的金属大多在这里。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_08": {
+    "duration": 11.736,
+    "hash": "b5e3adc5887171dd",
+    "sentences": [
+     [
+      0.1,
+      3.842,
+      "现在按常温下的状态给表上色。"
+     ],
+     [
+      3.792,
+      11.681,
+      "几乎全是固体，有十一种是气体，只有两种是液体：这里的溴，还有金属汞。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_09": {
+    "duration": 15.024,
+    "hash": "bb2ea1af1e07a0e2",
+    "sentences": [
+     [
+      0.1,
+      7.689,
+      "下面这两行其实属于第六和第七周期，就放在第三列标出的那两个位置里。"
+     ],
+     [
+      7.639,
+      12.875,
+      "单独印在下面，只是为了让周期表能放进一页纸。"
+     ],
+     [
+      12.875,
+      14.972,
+      "铀就在第二行里。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_10": {
+    "duration": 12.288,
+    "hash": "9c3aa04914fcf169",
+    "sentences": [
+     [
+      0.1,
+      4.814,
+      "最后一种元素是鿫（ào），有一百一十八个质子。"
+     ],
+     [
+      4.764,
+      12.236,
+      "科学家只造出过几个它的原子，每一个都在不到千分之一秒内就分裂了。"
+     ]
+    ]
+   },
+   "Narr_Atom_Table_11": {
+    "duration": 11.136,
+    "hash": "4b7988531494d018",
+    "sentences": [
+     [
+      0.1,
+      1.689,
+      "轮到你了。"
+     ],
+     [
+      1.639,
+      4.667,
+      "在表里找到金，点一下它。"
+     ],
+     [
+      4.667,
+      11.069,
+      "提示：它的符号是 A u，来自拉丁语里表示金子的词。"
      ]
     ]
    },

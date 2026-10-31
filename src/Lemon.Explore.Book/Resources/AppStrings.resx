@@ -834,6 +834,900 @@
   <data name="App_Title" xml:space="preserve">
     <value>Explore Book</value>
   </data>
+  <data name="Atom_AddElectron" xml:space="preserve">
+    <value>Add an electron</value>
+  </data>
+  <data name="Atom_AddNeutron" xml:space="preserve">
+    <value>Add a neutron</value>
+  </data>
+  <data name="Atom_AddProton" xml:space="preserve">
+    <value>Add a proton</value>
+  </data>
+  <data name="Atom_Anion_Br" xml:space="preserve">
+    <value>Bromide ion</value>
+  </data>
+  <data name="Atom_Anion_Cl" xml:space="preserve">
+    <value>Chloride ion</value>
+  </data>
+  <data name="Atom_Anion_F" xml:space="preserve">
+    <value>Fluoride ion</value>
+  </data>
+  <data name="Atom_Anion_H" xml:space="preserve">
+    <value>Hydride ion</value>
+  </data>
+  <data name="Atom_Anion_N" xml:space="preserve">
+    <value>Nitride ion</value>
+  </data>
+  <data name="Atom_Anion_O" xml:space="preserve">
+    <value>Oxide ion</value>
+  </data>
+  <data name="Atom_Anion_P" xml:space="preserve">
+    <value>Phosphide ion</value>
+  </data>
+  <data name="Atom_Anion_S" xml:space="preserve">
+    <value>Sulfide ion</value>
+  </data>
+  <data name="Atom_Anion_Se" xml:space="preserve">
+    <value>Selenide ion</value>
+  </data>
+  <data name="Atom_Build_Fact1" xml:space="preserve">
+    <value>A single grain of salt has about a billion billion atoms in it.</value>
+  </data>
+  <data name="Atom_Build_Fact2" xml:space="preserve">
+    <value>Nearly all the mass of an atom is in its nucleus: a proton or a neutron is about 1,800 times heavier than an electron.</value>
+  </data>
+  <data name="Atom_Build_Fact3" xml:space="preserve">
+    <value>The hydrogen in the water you drink was made in the first few minutes after the Big Bang.</value>
+  </data>
+  <data name="Atom_Build_Fact4" xml:space="preserve">
+    <value>Carbon-14 slowly turns back into nitrogen: half of it is gone after about 5,700 years, which is how old bones and wood are dated.</value>
+  </data>
+  <data name="Atom_Build_Fact5" xml:space="preserve">
+    <value>Electrons do not really circle like planets; they spread out in clouds. The shells in the picture show how many fit at each distance.</value>
+  </data>
+  <data name="Atom_Build_Negative_Stable_Text" xml:space="preserve">
+    <value>A negative ion: more electrons than protons. Atoms like chlorine and oxygen take extra electrons to fill their outer shell.</value>
+  </data>
+  <data name="Atom_Build_Negative_Unstable_Text" xml:space="preserve">
+    <value>A negative ion, with more electrons than protons, and a nucleus that will not last: its neutrons do not suit its protons.</value>
+  </data>
+  <data name="Atom_Build_Neutral_Stable_Text" xml:space="preserve">
+    <value>A neutral atom: as many electrons as protons, so their charges cancel out. Its nucleus lasts, so atoms like this one can stay the same for billions of years.</value>
+  </data>
+  <data name="Atom_Build_Neutral_Unstable_Text" xml:space="preserve">
+    <value>As many electrons as protons, but the nucleus has the wrong number of neutrons to hold together. Sooner or later it will break up and give off radiation, turning into another element.</value>
+  </data>
+  <data name="Atom_Build_NoProton_Text" xml:space="preserve">
+    <value>Without a proton there is no element. A neutron on its own falls apart in about a quarter of an hour, and a lone electron just wanders off.</value>
+  </data>
+  <data name="Atom_Build_NoProton_Title" xml:space="preserve">
+    <value>Not an element yet</value>
+  </data>
+  <data name="Atom_Build_Note" xml:space="preserve">
+    <value>The picture is not to scale: if the nucleus were a pea, the whole atom would be as big as a football stadium.</value>
+  </data>
+  <data name="Atom_Build_Nothing_Text" xml:space="preserve">
+    <value>Add a proton to start. A single proton is already an element: hydrogen.</value>
+  </data>
+  <data name="Atom_Build_Nothing_Title" xml:space="preserve">
+    <value>Nothing yet</value>
+  </data>
+  <data name="Atom_Build_Panel_Note" xml:space="preserve">
+    <value>You can build up to 36 protons here, as far as krypton. The heavier elements are waiting on the periodic table.</value>
+  </data>
+  <data name="Atom_Build_Positive_Stable_Text" xml:space="preserve">
+    <value>A positive ion: fewer electrons than protons. Metals like sodium give away their outer electrons easily and are found like this in salt and in sea water.</value>
+  </data>
+  <data name="Atom_Build_Positive_Unstable_Text" xml:space="preserve">
+    <value>A positive ion, with fewer electrons than protons, and a nucleus that will not last: its neutrons do not suit its protons.</value>
+  </data>
+  <data name="Atom_Build_Subtitle" xml:space="preserve">
+    <value>Everything around you is made of atoms, and every atom is made of the same three things: protons and neutrons packed into a tiny nucleus, and electrons around it. Add them one at a time and see which element you make.</value>
+  </data>
+  <data name="Atom_Cat_Actinide" xml:space="preserve">
+    <value>Actinide</value>
+  </data>
+  <data name="Atom_Cat_Actinide_Text" xml:space="preserve">
+    <value>One of the fifteen metals of the second row under the table. All are radioactive; uranium and plutonium power nuclear reactors, and most after uranium are made only in laboratories.</value>
+  </data>
+  <data name="Atom_Cat_AlkaliMetal" xml:space="preserve">
+    <value>Alkali metal</value>
+  </data>
+  <data name="Atom_Cat_AlkaliMetal_Text" xml:space="preserve">
+    <value>A soft, shiny metal with one outer electron that it gives away very easily. Alkali metals react with water, some of them violently, so they are kept under oil.</value>
+  </data>
+  <data name="Atom_Cat_AlkalineEarth" xml:space="preserve">
+    <value>Alkaline earth metal</value>
+  </data>
+  <data name="Atom_Cat_AlkalineEarth_Text" xml:space="preserve">
+    <value>A metal with two outer electrons. Less wild than its neighbours in the first column; calcium is in your bones and teeth, magnesium in fireworks' white sparks.</value>
+  </data>
+  <data name="Atom_Cat_Halogen" xml:space="preserve">
+    <value>Halogen</value>
+  </data>
+  <data name="Atom_Cat_Halogen_Text" xml:space="preserve">
+    <value>One electron short of a full outer shell, so it grabs one from almost anything. Chlorine keeps swimming pools clean; with sodium it makes table salt.</value>
+  </data>
+  <data name="Atom_Cat_Lanthanide" xml:space="preserve">
+    <value>Lanthanide</value>
+  </data>
+  <data name="Atom_Cat_Lanthanide_Text" xml:space="preserve">
+    <value>One of the fifteen metals of the first row under the table, all very alike. Some make the strongest magnets, in headphones, phones and wind turbines.</value>
+  </data>
+  <data name="Atom_Cat_Metalloid" xml:space="preserve">
+    <value>Metalloid</value>
+  </data>
+  <data name="Atom_Cat_Metalloid_Text" xml:space="preserve">
+    <value>Partly like a metal, partly not. Silicon is the most famous: it lets electricity through only a little, just right for computer chips.</value>
+  </data>
+  <data name="Atom_Cat_NobleGas" xml:space="preserve">
+    <value>Noble gas</value>
+  </data>
+  <data name="Atom_Cat_NobleGas_Text" xml:space="preserve">
+    <value>Its outer shell is already full, so it hardly ever reacts with anything. Helium fills balloons, and neon glows red in signs.</value>
+  </data>
+  <data name="Atom_Cat_Nonmetal" xml:space="preserve">
+    <value>Nonmetal</value>
+  </data>
+  <data name="Atom_Cat_Nonmetal_Text" xml:space="preserve">
+    <value>Not a metal: no shine and poor at carrying electricity. Yet the nonmetals carbon, hydrogen, oxygen and nitrogen make up most of every living thing.</value>
+  </data>
+  <data name="Atom_Cat_PostTransition" xml:space="preserve">
+    <value>Other metal</value>
+  </data>
+  <data name="Atom_Cat_PostTransition_Text" xml:space="preserve">
+    <value>A metal to the right of the middle block: softer, and many melt easily. Aluminium, tin and lead are in this group of metals.</value>
+  </data>
+  <data name="Atom_Cat_Transition" xml:space="preserve">
+    <value>Transition metal</value>
+  </data>
+  <data name="Atom_Cat_Transition_Text" xml:space="preserve">
+    <value>One of the metals of the wide middle block: mostly hard, strong and good at carrying electricity. Iron, copper, silver and gold are all here.</value>
+  </data>
+  <data name="Atom_Chart_Build_Caption" xml:space="preserve">
+    <value>Nuclei that last: neutrons against protons</value>
+  </data>
+  <data name="Atom_Chart_Build_Note" xml:space="preserve">
+    <value>Each green dot is a nucleus that lasts. Light ones have about as many neutrons as protons; heavier ones need extra neutrons to hold together. Click a dot to build that atom.</value>
+  </data>
+  <data name="Atom_Chart_Equal" xml:space="preserve">
+    <value>neutrons = protons</value>
+  </data>
+  <data name="Atom_Chart_N" xml:space="preserve">
+    <value>neutrons</value>
+  </data>
+  <data name="Atom_Chart_Number" xml:space="preserve">
+    <value>atomic number</value>
+  </data>
+  <data name="Atom_Chart_Outer" xml:space="preserve">
+    <value>outer electrons</value>
+  </data>
+  <data name="Atom_Chart_Table_Caption" xml:space="preserve">
+    <value>Outer electrons, element by element</value>
+  </data>
+  <data name="Atom_Chart_Table_Note" xml:space="preserve">
+    <value>The count climbs from 1 to 8, then starts again at 1 with each new row: the repeat that gives the periodic table its name. Click a bar to pick that element.</value>
+  </data>
+  <data name="Atom_Chart_Z" xml:space="preserve">
+    <value>protons</value>
+  </data>
+  <data name="Atom_Clear" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Atom_Colour_Caption" xml:space="preserve">
+    <value>Colour the table by</value>
+  </data>
+  <data name="Atom_Colour_Category" xml:space="preserve">
+    <value>Family</value>
+  </data>
+  <data name="Atom_Colour_Outer" xml:space="preserve">
+    <value>Outer electrons</value>
+  </data>
+  <data name="Atom_Colour_State" xml:space="preserve">
+    <value>State at room temperature</value>
+  </data>
+  <data name="Atom_El_Ac" xml:space="preserve">
+    <value>Actinium</value>
+  </data>
+  <data name="Atom_El_Ag" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="Atom_El_Al" xml:space="preserve">
+    <value>Aluminium</value>
+  </data>
+  <data name="Atom_El_Am" xml:space="preserve">
+    <value>Americium</value>
+  </data>
+  <data name="Atom_El_Ar" xml:space="preserve">
+    <value>Argon</value>
+  </data>
+  <data name="Atom_El_As" xml:space="preserve">
+    <value>Arsenic</value>
+  </data>
+  <data name="Atom_El_At" xml:space="preserve">
+    <value>Astatine</value>
+  </data>
+  <data name="Atom_El_Au" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="Atom_El_B" xml:space="preserve">
+    <value>Boron</value>
+  </data>
+  <data name="Atom_El_Ba" xml:space="preserve">
+    <value>Barium</value>
+  </data>
+  <data name="Atom_El_Be" xml:space="preserve">
+    <value>Beryllium</value>
+  </data>
+  <data name="Atom_El_Bh" xml:space="preserve">
+    <value>Bohrium</value>
+  </data>
+  <data name="Atom_El_Bi" xml:space="preserve">
+    <value>Bismuth</value>
+  </data>
+  <data name="Atom_El_Bk" xml:space="preserve">
+    <value>Berkelium</value>
+  </data>
+  <data name="Atom_El_Br" xml:space="preserve">
+    <value>Bromine</value>
+  </data>
+  <data name="Atom_El_C" xml:space="preserve">
+    <value>Carbon</value>
+  </data>
+  <data name="Atom_El_Ca" xml:space="preserve">
+    <value>Calcium</value>
+  </data>
+  <data name="Atom_El_Cd" xml:space="preserve">
+    <value>Cadmium</value>
+  </data>
+  <data name="Atom_El_Ce" xml:space="preserve">
+    <value>Cerium</value>
+  </data>
+  <data name="Atom_El_Cf" xml:space="preserve">
+    <value>Californium</value>
+  </data>
+  <data name="Atom_El_Cl" xml:space="preserve">
+    <value>Chlorine</value>
+  </data>
+  <data name="Atom_El_Cm" xml:space="preserve">
+    <value>Curium</value>
+  </data>
+  <data name="Atom_El_Cn" xml:space="preserve">
+    <value>Copernicium</value>
+  </data>
+  <data name="Atom_El_Co" xml:space="preserve">
+    <value>Cobalt</value>
+  </data>
+  <data name="Atom_El_Cr" xml:space="preserve">
+    <value>Chromium</value>
+  </data>
+  <data name="Atom_El_Cs" xml:space="preserve">
+    <value>Caesium</value>
+  </data>
+  <data name="Atom_El_Cu" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="Atom_El_Db" xml:space="preserve">
+    <value>Dubnium</value>
+  </data>
+  <data name="Atom_El_Ds" xml:space="preserve">
+    <value>Darmstadtium</value>
+  </data>
+  <data name="Atom_El_Dy" xml:space="preserve">
+    <value>Dysprosium</value>
+  </data>
+  <data name="Atom_El_Er" xml:space="preserve">
+    <value>Erbium</value>
+  </data>
+  <data name="Atom_El_Es" xml:space="preserve">
+    <value>Einsteinium</value>
+  </data>
+  <data name="Atom_El_Eu" xml:space="preserve">
+    <value>Europium</value>
+  </data>
+  <data name="Atom_El_F" xml:space="preserve">
+    <value>Fluorine</value>
+  </data>
+  <data name="Atom_El_Fe" xml:space="preserve">
+    <value>Iron</value>
+  </data>
+  <data name="Atom_El_Fl" xml:space="preserve">
+    <value>Flerovium</value>
+  </data>
+  <data name="Atom_El_Fm" xml:space="preserve">
+    <value>Fermium</value>
+  </data>
+  <data name="Atom_El_Fr" xml:space="preserve">
+    <value>Francium</value>
+  </data>
+  <data name="Atom_El_Ga" xml:space="preserve">
+    <value>Gallium</value>
+  </data>
+  <data name="Atom_El_Gd" xml:space="preserve">
+    <value>Gadolinium</value>
+  </data>
+  <data name="Atom_El_Ge" xml:space="preserve">
+    <value>Germanium</value>
+  </data>
+  <data name="Atom_El_H" xml:space="preserve">
+    <value>Hydrogen</value>
+  </data>
+  <data name="Atom_El_He" xml:space="preserve">
+    <value>Helium</value>
+  </data>
+  <data name="Atom_El_Hf" xml:space="preserve">
+    <value>Hafnium</value>
+  </data>
+  <data name="Atom_El_Hg" xml:space="preserve">
+    <value>Mercury</value>
+  </data>
+  <data name="Atom_El_Ho" xml:space="preserve">
+    <value>Holmium</value>
+  </data>
+  <data name="Atom_El_Hs" xml:space="preserve">
+    <value>Hassium</value>
+  </data>
+  <data name="Atom_El_I" xml:space="preserve">
+    <value>Iodine</value>
+  </data>
+  <data name="Atom_El_In" xml:space="preserve">
+    <value>Indium</value>
+  </data>
+  <data name="Atom_El_Ir" xml:space="preserve">
+    <value>Iridium</value>
+  </data>
+  <data name="Atom_El_K" xml:space="preserve">
+    <value>Potassium</value>
+  </data>
+  <data name="Atom_El_Kr" xml:space="preserve">
+    <value>Krypton</value>
+  </data>
+  <data name="Atom_El_La" xml:space="preserve">
+    <value>Lanthanum</value>
+  </data>
+  <data name="Atom_El_Li" xml:space="preserve">
+    <value>Lithium</value>
+  </data>
+  <data name="Atom_El_Lr" xml:space="preserve">
+    <value>Lawrencium</value>
+  </data>
+  <data name="Atom_El_Lu" xml:space="preserve">
+    <value>Lutetium</value>
+  </data>
+  <data name="Atom_El_Lv" xml:space="preserve">
+    <value>Livermorium</value>
+  </data>
+  <data name="Atom_El_Mc" xml:space="preserve">
+    <value>Moscovium</value>
+  </data>
+  <data name="Atom_El_Md" xml:space="preserve">
+    <value>Mendelevium</value>
+  </data>
+  <data name="Atom_El_Mg" xml:space="preserve">
+    <value>Magnesium</value>
+  </data>
+  <data name="Atom_El_Mn" xml:space="preserve">
+    <value>Manganese</value>
+  </data>
+  <data name="Atom_El_Mo" xml:space="preserve">
+    <value>Molybdenum</value>
+  </data>
+  <data name="Atom_El_Mt" xml:space="preserve">
+    <value>Meitnerium</value>
+  </data>
+  <data name="Atom_El_N" xml:space="preserve">
+    <value>Nitrogen</value>
+  </data>
+  <data name="Atom_El_Na" xml:space="preserve">
+    <value>Sodium</value>
+  </data>
+  <data name="Atom_El_Nb" xml:space="preserve">
+    <value>Niobium</value>
+  </data>
+  <data name="Atom_El_Nd" xml:space="preserve">
+    <value>Neodymium</value>
+  </data>
+  <data name="Atom_El_Ne" xml:space="preserve">
+    <value>Neon</value>
+  </data>
+  <data name="Atom_El_Nh" xml:space="preserve">
+    <value>Nihonium</value>
+  </data>
+  <data name="Atom_El_Ni" xml:space="preserve">
+    <value>Nickel</value>
+  </data>
+  <data name="Atom_El_No" xml:space="preserve">
+    <value>Nobelium</value>
+  </data>
+  <data name="Atom_El_Np" xml:space="preserve">
+    <value>Neptunium</value>
+  </data>
+  <data name="Atom_El_O" xml:space="preserve">
+    <value>Oxygen</value>
+  </data>
+  <data name="Atom_El_Og" xml:space="preserve">
+    <value>Oganesson</value>
+  </data>
+  <data name="Atom_El_Os" xml:space="preserve">
+    <value>Osmium</value>
+  </data>
+  <data name="Atom_El_P" xml:space="preserve">
+    <value>Phosphorus</value>
+  </data>
+  <data name="Atom_El_Pa" xml:space="preserve">
+    <value>Protactinium</value>
+  </data>
+  <data name="Atom_El_Pb" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="Atom_El_Pd" xml:space="preserve">
+    <value>Palladium</value>
+  </data>
+  <data name="Atom_El_Pm" xml:space="preserve">
+    <value>Promethium</value>
+  </data>
+  <data name="Atom_El_Po" xml:space="preserve">
+    <value>Polonium</value>
+  </data>
+  <data name="Atom_El_Pr" xml:space="preserve">
+    <value>Praseodymium</value>
+  </data>
+  <data name="Atom_El_Pt" xml:space="preserve">
+    <value>Platinum</value>
+  </data>
+  <data name="Atom_El_Pu" xml:space="preserve">
+    <value>Plutonium</value>
+  </data>
+  <data name="Atom_El_Ra" xml:space="preserve">
+    <value>Radium</value>
+  </data>
+  <data name="Atom_El_Rb" xml:space="preserve">
+    <value>Rubidium</value>
+  </data>
+  <data name="Atom_El_Re" xml:space="preserve">
+    <value>Rhenium</value>
+  </data>
+  <data name="Atom_El_Rf" xml:space="preserve">
+    <value>Rutherfordium</value>
+  </data>
+  <data name="Atom_El_Rg" xml:space="preserve">
+    <value>Roentgenium</value>
+  </data>
+  <data name="Atom_El_Rh" xml:space="preserve">
+    <value>Rhodium</value>
+  </data>
+  <data name="Atom_El_Rn" xml:space="preserve">
+    <value>Radon</value>
+  </data>
+  <data name="Atom_El_Ru" xml:space="preserve">
+    <value>Ruthenium</value>
+  </data>
+  <data name="Atom_El_S" xml:space="preserve">
+    <value>Sulfur</value>
+  </data>
+  <data name="Atom_El_Sb" xml:space="preserve">
+    <value>Antimony</value>
+  </data>
+  <data name="Atom_El_Sc" xml:space="preserve">
+    <value>Scandium</value>
+  </data>
+  <data name="Atom_El_Se" xml:space="preserve">
+    <value>Selenium</value>
+  </data>
+  <data name="Atom_El_Sg" xml:space="preserve">
+    <value>Seaborgium</value>
+  </data>
+  <data name="Atom_El_Si" xml:space="preserve">
+    <value>Silicon</value>
+  </data>
+  <data name="Atom_El_Sm" xml:space="preserve">
+    <value>Samarium</value>
+  </data>
+  <data name="Atom_El_Sn" xml:space="preserve">
+    <value>Tin</value>
+  </data>
+  <data name="Atom_El_Sr" xml:space="preserve">
+    <value>Strontium</value>
+  </data>
+  <data name="Atom_El_Ta" xml:space="preserve">
+    <value>Tantalum</value>
+  </data>
+  <data name="Atom_El_Tb" xml:space="preserve">
+    <value>Terbium</value>
+  </data>
+  <data name="Atom_El_Tc" xml:space="preserve">
+    <value>Technetium</value>
+  </data>
+  <data name="Atom_El_Te" xml:space="preserve">
+    <value>Tellurium</value>
+  </data>
+  <data name="Atom_El_Th" xml:space="preserve">
+    <value>Thorium</value>
+  </data>
+  <data name="Atom_El_Ti" xml:space="preserve">
+    <value>Titanium</value>
+  </data>
+  <data name="Atom_El_Tl" xml:space="preserve">
+    <value>Thallium</value>
+  </data>
+  <data name="Atom_El_Tm" xml:space="preserve">
+    <value>Thulium</value>
+  </data>
+  <data name="Atom_El_Ts" xml:space="preserve">
+    <value>Tennessine</value>
+  </data>
+  <data name="Atom_El_U" xml:space="preserve">
+    <value>Uranium</value>
+  </data>
+  <data name="Atom_El_V" xml:space="preserve">
+    <value>Vanadium</value>
+  </data>
+  <data name="Atom_El_W" xml:space="preserve">
+    <value>Tungsten</value>
+  </data>
+  <data name="Atom_El_Xe" xml:space="preserve">
+    <value>Xenon</value>
+  </data>
+  <data name="Atom_El_Y" xml:space="preserve">
+    <value>Yttrium</value>
+  </data>
+  <data name="Atom_El_Yb" xml:space="preserve">
+    <value>Ytterbium</value>
+  </data>
+  <data name="Atom_El_Zn" xml:space="preserve">
+    <value>Zinc</value>
+  </data>
+  <data name="Atom_El_Zr" xml:space="preserve">
+    <value>Zirconium</value>
+  </data>
+  <data name="Atom_Electron" xml:space="preserve">
+    <value>Electrons</value>
+  </data>
+  <data name="Atom_Element_Caption" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Atom_Facts" xml:space="preserve">
+    <value>Did you know</value>
+  </data>
+  <data name="Atom_Hint_Build" xml:space="preserve">
+    <value>Press − or + beside a particle, or pick a ready-made atom.</value>
+  </data>
+  <data name="Atom_Hint_Table" xml:space="preserve">
+    <value>Click an element to see its atom. Colour the table three ways to find its patterns.</value>
+  </data>
+  <data name="Atom_Ion_Named" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Atom_Ion_Negative" xml:space="preserve">
+    <value>Negative {0} ion ({1})</value>
+  </data>
+  <data name="Atom_Ion_Positive" xml:space="preserve">
+    <value>{0} ion ({1})</value>
+  </data>
+  <data name="Atom_Isotope" xml:space="preserve">
+    <value>{0}-{1}</value>
+  </data>
+  <data name="Atom_Label_Charge" xml:space="preserve">
+    <value>charge {0}</value>
+  </data>
+  <data name="Atom_Label_Mass" xml:space="preserve">
+    <value>atomic mass {0}</value>
+  </data>
+  <data name="Atom_Label_MassNumber" xml:space="preserve">
+    <value>mass number {0} = {1} + {2}</value>
+  </data>
+  <data name="Atom_Label_NoElement" xml:space="preserve">
+    <value>no element</value>
+  </data>
+  <data name="Atom_Label_OuterLegend" xml:space="preserve">
+    <value>Outer electrons:</value>
+  </data>
+  <data name="Atom_Label_Radioactive" xml:space="preserve">
+    <value>radioactive nucleus</value>
+  </data>
+  <data name="Atom_Label_Shell" xml:space="preserve">
+    <value>shell {0}: {1}</value>
+  </data>
+  <data name="Atom_Label_Shells" xml:space="preserve">
+    <value>electrons per shell: {0}</value>
+  </data>
+  <data name="Atom_Label_Stable" xml:space="preserve">
+    <value>stable nucleus</value>
+  </data>
+  <data name="Atom_Legend_Electron" xml:space="preserve">
+    <value>electron, charge −1</value>
+  </data>
+  <data name="Atom_Legend_Neutron" xml:space="preserve">
+    <value>neutron, no charge</value>
+  </data>
+  <data name="Atom_Legend_Proton" xml:space="preserve">
+    <value>proton, charge +1</value>
+  </data>
+  <data name="Atom_Lesson_Build2_Choice1" xml:space="preserve">
+    <value>Yes: six each, like their protons</value>
+  </data>
+  <data name="Atom_Lesson_Build2_Choice2" xml:space="preserve">
+    <value>No: carbon-14 has more</value>
+  </data>
+  <data name="Atom_Lesson_Build2_Choice3" xml:space="preserve">
+    <value>No: carbon-12 has more</value>
+  </data>
+  <data name="Atom_Lesson_Build_Choice1" xml:space="preserve">
+    <value>Oxygen: eight protons</value>
+  </data>
+  <data name="Atom_Lesson_Build_Choice2" xml:space="preserve">
+    <value>Still carbon, just heavier</value>
+  </data>
+  <data name="Atom_Lesson_Build_Choice3" xml:space="preserve">
+    <value>Nitrogen: seven protons</value>
+  </data>
+  <data name="Atom_Lesson_Table_Choice1" xml:space="preserve">
+    <value>Seven, the same as chlorine</value>
+  </data>
+  <data name="Atom_Lesson_Table_Choice2" xml:space="preserve">
+    <value>Nine, one for each proton</value>
+  </data>
+  <data name="Atom_Lesson_Table_Choice3" xml:space="preserve">
+    <value>One, because it is in an earlier row</value>
+  </data>
+  <data name="Atom_Mode_Build" xml:space="preserve">
+    <value>Build an atom</value>
+  </data>
+  <data name="Atom_Mode_Table" xml:space="preserve">
+    <value>The periodic table</value>
+  </data>
+  <data name="Atom_Neutron" xml:space="preserve">
+    <value>Neutrons</value>
+  </data>
+  <data name="Atom_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Atom_Obj_Cat_Actinide" xml:space="preserve">
+    <value>Actinides</value>
+  </data>
+  <data name="Atom_Obj_Cat_AlkaliMetal" xml:space="preserve">
+    <value>Alkali metals</value>
+  </data>
+  <data name="Atom_Obj_Cat_AlkalineEarth" xml:space="preserve">
+    <value>Alkaline earth metals</value>
+  </data>
+  <data name="Atom_Obj_Cat_Halogen" xml:space="preserve">
+    <value>Halogens</value>
+  </data>
+  <data name="Atom_Obj_Cat_Lanthanide" xml:space="preserve">
+    <value>Lanthanides</value>
+  </data>
+  <data name="Atom_Obj_Cat_Metalloid" xml:space="preserve">
+    <value>Metalloids</value>
+  </data>
+  <data name="Atom_Obj_Cat_NobleGas" xml:space="preserve">
+    <value>Noble gases</value>
+  </data>
+  <data name="Atom_Obj_Cat_Nonmetal" xml:space="preserve">
+    <value>Nonmetals</value>
+  </data>
+  <data name="Atom_Obj_Cat_PostTransition" xml:space="preserve">
+    <value>Other metals</value>
+  </data>
+  <data name="Atom_Obj_Cat_Transition" xml:space="preserve">
+    <value>Transition metals</value>
+  </data>
+  <data name="Atom_Obj_Charge" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="Atom_Obj_Detail" xml:space="preserve">
+    <value>The picked element</value>
+  </data>
+  <data name="Atom_Obj_Electron" xml:space="preserve">
+    <value>Electron</value>
+  </data>
+  <data name="Atom_Obj_ElectronTray" xml:space="preserve">
+    <value>Electrons</value>
+  </data>
+  <data name="Atom_Obj_FBlock" xml:space="preserve">
+    <value>The two rows below</value>
+  </data>
+  <data name="Atom_Obj_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Atom_Obj_MassNumber" xml:space="preserve">
+    <value>Mass number</value>
+  </data>
+  <data name="Atom_Obj_MiniShells" xml:space="preserve">
+    <value>Its electron shells</value>
+  </data>
+  <data name="Atom_Obj_Neutron" xml:space="preserve">
+    <value>Neutron</value>
+  </data>
+  <data name="Atom_Obj_NeutronTray" xml:space="preserve">
+    <value>Neutrons</value>
+  </data>
+  <data name="Atom_Obj_Nucleus" xml:space="preserve">
+    <value>Nucleus</value>
+  </data>
+  <data name="Atom_Obj_Outer" xml:space="preserve">
+    <value>Outer electrons</value>
+  </data>
+  <data name="Atom_Obj_Periods" xml:space="preserve">
+    <value>Periods</value>
+  </data>
+  <data name="Atom_Obj_Proton" xml:space="preserve">
+    <value>Proton</value>
+  </data>
+  <data name="Atom_Obj_ProtonTray" xml:space="preserve">
+    <value>Protons</value>
+  </data>
+  <data name="Atom_Obj_Shell" xml:space="preserve">
+    <value>Electron shells</value>
+  </data>
+  <data name="Atom_Obj_Stability" xml:space="preserve">
+    <value>Stable or radioactive</value>
+  </data>
+  <data name="Atom_Obj_State_Gas" xml:space="preserve">
+    <value>Gases</value>
+  </data>
+  <data name="Atom_Obj_State_Liquid" xml:space="preserve">
+    <value>Liquids</value>
+  </data>
+  <data name="Atom_Obj_State_Solid" xml:space="preserve">
+    <value>Solids</value>
+  </data>
+  <data name="Atom_Obj_State_Unknown" xml:space="preserve">
+    <value>Never made in bulk</value>
+  </data>
+  <data name="Atom_Obj_Tile" xml:space="preserve">
+    <value>The element</value>
+  </data>
+  <data name="Atom_Option_Labels" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Atom_Particles_Caption" xml:space="preserve">
+    <value>Particles</value>
+  </data>
+  <data name="Atom_Preset_Carbon12" xml:space="preserve">
+    <value>Carbon-12</value>
+  </data>
+  <data name="Atom_Preset_Carbon14" xml:space="preserve">
+    <value>Carbon-14</value>
+  </data>
+  <data name="Atom_Preset_Chloride" xml:space="preserve">
+    <value>Chloride ion</value>
+  </data>
+  <data name="Atom_Preset_Helium" xml:space="preserve">
+    <value>Helium</value>
+  </data>
+  <data name="Atom_Preset_Hydrogen" xml:space="preserve">
+    <value>Hydrogen</value>
+  </data>
+  <data name="Atom_Preset_Iron" xml:space="preserve">
+    <value>Iron-56</value>
+  </data>
+  <data name="Atom_Preset_Oxygen" xml:space="preserve">
+    <value>Oxygen</value>
+  </data>
+  <data name="Atom_Preset_Sodium" xml:space="preserve">
+    <value>Sodium ion</value>
+  </data>
+  <data name="Atom_Presets_Caption" xml:space="preserve">
+    <value>Ready-made atoms</value>
+  </data>
+  <data name="Atom_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Atom_Proton" xml:space="preserve">
+    <value>Protons</value>
+  </data>
+  <data name="Atom_RemoveElectron" xml:space="preserve">
+    <value>Take an electron away</value>
+  </data>
+  <data name="Atom_RemoveNeutron" xml:space="preserve">
+    <value>Take a neutron away</value>
+  </data>
+  <data name="Atom_RemoveProton" xml:space="preserve">
+    <value>Take a proton away</value>
+  </data>
+  <data name="Atom_Stat_Charge" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="Atom_Stat_Electrons" xml:space="preserve">
+    <value>Electrons</value>
+  </data>
+  <data name="Atom_Stat_Element" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Atom_Stat_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Atom_Stat_Kind" xml:space="preserve">
+    <value>Family</value>
+  </data>
+  <data name="Atom_Stat_Mass" xml:space="preserve">
+    <value>Atomic mass</value>
+  </data>
+  <data name="Atom_Stat_MassNumber" xml:space="preserve">
+    <value>Mass number</value>
+  </data>
+  <data name="Atom_Stat_Neutrons" xml:space="preserve">
+    <value>Neutrons</value>
+  </data>
+  <data name="Atom_Stat_Nucleus" xml:space="preserve">
+    <value>Nucleus</value>
+  </data>
+  <data name="Atom_Stat_Number" xml:space="preserve">
+    <value>Atomic number</value>
+  </data>
+  <data name="Atom_Stat_Outer" xml:space="preserve">
+    <value>Outer electrons</value>
+  </data>
+  <data name="Atom_Stat_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Atom_Stat_Protons" xml:space="preserve">
+    <value>Protons</value>
+  </data>
+  <data name="Atom_Stat_Shells" xml:space="preserve">
+    <value>Electrons per shell</value>
+  </data>
+  <data name="Atom_Stat_State" xml:space="preserve">
+    <value>At room temperature</value>
+  </data>
+  <data name="Atom_State_Gas" xml:space="preserve">
+    <value>Gas</value>
+  </data>
+  <data name="Atom_State_Liquid" xml:space="preserve">
+    <value>Liquid</value>
+  </data>
+  <data name="Atom_State_Solid" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="Atom_State_Unknown" xml:space="preserve">
+    <value>Never made in bulk</value>
+  </data>
+  <data name="Atom_Table_Fact1" xml:space="preserve">
+    <value>In 1869 Dmitri Mendeleev left gaps in his table for elements nobody had found yet, and predicted what they would be like. Gallium and germanium turned up just as he said.</value>
+  </data>
+  <data name="Atom_Table_Fact2" xml:space="preserve">
+    <value>Helium was found on the Sun, from a yellow line in sunlight, 27 years before anyone found it on Earth. Its name comes from Helios, the Greek for Sun.</value>
+  </data>
+  <data name="Atom_Table_Fact3" xml:space="preserve">
+    <value>Every element heavier than iron in your body was made in old stars, deep inside them or as they exploded or collided, long before the Sun was born.</value>
+  </data>
+  <data name="Atom_Table_Fact4" xml:space="preserve">
+    <value>Most Chinese element names are a single new character: a metal gets 金 (钅) on its left, a gas 气 on top, and a solid nonmetal 石 on its left.</value>
+  </data>
+  <data name="Atom_Table_Fact5" xml:space="preserve">
+    <value>Only 94 elements occur naturally on Earth. The other 24 have been made by people, some just a few atoms at a time.</value>
+  </data>
+  <data name="Atom_Table_Note" xml:space="preserve">
+    <value>Elements after 103 have only ever been made a few atoms at a time, so some of what the table shows for them is a prediction.</value>
+  </data>
+  <data name="Atom_Table_Panel_Note" xml:space="preserve">
+    <value>Each element's number is its count of protons, so the table never skips one and can never have one in between.</value>
+  </data>
+  <data name="Atom_Table_Subtitle" xml:space="preserve">
+    <value>Line the elements up by how many protons they have, and their behaviour repeats, row after row. That repeating pattern is the periodic table.</value>
+  </data>
+  <data name="Atom_Value_ElementName" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Atom_Value_FBlock" xml:space="preserve">
+    <value>none (one of the two rows below)</value>
+  </data>
+  <data name="Atom_Value_MassBracket" xml:space="preserve">
+    <value>[{0}] (its longest-lived isotope)</value>
+  </data>
+  <data name="Atom_Value_MassNumber" xml:space="preserve">
+    <value>{0} ({1} protons + {2} neutrons)</value>
+  </data>
+  <data name="Atom_Value_NoElement" xml:space="preserve">
+    <value>none yet</value>
+  </data>
+  <data name="Atom_Value_Radioactive" xml:space="preserve">
+    <value>radioactive</value>
+  </data>
+  <data name="Atom_Value_Stable" xml:space="preserve">
+    <value>stable</value>
+  </data>
   <data name="Aurora_BestHour" xml:space="preserve">
     <value>Best hour tonight</value>
   </data>
@@ -2465,6 +3359,9 @@
   </data>
   <data name="Chapter_Oscillations" xml:space="preserve">
     <value>Pendulum and spring</value>
+  </data>
+  <data name="Chapter_Periodic_Table" xml:space="preserve">
+    <value>Atoms and the periodic table</value>
   </data>
   <data name="Chapter_Placeholder" xml:space="preserve">
     <value>This chapter is on its way into the book. Its pictures, lessons and narration will appear here soon.</value>
@@ -11954,6 +12851,168 @@
   </data>
   <data name="Narr_Acid_Scale_12" xml:space="preserve">
     <value>Your turn. Click any liquid on the scale and see what colour it turns in each indicator.</value>
+  </data>
+  <data name="Narr_Atom_Build_01" xml:space="preserve">
+    <value>This is the simplest atom there is: hydrogen. In the middle is its nucleus, a single proton. Around it goes one electron.</value>
+  </data>
+  <data name="Narr_Atom_Build_02" xml:space="preserve">
+    <value>The proton carries a positive charge. How many protons an atom has is its atomic number, and that number alone decides which element it is.</value>
+  </data>
+  <data name="Narr_Atom_Build_03" xml:space="preserve">
+    <value>Add a second proton and it is not hydrogen any more: it is helium, the gas in party balloons. Two neutrons help glue its nucleus together. Neutrons have no charge at all.</value>
+  </data>
+  <data name="Narr_Atom_Build_04" xml:space="preserve">
+    <value>Here is carbon, with six protons: the element of coal, diamonds and pencil leads. What do we get if we give it two more protons?</value>
+  </data>
+  <data name="Narr_Atom_Build_05" xml:space="preserve">
+    <value>Eight protons make oxygen, the gas you are breathing now. Every single proton added makes a completely different element.</value>
+  </data>
+  <data name="Narr_Atom_Build_06" xml:space="preserve">
+    <value>Electrons sit in shells. The first shell holds only two, the next one eight. Sodium has eleven electrons, so the eleventh starts a third shell all on its own.</value>
+  </data>
+  <data name="Narr_Atom_Build_07" xml:space="preserve">
+    <value>Sodium gives that lonely outer electron away very easily. Now it has eleven protons but only ten electrons, so it carries a charge of plus one. It has become a positive ion, the sodium you met in salty water.</value>
+  </data>
+  <data name="Narr_Atom_Build_08" xml:space="preserve">
+    <value>Chlorine does the opposite. Its outer shell has seven electrons, one short of eight, so it takes one extra. With eighteen electrons and seventeen protons it is a negative chloride ion. Sodium and chloride ions together make table salt.</value>
+  </data>
+  <data name="Narr_Atom_Build_09" xml:space="preserve">
+    <value>Now change only the neutrons. This is still carbon, but with eight neutrons instead of six: carbon-14. Atoms of one element with different numbers of neutrons are called isotopes. Carbon-14's nucleus does not last; it is radioactive.</value>
+  </data>
+  <data name="Narr_Atom_Build_10" xml:space="preserve">
+    <value>Carbon-12 and carbon-14: do they have the same number of electrons?</value>
+  </data>
+  <data name="Narr_Atom_Build_11" xml:space="preserve">
+    <value>Your turn. Build a neutral atom of neon: ten protons, ten neutrons and ten electrons. Use the minus and plus buttons on the trays.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Actinide" xml:space="preserve">
+    <value>The actinides, the second row underneath. All of them are radioactive. Only thorium and uranium are found in any amount in nature.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_AlkaliMetal" xml:space="preserve">
+    <value>The alkali metals, in the first column: lithium, sodium, potassium and their cousins. Soft enough to cut with a knife, and they react with water.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_AlkalineEarth" xml:space="preserve">
+    <value>The alkaline earth metals, in the second column, with two outer electrons. Calcium builds bones, shells and chalk.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Halogen" xml:space="preserve">
+    <value>The halogens, in the column next to the last. Each needs just one electron to fill its outer shell, which makes them fierce: fluorine reacts with nearly everything.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Lanthanide" xml:space="preserve">
+    <value>The lanthanides, the first row underneath. They are so alike that it took chemists more than a century to tell them all apart.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Metalloid" xml:space="preserve">
+    <value>The metalloids form a staircase between the metals and the nonmetals, and are a bit of both. Silicon, the stuff of sand and computer chips, is one.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_NobleGas" xml:space="preserve">
+    <value>The noble gases, in the last column. With full outer shells they keep to themselves, which is why they were the last group to be discovered.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Nonmetal" xml:space="preserve">
+    <value>The nonmetals, like carbon, nitrogen and oxygen. Together with hydrogen, they make up about ninety-six parts in a hundred of your body.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_PostTransition" xml:space="preserve">
+    <value>The other metals, right of the middle block: aluminium for cans, tin, and lead. Softer than the transition metals, and they melt more easily.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Transition" xml:space="preserve">
+    <value>The transition metals fill the wide middle block. Iron, copper, silver and gold are here; many make bright colours, like the blue of copper in some paints.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Charge" xml:space="preserve">
+    <value>The charge is protons minus electrons. Zero means a neutral atom. Lose an electron and it becomes a positive ion; gain one and it becomes a negative ion.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Detail" xml:space="preserve">
+    <value>The element you picked, as its tile on the table: its atomic number at the top, its symbol, its name and its atomic mass, the average mass of its atoms.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Electron" xml:space="preserve">
+    <value>An electron is tiny and light, with a negative charge. Electrons are what atoms share and swap when they join together, so they decide how an element reacts.</value>
+  </data>
+  <data name="Narr_Atom_Obj_ElectronTray" xml:space="preserve">
+    <value>Changing the electrons turns the atom into an ion. Electrons are the easiest part of an atom to move: rubbing a balloon on your hair moves some of them.</value>
+  </data>
+  <data name="Narr_Atom_Obj_FBlock" xml:space="preserve">
+    <value>The lanthanides and the actinides. They belong in periods six and seven, in column three, but would make the table far too wide, so they are printed underneath.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Groups" xml:space="preserve">
+    <value>The columns are groups, numbered one to eighteen. Elements in the same group usually have the same number of outer electrons, so they behave like a family.</value>
+  </data>
+  <data name="Narr_Atom_Obj_MassNumber" xml:space="preserve">
+    <value>The mass number counts the protons and neutrons together. Carbon-12 has six of each; carbon-14 has two more neutrons, so its mass number is fourteen.</value>
+  </data>
+  <data name="Narr_Atom_Obj_MiniShells" xml:space="preserve">
+    <value>The picked element's electrons, shell by shell. Count the rings and you nearly always have its period; the dots on the outermost ring are its outer electrons.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Neutron" xml:space="preserve">
+    <value>A neutron weighs about the same as a proton but has no charge. Neutrons help hold the nucleus together; without enough of them, the protons would push each other apart.</value>
+  </data>
+  <data name="Narr_Atom_Obj_NeutronTray" xml:space="preserve">
+    <value>Changing the neutrons keeps the element the same but makes a different isotope, heavier or lighter, and perhaps radioactive.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Nucleus" xml:space="preserve">
+    <value>The nucleus is the atom's tiny, heavy centre, made of protons and neutrons squeezed tightly together. It holds almost all the atom's mass, yet takes up almost none of its space.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Outer" xml:space="preserve">
+    <value>Coloured by outer electrons, each main column is one colour, from one in the first column to eight in the last. The middle block mostly has two.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Periods" xml:space="preserve">
+    <value>The rows are periods. Elements in a row have the same number of electron shells (palladium is the one exception): one for hydrogen and helium, seven for the bottom row.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Proton" xml:space="preserve">
+    <value>A proton has a positive charge. Count an atom's protons and you know its element: one is hydrogen, six is carbon, seventy-nine is gold.</value>
+  </data>
+  <data name="Narr_Atom_Obj_ProtonTray" xml:space="preserve">
+    <value>Add or take away a proton and you change the element itself. One more proton moves you one step along the periodic table.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Shell" xml:space="preserve">
+    <value>Electrons fill shells from the inside out. The first holds two, the second eight, and the third takes eight before the fourth begins. The electrons in the outermost shell do the chemistry.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Stability" xml:space="preserve">
+    <value>Only certain numbers of neutrons make a nucleus that lasts. With too many or too few, it is radioactive: one day it breaks up and gives off radiation.</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Gas" xml:space="preserve">
+    <value>Eleven elements are gases at room temperature: hydrogen, nitrogen, oxygen, fluorine, chlorine and the six noble gases.</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Liquid" xml:space="preserve">
+    <value>Only two elements are liquid at room temperature: bromine, a red-brown liquid, and mercury, a silvery metal once used in thermometers.</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Solid" xml:space="preserve">
+    <value>Solid at room temperature: nearly every element, from carbon to gold. Gallium is solid too, but it would melt in your hand.</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Unknown" xml:space="preserve">
+    <value>These elements have only been made a few atoms at a time, or fall apart so fast that no one has ever seen a lump of them, so nobody knows for sure what they would be like.</value>
+  </data>
+  <data name="Narr_Atom_Obj_Tile" xml:space="preserve">
+    <value>This is the element your atom makes, as it appears on the periodic table: its atomic number, its symbol and its name. Next to the symbol are the mass number and, for an ion, the charge.</value>
+  </data>
+  <data name="Narr_Atom_Table_01" xml:space="preserve">
+    <value>Here are all one hundred and eighteen known elements, in order of atomic number. Hydrogen comes first, with just one proton.</value>
+  </data>
+  <data name="Narr_Atom_Table_02" xml:space="preserve">
+    <value>Each row is called a period. Moving right, every element has one proton more than the one before. A new row begins each time the atoms start a new shell of electrons, so sodium, with its third shell, starts row three.</value>
+  </data>
+  <data name="Narr_Atom_Table_03" xml:space="preserve">
+    <value>Each column is called a group. Colour the table by outer electrons, and you can see that the main columns are each a single colour: lithium, sodium and the rest of the first column all have one electron in their outer shell.</value>
+  </data>
+  <data name="Narr_Atom_Table_04" xml:space="preserve">
+    <value>Because they have the same outer electrons, elements in a column behave alike. The first column holds the alkali metals, like potassium. They are so eager to lose their one outer electron that they fizz and even burst into flame in water.</value>
+  </data>
+  <data name="Narr_Atom_Table_05" xml:space="preserve">
+    <value>Chlorine has seven outer electrons. Fluorine sits just above it, in the same column. How many outer electrons does fluorine have?</value>
+  </data>
+  <data name="Narr_Atom_Table_06" xml:space="preserve">
+    <value>The last column holds the noble gases, like neon. Their outer shells are already full, so they hardly react with anything at all. Neon glows in signs, and argon fills light bulbs.</value>
+  </data>
+  <data name="Narr_Atom_Table_07" xml:space="preserve">
+    <value>The wide middle block is the transition metals: iron, copper, silver, gold and many more. Most of the metals we build with are here.</value>
+  </data>
+  <data name="Narr_Atom_Table_08" xml:space="preserve">
+    <value>Now colour the table by what each element is like at room temperature. Almost all are solids. Eleven are gases. And only two are liquids: bromine, here, and the metal mercury.</value>
+  </data>
+  <data name="Narr_Atom_Table_09" xml:space="preserve">
+    <value>These two rows below really belong inside periods six and seven, in the spaces marked in column three. They are printed apart only so the table fits on a page. Uranium is in the second row.</value>
+  </data>
+  <data name="Narr_Atom_Table_10" xml:space="preserve">
+    <value>The last element, oganesson, has one hundred and eighteen protons. Scientists have made only a handful of its atoms, and each fell apart in less than a thousandth of a second.</value>
+  </data>
+  <data name="Narr_Atom_Table_11" xml:space="preserve">
+    <value>Your turn. Find gold on the table and click it. A hint: its symbol is A u, from aurum, the Latin word for gold.</value>
   </data>
   <data name="Narr_Aurora_Obj_Aurora" xml:space="preserve">
     <value>The aurora: a ring of light around each magnetic pole, where electrons from the magnetosphere crash into the upper air. It glows brighter when the solar wind is fast and its field points south.</value>

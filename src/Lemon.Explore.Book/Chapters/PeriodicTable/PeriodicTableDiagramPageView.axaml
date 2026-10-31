@@ -1,0 +1,52 @@
+<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:atom="using:Lemon.Explore.Book.Chapters.PeriodicTable"
+                         xmlns:explore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.PeriodicTable.PeriodicTableDiagramPageView"
+                         x:DataType="atom:PeriodicTableDiagramPageViewModel">
+    <!-- Right page of the Atoms and the periodic table spread: the diagram on a dark plate, the walkthrough and the toolbar. -->
+    <Grid RowDefinitions="*,Auto" Margin="28,28,28,20">
+        <Border Classes="plate" CornerRadius="12">
+            <Grid>
+                <atom:AtomDiagram Mode="{Binding Atoms.Mode}"
+                                  Protons="{Binding Atoms.Protons, Mode=TwoWay}"
+                                  Neutrons="{Binding Atoms.Neutrons, Mode=TwoWay}"
+                                  Electrons="{Binding Atoms.Electrons, Mode=TwoWay}"
+                                  ElementZ="{Binding Atoms.ElementZ, Mode=TwoWay}"
+                                  Colouring="{Binding Atoms.Colouring}"
+                                  ShowLabels="{Binding Atoms.ShowLabels}"
+                                  ToolbarHeight="{Binding #Toolbar.Bounds.Height}"
+                                  Highlight="{Binding Atoms.Lesson.Highlight}"
+                                  IsLessonActive="{Binding Atoms.Lesson.IsActive}"
+                                  SelectedObject="{Binding Atoms.Card.Id, Mode=TwoWay}"
+                                  InteractionCommand="{Binding Atoms.UserInteractedCommand}"
+                                  ToolTip.Tip="{Binding Atoms.Hint}"
+                                  AutomationProperties.Name="{Binding Atoms.Subtitle}" />
+
+                <StackPanel Margin="12,0,12,12" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <explore:LessonPanel Margin="0,0,0,8" DataContext="{Binding Atoms.Lesson}" />
+                    <Border x:Name="Toolbar" HorizontalAlignment="Center" Padding="6,4"
+                            Background="{StaticResource SpaceGlass}" BorderBrush="{StaticResource SpaceGlassBorder}"
+                            BorderThickness="1" CornerRadius="22">
+                        <WrapPanel HorizontalAlignment="Center">
+                            <ToggleButton Classes="space"
+                                          IsChecked="{Binding Atoms.Lesson.IsActive, Mode=OneWay}"
+                                          Command="{Binding Atoms.Lesson.ToggleCommand}"
+                                          ToolTip.Tip="{loc:Localize Lesson_Start_Tooltip}"
+                                          AutomationProperties.Name="{loc:Localize Lesson_Start}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Data="{StaticResource Icon.Voice}" />
+                                    <TextBlock Text="{loc:Localize Lesson_Start}" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ToggleButton>
+                            <ToggleButton Classes="space" IsChecked="{Binding Atoms.ShowLabels}" Content="{loc:Localize Atom_Option_Labels}" />
+                        </WrapPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</explore:ChapterPageView>

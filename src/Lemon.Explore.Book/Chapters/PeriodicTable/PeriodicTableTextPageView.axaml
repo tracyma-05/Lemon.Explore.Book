@@ -1,0 +1,161 @@
+<shellExplore:ChapterPageView xmlns="https://github.com/avaloniaui"
+                         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                         xmlns:atom="using:Lemon.Explore.Book.Chapters.PeriodicTable"
+                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:shellExplore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
+                         x:Class="Lemon.Explore.Book.Chapters.PeriodicTable.PeriodicTableTextPageView"
+                         x:DataType="atom:PeriodicTableTextPageViewModel">
+    <!-- Left page of the Atoms and the periodic table spread: the atom's particles or the table's colouring, the chart, and what is happening. -->
+    <shellExplore:ChapterPageView.Styles>
+        <Style Selector=":is(TextBlock).statName">
+            <Setter Property="Margin" Value="0,3,12,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Foreground" Value="{DynamicResource FaintInkBrush}" />
+        </Style>
+        <Style Selector=":is(TextBlock).statValue">
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="0,3,0,3" />
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+        <Style Selector="TextBlock.particle">
+            <Setter Property="MinWidth" Value="76" />
+            <Setter Property="Margin" Value="0,0,8,0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
+        </Style>
+    </shellExplore:ChapterPageView.Styles>
+
+    <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
+            <StackPanel>
+                <SelectableTextBlock Classes="kicker" Text="{Binding VolumeTitle}" />
+                <SelectableTextBlock Classes="chapterNumber" Margin="0,12,0,0" Text="{Binding NumberLabel}" />
+                <SelectableTextBlock Classes="pageTitle" Margin="0,4,0,8" Text="{Binding Title}" />
+
+                <SelectableTextBlock Classes="text" FontSize="18" LineHeight="27" Text="{Binding Atoms.Subtitle}" />
+                <SelectableTextBlock Classes="note" Margin="0,6,0,0" Text="{Binding Atoms.ScaleNote}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{Binding Atoms.Hint}" />
+                <SelectableTextBlock Classes="note" Margin="0,2,0,0" Text="{loc:Localize Explore_ClickHint}" />
+
+                <WrapPanel Margin="0,14,0,0">
+                    <RadioButton Classes="chip" GroupName="AtomMode" IsChecked="{Binding Atoms.IsBuild}" Content="{loc:Localize Atom_Mode_Build}" />
+                    <RadioButton Classes="chip" GroupName="AtomMode" IsChecked="{Binding Atoms.IsTable}" Content="{loc:Localize Atom_Mode_Table}" />
+                </WrapPanel>
+
+                <explore:ObjectCardView Margin="0,10,0,0" DataContext="{Binding Atoms.Card}" />
+
+                <!-- Build: the three particles, and ready-made atoms -->
+                <StackPanel IsVisible="{Binding Atoms.IsBuild}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Atom_Particles_Caption}" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Classes="particle" Text="{loc:Localize Atom_Proton}" />
+                        <Button Classes="chip" Command="{Binding Atoms.RemoveProtonCommand}" Content="−" AutomationProperties.Name="{loc:Localize Atom_RemoveProton}" />
+                        <Button Classes="chip" Command="{Binding Atoms.AddProtonCommand}" Content="+" AutomationProperties.Name="{loc:Localize Atom_AddProton}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Classes="particle" Text="{loc:Localize Atom_Neutron}" />
+                        <Button Classes="chip" Command="{Binding Atoms.RemoveNeutronCommand}" Content="−" AutomationProperties.Name="{loc:Localize Atom_RemoveNeutron}" />
+                        <Button Classes="chip" Command="{Binding Atoms.AddNeutronCommand}" Content="+" AutomationProperties.Name="{loc:Localize Atom_AddNeutron}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Classes="particle" Text="{loc:Localize Atom_Electron}" />
+                        <Button Classes="chip" Command="{Binding Atoms.RemoveElectronCommand}" Content="−" AutomationProperties.Name="{loc:Localize Atom_RemoveElectron}" />
+                        <Button Classes="chip" Command="{Binding Atoms.AddElectronCommand}" Content="+" AutomationProperties.Name="{loc:Localize Atom_AddElectron}" />
+                    </StackPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Atom_Presets_Caption}" />
+                    <WrapPanel>
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Hydrogen" Content="{loc:Localize Atom_Preset_Hydrogen}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Helium" Content="{loc:Localize Atom_Preset_Helium}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Carbon12" Content="{loc:Localize Atom_Preset_Carbon12}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Carbon14" Content="{loc:Localize Atom_Preset_Carbon14}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Oxygen" Content="{loc:Localize Atom_Preset_Oxygen}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Sodium" Content="{loc:Localize Atom_Preset_Sodium}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Chloride" Content="{loc:Localize Atom_Preset_Chloride}" />
+                        <Button Classes="chip" Command="{Binding Atoms.PresetCommand}" CommandParameter="Iron" Content="{loc:Localize Atom_Preset_Iron}" />
+                        <Button Classes="chip" Command="{Binding Atoms.ClearAtomCommand}" Content="{loc:Localize Atom_Clear}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Margin="0,2,0,0" Classes="note" Text="{loc:Localize Atom_Build_Panel_Note}" />
+                </StackPanel>
+
+                <!-- Table: the colouring and the element picked -->
+                <StackPanel IsVisible="{Binding Atoms.IsTable}">
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Atom_Colour_Caption}" />
+                    <WrapPanel>
+                        <RadioButton Classes="chip" GroupName="AtomColouring" IsChecked="{Binding Atoms.ColouringChoice[Category]}" Content="{loc:Localize Atom_Colour_Category}" />
+                        <RadioButton Classes="chip" GroupName="AtomColouring" IsChecked="{Binding Atoms.ColouringChoice[State]}" Content="{loc:Localize Atom_Colour_State}" />
+                        <RadioButton Classes="chip" GroupName="AtomColouring" IsChecked="{Binding Atoms.ColouringChoice[Outer]}" Content="{loc:Localize Atom_Colour_Outer}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Classes="caption" Text="{loc:Localize Atom_Element_Caption}" />
+                    <WrapPanel>
+                        <ComboBox MinWidth="200" Margin="0,0,8,6" ItemsSource="{Binding Atoms.ElementOptions}" SelectedIndex="{Binding Atoms.ElementIndex}"
+                                  AutomationProperties.Name="{loc:Localize Atom_Element_Caption}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="atom:ElementOption">
+                                    <TextBlock Text="{Binding Label}" />
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                        <Button Classes="chip" Command="{Binding Atoms.PreviousElementCommand}" Content="{loc:Localize Atom_Previous}" />
+                        <Button Classes="chip" Command="{Binding Atoms.NextElementCommand}" Content="{loc:Localize Atom_Next}" />
+                    </WrapPanel>
+                    <SelectableTextBlock Margin="0,2,0,0" Classes="note" Text="{loc:Localize Atom_Table_Panel_Note}" />
+                </StackPanel>
+
+                <!-- The view's chart -->
+                <SelectableTextBlock Classes="caption" Text="{Binding Atoms.ChartCaption}" />
+                <Border Classes="plate" Height="190">
+                    <atom:AtomChart Mode="{Binding Atoms.Mode}"
+                                    Protons="{Binding Atoms.Protons}"
+                                    Neutrons="{Binding Atoms.Neutrons}"
+                                    ElementZ="{Binding Atoms.ElementZ, Mode=TwoWay}"
+                                    PickNucleusCommand="{Binding Atoms.PickNucleusCommand}"
+                                    InteractionCommand="{Binding Atoms.UserInteractedCommand}"
+                                    AutomationProperties.Name="{Binding Atoms.ChartCaption}" />
+                </Border>
+                <SelectableTextBlock Margin="0,8,0,0" Classes="note" Text="{Binding Atoms.ChartNote}" />
+
+                <!-- What is happening now: a coloured edge for the state -->
+                <Border Margin="0,16,0,0" CornerRadius="10" Background="{DynamicResource TintBrush}" ClipToBounds="True">
+                    <DockPanel>
+                        <Border DockPanel.Dock="Left" Width="6" Background="{Binding Atoms.PhaseBrush}" />
+                        <StackPanel Margin="14,12">
+                            <SelectableTextBlock FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"
+                                                 Foreground="{DynamicResource InkBrush}" Text="{Binding Atoms.PhaseTitle}" />
+                            <SelectableTextBlock Classes="text" Margin="0,6,0,10" Text="{Binding Atoms.PhaseDescription}" />
+                            <ItemsControl ItemsSource="{Binding Atoms.Stats}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="lessons:OscillationStat">
+                                        <Grid ColumnDefinitions="130,*">
+                                            <SelectableTextBlock Classes="statName" Text="{Binding Name}" />
+                                            <SelectableTextBlock Classes="statValue" Text="{Binding Value}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+
+                <SelectableTextBlock Classes="caption" Text="{loc:Localize Atom_Facts}" />
+                <ItemsControl ItemsSource="{Binding Atoms.Facts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <Grid ColumnDefinitions="14,*" Margin="0,0,0,8">
+                                <Ellipse Width="5" Height="5" Margin="0,9,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                         Fill="{DynamicResource AccentBrush}" />
+                                <SelectableTextBlock Grid.Column="1" Classes="text" Text="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
+    </Grid>
+</shellExplore:ChapterPageView>

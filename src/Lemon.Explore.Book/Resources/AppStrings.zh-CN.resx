@@ -834,6 +834,900 @@
   <data name="App_Title" xml:space="preserve">
     <value>探索之书</value>
   </data>
+  <data name="Atom_AddElectron" xml:space="preserve">
+    <value>加一个电子</value>
+  </data>
+  <data name="Atom_AddNeutron" xml:space="preserve">
+    <value>加一个中子</value>
+  </data>
+  <data name="Atom_AddProton" xml:space="preserve">
+    <value>加一个质子</value>
+  </data>
+  <data name="Atom_Anion_Br" xml:space="preserve">
+    <value>溴离子</value>
+  </data>
+  <data name="Atom_Anion_Cl" xml:space="preserve">
+    <value>氯离子</value>
+  </data>
+  <data name="Atom_Anion_F" xml:space="preserve">
+    <value>氟离子</value>
+  </data>
+  <data name="Atom_Anion_H" xml:space="preserve">
+    <value>氢负离子</value>
+  </data>
+  <data name="Atom_Anion_N" xml:space="preserve">
+    <value>氮离子</value>
+  </data>
+  <data name="Atom_Anion_O" xml:space="preserve">
+    <value>氧离子</value>
+  </data>
+  <data name="Atom_Anion_P" xml:space="preserve">
+    <value>磷离子</value>
+  </data>
+  <data name="Atom_Anion_S" xml:space="preserve">
+    <value>硫离子</value>
+  </data>
+  <data name="Atom_Anion_Se" xml:space="preserve">
+    <value>硒离子</value>
+  </data>
+  <data name="Atom_Build_Fact1" xml:space="preserve">
+    <value>一粒盐里大约有一百亿亿个原子。</value>
+  </data>
+  <data name="Atom_Build_Fact2" xml:space="preserve">
+    <value>原子的质量几乎全在原子核里：一个质子或中子大约比一个电子重 1800 倍。</value>
+  </data>
+  <data name="Atom_Build_Fact3" xml:space="preserve">
+    <value>你喝的水里的氢，是在宇宙大爆炸后最初的几分钟里形成的。</value>
+  </data>
+  <data name="Atom_Build_Fact4" xml:space="preserve">
+    <value>碳-14 会慢慢变回氮：大约 5700 年后会少掉一半，人们就是靠这一点测出古老骨头和木头的年代的。</value>
+  </data>
+  <data name="Atom_Build_Fact5" xml:space="preserve">
+    <value>电子其实并不像行星那样绕圈，而是像一团云一样散开。图里的电子层表示每个距离上能放下多少个电子。</value>
+  </data>
+  <data name="Atom_Build_Negative_Stable_Text" xml:space="preserve">
+    <value>这是一个负离子：电子比质子多。像氯和氧这样的原子，喜欢多拿几个电子把最外层填满。</value>
+  </data>
+  <data name="Atom_Build_Negative_Unstable_Text" xml:space="preserve">
+    <value>这是一个负离子，电子比质子多；而且原子核不稳定，中子数和质子数搭配不上。</value>
+  </data>
+  <data name="Atom_Build_Neutral_Stable_Text" xml:space="preserve">
+    <value>这是一个中性原子：电子和质子一样多，正负电荷正好抵消。它的原子核很稳定，这样的原子可以几十亿年都不变。</value>
+  </data>
+  <data name="Atom_Build_Neutral_Unstable_Text" xml:space="preserve">
+    <value>电子和质子一样多，但原子核里的中子数不合适，抱不紧。它迟早会分裂并放出射线，变成另一种元素。</value>
+  </data>
+  <data name="Atom_Build_NoProton_Text" xml:space="preserve">
+    <value>没有质子，就没有元素。单独一个中子大约一刻钟就会衰变掉，单独的电子则会到处乱跑。</value>
+  </data>
+  <data name="Atom_Build_NoProton_Title" xml:space="preserve">
+    <value>还不是元素</value>
+  </data>
+  <data name="Atom_Build_Note" xml:space="preserve">
+    <value>这幅图没有按比例画：如果原子核有一粒豌豆那么大，整个原子就有一座足球场那么大。</value>
+  </data>
+  <data name="Atom_Build_Nothing_Text" xml:space="preserve">
+    <value>先加一个质子吧。只要一个质子，就已经是一种元素了：氢。</value>
+  </data>
+  <data name="Atom_Build_Nothing_Title" xml:space="preserve">
+    <value>什么都还没有</value>
+  </data>
+  <data name="Atom_Build_Panel_Note" xml:space="preserve">
+    <value>这里最多能放 36 个质子，一直到氪。更重的元素在周期表里等着你。</value>
+  </data>
+  <data name="Atom_Build_Positive_Stable_Text" xml:space="preserve">
+    <value>这是一个正离子：电子比质子少。像钠这样的金属很容易把最外层的电子交出去，在食盐和海水里，它们就是以这种样子存在的。</value>
+  </data>
+  <data name="Atom_Build_Positive_Unstable_Text" xml:space="preserve">
+    <value>这是一个正离子，电子比质子少；而且原子核不稳定，中子数和质子数搭配不上。</value>
+  </data>
+  <data name="Atom_Build_Subtitle" xml:space="preserve">
+    <value>你身边的一切都由原子组成，而每个原子都由同样三种东西组成：挤在小小原子核里的质子和中子，以及围着它的电子。一个一个加上去，看看你做出的是哪种元素。</value>
+  </data>
+  <data name="Atom_Cat_Actinide" xml:space="preserve">
+    <value>锕系元素</value>
+  </data>
+  <data name="Atom_Cat_Actinide_Text" xml:space="preserve">
+    <value>周期表下方第二行的十五种金属之一，全都有放射性。铀和钚是核反应堆的燃料，铀以后的大多数只能在实验室里造出来。</value>
+  </data>
+  <data name="Atom_Cat_AlkaliMetal" xml:space="preserve">
+    <value>碱金属</value>
+  </data>
+  <data name="Atom_Cat_AlkaliMetal_Text" xml:space="preserve">
+    <value>一种又软又亮的金属，最外层只有一个电子，非常容易交出去。碱金属遇水就会反应，有的还很剧烈，所以要泡在油里保存。</value>
+  </data>
+  <data name="Atom_Cat_AlkalineEarth" xml:space="preserve">
+    <value>碱土金属</value>
+  </data>
+  <data name="Atom_Cat_AlkalineEarth_Text" xml:space="preserve">
+    <value>最外层有两个电子的金属，比第一列的邻居们温和一些。你的骨头和牙齿里有钙，焰火里耀眼的白光来自镁。</value>
+  </data>
+  <data name="Atom_Cat_Halogen" xml:space="preserve">
+    <value>卤素</value>
+  </data>
+  <data name="Atom_Cat_Halogen_Text" xml:space="preserve">
+    <value>离填满最外层只差一个电子，所以几乎见什么都要抢一个过来。氯能给游泳池消毒，和钠在一起就是食盐。</value>
+  </data>
+  <data name="Atom_Cat_Lanthanide" xml:space="preserve">
+    <value>镧系元素</value>
+  </data>
+  <data name="Atom_Cat_Lanthanide_Text" xml:space="preserve">
+    <value>周期表下方第一行的十五种金属之一，它们彼此非常相像。有些能做出最强的磁铁，用在耳机、手机和风力发电机里。</value>
+  </data>
+  <data name="Atom_Cat_Metalloid" xml:space="preserve">
+    <value>类金属</value>
+  </data>
+  <data name="Atom_Cat_Metalloid_Text" xml:space="preserve">
+    <value>有点像金属，又不完全是。最有名的是硅：它只让电流通过一点点，正好用来做电脑芯片。</value>
+  </data>
+  <data name="Atom_Cat_NobleGas" xml:space="preserve">
+    <value>稀有气体</value>
+  </data>
+  <data name="Atom_Cat_NobleGas_Text" xml:space="preserve">
+    <value>它的最外层已经满了，所以几乎不和任何东西反应。氦气用来充气球，氖在霓虹灯里发出红光。</value>
+  </data>
+  <data name="Atom_Cat_Nonmetal" xml:space="preserve">
+    <value>非金属</value>
+  </data>
+  <data name="Atom_Cat_Nonmetal_Text" xml:space="preserve">
+    <value>不是金属：没有金属光泽，也不太导电。可是碳、氢、氧、氮这几种非金属，构成了所有生物身体的绝大部分。</value>
+  </data>
+  <data name="Atom_Cat_PostTransition" xml:space="preserve">
+    <value>其他金属</value>
+  </data>
+  <data name="Atom_Cat_PostTransition_Text" xml:space="preserve">
+    <value>位于中间那一大块右边的金属，比较软，很多都容易熔化。铝、锡、铅都属于这类金属。</value>
+  </data>
+  <data name="Atom_Cat_Transition" xml:space="preserve">
+    <value>过渡金属</value>
+  </data>
+  <data name="Atom_Cat_Transition_Text" xml:space="preserve">
+    <value>周期表中间那一大块里的金属，大多又硬又结实，导电性也好。铁、铜、银、金都在这里。</value>
+  </data>
+  <data name="Atom_Chart_Build_Caption" xml:space="preserve">
+    <value>稳定的原子核：中子数和质子数</value>
+  </data>
+  <data name="Atom_Chart_Build_Note" xml:space="preserve">
+    <value>每个绿点都是一种能稳定存在的原子核。轻的原子核里中子和质子差不多一样多；重的原子核需要更多中子才能抱成一团。点一个绿点，就能搭出那个原子。</value>
+  </data>
+  <data name="Atom_Chart_Equal" xml:space="preserve">
+    <value>中子数 = 质子数</value>
+  </data>
+  <data name="Atom_Chart_N" xml:space="preserve">
+    <value>中子数</value>
+  </data>
+  <data name="Atom_Chart_Number" xml:space="preserve">
+    <value>原子序数</value>
+  </data>
+  <data name="Atom_Chart_Outer" xml:space="preserve">
+    <value>最外层电子</value>
+  </data>
+  <data name="Atom_Chart_Table_Caption" xml:space="preserve">
+    <value>每种元素的最外层电子数</value>
+  </data>
+  <data name="Atom_Chart_Table_Note" xml:space="preserve">
+    <value>这个数从 1 涨到 8，每开始新的一行又回到 1。正是这种周期性的重复，让周期表得了这个名字。点一根柱子就能选中那种元素。</value>
+  </data>
+  <data name="Atom_Chart_Z" xml:space="preserve">
+    <value>质子数</value>
+  </data>
+  <data name="Atom_Clear" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="Atom_Colour_Caption" xml:space="preserve">
+    <value>周期表的上色方式</value>
+  </data>
+  <data name="Atom_Colour_Category" xml:space="preserve">
+    <value>元素类别</value>
+  </data>
+  <data name="Atom_Colour_Outer" xml:space="preserve">
+    <value>最外层电子数</value>
+  </data>
+  <data name="Atom_Colour_State" xml:space="preserve">
+    <value>常温下的状态</value>
+  </data>
+  <data name="Atom_El_Ac" xml:space="preserve">
+    <value>锕</value>
+  </data>
+  <data name="Atom_El_Ag" xml:space="preserve">
+    <value>银</value>
+  </data>
+  <data name="Atom_El_Al" xml:space="preserve">
+    <value>铝</value>
+  </data>
+  <data name="Atom_El_Am" xml:space="preserve">
+    <value>镅</value>
+  </data>
+  <data name="Atom_El_Ar" xml:space="preserve">
+    <value>氩</value>
+  </data>
+  <data name="Atom_El_As" xml:space="preserve">
+    <value>砷</value>
+  </data>
+  <data name="Atom_El_At" xml:space="preserve">
+    <value>砹</value>
+  </data>
+  <data name="Atom_El_Au" xml:space="preserve">
+    <value>金</value>
+  </data>
+  <data name="Atom_El_B" xml:space="preserve">
+    <value>硼</value>
+  </data>
+  <data name="Atom_El_Ba" xml:space="preserve">
+    <value>钡</value>
+  </data>
+  <data name="Atom_El_Be" xml:space="preserve">
+    <value>铍</value>
+  </data>
+  <data name="Atom_El_Bh" xml:space="preserve">
+    <value>𬭛</value>
+  </data>
+  <data name="Atom_El_Bi" xml:space="preserve">
+    <value>铋</value>
+  </data>
+  <data name="Atom_El_Bk" xml:space="preserve">
+    <value>锫</value>
+  </data>
+  <data name="Atom_El_Br" xml:space="preserve">
+    <value>溴</value>
+  </data>
+  <data name="Atom_El_C" xml:space="preserve">
+    <value>碳</value>
+  </data>
+  <data name="Atom_El_Ca" xml:space="preserve">
+    <value>钙</value>
+  </data>
+  <data name="Atom_El_Cd" xml:space="preserve">
+    <value>镉</value>
+  </data>
+  <data name="Atom_El_Ce" xml:space="preserve">
+    <value>铈</value>
+  </data>
+  <data name="Atom_El_Cf" xml:space="preserve">
+    <value>锎</value>
+  </data>
+  <data name="Atom_El_Cl" xml:space="preserve">
+    <value>氯</value>
+  </data>
+  <data name="Atom_El_Cm" xml:space="preserve">
+    <value>锔</value>
+  </data>
+  <data name="Atom_El_Cn" xml:space="preserve">
+    <value>鿔</value>
+  </data>
+  <data name="Atom_El_Co" xml:space="preserve">
+    <value>钴</value>
+  </data>
+  <data name="Atom_El_Cr" xml:space="preserve">
+    <value>铬</value>
+  </data>
+  <data name="Atom_El_Cs" xml:space="preserve">
+    <value>铯</value>
+  </data>
+  <data name="Atom_El_Cu" xml:space="preserve">
+    <value>铜</value>
+  </data>
+  <data name="Atom_El_Db" xml:space="preserve">
+    <value>𬭊</value>
+  </data>
+  <data name="Atom_El_Ds" xml:space="preserve">
+    <value>𫟼</value>
+  </data>
+  <data name="Atom_El_Dy" xml:space="preserve">
+    <value>镝</value>
+  </data>
+  <data name="Atom_El_Er" xml:space="preserve">
+    <value>铒</value>
+  </data>
+  <data name="Atom_El_Es" xml:space="preserve">
+    <value>锿</value>
+  </data>
+  <data name="Atom_El_Eu" xml:space="preserve">
+    <value>铕</value>
+  </data>
+  <data name="Atom_El_F" xml:space="preserve">
+    <value>氟</value>
+  </data>
+  <data name="Atom_El_Fe" xml:space="preserve">
+    <value>铁</value>
+  </data>
+  <data name="Atom_El_Fl" xml:space="preserve">
+    <value>𫓧</value>
+  </data>
+  <data name="Atom_El_Fm" xml:space="preserve">
+    <value>镄</value>
+  </data>
+  <data name="Atom_El_Fr" xml:space="preserve">
+    <value>钫</value>
+  </data>
+  <data name="Atom_El_Ga" xml:space="preserve">
+    <value>镓</value>
+  </data>
+  <data name="Atom_El_Gd" xml:space="preserve">
+    <value>钆</value>
+  </data>
+  <data name="Atom_El_Ge" xml:space="preserve">
+    <value>锗</value>
+  </data>
+  <data name="Atom_El_H" xml:space="preserve">
+    <value>氢</value>
+  </data>
+  <data name="Atom_El_He" xml:space="preserve">
+    <value>氦</value>
+  </data>
+  <data name="Atom_El_Hf" xml:space="preserve">
+    <value>铪</value>
+  </data>
+  <data name="Atom_El_Hg" xml:space="preserve">
+    <value>汞</value>
+  </data>
+  <data name="Atom_El_Ho" xml:space="preserve">
+    <value>钬</value>
+  </data>
+  <data name="Atom_El_Hs" xml:space="preserve">
+    <value>𬭶</value>
+  </data>
+  <data name="Atom_El_I" xml:space="preserve">
+    <value>碘</value>
+  </data>
+  <data name="Atom_El_In" xml:space="preserve">
+    <value>铟</value>
+  </data>
+  <data name="Atom_El_Ir" xml:space="preserve">
+    <value>铱</value>
+  </data>
+  <data name="Atom_El_K" xml:space="preserve">
+    <value>钾</value>
+  </data>
+  <data name="Atom_El_Kr" xml:space="preserve">
+    <value>氪</value>
+  </data>
+  <data name="Atom_El_La" xml:space="preserve">
+    <value>镧</value>
+  </data>
+  <data name="Atom_El_Li" xml:space="preserve">
+    <value>锂</value>
+  </data>
+  <data name="Atom_El_Lr" xml:space="preserve">
+    <value>铹</value>
+  </data>
+  <data name="Atom_El_Lu" xml:space="preserve">
+    <value>镥</value>
+  </data>
+  <data name="Atom_El_Lv" xml:space="preserve">
+    <value>鉝</value>
+  </data>
+  <data name="Atom_El_Mc" xml:space="preserve">
+    <value>镆</value>
+  </data>
+  <data name="Atom_El_Md" xml:space="preserve">
+    <value>钔</value>
+  </data>
+  <data name="Atom_El_Mg" xml:space="preserve">
+    <value>镁</value>
+  </data>
+  <data name="Atom_El_Mn" xml:space="preserve">
+    <value>锰</value>
+  </data>
+  <data name="Atom_El_Mo" xml:space="preserve">
+    <value>钼</value>
+  </data>
+  <data name="Atom_El_Mt" xml:space="preserve">
+    <value>鿏</value>
+  </data>
+  <data name="Atom_El_N" xml:space="preserve">
+    <value>氮</value>
+  </data>
+  <data name="Atom_El_Na" xml:space="preserve">
+    <value>钠</value>
+  </data>
+  <data name="Atom_El_Nb" xml:space="preserve">
+    <value>铌</value>
+  </data>
+  <data name="Atom_El_Nd" xml:space="preserve">
+    <value>钕</value>
+  </data>
+  <data name="Atom_El_Ne" xml:space="preserve">
+    <value>氖</value>
+  </data>
+  <data name="Atom_El_Nh" xml:space="preserve">
+    <value>鿭</value>
+  </data>
+  <data name="Atom_El_Ni" xml:space="preserve">
+    <value>镍</value>
+  </data>
+  <data name="Atom_El_No" xml:space="preserve">
+    <value>锘</value>
+  </data>
+  <data name="Atom_El_Np" xml:space="preserve">
+    <value>镎</value>
+  </data>
+  <data name="Atom_El_O" xml:space="preserve">
+    <value>氧</value>
+  </data>
+  <data name="Atom_El_Og" xml:space="preserve">
+    <value>鿫</value>
+  </data>
+  <data name="Atom_El_Os" xml:space="preserve">
+    <value>锇</value>
+  </data>
+  <data name="Atom_El_P" xml:space="preserve">
+    <value>磷</value>
+  </data>
+  <data name="Atom_El_Pa" xml:space="preserve">
+    <value>镤</value>
+  </data>
+  <data name="Atom_El_Pb" xml:space="preserve">
+    <value>铅</value>
+  </data>
+  <data name="Atom_El_Pd" xml:space="preserve">
+    <value>钯</value>
+  </data>
+  <data name="Atom_El_Pm" xml:space="preserve">
+    <value>钷</value>
+  </data>
+  <data name="Atom_El_Po" xml:space="preserve">
+    <value>钋</value>
+  </data>
+  <data name="Atom_El_Pr" xml:space="preserve">
+    <value>镨</value>
+  </data>
+  <data name="Atom_El_Pt" xml:space="preserve">
+    <value>铂</value>
+  </data>
+  <data name="Atom_El_Pu" xml:space="preserve">
+    <value>钚</value>
+  </data>
+  <data name="Atom_El_Ra" xml:space="preserve">
+    <value>镭</value>
+  </data>
+  <data name="Atom_El_Rb" xml:space="preserve">
+    <value>铷</value>
+  </data>
+  <data name="Atom_El_Re" xml:space="preserve">
+    <value>铼</value>
+  </data>
+  <data name="Atom_El_Rf" xml:space="preserve">
+    <value>𬬻</value>
+  </data>
+  <data name="Atom_El_Rg" xml:space="preserve">
+    <value>𬬭</value>
+  </data>
+  <data name="Atom_El_Rh" xml:space="preserve">
+    <value>铑</value>
+  </data>
+  <data name="Atom_El_Rn" xml:space="preserve">
+    <value>氡</value>
+  </data>
+  <data name="Atom_El_Ru" xml:space="preserve">
+    <value>钌</value>
+  </data>
+  <data name="Atom_El_S" xml:space="preserve">
+    <value>硫</value>
+  </data>
+  <data name="Atom_El_Sb" xml:space="preserve">
+    <value>锑</value>
+  </data>
+  <data name="Atom_El_Sc" xml:space="preserve">
+    <value>钪</value>
+  </data>
+  <data name="Atom_El_Se" xml:space="preserve">
+    <value>硒</value>
+  </data>
+  <data name="Atom_El_Sg" xml:space="preserve">
+    <value>𬭳</value>
+  </data>
+  <data name="Atom_El_Si" xml:space="preserve">
+    <value>硅</value>
+  </data>
+  <data name="Atom_El_Sm" xml:space="preserve">
+    <value>钐</value>
+  </data>
+  <data name="Atom_El_Sn" xml:space="preserve">
+    <value>锡</value>
+  </data>
+  <data name="Atom_El_Sr" xml:space="preserve">
+    <value>锶</value>
+  </data>
+  <data name="Atom_El_Ta" xml:space="preserve">
+    <value>钽</value>
+  </data>
+  <data name="Atom_El_Tb" xml:space="preserve">
+    <value>铽</value>
+  </data>
+  <data name="Atom_El_Tc" xml:space="preserve">
+    <value>锝</value>
+  </data>
+  <data name="Atom_El_Te" xml:space="preserve">
+    <value>碲</value>
+  </data>
+  <data name="Atom_El_Th" xml:space="preserve">
+    <value>钍</value>
+  </data>
+  <data name="Atom_El_Ti" xml:space="preserve">
+    <value>钛</value>
+  </data>
+  <data name="Atom_El_Tl" xml:space="preserve">
+    <value>铊</value>
+  </data>
+  <data name="Atom_El_Tm" xml:space="preserve">
+    <value>铥</value>
+  </data>
+  <data name="Atom_El_Ts" xml:space="preserve">
+    <value>鿬</value>
+  </data>
+  <data name="Atom_El_U" xml:space="preserve">
+    <value>铀</value>
+  </data>
+  <data name="Atom_El_V" xml:space="preserve">
+    <value>钒</value>
+  </data>
+  <data name="Atom_El_W" xml:space="preserve">
+    <value>钨</value>
+  </data>
+  <data name="Atom_El_Xe" xml:space="preserve">
+    <value>氙</value>
+  </data>
+  <data name="Atom_El_Y" xml:space="preserve">
+    <value>钇</value>
+  </data>
+  <data name="Atom_El_Yb" xml:space="preserve">
+    <value>镱</value>
+  </data>
+  <data name="Atom_El_Zn" xml:space="preserve">
+    <value>锌</value>
+  </data>
+  <data name="Atom_El_Zr" xml:space="preserve">
+    <value>锆</value>
+  </data>
+  <data name="Atom_Electron" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Atom_Element_Caption" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Atom_Facts" xml:space="preserve">
+    <value>你知道吗</value>
+  </data>
+  <data name="Atom_Hint_Build" xml:space="preserve">
+    <value>按粒子旁边的 − 或 +，或者选一个现成的原子。</value>
+  </data>
+  <data name="Atom_Hint_Table" xml:space="preserve">
+    <value>点一种元素看看它的原子。用三种方式给周期表上色，找找其中的规律。</value>
+  </data>
+  <data name="Atom_Ion_Named" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="Atom_Ion_Negative" xml:space="preserve">
+    <value>{0}负离子（{1}）</value>
+  </data>
+  <data name="Atom_Ion_Positive" xml:space="preserve">
+    <value>{0}离子（{1}）</value>
+  </data>
+  <data name="Atom_Isotope" xml:space="preserve">
+    <value>{0}-{1}</value>
+  </data>
+  <data name="Atom_Label_Charge" xml:space="preserve">
+    <value>电荷 {0}</value>
+  </data>
+  <data name="Atom_Label_Mass" xml:space="preserve">
+    <value>相对原子质量 {0}</value>
+  </data>
+  <data name="Atom_Label_MassNumber" xml:space="preserve">
+    <value>质量数 {0} = {1} + {2}</value>
+  </data>
+  <data name="Atom_Label_NoElement" xml:space="preserve">
+    <value>还不是元素</value>
+  </data>
+  <data name="Atom_Label_OuterLegend" xml:space="preserve">
+    <value>最外层电子数：</value>
+  </data>
+  <data name="Atom_Label_Radioactive" xml:space="preserve">
+    <value>有放射性的原子核</value>
+  </data>
+  <data name="Atom_Label_Shell" xml:space="preserve">
+    <value>第 {0} 层：{1}</value>
+  </data>
+  <data name="Atom_Label_Shells" xml:space="preserve">
+    <value>每层电子：{0}</value>
+  </data>
+  <data name="Atom_Label_Stable" xml:space="preserve">
+    <value>稳定的原子核</value>
+  </data>
+  <data name="Atom_Legend_Electron" xml:space="preserve">
+    <value>电子，带 −1 电荷</value>
+  </data>
+  <data name="Atom_Legend_Neutron" xml:space="preserve">
+    <value>中子，不带电</value>
+  </data>
+  <data name="Atom_Legend_Proton" xml:space="preserve">
+    <value>质子，带 +1 电荷</value>
+  </data>
+  <data name="Atom_Lesson_Build2_Choice1" xml:space="preserve">
+    <value>一样：都是六个，和质子一样多</value>
+  </data>
+  <data name="Atom_Lesson_Build2_Choice2" xml:space="preserve">
+    <value>不一样：碳-14 的更多</value>
+  </data>
+  <data name="Atom_Lesson_Build2_Choice3" xml:space="preserve">
+    <value>不一样：碳-12 的更多</value>
+  </data>
+  <data name="Atom_Lesson_Build_Choice1" xml:space="preserve">
+    <value>氧：八个质子</value>
+  </data>
+  <data name="Atom_Lesson_Build_Choice2" xml:space="preserve">
+    <value>还是碳，只是更重了</value>
+  </data>
+  <data name="Atom_Lesson_Build_Choice3" xml:space="preserve">
+    <value>氮：七个质子</value>
+  </data>
+  <data name="Atom_Lesson_Table_Choice1" xml:space="preserve">
+    <value>七个，和氯一样</value>
+  </data>
+  <data name="Atom_Lesson_Table_Choice2" xml:space="preserve">
+    <value>九个，一个质子对应一个</value>
+  </data>
+  <data name="Atom_Lesson_Table_Choice3" xml:space="preserve">
+    <value>一个，因为它在上面一行</value>
+  </data>
+  <data name="Atom_Mode_Build" xml:space="preserve">
+    <value>搭建原子</value>
+  </data>
+  <data name="Atom_Mode_Table" xml:space="preserve">
+    <value>元素周期表</value>
+  </data>
+  <data name="Atom_Neutron" xml:space="preserve">
+    <value>中子</value>
+  </data>
+  <data name="Atom_Next" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="Atom_Obj_Cat_Actinide" xml:space="preserve">
+    <value>锕系元素</value>
+  </data>
+  <data name="Atom_Obj_Cat_AlkaliMetal" xml:space="preserve">
+    <value>碱金属</value>
+  </data>
+  <data name="Atom_Obj_Cat_AlkalineEarth" xml:space="preserve">
+    <value>碱土金属</value>
+  </data>
+  <data name="Atom_Obj_Cat_Halogen" xml:space="preserve">
+    <value>卤素</value>
+  </data>
+  <data name="Atom_Obj_Cat_Lanthanide" xml:space="preserve">
+    <value>镧系元素</value>
+  </data>
+  <data name="Atom_Obj_Cat_Metalloid" xml:space="preserve">
+    <value>类金属</value>
+  </data>
+  <data name="Atom_Obj_Cat_NobleGas" xml:space="preserve">
+    <value>稀有气体</value>
+  </data>
+  <data name="Atom_Obj_Cat_Nonmetal" xml:space="preserve">
+    <value>非金属</value>
+  </data>
+  <data name="Atom_Obj_Cat_PostTransition" xml:space="preserve">
+    <value>其他金属</value>
+  </data>
+  <data name="Atom_Obj_Cat_Transition" xml:space="preserve">
+    <value>过渡金属</value>
+  </data>
+  <data name="Atom_Obj_Charge" xml:space="preserve">
+    <value>电荷</value>
+  </data>
+  <data name="Atom_Obj_Detail" xml:space="preserve">
+    <value>选中的元素</value>
+  </data>
+  <data name="Atom_Obj_Electron" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Atom_Obj_ElectronTray" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Atom_Obj_FBlock" xml:space="preserve">
+    <value>下方的两行</value>
+  </data>
+  <data name="Atom_Obj_Groups" xml:space="preserve">
+    <value>族</value>
+  </data>
+  <data name="Atom_Obj_MassNumber" xml:space="preserve">
+    <value>质量数</value>
+  </data>
+  <data name="Atom_Obj_MiniShells" xml:space="preserve">
+    <value>它的电子层</value>
+  </data>
+  <data name="Atom_Obj_Neutron" xml:space="preserve">
+    <value>中子</value>
+  </data>
+  <data name="Atom_Obj_NeutronTray" xml:space="preserve">
+    <value>中子</value>
+  </data>
+  <data name="Atom_Obj_Nucleus" xml:space="preserve">
+    <value>原子核</value>
+  </data>
+  <data name="Atom_Obj_Outer" xml:space="preserve">
+    <value>最外层电子数</value>
+  </data>
+  <data name="Atom_Obj_Periods" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="Atom_Obj_Proton" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Atom_Obj_ProtonTray" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Atom_Obj_Shell" xml:space="preserve">
+    <value>电子层</value>
+  </data>
+  <data name="Atom_Obj_Stability" xml:space="preserve">
+    <value>稳定还是有放射性</value>
+  </data>
+  <data name="Atom_Obj_State_Gas" xml:space="preserve">
+    <value>气体</value>
+  </data>
+  <data name="Atom_Obj_State_Liquid" xml:space="preserve">
+    <value>液体</value>
+  </data>
+  <data name="Atom_Obj_State_Solid" xml:space="preserve">
+    <value>固体</value>
+  </data>
+  <data name="Atom_Obj_State_Unknown" xml:space="preserve">
+    <value>从未大量制得</value>
+  </data>
+  <data name="Atom_Obj_Tile" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Atom_Option_Labels" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Atom_Particles_Caption" xml:space="preserve">
+    <value>粒子</value>
+  </data>
+  <data name="Atom_Preset_Carbon12" xml:space="preserve">
+    <value>碳-12</value>
+  </data>
+  <data name="Atom_Preset_Carbon14" xml:space="preserve">
+    <value>碳-14</value>
+  </data>
+  <data name="Atom_Preset_Chloride" xml:space="preserve">
+    <value>氯离子</value>
+  </data>
+  <data name="Atom_Preset_Helium" xml:space="preserve">
+    <value>氦</value>
+  </data>
+  <data name="Atom_Preset_Hydrogen" xml:space="preserve">
+    <value>氢</value>
+  </data>
+  <data name="Atom_Preset_Iron" xml:space="preserve">
+    <value>铁-56</value>
+  </data>
+  <data name="Atom_Preset_Oxygen" xml:space="preserve">
+    <value>氧</value>
+  </data>
+  <data name="Atom_Preset_Sodium" xml:space="preserve">
+    <value>钠离子</value>
+  </data>
+  <data name="Atom_Presets_Caption" xml:space="preserve">
+    <value>现成的原子</value>
+  </data>
+  <data name="Atom_Previous" xml:space="preserve">
+    <value>上一个</value>
+  </data>
+  <data name="Atom_Proton" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Atom_RemoveElectron" xml:space="preserve">
+    <value>拿走一个电子</value>
+  </data>
+  <data name="Atom_RemoveNeutron" xml:space="preserve">
+    <value>拿走一个中子</value>
+  </data>
+  <data name="Atom_RemoveProton" xml:space="preserve">
+    <value>拿走一个质子</value>
+  </data>
+  <data name="Atom_Stat_Charge" xml:space="preserve">
+    <value>电荷</value>
+  </data>
+  <data name="Atom_Stat_Electrons" xml:space="preserve">
+    <value>电子</value>
+  </data>
+  <data name="Atom_Stat_Element" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Atom_Stat_Group" xml:space="preserve">
+    <value>族</value>
+  </data>
+  <data name="Atom_Stat_Kind" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Atom_Stat_Mass" xml:space="preserve">
+    <value>相对原子质量</value>
+  </data>
+  <data name="Atom_Stat_MassNumber" xml:space="preserve">
+    <value>质量数</value>
+  </data>
+  <data name="Atom_Stat_Neutrons" xml:space="preserve">
+    <value>中子</value>
+  </data>
+  <data name="Atom_Stat_Nucleus" xml:space="preserve">
+    <value>原子核</value>
+  </data>
+  <data name="Atom_Stat_Number" xml:space="preserve">
+    <value>原子序数</value>
+  </data>
+  <data name="Atom_Stat_Outer" xml:space="preserve">
+    <value>最外层电子</value>
+  </data>
+  <data name="Atom_Stat_Period" xml:space="preserve">
+    <value>周期</value>
+  </data>
+  <data name="Atom_Stat_Protons" xml:space="preserve">
+    <value>质子</value>
+  </data>
+  <data name="Atom_Stat_Shells" xml:space="preserve">
+    <value>各层电子数</value>
+  </data>
+  <data name="Atom_Stat_State" xml:space="preserve">
+    <value>常温下</value>
+  </data>
+  <data name="Atom_State_Gas" xml:space="preserve">
+    <value>气体</value>
+  </data>
+  <data name="Atom_State_Liquid" xml:space="preserve">
+    <value>液体</value>
+  </data>
+  <data name="Atom_State_Solid" xml:space="preserve">
+    <value>固体</value>
+  </data>
+  <data name="Atom_State_Unknown" xml:space="preserve">
+    <value>从未大量制得</value>
+  </data>
+  <data name="Atom_Table_Fact1" xml:space="preserve">
+    <value>1869 年，门捷列夫在他的周期表里给还没人发现的元素留了空位，还预言了它们的性质。后来发现的镓和锗，果然和他说的一样。</value>
+  </data>
+  <data name="Atom_Table_Fact2" xml:space="preserve">
+    <value>氦是先在太阳上被发现的：人们在阳光里看到一条黄色的谱线，过了 27 年才在地球上找到它。它的名字来自希腊语里的太阳“赫利俄斯”。</value>
+  </data>
+  <data name="Atom_Table_Fact3" xml:space="preserve">
+    <value>你身体里比铁重的元素，都是在太阳诞生之前很久，在古老的恒星深处，或者在恒星爆炸、相撞时制造出来的。</value>
+  </data>
+  <data name="Atom_Table_Fact4" xml:space="preserve">
+    <value>大多数元素的中文名都是一个专门造的字：金属带“钅”旁，气体带“气”字头，固态非金属带“石”字旁。</value>
+  </data>
+  <data name="Atom_Table_Fact5" xml:space="preserve">
+    <value>地球上天然存在的元素只有 94 种。另外 24 种都是人造的，有的每次只造出几个原子。</value>
+  </data>
+  <data name="Atom_Table_Note" xml:space="preserve">
+    <value>103 号以后的元素，人们每次只造出过几个原子，所以表里关于它们的一些信息是科学家的预测。</value>
+  </data>
+  <data name="Atom_Table_Panel_Note" xml:space="preserve">
+    <value>每种元素的序号就是它的质子数，所以周期表一个都不会缺，两个元素之间也不可能再插进一个。</value>
+  </data>
+  <data name="Atom_Table_Subtitle" xml:space="preserve">
+    <value>把元素按质子数排成一行，它们的性质会一行一行地重复出现。这种周期性重复的规律，就是元素周期表。</value>
+  </data>
+  <data name="Atom_Value_ElementName" xml:space="preserve">
+    <value>{0}（{1}）</value>
+  </data>
+  <data name="Atom_Value_FBlock" xml:space="preserve">
+    <value>无（在下方的两行里）</value>
+  </data>
+  <data name="Atom_Value_MassBracket" xml:space="preserve">
+    <value>[{0}]（寿命最长的同位素）</value>
+  </data>
+  <data name="Atom_Value_MassNumber" xml:space="preserve">
+    <value>{0}（{1} 个质子 + {2} 个中子）</value>
+  </data>
+  <data name="Atom_Value_NoElement" xml:space="preserve">
+    <value>还没有</value>
+  </data>
+  <data name="Atom_Value_Radioactive" xml:space="preserve">
+    <value>有放射性</value>
+  </data>
+  <data name="Atom_Value_Stable" xml:space="preserve">
+    <value>稳定</value>
+  </data>
   <data name="Aurora_BestHour" xml:space="preserve">
     <value>今晚最佳时刻</value>
   </data>
@@ -2465,6 +3359,9 @@
   </data>
   <data name="Chapter_Oscillations" xml:space="preserve">
     <value>单摆与弹簧</value>
+  </data>
+  <data name="Chapter_Periodic_Table" xml:space="preserve">
+    <value>原子与周期表</value>
   </data>
   <data name="Chapter_Placeholder" xml:space="preserve">
     <value>这一章正在搬进书里，图、课程和朗读很快就会出现在这里。</value>
@@ -11954,6 +12851,168 @@
   </data>
   <data name="Narr_Acid_Scale_12" xml:space="preserve">
     <value>轮到你了。在标尺上点任意一种液体，看看它在每种指示剂里变成什么颜色。</value>
+  </data>
+  <data name="Narr_Atom_Build_01" xml:space="preserve">
+    <value>这是最简单的原子：氢。中间是它的原子核，只有一个质子。外面有一个电子绕着它转。</value>
+  </data>
+  <data name="Narr_Atom_Build_02" xml:space="preserve">
+    <value>质子带正电。一个原子有多少个质子，就是它的原子序数，而且只有这个数决定它是哪种元素。</value>
+  </data>
+  <data name="Narr_Atom_Build_03" xml:space="preserve">
+    <value>再加一个质子，它就不再是氢了，而是氦，就是气球里充的那种气体。两个中子帮忙把原子核粘在一起。中子完全不带电。</value>
+  </data>
+  <data name="Narr_Atom_Build_04" xml:space="preserve">
+    <value>这是碳，有六个质子：煤、钻石和铅笔芯都是碳。如果再给它加两个质子，会变成什么？</value>
+  </data>
+  <data name="Narr_Atom_Build_05" xml:space="preserve">
+    <value>八个质子就是氧，就是你现在正在呼吸的气体。每多加一个质子，就会变成一种完全不同的元素。</value>
+  </data>
+  <data name="Narr_Atom_Build_06" xml:space="preserve">
+    <value>电子分层排列。第一层只能放两个，第二层能放八个。钠有十一个电子，所以第十一个只好单独开始第三层。</value>
+  </data>
+  <data name="Narr_Atom_Build_07" xml:space="preserve">
+    <value>钠很容易把最外层那个孤零零的电子交出去。现在它有十一个质子，却只有十个电子，所以带一个单位的正电荷。它变成了正离子，就是你在盐水里见过的那种钠离子。</value>
+  </data>
+  <data name="Narr_Atom_Build_08" xml:space="preserve">
+    <value>氯正好相反。它的最外层有七个电子，离八个只差一个，所以它会多拿一个电子。有了十八个电子、十七个质子，它就成了带负电的氯离子。钠离子和氯离子在一起，就是食盐。</value>
+  </data>
+  <data name="Narr_Atom_Build_09" xml:space="preserve">
+    <value>现在只改变中子。这还是碳，只是有八个中子而不是六个，叫作碳-14。同一种元素、中子数不同的原子，叫作同位素。碳-14 的原子核不稳定，它有放射性。</value>
+  </data>
+  <data name="Narr_Atom_Build_10" xml:space="preserve">
+    <value>碳-12 和碳-14 的电子数一样吗？</value>
+  </data>
+  <data name="Narr_Atom_Build_11" xml:space="preserve">
+    <value>轮到你了。搭一个中性的氖原子：十个质子、十个中子和十个电子。用托盘上的减号和加号按钮。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Actinide" xml:space="preserve">
+    <value>锕系元素是下面的第二行，全都有放射性。在自然界里能找到一定数量的，只有钍和铀。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_AlkaliMetal" xml:space="preserve">
+    <value>碱金属在第一列：锂、钠、钾和它们的亲戚。它们软得能用小刀切开，遇水会发生反应。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_AlkalineEarth" xml:space="preserve">
+    <value>碱土金属在第二列，最外层有两个电子。钙是骨头、贝壳和粉笔的成分。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Halogen" xml:space="preserve">
+    <value>卤素在倒数第二列。每一种都只差一个电子就能填满最外层，所以它们特别活泼：氟几乎和什么都能反应。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Lanthanide" xml:space="preserve">
+    <value>镧系元素是下面的第一行。它们彼此太像了，化学家花了一百多年才把它们一一分辨清楚。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Metalloid" xml:space="preserve">
+    <value>类金属像一道台阶，隔开了金属和非金属，两边的性质都有一点。硅就是其中之一，沙子和电脑芯片里都有它。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_NobleGas" xml:space="preserve">
+    <value>稀有气体在最后一列。最外层是满的，它们几乎不和别人打交道，所以它们是最后被发现的一族。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Nonmetal" xml:space="preserve">
+    <value>非金属，比如碳、氮和氧。它们和氢加在一起，大约占你身体的百分之九十六。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_PostTransition" xml:space="preserve">
+    <value>其他金属在中间那一块的右边：做易拉罐的铝，还有锡和铅。它们比过渡金属软，也更容易熔化。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Cat_Transition" xml:space="preserve">
+    <value>过渡金属占满了中间那一大块。铁、铜、银、金都在这里；很多能呈现鲜艳的颜色，比如一些颜料里铜的蓝色。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Charge" xml:space="preserve">
+    <value>电荷等于质子数减去电子数。零表示中性原子。少一个电子，就变成正离子；多一个电子，就变成负离子。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Detail" xml:space="preserve">
+    <value>这是你选中的元素，就像它在周期表上的那一格：上面是原子序数，然后是元素符号、名字，以及相对原子质量，也就是它的原子的平均质量。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Electron" xml:space="preserve">
+    <value>电子又小又轻，带负电。原子结合在一起时，分享和交换的就是电子，所以电子决定了一种元素会怎样发生反应。</value>
+  </data>
+  <data name="Narr_Atom_Obj_ElectronTray" xml:space="preserve">
+    <value>改变电子数，原子就变成了离子。电子是原子里最容易移动的部分：用气球蹭头发，就会让一些电子跑过去。</value>
+  </data>
+  <data name="Narr_Atom_Obj_FBlock" xml:space="preserve">
+    <value>这是镧系和锕系元素。它们本该放在第六和第七周期的第三列，可那样周期表就太宽了，所以印在下面。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Groups" xml:space="preserve">
+    <value>竖列叫作族，从一到十八编号。同一族的元素，最外层电子数通常一样，所以它们的性质就像一家人一样相似。</value>
+  </data>
+  <data name="Narr_Atom_Obj_MassNumber" xml:space="preserve">
+    <value>质量数就是质子数加中子数。碳-12 有六个质子和六个中子；碳-14 多了两个中子，所以质量数是十四。</value>
+  </data>
+  <data name="Narr_Atom_Obj_MiniShells" xml:space="preserve">
+    <value>选中元素的电子，一层一层排开。数一数有几圈，几乎总能知道它在第几周期；最外面一圈上的点，就是它的最外层电子。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Neutron" xml:space="preserve">
+    <value>中子和质子差不多重，但不带电。中子帮忙把原子核粘在一起；中子不够的话，质子们就会互相推开。</value>
+  </data>
+  <data name="Narr_Atom_Obj_NeutronTray" xml:space="preserve">
+    <value>改变中子数，元素还是那种元素，但会变成另一种同位素：更重或更轻，还可能有放射性。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Nucleus" xml:space="preserve">
+    <value>原子核是原子中心又小又重的部分，由紧紧挤在一起的质子和中子组成。原子的质量几乎全在这里，可它几乎不占原子的空间。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Outer" xml:space="preserve">
+    <value>按最外层电子数上色，主要的每一列都是同一种颜色：第一列是一个，最后一列是八个。中间那一大块大多是两个。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Periods" xml:space="preserve">
+    <value>横行叫作周期。同一行的元素，电子层数都一样（只有钯是例外）：氢和氦只有一层，最下面一行有七层。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Proton" xml:space="preserve">
+    <value>质子带正电。数一数原子里的质子，就知道它是哪种元素：一个是氢，六个是碳，七十九个是金。</value>
+  </data>
+  <data name="Narr_Atom_Obj_ProtonTray" xml:space="preserve">
+    <value>加上或拿走一个质子，元素本身就变了。多一个质子，就在周期表上往后走一格。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Shell" xml:space="preserve">
+    <value>电子从里往外一层层填。第一层放两个，第二层放八个，第三层放满八个后就开始填第四层。真正参与化学反应的，是最外层的电子。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Stability" xml:space="preserve">
+    <value>只有特定数量的中子，才能让原子核稳定存在。中子太多或太少，原子核就有放射性：总有一天它会分裂，放出射线。</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Gas" xml:space="preserve">
+    <value>常温下是气体的元素有十一种：氢、氮、氧、氟、氯，还有六种稀有气体。</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Liquid" xml:space="preserve">
+    <value>常温下是液体的元素只有两种：红棕色的溴，和曾经用在温度计里的银白色金属汞。</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Solid" xml:space="preserve">
+    <value>常温下是固体：从碳到金，几乎所有元素都是。镓也是固体，可它放在手心里就会熔化。</value>
+  </data>
+  <data name="Narr_Atom_Obj_State_Unknown" xml:space="preserve">
+    <value>这些元素每次只造出过几个原子，或者衰变得太快，谁也没见过一块这样的东西，所以没人能确定它们会是什么样子。</value>
+  </data>
+  <data name="Narr_Atom_Obj_Tile" xml:space="preserve">
+    <value>这是你的原子组成的元素，就像在周期表上那样：原子序数、元素符号和名字。符号旁边标着质量数；如果是离子，还标着电荷。</value>
+  </data>
+  <data name="Narr_Atom_Table_01" xml:space="preserve">
+    <value>这里是人类已知的全部一百一十八种元素，按原子序数排好。氢排第一，它只有一个质子。</value>
+  </data>
+  <data name="Narr_Atom_Table_02" xml:space="preserve">
+    <value>每一横行叫作一个周期。往右走，每种元素都比前一个多一个质子。原子每开始一个新的电子层，就开始新的一行，所以开始第三层电子的钠，排在第三行的开头。</value>
+  </data>
+  <data name="Narr_Atom_Table_03" xml:space="preserve">
+    <value>每一竖列叫作一个族。按最外层电子数给表上色，你会看到主要的几列每列都是同一种颜色：锂、钠和第一列的其他元素，最外层都只有一个电子。</value>
+  </data>
+  <data name="Narr_Atom_Table_04" xml:space="preserve">
+    <value>最外层电子一样，同一列的元素性质也就相似。第一列是碱金属，比如钾。它们太想甩掉最外层那一个电子了，一碰到水就嘶嘶作响，甚至燃烧起来。</value>
+  </data>
+  <data name="Narr_Atom_Table_05" xml:space="preserve">
+    <value>氯的最外层有七个电子。氟就在它上面，在同一列。氟的最外层有几个电子？</value>
+  </data>
+  <data name="Narr_Atom_Table_06" xml:space="preserve">
+    <value>最后一列是稀有气体，比如氖。它们的最外层已经满了，所以几乎不和任何东西反应。氖在霓虹灯里发光，氩被充进灯泡里。</value>
+  </data>
+  <data name="Narr_Atom_Table_07" xml:space="preserve">
+    <value>中间那一大块是过渡金属：铁、铜、银、金，还有很多。我们用来造东西的金属大多在这里。</value>
+  </data>
+  <data name="Narr_Atom_Table_08" xml:space="preserve">
+    <value>现在按常温下的状态给表上色。几乎全是固体，有十一种是气体，只有两种是液体：这里的溴，还有金属汞。</value>
+  </data>
+  <data name="Narr_Atom_Table_09" xml:space="preserve">
+    <value>下面这两行其实属于第六和第七周期，就放在第三列标出的那两个位置里。单独印在下面，只是为了让周期表能放进一页纸。铀就在第二行里。</value>
+  </data>
+  <data name="Narr_Atom_Table_10" xml:space="preserve">
+    <value>最后一种元素是鿫（ào），有一百一十八个质子。科学家只造出过几个它的原子，每一个都在不到千分之一秒内就分裂了。</value>
+  </data>
+  <data name="Narr_Atom_Table_11" xml:space="preserve">
+    <value>轮到你了。在表里找到金，点一下它。提示：它的符号是 A u，来自拉丁语里表示金子的词。</value>
   </data>
   <data name="Narr_Aurora_Obj_Aurora" xml:space="preserve">
     <value>极光：围绕每个磁极的一圈光，来自磁层的电子在这里撞进高层大气。太阳风越快、磁场越朝南，它就越亮。</value>
