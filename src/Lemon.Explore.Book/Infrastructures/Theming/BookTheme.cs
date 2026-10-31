@@ -6,12 +6,13 @@ using Lemon.Explore.Book.Infrastructures.Settings;
 
 namespace Lemon.Explore.Book.Infrastructures.Theming;
 
-/// <summary>Light paper, dark paper, or whichever the system uses.</summary>
+/// <summary>Light paper, dark paper, whichever the system uses, or the soft green eye-care paper (护眼).</summary>
 public enum BookThemeMode
 {
     Light,
     Dark,
     System,
+    EyeCare,
 }
 
 /// <summary>An accent colour, with the shade used on light paper and the one used on dark paper.</summary>
@@ -30,6 +31,12 @@ public static class BookTheme
 {
     public const string ThemeSetting = "theme";
     public const string AccentSetting = "accent";
+
+    /// <summary>
+    /// The eye-care paper: a muted green with softer ink, for long reading. It builds on the light theme, so Fluent's
+    /// controls (and any brush it does not set) look as they do on light paper.
+    /// </summary>
+    public static ThemeVariant EyeCare { get; } = new("EyeCare", ThemeVariant.Light);
 
     public static IReadOnlyList<AccentColor> Accents { get; } =
     [
@@ -62,11 +69,14 @@ public static class BookTheme
         {
             BookThemeMode.Dark => ThemeVariant.Dark,
             BookThemeMode.System => ThemeVariant.Default,
+            BookThemeMode.EyeCare => EyeCare,
             _ => ThemeVariant.Light,
         };
 
         SetAccent(app.Resources, ThemeVariant.Light, accent.OnLight);
         SetAccent(app.Resources, ThemeVariant.Dark, accent.OnDark);
+        // A shade darker on the green paper, so accent text keeps its contrast.
+        SetAccent(app.Resources, EyeCare, Mix(accent.OnLight, Colors.Black, 0.12));
     }
 
     private static void SetAccent(IResourceDictionary resources, ThemeVariant variant, Color color)

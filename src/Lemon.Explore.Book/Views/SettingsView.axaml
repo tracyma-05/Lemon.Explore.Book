@@ -40,11 +40,12 @@
 
             <Rectangle Classes="divider" />
 
-            <!-- Appearance: light or dark paper, and the accent colour -->
+            <!-- Appearance: light, dark or eye-care paper, and the accent colour -->
             <TextBlock Classes="section" Text="{loc:Localize Settings_Appearance}" />
             <WrapPanel>
                 <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsLightTheme}" Content="{loc:Localize Settings_Theme_Light}" />
                 <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsDarkTheme}" Content="{loc:Localize Settings_Theme_Dark}" />
+                <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsEyeCareTheme}" Content="{loc:Localize Settings_Theme_EyeCare}" />
                 <RadioButton Classes="chip" GroupName="SettingsTheme" IsChecked="{Binding IsSystemTheme}" Content="{loc:Localize Settings_Theme_System}" />
             </WrapPanel>
             <TextBlock Classes="note" Margin="0,6,0,6" Text="{loc:Localize Settings_Accent}" />

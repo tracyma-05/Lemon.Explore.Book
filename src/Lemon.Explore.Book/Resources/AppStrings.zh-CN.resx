@@ -23079,6 +23079,9 @@
   <data name="Settings_Theme_Dark" xml:space="preserve">
     <value>深色</value>
   </data>
+  <data name="Settings_Theme_EyeCare" xml:space="preserve">
+    <value>护眼</value>
+  </data>
   <data name="Settings_Theme_Light" xml:space="preserve">
     <value>浅色</value>
   </data>

@@ -129,6 +129,16 @@ public sealed partial class SettingsViewModel : ObservableObject
         }
     }
 
+    /// <summary>The soft green eye-care paper (护眼), for long reading.</summary>
+    public bool IsEyeCareTheme
+    {
+        get => _themeMode == BookThemeMode.EyeCare;
+        set
+        {
+            if (value) SetThemeMode(BookThemeMode.EyeCare);
+        }
+    }
+
     public BookThemeMode ThemeMode => _themeMode;
 
     /// <summary>The accent colours to choose from, as swatches.</summary>
@@ -157,6 +167,7 @@ public sealed partial class SettingsViewModel : ObservableObject
         OnPropertyChanged(nameof(IsLightTheme));
         OnPropertyChanged(nameof(IsDarkTheme));
         OnPropertyChanged(nameof(IsSystemTheme));
+        OnPropertyChanged(nameof(IsEyeCareTheme));
         OnPropertyChanged(nameof(ThemeMode));
     }
 

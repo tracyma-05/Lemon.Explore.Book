@@ -23079,6 +23079,9 @@
   <data name="Settings_Theme_Dark" xml:space="preserve">
     <value>Dark</value>
   </data>
+  <data name="Settings_Theme_EyeCare" xml:space="preserve">
+    <value>Eye care</value>
+  </data>
   <data name="Settings_Theme_Light" xml:space="preserve">
     <value>Light</value>
   </data>

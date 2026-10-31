@@ -114,6 +114,16 @@ public sealed class ReadingFeaturesTests
             Assert.True(app.TryFindResource("AccentBrush", ThemeVariant.Dark, out var accent));
             Assert.Equal(BookTheme.Accents.First(a => a.Id == "Pine").OnDark, ((ISolidColorBrush)accent!).Color);
             Assert.Equal("Pine", BookTheme.LoadAccent(store).Id);
+
+            // 护眼: its own green paper, on top of the light theme.
+            settings.IsEyeCareTheme = true;
+            Assert.Equal(BookTheme.EyeCare, app.RequestedThemeVariant);
+            Assert.Equal(nameof(BookThemeMode.EyeCare), store.Get(BookTheme.ThemeSetting));
+            Assert.False(settings.IsDarkTheme);
+            Assert.True(app.TryFindResource("BookPaperBrush", BookTheme.EyeCare, out var paper));
+            Assert.True(app.TryFindResource("BookPaperBrush", ThemeVariant.Light, out var lightPaper));
+            Assert.NotEqual(((ISolidColorBrush)lightPaper!).Color, ((ISolidColorBrush)paper!).Color);
+            Assert.True(app.TryFindResource("AccentBrush", BookTheme.EyeCare, out _));
         }
         finally
         {
@@ -122,7 +132,7 @@ public sealed class ReadingFeaturesTests
     }
 
     [AvaloniaFact]
-    public void TheBook_Renders_InLightAndDark_WithARibbonOnABookmarkedPage()
+    public void TheBook_Renders_InLightDarkAndEyeCare_WithARibbonOnABookmarkedPage()
     {
         var localization = LocalizationService.Instance;
         var original = localization.CurrentCulture;
@@ -155,6 +165,14 @@ public sealed class ReadingFeaturesTests
             settingsButton.Flyout!.ShowAt(settingsButton);
             Frames(5);
             Snapshot(window, "settings-dark-zh");
+            settingsButton.Flyout.Hide();
+
+            BookTheme.Apply(app, BookThemeMode.EyeCare, BookTheme.DefaultAccent);
+            Frames(10);
+            Snapshot(window, "contents-eyecare-zh");
+            settingsButton.Flyout!.ShowAt(settingsButton);
+            Frames(5);
+            Snapshot(window, "settings-eyecare-zh");
             settingsButton.Flyout.Hide();
             window.Close();
         }

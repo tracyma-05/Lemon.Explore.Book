@@ -38,6 +38,45 @@ html, body {
     opacity: 0.8;
 }
 
+/* How much of the runtime and the book has arrived, by file (main.js). */
+.splash-progress {
+    width: min(240px, 60vw);
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(230, 234, 242, 0.2);
+    overflow: hidden;
+}
+
+.splash-progress > div {
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    background: #E9C46A;
+    transition: width 200ms ease-out;
+}
+
+/* Under the bar: the file coming in, then the whole download's size, speed and time left (download-progress.js). */
+.splash-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    min-height: 2.6em; /* both lines' room from the start, so the bar does not move when they fill in */
+    max-width: 90vw;
+    margin-top: -6px;
+    color: #E6EAF2;
+    opacity: 0.7;
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.splash-detail > span {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .splash.splash-close {
     transition: opacity 200ms, display 200ms;
     display: none;

@@ -13,7 +13,7 @@
 const SHELL_CACHE = 'explore-book-shell-v2';
 const FRAMEWORK_CACHE = 'explore-book-framework-v2';
 const NARRATION_CACHE = 'explore-book-narration-v1';
-const SHELL = ['./', './index.html', './main.js', './narration.js', './synth.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
+const SHELL = ['./', './index.html', './main.js', './download-progress.js', './narration.js', './synth.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
 
 // The .NET build's fingerprint: ten lower-case letters and digits before the extension(s), e.g.
 // dotnet.native.aiuw32zoda.wasm or Avalonia.Base.3episxfaie.wasm.
