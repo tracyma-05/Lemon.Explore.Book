@@ -91,7 +91,7 @@
 ---
 
 **在线阅读**：https://book-explore.lemontree.asia
-**下载桌面版 / 源码**：在 GitHub 搜索 https://github/tracyma-05/Lemon.Explore.Book
+**下载桌面版 / 源码**：https://github.com/tracyma-05/Lemon.Explore.Book
 
 👉 点击“**阅读原文**”，马上翻开这本书。
 
