@@ -1,4 +1,6 @@
-using Lemon.Explore.Book.Explore.Narration;
+using Lemon.Book.Shell.Contents;
+using Lemon.Book.Shell.Explore.Narration;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Explore.Places;
 using Lemon.Explore.Book.Infrastructures.Settings;
 

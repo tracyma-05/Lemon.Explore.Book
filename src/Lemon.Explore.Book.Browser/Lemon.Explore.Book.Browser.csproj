@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <!--
-    The splash's download sizes (wwwroot/download-progress.js): each boot file's size, raw and Brotli, keyed by its
+    The splash's download sizes (the shell's download-progress.js): each boot file's size, raw and Brotli, keyed by its
     path under _framework/, so the splash can show the whole download's size and the time left. Only the files the
     boot manifest (inside dotnet.js) names, not stale ones an earlier publish left in the folder.
   -->
@@ -70,6 +70,8 @@
 
   <ItemGroup>
     <PackageReference Include="Avalonia.Browser" />
+    <!-- The shell's web pieces, and its scripts at _content/Lemon.Book.Shell.Browser/. -->
+    <PackageReference Include="Lemon.Book.Shell.Browser" />
   </ItemGroup>
 
   <ItemGroup>

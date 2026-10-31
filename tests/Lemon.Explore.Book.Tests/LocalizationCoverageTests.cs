@@ -1,5 +1,9 @@
+using System.Collections;
+using System.Globalization;
+using System.Resources;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
+using Lemon.Book.Shell;
 using Lemon.Explore.Book.Contents;
 using Xunit;
 
@@ -7,7 +11,8 @@ namespace Lemon.Explore.Book.Tests;
 
 /// <summary>
 /// Every string ships in English and Chinese, and the language switches at run time. These tests catch the two
-/// ways that breaks: a key added to one resx file only, and a key used in code that neither file defines.
+/// ways that breaks: a key added to one resx file only, and a key used in code that neither the book's files nor the
+/// shell's (Lemon.Book.Shell's ShellStrings, in both languages, which the book's may reword) define.
 /// </summary>
 public partial class LocalizationCoverageTests
 {
@@ -38,6 +43,7 @@ public partial class LocalizationCoverageTests
     public void EveryKeyUsedInSource_IsDefined()
     {
         var defined = Keys("AppStrings.resx");
+        defined.UnionWith(ShellKeys());
         var used = new SortedSet<string>(StringComparer.Ordinal);
 
         foreach (var file in Directory.EnumerateFiles(Path.Combine(Root, "src"), "*.*", SearchOption.AllDirectories)
@@ -57,6 +63,14 @@ public partial class LocalizationCoverageTests
 
         Assert.NotEmpty(used);
         Assert.Empty(used.Except(defined));
+    }
+
+    /// <summary>The shell's own strings (Lemon.Book.Shell's ShellStrings.resx, built into its assembly).</summary>
+    private static IEnumerable<string> ShellKeys()
+    {
+        var resources = new ResourceManager("Lemon.Book.Shell.Resources.ShellStrings", typeof(BookShell).Assembly)
+            .GetResourceSet(CultureInfo.InvariantCulture, createIfNotExists: true, tryParents: true)!;
+        return resources.Cast<DictionaryEntry>().Select(e => (string)e.Key);
     }
 
     private static SortedSet<string> Keys(string file) =>

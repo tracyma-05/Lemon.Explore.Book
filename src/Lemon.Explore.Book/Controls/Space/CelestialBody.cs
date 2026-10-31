@@ -1,7 +1,8 @@
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Theming;
 
 namespace Lemon.Explore.Book.Controls.Space;
 

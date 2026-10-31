@@ -3,6 +3,7 @@ using Avalonia.Data;
 using Avalonia.Controls;
 using System.Windows.Input;
 using Avalonia.Input;
+using Lemon.Book.Shell.Controls.Explore;
 using Lemon.Explore.Book.Controls.Explore;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 using Lemon.Explore.Book.Controls.Space;

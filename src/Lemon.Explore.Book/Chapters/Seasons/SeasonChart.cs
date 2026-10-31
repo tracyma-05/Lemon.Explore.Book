@@ -1,7 +1,7 @@
 using System.Globalization;
 using Avalonia;
 using Avalonia.Media;
-using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 
 namespace Lemon.Explore.Book.Chapters.Seasons;

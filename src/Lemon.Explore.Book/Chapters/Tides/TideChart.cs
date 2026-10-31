@@ -5,9 +5,9 @@ using Avalonia.Data;
 using Avalonia.Controls;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Chapters.Seasons;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 
 namespace Lemon.Explore.Book.Chapters.Tides;

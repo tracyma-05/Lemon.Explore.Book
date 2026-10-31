@@ -1,12 +1,13 @@
-<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+<shellExplore:ChapterPageView xmlns="https://github.com/avaloniaui"
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:sky="using:Lemon.Explore.Book.Chapters.BlueSky"
                          xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:shellExplore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.BlueSky.BlueSkyTextPageView"
                          x:DataType="sky:BlueSkyTextPageViewModel">
     <!-- Left page of the Blue sky spread: the time and the haze, the view's own chart, and what is happening. -->
-    <explore:ChapterPageView.Styles>
+    <shellExplore:ChapterPageView.Styles>
         <Style Selector=":is(TextBlock).statName">
             <Setter Property="Margin" Value="0,3,12,3" />
             <Setter Property="FontSize" Value="13" />
@@ -26,7 +27,7 @@
             <Setter Property="VerticalAlignment" Value="Bottom" />
             <Setter Property="Foreground" Value="{DynamicResource InkBrush}" />
         </Style>
-    </explore:ChapterPageView.Styles>
+    </shellExplore:ChapterPageView.Styles>
 
     <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
@@ -145,4 +146,4 @@
 
         <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
     </Grid>
-</explore:ChapterPageView>
+</shellExplore:ChapterPageView>

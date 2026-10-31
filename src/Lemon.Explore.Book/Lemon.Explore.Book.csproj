@@ -18,7 +18,7 @@
 
   <PropertyGroup>
     <!--
-      Where this build looks for updates (see Updates/UpdateFeed.cs): github:owner/repo, the address of a JSON
+      Where this build looks for updates (read by the shell's UpdateFeed): github:owner/repo, the address of a JSON
       manifest, or off. A Release build updates from this repository's GitHub Releases unless told otherwise (the
       release workflow passes github:<the repository it runs in>, so a fork updates from itself); a Debug build has none.
     -->
@@ -45,6 +45,8 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" />
+    <!-- The shell every Lemon book shares: the book and its page turn, narration, lessons, settings and updates. -->
+    <PackageReference Include="Lemon.Book.Shell" />
   </ItemGroup>
 
   <ItemGroup>

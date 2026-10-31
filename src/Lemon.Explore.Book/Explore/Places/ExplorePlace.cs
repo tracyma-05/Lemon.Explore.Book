@@ -1,6 +1,6 @@
 using System.Globalization;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.DayNight;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Controls.Space;
 
 namespace Lemon.Explore.Book.Explore.Places;

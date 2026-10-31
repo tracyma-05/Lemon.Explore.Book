@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Headless;
 using Lemon.Explore.Book;
 using Lemon.Explore.Book.Tests;
+using System.Runtime.CompilerServices;
 using Xunit;
 
 [assembly: AvaloniaTestApplication(typeof(TestAppBuilder))]
@@ -23,4 +24,8 @@ public static class TestAppBuilder
         AppBuilder.Configure<App>()
             .UseSkia()
             .UseHeadless(new AvaloniaHeadlessPlatformOptions { UseHeadlessDrawing = false });
+
+    /// <summary>The shell knows this book (its strings, languages and page count) before any test touches it.</summary>
+    [ModuleInitializer]
+    internal static void ConfigureShell() => App.ConfigureShell();
 }

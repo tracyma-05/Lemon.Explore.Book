@@ -4,10 +4,12 @@ using Avalonia.Media;
 using Avalonia.Media.Immutable;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Lemon.Book.Shell.Controls.Explore;
+using Lemon.Book.Shell.Explore.Lessons;
+using Lemon.Book.Shell.Explore.Narration;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.DayNight;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Explore.Lessons;
 

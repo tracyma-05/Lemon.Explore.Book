@@ -1,8 +1,9 @@
 using System.ComponentModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Lemon.Explore.Book.Explore.Narration;
-using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Book.Shell.Explore.Lessons;
+using Lemon.Book.Shell.Explore.Narration;
+using Lemon.Book.Shell.Infrastructures.Localization;
 
 namespace Lemon.Explore.Book.Explore.Lessons;
 

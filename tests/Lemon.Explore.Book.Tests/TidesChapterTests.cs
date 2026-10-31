@@ -1,11 +1,14 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Chapters.Tides;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Lemon.Explore.Book.ViewModels.Pages;
 using Xunit;
@@ -40,7 +43,7 @@ public sealed class TidesChapterTests
     [InlineData(TidesMode.Coast)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(TidesMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new TidesViewModel(new Navigator(), new ExploreLocationService(new MemorySettingsStore()), narration) { Mode = mode };
         var used = WalkthroughKeys([TidesLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -63,7 +66,7 @@ public sealed class TidesChapterTests
     public void TheCoast_FollowsTheObserverLocation()
     {
         var location = new ExploreLocationService(new MemorySettingsStore());
-        using var page = new TidesViewModel(new Navigator(), location, new LessonPlayerTests.FakeNarration());
+        using var page = new TidesViewModel(new Navigator(), location, new FakeNarration());
 
         location.Select("Sydney");
 
@@ -74,7 +77,7 @@ public sealed class TidesChapterTests
     public void TheMoonPhasesLink_TurnsToTheMoonPhasesChapter()
     {
         var navigator = new Navigator();
-        using var page = new TidesViewModel(navigator, new ExploreLocationService(new MemorySettingsStore()), new LessonPlayerTests.FakeNarration());
+        using var page = new TidesViewModel(navigator, new ExploreLocationService(new MemorySettingsStore()), new FakeNarration());
 
         page.OpenMoonPhasesCommand.Execute(null);
 

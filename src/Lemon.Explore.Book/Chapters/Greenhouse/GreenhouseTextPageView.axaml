@@ -1,13 +1,14 @@
-<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+<shellExplore:ChapterPageView xmlns="https://github.com/avaloniaui"
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:green="using:Lemon.Explore.Book.Chapters.Greenhouse"
                          xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
+                         xmlns:shellExplore="using:Lemon.Book.Shell.Controls.Explore"
                          xmlns:lessons="using:Lemon.Explore.Book.Explore.Lessons"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.Greenhouse.GreenhouseTextPageView"
                          x:DataType="green:GreenhouseTextPageViewModel">
     <!-- Left page of the Greenhouse spread: the view's settings, its charts, and what is happening. -->
-    <explore:ChapterPageView.Styles>
+    <shellExplore:ChapterPageView.Styles>
         <Style Selector=":is(TextBlock).statName">
             <Setter Property="Margin" Value="0,3,12,3" />
             <Setter Property="FontSize" Value="13" />
@@ -34,7 +35,7 @@
         <Style Selector="Ellipse.wiggle.active">
             <Setter Property="Fill" Value="#3FA34D" />
         </Style>
-    </explore:ChapterPageView.Styles>
+    </shellExplore:ChapterPageView.Styles>
 
     <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
@@ -218,4 +219,4 @@
 
         <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
     </Grid>
-</explore:ChapterPageView>
+</shellExplore:ChapterPageView>

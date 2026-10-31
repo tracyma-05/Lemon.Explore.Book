@@ -1,10 +1,12 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Chapters.Projectile;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -24,7 +26,7 @@ public sealed class ProjectileChapterTests
     /// <summary>The lines the walkthrough glows, which are not clickable.</summary>
     private static readonly string[] Lines = ["path"];
 
-    private static ProjectileViewModel NewPage(LessonPlayerTests.FakeNarration narration) =>
+    private static ProjectileViewModel NewPage(FakeNarration narration) =>
         new(new ExploreLocationService(new MemorySettingsStore()), narration);
 
     [Fact]
@@ -46,7 +48,7 @@ public sealed class ProjectileChapterTests
     [InlineData(ProjectileMode.Together)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(ProjectileMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = NewPage(narration);
         page.Mode = mode;
         var used = WalkthroughKeys([ProjectileLessons.For(page)]);
@@ -74,7 +76,7 @@ public sealed class ProjectileChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = NewPage(new LessonPlayerTests.FakeNarration());
+            using var page = NewPage(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

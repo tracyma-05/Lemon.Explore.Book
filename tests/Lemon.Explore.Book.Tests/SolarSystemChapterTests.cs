@@ -1,10 +1,11 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.SolarSystem;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Controls.Space;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -30,7 +31,7 @@ public sealed class SolarSystemChapterTests
     [AvaloniaFact]
     public void TheTour_UsesKeysInBothLanguages_AndRunsToTheEnd()
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new SolarSystemViewModel(narration);
         var used = WalkthroughKeys([SolarSystemLessons.Tour(page)]);
         foreach (var keys in BothLanguages())
@@ -49,7 +50,7 @@ public sealed class SolarSystemChapterTests
     [AvaloniaFact]
     public void ChoosingABody_ReadsItAloud_AndClickingItAgainRepeats()
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new SolarSystemViewModel(narration);
         var mars = SolarSystemCatalog.Body("Mars");
 

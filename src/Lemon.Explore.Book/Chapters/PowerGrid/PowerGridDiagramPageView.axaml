@@ -1,8 +1,8 @@
 <explore:ChapterPageView xmlns="https://github.com/avaloniaui"
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:grid="using:Lemon.Explore.Book.Chapters.PowerGrid"
-                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:explore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.PowerGrid.PowerGridDiagramPageView"
                          x:DataType="grid:PowerGridDiagramPageViewModel">
     <!-- Right page of the Power grid spread: the diagram on a dark plate, the walkthrough and playback. -->

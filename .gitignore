@@ -22,6 +22,9 @@ secrets*.json
 assets/narration/audio/
 narration-out/
 
+# The shell's packages, copied in by Lemon.Book.Shell's scripts/pack.sh (see NuGet.config).
+packages/*
+
 # Local AI-assistant settings and worktrees (they hold machine paths).
 .claude/
 
@@ -240,6 +243,8 @@ PublishScripts/
 *.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
+# but the shell's local package folder keeps its README, so NuGet.config finds the folder in a fresh clone.
+!/packages/README.md
 # except build/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed

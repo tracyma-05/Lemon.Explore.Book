@@ -1,3 +1,4 @@
+using Lemon.Book.Shell.Explore.Lessons;
 using Lemon.Explore.Book.Explore.Lessons;
 
 namespace Lemon.Explore.Book.Chapters.Typhoon;

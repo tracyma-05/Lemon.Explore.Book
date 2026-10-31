@@ -1,10 +1,12 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Chapters.StarTrails;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -41,7 +43,7 @@ public sealed class StarTrailsChapterTests
     [InlineData(TrailsMode.Year)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(TrailsMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new StarTrailsViewModel(new ExploreLocationService(new MemorySettingsStore()), narration) { Mode = mode };
         var used = WalkthroughKeys([StarTrailsLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -69,7 +71,7 @@ public sealed class StarTrailsChapterTests
     public void TheSky_IsSeenFromTheObserverLocation_UntilTheReaderTravels()
     {
         var location = new ExploreLocationService(new MemorySettingsStore());
-        using var page = new StarTrailsViewModel(location, new LessonPlayerTests.FakeNarration());
+        using var page = new StarTrailsViewModel(location, new FakeNarration());
         Assert.Equal(location.Current.Latitude, page.Latitude, 1);
 
         location.Select("Sydney");

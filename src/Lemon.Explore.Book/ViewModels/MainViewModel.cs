@@ -3,9 +3,13 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Lemon.Book.Shell.Contents;
+using Lemon.Book.Shell.Infrastructures.Settings;
+using Lemon.Book.Shell.Updates;
+using Lemon.Book.Shell.ViewModels.Pages;
+using Lemon.Book.Shell.ViewModels;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Infrastructures.Settings;
-using Lemon.Explore.Book.Updates;
 using Lemon.Explore.Book.ViewModels.Pages;
 
 namespace Lemon.Explore.Book.ViewModels;

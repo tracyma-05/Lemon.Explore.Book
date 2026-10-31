@@ -1,5 +1,6 @@
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Contents;
-using Lemon.Explore.Book.Infrastructures.Localization;
 
 namespace Lemon.Explore.Book.ViewModels.Pages;
 

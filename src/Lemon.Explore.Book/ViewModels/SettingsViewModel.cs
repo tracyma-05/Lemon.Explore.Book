@@ -2,13 +2,15 @@ using System.ComponentModel;
 using Avalonia;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Lemon.Book.Shell.Contents;
+using Lemon.Book.Shell.Explore.Narration;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
+using Lemon.Book.Shell.Infrastructures.Theming;
+using Lemon.Book.Shell.Updates;
 using Lemon.Explore.Book.Contents;
-using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
-using Lemon.Explore.Book.Infrastructures.Theming;
-using Lemon.Explore.Book.Updates;
 
 namespace Lemon.Explore.Book.ViewModels;
 

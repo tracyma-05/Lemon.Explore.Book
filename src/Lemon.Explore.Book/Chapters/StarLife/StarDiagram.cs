@@ -6,10 +6,10 @@ using System.Windows.Input;
 using Avalonia.Input;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Timing;
 using Lemon.Explore.Book.Controls.Space;
 using Lemon.Explore.Book.Controls.Explore;
-using Lemon.Explore.Book.Infrastructures.Localization;
-using Lemon.Explore.Book.Infrastructures.Timing;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 
 namespace Lemon.Explore.Book.Chapters.StarLife;

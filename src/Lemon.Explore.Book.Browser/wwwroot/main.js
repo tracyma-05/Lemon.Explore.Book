@@ -1,5 +1,6 @@
 import { dotnet } from './_framework/dotnet.js'
-import { downloadProgress } from './download-progress.js'
+// The shell's scripts (Lemon.Book.Shell.Browser), served from its package.
+import { downloadProgress } from './_content/Lemon.Book.Shell.Browser/download-progress.js'
 
 if (typeof window === 'undefined') {
     throw new Error('Expected to be running in a browser');
@@ -27,6 +28,8 @@ if ('serviceWorker' in navigator) {
 // The splash says what is downloading, how fast and how long is left (download-progress.js).
 const progress = downloadProgress();
 
+// By default the runtime downloads resource satellites only for the browser's language at startup, so switching
+// language in Settings would find no strings for it and fall back to English. The satellites hold only strings.
 const runtime = await dotnet
     .withConfig({ loadAllSatelliteResources: true })
     .withModuleConfig({ onDownloadResourceProgress: progress.onDownloadResourceProgress })

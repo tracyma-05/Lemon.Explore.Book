@@ -1,6 +1,7 @@
 using System.Text.Json.Serialization;
+using Lemon.Book.Shell.Contents;
+using Lemon.Book.Shell.Explore.Narration;
 using Lemon.Explore.Book.Contents;
-using Lemon.Explore.Book.Explore.Narration;
 using Lemon.Explore.Book.Explore.Places;
 
 namespace Lemon.Explore.Book.Infrastructures.Settings;

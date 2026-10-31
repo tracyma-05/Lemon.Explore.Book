@@ -1,10 +1,12 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Chapters.Retrograde;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -39,7 +41,7 @@ public sealed class RetrogradeChapterTests
     [InlineData(RetroMode.Epicycle)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(RetroMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new RetrogradeViewModel(new ExploreLocationService(new MemorySettingsStore()), narration) { Mode = mode };
         var used = WalkthroughKeys([RetrogradeLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -68,7 +70,7 @@ public sealed class RetrogradeChapterTests
     public void TheSkyStrip_TurnsRound_InTheSouthernHemisphere()
     {
         var location = new ExploreLocationService(new MemorySettingsStore());
-        using var page = new RetrogradeViewModel(location, new LessonPlayerTests.FakeNarration());
+        using var page = new RetrogradeViewModel(location, new FakeNarration());
         Assert.True(page.EastLeft);
 
         location.Select("Sydney");

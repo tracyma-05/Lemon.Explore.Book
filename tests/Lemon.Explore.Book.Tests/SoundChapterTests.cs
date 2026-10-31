@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.Sound;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -40,7 +41,7 @@ public sealed class SoundChapterTests
     [InlineData(SoundMode.Timbre)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(SoundMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new SoundViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([SoundLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -67,7 +68,7 @@ public sealed class SoundChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new SoundViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new SoundViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

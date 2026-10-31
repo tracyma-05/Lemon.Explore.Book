@@ -1,3 +1,4 @@
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Chapters.Aurora;
 using Lemon.Explore.Book.Chapters.BlackHole;
 using Lemon.Explore.Book.Chapters.BlueSky;

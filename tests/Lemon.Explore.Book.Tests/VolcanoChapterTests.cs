@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.Volcanoes;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -37,7 +38,7 @@ public sealed class VolcanoChapterTests
     [InlineData(VolcanoMode.Magnifier)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(VolcanoMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new VolcanoViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([VolcanoLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -64,7 +65,7 @@ public sealed class VolcanoChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new VolcanoViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new VolcanoViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

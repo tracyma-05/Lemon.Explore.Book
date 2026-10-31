@@ -1,4 +1,6 @@
 using CommunityToolkit.Mvvm.Input;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Contents;
 
 namespace Lemon.Explore.Book.ViewModels.Pages;
@@ -8,7 +10,7 @@ public sealed partial class CoverPageViewModel(int index, IBookNavigator navigat
 {
     public override bool HasFolio => false;
 
-    public override string Caption => Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_Cover");
+    public override string Caption => Lemon.Book.Shell.Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_Cover");
 
     [RelayCommand]
     private void Open() => Navigator.GoToPage(BookContents.FirstContentsPage);
@@ -19,7 +21,7 @@ public sealed class HowToUsePageViewModel(int index, IBookNavigator navigator) :
 {
     public override bool HasFolio => false;
 
-    public override string Caption => Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_HowToUse");
+    public override string Caption => Lemon.Book.Shell.Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_HowToUse");
 }
 
 /// <summary>Title page: title, edition and licence.</summary>
@@ -27,13 +29,13 @@ public sealed class TitlePageViewModel(int index, IBookNavigator navigator) : Pa
 {
     public override bool HasFolio => false;
 
-    public override string Caption => Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_Title");
+    public override string Caption => Lemon.Book.Shell.Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_Title");
 }
 
 /// <summary>Inside the back cover: licences and sources.</summary>
 public sealed class CreditsPageViewModel(int index, IBookNavigator navigator) : PageViewModel(index, navigator)
 {
-    public override string Caption => Infrastructures.Localization.LocalizationService.Instance.GetString("Credits_Title");
+    public override string Caption => Lemon.Book.Shell.Infrastructures.Localization.LocalizationService.Instance.GetString("Credits_Title");
 }
 
 /// <summary>Back cover.</summary>
@@ -41,5 +43,5 @@ public sealed class BackCoverPageViewModel(int index, IBookNavigator navigator) 
 {
     public override bool HasFolio => false;
 
-    public override string Caption => Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_BackCover");
+    public override string Caption => Lemon.Book.Shell.Infrastructures.Localization.LocalizationService.Instance.GetString("Page_Caption_BackCover");
 }

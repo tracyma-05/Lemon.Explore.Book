@@ -1,5 +1,6 @@
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
+using Lemon.Book.Shell.Infrastructures.Theming;
 
 namespace Lemon.Explore.Book.Controls.Space;
 

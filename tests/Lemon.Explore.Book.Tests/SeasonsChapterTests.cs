@@ -7,6 +7,10 @@ using Avalonia.Input;
 using Avalonia.Media.Imaging;
 using Avalonia.Threading;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Explore.Lessons;
+using Lemon.Book.Shell.Infrastructures.Settings;
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Chapters.Seasons;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Controls;
@@ -43,7 +47,7 @@ public sealed class SeasonsChapterTests
     [AvaloniaFact]
     public void EveryWalkthroughKey_Exists_InBothLanguages()
     {
-        using var page = new SeasonsViewModel(new LessonPlayerTests.FakeNarration(), new MemorySettingsStore());
+        using var page = new SeasonsViewModel(new FakeNarration(), new MemorySettingsStore());
         var used = new HashSet<string>(StringComparer.Ordinal)
         {
             LessonPlayer.RightKey, LessonPlayer.WrongKey, LessonPlayer.NiceKey, LessonPlayer.RevealKey, LessonPlayer.MoveOnKey,
@@ -150,7 +154,7 @@ public sealed class SeasonsChapterTests
         }
     }
 
-    private sealed class NoNavigation : ViewModels.Pages.IBookNavigator
+    private sealed class NoNavigation : Lemon.Book.Shell.ViewModels.Pages.IBookNavigator
     {
         public void GoToPage(int pageIndex)
         {

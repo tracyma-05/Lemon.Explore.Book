@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="using:Lemon.Explore.Book.ViewModels"
              xmlns:views="using:Lemon.Explore.Book.Views"
+             xmlns:shellViews="using:Lemon.Book.Shell.Views"
              xmlns:pages="using:Lemon.Explore.Book.ViewModels.Pages"
              xmlns:pageViews="using:Lemon.Explore.Book.Views.Pages"
-             xmlns:controls="using:Lemon.Explore.Book.Controls"
+             xmlns:controls="using:Lemon.Book.Shell.Controls"
              xmlns:seasons="using:Lemon.Explore.Book.Chapters.Seasons"
              xmlns:solar="using:Lemon.Explore.Book.Chapters.SolarSystem"
              xmlns:eclipses="using:Lemon.Explore.Book.Chapters.Eclipses"
@@ -41,7 +42,7 @@
              xmlns:rel="using:Lemon.Explore.Book.Chapters.Relativity"
              xmlns:grid="using:Lemon.Explore.Book.Chapters.PowerGrid"
              xmlns:heat="using:Lemon.Explore.Book.Chapters.HeatEngines"
-             xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+             xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
              mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
              x:Class="Lemon.Explore.Book.Views.MainView"
              x:DataType="vm:MainViewModel"
@@ -195,7 +196,7 @@
                             </StackPanel>
                             <Button.Flyout>
                                 <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
-                                    <views:BookmarksView DataContext="{Binding Bookmarks}" />
+                                    <shellViews:BookmarksView DataContext="{Binding Bookmarks}" />
                                 </Flyout>
                             </Button.Flyout>
                         </Button>
@@ -209,7 +210,7 @@
                             </StackPanel>
                             <Button.Flyout>
                                 <Flyout Placement="BottomEdgeAlignedRight" FlyoutPresenterClasses="paper">
-                                    <views:NotesView x:Name="NotesPanel" DataContext="{Binding Notes}" />
+                                    <shellViews:NotesView x:Name="NotesPanel" DataContext="{Binding Notes}" />
                                 </Flyout>
                             </Button.Flyout>
                         </Button>

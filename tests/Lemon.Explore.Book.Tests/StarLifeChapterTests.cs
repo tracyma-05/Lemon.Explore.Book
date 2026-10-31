@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.StarLife;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -34,7 +35,7 @@ public sealed class StarLifeChapterTests
     [InlineData(StarMode.Fates)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(StarMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new StarLifeViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([StarLifeLessons.For(page)]);
         foreach (var keys in BothLanguages())

@@ -5,7 +5,9 @@ using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
 using Avalonia.Media;
 using Avalonia.VisualTree;
-using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Book.Shell.Contents;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.ViewModels;
 using Lemon.Explore.Book.ViewModels;
 
 namespace Lemon.Explore.Book.Views;

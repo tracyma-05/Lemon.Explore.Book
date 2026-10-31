@@ -1,3 +1,4 @@
+using Lemon.Book.Shell.Explore.Lessons;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Explore.Lessons;
 

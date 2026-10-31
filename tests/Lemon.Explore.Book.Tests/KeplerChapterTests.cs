@@ -2,9 +2,11 @@ using System.Globalization;
 using Avalonia.Controls;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Chapters.Kepler;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.ViewModels.Pages;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -38,7 +40,7 @@ public sealed class KeplerChapterTests
     [InlineData(KeplerMode.Periods)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(KeplerMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new KeplerViewModel(new Navigator(), narration) { Mode = mode };
         var used = WalkthroughKeys([KeplerLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -65,7 +67,7 @@ public sealed class KeplerChapterTests
     public void TheSolarSystemLink_TurnsToTheSolarSystemChapter()
     {
         var navigator = new Navigator();
-        using var page = new KeplerViewModel(navigator, new LessonPlayerTests.FakeNarration());
+        using var page = new KeplerViewModel(navigator, new FakeNarration());
 
         page.OpenSolarSystemCommand.Execute(null);
 

@@ -1,12 +1,13 @@
-<explore:ChapterPageView xmlns="https://github.com/avaloniaui"
+<shellExplore:ChapterPageView xmlns="https://github.com/avaloniaui"
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:moon="using:Lemon.Explore.Book.Chapters.MoonPhases"
                          xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:shellExplore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.MoonPhases.MoonPhasesTextPageView"
                          x:DataType="moon:MoonPhasesTextPageViewModel">
     <!-- Left page of the Moon phases spread: the Moon from Earth, the options of each view, and tonight's Moon. -->
-    <explore:ChapterPageView.Styles>
+    <shellExplore:ChapterPageView.Styles>
         <Style Selector=":is(TextBlock).statName">
             <Setter Property="Margin" Value="0,3,12,3" />
             <Setter Property="FontSize" Value="13" />
@@ -29,7 +30,7 @@
             <Setter Property="FontSize" Value="12" />
             <Setter Property="Foreground" Value="{DynamicResource BodyInkBrush}" />
         </Style>
-    </explore:ChapterPageView.Styles>
+    </shellExplore:ChapterPageView.Styles>
 
     <Grid RowDefinitions="*,Auto" Margin="44,32,40,20">
         <ScrollViewer HorizontalScrollBarVisibility="Disabled" Padding="0,0,14,0">
@@ -197,4 +198,4 @@
 
         <TextBlock Grid.Row="1" Classes="folio" Text="{Binding Folio}" HorizontalAlignment="{Binding FolioAlignment}" />
     </Grid>
-</explore:ChapterPageView>
+</shellExplore:ChapterPageView>

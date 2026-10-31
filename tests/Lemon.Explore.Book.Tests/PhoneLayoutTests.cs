@@ -2,6 +2,8 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls.Explore;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Infrastructures.Settings;

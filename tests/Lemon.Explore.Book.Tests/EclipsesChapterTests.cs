@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.Eclipses;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -33,7 +34,7 @@ public sealed class EclipsesChapterTests
     [InlineData(EclipseMode.Seasons)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(EclipseMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new EclipseViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([EclipseLessons.For(page)]);
         foreach (var keys in BothLanguages())

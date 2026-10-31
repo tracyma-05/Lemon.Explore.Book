@@ -2,10 +2,12 @@ using System.Globalization;
 using Avalonia.Controls;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Chapters.DayNight;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -39,7 +41,7 @@ public sealed class DayNightChapterTests
     [InlineData(DayNightMode.Globe)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(DayNightMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new DayNightViewModel(new ExploreLocationService(new MemorySettingsStore()), narration) { Mode = mode };
         var used = WalkthroughKeys([DayNightLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -60,7 +62,7 @@ public sealed class DayNightChapterTests
     {
         var settings = new MemorySettingsStore();
         var location = new ExploreLocationService(settings);
-        using var page = new DayNightViewModel(location, new LessonPlayerTests.FakeNarration());
+        using var page = new DayNightViewModel(location, new FakeNarration());
         Assert.Equal("Beijing", page.PlaceCity);
 
         location.Select("Sydney");

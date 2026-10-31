@@ -1,8 +1,9 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media;
+using Lemon.Book.Shell.Infrastructures.Theming;
+using Lemon.Book.Shell.Infrastructures.Timing;
 using Lemon.Explore.Book.Controls.Space;
-using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.SolarSystem;
 

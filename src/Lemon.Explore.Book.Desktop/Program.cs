@@ -1,9 +1,9 @@
 using Avalonia;
+using Lemon.Book.Shell.Desktop.Narration;
+using Lemon.Book.Shell.Infrastructures.Settings;
+using Lemon.Book.Shell.Updates;
 using Lemon.Explore.Book.Chapters.Sound;
-using Lemon.Explore.Book.Desktop.Narration;
 using Lemon.Explore.Book.Desktop.Sound;
-using Lemon.Explore.Book.Infrastructures.Settings;
-using Lemon.Explore.Book.Updates;
 
 namespace Lemon.Explore.Book.Desktop;
 
@@ -21,7 +21,8 @@ internal static class Program
         }
 
         AppInstallation.MoveWorkingDirectoryOut();
-        App.Settings = new JsonFileSettingsStore(JsonFileSettingsStore.DefaultPath());
+        // The folder the book has always kept its settings in, so a reader's progress is still there.
+        App.Settings = new JsonFileSettingsStore(JsonFileSettingsStore.DefaultPath("Lemon.Explore.Book"));
         App.NarrationAudio = DesktopNarrationAudio.Create();
         SoundEngine.OpenOutput = DesktopSynthOutput.Open;
         return BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);

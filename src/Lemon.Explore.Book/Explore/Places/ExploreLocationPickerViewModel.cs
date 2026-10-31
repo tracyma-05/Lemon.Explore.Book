@@ -2,8 +2,8 @@ using System.ComponentModel;
 using System.Globalization;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.DayNight;
-using Lemon.Explore.Book.Infrastructures.Localization;
 
 namespace Lemon.Explore.Book.Explore.Places;
 

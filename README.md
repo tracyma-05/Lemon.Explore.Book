@@ -100,7 +100,14 @@ repository's GitHub Releases. No account, no sign-in, no tracking: settings, not
 
 ## 🛠️ Build from source
 
-Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download).
+Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download). The shell (book, page turning, lessons, narration,
+settings, updates) is the Lemon.Book.Shell package, from nuget.org. To try a shell change before it is published,
+pack it into this repository's `packages/` folder (its contents are git-ignored; `NuGet.config` looks there before
+nuget.org), with a version not yet published:
+
+```bash
+../Lemon.Book.Shell/scripts/pack.sh "$PWD"
+```
 
 ```bash
 dotnet run --project src/Lemon.Explore.Book.Desktop
@@ -222,7 +229,7 @@ After deploying it deletes the runtimes in R2 that no longer serve (it keeps the
 
 | Path | What |
 |---|---|
-| `src/Lemon.Explore.Book` | Everything shared: the book control (`Controls/BookView`), chapters (`Chapters/<Topic>`), localization, settings |
+| `src/Lemon.Explore.Book` | Everything shared: the chapters (`Chapters/<Topic>`), pages and strings; the book control, lessons, narration, settings and updates are the Lemon.Book.Shell package |
 | `src/Lemon.Explore.Book.Desktop` | Windows / macOS head |
 | `src/Lemon.Explore.Book.Browser` | WebAssembly head with PWA manifest and service worker (`wwwroot`) |
 | `tests/Lemon.Explore.Book.Tests` | Unit and headless UI tests (and the video and screenshot exporters) |

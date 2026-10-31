@@ -1,8 +1,8 @@
 <explore:ChapterPageView xmlns="https://github.com/avaloniaui"
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:acid="using:Lemon.Explore.Book.Chapters.AcidsBases"
-                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:explore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.AcidsBases.AcidsBasesDiagramPageView"
                          x:DataType="acid:AcidsBasesDiagramPageViewModel">
     <!-- Right page of the Acids and bases spread: the diagram on a dark plate, the walkthrough and playback. -->

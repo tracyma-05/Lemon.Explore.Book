@@ -1,10 +1,12 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Chapters.Earthquakes;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Places;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -49,7 +51,7 @@ public sealed class QuakeChapterTests
     [InlineData(QuakeMode.Inside)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(QuakeMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new QuakeViewModel(new ExploreLocationService(new MemorySettingsStore()), narration) { Mode = mode };
         var used = WalkthroughKeys([QuakeLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -76,7 +78,7 @@ public sealed class QuakeChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new QuakeViewModel(new ExploreLocationService(new MemorySettingsStore()), new LessonPlayerTests.FakeNarration());
+            using var page = new QuakeViewModel(new ExploreLocationService(new MemorySettingsStore()), new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

@@ -1,8 +1,8 @@
 using System.ComponentModel;
 using Avalonia;
 using Avalonia.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Controls.Space;
-using Lemon.Explore.Book.Infrastructures.Localization;
 
 namespace Lemon.Explore.Book.Chapters.Seasons;
 

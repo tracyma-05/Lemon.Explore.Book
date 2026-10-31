@@ -10,10 +10,12 @@
 //   is kept once it has been played. Saving a whole chapter for offline use ahead of time is still to come.
 
 // v2: the v1 framework cache held dotnet.js and the other unfingerprinted files for good; activating drops it.
-const SHELL_CACHE = 'explore-book-shell-v2';
+// Shell v3: the shell's scripts moved to the package's _content/Lemon.Book.Shell.Browser/.
+const SHELL_CACHE = 'explore-book-shell-v3';
 const FRAMEWORK_CACHE = 'explore-book-framework-v2';
 const NARRATION_CACHE = 'explore-book-narration-v1';
-const SHELL = ['./', './index.html', './main.js', './download-progress.js', './narration.js', './synth.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
+const SHELL = ['./', './index.html', './main.js', './_content/Lemon.Book.Shell.Browser/download-progress.js',
+    './_content/Lemon.Book.Shell.Browser/narration.js', './synth.js', './app.css', './manifest.webmanifest', './icons/icon-192.png'];
 
 // The .NET build's fingerprint: ten lower-case letters and digits before the extension(s), e.g.
 // dotnet.native.aiuw32zoda.wasm or Avalonia.Base.3episxfaie.wasm.

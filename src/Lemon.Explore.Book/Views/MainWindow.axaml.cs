@@ -2,6 +2,7 @@ using System.Text.Json;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Infrastructures.Settings;
 
 namespace Lemon.Explore.Book.Views;

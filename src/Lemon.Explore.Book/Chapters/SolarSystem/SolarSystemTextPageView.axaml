@@ -2,8 +2,8 @@
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:solar="using:Lemon.Explore.Book.Chapters.SolarSystem"
                          xmlns:space="using:Lemon.Explore.Book.Controls.Space"
-                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:explore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.SolarSystem.SolarSystemTextPageView"
                          x:DataType="solar:SolarSystemTextPageViewModel">
     <!-- Left page of the Solar System spread: the date, the bodies to pick, and the chosen body's story. -->

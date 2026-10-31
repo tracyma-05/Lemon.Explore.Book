@@ -1,3 +1,4 @@
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Explore.Places;
 using Lemon.Explore.Book.Infrastructures.Settings;
 using Xunit;

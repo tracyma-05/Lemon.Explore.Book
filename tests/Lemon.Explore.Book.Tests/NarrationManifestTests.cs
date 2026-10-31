@@ -1,8 +1,8 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.Xml.Linq;
-using Lemon.Explore.Book.Explore.Narration;
 using Xunit;
+using Lemon.Book.Shell.Explore.Narration;
 
 namespace Lemon.Explore.Book.Tests;
 

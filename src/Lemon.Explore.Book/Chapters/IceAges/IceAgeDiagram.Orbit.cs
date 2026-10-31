@@ -1,10 +1,10 @@
 using Avalonia;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Controls.Explore;
 using Avalonia.Data;
 using Avalonia.Controls;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 using Lemon.Explore.Book.Controls.Space;
 

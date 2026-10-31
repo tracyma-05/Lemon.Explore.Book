@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.BlackHole;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -38,7 +39,7 @@ public sealed class BlackHoleChapterTests
     [InlineData(BlackHoleMode.Lensing)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(BlackHoleMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new BlackHoleViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([BlackHoleLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -65,7 +66,7 @@ public sealed class BlackHoleChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new BlackHoleViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new BlackHoleViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

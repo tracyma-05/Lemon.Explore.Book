@@ -1,8 +1,8 @@
 <explore:ChapterPageView xmlns="https://github.com/avaloniaui"
                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                          xmlns:green="using:Lemon.Explore.Book.Chapters.Greenhouse"
-                         xmlns:explore="using:Lemon.Explore.Book.Controls.Explore"
-                         xmlns:loc="using:Lemon.Explore.Book.Infrastructures.Localization"
+                         xmlns:explore="using:Lemon.Book.Shell.Controls.Explore"
+                         xmlns:loc="using:Lemon.Book.Shell.Infrastructures.Localization"
                          x:Class="Lemon.Explore.Book.Chapters.Greenhouse.GreenhouseDiagramPageView"
                          x:DataType="green:GreenhouseDiagramPageViewModel">
     <!-- Right page of the Greenhouse spread: the diagram on a dark plate, the walkthrough and playback. -->

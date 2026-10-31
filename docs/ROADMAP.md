@@ -12,7 +12,11 @@ cross-platform book.
   download, and is weaker for search engines and screen readers.
 - **Book layout**: two-page spreads on wide screens, single pages on phones. Each chapter is one spread: text
   and lessons on the left, the interactive diagram on the right.
-- **Pages are live** at rest and captured to bitmaps only while a page turns (`Controls/BookView.cs`).
+- **Pages are live** at rest and captured to bitmaps only while a page turns (the shell's `BookView`).
+- **The shell is a package.** The book, page turning, lessons, narration, settings, updates and the book's clock
+  were written here first, then copied into the other Lemon books; they are now the Lemon.Book.Shell package
+  (0.1.6), shared by all of them. The book's own copy is gone, and the settings keys, the settings folder and the web
+  storage prefix are unchanged, so a reader's progress stays.
 
 ## Phases
 
@@ -24,6 +28,7 @@ cross-platform book.
 | P3 | Narration pipeline (see below) | clips rendered and playing on Windows and the web (macOS player untested); open: voice licence, desktop packs, offline save |
 | P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | done: all 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound, Projectile, Flight, Lenses, Spectra, Heat engines, Power grid, Relativity; Chemistry: Acids and bases |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
+| P6 | The shell from the Lemon.Book.Shell package instead of the book's own code | done (0.1.6) |
 
 ### Porting notes (P2/P4)
 
@@ -35,7 +40,7 @@ cross-platform book.
 | `DependencyProperty` | `StyledProperty` / `DirectProperty` |
 | `MediaPlayer` | `INarrationAudio`: Media Foundation's media engine on Windows (MCI where it is missing), `AVAudioPlayer` on macOS, an audio element through Web Audio in the browser |
 | The Sound chapter's waveOut stream (`SoundOutput`) | `SoundEngine.OpenOutput`, set by each head: waveOut on Windows, an AudioToolbox queue on macOS (untested), and in the browser short chunks rendered on a timer and scheduled back to back with Web Audio |
-| MaterialDesign `PackIcon` | `PathIcon` with the project's own geometries (`Styles/Explore.axaml`) |
+| MaterialDesign `PackIcon` | `PathIcon` with the shell's geometries (Lemon.Book.Shell's `Styles/Explore.axaml`) |
 | `dc.PushOpacity(...)` … `dc.Pop()` | `using var dc = new PaintContext(context);` keeps Push/Pop as is (or `using (dc.PushOpacity(...)) { … }`) |
 | `Point - Point` is a `Vector` | it is a `Point`: write `Vector v = a - b;` |
 | `Rect.Inflate` changes the rect | it returns a new one |

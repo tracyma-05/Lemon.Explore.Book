@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.Expansion;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -39,7 +40,7 @@ public sealed class ExpansionChapterTests
     [InlineData(ExpansionMode.History)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(ExpansionMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new ExpansionViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([ExpansionLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -66,7 +67,7 @@ public sealed class ExpansionChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new ExpansionViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new ExpansionViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

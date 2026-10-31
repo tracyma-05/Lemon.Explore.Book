@@ -3,6 +3,8 @@ using Avalonia.Controls;
 using Avalonia.Headless;
 using Avalonia.Media.Imaging;
 using Avalonia.Threading;
+using Lemon.Book.Shell.Explore.Lessons;
+using Lemon.Book.Shell.Infrastructures.Settings;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Explore.Lessons;
 using Lemon.Explore.Book.Infrastructures.Settings;
@@ -57,7 +59,7 @@ internal static class ChapterTestKit
     }
 
     /// <summary>Runs a walkthrough to its end, answering with the first choice and doing each task.</summary>
-    public static void RunToEnd(LessonPlayer lesson, LessonPlayerTests.FakeNarration narration, ISet<string> known, Action check, Action doTask)
+    public static void RunToEnd(LessonPlayer lesson, FakeNarration narration, ISet<string> known, Action check, Action doTask)
     {
         lesson.GapSeconds = 0;
         lesson.Start();

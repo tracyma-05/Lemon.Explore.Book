@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Documents;
 using Avalonia.Media;
-using Lemon.Explore.Book.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Localization;
 
 namespace Lemon.Explore.Book.Controls.Space;
 

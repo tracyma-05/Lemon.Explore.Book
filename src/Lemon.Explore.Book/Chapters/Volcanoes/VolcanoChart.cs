@@ -9,8 +9,8 @@ using Avalonia.Input;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
 using Avalonia.Media.Imaging;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.Eclipses;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using static Lemon.Explore.Book.Controls.Space.SpaceDrawing;
 using Lemon.Explore.Book.Controls.Space;
 

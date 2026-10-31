@@ -24,6 +24,8 @@
 
   <ItemGroup>
     <PackageReference Include="Avalonia.Desktop" />
+    <!-- The shell's narration players. -->
+    <PackageReference Include="Lemon.Book.Shell.Desktop" />
   </ItemGroup>
 
   <ItemGroup>

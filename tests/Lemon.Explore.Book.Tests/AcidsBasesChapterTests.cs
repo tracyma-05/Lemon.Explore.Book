@@ -1,10 +1,12 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Explore.Lessons;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.AcidsBases;
 using Lemon.Explore.Book.Controls;
 using Lemon.Explore.Book.Explore.Lessons;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -59,7 +61,7 @@ public sealed class AcidsBasesChapterTests
     [InlineData(AcidBaseMode.Neutralize)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(AcidBaseMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new AcidBaseViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([AcidBaseLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -90,7 +92,7 @@ public sealed class AcidsBasesChapterTests
     [AvaloniaFact]
     public void ParticleSteps_ShowWhatTheySay()
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new AcidBaseViewModel(narration);
         var seen = new Dictionary<string, double>();
         page.Lesson.GapSeconds = 0;
@@ -117,7 +119,7 @@ public sealed class AcidsBasesChapterTests
     [AvaloniaFact]
     public void ScaleAndTitrationSteps_ShowWhatTheySay()
     {
-        using var page = new AcidBaseViewModel(new LessonPlayerTests.FakeNarration()) { Mode = AcidBaseMode.Scale };
+        using var page = new AcidBaseViewModel(new FakeNarration()) { Mode = AcidBaseMode.Scale };
 
         // Lemon about 50,000× water's H₃O⁺; cola ~300× coffee's; stomach acid once watered: 2.5; a million times: just under 7.
         page.SubstanceId = "Lemon";
@@ -153,7 +155,7 @@ public sealed class AcidsBasesChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new AcidBaseViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new AcidBaseViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

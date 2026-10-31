@@ -1,11 +1,12 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using Lemon.Book.Shell;
+using Lemon.Book.Shell.Explore.Narration;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Settings;
+using Lemon.Book.Shell.Infrastructures.Theming;
 using Lemon.Explore.Book.Contents;
-using Lemon.Explore.Book.Explore.Narration;
-using Lemon.Explore.Book.Infrastructures.Localization;
-using Lemon.Explore.Book.Infrastructures.Settings;
-using Lemon.Explore.Book.Infrastructures.Theming;
 using Lemon.Explore.Book.ViewModels;
 using Lemon.Explore.Book.Views;
 
@@ -13,6 +14,19 @@ namespace Lemon.Explore.Book;
 
 public partial class App : Application
 {
+    static App() => ConfigureShell();
+
+    /// <summary>
+    /// What the shell (Lemon.Book.Shell) needs to know of this book: its assembly (strings, narration, build
+    /// metadata), its page count and its languages, English first. Done before anything else. The book has no
+    /// sign-in, so its sync name is never used.
+    /// </summary>
+    public static void ConfigureShell() =>
+        BookShell.Configure(new BookShellOptions(typeof(App).Assembly, "explore-book", () => BookContents.PageCount)
+        {
+            Cultures = ["en", "zh-CN"],
+        });
+
     /// <summary>
     /// Where reader preferences are kept. Each head sets its own store before starting the app; tests and
     /// the designer get one that forgets everything.

@@ -95,7 +95,13 @@
 
 ## 🛠️ 从源码构建
 
-需要 [.NET 10 SDK](https://dotnet.microsoft.com/download)。
+需要 [.NET 10 SDK](https://dotnet.microsoft.com/download)。书的外壳（书本、翻页、讲解、朗读、设置、更新）来自 nuget.org 上的
+Lemon.Book.Shell 包。要在发布前试用外壳的改动，用一个还没发布过的版本号，把它打包到本仓库的 `packages/` 文件夹（其中内容被
+git 忽略；`NuGet.config` 先在这里找，再去 nuget.org）：
+
+```bash
+../Lemon.Book.Shell/scripts/pack.sh "$PWD"
+```
 
 ```bash
 dotnet run --project src/Lemon.Explore.Book.Desktop
@@ -207,7 +213,7 @@ deploy/cloudflare/deploy.sh
 
 | 路径 | 内容 |
 |---|---|
-| `src/Lemon.Explore.Book` | 全部共享代码：书本控件（`Controls/BookView`）、各章（`Chapters/<主题>`）、本地化、设置 |
+| `src/Lemon.Explore.Book` | 全部共享代码：各章（`Chapters/<主题>`）、页面和文字；书本控件、讲解、朗读、设置和更新来自 Lemon.Book.Shell 包 |
 | `src/Lemon.Explore.Book.Desktop` | Windows / macOS 外壳 |
 | `src/Lemon.Explore.Book.Browser` | WebAssembly 外壳，含 PWA 清单和 Service Worker（`wwwroot`） |
 | `tests/Lemon.Explore.Book.Tests` | 单元测试和无界面 UI 测试（以及视频和截图导出器） |

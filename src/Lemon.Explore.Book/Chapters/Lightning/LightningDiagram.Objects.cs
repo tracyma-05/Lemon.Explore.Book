@@ -5,6 +5,7 @@ using System.Windows.Input;
 using Avalonia.Input;
 using Avalonia.Media;
 using Avalonia.Media.Immutable;
+using Lemon.Book.Shell.Controls.Explore;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Controls.Space;
 

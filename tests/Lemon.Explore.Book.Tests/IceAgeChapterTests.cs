@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.IceAges;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -42,7 +43,7 @@ public sealed class IceAgeChapterTests
     [InlineData(IceAgeMode.Sheet)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(IceAgeMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new IceAgeViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([IceAgeLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -67,7 +68,7 @@ public sealed class IceAgeChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new IceAgeViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new IceAgeViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));

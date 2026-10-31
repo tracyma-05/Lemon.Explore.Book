@@ -1,10 +1,12 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.ViewModels.Pages;
 using Lemon.Explore.Book.Chapters.MoonPhases;
 using Lemon.Explore.Book.Contents;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Lemon.Explore.Book.ViewModels.Pages;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
@@ -38,7 +40,7 @@ public sealed class MoonPhasesChapterTests
     [InlineData(MoonPhasesMode.Month)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(MoonPhasesMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new MoonPhasesViewModel(narration, new Navigator()) { Mode = mode };
         var used = WalkthroughKeys([MoonPhasesLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -59,7 +61,7 @@ public sealed class MoonPhasesChapterTests
     public void TheEclipsesLink_TurnsToTheEclipsesChapter()
     {
         var navigator = new Navigator();
-        using var page = new MoonPhasesViewModel(new LessonPlayerTests.FakeNarration(), navigator);
+        using var page = new MoonPhasesViewModel(new FakeNarration(), navigator);
 
         page.OpenEclipsesCommand.Execute(null);
 

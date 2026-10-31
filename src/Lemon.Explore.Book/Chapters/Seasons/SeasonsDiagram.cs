@@ -5,10 +5,11 @@ using Avalonia.Controls;
 using Avalonia.Data;
 using Avalonia.Input;
 using Avalonia.Media;
+using Lemon.Book.Shell.Controls.Explore;
+using Lemon.Book.Shell.Infrastructures.Localization;
+using Lemon.Book.Shell.Infrastructures.Timing;
 using Lemon.Explore.Book.Controls.Explore;
 using Lemon.Explore.Book.Controls.Space;
-using Lemon.Explore.Book.Infrastructures.Localization;
-using Lemon.Explore.Book.Infrastructures.Timing;
 
 namespace Lemon.Explore.Book.Chapters.Seasons;
 

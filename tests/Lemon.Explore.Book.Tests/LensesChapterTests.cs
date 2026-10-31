@@ -1,9 +1,10 @@
 using System.Globalization;
 using Avalonia.Headless.XUnit;
 using Avalonia.VisualTree;
+using Lemon.Book.Shell.Controls;
+using Lemon.Book.Shell.Infrastructures.Localization;
 using Lemon.Explore.Book.Chapters.Lenses;
 using Lemon.Explore.Book.Controls;
-using Lemon.Explore.Book.Infrastructures.Localization;
 using Xunit;
 using static Lemon.Explore.Book.Tests.ChapterTestKit;
 
@@ -65,7 +66,7 @@ public sealed class LensesChapterTests
     [InlineData(LensMode.Camera)]
     public void Walkthroughs_UseKeysInBothLanguages_AndRunToTheEnd(LensMode mode)
     {
-        var narration = new LessonPlayerTests.FakeNarration();
+        var narration = new FakeNarration();
         using var page = new LensesViewModel(narration) { Mode = mode };
         var used = WalkthroughKeys([LensesLessons.For(page)]);
         foreach (var keys in BothLanguages())
@@ -92,7 +93,7 @@ public sealed class LensesChapterTests
         localization.SetCulture(CultureInfo.GetCultureInfo(culture));
         try
         {
-            using var page = new LensesViewModel(new LessonPlayerTests.FakeNarration());
+            using var page = new LensesViewModel(new FakeNarration());
             void Check()
             {
                 Assert.False(string.IsNullOrWhiteSpace(page.PhaseTitle));
