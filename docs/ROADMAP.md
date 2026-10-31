@@ -29,6 +29,7 @@ cross-platform book.
 | P4 | Port the other 33 chapters (`tools/porting` does the mechanical part), a few per change, comparing screenshots against the original | done: all 34 in the book: the Sky volume (Solar System, Eclipses, Seasons, Moon phases, Day and night, Tides, Kepler, Star trails, Retrograde, Star life, Black hole, Expansion); the Earth volume (Water cycle, Sea breeze, Greenhouse, Typhoon, Lightning, Blue sky, Rainbow, Aurora, Earthquakes, Volcanoes, Ice ages); Physics: Oscillations, Waves, Sound, Projectile, Flight, Lenses, Spectra, Heat engines, Power grid, Relativity; Chemistry: Acids and bases |
 | P5 | Releases: Windows package, signed and notarised macOS app, web edition on static hosting | |
 | P6 | The shell from the Lemon.Book.Shell package instead of the book's own code | done (0.1.6) |
+| P7 | New chapters, not in the original app, built to the same pattern | Chemistry: States of matter (a cylinder of molecules, the heating curve at four places, water's and carbon dioxide's phase diagrams) |
 
 ### Porting notes (P2/P4)
 

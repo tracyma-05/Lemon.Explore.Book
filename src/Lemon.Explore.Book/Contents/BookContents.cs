@@ -44,6 +44,7 @@ public static class BookContents
         new("Power-Grid", Volume.Physics),
         new("Relativity", Volume.Physics),
 
+        new("States-of-Matter", Volume.Chemistry),
         new("Acids-Bases", Volume.Chemistry),
     ];
 

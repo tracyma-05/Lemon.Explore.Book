@@ -4,7 +4,7 @@
 
 # The Explore Book
 
-**An interactive science book for curious kids — 34 chapters you can read, touch and listen to, in English and Chinese.**
+**An interactive science book for curious kids — 35 chapters you can read, touch and listen to, in English and Chinese.**
 
 **English** · [简体中文](README.zh-CN.md)
 
@@ -61,12 +61,12 @@ to have a go.
   installable PWA — on a phone it reads one page at a time.
 
 <details>
-<summary><b>All 34 chapters</b></summary>
+<summary><b>All 35 chapters</b></summary>
 
 | The Sky | Our Earth | Physics | Chemistry |
 |---|---|---|---|
-| Solar System | Water cycle | Pendulum and spring | Acids and bases |
-| Eclipses | Sea and land breezes | Interference and Doppler | |
+| Solar System | Water cycle | Pendulum and spring | States of matter |
+| Eclipses | Sea and land breezes | Interference and Doppler | Acids and bases |
 | Seasons | Greenhouse effect | Sound and instruments | |
 | Moon phases | Typhoons | Projectile motion | |
 | Day and night | Lightning and static | Flight and lift | |
